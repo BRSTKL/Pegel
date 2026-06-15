@@ -1621,6 +1621,7 @@ function renderLeseverstehenScreen() {
   
   const exercise = activeLeseverstehenGame;
   const isTeil2 = exercise.type === "teil2";
+  const isTeil3 = exercise.type === "teil3";
   
   // Set instruction
   document.getElementById("leseverstehen-instruction-text").textContent = exercise.instruction;
@@ -1628,6 +1629,7 @@ function renderLeseverstehenScreen() {
   // Toggle containers
   const t1Container = document.getElementById("leseverstehen-t1-container");
   const t2Container = document.getElementById("leseverstehen-t2-container");
+  const t3Container = document.getElementById("leseverstehen-t3-container");
   
   // Set dynamic tips
   const tipsContent = document.getElementById("leseverstehen-tips-content");
@@ -1638,6 +1640,13 @@ function renderLeseverstehenScreen() {
         <p>2. Ardından <b>soruları (6-10)</b> sırayla okuyun. Her sorunun cevabı metinde bulunabilir.</p>
         <p>3. Her soru için üç seçenek (a, b, c) vardır. <b>Yalnızca biri doğrudur.</b></p>
         <p>4. Metindeki anahtar cümleleri bularak doğru seçeneği işaretleyin.</p>
+      `;
+    } else if (isTeil3) {
+      tipsContent.innerHTML = `
+        <p>1. Önce <b>durumları (11-20)</b> dikkatlice okuyun ve anahtar ihtiyaçları belirleyin.</p>
+        <p>2. Ardından <b>ilanları (a-l)</b> okuyun. Her ilanda ne sunulduğunu not edin.</p>
+        <p>3. Her ilan <b>yalnızca bir kez</b> kullanılabilir. Uygun ilan yoksa <b>X</b> işaretleyin.</p>
+        <p>4. Tarihlere, saatlere ve özel koşullara dikkat edin!</p>
       `;
     } else {
       tipsContent.innerHTML = `
@@ -1653,6 +1662,7 @@ function renderLeseverstehenScreen() {
     // === Teil 2: Article + Multiple Choice ===
     if (t1Container) t1Container.classList.add("hidden");
     if (t2Container) t2Container.classList.remove("hidden");
+    if (t3Container) t3Container.classList.add("hidden");
     
     // Render article text
     const articleEl = document.getElementById("leseverstehen-t2-article");
@@ -1672,23 +1682,17 @@ function renderLeseverstehenScreen() {
       const userAns = state.leseverstehenAnswers[q.id];
       const correctAns = exercise.answers[String(q.id)];
       
-      // Build options HTML
       let optionsHtml = "";
       ["a", "b", "c"].forEach(opt => {
         const optText = q.options[opt] || "";
         const isSelected = userAns === opt;
         let optClass = "leseverstehen-t2-option";
-        
         if (leseverstehenSubmitted) {
-          if (opt === correctAns) {
-            optClass += " correct";
-          } else if (isSelected && opt !== correctAns) {
-            optClass += " incorrect";
-          }
+          if (opt === correctAns) optClass += " correct";
+          else if (isSelected && opt !== correctAns) optClass += " incorrect";
         } else if (isSelected) {
           optClass += " selected";
         }
-        
         optionsHtml += `
           <div class="${optClass}" data-qid="${q.id}" data-opt="${opt}">
             <span class="option-letter-circle">${opt}</span>
@@ -1697,62 +1701,108 @@ function renderLeseverstehenScreen() {
         `;
       });
       
-      // Feedback after submission
       let feedbackHtml = "";
       if (leseverstehenSubmitted) {
         if (userAns === correctAns) {
-          feedbackHtml = `
-            <div class="text-feedback-badge correct">
-              <i class="ti ti-circle-check"></i> Doğru (${correctAns})
-            </div>
-          `;
+          feedbackHtml = `<div class="text-feedback-badge correct"><i class="ti ti-circle-check"></i> Doğru (${correctAns})</div>`;
         } else {
-          const userChoiceText = userAns ? userAns : "Boş";
-          feedbackHtml = `
-            <div class="text-feedback-badge incorrect">
-              <i class="ti ti-circle-x"></i> Yanlış (Sizin seçiminiz: ${userChoiceText}, Doğru: ${correctAns})
-            </div>
-          `;
+          feedbackHtml = `<div class="text-feedback-badge incorrect"><i class="ti ti-circle-x"></i> Yanlış (Seçiminiz: ${userAns || 'Boş'}, Doğru: ${correctAns})</div>`;
         }
-        // Show explanation
         if (exercise.explanations && exercise.explanations[String(q.id)]) {
-          feedbackHtml += `
-            <div style="margin-top: 8px; font-size: 11px; color: var(--color-text-secondary); line-height: 1.4; border-top: 1px dashed var(--color-border-secondary); padding-top: 6px;">
-              <i class="ti ti-bulb" style="color: var(--theme-purple); font-size: 13px; margin-right: 2px;"></i> ${exercise.explanations[String(q.id)]}
-            </div>
-          `;
+          feedbackHtml += `<div style="margin-top:8px;font-size:11px;color:var(--color-text-secondary);line-height:1.4;border-top:1px dashed var(--color-border-secondary);padding-top:6px;"><i class="ti ti-bulb" style="color:var(--theme-purple);font-size:13px;margin-right:2px;"></i> ${exercise.explanations[String(q.id)]}</div>`;
         }
       }
       
       card.innerHTML = `
-        <div style="display:flex; align-items:center; gap: 8px; margin-bottom: 10px;">
-          <span class="bubble-row-num" style="width:22px; height:22px; font-size:11px;">${q.id}</span>
-          <span style="font-size:12.5px; font-weight:600; color:var(--color-text-primary);">${q.question}</span>
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;">
+          <span class="bubble-row-num" style="width:22px;height:22px;font-size:11px;">${q.id}</span>
+          <span style="font-size:12.5px;font-weight:600;color:var(--color-text-primary);">${q.question}</span>
         </div>
-        <div style="display: flex; flex-direction: column; gap: 6px;">
-          ${optionsHtml}
-        </div>
+        <div style="display:flex;flex-direction:column;gap:6px;">${optionsHtml}</div>
         ${feedbackHtml}
       `;
-      
       questionsList.appendChild(card);
     });
     
-    // Attach click handlers for options
     if (!leseverstehenSubmitted) {
       questionsList.querySelectorAll(".leseverstehen-t2-option").forEach(el => {
         el.addEventListener("click", () => {
-          const qId = parseInt(el.getAttribute("data-qid"));
-          const opt = el.getAttribute("data-opt");
-          selectBubbleAnswer(qId, opt);
+          selectBubbleAnswer(parseInt(el.getAttribute("data-qid")), el.getAttribute("data-opt"));
         });
       });
     }
+    
+  } else if (isTeil3) {
+    // === Teil 3: Situation-to-Ad Matching (11-20, a-l + x) ===
+    if (t1Container) t1Container.classList.add("hidden");
+    if (t2Container) t2Container.classList.add("hidden");
+    if (t3Container) t3Container.classList.remove("hidden");
+    
+    // Render situations list (11-20)
+    const situationsList = document.getElementById("leseverstehen-t3-situations-list");
+    situationsList.innerHTML = "";
+    
+    Object.entries(exercise.situations).sort((a, b) => parseInt(a[0]) - parseInt(b[0])).forEach(([num, desc]) => {
+      const qNum = parseInt(num);
+      const userAns = state.leseverstehenAnswers[qNum];
+      const correctAns = exercise.answers[String(qNum)];
+      
+      let feedbackHtml = "";
+      if (leseverstehenSubmitted) {
+        if (userAns === correctAns) {
+          const adTitle = correctAns === 'x' ? 'X (Uygun ilan yok)' : (exercise.ads[correctAns] ? exercise.ads[correctAns].title : correctAns.toUpperCase());
+          feedbackHtml = `<div class="text-feedback-badge correct" style="margin-top:6px;"><i class="ti ti-circle-check"></i> Doğru → ${correctAns.toUpperCase()}: ${adTitle}</div>`;
+        } else {
+          const correctAdTitle = correctAns === 'x' ? 'X (Uygun ilan yok)' : (exercise.ads[correctAns] ? exercise.ads[correctAns].title : correctAns.toUpperCase());
+          feedbackHtml = `<div class="text-feedback-badge incorrect" style="margin-top:6px;"><i class="ti ti-circle-x"></i> Yanlış → Seçiminiz: ${userAns ? userAns.toUpperCase() : 'Boş'} | Doğru: ${correctAns.toUpperCase()}: ${correctAdTitle}</div>`;
+        }
+        if (exercise.explanations && exercise.explanations[String(qNum)]) {
+          feedbackHtml += `<div style="margin-top:6px;font-size:11px;color:var(--color-text-secondary);line-height:1.4;"><i class="ti ti-bulb" style="color:var(--theme-purple);font-size:13px;margin-right:2px;"></i> ${exercise.explanations[String(qNum)]}</div>`;
+        }
+      }
+      
+      const row = document.createElement("div");
+      row.style = "padding: 10px 12px; border-radius: var(--border-radius-md); border: 1px solid var(--color-border-primary); background: var(--color-background-secondary); font-size: 12.5px; line-height: 1.5;";
+      if (userAns && !leseverstehenSubmitted) row.style.borderColor = "var(--theme-purple)";
+      if (leseverstehenSubmitted && userAns === correctAns) row.style.borderColor = "#10b981";
+      if (leseverstehenSubmitted && userAns !== correctAns) row.style.borderColor = "#ef4444";
+      
+      row.innerHTML = `
+        <div style="display:flex;align-items:flex-start;gap:8px;">
+          <span class="bubble-row-num" style="width:22px;height:22px;font-size:10px;flex-shrink:0;margin-top:1px;">${qNum}</span>
+          <div style="flex:1;">
+            <p style="margin:0;color:var(--color-text-secondary);">${desc}</p>
+            ${userAns ? `<p style="margin:4px 0 0;font-size:11px;font-weight:600;color:var(--theme-purple);">Seçili: ${userAns.toUpperCase()}${userAns !== 'x' && exercise.ads[userAns] ? ' – ' + exercise.ads[userAns].title : ''}</p>` : ''}
+            ${feedbackHtml}
+          </div>
+        </div>
+      `;
+      situationsList.appendChild(row);
+    });
+    
+    // Render ads grid (a-l)
+    const adsGrid = document.getElementById("leseverstehen-t3-ads-grid");
+    adsGrid.innerHTML = "";
+    
+    Object.entries(exercise.ads).sort((a, b) => a[0].localeCompare(b[0])).forEach(([letter, ad]) => {
+      const isUsed = Object.values(state.leseverstehenAnswers).includes(letter);
+      const card = document.createElement("div");
+      card.style = `padding:12px;border-radius:var(--border-radius-md);border:1px solid var(--color-border-primary);background:var(--color-background-secondary);font-size:12px;line-height:1.5;position:relative;${isUsed && !leseverstehenSubmitted ? 'border-color:var(--theme-purple);opacity:0.7;' : ''}`;
+      card.innerHTML = `
+        <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
+          <span class="option-letter-circle" style="flex-shrink:0;">${letter}</span>
+          <span style="font-size:12px;font-weight:700;color:var(--color-text-primary);line-height:1.3;">${ad.title}</span>
+        </div>
+        <p style="margin:0;color:var(--color-text-secondary);font-size:11px;line-height:1.5;">${ad.body}</p>
+      `;
+      adsGrid.appendChild(card);
+    });
     
   } else {
     // === Teil 1: Heading Matching ===
     if (t1Container) t1Container.classList.remove("hidden");
     if (t2Container) t2Container.classList.add("hidden");
+    if (t3Container) t3Container.classList.add("hidden");
     
     // Render Headings List
     const headingsList = document.getElementById("leseverstehen-headings-list");
@@ -1760,10 +1810,7 @@ function renderLeseverstehenScreen() {
     Object.keys(exercise.headings).forEach(letter => {
       const card = document.createElement("div");
       card.className = "leseverstehen-heading-card";
-      card.innerHTML = `
-        <span class="leseverstehen-heading-letter">${letter})</span>
-        <span>${exercise.headings[letter]}</span>
-      `;
+      card.innerHTML = `<span class="leseverstehen-heading-letter">${letter})</span><span>${exercise.headings[letter]}</span>`;
       headingsList.appendChild(card);
     });
     
@@ -1780,27 +1827,18 @@ function renderLeseverstehenScreen() {
         const userAns = state.leseverstehenAnswers[text.id];
         const correctAns = exercise.answers[text.id];
         if (userAns === correctAns) {
-          feedbackHtml = `
-            <div class="text-feedback-badge correct">
-              <i class="ti ti-circle-check"></i> Doğru (Başlık ${correctAns.toUpperCase()})
-            </div>
-          `;
+          feedbackHtml = `<div class="text-feedback-badge correct"><i class="ti ti-circle-check"></i> Doğru (Başlık ${correctAns.toUpperCase()})</div>`;
         } else {
-          const userChoiceText = userAns ? userAns.toUpperCase() : "Boş";
-          feedbackHtml = `
-            <div class="text-feedback-badge incorrect">
-              <i class="ti ti-circle-x"></i> Yanlış (Sizin seçiminiz: ${userChoiceText}, Doğru: ${correctAns.toUpperCase()})
-            </div>
-          `;
+          feedbackHtml = `<div class="text-feedback-badge incorrect"><i class="ti ti-circle-x"></i> Yanlış (Seçiminiz: ${userAns ? userAns.toUpperCase() : 'Boş'}, Doğru: ${correctAns.toUpperCase()})</div>`;
         }
       }
       
       card.innerHTML = `
-        <div style="display:flex; align-items:center; gap: 8px; margin-bottom: 8px;">
-          <span class="bubble-row-num" style="width:22px; height:22px; font-size:11px;">${text.id}</span>
-          <span style="font-size:12.5px; font-weight:600; color:var(--color-text-primary);">Metin ${text.id}</span>
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">
+          <span class="bubble-row-num" style="width:22px;height:22px;font-size:11px;">${text.id}</span>
+          <span style="font-size:12.5px;font-weight:600;color:var(--color-text-primary);">Metin ${text.id}</span>
         </div>
-        <p style="font-size:12.5px; line-height:1.6; margin:0; color:var(--color-text-secondary); text-align: justify;">${text.content}</p>
+        <p style="font-size:12.5px;line-height:1.6;margin:0;color:var(--color-text-secondary);text-align:justify;">${text.content}</p>
         ${feedbackHtml}
       `;
       textsList.appendChild(card);
@@ -1816,9 +1854,7 @@ function renderLeseverstehenScreen() {
     if (leseverstehenSubmitted) {
       submitBtn.innerHTML = '<i class="ti ti-check"></i> Alıştırmayı Tamamla';
       submitBtn.className = "c-teal";
-      submitBtn.onclick = () => {
-        showScreen("leseverstehen-dashboard");
-      };
+      submitBtn.onclick = () => { showScreen("leseverstehen-dashboard"); };
     } else {
       submitBtn.innerHTML = '<i class="ti ti-send"></i> Cevapları Gönder';
       submitBtn.className = "c-purple";
@@ -1831,22 +1867,83 @@ function renderAnswersSheet() {
   if (!activeLeseverstehenGame) return;
   const exercise = activeLeseverstehenGame;
   const isTeil2 = exercise.type === "teil2";
+  const isTeil3 = exercise.type === "teil3";
   const container = document.getElementById("leseverstehen-answers-sheet");
   container.innerHTML = "";
   
-  if (isTeil2) {
+  if (isTeil3) {
+    // Teil 3: Situations 11-20, bubbles a-l + x (13 options, split into rows)
+    const situations = exercise.situations || {};
+    const sortedNums = Object.keys(situations).sort((a, b) => parseInt(a) - parseInt(b));
+    
+    sortedNums.forEach(numStr => {
+      const qNum = parseInt(numStr);
+      const row = document.createElement("div");
+      row.className = "bubble-grid-row";
+      row.style = "display:flex;flex-direction:column;gap:8px;align-items:stretch;";
+      
+      const rowHeader = document.createElement("div");
+      rowHeader.style = "display:flex;align-items:center;gap:8px;";
+      rowHeader.innerHTML = `
+        <span class="bubble-row-num">${qNum}</span>
+        <span style="font-size:11.5px;font-weight:600;color:var(--color-text-primary);">Durum ${qNum}:</span>
+      `;
+      row.appendChild(rowHeader);
+      
+      const grid = document.createElement("div");
+      grid.className = "bubble-grid-container";
+      const row1 = document.createElement("div");
+      row1.className = "bubble-buttons-grid";
+      row1.style = "grid-template-columns: repeat(7, 1fr);";
+      const row2 = document.createElement("div");
+      row2.className = "bubble-buttons-grid";
+      row2.style = "grid-template-columns: repeat(7, 1fr);";
+      
+      // a-l + x = 13 letters
+      const letters = ["a","b","c","d","e","f","g","h","i","j","k","l","x"];
+      const userAns = state.leseverstehenAnswers[qNum];
+      const correctAns = exercise.answers[String(qNum)];
+      
+      letters.forEach((letter, idx) => {
+        const btn = document.createElement("button");
+        btn.className = "bubble-btn";
+        btn.textContent = letter;
+        if (letter === "x") btn.style.fontWeight = "700";
+        
+        const isSelected = userAns === letter;
+        if (isSelected) btn.classList.add("selected");
+        
+        if (leseverstehenSubmitted) {
+          btn.classList.add("disabled");
+          if (letter === correctAns) btn.classList.add("correct");
+          else if (isSelected && letter !== correctAns) btn.classList.add("incorrect");
+        } else {
+          btn.onclick = () => selectBubbleAnswer(qNum, letter);
+        }
+        
+        if (idx < 7) row1.appendChild(btn);
+        else row2.appendChild(btn);
+      });
+      
+      grid.appendChild(row1);
+      grid.appendChild(row2);
+      row.appendChild(grid);
+      container.appendChild(row);
+    });
+    
+  } else if (isTeil2) {
     // Teil 2: Questions 6-10 with 3 bubbles (a, b, c)
     const questions = exercise.questions || [];
     questions.forEach(q => {
       const row = document.createElement("div");
       row.className = "bubble-grid-row";
-      row.style = "display: flex; flex-direction: column; gap: 8px; align-items: stretch;";
+      row.style = "display:flex;flex-direction:column;gap:8px;align-items:stretch;";
       
       const rowHeader = document.createElement("div");
-      rowHeader.style = "display: flex; align-items: center; gap: 8px;";
+      rowHeader.style = "display:flex;align-items:center;gap:8px;";
       rowHeader.innerHTML = `
         <span class="bubble-row-num">${q.id}</span>
-        <span style="font-size:12px; font-weight:600; color:var(--color-text-primary);">Soru ${q.id} için cevap seçin:</span>
+        <span style="font-size:12px;font-weight:600;color:var(--color-text-primary);">Soru ${q.id} için cevap seçin:</span>
       `;
       row.appendChild(rowHeader);
       
@@ -1856,29 +1953,21 @@ function renderAnswersSheet() {
       row1.className = "bubble-buttons-grid";
       row1.style = "grid-template-columns: repeat(3, 1fr);";
       
-      const letters = ["a", "b", "c"];
       const userAns = state.leseverstehenAnswers[q.id];
-      
-      letters.forEach(letter => {
+      ["a", "b", "c"].forEach(letter => {
         const btn = document.createElement("button");
         btn.className = "bubble-btn";
         btn.textContent = letter;
-        
         const isSelected = userAns === letter;
         if (isSelected) btn.classList.add("selected");
-        
         if (leseverstehenSubmitted) {
           btn.classList.add("disabled");
           const correctAns = exercise.answers[String(q.id)];
-          if (letter === correctAns) {
-            btn.classList.add("correct");
-          } else if (isSelected && letter !== correctAns) {
-            btn.classList.add("incorrect");
-          }
+          if (letter === correctAns) btn.classList.add("correct");
+          else if (isSelected && letter !== correctAns) btn.classList.add("incorrect");
         } else {
           btn.onclick = () => selectBubbleAnswer(q.id, letter);
         }
-        
         row1.appendChild(btn);
       });
       
@@ -1891,13 +1980,13 @@ function renderAnswersSheet() {
     exercise.texts.forEach(text => {
       const row = document.createElement("div");
       row.className = "bubble-grid-row";
-      row.style = "display: flex; flex-direction: column; gap: 8px; align-items: stretch;";
+      row.style = "display:flex;flex-direction:column;gap:8px;align-items:stretch;";
       
       const rowHeader = document.createElement("div");
-      rowHeader.style = "display: flex; align-items: center; gap: 8px;";
+      rowHeader.style = "display:flex;align-items:center;gap:8px;";
       rowHeader.innerHTML = `
         <span class="bubble-row-num">${text.id}</span>
-        <span style="font-size:12px; font-weight:600; color:var(--color-text-primary);">Metin ${text.id} için başlık seçin:</span>
+        <span style="font-size:12px;font-weight:600;color:var(--color-text-primary);">Metin ${text.id} için başlık seçin:</span>
       `;
       row.appendChild(rowHeader);
       
@@ -1908,34 +1997,25 @@ function renderAnswersSheet() {
       const row2 = document.createElement("div");
       row2.className = "bubble-buttons-grid";
       
-      const letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"];
+      const letters = ["a","b","c","d","e","f","g","h","i","j"];
       const userAns = state.leseverstehenAnswers[text.id];
       
       letters.forEach((letter, idx) => {
         const btn = document.createElement("button");
         btn.className = "bubble-btn";
         btn.textContent = letter;
-        
         const isSelected = userAns === letter;
         if (isSelected) btn.classList.add("selected");
-        
         if (leseverstehenSubmitted) {
           btn.classList.add("disabled");
           const correctAns = exercise.answers[text.id];
-          if (letter === correctAns) {
-            btn.classList.add("correct");
-          } else if (isSelected && letter !== correctAns) {
-            btn.classList.add("incorrect");
-          }
+          if (letter === correctAns) btn.classList.add("correct");
+          else if (isSelected && letter !== correctAns) btn.classList.add("incorrect");
         } else {
           btn.onclick = () => selectBubbleAnswer(text.id, letter);
         }
-        
-        if (idx < 5) {
-          row1.appendChild(btn);
-        } else {
-          row2.appendChild(btn);
-        }
+        if (idx < 5) row1.appendChild(btn);
+        else row2.appendChild(btn);
       });
       
       grid.appendChild(row1);
@@ -1951,10 +2031,12 @@ function renderAnswersSheet() {
 function selectBubbleAnswer(qNum, option) {
   if (leseverstehenSubmitted) return;
   
-  const isTeil2 = activeLeseverstehenGame && activeLeseverstehenGame.type === "teil2";
+  const exerciseType = activeLeseverstehenGame && activeLeseverstehenGame.type;
+  const isTeil1 = !exerciseType || exerciseType === 'teil1';
   
-  // Unique choice enforcement: only for Teil 1 (heading matching)
-  if (!isTeil2) {
+  // Unique choice enforcement: only for Teil 1 and Teil 3 (each heading/ad only once)
+  // Teil 2 allows same choice for multiple questions
+  if (isTeil1 || exerciseType === 'teil3') {
     Object.keys(state.leseverstehenAnswers).forEach(key => {
       if (state.leseverstehenAnswers[key] === option) {
         state.leseverstehenAnswers[key] = null;
@@ -1977,19 +2059,32 @@ function updateLeseverstehenStatus() {
   if (!activeLeseverstehenGame) return;
   const exercise = activeLeseverstehenGame;
   const isTeil2 = exercise.type === "teil2";
+  const isTeil3 = exercise.type === "teil3";
   const statusText = document.getElementById("leseverstehen-status-text");
   
-  // Build item list for iteration
-  const items = isTeil2 ? (exercise.questions || []) : (exercise.texts || []);
-  const getKey = (item) => isTeil2 ? item.id : item.id;
-  const getAnswer = (item) => isTeil2 ? exercise.answers[String(item.id)] : exercise.answers[item.id];
+  // Build items and answer lookup based on type
+  let items, totalCount;
+  if (isTeil3) {
+    items = Object.keys(exercise.situations || {}).map(k => ({ id: parseInt(k) }));
+    totalCount = 10;
+  } else if (isTeil2) {
+    items = exercise.questions || [];
+    totalCount = 5;
+  } else {
+    items = exercise.texts || [];
+    totalCount = 5;
+  }
+  
+  const getCorrectAns = (item) => {
+    if (isTeil2) return exercise.answers[String(item.id)];
+    if (isTeil3) return exercise.answers[String(item.id)];
+    return exercise.answers[item.id];
+  };
   
   if (leseverstehenSubmitted) {
     let correctCount = 0;
     items.forEach(item => {
-      if (state.leseverstehenAnswers[getKey(item)] === getAnswer(item)) {
-        correctCount++;
-      }
+      if (state.leseverstehenAnswers[item.id] === getCorrectAns(item)) correctCount++;
     });
     
     const attempts = state.leseverstehenProgress[exercise.id] || [];
@@ -2000,20 +2095,17 @@ function updateLeseverstehenStatus() {
       const secs = lastAttempt.duration % 60;
       timeFormatted = `${mins}:${secs.toString().padStart(2, '0')}`;
     }
-    
-    statusText.textContent = `Sonuç: ${correctCount}/5 Doğru! (${timeFormatted} sürede tamamlandı. +${correctCount * 10} XP)`;
+    statusText.textContent = `Sonuç: ${correctCount}/${totalCount} Doğru! (${timeFormatted} sürede tamamlandı. +${correctCount * 10} XP)`;
     statusText.style.color = "#10b981";
     return;
   }
   
   let answeredCount = 0;
   items.forEach(item => {
-    if (state.leseverstehenAnswers[getKey(item)]) {
-      answeredCount++;
-    }
+    if (state.leseverstehenAnswers[item.id]) answeredCount++;
   });
   
-  const remaining = 5 - answeredCount;
+  const remaining = totalCount - answeredCount;
   if (remaining === 0) {
     statusText.textContent = "Bütün sorular cevaplandı. Cevapları gönderin!";
     statusText.style.color = "#98b5b6";
@@ -2025,12 +2117,11 @@ function updateLeseverstehenStatus() {
 
 function submitLeseverstehen() {
   if (leseverstehenSubmitted) return;
-  
   if (!activeLeseverstehenGame) return;
   const exercise = activeLeseverstehenGame;
   const isTeil2 = exercise.type === "teil2";
+  const isTeil3 = exercise.type === "teil3";
   
-  // Stop timer interval
   if (leseverstehenTimerInterval) {
     clearInterval(leseverstehenTimerInterval);
     leseverstehenTimerInterval = null;
@@ -2040,32 +2131,36 @@ function submitLeseverstehen() {
   
   // Calculate correct answers
   let correctCount = 0;
-  const items = isTeil2 ? (exercise.questions || []) : (exercise.texts || []);
-  items.forEach(item => {
-    const key = item.id;
-    const correctAns = isTeil2 ? exercise.answers[String(key)] : exercise.answers[key];
-    if (state.leseverstehenAnswers[key] === correctAns) {
-      correctCount++;
-    }
-  });
+  let items;
+  if (isTeil3) {
+    items = Object.keys(exercise.situations || {}).map(k => ({ id: parseInt(k) }));
+    items.forEach(item => {
+      if (state.leseverstehenAnswers[item.id] === exercise.answers[String(item.id)]) correctCount++;
+    });
+  } else if (isTeil2) {
+    items = exercise.questions || [];
+    items.forEach(item => {
+      if (state.leseverstehenAnswers[item.id] === exercise.answers[String(item.id)]) correctCount++;
+    });
+  } else {
+    items = exercise.texts || [];
+    items.forEach(item => {
+      if (state.leseverstehenAnswers[item.id] === exercise.answers[item.id]) correctCount++;
+    });
+  }
   
   leseverstehenSubmitted = true;
+  state.xp += correctCount * 10;
   
-  // Award XP
-  const xpEarned = correctCount * 10;
-  state.xp += xpEarned;
+  const scoreMultiplier = isTeil3 ? 10 : 20;
+  const score = correctCount * scoreMultiplier;
   
-  // Record attempt history (max last 3)
   let attempts = state.leseverstehenProgress[exercise.id] || [];
-  attempts.push({ score: correctCount * 20, duration: durationSeconds });
-  if (attempts.length > 3) {
-    attempts.shift();
-  }
+  attempts.push({ score: score, duration: durationSeconds });
+  if (attempts.length > 3) attempts.shift();
   state.leseverstehenProgress[exercise.id] = attempts;
   
   saveState();
-  
-  // Render again with review marks
   renderLeseverstehenScreen();
 }
 

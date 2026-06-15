@@ -1,0 +1,111 @@
+11
+Sie möchten am Samstagabend mit Freunden ein neues Restaurant ausprobieren, das scharfe thailändische Suppen und Currys in der Innenstadt anbietet.
+
+12
+Ihr Bekannter sucht für seine Katze eine zuverlässige Betreuung, die während seines zweiwöchigen Urlaubs täglich zu ihm nach Hause kommt, um das Tier zu füttern.
+
+13
+Die Tochter Ihrer Kollegin ist 16 Jahre alt und möchte in den Sommerferien ein unbezahltes, dreiwöchiges Praktikum im Bereich Mode und Textildesign machen.
+
+14
+Ihr Bruder hat sich eine gebrauchte Segelyacht gekauft und sucht einen Wochenendkurs für Anfänger, um die theoretischen Grundlagen der Navigation zu lernen.
+
+15
+Ihre Kollegin zieht in eine andere Stadt und sucht ein Umzugsunternehmen, das am kommenden Sonntag ihre Möbel transportiert und gleichzeitig Umzugskisten bereitstellt.
+
+16
+Ihr Nachbar hat einen großen Garten und sucht eine Firma, die am Wochenende kommt, um die Bäume zu schneiden und den Rasen komplett neu anzulegen.
+
+17
+Sie suchen für Sonntagmittag ein gemütliches Café oder Restaurant, das ein großes vegetarisches Brunch-Buffet in der Nähe des Parks anbietet.
+
+18
+Ihr Cousin arbeitet im internationalen Vertrieb, spricht bereits gut Deutsch (B1) und möchte einen intensiven Abendkurs besuchen, um das Verhandeln mit Kunden zu üben.
+
+19
+Die Mutter Ihres Freundes möchte im Urlaub entspannen und sucht ein Hotel an der Ostsee, das professionelle Massagen, eine Sauna und ein tägliches Frühstück bietet.
+
+20
+Ihr Kollege möchte nächstes Jahr nach Italien reisen, hat keine Vorkenntnisse und sucht einen Italienischkurs, der ausschließlich am frühen Freitagnachmittag stattfindet.
+
+---
+
+a
+Bangkok Flavours – Thailändische Küche
+Erleben Sie die echten Aromen Thailands mitten im Stadtzentrum! Wir bieten scharfe Suppen, traditionelle Currys und frische Wok-Gerichte in einem modernen Ambiente.
+Öffnungszeiten: Di.–Sa. 17:30–23:00 Uhr. Sonntags und montags geschlossen.
+Reservierung dringend empfohlen unter Tel. 030-11 22 33.
+
+b
+Katzen-Sitting „Glückliche Pfoten“
+Gehen Sie entspannt in den Urlaub! Unser professioneller Service betreut Ihre Katze direkt in ihrer gewohnten Umgebung. Wir kommen einmal oder zweimal täglich zu Ihnen nach Hause, füttern das Tier, reinigen das Katzenklo und nehmen uns Zeit für Streicheleinheiten.
+Infos und Preise unter: www.glueckliche-pfoten.de.
+
+c
+Segelschule Nord – Navigation für Einsteiger
+Möchten Sie die Grundlagen des Segelns erlernen? In unserem zweitägigen Kompaktkurs am Samstag und Sonntag (jeweils 10:00–15:00 Uhr) lernen Anfänger alles über Seekarten, Wetterkunde und die theoretische Navigation auf dem Wasser.
+Anmeldung: info@segelschule-nord.de.
+
+d
+Umzüge & Logistik „Fix & Fertig“
+Planen Sie Ihren Umzug? Unser Team bietet den kompletten Service auch am Wochenende! Wir transportieren Ihre Möbel sicher an den neuen Wohnort. Auf Wunsch liefern wir Ihnen vorab die passende Anzahl an stabilen Umzugskisten direkt nach Hause.
+Kostenloses Angebot: Tel. 069-44 55 66.
+
+e
+Gartenservice „Grüner Daumen“
+Wir bringen Ihren Garten auf Vordermann! Unser Team übernimmt den professionellen Baum- und Heckenschnitt, die Rasenpflege sowie die Neuanlage von Gartenflächen.
+Arbeitszeiten: Montag bis Freitag von 8:00 bis 16:30 Uhr.
+Kontakt für eine Beratung vor Ort: info@gruener-daumen.de.
+
+f
+Verhandlungstraining Deutsch (B1/B2)
+Möchten Sie im Beruf sicherer mit Kunden und Geschäftspartnern verhandeln? In diesem Intensivkurs üben wir gezielt Verkaufsgespräche, das Lösen von Konflikten und wichtige Redewendungen für den internationalen Vertrieb.
+Kurszeiten: Jeden Dienstag und Donnerstag von 19:00 bis 20:30 Uhr. Dauer: 4 Wochen.
+Infos unter: www.business-sprachen.de.
+
+g
+Ostsee-Hotel „Meerblick & SPA“
+Verbringen Sie erholsame Tage direkt am Strand! Unser Hotel bietet moderne Zimmer inklusive einem reichhaltigen Frühstücksbuffet. Entspannen Sie in unserem großen Wellnessbereich mit finnischer Sauna, Dampfbad und einem vielfältigen Angebot an professionellen Massagen.
+Angebote und Buchung: info@meerblick-hotel.de.
+
+h
+Sprachschule Lingua – Italienisch am Nachmittag
+Wochenendkurs Italienisch A1 für absolute Anfänger ohne Vorkenntnisse. Bereiten Sie sich entspannt auf Ihren nächsten Urlaub vor. Lernen Sie die wichtigsten Vokabeln und Redewendungen für den Alltag.
+Kursdauer: 8 Wochen, jeden Samstag von 14:00 bis 17:00 Uhr.
+Anmeldung: www.lingua-schule.de.
+
+i
+Café Parkidylle – Veggie Brunch
+Genießen Sie unser großes, rein vegetarisches und veganes Brunch-Buffet jeden Sonntag von 10:00 bis 14:00 Uhr. Frische Salate, warme Speisen und hausgemachte Kuchen direkt am Haupteingang des Stadtparks.
+Reservierung für Gruppen empfohlen. Tel. 0221-77 88 99.
+
+j
+Praktikum im Modeatelier „KreativKopf“
+Wir bieten Schülerinnen und Schülern ab 15 Jahren die Möglichkeit, während der Schulferien ein dreiwöchiges Praktikum im Bereich Modedesign, Schnittkonstruktion und Textilgestaltung zu absolvieren. Lerne den Alltag in einem echten Atelier kennen!
+Kurze Bewerbung per E-Mail an: kreativ@mode-atelier.de.
+
+k
+Praktikum bei TextilDesign Berlin
+Wir bieten Studentinnen und Studenten der Modewissenschaften ein dreimonatiges, unvergütetes Pflichtpraktikum im Bereich Online-Marketing und Produktmanagement für die Wintersaison an.
+Beginn: flexibel im Spätsommer. Bewerbung an: jobs@textildesign-berlin.de.
+
+l
+Restaurant Schnitzelparadies
+Traditionelle deutsche Küche in gemütlicher Atmosphäre. Große Auswahl an Schnitzeln, Steaks und frischen Salaten. Ideal für Familienfeiern am Sonntagmittag.
+Geöffnet täglich ab 11:30 Uhr. Mittwochs Ruhetag.
+Reservierung erbeten: Tel. 0711-33 44 55.
+
+---
+
+LÖSUNGSSCHLÜSSEL / CEVAP ANAHTARI:
+
+11: a (Bangkok Flavours: Thailändisch, scharfe Suppen/Currys, Innenstadt, Samstagabend geöffnet)
+12: b (Katzen-Sitting: Betreuung zu Hause während des Urlaubs, tägliche Fütterung)
+13: j (Modeatelier KreativKopf: Für Schüler ab 15 Jahren/Jugendliche, 3-wöchiges Ferienpraktikum, Mode/Textildesign)
+14: c (Segelschule Nord: Segelyacht/Segeln basics, Theorie der Navigation, Anfängerkurs am Wochenende)
+15: d (Umzüge Fix & Fertig: Transportiert Möbel am Wochenende/Sonntag, liefert vorab Umzugskisten)
+16: x (İlan e'deki bahçe servisi ağaç kesimi ve çim ekimi yapıyor ancak çalışma günleri sadece hafta içidir ("Montag bis Freitag"). Durum 16'daki kişi ise hafta sonu ("am Wochenende") hizmet aradığı için bu ilan uygun değildir. Cevap X'tir.)
+17: i (Café Parkidylle: Vegetarisches Brunch-Buffet, jeden Sonntag, direkt am Stadtpark)
+18: f (Verhandlungstraining: B1 seviyesine uygun, Vertrieb/müşteri müzakereleri odaklı, Di ve Do 19:00-20:30 arası akşam kursu)
+19: g (Ostsee-Hotel Meerblick: Ostsee/Baltık Denizi kıyısında, masaj, sauna ve kahvaltı sunuyor)
+20: x (İlan h'deki İtalyanca kursu başlangıç seviyesine uygun olsa da sadece Cumartesi günleri ("jeden Samstag") yapılmaktadır. Durum 20'deki kişi ise özellikle Cuma öğleden sonra ("am frühen Freitagnachmittag") bir kurs aradığı için uyuşmamaktadır. Cevap X'tir.)

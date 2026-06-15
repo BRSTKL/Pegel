@@ -1,0 +1,117 @@
+11
+Sie möchten am Samstagabend mit Ihrem Partner indisch essen gehen, am liebsten in der Nähe des Stadtzentrums.
+
+12
+Ihr Cousin sucht für den Sommer eine gemütliche Ferienwohnung in den Bergen für vier Personen, wo sie auch selbst kochen können.
+
+13
+Die Tochter Ihrer Nachbarin möchte ein zweiwöchiges Praktikum in einer Autowerkstatt machen, um erste Erfahrungen im Handwerk zu sammeln.
+
+14
+Ihr Bekannter plant, ein kleines Café zu eröffnen, und sucht jemanden, der das Logo und die Speisekarten professionell gestaltet.
+
+15
+Ihre Kollegin möchte einen Spanischkurs für Anfänger besuchen, hat aber nur am Wochenende Zeit, da sie unter der Woche lange arbeitet.
+
+16
+Ihr Bruder arbeitet im Marketing, hat bereits B2-Deutschkenntnisse und möchte lernen, wie man professionelle Präsentationen auf Deutsch hält.
+
+17
+Sie suchen für Sonntagmittag ein Restaurant mit traditioneller deutscher Küche für ein Familienessen mit den Großeltern.
+
+18
+Ihre Schwester klagt seit Tagen über starke Rückenschmerzen und sucht eine Praxis für Physiotherapie mit Terminen am späten Abend.
+
+19
+Ihr Freund studiert Informatik und sucht für die vorlesungsfreie Zeit im Spätsommer ein bezahltes Praktikum im Bereich App-Entwicklung.
+
+20
+Die Mutter Ihres Freundes möchte lernen, wie man ein Smartphone richtig bedient, und sucht einen Einsteigerkurs am Vormittag.
+
+---
+
+a
+Chili & Chutney – Indische Spezialitäten
+Erleben Sie die Vielfalt der indischen Küche mitten in der Altstadt! Wir bieten traditionelle Currys, Tandoori-Gerichte und eine große Auswahl an vegetarischen Speisen.
+Öffnungszeiten: Di.–So. 12:00–15:00 Uhr und 18:00–23:00 Uhr. Montag Ruhetag.
+Reservierungen online oder unter Tel. 030-22 33 44. Friedrichstraße 12, Berlin.
+
+b
+Ferienhaus Alpenglück
+Verbringen Sie Ihren Sommerurlaub im wunderschönen Allgäu! Unser modern eingerichtetes Ferienhaus bietet Platz für bis zu 6 Personen. Große Wohnküche zur Selbstversorgung, Balkon mit Bergblick, Garten mit Grillplatz.
+Vermietung: Mai bis Oktober. Mindestaufenthalt: 7 Nächte.
+Kontakt: info@alpenglueck-ferien.de, Tel. 08321-99 88 77.
+
+c
+Grafikdesign-Studio „Farbenfroh“
+Wir bringen Ihre Ideen auf Papier und Bildschirm! Professionelle Gestaltung von Logos, Flyern, Visitenkarten und Speisekarten für Gastronomie und Gewerbe. Individuelle Beratung für Gründer und Kleinunternehmer.
+Kostenloses Erstgespräch: kontakt@studio-farbenfroh.de, Tel. 0176-55 44 33 22.
+
+d
+Praktikum bei TechSolutions
+Du studierst Informatik oder Software Engineering und suchst praktische Erfahrung? Wir bieten 3-monatige bezahlte Praktikumsplätze im Bereich Mobile Apps für die Monate August bis Oktober.
+Anforderungen: Grundkenntnisse in Java oder Swift, Teamfähigkeit.
+Bewerbung mit Lebenslauf an: jobs@techsolutions-it.de.
+
+e
+Deutsches Haus – Traditionelle Küche
+Genießen Sie klassische deutsche Gerichte wie Schweinebraten, Schnitzel und frische Salate in gemütlicher Atmosphäre. Großer Biergarten für sonnige Tage. Ideal für Familienfeiern.
+Öffnungszeiten: Fr.–So. 11:30–22:00 Uhr, Mo.–Do. Ruhetag.
+Reservierung dringend empfohlen: Tel. 089-44 55 66, Hauptstraße 45, München.
+
+f
+Sprachschule Lingua – Spanisch am Samstag
+Wochenendkurs Spanisch A1/A2 für Berufstätige. Lernen Sie die Grundlagen für Beruf und Urlaub ganz ohne Stress neben der Arbeit. Small Talk, Grammatik und nützliche Vokabeln.
+Kursdauer: 8 Wochen, jeden Samstag von 10:00 bis 13:30 Uhr.
+Anmeldung: www.lingua-sprachschule.de, Tel. 040-77 88 99.
+
+g
+Präsentationstraining Deutsch (C1)
+Intensivseminar für Fach- und Führungskräfte mit sehr guten Deutschkenntnissen (ab B2/C1). Themen: Struktur von Vorträgen, Körpersprache, Medieneinsatz, professionelles Auftreten vor Kunden.
+Wochenend-Workshop: Sa. und So. jeweils 9:00–16:00 Uhr.
+Infos unter: training@business-deutsch.de.
+
+h
+Physio-Zentrum Mitte
+Ihre Experten für Rückenschmerzen, Sportverletzungen und Rehabilitation. Modernste Geräte und individuelle Betreuung durch erfahrene Therapeuten.
+Sprechzeiten: Mo.–Fr. 7:00–21:30 Uhr. Alle Krankenkassen und Privatpatienten.
+Termine nach Vereinbarung: Tel. 069-11 22 33, info@physio-mitte.de.
+
+i
+Smartphone-Kurs für Senioren
+Keine Angst vor der Technik! Wir zeigen Ihnen Schritt für Schritt, wie Sie Ihr Smartphone für Nachrichten, Fotos und Internet nutzen. Keine Vorkenntnisse erforderlich. Small Groups, geduldiges Lernen.
+Kurszeiten: Di. und Do. jeweils von 9:30 bis 11:00 Uhr. Dauer: 4 Wochen.
+Anmeldung im Stadtteilzentrum, Tel. 0221-55 66 77.
+
+j
+Kfz-Meisterbetrieb Wagner & Söhne
+Wir reparieren alle Automarken! Jahresservice, Reifenwechsel, Unfallreparaturen. Wir suchen ab September Auszubildende (m/w/d) für den Beruf Kfz-Mechatroniker.
+Bitte senden Sie Ihre vollständigen Bewerbungsunterlagen per Post an unsere Werkstatt.
+Kontakt: Tel. 0711-88 99 00, info@kfz-wagner.de.
+
+k
+Ferienwohnung Seeblick
+Erholung pur direkt am Chiemsee für 2 Personen. Moderne Ausstattung, Einbauküche, Terrasse zum See. Haustiere auf Anfrage erlaubt. Perfekt für ein langes Wochenende.
+Buchung ab 3 Nächten möglich.
+Anfragen unter: seeblick-urlaub@web.de.
+
+l
+Praktikum im Medienhaus
+Die Kölner Mediengruppe bietet Studentinnen und Studenten der Medienwissenschaften dreimonatige Praktika im Bereich Online-Redaktion und Social Media. Aufgaben: Schreiben von Artikeln, Recherche.
+Beginn: flexibel. Unvergütetes Pflichtpraktikum.
+Bewerbung an: redaktion@medienhaus-koeln.de.
+
+---
+
+LÖSUNGSSCHLÜSSEL / CEVAP ANAHTARI:
+
+11: a (Chili & Chutney: Indisch, Altstadt/Zentrum, Samstagabend geöffnet)
+12: b (Ferienhaus Alpenglück: Berge/Allgäu, Wohnküche zur Selbstversorgung, bis 6 Personen geeignet)
+13: x (İlan j'deki Kfz-Werkstatt sadece "Ausbildung" arıyor, "Praktikum" vermiyor. Bu yüzden bu durumun ilanı yoktur.)
+14: c (Studio Farbenfroh: Gestaltung von Logos ve Speisekarten für Gastronomie)
+15: f (Sprachschule Lingua: Spanisch A1/A2, jeden Samstag -wochenende-)
+16: g (Präsentationstraining: ab B2/C1, professionelle Präsentationen auf Deutsch)
+17: e (Deutsches Haus: Traditionelle deutsche Küche, Sonntagmittag geöffnet, ideal für Familien)
+18: h (Physio-Zentrum Mitte: Rückenschmerzen, Mo-Fr bis 21:30 Uhr geöffnet -späten Abend-)
+19: d (TechSolutions: Informatik-Studierende, bezahltes Praktikum, App-Bereich, August-Oktober -Spätsommer-)
+20: i (Smartphone-Kurs: Senioren/Einsteiger, Vormittag von 9:30 bis 11:00 Uhr)

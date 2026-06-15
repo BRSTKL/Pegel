@@ -1410,29 +1410,1124 @@ const LESEVERSTEHEN_TEIL_2_DATA = [
   }
 ];
 
-const LESEVERSTEHEN_TEIL_3_DATA = [];
-for (let i = 1; i <= 12; i++) {
-  LESEVERSTEHEN_TEIL_3_DATA.push({
-    id: `lese_3_${i}`,
-    title: `Leseverstehen Teil 3 - Alıştırma ${i}`,
-    emoji: "📰",
-    instruction: "Bu alıştırmanın metni ve ilanları yakında eklenecektir.",
-    headings: {
-      "a": "İlan A", "b": "İlan B", "c": "İlan C", "d": "İlan D", "e": "İlan E",
-      "f": "İlan F", "g": "İlan G", "h": "İlan H", "i": "İlan I", "j": "İlan J"
+const LESEVERSTEHEN_TEIL_3_DATA = [
+  {
+    "id": "lese_3_1",
+    "title": "Freizeit & Dienstleistungen",
+    "emoji": "🌟",
+    "type": "teil3",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "situations": {
+      "11": "Sie möchten am Samstagabend mit Ihrem Partner indisch essen gehen, am liebsten in der Nähe des Stadtzentrums.",
+      "12": "Ihr Cousin sucht für den Sommer eine gemütliche Ferienwohnung in den Bergen für vier Personen, wo sie auch selbst kochen können.",
+      "13": "Die Tochter Ihrer Nachbarin möchte ein zweiwöchiges Praktikum in einer Autowerkstatt machen, um erste Erfahrungen im Handwerk zu sammeln.",
+      "14": "Ihr Bekannter plant, ein kleines Café zu eröffnen, und sucht jemanden, der das Logo und die Speisekarten professionell gestaltet.",
+      "15": "Ihre Kollegin möchte einen Spanischkurs für Anfänger besuchen, hat aber nur am Wochenende Zeit, da sie unter der Woche lange arbeitet.",
+      "16": "Ihr Bruder arbeitet im Marketing, hat bereits B2-Deutschkenntnisse und möchte lernen, wie man professionelle Präsentationen auf Deutsch hält.",
+      "17": "Sie suchen für Sonntagmittag ein Restaurant mit traditioneller deutscher Küche für ein Familienessen mit den Großeltern.",
+      "18": "Ihre Schwester klagt seit Tagen über starke Rückenschmerzen und sucht eine Praxis für Physiotherapie mit Terminen am späten Abend.",
+      "19": "Ihr Freund studiert Informatik und sucht für die vorlesungsfreie Zeit im Spätsommer ein bezahltes Praktikum im Bereich App-Entwicklung.",
+      "20": "Die Mutter Ihres Freundes möchte lernen, wie man ein Smartphone richtig bedient, und sucht einen Einsteigerkurs am Vormittag."
     },
-    texts: [
-      { id: 1, content: "Teil 3 durum metni buraya eklenecektir." },
-      { id: 2, content: "Teil 3 durum metni buraya eklenecektir." },
-      { id: 3, content: "Teil 3 durum metni buraya eklenecektir." },
-      { id: 4, content: "Teil 3 durum metni buraya eklenecektir." },
-      { id: 5, content: "Teil 3 durum metni buraya eklenecektir." }
-    ],
-    answers: {
-      1: "a", 2: "a", 3: "a", 4: "a", 5: "a"
+    "ads": {
+      "a": {
+        "title": "Chili & Chutney – Indische Spezialitäten",
+        "body": "Erleben Sie die Vielfalt der indischen Küche mitten in der Altstadt! Wir bieten traditionelle Currys, Tandoori-Gerichte und eine große Auswahl an vegetarischen Speisen.\nÖffnungszeiten: Di.–So. 12:00–15:00 Uhr und 18:00–23:00 Uhr. Montag Ruhetag.\nReservierungen online oder unter Tel. 030-22 33 44. Friedrichstraße 12, Berlin."
+      },
+      "b": {
+        "title": "Ferienhaus Alpenglück",
+        "body": "Verbringen Sie Ihren Sommerurlaub im wunderschönen Allgäu! Unser modern eingerichtetes Ferienhaus bietet Platz für bis zu 6 Personen. Große Wohnküche zur Selbstversorgung, Balkon mit Bergblick, Garten mit Grillplatz.\nVermietung: Mai bis Oktober. Mindestaufenthalt: 7 Nächte.\nKontakt: info@alpenglueck-ferien.de, Tel. 08321-99 88 77."
+      },
+      "c": {
+        "title": "Grafikdesign-Studio „Farbenfroh“",
+        "body": "Wir bringen Ihre Ideen auf Papier und Bildschirm! Professionelle Gestaltung von Logos, Flyern, Visitenkarten und Speisekarten für Gastronomie und Gewerbe. Individuelle Beratung für Gründer und Kleinunternehmer.\nKostenloses Erstgespräch: kontakt@studio-farbenfroh.de, Tel. 0176-55 44 33 22."
+      },
+      "d": {
+        "title": "Praktikum bei TechSolutions",
+        "body": "Du studierst Informatik oder Software Engineering und suchst praktische Erfahrung? Wir bieten 3-monatige bezahlte Praktikumsplätze im Bereich Mobile Apps für die Monate August bis Oktober.\nAnforderungen: Grundkenntnisse in Java oder Swift, Teamfähigkeit.\nBewerbung mit Lebenslauf an: jobs@techsolutions-it.de."
+      },
+      "e": {
+        "title": "Deutsches Haus – Traditionelle Küche",
+        "body": "Genießen Sie klassische deutsche Gerichte wie Schweinebraten, Schnitzel und frische Salate in gemütlicher Atmosphäre. Großer Biergarten für sonnige Tage. Ideal für Familienfeiern.\nÖffnungszeiten: Fr.–So. 11:30–22:00 Uhr, Mo.–Do. Ruhetag.\nReservierung dringend empfohlen: Tel. 089-44 55 66, Hauptstraße 45, München."
+      },
+      "f": {
+        "title": "Sprachschule Lingua – Spanisch am Samstag",
+        "body": "Wochenendkurs Spanisch A1/A2 für Berufstätige. Lernen Sie die Grundlagen für Beruf und Urlaub ganz ohne Stress neben der Arbeit. Small Talk, Grammatik und nützliche Vokabeln.\nKursdauer: 8 Wochen, jeden Samstag von 10:00 bis 13:30 Uhr.\nAnmeldung: www.lingua-sprachschule.de, Tel. 040-77 88 99."
+      },
+      "g": {
+        "title": "Präsentationstraining Deutsch (C1)",
+        "body": "Intensivseminar für Fach- und Führungskräfte mit sehr guten Deutschkenntnissen (ab B2/C1). Themen: Struktur von Vorträgen, Körpersprache, Medieneinsatz, professionelles Auftreten vor Kunden.\nWochenend-Workshop: Sa. und So. jeweils 9:00–16:00 Uhr.\nInfos unter: training@business-deutsch.de."
+      },
+      "h": {
+        "title": "Physio-Zentrum Mitte",
+        "body": "Ihre Experten für Rückenschmerzen, Sportverletzungen und Rehabilitation. Modernste Geräte und individuelle Betreuung durch erfahrene Therapeuten.\nSprechzeiten: Mo.–Fr. 7:00–21:30 Uhr. Alle Krankenkassen und Privatpatienten.\nTermine nach Vereinbarung: Tel. 069-11 22 33, info@physio-mitte.de."
+      },
+      "i": {
+        "title": "Smartphone-Kurs für Senioren",
+        "body": "Keine Angst vor der Technik! Wir zeigen Ihnen Schritt für Schritt, wie Sie Ihr Smartphone für Nachrichten, Fotos und Internet nutzen. Keine Vorkenntnisse erforderlich. Small Groups, geduldiges Lernen.\nKurszeiten: Di. und Do. jeweils von 9:30 bis 11:00 Uhr. Dauer: 4 Wochen.\nAnmeldung im Stadtteilzentrum, Tel. 0221-55 66 77."
+      },
+      "j": {
+        "title": "Kfz-Meisterbetrieb Wagner & Söhne",
+        "body": "Wir reparieren alle Automarken! Jahresservice, Reifenwechsel, Unfallreparaturen. Wir suchen ab September Auszubildende (m/w/d) für den Beruf Kfz-Mechatroniker.\nBitte senden Sie Ihre vollständigen Bewerbungsunterlagen per Post an unsere Werkstatt.\nKontakt: Tel. 0711-88 99 00, info@kfz-wagner.de."
+      },
+      "k": {
+        "title": "Ferienwohnung Seeblick",
+        "body": "Erholung pur direkt am Chiemsee für 2 Personen. Moderne Ausstattung, Einbauküche, Terrasse zum See. Haustiere auf Anfrage erlaubt. Perfekt für ein langes Wochenende.\nBuchung ab 3 Nächten möglich.\nAnfragen unter: seeblick-urlaub@web.de."
+      },
+      "l": {
+        "title": "Praktikum im Medienhaus",
+        "body": "Die Kölner Mediengruppe bietet Studentinnen und Studenten der Medienwissenschaften dreimonatige Praktika im Bereich Online-Redaktion und Social Media. Aufgaben: Schreiben von Artikeln, Recherche.\nBeginn: flexibel. Unvergütetes Pflichtpraktikum.\nBewerbung an: redaktion@medienhaus-koeln.de."
+      }
+    },
+    "answers": {
+      "11": "a",
+      "12": "b",
+      "13": "x",
+      "14": "c",
+      "15": "f",
+      "16": "g",
+      "17": "e",
+      "18": "h",
+      "19": "d",
+      "20": "i"
+    },
+    "explanations": {
+      "11": "Chili & Chutney: Indisch, Altstadt/Zentrum, Samstagabend geöffnet",
+      "12": "Ferienhaus Alpenglück: Berge/Allgäu, Wohnküche zur Selbstversorgung, bis 6 Personen geeignet",
+      "13": "İlan j'deki Kfz-Werkstatt sadece \"Ausbildung\" arıyor, \"Praktikum\" vermiyor. Bu yüzden bu durumun ilanı yoktur.",
+      "14": "Studio Farbenfroh: Gestaltung von Logos ve Speisekarten für Gastronomie",
+      "15": "Sprachschule Lingua: Spanisch A1/A2, jeden Samstag -wochenende-",
+      "16": "Präsentationstraining: ab B2/C1, professionelle Präsentationen auf Deutsch",
+      "17": "Deutsches Haus: Traditionelle deutsche Küche, Sonntagmittag geöffnet, ideal für Familien",
+      "18": "Physio-Zentrum Mitte: Rückenschmerzen, Mo-Fr bis 21:30 Uhr geöffnet -späten Abend-",
+      "19": "TechSolutions: Informatik-Studierende, bezahltes Praktikum, App-Bereich, August-Oktober -Spätsommer-",
+      "20": "Smartphone-Kurs: Senioren/Einsteiger, Vormittag von 9:30 bis 11:00 Uhr"
     }
-  });
-}
+  },
+  {
+    "id": "lese_3_2",
+    "title": "Kurse & Lernen",
+    "emoji": "📚",
+    "type": "teil3",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "situations": {
+      "11": "Sie möchten am kommenden Sonntag mit Ihrer Familie in der Nähe des Bahnhofs gemütlich frühstücken oder brunchen gehen.",
+      "12": "Ihr ausländischer Kollege sucht einen Deutschkurs für Anfänger, der speziell am Wochenende stattfindet, da er unter der Woche Vollzeit arbeitet.",
+      "13": "Die Schwester Ihres Freundes sucht eine kleine Ferienwohnung für zwei Personen an einem See, um dort ein verlängertes Wochenende zu verbringen.",
+      "14": "Ihr Nachbar hat sich eine neue Gitarre gekauft und sucht einen Privatlehrer, der flexibel zu ihm nach Hause kommen kann.",
+      "15": "Ihre Cousine leidet unter starken Nackenschmerzen und sucht eine Praxis für Physiotherapie, die bereits am frühen Morgen ab 7 Uhr geöffnet hat.",
+      "16": "Ihr Bruder studiert Betriebswirtschaft und sucht für den Sommer ein unbezahltes Pflichtpraktikum im Bereich Personalwesen (HR).",
+      "17": "Sie suchen für Ihren Vater einen Smartphone-Kurs für Einsteiger, der jedoch unbedingt am späten Nachmittag oder Abend stattfinden muss.",
+      "18": "Ihre Freundin möchte umziehen und sucht ein Umzugsunternehmen, das auch den Abbau und Aufbau ihrer Möbel übernimmt.",
+      "19": "Ihr Kollege möchte Spanisch lernen, hat keine Vorkenntnisse und sucht einen intensiven Abendkurs unter der Woche.",
+      "20": "Die Tochter Ihrer Nachbarin ist 15 Jahre alt und sucht in den Sommerferien einen zweiwöchigen Reitkurs für Jugendliche."
+    },
+    "ads": {
+      "a": {
+        "title": "Café Hauptbahnhof – Ihr Start in den Tag",
+        "body": "Genießen Sie unser großes Frühstücksbuffet jeden Samstag und Sonntag von 8:30 bis 13:00 Uhr. Frische Brötchen, Kaffee satt, Rührei und süße Leckereien mitten im Bahnhofsgebäude.\nReservierung empfohlen für Familien. Tel. 030-88 77 66."
+      },
+      "b": {
+        "title": "Ferienwohnung Seeblick",
+        "body": "Erholung pur direkt am Chiemsee für 2 Personen. Moderne Ausstattung, Einbauküche, eigene Terrasse zum See. Haustiere auf Anfrage erlaubt. Perfekt für ein langes Wochenende.\nBuchung ab 3 Nächten möglich. Kontakt: seeblick-urlaub@web.de."
+      },
+      "c": {
+        "title": "Sprachschule ProLingua – Deutsch am Samstag",
+        "body": "Wochenendkurs Deutsch A1 für internationale Berufstätige. Lernen Sie die Grundlagen der deutschen Sprache für Alltag und Beruf ganz ohne Stress neben der Arbeit.\nKursdauer: 10 Wochen, jeden Samstag 9:00–12:30 Uhr.\nAnmeldung online: www.prolingua-schule.de."
+      },
+      "d": {
+        "title": "Gitarrenunterricht Max Schmidt",
+        "body": "Erfahrene Musiklehrer bieten individuellen Gitarrenunterricht für Anfänger und Fortgeschrittene jeden Alters. Kein Stress mit der Anfahrt: Ich komme direkt zu Ihnen nach Hause! Flexible Terminabsprache.\nKostenlose Probestunde. Tel. 0176-44 55 66 77."
+      },
+      "e": {
+        "title": "Physio-Zentrum Mitte",
+        "body": "Ihre Experten für Rückenschmerzen, Sportverletzungen und Rehabilitation. Modernste Geräte und individuelle Betreuung durch erfahrene Therapeuten.\nSprechzeiten: Mo.–Fr. 7:00–21:30 Uhr. Alle Krankenkassen und Privatpatienten.\nTerminvereinbarung: Tel. 069-11 22 33."
+      },
+      "f": {
+        "title": "Umzüge Blitz & Sicher",
+        "body": "Wir bringen Ihr Zuhause sicher an den neuen Ort! Professionelle Umzugshilfe für Privathaushalte und Büros. Unser Full-Service beinhaltet das Packen der Kisten sowie die fachgerechte Montage von Möbeln und Küchen.\nKostenloses Angebot unter: info@blitz-umzuege.de."
+      },
+      "g": {
+        "title": "Spanischkurs VivaMadrid",
+        "body": "Intensivkurs Spanisch A1 für Einsteiger ohne Vorkenntnisse. Schwerpunkt: Alltagssprache für Urlaub und Beruf. Kleine Gruppen, maximal 10 Teilnehmer.\nKursdauer: 8 Wochen, Di. und Do. 18:30–20:00 Uhr. Kursstart: 15. Oktober.\nAnmeldung unter Tel. 089-44 55 66."
+      },
+      "h": {
+        "title": "Praktikum im Personalwesen (HR)",
+        "body": "Die Mediengruppe Berlin bietet Studentinnen und Studenten der Wirtschaftswissenschaften ein dreimonatiges Praktikum im Bereich Human Resources. Aufgaben: Bewerbermanagement, Organisation von Vorstellungsgesprächen.\nZeitraum: Sommer. Unvergütetes Pflichtpraktikum.\nBewerbung an: hr@medienhaus-berlin.de."
+      },
+      "i": {
+        "title": "Reitclub Grünes Tal – Sommercamp",
+        "body": "Zweiwöchiger Intensiv-Reitkurs für Kinder und Jugendliche im Alter von 12 bis 16 Jahren in den Sommerferien. Täglich Reitunterricht, Pflege der Pferde und gemeinsame Ausflüge in die Natur.\nPreis inklusive Verpflegung tagsüber.\nInfos unter: www.reitclub-gruenestal.de."
+      },
+      "j": {
+        "title": "Digital-Schulung für Senioren",
+        "body": "Keine Angst vor der Technik! Wir zeigen älteren Menschen Schritt für Schritt, wie sie ihr Smartphone für WhatsApp, Fotos und Internet nutzen. Keine Vorkenntnisse erforderlich. Geduldiges Lernen in kleinen Gruppen.\nKurszeiten: Mo. und Mi. jeweils von 10:00 bis 11:30 Uhr.\nAnmeldung im Stadtteilzentrum, Tel. 0221-55 66 77."
+      },
+      "k": {
+        "title": "Hotel AlpenSPA",
+        "body": "Wellness und Entspannung in den Bergen für Paare. Großzügiger Sauna- und Poolbereich, Massageangebote, Yoga am Morgen. Ruhige Lage am Waldrand.\nWochenend-Paket: 2 Übernachtungen inklusive Halbpension.\nBuchung unter Tel. 08321-77 44 0."
+      },
+      "l": {
+        "title": "Restaurant Schnitzelparadies",
+        "body": "Traditionelle deutsche Küche in gemütlicher Atmosphäre. Große Auswahl an Schnitzeln, Steaks und frischen Salaten. Ideal für Familienfeiern am Sonntag.\nGeöffnet täglich ab 17:00 Uhr. Mittwochs Ruhetag.\nReservierung erbeten: Tel. 0711-33 44 55."
+      }
+    },
+    "answers": {
+      "11": "a",
+      "12": "c",
+      "13": "b",
+      "14": "d",
+      "15": "e",
+      "16": "h",
+      "17": "x",
+      "18": "f",
+      "19": "g",
+      "20": "i"
+    },
+    "explanations": {
+      "11": "Café Hauptbahnhof: Frühstück/Brunch am Sonntag, direkt im Bahnhofsgebäude",
+      "12": "ProLingua: Deutsch A1 für Anfänger, jeden Samstag -wochenende-",
+      "13": "Ferienwohnung Seeblick: Direkt am See, für 2 Personen, ideal für ein langes Wochenende",
+      "14": "Max Schmidt: Gitarrenlehrer für Anfänger, kommt direkt nach Hause -Privatlehrer-",
+      "15": "Physio-Zentrum Mitte: Nackenschmerzen/Rückenschmerzen, öffnet bereits um 7:00 Uhr -frühen Morgen-",
+      "16": "Praktikum HR: Wirtschaft/BWL-Studierende, Sommer, unvergütetes Pflichtpraktikum",
+      "17": "İlan j'deki akıllı telefon kursu yaşlılar için uygun görünse de sadece sabah 10:00-11:30 arasında yapılıyor. Durum 17'deki kişi ise öğleden sonra veya akşam kursu arıyor. Bu yüzden cevap X'tir.",
+      "18": "Umzüge Blitz & Sicher: Umzugsunternehmen, Full-Service inklusive Montage -Abbau ve Aufbau von Möbeln-",
+      "19": "Spanischkurs VivaMadrid: A1 Einsteiger ohne Vorkenntnisse, Di und Do 18:30-20:00 -Abendkurs unter der Woche-",
+      "20": "Reitclub Grünes Tal: 2-wöchiger Kurs in den Sommerferien, für Jugendliche von 12-16 Jahren"
+    }
+  },
+  {
+    "id": "lese_3_3",
+    "title": "Freizeit & Dienstleistungen",
+    "emoji": "🌟",
+    "type": "teil3",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "situations": {
+      "11": "Sie möchten am Samstagabend mit Freunden ein neues Lokal ausprobieren, das frische Meeresfrüchte und Fischgerichte in der Innenstadt anbietet.",
+      "12": "Ihr Bekannter möchte sich als Hochzeitsfotograf selbstständig machen und sucht jemanden, der ihm eine moderne und professionelle Website baut.",
+      "13": "Die Tochter Ihrer Kollegin möchte in den Sommerferien ein einwöchiges Praktikum auf einem Bauernhof machen, um den Umgang mit Tieren zu lernen.",
+      "14": "Ihr Bruder studiert Maschinenbau ve bu yaz zorunlu stajı için (Pflichtpraktikum) üretim yapan büyük bir fabrikada teknik deneyim arıyor.",
+      "15": "Ihre Freundin leidet unter starken Zahnschmerzen und sucht eine Zahnarztpraxis, die auch samstags für Notfälle geöffnet hat.",
+      "16": "Ihr Nachbar hat zwei kleine Kinder (3 und 5 Jahre alt) und sucht einen Babysitter, der flexibel am frühen Abend unter der Woche auf sie aufpassen kann.",
+      "17": "Sie suchen für Sonntagabend ein gemütliches Restaurant mit italienischer Küche, weil Sie mit Ihrem Partner Pizza essen möchten.",
+      "18": "Ihre Schwester spricht schon gut Französisch (B1) ve iş hayatında müşterilerle telefonda rahatça konuşabilmek için akşamları bir kursa gitmek istiyor.",
+      "19": "Ihr Cousin möchte lernen, wie man professionelle Videos mit dem Smartphone schneidet, und sucht einen Einsteiger-Workshop am Wochenende.",
+      "20": "Die Mutter Ihres Freundes sucht eine professionelle Beraterin, die ihr bei der Erstellung von Bewerbungsunterlagen und der Karriereplanung hilft."
+    },
+    "ads": {
+      "a": {
+        "title": "Meeresbrise – Das Fischrestaurant",
+        "body": "Genießen Sie täglich frischen Fisch, Muscheln und feine Meeresfrüchte direkt im Herzen der Stadt. Moderne Küche, gemütliche Atmosphäre und eine wöchentlich wechselnde Karte.\nÖffnungszeiten: Di.–Sa. 17:30–23:00 Uhr, So. und Mo. Ruhetag.\nReservierung unter Tel. 030-55 44 33."
+      },
+      "b": {
+        "title": "PixelDesign – Webseiten für Gründer",
+        "body": "Wir erstellen moderne, schnelle ve mobil uyumlu web siteleri für kleine Unternehmen, Praxen ve Freiberufler. Perfekt für Fotografen, Künstler ve Handwerker, die ihre Arbeit online präsentieren möchten.\nKostenlose Erstberatung: info@pixeldesign-web.de."
+      },
+      "c": {
+        "title": "Praktikum bei Krauss-Maffei Industrie",
+        "body": "Wir bieten Studentinnen und Studenten des Maschinenbaus oder der Elektrotechnik die Möglichkeit, ein 2- bis 6-monatiges Pflichtpraktikum in unserer Produktionshalle zu absolvieren.\nBeginn: flexibel im Sommer. Bewerbung an: karriere@krauss-industrie.de."
+      },
+      "d": {
+        "title": "Zahnarztpraxis Dr. Meier & Team",
+        "body": "Moderne Zahnmedizin für die ganze Familie. Wir bieten Prophylaxe, ästhetische Füllungen und schmerzfreie Behandlungen.\nUnsere Sprechzeiten: Mo.–Fr. 8:00–18:00 Uhr. Mittwochs bis 20:00 Uhr. Bitte vereinbaren Sie vorab einen Termin. Tel. 089-11 22 33."
+      },
+      "e": {
+        "title": "Babysitter-Service „Kunterbunt“",
+        "body": "Suchen Sie eine zuverlässige Betreuung für Ihre Kleinen? Unsere erfahrenen Babysitter kommen direkt zu Ihnen nach Hause. Flexibler Einsatz am Nachmittag oder frühen Abend (Mo.–Fr.). Alle Betreuer sind im Umgang mit Kleinkindern geschult.\nKontakt: Tel. 069-77 88 99."
+      },
+      "f": {
+        "title": "Pizzeria Roma – Original aus dem Steinofen",
+        "body": "Erleben Sie ein Stück Italien mitten in der Stadt! Große Auswahl an traditioneller Pizza, Pasta und feinen Desserts. Ideal für einen romantischen Abend zu zweit oder Familienfeiern.\nGeöffnet: Fr.–So. 12:00–22:30 Uhr, Mo.–Do. Ruhetag.\nMarktstraße 12, Tel. 0221-33 44 55."
+      },
+      "g": {
+        "title": "Wochenend-Kurs: Videoschnitt am Smartphone",
+        "body": "Lernen Sie in unserem zweitägigen Kompaktseminar (Sa. & So. 10:00–15:00 Uhr), wie Sie mit einfachen Apps professionelle Videos aufnehmen, schneiden und vertonen können. Keine Vorkenntnisse nötig!\nAnmeldung online: www.medien-werkstatt.de."
+      },
+      "h": {
+        "title": "Karriereberatung Dr. Sabine Frank",
+        "body": "Sie suchen eine neue berufliche Herausforderung oder möchten Ihre Bewerbungsmappe optimieren? Ich helfe Ihnen professionell bei der Erstellung von Lebenslauf und Anschreiben sowie bei der Vorbereitung auf Vorstellungsgespräche.\nTermine nach Vereinbarung: frank@karriere-coaching.de."
+      },
+      "i": {
+        "title": "Business Französisch – Abendkurs (B1/B2)",
+        "body": "Intensivkurs für Berufstätige mit soliden Grundkenntnissen. Schwerpunkt: Professionelles Telefonieren, E-Mail-Korrespondenz und Verhandlungsführung mit internationalen Geschäftspartnern.\nKurszeiten: Di. und Do. 19:00–20:30 Uhr. Dauer: 8 Wochen.\nInfos: www.sprachen-institut.de."
+      },
+      "j": {
+        "title": "Ferienhof Sonnenblume – Sommercamp",
+        "body": "Zweiwöchiger Aufenthalt für Kinder von 8 bis 14 Jahren in den Sommerferien. Erleben Sie den Alltag auf einem echten Bauernhof: Fütterung der Tiere, Reiten, Traktor fahren und gemeinsame Spiele in der Natur.\nPreis inklusive Vollpension: www.ferienhof-sonnenblume.de."
+      },
+      "k": {
+        "title": "Restaurant Schnitzelparadies",
+        "body": "Traditionelle deutsche Küche in gemütlicher Atmosphäre. Große Auswahl an Schnitzeln, Steaks und frischen Salaten. Ideal für Familienfeiern am Sonntag.\nGeöffnet täglich ab 17:00 Uhr. Mittwochs Ruhetag.\nReservierung erbeten: Tel. 0711-33 44 55."
+      },
+      "l": {
+        "title": "Fotostudio Lichtblick",
+        "body": "Professionelle Fotografie für jeden Anlass! Wir machen Hochzeitsfotos, Familienporträts und Bewerbungsbilder in unserem modernen Studio oder direkt an Ihrer Event-Location.\nTermine online buchen: www.fotostudio-lichtblick.de."
+      }
+    },
+    "answers": {
+      "11": "a",
+      "12": "b",
+      "13": "x",
+      "14": "c",
+      "15": "x",
+      "16": "e",
+      "17": "f",
+      "18": "i",
+      "19": "g",
+      "20": "h"
+    },
+    "explanations": {
+      "11": "Meeresbrise: Fisch und Meeresfrüchte, Innenstadt/Herz der Stadt, Samstagabend geöffnet",
+      "12": "PixelDesign: Baut Webseiten speziell für Gründer, Fotografen und Freiberufler",
+      "13": "İlan j'deki Bauernhof çocukları kabul ediyor ancak 2 haftalık yatılı \"Sommercamp\" sunuyor. Durum 13'teki kız ise sadece 1 haftalık bir \"Praktikum\" -staj- arıyor. Bu yüzden tam uyuşan bir ilan yoktur, cevap X'tir.",
+      "14": "Krauss-Maffei: Maschinenbau-Studierende, Sommer, Pflichtpraktikum, Produktion/Fabrik",
+      "15": "İlan d'deki diş hekimi sadece hafta içi açık (Mo-Fr). Durum 15'teki kişi ise Cumartesi günü (samstags) açık olan bir acil klinik arıyor. Bu yüzden cevap X'tir.",
+      "16": "Babysitter-Service Kunterbunt: Kleinkinder için uygun, Mo-Fr -unter der Woche-, frühen Abend",
+      "17": "Pizzeria Roma: Italienisch/Pizza, Sonntagabend geöffnet, ideal für Paare",
+      "18": "Business Französisch: Ab B1, professionelles Telefonieren, Di ve Do 19:00-20:30 -Abendkurs-",
+      "19": "Videoschnitt am Smartphone: Smartphone ile video kesme, Einsteiger-Workshop, Sa & So -Wochenende-",
+      "20": "Dr. Sabine Frank: Karriereberatung, Erstellung von Bewerbungsunterlagen/Lebenslauf"
+    }
+  },
+  {
+    "id": "lese_3_4",
+    "title": "Freizeit & Dienstleistungen",
+    "emoji": "🌟",
+    "type": "teil3",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "situations": {
+      "11": "Sie möchten am Samstagvormittag mit einem Freund eine neue Sportart ausprobieren, die man mit Schlägern zu zweit oder zu viert in einer Halle spielt.",
+      "12": "Ihr Bekannter sucht für seine Werkstatt einen Experten, der ihm hilft, die Buchhaltung und die jährliche Steuererklärung professionell zu erledigen.",
+      "13": "Die Tochter Ihrer Freundin ist 16 Jahre alt und sucht in den Sommerferien ein unbezahltes, mehrwöchiges Praktikum im kreativen Bereich einer Filmproduktion.",
+      "14": "Ihr Bruder hat sich ein älteres Trekkingrad gekauft und sucht einen Wochenendkurs, in dem er lernt, kleinere Reparaturen und die Wartung selbst durchzuführen.",
+      "15": "Ihre Kollegin zieht nächsten Monat um und sucht eine Firma, die nicht nur ihre Möbel transportiert, sondern auch die alte Wohnung komplett sauber macht.",
+      "16": "Ihr Nachbar sucht für seine 80-jährige Mutter eine geduldige Person, die zweimal pro Woche am Vormittag mit ihr spazieren geht und im Haushalt hilft.",
+      "17": "Sie suchen für Sonntagmittag ein Restaurant mit asiatischer Küche, um mit Freunden ausgiebig vietnamesisch oder thailändisch zu essen.",
+      "18": "Ihr Cousin arbeitet im Büro, spricht bereits gut Englisch (B1) und möchte einen intensiven Abendkurs unter der Woche besuchen, um geschäftliche E-Mails fehlerfrei schreiben zu lernen.",
+      "19": "Die Mutter Ihres Freundes möchte im Urlaub fit bleiben und sucht ein Hotel in den Bergen, das tägliche Yoga-Kurse und einen großen Pool anbietet.",
+      "20": "Ihr Kollege möchte im Winter nach Spanien reisen und sucht einen Spanischkurs für Anfänger, der ausschließlich am frühen Abend stattfindet."
+    },
+    "ads": {
+      "a": {
+        "title": "Padel-City Berlin – Spiel und Spaß",
+        "body": "Entdecken Sie den neuen Trendsport! Padel-Tennis wird mit speziellen Schlägern zu zweit oder zu viert auf einem durch Glaswände begrenzten Feld gespielt. Unsere moderne Halle ist täglich geöffnet. Kostenloser Schlägerverleih für Einsteiger jeden Samstag von 9:00 bis 12:00 Uhr.\nInfos und Platzbuchung: www.padelcity-berlin.de."
+      },
+      "b": {
+        "title": "Steuerberatung und Buchhaltung Krause",
+        "body": "Wir übernehmen die komplette Finanzbuchhaltung, Lohnabrechnung und die Erstellung von Steuererklärungen für Kleinunternehmer, Handwerker und Freiberufler. Zuverlässig, schnell und professionell.\nKontakt für ein Erstgespräch: Tel. 030-44 55 66."
+      },
+      "c": {
+        "title": "Fahrrad-Werkstatt „Do It Yourself“",
+        "body": "Haben Sie ein gebrauchtes Fahrrad gekauft und möchten lernen, es selbst zu reparieren? In unserem zweitägigen Samstags- und Sonntagsworkshop zeigen wir Ihnen, wie Sie Bremsen einstellen, Reifen wechseln und die Kette pflegen.\nKompaktkurs am Wochenende, jeweils 10:00–15:00 Uhr. Anmeldung: info@diy-bike.de."
+      },
+      "d": {
+        "title": "Umzüge & Reinigungsservice „Rundum Sorglos“",
+        "body": "Planen Sie Ihren Umzug? Unser Team bietet den kompletten Service: Wir transportieren Ihre Möbel sicher in das neue Zuhause. Zusätzlich übernehmen wir die professionelle Endreinigung Ihrer alten Wohnung inklusive Übergabegarantie!\nKostenloses Angebot anfordern: www.rundum-sorglos-umzuege.de."
+      },
+      "e": {
+        "title": "Alltagsassistenz für Senioren – Herz & Hand",
+        "body": "Wir unterstützen ältere Menschen im Alltag. Unsere geschulten Mitarbeiter helfen beim Einkaufen, begleiten bei Spaziergängen oder helfen bei leichten Aufgaben im Haushalt. Flexible Einsätze nach Absprache, idealerweise zweimal wöchentlich am Vormittag.\nKontakt: Tel. 069-88 99 00."
+      },
+      "f": {
+        "title": "Business English – E-Mail & Korrespondenz",
+        "body": "Intensivkurs für Berufstätige mit soliden Vorkenntnissen (ab Niveau B1). Lernen Sie, professionelle E-Mails, Angebote und Berichte auf Englisch fehlerfrei zu verfassen.\nKurszeiten: Di. und Do. 18:30–20:00 Uhr. Dauer: 6 Wochen.\nAnmeldung: www.city-languages.de."
+      },
+      "g": {
+        "title": "Hotel Alpenblick – Wellness & Aktiv",
+        "body": "Genießen Sie Ihren Urlaub im wunderschönen Allgäu! Unser familiengeführtes Hotel bietet einen großen beheizten Innenpool, verschiedene Saunen und ein tägliches Sportprogramm inklusive Yoga am Morgen mitten in der Natur.\nBuchung und Angebote: info@alpenblick-hotel.de."
+      },
+      "h": {
+        "title": "Spanischkurs VivaMadrid – Abendkurs",
+        "body": "Lernen Sie Spanisch von Anfang an! Unser Kurs A1 richtet sich an Teilnehmende ohne Vorkenntnisse. Schwerpunkt liegt auf der Alltagssprache für den nächsten Urlaub.\nKurszeiten: Jeden Montag und Mittwoch von 18:00 bis 19:30 Uhr. Kursstart: 1. November.\nAnmeldung unter Tel. 089-22 33 44."
+      },
+      "i": {
+        "title": "Asia Palace – Spezialitäten aus Fernost",
+        "body": "Erleben Sie die kulinarische Vielfalt Asiens in unserem gemütlichen Restaurant in Bahnhofsnähe. Wir bieten authentische Gerichte aus Vietnam, Thailand und China. Große Auswahl an Mittagsmenüs.\nÖffnungszeiten: Di.–Sa. 12:00–22:00 Uhr. Sonntags und montags geschlossen.\nKölner Str. 45, Tel. 0211-77 88 99."
+      },
+      "j": {
+        "title": "Praktikum beim Rhein-Filmwerk",
+        "body": "Du interessierst dich für die Arbeit hinter der Kamera? Wir bieten Studentinnen und Studenten der Medien- und Filmwissenschaft ein dreimonatiges, unvergütetes Pflichtpraktikum im Bereich Produktion und Schnitt an.\nBeginn: flexibel zwischen Mai und September. Bewerbung an: jobs@rhein-filmwerk.tv."
+      },
+      "k": {
+        "title": "Tennisclub Grün-Weiß e.V.",
+        "body": "Spielen Sie Tennis auf unseren wunderschönen Außenplätzen mitten im Grünen! Wir bieten Einzeltraining und Gruppenkurse für Erwachsene und Kinder an. Geöffnet von Mai bis Oktober, täglich ab 8:00 Uhr bis zum Einbruch der Dunkelheit.\nInfos unter Tel. 0711-33 44 55."
+      },
+      "l": {
+        "title": "Praktikum im Grafikstudio „KreativKopf“",
+        "body": "Wir bieten Schülern und Jugendlichen ab 15 Jahren die Möglichkeit, während der Schulferien ein einwöchiges Praktikum im Bereich Grafikdesign und Illustration zu absolvieren. Lerne den Alltag in einer Kreativagentur kennen!\nBewerbung per E-Mail an: kreativ@studio-kopf.de."
+      }
+    },
+    "answers": {
+      "11": "a",
+      "12": "b",
+      "13": "x",
+      "14": "c",
+      "15": "d",
+      "16": "e",
+      "17": "x",
+      "18": "f",
+      "19": "g",
+      "20": "h"
+    },
+    "explanations": {
+      "11": "Padel-City Berlin: Schläger/Raket oyunu, iki veya dört kişi oynanıyor, kapalı salon/Halle, Cumartesi sabahı açık",
+      "12": "Steuerberatung Krause: Buchhaltung ve Steuererklärung hizmeti veriyor",
+      "13": "İlan j'deki film prodüksiyon şirketi staj sunuyor ancak bu üniversite öğrencilerine yönelik zorunlu bir staj (\"Pflichtpraktikum für Studierende\"). Durum 13'teki kişi ise 16 yaşında bir lise öğrencisi. İlan l'deki staj grafik tasarımı üzerine, film üzerine değil. Bu yüzden tam uyuşan ilan yoktur, cevap X'tir.",
+      "14": "Fahrrad-Werkstatt: İkinci el/eski bisiklet tamiri ve bakımı, Cumartesi-Pazar hafta sonu kursu",
+      "15": "Umzüge & Reinigungsservice: Hem mobilya taşımacılığı hem de eski evin temizliğini (Endreinigung) birlikte yapıyor",
+      "16": "Alltagsassistenz: Yaşlılar için eşlik, yürüyüş ve ev işlerine yardım, haftada 2 kez sabahları",
+      "17": "İlan i'deki Asya restoranı vietnamesisch/thailändisch yemekler sunsa da Pazar günü kapalıdır (\"Sonntags geschlossen\"). Durumda ise spesifik olarak Pazar günü öğle yemeği arandığı için cevap X'tir.",
+      "18": "Business English: B1 seviyesinden başlıyor, iş e-postaları üzerine, Salı-Perşembe 18:30-20:00 arası akşam kursu",
+      "19": "Hotel Alpenblick: Dağlarda/Allgäu, büyük bir havuz barındırıyor ve günlük sabah yogası sunuyor",
+      "20": "Spanischkurs VivaMadrid: A1 başlangıç seviyesi, Pazartesi-Çarşamba 18:00-19:30 arası erken akşam kursu"
+    }
+  },
+  {
+    "id": "lese_3_5",
+    "title": "Freizeit & Dienstleistungen",
+    "emoji": "🌟",
+    "type": "teil3",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "situations": {
+      "11": "Sie möchten am Samstagabend mit Freunden ein neues Restaurant ausprobieren, das scharfe mexikanische Gerichte wie Tacos oder Fajitas in Bahnhofsnähe anbietet.",
+      "12": "Ihr Bekannter zieht in eine neue Wohnung und sucht jemanden, der ihm am Wochenende hilft, seine Lampen anzuschließen und Regale an die Wand zu bohren.",
+      "13": "Die Tochter Ihrer Nachbarin ist 17 Jahre alt und möchte in den Sommerferien ein zweiwöchiges, unbezahltes Praktikum im Bereich Fotografie und Bildbearbeitung machen.",
+      "14": "Ihr Bruder besitzt ein älteres Auto und sucht einen Wochenendkurs, in dem Anfänger lernen, den Ölwechsel und kleinere Reparaturen selbst zu machen.",
+      "15": "Ihre Kollegin möchte in ihrer Freizeit ehrenamtlich (ohne Geld) im Umweltschutz aktiv werden und sucht ein Projekt, bei dem man direkt in der Natur Bäume pflanzt.",
+      "16": "Ihr Nachbar hat einen 10 Jahre alten Hund und sucht eine zuverlässige Person, die zweimal pro Woche am Nachmittag mit dem Hund im Park spazieren geht.",
+      "17": "Sie suchen für Sonntagmittag ein Lokal mit traditioneller italienischer Küche, um mit Ihrer Partnerin gemütlich Pizza oder Pasta zu essen.",
+      "18": "Ihr Cousin spricht bereits gut Deutsch (B1) und möchte einen intensiven Kurs am frühen Abend besuchen, um das freie Sprechen und Diskutieren für den Alltag zu üben.",
+      "19": "Die Mutter Ihres Freundes möchte lernen, wie man eigene Kleidungsstücke näht, und sucht einen Einsteiger-Workshop am Samstag oder Sonntag.",
+      "20": "Ihr Kollege möchte nächstes Jahr nach Frankreich reisen, hat keine Vorkenntnisse und sucht einen Französischkurs, der ausschließlich am Samstagvormittag stattfindet."
+    },
+    "ads": {
+      "a": {
+        "title": "Viva México – Tacos & Tequila",
+        "body": "Erleben Sie die feurige Küche Mexikos direkt im Stadtzentrum, nur 5 Minuten zu Fuß vom Hauptbahnhof entfernt! Wir bieten hausgemachte Tacos, scharfe Fajitas und eine große Auswahl an vegetarischen Spezialitäten.\nÖffnungszeiten: Di.–Sa. 17:00–23:00 Uhr. Sonntags und montags geschlossen.\nReservierung erbeten unter Tel. 030-99 88 77."
+      },
+      "b": {
+        "title": "Handwerkerservice „Der Bohrmeister“",
+        "body": "Sie haben neue Möbel, Regale oder Lampen gekauft und keine Zeit für die Montage? Unser professionelles Team übernimmt alle Bohr- und Montagearbeiten in Ihrer Wohnung. Schnell, sauber und zuverlässig.\nEinsatzzeiten: Mo.–Fr. 8:00–17:00 Uhr. Kontakt: info@bohrmeister-berlin.de."
+      },
+      "c": {
+        "title": "Kfz-Werkstatt „Selbst ist der Mann / die Frau“",
+        "body": "Möchten Sie Geld sparen und Ihr Auto selbst reparieren lernen? In unserem zweitägigen Workshop am Samstag und Sonntag (jeweils 9:00–14:00 Uhr) zeigen wir Anfängern, wie man den Ölwechsel macht, Zündkerzen tauscht und Bremsen kontrolliert.\nAnmeldung und Infos: www.kfz-selbsthilfe.de."
+      },
+      "d": {
+        "title": "Grünes Berlin e.V. – Aktiv für die Umwelt",
+        "body": "Möchten Sie sich ehrenamtlich engagieren? Unser Verein organisiert regelmäßige Naturschutzprojekte in den Wäldern rund um Berlin. Jeden Samstag pflanzen wir gemeinsam neue Bäume und pflegen die Natur. Die Teilnahme ist freiwillig und unbezahlt.\nTreffpunkt: Samstag 10:00 Uhr am Bahnhof Wannsee. Infos: www.gruenes-berlin.de."
+      },
+      "e": {
+        "title": "Hundesitter-Service „Vier Pfoten“",
+        "body": "Suchen Sie eine liebevolle Betreuung für Ihren vierbeinigen Freund? Wir begleiten Ihren Hund bei ausgiebigen Spaziergängen im Park, füttern ihn und sorgen für Beschäftigung. Flexible Einsätze nach Absprache, idealerweise am Nachmittag unter der Woche.\nKontakt: Tel. 069-44 55 66."
+      },
+      "f": {
+        "title": "Konversationstraining Deutsch (B1/B2)",
+        "body": "Möchten Sie sich im Alltag sicherer auf Deutsch unterhalten? In diesem Intensivkurs üben wir das freie Sprechen, Diskutieren über aktuelle Themen und korrigieren Ihre Aussprache. Keine Grammatikprüfungen, nur reine Praxis!\nKurszeiten: Jeden Montag und Mittwoch von 17:30 bis 19:00 Uhr. Dauer: 4 Wochen.\nInfos unter: www.sprachen-zentrum.de."
+      },
+      "g": {
+        "title": "Näh-Werkstatt „Kreativer Faden“",
+        "body": "Haben Sie Lust, Ihre eigene Kleidung zu gestalten? In unserem zweitägigen Wochenend-Workshop lernen Einsteiger den richtigen Umgang mit der Nähmaschine, das Lesen von Schnittmustern und das Nähen einfacher Röcke oder Taschen.\nKurszeiten: Sa. & So. jeweils 10:00–16:00 Uhr. Anmeldung: info@kreativer-faden.de."
+      },
+      "h": {
+        "title": "Sprachschule Lingua – Französisch am Wochenende",
+        "body": "Wochenendkurs Französisch A1 für absolute Anfänger ohne Vorkenntnisse. Bereiten Sie sich entspannt auf Ihren nächsten Urlaub vor. Lernen Sie die wichtigsten Vokabeln und Redewendungen für den Alltag.\nKursdauer: 8 Wochen, jeden Samstag von 9:30 bis 12:30 Uhr.\nAnmeldung: www.lingua-schule.de."
+      },
+      "i": {
+        "title": "Pizzeria Bella Italia",
+        "body": "Genießen Sie traditionelle italienische Pizza aus dem Steinofen und frische, hausgemachte Pasta in familiärer Atmosphäre. Große Sommerterrasse im Innenhof. Ideal für ein gemütliches Essen am Wochenende.\nÖffnungszeiten: Di.–Sa. 12:00–15:00 Uhr und 17:30–22:00 Uhr. Sonntags Ruhetag.\nMarktstraße 12, Tel. 0221-11 22 33."
+      },
+      "j": {
+        "title": "Praktikum im Fotostudio „Lichtblick“",
+        "body": "Wir bieten Schülerinnen und Schülern ab 15 Jahren die Möglichkeit, während der Schulferien ein zweiwöchiges Praktikum im Bereich digitale Fotografie und Bildbearbeitung am Computer zu absolvieren. Lerne den Alltag eines Profi-Fotografen kennen!\nKurze Bewerbung per E-Mail an: praktikum@studio-lichtblick.de."
+      },
+      "k": {
+        "title": "Praktikum beim Medienhaus Berlin",
+        "body": "Wir bieten Studentinnen und Studenten der Medienwissenschaften ein dreimonatiges, unvergütetes Pflichtpraktikum im Bereich Online-Redaktion und Social Media an.\nBeginn: flexibel im Sommer. Bewerbung an: jobs@medienhaus-berlin.de."
+      },
+      "l": {
+        "title": "Restaurant Schnitzelparadies",
+        "body": "Traditionelle deutsche Küche in gemütlicher Atmosphäre. Große Auswahl an Schnitzeln, Steaks und frischen Salaten. Ideal für Familienfeiern am Sonntagmittag.\nGeöffnet täglich ab 11:30 Uhr. Mittwochs Ruhetag.\nReservierung erbeten: Tel. 0711-33 44 55."
+      }
+    },
+    "answers": {
+      "11": "a",
+      "12": "x",
+      "13": "j",
+      "14": "c",
+      "15": "d",
+      "16": "e",
+      "17": "x",
+      "18": "f",
+      "19": "g",
+      "20": "h"
+    },
+    "explanations": {
+      "11": "Viva México: Mexikanisch, Tacos/Fajitas, in Bahnhofsnähe, Samstagabend geöffnet",
+      "12": "İlan b'deki el işleri servisi montaj ve delme işlerini yapıyor ancak çalışma günleri sadece hafta içidir (\"Mo.–Fr.\"). Durum 12'deki kişi ise hafta sonu (\"am Wochenende\") yardım aradığı için bu ilan uygun değildir. Cevap X'tir.",
+      "13": "Fotostudio Lichtblick: Okul öğrencileri/gençler için uygun, 2 haftalık tatil stajı, Fotografie/Bildbearbeitung",
+      "14": "Kfz-Werkstatt: Eski araba tamiri/bakımı/yağ değişimi, Anfänger için uygun hafta sonu kursu",
+      "15": "Grünes Berlin e.V.: Ehrenamtlich/unbezahlt, Umweltschutz, Cumartesi günleri ağaç dikme eylemi",
+      "16": "Hundesitter-Service Vier Pfoten: Köpek bakımı ve parkta gezdirme, öğleden sonra uygun",
+      "17": "İlan i'deki İtalyan restoranı pizza ve makarna sunsa da Pazar günleri kapalıdır (\"Sonntags Ruhetag\"). Durumda ise Pazar günü öğle yemeği arandığı için cevap X'tir.",
+      "18": "Konversationstraining: B1 seviyesine uygun, konuşma ve tartışma odaklı, Pazartesi-Çarşamba 17:30-19:00 arası erken akşam kursu",
+      "19": "Näh-Werkstatt Kreativer Faden: Kendi kıyafetini dikmeyi öğrenme, Einsteiger için Cumartesi ve Pazar hafta sonu kursu",
+      "20": "Französisch am Wochenende: A1 başlangıç seviyesi/Vorkenntnisse yok, Cumartesi sabahı 9:30-12:30 arası kurs"
+    }
+  },
+  {
+    "id": "lese_3_6",
+    "title": "Freizeit & Dienstleistungen",
+    "emoji": "🌟",
+    "type": "teil3",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "situations": {
+      "11": "Sie möchten am Samstagabend mit Freunden ein neues Restaurant ausprobieren, das scharfe thailändische Suppen und Currys in der Innenstadt anbietet.",
+      "12": "Ihr Bekannter sucht für seine Katze eine zuverlässige Betreuung, die während seines zweiwöchigen Urlaubs täglich zu ihm nach Hause kommt, um das Tier zu füttern.",
+      "13": "Die Tochter Ihrer Kollegin ist 16 Jahre alt und möchte in den Sommerferien ein unbezahltes, dreiwöchiges Praktikum im Bereich Mode und Textildesign machen.",
+      "14": "Ihr Bruder hat sich eine gebrauchte Segelyacht gekauft und sucht einen Wochenendkurs für Anfänger, um die theoretischen Grundlagen der Navigation zu lernen.",
+      "15": "Ihre Kollegin zieht in eine andere Stadt und sucht ein Umzugsunternehmen, das am kommenden Sonntag ihre Möbel transportiert und gleichzeitig Umzugskisten bereitstellt.",
+      "16": "Ihr Nachbar hat einen großen Garten und sucht eine Firma, die am Wochenende kommt, um die Bäume zu schneiden und den Rasen komplett neu anzulegen.",
+      "17": "Sie suchen für Sonntagmittag ein gemütliches Café oder Restaurant, das ein großes vegetarisches Brunch-Buffet in der Nähe des Parks anbietet.",
+      "18": "Ihr Cousin arbeitet im internationalen Vertrieb, spricht bereits gut Deutsch (B1) und möchte einen intensiven Abendkurs besuchen, um das Verhandeln mit Kunden zu üben.",
+      "19": "Die Mutter Ihres Freundes möchte im Urlaub entspannen und sucht ein Hotel an der Ostsee, das professionelle Massagen, eine Sauna und ein tägliches Frühstück bietet.",
+      "20": "Ihr Kollege möchte nächstes Jahr nach Italien reisen, hat keine Vorkenntnisse und sucht einen Italienischkurs, der ausschließlich am frühen Freitagnachmittag stattfindet."
+    },
+    "ads": {
+      "a": {
+        "title": "Bangkok Flavours – Thailändische Küche",
+        "body": "Erleben Sie die echten Aromen Thailands mitten im Stadtzentrum! Wir bieten scharfe Suppen, traditionelle Currys und frische Wok-Gerichte in einem modernen Ambiente.\nÖffnungszeiten: Di.–Sa. 17:30–23:00 Uhr. Sonntags und montags geschlossen.\nReservierung dringend empfohlen unter Tel. 030-11 22 33."
+      },
+      "b": {
+        "title": "Katzen-Sitting „Glückliche Pfoten“",
+        "body": "Gehen Sie entspannt in den Urlaub! Unser professioneller Service betreut Ihre Katze direkt in ihrer gewohnten Umgebung. Wir kommen einmal oder zweimal täglich zu Ihnen nach Hause, füttern das Tier, reinigen das Katzenklo und nehmen uns Zeit für Streicheleinheiten.\nInfos und Preise unter: www.glueckliche-pfoten.de."
+      },
+      "c": {
+        "title": "Segelschule Nord – Navigation für Einsteiger",
+        "body": "Möchten Sie die Grundlagen des Segelns erlernen? In unserem zweitägigen Kompaktkurs am Samstag und Sonntag (jeweils 10:00–15:00 Uhr) lernen Anfänger alles über Seekarten, Wetterkunde und die theoretische Navigation auf dem Wasser.\nAnmeldung: info@segelschule-nord.de."
+      },
+      "d": {
+        "title": "Umzüge & Logistik „Fix & Fertig“",
+        "body": "Planen Sie Ihren Umzug? Unser Team bietet den kompletten Service auch am Wochenende! Wir transportieren Ihre Möbel sicher an den neuen Wohnort. Auf Wunsch liefern wir Ihnen vorab die passende Anzahl an stabilen Umzugskisten direkt nach Hause.\nKostenloses Angebot: Tel. 069-44 55 66."
+      },
+      "e": {
+        "title": "Gartenservice „Grüner Daumen“",
+        "body": "Wir bringen Ihren Garten auf Vordermann! Unser Team übernimmt den professionellen Baum- und Heckenschnitt, die Rasenpflege sowie die Neuanlage von Gartenflächen.\nArbeitszeiten: Montag bis Freitag von 8:00 bis 16:30 Uhr.\nKontakt für eine Beratung vor Ort: info@gruener-daumen.de."
+      },
+      "f": {
+        "title": "Verhandlungstraining Deutsch (B1/B2)",
+        "body": "Möchten Sie im Beruf sicherer mit Kunden und Geschäftspartnern verhandeln? In diesem Intensivkurs üben wir gezielt Verkaufsgespräche, das Lösen von Konflikten und wichtige Redewendungen für den internationalen Vertrieb.\nKurszeiten: Jeden Dienstag und Donnerstag von 19:00 bis 20:30 Uhr. Dauer: 4 Wochen.\nInfos unter: www.business-sprachen.de."
+      },
+      "g": {
+        "title": "Ostsee-Hotel „Meerblick & SPA“",
+        "body": "Verbringen Sie erholsame Tage direkt am Strand! Unser Hotel bietet moderne Zimmer inklusive einem reichhaltigen Frühstücksbuffet. Entspannen Sie in unserem großen Wellnessbereich mit finnischer Sauna, Dampfbad und einem vielfältigen Angebot an professionellen Massagen.\nAngebote und Buchung: info@meerblick-hotel.de."
+      },
+      "h": {
+        "title": "Sprachschule Lingua – Italienisch am Nachmittag",
+        "body": "Wochenendkurs Italienisch A1 für absolute Anfänger ohne Vorkenntnisse. Bereiten Sie sich entspannt auf Ihren nächsten Urlaub vor. Lernen Sie die wichtigsten Vokabeln und Redewendungen für den Alltag.\nKursdauer: 8 Wochen, jeden Samstag von 14:00 bis 17:00 Uhr.\nAnmeldung: www.lingua-schule.de."
+      },
+      "i": {
+        "title": "Café Parkidylle – Veggie Brunch",
+        "body": "Genießen Sie unser großes, rein vegetarisches und veganes Brunch-Buffet jeden Sonntag von 10:00 bis 14:00 Uhr. Frische Salate, warme Speisen und hausgemachte Kuchen direkt am Haupteingang des Stadtparks.\nReservierung für Gruppen empfohlen. Tel. 0221-77 88 99."
+      },
+      "j": {
+        "title": "Praktikum im Modeatelier „KreativKopf“",
+        "body": "Wir bieten Schülerinnen und Schülern ab 15 Jahren die Möglichkeit, während der Schulferien ein dreiwöchiges Praktikum im Bereich Modedesign, Schnittkonstruktion und Textilgestaltung zu absolvieren. Lerne den Alltag in einem echten Atelier kennen!\nKurze Bewerbung per E-Mail an: kreativ@mode-atelier.de."
+      },
+      "k": {
+        "title": "Praktikum bei TextilDesign Berlin",
+        "body": "Wir bieten Studentinnen und Studenten der Modewissenschaften ein dreimonatiges, unvergütetes Pflichtpraktikum im Bereich Online-Marketing und Produktmanagement für die Wintersaison an.\nBeginn: flexibel im Spätsommer. Bewerbung an: jobs@textildesign-berlin.de."
+      },
+      "l": {
+        "title": "Restaurant Schnitzelparadies",
+        "body": "Traditionelle deutsche Küche in gemütlicher Atmosphäre. Große Auswahl an Schnitzeln, Steaks und frischen Salaten. Ideal für Familienfeiern am Sonntagmittag.\nGeöffnet täglich ab 11:30 Uhr. Mittwochs Ruhetag.\nReservierung erbeten: Tel. 0711-33 44 55."
+      }
+    },
+    "answers": {
+      "11": "a",
+      "12": "b",
+      "13": "j",
+      "14": "c",
+      "15": "d",
+      "16": "x",
+      "17": "i",
+      "18": "f",
+      "19": "g",
+      "20": "x"
+    },
+    "explanations": {
+      "11": "Bangkok Flavours: Thailändisch, scharfe Suppen/Currys, Innenstadt, Samstagabend geöffnet",
+      "12": "Katzen-Sitting: Betreuung zu Hause während des Urlaubs, tägliche Fütterung",
+      "13": "Modeatelier KreativKopf: Für Schüler ab 15 Jahren/Jugendliche, 3-wöchiges Ferienpraktikum, Mode/Textildesign",
+      "14": "Segelschule Nord: Segelyacht/Segeln basics, Theorie der Navigation, Anfängerkurs am Wochenende",
+      "15": "Umzüge Fix & Fertig: Transportiert Möbel am Wochenende/Sonntag, liefert vorab Umzugskisten",
+      "16": "İlan e'deki bahçe servisi ağaç kesimi ve çim ekimi yapıyor ancak çalışma günleri sadece hafta içidir (\"Montag bis Freitag\"). Durum 16'daki kişi ise hafta sonu (\"am Wochenende\") hizmet aradığı için bu ilan uygun değildir. Cevap X'tir.",
+      "17": "Café Parkidylle: Vegetarisches Brunch-Buffet, jeden Sonntag, direkt am Stadtpark",
+      "18": "Verhandlungstraining: B1 seviyesine uygun, Vertrieb/müşteri müzakereleri odaklı, Di ve Do 19:00-20:30 arası akşam kursu",
+      "19": "Ostsee-Hotel Meerblick: Ostsee/Baltık Denizi kıyısında, masaj, sauna ve kahvaltı sunuyor",
+      "20": "İlan h'deki İtalyanca kursu başlangıç seviyesine uygun olsa da sadece Cumartesi günleri (\"jeden Samstag\") yapılmaktadır. Durum 20'deki kişi ise özellikle Cuma öğleden sonra (\"am frühen Freitagnachmittag\") bir kurs aradığı için uyuşmamaktadır. Cevap X'tir."
+    }
+  },
+  {
+    "id": "lese_3_7",
+    "title": "Freizeit & Dienstleistungen",
+    "emoji": "🌟",
+    "type": "teil3",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "situations": {
+      "11": "Sie möchten am Samstagabend mit Freunden ein neues Restaurant ausprobieren, das scharfe indische Currys und Tandoori-Gerichte in Bahnhofsnähe anbietet.",
+      "12": "Ihr Bekannter sucht für seine neue Wohnung jemanden, der ihm am Wochenende hilft, die Wände weiß zu streichen und die Küchenschränke aufzubauen.",
+      "13": "Die Tochter Ihrer Kollegin ist 16 Jahre alt und möchte in den Sommerferien ein unbezahltes, zweiwöchiges Praktikum im Bereich Grafikdesign und digitale Illustration machen.",
+      "14": "Ihr Bruder besitzt ein älteres Motorrad und sucht einen Wochenendkurs für Anfänger, um zu lernen, wie man die Kette pflegt und das Öl selbst wechselt.",
+      "15": "Ihre Kollegin möchte sich in ihrer Freizeit ehrenamtlich (ohne Geld) für Tiere engagieren und sucht ein Projekt, bei dem man direkt im Tierheim Hunde ausführt oder Katzen pflegt.",
+      "16": "Ihr Nachbar hat ein großes Aquarium und sucht eine Firma, die während seines einwöchigen Urlaubs täglich kommt, um die Fische zu füttern und die Technik zu kontrollieren.",
+      "17": "Sie suchen für Sonntagmittag ein gemütliches Restaurant mit traditioneller deutscher Küche, um mit Ihren Großeltern Schweinebraten oder Schnitzel zu essen.",
+      "18": "Ihr Cousin arbeitet im internationalen Einkauf, spricht bereits gut Deutsch (B1) und möchte einen intensiven Abendkurs besuchen, um das Verfassen von formellen Geschäftsbriefen zu üben.",
+      "19": "Die Mutter Ihres Freundes möchte im Urlaub kreativ sein und sucht ein Hotel an einem See, das tägliche Malkurse und ein großes Frühstücksbuffet anbietet.",
+      "20": "Ihr Kollege möchte nächstes Jahr nach Portugal reisen, hat keine Vorkenntnisse und sucht einen Portugiesischkurs, der ausschließlich am frühen Samstagnachmittag stattfindet."
+    },
+    "ads": {
+      "a": {
+        "title": "Taj Mahal – Indische Spezialitäten",
+        "body": "Erleben Sie die kulinarische Vielfalt Indiens direkt im Stadtzentrum, nur 5 Minuten zu Fuß vom Hauptbahnhof entfernt! Wir bieten scharfe Currys, traditionelle Tandoori-Gerichte und eine große Auswahl an vegetarischen Speisen.\nÖffnungszeiten: Di.–Sa. 17:30–23:00 Uhr. Sonntags und montags geschlossen.\nReservierung erbeten unter Tel. 030-22 33 44."
+      },
+      "b": {
+        "title": "Malerservice & Montage „Die Handwerker“",
+        "body": "Sie ziehen um oder möchten Ihre Wohnung renovieren? Unser professionelles Team übernimmt alle Malerarbeiten, das Streichen von Wänden sowie die fachgerechte Montage von Möbeln und Küchen.\nArbeitszeiten: Montag bis Freitag von 8:00 bis 17:00 Uhr. Kontakt: info@die-handwerker.de."
+      },
+      "c": {
+        "title": "Zweirad-Werkstatt „Schrauber-König“",
+        "body": "Haben Sie ein älteres Motorrad oder Moped gekauft und möchten kleinere Wartungsarbeiten selbst erlernen? In unserem zweitägigen Workshop am Samstag und Sonntag (jeweils 10:00–15:00 Uhr) zeigen wir Anfängern, wie man die Kette reinigt, Zündkerzen wechselt und das Öl kontrolliert.\nAnmeldung und Infos: www.schrauber-koenig.de."
+      },
+      "d": {
+        "title": "Tierhilfe Berlin e.V. – Aktiv für den Tierschutz",
+        "body": "Möchten Sie sich in Ihrer Freizeit ehrenamtlich engagieren? Unser Verein sucht dringend freiwillige Helfer für unser Tierheim. Unterstützen Sie uns bei der täglichen Pflege von Katzen oder gehen Sie mit unseren Hunden im Park spazieren. Die Teilnahme ist unbezahlt und flexibel am Wochenende möglich.\nInfos: www.tierhilfe-berlin.de."
+      },
+      "e": {
+        "title": "Aquarium- und Urlaubsbetreuung „Aqua-Care“",
+        "body": "Gehen Sie entspannt in den Urlaub! Unser professioneller Service betreut Ihre Fische und Reptilien direkt bei Ihnen zu Hause. Wir kommen täglich vorbei, füttern die Tiere, kontrollieren die Wassertemperatur und reinigen die Filteranlagen.\nKontakt: Tel. 069-55 66 77."
+      },
+      "f": {
+        "title": "Geschäftskorrespondenz Deutsch (B1/B2)",
+        "body": "Möchten Sie im Beruf sicher und fehlerfrei mit Kunden und Partnern schriftlich kommunizieren? In diesem Intensivkurs üben wir das Verfassen von formellen Geschäftsbriefen, E-Mails und Angeboten nach aktuellen Standards.\nKurszeiten: Jeden Dienstag und Donnerstag von 18:30 bis 20:00 Uhr. Dauer: 6 Wochen.\nInfos unter: www.business-sprachen.de."
+      },
+      "g": {
+        "title": "See-Hotel „Kreativer Blick“",
+        "body": "Verbringen Sie erholsame und kreative Tage direkt am Chiemsee! Unser Hotel bietet moderne Zimmer inklusive einem reichhaltigen Frühstücksbuffet. Entspannen Sie in der Natur und nutzen Sie unser tägliches Kunstprogramm mit geführten Malkursen für Anfänger im hoteleigenen Garten.\nAngebote und Buchung: info@see-hotel-kreativ.de."
+      },
+      "h": {
+        "title": "Sprachschule Lingua – Portugiesisch am Wochenende",
+        "body": "Wochenendkurs Portugiesisch A1 für absolute Anfänger ohne Vorkenntnisse. Bereiten Sie sich entspannt auf Ihren nächsten Urlaub vor. Lernen Sie die wichtigsten Vokabeln und Redewendungen für den Alltag.\nKursdauer: 8 Wochen, jeden Samstag von 14:00 bis 17:00 Uhr.\nAnmeldung: www.lingua-schule.de."
+      },
+      "i": {
+        "title": "Deutsches Haus – Traditionelle Küche",
+        "body": "Genießen Sie klassische deutsche Gerichte wie Schweinebraten, Schnitzel und frische Salate in gemütlicher Atmosphäre. Großer Biergarten für sonnige Tage. Ideal für Familienfeiern am Wochenende.\nÖffnungszeiten: Di.–Sa. 12:00–15:00 Uhr und 17:30–22:00 Uhr. Sonntags Ruhetag.\nHauptstraße 45, Tel. 089-44 55 66."
+      },
+      "j": {
+        "title": "Praktikum im Grafikstudio „KreativKopf“",
+        "body": "Wir bieten Schülerinnen und Schülern ab 15 Jahren die Möglichkeit, während der Schulferien ein zweiwöchiges Praktikum im Bereich Grafikdesign, digitale Illustration und Bildbearbeitung am Computer zu absolvieren. Lerne den Alltag in einer echten Agentur kennen!\nKurze Bewerbung per E-Mail an: kreativ@studio-kopf.de."
+      },
+      "k": {
+        "title": "Praktikum bei DesignBerlin",
+        "body": "Wir bieten Studentinnen und Studenten der Medienwissenschaften ein dreimonatiges, unvergütetes Pflichtpraktikum im Bereich Online-Marketing ve Social Media Management an.\nBeginn: flexibel im Sommer. Bewerbung an: jobs@design-berlin.de."
+      },
+      "l": {
+        "title": "Restaurant Schnitzelparadies",
+        "body": "Traditionelle deutsche Küche in gemütlicher Atmosphäre. Große Auswahl an Schnitzeln, Steaks und frischen Salaten. Ideal für Familienfeiern am Sonntagmittag.\nGeöffnet täglich ab 11:30 Uhr. Mittwochs Ruhetag.\nReservierung erbeten: Tel. 0711-33 44 55."
+      }
+    },
+    "answers": {
+      "11": "a",
+      "12": "x",
+      "13": "j",
+      "14": "c",
+      "15": "d",
+      "16": "e",
+      "17": "l",
+      "18": "f",
+      "19": "g",
+      "20": "h"
+    },
+    "explanations": {
+      "11": "Taj Mahal: Indisch, scharfe Currys, in Bahnhofsnähe, Samstagabend geöffnet",
+      "12": "İlan b'deki boya ve montaj servisi duvar boyama ve dolap kurulumu hizmeti sunsa da çalışma günleri sadece hafta içidir (\"Montag bis Freitag\"). Durum 12'deki kişi ise hafta sonu (\"am Wochenende\") yardım aradığı için bu ilan uygun değildir. Cevap X'tir.",
+      "13": "Grafikstudio KreativKopf: Lise öğrencileri/gençler için uygun, 2 haftalık tatil stajı, Grafikdesign/Illustration",
+      "14": "Zweirad-Werkstatt Schrauber-König: Motorrad/moped bakımı, Anfänger için uygun hafta sonu kursu",
+      "15": "Tierhilfe Berlin e.V.: Ehrenamtlich/unbezahlt, Tierschutz, hafta sonu barınakta köpek gezdirme/kedi bakımı",
+      "16": "Urlaubsbetreuung Aqua-Care: Akvaryum balıkları bakımı, günlük yemleme ve filtre kontrolü",
+      "17": "Restaurant Schnitzelparadies: Traditionelle deutsche Küche, Schnitzel, Sonntagmittag geöffnet, ideal für Familien",
+      "18": "Geschäftskorrespondenz: B1 seviyesine uygun, Geschäftsbriefe/formel yazışma odaklı, Di ve Do 18:30-20:00 arası akşam kursu",
+      "19": "See-Hotel Kreativer Blick: Chiemsee/Göl kenarında, kahvaltı büfesi ve günlük Malkurs -resim kursu- sunuyor",
+      "20": "Portugiesisch am Wochenende: A1 başlangıç seviyesi, Cumartesi öğleden sonra 14:00-17:00 arası erken saatte kurs"
+    }
+  },
+  {
+    "id": "lese_3_8",
+    "title": "Freizeit & Dienstleistungen",
+    "emoji": "🌟",
+    "type": "teil3",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "situations": {
+      "11": "Sie möchten am Samstagabend mit Freunden ein neues Restaurant ausprobieren, das scharfe vietnamesische Suppen ve geleneksel Wok yemeklerini Bahnhofsnähe bünyesinde sunuyor.",
+      "12": "Ihr Bekannter zieht um und sucht jemanden, der ihm am Wochenende hilft, die alten Holzmöbel abzubauen und die Waschmaschine anzuschließen.",
+      "13": "Die Tochter Ihrer Kollegin ist 17 Jahre alt und möchte in den Sommerferien ein unbezahltes, zweiwöchiges Praktikum im Bereich App-Entwicklung und Webdesign machen.",
+      "14": "Ihr Bruder hat ein älteres Rennrad gekauft und sucht einen Wochenendkurs für Anfänger, um zu lernen, wie man die Bremsen einstellt und das Rad pflegt.",
+      "15": "Ihre Kollegin möchte sich in ihrer Freizeit ehrenamtlich (ohne Geld) für benachteiligte Kinder engagieren und sucht ein Projekt, bei dem man ihnen am Wochenende bei den Hausaufgaben hilft.",
+      "16": "Ihr Nachbar hat zwei Hauskatzen und sucht eine Agentur, die während seines einwöchigen Urlaubs täglich kommt, um die Tiere in der Wohnung zu füttern.",
+      "17": "Sie suchen für Sonntagmittag ein Restaurant mit traditioneller deutscher Küche, um mit Ihren Verwandten Schweinebraten oder Rinderrouladen zu essen.",
+      "18": "Ihr Cousin arbeitet im Vertrieb, spricht bereits gut Deutsch (B1) und möchte einen intensiven Abendkurs besuchen, um das sichere Präsentieren vor Kunden zu üben.",
+      "19": "Die Mutter Ihres Freundes möchte im Urlaub kochen lernen ve dağlarda, günlük yemek kursları ve büyük bir havuz sunan bir otel arıyor.",
+      "20": "Ihr Kollege möchte nächstes Jahr nach Schweden reisen, hat keine Vorkenntnisse und sucht einen Schwedischkurs, der ausschließlich am frühen Samstagnachmittag stattfindet."
+    },
+    "ads": {
+      "a": {
+        "title": "Mekong Delta – Vietnamesische Küche",
+        "body": "Erleben Sie die echten Aromen Vietnams direkt im Stadtzentrum, nur 5 Minuten zu Fuß vom Hauptbahnhof entfernt! Wir bieten scharfe Suppen, traditionelle Wok-Gerichte und eine große Auswahl an vegetarischen Speisen.\nÖffnungszeiten: Di.–Sa. 17:30–23:00 Uhr. Sonntags und montags geschlossen.\nReservierung erbeten unter Tel. 030-77 88 99."
+      },
+      "b": {
+        "title": "Handwerkerservice „Die Allrounder“",
+        "body": "Sie ziehen um oder haben neue Möbel gekauft? Unser professionelles Team übernimmt den Abbau und Aufbau von Möbeln, den Anschluss von Waschmaschinen sowie kleinere Malerarbeiten.\nArbeitszeiten: Montag bis Freitag von 8:00 bis 17:00 Uhr. Kontakt: info@allrounder-berlin.de."
+      },
+      "c": {
+        "title": "Fahrrad-Zentrum „Do It Yourself“",
+        "body": "Haben Sie ein gebrauchtes Rennrad oder Trekkingrad gekauft und möchten kleinere Wartungsarbeiten selbst erlernen? In unserem zweitägigen Workshop am Samstag und Sonntag (jeweils 10:00–15:00 Uhr) zeigen wir Anfängern, wie man Bremsen einstellt, Reifen wechselt und die Kette pflegt.\nAnmeldung und Infos: www.diy-fahrrad.de."
+      },
+      "d": {
+        "title": "Nachbarschaftshilfe Berlin e.V. – Aktiv für Kinder",
+        "body": "Möchten Sie sich in Ihrer Freizeit ehrenamtlich engagieren? Unser Verein sucht freiwillige Helfer für die Unterstützung von Kindern aus benachteiligten Familien. Helfen Sie ihnen bei den Hausaufgaben, erklären Sie den Schulstoff und spielen Sie gemeinsam. Die Teilnahme ist unbezahlt und flexibel am Samstag und Sonntag möglich.\nInfos: www.nachbarschaftshilfe-berlin.de."
+      },
+      "e": {
+        "title": "Haustier-Betreuung „Zuhause in Sicherheit“",
+        "body": "Gehen Sie entspannt in den Urlaub! Unser professioneller Service betreut Ihre Hunde, Katzen oder Kleintiere direkt bei Ihnen zu Hause. Wir kommen täglich vorbei, füttern die Tiere, reinigen die Gehege und nehmen uns Zeit für Beschäftigung.\nKontakt: Tel. 069-22 33 44."
+      },
+      "f": {
+        "title": "Präsentationstraining Deutsch (B1/B2)",
+        "body": "Möchten Sie im Beruf sicherer und fehlerfreier vor Kunden und Geschäftspartnern präsentieren? In diesem Intensivkurs üben wir die Struktur von Vorträgen, wichtige Redewendungen und die Körpersprache für den internationalen Vertrieb.\nKurszeiten: Jeden Dienstag und Donnerstag von 18:30 bis 20:00 Uhr. Dauer: 6 Wochen.\nInfos unter: www.business-sprachen.de."
+      },
+      "g": {
+        "title": "Genießer-Hotel „Alpenblick & Küche“",
+        "body": "Verbringen Sie erholsame und kulinarische Tage mitten in den Bergen! Unser Hotel im Allgäu bietet moderne Zimmer, einen großen beheizten Innenpool und ein tägliches Kochprogramm mit geführten Kochkursen für Anfänger in der hoteleigenen Profiküche.\nAngebote und Buchung: info@alpenblick-genuss.de."
+      },
+      "h": {
+        "title": "Sprachschule Lingua – Schwedisch am Wochenende",
+        "body": "Wochenendkurs Schwedisch A1 für absolute Anfänger ohne Vorkenntnisse. Bereiten Sie sich entspannt auf Ihren nächsten Urlaub vor. Lernen Sie die wichtigsten Vokabeln und Redewendungen für den Alltag.\nKursdauer: 8 Wochen, jeden Samstag von 14:00 bis 17:00 Uhr.\nAnmeldung: www.lingua-schule.de."
+      },
+      "i": {
+        "title": "Deutsches Haus – Traditionelle Küche",
+        "body": "Genießen Sie klassische deutsche Gerichte wie Schweinebraten, Rinderrouladen und frische Salate in gemütlicher Atmosphäre. Großer Biergarten für sonnige Tage. Ideal für Familienfeiern am Wochenende.\nÖffnungszeiten: Di.–Sa. 12:00–15:00 Uhr und 17:30–22:00 Uhr. Sonntags Ruhetag.\nHauptstraße 45, Tel. 089-44 55 66."
+      },
+      "j": {
+        "title": "Praktikum im IT-Studio „KreativKopf“",
+        "body": "Wir bieten Schülerinnen und Schülern ab 15 Jahren die Möglichkeit, während der Schulferien ein zweiwöchiges Praktikum im Bereich Webdesign, App-Entwicklung und digitale Illustration am Computer zu absolvieren. Lerne den Alltag in einer echten Agentur kennen!\nKurze Bewerbung per E-Mail an: kreativ@it-studio-kopf.de."
+      },
+      "k": {
+        "title": "Praktikum bei WebDesign Berlin",
+        "body": "Wir bieten Studentinnen und Studenten der Informatik ein dreimonatiges, unvergütetes Pflichtpraktikum im Bereich Software-Entwicklung und IT-Projektmanagement an.\nBeginn: flexibel im Sommer. Bewerbung an: jobs@webdesign-berlin.de."
+      },
+      "l": {
+        "title": "Restaurant Schnitzelparadies",
+        "body": "Traditionelle deutsche Küche in gemütlicher Atmosphäre. Große Auswahl an Schnitzeln, Steaks und klassischen Fleischgerichten wie Schweinebraten. Ideal für Familienfeiern am Sonntagmittag.\nGeöffnet täglich ab 11:30 Uhr. Mittwochs Ruhetag.\nReservierung erbeten: Tel. 0711-33 44 55."
+      }
+    },
+    "answers": {
+      "11": "a",
+      "12": "x",
+      "13": "j",
+      "14": "c",
+      "15": "d",
+      "16": "e",
+      "17": "l",
+      "18": "f",
+      "19": "g",
+      "20": "h"
+    },
+    "explanations": {
+      "11": "Mekong Delta: Vietnamesisch, scharfe Suppen, in Bahnhofsnähe, Samstagabend geöffnet",
+      "12": "İlan b'deki el işleri servisi mobilya sökümü ve çamaşır makinesi bağlantısı sunsa da çalışma günleri sadece hafta içidir (\"Montag bis Freitag\"). Durum 12'deki kişi ise hafta sonu (\"am Wochenende\") yardım aradığı için bu ilan uygun değildir. Cevap X'tir.",
+      "13": "IT-Studio KreativKopf: Lise öğrencileri/gençler için uygun, 2 haftalık tatil stajı, Webdesign/App-Entwicklung",
+      "14": "Fahrrad-Zentrum: Yarış bisikleti tamiri/bakımı/fren ayarı, Anfänger için uygun hafta sonu kursu",
+      "15": "Nachbarschaftshilfe Berlin e.V.: Ehrenamtlich/unbezahlt, Çocuklar için hafta sonu ders yardımı/hausaufgaben",
+      "16": "Haustier-Betreuung: Evde kedi bakımı, günlük yemleme ve kontrol",
+      "17": "Restaurant Schnitzelparadies: Traditionelle deutsche Küche, Schweinebraten, Sonntagmittag geöffnet, ideal für Familien",
+      "18": "Präsentationstraining: B1 seviyesine uygun, Präsentation/sunum odaklı, Di ve Do 18:30-20:00 arası akşam kursu",
+      "19": "Genießer-Hotel Alpenblick: Dağlarda/Allgäu, havuz barındırıyor ve günlük Kochkurs -yemek kursu- sunuyor",
+      "20": "Schwedisch am Wochenende: A1 başlangıç seviyesi, Cumartesi öğleden sonra 14:00-17:00 arası erken saatte kurs"
+    }
+  },
+  {
+    "id": "lese_3_9",
+    "title": "Freizeit & Dienstleistungen",
+    "emoji": "🌟",
+    "type": "teil3",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "situations": {
+      "11": "Sie möchten am Samstagabend mit Freunden ein neues Restaurant ausprobieren, das scharfe indonesische Erdnusssoßen und traditionelle Saté-Spieße in Bahnhofsnähe anbietet.",
+      "12": "Ihr Bekannter zieht um und sucht jemanden, der ihm am Wochenende hilft, die alten Küchenwände neu zu fliesen und die Lampen anzubringen.",
+      "13": "Die Tochter Ihrer Kollegin ist 16 Jahre alt und möchte in den Sommerferien ein unbezahltes, zweiwöchiges Praktikum im Bereich Eventmanagement und Hochzeitsplanung machen.",
+      "14": "Ihr Bruder hat ein gebrauchtes Mountainbike gekauft und sucht einen Wochenendkurs für Anfänger, um zu lernen, wie man die Schaltung einstellt und die Bremsbeläge wechselt.",
+      "15": "Ihre Kollegin möchte sich in ihrer Freizeit ehrenamtlich (ohne Geld) für obdachlose Menschen engagieren und sucht ein Projekt, bei dem man am Wochenende in einer Küche warmes Essen ausgibt.",
+      "16": "Ihr Nachbar hat zwei kleine Landschildkröten und sucht eine Person, die während seines einwöchigen Urlaubs täglich kommt, um den Salat zu füttern und das Wasser zu wechseln.",
+      "17": "Sie suchen für Sonntagmittag ein gemütliches Restaurant mit traditioneller deutscher Küche, um mit Ihren Verwandten Sauerbraten oder Kalbsschnitzel zu essen.",
+      "18": "Ihr Cousin arbeitet im internationalen Support, spricht bereits gut Deutsch (B1) und möchte einen intensiven Abendkurs besuchen, um das professionelle und deeskalierende Telefonieren mit Kunden zu üben.",
+      "19": "Die Mutter Ihres Freundes möchte im Urlaub fit bleiben und sucht ein Hotel am See, das tägliche Pilates-Kurse und einen großen Wellnessbereich anbietet.",
+      "20": "Ihr Kollege möchte nächstes Jahr nach Norwegen reisen, hat keine Vorkenntnisse und sucht einen Norwegischkurs, der ausschließlich am frühen Samstagnachmittag stattfindet."
+    },
+    "ads": {
+      "a": {
+        "title": "Java Insel – Indonesische Küche",
+        "body": "Erleben Sie die echten Aromen Indonesiens direkt im Stadtzentrum, nur 5 Minuten zu Fuß vom Hauptbahnhof entfernt! Wir bieten scharfe Erdnusssoßen, traditionelle Saté-Spieße vom Grill und eine große Auswahl an vegetarischen Speisen.\nÖffnungszeiten: Di.–Sa. 17:30–23:00 Uhr. Sonntags und montags geschlossen.\nReservierung erbeten unter Tel. 030-44 33 22."
+      },
+      "b": {
+        "title": "Handwerkerservice „Die Renovierungsprofis“",
+        "body": "Sie planen eine Veränderung in Ihrer Wohnung? Unser professionelles Team übernimmt das Verfliesen von Bädern und Küchen, das Anbringen von Lampen sowie kleinere Malerarbeiten.\nArbeitszeiten: Montag bis Freitag von 8:00 bis 17:00 Uhr. Kontakt: info@renovierungsprofis-berlin.de."
+      },
+      "c": {
+        "title": "Fahrrad-Akademie „Do It Yourself“",
+        "body": "Haben Sie ein gebrauchtes Mountainbike oder Trekkingrad gekauft und möchten kleinere Wartungsarbeiten selbst erlernen? In unserem zweitägigen Workshop am Samstag und Sonntag (jeweils 10:00–15:00 Uhr) zeigen wir Anfängern, wie man die Gangschaltung einstellt, Reifen flickt und Bremsbeläge wechselt.\nAnmeldung und Infos: www.diy-fahrrad-akademie.de."
+      },
+      "d": {
+        "title": "Berliner Tafel e.V. – Aktiv gegen Armut",
+        "body": "Möchten Sie sich in Ihrer Freizeit ehrenamtlich engagieren? Unser Verein sucht freiwillige Helfer für die Unterstützung von Menschen in schwierigen Lebenslagen. Helfen Sie uns am Samstag und Sonntag bei der Zubereitung und Ausgabe von warmen Mahlzeiten in unserer Suppenküche. Die Teilnahme ist unbezahlt.\nInfos: www.berliner-tafel-aktiv.de."
+      },
+      "e": {
+        "title": "Kleintier-Betreuung „Zuhause in Sicherheit“",
+        "body": "Gehen Sie entspannt in den Urlaub! Unser professioneller Service betreut Ihre Vögel, Schildkröten oder Nagetiere direkt bei Ihnen zu Hause. Wir kommen täglich vorbei, füttern die Tiere nach Ihren Vorgaben, wechseln das Wasser und reinigen die Gehege.\nKontakt: Tel. 069-77 66 55."
+      },
+      "f": {
+        "title": "Telefontraining Deutsch für den Beruf (B1/B2)",
+        "body": "Möchten Sie im Beruf sicherer, freundlicher und professioneller mit Kunden am Telefon kommunizieren? In diesem Intensivkurs üben wir das Führen von schwierigen Kundengesprächen, deeskalierende Formulierungen und wichtige Redewendungen für den Support.\nKurszeiten: Jeden Dienstag und Donnerstag von 18:30 bis 20:00 Uhr. Dauer: 6 Wochen.\nInfos unter: www.business-sprachen-welt.de."
+      },
+      "g": {
+        "title": "See-Hotel „Balance & Wellness“",
+        "body": "Verbringen Sie erholsame und aktive Tage direkt am Plauer See! Unser Hotel bietet moderne Zimmer, einen großen Wellnessbereich mit verschiedenen Saunen und ein tägliches Sportprogramm mit geführten Pilates- und Yoga-Kursen für Anfänger im hoteleigenen Pavillon.\nAngebote und Buchung: info@see-hotel-balance.de."
+      },
+      "h": {
+        "title": "Sprachschule Lingua – Norwegisch am Wochenende",
+        "body": "Wochenendkurs Norwegisch A1 für absolute Anfänger ohne Vorkenntnisse. Bereiten Sie sich entspannt auf Ihren nächsten Urlaub vor. Lernen Sie die wichtigsten Vokabeln und Redewendungen für den Alltag.\nKursdauer: 8 Wochen, jeden Samstag von 14:00 bis 17:00 Uhr.\nAnmeldung: www.lingua-schule.de."
+      },
+      "i": {
+        "title": "Deutsches Haus – Traditionelle Küche",
+        "body": "Genießen Sie klassische deutsche Gerichte wie Schweinebraten und frische Salate in gemütlicher Atmosphäre. Großer Biergarten für sonnige Tage. Ideal für Familienfeiern am Wochenende.\nÖffnungszeiten: Di.–Sa. 12:00–15:00 Uhr und 17:30–22:00 Uhr. Sonntags Ruhetag.\nHauptstraße 45, Tel. 089-44 55 66."
+      },
+      "j": {
+        "title": "Praktikum in der Agentur „KreativHochzeit“",
+        "body": "Wir bieten Schülerinnen und Schülern ab 15 Jahren die Möglichkeit, während der Schulferien ein zweiwöchiges Praktikum im Bereich Eventmanagement und Hochzeitsplanung zu absolvieren. Lerne die Organisation von großen Feiern und den Kundenkontakt kennen!\nKurze Bewerbung per E-Mail an: kreativ@hochzeit-agentur.de."
+      },
+      "k": {
+        "title": "Praktikum bei EventDesign Berlin",
+        "body": "Wir bieten Studentinnen und Studenten der Betriebswirtschaftslehre ein dreimonatiges, unvergütetes Pflichtpraktikum im Bereich internationales Event-Marketing und Projektmanagement für Großveranstaltungen an.\nBeginn: flexibel im Sommer. Bewerbung an: jobs@eventdesign-berlin.de."
+      },
+      "l": {
+        "title": "Restaurant Schnitzelparadies",
+        "body": "Traditionelle deutsche Küche in gemütlicher Atmosphäre. Große Auswahl an Schnitzeln, Steaks und klassischen Fleischgerichten wie Sauerbraten oder Kalbsschnitzel. Ideal für Familienfeiern am Sonntagmittag.\nGeöffnet täglich ab 11:30 Uhr. Mittwochs Ruhetag.\nReservierung erbeten: Tel. 0711-33 44 55."
+      }
+    },
+    "answers": {
+      "11": "a",
+      "12": "x",
+      "13": "j",
+      "14": "c",
+      "15": "d",
+      "16": "e",
+      "17": "l",
+      "18": "f",
+      "19": "g",
+      "20": "h"
+    },
+    "explanations": {
+      "11": "Java Insel: Indonesisch, Erdnusssoßen/Saté-Spieße, in Bahnhofsnähe, Samstagabend geöffnet",
+      "12": "İlan b'deki yenileme servisi duvar fayanslama ve lamba montajı sunsa da çalışma günleri sadece hafta içidir (\"Montag bis Freitag\"). Durum 12'deki kişi ise hafta sonu (\"am Wochenende\") yardım aradığı için bu ilan uygun değildir. Cevap X'tir.",
+      "13": "Agentur KreativHochzeit: Lise öğrencileri/gençler için uygun, 2 haftalık tatil stajı, Eventmanagement/Hochzeitsplanung",
+      "14": "Fahrrad-Akademie: Mountainbike tamiri/bakımı/vites ayarı, Anfänger için uygun hafta sonu kursu",
+      "15": "Berliner Tafel e.V.: Ehrenamtlich/unbezahlt, Suppenküche/evsizler için yemek dağıtımı, Cumartesi-Pazar hafta sonu uygun",
+      "16": "Kleintier-Betreuung: Evde kaplumbağa bakımı, günlük yemleme ve su değişimi",
+      "17": "Restaurant Schnitzelparadies: Traditionelle deutsche Küche, Sauerbraten/Kalbsschnitzel, Sonntagmittag geöffnet, ideal für Familien",
+      "18": "Telefontraining: B1 seviyesine uygun, telefon desteği ve deeskalierende/kriz yönetimi odaklı, Di ve Do 18:30-20:00 arası akşam kursu",
+      "19": "See-Hotel Balance: Göl kenarında, büyük bir SPA/wellness alanı barındırıyor ve günlük Pilates kursu sunuyor",
+      "20": "Norwegisch am Wochenende: A1 başlangıç seviyesi, Cumartesi öğleden sonra 14:00-17:00 arası erken saatte kurs"
+    }
+  },
+  {
+    "id": "lese_3_10",
+    "title": "Freizeit & Dienstleistungen",
+    "emoji": "🌟",
+    "type": "teil3",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "situations": {
+      "11": "Sie möchten am Samstagabend mit Freunden ein neues Restaurant ausprobieren, das scharfe koreanische Kimchi-Gerichte und traditionelles Bulgogi in Bahnhofsnähe anbietet.",
+      "12": "Ihr Bekannter zieht um und sucht jemanden, der ihm am Wochenende hilft, die Wände im Wohnzimmer neu zu verputzen und die Deckenlampen zu montieren.",
+      "13": "Die Tochter Ihrer Kollegin ist 16 Jahre alt und möchte in den Sommerferien ein unbezahltes, zweiwöchiges Praktikum im Bereich Grafikdesign und App-UI-Design machen.",
+      "14": "Ihr Bruder hat ein gebrauchtes Rennrad gekauft und sucht einen Wochenendkurs für Anfänger, um zu lernen, wie man die Bremskabel austauscht und die Gangschaltung optimal einstellt.",
+      "15": "Ihre Kollegin möchte sich in ihrer Freizeit ehrenamtlich (ohne Geld) für ältere Menschen engagieren und sucht ein Projekt, bei dem man am Wochenende Senioren im Pflegeheim besucht oder ihnen vorliest.",
+      "16": "Ihr Nachbar hat ein großes Terrarium mit zwei Landschildkröten und sucht eine Person, die während seines einwöchigen Urlaubs täglich kommt, um frischen Salat zu füttern.",
+      "17": "Sie suchen für Sonntagmittag ein gemütliches Restaurant mit traditioneller deutscher Küche, um mit Ihren Verwandten Rinderrouladen oder Schweinebraten zu essen.",
+      "18": "Ihr Cousin arbeitet im internationalen Kundenservice, spricht bereits gut Deutsch (B1) und möchte einen intensiven Abendkurs besuchen, um das deeskalierende und professionelle Schreiben von Beschwerde-E-Mails zu üben.",
+      "19": "Die Mutter Ihres Freundes möchte im Urlaub fit bleiben und sucht ein Hotel in den Bergen, das tägliche Yoga-Kurse und einen großen Wellnessbereich mit Innenpool anbietet.",
+      "20": "Ihr Kollege möchte nächstes Jahr nach Dänemark reisen, hat keine Vorkenntnisse und sucht einen Dänischkurs, der ausschließlich am frühen Samstagnachmittag stattfindet."
+    },
+    "ads": {
+      "a": {
+        "title": "Seoul Kitchen – Koreanische Spezialitäten",
+        "body": "Erleben Sie die echten Aromen Koreas direkt im Stadtzentrum, nur 5 Minuten zu Fuß vom Hauptbahnhof entfernt! Wir bieten scharfe Kimchi-Gerichte, traditionelles Bulgogi vom Grill und eine große Auswahl an vegetarischen Speisen.\nÖffnungszeiten: Di.–Sa. 17:30–23:00 Uhr. Sonntags und montags geschlossen.\nReservierung erbeten unter Tel. 030-55 66 77."
+      },
+      "b": {
+        "title": "Handwerkerservice „Die Renovierungsexperten“",
+        "body": "Sie planen eine Veränderung in Ihrer Wohnung? Unser professionelles Team übernimmt das Verputzen von Wänden, die Montage von Deckenlampen sowie das Verlegen von Böden.\nArbeitszeiten: Montag bis Freitag von 8:00 bis 17:00 Uhr. Kontakt: info@renovierungsexperten.de."
+      },
+      "c": {
+        "title": "Fahrrad-Akademie „Do It Yourself“",
+        "body": "Haben Sie ein gebrauchtes Rennrad oder Mountainbike gekauft und möchten kleinere Wartungsarbeiten selbst erlernen? In unserem zweitägigen Workshop am Samstag und Sonntag (jeweils 10:00–15:00 Uhr) zeigen wir Anfängern, wie man Bremskabel austauscht, Reifen flickt und die Gangschaltung perfekt einstellt.\nAnmeldung und Infos: www.diy-fahrrad-akademie.de."
+      },
+      "d": {
+        "title": "Senioren-Hilfe Berlin e.V. – Gemeinsam statt einsam",
+        "body": "Möchten Sie sich in Ihrer Freizeit ehrenamtlich engagieren? Unser Verein sucht freiwillige Helfer für die Unterstützung von älteren Menschen in Pflegeheimen. Besuchen Sie die Senioren am Samstag und Sonntag, lesen Sie ihnen vor oder gehen Sie gemeinsam im Garten spazieren. Die Teilnahme ist unbezahlt.\nInfos: www.senioren-hilfe-berlin.de."
+      },
+      "e": {
+        "title": "Kleintier-Betreuung „Zuhause in Sicherheit“",
+        "body": "Gehen Sie entspannt in den Urlaub! Unser professioneller Service betreut Ihre Vögel, Schildkröten oder Nagetiere direkt bei Ihnen zu Hause. Wir kommen täglich vorbei, füttern die Tiere nach Ihren Vorgaben mit frischem Futter und wechseln das Wasser.\nKontakt: Tel. 069-88 77 66."
+      },
+      "f": {
+        "title": "Geschäftskorrespondenz Deutsch für den Beruf (B1/B2)",
+        "body": "Möchten Sie im Beruf sicherer, professioneller und fehlerfreier schriftlich mit Kunden kommunizieren? In diesem Intensivkurs üben wir das Verfassen von schwierigen E-Mails, deeskalierende Formulierungen bei Beschwerden und wichtige Redewendungen für den Kundenservice.\nKurszeiten: Jeden Dienstag und Donnerstag von 18:30 bis 20:00 Uhr. Dauer: 6 Wochen.\nInfos unter: www.business-sprachen-welt.de."
+      },
+      "g": {
+        "title": "Berg-Hotel „Aktiv & Relax“",
+        "body": "Verbringen Sie erholsame und aktive Tage mitten in den Allgäuer Alpen! Unser Hotel bietet moderne Zimmer, einen großen Wellnessbereich mit beheiztem Innenpool und ein tägliches Sportprogramm mit geführten Yoga- und Pilates-Kursen für Anfänger.\nAngebote und Buchung: info@berghotel-aktiv.de."
+      },
+      "h": {
+        "title": "Sprachschule Lingua – Dänisch am Wochenende",
+        "body": "Wochenendkurs Dänisch A1 für absolute Anfänger ohne Vorkenntnisse. Bereiten Sie sich entspannt auf Ihren nächsten Urlaub vor. Lernen Sie die wichtigsten Vokabeln und Redewendungen für den Alltag.\nKursdauer: 8 Wochen, jeden Samstag von 14:00 bis 17:00 Uhr.\nAnmeldung: www.lingua-schule.de."
+      },
+      "i": {
+        "title": "Deutsches Haus – Traditionelle Küche",
+        "body": "Genießen Sie klassische deutsche Gerichte wie Schweinebraten und frische Salate in gemütlicher Atmosphäre. Großer Biergarten für sonnige Tage. Ideal für Familienfeiern am Wochenende.\nÖffnungszeiten: Di.–Sa. 12:00–15:00 Uhr und 17:30–22:00 Uhr. Sonntags Ruhetag.\nHauptstraße 45, Tel. 089-44 55 66."
+      },
+      "j": {
+        "title": "Praktikum in der Agentur „KreativDesign“",
+        "body": "Wir bieten Schülerinnen und Schülern ab 15 Jahren die Möglichkeit, während der Schulferien ein zweiwöchiges Praktikum im Bereich Grafikdesign, digitale Illustration und App-UI-Design zu absolvieren. Lerne den Alltag in einer echten Kreativagentur kennen!\nKurze Bewerbung per E-Mail an: praktikum@kreativdesign.de."
+      },
+      "k": {
+        "title": "Praktikum bei WebDesign Berlin",
+        "body": "Wir bieten Studentinnen und Studenten der Informatik ein dreimonatiges, unvergütetes Pflichtpraktikum im Bereich Software-Entwicklung und IT-Projektmanagement an.\nBeginn: flexibel im Sommer. Bewerbung an: jobs@webdesign-berlin.de."
+      },
+      "l": {
+        "title": "Restaurant Schnitzelparadies",
+        "body": "Traditionelle deutsche Küche in gemütlicher Atmosphäre. Große Auswahl an Schnitzeln, Steaks und klassischen Fleischgerichten wie Rinderrouladen oder Schweinebraten. Ideal für Familienfeiern am Sonntagmittag.\nGeöffnet täglich ab 11:30 Uhr. Mittwochs Ruhetag.\nReservierung erbeten: Tel. 0711-33 44 55."
+      }
+    },
+    "answers": {
+      "11": "a",
+      "12": "x",
+      "13": "j",
+      "14": "c",
+      "15": "d",
+      "16": "e",
+      "17": "l",
+      "18": "f",
+      "19": "g",
+      "20": "h"
+    },
+    "explanations": {
+      "11": "Seoul Kitchen: Koreanisch, Kimchi/Bulgogi, in Bahnhofsnähe, Samstagabend geöffnet",
+      "12": "İlan b'deki yenileme servisi duvar sıva ve lamba montajı sunsa da çalışma günleri sadece hafta içidir (\"Montag bis Freitag\"). Durum 12'deki kişi ise hafta sonu (\"am Wochenende\") yardım aradığı için bu ilan uygun değildir. Cevap X'tir.",
+      "13": "Agentur KreativDesign: Lise öğrencileri/gençler için uygun, 2 haftalık tatil stajı, Grafikdesign/App-UI-Design",
+      "14": "Fahrrad-Akademie: Rennrad tamiri/bakımı/vites ayarı, Anfänger için uygun hafta sonu kursu",
+      "15": "Senioren-Hilfe Berlin e.V.: Ehrenamtlich/unbezahlt, huzurevinde yaşlılara kitap okuma/ziyaret, Cumartesi-Pazar uygun",
+      "16": "Kleintier-Betreuung: Evde kaplumbağa bakımı, günlük yemleme ve kontrol",
+      "17": "Restaurant Schnitzelparadies: Traditionelle deutsche Küche, Rinderrouladen/Schweinebraten, Sonntagmittag geöffnet, ideal für Familien",
+      "18": "Geschäftskorrespondenz: B1 seviyesine uygun, yazılı müşteri şikayetleri/deeskalierende E-Mails odaklı, Di ve Do 18:30-20:00 arası akşam kursu",
+      "19": "Berg-Hotel Aktiv & Relax: Dağlarda/Alpen, büyük bir SPA/wellness ve kapalı havuz barındırıyor, günlük Yoga sunuyor",
+      "20": "Dänisch am Wochenende: A1 başlangıç seviyesi, Cumartesi öğleden sonra 14:00-17:00 arası erken saatte kurs"
+    }
+  },
+  {
+    "id": "lese_3_11",
+    "title": "Freizeit & Dienstleistungen",
+    "emoji": "🌟",
+    "type": "teil3",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "situations": {
+      "11": "Sie möchten am Samstagabend mit Freunden ein neues Restaurant ausprobieren, das scharfe thailändische Suppen und traditionelles Pad Thai in Bahnhofsnähe anbietet.",
+      "12": "Ihr Bekannter zieht um und sucht jemanden, der ihm am Wochenende hilft, die alten Küchenwände neu zu streichen und die Küchengeräte anzuschließen.",
+      "13": "Die Tochter Ihrer Kollegin ist 17 Jahre alt und möchte in den Sommerferien ein unbezahltes, zweiwöchiges Praktikum im Bereich Eventmanagement und Hochzeitsplanung machen.",
+      "14": "Ihr Bruder hat ein gebrauchtes Mountainbike gekauft und sucht einen Wochenendkurs für Anfänger, um zu lernen, wie man die Gangschaltung einstellt und die Kette richtig pflegt.",
+      "15": "Ihre Kollegin möchte sich in ihrer Freizeit ehrenamtlich (ohne Geld) für obdachlose Menschen engagieren und sucht ein Projekt, bei dem man am Wochenende in einer Küche warmes Essen ausgibt.",
+      "16": "Ihr Nachbar hat zwei kleine Landschildkröten und sucht eine Person, die während seines einwöchigen Urlaubs täglich kommt, um den Salat zu füttern und das Wasser zu wechseln.",
+      "17": "Sie suchen für Sonntagmittag ein gemütliches Restaurant mit traditioneller deutscher Küche, um mit Ihren Verwandten Sauerbraten oder Kalbsschnitzel zu essen.",
+      "18": "Ihr Cousin arbeitet im internationalen Support, spricht bereits gut Deutsch (B1) und möchte einen intensiven Abendkurs besuchen, um das professionelle und deeskalierende Telefonieren mit Kunden zu üben.",
+      "19": "Die Mutter Ihres Freundes möchte im Urlaub fit bleiben und sucht ein Hotel am See, das tägliche Pilates-Kurse und einen großen Wellnessbereich anbietet.",
+      "20": "Ihr Kollege möchte nächstes Jahr nach Norwegen reisen, hat keine Vorkenntnisse und sucht einen Norwegischkurs, der ausschließlich am frühen Samstagnachmittag stattfindet."
+    },
+    "ads": {
+      "a": {
+        "title": "Chili & Lemongrass – Thailändische Küche",
+        "body": "Erleben Sie die echten Aromen Thailands direkt im Stadtzentrum, nur 5 Minuten zu Fuß vom Hauptbahnhof entfernt! Wir bieten scharfe Suppen, traditionelles Pad Thai vom Wok und eine große Auswahl an vegetarischen Speisen.\nÖffnungszeiten: Di.–Sa. 17:30–23:00 Uhr. Sonntags und montags geschlossen.\nReservierung erbeten unter Tel. 030-44 33 22."
+      },
+      "b": {
+        "title": "Handwerkerservice „Die Renovierungsprofis“",
+        "body": "Sie planen eine Veränderung in Ihrer Wohnung? Unser professionelles Team übernimmt das Streichen von Wänden, das Anschließen von Küchengeräten sowie kleinere Malerarbeiten.\nArbeitszeiten: Montag bis Freitag von 8:00 bis 17:00 Uhr. Kontakt: info@renovierungprofis-berlin.de."
+      },
+      "c": {
+        "title": "Fahrrad-Akademie „Do It Yourself“",
+        "body": "Haben Sie ein gebrauchtes Mountainbike oder Trekkingrad gekauft und möchten kleinere Wartungsarbeiten selbst erlernen? In unserem zweitägigen Workshop am Samstag und Sonntag (jeweils 10:00–15:00 Uhr) zeigen wir Anfängern, wie man die Gangschaltung einstellt, Reifen flickt und die Kette optimal pflegt.\nAnmeldung und Infos: www.diy-fahrrad-akademie.de."
+      },
+      "d": {
+        "title": "Berliner Tafel e.V. – Aktiv gegen Armut",
+        "body": "Möchten Sie sich in Ihrer Freizeit ehrenamtlich engagieren? Unser Verein sucht freiwillige Helfer für die Unterstützung von Menschen in schwierigen Lebenslagen. Helfen Sie uns am Samstag und Sonntag bei der Zubereitung und Ausgabe von warmen Mahlzeiten in unserer Suppenküche. Die Teilnahme ist unbezahlt.\nInfos: www.berliner-tafel-aktiv.de."
+      },
+      "e": {
+        "title": "Kleintier-Betreuung „Zuhause in Sicherheit“",
+        "body": "Gehen Sie entspannt in den Urlaub! Unser professioneller Service betreut Ihre Vögel, Schildkröten oder Nagetiere direkt bei Ihnen zu Hause. Wir kommen täglich vorbei, füttern die Tiere nach Ihren Vorgaben, wechseln das Wasser und reinigen die Gehege.\nKontakt: Tel. 069-77 66 55."
+      },
+      "f": {
+        "title": "Telefontraining Deutsch für den Beruf (B1/B2)",
+        "body": "Möchten Sie im Beruf sicherer, freundlicher und professioneller mit Kunden am Telefon kommunizieren? In diesem Intensivkurs üben wir das Führen von schwierigen Kundengesprächen, deeskalierende Formulierungen und wichtige Redewendungen für den Support.\nKurszeiten: Jeden Dienstag und Donnerstag von 18:30 bis 20:00 Uhr. Dauer: 6 Wochen.\nInfos unter: www.business-sprachen-welt.de."
+      },
+      "g": {
+        "title": "See-Hotel „Balance & Wellness“",
+        "body": "Verbringen Sie erholsame und aktive Tage direkt am Plauer See! Unser Hotel bietet moderne Zimmer, einen großen Wellnessbereich mit verschiedenen Saunen und ein tägliches Sportprogramm mit geführten Pilates- und Yoga-Kursen für Anfänger im hoteleigenen Pavillon.\nAngebote und Buchung: info@see-hotel-balance.de."
+      },
+      "h": {
+        "title": "Sprachschule Lingua – Norwegisch am Wochenende",
+        "body": "Wochenendkurs Norwegisch A1 für absolute Anfänger ohne Vorkenntnisse. Bereiten Sie sich entspannt auf Ihren nächsten Urlaub vor. Lernen Sie die wichtigsten Vokabeln und Redewendungen für den Alltag.\nKursdauer: 8 Wochen, jeden Samstag von 14:00 bis 17:00 Uhr.\nAnmeldung: www.lingua-schule.de."
+      },
+      "i": {
+        "title": "Deutsches Haus – Traditionelle Küche",
+        "body": "Genießen Sie klassische deutsche Gerichte wie Schweinebraten und frische Salate in gemütlicher Atmosphäre. Großer Biergarten für sonnige Tage. Ideal für Familienfeiern am Wochenende.\nÖffnungszeiten: Di.–Sa. 12:00–15:00 Uhr und 17:30–22:00 Uhr. Sonntags Ruhetag.\nHauptstraße 45, Tel. 089-44 55 66."
+      },
+      "j": {
+        "title": "Praktikum in der Agentur „KreativHochzeit“",
+        "body": "Wir bieten Schülerinnen und Schülern ab 15 Jahren die Möglichkeit, während der Schulferien ein zweiwöchiges Praktikum im Bereich Eventmanagement und Hochzeitsplanung zu absolvieren. Lerne die Organisation von großen Feiern und den Kundenkontakt kennen!\nKurze Bewerbung per E-Mail an: kreativ@hochzeit-agentur.de."
+      },
+      "k": {
+        "title": "Praktikum bei EventDesign Berlin",
+        "body": "Wir bieten Studentinnen und Studenten der Betriebswirtschaftslehre ein dreimonatiges, unvergütetes Pflichtpraktikum im Bereich internationales Event-Marketing und Projektmanagement für Großveranstaltungen an.\nBeginn: flexibel im Sommer. Bewerbung an: jobs@eventdesign-berlin.de."
+      },
+      "l": {
+        "title": "Restaurant Schnitzelparadies",
+        "body": "Traditionelle deutsche Küche in gemütlicher Atmosphäre. Große Auswahl an Schnitzeln, Steaks und klassischen Fleischgerichten wie Sauerbraten oder Kalbsschnitzel. Ideal für Familienfeiern am Sonntagmittag.\nGeöffnet täglich ab 11:30 Uhr. Mittwochs Ruhetag.\nReservierung erbeten: Tel. 0711-33 44 55."
+      }
+    },
+    "answers": {
+      "11": "a",
+      "12": "x",
+      "13": "j",
+      "14": "c",
+      "15": "d",
+      "16": "e",
+      "17": "l",
+      "18": "f",
+      "19": "g",
+      "20": "h"
+    },
+    "explanations": {
+      "11": "Chili & Lemongrass: Thailändisch, scharfe Suppen/Pad Thai, in Bahnhofsnähe, Samstagabend geöffnet",
+      "12": "İlan b'deki yenileme servisi duvar boyama ve cihaz bağlantısı sunsa da çalışma günleri sadece hafta içidir (\"Montag bis Freitag\"). Durum 12'deki kişi ise hafta sonu (\"am Wochenende\") yardım aradığı için bu ilan uygun değildir. Cevap X'tir.",
+      "13": "Agentur KreativHochzeit: Lise öğrencileri/gençler için uygun, 2 haftalık tatil stajı, Eventmanagement/Hochzeitsplanung",
+      "14": "Fahrrad-Akademie: Mountainbike tamiri/bakımı/vites ayarı, Anfänger için uygun hafta sonu kursu",
+      "15": "Berliner Tafel e.V.: Ehrenamtlich/unbezahlt, Suppenküche/evsizler için yemek dağıtımı, Cumartesi-Pazar hafta sonu uygun",
+      "16": "Kleintier-Betreuung: Evde kaplumbağa bakımı, günlük yemleme ve su değişimi",
+      "17": "Restaurant Schnitzelparadies: Traditionelle deutsche Küche, Sauerbraten/Kalbsschnitzel, Sonntagmittag geöffnet, ideal für Familien",
+      "18": "Telefontraining: B1 seviyesine uygun, telefon desteği ve deeskalierende/kriz yönetimi odaklı, Di ve Do 18:30-20:00 arası akşam kursu",
+      "19": "See-Hotel Balance: Göl kenarında, büyük bir SPA/wellness alanı barındırıyor ve günlük Pilates kursu sunuyor",
+      "20": "Norwegisch am Wochenende: A1 başlangıç seviyesi, Cumartesi öğleden sonra 14:00-17:00 arası erken saatte kurs"
+    }
+  },
+  {
+    "id": "lese_3_12",
+    "title": "Freizeit & Dienstleistungen",
+    "emoji": "🌟",
+    "type": "teil3",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "situations": {
+      "11": "Sie möchten am Samstagabend mit Freunden ein neues Restaurant ausprobieren, das scharfe malaysische Currys und traditionelle Laksa-Suppen in Bahnhofsnähe anbietet.",
+      "12": "Ihr Bekannter zieht um und sucht jemanden, der ihm am Wochenende hilft, die alten Zimmerwände neu zu tapezieren und die Türschlösser auszutauschen.",
+      "13": "Die Tochter Ihrer Kollegin ist 16 Jahre alt und möchte in den Sommerferien ein unbezahltes, zweiwöchiges Praktikum im Bereich Modefotografie und Bildbearbeitung machen.",
+      "14": "Ihr Bruder hat ein gebrauchtes Rennrad gekauft und sucht einen Wochenendkurs für Anfänger, um zu lernen, wie man die Bremskabel austauscht und die Gangschaltung einstellt.",
+      "15": "Ihre Kollegin möchte sich in ihrer Freizeit ehrenamtlich (ohne Geld) für Tiere engagieren und sucht ein Projekt, bei dem man am Wochenende im Tierheim Hunde ausführt.",
+      "16": "Ihr Nachbar hat ein großes Terrarium mit zwei Echsen und sucht eine Person, die während seines einwöchigen Urlaubs täglich kommt, um frisches Futter zu bringen.",
+      "17": "Sie suchen für Sonntagmittag ein gemütliches Restaurant mit traditioneller deutscher Küche, um mit Ihren Verwandten Rinderrouladen oder Schweinebraten zu essen.",
+      "18": "Ihr Cousin arbeitet im internationalen Support, spricht bereits gut Deutsch (B1) und möchte einen intensiven Abendkurs besuchen, um das professionelle Verfassen von schriftlichen Kundenantworten zu üben.",
+      "19": "Die Mutter Ihres Freundes möchte im Urlaub kreativ sein und sucht ein Hotel in den Bergen, das tägliche Töpferkurse und einen großen Wellnessbereich anbietet.",
+      "20": "Ihr Kollege möchte nächstes Jahr nach Finnland reisen, hat keine Vorkenntnisse und sucht einen Finnischkurs, der ausschließlich am frühen Samstagnachmittag stattfindet."
+    },
+    "ads": {
+      "a": {
+        "title": "Kuala Lumpur – Malaysische Küche",
+        "body": "Erleben Sie die echten Aromen Malaysias direkt im Stadtzentrum, nur 5 Minuten zu Fuß vom Hauptbahnhof entfernt! Wir bieten scharfe Currys, traditionelle Laksa-Suppen vom Wok und eine große Auswahl an vegetarischen Speisen.\nÖffnungszeiten: Di.–Sa. 17:30–23:00 Uhr. Sonntags und montags geschlossen.\nReservierung erbeten unter Tel. 030-88 99 00."
+      },
+      "b": {
+        "title": "Handwerkerservice „Die Renovierungsexperten“",
+        "body": "Sie planen eine Veränderung in Ihrer Wohnung? Unser professionelles Team übernimmt das Tapezieren von Wänden, den Austausch von Türschlössern sowie das Verlegen von Böden.\nArbeitszeiten: Montag bis Freitag von 8:00 bis 17:00 Uhr. Contact: info@renovierungsexperten.de."
+      },
+      "c": {
+        "title": "Fahrrad-Akademie „Do It Yourself“",
+        "body": "Haben Sie ein gebrauchtes Rennrad oder Mountainbike gekauft und möchten kleinere Wartungsarbeiten selbst erlernen? In unserem zweitägigen Workshop am Samstag und Sonntag (jeweils 10:00–15:00 Uhr) zeigen wir Anfängern, wie man Bremskabel austauscht, Reifen flickt und die Gangschaltung perfekt einstellt.\nAnmeldung und Infos: www.diy-fahrrad-akademie.de."
+      },
+      "d": {
+        "title": "Tierhilfe Berlin e.V. – Aktiv für den Tierschutz",
+        "body": "Möchten Sie sich in Ihrer Freizeit ehrenamtlich engagieren? Unser Verein sucht freiwillige Helfer für die Unterstützung unseres Tierheims. Begleiten Sie unsere Hunde am Samstag und Sonntag bei ausgiebigen Spaziergängen im Park oder helfen Sie bei der Pflege. Die Teilnahme ist unbezahlt.\nInfos: www.tierhilfe-berlin-aktiv.de."
+      },
+      "e": {
+        "title": "Exoten-Betreuung „Zuhause in Sicherheit“",
+        "body": "Gehen Sie entspannt in den Urlaub! Unser professioneller Service betreut Ihre Reptilien, Echsen oder Amphibien direkt bei Ihnen zu Hause. Wir kommen täglich vorbei, füttern die Tiere nach Ihren Vorgaben mit frischem Futter und kontrollieren die Wärme- und Lichtanlagen.\nKontakt: Tel. 069-33 44 55."
+      },
+      "f": {
+        "title": "Schriftliche Kundenkorrespondenz Deutsch (B1/B2)",
+        "body": "Möchten Sie im Beruf sicherer, professioneller und fehlerfreier schriftlich mit internationalen Kunden kommunizieren? In diesem Intensivkurs üben wir das Verfassen von E-Mails, Briefen und professionellen Antworten im Kundenservice.\nKurszeiten: Jeden Dienstag und Donnerstag von 18:30 bis 20:00 Uhr. Dauer: 6 Wochen.\nInfos unter: www.business-sprachen-welt.de."
+      },
+      "g": {
+        "title": "Berg-Hotel „Kreativ & Relax“",
+        "body": "Verbringen Sie erholsame und kreative Tage mitten in den Allgäuer Alpen! Unser Hotel bietet moderne Zimmer, einen großen Wellnessbereich mit beheiztem Innenpool und ein tägliches Kunstprogramm mit geführten Töpferkursen für Anfänger in unserer hoteleigenen Werkstatt.\nAngebote und Buchung: info@berghotel-kreativ.de."
+      },
+      "h": {
+        "title": "Sprachschule Lingua – Finnisch am Wochenende",
+        "body": "Wochenendkurs Finnisch A1 für absolute Anfänger ohne Vorkenntnisse. Bereiten Sie sich entspannt auf Ihren nächsten Urlaub vor. Lernen Sie die wichtigsten Vokabeln und Redewendungen für den Alltag.\nKursdauer: 8 Wochen, jeden Samstag von 14:00 bis 17:00 Uhr.\nAnmeldung: www.lingua-schule.de."
+      },
+      "i": {
+        "title": "Deutsches Haus – Traditionelle Küche",
+        "body": "Genießen Sie klassische deutsche Gerichte wie Schweinebraten und frische Salate in gemütlicher Atmosphäre. Großer Biergarten für sonnige Tage. Ideal für Familienfeiern am Wochenende.\nÖffnungszeiten: Di.–Sa. 12:00–15:00 Uhr und 17:30–22:00 Uhr. Sonntags Ruhetag.\nHauptstraße 45, Tel. 089-44 55 66."
+      },
+      "j": {
+        "title": "Praktikum im Fotostudio „KreativBlick“",
+        "body": "Wir bieten Schülerinnen und Schülern ab 15 Jahren die Möglichkeit, während der Schulferien ein zweiwöchiges Praktikum im Bereich Modefotografie, Studiobeleuchtung und digitale Bildbearbeitung am Computer zu absolvieren. Lerne den Alltag eines Profi-Fotografen kennen!\nKurze Bewerbung per E-Mail an: praktikum@kreativblick.de."
+      },
+      "k": {
+        "title": "Praktikum bei PhotoDesign Berlin",
+        "body": "Wir bieten Studentinnen und Studenten der Medienwissenschaften ein dreimonatiges, unvergütetes Pflichtpraktikum im Bereich Online-Marketing und visuelles Produktmanagement an.\nBeginn: flexibel im Sommer. Bewerbung an: jobs@photodesign-berlin.de."
+      },
+      "l": {
+        "title": "Restaurant Schnitzelparadies",
+        "body": "Traditionelle deutsche Küche in gemütlicher Atmosphäre. Große Auswahl an Schnitzeln, Steaks und klassischen Fleischgerichten wie Rinderrouladen oder Schweinebraten. Ideal für Familienfeiern am Sonntagmittag.\nGeöffnet täglich ab 11:30 Uhr. Mittwochs Ruhetag.\nReservierung erbeten: Tel. 0711-33 44 55."
+      }
+    },
+    "answers": {
+      "11": "a",
+      "12": "x",
+      "13": "j",
+      "14": "c",
+      "15": "d",
+      "16": "e",
+      "17": "l",
+      "18": "f",
+      "19": "g",
+      "20": "h"
+    },
+    "explanations": {
+      "11": "Kuala Lumpur: Malaysisch, scharfe Currys/Laksa-Suppen, in Bahnhofsnähe, Samstagabend geöffnet",
+      "12": "İlan b'deki yenileme servisi duvar kağıdı kaplama ve kilit değişimi sunsa da çalışma günleri sadece hafta içidir (\"Montag bis Freitag\"). Durum 12'deki kişi ise hafta sonu (\"am Wochenende\") yardım aradığı için bu ilan uygun değildir. Cevap X'tir.",
+      "13": "Fotostudio KreativBlick: Lise öğrencileri/gençler için uygun, 2 haftalık tatil stajı, Modefotografie/Bildbearbeitung",
+      "14": "Fahrrad-Akademie: Rennrad tamiri/bakımı/vites ayarı, Anfänger için uygun hafta sonu kursu",
+      "15": "Tierhilfe Berlin e.V.: Ehrenamtlich/unbezahlt, barınakta köpek gezdirme, Cumartesi-Pazar uygun",
+      "16": "Exoten-Betreuung: Evde sürüngen/kertenkele bakımı, günlük yemleme ve sistem kontrolü",
+      "17": "Restaurant Schnitzelparadies: Traditionelle deutsche Küche, Rinderrouladen/Schweinebraten, Sonntagmittag geöffnet, ideal für Familien",
+      "18": "Schriftliche Kundenkorrespondenz: B1 seviyesine uygun, yazılı müşteri yanıtları/E-Mails odaklı, Di ve Do 18:30-20:00 arası akşam kursu",
+      "19": "Berg-Hotel Kreativ & Relax: Dağlarda/Alpen, büyük bir SPA/wellness barındırıyor, günlük çömlekçilik kursu (Töpferkurs) sunuyor",
+      "20": "Finnisch am Wochenende: A1 başlangıç seviyesi, Cumartesi öğleden sonra 14:00-17:00 arası erken saatte kurs"
+    }
+  }
+];
 
 // Define getActiveLeseverstehenData and window getter
 function getActiveLeseverstehenData() {

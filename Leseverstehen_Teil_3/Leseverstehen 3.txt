@@ -1,0 +1,110 @@
+11
+Sie möchten am Samstagabend mit Freunden ein neues Lokal ausprobieren, das frische Meeresfrüchte und Fischgerichte in der Innenstadt anbietet.
+
+12
+Ihr Bekannter möchte sich als Hochzeitsfotograf selbstständig machen und sucht jemanden, der ihm eine moderne und professionelle Website baut.
+
+13
+Die Tochter Ihrer Kollegin möchte in den Sommerferien ein einwöchiges Praktikum auf einem Bauernhof machen, um den Umgang mit Tieren zu lernen.
+
+14
+Ihr Bruder studiert Maschinenbau ve bu yaz zorunlu stajı için (Pflichtpraktikum) üretim yapan büyük bir fabrikada teknik deneyim arıyor.
+
+15
+Ihre Freundin leidet unter starken Zahnschmerzen und sucht eine Zahnarztpraxis, die auch samstags für Notfälle geöffnet hat.
+
+16
+Ihr Nachbar hat zwei kleine Kinder (3 und 5 Jahre alt) und sucht einen Babysitter, der flexibel am frühen Abend unter der Woche auf sie aufpassen kann.
+
+17
+Sie suchen für Sonntagabend ein gemütliches Restaurant mit italienischer Küche, weil Sie mit Ihrem Partner Pizza essen möchten.
+
+18
+Ihre Schwester spricht schon gut Französisch (B1) ve iş hayatında müşterilerle telefonda rahatça konuşabilmek için akşamları bir kursa gitmek istiyor.
+
+19
+Ihr Cousin möchte lernen, wie man professionelle Videos mit dem Smartphone schneidet, und sucht einen Einsteiger-Workshop am Wochenende.
+
+20
+Die Mutter Ihres Freundes sucht eine professionelle Beraterin, die ihr bei der Erstellung von Bewerbungsunterlagen und der Karriereplanung hilft.
+
+---
+
+a
+Meeresbrise – Das Fischrestaurant
+Genießen Sie täglich frischen Fisch, Muscheln und feine Meeresfrüchte direkt im Herzen der Stadt. Moderne Küche, gemütliche Atmosphäre und eine wöchentlich wechselnde Karte.
+Öffnungszeiten: Di.–Sa. 17:30–23:00 Uhr, So. und Mo. Ruhetag.
+Reservierung unter Tel. 030-55 44 33.
+
+b
+PixelDesign – Webseiten für Gründer
+Wir erstellen moderne, schnelle ve mobil uyumlu web siteleri für kleine Unternehmen, Praxen ve Freiberufler. Perfekt für Fotografen, Künstler ve Handwerker, die ihre Arbeit online präsentieren möchten.
+Kostenlose Erstberatung: info@pixeldesign-web.de.
+
+c
+Praktikum bei Krauss-Maffei Industrie
+Wir bieten Studentinnen und Studenten des Maschinenbaus oder der Elektrotechnik die Möglichkeit, ein 2- bis 6-monatiges Pflichtpraktikum in unserer Produktionshalle zu absolvieren.
+Beginn: flexibel im Sommer. Bewerbung an: karriere@krauss-industrie.de.
+
+d
+Zahnarztpraxis Dr. Meier & Team
+Moderne Zahnmedizin für die ganze Familie. Wir bieten Prophylaxe, ästhetische Füllungen und schmerzfreie Behandlungen. 
+Unsere Sprechzeiten: Mo.–Fr. 8:00–18:00 Uhr. Mittwochs bis 20:00 Uhr. Bitte vereinbaren Sie vorab einen Termin. Tel. 089-11 22 33.
+
+e
+Babysitter-Service „Kunterbunt“
+Suchen Sie eine zuverlässige Betreuung für Ihre Kleinen? Unsere erfahrenen Babysitter kommen direkt zu Ihnen nach Hause. Flexibler Einsatz am Nachmittag oder frühen Abend (Mo.–Fr.). Alle Betreuer sind im Umgang mit Kleinkindern geschult.
+Kontakt: Tel. 069-77 88 99.
+
+f
+Pizzeria Roma – Original aus dem Steinofen
+Erleben Sie ein Stück Italien mitten in der Stadt! Große Auswahl an traditioneller Pizza, Pasta und feinen Desserts. Ideal für einen romantischen Abend zu zweit oder Familienfeiern.
+Geöffnet: Fr.–So. 12:00–22:30 Uhr, Mo.–Do. Ruhetag.
+Marktstraße 12, Tel. 0221-33 44 55.
+
+g
+Wochenend-Kurs: Videoschnitt am Smartphone
+Lernen Sie in unserem zweitägigen Kompaktseminar (Sa. & So. 10:00–15:00 Uhr), wie Sie mit einfachen Apps professionelle Videos aufnehmen, schneiden und vertonen können. Keine Vorkenntnisse nötig!
+Anmeldung online: www.medien-werkstatt.de.
+
+h
+Karriereberatung Dr. Sabine Frank
+Sie suchen eine neue berufliche Herausforderung oder möchten Ihre Bewerbungsmappe optimieren? Ich helfe Ihnen professionell bei der Erstellung von Lebenslauf und Anschreiben sowie bei der Vorbereitung auf Vorstellungsgespräche.
+Termine nach Vereinbarung: frank@karriere-coaching.de.
+
+i
+Business Französisch – Abendkurs (B1/B2)
+Intensivkurs für Berufstätige mit soliden Grundkenntnissen. Schwerpunkt: Professionelles Telefonieren, E-Mail-Korrespondenz und Verhandlungsführung mit internationalen Geschäftspartnern.
+Kurszeiten: Di. und Do. 19:00–20:30 Uhr. Dauer: 8 Wochen.
+Infos: www.sprachen-institut.de.
+
+j
+Ferienhof Sonnenblume – Sommercamp
+Zweiwöchiger Aufenthalt für Kinder von 8 bis 14 Jahren in den Sommerferien. Erleben Sie den Alltag auf einem echten Bauernhof: Fütterung der Tiere, Reiten, Traktor fahren und gemeinsame Spiele in der Natur.
+Preis inklusive Vollpension: www.ferienhof-sonnenblume.de.
+
+k
+Restaurant Schnitzelparadies
+Traditionelle deutsche Küche in gemütlicher Atmosphäre. Große Auswahl an Schnitzeln, Steaks und frischen Salaten. Ideal für Familienfeiern am Sonntag.
+Geöffnet täglich ab 17:00 Uhr. Mittwochs Ruhetag.
+Reservierung erbeten: Tel. 0711-33 44 55.
+
+l
+Fotostudio Lichtblick
+Professionelle Fotografie für jeden Anlass! Wir machen Hochzeitsfotos, Familienporträts und Bewerbungsbilder in unserem modernen Studio oder direkt an Ihrer Event-Location.
+Termine online buchen: www.fotostudio-lichtblick.de.
+
+---
+
+LÖSUNGSSCHLÜSSEL / CEVAP ANAHTARI:
+
+11: a (Meeresbrise: Fisch und Meeresfrüchte, Innenstadt/Herz der Stadt, Samstagabend geöffnet)
+12: b (PixelDesign: Baut Webseiten speziell für Gründer, Fotografen und Freiberufler)
+13: x (İlan j'deki Bauernhof çocukları kabul ediyor ancak 2 haftalık yatılı "Sommercamp" sunuyor. Durum 13'teki kız ise sadece 1 haftalık bir "Praktikum" -staj- arıyor. Bu yüzden tam uyuşan bir ilan yoktur, cevap X'tir.)
+14: c (Krauss-Maffei: Maschinenbau-Studierende, Sommer, Pflichtpraktikum, Produktion/Fabrik)
+15: x (İlan d'deki diş hekimi sadece hafta içi açık (Mo-Fr). Durum 15'teki kişi ise Cumartesi günü (samstags) açık olan bir acil klinik arıyor. Bu yüzden cevap X'tir.)
+16: e (Babysitter-Service Kunterbunt: Kleinkinder için uygun, Mo-Fr -unter der Woche-, frühen Abend)
+17: f (Pizzeria Roma: Italienisch/Pizza, Sonntagabend geöffnet, ideal für Paare)
+18: i (Business Französisch: Ab B1, professionelles Telefonieren, Di ve Do 19:00-20:30 -Abendkurs-)
+19: g (Videoschnitt am Smartphone: Smartphone ile video kesme, Einsteiger-Workshop, Sa & So -Wochenende-)
+20: h (Dr. Sabine Frank: Karriereberatung, Erstellung von Bewerbungsunterlagen/Lebenslauf)
