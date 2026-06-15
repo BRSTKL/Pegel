@@ -265,7 +265,22 @@ const LESSONS_DATA = [
     "subcategories": [
       {
         "name": "Pronominaladverbien",
-        "lessons": []
+        "lessons": [
+          {
+            "id": "almanca_wo-kompozita_ve_soru_yapilari",
+            "title": "Almanca Wo-Kompozita ve Soru Yapıları",
+            "category": "Satzbau & Adverbien",
+            "subcategory": "Pronominaladverbien",
+            "content": "﻿Bir önceki konumuzda \"Bunun hakkında\" (darüber) diyerek cümleleri kısaltmayı öğrenmiştik. Wo-Komposita ise tam olarak bunun soru halidir. Birine cansız bir nesne veya durum hakkında \"Ne hakkında?\", \"Ne için?\" veya \"Ne ile?\" gibi sorular sorarken bu pratik yapıyı kullanırız 1, 2.\nOluşturma mantığı tıpatıp aynıdır: \"wo\" kelimesine bir edat (für, mit vb.) eklenir. Eğer edat sesli harfle başlıyorsa araya \"r\" harfi girer (worauf, worüber gibi) 2.\nAlmanlar cansız nesneler için soru sorarken edatları ayrı kullanmayı sevmezler:\n* \"Ne hakkında gülüyorsunuz?\" derken \"Über was?\" demek yerine \"Worüber lacht ihr?\" derler 2.\n* \"Ne ile ilgileniyorsun?\" demek için \"Für was?\" yerine \"Wofür interessierst du dich?\" kullanırlar 3.\nAsla unutulmaması gereken kural: Wo-Komposita SADECE cansız nesneler ve durumlar için kullanılır 3. Eğer bir insan hakkında soru soruyorsanız mecburen edatı ayırıp kişi zamiriyle sormak zorundasınız. Yani \"Kimin hakkında konuşuyorsunuz?\" demek için \"Worüber\" diyemezsiniz, mecburen \"Über wen?\" demek zorundasınız 3, 4.\nEk olarak, Almanlar bu \"wo-\" kelimelerini alles (her şey) veya nichts (hiçbir şey) gibi belirsiz kelimeleri açıklarken ilgi zamiri (bağlaç) olarak da sıkça kullanırlar (Örneğin; \"İlgilendiğimiz tek şey bu\" - Das ist alles, womit wir uns beschäftigen) 5, 6.\nBu soru sorma mantığı işinizi kolaylaştırdı mı? Dilerseniz artık cümleleri \"şunu yaparak / ederek\" (örneğin \"Spor yaparak sağlıklı kalıyorum\") diyerek birbirine bağladığımız o meşhur indem / dadurch, dass (Araç Cümleleri) konusuna geçiş yapabiliriz. Ne dersiniz?"
+          },
+          {
+            "id": "almancada_da-kompozita_ve_pratik_kullanim_rehberi",
+            "title": "Almancada Da-Kompozita ve Pratik Kullanım Rehberi",
+            "category": "Satzbau & Adverbien",
+            "subcategory": "Pronominaladverbien",
+            "content": "﻿\"Da-Komposita\" (Pronominaladverbien), Almanların daha önce bahsedilen cansız bir nesneyi veya koca bir durumu tekrar tekrar söylememek için kullandıkları pratik kısaltmalardır 1-3. Cümleleri inanılmaz derecede hızlandırırlar.\nOluşturması çok basittir: \"da\" kelimesinin yanına bir edat eklenir 4. Eğer edat sesli harfle başlıyorsa araya kaynaştırma harfi olarak \"r\" girer 4.\nSorduğunuz örneklere bakalım:\n* dafür (bunun için): \"für\" edatıyla yapılır. Örnek: \"Er hat dafür viel Geld ausgegeben.\" (Bunun için çok para harcadı.) 5.\n* darauf (buna): \"auf\" sesli harfle başladığı için araya \"r\" girer. Örnek: \"Ich freue mich darauf.\" (Bunu dört gözle bekliyorum.) 4, 6.\n* damit (bununla): \"mit\" edatıyla yapılır. Örnek: \"Was machst du damit?\" (Bununla ne yapıyorsun?) 7.\nÇok Önemli Kural: Bu \"da-\" kelimeleri sadece cansız nesneler veya durumlar için kullanılır, insanlar için asla kullanılamaz 8. Örneğin, cansız bir eşyadan bahsederken \"Bunun hakkında konuşuyoruz\" (Wir sprechen darüber) diyebilirsiniz, ancak bir kız arkadaştan bahsediyorsanız mecburen \"Onun hakkında konuşuyoruz\" (Wir sprechen über sie) demek zorundasınız 9.\nBu kelimelerin cümleyi nasıl pratikleştirdiği mantıklı geldi mi? Dilerseniz tam da bu mantığın soru sorarken kullandığımız hali olan Wo-Komposita (worauf, wofür, womit vb.) konusuna göz atabiliriz. Hangisiyle devam edelim?"
+          }
+        ]
       },
       {
         "name": "Nebensatz-Strukturen",
@@ -295,11 +310,34 @@ const LESSONS_DATA = [
       },
       {
         "name": "Adverbien",
-        "lessons": []
+        "lessons": [
+          {
+            "id": "almanca_zaman_zarflari_ve_temel_kullanim_kurallari",
+            "title": "Almanca Zaman Zarfları ve Temel Kullanım Kuralları",
+            "category": "Satzbau & Adverbien",
+            "subcategory": "Adverbien",
+            "content": "﻿Temporaladverbien (Zaman Zarfları), bir eylemin \"ne zaman\" (wann) gerçekleştiğini netleştirmek için kullandığımız pratik kelimelerdir 1, 2. Bu zarfları anlattıkları zaman dilimine göre üç ana kategoriye ayırabiliriz:\n1. Vergangenheit (Geçmiş):Geçmişte yaşanmış olayları anlatırken şu zarfları kullanırız:\n* gestern (dün) ve früher (eskiden) 2, 3.\n* damals (o zamanlar) ve einst (bir zamanlar) 3.\n* neulich / kürzlich (geçenlerde) ve vorhin (az önce) 2, 3.\n2. Gegenwart (Şu an / Günümüz):İçinde bulunduğumuz zamanı ifade etmek için şunlar tercih edilir:\n* heute (bugün), jetzt / nun (şimdi) ve heutzutage (günümüzde) 4, 5.\n* momentan / zurzeit (şu sıralar) 4, 5.\n* gleich / sofort (hemen) 5.\n3. Zukunft (Gelecek):Gelecekteki planlar veya olaylar için şu zarfları kullanırız:\n* morgen (yarın), bald (yakında) ve demnächst (kısa süre içinde) 6, 7.\n* später (daha sonra) ve nachher (ardından / sonrasında) 7, 8.\n* künftig / zukünftig (gelecekte) 7.\nÇok Önemli Bir Kural: Zamanı vurgulamak isterseniz bu zarfları cümlenin en başına (1. sıraya) koyabilirsiniz. Ancak bu durumda, Almancanın o meşhur kuralı gereği özne ile fiil yer değiştirmek zorundadır. Örneğin; \"Ich werde heute ein neues Auto kaufen\" demek yerine, \"Heute werde ich ein neues Auto kaufen\" demelisiniz 4.\nZamanı ifade ettiğimiz bu kelimelerin mantığı oturdu mu?"
+          }
+        ]
       },
       {
         "name": "Negation",
-        "lessons": []
+        "lessons": [
+          {
+            "id": "almancada_nicht_kullanimi_ve_cumle_olumsuzlama_yapilari",
+            "title": "Almancada Nicht Kullanımı ve Cümle Olumsuzlama Yapıları",
+            "category": "Satzbau & Adverbien",
+            "subcategory": "Negation",
+            "content": "﻿Almancada \"nicht\" kelimesinin konumu, tüm cümleyi mi (Satzverneinung) yoksa cümlenin sadece bir bölümünü mü (Satzteilverneinung) olumsuz yapmak istediğinize göre değişir 1, 2.\n1. Tüm Cümleyi Olumsuz Yapmak (Satzverneinung):Cümlenin genelindeki eylemi veya durumu reddediyorsanız, \"nicht\" kelimesi cümlenin en sonuna gider 1.\n* Örnek: \"Ich mag dich nicht.\" (Seni sevmiyorum) 3.\n2. Sadece Bir Bölümü Olumsuz Yapmak (Satzteilverneinung):Cümlenin tamamını değil de sadece belirli bir detayı (zamanı, kişiyi veya yeri) inkar edip doğrusunu söylemek isterseniz, \"nicht\" kelimesi doğrudan reddettiğiniz o parçanın önüne yerleşir 2. Bu tür durumlarda her zaman bir alternatif sunulduğu için cümleye \"sondern\" (aksine / onun yerine) bağlacı eşlik eder ve olumsuz yapılan parça konuşurken özel olarak vurgulanır 2.\nBu yapının ne kadar esnek olduğunu kaynaklarımızdaki şu detaylı örnek üzerinden görebiliriz: \"Er möchte in diesem Sommer mit Anna im Urlaub surfen gehen.\" (Bu yaz Anna ile tatilde sörf yapmaya gitmek istiyor) 4.\n\"Nicht\" kelimesinin yerini değiştirerek cümlenin bambaşka detaylarını inkar edebiliriz:\n* Özneyi reddetmek: \"Nicht er möchte in diesem Sommer... gehen, sondern ich.\" (O değil, ben gitmek istiyorum) 4.\n* Zamanı reddetmek: \"Er möchte nicht in diesem Sommer... gehen, sondern im Winter.\" (Bu yaz değil, kışın) 4.\n* Kişiyi reddetmek: \"Er möchte... nicht mit Anna... gehen, sondern mit Nicole.\" (Anna ile değil, Nicole ile) 4.\n* Eylemi reddetmek: \"Er möchte... nicht surfen gehen, sondern tauchen.\" (Sörf yapmaya değil, dalış yapmaya) 5.\nBaşka bir deyişle, \"nicht\" tam olarak inkar ettiğimiz kelimenin önüne yapışır ve \"sondern\" ile doğrusunu belirtiriz 2, 4.\nBu \"değil... aksine...\" mantığı tam olarak kafanıza yattı mı?"
+          },
+          {
+            "id": "almancada_nicht_kullanimi_ve_cumle_yapisi",
+            "title": "Almancada Nicht Kullanımı ve Cümle Yapısı",
+            "category": "Satzbau & Adverbien",
+            "subcategory": "Negation",
+            "content": "﻿Almancada bir cümleyi veya durumu olumsuz yapmak (Negation) için genellikle \"nicht\" kelimesini kullanırız 1. Ancak bu kelimenin cümlede nereye konulacağı, neyi olumsuz yapmak istediğinize göre değişir.\nMantığı üç temel kurala oturtabiliriz:\n1. Tüm Cümleyi Olumsuz Yapmak (Sona Atma Kuralı)Eğer cümlenin genelini olumsuz yapıyorsanız, \"nicht\" kelimesi cümlenin en sonuna gider 1, 2.\n* Örnek: \"Ich mag dich nicht.\" (Seni sevmiyorum) 2.\n2. Kuralı Bozan İstisnalar (Kelimenin Önüne Gelme)Bazı durumlarda \"nicht\" en sona gidemez; doğrudan olumsuz yapacağı kelimenin veya yapının hemen önüne yerleşmek zorundadır 2, 3:\n* İkinci bir fiil varsa: \"Morgen kann ich nicht kommen.\" 2\n* Ayrılabilen bir fiil eki (Präfix) varsa: \"Heute gehe ich nicht spazieren.\" 2\n* Geçmiş zaman eylemi (Partizip II) varsa: \"Gestern habe ich nicht gearbeitet.\" 2, 3\n* Sıfatların, zarfların, edatların veya yer bildiren ifadelerin önünde: \"Dieses Hotel ist nicht teuer.\" (Sıfat) veya \"Ich wohne nicht in diesem Haus.\" (Edat) 3.\n3. Sadece Bir Parçayı Olumsuz Yapmak (Satzteil negieren)Bazen cümlenin tamamını değil, sadece küçük bir detayını inkar edip doğrusunu söylemek isteriz. Bu durumda \"nicht\" doğrudan o detayın önüne gelir ve genelde ardından alternatif sunan sondern (aksine/bilakis) bağlacı kullanılır 4.\n* Örnek: \"Ich bin nicht gestern gekommen, sondern heute.\" (Dün gelmedim, bugün geldim) 4.\n\"Nicht\" kelimesinin bu konumlanma mantığı kafanızda netleşti mi?"
+          }
+        ]
       }
     ]
   },

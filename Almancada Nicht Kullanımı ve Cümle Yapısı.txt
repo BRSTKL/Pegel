@@ -1,0 +1,12 @@
+﻿Almancada bir cümleyi veya durumu olumsuz yapmak (Negation) için genellikle "nicht" kelimesini kullanırız 1. Ancak bu kelimenin cümlede nereye konulacağı, neyi olumsuz yapmak istediğinize göre değişir.
+Mantığı üç temel kurala oturtabiliriz:
+1. Tüm Cümleyi Olumsuz Yapmak (Sona Atma Kuralı)Eğer cümlenin genelini olumsuz yapıyorsanız, "nicht" kelimesi cümlenin en sonuna gider 1, 2.
+* Örnek: "Ich mag dich nicht." (Seni sevmiyorum) 2.
+2. Kuralı Bozan İstisnalar (Kelimenin Önüne Gelme)Bazı durumlarda "nicht" en sona gidemez; doğrudan olumsuz yapacağı kelimenin veya yapının hemen önüne yerleşmek zorundadır 2, 3:
+* İkinci bir fiil varsa: "Morgen kann ich nicht kommen." 2
+* Ayrılabilen bir fiil eki (Präfix) varsa: "Heute gehe ich nicht spazieren." 2
+* Geçmiş zaman eylemi (Partizip II) varsa: "Gestern habe ich nicht gearbeitet." 2, 3
+* Sıfatların, zarfların, edatların veya yer bildiren ifadelerin önünde: "Dieses Hotel ist nicht teuer." (Sıfat) veya "Ich wohne nicht in diesem Haus." (Edat) 3.
+3. Sadece Bir Parçayı Olumsuz Yapmak (Satzteil negieren)Bazen cümlenin tamamını değil, sadece küçük bir detayını inkar edip doğrusunu söylemek isteriz. Bu durumda "nicht" doğrudan o detayın önüne gelir ve genelde ardından alternatif sunan sondern (aksine/bilakis) bağlacı kullanılır 4.
+* Örnek: "Ich bin nicht gestern gekommen, sondern heute." (Dün gelmedim, bugün geldim) 4.
+"Nicht" kelimesinin bu konumlanma mantığı kafanızda netleşti mi?

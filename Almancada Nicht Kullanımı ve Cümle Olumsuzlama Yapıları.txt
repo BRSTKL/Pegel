@@ -1,0 +1,12 @@
+﻿Almancada "nicht" kelimesinin konumu, tüm cümleyi mi (Satzverneinung) yoksa cümlenin sadece bir bölümünü mü (Satzteilverneinung) olumsuz yapmak istediğinize göre değişir 1, 2.
+1. Tüm Cümleyi Olumsuz Yapmak (Satzverneinung):Cümlenin genelindeki eylemi veya durumu reddediyorsanız, "nicht" kelimesi cümlenin en sonuna gider 1.
+* Örnek: "Ich mag dich nicht." (Seni sevmiyorum) 3.
+2. Sadece Bir Bölümü Olumsuz Yapmak (Satzteilverneinung):Cümlenin tamamını değil de sadece belirli bir detayı (zamanı, kişiyi veya yeri) inkar edip doğrusunu söylemek isterseniz, "nicht" kelimesi doğrudan reddettiğiniz o parçanın önüne yerleşir 2. Bu tür durumlarda her zaman bir alternatif sunulduğu için cümleye "sondern" (aksine / onun yerine) bağlacı eşlik eder ve olumsuz yapılan parça konuşurken özel olarak vurgulanır 2.
+Bu yapının ne kadar esnek olduğunu kaynaklarımızdaki şu detaylı örnek üzerinden görebiliriz: "Er möchte in diesem Sommer mit Anna im Urlaub surfen gehen." (Bu yaz Anna ile tatilde sörf yapmaya gitmek istiyor) 4.
+"Nicht" kelimesinin yerini değiştirerek cümlenin bambaşka detaylarını inkar edebiliriz:
+* Özneyi reddetmek: "Nicht er möchte in diesem Sommer... gehen, sondern ich." (O değil, ben gitmek istiyorum) 4.
+* Zamanı reddetmek: "Er möchte nicht in diesem Sommer... gehen, sondern im Winter." (Bu yaz değil, kışın) 4.
+* Kişiyi reddetmek: "Er möchte... nicht mit Anna... gehen, sondern mit Nicole." (Anna ile değil, Nicole ile) 4.
+* Eylemi reddetmek: "Er möchte... nicht surfen gehen, sondern tauchen." (Sörf yapmaya değil, dalış yapmaya) 5.
+Başka bir deyişle, "nicht" tam olarak inkar ettiğimiz kelimenin önüne yapışır ve "sondern" ile doğrusunu belirtiriz 2, 4.
+Bu "değil... aksine..." mantığı tam olarak kafanıza yattı mı?
