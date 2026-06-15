@@ -133,11 +133,61 @@
         </div>
       </div>
 
-      <!-- ================= FLASHCARDS SCREEN ================= -->
-      <div id="flashcards-screen" class="screen hidden" style="padding: 20px;">
-        <div>
-          <h1 style="font-size: 18px; font-weight: 600; margin-bottom: 4px;">Kelime & Cümle Kartları</h1>
-          <p class="ts" style="font-size: 12px; margin: 0;">Kartları dokunarak çevirip çalışabilirsiniz.</p>
+      <!-- ================= EXERCISES MENU SCREEN ================= -->
+      <div id="exercises-screen" class="screen hidden" style="padding: 20px;">
+        <div style="margin-bottom: 20px;">
+          <h1 style="font-size: 18px; font-weight: 600; margin-bottom: 4px;">Alıştırmalar</h1>
+          <p class="ts" style="font-size: 12px; margin: 0;">B1 seviyesinde pratik yaparak bilgilerinizi pekiştirin.</p>
+        </div>
+
+        <div style="display:flex; flex-direction:column; gap:14px; flex:1; overflow-y:auto;" id="exercises-menu-list">
+          
+          <!-- Card Exercise Launcher -->
+          <div class="interactive-card" id="launcher-flashcards" style="border-radius: var(--border-radius-lg); padding: 16px; display:flex; align-items:center; gap: 14px;">
+            <div class="c-purple-bg" style="width:40px; height:40px; border-radius: var(--border-radius-md); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+              <i class="ti ti-cards" style="font-size:20px;" aria-hidden="true"></i>
+            </div>
+            <div style="flex:1; min-width:0;">
+              <p style="font-size: 14px; font-weight: 600; margin:0;">Kelime & Cümle Kartları</p>
+              <p class="ts" style="font-size: 11.5px; margin:2px 0 0;">Cümleleri ve Türkçe karşılıklarını çevirerek çalışın.</p>
+            </div>
+            <i class="ti ti-chevron-right" style="font-size:16px; color:var(--color-text-tertiary);" aria-hidden="true"></i>
+          </div>
+
+          <!-- Quiz Exercise Launcher -->
+          <div class="interactive-card" id="launcher-quiz" style="border-radius: var(--border-radius-lg); padding: 16px; display:flex; align-items:center; gap: 14px;">
+            <div class="c-coral-bg" style="width:40px; height:40px; border-radius: var(--border-radius-md); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+              <i class="ti ti-pencil" style="font-size:20px;" aria-hidden="true"></i>
+            </div>
+            <div style="flex:1; min-width:0;">
+              <p style="font-size: 14px; font-weight: 600; margin:0;">Hızlı Gramer Quizi</p>
+              <p class="ts" style="font-size: 11.5px; margin:2px 0 0;">5 soruluk test ile bilginizi ölçün, XP kazanın.</p>
+            </div>
+            <i class="ti ti-chevron-right" style="font-size:16px; color:var(--color-text-tertiary);" aria-hidden="true"></i>
+          </div>
+
+          <!-- Fill in Blanks Launcher -->
+          <div class="interactive-card" id="launcher-fillblanks" style="border-radius: var(--border-radius-lg); padding: 16px; display:flex; align-items:center; gap: 14px;">
+            <div class="c-teal-bg" style="width:40px; height:40px; border-radius: var(--border-radius-md); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+              <i class="ti ti-abc" style="font-size:20px;" aria-hidden="true"></i>
+            </div>
+            <div style="flex:1; min-width:0;">
+              <p style="font-size: 14px; font-weight: 600; margin:0;">Boşluk Doldurma</p>
+              <p class="ts" style="font-size: 11.5px; margin:2px 0 0;">Cümlelerdeki eksik gramer ögelerini tamamlayın.</p>
+            </div>
+            <i class="ti ti-chevron-right" style="font-size:16px; color:var(--color-text-tertiary);" aria-hidden="true"></i>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ================= FLASHCARDS SUB-SCREEN ================= -->
+      <div id="flashcard-play-screen" class="screen hidden" style="padding: 20px;">
+        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 15px;">
+          <button class="back-btn" data-target="exercises" style="background: none; border: none; font-size: 20px; color: var(--color-text-primary); cursor: pointer; display: flex; align-items: center; justify-content: center;">
+            <i class="ti ti-arrow-left"></i>
+          </button>
+          <h1 style="font-size: 15px; font-weight: 600; margin: 0;">Kart Çalışması</h1>
         </div>
 
         <div id="flashcard-container" style="flex: 1; display: flex; align-items: center; justify-content: center;">
@@ -154,13 +204,27 @@
         </div>
       </div>
 
+      <!-- ================= FILL IN BLANKS PLAY SCREEN ================= -->
+      <div id="fillblanks-play-screen" class="screen hidden" style="padding: 20px;">
+        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 15px;">
+          <button class="back-btn" data-target="exercises" style="background: none; border: none; font-size: 20px; color: var(--color-text-primary); cursor: pointer; display: flex; align-items: center; justify-content: center;">
+            <i class="ti ti-arrow-left"></i>
+          </button>
+          <h1 style="font-size: 15px; font-weight: 600; margin: 0;">Boşluk Doldurma</h1>
+        </div>
+
+        <div id="fillblanks-content-area" style="flex: 1; display: flex; flex-direction: column;">
+          <!-- Dynamic fill-in-blanks questions will load here -->
+        </div>
+      </div>
+
       <!-- ================= QUIZ SCREEN ================= -->
       <div id="quiz-screen" class="screen hidden" style="padding: 20px;">
         <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 15px;">
-          <button class="back-btn" data-target="home" style="background: none; border: none; font-size: 20px; color: var(--color-text-primary); cursor: pointer; display: flex; align-items: center; justify-content: center;">
+          <button class="back-btn" data-target="exercises" style="background: none; border: none; font-size: 20px; color: var(--color-text-primary); cursor: pointer; display: flex; align-items: center; justify-content: center;">
             <i class="ti ti-arrow-left"></i>
           </button>
-          <h1 style="font-size: 15px; font-weight: 600; margin: 0;">Günlük Quiz</h1>
+          <h1 style="font-size: 15px; font-weight: 600; margin: 0;">Gramer Quizi</h1>
         </div>
 
         <div id="quiz-content-area" style="flex: 1; display: flex; flex-direction: column;">
@@ -256,9 +320,9 @@
         <i class="ti ti-sitemap-2" aria-hidden="true"></i>
         <span>Konular</span>
       </button>
-      <button class="nav-item" data-screen="flashcards">
-        <i class="ti ti-cards" aria-hidden="true"></i>
-        <span>Kartlar</span>
+      <button class="nav-item" data-screen="exercises">
+        <i class="ti ti-notebook" aria-hidden="true"></i>
+        <span>Alıştırma</span>
       </button>
       <button class="nav-item" data-screen="analytics">
         <i class="ti ti-chart-bar" aria-hidden="true"></i>

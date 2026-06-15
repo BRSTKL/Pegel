@@ -1,4 +1,4 @@
-// app.js - B1 German App Core Logic (Minimalist Redesign)
+// app.js - B1 German App Core Logic (Minimalist Redesign + Exercises Page)
 
 // State management
 let state = {
@@ -81,7 +81,7 @@ const QUIZ_QUESTIONS = [
       "Saçımı bir başkasına (berbere) kestiriyorum.",
       "Saçımı kesmek zorundayım."
     ],
-    correct: 3
+    correct: 2
   },
   {
     question: "'brauchen + zu' yapısı olumsuz veya sınırlayıcı cümlelerde (nicht/nur) Almancadaki hangi fiilin yerine kullanılır?",
@@ -125,6 +125,40 @@ const QUIZ_QUESTIONS = [
   }
 ];
 
+// Fill in the blanks database
+const FILLBLANKS_QUESTIONS = [
+  {
+    sentence: "Das Fenster ________ sich nicht öffnen.",
+    translation: "Pencere açılamıyor.",
+    options: ["lässt", "wird", "ist", "kann"],
+    correct: "lässt"
+  },
+  {
+    sentence: "Sie wäscht ________.",
+    translation: "Kendini yıkıyor.",
+    options: ["sich", "mich", "dir", "uns"],
+    correct: "sich"
+  },
+  {
+    sentence: "Ich brauche nicht ________ kommen.",
+    translation: "Gelmek zorunda değilim.",
+    options: ["zu", "um", "für", "an"],
+    correct: "zu"
+  },
+  {
+    sentence: "Das Haus ________ gebaut.",
+    translation: "Ev inşa edilmiş (durumda).",
+    options: ["ist", "wird", "hat", "lässt"],
+    correct: "ist"
+  },
+  {
+    sentence: "Wir treffen ________ um 8 Uhr.",
+    translation: "Saat 8'de buluşuyoruz.",
+    options: ["uns", "sich", "euch", "wir"],
+    correct: "uns"
+  }
+];
+
 // Helper to save state
 function saveState() {
   localStorage.setItem("b1_app_state", JSON.stringify(state));
@@ -141,7 +175,6 @@ function loadState() {
     }
   }
   
-  // Date check for streak and daily tasks resets
   const today = new Date().toDateString();
   if (state.lastActiveDate && state.lastActiveDate !== today) {
     state.completedToday.flashcards = false;
@@ -159,17 +192,30 @@ document.addEventListener("DOMContentLoaded", () => {
   showScreen(state.currentScreen);
   updateStreakBadge();
   
-  // Handle today's card clicks
+  // Home Today's task links -> directs to Exercises page
   document.getElementById("flashcard-today-btn")?.addEventListener("click", () => {
-    showScreen("flashcards");
+    showScreen("exercises");
   });
   
   document.getElementById("quiz-today-btn")?.addEventListener("click", () => {
-    startNewQuiz();
+    showScreen("exercises");
   });
   
   document.getElementById("continue-all-btn")?.addEventListener("click", () => {
     showScreen("sitemap");
+  });
+  
+  // Exercises Menu Launchers
+  document.getElementById("launcher-flashcards")?.addEventListener("click", () => {
+    showScreen("flashcard-play");
+  });
+  
+  document.getElementById("launcher-quiz")?.addEventListener("click", () => {
+    startNewQuiz();
+  });
+  
+  document.getElementById("launcher-fillblanks")?.addEventListener("click", () => {
+    startNewFillBlanks();
   });
   
   // Back buttons
@@ -230,7 +276,12 @@ function showScreen(screenId) {
   }
   
   // Highlight active nav item
-  const activeNav = document.querySelector(`.nav-item[data-screen="${screenId}"]`);
+  // Map sub-activities back to the active navbar tab
+  let navActiveId = screenId;
+  if (screenId === "flashcard-play" || screenId === "quiz" || screenId === "fillblanks-play") {
+    navActiveId = "exercises";
+  }
+  const activeNav = document.querySelector(`.nav-item[data-screen="${navActiveId}"]`);
   if (activeNav) {
     activeNav.classList.add("active");
   }
@@ -240,7 +291,9 @@ function showScreen(screenId) {
     renderHomeScreen();
   } else if (screenId === "sitemap") {
     renderSitemapScreen();
-  } else if (screenId === "flashcards") {
+  } else if (screenId === "exercises") {
+    // exercises main menu doesn't need active rendering
+  } else if (screenId === "flashcard-play") {
     renderFlashcardScreen();
   } else if (screenId === "analytics") {
     renderAnalyticsScreen();
@@ -253,7 +306,6 @@ function showScreen(screenId) {
 function renderHomeScreen() {
   document.getElementById("profile-name").textContent = state.userName;
   
-  // Calculations
   const totalLessons = countTotalLessons();
   const completedCount = state.completedLessons.length;
   const progressPercent = totalLessons > 0 ? Math.round((completedCount / totalLessons) * 100) : 0;
@@ -262,10 +314,8 @@ function renderHomeScreen() {
   document.getElementById("progress-bar-fill").style.width = `${progressPercent}%`;
   document.getElementById("completed-fraction").textContent = `${completedCount}/${totalLessons} tamamlandı`;
   
-  // Update Streak badge
   updateStreakBadge();
   
-  // Daily checklist status updates
   const fcText = document.getElementById("fc-status-text");
   if (fcText) {
     fcText.textContent = state.completedToday.flashcards ? "Tamamlandı! 🎉" : "12 kart bekliyor";
@@ -280,14 +330,12 @@ function renderHomeScreen() {
   if (continueList) {
     continueList.innerHTML = "";
     
-    // Find active categories & subcategories from lessons data
     LESSONS_DATA.forEach(cat => {
       cat.subcategories.forEach(sub => {
         const subLessons = sub.lessons;
         if (subLessons.length > 0) {
           const completedSub = subLessons.filter(l => state.completedLessons.includes(l.id)).length;
           
-          // Show only if partially completed
           if (completedSub > 0 && completedSub < subLessons.length) {
             const pct = Math.round((completedSub / subLessons.length) * 100);
             
@@ -319,7 +367,6 @@ function renderHomeScreen() {
       });
     });
     
-    // Fallback if nothing is partially complete (e.g. at start or finish)
     if (continueList.innerHTML === "") {
       continueList.innerHTML = `
         <div class="interactive-card" style="border-radius: var(--border-radius-lg); padding: 12px 14px; display:flex; align-items:center; gap: 12px; margin-bottom: 10px;" id="fallback-continue-card">
@@ -378,13 +425,12 @@ function renderSitemapScreen() {
   
   if (!catNav || !sitemapList) return;
   
-  // Render Category Navigation tabs
   catNav.innerHTML = "";
   LESSONS_DATA.forEach(cat => {
     const btn = document.createElement("button");
     btn.className = `category-tab-btn ${state.activeCategory === cat.id ? 'active' : ''}`;
     btn.style = `flex: 1; padding: 10px 0; border: none; border-bottom: 2px solid ${state.activeCategory === cat.id ? 'var(--theme-purple)' : 'transparent'}; background: none; font-size: 13px; font-weight: 600; cursor: pointer; color: ${state.activeCategory === cat.id ? 'var(--theme-purple)' : 'var(--color-text-secondary)'};`;
-    btn.textContent = cat.name.split(" ")[0]; // First word
+    btn.textContent = cat.name.split(" ")[0];
     btn.addEventListener("click", () => {
       state.activeCategory = cat.id;
       saveState();
@@ -393,11 +439,9 @@ function renderSitemapScreen() {
     catNav.appendChild(btn);
   });
   
-  // Find current active category
   const activeCatObj = LESSONS_DATA.find(c => c.id === state.activeCategory);
   if (!activeCatObj) return;
   
-  // Render subcategories inside accordion
   sitemapList.innerHTML = "";
   
   activeCatObj.subcategories.forEach(sub => {
@@ -407,7 +451,6 @@ function renderSitemapScreen() {
     
     const isExpanded = state.expandedSubcategories[sub.name];
     
-    // Header
     const header = document.createElement("div");
     header.className = "subcategory-header";
     header.innerHTML = `
@@ -421,7 +464,6 @@ function renderSitemapScreen() {
     });
     item.appendChild(header);
     
-    // Lessons List
     if (isExpanded) {
       const lessonsList = document.createElement("div");
       lessonsList.className = "lessons-list";
@@ -459,13 +501,11 @@ function openLesson(lesson) {
   
   document.getElementById("lesson-title").textContent = lesson.title;
   
-  // Format content
   const lessonBody = document.getElementById("lesson-body-content");
   if (lessonBody) {
     lessonBody.innerHTML = formatLessonContent(lesson.content);
   }
   
-  // Complete Button Setup
   const compBtn = document.getElementById("lesson-complete-btn");
   if (compBtn) {
     const isCompleted = state.completedLessons.includes(lesson.id);
@@ -478,10 +518,10 @@ function openLesson(lesson) {
       const index = state.completedLessons.indexOf(lesson.id);
       let nowCompleted = false;
       if (index > -1) {
-        state.completedLessons.splice(index, 1); // remove
+        state.completedLessons.splice(index, 1);
       } else {
-        state.completedLessons.push(lesson.id); // add
-        state.xp += 15; // award XP
+        state.completedLessons.push(lesson.id);
+        state.xp += 15;
         nowCompleted = true;
       }
       saveState();
@@ -502,7 +542,6 @@ function updateCompleteButtonState(btn, isCompleted) {
   }
 }
 
-// Parse lesson text and apply rich styling
 function formatLessonContent(content) {
   const lines = content.split("\n");
   let html = "";
@@ -522,7 +561,6 @@ function formatLessonContent(content) {
   return html;
 }
 
-// Convert footnote numbers like "1, 2" or "3" into styled citation bubbles
 function formatCitations(text) {
   let formatted = text;
   
@@ -561,7 +599,7 @@ function renderFlashcardScreen() {
         state.xp += 20;
         saveState();
         alert("Harika! Tüm kartları incelediniz ve +20 XP kazandınız! 🎉");
-        showScreen("home");
+        showScreen("exercises");
       }
     };
   }
@@ -628,7 +666,6 @@ let correctAnswersCount = 0;
 
 function startNewQuiz() {
   showScreen("quiz");
-  
   const shuffled = [...QUIZ_QUESTIONS].sort(() => 0.5 - Math.random());
   activeQuizQuestions = shuffled.slice(0, 5);
   currentQuestionIndex = 0;
@@ -744,13 +781,155 @@ function finishQuiz() {
       </div>
       
       <button class="c-purple" style="width:100%; border:none; padding:12px; border-radius:var(--border-radius-lg); font-size:13.5px; font-weight:600; cursor:pointer; color:var(--color-background-primary); margin-top:10px;" id="quiz-done-btn">
-        Ana Sayfaya Dön
+        Alıştırma Sayfasına Dön
       </button>
     </div>
   `;
   
   document.getElementById("quiz-done-btn")?.addEventListener("click", () => {
-    showScreen("home");
+    showScreen("exercises");
+  });
+}
+
+// BOŞLUK DOLDURMA (FILL IN BLANKS) CONTROLLER
+let activeFbQuestions = [];
+let currentFbIndex = 0;
+let correctFbCount = 0;
+
+function startNewFillBlanks() {
+  showScreen("fillblanks-play");
+  activeFbQuestions = [...FILLBLANKS_QUESTIONS].sort(() => 0.5 - Math.random()).slice(0, 5);
+  currentFbIndex = 0;
+  correctFbCount = 0;
+  renderFbQuestion();
+}
+
+function renderFbQuestion() {
+  const container = document.getElementById("fillblanks-content-area");
+  if (!container) return;
+  
+  const q = activeFbQuestions[currentFbIndex];
+  
+  const blankBox = `<span style="border-bottom: 2px solid var(--theme-teal); padding: 0 16px; margin: 0 4px; display: inline-block; min-width: 60px; text-align: center; color: var(--theme-teal); font-weight: 700;" id="fb-blank-word">...</span>`;
+  const sentenceHtml = q.sentence.replace("________", blankBox);
+  
+  container.innerHTML = `
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 16px;">
+      <span class="ts" style="font-size:12.5px; font-weight:500;">Soru ${currentFbIndex + 1} / 5</span>
+      <div style="width: 80px; height: 5px; background: var(--color-border-primary); border-radius: 99px; overflow:hidden;">
+        <div style="width: ${(currentFbIndex + 1) * 20}%; height:100%; background: var(--theme-teal); border-radius:99px;"></div>
+      </div>
+    </div>
+    
+    <div style="background: var(--color-background-secondary); border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); padding: 20px; text-align: center; margin-bottom: 24px;">
+      <p style="font-size: 16px; font-weight: 600; line-height: 1.6; margin: 0 0 10px; color: var(--color-text-primary);">
+        ${sentenceHtml}
+      </p>
+      <p class="ts" style="font-size: 12.5px; font-style: italic; margin: 0;">
+        Türkçe: "${q.translation}"
+      </p>
+    </div>
+    
+    <div style="display:grid; grid-template-columns: 1fr 1fr; gap:12px; margin-top: auto; margin-bottom: 20px;" id="fb-options-container">
+      ${q.options.map(opt => `
+        <button class="quiz-option" style="justify-content: center; text-align: center;" data-val="${opt}">
+          <span>${opt}</span>
+        </button>
+      `).join("")}
+    </div>
+  `;
+  
+  const options = container.querySelectorAll("#fb-options-container button");
+  options.forEach(btn => {
+    btn.addEventListener("click", () => {
+      const selectedVal = btn.getAttribute("data-val");
+      handleFbAnswer(selectedVal, btn, options);
+    });
+  });
+}
+
+function handleFbAnswer(selectedVal, clickedBtn, allOptions) {
+  const q = activeFbQuestions[currentFbIndex];
+  const correctVal = q.correct;
+  
+  const blankWord = document.getElementById("fb-blank-word");
+  if (blankWord) {
+    blankWord.textContent = selectedVal;
+  }
+  
+  allOptions.forEach(opt => opt.disabled = true);
+  
+  if (selectedVal === correctVal) {
+    clickedBtn.classList.add("correct");
+    correctFbCount++;
+    state.xp += 10;
+  } else {
+    clickedBtn.classList.add("incorrect");
+    
+    allOptions.forEach(opt => {
+      if (opt.getAttribute("data-val") === correctVal) {
+        opt.classList.add("correct");
+      }
+    });
+  }
+  
+  saveState();
+  
+  setTimeout(() => {
+    currentFbIndex++;
+    if (currentFbIndex < activeFbQuestions.length) {
+      renderFbQuestion();
+    } else {
+      finishFb();
+    }
+  }, 1600);
+}
+
+function finishFb() {
+  const container = document.getElementById("fillblanks-content-area");
+  if (!container) return;
+  
+  state.completedToday.flashcards = true;
+  state.streak++;
+  state.xp += 20;
+  saveState();
+  updateStreakBadge();
+  
+  container.innerHTML = `
+    <div style="text-align: center; padding: 24px 10px; display:flex; flex-direction:column; align-items:center; gap:18px;">
+      <div style="width: 64px; height: 64px; border-radius: 50%; display:flex; align-items:center; justify-content:center; border: 1px solid var(--color-border-primary); background-color: var(--color-background-secondary); color: var(--theme-teal);">
+        <i class="ti ti-trophy" style="font-size:30px;"></i>
+      </div>
+      <div>
+        <h2 style="font-size:19px; font-weight:700; margin:0 0 6px;">Egzersiz Tamamlandı!</h2>
+        <p class="ts" style="font-size:13px; margin:0;">
+          Boşluk doldurma alıştırmasını başarıyla tamamladınız.
+        </p>
+      </div>
+      
+      <div style="background: var(--color-background-secondary); border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); padding: 16px; width: 100%; display:grid; grid-template-columns: 1fr 1fr; gap:12px; margin: 8px 0;">
+        <div style="text-align:center; border-right: 1px solid var(--color-border-secondary);">
+          <p class="ts" style="font-size:11px; margin:0 0 4px;">Doğru Cevap</p>
+          <p style="font-size:18px; font-weight:700; margin:0; color:var(--theme-teal);">${correctFbCount} / 5</p>
+        </div>
+        <div style="text-align:center;">
+          <p class="ts" style="font-size:11px; margin:0 0 4px;">Kazanılan XP</p>
+          <p style="font-size:18px; font-weight:700; margin:0; color:var(--theme-teal);">+${correctFbCount * 10 + 20}</p>
+        </div>
+      </div>
+      
+      <div style="display:flex; align-items:center; gap:6px; font-size:12.5px; font-weight:600; color:var(--theme-purple);">
+        <i class="ti ti-flame" style="font-size:16px;"></i> Seri: ${state.streak} Gün!
+      </div>
+      
+      <button class="c-purple" style="width:100%; border:none; padding:12px; border-radius:var(--border-radius-lg); font-size:13.5px; font-weight:600; cursor:pointer; color:var(--color-background-primary); margin-top:10px;" id="fb-done-btn">
+        Alıştırma Sayfasına Dön
+      </button>
+    </div>
+  `;
+  
+  document.getElementById("fb-done-btn")?.addEventListener("click", () => {
+    showScreen("exercises");
   });
 }
 
