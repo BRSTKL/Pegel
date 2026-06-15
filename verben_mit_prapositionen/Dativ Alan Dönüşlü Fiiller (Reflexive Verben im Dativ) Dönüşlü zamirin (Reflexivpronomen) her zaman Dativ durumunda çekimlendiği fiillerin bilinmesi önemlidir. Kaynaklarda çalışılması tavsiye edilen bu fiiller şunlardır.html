@@ -1,0 +1,247 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body,div,button,span,p,table,td,th{font-family:var(--font-sans)}
+.app{padding:1rem 0}
+.tabs{display:flex;gap:5px;margin-bottom:1.25rem;flex-wrap:wrap}
+.tab-btn{padding:7px 14px;border-radius:8px;border:0.5px solid var(--color-border-secondary);background:transparent;cursor:pointer;font-size:13px;color:var(--color-text-secondary);transition:all .15s}
+.tab-btn.on{background:var(--color-background-secondary);color:var(--color-text-primary);border-color:var(--color-border-primary);font-weight:500}
+.panel{display:none}.panel.on{display:block}
+
+.form-card{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:12px;padding:1.25rem;margin-bottom:12px}
+.form-head{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.form-word{font-size:22px;font-weight:500}
+.fw-wurde{color:#185FA5}.fw-geworden{color:#0F6E56}.fw-worden{color:#993C1D}
+.form-badge{padding:3px 10px;border-radius:20px;font-size:12px;font-weight:500}
+.bg-wurde{background:#E6F1FB;color:#0C447C}.bg-geworden{background:#E1F5EE;color:#085041}.bg-worden{background:#FAECE7;color:#712B13}
+.form-rule{font-size:13px;color:var(--color-text-secondary);margin-bottom:10px;line-height:1.6}
+.form-rule strong{color:var(--color-text-primary)}
+.struct{background:var(--color-background-secondary);border-radius:8px;padding:9px 13px;font-size:14px;font-family:var(--font-mono);margin-bottom:10px;color:var(--color-text-primary)}
+.ex-row{background:var(--color-background-secondary);border-radius:8px;padding:9px 13px;margin-bottom:6px;border-left:2px solid #378ADD}
+.ex-de{font-size:13px;color:var(--color-text-primary)}
+.ex-tr{font-size:12px;color:var(--color-text-secondary);margin-top:2px}
+.ex-de .target{font-weight:500}
+.ex-de .target.wurde{color:#185FA5}
+.ex-de .target.geworden{color:#0F6E56}
+.ex-de .target.worden{color:#993C1D}
+
+.compare-table{width:100%;border-collapse:collapse;font-size:13px;margin-bottom:1rem}
+.compare-table th{text-align:left;padding:7px 10px;background:var(--color-background-secondary);color:var(--color-text-secondary);font-weight:500;border-bottom:0.5px solid var(--color-border-secondary)}
+.compare-table td{padding:8px 10px;border-bottom:0.5px solid var(--color-border-tertiary);color:var(--color-text-primary);vertical-align:top}
+.compare-table tr:last-child td{border-bottom:none}
+
+.flow-card{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:12px;padding:1.25rem;margin-bottom:1rem}
+.flow-q{font-size:14px;font-weight:500;color:var(--color-text-primary);margin-bottom:10px}
+.flow-branch{display:flex;gap:8px;margin-bottom:6px;align-items:flex-start;font-size:13px;color:var(--color-text-secondary)}
+.flow-tag{padding:2px 9px;border-radius:20px;font-size:11px;font-weight:500;white-space:nowrap}
+
+.cat-row{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:1rem}
+.cat-btn{padding:5px 11px;border-radius:20px;border:0.5px solid var(--color-border-secondary);background:transparent;cursor:pointer;font-size:12px;color:var(--color-text-secondary)}
+.cat-btn.on{background:var(--color-background-secondary);color:var(--color-text-primary);border-color:var(--color-border-primary);font-weight:500}
+.pbar-wrap{height:3px;background:var(--color-background-secondary);border-radius:2px;margin-bottom:1rem;overflow:hidden}
+.pbar-fill{height:100%;background:#378ADD;border-radius:2px;transition:width .3s}
+.pbar-txt{font-size:12px;color:var(--color-text-secondary);margin-bottom:5px;display:flex;justify-content:space-between;align-items:center}
+.qcard{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:12px;padding:1.25rem;margin-bottom:1rem}
+.qtext{font-size:15px;color:var(--color-text-primary);line-height:1.7;margin-bottom:14px;font-weight:500}
+.blank{display:inline-block;min-width:90px;border-bottom:2px solid #378ADD;text-align:center;padding:0 3px}
+.opts-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.opt{padding:9px 12px;border-radius:8px;border:0.5px solid var(--color-border-secondary);background:transparent;cursor:pointer;font-size:13px;color:var(--color-text-primary);text-align:left;transition:all .15s}
+.opt:hover:not([disabled]){background:var(--color-background-secondary);border-color:var(--color-border-primary)}
+.opt.ok{background:#EAF3DE;border-color:#C0DD97;color:#27500A}
+.opt.no{background:#FCEBEB;border-color:#F7C1C1;color:#791F1F}
+.opt.show{background:#EAF3DE;border-color:#C0DD97;color:#27500A}
+.fb-box{padding:9px 13px;border-radius:8px;margin-top:9px;font-size:13px;line-height:1.5}
+.fb-ok{background:#EAF3DE;color:#27500A}.fb-no{background:#FCEBEB;color:#791F1F}
+.exp{font-size:12px;opacity:.85;margin-top:4px}
+.next-btn,.retry-btn{padding:8px 18px;border-radius:8px;border:0.5px solid var(--color-border-secondary);background:var(--color-background-secondary);cursor:pointer;font-size:13px;color:var(--color-text-primary);font-weight:500;margin-top:10px}
+.score-box{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:12px;padding:2rem;text-align:center}
+.score-num{font-size:44px;font-weight:500;color:var(--color-text-primary);margin-bottom:4px}
+.score-lbl{font-size:14px;color:var(--color-text-secondary);margin-bottom:1rem}
+</style>
+
+<div class="app">
+<h2 style="position:absolute;width:1px;height:1px;overflow:hidden">wurde, geworden, worden ogrenme uygulamasi</h2>
+
+<div class="tabs">
+  <button class="tab-btn on" data-tab="theory">Kurallar</button>
+  <button class="tab-btn" data-tab="decide">Karar Akisi</button>
+  <button class="tab-btn" data-tab="quiz">Quiz</button>
+</div>
+
+<div id="theory" class="panel on">
+
+<div class="form-card">
+  <div class="form-head"><span class="form-word fw-wurde">wurde(n)</span><span class="form-badge bg-wurde">Prateritum</span></div>
+  <div class="form-rule"><strong>werden</strong> fiilinin hikaye gecmis (Prateritum) hali. Iki kullanimi var:</div>
+  <div class="struct">1) Degisim/gelisim anlatimi: Subjekt + wurde + Adjektiv/Nomen</div>
+  <div class="ex-row"><div class="ex-de">Er <span class="target wurde">wurde</span> Arzt.</div><div class="ex-tr">O doktor oldu. (mesleğe geçiş — degisim)</div></div>
+  <div class="ex-row"><div class="ex-de">Es <span class="target wurde">wurde</span> dunkel.</div><div class="ex-tr">Hava karardı. (durum degisimi)</div></div>
+  <div class="struct">2) Passiv Prateritum: Subjekt + wurde + Partizip II</div>
+  <div class="ex-row"><div class="ex-de">Die Abteilung <span class="target wurde">wurde</span> geschlossen.</div><div class="ex-tr">Bölüm kapatıldı. (gecmiste yapilan bir eylem — edilgen)</div></div>
+  <div class="ex-row"><div class="ex-de">Das Haus <span class="target wurde">wurde</span> 1990 gebaut.</div><div class="ex-tr">Ev 1990'da inşa edildi.</div></div>
+</div>
+
+<div class="form-card">
+  <div class="form-head"><span class="form-word fw-geworden">geworden</span><span class="form-badge bg-geworden">Partizip II (Vollverb)</span></div>
+  <div class="form-rule"><strong>werden</strong> fiilinin Partizip II hali. Ana fiil olarak Perfekt cumlesinde, <strong>sein</strong> yardimci fiiliyle kullanilir. "Olmak / haline gelmek" anlamindadir — Passiv DEGIL.</div>
+  <div class="struct">Subjekt + sein (ist/sind) + ... + geworden</div>
+  <div class="ex-row"><div class="ex-de">Er ist Arzt <span class="target geworden">geworden</span>.</div><div class="ex-tr">O doktor oldu. (Perfekt — bir meslege gecis)</div></div>
+  <div class="ex-row"><div class="ex-de">Das Wetter ist schlechter <span class="target geworden">geworden</span>.</div><div class="ex-tr">Hava daha kötü oldu/hale geldi.</div></div>
+  <div class="ex-row"><div class="ex-de">Sie ist sehr bekannt <span class="target geworden">geworden</span>.</div><div class="ex-tr">O cok taninmis oldu.</div></div>
+</div>
+
+<div class="form-card">
+  <div class="form-head"><span class="form-word fw-worden">worden</span><span class="form-badge bg-worden">Passiv Perfekt</span></div>
+  <div class="form-rule"><strong>worden</strong> SADECE Passiv Perfekt (yakin gecmis edilgen) kurarken kullanilir. Tek basina hicbir zaman ana fiil olamaz.</div>
+  <div class="struct">Subjekt + sein (ist/sind) + Partizip II + worden</div>
+  <div class="ex-row"><div class="ex-de">Die Abteilung ist geschlossen <span class="target worden">worden</span>.</div><div class="ex-tr">Bölüm kapatılmış (oldu). (Passiv Perfekt)</div></div>
+  <div class="ex-row"><div class="ex-de">Das Projekt ist abgesagt <span class="target worden">worden</span>.</div><div class="ex-tr">Proje iptal edilmiş.</div></div>
+  <div class="ex-row"><div class="ex-de">Die Fenster sind repariert <span class="target worden">worden</span>.</div><div class="ex-tr">Pencereler tamir edilmiş.</div></div>
+  <div class="form-rule" style="margin-top:8px"><strong>Onemli:</strong> "geworden" yerine "worden" kullanilmasinin sebebi: Passiv Perfekt'te "werden" fiilinin kendi Partizip II hali ("geworden") kisalir ve "worden" olur. Yani "ist geschlossen <em>geworden</em>" degil, "ist geschlossen <em>worden</em>".</div>
+</div>
+
+<div class="form-card">
+  <div class="form-head" style="margin-bottom:4px"><span class="form-badge" style="background:var(--color-background-secondary);color:var(--color-text-primary)">Karsilastirma</span></div>
+  <table class="compare-table">
+    <thead><tr><th>Form</th><th>Tip</th><th>Yapi</th><th>Anlam</th></tr></thead>
+    <tbody>
+      <tr><td><strong class="fw-wurde">wurde(n)</strong></td><td>Prateritum</td><td>Subj + wurde + (Adj/Part.II)</td><td>oldu / -ildi (gecmis)</td></tr>
+      <tr><td><strong class="fw-geworden">geworden</strong></td><td>Partizip II (Vollverb)</td><td>Subj + ist/sind + ... + geworden</td><td>olmus (Perfekt, edilgen degil)</td></tr>
+      <tr><td><strong class="fw-worden">worden</strong></td><td>Passiv Perfekt</td><td>Subj + ist/sind + Part.II + worden</td><td>-ilmis (Perfekt, edilgen)</td></tr>
+    </tbody>
+  </table>
+</div>
+
+</div>
+
+<div id="decide" class="panel">
+  <div class="flow-card">
+    <div class="flow-q">1. Cumlede edilgen (Passiv) anlam var mi? — "bir sey BIRI TARAFINDAN yapildi/yapilmis mi?"</div>
+    <div class="flow-branch"><span class="flow-tag bg-wurde">HAYIR</span>Subjekt kendisi bir hale/mesleğe geciyor (örn. Arzt werden, dunkel werden) → asagi bak (2a)</div>
+    <div class="flow-branch"><span class="flow-tag bg-worden">EVET</span>Bir eylem birisi/bir şey tarafından yapildi → asagi bak (2b)</div>
+  </div>
+  <div class="flow-card">
+    <div class="flow-q">2a. Edilgen olmayan durumda — hangi zaman?</div>
+    <div class="flow-branch"><span class="flow-tag bg-wurde">Prateritum</span>"oldu" (basit gecmis) → <strong class="fw-wurde">wurde(n)</strong> + Adjektiv/Nomen<br>Orn: Er <strong class="fw-wurde">wurde</strong> Lehrer.</div>
+    <div class="flow-branch"><span class="flow-tag bg-geworden">Perfekt</span>"olmus" (yakin gecmis) → sein + ... + <strong class="fw-geworden">geworden</strong><br>Orn: Er ist Lehrer <strong class="fw-geworden">geworden</strong>.</div>
+  </div>
+  <div class="flow-card">
+    <div class="flow-q">2b. Edilgen durumda — hangi zaman?</div>
+    <div class="flow-branch"><span class="flow-tag bg-wurde">Prateritum Passiv</span>"-ildi" (basit gecmis edilgen) → Subj + <strong class="fw-wurde">wurde(n)</strong> + Partizip II<br>Orn: Die Abteilung <strong class="fw-wurde">wurde</strong> geschlossen.</div>
+    <div class="flow-branch"><span class="flow-tag bg-worden">Perfekt Passiv</span>"-ilmis" (yakin gecmis edilgen) → Subj + sein + Partizip II + <strong class="fw-worden">worden</strong><br>Orn: Die Abteilung ist geschlossen <strong class="fw-worden">worden</strong>.</div>
+  </div>
+  <div class="flow-card">
+    <div class="flow-q">Hizli test</div>
+    <div class="flow-branch" style="color:var(--color-text-primary)">Cumlede zaten "ist/sind" var mi VE bir Partizip II (ge-...-t/-en) var mi?</div>
+    <div class="flow-branch"><span class="flow-tag bg-worden">EVET</span>→ <strong class="fw-worden">worden</strong> (Passiv Perfekt)</div>
+    <div class="flow-branch"><span class="flow-tag bg-geworden">EVET ama Partizip II yok, sadece Adjektiv/Nomen var</span>→ <strong class="fw-geworden">geworden</strong></div>
+    <div class="flow-branch"><span class="flow-tag bg-wurde">HAYIR, "ist/sind" yok</span>→ <strong class="fw-wurde">wurde(n)</strong> (Prateritum)</div>
+  </div>
+</div>
+
+<div id="quiz" class="panel">
+  <div class="cat-row" id="cat-row"></div>
+  <div id="quiz-body"></div>
+</div>
+
+</div>
+
+<script>
+var QS=[
+  {c:'wurde',q:'Die kleine Abteilung ___ geschlossen, weil die Firma Geld sparen muss.',o:['wurde','geworden','worden','wird'],a:'wird',e:'Burada Prasens Passiv gerekiyor (su anki durum): wird geschlossen. (wurde = Prateritum, gecmis icin kullanilir)'},
+  {c:'wurde',q:'Das Haus ___ 1995 gebaut.',o:['wurde','geworden','worden','wird'],a:'wurde',e:'Prateritum Passiv: Subj + wurde + Partizip II → 1995 gebaut wurde (gecmiste tek seferlik olay)'},
+  {c:'wurde',q:'Er ___ letztes Jahr Vater.',o:['wurde','geworden','worden','wird'],a:'wurde',e:'Edilgen degil — meslege/duruma gecis, Prateritum: wurde Vater (oldu)'},
+  {c:'wurde',q:'Die Praesentation ___ gestern um 14 Uhr gehalten.',o:['wurde','geworden','worden','ist'],a:'wurde',e:'Gecmiste tek seferlik edilgen eylem → wurde + Partizip II'},
+  {c:'wurde',q:'Plotzlich ___ es sehr kalt.',o:['wurde','geworden','worden','wird'],a:'wurde',e:'Durum degisimi, Prateritum: wurde kalt (oldu)'},
+  {c:'geworden',q:'Das Wetter ist in den letzten Tagen viel besser ___.',o:['wurde','geworden','worden','wird'],a:'geworden',e:'Perfekt + Adjektiv (edilgen degil) → ist ... geworden (olmus/hale gelmis)'},
+  {c:'geworden',q:'Sie ist eine sehr erfolgreiche Anwaltin ___.',o:['wurde','geworden','worden','wird'],a:'geworden',e:'Perfekt, meslege gecis, edilgen yok → ist ... geworden'},
+  {c:'geworden',q:'In den letzten Jahren ist die Stadt viel groesser ___.',o:['wurde','geworden','worden','wird'],a:'geworden',e:'Perfekt + Adjektiv (groesser) — Partizip II yok → geworden'},
+  {c:'geworden',q:'Mein Bruder ist Ingenieur ___.',o:['wurde','geworden','worden','wird'],a:'geworden',e:'sein + Nomen + geworden → meslege gecis, Perfekt'},
+  {c:'worden',q:'Die Abteilung ist letzten Monat geschlossen ___.',o:['wurde','geworden','worden','wird'],a:'worden',e:'Perfekt Passiv: ist + Partizip II (geschlossen) + worden'},
+  {c:'worden',q:'Das Projekt ist wegen Geldmangel abgesagt ___.',o:['wurde','geworden','worden','wird'],a:'worden',e:'sein + Partizip II + worden → Passiv Perfekt'},
+  {c:'worden',q:'Die Fenster sind letzte Woche repariert ___.',o:['wurde','geworden','worden','wird'],a:'worden',e:'sein + repariert + worden → Passiv Perfekt'},
+  {c:'worden',q:'Der Vertrag ist bereits unterschrieben ___.',o:['wurde','geworden','worden','wird'],a:'worden',e:'sein + unterschrieben + worden → Passiv Perfekt'},
+  {c:'mixed',q:'Nachdem die Nachricht verbreitet ___ war, kam es zu Protesten.',o:['wurde','geworden','worden','wird'],a:'worden',e:'war + Partizip II + worden → Plusquamperfekt Passiv (war ... worden)'},
+  {c:'mixed',q:'Ich habe gehort, dass die Regeln geandert ___ sind.',o:['wurde','geworden','worden','wird'],a:'worden',e:'sind + geandert + worden → Passiv Perfekt (Nebensatz)'},
+  {c:'mixed',q:'Am Anfang war die Lage schwierig, aber dann ___ alles besser.',o:['wurde','geworden','worden','wird'],a:'wurde',e:'Prateritum, durum degisimi (edilgen degil) → wurde besser'},
+  {c:'mixed',q:'Er ___ vor zwei Jahren krank und musste die Arbeit aufgeben.',o:['wurde','geworden','worden','wird'],a:'wurde',e:'Prateritum, durum degisimi → wurde krank'},
+  {c:'mixed',q:'Die neue Software ist erfolgreich getestet ___.',o:['wurde','geworden','worden','wird'],a:'worden',e:'ist + getestet + worden → Passiv Perfekt'},
+  {c:'mixed',q:'Mit der Zeit ___ die Arbeit immer interessanter.',o:['wurde','geworden','worden','wird'],a:'wurde',e:'Prateritum, degisim/gelisim anlatimi → wurde interessanter'},
+  {c:'mixed',q:'Die alte Fabrik ist zu einem Museum ___.',o:['wurde','geworden','worden','wird'],a:'geworden',e:'sein + zu + Nomen + geworden → bir seye donusme, edilgen degil, Perfekt'},
+];
+
+var CATS={wurde:'wurde(n)',geworden:'geworden',worden:'worden',mixed:'Karisik'};
+var BAD={wurde:'bg-wurde',geworden:'bg-geworden',worden:'bg-worden',mixed:''};
+
+var qState={cat:'all',data:[],idx:0,score:0,answered:false};
+
+function initQuiz(){
+  var row=document.getElementById('cat-row');
+  var html='<button class="cat-btn on" data-cat="all">Tumu</button>';
+  Object.keys(CATS).forEach(function(k){html+='<button class="cat-btn" data-cat="'+k+'">'+CATS[k]+'</button>';});
+  row.innerHTML=html;
+  row.addEventListener('click',function(e){
+    var btn=e.target.closest('.cat-btn');
+    if(!btn)return;
+    document.querySelectorAll('.cat-btn').forEach(function(b){b.classList.remove('on');});
+    btn.classList.add('on');
+    qState.cat=btn.dataset.cat;
+    startQuiz();
+  });
+  startQuiz();
+}
+
+function startQuiz(){
+  var pool=qState.cat==='all'?QS:QS.filter(function(q){return q.c===qState.cat;});
+  var shuffled=pool.slice().sort(function(){return Math.random()-.5;});
+  qState.data=shuffled.slice(0,Math.min(10,shuffled.length));
+  qState.idx=0;qState.score=0;
+  renderQ();
+}
+
+function renderQ(){
+  var el=document.getElementById('quiz-body');
+  var d=qState.data;
+  if(qState.idx>=d.length){
+    var pct=Math.round(qState.score/d.length*100);
+    var em=pct>=80?'Mukemmel!':pct>=60?'Iyi is!':'Daha cok pratik!';
+    el.innerHTML='<div class="score-box"><div class="score-num">'+qState.score+'/'+d.length+'</div><div class="score-lbl">%'+pct+' basari — '+em+'</div><button class="retry-btn" id="retry-btn">Tekrar dene</button></div>';
+    document.getElementById('retry-btn').addEventListener('click',startQuiz);
+    return;
+  }
+  var q=d[qState.idx];
+  var pct=Math.round(qState.idx/d.length*100);
+  var badgeHtml=q.c==='mixed'?'':'<span class="form-badge '+BAD[q.c]+'">'+CATS[q.c]+'</span>';
+  var optsHtml=q.o.map(function(o,i){return '<button class="opt" data-opt="'+i+'">'+o+'</button>';}).join('');
+  el.innerHTML='<div class="pbar-txt"><span>'+(qState.idx+1)+' / '+d.length+'</span>'+badgeHtml+'</div><div class="pbar-wrap"><div class="pbar-fill" style="width:'+pct+'%"></div></div><div class="qcard"><div class="qtext">'+q.q.replace('___','<span class="blank">___</span>')+'</div><div class="opts-grid" id="opts">'+optsHtml+'</div><div id="fb"></div></div>';
+  qState.answered=false;
+  document.getElementById('opts').addEventListener('click',function(e){
+    var btn=e.target.closest('.opt');
+    if(!btn||qState.answered)return;
+    qState.answered=true;
+    var chosen=q.o[parseInt(btn.dataset.opt)];
+    var isOk=chosen===q.a;
+    if(isOk)qState.score++;
+    document.querySelectorAll('#opts .opt').forEach(function(b){
+      b.disabled=true;
+      var v=q.o[parseInt(b.dataset.opt)];
+      if(v===q.a)b.classList.add(isOk&&v===chosen?'ok':'show');
+      else if(v===chosen&&!isOk)b.classList.add('no');
+    });
+    var fbEl=document.getElementById('fb');
+    fbEl.innerHTML='<div class="fb-box '+(isOk?'fb-ok':'fb-no')+'">'+(isOk?'Dogru!':'Yanlis — Dogru: <strong>'+q.a+'</strong>')+'<div class="exp">'+q.e+'</div></div><button class="next-btn" id="next-btn">'+(qState.idx+1>=d.length?'Sonuclari gor':'Sonraki &rarr;')+'</button>';
+    document.getElementById('next-btn').addEventListener('click',function(){qState.idx++;renderQ();});
+  });
+}
+
+document.querySelectorAll('.tab-btn').forEach(function(btn){
+  btn.addEventListener('click',function(){
+    var target=btn.dataset.tab;
+    document.querySelectorAll('.tab-btn').forEach(function(b){b.classList.remove('on');});
+    btn.classList.add('on');
+    document.querySelectorAll('.panel').forEach(function(p){p.classList.remove('on');});
+    document.getElementById(target).classList.add('on');
+    if(target==='quiz'&&qState.data.length===0)initQuiz();
+  });
+});
+</script>

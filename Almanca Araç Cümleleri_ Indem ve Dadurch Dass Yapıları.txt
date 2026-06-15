@@ -1,0 +1,9 @@
+﻿Yan cümleler (Nebensatz) bağlamında Instrumentalsätze (Araç Cümleleri), bir amaca "hangi yolla" veya "nasıl" ulaştığınızı detaylandırmak için kullanılır 1, 2. "Wie?" (Nasıl?) veya "Wodurch?" (Ne yoluyla?) sorularına cevap vererek eylemin yapılma yöntemini açıklarlar 1.
+Bu yapıyı kurmak için birbirinin tamamen eş anlamlısı olan iki kalıbı kullanırız 3-5:
+1. "indem" (-erek / -arak):En pratik ve yaygın olanıdır. Ana cümledeki hedefe nasıl ulaştığımızı "indem" ile başlayan yan cümlede açıklarız 2. Klasik bir yan cümle olduğu için fiil her zaman cümlenin en sonuna gider 2.
+* Örnek: "Ich bleibe aktiv, indem ich täglich Sport treibe" (Her gün spor yaparak aktif kalıyorum) 3.
+* Kural: Cümleye doğrudan "indem" ile de başlayabilirsiniz. Bu durumda, virgülden sonraki ana cümle mecburen fiil ile başlamak zorundadır: "Indem ich täglich Sport treibe, bleibe ich aktiv" 6.
+2. "dadurch, dass" (-mesi yoluyla / sayesinde):Anlam olarak "indem" ile tamamen aynıdır, sadece cümledeki dizilimi biraz farklıdır 4, 5. Genellikle "dadurch" kelimesi ana cümlenin içine yerleştirilir, "dass" ise yan cümleyi başlatarak fiili en sona atar 7.
+* Örnek: "Man kann einen Unfall dadurch vermeiden, dass man vorsichtig fährt" (İnsanlar dikkatli sürmeleri yoluyla bir kazayı önleyebilirler) 7.
+* Kural: İsterseniz bu ikiliyi hiç parçalamadan cümlenin en başına da koyabilirsiniz: "Dadurch dass man vorsichtig fährt, kann man einen Unfall vermeiden" 8.
+Cümleleri birbirine "yöntem ve araç" belirterek bağlama mantığı netleşti mi?

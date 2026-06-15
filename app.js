@@ -1,4 +1,4 @@
-// app.js - B1 German App Core Logic (Minimalist Redesign + Exercises Page)
+// app.js - B1 German App Core Logic (Minimalist Redesign + Prepositions Dashboard)
 
 // State management
 let state = {
@@ -22,7 +22,11 @@ let state = {
   expandedSubcategories: {},
   theme: "dark", // Default to dark mode for App_Tasarım.PNG aesthetic
   quizHistory: [],
-  lastActiveDate: ""
+  lastActiveDate: "",
+  
+  // Prepositions specific states
+  prepScores: {},     // { 'abhängen_von': 3, ... }
+  starredPreps: []    // [ 'abhängen_von', ... ]
 };
 
 // Flashcards pool based on the grammar content
@@ -175,6 +179,10 @@ function loadState() {
     }
   }
   
+  // Safe migrations for newly added properties
+  if (!state.prepScores) state.prepScores = {};
+  if (!state.starredPreps) state.starredPreps = [];
+  
   const today = new Date().toDateString();
   if (state.lastActiveDate && state.lastActiveDate !== today) {
     state.completedToday.flashcards = false;
@@ -216,6 +224,24 @@ document.addEventListener("DOMContentLoaded", () => {
   
   document.getElementById("launcher-fillblanks")?.addEventListener("click", () => {
     startNewFillBlanks();
+  });
+  
+  document.getElementById("launcher-verben-prap")?.addEventListener("click", () => {
+    showScreen("verben-prep-dashboard");
+  });
+  
+  // Prepositions Dashboard Inputs Bindings
+  document.getElementById("start-prep-quiz-btn")?.addEventListener("click", () => {
+    startNewPrepQuiz();
+  });
+  document.getElementById("filter-level")?.addEventListener("change", () => {
+    filterPrepList();
+  });
+  document.getElementById("filter-kasus")?.addEventListener("change", () => {
+    filterPrepList();
+  });
+  document.getElementById("prep-search")?.addEventListener("keyup", () => {
+    filterPrepList();
   });
   
   // Back buttons
@@ -278,7 +304,7 @@ function showScreen(screenId) {
   // Highlight active nav item
   // Map sub-activities back to the active navbar tab
   let navActiveId = screenId;
-  if (screenId === "flashcard-play" || screenId === "quiz" || screenId === "fillblanks-play") {
+  if (screenId === "flashcard-play" || screenId === "quiz" || screenId === "fillblanks-play" || screenId === "verben-prep-dashboard" || screenId === "verben-prep-quiz") {
     navActiveId = "exercises";
   }
   const activeNav = document.querySelector(`.nav-item[data-screen="${navActiveId}"]`);
@@ -291,8 +317,8 @@ function showScreen(screenId) {
     renderHomeScreen();
   } else if (screenId === "sitemap") {
     renderSitemapScreen();
-  } else if (screenId === "exercises") {
-    // exercises main menu doesn't need active rendering
+  } else if (screenId === "verben-prep-dashboard") {
+    renderPrepDashboard();
   } else if (screenId === "flashcard-play") {
     renderFlashcardScreen();
   } else if (screenId === "analytics") {
@@ -933,135 +959,458 @@ function finishFb() {
   });
 }
 
-// ANALYTICS SCREEN RENDERING
-function renderAnalyticsScreen() {
-  const total = countTotalLessons();
-  const completed = state.completedLessons.length;
-  const pct = total > 0 ? Math.round((completed / total) * 100) : 0;
+// ═══════════════════════════════════════════
+// VERBEN MIT PRÄPOSITIONEN DASHBOARD LOGIC
+// ═══════════════════════════════════════════
+
+function renderPrepDashboard() {
+  // Counters calculation
+  let notStarted = 0;
+  let learning = 0;
+  let learned = 0;
   
-  document.getElementById("analytics-overall-percent").textContent = `${pct}%`;
-  document.getElementById("analytics-completed-text").textContent = `${completed} / ${total} ders tamamlandı`;
-  document.getElementById("analytics-xp-text").textContent = `${state.xp} XP`;
+  VERBEN_PREP_DATA.forEach(item => {
+    const key = `${item.verb}_${item.prep}`;
+    const score = state.prepScores[key] || 0;
+    if (score === 0) notStarted++;
+    else if (score <= 2) learning++;
+    else learned++;
+  });
   
-  // Render categories progress details
-  const detailsContainer = document.getElementById("analytics-categories-details");
-  if (detailsContainer) {
-    detailsContainer.innerHTML = "";
-    LESSONS_DATA.forEach(cat => {
-      let catTotal = 0;
-      cat.subcategories.forEach(sub => catTotal += sub.lessons.length);
-      
-      let catCompleted = 0;
-      cat.subcategories.forEach(sub => {
-        sub.lessons.forEach(l => {
-          if (state.completedLessons.includes(l.id)) {
-            catCompleted++;
-          }
-        });
-      });
-      
-      const catPct = catTotal > 0 ? Math.round((catCompleted / catTotal) * 100) : 0;
-      
-      const item = document.createElement("div");
-      item.style = "border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); padding: 12px 14px; margin-bottom:10px; background-color: var(--color-background-secondary);";
-      item.innerHTML = `
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-          <div style="display:flex; align-items:center; gap:8px;">
-            <i class="ti ${cat.icon}" style="font-size:16px; color:var(--theme-${cat.color});"></i>
-            <span style="font-size:13px; font-weight:600;">${cat.name}</span>
-          </div>
-          <span style="font-size:12.5px; font-weight:600; color:var(--theme-${cat.color});">${catPct}%</span>
-        </div>
-        <div style="height: 5px; background: var(--color-background-primary); border-radius: 99px; overflow:hidden; margin-bottom:6px; border:1px solid var(--color-border-secondary);">
-          <div style="width: ${catPct}%; height:100%; background: var(--theme-${cat.color}); border-radius:99px;"></div>
-        </div>
-        <div style="display:flex; justify-content:space-between; font-size:11px; color:var(--color-text-tertiary);">
-          <span>${catCompleted}/${catTotal} ders</span>
-          <span>${cat.subcategories.length} alt başlık</span>
-        </div>
-      `;
-      detailsContainer.appendChild(item);
-    });
+  document.getElementById("stat-not-started").textContent = notStarted;
+  document.getElementById("stat-learning").textContent = learning;
+  document.getElementById("stat-learned").textContent = learned;
+  
+  filterPrepList();
+}
+
+function filterPrepList() {
+  const levelVal = document.getElementById("filter-level").value;
+  const kasusVal = document.getElementById("filter-kasus").value;
+  const query = document.getElementById("prep-search").value.trim().toLowerCase();
+  
+  const container = document.getElementById("prep-words-list");
+  if (!container) return;
+  
+  container.innerHTML = "";
+  
+  // Filtering combinations
+  const filtered = VERBEN_PREP_DATA.filter(item => {
+    // Level check
+    if (levelVal === "a1a2" && item.level !== "A1" && item.level !== "A2") return false;
+    if (levelVal === "b1" && item.level !== "B1") return false;
+    if (levelVal === "b2" && item.level !== "B2") return false;
+    
+    // Case check
+    if (kasusVal !== "all" && item.kasus !== kasusVal) return false;
+    
+    // Search query check
+    if (query) {
+      const v = item.verb.toLowerCase();
+      const p = item.prep.toLowerCase();
+      const m = item.meaning.toLowerCase();
+      if (!v.includes(query) && !p.includes(query) && !m.includes(query)) return false;
+    }
+    
+    return true;
+  });
+  
+  if (filtered.length === 0) {
+    container.innerHTML = `<div style="text-align:center; padding: 20px; color: var(--color-text-tertiary); font-size:13px; font-style:italic;">Kriterlere uygun kelime bulunamadı.</div>`;
+    return;
   }
   
-  // Render Streak Calendar grid
-  const calendarGrid = document.getElementById("streak-calendar-grid");
-  if (calendarGrid) {
-    calendarGrid.innerHTML = "";
-    const days = ["Pt", "Sa", "Ça", "Pe", "Cu", "Ct", "Pz"];
+  // Render cards
+  filtered.forEach(item => {
+    const key = `${item.verb}_${item.prep}`;
+    const score = state.prepScores[key] || 0;
+    const isStarred = state.starredPreps.includes(key);
     
-    days.forEach(d => {
-      const header = document.createElement("div");
-      header.style = "text-align:center; font-size:11px; font-weight:600; color:var(--color-text-tertiary); padding:2px 0;";
-      header.textContent = d;
-      calendarGrid.appendChild(header);
+    let stateText = "Başlanmamış";
+    let stateClass = "not-started";
+    if (score > 0 && score <= 2) {
+      stateText = "Öğreniliyor";
+      stateClass = "learning";
+    } else if (score >= 3) {
+      stateText = "Öğrenildi";
+      stateClass = "learned";
+    }
+    
+    const card = document.createElement("div");
+    card.className = "verb-list-item";
+    card.innerHTML = `
+      <div class="verb-list-item-header">
+        <div class="verb-tags-group">
+          <span class="verb-tag" style="background-color: var(--color-background-primary); font-weight:700;">${item.level}</span>
+          <span class="verb-tag">${item.kasus === 'Dat' ? 'Dativ' : 'Akkusativ'}</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:8px;">
+          <span class="stat-badge ${stateClass}">${stateText}</span>
+          <i class="ti ${isStarred ? 'ti-star-filled starred' : 'ti-star'} star-icon" data-key="${key}"></i>
+        </div>
+      </div>
+      
+      <p style="font-size:14.5px; font-weight:600; margin: 0 0 4px; color:var(--color-text-primary);">
+        ${item.verb} <span style="color:var(--theme-purple); font-weight:700;">+ ${item.prep}</span>
+      </p>
+      <p class="ts" style="font-size:12px; margin: 0 0 8px;">${item.meaning}</p>
+      
+      <div style="border-top:1px solid var(--color-border-secondary); padding-top:6px; margin-top:6px; font-size:11.5px; line-height:1.5;">
+        <p style="color:var(--color-text-secondary);"><i class="ti ti-notes" style="font-size:12px; margin-right:4px;"></i>${item.example}</p>
+        <p class="ts" style="font-size:11px; margin-top:2px; font-style:italic;">${item.translation}</p>
+      </div>
+    `;
+    
+    // Star click event
+    card.querySelector(".star-icon").addEventListener("click", (e) => {
+      e.stopPropagation();
+      const starredIdx = state.starredPreps.indexOf(key);
+      if (starredIdx > -1) {
+        state.starredPreps.splice(starredIdx, 1);
+        e.target.className = "ti ti-star star-icon";
+      } else {
+        state.starredPreps.push(key);
+        e.target.className = "ti ti-star-filled starred star-icon";
+      }
+      saveState();
+      renderPrepDashboard(); // refresh counts
     });
     
-    const today = new Date();
-    const startDay = new Date();
-    startDay.setDate(today.getDate() - 27);
+    container.appendChild(card);
+  });
+}
+
+// ═══════════════════════════════════════════
+// VERBEN MIT PRÄPOSITIONEN QUIZ PLAY ENGINE
+// ═══════════════════════════════════════════
+
+let activePrepQuizQuestions = [];
+let currentPrepQuizIdx = 0;
+let correctPrepQuizScore = 0;
+let currentPrepQuestionObj = {};
+let prapAnswered = false;
+
+// Web Speech Synthesis TTS Speaker helper
+function speakGerman(text) {
+  if ('speechSynthesis' in window) {
+    // Cancel ongoing speech
+    window.speechSynthesis.cancel();
     
-    const dayOfWeek = startDay.getDay();
-    const diffToMonday = dayOfWeek === 0 ? 6 : dayOfWeek - 1;
-    startDay.setDate(startDay.getDate() - diffToMonday);
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'de-DE';
     
-    for (let i = 0; i < 28; i++) {
-      const cellDate = new Date(startDay);
-      cellDate.setDate(startDay.getDate() + i);
-      
-      const cell = document.createElement("div");
-      cell.className = "calendar-day";
-      cell.textContent = cellDate.getDate();
-      
-      if (cellDate.toDateString() === today.toDateString()) {
-        cell.classList.add("active");
-      }
-      
-      const dayDiff = Math.ceil((today - cellDate) / (1000 * 60 * 60 * 24));
-      if (dayDiff > 0 && dayDiff <= state.streak) {
-        cell.classList.add("completed");
-      }
-      
-      calendarGrid.appendChild(cell);
+    // Try to select a German voice
+    const voices = window.speechSynthesis.getVoices();
+    const deVoice = voices.find(v => v.lang.includes('de-') || v.lang.includes('DE'));
+    if (deVoice) {
+      utterance.voice = deVoice;
     }
+    window.speechSynthesis.speak(utterance);
   }
 }
 
-// PROFILE SCREEN RENDERING
-function renderProfileScreen() {
-  document.getElementById("profile-name-input").value = state.userName;
+// Load voices once available (specifically for Chrome/mobile support)
+if ('speechSynthesis' in window) {
+  window.speechSynthesis.onvoiceschanged = () => {};
+}
+
+function startNewPrepQuiz() {
+  const levelVal = document.getElementById("filter-level").value;
+  const kasusVal = document.getElementById("filter-kasus").value;
   
-  const switchEl = document.getElementById("profile-theme-switch");
-  if (switchEl) {
-    switchEl.onclick = toggleTheme;
+  // Filter vocabulary pool matching current selectors
+  const pool = VERBEN_PREP_DATA.filter(item => {
+    if (levelVal === "a1a2" && item.level !== "A1" && item.level !== "A2") return false;
+    if (levelVal === "b1" && item.level !== "B1") return false;
+    if (levelVal === "b2" && item.level !== "B2") return false;
+    if (kasusVal !== "all" && item.kasus !== kasusVal) return false;
+    return true;
+  });
+  
+  if (pool.length === 0) {
+    alert("Seçtiğiniz filtrelere uygun kelime bulunamadı. Lütfen filtrelerinizi genişletin!");
+    return;
   }
   
-  const saveBtn = document.getElementById("profile-save-btn");
-  if (saveBtn) {
-    saveBtn.onclick = () => {
-      const inputVal = document.getElementById("profile-name-input").value.trim();
-      if (inputVal) {
-        state.userName = inputVal;
-        saveState();
-        alert("Profil ismi güncellendi!");
-        showScreen("home");
+  showScreen("verben-prep-quiz");
+  
+  // Weighted Random Selection: prioritizes unlearned and starred items
+  // weight formula: base score weight + star bonus
+  const weightedPool = pool.map(item => {
+    const key = `${item.verb}_${item.prep}`;
+    const score = state.prepScores[key] || 0;
+    const isStarred = state.starredPreps.includes(key);
+    
+    let weight = 100; // Not started weight
+    if (score === 1) weight = 80;
+    else if (score === 2) weight = 60;
+    else if (score >= 3) weight = 10; // Already learned weight
+    
+    if (isStarred) weight += 50; // Starred bonus
+    
+    return { item, weight };
+  });
+  
+  // Pick 10 items based on weights
+  activePrepQuizQuestions = [];
+  const countToPick = Math.min(10, pool.length);
+  
+  for (let step = 0; step < countToPick; step++) {
+    const totalWeight = weightedPool.reduce((acc, curr) => acc + curr.weight, 0);
+    let randomNum = Math.random() * totalWeight;
+    
+    let selectedIdx = 0;
+    for (let idx = 0; idx < weightedPool.length; idx++) {
+      randomNum -= weightedPool[idx].weight;
+      if (randomNum <= 0) {
+        selectedIdx = idx;
+        break;
       }
-    };
+    }
+    
+    // Add item and remove from pool to prevent duplicates
+    activePrepQuizQuestions.push(weightedPool[selectedIdx].item);
+    weightedPool.splice(selectedIdx, 1);
   }
   
-  const resetBtn = document.getElementById("profile-reset-btn");
-  if (resetBtn) {
-    resetBtn.onclick = () => {
-      if (confirm("Tüm ders tamamlama, streak ve XP ilerlemenizi sıfırlamak istediğinizden emin misiniz?")) {
-        state.completedLessons = [];
-        state.streak = 1;
-        state.xp = 0;
-        state.completedToday = { flashcards: false, quiz: false };
-        saveState();
-        showScreen("home");
-      }
-    };
+  currentPrepQuizIdx = 0;
+  correctPrepQuizScore = 0;
+  prapAnswered = false;
+  
+  renderPrepQuizQuestion();
+}
+
+function renderPrepQuizQuestion() {
+  const container = document.getElementById("verben-prep-quiz-content");
+  if (!container) return;
+  
+  const q = activePrepQuizQuestions[currentPrepQuizIdx];
+  const pct = Math.round(currentPrepQuizIdx / activePrepQuizQuestions.length * 100);
+  
+  // Choose question type dynamically (0, 1, or 2)
+  const qType = currentPrepQuizIdx % 3;
+  let qHTML = "";
+  let choices = [];
+  let correctChoice = "";
+  
+  const allPrepositions = [...new Set(VERBEN_PREP_DATA.map(v => v.prep))];
+  
+  if (qType === 0) {
+    // Type 0: Fill preposition blank in German example sentence
+    const prepsToHide = getWordsToReplace(q.prep);
+    // Hide matching prepositions in the sentence
+    const maskedSentence = q.example.replace(new RegExp('\\b(' + prepsToHide.join('|') + ')\\b', 'gi'), '___');
+    
+    // Draw 3 distractors
+    const distractors = allPrepositions.filter(p => p !== q.prep).sort(() => 0.5 - Math.random()).slice(0, 3);
+    choices = [...distractors, q.prep].sort(() => 0.5 - Math.random());
+    correctChoice = q.prep;
+    
+    qHTML = `
+      <div class="qtype">Cümledeki boşluğa uygun edatı seçin</div>
+      <div class="qsent" style="font-size: 15.5px; font-weight:600; text-align:center; padding: 16px; border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); background-color: var(--color-background-secondary); margin-bottom:20px; line-height:1.6;">
+        ${maskedSentence.replace('___', '<span style="border-bottom: 2px solid var(--theme-purple); padding: 0 8px; color: var(--theme-purple);">___</span>')}
+      </div>
+    `;
+  } else if (qType === 1) {
+    // Type 1: Meaning matching (Verb + Prep -> Meaning)
+    const distractors = VERBEN_PREP_DATA.filter(v => v.verb !== q.verb).sort(() => 0.5 - Math.random()).slice(0, 3);
+    choices = [...distractors.map(d => d.meaning), q.meaning].sort(() => 0.5 - Math.random());
+    correctChoice = q.meaning;
+    
+    qHTML = `
+      <div class="qtype">Fiilin Türkçe karşılığı nedir?</div>
+      <div class="qsent" style="font-size: 18px; font-weight:700; text-align:center; padding: 18px; border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); background-color: var(--color-background-secondary); margin-bottom:20px;">
+        ${q.verb} <span style="color:var(--theme-purple);">+ ${q.prep}</span>
+      </div>
+    `;
+  } else {
+    // Type 2: Verb + Prep matching (Meaning -> Verb + Prep)
+    const distractors = VERBEN_PREP_DATA.filter(v => v.verb !== q.verb || v.prep !== q.prep).sort(() => 0.5 - Math.random()).slice(0, 3);
+    choices = [...distractors.map(d => `${d.verb} + ${d.prep}`), `${q.verb} + ${q.prep}`].sort(() => 0.5 - Math.random());
+    correctChoice = `${q.verb} + ${q.prep}`;
+    
+    qHTML = `
+      <div class="qtype">Belirtilen anlama uygun fiil + edat hangisidir?</div>
+      <div class="qsent" style="font-size: 16px; font-weight:600; text-align:center; padding: 18px; border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); background-color: var(--color-background-secondary); margin-bottom:20px;">
+        "${q.meaning}"
+      </div>
+    `;
   }
+  
+  currentPrepQuestionObj = {
+    correct: correctChoice,
+    example: q.example,
+    translation: q.translation,
+    verb: q.verb,
+    prep: q.prep
+  };
+  prapAnswered = false;
+  
+  container.innerHTML = `
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 12px;">
+      <span class="ts" style="font-size:12.5px; font-weight:500;">Soru ${currentPrepQuizIdx + 1} / ${activePrepQuizQuestions.length}</span>
+      <div style="width: 80px; height: 5px; background: var(--color-border-primary); border-radius: 99px; overflow:hidden;">
+        <div style="width: ${pct}%; height:100%; background: var(--theme-purple); border-radius:99px;"></div>
+      </div>
+    </div>
+    
+    <div style="display:flex; flex-direction:column; flex:1;">
+      ${qHTML}
+      
+      <div style="display:flex; flex-direction:column; gap:10px; margin-bottom: 16px;" id="prap-choices-area">
+        ${choices.map(c => `
+          <button class="quiz-option" data-val="${c.replace(/"/g, '&quot;')}">
+            <span>${c}</span>
+            <i class="ti ti-circle" style="font-size:16px; color:var(--color-text-tertiary); flex-shrink:0; margin-left:8px;"></i>
+          </button>
+        `).join("")}
+      </div>
+      
+      <div id="prap-feedback-box"></div>
+    </div>
+  `;
+  
+  // Bind choice actions
+  const options = container.querySelectorAll("#prap-choices-area button");
+  options.forEach(btn => {
+    btn.addEventListener("click", () => {
+      handlePrepQuizAnswer(btn, options);
+    });
+  });
+}
+
+function handlePrepQuizAnswer(clickedBtn, allOptions) {
+  if (prapAnswered) return;
+  prapAnswered = true;
+  
+  const chosen = clickedBtn.getAttribute("data-val");
+  const correct = currentPrepQuestionObj.correct;
+  const isOk = chosen === correct;
+  
+  if (isOk) correctPrepQuizScore++;
+  
+  // Update score in local state
+  const q = activePrepQuizQuestions[currentPrepQuizIdx];
+  const key = `${q.verb}_${q.prep}`;
+  let score = state.prepScores[key] || 0;
+  
+  if (isOk) {
+    score = Math.min(5, score + 1);
+  } else {
+    score = Math.max(-2, score - 2);
+  }
+  state.prepScores[key] = score;
+  saveState();
+  
+  // Highlight options
+  allOptions.forEach(opt => {
+    opt.disabled = true;
+    const val = opt.getAttribute("data-val");
+    if (val === correct) {
+      opt.classList.add("correct");
+      opt.querySelector("i").className = "ti ti-circle-check-filled";
+    } else if (val === chosen && !isOk) {
+      opt.classList.add("incorrect");
+      opt.querySelector("i").className = "ti ti-circle-x-filled";
+    }
+  });
+  
+  // Speak the example sentence in German
+  speakGerman(currentPrepQuestionObj.example);
+  
+  // Render feedback details card
+  const feedback = document.getElementById("prap-feedback-box");
+  feedback.innerHTML = `
+    <div style="background-color: var(--color-background-secondary); border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); padding: 14px; margin-bottom: 16px; border-left: 3px solid ${isOk ? 'var(--theme-teal)' : 'var(--theme-coral)'};">
+      <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:6px;">
+        <span style="font-size:12.5px; font-weight:700; color: ${isOk ? 'var(--theme-teal)' : 'var(--theme-coral)'};">
+          ${isOk ? '✓ Doğru Cevap!' : '✗ Yanlış Cevap'}
+        </span>
+        <button onclick="speakGerman('${currentPrepQuestionObj.example.replace(/'/g, "\\'")}')" style="background:none; border:none; color:var(--color-text-secondary); cursor:pointer; display:flex; align-items:center; justify-content:center; padding: 2px;" title="Tekrar Dinle">
+          <i class="ti ti-volume" style="font-size:16px;"></i>
+        </button>
+      </div>
+      <p style="font-size:13px; font-weight:600; margin:0 0 4px; color:var(--color-text-primary); line-height:1.5;">${currentPrepQuestionObj.example}</p>
+      <p class="ts" style="font-size:11.5px; margin:0; font-style:italic;">${currentPrepQuestionObj.translation}</p>
+    </div>
+    
+    <button class="c-purple" style="width:100%; border:none; padding:12px; border-radius:var(--border-radius-lg); font-size:13.5px; font-weight:600; cursor:pointer; color:var(--color-background-primary);" id="next-prep-q-btn">
+      ${currentPrepQuizIdx + 1 >= activePrepQuizQuestions.length ? 'Sonuçları Gör' : 'Sonraki Soru →'}
+    </button>
+  `;
+  
+  document.getElementById("next-prep-q-btn")?.addEventListener("click", () => {
+    currentPrepQuizIdx++;
+    if (currentPrepQuizIdx < activePrepQuizQuestions.length) {
+      renderPrepQuizQuestion();
+    } else {
+      finishPrepQuiz();
+    }
+  });
+}
+
+function finishPrepQuiz() {
+  const container = document.getElementById("verben-prep-quiz-content");
+  if (!container) return;
+  
+  state.completedToday.quiz = true;
+  state.streak++;
+  state.xp += 30; // +30 XP complete bonus
+  saveState();
+  updateStreakBadge();
+  
+  const pct = Math.round(correctPrepQuizScore / activePrepQuizQuestions.length * 100);
+  
+  container.innerHTML = `
+    <div style="text-align: center; padding: 24px 10px; display:flex; flex-direction:column; align-items:center; gap:18px;">
+      <div style="width: 64px; height: 64px; border-radius: 50%; display:flex; align-items:center; justify-content:center; border: 1px solid var(--color-border-primary); background-color: var(--color-background-secondary); color: var(--theme-purple);">
+        <i class="ti ti-checklist" style="font-size:30px;"></i>
+      </div>
+      <div>
+        <h2 style="font-size:19px; font-weight:700; margin:0 0 6px;">Alıştırma Bitti!</h2>
+        <p class="ts" style="font-size:13px; margin:0;">
+          Edat alıştırma setini tamamladınız.
+        </p>
+      </div>
+      
+      <div style="background: var(--color-background-secondary); border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); padding: 16px; width: 100%; display:grid; grid-template-columns: 1fr 1fr; gap:12px; margin: 8px 0;">
+        <div style="text-align:center; border-right: 1px solid var(--color-border-secondary);">
+          <p class="ts" style="font-size:11px; margin:0 0 4px;">Başarı Oranı</p>
+          <p style="font-size:18px; font-weight:700; margin:0; color:var(--theme-purple);">${pct}%</p>
+          <p class="ts" style="font-size:9.5px; margin:2px 0 0;">${correctPrepQuizScore} / ${activePrepQuizQuestions.length} Doğru</p>
+        </div>
+        <div style="text-align:center;">
+          <p class="ts" style="font-size:11px; margin:0 0 4px;">Kazanılan XP</p>
+          <p style="font-size:18px; font-weight:700; margin:0; color:var(--theme-teal);">+${correctPrepQuizScore * 10 + 30}</p>
+          <p class="ts" style="font-size:9.5px; margin:2px 0 0;">Tamamlama Bonusu</p>
+        </div>
+      </div>
+      
+      <div style="display:flex; align-items:center; gap:6px; font-size:12.5px; font-weight:600; color:var(--theme-purple);">
+        <i class="ti ti-flame" style="font-size:16px;"></i> Seri: ${state.streak} Gün!
+      </div>
+      
+      <button class="c-purple" style="width:100%; border:none; padding:12px; border-radius:var(--border-radius-lg); font-size:13.5px; font-weight:600; cursor:pointer; color:var(--color-background-primary); margin-top:10px;" id="prep-quiz-done-btn">
+        Prepozisyon Sayfasına Dön
+      </button>
+    </div>
+  `;
+  
+  document.getElementById("prep-quiz-done-btn")?.addEventListener("click", () => {
+    showScreen("verben-prep-dashboard");
+  });
+}
+
+// Helper: inflection rules for masking prepositions in sentence
+function getWordsToReplace(p) {
+  const arr = [p, 'da'+p, 'dar'+p, 'wo'+p, 'wor'+p];
+  if(p==='zu') arr.push('zum','zur');
+  if(p==='an') arr.push('am','ans');
+  if(p==='in') arr.push('im','ins');
+  if(p==='von') arr.push('vom');
+  if(p==='bei') arr.push('beim');
+  return arr.sort((a,b)=>b.length-a.length);
 }
 
 // Utility lesson counters

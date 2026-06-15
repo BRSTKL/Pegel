@@ -1,0 +1,9 @@
+﻿Finalsätze (Amaç Cümleleri), eylemlerimizi "hangi amaçla" veya "ne için" (wozu) yaptığımızı anlatan yan cümleciklerdir (Nebensatz) 1. Bu yapıları kurmak için Almancada iki temel seçeneğimiz vardır:
+1. "um...zu" (...mak/mek için):Bu yapıyı sadece ana cümledeki eylemi yapan kişi ile amacı gerçekleştiren kişi (özne) aynıysa kullanabilirsiniz 2, 3. Çok pratiktir çünkü yan cümlede özneyi tekrar etmenize gerek kalmaz 2. "um" başa gelir, "zu" ise en sondaki yalın fiilin (infinitiv) hemen önüne eklenir 2.
+* Örnek: "Ich lerne fleißig, um gute Punkte zu bekommen" (İyi notlar almak için sıkı çalışıyorum) 4.
+* Küçük bir kural: Amaç zaten cümlenin doğasında olduğu için, bu yapılarda wollen, möchten, sollen gibi niyet bildiren yardımcı fiilleri kullanmayız 5. Eğer ayrılabilen bir fiil kullanıyorsanız "zu" kelimesi araya girer (um... aufzunehmen gibi) 5.
+2. "damit" (...sın diye / böylece):Eğer iki cümlenin özneleri farklıysa, "um...zu" kullanamazsınız; mecburen "damit" kullanmak zorundasınız 3. "damit" klasik bir yan cümledir; bağlaçtan sonra mutlaka özne gelir ve çekimlenmiş fiil cümlenin en sonuna uçar 6.
+* Örnek: "Er spricht Englisch, damit die Touristen ihn verstehen" (Turistler onu anlasın diye İngilizce konuşuyor) 7.
+* Özneler aynı olsa bile "damit" yapısını her zaman kullanabilirsiniz, tüm durumlar için geçerli ve garantili bir yoldur 8.
+Genel Yan Cümle (Nebensatz) Kuralı:Tıpkı weil veya da bağlaçlarında olduğu gibi, cümlenize "damit" veya "um...zu" içeren yan cümle ile başlarsanız, virgülden sonraki ana cümle mecburen doğrudan fiille başlamak zorundadır (Örn: Damit die Touristen ihn verstehen, spricht er Englisch) 6, 9, 10.
+Cümleleri birbirine "amaç" ile bağlama mantığı netleşti mi?

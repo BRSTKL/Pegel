@@ -1,0 +1,259 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body,div,button,span,p,table,td,th{font-family:var(--font-sans)}
+.app{padding:1rem 0}
+.tabs{display:flex;gap:5px;margin-bottom:1.25rem;flex-wrap:wrap}
+.tab-btn{padding:7px 14px;border-radius:8px;border:0.5px solid var(--color-border-secondary);background:transparent;cursor:pointer;font-size:13px;color:var(--color-text-secondary);transition:all .15s}
+.tab-btn.on{background:var(--color-background-secondary);color:var(--color-text-primary);border-color:var(--color-border-primary);font-weight:500}
+.panel{display:none}.panel.on{display:block}
+
+.intro{background:var(--color-background-secondary);border-radius:12px;padding:1rem 1.25rem;margin-bottom:1rem;font-size:13px;color:var(--color-text-secondary);line-height:1.6;border-left:2px solid #378ADD}
+.intro strong{color:var(--color-text-primary)}
+
+.pron-table{width:100%;border-collapse:collapse;font-size:13px;margin-bottom:1rem}
+.pron-table th{text-align:left;padding:7px 10px;background:var(--color-background-secondary);color:var(--color-text-secondary);font-weight:500;border-bottom:0.5px solid var(--color-border-secondary)}
+.pron-table td{padding:8px 10px;border-bottom:0.5px solid var(--color-border-tertiary);color:var(--color-text-primary)}
+.pron-table tr:last-child td{border-bottom:none}
+.hl{color:#185FA5;font-weight:500}
+
+.verb-card{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:12px;padding:1.1rem 1.25rem;margin-bottom:10px}
+.verb-head{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:4px}
+.verb-name{font-size:18px;font-weight:500;color:var(--color-text-primary)}
+.verb-badge{padding:2px 9px;border-radius:20px;font-size:11px;font-weight:500;background:#EEEDFE;color:#3C3489}
+.verb-mean{font-size:13px;color:var(--color-text-secondary);margin-bottom:8px}
+.verb-struct{background:var(--color-background-secondary);border-radius:8px;padding:8px 12px;font-size:13px;font-family:var(--font-mono);margin-bottom:8px;color:var(--color-text-primary)}
+.ex-row{background:var(--color-background-secondary);border-radius:8px;padding:9px 13px;margin-bottom:5px;border-left:2px solid #378ADD}
+.ex-row:last-child{margin-bottom:0}
+.ex-de{font-size:13px;color:var(--color-text-primary)}
+.ex-de .dat{color:#185FA5;font-weight:500}
+.ex-tr{font-size:12px;color:var(--color-text-secondary);margin-top:2px}
+
+.cat-row{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:1rem}
+.cat-btn{padding:5px 11px;border-radius:20px;border:0.5px solid var(--color-border-secondary);background:transparent;cursor:pointer;font-size:12px;color:var(--color-text-secondary)}
+.cat-btn.on{background:var(--color-background-secondary);color:var(--color-text-primary);border-color:var(--color-border-primary);font-weight:500}
+.pbar-wrap{height:3px;background:var(--color-background-secondary);border-radius:2px;margin-bottom:1rem;overflow:hidden}
+.pbar-fill{height:100%;background:#378ADD;border-radius:2px;transition:width .3s}
+.pbar-txt{font-size:12px;color:var(--color-text-secondary);margin-bottom:5px;display:flex;justify-content:space-between;align-items:center}
+.qcard{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:12px;padding:1.25rem;margin-bottom:1rem}
+.qtext{font-size:15px;color:var(--color-text-primary);line-height:1.7;margin-bottom:14px;font-weight:500}
+.blank{display:inline-block;min-width:60px;border-bottom:2px solid #378ADD;text-align:center;padding:0 3px}
+.opts-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.opt{padding:9px 12px;border-radius:8px;border:0.5px solid var(--color-border-secondary);background:transparent;cursor:pointer;font-size:13px;color:var(--color-text-primary);text-align:left;transition:all .15s}
+.opt:hover:not([disabled]){background:var(--color-background-secondary);border-color:var(--color-border-primary)}
+.opt.ok{background:#EAF3DE;border-color:#C0DD97;color:#27500A}
+.opt.no{background:#FCEBEB;border-color:#F7C1C1;color:#791F1F}
+.opt.show{background:#EAF3DE;border-color:#C0DD97;color:#27500A}
+.fb-box{padding:9px 13px;border-radius:8px;margin-top:9px;font-size:13px;line-height:1.5}
+.fb-ok{background:#EAF3DE;color:#27500A}.fb-no{background:#FCEBEB;color:#791F1F}
+.exp{font-size:12px;opacity:.85;margin-top:4px}
+.next-btn,.retry-btn{padding:8px 18px;border-radius:8px;border:0.5px solid var(--color-border-secondary);background:var(--color-background-secondary);cursor:pointer;font-size:13px;color:var(--color-text-primary);font-weight:500;margin-top:10px}
+.score-box{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:12px;padding:2rem;text-align:center}
+.score-num{font-size:44px;font-weight:500;color:var(--color-text-primary);margin-bottom:4px}
+.score-lbl{font-size:14px;color:var(--color-text-secondary);margin-bottom:1rem}
+</style>
+
+<div class="app">
+<h2 style="position:absolute;width:1px;height:1px;overflow:hidden">Dativ alan donuslu fiiller ogrenme uygulamasi</h2>
+
+<div class="tabs">
+  <button class="tab-btn on" data-tab="theory">Fiiller</button>
+  <button class="tab-btn" data-tab="pron">Pronomen</button>
+  <button class="tab-btn" data-tab="quiz">Quiz</button>
+</div>
+
+<div id="theory" class="panel on">
+
+<div class="intro">
+Bu fiillerde dönüşlü zamir (Reflexivpronomen) <strong>Dativ</strong> alır, çünkü cümlede zaten bir <strong>Akkusativ nesne</strong> (etwas) bulunur. Yapı: <strong>Subjekt + Verb + Reflexivpronomen (Dativ) + Akkusativ-Objekt</strong>.<br><br>
+Örnek: <em>Ich merke <span class="hl">mir</span> die Nummer.</em> → "mir" = Dativ (ben kendime), "die Nummer" = Akkusativ nesne.
+</div>
+
+<div class="verb-card">
+  <div class="verb-head"><span class="verb-name">sich etwas merken</span><span class="verb-badge">Dativ</span></div>
+  <div class="verb-mean">bir şeyi aklında tutmak / hatırlamak</div>
+  <div class="verb-struct">Subj + merken + sich (Dat) + Akk-Objekt</div>
+  <div class="ex-row"><div class="ex-de">Ich merke <span class="dat">mir</span> die Telefonnummer.</div><div class="ex-tr">Telefon numarasını aklımda tutuyorum.</div></div>
+  <div class="ex-row"><div class="ex-de">Kannst du <span class="dat">dir</span> diesen Namen merken?</div><div class="ex-tr">Bu ismi aklında tutabilir misin?</div></div>
+</div>
+
+<div class="verb-card">
+  <div class="verb-head"><span class="verb-name">sich etwas vorstellen</span><span class="verb-badge">Dativ</span></div>
+  <div class="verb-mean">bir şeyi hayal etmek / tasavvur etmek</div>
+  <div class="verb-struct">Subj + vorstellen + sich (Dat) + Akk-Objekt</div>
+  <div class="ex-row"><div class="ex-de">Ich kann <span class="dat">mir</span> ein Leben ohne Handy nicht vorstellen.</div><div class="ex-tr">Telefonsuz bir hayatı hayal edemiyorum.</div></div>
+  <div class="ex-row"><div class="ex-de">Stell <span class="dat">dir</span> vor, du gewinnst im Lotto!</div><div class="ex-tr">Hayal et, lottoyu kazandın!</div></div>
+</div>
+
+<div class="verb-card">
+  <div class="verb-head"><span class="verb-name">sich etwas leisten können</span><span class="verb-badge">Dativ</span></div>
+  <div class="verb-mean">bir şeye (maddi) gücü yetmek</div>
+  <div class="verb-struct">Subj + können + sich (Dat) + Akk-Objekt + leisten</div>
+  <div class="ex-row"><div class="ex-de">Ich kann <span class="dat">mir</span> dieses Auto nicht leisten.</div><div class="ex-tr">Bu arabaya gücüm yetmiyor.</div></div>
+  <div class="ex-row"><div class="ex-de">Wir können <span class="dat">uns</span> jedes Jahr einen Urlaub leisten.</div><div class="ex-tr">Her yıl bir tatile gücümüz yetiyor.</div></div>
+</div>
+
+<div class="verb-card">
+  <div class="verb-head"><span class="verb-name">sich etwas wünschen</span><span class="verb-badge">Dativ</span></div>
+  <div class="verb-mean">bir şey dilemek / istemek</div>
+  <div class="verb-struct">Subj + wünschen + sich (Dat) + Akk-Objekt</div>
+  <div class="ex-row"><div class="ex-de">Ich wünsche <span class="dat">mir</span> ein neues Fahrrad zum Geburtstag.</div><div class="ex-tr">Doğum günüm için yeni bir bisiklet diliyorum.</div></div>
+  <div class="ex-row"><div class="ex-de">Was wünscht du <span class="dat">dir</span> fürs neue Jahr?</div><div class="ex-tr">Yeni yıl için ne diliyorsun?</div></div>
+</div>
+
+<div class="verb-card">
+  <div class="verb-head"><span class="verb-name">sich etwas überlegen</span><span class="verb-badge">Dativ</span></div>
+  <div class="verb-mean">bir şeyi enine boyuna düşünmek / üzerinde düşünmek</div>
+  <div class="verb-struct">Subj + überlegen + sich (Dat) + Akk-Objekt</div>
+  <div class="ex-row"><div class="ex-de">Ich überlege <span class="dat">mir</span>, ob ich den Job annehme.</div><div class="ex-tr">İşi kabul edip etmeyeceğimi düşünüyorum.</div></div>
+  <div class="ex-row"><div class="ex-de">Überleg <span class="dat">dir</span> das gut, bevor du unterschreibst.</div><div class="ex-tr">İmzalamadan önce bunu iyice düşün.</div></div>
+</div>
+
+<div class="verb-card">
+  <div class="verb-head"><span class="verb-name">sich etwas kaufen</span><span class="verb-badge">Dativ</span></div>
+  <div class="verb-mean">kendine bir şey almak</div>
+  <div class="verb-struct">Subj + kaufen + sich (Dat) + Akk-Objekt</div>
+  <div class="ex-row"><div class="ex-de">Ich habe <span class="dat">mir</span> ein neues Buch gekauft.</div><div class="ex-tr">Kendime yeni bir kitap aldım.</div></div>
+  <div class="ex-row"><div class="ex-de">Kauf <span class="dat">dir</span> doch endlich neue Schuhe!</div><div class="ex-tr">Kendine artık yeni ayakkabı al!</div></div>
+</div>
+
+<div class="verb-card">
+  <div class="verb-head"><span class="verb-name">sich Sorgen machen</span><span class="verb-badge">Dativ</span></div>
+  <div class="verb-mean">endişelenmek / kaygılanmak</div>
+  <div class="verb-struct">Subj + machen + sich (Dat) + Sorgen (um + Akk)</div>
+  <div class="ex-row"><div class="ex-de">Ich mache <span class="dat">mir</span> Sorgen um die Zukunft.</div><div class="ex-tr">Gelecek hakkında endişeleniyorum.</div></div>
+  <div class="ex-row"><div class="ex-de">Macht euch <span class="dat">euch</span> keine Sorgen, alles wird gut.</div><div class="ex-tr">Endişelenmeyin, her şey iyi olacak.</div></div>
+</div>
+
+</div>
+
+<div id="pron" class="panel">
+<div class="intro">
+Bu fiillerde dönüşlü zamir, normal Reflexivpronomen'den farklı görünmez — sadece <strong>ich</strong> ve <strong>du</strong> için Akkusativ'den farklıdır (mich → mir, dich → dir). 3. şahıs ve çoğulda zamir aynıdır.
+</div>
+<table class="pron-table">
+  <thead><tr><th>Kişi</th><th>Reflexiv Akkusativ</th><th>Reflexiv Dativ (bu fiillerde)</th></tr></thead>
+  <tbody>
+    <tr><td>ich</td><td>mich</td><td class="hl">mir</td></tr>
+    <tr><td>du</td><td>dich</td><td class="hl">dir</td></tr>
+    <tr><td>er/sie/es</td><td>sich</td><td class="hl">sich</td></tr>
+    <tr><td>wir</td><td>uns</td><td class="hl">uns</td></tr>
+    <tr><td>ihr</td><td>euch</td><td class="hl">euch</td></tr>
+    <tr><td>sie/Sie</td><td>sich</td><td class="hl">sich</td></tr>
+  </tbody>
+</table>
+<div class="intro">
+<strong>En sık hata:</strong> "Ich kann <span class="hl">mich</span> das nicht vorstellen" ❌ → "Ich kann <span class="hl">mir</span> das nicht vorstellen" ✓<br><br>
+Çünkü "vorstellen" burada Dativ Reflexivpronomen ister (das = Akkusativ nesne zaten cümlede var).
+</div>
+</div>
+
+<div id="quiz" class="panel">
+  <div class="cat-row" id="cat-row"></div>
+  <div id="quiz-body"></div>
+</div>
+
+</div>
+
+<script>
+var QS=[
+  {c:'merken',q:'Ich merke ___ die Nummer nicht.',o:['mich','mir','mein','mit'],a:'mir',e:'sich etwas merken → Dativ Reflexivpronomen: mir (ich)'},
+  {c:'merken',q:'Kannst du ___ diesen Namen merken?',o:['dich','dir','dein','du'],a:'dir',e:'sich etwas merken → Dativ: dir (du)'},
+  {c:'merken',q:'Wir konnen ___ die Adresse leider nicht merken.',o:['uns','unser','wir','euch'],a:'uns',e:'sich etwas merken → Dativ: uns (wir, ayni zamanda Akk ile ayni)'},
+  {c:'vorstellen',q:'Ich kann ___ ein Leben ohne Internet nicht vorstellen.',o:['mich','mir','mein','ich'],a:'mir',e:'sich etwas vorstellen → Dativ: mir (Akkusativ "mich" yanlistir!)'},
+  {c:'vorstellen',q:'Stell ___ vor, du gewinnst im Lotto!',o:['dich','dir','dein','du'],a:'dir',e:'sich etwas vorstellen → Dativ: dir (du)'},
+  {c:'vorstellen',q:'Sie kann ___ nicht vorstellen, dass er lugt.',o:['sich','ihr','sie','ihm'],a:'sich',e:'sich etwas vorstellen → 3. sahis Dativ Reflexiv: sich (ayni gorunur)'},
+  {c:'leisten',q:'Ich kann ___ dieses teure Auto nicht leisten.',o:['mich','mir','mein','ich'],a:'mir',e:'sich etwas leisten konnen → Dativ: mir (ich)'},
+  {c:'leisten',q:'Konnt ihr ___ einen Urlaub in Italien leisten?',o:['euch','euer','ihr','sich'],a:'euch',e:'sich etwas leisten konnen → Dativ: euch (ihr)'},
+  {c:'leisten',q:'Wir konnen ___ kein neues Auto leisten.',o:['uns','unser','wir','sich'],a:'uns',e:'sich etwas leisten konnen → Dativ: uns (wir)'},
+  {c:'wuenschen',q:'Ich wunsche ___ ein neues Fahrrad zum Geburtstag.',o:['mich','mir','mein','ich'],a:'mir',e:'sich etwas wunschen → Dativ: mir (ich)'},
+  {c:'wuenschen',q:'Was wunschst du ___ furs neue Jahr?',o:['dich','dir','dein','du'],a:'dir',e:'sich etwas wunschen → Dativ: dir (du)'},
+  {c:'wuenschen',q:'Die Kinder wunschen ___ ein Haustier.',o:['sich','ihnen','ihr','sie'],a:'sich',e:'sich etwas wunschen → 3. sahis coğul Dativ Reflexiv: sich'},
+  {c:'ueberlegen',q:'Ich uberlege ___, ob ich den Job annehme.',o:['mich','mir','mein','ich'],a:'mir',e:'sich etwas uberlegen → Dativ: mir (ich)'},
+  {c:'ueberlegen',q:'Uberleg ___ das gut, bevor du unterschreibst!',o:['dich','dir','dein','du'],a:'dir',e:'sich etwas uberlegen → Dativ: dir (du)'},
+  {c:'ueberlegen',q:'Er hat ___ die Entscheidung lange uberlegt.',o:['sich','ihm','ihn','er'],a:'sich',e:'sich etwas uberlegen → 3. sahis Dativ Reflexiv: sich'},
+  {c:'kaufen',q:'Ich habe ___ ein neues Buch gekauft.',o:['mich','mir','mein','ich'],a:'mir',e:'sich etwas kaufen → Dativ: mir (ich)'},
+  {c:'kaufen',q:'Kauf ___ doch endlich neue Schuhe!',o:['dich','dir','dein','du'],a:'dir',e:'sich etwas kaufen → Dativ: dir (du)'},
+  {c:'kaufen',q:'Wir haben ___ ein neues Sofa gekauft.',o:['uns','unser','wir','euch'],a:'uns',e:'sich etwas kaufen → Dativ: uns (wir)'},
+  {c:'sorgen',q:'Ich mache ___ Sorgen um die Zukunft.',o:['mich','mir','mein','ich'],a:'mir',e:'sich Sorgen machen → Dativ: mir (ich)'},
+  {c:'sorgen',q:'Macht ___ keine Sorgen, alles wird gut!',o:['euch','euer','ihr','sich'],a:'euch',e:'sich Sorgen machen → Dativ: euch (ihr)'},
+  {c:'sorgen',q:'Sie macht ___ Sorgen um ihre Eltern.',o:['sich','ihr','sie','ihm'],a:'sich',e:'sich Sorgen machen → 3. sahis Dativ Reflexiv: sich'},
+  {c:'mixed',q:'Ich kann ___ das einfach nicht vorstellen!',o:['mich','mir','mein','ich'],a:'mir',e:'sich etwas vorstellen → Dativ: mir (NOT mich, en sik hata!)'},
+  {c:'mixed',q:'Kannst du ___ diese Reise wirklich leisten?',o:['dich','dir','dein','du'],a:'dir',e:'sich etwas leisten konnen → Dativ: dir'},
+  {c:'mixed',q:'Er wunscht ___ mehr Zeit fur seine Familie.',o:['sich','ihm','ihn','er'],a:'sich',e:'sich etwas wunschen → Dativ: sich (er)'},
+  {c:'mixed',q:'Ich mache ___ keine Sorgen mehr um das Geld.',o:['mich','mir','mein','ich'],a:'mir',e:'sich Sorgen machen → Dativ: mir'},
+];
+
+var CATS={merken:'merken',vorstellen:'vorstellen',leisten:'leisten',wuenschen:'wunschen',ueberlegen:'uberlegen',kaufen:'kaufen',sorgen:'Sorgen machen',mixed:'Karisik'};
+
+var qState={cat:'all',data:[],idx:0,score:0,answered:false};
+
+function initQuiz(){
+  var row=document.getElementById('cat-row');
+  var html='<button class="cat-btn on" data-cat="all">Tumu</button>';
+  Object.keys(CATS).forEach(function(k){html+='<button class="cat-btn" data-cat="'+k+'">'+CATS[k]+'</button>';});
+  row.innerHTML=html;
+  row.addEventListener('click',function(e){
+    var btn=e.target.closest('.cat-btn');
+    if(!btn)return;
+    document.querySelectorAll('.cat-btn').forEach(function(b){b.classList.remove('on');});
+    btn.classList.add('on');
+    qState.cat=btn.dataset.cat;
+    startQuiz();
+  });
+  startQuiz();
+}
+
+function startQuiz(){
+  var pool=qState.cat==='all'?QS:QS.filter(function(q){return q.c===qState.cat;});
+  var shuffled=pool.slice().sort(function(){return Math.random()-.5;});
+  qState.data=shuffled.slice(0,Math.min(10,shuffled.length));
+  qState.idx=0;qState.score=0;
+  renderQ();
+}
+
+function renderQ(){
+  var el=document.getElementById('quiz-body');
+  var d=qState.data;
+  if(qState.idx>=d.length){
+    var pct=Math.round(qState.score/d.length*100);
+    var em=pct>=80?'Mukemmel!':pct>=60?'Iyi is!':'Daha cok pratik!';
+    el.innerHTML='<div class="score-box"><div class="score-num">'+qState.score+'/'+d.length+'</div><div class="score-lbl">%'+pct+' basari — '+em+'</div><button class="retry-btn" id="retry-btn">Tekrar dene</button></div>';
+    document.getElementById('retry-btn').addEventListener('click',startQuiz);
+    return;
+  }
+  var q=d[qState.idx];
+  var pct=Math.round(qState.idx/d.length*100);
+  var optsHtml=q.o.map(function(o,i){return '<button class="opt" data-opt="'+i+'">'+o+'</button>';}).join('');
+  el.innerHTML='<div class="pbar-txt"><span>'+(qState.idx+1)+' / '+d.length+'</span><span class="verb-badge">'+CATS[q.c]+'</span></div><div class="pbar-wrap"><div class="pbar-fill" style="width:'+pct+'%"></div></div><div class="qcard"><div class="qtext">'+q.q.replace('___','<span class="blank">___</span>')+'</div><div class="opts-grid" id="opts">'+optsHtml+'</div><div id="fb"></div></div>';
+  qState.answered=false;
+  document.getElementById('opts').addEventListener('click',function(e){
+    var btn=e.target.closest('.opt');
+    if(!btn||qState.answered)return;
+    qState.answered=true;
+    var chosen=q.o[parseInt(btn.dataset.opt)];
+    var isOk=chosen===q.a;
+    if(isOk)qState.score++;
+    document.querySelectorAll('#opts .opt').forEach(function(b){
+      b.disabled=true;
+      var v=q.o[parseInt(b.dataset.opt)];
+      if(v===q.a)b.classList.add(isOk&&v===chosen?'ok':'show');
+      else if(v===chosen&&!isOk)b.classList.add('no');
+    });
+    var fbEl=document.getElementById('fb');
+    fbEl.innerHTML='<div class="fb-box '+(isOk?'fb-ok':'fb-no')+'">'+(isOk?'Dogru!':'Yanlis — Dogru: <strong>'+q.a+'</strong>')+'<div class="exp">'+q.e+'</div></div><button class="next-btn" id="next-btn">'+(qState.idx+1>=d.length?'Sonuclari gor':'Sonraki &rarr;')+'</button>';
+    document.getElementById('next-btn').addEventListener('click',function(){qState.idx++;renderQ();});
+  });
+}
+
+document.querySelectorAll('.tab-btn').forEach(function(btn){
+  btn.addEventListener('click',function(){
+    var target=btn.dataset.tab;
+    document.querySelectorAll('.tab-btn').forEach(function(b){b.classList.remove('on');});
+    btn.classList.add('on');
+    document.querySelectorAll('.panel').forEach(function(p){p.classList.remove('on');});
+    document.getElementById(target).classList.add('on');
+    if(target==='quiz'&&qState.data.length===0)initQuiz();
+  });
+});
+</script>

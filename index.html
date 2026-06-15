@@ -178,6 +178,92 @@
             <i class="ti ti-chevron-right" style="font-size:16px; color:var(--color-text-tertiary);" aria-hidden="true"></i>
           </div>
 
+          <!-- Verben mit Prapositionen Launcher -->
+          <div class="interactive-card" id="launcher-verben-prap" style="border-radius: var(--border-radius-lg); padding: 16px; display:flex; align-items:center; gap: 14px;">
+            <div class="c-pink-bg" style="width:40px; height:40px; border-radius: var(--border-radius-md); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+              <i class="ti ti-bulb" style="font-size:20px;" aria-hidden="true"></i>
+            </div>
+            <div style="flex:1; min-width:0;">
+              <p style="font-size: 14px; font-weight: 600; margin:0;">Verben mit Präpositionen</p>
+              <p class="ts" style="font-size: 11.5px; margin:2px 0 0;">Edat alan Almanca fiillerin çalışma listesi ve testi.</p>
+            </div>
+            <i class="ti ti-chevron-right" style="font-size:16px; color:var(--color-text-tertiary);" aria-hidden="true"></i>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ================= VERBEN PREP DASHBOARD SCREEN ================= -->
+      <div id="verben-prep-dashboard-screen" class="screen hidden" style="padding: 20px;">
+        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 15px;">
+          <button class="back-btn" data-target="exercises" style="background: none; border: none; font-size: 20px; color: var(--color-text-primary); cursor: pointer; display: flex; align-items: center; justify-content: center;">
+            <i class="ti ti-arrow-left"></i>
+          </button>
+          <h1 style="font-size: 15px; font-weight: 600; margin: 0;">Verben mit Präpositionen</h1>
+        </div>
+
+        <!-- Progress Stat Card -->
+        <div class="progress-stat-card">
+          <div class="progress-stat-grid">
+            <div class="progress-stat-item" style="border-right: 1px solid var(--color-border-secondary);">
+              <span class="ts" style="font-size: 10px;">Başlanmamış</span>
+              <span style="font-size: 16px; font-weight: 700; color: var(--color-text-secondary);" id="stat-not-started">0</span>
+            </div>
+            <div class="progress-stat-item" style="border-right: 1px solid var(--color-border-secondary);">
+              <span class="ts" style="font-size: 10px;">Öğreniliyor</span>
+              <span style="font-size: 16px; font-weight: 700; color: var(--theme-coral);" id="stat-learning">0</span>
+            </div>
+            <div class="progress-stat-item">
+              <span class="ts" style="font-size: 10px;">Öğrenildi</span>
+              <span style="font-size: 16px; font-weight: 700; color: var(--theme-teal);" id="stat-learned">0</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Start Exercise Button & Filters -->
+        <div style="margin-bottom: 16px;">
+          <button class="c-purple" id="start-prep-quiz-btn" style="width: 100%; border: none; padding: 13px; border-radius: var(--border-radius-lg); font-size: 13.5px; font-weight: 600; cursor: pointer; color: var(--color-background-primary); display:flex; align-items:center; justify-content:center; gap:8px; margin-bottom: 12px;">
+            <i class="ti ti-play-card-filled"></i> Alıştırmaya Başla (10 Soru)
+          </button>
+          
+          <div class="filter-row">
+            <select id="filter-level" class="filter-select">
+              <option value="all">Seviye: Tümü</option>
+              <option value="a1a2">Seviye: A1 / A2</option>
+              <option value="b1">Seviye: B1</option>
+              <option value="b2">Seviye: B2</option>
+            </select>
+            <select id="filter-kasus" class="filter-select">
+              <option value="all">Kasus: Tümü</option>
+              <option value="Dat">Kasus: Dativ</option>
+              <option value="Akk">Kasus: Akkusativ</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="search-container">
+          <i class="ti ti-search"></i>
+          <input type="text" id="prep-search" class="search-input" placeholder="Fiil veya edat ara..." />
+        </div>
+
+        <!-- Scrollable Verb List -->
+        <div id="prep-words-list" style="flex: 1; overflow-y: auto; padding-right: 4px;">
+          <!-- Injected dynamically -->
+        </div>
+      </div>
+
+      <!-- ================= VERBEN PREP QUIZ PLAY SCREEN ================= -->
+      <div id="verben-prep-quiz-screen" class="screen hidden" style="padding: 20px;">
+        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 15px;">
+          <button class="back-btn" data-target="verben-prep-dashboard" style="background: none; border: none; font-size: 20px; color: var(--color-text-primary); cursor: pointer; display: flex; align-items: center; justify-content: center;">
+            <i class="ti ti-arrow-left"></i>
+          </button>
+          <h1 style="font-size: 15px; font-weight: 600; margin: 0;">Edat Alıştırması</h1>
+        </div>
+
+        <div id="verben-prep-quiz-content" style="flex: 1; display: flex; flex-direction: column;">
+          <!-- Dynamic quiz progression will load here -->
         </div>
       </div>
 
@@ -338,6 +424,7 @@
 
   <!-- Loaded Data and Scripts -->
   <script src="lessons_data.js"></script>
+  <script src="verben_prep_data.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

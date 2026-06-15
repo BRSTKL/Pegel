@@ -1,0 +1,235 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body,div,button,span,p,table,td,th{font-family:var(--font-sans)}
+.app{padding:1rem 0}
+.tabs{display:flex;gap:5px;margin-bottom:1.25rem;flex-wrap:wrap}
+.tab-btn{padding:7px 14px;border-radius:8px;border:0.5px solid var(--color-border-secondary);background:transparent;cursor:pointer;font-size:13px;color:var(--color-text-secondary);transition:all .15s}
+.tab-btn.on{background:var(--color-background-secondary);color:var(--color-text-primary);border-color:var(--color-border-primary);font-weight:500}
+.panel{display:none}.panel.on{display:block}
+
+.intro{background:var(--color-background-secondary);border-radius:12px;padding:1rem 1.25rem;margin-bottom:1rem;font-size:13px;color:var(--color-text-secondary);line-height:1.6;border-left:2px solid #378ADD}
+.intro strong{color:var(--color-text-primary)}
+.hl{color:#185FA5;font-weight:500}
+
+.compare-table{width:100%;border-collapse:collapse;font-size:13px;margin-bottom:1rem}
+.compare-table th{text-align:left;padding:7px 10px;background:var(--color-background-secondary);color:var(--color-text-secondary);font-weight:500;border-bottom:0.5px solid var(--color-border-secondary)}
+.compare-table td{padding:8px 10px;border-bottom:0.5px solid var(--color-border-tertiary);color:var(--color-text-primary)}
+.compare-table tr:last-child td{border-bottom:none}
+.ending{color:#185FA5;font-weight:500}
+
+.arrow-row{display:flex;align-items:center;gap:8px;justify-content:center;font-size:14px;font-weight:500;margin:10px 0;flex-wrap:wrap}
+.arrow-box{padding:7px 14px;border-radius:8px;font-size:13px}
+.bg-dem{background:#E6F1FB;color:#0C447C}
+.bg-result{background:#E1F5EE;color:#085041}
+.arrow-sep{color:var(--color-text-secondary);font-size:13px}
+
+.case-card{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:12px;padding:1.1rem 1.25rem;margin-bottom:10px}
+.case-head{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.case-title{font-size:15px;font-weight:500;color:var(--color-text-primary)}
+.case-badge{padding:2px 9px;border-radius:20px;font-size:11px;font-weight:500;background:#EEEDFE;color:#3C3489}
+.ex-row{background:var(--color-background-secondary);border-radius:8px;padding:9px 13px;margin-bottom:5px;border-left:2px solid #378ADD}
+.ex-row:last-child{margin-bottom:0}
+.ex-de{font-size:13px;color:var(--color-text-primary)}
+.ex-de .target{color:#185FA5;font-weight:500}
+.ex-tr{font-size:12px;color:var(--color-text-secondary);margin-top:2px}
+
+.cat-row{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:1rem}
+.cat-btn{padding:5px 11px;border-radius:20px;border:0.5px solid var(--color-border-secondary);background:transparent;cursor:pointer;font-size:12px;color:var(--color-text-secondary)}
+.cat-btn.on{background:var(--color-background-secondary);color:var(--color-text-primary);border-color:var(--color-border-primary);font-weight:500}
+.pbar-wrap{height:3px;background:var(--color-background-secondary);border-radius:2px;margin-bottom:1rem;overflow:hidden}
+.pbar-fill{height:100%;background:#378ADD;border-radius:2px;transition:width .3s}
+.pbar-txt{font-size:12px;color:var(--color-text-secondary);margin-bottom:5px;display:flex;justify-content:space-between;align-items:center}
+.qcard{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:12px;padding:1.25rem;margin-bottom:1rem}
+.qtext{font-size:15px;color:var(--color-text-primary);line-height:1.7;margin-bottom:14px;font-weight:500}
+.blank{display:inline-block;min-width:80px;border-bottom:2px solid #378ADD;text-align:center;padding:0 3px}
+.opts-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.opt{padding:9px 12px;border-radius:8px;border:0.5px solid var(--color-border-secondary);background:transparent;cursor:pointer;font-size:13px;color:var(--color-text-primary);text-align:left;transition:all .15s}
+.opt:hover:not([disabled]){background:var(--color-background-secondary);border-color:var(--color-border-primary)}
+.opt.ok{background:#EAF3DE;border-color:#C0DD97;color:#27500A}
+.opt.no{background:#FCEBEB;border-color:#F7C1C1;color:#791F1F}
+.opt.show{background:#EAF3DE;border-color:#C0DD97;color:#27500A}
+.fb-box{padding:9px 13px;border-radius:8px;margin-top:9px;font-size:13px;line-height:1.5}
+.fb-ok{background:#EAF3DE;color:#27500A}.fb-no{background:#FCEBEB;color:#791F1F}
+.exp{font-size:12px;opacity:.85;margin-top:4px}
+.next-btn,.retry-btn{padding:8px 18px;border-radius:8px;border:0.5px solid var(--color-border-secondary);background:var(--color-background-secondary);cursor:pointer;font-size:13px;color:var(--color-text-primary);font-weight:500;margin-top:10px}
+.score-box{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:12px;padding:2rem;text-align:center}
+.score-num{font-size:44px;font-weight:500;color:var(--color-text-primary);margin-bottom:4px}
+.score-lbl{font-size:14px;color:var(--color-text-secondary);margin-bottom:1rem}
+.badge-cat{padding:2px 9px;border-radius:20px;font-size:11px;font-weight:500;background:var(--color-background-secondary);color:var(--color-text-secondary)}
+</style>
+
+<div class="app">
+<h2 style="position:absolute;width:1px;height:1px;overflow:hidden">Nullartikel sonrasi sifat cekimi ogrenme uygulamasi</h2>
+
+<div class="tabs">
+  <button class="tab-btn on" data-tab="theory">Kural</button>
+  <button class="tab-btn" data-tab="table">Tam Tablo</button>
+  <button class="tab-btn" data-tab="quiz">Quiz</button>
+</div>
+
+<div id="theory" class="panel on">
+
+<div class="intro">
+Bir ismin onunde artikel (der/die/das, ein/eine, mein/dein vb.) <strong>yoksa</strong> (Nullartikel), sifat o ismin onunde olan <strong>belirli artikelin (bestimmter Artikel) ekini</strong> alir. Yani sifat, "kaybolan" artikelin gorevini de ustlenir.
+</div>
+
+<div class="arrow-row">
+  <span class="arrow-box bg-dem">(in) dem Chaos</span>
+  <span class="arrow-sep">artikel kalkar &rarr;</span>
+  <span class="arrow-box bg-result">in totalem Chaos</span>
+</div>
+
+<div class="intro">
+"dem" Dativ Maskulin/Notr ekidir: <strong class="hl">-em</strong>. Artikel olmadigi icin sifat bu eki alir: <strong>total<span class="hl">em</span> Chaos</strong>.
+</div>
+
+<div class="case-card">
+  <div class="case-head"><span class="case-title">Nominativ</span><span class="case-badge">Artikelsiz</span></div>
+  <div class="ex-row"><div class="ex-de"><span class="target">Kalter</span> Kaffee schmeckt nicht gut.</div><div class="ex-tr">Soğuk kahve iyi tatmıyor. (der Kaffee → -er)</div></div>
+  <div class="ex-row"><div class="ex-de"><span class="target">Frische</span> Luft tut gut.</div><div class="ex-tr">Temiz hava iyi gelir. (die Luft → -e)</div></div>
+  <div class="ex-row"><div class="ex-de"><span class="target">Gutes</span> Wetter macht alle glücklich.</div><div class="ex-tr">Güzel hava herkesi mutlu eder. (das Wetter → -es)</div></div>
+</div>
+
+<div class="case-card">
+  <div class="case-head"><span class="case-title">Akkusativ</span><span class="case-badge">Artikelsiz</span></div>
+  <div class="ex-row"><div class="ex-de">Ich trinke gern <span class="target">kalten</span> Kaffee.</div><div class="ex-tr">Soğuk kahve içmeyi severim. (den Kaffee → -en)</div></div>
+  <div class="ex-row"><div class="ex-de">Ich brauche <span class="target">frische</span> Luft.</div><div class="ex-tr">Temiz havaya ihtiyacım var. (die Luft → -e)</div></div>
+  <div class="ex-row"><div class="ex-de">Wir wünschen <span class="target">gutes</span> Wetter.</div><div class="ex-tr">Güzel hava diliyoruz. (das Wetter → -es)</div></div>
+</div>
+
+<div class="case-card">
+  <div class="case-head"><span class="case-title">Dativ</span><span class="case-badge">Artikelsiz</span></div>
+  <div class="ex-row"><div class="ex-de">Das Land leidet unter <span class="target">starker</span> Inflation.</div><div class="ex-tr">Ülke şiddetli enflasyon altında acı çekiyor. (der Inflation [fem.] → -er)</div></div>
+  <div class="ex-row"><div class="ex-de">Nach <span class="target">langer</span> Reise war ich müde.</div><div class="ex-tr">Uzun bir yolculuktan sonra yorgundum. (der Reise [fem.] → -er)</div></div>
+  <div class="ex-row"><div class="ex-de">Bei <span class="target">schönem</span> Wetter gehen wir spazieren.</div><div class="ex-tr">Güzel havada yürüyüşe çıkarız. (dem Wetter [neutr.] → -em)</div></div>
+  <div class="ex-row"><div class="ex-de">Das Zimmer war in <span class="target">totalem</span> Chaos.</div><div class="ex-tr">Oda tam bir kaos içindeydi. (dem Chaos [neutr.] → -em)</div></div>
+  <div class="ex-row"><div class="ex-de">Mit <span class="target">großem</span> Interesse habe ich das gelesen.</div><div class="ex-tr">Büyük ilgiyle bunu okudum. (dem Interesse [neutr.] → -em)</div></div>
+</div>
+
+<div class="case-card">
+  <div class="case-head"><span class="case-title">Genitiv</span><span class="case-badge">Artikelsiz</span></div>
+  <div class="ex-row"><div class="ex-de">Das ist ein Zeichen <span class="target">großer</span> Höflichkeit.</div><div class="ex-tr">Bu büyük bir nezaket işareti. (der Höflichkeit [fem.] → -er)</div></div>
+  <div class="ex-row"><div class="ex-de">Trotz <span class="target">starken</span> Regens sind wir gegangen.</div><div class="ex-tr">Şiddetli yağmura rağmen gittik. (des Regens [mask.] → -en)</div></div>
+</div>
+
+</div>
+
+<div id="table" class="panel">
+<table class="compare-table">
+  <thead><tr><th>Durum</th><th>Maskulin</th><th>Feminin</th><th>Neutral</th><th>Plural</th></tr></thead>
+  <tbody>
+    <tr><td>Nominativ</td><td class="ending">-er<br><span style="font-size:11px;color:var(--color-text-secondary)">kalter Kaffee</span></td><td class="ending">-e<br><span style="font-size:11px;color:var(--color-text-secondary)">frische Luft</span></td><td class="ending">-es<br><span style="font-size:11px;color:var(--color-text-secondary)">gutes Wetter</span></td><td class="ending">-e<br><span style="font-size:11px;color:var(--color-text-secondary)">kalte Getränke</span></td></tr>
+    <tr><td>Akkusativ</td><td class="ending">-en<br><span style="font-size:11px;color:var(--color-text-secondary)">kalten Kaffee</span></td><td class="ending">-e<br><span style="font-size:11px;color:var(--color-text-secondary)">frische Luft</span></td><td class="ending">-es<br><span style="font-size:11px;color:var(--color-text-secondary)">gutes Wetter</span></td><td class="ending">-e<br><span style="font-size:11px;color:var(--color-text-secondary)">kalte Getränke</span></td></tr>
+    <tr><td>Dativ</td><td class="ending">-em<br><span style="font-size:11px;color:var(--color-text-secondary)">kaltem Kaffee</span></td><td class="ending">-er<br><span style="font-size:11px;color:var(--color-text-secondary)">frischer Luft</span></td><td class="ending">-em<br><span style="font-size:11px;color:var(--color-text-secondary)">totalem Chaos</span></td><td class="ending">-en<br><span style="font-size:11px;color:var(--color-text-secondary)">kalten Getränken</span></td></tr>
+    <tr><td>Genitiv</td><td class="ending">-en<br><span style="font-size:11px;color:var(--color-text-secondary)">kalten Kaffees</span></td><td class="ending">-er<br><span style="font-size:11px;color:var(--color-text-secondary)">frischer Luft</span></td><td class="ending">-en<br><span style="font-size:11px;color:var(--color-text-secondary)">guten Wetters</span></td><td class="ending">-er<br><span style="font-size:11px;color:var(--color-text-secondary)">kalter Getränke</span></td></tr>
+  </tbody>
+</table>
+<div class="intro">
+<strong>Hatirlama yontemi:</strong> Bu ekler tipki <strong>der/die/das/die</strong> ve <strong>den/die/das/die</strong> gibi <strong>belirli artikellerin son harfleridir</strong> (Dativ'de dem→em, der→er gibi). Sifat, kaybolan artikelin "kimligini" ustlenir.<br><br>
+<strong>Istisna:</strong> Maskulin/Notr Genitiv'de normalde "-es" olan ek burada <strong>-en</strong> olur (kalten Kaffees, guten Wetters) — bu tek farktir.
+</div>
+</div>
+
+<div id="quiz" class="panel">
+  <div class="cat-row" id="cat-row"></div>
+  <div id="quiz-body"></div>
+</div>
+
+</div>
+
+<script>
+var QS=[
+  {c:'nom',q:'___ Kaffee schmeckt nicht gut. (kalt, der Kaffee)',o:['Kalter','Kalte','Kaltes','Kalten'],a:'Kalter',e:'Nominativ Maskulin Nullartikel → -er (der → -er)'},
+  {c:'nom',q:'___ Luft tut dem Korper gut. (frisch, die Luft)',o:['Frischer','Frische','Frisches','Frischen'],a:'Frische',e:'Nominativ Feminin Nullartikel → -e (die → -e)'},
+  {c:'nom',q:'___ Wetter macht alle glucklich. (gut, das Wetter)',o:['Guter','Gute','Gutes','Guten'],a:'Gutes',e:'Nominativ Neutral Nullartikel → -es (das → -es)'},
+  {c:'akk',q:'Ich trinke gern ___ Kaffee. (kalt, den Kaffee)',o:['kalter','kalte','kaltes','kalten'],a:'kalten',e:'Akkusativ Maskulin Nullartikel → -en (den → -en)'},
+  {c:'akk',q:'Ich brauche ___ Luft. (frisch, die Luft)',o:['frischer','frische','frisches','frischen'],a:'frische',e:'Akkusativ Feminin Nullartikel → -e (die → -e, degismez)'},
+  {c:'akk',q:'Wir wunschen ___ Wetter fur die Reise. (gut, das Wetter)',o:['guter','gute','gutes','guten'],a:'gutes',e:'Akkusativ Neutral Nullartikel → -es (das → -es, degismez)'},
+  {c:'dat',q:'Das Land leidet unter ___ Inflation. (stark, der Inflation - feminin)',o:['starker','starke','starkem','starken'],a:'starker',e:'Dativ Feminin Nullartikel → -er (der → -er)'},
+  {c:'dat',q:'Bei ___ Wetter gehen wir spazieren. (schon, dem Wetter - neutr.)',o:['schoner','schone','schonem','schonen'],a:'schonem',e:'Dativ Neutral Nullartikel → -em (dem → -em)'},
+  {c:'dat',q:'Das Zimmer war in ___ Chaos. (total, dem Chaos - neutr.)',o:['totaler','totale','totalem','totalen'],a:'totalem',e:'Dativ Neutral Nullartikel → -em (dem → -em)'},
+  {c:'dat',q:'Mit ___ Interesse habe ich den Artikel gelesen. (gross, dem Interesse - neutr.)',o:['grosser','grosse','grossem','grossen'],a:'grossem',e:'Dativ Neutral Nullartikel → -em (dem → -em)'},
+  {c:'dat',q:'Nach ___ Reise war ich sehr mude. (lang, der Reise - feminin)',o:['langer','lange','langem','langen'],a:'langer',e:'Dativ Feminin Nullartikel → -er (der → -er)'},
+  {c:'dat',q:'Mit ___ Erfolg hat sie das Projekt abgeschlossen. (gross, dem Erfolg - mask.)',o:['grosser','grosse','grossem','grossen'],a:'grossem',e:'Dativ Maskulin Nullartikel → -em (dem → -em)'},
+  {c:'gen',q:'Das ist ein Zeichen ___ Hoflichkeit. (gross, der Hoflichkeit - feminin)',o:['grosser','grosse','grossem','grossen'],a:'grosser',e:'Genitiv Feminin Nullartikel → -er (der → -er)'},
+  {c:'gen',q:'Trotz ___ Regens sind wir spazieren gegangen. (stark, des Regens - mask.)',o:['starker','starke','starkem','starken'],a:'starken',e:'Genitiv Maskulin Nullartikel → -en (istisna! normalde -es, burada -en)'},
+  {c:'mixed',q:'___ Glück bringt diese Pflanze, sagt man. (groß, das Glück)',o:['Großer','Große','Großes','Großen'],a:'Großes',e:'Nominativ Neutral Nullartikel → -es (das → -es)'},
+  {c:'mixed',q:'Sie hat das mit ___ Geduld erklart. (viel, der Geduld - feminin)',o:['vieler','viele','vielem','vielen'],a:'vieler',e:'Dativ Feminin Nullartikel → -er (der → -er)'},
+  {c:'mixed',q:'Er trinkt nur ___ Wasser. (kalt, das Wasser)',o:['kalter','kalte','kaltes','kalten'],a:'kaltes',e:'Akkusativ Neutral Nullartikel → -es (das → -es)'},
+  {c:'mixed',q:'Bei ___ Nebel sollte man langsam fahren. (dicht, dem Nebel - mask.)',o:['dichter','dichte','dichtem','dichten'],a:'dichtem',e:'Dativ Maskulin Nullartikel → -em (dem → -em)'},
+];
+
+var CATS={nom:'Nominativ',akk:'Akkusativ',dat:'Dativ',gen:'Genitiv',mixed:'Karisik'};
+
+var qState={cat:'all',data:[],idx:0,score:0,answered:false};
+
+function initQuiz(){
+  var row=document.getElementById('cat-row');
+  var html='<button class="cat-btn on" data-cat="all">Tumu</button>';
+  Object.keys(CATS).forEach(function(k){html+='<button class="cat-btn" data-cat="'+k+'">'+CATS[k]+'</button>';});
+  row.innerHTML=html;
+  row.addEventListener('click',function(e){
+    var btn=e.target.closest('.cat-btn');
+    if(!btn)return;
+    document.querySelectorAll('.cat-btn').forEach(function(b){b.classList.remove('on');});
+    btn.classList.add('on');
+    qState.cat=btn.dataset.cat;
+    startQuiz();
+  });
+  startQuiz();
+}
+
+function startQuiz(){
+  var pool=qState.cat==='all'?QS:QS.filter(function(q){return q.c===qState.cat;});
+  var shuffled=pool.slice().sort(function(){return Math.random()-.5;});
+  qState.data=shuffled.slice(0,Math.min(10,shuffled.length));
+  qState.idx=0;qState.score=0;
+  renderQ();
+}
+
+function renderQ(){
+  var el=document.getElementById('quiz-body');
+  var d=qState.data;
+  if(qState.idx>=d.length){
+    var pct=Math.round(qState.score/d.length*100);
+    var em=pct>=80?'Mukemmel!':pct>=60?'Iyi is!':'Daha cok pratik!';
+    el.innerHTML='<div class="score-box"><div class="score-num">'+qState.score+'/'+d.length+'</div><div class="score-lbl">%'+pct+' basari — '+em+'</div><button class="retry-btn" id="retry-btn">Tekrar dene</button></div>';
+    document.getElementById('retry-btn').addEventListener('click',startQuiz);
+    return;
+  }
+  var q=d[qState.idx];
+  var pct=Math.round(qState.idx/d.length*100);
+  var optsHtml=q.o.map(function(o,i){return '<button class="opt" data-opt="'+i+'">'+o+'</button>';}).join('');
+  el.innerHTML='<div class="pbar-txt"><span>'+(qState.idx+1)+' / '+d.length+'</span><span class="badge-cat">'+CATS[q.c]+'</span></div><div class="pbar-wrap"><div class="pbar-fill" style="width:'+pct+'%"></div></div><div class="qcard"><div class="qtext">'+q.q.replace('___','<span class="blank">___</span>')+'</div><div class="opts-grid" id="opts">'+optsHtml+'</div><div id="fb"></div></div>';
+  qState.answered=false;
+  document.getElementById('opts').addEventListener('click',function(e){
+    var btn=e.target.closest('.opt');
+    if(!btn||qState.answered)return;
+    qState.answered=true;
+    var chosen=q.o[parseInt(btn.dataset.opt)];
+    var isOk=chosen===q.a;
+    if(isOk)qState.score++;
+    document.querySelectorAll('#opts .opt').forEach(function(b){
+      b.disabled=true;
+      var v=q.o[parseInt(b.dataset.opt)];
+      if(v===q.a)b.classList.add(isOk&&v===chosen?'ok':'show');
+      else if(v===chosen&&!isOk)b.classList.add('no');
+    });
+    var fbEl=document.getElementById('fb');
+    fbEl.innerHTML='<div class="fb-box '+(isOk?'fb-ok':'fb-no')+'">'+(isOk?'Dogru!':'Yanlis — Dogru: <strong>'+q.a+'</strong>')+'<div class="exp">'+q.e+'</div></div><button class="next-btn" id="next-btn">'+(qState.idx+1>=d.length?'Sonuclari gor':'Sonraki &rarr;')+'</button>';
+    document.getElementById('next-btn').addEventListener('click',function(){qState.idx++;renderQ();});
+  });
+}
+
+document.querySelectorAll('.tab-btn').forEach(function(btn){
+  btn.addEventListener('click',function(){
+    var target=btn.dataset.tab;
+    document.querySelectorAll('.tab-btn').forEach(function(b){b.classList.remove('on');});
+    btn.classList.add('on');
+    document.querySelectorAll('.panel').forEach(function(p){p.classList.remove('on');});
+    document.getElementById(target).classList.add('on');
+    if(target==='quiz'&&qState.data.length===0)initQuiz();
+  });
+});
+</script>

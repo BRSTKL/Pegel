@@ -1,12 +1,12 @@
-/* style.css - B1 German App Design System (Minimalist Redesign) */
+/* style.css - B1 German App Design System (Minimalist Redesign + Prepositions Dashboard) */
 
 :root {
-  /* Colors - Minimalist Warm Dark Theme (Based on App_Tasarım.PNG) */
-  --color-background-primary: #30302e;   /* Main background (76.5%) */
-  --color-background-secondary: #262624; /* Card background (8.6%) */
+  /* Colors - Minimalist Warm Dark Theme */
+  --color-background-primary: #30302e;   /* Main background */
+  --color-background-secondary: #262624; /* Card background */
   --color-background-tertiary: #383835;  /* Hover / alternate background */
   
-  --color-border-primary: #494947;     /* Thin borders (5.1%) */
+  --color-border-primary: #494947;     /* Thin borders */
   --color-border-secondary: #3d3d3b;   /* Subtle divider border */
   --color-border-tertiary: #494947;
   
@@ -15,7 +15,7 @@
   --color-text-tertiary: #7c7c79;      /* Muted text */
   --color-text-info: #80aadd;          /* Pastel blue info color */
   
-  /* Pastel Accent Colors for features */
+  /* Pastel Accent Colors */
   --theme-purple: #b19ffb;             /* Pastel purple */
   --theme-purple-light: rgba(177, 159, 251, 0.12);
   
@@ -53,7 +53,7 @@
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  background-color: #1e1e1d; /* Slightly darker surrounding background for desktop contrast */
+  background-color: #1e1e1d;
   color: var(--color-text-primary);
   display: flex;
   justify-content: center;
@@ -67,7 +67,7 @@ body {
 .app-container {
   width: 100%;
   height: 100vh;
-  max-width: 380px; /* Aligns with mockup scale */
+  max-width: 380px;
   background-color: var(--color-background-primary);
   display: flex;
   flex-direction: column;
@@ -561,7 +561,7 @@ button.c-purple {
   color: var(--color-background-primary) !important;
 }
 
-/* Light Mode Overrides if requested */
+/* Light Mode Overrides */
 [data-theme="light"] {
   --color-background-primary: #f6f5f2;
   --color-background-secondary: #ffffff;
@@ -574,4 +574,167 @@ button.c-purple {
   --color-text-secondary: #656460;
   --color-text-tertiary: #9d9c96;
   --color-text-info: #497aa5;
+}
+
+/* ═══════════════════════════════════════════
+   PREPOSITIONS DASHBOARD SPECIFIC STYLES
+   ═══════════════════════════════════════════ */
+
+/* Search bar styling */
+.search-container {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 14px 10px 36px;
+  border: 1px solid var(--color-border-primary);
+  border-radius: var(--border-radius-lg);
+  font-size: 13px;
+  background-color: var(--color-background-secondary);
+  color: var(--color-text-primary);
+  outline: none;
+  transition: border-color var(--transition-fast);
+}
+
+.search-input:focus {
+  border-color: var(--theme-purple);
+}
+
+.search-container i {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-text-tertiary);
+  font-size: 16px;
+}
+
+/* Filter selector styling */
+.filter-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.filter-select {
+  flex: 1;
+  padding: 9px 12px;
+  border: 1px solid var(--color-border-primary);
+  border-radius: var(--border-radius-md);
+  font-size: 12.5px;
+  background-color: var(--color-background-secondary);
+  color: var(--color-text-primary);
+  cursor: pointer;
+  outline: none;
+  font-weight: 500;
+  transition: border-color var(--transition-fast);
+}
+
+.filter-select:focus {
+  border-color: var(--theme-purple);
+}
+
+/* Progress stat counter card */
+.progress-stat-card {
+  background-color: var(--color-background-secondary);
+  border: 1px solid var(--color-border-primary);
+  border-radius: var(--border-radius-lg);
+  padding: 12px 14px;
+  margin-bottom: 14px;
+}
+
+.progress-stat-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+  text-align: center;
+}
+
+.progress-stat-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* State Badge colors */
+.stat-badge {
+  display: inline-block;
+  padding: 2.5px 7px;
+  border-radius: var(--border-radius-sm);
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+}
+
+.stat-badge.not-started {
+  background-color: var(--color-background-tertiary);
+  color: var(--color-text-secondary);
+  border: 1px solid var(--color-border-primary);
+}
+
+.stat-badge.learning {
+  background-color: var(--theme-coral-light);
+  color: var(--theme-coral);
+  border: 1px solid rgba(232, 139, 125, 0.2);
+}
+
+.stat-badge.learned {
+  background-color: var(--theme-teal-light);
+  color: var(--theme-teal);
+  border: 1px solid rgba(152, 181, 182, 0.2);
+}
+
+/* Word list item card */
+.verb-list-item {
+  background-color: var(--color-background-secondary);
+  border: 1px solid var(--color-border-primary);
+  border-radius: var(--border-radius-lg);
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  transition: border-color var(--transition-fast);
+}
+
+.verb-list-item:hover {
+  border-color: var(--color-text-tertiary);
+}
+
+.verb-list-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.verb-tags-group {
+  display: flex;
+  gap: 5px;
+}
+
+.verb-tag {
+  font-size: 9.5px;
+  font-weight: 600;
+  padding: 1.5px 5px;
+  border-radius: 4px;
+  border: 1px solid var(--color-border-secondary);
+  background-color: var(--color-background-primary);
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+}
+
+.star-icon {
+  font-size: 16px;
+  color: var(--color-text-tertiary);
+  cursor: pointer;
+  transition: color var(--transition-fast), transform var(--transition-fast);
+}
+
+.star-icon:active {
+  transform: scale(1.15);
+}
+
+.star-icon.starred {
+  color: var(--theme-coral);
 }

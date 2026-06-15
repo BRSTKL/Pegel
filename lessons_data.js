@@ -269,7 +269,29 @@ const LESSONS_DATA = [
       },
       {
         "name": "Nebensatz-Strukturen",
-        "lessons": []
+        "lessons": [
+          {
+            "id": "almanca_arac_cumleleri__indem_ve_dadurch_dass_yapilari",
+            "title": "Almanca Araç Cümleleri_ Indem ve Dadurch Dass Yapıları",
+            "category": "Satzbau & Adverbien",
+            "subcategory": "Nebensatz-Strukturen",
+            "content": "﻿Yan cümleler (Nebensatz) bağlamında Instrumentalsätze (Araç Cümleleri), bir amaca \"hangi yolla\" veya \"nasıl\" ulaştığınızı detaylandırmak için kullanılır 1, 2. \"Wie?\" (Nasıl?) veya \"Wodurch?\" (Ne yoluyla?) sorularına cevap vererek eylemin yapılma yöntemini açıklarlar 1.\nBu yapıyı kurmak için birbirinin tamamen eş anlamlısı olan iki kalıbı kullanırız 3-5:\n1. \"indem\" (-erek / -arak):En pratik ve yaygın olanıdır. Ana cümledeki hedefe nasıl ulaştığımızı \"indem\" ile başlayan yan cümlede açıklarız 2. Klasik bir yan cümle olduğu için fiil her zaman cümlenin en sonuna gider 2.\n* Örnek: \"Ich bleibe aktiv, indem ich täglich Sport treibe\" (Her gün spor yaparak aktif kalıyorum) 3.\n* Kural: Cümleye doğrudan \"indem\" ile de başlayabilirsiniz. Bu durumda, virgülden sonraki ana cümle mecburen fiil ile başlamak zorundadır: \"Indem ich täglich Sport treibe, bleibe ich aktiv\" 6.\n2. \"dadurch, dass\" (-mesi yoluyla / sayesinde):Anlam olarak \"indem\" ile tamamen aynıdır, sadece cümledeki dizilimi biraz farklıdır 4, 5. Genellikle \"dadurch\" kelimesi ana cümlenin içine yerleştirilir, \"dass\" ise yan cümleyi başlatarak fiili en sona atar 7.\n* Örnek: \"Man kann einen Unfall dadurch vermeiden, dass man vorsichtig fährt\" (İnsanlar dikkatli sürmeleri yoluyla bir kazayı önleyebilirler) 7.\n* Kural: İsterseniz bu ikiliyi hiç parçalamadan cümlenin en başına da koyabilirsiniz: \"Dadurch dass man vorsichtig fährt, kann man einen Unfall vermeiden\" 8.\nCümleleri birbirine \"yöntem ve araç\" belirterek bağlama mantığı netleşti mi?"
+          },
+          {
+            "id": "almanca_modalsätze__beklentilerin_disindaki_yan_cumleler",
+            "title": "Almanca Modalsätze_ Beklentilerin Dışındaki Yan Cümleler",
+            "category": "Satzbau & Adverbien",
+            "subcategory": "Nebensatz-Strukturen",
+            "content": "﻿Modalsätze (Tarz Cümleleri), eylemlerin nasıl yapıldığını veya beklentilerin aksine nelerin yapılmadığını anlatan yan cümlelerdir (Nebensatz). Bu grupta işlerin normal akışının dışına çıktığı iki temel yapıyı kullanırız:\n1. \"ohne dass / ohne zu\" (...-meden / -maksızın):Beklenen veya normalde olması gereken bir eylemin gerçekleşmediğini gösterir 1.\n* Özneler aynıysa: Cümleyi kısaltmak için pratik olan ohne...zu kalıbı kullanılır 2. Örnek: \"Er ist gegangen, ohne sich zu verabschieden\" (Vedalaşmadan gitti) 2.\n* Özneler farklıysa: Mecburen ohne dass kullanılır ve yan cümlenin fiili en sona gider 3. Örnek: \"Sie weint, ohne dass ich ihr etwas gesagt habe\" (Ben ona hiçbir şey söylemeden ağlıyor) 3. (Not: Özneler aynı olsa bile \"ohne dass\" kullanılabilir ancak Almanlar genelde daha kısa olan \"ohne...zu\" yapısını tercih eder 4).\n2. \"anstatt dass / anstatt zu\" (...-mek yerine):Beklenen bir durumun yerine bambaşka bir şey yapıldığında kullanılır 5. (\"statt\" ve \"anstatt\" kelimeleri tamamen eş anlamlıdır ve birbirinin yerine kullanılabilir 6).\n* Kural tamamen aynıdır; özneler aynıysa her zaman anstatt...zu tercih edilir çünkü daha şık ve kısadır 7. Örnek: \"Du solltest mir helfen, anstatt faul herumzusitzen\" (Tembel tembel oturmak yerine bana yardım etmelisin) 7, 8.\nBeklentilerin aksine gelişen olayları birbirine bağladığımız bu Modalsätze (tarz) mantığı oturdu mu?"
+          },
+          {
+            "id": "almancada_amac_cumleleri__um...zu_ve_damit_yapilari",
+            "title": "Almancada Amaç Cümleleri_ um...zu ve damit Yapıları",
+            "category": "Satzbau & Adverbien",
+            "subcategory": "Nebensatz-Strukturen",
+            "content": "﻿Finalsätze (Amaç Cümleleri), eylemlerimizi \"hangi amaçla\" veya \"ne için\" (wozu) yaptığımızı anlatan yan cümleciklerdir (Nebensatz) 1. Bu yapıları kurmak için Almancada iki temel seçeneğimiz vardır:\n1. \"um...zu\" (...mak/mek için):Bu yapıyı sadece ana cümledeki eylemi yapan kişi ile amacı gerçekleştiren kişi (özne) aynıysa kullanabilirsiniz 2, 3. Çok pratiktir çünkü yan cümlede özneyi tekrar etmenize gerek kalmaz 2. \"um\" başa gelir, \"zu\" ise en sondaki yalın fiilin (infinitiv) hemen önüne eklenir 2.\n* Örnek: \"Ich lerne fleißig, um gute Punkte zu bekommen\" (İyi notlar almak için sıkı çalışıyorum) 4.\n* Küçük bir kural: Amaç zaten cümlenin doğasında olduğu için, bu yapılarda wollen, möchten, sollen gibi niyet bildiren yardımcı fiilleri kullanmayız 5. Eğer ayrılabilen bir fiil kullanıyorsanız \"zu\" kelimesi araya girer (um... aufzunehmen gibi) 5.\n2. \"damit\" (...sın diye / böylece):Eğer iki cümlenin özneleri farklıysa, \"um...zu\" kullanamazsınız; mecburen \"damit\" kullanmak zorundasınız 3. \"damit\" klasik bir yan cümledir; bağlaçtan sonra mutlaka özne gelir ve çekimlenmiş fiil cümlenin en sonuna uçar 6.\n* Örnek: \"Er spricht Englisch, damit die Touristen ihn verstehen\" (Turistler onu anlasın diye İngilizce konuşuyor) 7.\n* Özneler aynı olsa bile \"damit\" yapısını her zaman kullanabilirsiniz, tüm durumlar için geçerli ve garantili bir yoldur 8.\nGenel Yan Cümle (Nebensatz) Kuralı:Tıpkı weil veya da bağlaçlarında olduğu gibi, cümlenize \"damit\" veya \"um...zu\" içeren yan cümle ile başlarsanız, virgülden sonraki ana cümle mecburen doğrudan fiille başlamak zorundadır (Örn: Damit die Touristen ihn verstehen, spricht er Englisch) 6, 9, 10.\nCümleleri birbirine \"amaç\" ile bağlama mantığı netleşti mi?"
+          }
+        ]
       },
       {
         "name": "Adverbien",
