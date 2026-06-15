@@ -3435,12 +3435,19 @@ let activeLessonQuiz = null;
 let activeLessonQuizQuestions = [];
 let lessonQuizCurrentIndex = 0;
 let lessonQuizLives = 3;
+let lessonQuizAnswersText = {};
 
 function startLessonQuiz(lesson) {
   activeLessonQuiz = lesson;
-  activeLessonQuizQuestions = LESSON_QUIZZES[lesson.id] || [];
+  const quizEntry = LESSON_QUIZZES[lesson.id];
+  if (quizEntry && quizEntry.questions) {
+    activeLessonQuizQuestions = quizEntry.questions;
+  } else {
+    activeLessonQuizQuestions = quizEntry || [];
+  }
   lessonQuizCurrentIndex = 0;
   lessonQuizLives = 3;
+  lessonQuizAnswersText = {};
   
   if (activeLessonQuizQuestions.length === 0) {
     alert("Bu ders için henüz sınav bulunamadı.");
@@ -3507,10 +3514,45 @@ function renderLessonQuizQuestion() {
   if (progressBar) progressBar.style.width = `${pct}%`;
   
   if (questionArea) {
+    const isTeil2 = lessonQuizCurrentIndex >= 5;
+    const quizEntry = LESSON_QUIZZES[activeLessonQuiz.id];
+    const letterText = quizEntry && quizEntry.letterText ? quizEntry.letterText : "";
+    
+    let contentHtml = "";
+    
+    if (isTeil2 && letterText) {
+      let formattedLetter = letterText.replace(/\((\d+)\)/g, (match, num) => {
+        const gapNum = parseInt(num);
+        const gapIdx = gapNum - 1;
+        
+        if (gapIdx === lessonQuizCurrentIndex) {
+          return `<span class="quiz-letter-gap active">(${gapNum}) _____</span>`;
+        } else if (gapIdx < lessonQuizCurrentIndex) {
+          const answeredText = lessonQuizAnswersText[gapIdx] || "_____";
+          return `<span class="quiz-letter-gap answered">${answeredText}</span>`;
+        } else {
+          return `<span class="quiz-letter-gap pending">(${gapNum}) _____</span>`;
+        }
+      });
+      
+      formattedLetter = formattedLetter.replace(/\n/g, "<br>");
+      
+      contentHtml = `
+        <div class="quiz-letter-preview">
+          ${formattedLetter}
+        </div>
+      `;
+    } else {
+      const formattedSentence = q.question.replace(/\((\d+)\)\s*_____/g, '<span class="quiz-sentence-gap">($1) _____</span>');
+      contentHtml = `
+        <div class="quiz-sentence-preview">
+          ${formattedSentence}
+        </div>
+      `;
+    }
+    
     questionArea.innerHTML = `
-      <p style="font-size: 15px; font-weight: 600; line-height: 1.55; margin-bottom: 24px; color: var(--color-text-primary);">
-        ${q.question}
-      </p>
+      ${contentHtml}
       
       <div style="display:flex; flex-direction:column; gap:11px;" id="lesson-quiz-options-container">
         ${q.options.map((opt, idx) => `
@@ -3535,6 +3577,8 @@ function renderLessonQuizQuestion() {
 function handleLessonQuizAnswer(selectedIdx, clickedBtn, allOptions) {
   const q = activeLessonQuizQuestions[lessonQuizCurrentIndex];
   const correctIdx = q.correct;
+  
+  lessonQuizAnswersText[lessonQuizCurrentIndex] = q.options[selectedIdx];
   
   allOptions.forEach(opt => opt.disabled = true);
   

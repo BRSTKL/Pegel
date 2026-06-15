@@ -1362,3 +1362,79 @@ button.c-teal i, button.c-purple i {
   color: #fff;
   border-color: #ef4444;
 }
+
+/* ================= LESSON QUIZ MODERN STYLES ================= */
+.quiz-sentence-preview {
+  font-size: 15.5px;
+  font-weight: 600;
+  line-height: 1.6;
+  padding: 22px 18px;
+  border-radius: var(--border-radius-lg);
+  background: var(--color-background-secondary);
+  border: 1px solid var(--color-border-primary);
+  margin-bottom: 24px;
+  color: var(--color-text-primary);
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+}
+
+.quiz-sentence-gap {
+  display: inline-block;
+  color: var(--theme-purple);
+  border-bottom: 2px solid var(--theme-purple);
+  padding: 0 8px;
+  margin: 0 4px;
+  font-weight: 700;
+}
+
+.quiz-letter-preview {
+  font-size: 13.5px;
+  line-height: 1.65;
+  padding: 18px;
+  background: var(--color-background-secondary);
+  border: 1px solid var(--color-border-primary);
+  border-radius: var(--border-radius-lg);
+  margin-bottom: 20px;
+  color: var(--color-text-primary);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.02);
+  max-height: 260px;
+  overflow-y: auto;
+  text-align: left;
+}
+
+.quiz-letter-gap {
+  display: inline-block;
+  padding: 2px 8px;
+  margin: 2px 4px;
+  border-radius: var(--border-radius-sm);
+  font-weight: 600;
+  font-size: 12.5px;
+  transition: all 0.2s ease;
+  vertical-align: middle;
+}
+
+.quiz-letter-gap.active {
+  background-color: var(--theme-purple-light);
+  color: var(--theme-purple);
+  border: 1px dashed var(--theme-purple);
+  animation: pulse-active-gap 2s infinite;
+}
+
+.quiz-letter-gap.answered {
+  background-color: var(--theme-teal-light);
+  color: var(--theme-teal);
+  border-bottom: 2px solid var(--theme-teal);
+}
+
+.quiz-letter-gap.pending {
+  background-color: var(--color-background-tertiary);
+  color: var(--color-text-tertiary);
+  border-bottom: 1px solid var(--color-border-primary);
+}
+
+@keyframes pulse-active-gap {
+  0% { box-shadow: 0 0 0 0 rgba(177, 159, 251, 0.4); }
+  70% { box-shadow: 0 0 0 6px rgba(177, 159, 251, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(177, 159, 251, 0); }
+}
+
