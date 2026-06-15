@@ -1,0 +1,79 @@
+[source: 1] Lieber Lukas,
+[source: 2] wie du weißt, ziehe ich (21) nächsten Monat nach Hamburg um, weil ich dort eine neue Stelle gefunden habe. Ich freue mich (22) sehr auf die neue Herausforderung, aber der Umzug macht mir auch ein bisschen Stress. 
+[source: 3] In den letzten Wochen habe ich (23) nach einer passenden Wohnung gesucht. Das war in einer Großstadt wie Hamburg wirklich nicht einfach! Glücklicherweise habe ich gestern (24) schönes Apartment im Stadtzentrum gefunden. Es ist zwar etwas teuer, (25) die Lage ist einfach perfekt für mich.
+[source: 4] Jetzt muss ich meine alten Möbel packen. Am Wochenende organisierte ich eine kleine Abschiedsparty. Ich würde mich sehr freuen, (26) du auch kommen könntest. Die Party findet (27) Samstag ab 18 Uhr in meinem Garten statt. Bring bitte gute Laune und vielleicht einen kleinen Salat (28).
+[source: 5] Falls du Zeit (29), könntest du mir eventuell am Sonntag beim Einpacken der Kisten helfen? Ich frage (30), weil du das letzte Mal so schnell und organisiert warst.
+[source: 6] Gib mir bitte bald Bescheid!
+Viele Grüße
+Dein Jan
+
+21
+a
+den
+b
+dem
+c
+im
+22
+a
+mich
+b
+mir
+c
+uns
+23
+a
+intensiv
+b
+intensive
+c
+intensiver
+24
+a
+ein
+b
+einen
+c
+einem
+25
+a
+denn
+b
+weil
+c
+aber
+26
+a
+dass
+b
+wenn
+c
+weil
+27
+a
+am
+b
+im
+c
+um
+28
+a
+mit
+b
+nach
+c
+zu
+29
+a
+hast
+b
+hättest
+c
+wärst
+30
+a
+mich
+b
+dich
+c
+mir
