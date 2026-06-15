@@ -205,18 +205,54 @@
         </div>
       </div>
 
-      <!-- ================= LESEVERSTEHEN PLAY SCREEN ================= -->
-      <div id="leseverstehen-play-screen" class="screen hidden" style="padding: 20px; height: 100%; display: flex; flex-direction: column;">
+      <!-- ================= LESEVERSTEHEN DASHBOARD SCREEN ================= -->
+      <div id="leseverstehen-dashboard-screen" class="screen hidden" style="padding: 20px; height: 100%; display: flex; flex-direction: column;">
         <!-- Header -->
         <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 15px; flex-shrink: 0;">
           <div style="display: flex; align-items: center; gap: 12px;">
             <button class="back-btn" data-target="exercises" style="background: none; border: none; font-size: 20px; color: var(--color-text-primary); cursor: pointer; display: flex; align-items: center; justify-content: center;">
               <i class="ti ti-arrow-left"></i>
             </button>
-            <h1 style="font-size: 15px; font-weight: 600; margin: 0;">Leseverstehen - Teil 1</h1>
+            <h1 style="font-size: 16px; font-weight: 600; margin: 0;">Okuma Anlama (Leseverstehen)</h1>
           </div>
-          <div id="leseverstehen-header-actions" style="display: flex; gap: 8px;">
-            <!-- Actions or progress indicator -->
+        </div>
+
+        <!-- Progress stats -->
+        <div class="c-teal" style="padding: 14px; border-radius: var(--border-radius-lg); margin-bottom: 20px; flex-shrink: 0; background-color: var(--color-background-secondary); border: 1px solid var(--color-border-primary);">
+          <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom: 8px;">
+            <p class="t" style="font-size: 13px; font-weight: 600; margin:0;">Okuma Alıştırmaları İlerlemesi</p>
+            <p class="t" style="font-size: 14px; font-weight: 600; margin:0;" id="leseverstehen-progress-percent">0%</p>
+          </div>
+          <div style="height: 5px; background: var(--color-background-primary); border-radius: 99px; overflow:hidden; border: 1px solid var(--color-border-primary);">
+            <div id="leseverstehen-progress-fill" style="width: 0%; height: 100%; background: var(--theme-teal); border-radius: 99px;"></div>
+          </div>
+          <div style="display:flex; justify-content:space-between; margin-top: 8px;">
+            <span class="ts" style="font-size: 11px;" id="leseverstehen-progress-count">0/12 tamamlandı</span>
+          </div>
+        </div>
+
+        <!-- Grid of 12 cards -->
+        <div style="flex: 1; overflow-y: auto; padding-bottom: 20px;">
+          <div class="leseverstehen-grid" id="leseverstehen-cards-grid">
+            <!-- 12 cards loaded dynamically -->
+          </div>
+        </div>
+      </div>
+
+      <!-- ================= LESEVERSTEHEN PLAY SCREEN ================= -->
+      <div id="leseverstehen-play-screen" class="screen hidden" style="padding: 20px; height: 100%; display: flex; flex-direction: column;">
+        <!-- Header -->
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 15px; flex-shrink: 0;">
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <button class="back-btn" data-target="leseverstehen-dashboard" style="background: none; border: none; font-size: 20px; color: var(--color-text-primary); cursor: pointer; display: flex; align-items: center; justify-content: center;">
+              <i class="ti ti-arrow-left"></i>
+            </button>
+            <h1 style="font-size: 15px; font-weight: 600; margin: 0;" id="leseverstehen-play-title">Leseverstehen</h1>
+          </div>
+          <div id="leseverstehen-header-actions" style="display: flex; align-items: center; gap: 8px;">
+            <span id="leseverstehen-timer-display" style="padding: 4px 10px; border-radius: var(--border-radius-sm); font-size: 12px; font-weight: 600; background: var(--color-background-secondary); border: 1px solid var(--color-border-primary); color: var(--theme-coral); display: flex; align-items: center; gap: 4px;">
+              <i class="ti ti-clock"></i> 00:00
+            </span>
           </div>
         </div>
 

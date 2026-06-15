@@ -183,6 +183,7 @@ function loadState() {
   if (!state.prepScores) state.prepScores = {};
   if (!state.starredPreps) state.starredPreps = [];
   if (!state.leseverstehenAnswers) state.leseverstehenAnswers = {};
+  if (!state.leseverstehenProgress) state.leseverstehenProgress = {};
   
   const today = new Date().toDateString();
   if (state.lastActiveDate && state.lastActiveDate !== today) {
@@ -232,7 +233,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.getElementById("launcher-leseverstehen")?.addEventListener("click", () => {
-    startNewLeseverstehen();
+    showScreen("leseverstehen-dashboard");
   });
   
   // Prepositions Dashboard Inputs Bindings
@@ -317,7 +318,7 @@ function showScreen(screenId) {
   // Highlight active nav item
   // Map sub-activities back to the active navbar tab
   let navActiveId = screenId;
-  if (screenId === "flashcard-play" || screenId === "quiz" || screenId === "fillblanks-play" || screenId === "verben-prep-dashboard" || screenId === "verben-prep-quiz" || screenId === "leseverstehen-play") {
+  if (screenId === "flashcard-play" || screenId === "quiz" || screenId === "fillblanks-play" || screenId === "verben-prep-dashboard" || screenId === "verben-prep-quiz" || screenId === "leseverstehen-play" || screenId === "leseverstehen-dashboard") {
     navActiveId = "exercises";
   }
   const activeNav = document.querySelector(`.nav-item[data-screen="${navActiveId}"]`);
@@ -340,6 +341,8 @@ function showScreen(screenId) {
     renderProfileScreen();
   } else if (screenId === "leseverstehen-play") {
     renderLeseverstehenScreen();
+  } else if (screenId === "leseverstehen-dashboard") {
+    renderLeseverstehenDashboard();
   }
 }
 
@@ -1448,12 +1451,115 @@ function countTotalLessons() {
 
 let activeLeseverstehenGame = null;
 let leseverstehenSubmitted = false;
+let leseverstehenTimerInterval = null;
 
-function startNewLeseverstehen() {
-  activeLeseverstehenGame = LESEVERSTEHEN_DATA[0]; // Currently we have one exercise
+function renderLeseverstehenDashboard() {
+  const cardsGrid = document.getElementById("leseverstehen-cards-grid");
+  if (!cardsGrid) return;
+  
+  cardsGrid.innerHTML = "";
+  
+  let completedCount = 0;
+  
+  LESEVERSTEHEN_DATA.forEach(ex => {
+    const attempts = state.leseverstehenProgress[ex.id] || [];
+    const attemptCount = attempts.length;
+    
+    // Check if completed (has at least one attempt with score > 0)
+    if (attemptCount > 0) {
+      completedCount++;
+    }
+    
+    const card = document.createElement("div");
+    card.className = "leseverstehen-card";
+    card.onclick = () => startNewLeseverstehen(ex.id);
+    
+    // Image or emoji fallback
+    let visualHtml = "";
+    if (ex.hasImage) {
+      visualHtml = `<img src="${ex.imagePath}" class="leseverstehen-card-img" alt="${ex.title}">`;
+    } else {
+      visualHtml = `<span class="leseverstehen-card-emoji">${ex.emoji}</span>`;
+    }
+    
+    // Render 3 history badges
+    let badgesHtml = "";
+    for (let i = 0; i < 3; i++) {
+      if (i < attemptCount) {
+        const attempt = attempts[i];
+        let scoreClass = "score-low";
+        if (attempt.score >= 80) scoreClass = "score-high";
+        else if (attempt.score >= 40) scoreClass = "score-med";
+        
+        badgesHtml += `<span class="leseverstehen-badge-circle ${scoreClass}" title="${Math.floor(attempt.duration / 60)}:${(attempt.duration % 60).toString().padStart(2, '0')} dak">${attempt.score}</span>`;
+      } else {
+        badgesHtml += `<span class="leseverstehen-badge-circle">-</span>`;
+      }
+    }
+    
+    const attemptsLabel = attemptCount === 1 ? "1 attempt" : `${attemptCount} attempts`;
+    
+    card.innerHTML = `
+      <div class="leseverstehen-card-img-wrapper">
+        ${visualHtml}
+      </div>
+      <p class="leseverstehen-card-title">${ex.title}</p>
+      <div class="leseverstehen-card-row">
+        <p class="leseverstehen-card-attempts">${attemptsLabel}</p>
+        <div class="leseverstehen-card-badges">
+          ${badgesHtml}
+        </div>
+      </div>
+    `;
+    
+    cardsGrid.appendChild(card);
+  });
+  
+  // Update overall progress stats
+  const totalCount = LESEVERSTEHEN_DATA.length;
+  const progressPercent = totalCount > 0 ? Math.round((completedCount / totalCount) * 100) : 0;
+  
+  document.getElementById("leseverstehen-progress-percent").textContent = `${progressPercent}%`;
+  document.getElementById("leseverstehen-progress-fill").style.width = `${progressPercent}%`;
+  document.getElementById("leseverstehen-progress-count").textContent = `${completedCount}/${totalCount} tamamlandı`;
+}
+
+function startNewLeseverstehen(exerciseId) {
+  const ex = LESEVERSTEHEN_DATA.find(item => item.id === exerciseId);
+  if (!ex) return;
+  
+  activeLeseverstehenGame = ex;
   leseverstehenSubmitted = false;
   state.leseverstehenAnswers = {};
+  
+  // Set play screen title
+  const playTitle = document.getElementById("leseverstehen-play-title");
+  if (playTitle) {
+    playTitle.textContent = ex.title;
+  }
+  
+  // Setup timer in state
+  state.leseverstehenStartTime = Date.now();
   saveState();
+  
+  // Start header timer interval
+  if (leseverstehenTimerInterval) {
+    clearInterval(leseverstehenTimerInterval);
+  }
+  
+  const timerDisplay = document.getElementById("leseverstehen-timer-display");
+  if (timerDisplay) {
+    timerDisplay.innerHTML = `<i class="ti ti-clock"></i> 00:00`;
+  }
+  
+  leseverstehenTimerInterval = setInterval(() => {
+    const elapsed = Math.round((Date.now() - state.leseverstehenStartTime) / 1000);
+    const mins = Math.floor(elapsed / 60).toString().padStart(2, '0');
+    const secs = (elapsed % 60).toString().padStart(2, '0');
+    if (timerDisplay) {
+      timerDisplay.innerHTML = `<i class="ti ti-clock"></i> ${mins}:${secs}`;
+    }
+  }, 1000);
   
   showScreen("leseverstehen-play");
 }
@@ -1529,7 +1635,7 @@ function renderLeseverstehenScreen() {
       submitBtn.innerHTML = '<i class="ti ti-check"></i> Alıştırmayı Tamamla';
       submitBtn.className = "c-teal";
       submitBtn.onclick = () => {
-        showScreen("exercises");
+        showScreen("leseverstehen-dashboard");
       };
     } else {
       submitBtn.innerHTML = '<i class="ti ti-send"></i> Cevapları Gönder';
@@ -1643,7 +1749,18 @@ function updateLeseverstehenStatus() {
         correctCount++;
       }
     });
-    statusText.textContent = `Sonuç: ${correctCount}/5 Doğru! (+${correctCount * 10} XP)`;
+    
+    // Find the current attempt to read duration
+    const attempts = state.leseverstehenProgress[exercise.id] || [];
+    const lastAttempt = attempts[attempts.length - 1];
+    let timeFormatted = "";
+    if (lastAttempt) {
+      const mins = Math.floor(lastAttempt.duration / 60);
+      const secs = lastAttempt.duration % 60;
+      timeFormatted = `${mins}:${secs.toString().padStart(2, '0')}`;
+    }
+    
+    statusText.textContent = `Sonuç: ${correctCount}/5 Doğru! (${timeFormatted} sürede tamamlandı. +${correctCount * 10} XP)`;
     statusText.style.color = "#10b981";
     return;
   }
@@ -1671,6 +1788,14 @@ function submitLeseverstehen() {
   if (!activeLeseverstehenGame) return;
   const exercise = activeLeseverstehenGame;
   
+  // Stop timer interval
+  if (leseverstehenTimerInterval) {
+    clearInterval(leseverstehenTimerInterval);
+    leseverstehenTimerInterval = null;
+  }
+  
+  const durationSeconds = Math.round((Date.now() - state.leseverstehenStartTime) / 1000);
+  
   // Calculate correct answers
   let correctCount = 0;
   exercise.texts.forEach(text => {
@@ -1684,6 +1809,14 @@ function submitLeseverstehen() {
   // Award XP
   const xpEarned = correctCount * 10;
   state.xp += xpEarned;
+  
+  // Record attempt history (max last 3)
+  let attempts = state.leseverstehenProgress[exercise.id] || [];
+  attempts.push({ score: correctCount * 20, duration: durationSeconds });
+  if (attempts.length > 3) {
+    attempts.shift();
+  }
+  state.leseverstehenProgress[exercise.id] = attempts;
   
   saveState();
   
