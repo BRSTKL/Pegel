@@ -3076,16 +3076,64 @@ function renderAnalyticsCategoriesBreakdown() {
   const completedLese = Object.keys(state.leseverstehenProgress || {}).length;
   const lesePct = totalLese > 0 ? Math.round((completedLese / totalLese) * 100) : 0;
   
+  // Calculate average score for Leseverstehen
+  let totalLeseScore = 0;
+  let leseAttemptedCount = 0;
+  Object.values(state.leseverstehenProgress || {}).forEach(attempts => {
+    if (attempts && attempts.length > 0) {
+      const latest = attempts[attempts.length - 1];
+      totalLeseScore += latest.score;
+      leseAttemptedCount++;
+    }
+  });
+  const leseAvgScore = leseAttemptedCount > 0 ? Math.round(totalLeseScore / leseAttemptedCount) : 0;
+  
   const totalSprach = (typeof SPRACHBAUSTEINE_TEIL_1_DATA !== 'undefined' ? SPRACHBAUSTEINE_TEIL_1_DATA.length : 0) +
                       (typeof SPRACHBAUSTEINE_TEIL_2_DATA !== 'undefined' ? SPRACHBAUSTEINE_TEIL_2_DATA.length : 0);
   const completedSprach = Object.keys(state.sprachbausteineProgress || {}).length;
   const sprachPct = totalSprach > 0 ? Math.round((completedSprach / totalSprach) * 100) : 0;
   
+  // Calculate average score for Sprachbausteine
+  let totalSprachScore = 0;
+  let sprachAttemptedCount = 0;
+  Object.values(state.sprachbausteineProgress || {}).forEach(attempts => {
+    if (attempts && attempts.length > 0) {
+      const latest = attempts[attempts.length - 1];
+      totalSprachScore += latest.score;
+      sprachAttemptedCount++;
+    }
+  });
+  const sprachAvgScore = sprachAttemptedCount > 0 ? Math.round(totalSprachScore / sprachAttemptedCount) : 0;
+  
   const categories = [
-    { name: "Dilbilgisi Konuları", pct: lessonPct, label: `${completedLessons}/${totalLessons} tamamlandı`, theme: "var(--theme-purple)" },
-    { name: "Fiil & Edat Eşleştirmeleri", pct: prepPct, label: `${learnedPreps}/${totalPreps} ezberlendi`, theme: "var(--theme-pink)" },
-    { name: "Okuma Anlama (Leseverstehen)", pct: lesePct, label: `${completedLese}/${totalLese} alıştırma`, theme: "var(--theme-teal)" },
-    { name: "Kelime Yerleştirme (Sprachbausteine)", pct: sprachPct, label: `${completedSprach}/${totalSprach} alıştırma`, theme: "var(--theme-coral)" }
+    { 
+      name: "Dilbilgisi Konuları", 
+      pct: lessonPct, 
+      label: `${completedLessons}/${totalLessons} tamamlandı`, 
+      badge: `${lessonPct}%`,
+      theme: "var(--theme-purple)" 
+    },
+    { 
+      name: "Fiil & Edat Eşleştirmeleri", 
+      pct: prepPct, 
+      label: `${learnedPreps}/${totalPreps} ezberlendi`, 
+      badge: `${prepPct}%`,
+      theme: "var(--theme-pink)" 
+    },
+    { 
+      name: "Okuma Anlama (Leseverstehen)", 
+      pct: lesePct, 
+      label: `${completedLese}/${totalLese} alıştırma tamamlandı`, 
+      badge: leseAttemptedCount > 0 ? `${leseAvgScore}/100` : "-/100",
+      theme: "var(--theme-teal)" 
+    },
+    { 
+      name: "Kelime Yerleştirme (Sprachbausteine)", 
+      pct: sprachPct, 
+      label: `${completedSprach}/${totalSprach} alıştırma tamamlandı`, 
+      badge: sprachAttemptedCount > 0 ? `${sprachAvgScore}/100` : "-/100",
+      theme: "var(--theme-coral)" 
+    }
   ];
   
   categories.forEach(cat => {
@@ -3095,7 +3143,7 @@ function renderAnalyticsCategoriesBreakdown() {
     item.innerHTML = `
       <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom: 6px;">
         <span style="font-size: 12.5px; font-weight:600; color:var(--color-text-primary);">${cat.name}</span>
-        <span style="font-size: 13px; font-weight:700; color:${cat.theme};">${cat.pct}%</span>
+        <span style="font-size: 13px; font-weight:700; color:${cat.theme};">${cat.badge}</span>
       </div>
       <div style="height: 4px; background: var(--color-background-primary); border-radius: 99px; overflow:hidden;">
         <div style="width: ${cat.pct}%; height: 100%; background: ${cat.theme}; border-radius: 99px;"></div>
