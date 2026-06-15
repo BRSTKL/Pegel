@@ -3524,7 +3524,6 @@ function renderLessonQuizQuestion() {
     const optionsHtml = q.options.map((opt, oIdx) => `
       <div class="quiz-dropdown-item" data-idx="${oIdx}" onclick="selectQuizOption(event, ${oIdx})">
         <span>${opt}</span>
-        <i class="ti ti-circle" style="font-size:12px; opacity:0.5; margin-left:8px; flex-shrink:0;"></i>
       </div>
     `).join("");
     
@@ -3539,7 +3538,7 @@ function renderLessonQuizQuestion() {
           return `
             <div class="quiz-gap-wrapper" style="position: relative; display: inline-block; vertical-align: middle;">
               <span class="quiz-letter-gap active" onclick="toggleQuizDropdown(event)">(${gapNum}) _____</span>
-              <div class="quiz-dropdown-menu hidden">
+              <div class="quiz-dropdown-menu hidden" onclick="event.stopPropagation()">
                 ${optionsHtml}
               </div>
             </div>
@@ -3566,7 +3565,7 @@ function renderLessonQuizQuestion() {
         return `
           <div class="quiz-gap-wrapper" style="position: relative; display: inline-block; vertical-align: middle;">
             <span class="quiz-letter-gap active" onclick="toggleQuizDropdown(event)">(${gapNum}) _____</span>
-            <div class="quiz-dropdown-menu hidden">
+            <div class="quiz-dropdown-menu hidden" onclick="event.stopPropagation()">
               ${optionsHtml}
             </div>
           </div>
@@ -3599,6 +3598,37 @@ function toggleQuizDropdown(event) {
   });
   
   menu.classList.toggle("hidden");
+  
+  if (!menu.classList.contains("hidden")) {
+    // Check horizontal positioning to prevent overflowing the card boundary
+    const rect = gapBtn.getBoundingClientRect();
+    const card = gapBtn.closest(".quiz-letter-preview") || gapBtn.closest(".quiz-sentence-preview");
+    if (card) {
+      const cardRect = card.getBoundingClientRect();
+      const leftOffset = rect.left - cardRect.left;
+      const rightOffset = cardRect.right - rect.right;
+      
+      // Reset styles
+      menu.style.left = "";
+      menu.style.right = "";
+      menu.style.transform = "";
+      
+      if (leftOffset < 120) {
+        // Too close to left edge, align to left of gap
+        menu.style.left = "0";
+        menu.style.transform = "none";
+      } else if (rightOffset < 120) {
+        // Too close to right edge, align to right of gap
+        menu.style.right = "0";
+        menu.style.left = "auto";
+        menu.style.transform = "none";
+      } else {
+        // Center under the gap
+        menu.style.left = "50%";
+        menu.style.transform = "translateX(-50%)";
+      }
+    }
+  }
 }
 
 function selectQuizOption(event, selectedIdx) {
@@ -3633,19 +3663,16 @@ function handleLessonQuizAnswer(selectedIdx, gapBtn, clickedItem, allItems, menu
   
   if (isCorrect) {
     clickedItem.classList.add("correct");
-    const icon = clickedItem.querySelector("i");
-    if (icon) icon.className = "ti ti-circle-check";
+    clickedItem.innerHTML = `<span>${q.options[selectedIdx]}</span> <i class="ti ti-circle-check" style="font-size:12px;"></i>`;
   } else {
     clickedItem.classList.add("incorrect");
-    const icon = clickedItem.querySelector("i");
-    if (icon) icon.className = "ti ti-circle-x";
+    clickedItem.innerHTML = `<span>${q.options[selectedIdx]}</span> <i class="ti ti-circle-x" style="font-size:12px;"></i>`;
     
     // Highlight correct one in green
     const correctItem = allItems[correctIdx];
     if (correctItem) {
       correctItem.classList.add("correct");
-      const cIcon = correctItem.querySelector("i");
-      if (cIcon) cIcon.className = "ti ti-circle-check";
+      correctItem.innerHTML = `<span>${q.options[correctIdx]}</span> <i class="ti ti-circle-check" style="font-size:12px;"></i>`;
     }
     
     lessonQuizLives--;
@@ -3674,6 +3701,18 @@ document.addEventListener("click", () => {
     menu.classList.add("hidden");
   });
 });
+
+// Close dropdowns when scrolling (e.g. parent container)
+document.addEventListener("scroll", (event) => {
+  const scrolledElement = event.target;
+  // If the user is scrolling inside the dropdown menu itself, do not close it
+  if (scrolledElement && scrolledElement.classList && scrolledElement.classList.contains("quiz-dropdown-menu")) {
+    return;
+  }
+  document.querySelectorAll(".quiz-dropdown-menu").forEach(menu => {
+    menu.classList.add("hidden");
+  });
+}, true);
 
 function finishLessonQuiz(success) {
   const overlay = document.getElementById("lesson-quiz-result-overlay");
