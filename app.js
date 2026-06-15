@@ -3537,12 +3537,12 @@ function renderLessonQuizQuestion() {
         
         if (gapIdx === lessonQuizCurrentIndex) {
           return `
-            <span class="quiz-gap-wrapper" style="position: relative; display: inline-block;">
+            <div class="quiz-gap-wrapper" style="position: relative; display: inline-block; vertical-align: middle;">
               <span class="quiz-letter-gap active" onclick="toggleQuizDropdown(event)">(${gapNum}) _____</span>
               <div class="quiz-dropdown-menu hidden">
                 ${optionsHtml}
               </div>
-            </span>
+            </div>
           `;
         } else if (gapIdx < lessonQuizCurrentIndex) {
           const answeredText = lessonQuizAnswersText[gapIdx] || "_____";
@@ -3564,12 +3564,12 @@ function renderLessonQuizQuestion() {
     } else {
       const formattedSentence = q.question.replace(/\((\d+)\)\s*_____/g, (match, gapNum) => {
         return `
-          <span class="quiz-gap-wrapper" style="position: relative; display: inline-block;">
+          <div class="quiz-gap-wrapper" style="position: relative; display: inline-block; vertical-align: middle;">
             <span class="quiz-letter-gap active" onclick="toggleQuizDropdown(event)">(${gapNum}) _____</span>
             <div class="quiz-dropdown-menu hidden">
               ${optionsHtml}
             </div>
-          </span>
+          </div>
         `;
       });
       
