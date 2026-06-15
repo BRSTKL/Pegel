@@ -19,8 +19,8 @@
   --theme-purple: #b19ffb;             /* Pastel purple */
   --theme-purple-light: rgba(177, 159, 251, 0.12);
   
-  --theme-teal: #98b5b6;               /* Pastel teal */
-  --theme-teal-light: rgba(152, 181, 182, 0.12);
+  --theme-teal: #10b981;               /* Modern emerald green/teal */
+  --theme-teal-light: rgba(16, 185, 129, 0.12);
   
   --theme-coral: #e88b7d;              /* Pastel coral */
   --theme-coral-light: rgba(232, 139, 125, 0.12);
@@ -493,12 +493,12 @@ body {
 }
 
 .lesson-item {
-  padding: 10px 18px;
+  padding: 12px 18px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
-  transition: background-color var(--transition-fast);
+  transition: all var(--transition-fast) ease;
   border-bottom: 1px solid var(--color-border-secondary);
 }
 
@@ -508,16 +508,18 @@ body {
 
 .lesson-item:hover {
   background-color: var(--color-background-tertiary);
+  transform: translateX(4px);
 }
 
 .lesson-item.completed {
-  background-color: rgba(152, 181, 182, 0.04);
+  background-color: rgba(16, 185, 129, 0.03);
 }
 
 .lesson-item-title {
   font-size: 13px;
   font-weight: 500;
   color: var(--color-text-secondary);
+  transition: color var(--transition-fast) ease;
 }
 
 .lesson-item:hover .lesson-item-title {
@@ -525,15 +527,28 @@ body {
 }
 
 .lesson-status-icon {
-  font-size: 15px;
+  font-size: 17px;
+  transition: all var(--transition-fast) ease;
 }
 
 .lesson-status-icon.completed {
   color: var(--theme-teal);
+  filter: drop-shadow(0 0 2px rgba(16, 185, 129, 0.4));
 }
 
 .lesson-status-icon.incomplete {
   color: var(--color-text-tertiary);
+  opacity: 0.6;
+}
+
+.lesson-item:hover .lesson-status-icon.incomplete {
+  color: var(--theme-teal);
+  opacity: 1;
+  transform: scale(1.15);
+}
+
+.lesson-item:hover .lesson-status-icon.completed {
+  transform: scale(1.15);
 }
 
 /* Sitemap tab navigation */
@@ -548,17 +563,29 @@ body {
 
 /* Buttons style override */
 button.c-teal, button.c-purple {
-  border: 1px solid var(--color-border-primary) !important;
+  border: none !important;
+  transition: all var(--transition-fast) ease !important;
+}
+
+button.c-teal:hover, button.c-purple:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+}
+
+button.c-teal:active, button.c-purple:active {
+  transform: translateY(0);
 }
 
 button.c-teal {
   background-color: var(--theme-teal) !important;
-  color: var(--color-background-primary) !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2) !important;
 }
 
 button.c-purple {
   background-color: var(--theme-purple) !important;
-  color: var(--color-background-primary) !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 12px rgba(177, 159, 251, 0.2) !important;
 }
 
 /* Light Mode Overrides */
