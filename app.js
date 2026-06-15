@@ -3,16 +3,9 @@
 // State management
 let state = {
   userName: "Baris",
-  streak: 3,
-  xp: 120,
-  completedLessons: [
-    "almanca_lassen_fiilinin_kullanim_rehberi",
-    "lassen_fiilinin_yardimci_fiil_olarak_kullanimi_ve_islevleri",
-    "almanca_donuslu_fiillerin_mantigi_ve_kullanimi",
-    "almanca_donuslu_fiillerin_uc_grubu",
-    "almanca_karisilikli_fiillerin_mantigi_ve_kullanimi",
-    "almanca_gercek_karisilikli_fiillerin_mantigi_ve_kullanimi"
-  ],
+  streak: 0,
+  xp: 0,
+  completedLessons: [],
   completedToday: {
     flashcards: false,
     quiz: false
@@ -187,6 +180,14 @@ function loadState() {
     } catch (e) {
       console.error("Error parsing saved state", e);
     }
+  }
+  
+  // Auto-clear initial mock data if present in localStorage from previous session
+  if (state.xp === 120 && state.streak === 3 && state.completedLessons && state.completedLessons.length === 6) {
+    state.xp = 0;
+    state.streak = 0;
+    state.completedLessons = [];
+    saveState();
   }
   
   // Safe migrations for newly added properties
