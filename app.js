@@ -392,7 +392,7 @@ document.addEventListener("DOMContentLoaded", () => {
     wordInput.value = cleanWord;
     transInput.value = "";
     transInput.placeholder = "Çeviriliyor...";
-    contextInput.value = contextText || "";
+    contextInput.value = extractSentence(contextText, cleanWord) || "";
     
     modal.classList.remove("hidden");
     hideVocabFloatingButton();
@@ -3296,4 +3296,26 @@ function renderVocabStudyCard() {
   document.getElementById("vocab-study-reset-btn")?.addEventListener("click", () => {
     startVocabStudy();
   });
+}
+
+function extractSentence(textBlock, word) {
+  if (!textBlock || !word) return "";
+  
+  // Split text into sentences using standard German punctuation boundaries
+  // Use negative lookbehinds for abbreviations like Dr. bzw. z.B. etc.
+  const sentences = textBlock.split(/(?<!\b(Dr|Prof|bzw|ca|vs|etc|z\.B|z\.\sB))\.(?=\s|$)|(?<=[!?])\s+/i);
+  
+  const escapedWord = word.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+  const regex = new RegExp(escapedWord, 'i');
+  
+  const matched = sentences.find(s => regex.test(s));
+  if (matched) {
+    let sentence = matched.trim();
+    // Re-append a period if it was stripped by split
+    if (!sentence.endsWith('.') && !sentence.endsWith('!') && !sentence.endsWith('?')) {
+      sentence += '.';
+    }
+    return sentence;
+  }
+  return textBlock;
 }
