@@ -348,6 +348,16 @@ function showScreen(screenId) {
   state.currentScreen = screenId;
   saveState();
   
+  // Clear timers if navigating away from play screens
+  if (screenId !== "leseverstehen-play" && leseverstehenTimerInterval) {
+    clearInterval(leseverstehenTimerInterval);
+    leseverstehenTimerInterval = null;
+  }
+  if (screenId !== "sprachbausteine-play" && sprachbausteineTimerInterval) {
+    clearInterval(sprachbausteineTimerInterval);
+    sprachbausteineTimerInterval = null;
+  }
+
   // Hide all screens
   document.querySelectorAll(".screen").forEach(s => s.classList.add("hidden"));
   
@@ -1552,10 +1562,12 @@ function renderLeseverstehenDashboard() {
     }
     
     let attemptsLabel = "Deneme yapılmadı";
-    if (attemptCount === 1) {
-      attemptsLabel = "1 deneme";
-    } else if (attemptCount > 1) {
-      attemptsLabel = `${attemptCount} deneme`;
+    if (attemptCount > 0) {
+      const lastAttempt = attempts[attempts.length - 1];
+      const mins = Math.floor(lastAttempt.duration / 60);
+      const secs = lastAttempt.duration % 60;
+      const timeStr = `${mins}:${secs.toString().padStart(2, '0')} dk`;
+      attemptsLabel = `${attemptCount} deneme • ${timeStr}`;
     }
     
     const colors = ["c-blue-bg", "c-purple-bg", "c-teal-bg", "c-coral-bg", "c-pink-bg"];
@@ -2091,6 +2103,7 @@ function updateLeseverstehenStatus() {
     return exercise.answers[item.id];
   };
   
+  const resultsSummary = document.getElementById("leseverstehen-results-summary");
   if (leseverstehenSubmitted) {
     let correctCount = 0;
     items.forEach(item => {
@@ -2099,15 +2112,40 @@ function updateLeseverstehenStatus() {
     
     const attempts = state.leseverstehenProgress[exercise.id] || [];
     const lastAttempt = attempts[attempts.length - 1];
-    let timeFormatted = "";
+    let timeFormatted = "--:--";
     if (lastAttempt) {
       const mins = Math.floor(lastAttempt.duration / 60);
       const secs = lastAttempt.duration % 60;
       timeFormatted = `${mins}:${secs.toString().padStart(2, '0')}`;
     }
-    statusText.textContent = `Sonuç: ${correctCount}/${totalCount} Doğru! (${timeFormatted} sürede tamamlandı. +${correctCount * 10} XP)`;
+    statusText.textContent = `Sonuç: ${correctCount}/${totalCount} Doğru! (+${correctCount * 10} XP)`;
     statusText.style.color = "#10b981";
+    
+    if (resultsSummary) {
+      resultsSummary.innerHTML = `
+        <div style="background: rgba(16, 185, 129, 0.08); border: 1px solid rgba(16, 185, 129, 0.25); border-radius: var(--border-radius-md); padding: 12px; display: flex; flex-direction: column; gap: 8px;">
+          <div style="display: flex; align-items: center; justify-content: space-between;">
+            <span style="font-size: 13px; font-weight: 700; color: #10b981; display: flex; align-items: center; gap: 6px;">
+              <i class="ti ti-circle-check"></i> Alıştırma Tamamlandı!
+            </span>
+            <span style="font-size: 11px; font-weight: 600; background: #10b981; color: #fff; padding: 2px 8px; border-radius: 99px;">
+              +${correctCount * 10} XP
+            </span>
+          </div>
+          <div style="display: flex; justify-content: space-between; font-size: 12px; color: var(--color-text-primary); margin-top: 4px; border-top: 1px solid var(--color-border-primary); padding-top: 6px;">
+            <span>Doğruluk: <strong>${correctCount}/${totalCount}</strong></span>
+            <span style="display: flex; align-items: center; gap: 4px;">
+              <i class="ti ti-clock" style="color: var(--theme-coral);"></i> Süre: <strong>${timeFormatted}</strong>
+            </span>
+          </div>
+        </div>
+      `;
+    }
     return;
+  } else {
+    if (resultsSummary) {
+      resultsSummary.innerHTML = "";
+    }
   }
   
   let answeredCount = 0;
@@ -2220,10 +2258,12 @@ function renderSprachbausteineDashboard() {
     }
     
     let attemptsLabel = "Deneme yapılmadı";
-    if (attemptCount === 1) {
-      attemptsLabel = "1 deneme";
-    } else if (attemptCount > 1) {
-      attemptsLabel = `${attemptCount} deneme`;
+    if (attemptCount > 0) {
+      const lastAttempt = attempts[attempts.length - 1];
+      const mins = Math.floor(lastAttempt.duration / 60);
+      const secs = lastAttempt.duration % 60;
+      const timeStr = `${mins}:${secs.toString().padStart(2, '0')} dk`;
+      attemptsLabel = `${attemptCount} deneme • ${timeStr}`;
     }
     
     const colors = ["c-blue-bg", "c-purple-bg", "c-teal-bg", "c-coral-bg", "c-pink-bg"];
@@ -2595,6 +2635,7 @@ function updateSprachbausteineStatus() {
   const gapsList = Object.keys(exercise.options).sort((a, b) => parseInt(a) - parseInt(b));
   const totalCount = gapsList.length;
   
+  const resultsSummary = document.getElementById("sprachbausteine-results-summary");
   if (sprachbausteineSubmitted) {
     let correctCount = 0;
     gapsList.forEach(gapNum => {
@@ -2605,16 +2646,41 @@ function updateSprachbausteineStatus() {
     
     const attempts = state.sprachbausteineProgress[exercise.id] || [];
     const lastAttempt = attempts[attempts.length - 1];
-    let timeFormatted = "";
+    let timeFormatted = "--:--";
     if (lastAttempt) {
       const mins = Math.floor(lastAttempt.duration / 60);
       const secs = lastAttempt.duration % 60;
       timeFormatted = `${mins}:${secs.toString().padStart(2, '0')}`;
     }
     
-    statusText.textContent = `Sonuç: ${correctCount}/${totalCount} Doğru! (${timeFormatted} sürede tamamlandı. +${correctCount * 10} XP)`;
+    statusText.textContent = `Sonuç: ${correctCount}/${totalCount} Doğru! (+${correctCount * 10} XP)`;
     statusText.style.color = "#10b981";
+    
+    if (resultsSummary) {
+      resultsSummary.innerHTML = `
+        <div style="background: rgba(16, 185, 129, 0.08); border: 1px solid rgba(16, 185, 129, 0.25); border-radius: var(--border-radius-md); padding: 12px; display: flex; flex-direction: column; gap: 8px;">
+          <div style="display: flex; align-items: center; justify-content: space-between;">
+            <span style="font-size: 13px; font-weight: 700; color: #10b981; display: flex; align-items: center; gap: 6px;">
+              <i class="ti ti-circle-check"></i> Alıştırma Tamamlandı!
+            </span>
+            <span style="font-size: 11px; font-weight: 600; background: #10b981; color: #fff; padding: 2px 8px; border-radius: 99px;">
+              +${correctCount * 10} XP
+            </span>
+          </div>
+          <div style="display: flex; justify-content: space-between; font-size: 12px; color: var(--color-text-primary); margin-top: 4px; border-top: 1px solid var(--color-border-primary); padding-top: 6px;">
+            <span>Doğruluk: <strong>${correctCount}/${totalCount}</strong></span>
+            <span style="display: flex; align-items: center; gap: 4px;">
+              <i class="ti ti-clock" style="color: var(--theme-coral);"></i> Süre: <strong>${timeFormatted}</strong>
+            </span>
+          </div>
+        </div>
+      `;
+    }
     return;
+  } else {
+    if (resultsSummary) {
+      resultsSummary.innerHTML = "";
+    }
   }
   
   let answeredCount = 0;
