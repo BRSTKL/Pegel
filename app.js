@@ -3436,6 +3436,7 @@ let activeLessonQuizQuestions = [];
 let lessonQuizCurrentIndex = 0;
 let lessonQuizLives = 3;
 let lessonQuizAnswersText = {};
+let lessonQuizCorrectStates = {};
 
 function startLessonQuiz(lesson) {
   activeLessonQuiz = lesson;
@@ -3448,6 +3449,7 @@ function startLessonQuiz(lesson) {
   lessonQuizCurrentIndex = 0;
   lessonQuizLives = 3;
   lessonQuizAnswersText = {};
+  lessonQuizCorrectStates = {};
   
   if (activeLessonQuizQuestions.length === 0) {
     alert("Bu ders için henüz sınav bulunamadı.");
@@ -3518,6 +3520,14 @@ function renderLessonQuizQuestion() {
     const quizEntry = LESSON_QUIZZES[activeLessonQuiz.id];
     const letterText = quizEntry && quizEntry.letterText ? quizEntry.letterText : "";
     
+    // Generate dropdown HTML
+    const optionsHtml = q.options.map((opt, oIdx) => `
+      <div class="quiz-dropdown-item" data-idx="${oIdx}" onclick="selectQuizOption(event, ${oIdx})">
+        <span>${opt}</span>
+        <i class="ti ti-circle" style="font-size:12px; opacity:0.5; margin-left:8px; flex-shrink:0;"></i>
+      </div>
+    `).join("");
+    
     let contentHtml = "";
     
     if (isTeil2 && letterText) {
@@ -3526,10 +3536,19 @@ function renderLessonQuizQuestion() {
         const gapIdx = gapNum - 1;
         
         if (gapIdx === lessonQuizCurrentIndex) {
-          return `<span class="quiz-letter-gap active">(${gapNum}) _____</span>`;
+          return `
+            <span class="quiz-gap-wrapper" style="position: relative; display: inline-block;">
+              <span class="quiz-letter-gap active" onclick="toggleQuizDropdown(event)">(${gapNum}) _____</span>
+              <div class="quiz-dropdown-menu hidden">
+                ${optionsHtml}
+              </div>
+            </span>
+          `;
         } else if (gapIdx < lessonQuizCurrentIndex) {
           const answeredText = lessonQuizAnswersText[gapIdx] || "_____";
-          return `<span class="quiz-letter-gap answered">${answeredText}</span>`;
+          const wasCorrect = lessonQuizCorrectStates[gapIdx];
+          const statusClass = wasCorrect ? "correct" : "incorrect";
+          return `<span class="quiz-letter-gap answered ${statusClass}">${answeredText}</span>`;
         } else {
           return `<span class="quiz-letter-gap pending">(${gapNum}) _____</span>`;
         }
@@ -3543,7 +3562,17 @@ function renderLessonQuizQuestion() {
         </div>
       `;
     } else {
-      const formattedSentence = q.question.replace(/\((\d+)\)\s*_____/g, '<span class="quiz-sentence-gap">($1) _____</span>');
+      const formattedSentence = q.question.replace(/\((\d+)\)\s*_____/g, (match, gapNum) => {
+        return `
+          <span class="quiz-gap-wrapper" style="position: relative; display: inline-block;">
+            <span class="quiz-letter-gap active" onclick="toggleQuizDropdown(event)">(${gapNum}) _____</span>
+            <div class="quiz-dropdown-menu hidden">
+              ${optionsHtml}
+            </div>
+          </span>
+        `;
+      });
+      
       contentHtml = `
         <div class="quiz-sentence-preview">
           ${formattedSentence}
@@ -3551,55 +3580,81 @@ function renderLessonQuizQuestion() {
       `;
     }
     
-    questionArea.innerHTML = `
-      ${contentHtml}
-      
-      <div style="display:flex; flex-direction:column; gap:11px;" id="lesson-quiz-options-container">
-        ${q.options.map((opt, idx) => `
-          <button class="quiz-option" data-idx="${idx}">
-            <span>${opt}</span>
-            <i class="ti ti-circle" style="font-size:16px; color:var(--color-text-tertiary); flex-shrink:0; margin-left:8px;"></i>
-          </button>
-        `).join("")}
-      </div>
-    `;
-    
-    const options = questionArea.querySelectorAll(".quiz-option");
-    options.forEach(btn => {
-      btn.addEventListener("click", () => {
-        const selectedIdx = parseInt(btn.getAttribute("data-idx"));
-        handleLessonQuizAnswer(selectedIdx, btn, options);
-      });
-    });
+    questionArea.innerHTML = contentHtml;
   }
 }
 
-function handleLessonQuizAnswer(selectedIdx, clickedBtn, allOptions) {
+function toggleQuizDropdown(event) {
+  event.stopPropagation();
+  const gapBtn = event.currentTarget;
+  const wrapper = gapBtn.closest(".quiz-gap-wrapper");
+  if (!wrapper) return;
+  
+  const menu = wrapper.querySelector(".quiz-dropdown-menu");
+  if (!menu) return;
+  
+  // Close all other dropdowns
+  document.querySelectorAll(".quiz-dropdown-menu").forEach(m => {
+    if (m !== menu) m.classList.add("hidden");
+  });
+  
+  menu.classList.toggle("hidden");
+}
+
+function selectQuizOption(event, selectedIdx) {
+  event.stopPropagation();
+  const item = event.currentTarget;
+  const menu = item.closest(".quiz-dropdown-menu");
+  const wrapper = item.closest(".quiz-gap-wrapper");
+  if (!wrapper || !menu) return;
+  
+  const gapBtn = wrapper.querySelector(".quiz-letter-gap.active");
+  const allItems = menu.querySelectorAll(".quiz-dropdown-item");
+  
+  handleLessonQuizAnswer(selectedIdx, gapBtn, item, allItems, menu);
+}
+
+function handleLessonQuizAnswer(selectedIdx, gapBtn, clickedItem, allItems, menu) {
   const q = activeLessonQuizQuestions[lessonQuizCurrentIndex];
   const correctIdx = q.correct;
   
-  lessonQuizAnswersText[lessonQuizCurrentIndex] = q.options[selectedIdx];
-  
-  allOptions.forEach(opt => opt.disabled = true);
+  // Disable all options in dropdown
+  allItems.forEach(opt => opt.style.pointerEvents = "none");
   
   const isCorrect = selectedIdx === correctIdx;
+  lessonQuizCorrectStates[lessonQuizCurrentIndex] = isCorrect;
+  lessonQuizAnswersText[lessonQuizCurrentIndex] = q.options[selectedIdx];
+  
+  // Update the gap text and style
+  if (gapBtn) {
+    gapBtn.textContent = q.options[selectedIdx];
+    gapBtn.className = isCorrect ? "quiz-letter-gap active correct" : "quiz-letter-gap active incorrect";
+  }
   
   if (isCorrect) {
-    clickedBtn.classList.add("correct");
-    clickedBtn.querySelector("i").className = "ti ti-circle-check";
+    clickedItem.classList.add("correct");
+    const icon = clickedItem.querySelector("i");
+    if (icon) icon.className = "ti ti-circle-check";
   } else {
-    clickedBtn.classList.add("incorrect");
-    clickedBtn.querySelector("i").className = "ti ti-circle-x";
+    clickedItem.classList.add("incorrect");
+    const icon = clickedItem.querySelector("i");
+    if (icon) icon.className = "ti ti-circle-x";
     
-    const correctBtn = allOptions[correctIdx];
-    correctBtn.classList.add("correct");
-    correctBtn.querySelector("i").className = "ti ti-circle-check";
+    // Highlight correct one in green
+    const correctItem = allItems[correctIdx];
+    if (correctItem) {
+      correctItem.classList.add("correct");
+      const cIcon = correctItem.querySelector("i");
+      if (cIcon) cIcon.className = "ti ti-circle-check";
+    }
     
     lessonQuizLives--;
     renderLessonQuizLives();
   }
   
   setTimeout(() => {
+    if (menu) menu.classList.add("hidden");
+    
     if (lessonQuizLives <= 0) {
       finishLessonQuiz(false);
     } else {
@@ -3612,6 +3667,13 @@ function handleLessonQuizAnswer(selectedIdx, clickedBtn, allOptions) {
     }
   }, isCorrect ? 1200 : 1800);
 }
+
+// Close dropdowns when clicking outside
+document.addEventListener("click", () => {
+  document.querySelectorAll(".quiz-dropdown-menu").forEach(menu => {
+    menu.classList.add("hidden");
+  });
+});
 
 function finishLessonQuiz(success) {
   const overlay = document.getElementById("lesson-quiz-result-overlay");
