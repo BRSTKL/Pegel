@@ -824,7 +824,7 @@ function renderSitemapScreen() {
           lesItem.className = `lesson-item ${isCompleted ? 'completed' : ''}`;
           lesItem.innerHTML = `
             <span class="lesson-item-title">${les.title}</span>
-            <i class="ti ${isCompleted ? 'ti-circle-check-filled completed' : 'ti-circle'} lesson-status-icon ${isCompleted ? 'completed' : 'incomplete'}"></i>
+            <i class="ti ${isCompleted ? 'ti-circle-check completed' : 'ti-circle'} lesson-status-icon ${isCompleted ? 'completed' : 'incomplete'}"></i>
           `;
           lesItem.addEventListener("click", () => {
             openLesson(les);
