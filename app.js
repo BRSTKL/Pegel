@@ -1474,14 +1474,6 @@ function renderLeseverstehenDashboard() {
     card.className = "leseverstehen-card";
     card.onclick = () => startNewLeseverstehen(ex.id);
     
-    // Image or emoji fallback
-    let visualHtml = "";
-    if (ex.hasImage) {
-      visualHtml = `<img src="${ex.imagePath}" class="leseverstehen-card-img" alt="${ex.title}">`;
-    } else {
-      visualHtml = `<span class="leseverstehen-card-emoji">${ex.emoji}</span>`;
-    }
-    
     // Render 3 history badges
     let badgesHtml = "";
     for (let i = 0; i < 3; i++) {
@@ -1497,18 +1489,26 @@ function renderLeseverstehenDashboard() {
       }
     }
     
-    const attemptsLabel = attemptCount === 1 ? "1 attempt" : `${attemptCount} attempts`;
+    let attemptsLabel = "Deneme yapılmadı";
+    if (attemptCount === 1) {
+      attemptsLabel = "1 deneme";
+    } else if (attemptCount > 1) {
+      attemptsLabel = `${attemptCount} deneme`;
+    }
+    
+    const colors = ["c-blue-bg", "c-purple-bg", "c-teal-bg", "c-coral-bg", "c-pink-bg"];
+    const colorClass = colors[LESEVERSTEHEN_DATA.indexOf(ex) % colors.length];
     
     card.innerHTML = `
-      <div class="leseverstehen-card-img-wrapper">
-        ${visualHtml}
+      <div class="leseverstehen-card-icon-wrapper ${colorClass}">
+        <span class="leseverstehen-card-emoji">${ex.emoji}</span>
       </div>
-      <p class="leseverstehen-card-title">${ex.title}</p>
-      <div class="leseverstehen-card-row">
+      <div class="leseverstehen-card-details">
+        <p class="leseverstehen-card-title">${ex.title}</p>
         <p class="leseverstehen-card-attempts">${attemptsLabel}</p>
-        <div class="leseverstehen-card-badges">
-          ${badgesHtml}
-        </div>
+      </div>
+      <div class="leseverstehen-card-badges">
+        ${badgesHtml}
       </div>
     `;
     
