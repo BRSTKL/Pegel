@@ -944,14 +944,6 @@ button.c-purple {
   gap: 10px;
 }
 
-@media (min-width: 600px) {
-  .leseverstehen-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
-  }
-}
-
 .leseverstehen-card {
   background: var(--color-background-secondary);
   border: 1px solid var(--color-border-primary);

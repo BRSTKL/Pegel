@@ -2,9 +2,9 @@
 const LESEVERSTEHEN_DATA = [
   {
     "id": "baumkuchen",
-    "title": "Baumkuchen",
-    "emoji": "🥮",
-    "hasImage": true,
+    "title": "Gesundheit & Arbeitswelt",
+    "emoji": "💼",
+    "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Größere Menschen bekommen oft mehr Lohn",
@@ -46,14 +46,13 @@ const LESEVERSTEHEN_DATA = [
       3: "a",
       4: "c",
       5: "i"
-    },
-    "imagePath": "assets/baumkuchen.png"
+    }
   },
   {
     "id": "berliner",
-    "title": "Berliner",
-    "emoji": "🍩",
-    "hasImage": true,
+    "title": "Alltag & Lebensweise",
+    "emoji": "🚲",
+    "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Mehr Sport verbessert die Konzentration im Büro",
@@ -95,13 +94,12 @@ const LESEVERSTEHEN_DATA = [
       3: "h",
       4: "i",
       5: "d"
-    },
-    "imagePath": "assets/berliner.png"
+    }
   },
   {
     "id": "bienenstich",
-    "title": "Bienenstich",
-    "emoji": "🍰",
+    "title": "Freizeit & Fitness",
+    "emoji": "🏃",
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
@@ -148,8 +146,8 @@ const LESEVERSTEHEN_DATA = [
   },
   {
     "id": "brandenburger_tor",
-    "title": "Brandenburger Tor",
-    "emoji": "🏛️",
+    "title": "Umwelt & Medien",
+    "emoji": "🌳",
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
@@ -196,8 +194,8 @@ const LESEVERSTEHEN_DATA = [
   },
   {
     "id": "bratwurst",
-    "title": "Bratwurst",
-    "emoji": "🌭",
+    "title": "Technologie & Gesellschaft",
+    "emoji": "📱",
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
@@ -244,8 +242,8 @@ const LESEVERSTEHEN_DATA = [
   },
   {
     "id": "brezel",
-    "title": "Brezel",
-    "emoji": "🥨",
+    "title": "Natur & Haustiere",
+    "emoji": "🐕",
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
@@ -292,8 +290,8 @@ const LESEVERSTEHEN_DATA = [
   },
   {
     "id": "currywurst",
-    "title": "Currywurst",
-    "emoji": "🍢",
+    "title": "Bildung & Mobilität",
+    "emoji": "🎓",
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
@@ -340,8 +338,8 @@ const LESEVERSTEHEN_DATA = [
   },
   {
     "id": "donauwelle",
-    "title": "Donauwelle",
-    "emoji": "🍫",
+    "title": "Kultur & Nachhaltigkeit",
+    "emoji": "🎨",
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
@@ -388,8 +386,8 @@ const LESEVERSTEHEN_DATA = [
   },
   {
     "id": "elbphilharmonie",
-    "title": "Elbphilharmonie",
-    "emoji": "🏢",
+    "title": "Zusammenleben & Lernen",
+    "emoji": "🤝",
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
@@ -436,8 +434,8 @@ const LESEVERSTEHEN_DATA = [
   },
   {
     "id": "fernsehturm",
-    "title": "Fernsehturm",
-    "emoji": "🗼",
+    "title": "Freizeit & Konsum",
+    "emoji": "☕",
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
@@ -484,8 +482,8 @@ const LESEVERSTEHEN_DATA = [
   },
   {
     "id": "franzbroetchen",
-    "title": "Franzbrötchen",
-    "emoji": "🥐",
+    "title": "Soziales & Stadtleben",
+    "emoji": "🏡",
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
@@ -532,8 +530,8 @@ const LESEVERSTEHEN_DATA = [
   },
   {
     "id": "koelner_dom",
-    "title": "Kölner Dom",
-    "emoji": "⛪",
+    "title": "Erholung & Gemeinschaft",
+    "emoji": "🌲",
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
