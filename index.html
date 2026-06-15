@@ -23,57 +23,62 @@
 
       <!-- ================= HOME SCREEN ================= -->
       <div id="home-screen" class="screen">
-        <div class="c-purple" style="padding: 24px 20px 28px; border-radius: 0 0 28px 28px; position: relative;">
-          <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom: 18px;">
+        
+        <!-- Header Card -->
+        <div class="c-purple">
+          <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom: 16px;">
             <div>
               <p class="ts" style="font-size: 13px; margin: 0;">Merhaba</p>
-              <p class="t" style="font-size: 20px; font-weight: 500; margin: 2px 0 0;" id="profile-name">Baris</p>
+              <p class="t" style="font-size: 19px; font-weight: 600; margin: 2px 0 0;" id="profile-name">Baris</p>
             </div>
-            <div id="streak-counter" style="padding: 6px 12px; border-radius: var(--border-radius-full); background: rgba(255,255,255,0.18); display:flex; align-items:center; gap: 4px; font-weight: 600; font-size: 13px;">
-              <i class="ti ti-flame" style="font-size:18px;" aria-hidden="true"></i> 3
+            <div id="streak-counter" style="padding: 5px 12px; border-radius: var(--border-radius-full); display:flex; align-items:center; gap: 4px; font-weight: 600; font-size: 12.5px;">
+              <!-- Streak counter -->
             </div>
           </div>
 
-          <div style="background: rgba(255,255,255,0.12); border-radius: var(--border-radius-lg); padding: 14px 16px;">
-            <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom: 10px;">
-              <p class="t" style="font-size: 14px; font-weight: 500; margin:0;">B1 hedefine ilerleme</p>
-              <p class="t" style="font-size: 14px; font-weight: 500; margin:0;" id="progress-text-percent">42%</p>
+          <!-- Progress Block -->
+          <div style="padding: 14px; border-radius: var(--border-radius-md);">
+            <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom: 8px;">
+              <p class="t" style="font-size: 13.5px; font-weight: 500; margin:0;">B1 hedefine ilerleme</p>
+              <p class="t" style="font-size: 14.5px; font-weight: 600; margin:0;" id="progress-text-percent">0%</p>
             </div>
-            <div style="height: 6px; background: rgba(255,255,255,0.18); border-radius: 99px; overflow:hidden;">
-              <div id="progress-bar-fill" style="width: 42%; height: 100%; background: rgba(255,255,255,0.9); border-radius: 99px;"></div>
+            <div style="height: 5px; background: var(--color-background-tertiary); border-radius: 99px; overflow:hidden;">
+              <div id="progress-bar-fill" style="width: 0%; height: 100%; border-radius: 99px;"></div>
             </div>
-            <div style="display:flex; justify-content:space-between; margin-top: 10px;">
-              <span class="ts" style="font-size: 12px;">15 alt konu</span>
-              <span class="ts" style="font-size: 12px;" id="completed-fraction">6/15 tamamlandı</span>
+            <div style="display:flex; justify-content:space-between; margin-top: 8px;">
+              <span class="ts" style="font-size: 11.5px;">15 alt konu</span>
+              <span class="ts" style="font-size: 11.5px;" id="completed-fraction">0/15 tamamlandı</span>
             </div>
           </div>
         </div>
 
-        <div style="padding: 18px 20px 4px;">
-          <p style="font-size: 13px; font-weight: 500; color: var(--color-text-secondary); margin: 0 0 10px;">Bugün için</p>
+        <!-- Today Section -->
+        <div style="padding: 16px 20px 4px;">
+          <p class="ts" style="font-size: 12.5px; font-weight: 600; margin: 0 0 10px; text-transform: uppercase; letter-spacing: 0.5px;">Bugün için</p>
           <div class="grid-2">
-            <div class="interactive-card" id="flashcard-today-btn" style="border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 14px; display:flex; flex-direction:column; gap:8px; background:var(--color-background-primary);">
-              <div class="c-teal-bg" style="width:32px; height:32px; border-radius: var(--border-radius-md); display:flex; align-items:center; justify-content:center; width: fit-content; padding: 0 8px;">
-                <i class="ti ti-cards" style="font-size:16px;" aria-hidden="true"></i>
+            <div class="interactive-card" id="flashcard-today-btn" style="border-radius: var(--border-radius-lg); padding: 14px; display:flex; flex-direction:column; gap:8px;">
+              <div class="c-teal-bg" style="width:30px; height:30px; border-radius: var(--border-radius-sm); display:flex; align-items:center; justify-content:center; width: fit-content; padding: 0 6px;">
+                <i class="ti ti-cards" style="font-size:15px;" aria-hidden="true"></i>
               </div>
-              <p style="font-size: 13px; font-weight: 500; margin:0;">Flashcard turu</p>
-              <p style="font-size: 12px; color: var(--color-text-secondary); margin:0;" id="fc-status-text">12 kart bekliyor</p>
+              <p style="font-size: 13px; font-weight: 600; margin:0;">Flashcard turu</p>
+              <p class="ts" style="font-size: 11.5px; margin:0;" id="fc-status-text">12 kart bekliyor</p>
             </div>
             
-            <div class="interactive-card" id="quiz-today-btn" style="border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 14px; display:flex; flex-direction:column; gap:8px; background:var(--color-background-primary);">
-              <div class="c-coral-bg" style="width:32px; height:32px; border-radius: var(--border-radius-md); display:flex; align-items:center; justify-content:center; width: fit-content; padding: 0 8px;">
-                <i class="ti ti-pencil" style="font-size:16px;" aria-hidden="true"></i>
+            <div class="interactive-card" id="quiz-today-btn" style="border-radius: var(--border-radius-lg); padding: 14px; display:flex; flex-direction:column; gap:8px;">
+              <div class="c-coral-bg" style="width:30px; height:30px; border-radius: var(--border-radius-sm); display:flex; align-items:center; justify-content:center; width: fit-content; padding: 0 6px;">
+                <i class="ti ti-pencil" style="font-size:15px;" aria-hidden="true"></i>
               </div>
-              <p style="font-size: 13px; font-weight: 500; margin:0;">Hızlı quiz</p>
-              <p style="font-size: 12px; color: var(--color-text-secondary); margin:0;" id="quiz-status-text">5 dakika</p>
+              <p style="font-size: 13px; font-weight: 600; margin:0;">Hızlı quiz</p>
+              <p class="ts" style="font-size: 11.5px; margin:0;" id="quiz-status-text">5 dakika</p>
             </div>
           </div>
         </div>
 
-        <div style="padding: 18px 20px 4px;">
+        <!-- Continue Section -->
+        <div style="padding: 16px 20px 4px;">
           <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 10px;">
-            <p style="font-size: 13px; font-weight: 500; color: var(--color-text-secondary); margin: 0;">Devam et</p>
-            <span style="font-size: 12px; color: var(--color-text-info); cursor: pointer;" id="continue-all-btn">Tümü</span>
+            <p class="ts" style="font-size: 12.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin: 0;">Devam et</p>
+            <span style="font-size: 12px; color: var(--color-text-info); cursor: pointer; font-weight: 500;" id="continue-all-btn">Tümü</span>
           </div>
 
           <div id="continue-list">
@@ -81,8 +86,9 @@
           </div>
         </div>
 
-        <div style="padding: 18px 20px 8px; flex: 1;">
-          <p style="font-size: 13px; font-weight: 500; color: var(--color-text-secondary); margin: 0 0 10px;">Kategoriler</p>
+        <!-- Categories Section -->
+        <div style="padding: 16px 20px 12px; flex: 1;">
+          <p class="ts" style="font-size: 12.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 0 10px;">Kategoriler</p>
           <div class="grid-2" id="categories-grid-list">
             <!-- Categories loaded dynamically -->
           </div>
@@ -91,9 +97,9 @@
 
       <!-- ================= SITEMAP SCREEN ================= -->
       <div id="sitemap-screen" class="screen hidden" style="padding: 20px;">
-        <div style="margin-bottom: 15px;">
-          <h1 style="font-size: 20px; font-weight: 600; margin-bottom: 4px;">Konular ve İlerleme</h1>
-          <p style="font-size: 12px; color: var(--color-text-secondary);">Mind map yapısına göre organize edilmiş B1 Almanca müfredatı.</p>
+        <div style="margin-bottom: 18px;">
+          <h1 style="font-size: 18px; font-weight: 600; margin-bottom: 4px;">Konular ve İlerleme</h1>
+          <p class="ts" style="font-size: 12px; margin: 0;">Mind map yapısına göre organize edilmiş B1 Almanca müfredatı.</p>
         </div>
         
         <!-- Category Tab Selector -->
@@ -113,7 +119,7 @@
           <button class="back-btn" data-target="sitemap" style="background: none; border: none; font-size: 20px; color: var(--color-text-primary); cursor: pointer; display: flex; align-items: center; justify-content: center;">
             <i class="ti ti-arrow-left"></i>
           </button>
-          <h1 id="lesson-title" style="font-size: 16px; font-weight: 600; margin: 0; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Konu Anlatımı</h1>
+          <h1 id="lesson-title" style="font-size: 15px; font-weight: 600; margin: 0; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Konu Anlatımı</h1>
         </div>
 
         <div class="lesson-body" id="lesson-body-content" style="flex: 1; overflow-y: auto; padding-right: 4px; margin-bottom: 20px;">
@@ -121,7 +127,7 @@
         </div>
 
         <div>
-          <button id="lesson-complete-btn" class="c-purple" style="width: 100%; border: none; padding: 14px; border-radius: var(--border-radius-lg); font-size: 14px; font-weight: 600; cursor: pointer; color: #ffffff;">
+          <button id="lesson-complete-btn" class="c-purple" style="width: 100%; border: none; padding: 13px; border-radius: var(--border-radius-lg); font-size: 13.5px; font-weight: 600; cursor: pointer; color: var(--color-background-primary);">
             Tamamlandı olarak işaretle
           </button>
         </div>
@@ -130,19 +136,19 @@
       <!-- ================= FLASHCARDS SCREEN ================= -->
       <div id="flashcards-screen" class="screen hidden" style="padding: 20px;">
         <div>
-          <h1 style="font-size: 20px; font-weight: 600; margin-bottom: 4px;">Kelime & Cümle Kartları</h1>
-          <p style="font-size: 12px; color: var(--color-text-secondary);">Kartları dokunarak çevirip çalışabilirsiniz.</p>
+          <h1 style="font-size: 18px; font-weight: 600; margin-bottom: 4px;">Kelime & Cümle Kartları</h1>
+          <p class="ts" style="font-size: 12px; margin: 0;">Kartları dokunarak çevirip çalışabilirsiniz.</p>
         </div>
 
         <div id="flashcard-container" style="flex: 1; display: flex; align-items: center; justify-content: center;">
           <!-- Card rendered here -->
         </div>
 
-        <div style="display: flex; gap: 12px; margin-top: auto;">
-          <button id="fc-prev-btn" style="flex: 1; background: var(--color-background-tertiary); border: none; color: var(--color-text-primary); padding: 14px; border-radius: var(--border-radius-lg); font-weight: 600; cursor: pointer;">
+        <div style="display: flex; gap: 12px; margin-top: auto; padding-bottom: 4px;">
+          <button id="fc-prev-btn" style="flex: 1; background: var(--color-background-secondary); border: 1px solid var(--color-border-primary); color: var(--color-text-primary); padding: 12px; border-radius: var(--border-radius-lg); font-weight: 600; cursor: pointer; font-size: 13px;">
             Önceki
           </button>
-          <button id="fc-next-btn" class="c-teal" style="flex: 2; border: none; color: #ffffff; padding: 14px; border-radius: var(--border-radius-lg); font-weight: 600; cursor: pointer;">
+          <button id="fc-next-btn" class="c-teal" style="flex: 2; border: none; padding: 12px; border-radius: var(--border-radius-lg); font-weight: 600; cursor: pointer; font-size: 13px;">
             Sonraki
           </button>
         </div>
@@ -154,7 +160,7 @@
           <button class="back-btn" data-target="home" style="background: none; border: none; font-size: 20px; color: var(--color-text-primary); cursor: pointer; display: flex; align-items: center; justify-content: center;">
             <i class="ti ti-arrow-left"></i>
           </button>
-          <h1 style="font-size: 16px; font-weight: 600; margin: 0;">Günlük Quiz</h1>
+          <h1 style="font-size: 15px; font-weight: 600; margin: 0;">Günlük Quiz</h1>
         </div>
 
         <div id="quiz-content-area" style="flex: 1; display: flex; flex-direction: column;">
@@ -164,28 +170,28 @@
 
       <!-- ================= ANALYTICS SCREEN ================= -->
       <div id="analytics-screen" class="screen hidden" style="padding: 20px;">
-        <div style="margin-bottom: 20px;">
-          <h1 style="font-size: 20px; font-weight: 600; margin-bottom: 4px;">İstatistikler</h1>
-          <p style="font-size: 12px; color: var(--color-text-secondary);">Gelişim durumunuzu ve serinizi takip edin.</p>
+        <div style="margin-bottom: 18px;">
+          <h1 style="font-size: 18px; font-weight: 600; margin-bottom: 4px;">İstatistikler</h1>
+          <p class="ts" style="font-size: 12px; margin: 0;">Gelişim durumunuzu ve serinizi takip edin.</p>
         </div>
 
         <!-- Summary Widgets -->
-        <div style="background: var(--color-background-tertiary); border-radius: var(--border-radius-lg); padding: 18px; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px;">
-          <div style="border-right: 1px solid var(--color-border-primary); padding-right: 8px;">
-            <p style="font-size: 11px; color: var(--color-text-secondary); margin: 0 0 4px;">Toplam İlerleme</p>
-            <p style="font-size: 24px; font-weight: 700; margin: 0; color: var(--color-text-info);" id="analytics-overall-percent">0%</p>
-            <p style="font-size: 10px; color: var(--color-text-secondary); margin: 4px 0 0;" id="analytics-completed-text">0/15 ders</p>
+        <div style="background: var(--color-background-secondary); border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); padding: 16px; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px;">
+          <div style="border-right: 1px solid var(--color-border-secondary); padding-right: 8px;">
+            <p class="ts" style="font-size: 11px; margin: 0 0 4px;">Toplam İlerleme</p>
+            <p style="font-size: 22px; font-weight: 700; margin: 0; color: var(--theme-teal);" id="analytics-overall-percent">0%</p>
+            <p class="ts" style="font-size: 10px; margin: 4px 0 0;" id="analytics-completed-text">0/15 ders</p>
           </div>
           <div>
-            <p style="font-size: 11px; color: var(--color-text-secondary); margin: 0 0 4px;">Kazanılan Puan</p>
-            <p style="font-size: 24px; font-weight: 700; margin: 0; color: var(--theme-coral);" id="analytics-xp-text">0 XP</p>
-            <p style="font-size: 10px; color: var(--color-text-secondary); margin: 4px 0 0;">B1 Seviyesi</p>
+            <p class="ts" style="font-size: 11px; margin: 0 0 4px;">Kazanılan Puan</p>
+            <p style="font-size: 22px; font-weight: 700; margin: 0; color: var(--theme-coral);" id="analytics-xp-text">0 XP</p>
+            <p class="ts" style="font-size: 10px; margin: 4px 0 0;">B1 Seviyesi</p>
           </div>
         </div>
 
         <!-- Streak Calendar View -->
-        <div style="border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); padding: 16px; margin-bottom: 20px;">
-          <p style="font-size: 13px; font-weight: 600; margin: 0 0 10px; display: flex; align-items: center; gap: 6px;">
+        <div style="border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); padding: 14px; margin-bottom: 20px; background-color: var(--color-background-secondary);">
+          <p style="font-size: 12.5px; font-weight: 600; margin: 0 0 10px; display: flex; align-items: center; gap: 6px;">
             <i class="ti ti-calendar-event" style="color: var(--theme-purple);"></i> Son 28 Günlük Aktivite
           </p>
           <div id="streak-calendar-grid" class="calendar-grid">
@@ -195,7 +201,7 @@
 
         <!-- Categories Completion Breakdown -->
         <div style="flex: 1; overflow-y: auto;">
-          <p style="font-size: 13px; font-weight: 600; margin: 0 0 10px;">Kategori Bazlı Gelişim</p>
+          <p style="font-size: 12.5px; font-weight: 600; margin: 0 0 10px;">Kategori Bazlı Gelişim</p>
           <div id="analytics-categories-details">
             <!-- Details generated dynamically -->
           </div>
@@ -204,35 +210,35 @@
 
       <!-- ================= PROFILE SCREEN ================= -->
       <div id="profile-screen" class="screen hidden" style="padding: 20px;">
-        <div style="margin-bottom: 24px; display:flex; flex-direction:column; align-items:center; gap:12px; padding: 20px 0;">
-          <div class="c-purple" style="width: 72px; height: 72px; border-radius: 50%; display:flex; align-items:center; justify-content:center; font-size: 28px; font-weight: 600;">
+        <div style="margin-bottom: 20px; display:flex; flex-direction:column; align-items:center; gap:12px; padding: 10px 0;">
+          <div class="c-purple" style="width: 64px; height: 64px; border-radius: 50%; display:flex; align-items:center; justify-content:center; font-size: 24px; font-weight: 600; border: 1px solid var(--color-border-primary);">
             B
           </div>
-          <h1 style="font-size: 20px; font-weight: 600; margin: 0;">Kullanıcı Profili</h1>
+          <h1 style="font-size: 18px; font-weight: 600; margin: 0;">Kullanıcı Profili</h1>
         </div>
 
         <!-- Name Input -->
         <div style="margin-bottom: 20px;">
-          <label style="font-size: 12px; font-weight: 600; color: var(--color-text-secondary); display:block; margin-bottom: 6px;">İsminiz</label>
-          <input type="text" id="profile-name-input" style="width:100%; padding: 12px; border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); font-size: 14px; font-weight: 500; background: var(--color-background-primary); color: var(--color-text-primary);" />
+          <label class="ts" style="font-size: 12px; font-weight: 600; display:block; margin-bottom: 6px;">İsminiz</label>
+          <input type="text" id="profile-name-input" style="width:100%; padding: 12px; border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); font-size: 13.5px; font-weight: 500; background: var(--color-background-secondary); color: var(--color-text-primary);" />
         </div>
 
         <!-- Theme Toggler -->
-        <div style="display:flex; justify-content:space-between; align-items:center; border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); padding: 14px; margin-bottom: 20px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); padding: 12px 14px; margin-bottom: 20px; background-color: var(--color-background-secondary);">
           <div>
-            <p style="font-size:13.5px; font-weight:500; margin:0;">Koyu Tema</p>
-            <p style="font-size:11px; color:var(--color-text-secondary); margin:2px 0 0;">Göz dostu gece modu</p>
+            <p style="font-size:13px; font-weight:500; margin:0;">Koyu Tema</p>
+            <p class="ts" style="font-size:11px; margin:2px 0 0;">Göz dostu gece modu</p>
           </div>
           <div class="theme-switch" id="profile-theme-switch"></div>
         </div>
 
         <!-- Actions -->
         <div style="display:flex; flex-direction:column; gap:12px; margin-top: auto; padding-bottom: 10px;">
-          <button id="profile-save-btn" class="c-teal" style="border: none; color: #ffffff; padding: 14px; border-radius: var(--border-radius-lg); font-weight: 600; cursor: pointer;">
+          <button id="profile-save-btn" class="c-teal" style="border: none; padding: 12px; border-radius: var(--border-radius-lg); font-weight: 600; cursor: pointer; font-size: 13px;">
             Profili Kaydet
           </button>
           
-          <button id="profile-reset-btn" style="border: 1px solid #ef4444; color: #ef4444; background:none; padding: 14px; border-radius: var(--border-radius-lg); font-weight: 600; cursor: pointer;">
+          <button id="profile-reset-btn" style="border: 1px solid #ef4444; color: #ef4444; background:none; padding: 12px; border-radius: var(--border-radius-lg); font-weight: 600; cursor: pointer; font-size: 13px;">
             İlerlemeyi Sıfırla
           </button>
         </div>

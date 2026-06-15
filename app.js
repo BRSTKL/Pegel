@@ -1,4 +1,4 @@
-// app.js - B1 German App Core Logic
+// app.js - B1 German App Core Logic (Minimalist Redesign)
 
 // State management
 let state = {
@@ -20,7 +20,7 @@ let state = {
   currentScreen: "home",
   activeCategory: "verben",
   expandedSubcategories: {},
-  theme: "light",
+  theme: "dark", // Default to dark mode for App_Tasarım.PNG aesthetic
   quizHistory: [],
   lastActiveDate: ""
 };
@@ -81,7 +81,7 @@ const QUIZ_QUESTIONS = [
       "Saçımı bir başkasına (berbere) kestiriyorum.",
       "Saçımı kesmek zorundayım."
     ],
-    correct: 2
+    correct: 3
   },
   {
     question: "'brauchen + zu' yapısı olumsuz veya sınırlayıcı cümlelerde (nicht/nur) Almancadaki hangi fiilin yerine kullanılır?",
@@ -144,7 +144,6 @@ function loadState() {
   // Date check for streak and daily tasks resets
   const today = new Date().toDateString();
   if (state.lastActiveDate && state.lastActiveDate !== today) {
-    // If we missed a day, streak reset or maintain? Let's just make it persistent, but reset daily tasks
     state.completedToday.flashcards = false;
     state.completedToday.quiz = false;
   }
@@ -167,6 +166,10 @@ document.addEventListener("DOMContentLoaded", () => {
   
   document.getElementById("quiz-today-btn")?.addEventListener("click", () => {
     startNewQuiz();
+  });
+  
+  document.getElementById("continue-all-btn")?.addEventListener("click", () => {
+    showScreen("sitemap");
   });
   
   // Back buttons
@@ -194,7 +197,7 @@ function toggleTheme() {
 function updateStreakBadge() {
   const streakEl = document.getElementById("streak-counter");
   if (streakEl) {
-    streakEl.innerHTML = `<i class="ti ti-flame" style="font-size:18px;" aria-hidden="true"></i> ${state.streak}`;
+    streakEl.innerHTML = `<i class="ti ti-flame" style="font-size:16px;" aria-hidden="true"></i> Seri: ${state.streak} Gün`;
   }
 }
 
@@ -284,25 +287,25 @@ function renderHomeScreen() {
         if (subLessons.length > 0) {
           const completedSub = subLessons.filter(l => state.completedLessons.includes(l.id)).length;
           
-          // Show only if partially completed or if not completed but active
+          // Show only if partially completed
           if (completedSub > 0 && completedSub < subLessons.length) {
             const pct = Math.round((completedSub / subLessons.length) * 100);
             
             const card = document.createElement("div");
             card.className = "interactive-card";
-            card.style = "border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 14px; display:flex; align-items:center; gap: 12px; margin-bottom: 10px;";
+            card.style = "border-radius: var(--border-radius-lg); padding: 12px 14px; display:flex; align-items:center; gap: 12px; margin-bottom: 10px;";
             card.innerHTML = `
-              <div class="c-${cat.color}-bg" style="width:40px; height:40px; border-radius: var(--border-radius-md); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
-                <i class="ti ${cat.icon}" style="font-size:18px;" aria-hidden="true"></i>
+              <div class="c-${cat.color}-bg" style="width:36px; height:36px; border-radius: var(--border-radius-md); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+                <i class="ti ${cat.icon}" style="font-size:16px;" aria-hidden="true"></i>
               </div>
               <div style="flex:1; min-width:0;">
-                <p style="font-size: 14px; font-weight: 500; margin:0;">${sub.name}</p>
-                <p style="font-size: 12px; color: var(--color-text-secondary); margin:2px 0 0;">${completedSub}/${subLessons.length} alt başlık tamamlandı</p>
-                <div style="height: 4px; background: var(--color-background-secondary); border-radius: 99px; margin-top:6px; overflow:hidden;">
-                  <div style="width: ${pct}%; height:100%; background: var(--color-text-info); border-radius:99px;"></div>
+                <p style="font-size: 13.5px; font-weight: 600; margin:0;">${sub.name}</p>
+                <p class="ts" style="font-size: 11.5px; margin:2px 0 0;">${completedSub}/${subLessons.length} alt başlık tamamlandı</p>
+                <div style="height: 4px; background: var(--color-background-primary); border-radius: 99px; margin-top:6px; overflow:hidden; border:1px solid var(--color-border-primary);">
+                  <div style="width: ${pct}%; height:100%; background: var(--theme-${cat.color}); border-radius:99px;"></div>
                 </div>
               </div>
-              <i class="ti ti-chevron-right" style="font-size:18px; color:var(--color-text-tertiary); flex-shrink:0;" aria-hidden="true"></i>
+              <i class="ti ti-chevron-right" style="font-size:16px; color:var(--color-text-tertiary); flex-shrink:0;" aria-hidden="true"></i>
             `;
             
             card.addEventListener("click", () => {
@@ -316,23 +319,28 @@ function renderHomeScreen() {
       });
     });
     
+    // Fallback if nothing is partially complete (e.g. at start or finish)
     if (continueList.innerHTML === "") {
-      // Fallback to defaults matching mockup
       continueList.innerHTML = `
-        <div class="interactive-card" style="border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 14px; display:flex; align-items:center; gap: 12px; margin-bottom: 10px;">
-          <div class="c-purple-bg" style="width:40px; height:40px; border-radius: var(--border-radius-md); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
-            <i class="ti ti-bolt" style="font-size:18px;" aria-hidden="true"></i>
+        <div class="interactive-card" style="border-radius: var(--border-radius-lg); padding: 12px 14px; display:flex; align-items:center; gap: 12px; margin-bottom: 10px;" id="fallback-continue-card">
+          <div class="c-purple-bg" style="width:36px; height:36px; border-radius: var(--border-radius-md); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+            <i class="ti ti-bolt" style="font-size:16px;" aria-hidden="true"></i>
           </div>
           <div style="flex:1; min-width:0;">
-            <p style="font-size: 14px; font-weight: 500; margin:0;">Das Verb 'lassen'</p>
-            <p style="font-size: 12px; color: var(--color-text-secondary); margin:2px 0 0;">3/5 alt başlık tamamlandı</p>
-            <div style="height: 4px; background: var(--color-background-secondary); border-radius: 99px; margin-top:6px; overflow:hidden;">
-              <div style="width: 60%; height:100%; background: var(--color-text-info); border-radius:99px;"></div>
+            <p style="font-size: 13.5px; font-weight: 600; margin:0;">Das Verb 'lassen'</p>
+            <p class="ts" style="font-size: 11.5px; margin:2px 0 0;">3/5 alt başlık tamamlandı</p>
+            <div style="height: 4px; background: var(--color-background-primary); border-radius: 99px; margin-top:6px; overflow:hidden; border:1px solid var(--color-border-primary);">
+              <div style="width: 60%; height:100%; background: var(--theme-purple); border-radius:99px;"></div>
             </div>
           </div>
-          <i class="ti ti-chevron-right" style="font-size:18px; color:var(--color-text-tertiary); flex-shrink:0;" aria-hidden="true"></i>
+          <i class="ti ti-chevron-right" style="font-size:16px; color:var(--color-text-tertiary); flex-shrink:0;" aria-hidden="true"></i>
         </div>
       `;
+      document.getElementById("fallback-continue-card")?.addEventListener("click", () => {
+        state.activeCategory = "verben";
+        state.expandedSubcategories["Das Verb 'lassen'"] = true;
+        showScreen("sitemap");
+      });
     }
   }
   
@@ -341,17 +349,16 @@ function renderHomeScreen() {
   if (categoriesList) {
     categoriesList.innerHTML = "";
     LESSONS_DATA.forEach(cat => {
-      // Calculate lesson counts
       let totalCatLessons = 0;
       cat.subcategories.forEach(sub => totalCatLessons += sub.lessons.length);
       
       const catCard = document.createElement("div");
-      catCard.className = `c-${cat.color} interactive-card`;
-      catCard.style = "border-radius: var(--border-radius-lg); padding: 14px; display:flex; flex-direction:column; gap: 10px; min-height: 88px;";
+      catCard.className = `${cat.color} interactive-card`;
+      catCard.style = "border-radius: var(--border-radius-lg); padding: 14px; display:flex; flex-direction:column; gap: 10px; min-height: 84px;";
       catCard.innerHTML = `
-        <i class="ti ${cat.icon}" style="font-size:20px;" aria-hidden="true"></i>
+        <i class="ti ${cat.icon}" style="font-size:18px;" aria-hidden="true"></i>
         <div>
-          <p class="t" style="font-size: 13px; font-weight: 500; margin:0;">${cat.name}</p>
+          <p class="t" style="font-size: 13px; font-weight: 600; margin:0;">${cat.name}</p>
           <p class="ts" style="font-size: 11px; margin: 2px 0 0;">${totalCatLessons} konu</p>
         </div>
       `;
@@ -375,8 +382,8 @@ function renderSitemapScreen() {
   catNav.innerHTML = "";
   LESSONS_DATA.forEach(cat => {
     const btn = document.createElement("button");
-    btn.className = `category-tab-btn ${state.activeCategory === cat.id ? 'active c-' + cat.color : ''}`;
-    btn.style = `flex: 1; padding: 10px 0; border: none; border-bottom: 2px solid ${state.activeCategory === cat.id ? 'currentColor' : 'transparent'}; background: none; font-size: 13px; font-weight: 600; cursor: pointer; color: ${state.activeCategory === cat.id ? 'var(--color-text-info)' : 'var(--color-text-secondary)'};`;
+    btn.className = `category-tab-btn ${state.activeCategory === cat.id ? 'active' : ''}`;
+    btn.style = `flex: 1; padding: 10px 0; border: none; border-bottom: 2px solid ${state.activeCategory === cat.id ? 'var(--theme-purple)' : 'transparent'}; background: none; font-size: 13px; font-weight: 600; cursor: pointer; color: ${state.activeCategory === cat.id ? 'var(--theme-purple)' : 'var(--color-text-secondary)'};`;
     btn.textContent = cat.name.split(" ")[0]; // First word
     btn.addEventListener("click", () => {
       state.activeCategory = cat.id;
@@ -396,7 +403,7 @@ function renderSitemapScreen() {
   activeCatObj.subcategories.forEach(sub => {
     const item = document.createElement("div");
     item.className = "subcategory-item";
-    item.style = "margin-bottom: 12px;";
+    item.style = "margin-bottom: 10px;";
     
     const isExpanded = state.expandedSubcategories[sub.name];
     
@@ -404,8 +411,8 @@ function renderSitemapScreen() {
     const header = document.createElement("div");
     header.className = "subcategory-header";
     header.innerHTML = `
-      <span>${sub.name}</span>
-      <i class="ti ${isExpanded ? 'ti-chevron-down' : 'ti-chevron-right'}"></i>
+      <span class="t">${sub.name}</span>
+      <i class="ti ${isExpanded ? 'ti-chevron-down' : 'ti-chevron-right'}" style="color: var(--color-text-tertiary);"></i>
     `;
     header.addEventListener("click", () => {
       state.expandedSubcategories[sub.name] = !isExpanded;
@@ -421,7 +428,7 @@ function renderSitemapScreen() {
       
       if (sub.lessons.length === 0) {
         const noLesson = document.createElement("div");
-        noLesson.style = "padding: 14px 20px; font-size: 13px; color: var(--color-text-tertiary); font-style: italic;";
+        noLesson.style = "padding: 12px 18px; font-size: 12.5px; color: var(--color-text-tertiary); font-style: italic;";
         noLesson.textContent = "Bu kategoride henüz ders eklenmemiş.";
         lessonsList.appendChild(noLesson);
       } else {
@@ -448,7 +455,6 @@ function renderSitemapScreen() {
 
 // LESSON DETAILS SCREEN
 function openLesson(lesson) {
-  // Hide sitemap, show lesson
   showScreen("lesson");
   
   document.getElementById("lesson-title").textContent = lesson.title;
@@ -465,7 +471,6 @@ function openLesson(lesson) {
     const isCompleted = state.completedLessons.includes(lesson.id);
     updateCompleteButtonState(compBtn, isCompleted);
     
-    // Clear old listener and add new
     const newCompBtn = compBtn.cloneNode(true);
     compBtn.parentNode.replaceChild(newCompBtn, compBtn);
     
@@ -487,20 +492,18 @@ function openLesson(lesson) {
 }
 
 function updateCompleteButtonState(btn, isCompleted) {
+  btn.style = "width:100%; padding:13px; border-radius:var(--border-radius-lg); font-size:13.5px; font-weight:600; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:8px; border:none;";
   if (isCompleted) {
     btn.className = "c-teal";
-    btn.style = "width:100%; border:none; padding:14px; border-radius:var(--border-radius-lg); font-size:14px; font-weight:600; cursor:pointer; color:#ffffff; display:flex; align-items:center; justify-content:center; gap:8px;";
     btn.innerHTML = `<i class="ti ti-circle-check-filled"></i> Tamamlandı olarak işaretlendi`;
   } else {
     btn.className = "c-purple";
-    btn.style = "width:100%; border:none; padding:14px; border-radius:var(--border-radius-lg); font-size:14px; font-weight:600; cursor:pointer; color:#ffffff; display:flex; align-items:center; justify-content:center; gap:8px;";
     btn.innerHTML = `<i class="ti ti-circle-check"></i> Tamamlandı olarak işaretle (+15 XP)`;
   }
 }
 
 // Parse lesson text and apply rich styling
 function formatLessonContent(content) {
-  // Split into lines
   const lines = content.split("\n");
   let html = "";
   
@@ -508,13 +511,10 @@ function formatLessonContent(content) {
     let trimmed = line.trim();
     if (!trimmed) return;
     
-    // Check if it's an example box or normal list
     if (trimmed.startsWith("*") || trimmed.startsWith("-")) {
-      // Styled example box
       const cleaned = trimmed.substring(1).trim();
       html += `<div class="lesson-example-box">${formatCitations(cleaned)}</div>`;
     } else {
-      // Normal paragraph
       html += `<p>${formatCitations(trimmed)}</p>`;
     }
   });
@@ -524,14 +524,10 @@ function formatLessonContent(content) {
 
 // Convert footnote numbers like "1, 2" or "3" into styled citation bubbles
 function formatCitations(text) {
-  // Regex to match citation footnote numbers at the end of clauses or sentences
-  // e.g. " 1", " 2, 3"
   let formatted = text;
   
-  // Highlight German expressions in quotes
   formatted = formatted.replace(/"([^"]+)"/g, '<strong>“$1”</strong>');
   
-  // Replace citation numbers
   formatted = formatted.replace(/\s+(\d+)(,\s*\d+)*/g, (match) => {
     const nums = match.trim().split(/\s*,\s*/);
     return nums.map(n => `<span class="citation" title="Kaynak Referans ${n}">${n}</span>`).join("");
@@ -546,7 +542,6 @@ function renderFlashcardScreen() {
   currentCardIndex = 0;
   updateFlashcardUI();
   
-  // Next/Previous triggers
   const prevBtn = document.getElementById("fc-prev-btn");
   const nextBtn = document.getElementById("fc-next-btn");
   
@@ -562,7 +557,6 @@ function renderFlashcardScreen() {
         currentCardIndex++;
         updateFlashcardUI();
       } else {
-        // Deck completed!
         state.completedToday.flashcards = true;
         state.xp += 20;
         saveState();
@@ -582,27 +576,27 @@ function updateFlashcardUI() {
   container.innerHTML = `
     <div class="flashcard" id="active-flashcard">
       <div class="card-face card-front">
-        <div style="font-size: 12px; color: var(--color-text-secondary); display:flex; justify-content:space-between;">
+        <div style="font-size: 11.5px; color: var(--color-text-tertiary); display:flex; justify-content:space-between;">
           <span>Kart ${currentCardIndex + 1} / ${FLASHCARDS.length}</span>
           <span>B1 Almanca</span>
         </div>
-        <div style="font-size: 20px; font-weight: 500; text-align: center; margin: auto 0; line-height:1.5;">
+        <div style="font-size: 17.5px; font-weight: 600; text-align: center; margin: auto 0; line-height:1.55;">
           ${card.front}
         </div>
         <div style="font-size: 11px; color: var(--color-text-tertiary); text-align: center;">
-          Çeviriyi görmek için tıkla
+          Türkçesini görmek için dokunun
         </div>
       </div>
       <div class="card-face card-back">
-        <div style="font-size: 12px; color: var(--color-text-secondary); display:flex; justify-content:space-between;">
+        <div style="font-size: 11.5px; color: var(--color-text-tertiary); display:flex; justify-content:space-between;">
           <span>Kart ${currentCardIndex + 1} / ${FLASHCARDS.length}</span>
-          <span>Türkçe Anlamı</span>
+          <span>Türkçe Karşılığı</span>
         </div>
-        <div style="font-size: 17px; font-weight: 500; text-align: center; margin: auto 0; line-height:1.6; color: var(--theme-purple);">
+        <div style="font-size: 15.5px; font-weight: 500; text-align: center; margin: auto 0; line-height:1.6; color: var(--theme-purple);">
           ${card.back}
         </div>
         <div style="font-size: 11px; color: var(--color-text-tertiary); text-align: center;">
-          Ön yüze dönmek için tıkla
+          Almancasını görmek için dokunun
         </div>
       </div>
     </div>
@@ -615,7 +609,6 @@ function updateFlashcardUI() {
     });
   }
   
-  // Disable prev button if first
   const prevBtn = document.getElementById("fc-prev-btn");
   if (prevBtn) {
     prevBtn.disabled = currentCardIndex === 0;
@@ -636,7 +629,6 @@ let correctAnswersCount = 0;
 function startNewQuiz() {
   showScreen("quiz");
   
-  // Shuffle and select 5 questions
   const shuffled = [...QUIZ_QUESTIONS].sort(() => 0.5 - Math.random());
   activeQuizQuestions = shuffled.slice(0, 5);
   currentQuestionIndex = 0;
@@ -651,30 +643,28 @@ function renderQuizQuestion() {
   
   const q = activeQuizQuestions[currentQuestionIndex];
   
-  // Header Info
   container.innerHTML = `
-    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 15px;">
-      <span style="font-size:13px; font-weight:500; color:var(--color-text-secondary);">Soru ${currentQuestionIndex + 1} / 5</span>
-      <div style="width: 100px; height: 6px; background: var(--color-border-primary); border-radius: 99px; overflow:hidden;">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 16px;">
+      <span class="ts" style="font-size:12.5px; font-weight:500;">Soru ${currentQuestionIndex + 1} / 5</span>
+      <div style="width: 80px; height: 5px; background: var(--color-border-primary); border-radius: 99px; overflow:hidden;">
         <div style="width: ${(currentQuestionIndex + 1) * 20}%; height:100%; background: var(--theme-coral); border-radius:99px;"></div>
       </div>
     </div>
     
-    <p style="font-size: 16px; font-weight: 600; line-height: 1.5; margin-bottom: 24px;">
+    <p style="font-size: 15px; font-weight: 600; line-height: 1.55; margin-bottom: 24px; color: var(--color-text-primary);">
       ${q.question}
     </p>
     
-    <div style="display:flex; flex-direction:column; gap:12px;" id="quiz-options-container">
+    <div style="display:flex; flex-direction:column; gap:11px;" id="quiz-options-container">
       ${q.options.map((opt, idx) => `
         <button class="quiz-option" data-idx="${idx}">
           <span>${opt}</span>
-          <i class="ti ti-circle" style="font-size:18px; color:var(--color-text-tertiary);"></i>
+          <i class="ti ti-circle" style="font-size:16px; color:var(--color-text-tertiary); flex-shrink:0; margin-left:8px;"></i>
         </button>
       `).join("")}
     </div>
   `;
   
-  // Bind options click listeners
   const options = container.querySelectorAll(".quiz-option");
   options.forEach(btn => {
     btn.addEventListener("click", () => {
@@ -688,30 +678,24 @@ function handleQuizAnswer(selectedIdx, clickedBtn, allOptions) {
   const q = activeQuizQuestions[currentQuestionIndex];
   const correctIdx = q.correct;
   
-  // Disable all options
   allOptions.forEach(opt => opt.disabled = true);
   
   if (selectedIdx === correctIdx) {
-    // Correct!
     clickedBtn.classList.add("correct");
     clickedBtn.querySelector("i").className = "ti ti-circle-check-filled";
     correctAnswersCount++;
     state.xp += 10;
   } else {
-    // Incorrect!
     clickedBtn.classList.add("incorrect");
     clickedBtn.querySelector("i").className = "ti ti-circle-x-filled";
     
-    // Highlight correct option
     const correctBtn = allOptions[correctIdx];
     correctBtn.classList.add("correct");
     correctBtn.querySelector("i").className = "ti ti-circle-check-filled";
   }
   
-  // Save State
   saveState();
   
-  // Load next question or complete after 1.8 seconds delay
   setTimeout(() => {
     currentQuestionIndex++;
     if (currentQuestionIndex < activeQuizQuestions.length) {
@@ -719,7 +703,7 @@ function handleQuizAnswer(selectedIdx, clickedBtn, allOptions) {
     } else {
       finishQuiz();
     }
-  }, 1800);
+  }, 1600);
 }
 
 function finishQuiz() {
@@ -727,39 +711,39 @@ function finishQuiz() {
   if (!container) return;
   
   state.completedToday.quiz = true;
-  state.streak++; // increment streak
-  state.xp += 25; // complete bonus
+  state.streak++;
+  state.xp += 25;
   saveState();
   updateStreakBadge();
   
   container.innerHTML = `
-    <div style="text-align: center; padding: 30px 10px; display:flex; flex-direction:column; align-items:center; gap:20px;">
-      <div class="c-coral" style="width: 72px; height: 72px; border-radius: 50%; display:flex; align-items:center; justify-content:center; box-shadow: var(--shadow-lg);">
-        <i class="ti ti-trophy" style="font-size:36px; color:#ffffff;"></i>
+    <div style="text-align: center; padding: 24px 10px; display:flex; flex-direction:column; align-items:center; gap:18px;">
+      <div style="width: 64px; height: 64px; border-radius: 50%; display:flex; align-items:center; justify-content:center; border: 1px solid var(--color-border-primary); background-color: var(--color-background-secondary); color: var(--theme-coral);">
+        <i class="ti ti-trophy" style="font-size:30px;"></i>
       </div>
       <div>
-        <h2 style="font-size:22px; font-weight:700; margin:0 0 8px;">Quiz Tamamlandı!</h2>
-        <p style="font-size:14px; color:var(--color-text-secondary); margin:0;">
-          Tebrikler Baris, bugünkü hızlı quizi bitirdin.
+        <h2 style="font-size:19px; font-weight:700; margin:0 0 6px;">Quiz Tamamlandı!</h2>
+        <p class="ts" style="font-size:13px; margin:0;">
+          Tebrikler Baris, bugünkü quizi başarıyla bitirdin.
         </p>
       </div>
       
-      <div style="background: var(--color-background-secondary); border-radius: var(--border-radius-lg); padding: 18px; width: 100%; display:grid; grid-template-columns: 1fr 1fr; gap:12px; margin: 10px 0;">
-        <div style="text-align:center; border-right: 1px solid var(--color-border-primary);">
-          <p style="font-size:12px; color:var(--color-text-secondary); margin:0 0 4px;">Skor</p>
-          <p style="font-size:20px; font-weight:700; margin:0; color:var(--theme-coral);">${correctAnswersCount} / 5</p>
+      <div style="background: var(--color-background-secondary); border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); padding: 16px; width: 100%; display:grid; grid-template-columns: 1fr 1fr; gap:12px; margin: 8px 0;">
+        <div style="text-align:center; border-right: 1px solid var(--color-border-secondary);">
+          <p class="ts" style="font-size:11px; margin:0 0 4px;">Skor</p>
+          <p style="font-size:18px; font-weight:700; margin:0; color:var(--theme-coral);">${correctAnswersCount} / 5</p>
         </div>
         <div style="text-align:center;">
-          <p style="font-size:12px; color:var(--color-text-secondary); margin:0 0 4px;">Kazanılan XP</p>
-          <p style="font-size:20px; font-weight:700; margin:0; color:var(--theme-teal);">+${correctAnswersCount * 10 + 25}</p>
+          <p class="ts" style="font-size:11px; margin:0 0 4px;">Kazanılan XP</p>
+          <p style="font-size:18px; font-weight:700; margin:0; color:var(--theme-teal);">+${correctAnswersCount * 10 + 25}</p>
         </div>
       </div>
       
-      <div style="display:flex; align-items:center; gap:8px; font-size:13px; font-weight:600; color:var(--theme-purple);">
-        <i class="ti ti-flame" style="font-size:18px;"></i> Günlük seri: ${state.streak} güne yükseldi!
+      <div style="display:flex; align-items:center; gap:6px; font-size:12.5px; font-weight:600; color:var(--theme-purple);">
+        <i class="ti ti-flame" style="font-size:16px;"></i> Seri: ${state.streak} Gün!
       </div>
       
-      <button class="c-purple" style="width:100%; border:none; padding:14px; border-radius:var(--border-radius-lg); font-size:14px; font-weight:600; cursor:pointer; color:#ffffff; margin-top:10px;" id="quiz-done-btn">
+      <button class="c-purple" style="width:100%; border:none; padding:12px; border-radius:var(--border-radius-lg); font-size:13.5px; font-weight:600; cursor:pointer; color:var(--color-background-primary); margin-top:10px;" id="quiz-done-btn">
         Ana Sayfaya Dön
       </button>
     </div>
@@ -772,14 +756,13 @@ function finishQuiz() {
 
 // ANALYTICS SCREEN RENDERING
 function renderAnalyticsScreen() {
-  // Overall progress
   const total = countTotalLessons();
   const completed = state.completedLessons.length;
   const pct = total > 0 ? Math.round((completed / total) * 100) : 0;
   
   document.getElementById("analytics-overall-percent").textContent = `${pct}%`;
   document.getElementById("analytics-completed-text").textContent = `${completed} / ${total} ders tamamlandı`;
-  document.getElementById("analytics-xp-text").textContent = `${state.xp} Toplam XP`;
+  document.getElementById("analytics-xp-text").textContent = `${state.xp} XP`;
   
   // Render categories progress details
   const detailsContainer = document.getElementById("analytics-categories-details");
@@ -801,19 +784,19 @@ function renderAnalyticsScreen() {
       const catPct = catTotal > 0 ? Math.round((catCompleted / catTotal) * 100) : 0;
       
       const item = document.createElement("div");
-      item.style = "border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); padding: 14px; margin-bottom:12px;";
+      item.style = "border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); padding: 12px 14px; margin-bottom:10px; background-color: var(--color-background-secondary);";
       item.innerHTML = `
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
           <div style="display:flex; align-items:center; gap:8px;">
-            <i class="ti ${cat.icon}" style="font-size:18px; color:var(--theme-${cat.color});"></i>
-            <span style="font-size:13.5px; font-weight:600;">${cat.name}</span>
+            <i class="ti ${cat.icon}" style="font-size:16px; color:var(--theme-${cat.color});"></i>
+            <span style="font-size:13px; font-weight:600;">${cat.name}</span>
           </div>
-          <span style="font-size:13px; font-weight:600; color:var(--theme-${cat.color});">${catPct}%</span>
+          <span style="font-size:12.5px; font-weight:600; color:var(--theme-${cat.color});">${catPct}%</span>
         </div>
-        <div style="height: 6px; background: var(--color-background-secondary); border-radius: 99px; overflow:hidden; margin-bottom:6px;">
+        <div style="height: 5px; background: var(--color-background-primary); border-radius: 99px; overflow:hidden; margin-bottom:6px; border:1px solid var(--color-border-secondary);">
           <div style="width: ${catPct}%; height:100%; background: var(--theme-${cat.color}); border-radius:99px;"></div>
         </div>
-        <div style="display:flex; justify-content:space-between; font-size:11px; color:var(--color-text-secondary);">
+        <div style="display:flex; justify-content:space-between; font-size:11px; color:var(--color-text-tertiary);">
           <span>${catCompleted}/${catTotal} ders</span>
           <span>${cat.subcategories.length} alt başlık</span>
         </div>
@@ -828,21 +811,18 @@ function renderAnalyticsScreen() {
     calendarGrid.innerHTML = "";
     const days = ["Pt", "Sa", "Ça", "Pe", "Cu", "Ct", "Pz"];
     
-    // Header row
     days.forEach(d => {
       const header = document.createElement("div");
-      header.style = "text-align:center; font-size:11px; font-weight:600; color:var(--color-text-tertiary); padding:4px 0;";
+      header.style = "text-align:center; font-size:11px; font-weight:600; color:var(--color-text-tertiary); padding:2px 0;";
       header.textContent = d;
       calendarGrid.appendChild(header);
     });
     
-    // Calendar days for past 4 weeks
     const today = new Date();
     const startDay = new Date();
-    startDay.setDate(today.getDate() - 27); // 4 weeks ago
+    startDay.setDate(today.getDate() - 27);
     
-    // Adjust start day to nearest Monday
-    const dayOfWeek = startDay.getDay(); // 0 is Sunday, 1 is Monday
+    const dayOfWeek = startDay.getDay();
     const diffToMonday = dayOfWeek === 0 ? 6 : dayOfWeek - 1;
     startDay.setDate(startDay.getDate() - diffToMonday);
     
@@ -854,13 +834,10 @@ function renderAnalyticsScreen() {
       cell.className = "calendar-day";
       cell.textContent = cellDate.getDate();
       
-      // Highlight today
       if (cellDate.toDateString() === today.toDateString()) {
         cell.classList.add("active");
       }
       
-      // Mock completed study days (streak indicator)
-      // Highlight past active days corresponding to our streak
       const dayDiff = Math.ceil((today - cellDate) / (1000 * 60 * 60 * 24));
       if (dayDiff > 0 && dayDiff <= state.streak) {
         cell.classList.add("completed");
@@ -875,13 +852,11 @@ function renderAnalyticsScreen() {
 function renderProfileScreen() {
   document.getElementById("profile-name-input").value = state.userName;
   
-  // Theme indicator display
   const switchEl = document.getElementById("profile-theme-switch");
   if (switchEl) {
     switchEl.onclick = toggleTheme;
   }
   
-  // Save button binding
   const saveBtn = document.getElementById("profile-save-btn");
   if (saveBtn) {
     saveBtn.onclick = () => {
@@ -895,7 +870,6 @@ function renderProfileScreen() {
     };
   }
   
-  // Reset progress binding
   const resetBtn = document.getElementById("profile-reset-btn");
   if (resetBtn) {
     resetBtn.onclick = () => {

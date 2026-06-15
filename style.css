@@ -1,73 +1,47 @@
-/* style.css - B1 German App Design System */
+/* style.css - B1 German App Design System (Minimalist Redesign) */
 
 :root {
-  /* Colors - Light Mode (Default) */
-  --color-background-primary: #ffffff;
-  --color-background-secondary: #f6f8fa;
-  --color-background-tertiary: #f0f3f6;
+  /* Colors - Minimalist Warm Dark Theme (Based on App_Tasarım.PNG) */
+  --color-background-primary: #30302e;   /* Main background (76.5%) */
+  --color-background-secondary: #262624; /* Card background (8.6%) */
+  --color-background-tertiary: #383835;  /* Hover / alternate background */
   
-  --color-border-primary: #e1e4e8;
-  --color-border-secondary: #eaecef;
-  --color-border-tertiary: #d1d5da;
+  --color-border-primary: #494947;     /* Thin borders (5.1%) */
+  --color-border-secondary: #3d3d3b;   /* Subtle divider border */
+  --color-border-tertiary: #494947;
   
-  --color-text-primary: #24292e;
-  --color-text-secondary: #586069;
-  --color-text-tertiary: #959da5;
-  --color-text-info: #0366d6;
+  --color-text-primary: #ffffff;       /* Primary text */
+  --color-text-secondary: #c2beb2;     /* Secondary text (warm light gray) */
+  --color-text-tertiary: #7c7c79;      /* Muted text */
+  --color-text-info: #80aadd;          /* Pastel blue info color */
   
-  /* Feature Colors */
-  --theme-purple: #8a3ffc;
-  --theme-purple-light: rgba(138, 63, 252, 0.08);
-  --theme-purple-gradient: linear-gradient(135deg, #a78bfa, #8a3ffc);
+  /* Pastel Accent Colors for features */
+  --theme-purple: #b19ffb;             /* Pastel purple */
+  --theme-purple-light: rgba(177, 159, 251, 0.12);
   
-  --theme-teal: #0f9788;
-  --theme-teal-light: rgba(15, 151, 136, 0.08);
-  --theme-teal-gradient: linear-gradient(135deg, #2dd4bf, #0f9788);
+  --theme-teal: #98b5b6;               /* Pastel teal */
+  --theme-teal-light: rgba(152, 181, 182, 0.12);
   
-  --theme-coral: #ff5c47;
-  --theme-coral-light: rgba(255, 92, 71, 0.08);
-  --theme-coral-gradient: linear-gradient(135deg, #fb923c, #ff5c47);
+  --theme-coral: #e88b7d;              /* Pastel coral */
+  --theme-coral-light: rgba(232, 139, 125, 0.12);
   
-  --theme-pink: #d946ef;
-  --theme-pink-light: rgba(217, 70, 239, 0.08);
-  --theme-pink-gradient: linear-gradient(135deg, #f472b6, #d946ef);
+  --theme-pink: #e89db5;               /* Pastel pink */
+  --theme-pink-light: rgba(232, 157, 181, 0.12);
 
   /* Shadows */
-  --shadow-sm: 0 1px 3px rgba(0,0,0,0.05);
-  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.08), 0 2px 4px -1px rgba(0,0,0,0.04);
-  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
-  --shadow-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.2);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.3);
+  --shadow-lg: 0 10px 20px rgba(0,0,0,0.4);
 
   /* Spacing & Borders */
   --border-radius-sm: 6px;
-  --border-radius-md: 12px;
-  --border-radius-lg: 16px;
-  --border-radius-xl: 24px;
+  --border-radius-md: 10px;
+  --border-radius-lg: 14px;
+  --border-radius-xl: 18px;
   --border-radius-full: 9999px;
   
-  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/* Dark Mode Variables Override */
-[data-theme="dark"] {
-  --color-background-primary: #121214;
-  --color-background-secondary: #1a1a1e;
-  --color-background-tertiary: #24242b;
-  
-  --color-border-primary: #2d2d34;
-  --color-border-secondary: #24242a;
-  --color-border-tertiary: #3e3e4a;
-  
-  --color-text-primary: #f3f4f6;
-  --color-text-secondary: #9ca3af;
-  --color-text-tertiary: #6b7280;
-  --color-text-info: #60a5fa;
-
-  --theme-purple-light: rgba(138, 63, 252, 0.15);
-  --theme-teal-light: rgba(15, 151, 136, 0.15);
-  --theme-coral-light: rgba(255, 92, 71, 0.15);
-  --theme-pink-light: rgba(217, 70, 239, 0.15);
+  --transition-fast: 0.15s ease-in-out;
+  --transition-normal: 0.25s ease-in-out;
 }
 
 /* Global Reset */
@@ -79,14 +53,13 @@
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  background-color: var(--color-background-secondary);
+  background-color: #1e1e1d; /* Slightly darker surrounding background for desktop contrast */
   color: var(--color-text-primary);
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   margin: 0;
-  transition: background-color var(--transition-normal);
   overflow-x: hidden;
 }
 
@@ -94,14 +67,12 @@ body {
 .app-container {
   width: 100%;
   height: 100vh;
-  max-width: 420px;
+  max-width: 380px; /* Aligns with mockup scale */
   background-color: var(--color-background-primary);
-  box-shadow: var(--shadow-lg);
   display: flex;
   flex-direction: column;
   position: relative;
   overflow: hidden;
-  transition: background-color var(--transition-normal);
 }
 
 @media (min-width: 480px) {
@@ -111,6 +82,7 @@ body {
     max-height: 880px;
     border-radius: var(--border-radius-xl);
     border: 1px solid var(--color-border-primary);
+    box-shadow: var(--shadow-lg);
   }
 }
 
@@ -122,58 +94,82 @@ body {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--color-border-tertiary);
+  background: var(--color-border-primary);
   border-radius: var(--border-radius-full);
 }
 ::-webkit-scrollbar-thumb:hover {
   background: var(--color-text-tertiary);
 }
 
-/* Header Gradient Themes */
-.c-purple {
-  background: var(--theme-purple-gradient);
-  color: #ffffff;
-}
-.c-teal {
-  background: var(--theme-teal-gradient);
-  color: #ffffff;
-}
-.c-coral {
-  background: var(--theme-coral-gradient);
-  color: #ffffff;
-}
-.c-pink {
-  background: var(--theme-pink-gradient);
-  color: #ffffff;
+/* Clean Category Cards & Header blocks */
+.c-purple, .c-teal, .c-coral, .c-pink {
+  background-color: var(--color-background-secondary) !important;
+  border: 1px solid var(--color-border-primary) !important;
+  color: var(--color-text-primary) !important;
 }
 
-/* Theme Outlines & Badges */
+.c-purple i { color: var(--theme-purple) !important; }
+.c-teal i { color: var(--theme-teal) !important; }
+.c-coral i { color: var(--theme-coral) !important; }
+.c-pink i { color: var(--theme-pink) !important; }
+
+/* Inverted/Badge styling */
 .c-purple-bg {
   background-color: var(--theme-purple-light);
   color: var(--theme-purple);
+  border: 1px solid rgba(177, 159, 251, 0.2);
 }
 .c-teal-bg {
   background-color: var(--theme-teal-light);
   color: var(--theme-teal);
+  border: 1px solid rgba(152, 181, 182, 0.2);
 }
 .c-coral-bg {
   background-color: var(--theme-coral-light);
   color: var(--theme-coral);
+  border: 1px solid rgba(232, 139, 125, 0.2);
 }
 .c-pink-bg {
   background-color: var(--theme-pink-light);
   color: var(--theme-pink);
+  border: 1px solid rgba(232, 157, 181, 0.2);
 }
 
-/* Mockup Typography helper classes */
+/* Header customization: flat warm background */
+#home-screen > div:first-child {
+  background-color: var(--color-background-secondary);
+  border-bottom: 1px solid var(--color-border-primary);
+  border-radius: 0 0 var(--border-radius-xl) var(--border-radius-xl) !important;
+  padding: 22px 20px 24px !important;
+}
+
+/* Streak flame counter */
+#streak-counter {
+  background: var(--color-background-tertiary) !important;
+  border: 1px solid var(--color-border-primary);
+  color: var(--theme-coral) !important;
+}
+
+/* B1 Progress progress wrapper */
+#home-screen > div:first-child > div:last-child {
+  background: var(--color-background-primary) !important;
+  border: 1px solid var(--color-border-primary);
+  border-radius: var(--border-radius-lg);
+}
+
+#progress-bar-fill {
+  background-color: var(--theme-teal) !important;
+}
+
+/* Typography Helpers */
 .t {
-  color: inherit;
+  color: var(--color-text-primary);
 }
 .ts {
-  opacity: 0.85;
+  color: var(--color-text-secondary);
 }
 
-/* Navigation System styles */
+/* Navigation System */
 .app-content {
   flex: 1;
   overflow-y: auto;
@@ -186,7 +182,7 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
-  animation: fadeIn 0.3s ease;
+  animation: fadeIn 0.25s ease-out;
 }
 
 .hidden {
@@ -194,7 +190,7 @@ body {
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
+  from { opacity: 0; transform: translateY(4px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
@@ -202,10 +198,9 @@ body {
 .bottom-nav {
   display: flex;
   border-top: 1px solid var(--color-border-primary);
-  background: var(--color-background-primary);
-  padding: 10px 0;
+  background: var(--color-background-secondary);
+  padding: 12px 0 10px;
   z-index: 10;
-  transition: background-color var(--transition-normal), border-color var(--transition-normal);
 }
 
 .nav-item {
@@ -216,7 +211,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2px;
+  gap: 3px;
   transition: color var(--transition-fast), transform var(--transition-fast);
   background: none;
   border: none;
@@ -225,7 +220,7 @@ body {
 }
 
 .nav-item i {
-  font-size: 22px;
+  font-size: 20px;
   transition: transform var(--transition-fast);
 }
 
@@ -234,17 +229,19 @@ body {
 }
 
 .nav-item.active {
-  color: var(--color-text-info);
+  color: var(--theme-purple);
 }
 
 .nav-item.active i {
-  transform: translateY(-2px);
+  transform: translateY(-1px);
 }
 
 /* Interactive Elements & Cards */
 .interactive-card {
-  transition: transform var(--transition-fast), box-shadow var(--transition-fast), border-color var(--transition-fast);
+  transition: transform var(--transition-fast), border-color var(--transition-fast), background-color var(--transition-fast);
   cursor: pointer;
+  background-color: var(--color-background-secondary);
+  border: 1px solid var(--color-border-primary);
 }
 
 .interactive-card:active {
@@ -252,8 +249,8 @@ body {
 }
 
 .interactive-card:hover {
-  border-color: var(--color-border-tertiary);
-  box-shadow: var(--shadow-sm);
+  border-color: var(--color-text-tertiary);
+  background-color: var(--color-background-tertiary);
 }
 
 /* Dynamic Grid layouts */
@@ -271,16 +268,8 @@ body {
 }
 
 .lesson-body p {
-  margin-bottom: 1rem;
-}
-
-.lesson-body ul, .lesson-body ol {
-  margin-bottom: 1rem;
-  padding-left: 1.5rem;
-}
-
-.lesson-body li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.1rem;
+  color: var(--color-text-secondary);
 }
 
 .lesson-body strong {
@@ -288,20 +277,19 @@ body {
   color: var(--color-text-primary);
 }
 
-.lesson-body code, .lesson-body pre {
-  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
-  background-color: var(--color-background-secondary);
-  padding: 0.2em 0.4em;
-  border-radius: 4px;
-  font-size: 85%;
-}
-
 .lesson-example-box {
   background-color: var(--color-background-secondary);
-  border-left: 4px solid var(--theme-purple);
-  padding: 12px 16px;
+  border-left: 3px solid var(--theme-purple);
+  padding: 10px 14px;
   border-radius: 0 var(--border-radius-md) var(--border-radius-md) 0;
-  margin: 1.25rem 0;
+  margin: 1.1rem 0;
+  border-top: 1px solid var(--color-border-primary);
+  border-right: 1px solid var(--color-border-primary);
+  border-bottom: 1px solid var(--color-border-primary);
+}
+
+.lesson-example-box strong {
+  color: var(--theme-purple);
 }
 
 /* Footnotes & Citations */
@@ -311,32 +299,31 @@ body {
   justify-content: center;
   background-color: var(--color-background-tertiary);
   color: var(--color-text-info);
-  font-size: 10px;
+  font-size: 9px;
   font-weight: bold;
   border-radius: 50%;
-  width: 14px;
-  height: 14px;
+  width: 13px;
+  height: 13px;
   vertical-align: super;
   margin-left: 2px;
-  text-decoration: none;
+  border: 1px solid var(--color-border-primary);
 }
 
-/* Quiz Screen Style rules */
+/* Quiz Screen */
 .quiz-container {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 14px;
   padding: 20px;
-  flex: 1;
 }
 
 .quiz-option {
-  background-color: var(--color-background-primary);
+  background-color: var(--color-background-secondary);
   border: 1px solid var(--color-border-primary);
   border-radius: var(--border-radius-lg);
-  padding: 16px;
+  padding: 14px 16px;
   text-align: left;
-  font-size: 14px;
+  font-size: 13.5px;
   font-weight: 500;
   cursor: pointer;
   transition: all var(--transition-fast);
@@ -347,20 +334,19 @@ body {
 }
 
 .quiz-option:hover {
-  background-color: var(--color-background-secondary);
-  border-color: var(--color-border-tertiary);
+  background-color: var(--color-background-tertiary);
 }
 
 .quiz-option.correct {
-  background-color: rgba(16, 185, 129, 0.1);
-  border-color: #10b981;
-  color: #047857;
+  background-color: rgba(152, 181, 182, 0.15) !important;
+  border-color: var(--theme-teal) !important;
+  color: var(--theme-teal) !important;
 }
 
 .quiz-option.incorrect {
-  background-color: rgba(239, 68, 68, 0.1);
-  border-color: #ef4444;
-  color: #b91c1c;
+  background-color: rgba(232, 139, 125, 0.15) !important;
+  border-color: var(--theme-coral) !important;
+  color: var(--theme-coral) !important;
 }
 
 .quiz-option:disabled {
@@ -368,23 +354,23 @@ body {
   pointer-events: none;
 }
 
-/* Flashcards Screen Style rules */
+/* Flashcards */
 .flashcard-deck {
   perspective: 1000px;
   width: 100%;
-  height: 320px;
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px 0;
+  margin: 15px 0;
 }
 
 .flashcard {
-  width: 90%;
+  width: 92%;
   height: 100%;
   position: relative;
   transform-style: preserve-3d;
-  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
 
@@ -397,17 +383,16 @@ body {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  border-radius: var(--border-radius-xl);
-  padding: 28px;
+  border-radius: var(--border-radius-lg);
+  padding: 24px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  box-shadow: var(--shadow-lg);
   border: 1px solid var(--color-border-primary);
 }
 
 .card-front {
-  background-color: var(--color-background-primary);
+  background-color: var(--color-background-secondary);
   color: var(--color-text-primary);
 }
 
@@ -417,11 +402,11 @@ body {
   transform: rotateY(180deg);
 }
 
-/* Profile Switcher */
+/* Profile switch */
 .theme-switch {
-  width: 50px;
-  height: 26px;
-  background-color: var(--color-border-tertiary);
+  width: 44px;
+  height: 24px;
+  background-color: var(--color-border-primary);
   border-radius: 99px;
   position: relative;
   cursor: pointer;
@@ -431,10 +416,10 @@ body {
 .theme-switch::before {
   content: '';
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: var(--color-background-primary);
   top: 3px;
   left: 3px;
   transition: transform var(--transition-fast);
@@ -445,14 +430,14 @@ body {
 }
 
 [data-theme="dark"] .theme-switch::before {
-  transform: translateX(24px);
+  transform: translateX(20px);
 }
 
-/* Streak Calendar Grid styles */
+/* Streak calendar */
 .calendar-grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  gap: 6px;
+  gap: 5px;
   margin-top: 10px;
 }
 
@@ -462,7 +447,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 11px;
-  font-weight: 600;
+  font-weight: 500;
   border-radius: var(--border-radius-sm);
   background-color: var(--color-background-secondary);
   color: var(--color-text-secondary);
@@ -471,47 +456,44 @@ body {
 
 .calendar-day.active {
   background-color: var(--theme-purple);
-  color: #ffffff;
+  color: var(--color-background-primary);
   border-color: var(--theme-purple);
 }
 
 .calendar-day.completed {
-  background: var(--theme-teal-gradient);
-  color: #ffffff;
+  background: var(--theme-teal);
+  color: var(--color-background-primary);
   border-color: var(--theme-teal);
 }
 
-/* Category Detail styles */
-.subcategories-list {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
+/* Category Details & Sitemap Lists */
 .subcategory-item {
   border: 1px solid var(--color-border-primary);
   border-radius: var(--border-radius-lg);
+  background-color: var(--color-background-secondary);
   overflow: hidden;
 }
 
 .subcategory-header {
-  padding: 14px 16px;
+  padding: 12px 16px;
   background-color: var(--color-background-secondary);
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
   font-weight: 500;
+  font-size: 14px;
 }
 
 .lessons-list {
   display: flex;
   flex-direction: column;
   border-top: 1px solid var(--color-border-primary);
+  background-color: var(--color-background-primary);
 }
 
 .lesson-item {
-  padding: 12px 20px;
+  padding: 10px 18px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -525,26 +507,71 @@ body {
 }
 
 .lesson-item:hover {
-  background-color: var(--color-background-secondary);
+  background-color: var(--color-background-tertiary);
 }
 
 .lesson-item.completed {
-  background-color: rgba(16, 185, 129, 0.03);
+  background-color: rgba(152, 181, 182, 0.04);
 }
 
 .lesson-item-title {
-  font-size: 13.5px;
+  font-size: 13px;
   font-weight: 500;
+  color: var(--color-text-secondary);
+}
+
+.lesson-item:hover .lesson-item-title {
+  color: var(--color-text-primary);
 }
 
 .lesson-status-icon {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .lesson-status-icon.completed {
-  color: #10b981;
+  color: var(--theme-teal);
 }
 
 .lesson-status-icon.incomplete {
   color: var(--color-text-tertiary);
+}
+
+/* Sitemap tab navigation */
+.category-tab-btn {
+  transition: all var(--transition-fast) !important;
+}
+
+.category-tab-btn.active {
+  color: var(--theme-purple) !important;
+  border-bottom-color: var(--theme-purple) !important;
+}
+
+/* Buttons style override */
+button.c-teal, button.c-purple {
+  border: 1px solid var(--color-border-primary) !important;
+}
+
+button.c-teal {
+  background-color: var(--theme-teal) !important;
+  color: var(--color-background-primary) !important;
+}
+
+button.c-purple {
+  background-color: var(--theme-purple) !important;
+  color: var(--color-background-primary) !important;
+}
+
+/* Light Mode Overrides if requested */
+[data-theme="light"] {
+  --color-background-primary: #f6f5f2;
+  --color-background-secondary: #ffffff;
+  --color-background-tertiary: #efeee9;
+  
+  --color-border-primary: #d5d3cb;
+  --color-border-secondary: #e5e3db;
+  
+  --color-text-primary: #2b2b2a;
+  --color-text-secondary: #656460;
+  --color-text-tertiary: #9d9c96;
+  --color-text-info: #497aa5;
 }
