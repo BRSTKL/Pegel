@@ -1397,7 +1397,7 @@ button.c-teal i, button.c-purple i {
   margin-bottom: 20px;
   color: var(--color-text-primary);
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.02);
-  max-height: 260px;
+  max-height: 420px;
   overflow-y: auto;
   text-align: left;
 }
