@@ -1,0 +1,114 @@
+===========================================================================
+TELC B1 - SPEZIALTRAINING 4: DIE "ZWEI-GESICHTER"-VERBEN (VARIANTEN)
+===========================================================================
+
+TEIL 1: SPRACHBAUSTEINE - MULTIPLE CHOICE
+Wählen Sie für jede Lücke (1-5) die richtige Option (a, b oder c).
+
+Betreff: Wichtige Entscheidung für meine berufliche Zukunft
+
+Liebe Marie,
+
+ich muss dir von einer großen Veränderung erzählen. Wie du weißt, war ich in meinem alten Job unglücklich, weil der ständige Lärm im Großraumbüro (1) jeden Tag extrem geärgert hat. Ich konnte mich einfach nicht mehr konzentrieren. 
+
+Deshalb habe ich mich letzte Woche dazu entschieden, die Firma zu verlassen. Mein alter Chef war traurig, aber ich kann (2) auf meine Fähigkeiten und meine Erfahrung verlassen. Ich möchte einen Neuanfang wagen.
+
+Gestern hatte ich bereits ein Gespräch bei einer neuen Agentur. Ich ärgere (3) jetzt überhaupt nicht mehr, dass ich das Risiko eingegangen bin, denn das Team dort wirkt super nett. Ich hoffe, sie (4) mir nächste Woche ein gutes Angebot. Ich freue (5) schon sehr auf die Antwort!
+
+Viele Grüße
+Laura
+
+1. 
+a) mich
+b) mir
+c) mich nicht (kein Pronomen nötig / sadece "mich") -> *Hinweis: Akkusativ-Objekt "mich" ist gemeint*
+   *Korrektur der Optionen für die Prüfung:*
+   a) mich
+   b) sich
+   c) mir
+
+2. 
+a) mich
+b) mir
+c) sich
+
+3. 
+a) mir
+b) sich
+c) mich
+
+4. 
+a) machen
+b) machen sich
+c) machen mir
+
+5. 
+a) mich
+b) mir
+c) sich
+
+---------------------------------------------------------------------------
+
+TEIL 2: SPRACHBAUSTEINE - WORTLISTE
+Setzen Sie die passenden Wörter aus der Liste (a-j) in die Lücken (6-10) ein. 
+Achtung: Fünf Wörter bleiben übrig!
+
+Betreff: Unser Umzug und neue Nachbarn
+
+Lieber Jonas,
+
+wir sind endlich in die neue Wohnung eingezogen. Der Umzug war anstrengend, aber wir mussten die alte Wohnung einfach (6), weil sie viel zu klein für uns war.
+
+Am ersten Tag gab es ein kleines Problem: Die laute Musik der Nachbarn hat (7) beim Auspacken ziemlich geärgert. Ich bin dann höflich zu ihnen gegangen und habe mit ihnen gesprochen. Sie waren sehr verständnisvoll. Jetzt ärgere ich (8) überhaupt nicht mehr über sie, denn sie sind eigentlich sehr höflich.
+
+Wir müssen uns im neuen Viertel erst noch einleben, aber wir können (9) zum Glück voll auf die Hilfe unserer Freunde verlassen. Wir freuen (10) schon darauf, wenn alles fertig dekoriert ist!
+
+Bis bald und liebe Grüße
+Maximilian
+
+a) MICH
+b) UNS
+c) SICH
+d) VERLASSEN
+e) ÄRGERN
+f) DIR
+g) MIR
+h) DAMIT
+i) DASS
+j) WEIL
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL UND ERKLÄRUNGEN (CEVAP ANAHTARI)
+===========================================================================
+
+1. a) MICH
+-> Açıklama: "ärgern" fiili burada zamirsiz kullanılmıştır çünkü "gürültü başkasını (beni) sinir ediyor" anlamı vardır. "Der Lärm hat mich geärgert" (Gürültü beni sinirlendirdi) cümlesindeki "mich", dönüşlü zamir değil, fiilin doğrudan aldığı Akkusativ nesnesidir.
+
+2. a) MICH
+-> Açıklama: "sich verlassen auf + Akkusativ" (birine/bir şeye güvenmek) fiilidir. "verlassen" tek başına "terk etmek" iken, yanına dönüşlü zamir aldığında "güvenmek" olur. "Ich" öznesinden dolayı boşluğa "mich" gelir[cite: 5].
+
+3. c) CH
+-> Açıklama: "sich ärgern" (sinirlenmek/kızmak). Kişi kendi kendine sinirlendiğini veya artık sinirlenmediğini belirttiği için fiil "İki Yüzlü" doğasına uygun olarak dönüşlü zamir (mich) alır[cite: 5].
+
+4. a) MACHEN
+-> Açıklama: "ein Angebot machen" (teklif yapmak) normal bir fiil kombinasyonudur, dönüşlü bir yapı barındırmaz. "Sie machen mir ein Angebot" (Bana bir teklif yapıyorlar) cümlesinde "mir" şahıs zamiridir.
+
+5. a) MICH
+-> Açıklama: "sich freuen auf" (bir şeye sevinmek) fiili "ich" öznesiyle her zaman Akkusativ dönüşlü zamir olan "mich" kelimesini gerektirir.
+
+6. d) VERLASSEN
+-> Açıklama: Burada fiil zamirsiz kullanılmıştır çünkü "bir yeri terk etmek/evden çıkmak" anlamı taşır[cite: 5]. "Wir mussten die Wohnung verlassen" (Daireyi terk etmek zorundaydık) cümlesinde dönüşlü zamir kullanılmaz[cite: 5].
+
+7. a) MICH
+-> Açıklama: Tıpkı Teil 1'deki ilk soruda olduğu gibi, "müzik başkasını (beni) sinir etti" anlamı vardır[cite: 5]. Bu yüzden nesne olarak "mich" (beni) gelir[cite: 5].
+
+8. a) MICH
+-> Açıklama: "Ben artık sinirlenmiyorum" anlamında kendi duygusunu belirttiği için "ich ärgere mich" şeklinde dönüşlü yapı kurulur[cite: 5].
+
+9. b) UNS
+-> Açıklama: "sich verlassen auf" (güvenmek) fiili "wir" (biz) öznesine göre çekimlenmiştir[cite: 5]. "Biz arkadaşlarımıza güvenebiliriz" anlamında "wir können uns verlassen" şeklinde Akkusativ dönüşlü zamir (uns) yerleşir[cite: 5].
+
+10. b) UNS
+-> Açıklama: "sich freuen auf" fiilinin "wir" öznesine göre çekimlenmiş halidir. Boşluğa "uns" gelir.
+
+(Teil 2 için boşa kalan tuzak kelimeler: c, e, f, g, h, i, j)

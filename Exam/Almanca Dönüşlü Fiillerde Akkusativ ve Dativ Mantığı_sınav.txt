@@ -1,0 +1,110 @@
+===========================================================================
+TELC B1 - SPEZIALTRAINING: REFLEXIVE VERBEN (AKKUSATIV VS. DATIV)
+===========================================================================
+
+TEIL 1: SPRACHBAUSTEINE - MULTIPLE CHOICE
+Wählen Sie für jede Lücke (1-5) die richtige Option (a, b oder c).
+
+Betreff: Vorbereitungen für das Bewerbungsgespräch morgen!
+
+Liebe Marie,
+
+ich bin im Moment so nervös wegen meines großen Vorstellungsgesprächs morgen. Ich muss mich heute Abend gut ausruhen und (1) früh ins Bett legen. 
+
+Morgen früh läuft alles nach Plan: Zuerst wasche ich (2) das Gesicht mit kaltem Wasser, damit ich wach werde, und dann kämme ich (3) die Haare. Ich habe mir schon ein schickes Hemd ausgesucht. Ich hoffe, ich ziehe (4) passend an.
+
+Ich muss (5) wirklich beeilen, da der Termin schon um 8:00 Uhr beginnt. Drück mir die Daumen!
+
+Viele Grüße
+Laura
+
+1. 
+a) mir
+b) mich
+c) sich
+
+2. 
+a) mir
+b) mich
+c) dir
+
+3. 
+a) mich
+b) dir
+c) mir
+
+4. 
+a) mir
+b) mich
+c) dich
+
+5. 
+a) mich
+b) mir
+c) sich
+
+---------------------------------------------------------------------------
+
+TEIL 2: SPRACHBAUSTEINE - WORTLISTE
+Setzen Sie die passenden Wörter aus der Liste (a-j) in die Lücken (6-10) ein. 
+Achtung: Fünf Wörter bleiben übrig!
+
+Betreff: Mein neuer Alltag in Berlin
+
+Lieber Jonas,
+
+ich habe eingelebt und mein neuer Alltag in Berlin hat begonnen. Am Anfang war es schwer, aber ich merke (6) langsam die Namen der U-Bahn-Stationen. Ich muss (7) im Studium wirklich konzentrieren, da die Professoren sehr schnell sprechen.
+
+Manchmal bilde ich (8) ein, dass Deutsch viel zu schwer für mich ist, aber meine Mitbewohner helfen mir sehr. Wenn wir zusammen kochen, waschen wir (9) vor dem Essen immer gründlich die Hände. 
+
+Morgen Abend gehen wir zusammen ins Kino. Wir freuen (10) schon sehr auf den Film! Wie geht es dir?
+
+Herzliche Grüße
+Lucas
+
+a) UNS
+b) MICH
+c) SICH
+d) MIR
+e) EUCH
+f) DICH
+g) DIR
+h) DARÜBER
+i) DAMIT
+j) DASS
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL UND ERKLÄRUNGEN (CEVAP ANAHTARI)
+===========================================================================
+
+1. b) MICH
+-> Açıklama: "sich hinlegen" (uzanmak/yatmak) fiilinde eylemi yapan ve etkilenen sadece kişinin kendisidir. Cümlede "başka bir nesne" olmadığı için ana koltuğa Akkusativ (mich) oturur.
+
+2. a) MIR
+-> Açıklama: "sich waschen" fiili normalde Akkusativ alır. Ancak cümleye "das Gesicht" (yüz) şeklinde ekstra bir nesne/uzuv dahil olmuştur. Bu yeni nesne Akkusativ koltuğunu kaptığı için, dönüşlü zamir mecburen Dativ (mir) koltuğuna geçer.
+
+3. c) MIR
+-> Açıklama: Tıpkı 2. soruda olduğu gibi, "die Haare" (saçlar) nesnesi Akkusativ koltuğunu işgal etmiştir. Bu yüzden "kämme ich mir die Haare" şeklinde Dativ kullanılır.
+
+4. b) MICH
+-> Açıklama: "sich anziehen" (giyinmek). Cümlede "ne giyildiği" (örneğin bir ceket veya kazak) belirtilmemiştir. Tek nesne kişinin kendisi olduğu için Akkusativ (mich) doğru cevaptır.
+
+5. a) MICH
+-> Açıklama: "sich beeilen" (acele etmek) fiili "Doğuştan Sabit (Gerçek Dönüşlü)" bir fiildir. Kurallara bakmaksızın her zaman Akkusativ (mich/dich/sich) ile kullanılır.
+
+6. d) MIR
+-> Açıklama: "sich etwas merken" (bir şeyi aklında tutman/ezberlemek) fiili doğuştan sabit bir şekilde Dativ koltuğuna oturur. Özlemiz "ich" olduğu için boşluğa "mir" gelir.
+
+7. b) MICH
+-> Açıklama: "sich konzentrieren auf" (bir şeye konsantre olmak) fiilinde ana koltukta ek bir nesne yoktur (edatlı tümleç vardır). Bu yüzden her zaman Akkusativ (mich) gerektirir.
+
+8. d) MIR
+-> Açıklama: "sich etwas einbilden" (hayal etmek/kuruntu yapmak) fiili de tıpkı "merken" gibi doğuştan ayarlıdır ve her zaman Dativ (mir/dir) koltuğunu kullanır.
+
+9. a) UNS
+-> Açıklama: Özlemiz "wir" (biz). Cümlede "die Hände" (eller) nesnesi Akkusativ koltuğunu kaptığı için dönüşlü zamirimiz Dativ olmalıdır. "Wir" zamirinin Dativ hali de Akkusativ hali de "uns" olduğu için doğru seçenek "uns" olur.
+
+10. a) UNS
+-> Açıklama: "sich freuen auf" (bir şeye sevinmek) fiilinde "wir" öznesine uygun olarak Akkusativ nesne aranır. "Wir" için dönüşlü zamir "uns" olarak yerleşir.
+
+(Teil 2 için boşa kalan tuzak kelimeler: c, e, f, g, h, i, j)

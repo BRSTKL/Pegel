@@ -1,0 +1,111 @@
+===========================================================================
+TELC B1 - SPEZIALTRAINING 2: REFLEXIVE VERBEN (AKKUSATIV VS. DATIV)
+===========================================================================
+
+TEIL 1: SPRACHBAUSTEINE - MULTIPLE CHOICE
+Wählen Sie für jede Lücke (1-5) die richtige Option (a, b oder c).
+
+Betreff: Ein stressiger Morgen vor der Prüfung!
+
+Lieber Felix,
+
+heute Morgen war totales Chaos bei mir. Mein Wecker hat nicht geklingelt und ich musste (1) extrem beeilen, um nicht zu spät zu kommen. 
+
+Ich bin schnell ins Badezimmer gerannt. Ich putzte (2) hastig die Zähne und wusch (3) schnell das Gesicht mit eiskaltem Wasser. Es blieb keine Zeit für ein langes Frühstück. Ich schnappte mir eine Banane und zog (4) schnell meine warme Jacke an. 
+
+Ich hoffe sehr, ich merke (5) in der Prüfung alle wichtigen Grammatikregeln. Drück mir die Daumen!
+
+Herzliche Grüße
+Jonas
+
+1. 
+a) mir
+b) mich
+c) sich
+
+2. 
+a) mich
+b) dir
+c) mir
+
+3. 
+a) mir
+b) mich
+c) sich
+
+4. 
+a) mir
+b) mich
+c) dich
+
+5. 
+a) mich
+b) mir
+c) sich
+
+---------------------------------------------------------------------------
+
+TEIL 2: SPRACHBAUSTEINE - WORTLISTE
+Setzen Sie die passenden Wörter aus der Liste (a-j) in die Lücken (6-10) ein. 
+Achtung: Fünf Wörter bleiben übrig!
+
+Betreff: Vorbereitungen für das Winterfest
+
+Liebe Emma,
+
+wir stecken mitten in den Vorbereitungen für das große Winterfest an unserer Sprachschule. Wir müssen (6) gut organisieren, damit alles rechtzeitig fertig wird. Die Lehrer und Schüler teilen sich die Aufgaben.
+
+Ich koche zusammen mit Sarah eine Suppe. Bevor wir das Gemüse schneiden, waschen wir (7) natürlich gründlich die Hände. Einige Mitschüler ziehen (8) lustige Kostüme an, um die Gäste zu unterhalten. 
+
+Manchmal bilde ich (9) ein, dass wir zu wenig Dekoration haben, aber Laura beruhigt mich immer wieder. Wir freuen (10) schon riesig auf diesen gemeinsamen Abend!
+
+Bis bald und liebe Grüße
+Maximilian
+
+a) UNS
+b) MICH
+c) SICH
+d) MIR
+e) EUCH
+f) DICH
+g) DIR
+h) DAMIT
+i) DASS
+j) WEIL
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL UND ERKLÄRUNGEN (CEVAP ANAHTARI)
+===========================================================================
+
+1. b) MICH
+-> Açıklama: "sich beeilen" (acele etmek) fiili "Doğuştan Sabit (Gerçek Dönüşlü)" bir fiildir[cite: 3]. Cümle yapısına veya harici bir nesneye bakılmaksızın her zaman Akkusativ (mich/dich/sich) koltuğunu kullanır[cite: 3].
+
+2. c) MIR
+-> Açıklama: "sich putzen" fiilinde cümleye "die Zähne" (dişler) şeklinde harici bir nesne dahil olmuştur[cite: 3]. Bu nesne Akkusativ koltuğunu kaptığı için, dönüşlü zamir mecburen Dativ (mir) koltuğuna geçer[cite: 3].
+
+3. a) MIR
+-> Açıklama: Tıpkı diş fırçalama örneğinde olduğu gibi, "das Gesicht" (yüz) nesnesi ana koltuğu (Akkusativ) kapmıştır[cite: 3]. Bu yüzden "wusch ich mir das Gesicht" şeklinde Dativ kullanılır[cite: 3].
+
+4. b) MICH
+-> Açıklama: "sich anziehen" (giyinmek) eyleminde, eğer "ne giyildiği" (ceket, gömlek vb.) doğrudan belirtilmeseydi Akkusativ olurdu. ANCAK bu cümlede "meine warme Jacke" (sıcak ceketimi) nesnesi Akkusativ koltuğuna oturduğu için, buradaki dönüşlü zamir aslında Dativ (mir) olmalıdır. 
+*NOT: "ich zog mir schnell meine warme Jacke an" cümlesinde "mir" (Dativ) doğru seçenektir. Yukarıdaki şıklarda "mir" (a) seçeneğidir. Doğru Cevap: a) mir.*
+
+5. b) MIR
+-> Açıklama: "sich etwas merken" (bir şeyi akılda tutmak) fiili doğuştan Dativ ayarlıdır[cite: 3]. Özlemiz "ich" olduğu için boşluğa "mir" koltuğu gelir[cite: 3].
+
+6. a) UNS
+-> Açıklama: "sich organisieren" (organize olmak) fiilinde "wir" (biz) öznesine uygun olarak Akkusativ nesne aranır. Cümlede başka harici bir nesne olmadığı için ana koltuğa Akkusativ olarak "uns" yerleşir[cite: 3].
+
+7. a) UNS
+-> Açıklama: "sich waschen" fiilinde "die Hände" (eller) nesnesi Akkusativ koltuğunu kapmıştır[cite: 3]. Bu yüzden dönüşlü zamir Dativ olmalıdır[cite: 3]. "Wir" zamirinin Dativ hali de "uns" olduğu için cevap "uns" olur.
+
+8. c) SICH
+-> Açıklama: "Einige Mitschüler" (Bazı sınıf arkadaşları) yani "sie" (onlar - çoğul) öznesi mevcuttur. Cümlede "lustige Kostüme" nesnesi Akkusativ koltuğunu kaptığı için[cite: 3] dönüşlü zamir Dativ olmak zorundadır[cite: 3]. Çoğul "sie" zamirinin Dativ dönüşlü hali de "sich" olduğu için cevap "sich" kelimesidir.
+
+9. d) MIR
+-> Açıklama: "sich etwas einbilden" (hayal etmek/kuruntu yapmak) fiili kurallara bakmayan, doğuştan Dativ koltuğuna ayarlı bir fiildir[cite: 3]. "Ich" öznesinden dolayı boşluğa "mir" gelir[cite: 3].
+
+10. a) UNS
+-> Açıklama: "sich freuen auf" (bir şeye sevinmek) fiilinde "wir" öznesine uygun olarak Akkusativ dönüşlü zamir aranır ve "uns" olarak yerleştirilir.
+
+(Teil 2 için boşa kalan tuzak kelimeler: e, f, g, h, i, j)

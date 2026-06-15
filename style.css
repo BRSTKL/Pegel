@@ -588,6 +588,11 @@ button.c-purple {
   box-shadow: 0 4px 12px rgba(177, 159, 251, 0.2) !important;
 }
 
+button.c-teal i, button.c-purple i {
+  color: #ffffff !important;
+}
+
+
 /* Light Mode Overrides */
 [data-theme="light"] {
   --color-background-primary: #f6f5f2;
