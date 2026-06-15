@@ -1273,3 +1273,60 @@ button.c-purple {
   color: #fff;
   border-color: #ef4444;
 }
+
+/* ==================== Leseverstehen Teil 2 Options ==================== */
+.leseverstehen-t2-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: var(--border-radius-md);
+  border: 1px solid var(--color-border-primary);
+  background: var(--color-background-primary);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--color-text-secondary);
+}
+
+.leseverstehen-t2-option:hover {
+  border-color: var(--theme-purple);
+  background: rgba(177, 159, 251, 0.05);
+}
+
+.leseverstehen-t2-option.selected {
+  border-color: var(--theme-purple);
+  background: rgba(177, 159, 251, 0.12);
+  color: var(--color-text-primary);
+}
+
+.leseverstehen-t2-option.selected .option-letter-circle {
+  background: var(--theme-purple);
+  color: #fff;
+  border-color: var(--theme-purple);
+}
+
+.leseverstehen-t2-option.correct {
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.1);
+  cursor: default;
+}
+
+.leseverstehen-t2-option.correct .option-letter-circle {
+  background: #10b981;
+  color: #fff;
+  border-color: #10b981;
+}
+
+.leseverstehen-t2-option.incorrect {
+  border-color: #ef4444;
+  background: rgba(239, 68, 68, 0.1);
+  cursor: default;
+}
+
+.leseverstehen-t2-option.incorrect .option-letter-circle {
+  background: #ef4444;
+  color: #fff;
+  border-color: #ef4444;
+}
