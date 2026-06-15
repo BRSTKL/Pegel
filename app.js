@@ -11,7 +11,7 @@ let state = {
     quiz: false
   },
   currentScreen: "home",
-  appVersion: 2,
+  appVersion: 3,
   activeCategory: "verben",
   expandedSubcategories: {},
   theme: "dark", // Default to dark mode for App_Tasarım.PNG aesthetic
@@ -175,16 +175,22 @@ function saveState() {
 // Helper to load state
 function loadState() {
   const saved = localStorage.getItem("b1_app_state");
+  let savedParsed = {};
   if (saved) {
     try {
-      state = { ...state, ...JSON.parse(saved) };
+      savedParsed = JSON.parse(saved);
     } catch (e) {
       console.error("Error parsing saved state", e);
     }
   }
   
-  // Force reset state to version 2 to clean up legacy mock data
-  if (!state.appVersion || state.appVersion < 2) {
+  // If there is saved data but no appVersion, treat it as version 1
+  const loadedVersion = saved ? (savedParsed.appVersion || 1) : 3;
+  
+  state = { ...state, ...savedParsed };
+  
+  // Force reset state to version 3 to clean up legacy mock data
+  if (loadedVersion < 3) {
     state.xp = 0;
     state.streak = 0;
     state.completedLessons = [];
@@ -196,7 +202,7 @@ function loadState() {
     state.leseverstehenAnswers = {};
     state.leseverstehenProgress = {};
     state.myVocabulary = [];
-    state.appVersion = 2;
+    state.appVersion = 3;
     saveState();
   }
   

@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Almanca B1 Öğrenme Uygulaması</title>
   
+  <script>
+    if (!localStorage.getItem('b1_app_force_reset_v4')) {
+      localStorage.clear();
+      localStorage.setItem('b1_app_force_reset_v4', 'true');
+    }
+  </script>
+  
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +21,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
   
   <!-- App Stylesheet -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
 
@@ -898,10 +905,10 @@
   </div>
 
   <!-- Loaded Data and Scripts -->
-  <script src="lessons_data.js"></script>
-  <script src="verben_prep_data.js"></script>
-  <script src="leseverstehen_data.js"></script>
-  <script src="sprachbausteine_data.js"></script>
-  <script src="app.js"></script>
+  <script src="lessons_data.js?v=4"></script>
+  <script src="verben_prep_data.js?v=4"></script>
+  <script src="leseverstehen_data.js?v=4"></script>
+  <script src="sprachbausteine_data.js?v=4"></script>
+  <script src="app.js?v=4"></script>
 </body>
 </html>
