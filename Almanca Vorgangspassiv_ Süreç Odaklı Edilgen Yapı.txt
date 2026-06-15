@@ -1,0 +1,7 @@
+﻿Bir önceki konumuzda "iş bitmiş, sonuç kalmış" demiştik (Zustandspassiv). Sorduğunuz Vorgangspassiv (Süreç Edilgeni) ise tam tersidir: İşlem şu an yapılıyor, eylem hâlâ devam ediyor. Yani ortada henüz bitmemiş, canlı bir "süreç" veya "aksiyon" vardır 1, 2.
+Bu yapıyı kurmak için werden (olmak/yapılmak) yardımcı fiili ile fiilin üçüncü halini (Partizip II) kullanırız.
+Bunu "canlı yayın" gibi düşünebilirsiniz:
+* Örnek (Kapı): Birisi şu an kapıyı kolundan tutup açıyorsa, eylem yaşanıyordur: "Die Tür wird geöffnet." (Kapı açılıyor.) 3.
+* Örnek (Patates): Biri elinde bıçakla şu an harıl harıl patatesleri soyuyorsa: "Die Kartoffeln werden geschält." (Patatesler soyuluyor.) 2.
+Özetle; Vorgangspassiv işin "mutfaktaki hazırlık ve yapılma" aşamasıdır, bu süreç bitince az önce öğrendiğimiz "Zustandspassiv"e (sonuç aşamasına) geçeriz ve "Kapı açık" (Die Tür ist geöffnet) deriz 3.
+Edilgen yapıların bu "canlı yayın" ve "sonuç" ayrımı iyice netleşti mi? Passiv konusunu harika hallettik. Şimdi B1 seviyesinin en hayalperest konusu olan Konjunktiv II (Hayaller ve Dilekler) dünyasına giriş yapalım mı?

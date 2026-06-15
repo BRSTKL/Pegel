@@ -1,0 +1,8 @@
+﻿Edilgen (Passiv) yapıları bir işin "yapılma anı" ve işin "bitmiş hali" olarak ikiye ayırabiliriz. Sizin sorduğunuz Zustandspassiv (Durum Edilgeni), eylemin tamamen bittiği ve geriye sadece sonucun veya durumun kaldığı halidir 1, 2.
+Daha geniş bağlamda Almancadaki edilgen yapıları iki basit örnekle kıyaslayalım:
+1. İşlemin Devam Etmesi (Vorgangspassiv):Burada odak noktası eylemin kendisidir.
+* Örnek: "Die Kartoffeln werden geschält." (Patatesler soyuluyor.) 2. Şu an birisi elinde bıçakla patatesleri soyuyor, eylem devam ediyor.
+2. İşin Bitip Sonucun Kalması (Zustandspassiv):Olay çoktan bitmiştir, biz sadece geriye kalan tabloya bakarız. Bu yapıyı kurmak için werden yerine sein (olmak) yardımcı fiilini ve fiilin üçüncü halini (Partizip II) kullanırız 3, 4. Buna "sein-passiv" de denir 5.
+* Örnek: "Die Kartoffeln sind geschält." (Patatesler soyulmuş durumda / soyuldu.) 2. İşlem bitti, patatesler tencereye girmeye hazır bir şekilde önümüzde duruyor.
+Küçük Bir Kural:Bu "durum" yapısını sadece sonucunda ortada somut bir değişiklik bırakan fiillerle kullanabilirsiniz 6. Örneğin bir mektubu imzalarsınız ve mektup "imzalanmış duruma" gelir (Der Brief ist unterschrieben) 7. Ancak müzik dinlemenin geride bıraktığı fiziksel bir durum olmadığı için "Müzik dinlenmiş durumda" (Musik ist gehört) diyemezsiniz, bu tamamen yanlıştır 6.
+Bu "iş bitti, sonuç ortada" mantığı kafanızda canlandı mı? Dilerseniz bu durumun geçmiş zamanda ("Dün dükkan kapalıydı" gibi) nasıl söylendiğine kısaca bakabiliriz veya B1 seviyesinin en keyifli konularından olan Konjunktiv II (Hayaller ve Dilekler) konusuna geçiş yapabiliriz. Ne dersiniz?

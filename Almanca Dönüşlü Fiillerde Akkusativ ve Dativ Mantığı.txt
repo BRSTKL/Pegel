@@ -1,0 +1,7 @@
+﻿Bu konuyu bir "koltuk kapmaca" oyunu gibi düşünün. Her şey cümlede "başka bir nesne" (örneğin saç, el, kazak) olup olmadığına bağlı!
+1. Cümlede tek nesne sizseniz: Akkusativ (-i hali)Eğer eylemi sadece kendi bedeninize yapıyorsanız ve ortada başka hiçbir nesne yoksa, o ana koltuğa (Akkusativ) dönüşlü zamir oturur 1.Örnek: "Ich wasche mich." (Ben kendimi yıkıyorum.) 1. Cümlede yıkanan başka hiçbir şey yok.
+2. Cümleye ekstra bir nesne girerse: Dativ (-e hali)Eğer cümleye "eller" veya "saç" gibi ekstra bir eşya/uzuv katılırsa, bu yeni nesne ana koltuğu (Akkusativ) kapar. Bu yüzden dönüşlü zamir mecburen yan koltuğa, yani Dativ'e (mir, dir, vb.) geçmek zorunda kalır 2.Örnek: "Du wäschst dir die Hände." (Sen kendine elleri yıkıyorsun / Ellerini yıkıyorsun.) 2. Ekstra nesne ("die Hände") cümlenin içine girdiği için "dich" diyemedik, mecburen "dir" dedik 2.
+Doğuştan Sabit Olanlar:Daha önce konuştuğumuz "Yapışık İkizler"in (Gerçek Dönüşlü Fiiller) bazıları ise bu kurallara bakmaz, doğuştan ayarlıdır.
+* sich beeilen (acele etmek) her zaman Akkusativ (mich/dich) koltuğundadır 3.
+* sich etwas merken (bir şeyi aklında tutmak) veya sich etwas einbilden (hayal kurmak) ise her zaman Dativ (mir/dir) koltuğuna oturmak zorundadır 4, 5.
+Akkusativ ve Dativ arasındaki bu "koltuk kapmaca" mantığı netleşti mi? Dilerseniz B1 seviyesindeki bir diğer eğlenceli konu olan Karşılıklı Fiillere (Reziproke Verben - birbirini sevmek, selamlaşmak vb.) geçebiliriz.

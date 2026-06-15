@@ -1,0 +1,9 @@
+﻿Nomen-Verb-Verbindungen (İsim-Fiil Bağlantıları), namıdiğer Funktionsverbgefüge, kelimelerin bir araya gelip "takım çalışması" yaptığı özel bir yapıdır 1, 2.
+Bu yapıyı bir "Patron ve Asistan" ilişkisi gibi düşünün.Burada "İsim" (Nomen) patrondur ve cümlenin asıl anlamını o taşır 3. Yanına gelen "Fiil" (Verb) ise sadece asistanlık yapar, kendi orijinal anlamını tamamen kaybeder 3.
+Bunu örneklerle çok net görebiliriz:
+* eine Frage stellen (soru sormak): Normalde stellen "bir şeyi dik olarak koymak" demektir 3. Ama Frage (soru) kelimesinin asistanı olduğunda bu anlamını unutur ve koca kalıp sadece "soru sormak" anlamına gelir 3. Aslında bu kalıp, tek bir kelime olan fragen (sormak) fiilinin süslü halidir 3.
+* eine Entscheidung treffen (karar vermek): Normalde treffen "buluşmak" demektir. Ancak burada "karar vermek" (entscheiden) anlama bürünür 4.
+* Sport treiben (spor yapmak): Bu ikili sadece bir arada bu anlama gelir, kelimeleri tek tek ayırırsanız bambaşka anlamlara çıkarlar 1, 2.
+Neden bunu kullanıyoruz?Almanlar dillerini daha havalı ve resmi yapmayı çok severler. Sadece "Karar verdi" (Sie entschied) demek yerine, "Bir karar aldı" (Sie hat die Entscheidung getroffen) diyerek cümleyi uzatmayı ve süslemeyi tercih ederler 4.
+Bazen de bu asistan fiillerin köküyle hiçbir alakası kalmaz. Örneğin "in Kauf nehmen" (riskleri göze almak/kabul etmek) kalıbının, kaufen (satın almak) eylemiyle hiçbir ilgisi yoktur, doğrudan akzeptieren (kabul etmek) anlamına gelir 5, 6.
+İsim ve fiilin bu havalı takım çalışması mantıklı geldi mi? Dilerseniz artık fiilleri geride bırakıp, Almanların günlük hayatta sürekli kullandığı "darüber, damit, dafür" gibi kelimeleri barındıran Da-Komposita konusuna geçiş yapabiliriz.

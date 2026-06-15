@@ -1,0 +1,7 @@
+﻿"Lassen" fiilinin bu "sich lassen" hali, uzun edilgen (Passiv) cümlelerden kurtulmak için kullandığımız bir "kestirme yoldur" 1. Özellikle içinde "können" (yapabilmek/edebilmek) geçen durumları çok daha pratik bir şekilde ifade etmemizi sağlar 2, 3.
+Bunu basit bir örnekle görelim:Diyelim ki "Pencere açılamıyor" demek istiyorsunuz.
+* Uzun Passiv Hali: "Das Fenster kann nicht geöffnet werden." 4
+* Kestirme "sich lassen" Hali: "Das Fenster lässt sich nicht öffnen." 1, 4
+Kurulumu çok basittir: Etkilenen nesneyi (Das Fenster) özne koltuğuna oturtursunuz, yanına "lässt sich" eklersiniz ve asıl eylemi (öffnen) cümlenin en sonuna yalın halde fırlatırsınız 2, 3. İşi kimin yaptığı tamamen cümleden düşer 2.
+Daha önce öğrendiğimiz "saç kestirmek" (Er lässt sich die Haare schneiden) durumundan farkı şudur: Saç kestirmekte işi bilerek bir ustaya, bir berbere yaptırma durumu vardır 5. Ancak buradaki "sich lassen" kullanımında işi kimin yaptığı hiç önemli değildir, sadece o işin "yapılabilir" veya "yapılamaz" olduğuna odaklanılır 2.
+"Sich lassen" ile edilgen yapı mantığı kafanızda canlandı mı? Dilerseniz "lassen" fiilinin ayrılabilen önekler (nachlassen, auslassen vb.) aldığında anlamının nasıl değiştiğine geçerek bu İsviçre çakısı gibi fiili tamamen bitirebiliriz.

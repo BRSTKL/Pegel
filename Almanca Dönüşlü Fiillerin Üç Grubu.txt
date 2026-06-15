@@ -1,0 +1,8 @@
+﻿Hiç merak etmeyin, en basit ve akılda kalıcı haliyle anlatalım. Dönüşlü (reflexiv) fiilleri üç farklı arkadaş grubu gibi düşünebiliriz:
+1. Yapışık İkizler (Gerçek Dönüşlü Fiiller - Echte Reflexivverben)Bu fiiller "sich/mich" (kendimi/kendini) kelimesi olmadan asla hayatta kalamazlar 1. Tıpkı etle tırnak gibidirler.
+* Örnek: sich beeilen (acele etmek). Almancada sadece "Ich beeile" (Ben acele) diyemezsiniz, cümlenin hiçbir anlamı olmaz 2. İlla ki "Ich beeile mich" (Ben kendimi acele ettiriyorum/acele ediyorum) demeniz gerekir. Bu "mich" kelimesini cümleden atamazsınız veya yerine başka bir isim koyamazsınız 2.
+2. İki Yüzlüler (Anlamı Değişenler - Reflexivverb-Varianten)Bu fiillerin yanına "sich" eklerseniz bir anlama, eklemezseniz bambaşka bir anlama gelirler.
+* Örnek: ärgern normalde "başkasını sinir etmek, kızdırmak" demektir. Ama yanına "sich" alıp sich ärgern olursa anlamı tamamen değişip "kendisi sinirlenmek" olur 3. Yani kelime aynıdır ama yanındaki zamir onun huyunu değiştirir.
+3. Aynadakiler (Dönüşlü Kullanılan Normal Fiiller - Reflexiv verwendete Verben)Bunlar bildiğimiz normal eylemlerdir, anlamları sabittir. Sadece eylemi kime yaptığınız değişir.
+* Örnek: waschen (yıkamak). Eğer arabayı veya köpeği yıkarsanız normal waschen kullanırsınız. Ama banyoya girip kendi vücudunuzu yıkarsanız sich waschen (kendini yıkamak / yıkanmak) olur 4. Eylem aynı yıkama eylemidir, sadece yıkanan şey sizsinizdir.
+Umarım bu "yapışık ikizler" ve "iki yüzlüler" benzetmesi mantığı oturtmanıza yardımcı olmuştur! Bu yapışık ikizlerin (Gerçek Dönüşlü Fiillerin) bazıları her zaman Akkusativ (-i hali) bazıları ise Dativ (-e hali) ile kullanılıyor. Bu ayrımı da aynı basitlikle inceleyelim mi, yoksa başka bir dilbilgisi konusuna mı geçmek istersiniz?
