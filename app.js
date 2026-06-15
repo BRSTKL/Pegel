@@ -26,7 +26,11 @@ let state = {
   
   // Prepositions specific states
   prepScores: {},     // { 'abhängen_von': 3, ... }
-  starredPreps: []    // [ 'abhängen_von', ... ]
+  starredPreps: [],    // [ 'abhängen_von', ... ]
+
+  // Sprachbausteine specific states
+  sprachbausteineAnswers: {},
+  sprachbausteineProgress: {}
 };
 
 // Flashcards pool based on the grammar content
@@ -184,6 +188,8 @@ function loadState() {
   if (!state.starredPreps) state.starredPreps = [];
   if (!state.leseverstehenAnswers) state.leseverstehenAnswers = {};
   if (!state.leseverstehenProgress) state.leseverstehenProgress = {};
+  if (!state.sprachbausteineAnswers) state.sprachbausteineAnswers = {};
+  if (!state.sprachbausteineProgress) state.sprachbausteineProgress = {};
   
   const today = new Date().toDateString();
   if (state.lastActiveDate && state.lastActiveDate !== today) {
@@ -235,6 +241,10 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("launcher-leseverstehen")?.addEventListener("click", () => {
     showScreen("leseverstehen-dashboard");
   });
+
+  document.getElementById("launcher-sprachbausteine")?.addEventListener("click", () => {
+    showScreen("sprachbausteine-dashboard");
+  });
   
   // Prepositions Dashboard Inputs Bindings
   document.getElementById("start-prep-quiz-btn")?.addEventListener("click", () => {
@@ -248,6 +258,26 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   document.getElementById("prep-search")?.addEventListener("keyup", () => {
     filterPrepList();
+  });
+
+  // Profile Screen Event Listeners
+  document.getElementById("profile-theme-switch")?.addEventListener("click", () => {
+    toggleTheme();
+  });
+  document.getElementById("profile-save-btn")?.addEventListener("click", () => {
+    const nameInput = document.getElementById("profile-name-input");
+    if (nameInput && nameInput.value.trim()) {
+      state.userName = nameInput.value.trim();
+      saveState();
+      alert("Profil başarıyla kaydedildi!");
+      renderHomeScreen();
+    }
+  });
+  document.getElementById("profile-reset-btn")?.addEventListener("click", () => {
+    if (confirm("Tüm ilerlemenizi sıfırlamak istediğinize emin misiniz?")) {
+      localStorage.removeItem("b1_app_state");
+      window.location.reload();
+    }
   });
   
   // Back buttons
@@ -309,7 +339,7 @@ function showScreen(screenId) {
   
   // Toggle wide-mode class on container for split layout
   const appContainer = document.querySelector(".app-container");
-  if (screenId === "leseverstehen-play") {
+  if (screenId === "leseverstehen-play" || screenId === "sprachbausteine-play") {
     appContainer?.classList.add("wide-mode");
   } else {
     appContainer?.classList.remove("wide-mode");
@@ -318,7 +348,7 @@ function showScreen(screenId) {
   // Highlight active nav item
   // Map sub-activities back to the active navbar tab
   let navActiveId = screenId;
-  if (screenId === "flashcard-play" || screenId === "quiz" || screenId === "fillblanks-play" || screenId === "verben-prep-dashboard" || screenId === "verben-prep-quiz" || screenId === "leseverstehen-play" || screenId === "leseverstehen-dashboard") {
+  if (screenId === "flashcard-play" || screenId === "quiz" || screenId === "fillblanks-play" || screenId === "verben-prep-dashboard" || screenId === "verben-prep-quiz" || screenId === "leseverstehen-play" || screenId === "leseverstehen-dashboard" || screenId === "sprachbausteine-play" || screenId === "sprachbausteine-dashboard") {
     navActiveId = "exercises";
   }
   const activeNav = document.querySelector(`.nav-item[data-screen="${navActiveId}"]`);
@@ -343,6 +373,10 @@ function showScreen(screenId) {
     renderLeseverstehenScreen();
   } else if (screenId === "leseverstehen-dashboard") {
     renderLeseverstehenDashboard();
+  } else if (screenId === "sprachbausteine-play") {
+    renderSprachbausteineScreen();
+  } else if (screenId === "sprachbausteine-dashboard") {
+    renderSprachbausteineDashboard();
   }
 }
 
@@ -1822,4 +1856,569 @@ function submitLeseverstehen() {
   
   // Render again with review marks
   renderLeseverstehenScreen();
+}
+
+// ================= SPRACHBAUSTEINE GAME ENGINE =================
+
+let activeSprachbausteineGame = null;
+let sprachbausteineSubmitted = false;
+let sprachbausteineTimerInterval = null;
+
+function renderSprachbausteineDashboard() {
+  const cardsGrid = document.getElementById("sprachbausteine-cards-grid");
+  if (!cardsGrid) return;
+  
+  cardsGrid.innerHTML = "";
+  
+  let completedCount = 0;
+  
+  SPRACHBAUSTEINE_DATA.forEach(ex => {
+    const attempts = state.sprachbausteineProgress[ex.id] || [];
+    const attemptCount = attempts.length;
+    
+    if (attemptCount > 0) {
+      completedCount++;
+    }
+    
+    const card = document.createElement("div");
+    card.className = "sprachbausteine-card";
+    card.onclick = () => startNewSprachbausteine(ex.id);
+    
+    let badgesHtml = "";
+    for (let i = 0; i < 3; i++) {
+      if (i < attemptCount) {
+        const attempt = attempts[i];
+        let scoreClass = "score-low";
+        if (attempt.score >= 80) scoreClass = "score-high";
+        else if (attempt.score >= 40) scoreClass = "score-med";
+        
+        badgesHtml += `<span class="leseverstehen-badge-circle ${scoreClass}" title="${Math.floor(attempt.duration / 60)}:${(attempt.duration % 60).toString().padStart(2, '0')} dak">${attempt.score}</span>`;
+      } else {
+        badgesHtml += `<span class="leseverstehen-badge-circle">-</span>`;
+      }
+    }
+    
+    let attemptsLabel = "Deneme yapılmadı";
+    if (attemptCount === 1) {
+      attemptsLabel = "1 deneme";
+    } else if (attemptCount > 1) {
+      attemptsLabel = `${attemptCount} deneme`;
+    }
+    
+    const colors = ["c-blue-bg", "c-purple-bg", "c-teal-bg", "c-coral-bg", "c-pink-bg"];
+    const colorClass = colors[SPRACHBAUSTEINE_DATA.indexOf(ex) % colors.length];
+    
+    card.innerHTML = `
+      <div class="sprachbausteine-card-icon-wrapper ${colorClass}">
+        <span class="sprachbausteine-card-emoji">${ex.emoji}</span>
+      </div>
+      <div class="sprachbausteine-card-details">
+        <p class="sprachbausteine-card-title">${ex.title}</p>
+        <p class="sprachbausteine-card-attempts">${attemptsLabel}</p>
+      </div>
+      <div class="sprachbausteine-card-badges">
+        ${badgesHtml}
+      </div>
+    `;
+    
+    cardsGrid.appendChild(card);
+  });
+  
+  const totalCount = SPRACHBAUSTEINE_DATA.length;
+  const progressPercent = totalCount > 0 ? Math.round((completedCount / totalCount) * 100) : 0;
+  
+  document.getElementById("sprachbausteine-progress-percent").textContent = `${progressPercent}%`;
+  document.getElementById("sprachbausteine-progress-fill").style.width = `${progressPercent}%`;
+  document.getElementById("sprachbausteine-progress-count").textContent = `${completedCount}/${totalCount} tamamlandı`;
+}
+
+function startNewSprachbausteine(exerciseId) {
+  const ex = SPRACHBAUSTEINE_DATA.find(item => item.id === exerciseId);
+  if (!ex) return;
+  
+  activeSprachbausteineGame = ex;
+  sprachbausteineSubmitted = false;
+  state.sprachbausteineAnswers = {};
+  
+  const playTitle = document.getElementById("sprachbausteine-play-title");
+  if (playTitle) {
+    playTitle.textContent = ex.title;
+  }
+  
+  state.sprachbausteineStartTime = Date.now();
+  saveState();
+  
+  if (sprachbausteineTimerInterval) {
+    clearInterval(sprachbausteineTimerInterval);
+  }
+  
+  const timerDisplay = document.getElementById("sprachbausteine-timer-display");
+  if (timerDisplay) {
+    timerDisplay.innerHTML = `<i class="ti ti-clock"></i> 00:00`;
+  }
+  
+  sprachbausteineTimerInterval = setInterval(() => {
+    const elapsed = Math.round((Date.now() - state.sprachbausteineStartTime) / 1000);
+    const mins = Math.floor(elapsed / 60).toString().padStart(2, '0');
+    const secs = (elapsed % 60).toString().padStart(2, '0');
+    if (timerDisplay) {
+      timerDisplay.innerHTML = `<i class="ti ti-clock"></i> ${mins}:${secs}`;
+    }
+  }, 1000);
+  
+  showScreen("sprachbausteine-play");
+}
+
+function renderSprachbausteineScreen() {
+  if (!activeSprachbausteineGame) return;
+  
+  const exercise = activeSprachbausteineGame;
+  
+  const playTitle = document.getElementById("sprachbausteine-play-title");
+  if (playTitle) {
+    playTitle.textContent = exercise.title;
+  }
+  
+  const instructionText = document.getElementById("sprachbausteine-instruction-text");
+  if (instructionText) {
+    instructionText.textContent = exercise.instruction || "Markieren Sie Ihre Lösungen für die Aufgaben 21–30 auf dem Antwortbogen.";
+  }
+  
+  const letterContainer = document.querySelector(".letter-container");
+  if (letterContainer) {
+    let textHtml = exercise.text.replace(/\((\d+)\)/g, (match, num) => {
+      const gapNum = parseInt(num);
+      if (gapNum >= 21 && gapNum <= 30) {
+        const userAns = state.sprachbausteineAnswers[gapNum];
+        let word = "";
+        if (userAns && exercise.options[gapNum]) {
+          word = " " + exercise.options[gapNum][userAns];
+        }
+        
+        let statusClass = "";
+        if (sprachbausteineSubmitted) {
+          const correctAns = exercise.answers[gapNum];
+          if (userAns === correctAns) {
+            statusClass = " correct";
+          } else {
+            statusClass = " incorrect";
+          }
+        } else if (userAns) {
+          statusClass = " selected";
+        }
+        
+        return `<span class="gap-badge${statusClass}" data-gap="${gapNum}" onclick="scrollToGapCard(${gapNum})">(${gapNum})${word}</span>`;
+      }
+      return match;
+    });
+    
+    letterContainer.innerHTML = textHtml;
+  }
+  
+  const optionsContainer = document.getElementById("sprachbausteine-options-container");
+  if (optionsContainer) {
+    optionsContainer.innerHTML = "";
+    
+    for (let gapNum = 21; gapNum <= 30; gapNum++) {
+      const card = document.createElement("div");
+      card.className = "sprachbausteine-option-card";
+      card.id = `sprachbausteine-option-card-${gapNum}`;
+      
+      if (sprachbausteineSubmitted) {
+        const userAns = state.sprachbausteineAnswers[gapNum];
+        const correctAns = exercise.answers[gapNum];
+        if (userAns === correctAns) {
+          card.style.borderColor = "#10b981";
+        } else {
+          card.style.borderColor = "var(--theme-coral)";
+        }
+      }
+      
+      const header = document.createElement("div");
+      header.className = "option-card-header";
+      header.innerHTML = `
+        <span class="option-num-badge">${gapNum}</span>
+        <span style="font-size: 11px; font-weight: 600; color: var(--color-text-secondary);">Boşluk ${gapNum}</span>
+      `;
+      card.appendChild(header);
+      
+      const choicesList = document.createElement("div");
+      choicesList.className = "option-choices-list";
+      
+      const gapOptions = exercise.options[gapNum] || { a: "A", b: "B", c: "C" };
+      const userAns = state.sprachbausteineAnswers[gapNum];
+      
+      Object.keys(gapOptions).forEach(choice => {
+        const wordText = gapOptions[choice];
+        const item = document.createElement("div");
+        item.className = "option-choice-item";
+        item.setAttribute("data-choice", choice);
+        
+        const isSelected = userAns === choice;
+        if (isSelected) {
+          item.classList.add("selected");
+        }
+        
+        if (sprachbausteineSubmitted) {
+          item.classList.add("disabled");
+          const correctAns = exercise.answers[gapNum];
+          if (choice === correctAns) {
+            item.classList.add("correct");
+          } else if (isSelected && choice !== correctAns) {
+            item.classList.add("incorrect");
+          }
+        } else {
+          item.onclick = () => selectSprachbausteineAnswer(gapNum, choice);
+        }
+        
+        item.innerHTML = `
+          <span class="option-letter-circle">${choice}</span>
+          <span>${wordText}</span>
+        `;
+        choicesList.appendChild(item);
+      });
+      
+      card.appendChild(choicesList);
+      
+      if (sprachbausteineSubmitted && exercise.explanations && exercise.explanations[gapNum]) {
+        const expDiv = document.createElement("div");
+        expDiv.style = "margin-top: 8px; font-size: 11px; color: var(--color-text-secondary); line-height: 1.4; border-top: 1px dashed var(--color-border-secondary); padding-top: 6px;";
+        expDiv.innerHTML = `<i class="ti ti-bulb" style="color: var(--theme-purple); font-size: 13px; margin-right: 2px;"></i> ${exercise.explanations[gapNum]}`;
+        card.appendChild(expDiv);
+      }
+      
+      optionsContainer.appendChild(card);
+    }
+  }
+  
+  renderSprachbausteineAnswersSheet();
+  
+  const submitBtn = document.getElementById("sprachbausteine-submit-btn");
+  if (submitBtn) {
+    if (sprachbausteineSubmitted) {
+      submitBtn.innerHTML = '<i class="ti ti-check"></i> Alıştırmayı Tamamla';
+      submitBtn.className = "c-teal";
+      submitBtn.onclick = () => {
+        showScreen("sprachbausteine-dashboard");
+      };
+    } else {
+      submitBtn.innerHTML = '<i class="ti ti-send"></i> Cevapları Gönder';
+      submitBtn.className = "c-purple";
+      submitBtn.onclick = submitSprachbausteine;
+    }
+  }
+}
+
+function renderSprachbausteineAnswersSheet() {
+  if (!activeSprachbausteineGame) return;
+  const exercise = activeSprachbausteineGame;
+  const container = document.getElementById("sprachbausteine-answers-sheet");
+  if (!container) return;
+  container.innerHTML = "";
+  
+  for (let gapNum = 21; gapNum <= 30; gapNum++) {
+    const row = document.createElement("div");
+    row.className = "bubble-grid-row";
+    row.setAttribute("data-gap", gapNum);
+    row.style = "display: flex; align-items: center; justify-content: space-between; gap: 10px; background: var(--color-background-primary); padding: 6px 10px; border-radius: var(--border-radius-md); border: 1px solid var(--color-border-primary);";
+    
+    row.innerHTML = `
+      <span class="bubble-row-num" style="width: 24px; height: 24px; font-size: 11.5px;">${gapNum}</span>
+    `;
+    
+    const buttonsGrid = document.createElement("div");
+    buttonsGrid.className = "bubble-buttons-grid";
+    buttonsGrid.style = "grid-template-columns: repeat(3, 1fr); gap: 6px; flex: 1; display: grid;";
+    
+    const letters = ["a", "b", "c"];
+    const userAns = state.sprachbausteineAnswers[gapNum];
+    
+    letters.forEach(letter => {
+      const btn = document.createElement("button");
+      btn.className = "bubble-btn";
+      btn.textContent = letter;
+      
+      const isSelected = userAns === letter;
+      if (isSelected) {
+        btn.classList.add("selected");
+      }
+      
+      if (sprachbausteineSubmitted) {
+        btn.classList.add("disabled");
+        const correctAns = exercise.answers[gapNum];
+        if (letter === correctAns) {
+          btn.classList.add("correct");
+        } else if (isSelected && letter !== correctAns) {
+          btn.classList.add("incorrect");
+        }
+      } else {
+        btn.onclick = () => selectSprachbausteineAnswer(gapNum, letter);
+      }
+      
+      buttonsGrid.appendChild(btn);
+    });
+    
+    row.appendChild(buttonsGrid);
+    container.appendChild(row);
+  }
+  
+  updateSprachbausteineStatus();
+}
+
+function selectSprachbausteineAnswer(gapNum, option) {
+  if (sprachbausteineSubmitted) return;
+  
+  if (state.sprachbausteineAnswers[gapNum] === option) {
+    state.sprachbausteineAnswers[gapNum] = null;
+  } else {
+    state.sprachbausteineAnswers[gapNum] = option;
+  }
+  
+  saveState();
+  
+  const gapBadge = document.querySelector(`.gap-badge[data-gap="${gapNum}"]`);
+  if (gapBadge) {
+    const exercise = activeSprachbausteineGame;
+    const userAns = state.sprachbausteineAnswers[gapNum];
+    let word = "";
+    if (userAns && exercise.options[gapNum]) {
+      word = " " + exercise.options[gapNum][userAns];
+    }
+    gapBadge.textContent = `(${gapNum})${word}`;
+    
+    if (userAns) {
+      gapBadge.className = "gap-badge selected";
+    } else {
+      gapBadge.className = "gap-badge";
+    }
+  }
+  
+  const card = document.getElementById(`sprachbausteine-option-card-${gapNum}`);
+  if (card) {
+    card.querySelectorAll(".option-choice-item").forEach(item => {
+      const choice = item.getAttribute("data-choice");
+      if (state.sprachbausteineAnswers[gapNum] === choice) {
+        item.classList.add("selected");
+      } else {
+        item.classList.remove("selected");
+      }
+    });
+  }
+  
+  const answerRow = document.querySelector(`#sprachbausteine-answers-sheet .bubble-grid-row[data-gap="${gapNum}"]`);
+  if (answerRow) {
+    answerRow.querySelectorAll(".bubble-btn").forEach(btn => {
+      const choice = btn.textContent.trim();
+      if (state.sprachbausteineAnswers[gapNum] === choice) {
+        btn.classList.add("selected");
+      } else {
+        btn.classList.remove("selected");
+      }
+    });
+  }
+  
+  updateSprachbausteineStatus();
+}
+
+function updateSprachbausteineStatus() {
+  if (!activeSprachbausteineGame) return;
+  const exercise = activeSprachbausteineGame;
+  const statusText = document.getElementById("sprachbausteine-status-text");
+  if (!statusText) return;
+  
+  if (sprachbausteineSubmitted) {
+    let correctCount = 0;
+    for (let gapNum = 21; gapNum <= 30; gapNum++) {
+      if (state.sprachbausteineAnswers[gapNum] === exercise.answers[gapNum]) {
+        correctCount++;
+      }
+    }
+    
+    const attempts = state.sprachbausteineProgress[exercise.id] || [];
+    const lastAttempt = attempts[attempts.length - 1];
+    let timeFormatted = "";
+    if (lastAttempt) {
+      const mins = Math.floor(lastAttempt.duration / 60);
+      const secs = lastAttempt.duration % 60;
+      timeFormatted = `${mins}:${secs.toString().padStart(2, '0')}`;
+    }
+    
+    statusText.textContent = `Sonuç: ${correctCount}/10 Doğru! (${timeFormatted} sürede tamamlandı. +${correctCount * 10} XP)`;
+    statusText.style.color = "#10b981";
+    return;
+  }
+  
+  let answeredCount = 0;
+  for (let gapNum = 21; gapNum <= 30; gapNum++) {
+    if (state.sprachbausteineAnswers[gapNum]) {
+      answeredCount++;
+    }
+  }
+  
+  const remaining = 10 - answeredCount;
+  if (remaining === 0) {
+    statusText.textContent = "Bütün sorular cevaplandı. Cevapları gönderin!";
+    statusText.style.color = "#98b5b6";
+  } else {
+    statusText.textContent = `${remaining} boş soru doldurulmayı bekliyor.`;
+    statusText.style.color = "var(--theme-coral)";
+  }
+}
+
+function submitSprachbausteine() {
+  if (sprachbausteineSubmitted) return;
+  if (!activeSprachbausteineGame) return;
+  const exercise = activeSprachbausteineGame;
+  
+  if (sprachbausteineTimerInterval) {
+    clearInterval(sprachbausteineTimerInterval);
+    sprachbausteineTimerInterval = null;
+  }
+  
+  const durationSeconds = Math.round((Date.now() - state.sprachbausteineStartTime) / 1000);
+  
+  let correctCount = 0;
+  for (let gapNum = 21; gapNum <= 30; gapNum++) {
+    if (state.sprachbausteineAnswers[gapNum] === exercise.answers[gapNum]) {
+      correctCount++;
+    }
+  }
+  
+  sprachbausteineSubmitted = true;
+  
+  const xpEarned = correctCount * 10;
+  state.xp += xpEarned;
+  
+  let attempts = state.sprachbausteineProgress[exercise.id] || [];
+  attempts.push({ score: correctCount * 10, duration: durationSeconds });
+  if (attempts.length > 3) {
+    attempts.shift();
+  }
+  state.sprachbausteineProgress[exercise.id] = attempts;
+  
+  saveState();
+  
+  renderSprachbausteineScreen();
+}
+
+function scrollToGapCard(gapNum) {
+  const card = document.getElementById(`sprachbausteine-option-card-${gapNum}`);
+  if (card) {
+    card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    card.style.borderColor = 'var(--theme-purple)';
+    setTimeout(() => {
+      if (!sprachbausteineSubmitted) {
+        card.style.borderColor = 'var(--color-border-primary)';
+      }
+    }, 1500);
+  }
+}
+
+// ================= ANALYTICS SCREEN RENDERING =================
+
+function renderAnalyticsScreen() {
+  const totalLessons = countTotalLessons();
+  const completedCount = state.completedLessons.length;
+  const progressPercent = totalLessons > 0 ? Math.round((completedCount / totalLessons) * 100) : 0;
+  
+  const overallPercentEl = document.getElementById("analytics-overall-percent");
+  if (overallPercentEl) overallPercentEl.textContent = `${progressPercent}%`;
+  
+  const completedTextEl = document.getElementById("analytics-completed-text");
+  if (completedTextEl) completedTextEl.textContent = `${completedCount}/${totalLessons} ders`;
+  
+  const xpTextEl = document.getElementById("analytics-xp-text");
+  if (xpTextEl) xpTextEl.textContent = `${state.xp} XP`;
+  
+  renderStreakCalendar();
+  renderAnalyticsCategoriesBreakdown();
+}
+
+function renderStreakCalendar() {
+  const calendarGrid = document.getElementById("streak-calendar-grid");
+  if (!calendarGrid) return;
+  
+  calendarGrid.innerHTML = "";
+  
+  const today = new Date();
+  const days = [];
+  
+  for (let i = 27; i >= 0; i--) {
+    const d = new Date();
+    d.setDate(today.getDate() - i);
+    days.push(d);
+  }
+  
+  days.forEach(day => {
+    const dayDiv = document.createElement("div");
+    dayDiv.className = "calendar-day";
+    dayDiv.textContent = day.getDate();
+    
+    if (day.toDateString() === today.toDateString()) {
+      dayDiv.classList.add("active");
+    }
+    
+    const completedSomethingToday = state.completedToday.flashcards || state.completedToday.quiz || state.completedLessons.length > 0;
+    if (day.toDateString() === today.toDateString() && completedSomethingToday) {
+      dayDiv.classList.add("completed");
+    }
+    
+    calendarGrid.appendChild(dayDiv);
+  });
+}
+
+function renderAnalyticsCategoriesBreakdown() {
+  const container = document.getElementById("analytics-categories-details");
+  if (!container) return;
+  
+  container.innerHTML = "";
+  
+  const totalLessons = countTotalLessons();
+  const completedLessons = state.completedLessons.length;
+  const lessonPct = totalLessons > 0 ? Math.round((completedLessons / totalLessons) * 100) : 0;
+  
+  const totalPreps = typeof VERBEN_PREP_DATA !== 'undefined' ? VERBEN_PREP_DATA.length : 0;
+  const learnedPreps = Object.values(state.prepScores || {}).filter(score => score >= 3).length;
+  const prepPct = totalPreps > 0 ? Math.round((learnedPreps / totalPreps) * 100) : 0;
+  
+  const totalLese = typeof LESEVERSTEHEN_DATA !== 'undefined' ? LESEVERSTEHEN_DATA.length : 0;
+  const completedLese = Object.keys(state.leseverstehenProgress || {}).length;
+  const lesePct = totalLese > 0 ? Math.round((completedLese / totalLese) * 100) : 0;
+  
+  const totalSprach = typeof SPRACHBAUSTEINE_DATA !== 'undefined' ? SPRACHBAUSTEINE_DATA.length : 0;
+  const completedSprach = Object.keys(state.sprachbausteineProgress || {}).length;
+  const sprachPct = totalSprach > 0 ? Math.round((completedSprach / totalSprach) * 100) : 0;
+  
+  const categories = [
+    { name: "Dilbilgisi Konuları", pct: lessonPct, label: `${completedLessons}/${totalLessons} tamamlandı`, theme: "var(--theme-purple)" },
+    { name: "Fiil & Edat Eşleştirmeleri", pct: prepPct, label: `${learnedPreps}/${totalPreps} ezberlendi`, theme: "var(--theme-pink)" },
+    { name: "Okuma Anlama (Leseverstehen)", pct: lesePct, label: `${completedLese}/${totalLese} alıştırma`, theme: "var(--theme-teal)" },
+    { name: "Kelime Yerleştirme (Sprachbausteine)", pct: sprachPct, label: `${completedSprach}/${totalSprach} alıştırma`, theme: "var(--theme-coral)" }
+  ];
+  
+  categories.forEach(cat => {
+    const item = document.createElement("div");
+    item.style = "background: var(--color-background-secondary); border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); padding: 12px 14px; margin-bottom: 10px;";
+    
+    item.innerHTML = `
+      <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom: 6px;">
+        <span style="font-size: 12.5px; font-weight:600; color:var(--color-text-primary);">${cat.name}</span>
+        <span style="font-size: 13px; font-weight:700; color:${cat.theme};">${cat.pct}%</span>
+      </div>
+      <div style="height: 4px; background: var(--color-background-primary); border-radius: 99px; overflow:hidden;">
+        <div style="width: ${cat.pct}%; height: 100%; background: ${cat.theme}; border-radius: 99px;"></div>
+      </div>
+      <div style="margin-top: 6px; font-size: 10.5px; color: var(--color-text-secondary);">${cat.label}</div>
+    `;
+    container.appendChild(item);
+  });
+}
+
+// ================= PROFILE SCREEN RENDERING =================
+
+function renderProfileScreen() {
+  const nameInput = document.getElementById("profile-name-input");
+  if (nameInput) {
+    nameInput.value = state.userName;
+  }
 }

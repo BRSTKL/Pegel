@@ -190,14 +190,16 @@
             <i class="ti ti-chevron-right" style="font-size:16px; color:var(--color-text-tertiary);" aria-hidden="true"></i>
           </div>
 
-          <!-- Leseverstehen Launcher -->
-          <div class="interactive-card" id="launcher-leseverstehen" style="border-radius: var(--border-radius-lg); padding: 16px; display:flex; align-items:center; gap: 14px;">
-            <div class="c-blue-bg" style="width:40px; height:40px; border-radius: var(--border-radius-md); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
-              <i class="ti ti-book" style="font-size:20px;" aria-hidden="true"></i>
+          </div>
+
+          <!-- Sprachbausteine Launcher -->
+          <div class="interactive-card" id="launcher-sprachbausteine" style="border-radius: var(--border-radius-lg); padding: 16px; display:flex; align-items:center; gap: 14px;">
+            <div class="c-teal-bg" style="width:40px; height:40px; border-radius: var(--border-radius-md); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+              <i class="ti ti-layers-difference" style="font-size:20px;" aria-hidden="true"></i>
             </div>
             <div style="flex:1; min-width:0;">
-              <p style="font-size: 14px; font-weight: 600; margin:0;">Okuma Anlama (Leseverstehen)</p>
-              <p class="ts" style="font-size: 11.5px; margin:2px 0 0;">Paragrafları okuyun ve en uygun başlıkları eşleştirin.</p>
+              <p style="font-size: 14px; font-weight: 600; margin:0;">Kelime Yerleştirme (Sprachbausteine)</p>
+              <p class="ts" style="font-size: 11.5px; margin:2px 0 0;">Mektuplardaki boşluklara en uygun kelimeleri seçin.</p>
             </div>
             <i class="ti ti-chevron-right" style="font-size:16px; color:var(--color-text-tertiary);" aria-hidden="true"></i>
           </div>
@@ -327,6 +329,107 @@
         </div>
       </div>
 
+      <!-- ================= SPRACHBAUSTEINE DASHBOARD SCREEN ================= -->
+      <div id="sprachbausteine-dashboard-screen" class="screen hidden" style="padding: 20px; height: 100%; display: flex; flex-direction: column;">
+        <!-- Header -->
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 15px; flex-shrink: 0;">
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <button class="back-btn" data-target="exercises" style="background: none; border: none; font-size: 20px; color: var(--color-text-primary); cursor: pointer; display: flex; align-items: center; justify-content: center;">
+              <i class="ti ti-arrow-left"></i>
+            </button>
+            <h1 style="font-size: 16px; font-weight: 600; margin: 0;">Kelime Yerleştirme (Sprachbausteine)</h1>
+          </div>
+        </div>
+
+        <!-- Progress stats -->
+        <div class="c-teal" style="padding: 14px; border-radius: var(--border-radius-lg); margin-bottom: 20px; flex-shrink: 0; background-color: var(--color-background-secondary); border: 1px solid var(--color-border-primary);">
+          <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom: 8px;">
+            <p class="t" style="font-size: 13px; font-weight: 600; margin:0;">Kelime Yerleştirme İlerlemesi</p>
+            <p class="t" style="font-size: 14px; font-weight: 600; margin:0;" id="sprachbausteine-progress-percent">0%</p>
+          </div>
+          <div style="height: 5px; background: var(--color-background-primary); border-radius: 99px; overflow:hidden; border: 1px solid var(--color-border-primary);">
+            <div id="sprachbausteine-progress-fill" style="width: 0%; height: 100%; background: var(--theme-teal); border-radius: 99px;"></div>
+          </div>
+          <div style="display:flex; justify-content:space-between; margin-top: 8px;">
+            <span class="ts" style="font-size: 11px;" id="sprachbausteine-progress-count">0/12 tamamlandı</span>
+          </div>
+        </div>
+
+        <!-- Scrollable list of 12 cards -->
+        <div style="flex: 1; overflow-y: auto; padding-bottom: 20px;">
+          <div class="sprachbausteine-grid" id="sprachbausteine-cards-grid">
+            <!-- 12 cards loaded dynamically -->
+          </div>
+        </div>
+      </div>
+
+      <!-- ================= SPRACHBAUSTEINE PLAY SCREEN ================= -->
+      <div id="sprachbausteine-play-screen" class="screen hidden" style="padding: 20px; height: 100%; display: flex; flex-direction: column;">
+        <!-- Header -->
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 15px; flex-shrink: 0;">
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <button class="back-btn" data-target="sprachbausteine-dashboard" style="background: none; border: none; font-size: 20px; color: var(--color-text-primary); cursor: pointer; display: flex; align-items: center; justify-content: center;">
+              <i class="ti ti-arrow-left"></i>
+            </button>
+            <h1 style="font-size: 15px; font-weight: 600; margin: 0;" id="sprachbausteine-play-title">Sprachbausteine</h1>
+          </div>
+          <div id="sprachbausteine-header-actions" style="display: flex; align-items: center; gap: 8px;">
+            <span id="sprachbausteine-timer-display" style="padding: 4px 10px; border-radius: var(--border-radius-sm); font-size: 12px; font-weight: 600; background: var(--color-background-secondary); border: 1px solid var(--color-border-primary); color: var(--theme-coral); display: flex; align-items: center; gap: 4px;">
+              <i class="ti ti-clock"></i> 00:00
+            </span>
+          </div>
+        </div>
+
+        <!-- Split Pane Layout -->
+        <div class="sprachbausteine-layout" style="flex: 1; display: flex; gap: 20px; overflow: hidden; min-height: 0;">
+          <!-- Left Panel: Letter Text & Option Groups below it (Scrollable) -->
+          <div class="sprachbausteine-text-pane" style="flex: 1.2; display: flex; flex-direction: column; overflow-y: auto; padding-right: 8px; min-height: 0; gap: 16px;">
+            
+            <!-- Instructions Box -->
+            <div class="instruction-box" style="background: var(--color-background-secondary); border: 1px dashed var(--color-border-primary); border-radius: var(--border-radius-md); padding: 12px; display: flex; gap: 10px; align-items: flex-start;">
+              <i class="ti ti-info-circle" style="font-size: 18px; color: var(--theme-purple); flex-shrink: 0; margin-top: 2px;"></i>
+              <p style="font-size: 12.5px; margin: 0; line-height: 1.5; color: var(--color-text-secondary);" id="sprachbausteine-instruction-text">
+                Markieren Sie Ihre Lösungen für die Aufgaben 21–30 auf dem Antwortbogen.
+              </p>
+            </div>
+
+            <!-- Letter Content Container -->
+            <div class="letter-container" style="background: var(--color-background-secondary); border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); padding: 20px; line-height: 1.7; font-size: 13.5px; color: var(--color-text-primary); white-space: pre-line;">
+              <!-- Loaded dynamically with gap badges -->
+            </div>
+
+            <!-- Options Grid (21 to 30) below the text -->
+            <div style="margin-top: 10px; margin-bottom: 20px;">
+              <p class="ts" style="font-size: 11.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 0 12px;">Seçenekler</p>
+              <div id="sprachbausteine-options-container" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 10px;">
+                <!-- Loaded dynamically -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Panel: Answer Sheet (Sticky/Scrollable) -->
+          <div class="sprachbausteine-answer-pane" style="flex: 0.8; display: flex; flex-direction: column; gap: 16px; overflow-y: auto; min-width: 290px; min-height: 0;">
+            <!-- Answer Board (Antwortbogen) -->
+            <div class="answer-board-card" style="background: var(--color-background-secondary); border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); padding: 16px; display: flex; flex-direction: column; gap: 14px;">
+              <p style="font-size: 13px; font-weight: 600; margin: 0; text-transform: uppercase; letter-spacing: 0.5px; color: var(--color-text-primary);">Cevap Formu (Antwortbogen)</p>
+              
+              <div id="sprachbausteine-answers-sheet" style="display: flex; flex-direction: column; gap: 10px;">
+                <!-- Bubble rows 21-30 loaded dynamically -->
+              </div>
+
+              <!-- Status & Submit -->
+              <div style="margin-top: 8px; border-top: 1px solid var(--color-border-primary); padding-top: 14px; display: flex; flex-direction: column; gap: 10px;">
+                <p id="sprachbausteine-status-text" class="ts" style="font-size: 12.5px; color: var(--theme-coral); font-weight: 500; margin: 0; text-align: center;">
+                  10 soru cevaplanmayı bekliyor.
+                </p>
+                <button id="sprachbausteine-submit-btn" class="c-purple" style="width: 100%; border: none; padding: 12px; border-radius: var(--border-radius-md); font-size: 13.5px; font-weight: 600; cursor: pointer; color: var(--color-background-primary); display: flex; align-items: center; justify-content: center; gap: 6px;">
+                  <i class="ti ti-send"></i> Cevapları Gönder
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!-- ================= VERBEN PREP DASHBOARD SCREEN ================= -->
       <div id="verben-prep-dashboard-screen" class="screen hidden" style="padding: 20px;">
@@ -561,6 +664,7 @@
   <script src="lessons_data.js"></script>
   <script src="verben_prep_data.js"></script>
   <script src="leseverstehen_data.js"></script>
+  <script src="sprachbausteine_data.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
