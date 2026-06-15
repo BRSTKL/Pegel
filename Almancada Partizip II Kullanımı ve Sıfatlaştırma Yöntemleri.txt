@@ -1,0 +1,12 @@
+﻿Bir önceki konumuzda eylemin henüz devam ettiğini gösteren Partizip I'i konuşmuştuk. Sorduğunuz Partizip II (2. Ortaç) ise bunun tam zıttıdır: Eylem tamamen bitmiştir ve ortada kalıcı bir sonuç (Abgeschlossenheit) vardır 1.
+Bu yapıyı Almancada bir sıfat veya isim olarak kullanmak çok pratiktir ve uzun cümleleri kısaltmanızı sağlar.
+1. Sıfat Olarak Kullanımı (Adjektiv):Fiilin üçüncü halini (Partizip Perfekt) doğrudan ismin önüne koyarsınız. İsmin önüne geldiği için, ismin haline (Akkusativ, Dativ vb.) göre normal sıfat çekimi (Adjektivdeklination) kurallarına uymak zorundadır 1, 2.
+* Örnek: "Ich kaufe mir ein gebrauchtes Auto." (Kullanılmış bir araba alıyorum.) 1.
+* Örnek: "Wann kann ich meinen reparierten Wagen abholen?" (Tamir edilmiş arabamı ne zaman alabilirim?) Burada arabanın tamir işlemi çoktan bitmiş, sonuç ortadadır 2.
+2. İsim Olarak Kullanımı (Nomen):Sıfat olarak kullandığınız bu kelimeleri büyük harfle başlatarak doğrudan bir kişiye veya duruma dönüştürebilirsiniz 3.
+* Örnek: "sich verletzen" (yaralanmak) fiilinden -> der Verletzte (yaralı adam) veya die Verletzte (yaralı kadın) türetebilirsiniz 3.
+* Örnek: "sich verlieben" (aşık olmak) fiilinden -> der Verliebte (aşık olan kişi) diyebilirsiniz 3.
+Çok Önemli İki Kural:
+* Eğer dönüştürdüğünüz fiil dönüşlü (reflexiv) bir fiilse, başındaki "sich" kelimesi sıfatlaştırma sırasında tamamen düşer 3, 4. Örneğin; "sich erkälten" (üşütmek) fiili için "die sich erkältete Frau" denmez, doğrudan "die erkältete Frau" (üşütmüş kadın) denir 4.
+* İki ayrı cümleyi veya uzun bir ilgi cümlesini (Relativsatz) kısaltmak için harika bir yöntemdir. "Die Polizei sucht das Auto. Das Auto wurde gestohlen." demek yerine tek bir hamleyle "Die Polizei sucht das gestohlene Auto." (Polis çalınan arabayı arıyor) diyebilirsiniz 4, 5.
+Eylemlerin "devam eden" (Partizip I) ve "bitmiş" (Partizip II) hallerini sıfatlaştırma mantığı kafanızda tam olarak netleşti mi?

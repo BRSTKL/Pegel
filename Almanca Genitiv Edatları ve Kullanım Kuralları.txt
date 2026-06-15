@@ -1,0 +1,6 @@
+﻿Genitivpräpositionen (Genitiv edatları), isimleri her zaman Genitiv (-in) halinde çekimlenmeye zorlayan edatlardır. Bu grubun en klasik ve yaygın üçlüsü şunlardır:
+* wegen (...yüzünden / nedeniyle): Bir şeyin nedenini veya gerekçesini açıklar Örnek: wegen des Regens (yağmur yüzünden) 
+* während (...sırasında / esnasında): Olayların aynı zaman diliminde paralel olarak gerçekleştiğini gösterir Örnek: während des Urlaubs (tatil sırasında/esnasında) 
+* trotz (...-e rağmen): Beklenmedik veya zıt bir durumu ifade eder Örnek: trotz der Kälte (soğuğa rağmen) 
+Çok Önemli Bir İstisna:Eğer bu edatlardan sonra gelen kelimenin önünde hiçbir artikel (der/die/das/mein vb.) yoksa ve kelime çoğulsa, mecburen Dativ (-e) haline geçiş yaparız 6. Örneğin "çocuklar yüzünden" derken wegen Kinder değil, wegen Kindern deriz Ayrıca Almanlar günlük konuşma dilinde (sokak ağzında) bu edatlardan sonra Genitiv yerine sıklıkla Dativ kullanırlar (wegen dem schlechten Wetter gibi) 
+Bu klasik üçlünün mantığı tam olarak anlaşıldı mı? Dilerseniz yine aynı Genitiv kuralına uyan ama daha resmi durumlarda karşımıza çıkan diğer edatlara (aufgrund, anstelle, statt) geçiş yapabiliriz. Hangisini istersiniz?

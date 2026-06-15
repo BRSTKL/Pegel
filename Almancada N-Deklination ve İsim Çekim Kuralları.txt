@@ -1,0 +1,9 @@
+﻿N-Deklination (N-Çekimi), sadece belirli maskülen (der artikelli) isimleri etkileyen özel bir kuraldır. Kuralın özü şudur: Bu isimler Nominativ (yalın hal) dışındaki tüm ismin hallerinde (Akkusativ, Dativ ve Genitiv) sonlarına ekstradan "-n" veya "-en" harfi alırlar 1.
+Hangi maskülen isimlerin bu gruba girdiğini üç temel kategoride toplayabiliriz:
+1. Sonu "-e" ile biten canlılar (insanlar, milletler, hayvanlar): der Kollege (meslektaş) -> den/dem/des Kollegen veya der Affe (maymun) -> den/dem/des Affen gibi 2.
+2. Sonu "-ant, -ent, -ist" ile bitenler: der Praktikant -> den Praktikanten, der Polizist -> dem Polizisten 3.
+3. Yunanca kökenli bazı kelimeler: der Biologe, der Demokrat, der Architekt gibi isimler 4.
+Burada hayat kurtaran iki küçük ipucu var:
+* Bu kelimelerin sonuna gelen "-n/-en" takıları, aslında kelimenin çoğul (Plural) haliyle tamamen aynıdır 2, 3.
+* Genitiv (-in hali) normalde maskülen kelimelerin sonuna "-s" takısı getirirken, bu kurala uyan kelimeler "-s" almazlar (des Nachbarn, des Praktikanten gibi) 3, 5. Sadece der Name (isim) kelimesi bir istisnadır ve Genitiv'de hem "n" hem "s" alarak des Namens olur 6.
+Bazı kelimelerin sürekli "-n" kuyruğuyla dolaştığı bu N-Çekimi mantığı kafanıza yattı mı?

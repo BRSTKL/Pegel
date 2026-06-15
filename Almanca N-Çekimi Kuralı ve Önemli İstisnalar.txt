@@ -1,0 +1,5 @@
+﻿N-Deklination (N-Çekimi) kuralının genelde maskülen (der) kelimeler için geçerli olduğunu konuşmuştuk, ancak kaynaklarımız bu kuralı biraz esneten üç çok önemli istisnaya dikkat çekiyor 1:
+1. der Herr (Bay/Beyefendi): Bu kelimenin normal çoğulu "Herren" olmasına rağmen, N-Çekiminde sonuna "-en" değil, sadece "-n" harfi alır (den/dem/des Herrn) 1.
+2. der Name (İsim): Kurala uyan diğer kelimeler Genitiv (-in hali) durumunda asla "-s" almazken, der Name bir istisnadır ve Genitiv'de hem "n" hem "s" alarak des Namens şekline dönüşür 1.
+3. das Herz (Kalp): N-Çekimi grubunda yer alan tek nötr (das) artikelli kelimedir 1. Yalın ve Akkusativ (-i hali) durumunda das Herz olarak kalır, ancak Dativ'de dem Herzen, Genitiv'de ise tıpkı Name kelimesi gibi fazladan bir "s" alarak des Herzens olur 1.
+Böylece isimlerin sonuna "n" takılma kuralını istisnalarıyla birlikte tamamen bitirmiş olduk!

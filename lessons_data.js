@@ -186,15 +186,74 @@ const LESSONS_DATA = [
     "subcategories": [
       {
         "name": "N-Deklination",
-        "lessons": []
+        "lessons": [
+          {
+            "id": "almanca_dilbilgisinde_n-cekimi_kurallari_ve_i̇stisnalari",
+            "title": "Almanca Dilbilgisinde N-Çekimi Kuralları ve İstisnaları",
+            "category": "Grammatik & Nomen",
+            "subcategory": "N-Deklination",
+            "content": "﻿N-Deklination (N-Çekimi) kuralının en yaygın ve akılda kalıcı grubu, sonu \"-e\" harfi ile biten maskülen (der artikelli) canlılardır 1. Bu canlıları tam da bahsettiğiniz gibi üç ana kategoriye ayırıyoruz: İnsanlar (Personen), Milletler (Nationalitäten) ve Hayvanlar (Tiere) 1.\nBu kelimeler, Yalın Hal (Nominativ) dışında kalan tüm ismin hallerinde (Akkusativ, Dativ, Genitiv) sonlarına \"-n\" takısı alırlar 1. En önemli detay ise, Genitiv (-in hali) durumunda bile normal maskülen kelimelerde gördüğümüz \"-s\" takısını kesinlikle almamalarıdır 1, 2.\nKaynaklarımızdaki örnekler üzerinden bu üç grubu inceleyelim:\n* İnsanlar (Personen): der Kollege (meslektaş). Cümle içinde kullanıldığında -> den/dem/des Kollegen şekline dönüşür 1.\n* Milletler (Nationalitäten): der Chinese (Çinli). Cümle içinde kullanıldığında -> den/dem/des Chinesen olur 1.\n* Hayvanlar (Tiere): der Affe (maymun). Cümle içinde kullanıldığında -> den/dem/des Affen şeklini alır 1.\nBurada işinizi çok kolaylaştıracak güzel bir ipucu var: Bu kelimelerin N-Çekimi sırasında aldıkları \"-n\" takısı, aslında onların çoğul (Plural) haliyle tamamen aynıdır 1.\nSonu \"-e\" ile biten bu canlılar grubu kafanızda netleşti mi?"
+          },
+          {
+            "id": "almanca_n-cekimi_kurali_ve_onemli_i̇stisnalar",
+            "title": "Almanca N-Çekimi Kuralı ve Önemli İstisnalar",
+            "category": "Grammatik & Nomen",
+            "subcategory": "N-Deklination",
+            "content": "﻿N-Deklination (N-Çekimi) kuralının genelde maskülen (der) kelimeler için geçerli olduğunu konuşmuştuk, ancak kaynaklarımız bu kuralı biraz esneten üç çok önemli istisnaya dikkat çekiyor 1:\n1. der Herr (Bay/Beyefendi): Bu kelimenin normal çoğulu \"Herren\" olmasına rağmen, N-Çekiminde sonuna \"-en\" değil, sadece \"-n\" harfi alır (den/dem/des Herrn) 1.\n2. der Name (İsim): Kurala uyan diğer kelimeler Genitiv (-in hali) durumunda asla \"-s\" almazken, der Name bir istisnadır ve Genitiv'de hem \"n\" hem \"s\" alarak des Namens şekline dönüşür 1.\n3. das Herz (Kalp): N-Çekimi grubunda yer alan tek nötr (das) artikelli kelimedir 1. Yalın ve Akkusativ (-i hali) durumunda das Herz olarak kalır, ancak Dativ'de dem Herzen, Genitiv'de ise tıpkı Name kelimesi gibi fazladan bir \"s\" alarak des Herzens olur 1.\nBöylece isimlerin sonuna \"n\" takılma kuralını istisnalarıyla birlikte tamamen bitirmiş olduk!"
+          },
+          {
+            "id": "almancada_n-deklination_ve_i̇sim_cekim_kurallari",
+            "title": "Almancada N-Deklination ve İsim Çekim Kuralları",
+            "category": "Grammatik & Nomen",
+            "subcategory": "N-Deklination",
+            "content": "﻿N-Deklination (N-Çekimi), sadece belirli maskülen (der artikelli) isimleri etkileyen özel bir kuraldır. Kuralın özü şudur: Bu isimler Nominativ (yalın hal) dışındaki tüm ismin hallerinde (Akkusativ, Dativ ve Genitiv) sonlarına ekstradan \"-n\" veya \"-en\" harfi alırlar 1.\nHangi maskülen isimlerin bu gruba girdiğini üç temel kategoride toplayabiliriz:\n1. Sonu \"-e\" ile biten canlılar (insanlar, milletler, hayvanlar): der Kollege (meslektaş) -> den/dem/des Kollegen veya der Affe (maymun) -> den/dem/des Affen gibi 2.\n2. Sonu \"-ant, -ent, -ist\" ile bitenler: der Praktikant -> den Praktikanten, der Polizist -> dem Polizisten 3.\n3. Yunanca kökenli bazı kelimeler: der Biologe, der Demokrat, der Architekt gibi isimler 4.\nBurada hayat kurtaran iki küçük ipucu var:\n* Bu kelimelerin sonuna gelen \"-n/-en\" takıları, aslında kelimenin çoğul (Plural) haliyle tamamen aynıdır 2, 3.\n* Genitiv (-in hali) normalde maskülen kelimelerin sonuna \"-s\" takısı getirirken, bu kurala uyan kelimeler \"-s\" almazlar (des Nachbarn, des Praktikanten gibi) 3, 5. Sadece der Name (isim) kelimesi bir istisnadır ve Genitiv'de hem \"n\" hem \"s\" alarak des Namens olur 6.\nBazı kelimelerin sürekli \"-n\" kuyruğuyla dolaştığı bu N-Çekimi mantığı kafanıza yattı mı?"
+          }
+        ]
       },
       {
         "name": "Genitivpräpositionen",
-        "lessons": []
+        "lessons": [
+          {
+            "id": "almanca_genitiv_edatlari_ve_kullanim_kurallari",
+            "title": "Almanca Genitiv Edatları ve Kullanım Kuralları",
+            "category": "Grammatik & Nomen",
+            "subcategory": "Genitivpräpositionen",
+            "content": "﻿Genitivpräpositionen (Genitiv edatları), isimleri her zaman Genitiv (-in) halinde çekimlenmeye zorlayan edatlardır. Bu grubun en klasik ve yaygın üçlüsü şunlardır:\n* wegen (...yüzünden / nedeniyle): Bir şeyin nedenini veya gerekçesini açıklar Örnek: wegen des Regens (yağmur yüzünden) \n* während (...sırasında / esnasında): Olayların aynı zaman diliminde paralel olarak gerçekleştiğini gösterir Örnek: während des Urlaubs (tatil sırasında/esnasında) \n* trotz (...-e rağmen): Beklenmedik veya zıt bir durumu ifade eder Örnek: trotz der Kälte (soğuğa rağmen) \nÇok Önemli Bir İstisna:Eğer bu edatlardan sonra gelen kelimenin önünde hiçbir artikel (der/die/das/mein vb.) yoksa ve kelime çoğulsa, mecburen Dativ (-e) haline geçiş yaparız 6. Örneğin \"çocuklar yüzünden\" derken wegen Kinder değil, wegen Kindern deriz Ayrıca Almanlar günlük konuşma dilinde (sokak ağzında) bu edatlardan sonra Genitiv yerine sıklıkla Dativ kullanırlar (wegen dem schlechten Wetter gibi) \nBu klasik üçlünün mantığı tam olarak anlaşıldı mı? Dilerseniz yine aynı Genitiv kuralına uyan ama daha resmi durumlarda karşımıza çıkan diğer edatlara (aufgrund, anstelle, statt) geçiş yapabiliriz. Hangisini istersiniz?"
+          },
+          {
+            "id": "almanca_genitiv_edatlari_ve_kullanim_rehberi",
+            "title": "Almanca Genitiv Edatları ve Kullanım Rehberi",
+            "category": "Grammatik & Nomen",
+            "subcategory": "Genitivpräpositionen",
+            "content": "﻿Genitiv (-in hali) edatlarının daha resmi durumlarda karşımıza çıkan diğer önemli üyeleri şunlardır:\n1. aufgrund (nedeniyle / yüzünden): Bir şeyin sebebini gösterir ve \"wegen\" ile aynı mantıkta çalışır Örnek: \"Aufgrund des Regens\" (yağmur nedeniyle) \n2. anstelle (yerine): Birinin veya bir şeyin yerini almayı ifade eder ve çoğunlukla kişiler için tercih edilir Örnek: \"Anstelle seines Vaters\" (babasının yerine) 3. laut (...-e göre): Genellikle yasa, belge veya plan gibi şeylere atıf yaparken çoğu zaman artikelsiz kullanılır Örnek: \"Laut Gesetz\" (kanuna göre) \n4. mithilfe (yardımıyla): Bir eylemin kimin veya neyin desteğiyle yapıldığını belirtir Örnek: \"Mithilfe seiner Freunde\" (arkadaşlarının yardımıyla) \n5. zufolge (...-e göre): Bir rapora, habere veya söylentiye atıf yapar Genitiv ile kullanıldığında ismin önüne gelir (zufolge des Gerüchts), ancak Dativ (ismin -e hali) ile kullanılırsa ismin arkasına atılır (dem Vertrag zufolge) \nKüçük Bir Kural: Tıpkı diğer Genitiv edatlarında olduğu gibi, bu kelimelerden sonra gelen çoğul ismin önünde hiçbir artikel yoksa, mecburen araya \"von\" kelimesi eklenir (aufgrund von Problemen, mithilfe von Geräten gibi) \nBöylece Genitiv edatları konusunu tamamen bitirmiş olduk!"
+          },
+          {
+            "id": "almanca_genitiv_edatlari__mekansal_konum_belirtecleri",
+            "title": "Almanca Genitiv Edatları_ Mekansal Konum Belirteçleri",
+            "category": "Grammatik & Nomen",
+            "subcategory": "Genitivpräpositionen",
+            "content": "﻿Genitiv (-in hali) edatlarından olan außerhalb (dışında) ve innerhalb (içinde), bir şeyin mekansal (lokal) konumunu belirtmek için birbirinin tam zıttı olarak çalışır \naußerhalb (Dışında): Bir şeyin o mekanda değil, dışarıda veya o yerin yakın çevresinde olduğunu ifade eder Örneğin; \"Er wohnt außerhalb der Stadt\" (Şehrin dışında yaşıyor) Çoğul kelimelerde Genitiv durumu ekiyle tam belli olmuyorsa veya şehir isimleri gibi özel isimlerle kullanıldığında \"von\" edatıyla desteklenir (außerhalb von Köln veya außerhalb von Einrichtungen gibi) \ninnerhalb (İçinde): Bir şeyin sınırları net olarak çizilmiş, kapalı bir alanın veya mekanın içinde yer aldığını gösterir Örneğin; \"Innerhalb des Gebäudes darf nicht geraucht werden\" (Binanın içinde sigara içilmesine izin verilmez) \nBu iki zıt mekan edatının mantığı netleşti mi? İsterseniz bu iki edatın bir de zamansal (temporal) olarak nasıl kullanıldığına (\"bir ay içinde\" gibi) bakabiliriz veya aynı gruba giren laut, mithilfe, zufolge (göre, yardımıyla) gibi diğer resmi Genitiv edatlarına geçiş yapabiliriz. Ne dersiniz?"
+          }
+        ]
       },
       {
         "name": "Partizipien als Adjektive/Nomen",
-        "lessons": []
+        "lessons": [
+          {
+            "id": "almanca_partizip_i_yapisi_ve_kullanimi",
+            "title": "Almanca Partizip I Yapısı ve Kullanımı",
+            "category": "Grammatik & Nomen",
+            "subcategory": "Partizipien als Adjektive/Nomen",
+            "content": "﻿Partizip I (1. Ortaç), eylemlerin aynı anda gerçekleştiğini (Gleichzeitigkeit) veya henüz bitmediğini göstermek için kullanılır 1, 2. Fiilin yalın (infinitiv) halinin sonuna sadece bir \"d\" harfi eklenerek oluşturulur (örneğin singen -> singend / şarkı söyleyerek) 1.\nGeniş bağlamda bu yapıyı sıfat veya isim olarak şöyle kullanabiliriz:\n* Sıfat olarak (Adjektiv): Bu yapıyı bir ismin önüne koyduğunuzda, ismin hallerine göre tıpkı normal bir sıfat gibi çekimlenir 2, 3. Örneğin; die kochende Suppe (kaynayan çorba) veya den laufenden Film (devam eden/oynayan film) 2, 3.\n* İsim olarak (Nomen): Bu kelimeleri büyük harfle başlatarak doğrudan isimleştirebilirsiniz 3. Mesela reisen (seyahat etmek) fiilinden der Reisende (seyahat eden kişi / yolcu) veya schlafen (uyumak) fiilinden die Schlafende (uyuyan kadın) üretebilirsiniz 3, 4.\nBu \"devam eden veya aynı anda olan eylemler\" mantığı netleşti mi? Dilerseniz tam zıttı olan, eylemin tamamen bittiğini ve sonucunu gösteren Partizip II (2. Ortaç) konusuna (das gestohlene Auto - çalınmış araba) geçiş yapabiliriz. Ne dersiniz?"
+          },
+          {
+            "id": "almancada_partizip_ii_kullanimi_ve_sifatlastirma_yontemleri",
+            "title": "Almancada Partizip II Kullanımı ve Sıfatlaştırma Yöntemleri",
+            "category": "Grammatik & Nomen",
+            "subcategory": "Partizipien als Adjektive/Nomen",
+            "content": "﻿Bir önceki konumuzda eylemin henüz devam ettiğini gösteren Partizip I'i konuşmuştuk. Sorduğunuz Partizip II (2. Ortaç) ise bunun tam zıttıdır: Eylem tamamen bitmiştir ve ortada kalıcı bir sonuç (Abgeschlossenheit) vardır 1.\nBu yapıyı Almancada bir sıfat veya isim olarak kullanmak çok pratiktir ve uzun cümleleri kısaltmanızı sağlar.\n1. Sıfat Olarak Kullanımı (Adjektiv):Fiilin üçüncü halini (Partizip Perfekt) doğrudan ismin önüne koyarsınız. İsmin önüne geldiği için, ismin haline (Akkusativ, Dativ vb.) göre normal sıfat çekimi (Adjektivdeklination) kurallarına uymak zorundadır 1, 2.\n* Örnek: \"Ich kaufe mir ein gebrauchtes Auto.\" (Kullanılmış bir araba alıyorum.) 1.\n* Örnek: \"Wann kann ich meinen reparierten Wagen abholen?\" (Tamir edilmiş arabamı ne zaman alabilirim?) Burada arabanın tamir işlemi çoktan bitmiş, sonuç ortadadır 2.\n2. İsim Olarak Kullanımı (Nomen):Sıfat olarak kullandığınız bu kelimeleri büyük harfle başlatarak doğrudan bir kişiye veya duruma dönüştürebilirsiniz 3.\n* Örnek: \"sich verletzen\" (yaralanmak) fiilinden -> der Verletzte (yaralı adam) veya die Verletzte (yaralı kadın) türetebilirsiniz 3.\n* Örnek: \"sich verlieben\" (aşık olmak) fiilinden -> der Verliebte (aşık olan kişi) diyebilirsiniz 3.\nÇok Önemli İki Kural:\n* Eğer dönüştürdüğünüz fiil dönüşlü (reflexiv) bir fiilse, başındaki \"sich\" kelimesi sıfatlaştırma sırasında tamamen düşer 3, 4. Örneğin; \"sich erkälten\" (üşütmek) fiili için \"die sich erkältete Frau\" denmez, doğrudan \"die erkältete Frau\" (üşütmüş kadın) denir 4.\n* İki ayrı cümleyi veya uzun bir ilgi cümlesini (Relativsatz) kısaltmak için harika bir yöntemdir. \"Die Polizei sucht das Auto. Das Auto wurde gestohlen.\" demek yerine tek bir hamleyle \"Die Polizei sucht das gestohlene Auto.\" (Polis çalınan arabayı arıyor) diyebilirsiniz 4, 5.\nEylemlerin \"devam eden\" (Partizip I) ve \"bitmiş\" (Partizip II) hallerini sıfatlaştırma mantığı kafanızda tam olarak netleşti mi?"
+          }
+        ]
       }
     ]
   },
