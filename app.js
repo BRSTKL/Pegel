@@ -182,6 +182,7 @@ function loadState() {
   // Safe migrations for newly added properties
   if (!state.prepScores) state.prepScores = {};
   if (!state.starredPreps) state.starredPreps = [];
+  if (!state.leseverstehenAnswers) state.leseverstehenAnswers = {};
   
   const today = new Date().toDateString();
   if (state.lastActiveDate && state.lastActiveDate !== today) {
@@ -228,6 +229,10 @@ document.addEventListener("DOMContentLoaded", () => {
   
   document.getElementById("launcher-verben-prap")?.addEventListener("click", () => {
     showScreen("verben-prep-dashboard");
+  });
+
+  document.getElementById("launcher-leseverstehen")?.addEventListener("click", () => {
+    startNewLeseverstehen();
   });
   
   // Prepositions Dashboard Inputs Bindings
@@ -301,10 +306,18 @@ function showScreen(screenId) {
     targetScreen.classList.remove("hidden");
   }
   
+  // Toggle wide-mode class on container for split layout
+  const appContainer = document.querySelector(".app-container");
+  if (screenId === "leseverstehen-play") {
+    appContainer?.classList.add("wide-mode");
+  } else {
+    appContainer?.classList.remove("wide-mode");
+  }
+  
   // Highlight active nav item
   // Map sub-activities back to the active navbar tab
   let navActiveId = screenId;
-  if (screenId === "flashcard-play" || screenId === "quiz" || screenId === "fillblanks-play" || screenId === "verben-prep-dashboard" || screenId === "verben-prep-quiz") {
+  if (screenId === "flashcard-play" || screenId === "quiz" || screenId === "fillblanks-play" || screenId === "verben-prep-dashboard" || screenId === "verben-prep-quiz" || screenId === "leseverstehen-play") {
     navActiveId = "exercises";
   }
   const activeNav = document.querySelector(`.nav-item[data-screen="${navActiveId}"]`);
@@ -325,6 +338,8 @@ function showScreen(screenId) {
     renderAnalyticsScreen();
   } else if (screenId === "profile") {
     renderProfileScreen();
+  } else if (screenId === "leseverstehen-play") {
+    renderLeseverstehenScreen();
   }
 }
 
@@ -339,6 +354,11 @@ function renderHomeScreen() {
   document.getElementById("progress-text-percent").textContent = `${progressPercent}%`;
   document.getElementById("progress-bar-fill").style.width = `${progressPercent}%`;
   document.getElementById("completed-fraction").textContent = `${completedCount}/${totalLessons} tamamlandı`;
+  
+  const totalTopicsCount = document.getElementById("total-topics-count");
+  if (totalTopicsCount) {
+    totalTopicsCount.textContent = `${totalLessons} konu`;
+  }
   
   updateStreakBadge();
   
@@ -1422,4 +1442,251 @@ function countTotalLessons() {
     });
   });
   return count;
+}
+
+// ================= LESEVERSTEHEN GAME ENGINE =================
+
+let activeLeseverstehenGame = null;
+let leseverstehenSubmitted = false;
+
+function startNewLeseverstehen() {
+  activeLeseverstehenGame = LESEVERSTEHEN_DATA[0]; // Currently we have one exercise
+  leseverstehenSubmitted = false;
+  state.leseverstehenAnswers = {};
+  saveState();
+  
+  showScreen("leseverstehen-play");
+}
+
+function renderLeseverstehenScreen() {
+  if (!activeLeseverstehenGame) return;
+  
+  const exercise = activeLeseverstehenGame;
+  
+  // Set instruction
+  document.getElementById("leseverstehen-instruction-text").textContent = exercise.instruction;
+  
+  // Render Headings List
+  const headingsList = document.getElementById("leseverstehen-headings-list");
+  headingsList.innerHTML = "";
+  Object.keys(exercise.headings).forEach(letter => {
+    const card = document.createElement("div");
+    card.className = "leseverstehen-heading-card";
+    card.innerHTML = `
+      <span class="leseverstehen-heading-letter">${letter})</span>
+      <span>${exercise.headings[letter]}</span>
+    `;
+    headingsList.appendChild(card);
+  });
+  
+  // Render Texts List
+  const textsList = document.getElementById("leseverstehen-texts-list");
+  textsList.innerHTML = "";
+  exercise.texts.forEach(text => {
+    const card = document.createElement("div");
+    card.className = "interactive-card";
+    card.style = "padding: 16px; border-radius: var(--border-radius-lg); position: relative; border-left: 3px solid var(--theme-purple); background: var(--color-background-secondary); border-top: 1px solid var(--color-border-primary); border-right: 1px solid var(--color-border-primary); border-bottom: 1px solid var(--color-border-primary);";
+    
+    // Check if we need to show correction feedback
+    let feedbackHtml = "";
+    if (leseverstehenSubmitted) {
+      const userAns = state.leseverstehenAnswers[text.id];
+      const correctAns = exercise.answers[text.id];
+      if (userAns === correctAns) {
+        feedbackHtml = `
+          <div class="text-feedback-badge correct">
+            <i class="ti ti-circle-check"></i> Doğru (Başlık ${correctAns.toUpperCase()})
+          </div>
+        `;
+      } else {
+        const userChoiceText = userAns ? userAns.toUpperCase() : "Boş";
+        feedbackHtml = `
+          <div class="text-feedback-badge incorrect">
+            <i class="ti ti-circle-x"></i> Yanlış (Sizin seçiminiz: ${userChoiceText}, Doğru: ${correctAns.toUpperCase()})
+          </div>
+        `;
+      }
+    }
+    
+    card.innerHTML = `
+      <div style="display:flex; align-items:center; gap: 8px; margin-bottom: 8px;">
+        <span class="bubble-row-num" style="width:22px; height:22px; font-size:11px;">${text.id}</span>
+        <span style="font-size:12.5px; font-weight:600; color:var(--color-text-primary);">Metin ${text.id}</span>
+      </div>
+      <p style="font-size:12.5px; line-height:1.6; margin:0; color:var(--color-text-secondary); text-align: justify;">${text.content}</p>
+      ${feedbackHtml}
+    `;
+    textsList.appendChild(card);
+  });
+  
+  // Render Answer Sheet (Antwortbogen)
+  renderAnswersSheet();
+  
+  // Setup Submit Button
+  const submitBtn = document.getElementById("leseverstehen-submit-btn");
+  if (submitBtn) {
+    if (leseverstehenSubmitted) {
+      submitBtn.innerHTML = '<i class="ti ti-check"></i> Alıştırmayı Tamamla';
+      submitBtn.className = "c-teal";
+      submitBtn.onclick = () => {
+        showScreen("exercises");
+      };
+    } else {
+      submitBtn.innerHTML = '<i class="ti ti-send"></i> Cevapları Gönder';
+      submitBtn.className = "c-purple";
+      submitBtn.onclick = submitLeseverstehen;
+    }
+  }
+}
+
+function renderAnswersSheet() {
+  if (!activeLeseverstehenGame) return;
+  const exercise = activeLeseverstehenGame;
+  const container = document.getElementById("leseverstehen-answers-sheet");
+  container.innerHTML = "";
+  
+  exercise.texts.forEach(text => {
+    const row = document.createElement("div");
+    row.className = "bubble-grid-row";
+    row.style = "display: flex; flex-direction: column; gap: 8px; align-items: stretch;";
+    
+    // Task number header
+    const rowHeader = document.createElement("div");
+    rowHeader.style = "display: flex; align-items: center; gap: 8px;";
+    rowHeader.innerHTML = `
+      <span class="bubble-row-num">${text.id}</span>
+      <span style="font-size:12px; font-weight:600; color:var(--color-text-primary);">Metin ${text.id} için başlık seçin:</span>
+    `;
+    row.appendChild(rowHeader);
+    
+    // Bubble buttons grid (split into 2 rows of 5 for layout fit)
+    const grid = document.createElement("div");
+    grid.className = "bubble-grid-container";
+    
+    const row1 = document.createElement("div");
+    row1.className = "bubble-buttons-grid";
+    const row2 = document.createElement("div");
+    row2.className = "bubble-buttons-grid";
+    
+    const letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"];
+    const userAns = state.leseverstehenAnswers[text.id];
+    
+    letters.forEach((letter, idx) => {
+      const btn = document.createElement("button");
+      btn.className = "bubble-btn";
+      btn.textContent = letter;
+      
+      const isSelected = userAns === letter;
+      if (isSelected) {
+        btn.classList.add("selected");
+      }
+      
+      // If submitted, show correct/incorrect color coding
+      if (leseverstehenSubmitted) {
+        btn.classList.add("disabled");
+        const correctAns = exercise.answers[text.id];
+        if (letter === correctAns) {
+          btn.classList.add("correct");
+        } else if (isSelected && letter !== correctAns) {
+          btn.classList.add("incorrect");
+        }
+      } else {
+        btn.onclick = () => selectBubbleAnswer(text.id, letter);
+      }
+      
+      if (idx < 5) {
+        row1.appendChild(btn);
+      } else {
+        row2.appendChild(btn);
+      }
+    });
+    
+    grid.appendChild(row1);
+    grid.appendChild(row2);
+    row.appendChild(grid);
+    container.appendChild(row);
+  });
+  
+  updateLeseverstehenStatus();
+}
+
+function selectBubbleAnswer(qNum, option) {
+  if (leseverstehenSubmitted) return;
+  
+  // Unique choice enforcement: if this heading option was selected elsewhere, clear it
+  Object.keys(state.leseverstehenAnswers).forEach(key => {
+    if (state.leseverstehenAnswers[key] === option) {
+      state.leseverstehenAnswers[key] = null;
+    }
+  });
+  
+  // Toggle selection
+  if (state.leseverstehenAnswers[qNum] === option) {
+    state.leseverstehenAnswers[qNum] = null;
+  } else {
+    state.leseverstehenAnswers[qNum] = option;
+  }
+  
+  saveState();
+  renderAnswersSheet();
+}
+
+function updateLeseverstehenStatus() {
+  if (!activeLeseverstehenGame) return;
+  const exercise = activeLeseverstehenGame;
+  const statusText = document.getElementById("leseverstehen-status-text");
+  
+  if (leseverstehenSubmitted) {
+    let correctCount = 0;
+    exercise.texts.forEach(text => {
+      if (state.leseverstehenAnswers[text.id] === exercise.answers[text.id]) {
+        correctCount++;
+      }
+    });
+    statusText.textContent = `Sonuç: ${correctCount}/5 Doğru! (+${correctCount * 10} XP)`;
+    statusText.style.color = "#10b981";
+    return;
+  }
+  
+  let answeredCount = 0;
+  exercise.texts.forEach(text => {
+    if (state.leseverstehenAnswers[text.id]) {
+      answeredCount++;
+    }
+  });
+  
+  const remaining = 5 - answeredCount;
+  if (remaining === 0) {
+    statusText.textContent = "Bütün sorular cevaplandı. Cevapları gönderin!";
+    statusText.style.color = "#98b5b6";
+  } else {
+    statusText.textContent = `${remaining} boş soru doldurulmayı bekliyor.`;
+    statusText.style.color = "var(--theme-coral)";
+  }
+}
+
+function submitLeseverstehen() {
+  if (leseverstehenSubmitted) return;
+  
+  if (!activeLeseverstehenGame) return;
+  const exercise = activeLeseverstehenGame;
+  
+  // Calculate correct answers
+  let correctCount = 0;
+  exercise.texts.forEach(text => {
+    if (state.leseverstehenAnswers[text.id] === exercise.answers[text.id]) {
+      correctCount++;
+    }
+  });
+  
+  leseverstehenSubmitted = true;
+  
+  // Award XP
+  const xpEarned = correctCount * 10;
+  state.xp += xpEarned;
+  
+  saveState();
+  
+  // Render again with review marks
+  renderLeseverstehenScreen();
 }

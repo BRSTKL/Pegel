@@ -1,0 +1,49 @@
+// B1 German App - Leseverstehen Data
+const LESEVERSTEHEN_DATA = [
+  {
+    id: "leseverstehen_1",
+    title: "Leseverstehen Teil 1 - Arbeitswelt & Gesundheit",
+    instruction: "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
+    headings: {
+      a: "Größere Menschen bekommen oft mehr Lohn",
+      b: "Büro-Übungen beugen Rückenschmerzen vor",
+      c: "Viel Stress, aber Job macht froh",
+      d: "Luxus-Burger sorgt für Diskussionen",
+      e: "Firmen organisieren eigene After-Work-Partys",
+      f: "Soziale Medien kritisieren Restaurantpreise",
+      g: "Einfache Übungen gegen Rückenschmerzen",
+      h: "Forscher prüfen Einfluss der Ausstrahlung",
+      i: "Feiern nach der Arbeit liegen im Trend",
+      j: "Flexible Arbeitszeiten senken Stress"
+    },
+    texts: [
+      {
+        id: 1,
+        content: "Der „Rücken-Gesundheits-Ratgeber“ vom GesundFit-Verlag ist ein praktisches Buch für alle, die Rückenschmerzen haben oder vorbeugen wollen. Der Autor, Dr. Martin Keller, erklärt in einfachen Worten, wie die Wirbelsäule funktioniert. Viele Fotos zeigen leichte Übungen für zu Hause und fürs Büro. Besonders hilfreich sind die kurzen Trainingspläne für jeden Tag. Das Buch kostet 14,90 Euro und ist im Buchhandel und online erhältlich."
+      },
+      {
+        id: 2,
+        content: "LONDON. In einem Luxus-Restaurant wurde gestern der angeblich teuerste Hamburger der Welt verkauft. Der Burger kostete 1.500 Pfund, also fast 1.800 Euro. Er wurde aus sehr hochwertigem Rindfleisch, Trüffel, Kaviar und einem speziellen Gold-Brötchen gemacht. Nur zehn Gäste durften den Hamburger probieren. Das Restaurant spendete einen Teil des Geldes für ein Kinderkrankenhaus. Viele Menschen diskutierten in den sozialen Medien über den Preis."
+      },
+      {
+        id: 3,
+        content: "Eine Studie der Universität Köln zeigt, dass es einen Zusammenhang zwischen Körpergröße und Gehalt gibt. In der Umfrage wurden 2.000 Angestellte aus verschiedenen Branchen befragt. Männer über 1,85 Meter verdienen im Durchschnitt 8 Prozent mehr als kleinere Männer. Bei Frauen ist der Unterschied etwas geringer, etwa 5 Prozent. Die Forscher sagen, dass große Personen oft selbstsicherer wirken und deshalb schneller befördert werden."
+      },
+      {
+        id: 4,
+        content: "Laut einer Umfrage des Instituts ArbeitPlus sind viele Deutsche gestresst, aber trotzdem relativ zufrieden mit ihrer Arbeit. Es wurden 1.500 Beschäftigte in Büros, Fabriken und im Einzelhandel befragt. 62 Prozent fühlen sich mehrmals pro Woche gestresst, vor allem durch Zeitdruck. Gleichzeitig sagten 70 Prozent, dass sie ihren Job insgesamt mögen. Wer flexible Arbeitszeiten hat, berichtet deutlich weniger Stress und eine höhere Arbeitszufriedenheit."
+      },
+      {
+        id: 5,
+        content: "BERLIN. After-Work-Partys sind in deutschen Großstädten immer beliebter geworden. In vielen Bars treffen sich Angestellte donnerstags oder freitags direkt nach der Arbeit. Die Veranstaltungen beginnen oft schon um 18 Uhr und dauern bis etwa 22 Uhr. Firmen nutzen die Partys, um das Teamgefühl zu stärken. Laut den Veranstaltern kommen besonders junge Berufstätige, die neue Leute kennenlernen und trotzdem nicht zu spät nach Hause gehen wollen."
+      }
+    ],
+    answers: {
+      1: "g",
+      2: "d",
+      3: "a",
+      4: "c",
+      5: "i"
+    }
+  }
+];

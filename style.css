@@ -738,3 +738,201 @@ button.c-purple {
 .star-icon.starred {
   color: var(--theme-coral);
 }
+
+/* Blue Theme / Launcher Colors */
+.c-blue-bg {
+  background-color: rgba(147, 197, 253, 0.12);
+  color: #60a5fa;
+  border: 1px solid rgba(147, 197, 253, 0.2);
+}
+
+/* Wide Mode overrides for App Container */
+@media (min-width: 1000px) {
+  .app-container.wide-mode {
+    width: 1000px !important;
+    max-width: 1000px !important;
+    height: 90vh !important;
+    transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+/* Leseverstehen Split Pane Layout */
+.leseverstehen-layout {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+  overflow: hidden;
+  min-height: 0;
+  transition: all 0.3s ease;
+}
+
+.leseverstehen-text-pane {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding-right: 8px;
+  min-height: 0;
+  gap: 16px;
+}
+
+.leseverstehen-answer-pane {
+  flex: 0.8;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow-y: auto;
+  min-width: 290px;
+  min-height: 0;
+}
+
+@media (max-width: 768px) {
+  .leseverstehen-layout {
+    flex-direction: column !important;
+    overflow-y: auto !important;
+  }
+  .leseverstehen-text-pane, .leseverstehen-answer-pane {
+    overflow-y: visible !important;
+    flex: none !important;
+    width: 100% !important;
+  }
+}
+
+/* Answer Sheet Bubble Styles */
+.bubble-grid-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.bubble-grid-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--color-background-primary);
+  padding: 8px 12px;
+  border-radius: var(--border-radius-md);
+  border: 1px solid var(--color-border-primary);
+}
+
+.bubble-row-num {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--theme-purple-light);
+  color: var(--theme-purple);
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border: 1px solid rgba(177, 159, 251, 0.2);
+}
+
+.bubble-buttons-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
+  flex: 1;
+}
+
+.bubble-btn {
+  height: 28px;
+  border-radius: var(--border-radius-sm);
+  border: 1px solid var(--color-border-primary);
+  background: var(--color-background-secondary);
+  color: var(--color-text-secondary);
+  font-size: 11.5px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all var(--transition-fast) ease;
+  user-select: none;
+}
+
+.bubble-btn:hover {
+  background: var(--color-background-tertiary);
+  color: var(--color-text-primary);
+  border-color: var(--color-text-tertiary);
+}
+
+.bubble-btn.selected {
+  background-color: var(--theme-purple) !important;
+  color: var(--color-background-primary) !important;
+  border-color: var(--theme-purple) !important;
+  font-weight: 600;
+}
+
+.bubble-btn.correct {
+  background-color: #10b981 !important; /* Tailwind green-500 */
+  color: white !important;
+  border-color: #10b981 !important;
+  font-weight: 600;
+}
+
+.bubble-btn.incorrect {
+  background-color: var(--theme-coral) !important;
+  color: var(--color-background-primary) !important;
+  border-color: var(--theme-coral) !important;
+  font-weight: 600;
+}
+
+.bubble-btn.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* Text card highlight badges */
+.text-feedback-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.text-feedback-badge.correct {
+  background-color: rgba(16, 185, 129, 0.15);
+  color: #10b981;
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
+.text-feedback-badge.incorrect {
+  background-color: var(--theme-coral-light);
+  color: var(--theme-coral);
+  border: 1px solid rgba(232, 139, 125, 0.2);
+}
+
+/* Headings styles in Leseverstehen */
+.leseverstehen-heading-card {
+  padding: 10px 12px;
+  background-color: var(--color-background-secondary);
+  border: 1px solid var(--color-border-primary);
+  border-radius: var(--border-radius-md);
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--color-text-secondary);
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  transition: all var(--transition-fast) ease;
+}
+.leseverstehen-heading-card:hover {
+  border-color: var(--color-text-tertiary);
+  color: var(--color-text-primary);
+}
+.leseverstehen-heading-letter {
+  font-weight: 700;
+  color: var(--theme-purple);
+  text-transform: uppercase;
+}
+
+/* Tip details summaries */
+.tip-details summary::-webkit-details-marker {
+  display: none;
+}
