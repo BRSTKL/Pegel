@@ -582,7 +582,9 @@ function showScreen(screenId) {
   // Highlight active nav item
   // Map sub-activities back to the active navbar tab
   let navActiveId = screenId;
-  if (screenId === "flashcard-play" || screenId === "quiz" || screenId === "fillblanks-play" || screenId === "verben-prep-dashboard" || screenId === "verben-prep-quiz" || screenId === "leseverstehen-play" || screenId === "leseverstehen-dashboard" || screenId === "leseverstehen-parts" || screenId === "sprachbausteine-play" || screenId === "sprachbausteine-dashboard" || screenId === "sprachbausteine-parts" || screenId === "myvocab") {
+  if (screenId === "lesson" || screenId === "lesson-quiz") {
+    navActiveId = "sitemap";
+  } else if (screenId === "flashcard-play" || screenId === "quiz" || screenId === "fillblanks-play" || screenId === "verben-prep-dashboard" || screenId === "verben-prep-quiz" || screenId === "leseverstehen-play" || screenId === "leseverstehen-dashboard" || screenId === "leseverstehen-parts" || screenId === "sprachbausteine-play" || screenId === "sprachbausteine-dashboard" || screenId === "sprachbausteine-parts" || screenId === "myvocab") {
     navActiveId = "exercises";
   }
   const activeNav = document.querySelector(`.nav-item[data-screen="${navActiveId}"]`);
@@ -850,28 +852,46 @@ function openLesson(lesson) {
     lessonBody.innerHTML = formatLessonContent(lesson.content);
   }
   
-  const compBtn = document.getElementById("lesson-complete-btn");
-  if (compBtn) {
+  const actionContainer = document.getElementById("lesson-action-container");
+  if (actionContainer) {
+    actionContainer.innerHTML = "";
+    
     const isCompleted = state.completedLessons.includes(lesson.id);
-    updateCompleteButtonState(compBtn, isCompleted);
+    const hasQuiz = typeof LESSON_QUIZZES !== 'undefined' && LESSON_QUIZZES[lesson.id];
     
-    const newCompBtn = compBtn.cloneNode(true);
-    compBtn.parentNode.replaceChild(newCompBtn, compBtn);
+    const btn = document.createElement("button");
+    btn.style = "width: 100%; border: none; padding: 13px; border-radius: var(--border-radius-lg); font-size: 13.5px; font-weight: 600; cursor: pointer;";
     
-    newCompBtn.addEventListener("click", () => {
-      const index = state.completedLessons.indexOf(lesson.id);
-      let nowCompleted = false;
-      if (index > -1) {
-        state.completedLessons.splice(index, 1);
+    if (hasQuiz) {
+      if (isCompleted) {
+        btn.className = "c-teal";
+        btn.innerHTML = `<i class="ti ti-circle-check"></i> Sınavı Tekrar Et`;
       } else {
-        state.completedLessons.push(lesson.id);
-        state.xp += 15;
-        nowCompleted = true;
+        btn.className = "c-purple";
+        btn.innerHTML = `<i class="ti ti-pencil"></i> Sınav Yap`;
       }
-      saveState();
-      updateCompleteButtonState(newCompBtn, nowCompleted);
-      updateStreakBadge();
-    });
+      btn.addEventListener("click", () => {
+        startLessonQuiz(lesson);
+      });
+    } else {
+      // Fallback manual completion if no quiz exists yet
+      updateCompleteButtonState(btn, isCompleted);
+      btn.addEventListener("click", () => {
+        const index = state.completedLessons.indexOf(lesson.id);
+        let nowCompleted = false;
+        if (index > -1) {
+          state.completedLessons.splice(index, 1);
+        } else {
+          state.completedLessons.push(lesson.id);
+          state.xp += 15;
+          nowCompleted = true;
+        }
+        saveState();
+        updateCompleteButtonState(btn, nowCompleted);
+        updateStreakBadge();
+      });
+    }
+    actionContainer.appendChild(btn);
   }
 }
 
@@ -3408,4 +3428,207 @@ function extractSentence(textBlock, word) {
     return sentence;
   }
   return textBlock;
+}
+
+// ================= LESSON QUIZ ENGINE =================
+let activeLessonQuiz = null;
+let activeLessonQuizQuestions = [];
+let lessonQuizCurrentIndex = 0;
+let lessonQuizLives = 3;
+
+function startLessonQuiz(lesson) {
+  activeLessonQuiz = lesson;
+  activeLessonQuizQuestions = LESSON_QUIZZES[lesson.id] || [];
+  lessonQuizCurrentIndex = 0;
+  lessonQuizLives = 3;
+  
+  if (activeLessonQuizQuestions.length === 0) {
+    alert("Bu ders için henüz sınav bulunamadı.");
+    return;
+  }
+  
+  showScreen("lesson-quiz");
+  
+  // Header title
+  const headerTitle = document.getElementById("lesson-quiz-header-title");
+  if (headerTitle) {
+    headerTitle.textContent = `${lesson.title} - Sınav`;
+  }
+  
+  // Hide result overlay
+  const overlay = document.getElementById("lesson-quiz-result-overlay");
+  if (overlay) overlay.classList.add("hidden");
+  
+  // Setup back button
+  const backBtn = document.getElementById("lesson-quiz-back-btn");
+  if (backBtn) {
+    const newBackBtn = backBtn.cloneNode(true);
+    backBtn.parentNode.replaceChild(newBackBtn, backBtn);
+    newBackBtn.addEventListener("click", () => {
+      if (confirm("Sınavdan çıkmak istiyor musunuz? İlerlemeniz kaybolacaktır.")) {
+        showScreen("lesson");
+      }
+    });
+  }
+  
+  renderLessonQuizLives();
+  renderLessonQuizQuestion();
+}
+
+function renderLessonQuizLives() {
+  const container = document.getElementById("lesson-quiz-lives-container");
+  if (!container) return;
+  
+  container.innerHTML = "";
+  for (let i = 0; i < 3; i++) {
+    if (i < lessonQuizLives) {
+      container.innerHTML += `<span style="color: var(--theme-coral); text-shadow: 0 0 4px rgba(232, 139, 125, 0.4);">❤️</span>`;
+    } else {
+      container.innerHTML += `<span style="opacity: 0.3; filter: grayscale(100%);">❤️</span>`; // lost heart
+    }
+  }
+}
+
+function renderLessonQuizQuestion() {
+  const qCount = document.getElementById("lesson-quiz-q-count");
+  const qPercent = document.getElementById("lesson-quiz-q-percent");
+  const progressBar = document.getElementById("lesson-quiz-progress-bar");
+  const questionArea = document.getElementById("lesson-quiz-question-area");
+  
+  if (!activeLessonQuizQuestions || activeLessonQuizQuestions.length === 0) return;
+  
+  const totalQuestions = activeLessonQuizQuestions.length;
+  const q = activeLessonQuizQuestions[lessonQuizCurrentIndex];
+  
+  const pct = Math.round((lessonQuizCurrentIndex / totalQuestions) * 100);
+  
+  if (qCount) qCount.textContent = `Soru ${lessonQuizCurrentIndex + 1} / ${totalQuestions}`;
+  if (qPercent) qPercent.textContent = `${pct}%`;
+  if (progressBar) progressBar.style.width = `${pct}%`;
+  
+  if (questionArea) {
+    questionArea.innerHTML = `
+      <p style="font-size: 15px; font-weight: 600; line-height: 1.55; margin-bottom: 24px; color: var(--color-text-primary);">
+        ${q.question}
+      </p>
+      
+      <div style="display:flex; flex-direction:column; gap:11px;" id="lesson-quiz-options-container">
+        ${q.options.map((opt, idx) => `
+          <button class="quiz-option" data-idx="${idx}">
+            <span>${opt}</span>
+            <i class="ti ti-circle" style="font-size:16px; color:var(--color-text-tertiary); flex-shrink:0; margin-left:8px;"></i>
+          </button>
+        `).join("")}
+      </div>
+    `;
+    
+    const options = questionArea.querySelectorAll(".quiz-option");
+    options.forEach(btn => {
+      btn.addEventListener("click", () => {
+        const selectedIdx = parseInt(btn.getAttribute("data-idx"));
+        handleLessonQuizAnswer(selectedIdx, btn, options);
+      });
+    });
+  }
+}
+
+function handleLessonQuizAnswer(selectedIdx, clickedBtn, allOptions) {
+  const q = activeLessonQuizQuestions[lessonQuizCurrentIndex];
+  const correctIdx = q.correct;
+  
+  allOptions.forEach(opt => opt.disabled = true);
+  
+  const isCorrect = selectedIdx === correctIdx;
+  
+  if (isCorrect) {
+    clickedBtn.classList.add("correct");
+    clickedBtn.querySelector("i").className = "ti ti-circle-check";
+  } else {
+    clickedBtn.classList.add("incorrect");
+    clickedBtn.querySelector("i").className = "ti ti-circle-x";
+    
+    const correctBtn = allOptions[correctIdx];
+    correctBtn.classList.add("correct");
+    correctBtn.querySelector("i").className = "ti ti-circle-check";
+    
+    lessonQuizLives--;
+    renderLessonQuizLives();
+  }
+  
+  setTimeout(() => {
+    if (lessonQuizLives <= 0) {
+      finishLessonQuiz(false);
+    } else {
+      lessonQuizCurrentIndex++;
+      if (lessonQuizCurrentIndex >= activeLessonQuizQuestions.length) {
+        finishLessonQuiz(true);
+      } else {
+        renderLessonQuizQuestion();
+      }
+    }
+  }, isCorrect ? 1200 : 1800);
+}
+
+function finishLessonQuiz(success) {
+  const overlay = document.getElementById("lesson-quiz-result-overlay");
+  const card = document.getElementById("lesson-quiz-result-card");
+  
+  if (!overlay || !card) return;
+  
+  overlay.classList.remove("hidden");
+  
+  if (success) {
+    // Save completion state
+    if (!state.completedLessons.includes(activeLessonQuiz.id)) {
+      state.completedLessons.push(activeLessonQuiz.id);
+      state.xp += 15;
+      saveState();
+      updateStreakBadge();
+    }
+    
+    card.innerHTML = `
+      <div style="font-size: 50px; margin-bottom: 10px;">🎉</div>
+      <h2 style="font-size: 19px; font-weight: 700; margin: 0; color: var(--color-text-primary);">Sınavı Geçtiniz!</h2>
+      <p style="font-size: 13px; color: var(--color-text-secondary); line-height: 1.5; margin: 0;">
+        Tebrikler, konuyu başarıyla kavradınız ve sınavı geçtiniz!
+      </p>
+      <div class="c-teal-bg" style="padding: 6px 12px; border-radius: var(--border-radius-full); font-size: 12px; font-weight: 600;">
+        +15 XP Kazandınız!
+      </div>
+      <button id="lesson-quiz-result-ok-btn" class="c-purple" style="width: 100%; border: none; padding: 12px; border-radius: var(--border-radius-lg); font-size: 13px; font-weight: 600; cursor: pointer; margin-top: 10px; color: #ffffff;">
+        Konulara Dön
+      </button>
+    `;
+    
+    document.getElementById("lesson-quiz-result-ok-btn")?.addEventListener("click", () => {
+      overlay.classList.add("hidden");
+      showScreen("sitemap");
+    });
+  } else {
+    card.innerHTML = `
+      <div style="font-size: 50px; margin-bottom: 10px;">💔</div>
+      <h2 style="font-size: 19px; font-weight: 700; margin: 0; color: var(--color-text-primary);">Sınav Başarısız!</h2>
+      <p style="font-size: 13px; color: var(--color-text-secondary); line-height: 1.5; margin: 0;">
+        3 hata yaptınız ve tüm canlarınız tükendi. Konu metnini tekrar okuyup deneyebilirsiniz.
+      </p>
+      <div style="display: flex; flex-direction: column; gap: 10px; width: 100%; margin-top: 10px;">
+        <button id="lesson-quiz-result-retry-btn" class="c-purple" style="width: 100%; border: none; padding: 12px; border-radius: var(--border-radius-lg); font-size: 13px; font-weight: 600; cursor: pointer; color: #ffffff;">
+          Tekrar Dene
+        </button>
+        <button id="lesson-quiz-result-close-btn" style="width: 100%; border: 1px solid var(--color-border-primary); background: none; padding: 12px; border-radius: var(--border-radius-lg); font-size: 13px; font-weight: 600; cursor: pointer; color: var(--color-text-secondary);">
+          Konuya Geri Dön
+        </button>
+      </div>
+    `;
+    
+    document.getElementById("lesson-quiz-result-retry-btn")?.addEventListener("click", () => {
+      overlay.classList.add("hidden");
+      startLessonQuiz(activeLessonQuiz);
+    });
+    
+    document.getElementById("lesson-quiz-result-close-btn")?.addEventListener("click", () => {
+      overlay.classList.add("hidden");
+      showScreen("lesson");
+    });
+  }
 }

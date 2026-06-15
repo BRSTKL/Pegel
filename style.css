@@ -338,7 +338,7 @@ body {
 }
 
 .quiz-option.correct {
-  background-color: rgba(152, 181, 182, 0.15) !important;
+  background-color: rgba(16, 185, 129, 0.08) !important;
   border-color: var(--theme-teal) !important;
   color: var(--theme-teal) !important;
 }

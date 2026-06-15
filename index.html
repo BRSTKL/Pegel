@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
   
   <!-- App Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=8">
+  <link rel="stylesheet" href="style.css?v=9">
 </head>
 <body>
 
@@ -133,12 +133,49 @@
           <!-- Content parsed and loaded dynamically -->
         </div>
 
-        <div>
+        <div id="lesson-action-container" style="width: 100%;">
           <button id="lesson-complete-btn" class="c-purple" style="width: 100%; border: none; padding: 13px; border-radius: var(--border-radius-lg); font-size: 13.5px; font-weight: 600; cursor: pointer; color: var(--color-background-primary);">
             Tamamlandı olarak işaretle
           </button>
         </div>
       </div>
+
+      <!-- ================= LESSON QUIZ SCREEN ================= -->
+      <div id="lesson-quiz-screen" class="screen hidden" style="padding: 20px; display: flex; flex-direction: column; position: relative;">
+        <!-- Header -->
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;">
+          <button id="lesson-quiz-back-btn" style="background: none; border: none; font-size: 20px; color: var(--color-text-primary); cursor: pointer; display: flex; align-items: center; justify-content: center; padding: 0;">
+            <i class="ti ti-x"></i>
+          </button>
+          <span id="lesson-quiz-header-title" style="font-size: 13px; font-weight: 600; max-width: 60%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--color-text-secondary);">Sınav</span>
+          <!-- Lives container -->
+          <div id="lesson-quiz-lives-container" style="display: flex; gap: 4px; font-size: 16px;">
+            <!-- Hearts rendered here -->
+          </div>
+        </div>
+
+        <!-- Progress Area -->
+        <div style="margin-bottom: 24px;">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px;">
+            <span id="lesson-quiz-q-count" class="ts" style="font-size: 11.5px;">Soru 1 / 3</span>
+            <span id="lesson-quiz-q-percent" class="ts" style="font-size: 11.5px; font-weight: 600;">0%</span>
+          </div>
+          <div style="height: 5px; background: var(--color-background-tertiary); border-radius: 99px; overflow: hidden;">
+            <div id="lesson-quiz-progress-bar" style="width: 0%; height: 100%; background: var(--theme-purple); border-radius: 99px; transition: width 0.3s ease;"></div>
+          </div>
+        </div>
+
+        <!-- Question Area -->
+        <div id="lesson-quiz-question-area" style="flex: 1; display: flex; flex-direction: column; justify-content: center; margin-bottom: 20px;">
+          <!-- Active question and options populated dynamically -->
+        </div>
+
+        <!-- Result Overlay (hidden by default) -->
+        <div id="lesson-quiz-result-overlay" class="hidden" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(38, 38, 46, 0.95); backdrop-filter: blur(8px); z-index: 100; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px; text-align: center; border-radius: var(--border-radius-xl);">
+          <div id="lesson-quiz-result-card" class="interactive-card" style="width: 100%; max-width: 320px; padding: 28px 20px; border-radius: var(--border-radius-xl); display: flex; flex-direction: column; align-items: center; gap: 20px; border: 1px solid var(--color-border-primary);">
+            <!-- Dynamic Result Content (Success/Fail) -->
+          </div>
+        </div>
 
       <!-- ================= EXERCISES MENU SCREEN ================= -->
       <div id="exercises-screen" class="screen hidden" style="padding: 20px;">
@@ -905,10 +942,11 @@
   </div>
 
   <!-- Loaded Data and Scripts -->
-  <script src="lessons_data.js?v=8"></script>
-  <script src="verben_prep_data.js?v=8"></script>
-  <script src="leseverstehen_data.js?v=8"></script>
-  <script src="sprachbausteine_data.js?v=8"></script>
-  <script src="app.js?v=8"></script>
+  <script src="lessons_data.js?v=9"></script>
+  <script src="verben_prep_data.js?v=9"></script>
+  <script src="leseverstehen_data.js?v=9"></script>
+  <script src="sprachbausteine_data.js?v=9"></script>
+  <script src="lesson_quizzes_data.js?v=9"></script>
+  <script src="app.js?v=9"></script>
 </body>
 </html>
