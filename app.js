@@ -11,7 +11,7 @@ let state = {
     quiz: false
   },
   currentScreen: "home",
-  appVersion: 3,
+  appVersion: 4,
   activeCategory: "verben",
   expandedSubcategories: {},
   theme: "dark", // Default to dark mode for App_Tasarım.PNG aesthetic
@@ -185,12 +185,12 @@ function loadState() {
   }
   
   // If there is saved data but no appVersion, treat it as version 1
-  const loadedVersion = saved ? (savedParsed.appVersion || 1) : 3;
+  const loadedVersion = saved ? (savedParsed.appVersion || 1) : 4;
   
   state = { ...state, ...savedParsed };
   
-  // Force reset state to version 3 to clean up legacy mock data
-  if (loadedVersion < 3) {
+  // Force reset state to version 4 to clean up legacy mock data
+  if (loadedVersion < 4) {
     state.xp = 0;
     state.streak = 0;
     state.completedLessons = [];
@@ -202,7 +202,7 @@ function loadState() {
     state.leseverstehenAnswers = {};
     state.leseverstehenProgress = {};
     state.myVocabulary = [];
-    state.appVersion = 3;
+    state.appVersion = 4;
     saveState();
   }
   
@@ -687,26 +687,51 @@ function renderHomeScreen() {
     });
     
     if (continueList.innerHTML === "") {
-      continueList.innerHTML = `
-        <div class="interactive-card" style="border-radius: var(--border-radius-lg); padding: 12px 14px; display:flex; align-items:center; gap: 12px; margin-bottom: 10px;" id="fallback-continue-card">
-          <div class="c-purple-bg" style="width:36px; height:36px; border-radius: var(--border-radius-md); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
-            <i class="ti ti-bolt" style="font-size:16px;" aria-hidden="true"></i>
-          </div>
-          <div style="flex:1; min-width:0;">
-            <p style="font-size: 13.5px; font-weight: 600; margin:0;">Das Verb 'lassen'</p>
-            <p class="ts" style="font-size: 11.5px; margin:2px 0 0;">3/5 alt başlık tamamlandı</p>
-            <div style="height: 4px; background: var(--color-background-primary); border-radius: 99px; margin-top:6px; overflow:hidden; border:1px solid var(--color-border-primary);">
-              <div style="width: 60%; height:100%; background: var(--theme-purple); border-radius:99px;"></div>
+      // Find the first subcategory that is not fully completed
+      let recommendedSub = null;
+      let recommendedCat = null;
+      
+      for (const cat of LESSONS_DATA) {
+        for (const sub of cat.subcategories) {
+          const subLessons = sub.lessons;
+          if (subLessons.length > 0) {
+            const completedSub = subLessons.filter(l => state.completedLessons.includes(l.id)).length;
+            if (completedSub < subLessons.length) {
+              recommendedSub = sub;
+              recommendedCat = cat;
+              break;
+            }
+          }
+        }
+        if (recommendedSub) break;
+      }
+      
+      if (recommendedSub && recommendedCat) {
+        const subLessons = recommendedSub.lessons;
+        const completedSub = subLessons.filter(l => state.completedLessons.includes(l.id)).length;
+        const pct = Math.round((completedSub / subLessons.length) * 100);
+        
+        continueList.innerHTML = `
+          <div class="interactive-card" style="border-radius: var(--border-radius-lg); padding: 12px 14px; display:flex; align-items:center; gap: 12px; margin-bottom: 10px;" id="fallback-continue-card">
+            <div class="c-${recommendedCat.color}-bg" style="width:36px; height:36px; border-radius: var(--border-radius-md); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+              <i class="ti ${recommendedCat.icon}" style="font-size:16px;" aria-hidden="true"></i>
             </div>
+            <div style="flex:1; min-width:0;">
+              <p style="font-size: 13.5px; font-weight: 600; margin:0;">${recommendedSub.name}</p>
+              <p class="ts" style="font-size: 11.5px; margin:2px 0 0;">${completedSub}/${subLessons.length} alt başlık tamamlandı</p>
+              <div style="height: 4px; background: var(--color-background-primary); border-radius: 99px; margin-top:6px; overflow:hidden; border:1px solid var(--color-border-primary);">
+                <div style="width: ${pct}%; height:100%; background: var(--theme-${recommendedCat.color}); border-radius:99px;"></div>
+              </div>
+            </div>
+            <i class="ti ti-chevron-right" style="font-size:16px; color:var(--color-text-tertiary); flex-shrink:0;" aria-hidden="true"></i>
           </div>
-          <i class="ti ti-chevron-right" style="font-size:16px; color:var(--color-text-tertiary); flex-shrink:0;" aria-hidden="true"></i>
-        </div>
-      `;
-      document.getElementById("fallback-continue-card")?.addEventListener("click", () => {
-        state.activeCategory = "verben";
-        state.expandedSubcategories["Das Verb 'lassen'"] = true;
-        showScreen("sitemap");
-      });
+        `;
+        document.getElementById("fallback-continue-card")?.addEventListener("click", () => {
+          state.activeCategory = recommendedCat.id;
+          state.expandedSubcategories[recommendedSub.name] = true;
+          showScreen("sitemap");
+        });
+      }
     }
   }
   
