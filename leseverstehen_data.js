@@ -1,5 +1,5 @@
 // B1 German App - Leseverstehen Data
-const LESEVERSTEHEN_DATA = [
+const LESEVERSTEHEN_TEIL_1_DATA = [
   {
     "id": "baumkuchen",
     "title": "Gesundheit & Arbeitswelt",
@@ -577,3 +577,70 @@ const LESEVERSTEHEN_DATA = [
     }
   }
 ];
+
+// Populate placeholder exercises for Teil 2 and Teil 3
+const LESEVERSTEHEN_TEIL_2_DATA = [];
+for (let i = 1; i <= 12; i++) {
+  LESEVERSTEHEN_TEIL_2_DATA.push({
+    id: `lese_2_${i}`,
+    title: `Leseverstehen Teil 2 - Alıştırma ${i}`,
+    emoji: "📖",
+    instruction: "Bu alıştırmanın metni ve soruları yakında eklenecektir.",
+    headings: {
+      "a": "Başlık A", "b": "Başlık B", "c": "Başlık C", "d": "Başlık D", "e": "Başlık E",
+      "f": "Başlık F", "g": "Başlık G", "h": "Başlık H", "i": "Başlık I", "j": "Başlık J"
+    },
+    texts: [
+      { id: 1, content: "Teil 2 alıştırma metni buraya eklenecektir." },
+      { id: 2, content: "Teil 2 alıştırma metni buraya eklenecektir." },
+      { id: 3, content: "Teil 2 alıştırma metni buraya eklenecektir." },
+      { id: 4, content: "Teil 2 alıştırma metni buraya eklenecektir." },
+      { id: 5, content: "Teil 2 alıştırma metni buraya eklenecektir." }
+    ],
+    answers: {
+      1: "a", 2: "a", 3: "a", 4: "a", 5: "a"
+    }
+  });
+}
+
+const LESEVERSTEHEN_TEIL_3_DATA = [];
+for (let i = 1; i <= 12; i++) {
+  LESEVERSTEHEN_TEIL_3_DATA.push({
+    id: `lese_3_${i}`,
+    title: `Leseverstehen Teil 3 - Alıştırma ${i}`,
+    emoji: "📰",
+    instruction: "Bu alıştırmanın metni ve ilanları yakında eklenecektir.",
+    headings: {
+      "a": "İlan A", "b": "İlan B", "c": "İlan C", "d": "İlan D", "e": "İlan E",
+      "f": "İlan F", "g": "İlan G", "h": "İlan H", "i": "İlan I", "j": "İlan J"
+    },
+    texts: [
+      { id: 1, content: "Teil 3 durum metni buraya eklenecektir." },
+      { id: 2, content: "Teil 3 durum metni buraya eklenecektir." },
+      { id: 3, content: "Teil 3 durum metni buraya eklenecektir." },
+      { id: 4, content: "Teil 3 durum metni buraya eklenecektir." },
+      { id: 5, content: "Teil 3 durum metni buraya eklenecektir." }
+    ],
+    answers: {
+      1: "a", 2: "a", 3: "a", 4: "a", 5: "a"
+    }
+  });
+}
+
+// Define getActiveLeseverstehenData and window getter
+function getActiveLeseverstehenData() {
+  const currentPart = (typeof state !== 'undefined' && state.activeLeseverstehenPart) ? state.activeLeseverstehenPart : 1;
+  if (currentPart === 2) {
+    return LESEVERSTEHEN_TEIL_2_DATA;
+  } else if (currentPart === 3) {
+    return LESEVERSTEHEN_TEIL_3_DATA;
+  }
+  return LESEVERSTEHEN_TEIL_1_DATA;
+}
+
+Object.defineProperty(window, 'LESEVERSTEHEN_DATA', {
+  get: function() {
+    return getActiveLeseverstehenData();
+  },
+  configurable: true
+});

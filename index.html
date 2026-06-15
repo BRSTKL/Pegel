@@ -217,15 +217,66 @@
         </div>
       </div>
 
-      <!-- ================= LESEVERSTEHEN DASHBOARD SCREEN ================= -->
-      <div id="leseverstehen-dashboard-screen" class="screen hidden" style="padding: 20px; height: 100%; display: flex; flex-direction: column;">
+      <!-- ================= LESEVERSTEHEN PARTS SELECTION SCREEN ================= -->
+      <div id="leseverstehen-parts-screen" class="screen hidden" style="padding: 20px; height: 100%; display: flex; flex-direction: column;">
         <!-- Header -->
-        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 15px; flex-shrink: 0;">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; flex-shrink: 0;">
           <div style="display: flex; align-items: center; gap: 12px;">
             <button class="back-btn" data-target="exercises" style="background: none; border: none; font-size: 20px; color: var(--color-text-primary); cursor: pointer; display: flex; align-items: center; justify-content: center;">
               <i class="ti ti-arrow-left"></i>
             </button>
             <h1 style="font-size: 16px; font-weight: 600; margin: 0;">Okuma Anlama (Leseverstehen)</h1>
+          </div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 14px; flex: 1; overflow-y: auto; padding-bottom: 20px;">
+          <!-- Part 1 Launcher -->
+          <div class="interactive-card leseverstehen-part-card" data-part="1" style="border-radius: var(--border-radius-lg); padding: 18px; display: flex; align-items: center; gap: 14px;">
+            <div class="c-purple-bg" style="width:40px; height:40px; border-radius: var(--border-radius-md); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+              <i class="ti ti-list-check" style="font-size:20px;" aria-hidden="true"></i>
+            </div>
+            <div style="flex:1; min-width:0;">
+              <p style="font-size: 14px; font-weight: 600; margin:0;">Leseverstehen · Teil 1</p>
+              <p class="ts" style="font-size: 11.5px; margin:2px 0 0;">Başlıkları metinlerle eşleştirme alıştırmaları.</p>
+            </div>
+            <i class="ti ti-chevron-right" style="font-size:16px; color:var(--color-text-tertiary);" aria-hidden="true"></i>
+          </div>
+
+          <!-- Part 2 Launcher -->
+          <div class="interactive-card leseverstehen-part-card" data-part="2" style="border-radius: var(--border-radius-lg); padding: 18px; display: flex; align-items: center; gap: 14px;">
+            <div class="c-coral-bg" style="width:40px; height:40px; border-radius: var(--border-radius-md); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+              <i class="ti ti-align-left" style="font-size:20px;" aria-hidden="true"></i>
+            </div>
+            <div style="flex:1; min-width:0;">
+              <p style="font-size: 14px; font-weight: 600; margin:0;">Leseverstehen · Teil 2</p>
+              <p class="ts" style="font-size: 11.5px; margin:2px 0 0;">Okuma metinleri ve çoktan seçmeli sorular.</p>
+            </div>
+            <i class="ti ti-chevron-right" style="font-size:16px; color:var(--color-text-tertiary);" aria-hidden="true"></i>
+          </div>
+
+          <!-- Part 3 Launcher -->
+          <div class="interactive-card leseverstehen-part-card" data-part="3" style="border-radius: var(--border-radius-lg); padding: 18px; display: flex; align-items: center; gap: 14px;">
+            <div class="c-teal-bg" style="width:40px; height:40px; border-radius: var(--border-radius-md); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+              <i class="ti ti-layers-difference" style="font-size:20px;" aria-hidden="true"></i>
+            </div>
+            <div style="flex:1; min-width:0;">
+              <p style="font-size: 14px; font-weight: 600; margin:0;">Leseverstehen · Teil 3</p>
+              <p class="ts" style="font-size: 11.5px; margin:2px 0 0;">İlanları durumlarla eşleştirme alıştırmaları.</p>
+            </div>
+            <i class="ti ti-chevron-right" style="font-size:16px; color:var(--color-text-tertiary);" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- ================= LESEVERSTEHEN DASHBOARD SCREEN ================= -->
+      <div id="leseverstehen-dashboard-screen" class="screen hidden" style="padding: 20px; height: 100%; display: flex; flex-direction: column;">
+        <!-- Header -->
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 15px; flex-shrink: 0;">
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <button class="back-btn" data-target="leseverstehen-parts" style="background: none; border: none; font-size: 20px; color: var(--color-text-primary); cursor: pointer; display: flex; align-items: center; justify-content: center;">
+              <i class="ti ti-arrow-left"></i>
+            </button>
+            <h1 style="font-size: 16px; font-weight: 600; margin: 0;" id="leseverstehen-dashboard-title">Okuma Anlama (Leseverstehen)</h1>
           </div>
         </div>
 

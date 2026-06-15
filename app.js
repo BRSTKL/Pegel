@@ -30,7 +30,10 @@ let state = {
 
   // Sprachbausteine specific states
   sprachbausteineAnswers: {},
-  sprachbausteineProgress: {}
+  sprachbausteineProgress: {},
+
+  // Leseverstehen specific states
+  activeLeseverstehenPart: 1
 };
 
 // Flashcards pool based on the grammar content
@@ -190,6 +193,7 @@ function loadState() {
   if (!state.leseverstehenProgress) state.leseverstehenProgress = {};
   if (!state.sprachbausteineAnswers) state.sprachbausteineAnswers = {};
   if (!state.sprachbausteineProgress) state.sprachbausteineProgress = {};
+  if (!state.activeLeseverstehenPart) state.activeLeseverstehenPart = 1;
   
   const today = new Date().toDateString();
   if (state.lastActiveDate && state.lastActiveDate !== today) {
@@ -239,7 +243,16 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.getElementById("launcher-leseverstehen")?.addEventListener("click", () => {
-    showScreen("leseverstehen-dashboard");
+    showScreen("leseverstehen-parts");
+  });
+
+  document.querySelectorAll(".leseverstehen-part-card").forEach(card => {
+    card.addEventListener("click", () => {
+      const part = parseInt(card.getAttribute("data-part")) || 1;
+      state.activeLeseverstehenPart = part;
+      saveState();
+      showScreen("leseverstehen-dashboard");
+    });
   });
 
   document.getElementById("launcher-sprachbausteine")?.addEventListener("click", () => {
@@ -348,7 +361,7 @@ function showScreen(screenId) {
   // Highlight active nav item
   // Map sub-activities back to the active navbar tab
   let navActiveId = screenId;
-  if (screenId === "flashcard-play" || screenId === "quiz" || screenId === "fillblanks-play" || screenId === "verben-prep-dashboard" || screenId === "verben-prep-quiz" || screenId === "leseverstehen-play" || screenId === "leseverstehen-dashboard" || screenId === "sprachbausteine-play" || screenId === "sprachbausteine-dashboard") {
+  if (screenId === "flashcard-play" || screenId === "quiz" || screenId === "fillblanks-play" || screenId === "verben-prep-dashboard" || screenId === "verben-prep-quiz" || screenId === "leseverstehen-play" || screenId === "leseverstehen-dashboard" || screenId === "leseverstehen-parts" || screenId === "sprachbausteine-play" || screenId === "sprachbausteine-dashboard") {
     navActiveId = "exercises";
   }
   const activeNav = document.querySelector(`.nav-item[data-screen="${navActiveId}"]`);
@@ -1488,6 +1501,11 @@ let leseverstehenSubmitted = false;
 let leseverstehenTimerInterval = null;
 
 function renderLeseverstehenDashboard() {
+  const dbTitle = document.getElementById("leseverstehen-dashboard-title");
+  if (dbTitle) {
+    dbTitle.textContent = `Okuma Anlama · Teil ${state.activeLeseverstehenPart}`;
+  }
+
   const cardsGrid = document.getElementById("leseverstehen-cards-grid");
   if (!cardsGrid) return;
   
