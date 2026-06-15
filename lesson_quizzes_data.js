@@ -25,7 +25,7 @@ Lucas`,
         correct: 0
       },
       {
-        question: "...ve ardından kämme ich (3) _____ die Haare.",
+        question: "...und dann kämme ich (3) _____ die Haare.",
         options: ["mich", "dir", "mir"],
         correct: 2
       },
@@ -91,7 +91,7 @@ Maximilian`,
         correct: 2
       },
       {
-        question: "...ve wusch (3) _____ schnell das Gesicht mit eiskaltem Wasser.",
+        question: "...und wusch (3) _____ schnell das Gesicht mit eiskaltem Wasser.",
         options: ["mir", "mich", "sich"],
         correct: 0
       },
@@ -218,7 +218,7 @@ Maximilian`,
         correct: 0
       },
       {
-        question: "...aber ich kann (2) _____ auf meine Fähigkeiten ve meine Erfahrung verlassen.",
+        question: "...aber ich kann (2) _____ auf meine Fähigkeiten und meine Erfahrung verlassen.",
         options: ["mich", "mir", "sich"],
         correct: 0
       },
