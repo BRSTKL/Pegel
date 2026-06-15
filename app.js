@@ -11,6 +11,7 @@ let state = {
     quiz: false
   },
   currentScreen: "home",
+  appVersion: 2,
   activeCategory: "verben",
   expandedSubcategories: {},
   theme: "dark", // Default to dark mode for App_Tasarım.PNG aesthetic
@@ -182,11 +183,20 @@ function loadState() {
     }
   }
   
-  // Auto-clear initial mock data if present in localStorage from previous session
-  if (state.xp === 120 && state.streak === 3 && state.completedLessons && state.completedLessons.length === 6) {
+  // Force reset state to version 2 to clean up legacy mock data
+  if (!state.appVersion || state.appVersion < 2) {
     state.xp = 0;
     state.streak = 0;
     state.completedLessons = [];
+    state.completedToday = { flashcards: false, quiz: false };
+    state.prepScores = {};
+    state.starredPreps = [];
+    state.sprachbausteineAnswers = {};
+    state.sprachbausteineProgress = {};
+    state.leseverstehenAnswers = {};
+    state.leseverstehenProgress = {};
+    state.myVocabulary = [];
+    state.appVersion = 2;
     saveState();
   }
   
