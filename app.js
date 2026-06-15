@@ -33,7 +33,10 @@ let state = {
   sprachbausteineProgress: {},
 
   // Leseverstehen specific states
-  activeLeseverstehenPart: 1
+  activeLeseverstehenPart: 1,
+
+  // Vocabulary specific states
+  myVocabulary: []
 };
 
 // Flashcards pool based on the grammar content
@@ -195,6 +198,7 @@ function loadState() {
   if (!state.sprachbausteineProgress) state.sprachbausteineProgress = {};
   if (!state.activeLeseverstehenPart) state.activeLeseverstehenPart = 1;
   if (!state.activeSprachbausteinePart) state.activeSprachbausteinePart = 1;
+  if (!state.myVocabulary) state.myVocabulary = [];
   
   const today = new Date().toDateString();
   if (state.lastActiveDate && state.lastActiveDate !== today) {
@@ -268,6 +272,10 @@ document.addEventListener("DOMContentLoaded", () => {
       showScreen("sprachbausteine-dashboard");
     });
   });
+
+  document.getElementById("launcher-myvocab")?.addEventListener("click", () => {
+    showScreen("myvocab");
+  });
   
   // Prepositions Dashboard Inputs Bindings
   document.getElementById("start-prep-quiz-btn")?.addEventListener("click", () => {
@@ -303,6 +311,182 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
   
+  // ================= MY VOCABULARY EVENT BINDINGS =================
+  let selectedText = "";
+  let selectionContext = "";
+  
+  function hideVocabFloatingButton() {
+    const floatBtn = document.getElementById("vocab-floating-btn");
+    if (floatBtn && !floatBtn.classList.contains("hidden")) {
+      floatBtn.classList.add("hidden");
+    }
+  }
+  
+  document.addEventListener("selectionchange", () => {
+    const selection = window.getSelection();
+    const text = selection.toString().trim();
+    
+    // We only want single word or short phrase selections
+    if (text.length > 1 && text.length < 50 && !text.includes("\n")) {
+      selectedText = text;
+      
+      const anchorNode = selection.anchorNode;
+      if (anchorNode && anchorNode.parentElement) {
+        // Only trigger inside reading text nodes/containers
+        const isInsideExercise = anchorNode.parentElement.closest(".letter-container") || 
+                                 anchorNode.parentElement.closest(".leseverstehen-text-pane") || 
+                                 anchorNode.parentElement.closest("#leseverstehen-t2-article") ||
+                                 anchorNode.parentElement.closest(".leseverstehen-card-details") ||
+                                 anchorNode.parentElement.closest(".article-text") ||
+                                 anchorNode.parentElement.closest(".text-card");
+                                 
+        if (isInsideExercise) {
+          selectionContext = anchorNode.parentElement.textContent.trim();
+          
+          try {
+            const range = selection.getRangeAt(0);
+            const rect = range.getBoundingClientRect();
+            
+            const floatBtn = document.getElementById("vocab-floating-btn");
+            if (floatBtn) {
+              const appContainer = document.querySelector(".app-container");
+              const containerRect = appContainer ? appContainer.getBoundingClientRect() : { left: 0, top: 0 };
+              
+              // Position slightly above the highlight
+              floatBtn.style.left = `${rect.left - containerRect.left + (rect.width / 2) - 60}px`;
+              floatBtn.style.top = `${rect.top - containerRect.top - 38 + (appContainer ? appContainer.scrollTop : 0)}px`;
+              floatBtn.classList.remove("hidden");
+            }
+          } catch (e) {
+            // ignore range error
+          }
+          return;
+        }
+      }
+    }
+    
+    hideVocabFloatingButton();
+  });
+  
+  // Open modal when clicking floating button
+  document.getElementById("vocab-floating-btn")?.addEventListener("mousedown", (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    
+    if (selectedText) {
+      openVocabModal(selectedText, selectionContext);
+    }
+  });
+  
+  async function openVocabModal(word, contextText) {
+    const wordInput = document.getElementById("vocab-word-input");
+    const transInput = document.getElementById("vocab-translation-input");
+    const contextInput = document.getElementById("vocab-context-input");
+    const modal = document.getElementById("vocab-modal");
+    
+    if (!wordInput || !transInput || !contextInput || !modal) return;
+    
+    // Clean trailing/leading punctuation
+    const cleanWord = word.replace(/^[.,\/#!$%\^&\*;:{}=\-_`~()"'„“]+|[.,\/#!$%\^&\*;:{}=\-_`~()"'„“]+$/g, "");
+    
+    wordInput.value = cleanWord;
+    transInput.value = "";
+    transInput.placeholder = "Çeviriliyor...";
+    contextInput.value = contextText || "";
+    
+    modal.classList.remove("hidden");
+    hideVocabFloatingButton();
+    
+    // Clear selection
+    window.getSelection().removeAllRanges();
+    
+    // Fetch translation
+    try {
+      const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=de&tl=tr&dt=t&q=${encodeURIComponent(cleanWord)}`;
+      const res = await fetch(url);
+      const data = await res.json();
+      if (data && data[0] && data[0][0] && data[0][0][0]) {
+        transInput.value = data[0][0][0];
+      } else {
+        transInput.placeholder = "Anlamını buraya girin";
+      }
+    } catch (e) {
+      console.error("Translation failed", e);
+      transInput.placeholder = "Anlamını buraya girin";
+    }
+  }
+  
+  // Save/Cancel Modal actions
+  document.getElementById("vocab-save-btn")?.addEventListener("click", () => {
+    const word = document.getElementById("vocab-word-input")?.value.trim();
+    const translation = document.getElementById("vocab-translation-input")?.value.trim();
+    const context = document.getElementById("vocab-context-input")?.value.trim();
+    
+    if (!word || !translation) {
+      alert("Kelime ve Çeviri alanları boş olamaz.");
+      return;
+    }
+    
+    if (!state.myVocabulary) state.myVocabulary = [];
+    
+    const existingIndex = state.myVocabulary.findIndex(item => item.word.toLowerCase() === word.toLowerCase());
+    if (existingIndex > -1) {
+      state.myVocabulary[existingIndex] = {
+        id: state.myVocabulary[existingIndex].id,
+        word,
+        translation,
+        context,
+        dateAdded: new Date().toLocaleDateString()
+      };
+    } else {
+      state.myVocabulary.push({
+        id: Date.now().toString(),
+        word,
+        translation,
+        context,
+        dateAdded: new Date().toLocaleDateString()
+      });
+    }
+    
+    saveState();
+    document.getElementById("vocab-modal")?.classList.add("hidden");
+  });
+  
+  document.getElementById("vocab-cancel-btn")?.addEventListener("click", () => {
+    document.getElementById("vocab-modal")?.classList.add("hidden");
+  });
+  
+  // Vocabulary tab switching
+  document.querySelectorAll(".vocab-tab-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".vocab-tab-btn").forEach(b => {
+        b.classList.remove("active");
+        b.style.color = "var(--color-text-secondary)";
+      });
+      btn.classList.add("active");
+      btn.style.color = "var(--color-text-primary)";
+      
+      const tab = btn.getAttribute("data-tab");
+      const listContent = document.getElementById("vocab-tab-content-list");
+      const studyContent = document.getElementById("vocab-tab-content-study");
+      
+      if (tab === "list") {
+        listContent?.classList.remove("hidden");
+        studyContent?.classList.add("hidden");
+        renderVocabList();
+      } else {
+        listContent?.classList.add("hidden");
+        studyContent?.classList.remove("hidden");
+        startVocabStudy();
+      }
+    });
+  });
+  
+  // Vocabulary search input binding
+  document.getElementById("vocab-search-input")?.addEventListener("keyup", () => {
+    renderVocabList();
+  });
+
   // Back buttons
   document.querySelectorAll(".back-btn").forEach(btn => {
     btn.addEventListener("click", () => {
@@ -381,7 +565,7 @@ function showScreen(screenId) {
   // Highlight active nav item
   // Map sub-activities back to the active navbar tab
   let navActiveId = screenId;
-  if (screenId === "flashcard-play" || screenId === "quiz" || screenId === "fillblanks-play" || screenId === "verben-prep-dashboard" || screenId === "verben-prep-quiz" || screenId === "leseverstehen-play" || screenId === "leseverstehen-dashboard" || screenId === "leseverstehen-parts" || screenId === "sprachbausteine-play" || screenId === "sprachbausteine-dashboard" || screenId === "sprachbausteine-parts") {
+  if (screenId === "flashcard-play" || screenId === "quiz" || screenId === "fillblanks-play" || screenId === "verben-prep-dashboard" || screenId === "verben-prep-quiz" || screenId === "leseverstehen-play" || screenId === "leseverstehen-dashboard" || screenId === "leseverstehen-parts" || screenId === "sprachbausteine-play" || screenId === "sprachbausteine-dashboard" || screenId === "sprachbausteine-parts" || screenId === "myvocab") {
     navActiveId = "exercises";
   }
   const activeNav = document.querySelector(`.nav-item[data-screen="${navActiveId}"]`);
@@ -410,6 +594,8 @@ function showScreen(screenId) {
     renderSprachbausteineScreen();
   } else if (screenId === "sprachbausteine-dashboard") {
     renderSprachbausteineDashboard();
+  } else if (screenId === "myvocab") {
+    renderMyVocabScreen();
   }
 }
 
@@ -2885,4 +3071,229 @@ function renderProfileScreen() {
   if (nameInput) {
     nameInput.value = state.userName;
   }
+}
+
+// ================= MY VOCABULARY SCREEN RENDERING & FUNCTIONS =================
+
+function renderMyVocabScreen() {
+  const listBtn = document.querySelector('.vocab-tab-btn[data-tab="list"]');
+  const studyBtn = document.querySelector('.vocab-tab-btn[data-tab="study"]');
+  const listContent = document.getElementById("vocab-tab-content-list");
+  const studyContent = document.getElementById("vocab-tab-content-study");
+  
+  // Set tab state to list initially
+  if (listBtn && studyBtn && listContent && studyContent) {
+    listBtn.classList.add("active");
+    listBtn.style.color = "var(--color-text-primary)";
+    studyBtn.classList.remove("active");
+    studyBtn.style.color = "var(--color-text-secondary)";
+    
+    listContent.classList.remove("hidden");
+    studyContent.classList.add("hidden");
+  }
+  
+  // Clear search field
+  const searchInput = document.getElementById("vocab-search-input");
+  if (searchInput) {
+    searchInput.value = "";
+  }
+  
+  renderVocabList();
+}
+
+function renderVocabList() {
+  const container = document.getElementById("vocab-list-cards-container");
+  if (!container) return;
+  
+  container.innerHTML = "";
+  const query = document.getElementById("vocab-search-input")?.value.toLowerCase().trim() || "";
+  
+  const vocabList = state.myVocabulary || [];
+  const filtered = vocabList.filter(item => 
+    item.word.toLowerCase().includes(query) || 
+    (item.translation && item.translation.toLowerCase().includes(query))
+  );
+  
+  if (filtered.length === 0) {
+    container.innerHTML = `
+      <div style="text-align: center; padding: 40px 20px; color: var(--color-text-secondary); display:flex; flex-direction:column; gap:12px; align-items:center;">
+        <i class="ti ti-bookmark" style="font-size: 36px; color: var(--theme-purple); opacity:0.6;"></i>
+        <p style="font-size: 13px; line-height: 1.5; margin: 0; text-align: center;">
+          ${vocabList.length === 0 
+            ? "Henüz kelime eklemediniz.<br><span style='font-size:11.5px; opacity:0.8;'>Alıştırmalardaki metinlerden kelime seçerek kelimelerinizi buraya kaydedebilirsiniz.</span>" 
+            : "Aramanızla eşleşen kelime bulunamadı."}
+        </p>
+      </div>
+    `;
+    return;
+  }
+  
+  filtered.forEach(item => {
+    const card = document.createElement("div");
+    card.style = "background: var(--color-background-secondary); border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); padding: 14px; display: flex; flex-direction: column; gap: 8px; position: relative; animation: fadeIn 0.2s ease-out;";
+    
+    let contextHtml = "";
+    if (item.context) {
+      const escapedWord = item.word.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+      const regex = new RegExp(`(${escapedWord})`, 'gi');
+      contextHtml = item.context.replace(regex, `<strong style="color: var(--theme-purple); text-decoration: underline; text-underline-offset: 3px;">$1</strong>`);
+    }
+    
+    card.innerHTML = `
+      <div style="display:flex; justify-content:space-between; align-items:flex-start; gap: 10px;">
+        <div style="display:flex; align-items:center; gap:8px;">
+          <span style="font-size: 14.5px; font-weight: 700; color: var(--color-text-primary);">${item.word}</span>
+          <button class="vocab-speak-btn" data-word="${item.word}" style="background:none; border:none; color: var(--theme-coral); cursor:pointer; font-size:16px; padding:2px; display:flex; align-items:center; justify-content:center; outline:none;">
+            <i class="ti ti-volume"></i>
+          </button>
+        </div>
+        <button class="vocab-delete-btn" data-id="${item.id}" style="background:none; border:none; color: var(--theme-coral); opacity:0.6; cursor:pointer; font-size:15px; padding:2px; display:flex; align-items:center; justify-content:center; outline:none;">
+          <i class="ti ti-trash"></i>
+        </button>
+      </div>
+      
+      <div style="font-size: 13px; font-weight: 600; color: #10b981; display:flex; gap: 4px; align-items:center;">
+        <i class="ti ti-arrow-right-circle" style="font-size:14px;"></i> ${item.translation}
+      </div>
+      
+      ${contextHtml ? `
+        <div style="font-size: 11.5px; color: var(--color-text-secondary); background: var(--color-background-primary); padding: 8px 10px; border-radius: var(--border-radius-sm); border-left: 2px solid var(--color-border-primary); line-height: 1.4; font-style: italic;">
+          "${contextHtml}"
+        </div>
+      ` : ''}
+    `;
+    
+    card.querySelector(".vocab-delete-btn")?.addEventListener("click", () => {
+      if (confirm(`"${item.word}" kelimesini silmek istediğinize emin misiniz?`)) {
+        state.myVocabulary = (state.myVocabulary || []).filter(v => v.id !== item.id);
+        saveState();
+        renderVocabList();
+      }
+    });
+    
+    card.querySelector(".vocab-speak-btn")?.addEventListener("click", () => {
+      speakGermanWord(item.word);
+    });
+    
+    container.appendChild(card);
+  });
+}
+
+function speakGermanWord(word) {
+  if ('speechSynthesis' in window) {
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(word);
+    utterance.lang = 'de-DE';
+    const voices = window.speechSynthesis.getVoices();
+    const deVoice = voices.find(v => v.lang.startsWith('de'));
+    if (deVoice) {
+      utterance.voice = deVoice;
+    }
+    window.speechSynthesis.speak(utterance);
+  }
+}
+
+let vocabStudyIndex = 0;
+let vocabStudyFlipped = false;
+
+function startVocabStudy() {
+  vocabStudyIndex = 0;
+  vocabStudyFlipped = false;
+  renderVocabStudyCard();
+}
+
+function renderVocabStudyCard() {
+  const container = document.getElementById("vocab-study-game-container");
+  if (!container) return;
+  
+  const vocabList = state.myVocabulary || [];
+  
+  if (vocabList.length < 3) {
+    container.innerHTML = `
+      <div style="text-align: center; padding: 40px 20px; color: var(--color-text-secondary); display:flex; flex-direction:column; gap:12px; align-items:center;">
+        <i class="ti ti-bulb" style="font-size: 36px; color: var(--theme-coral); opacity:0.6;"></i>
+        <p style="font-size: 13.5px; line-height: 1.5; margin: 0; text-align: center;">
+          Tekrar yapabilmek için en az <strong>3 kelime</strong> kaydetmelisiniz.<br>
+          <span style="font-size:12px; opacity:0.8; display:block; margin-top:6px;">Şu an kayıtlı kelime sayısı: ${vocabList.length}</span>
+        </p>
+      </div>
+    `;
+    return;
+  }
+  
+  const item = vocabList[vocabStudyIndex];
+  
+  let contextHtml = "";
+  if (item.context) {
+    const escapedWord = item.word.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+    const regex = new RegExp(`(${escapedWord})`, 'gi');
+    contextHtml = item.context.replace(regex, `<strong style="color: var(--theme-purple); text-decoration: underline;">$1</strong>`);
+  }
+  
+  container.innerHTML = `
+    <div style="display:flex; justify-content:space-between; align-items:center; font-size:12px; color:var(--color-text-secondary); margin-bottom:12px;">
+      <span>Kelime <strong>${vocabStudyIndex + 1}/${vocabList.length}</strong></span>
+      <button id="vocab-study-reset-btn" style="background:none; border:none; color:var(--theme-coral); font-size:11.5px; font-weight:600; cursor:pointer; display:flex; align-items:center; gap:2px; outline:none;">
+        <i class="ti ti-refresh"></i> Yeniden Başlat
+      </button>
+    </div>
+    
+    <div id="vocab-study-card" style="height: 230px; cursor:pointer; border-radius: var(--border-radius-lg); border: 1px solid var(--color-border-primary); background: var(--color-background-secondary); padding: 20px; display:flex; flex-direction:column; justify-content:center; align-items:center; gap:12px; text-align:center; position:relative; box-shadow: var(--box-shadow-md); transition: border-color 0.2s; overflow:hidden;">
+      ${vocabStudyFlipped ? `
+        <!-- Back side -->
+        <div style="font-size:10px; font-weight:600; color:var(--color-text-tertiary); text-transform:uppercase; letter-spacing:0.5px; position:absolute; top:12px;">Türkçe Anlamı</div>
+        <span style="font-size:20px; font-weight:700; color:var(--color-text-primary);">${item.word}</span>
+        <span style="font-size:17px; font-weight:700; color:#10b981; display:flex; align-items:center; gap:6px;"><i class="ti ti-arrow-right-circle"></i> ${item.translation}</span>
+        <div style="font-size:10px; color:var(--color-text-tertiary); position:absolute; bottom:12px;"><i class="ti ti-refresh"></i> Çevirmek için dokunun</div>
+      ` : `
+        <!-- Front side -->
+        <div style="font-size:10px; font-weight:600; color:var(--color-text-tertiary); text-transform:uppercase; letter-spacing:0.5px; position:absolute; top:12px;">Almanca Kelime</div>
+        <span style="font-size:22px; font-weight:700; color:var(--color-text-primary);">${item.word}</span>
+        ${contextHtml ? `<p style="font-size:12.5px; color:var(--color-text-secondary); font-style:italic; margin:0 10px; line-height:1.4;">"${contextHtml}"</p>` : ''}
+        <div style="font-size:10px; color:var(--color-text-tertiary); position:absolute; bottom:12px;"><i class="ti ti-refresh"></i> Çevirmek için dokunun</div>
+      `}
+    </div>
+    
+    <div style="display:flex; justify-content:space-between; gap:12px; margin-top:16px;">
+      <button id="vocab-study-prev-btn" style="flex:1; border: 1px solid var(--color-border-primary); color: var(--color-text-primary); background: none; padding: 12px; border-radius: var(--border-radius-md); font-size:12.5px; font-weight:600; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:4px; outline:none;" ${vocabStudyIndex === 0 ? 'disabled style="opacity:0.4; cursor:not-allowed;"' : ''}>
+        <i class="ti ti-arrow-left"></i> Önceki
+      </button>
+      <button id="vocab-study-speak-btn" style="width: 50px; border: 1px solid var(--color-border-primary); color: var(--theme-coral); background: none; padding: 12px; border-radius: var(--border-radius-md); font-size:16px; cursor:pointer; display:flex; align-items:center; justify-content:center; outline:none;">
+        <i class="ti ti-volume"></i>
+      </button>
+      <button id="vocab-study-next-btn" class="c-purple" style="flex:1; border: none; padding: 12px; border-radius: var(--border-radius-md); font-size:12.5px; font-weight:600; cursor:pointer; color:var(--color-background-primary); display:flex; align-items:center; justify-content:center; gap:4px; outline:none;" ${vocabStudyIndex === vocabList.length - 1 ? 'disabled style="opacity:0.4; cursor:not-allowed;"' : ''}>
+        Sonraki <i class="ti ti-arrow-right"></i>
+      </button>
+    </div>
+  `;
+  
+  document.getElementById("vocab-study-card")?.addEventListener("click", () => {
+    vocabStudyFlipped = !vocabStudyFlipped;
+    renderVocabStudyCard();
+  });
+  
+  document.getElementById("vocab-study-speak-btn")?.addEventListener("click", (e) => {
+    e.stopPropagation();
+    speakGermanWord(item.word);
+  });
+  
+  document.getElementById("vocab-study-prev-btn")?.addEventListener("click", () => {
+    if (vocabStudyIndex > 0) {
+      vocabStudyIndex--;
+      vocabStudyFlipped = false;
+      renderVocabStudyCard();
+    }
+  });
+  
+  document.getElementById("vocab-study-next-btn")?.addEventListener("click", () => {
+    if (vocabStudyIndex < vocabList.length - 1) {
+      vocabStudyIndex++;
+      vocabStudyFlipped = false;
+      renderVocabStudyCard();
+    }
+  });
+  
+  document.getElementById("vocab-study-reset-btn")?.addEventListener("click", () => {
+    startVocabStudy();
+  });
 }

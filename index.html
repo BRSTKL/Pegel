@@ -214,6 +214,18 @@
             <i class="ti ti-chevron-right" style="font-size:16px; color:var(--color-text-tertiary);" aria-hidden="true"></i>
           </div>
 
+          <!-- Kelimelerim Launcher -->
+          <div class="interactive-card" id="launcher-myvocab" style="border-radius: var(--border-radius-lg); padding: 16px; display:flex; align-items:center; gap: 14px;">
+            <div class="c-coral-bg" style="width:40px; height:40px; border-radius: var(--border-radius-md); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+              <i class="ti ti-bookmark" style="font-size:20px;" aria-hidden="true"></i>
+            </div>
+            <div style="flex:1; min-width:0;">
+              <p style="font-size: 14px; font-weight: 600; margin:0;">Kelimelerim</p>
+              <p class="ts" style="font-size: 11.5px; margin:2px 0 0;">Okurken işaretlediğiniz kelimeleri listeleyin ve tekrar edin.</p>
+            </div>
+            <i class="ti ti-chevron-right" style="font-size:16px; color:var(--color-text-tertiary);" aria-hidden="true"></i>
+          </div>
+
         </div>
       </div>
 
@@ -776,6 +788,84 @@
           <button id="profile-reset-btn" style="border: 1px solid #ef4444; color: #ef4444; background:none; padding: 12px; border-radius: var(--border-radius-lg); font-weight: 600; cursor: pointer; font-size: 13px;">
             İlerlemeyi Sıfırla
           </button>
+        </div>
+      </div>
+
+      <!-- ================= MY VOCABULARY SCREEN ================= -->
+      <div id="myvocab-screen" class="screen hidden" style="padding: 20px; height: 100%; display: flex; flex-direction: column;">
+        <!-- Header -->
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 15px; flex-shrink: 0;">
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <button class="back-btn" data-target="exercises" style="background: none; border: none; font-size: 20px; color: var(--color-text-primary); cursor: pointer; display: flex; align-items: center; justify-content: center;">
+              <i class="ti ti-arrow-left"></i>
+            </button>
+            <h1 style="font-size: 16px; font-weight: 600; margin: 0;">Kelimelerim (Vocabulary)</h1>
+          </div>
+        </div>
+
+        <!-- Toggle Tabs -->
+        <div style="display: flex; gap: 8px; margin-bottom: 15px; flex-shrink: 0; background: var(--color-background-secondary); padding: 4px; border-radius: var(--border-radius-md); border: 1px solid var(--color-border-primary);">
+          <button class="vocab-tab-btn active" data-tab="list" style="flex: 1; border: none; background: none; padding: 8px 12px; border-radius: var(--border-radius-sm); font-size: 12.5px; font-weight: 600; cursor: pointer; color: var(--color-text-primary); transition: background-color 0.2s;">
+            Kelime Listesi
+          </button>
+          <button class="vocab-tab-btn" data-tab="study" style="flex: 1; border: none; background: none; padding: 8px 12px; border-radius: var(--border-radius-sm); font-size: 12.5px; font-weight: 600; cursor: pointer; color: var(--color-text-secondary); transition: background-color 0.2s;">
+            Tekrar Et
+          </button>
+        </div>
+
+        <!-- Tab 1: Kelime Listesi -->
+        <div id="vocab-tab-content-list" style="display: flex; flex-direction: column; gap: 12px; flex: 1; min-height: 0;">
+          <!-- Search Bar -->
+          <div style="position: relative; flex-shrink: 0;">
+            <i class="ti ti-search" style="position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: var(--color-text-tertiary); font-size: 16px;"></i>
+            <input type="text" id="vocab-search-input" placeholder="Kelime ara..." style="width: 100%; padding: 10px 10px 10px 36px; border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); font-size: 13px; background: var(--color-background-secondary); color: var(--color-text-primary);" />
+          </div>
+
+          <!-- Vocabulary Cards Grid -->
+          <div id="vocab-list-cards-container" style="flex: 1; overflow-y: auto; display: flex; flex-direction: column; gap: 10px; padding-bottom: 20px;">
+            <!-- Loaded dynamically -->
+          </div>
+        </div>
+
+        <!-- Tab 2: Tekrar Et (Study Flashcards) -->
+        <div id="vocab-tab-content-study" class="hidden" style="display: flex; flex-direction: column; gap: 16px; flex: 1; min-height: 0; justify-content: center; align-items: stretch;">
+          <div id="vocab-study-game-container" style="flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: stretch; max-width: 400px; margin: 0 auto; width: 100%;">
+            <!-- Loaded dynamically -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Floating Add Word button overlay -->
+      <div id="vocab-floating-btn" class="hidden" style="position: absolute; z-index: 1000; background: var(--theme-purple); color: #fff; padding: 6px 12px; border-radius: 99px; font-size: 11px; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); pointer-events: auto;">
+        <i class="ti ti-plus"></i> Kelimelerime Ekle
+      </div>
+
+      <!-- Add Word Dialog Modal Overlay -->
+      <div id="vocab-modal" class="hidden" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); backdrop-filter: blur(4px); z-index: 2000; display: flex; align-items: center; justify-content: center; padding: 20px;">
+        <div style="background: var(--color-background-secondary); border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); padding: 20px; width: 100%; max-width: 400px; display: flex; flex-direction: column; gap: 14px; box-shadow: var(--box-shadow-lg);">
+          <h3 style="font-size: 15px; font-weight: 600; margin: 0; color: var(--color-text-primary); display: flex; align-items: center; gap: 6px;">
+            <i class="ti ti-bookmark" style="color: var(--theme-coral);"></i> Kelime Ekle
+          </h3>
+          
+          <div>
+            <label class="ts" style="font-size: 11.5px; font-weight: 600; display: block; margin-bottom: 4px;">Almanca Kelime</label>
+            <input type="text" id="vocab-word-input" readonly style="width: 100%; padding: 10px; border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-md); font-size: 13px; font-weight: 600; background: var(--color-background-primary); color: var(--color-text-primary); cursor: not-allowed;" />
+          </div>
+
+          <div>
+            <label class="ts" style="font-size: 11.5px; font-weight: 600; display: block; margin-bottom: 4px;">Türkçe Çeviri</label>
+            <input type="text" id="vocab-translation-input" placeholder="Çeviriliyor..." style="width: 100%; padding: 10px; border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-md); font-size: 13px; font-weight: 500; background: var(--color-background-primary); color: var(--color-text-primary);" />
+          </div>
+
+          <div>
+            <label class="ts" style="font-size: 11.5px; font-weight: 600; display: block; margin-bottom: 4px;">Cümle İçi Kullanım (Bağlam)</label>
+            <textarea id="vocab-context-input" style="width: 100%; height: 60px; padding: 10px; border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-md); font-size: 12.5px; line-height: 1.4; background: var(--color-background-primary); color: var(--color-text-secondary); resize: none;"></textarea>
+          </div>
+
+          <div style="display: flex; gap: 10px; margin-top: 6px;">
+            <button id="vocab-cancel-btn" style="flex: 1; border: 1px solid var(--color-border-primary); color: var(--color-text-primary); background: none; padding: 10px; border-radius: var(--border-radius-md); font-size: 12.5px; font-weight: 600; cursor: pointer;">İptal</button>
+            <button id="vocab-save-btn" class="c-purple" style="flex: 1; border: none; padding: 10px; border-radius: var(--border-radius-md); font-size: 12.5px; font-weight: 600; cursor: pointer; color: var(--color-background-primary);">Kaydet</button>
+          </div>
         </div>
       </div>
 
