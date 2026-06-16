@@ -672,13 +672,24 @@ function showScreen(screenId) {
   sprachbausteineModalGroup?.classList.add("hidden");
 
   if (screenId === "leseverstehen-play") {
-    floatingAnswerIsland?.classList.remove("hidden");
+    console.log("Entering leseverstehen-play screen, showing floating answer island");
+    if (floatingAnswerIsland) {
+      floatingAnswerIsland.classList.remove("hidden");
+      floatingAnswerIsland.style.setProperty("display", "flex", "important");
+    }
     leseverstehenModalGroup?.classList.remove("hidden");
   } else if (screenId === "sprachbausteine-play") {
-    floatingAnswerIsland?.classList.remove("hidden");
+    console.log("Entering sprachbausteine-play screen, showing floating answer island");
+    if (floatingAnswerIsland) {
+      floatingAnswerIsland.classList.remove("hidden");
+      floatingAnswerIsland.style.setProperty("display", "flex", "important");
+    }
     sprachbausteineModalGroup?.classList.remove("hidden");
   } else {
-    floatingAnswerIsland?.classList.add("hidden");
+    if (floatingAnswerIsland) {
+      floatingAnswerIsland.classList.add("hidden");
+      floatingAnswerIsland.style.setProperty("display", "none", "important");
+    }
   }
 }
 

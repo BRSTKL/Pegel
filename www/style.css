@@ -176,6 +176,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
+  padding-top: 0px;
   padding-top: env(safe-area-inset-top, 0px);
 }
 
@@ -200,6 +201,7 @@ body {
   display: flex;
   border-top: 1px solid var(--color-border-primary);
   background: var(--color-background-secondary);
+  padding: 12px 0 10px;
   padding: 12px 0 calc(10px + env(safe-area-inset-bottom, 0px));
   z-index: 10;
 }
@@ -1562,8 +1564,9 @@ body.is-native .app-container {
 #floating-answer-island {
   position: absolute;
   right: 20px;
+  bottom: 76px;
   bottom: calc(76px + env(safe-area-inset-bottom, 0px));
-  z-index: 999; /* Below modal overlay, above other content */
+  z-index: 9999; /* Float above everything inside app-container */
   display: flex;
   align-items: center;
   gap: 8px;
@@ -1579,6 +1582,9 @@ body.is-native .app-container {
   cursor: pointer;
   transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease, opacity 0.3s ease;
   will-change: transform, opacity;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 #floating-answer-island:hover {
