@@ -35,8 +35,76 @@
   <div class="app-container">
     <div class="app-content">
 
+      <!-- ================= LOGIN SCREEN ================= -->
+      <div id="login-screen" class="screen">
+        <div class="login-container">
+          <!-- Logo & Branding -->
+          <div class="login-header">
+            <div class="login-logo">
+              <i class="ti ti-language" style="font-size: 28px;"></i>
+            </div>
+            <h1 class="login-brand">pegel</h1>
+            <p class="login-subtitle">Almanca B1 seviyesine hazırlan</p>
+          </div>
+
+          <!-- Tab Switcher -->
+          <div class="login-tabs">
+            <button class="login-tab active" data-tab="signin">Giriş Yap</button>
+            <button class="login-tab" data-tab="signup">Kayıt Ol</button>
+          </div>
+
+          <!-- Sign In Form -->
+          <div id="signin-form" class="login-form">
+            <div class="login-input-group">
+              <i class="ti ti-mail login-input-icon"></i>
+              <input type="email" id="signin-email" class="login-input" placeholder="E-posta adresiniz" autocomplete="email" />
+            </div>
+            <div class="login-input-group">
+              <i class="ti ti-lock login-input-icon"></i>
+              <input type="password" id="signin-password" class="login-input" placeholder="Şifreniz" autocomplete="current-password" />
+            </div>
+            <p id="signin-error" class="login-error"></p>
+            <button id="signin-btn" class="login-btn">
+              <span class="login-btn-text">Giriş Yap</span>
+              <span class="login-spinner hidden"><i class="ti ti-loader-2"></i></span>
+            </button>
+          </div>
+
+          <!-- Sign Up Form -->
+          <div id="signup-form" class="login-form hidden">
+            <div class="login-input-group">
+              <i class="ti ti-user login-input-icon"></i>
+              <input type="text" id="signup-name" class="login-input" placeholder="Adınız" autocomplete="name" />
+            </div>
+            <div class="login-input-group">
+              <i class="ti ti-mail login-input-icon"></i>
+              <input type="email" id="signup-email" class="login-input" placeholder="E-posta adresiniz" autocomplete="email" />
+            </div>
+            <div class="login-input-group">
+              <i class="ti ti-lock login-input-icon"></i>
+              <input type="password" id="signup-password" class="login-input" placeholder="Şifre (en az 6 karakter)" autocomplete="new-password" />
+            </div>
+            <p id="signup-error" class="login-error"></p>
+            <button id="signup-btn" class="login-btn">
+              <span class="login-btn-text">Hesap Oluştur</span>
+              <span class="login-spinner hidden"><i class="ti ti-loader-2"></i></span>
+            </button>
+          </div>
+
+          <!-- Divider -->
+          <div class="login-divider">
+            <span>veya</span>
+          </div>
+
+          <!-- Guest Entry -->
+          <button id="guest-btn" class="login-guest-btn">
+            <i class="ti ti-user-circle"></i> Kayıt Olmadan Devam Et
+          </button>
+        </div>
+      </div>
+
       <!-- ================= HOME SCREEN ================= -->
-      <div id="home-screen" class="screen">
+      <div id="home-screen" class="screen hidden">
         
         <!-- Header Card -->
         <div class="c-purple">
@@ -796,6 +864,10 @@
           <button id="profile-reset-btn" style="border: 1px solid #ef4444; color: #ef4444; background:none; padding: 12px; border-radius: var(--border-radius-lg); font-weight: 600; cursor: pointer; font-size: 13px;">
             İlerlemeyi Sıfırla
           </button>
+
+          <button id="profile-logout-btn" style="border: 1px solid var(--color-border-primary); color: var(--color-text-secondary); background: none; padding: 12px; border-radius: var(--border-radius-lg); font-weight: 600; cursor: pointer; font-size: 13px; display: flex; align-items: center; justify-content: center; gap: 6px; margin-top: 8px;">
+            <i class="ti ti-logout"></i> Oturumu Kapat
+          </button>
         </div>
       </div>
 
@@ -880,7 +952,7 @@
     </div>
 
     <!-- ================= BOTTOM NAVIGATION ================= -->
-    <div class="bottom-nav">
+    <div class="bottom-nav hidden" id="main-bottom-nav">
       <button class="nav-item active" data-screen="home">
         <i class="ti ti-home" aria-hidden="true"></i>
         <span>Ana Sayfa</span>
@@ -950,12 +1022,18 @@
 
   </div>
 
+  <!-- Supabase JS CDN (optional - for cloud sync) -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+
+  <!-- Auth Service -->
+  <script src="auth.js?v=24"></script>
+
   <!-- Loaded Data and Scripts -->
-  <script src="lessons_data.js?v=23"></script>
-  <script src="verben_prep_data.js?v=23"></script>
-  <script src="leseverstehen_data.js?v=23"></script>
-  <script src="sprachbausteine_data.js?v=23"></script>
-  <script src="lesson_quizzes_data.js?v=23"></script>
-  <script src="app.js?v=23"></script>
+  <script src="lessons_data.js?v=24"></script>
+  <script src="verben_prep_data.js?v=24"></script>
+  <script src="leseverstehen_data.js?v=24"></script>
+  <script src="sprachbausteine_data.js?v=24"></script>
+  <script src="lesson_quizzes_data.js?v=24"></script>
+  <script src="app.js?v=24"></script>
 </body>
 </html>

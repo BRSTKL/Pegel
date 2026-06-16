@@ -251,30 +251,214 @@ function loadState() {
   saveState();
 }
 
+// ================= LOGIN SCREEN LOGIC =================
+function initLoginScreen() {
+  // Tab switching
+  document.querySelectorAll(".login-tab").forEach(tab => {
+    tab.addEventListener("click", () => {
+      document.querySelectorAll(".login-tab").forEach(t => t.classList.remove("active"));
+      tab.classList.add("active");
+      const tabName = tab.getAttribute("data-tab");
+      const signinForm = document.getElementById("signin-form");
+      const signupForm = document.getElementById("signup-form");
+      if (tabName === "signin") {
+        signinForm?.classList.remove("hidden");
+        signupForm?.classList.add("hidden");
+      } else {
+        signinForm?.classList.add("hidden");
+        signupForm?.classList.remove("hidden");
+      }
+      // Clear errors
+      const signinErr = document.getElementById("signin-error");
+      const signupErr = document.getElementById("signup-error");
+      if (signinErr) signinErr.textContent = "";
+      if (signupErr) signupErr.textContent = "";
+    });
+  });
+
+  // Helper: show spinner, disable button
+  function setLoading(btn, loading) {
+    const textEl = btn.querySelector(".login-btn-text");
+    const spinnerEl = btn.querySelector(".login-spinner");
+    if (loading) {
+      btn.disabled = true;
+      if (textEl) textEl.style.display = "none";
+      if (spinnerEl) spinnerEl.classList.remove("hidden");
+    } else {
+      btn.disabled = false;
+      if (textEl) textEl.style.display = "";
+      if (spinnerEl) spinnerEl.classList.add("hidden");
+    }
+  }
+
+  // Helper: show error with shake
+  function showError(errorEl, message) {
+    if (!errorEl) return;
+    errorEl.textContent = message;
+    const form = errorEl.closest(".login-form");
+    if (form) {
+      form.classList.remove("login-shake");
+      void form.offsetWidth; // trigger reflow
+      form.classList.add("login-shake");
+    }
+  }
+
+  // Helper: after successful auth, transition to home
+  function onAuthSuccess(displayName) {
+    state.userName = displayName || "Kullanıcı";
+    saveState();
+    const bottomNav = document.getElementById("main-bottom-nav");
+    if (bottomNav) bottomNav.classList.remove("hidden");
+    showScreen("home");
+  }
+
+  // Sign In
+  document.getElementById("signin-btn")?.addEventListener("click", async () => {
+    const emailInput = document.getElementById("signin-email");
+    const passInput = document.getElementById("signin-password");
+    const errorEl = document.getElementById("signin-error");
+    const btn = document.getElementById("signin-btn");
+
+    const email = emailInput?.value.trim() || "";
+    const password = passInput?.value || "";
+
+    if (!email || !password) {
+      showError(errorEl, "E-posta ve şifre alanları boş bırakılamaz.");
+      return;
+    }
+
+    setLoading(btn, true);
+
+    if (window.Auth) {
+      const { data, error } = await Auth.signIn(email, password);
+      setLoading(btn, false);
+      if (error) {
+        showError(errorEl, error.message || "Giriş başarısız. Lütfen tekrar deneyin.");
+        return;
+      }
+      const displayName = data?.user?.user_metadata?.display_name || email.split("@")[0];
+      onAuthSuccess(displayName);
+    } else {
+      setLoading(btn, false);
+      showError(errorEl, "Kimlik doğrulama servisi yüklenemedi.");
+    }
+  });
+
+  // Sign Up
+  document.getElementById("signup-btn")?.addEventListener("click", async () => {
+    const nameInput = document.getElementById("signup-name");
+    const emailInput = document.getElementById("signup-email");
+    const passInput = document.getElementById("signup-password");
+    const errorEl = document.getElementById("signup-error");
+    const btn = document.getElementById("signup-btn");
+
+    const fullName = nameInput?.value.trim() || "";
+    const email = emailInput?.value.trim() || "";
+    const password = passInput?.value || "";
+
+    if (!fullName || !email || !password) {
+      showError(errorEl, "Tüm alanları doldurunuz.");
+      return;
+    }
+    if (password.length < 6) {
+      showError(errorEl, "Şifre en az 6 karakter olmalıdır.");
+      return;
+    }
+
+    setLoading(btn, true);
+
+    if (window.Auth) {
+      const { data, error } = await Auth.signUp(email, password, fullName);
+      setLoading(btn, false);
+      if (error) {
+        showError(errorEl, error.message || "Kayıt başarısız. Lütfen tekrar deneyin.");
+        return;
+      }
+      onAuthSuccess(fullName);
+    } else {
+      setLoading(btn, false);
+      showError(errorEl, "Kimlik doğrulama servisi yüklenemedi.");
+    }
+  });
+
+  // Guest entry
+  document.getElementById("guest-btn")?.addEventListener("click", () => {
+    localStorage.setItem("pegel_guest_session", "true");
+    state.userName = "Misafir";
+    saveState();
+    const bottomNav = document.getElementById("main-bottom-nav");
+    if (bottomNav) bottomNav.classList.remove("hidden");
+    showScreen("home");
+  });
+
+  // Enter key support for login forms
+  document.getElementById("signin-password")?.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") document.getElementById("signin-btn")?.click();
+  });
+  document.getElementById("signup-password")?.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") document.getElementById("signup-btn")?.click();
+  });
+}
+
 // Initializing the application
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
   if (window.Capacitor) {
     document.body.classList.add("is-native");
   }
   loadState();
   applyTheme();
   initNav();
-  // Safe fallback for volatile screen states on page reload
-  let startScreen = state.currentScreen;
-  const volatileScreens = {
-    "lesson": "sitemap",
-    "lesson-quiz": "sitemap",
-    "leseverstehen-play": "leseverstehen-parts",
-    "sprachbausteine-play": "sprachbausteine-parts",
-    "verben-prep-quiz": "verben-prep-dashboard",
-    "quiz": "exercises",
-    "fillblanks-play": "exercises",
-    "flashcard-play": "exercises"
-  };
-  if (volatileScreens[startScreen]) {
-    startScreen = volatileScreens[startScreen];
+  initLoginScreen();
+
+  // Check authentication state
+  const bottomNav = document.getElementById("main-bottom-nav");
+  let isLoggedIn = false;
+
+  if (window.Auth) {
+    try {
+      const { user } = await Auth.getCurrentUser();
+      if (user) {
+        isLoggedIn = true;
+        // Update userName from auth profile
+        const displayName = user.user_metadata?.display_name || user.email?.split("@")[0] || "Kullanıcı";
+        state.userName = displayName;
+        saveState();
+      }
+    } catch (e) {
+      console.warn("Auth check failed, falling back to guest mode:", e);
+    }
   }
-  showScreen(startScreen);
+
+  // Also treat as logged in if guest session exists
+  if (!isLoggedIn && localStorage.getItem("pegel_guest_session")) {
+    isLoggedIn = true;
+  }
+
+  if (isLoggedIn) {
+    // Show main app
+    if (bottomNav) bottomNav.classList.remove("hidden");
+    // Safe fallback for volatile screen states on page reload
+    let startScreen = state.currentScreen;
+    const volatileScreens = {
+      "lesson": "sitemap",
+      "lesson-quiz": "sitemap",
+      "leseverstehen-play": "leseverstehen-parts",
+      "sprachbausteine-play": "sprachbausteine-parts",
+      "verben-prep-quiz": "verben-prep-dashboard",
+      "quiz": "exercises",
+      "fillblanks-play": "exercises",
+      "flashcard-play": "exercises",
+      "login": "home"
+    };
+    if (volatileScreens[startScreen]) {
+      startScreen = volatileScreens[startScreen];
+    }
+    showScreen(startScreen);
+  } else {
+    // Show login screen
+    if (bottomNav) bottomNav.classList.add("hidden");
+    showScreen("login");
+  }
   updateStreakBadge();
   
   // Floating Answer Island & Modal event listeners
@@ -392,6 +576,18 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("profile-reset-btn")?.addEventListener("click", () => {
     if (confirm("Tüm ilerlemenizi sıfırlamak istediğinize emin misiniz?")) {
       localStorage.removeItem("b1_app_state");
+      window.location.reload();
+    }
+  });
+
+  // Logout button
+  document.getElementById("profile-logout-btn")?.addEventListener("click", async () => {
+    if (confirm("Oturumunuzu kapatmak istediğinize emin misiniz?")) {
+      if (window.Auth) {
+        await Auth.signOut();
+      }
+      localStorage.removeItem("pegel_guest_session");
+      localStorage.removeItem("pegel_local_active_user");
       window.location.reload();
     }
   });
@@ -677,6 +873,14 @@ function showScreen(screenId) {
   const targetScreen = document.getElementById(`${screenId}-screen`);
   if (targetScreen) {
     targetScreen.classList.remove("hidden");
+  }
+  
+  // Toggle bottom nav visibility - hide on login screen
+  const bottomNav = document.getElementById("main-bottom-nav");
+  if (screenId === "login") {
+    bottomNav?.classList.add("hidden");
+  } else {
+    bottomNav?.classList.remove("hidden");
   }
   
   // Toggle wide-mode class on container for split layout
