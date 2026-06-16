@@ -3911,13 +3911,6 @@ function renderLessonQuizQuestion() {
     const quizEntry = LESSON_QUIZZES[activeLessonQuiz.id];
     const letterText = quizEntry && quizEntry.letterText ? quizEntry.letterText : "";
     
-    // Generate dropdown HTML
-    const optionsHtml = q.options.map((opt, oIdx) => `
-      <div class="quiz-dropdown-item" data-idx="${oIdx}" onclick="selectQuizOption(event, ${oIdx})">
-        <span>${opt}</span>
-      </div>
-    `).join("");
-    
     let contentHtml = "";
     
     if (isTeil2 && letterText) {
@@ -3926,14 +3919,7 @@ function renderLessonQuizQuestion() {
         const gapIdx = gapNum - 1;
         
         if (gapIdx === lessonQuizCurrentIndex) {
-          return `
-            <div class="quiz-gap-wrapper" style="position: relative; display: inline-block; vertical-align: middle;">
-              <span class="quiz-letter-gap active" onclick="toggleQuizDropdown(event)">(${gapNum}) _____</span>
-              <div class="quiz-dropdown-menu hidden" onclick="event.stopPropagation()">
-                ${optionsHtml}
-              </div>
-            </div>
-          `;
+          return `<span class="quiz-letter-gap active">(${gapNum}) _____</span>`;
         } else if (gapIdx < lessonQuizCurrentIndex) {
           const answeredText = lessonQuizAnswersText[gapIdx] || "_____";
           const wasCorrect = lessonQuizCorrectStates[gapIdx];
@@ -3946,9 +3932,24 @@ function renderLessonQuizQuestion() {
       
       formattedLetter = formattedLetter.replace(/\n/g, "<br>");
       
+      // Determine columns based on number of options to prevent squishing
+      const columnsCount = q.options.length > 4 ? 2 : 1;
+      
       contentHtml = `
         <div class="quiz-letter-preview">
           ${formattedLetter}
+        </div>
+        <div class="quiz-letter-options-title" style="margin-top: 20px; margin-bottom: 10px; font-weight: 600; color: var(--color-text-secondary); font-size: 13.5px; display: flex; align-items: center; gap: 6px;">
+          <i class="ti ti-list-check" style="color: var(--theme-purple); font-size: 16px;"></i>
+          <span>Boşluk (${lessonQuizCurrentIndex + 1}) için doğru seçeneği seçin:</span>
+        </div>
+        <div style="display:grid; grid-template-columns: repeat(${columnsCount}, 1fr); gap:10px; margin-top: 10px;" id="lesson-quiz-options-container">
+          ${q.options.map((opt, idx) => `
+            <button class="quiz-option" data-idx="${idx}" onclick="selectLetterOption(event, ${idx})" style="padding: 12px 14px; font-size: 13px;">
+              <span>${opt}</span>
+              <i class="ti ti-circle" style="font-size:16px; color:var(--color-text-tertiary); flex-shrink:0; margin-left:8px;"></i>
+            </button>
+          `).join("")}
         </div>
       `;
     } else {
@@ -3972,54 +3973,6 @@ function renderLessonQuizQuestion() {
     }
     
     questionArea.innerHTML = contentHtml;
-  }
-}
-
-function toggleQuizDropdown(event) {
-  event.stopPropagation();
-  const gapBtn = event.currentTarget;
-  const wrapper = gapBtn.closest(".quiz-gap-wrapper");
-  if (!wrapper) return;
-  
-  const menu = wrapper.querySelector(".quiz-dropdown-menu");
-  if (!menu) return;
-  
-  // Close all other dropdowns
-  document.querySelectorAll(".quiz-dropdown-menu").forEach(m => {
-    if (m !== menu) m.classList.add("hidden");
-  });
-  
-  menu.classList.toggle("hidden");
-  
-  if (!menu.classList.contains("hidden")) {
-    // Check horizontal positioning to prevent overflowing the card boundary
-    const rect = gapBtn.getBoundingClientRect();
-    const card = gapBtn.closest(".quiz-letter-preview") || gapBtn.closest(".quiz-sentence-preview");
-    if (card) {
-      const cardRect = card.getBoundingClientRect();
-      const leftOffset = rect.left - cardRect.left;
-      const rightOffset = cardRect.right - rect.right;
-      
-      // Reset styles
-      menu.style.left = "";
-      menu.style.right = "";
-      menu.style.transform = "";
-      
-      if (leftOffset < 120) {
-        // Too close to left edge, align to left of gap
-        menu.style.left = "0";
-        menu.style.transform = "none";
-      } else if (rightOffset < 120) {
-        // Too close to right edge, align to right of gap
-        menu.style.right = "0";
-        menu.style.left = "auto";
-        menu.style.transform = "none";
-      } else {
-        // Center under the gap
-        menu.style.left = "50%";
-        menu.style.transform = "translateX(-50%)";
-      }
-    }
   }
 }
 
@@ -4079,48 +4032,42 @@ function selectSentenceOption(event, selectedIdx) {
   }, isCorrect ? 1200 : 1800);
 }
 
-function selectQuizOption(event, selectedIdx) {
-  event.stopPropagation();
-  const item = event.currentTarget;
-  const menu = item.closest(".quiz-dropdown-menu");
-  const wrapper = item.closest(".quiz-gap-wrapper");
-  if (!wrapper || !menu) return;
-  
-  const gapBtn = wrapper.querySelector(".quiz-letter-gap.active");
-  const allItems = menu.querySelectorAll(".quiz-dropdown-item");
-  
-  handleLessonQuizAnswer(selectedIdx, gapBtn, item, allItems, menu);
-}
-
-function handleLessonQuizAnswer(selectedIdx, gapBtn, clickedItem, allItems, menu) {
+function selectLetterOption(event, selectedIdx) {
   const q = activeLessonQuizQuestions[lessonQuizCurrentIndex];
   const correctIdx = q.correct;
+  const container = document.getElementById("lesson-quiz-options-container");
+  if (!container) return;
   
-  // Disable all options in dropdown
-  allItems.forEach(opt => opt.style.pointerEvents = "none");
+  const allButtons = container.querySelectorAll(".quiz-option");
+  allButtons.forEach(btn => btn.style.pointerEvents = "none");
   
+  const clickedBtn = event.currentTarget;
   const isCorrect = selectedIdx === correctIdx;
   lessonQuizCorrectStates[lessonQuizCurrentIndex] = isCorrect;
   lessonQuizAnswersText[lessonQuizCurrentIndex] = q.options[selectedIdx];
   
-  // Update the gap text and style
-  if (gapBtn) {
-    gapBtn.textContent = q.options[selectedIdx];
-    gapBtn.className = isCorrect ? "quiz-letter-gap active correct" : "quiz-letter-gap active incorrect";
+  // Update active letter gap text & style in the letter text preview
+  const activeGap = document.querySelector(".quiz-letter-gap.active");
+  if (activeGap) {
+    activeGap.textContent = q.options[selectedIdx];
+    activeGap.className = isCorrect ? "quiz-letter-gap answered correct" : "quiz-letter-gap answered incorrect";
   }
   
   if (isCorrect) {
-    clickedItem.classList.add("correct");
-    clickedItem.innerHTML = `<span>${q.options[selectedIdx]}</span> <i class="ti ti-circle-check" style="font-size:12px;"></i>`;
+    clickedBtn.classList.add("correct");
+    const icon = clickedBtn.querySelector("i");
+    if (icon) icon.className = "ti ti-circle-check";
   } else {
-    clickedItem.classList.add("incorrect");
-    clickedItem.innerHTML = `<span>${q.options[selectedIdx]}</span> <i class="ti ti-circle-x" style="font-size:12px;"></i>`;
+    clickedBtn.classList.add("incorrect");
+    const icon = clickedBtn.querySelector("i");
+    if (icon) icon.className = "ti ti-circle-x";
     
-    // Highlight correct one in green
-    const correctItem = allItems[correctIdx];
-    if (correctItem) {
-      correctItem.classList.add("correct");
-      correctItem.innerHTML = `<span>${q.options[correctIdx]}</span> <i class="ti ti-circle-check" style="font-size:12px;"></i>`;
+    // Highlight correct option
+    const correctBtn = allButtons[correctIdx];
+    if (correctBtn) {
+      correctBtn.classList.add("correct");
+      const cIcon = correctBtn.querySelector("i");
+      if (cIcon) cIcon.className = "ti ti-circle-check";
     }
     
     lessonQuizLives--;
@@ -4128,8 +4075,6 @@ function handleLessonQuizAnswer(selectedIdx, gapBtn, clickedItem, allItems, menu
   }
   
   setTimeout(() => {
-    if (menu) menu.classList.add("hidden");
-    
     if (lessonQuizLives <= 0) {
       finishLessonQuiz(false);
     } else {
@@ -4142,25 +4087,6 @@ function handleLessonQuizAnswer(selectedIdx, gapBtn, clickedItem, allItems, menu
     }
   }, isCorrect ? 1200 : 1800);
 }
-
-// Close dropdowns when clicking outside
-document.addEventListener("click", () => {
-  document.querySelectorAll(".quiz-dropdown-menu").forEach(menu => {
-    menu.classList.add("hidden");
-  });
-});
-
-// Close dropdowns when scrolling (e.g. parent container)
-document.addEventListener("scroll", (event) => {
-  const scrolledElement = event.target;
-  // If the user is scrolling inside the dropdown menu itself, do not close it
-  if (scrolledElement && scrolledElement.classList && scrolledElement.classList.contains("quiz-dropdown-menu")) {
-    return;
-  }
-  document.querySelectorAll(".quiz-dropdown-menu").forEach(menu => {
-    menu.classList.add("hidden");
-  });
-}, true);
 
 function finishLessonQuiz(success) {
   const overlay = document.getElementById("lesson-quiz-result-overlay");
