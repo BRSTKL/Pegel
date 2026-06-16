@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">B1 German Learning App</string>
+    <string name="title_activity_main">B1 German Learning App</string>
+    <string name="package_name">com.baris.b1germanapp</string>
+    <string name="custom_url_scheme">com.baris.b1germanapp</string>
+</resources>

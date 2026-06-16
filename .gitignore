@@ -1,0 +1,21 @@
+# Dependency directories
+node_modules/
+
+# Local configuration files
+local.properties
+.gradle/
+build/
+android/app/build/
+
+# IDE/OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Xcode local user data
+ios/App/App.xcworkspace/xcuserdata/
+ios/App/App.xcodeproj/project.xcworkspace/xcuserdata/
+ios/App/App.xcodeproj/xcuserdata/
+Pods/
+DerivedData/

@@ -228,6 +228,9 @@ function loadState() {
 
 // Initializing the application
 document.addEventListener("DOMContentLoaded", () => {
+  if (window.Capacitor) {
+    document.body.classList.add("is-native");
+  }
   loadState();
   applyTheme();
   initNav();

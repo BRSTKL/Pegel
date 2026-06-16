@@ -1413,8 +1413,8 @@ const LESEVERSTEHEN_TEIL_2_DATA = [
 const LESEVERSTEHEN_TEIL_3_DATA = [
   {
     "id": "lese_3_1",
-    "title": "Freizeit & Dienstleistungen",
-    "emoji": "🌟",
+    "title": "Indische Küche & Ferienwohnung",
+    "emoji": "🍛",
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
@@ -1506,8 +1506,8 @@ const LESEVERSTEHEN_TEIL_3_DATA = [
   },
   {
     "id": "lese_3_2",
-    "title": "Kurse & Lernen",
-    "emoji": "📚",
+    "title": "Sonntagsbrunch & Deutschkurs",
+    "emoji": "☕",
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
@@ -1599,8 +1599,8 @@ const LESEVERSTEHEN_TEIL_3_DATA = [
   },
   {
     "id": "lese_3_3",
-    "title": "Freizeit & Dienstleistungen",
-    "emoji": "🌟",
+    "title": "Fischrestaurant & Bauernhof-Praktikum",
+    "emoji": "🐟",
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
@@ -1692,8 +1692,8 @@ const LESEVERSTEHEN_TEIL_3_DATA = [
   },
   {
     "id": "lese_3_4",
-    "title": "Freizeit & Dienstleistungen",
-    "emoji": "🌟",
+    "title": "Padel-Tennis & Buchhaltung",
+    "emoji": "🎾",
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
@@ -1785,8 +1785,8 @@ const LESEVERSTEHEN_TEIL_3_DATA = [
   },
   {
     "id": "lese_3_5",
-    "title": "Freizeit & Dienstleistungen",
-    "emoji": "🌟",
+    "title": "Mexikanische Küche & Umzugshilfe",
+    "emoji": "🌮",
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
@@ -1878,8 +1878,8 @@ const LESEVERSTEHEN_TEIL_3_DATA = [
   },
   {
     "id": "lese_3_6",
-    "title": "Freizeit & Dienstleistungen",
-    "emoji": "🌟",
+    "title": "Thailändische Küche & Segelkurs",
+    "emoji": "⛵",
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
@@ -1971,8 +1971,8 @@ const LESEVERSTEHEN_TEIL_3_DATA = [
   },
   {
     "id": "lese_3_7",
-    "title": "Freizeit & Dienstleistungen",
-    "emoji": "🌟",
+    "title": "Indische Küche & Renovierung",
+    "emoji": "🍛",
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
@@ -2064,8 +2064,8 @@ const LESEVERSTEHEN_TEIL_3_DATA = [
   },
   {
     "id": "lese_3_8",
-    "title": "Freizeit & Dienstleistungen",
-    "emoji": "🌟",
+    "title": "Vietnamesische Küche & Radkurs",
+    "emoji": "🍜",
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
@@ -2157,8 +2157,8 @@ const LESEVERSTEHEN_TEIL_3_DATA = [
   },
   {
     "id": "lese_3_9",
-    "title": "Freizeit & Dienstleistungen",
-    "emoji": "🌟",
+    "title": "Indonesische Küche & Fliesenlegen",
+    "emoji": "🍢",
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
@@ -2250,8 +2250,8 @@ const LESEVERSTEHEN_TEIL_3_DATA = [
   },
   {
     "id": "lese_3_10",
-    "title": "Freizeit & Dienstleistungen",
-    "emoji": "🌟",
+    "title": "Koreanische Küche & Wandverputzen",
+    "emoji": "🍲",
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
@@ -2343,8 +2343,8 @@ const LESEVERSTEHEN_TEIL_3_DATA = [
   },
   {
     "id": "lese_3_11",
-    "title": "Freizeit & Dienstleistungen",
-    "emoji": "🌟",
+    "title": "Thailändische Küche & Küchengeräte",
+    "emoji": "🍤",
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
@@ -2436,8 +2436,8 @@ const LESEVERSTEHEN_TEIL_3_DATA = [
   },
   {
     "id": "lese_3_12",
-    "title": "Freizeit & Dienstleistungen",
-    "emoji": "🌟",
+    "title": "Malaysische Küche & Zimmerwände",
+    "emoji": "🥥",
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
