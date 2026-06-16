@@ -1,4 +1,11 @@
 {
+  "name": "pegel",
+  "short_name": "pegel",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#1b1b22",
+  "theme_color": "#1b1b22",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "icons/icon-48.webp",
