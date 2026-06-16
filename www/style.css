@@ -1560,9 +1560,9 @@ body.is-native .app-container {
 
 /* Floating Button (Answer Island) */
 #floating-answer-island {
-  position: fixed;
-  right: 24px;
-  bottom: calc(24px + env(safe-area-inset-bottom));
+  position: absolute;
+  right: 20px;
+  bottom: calc(76px + env(safe-area-inset-bottom, 0px));
   z-index: 999; /* Below modal overlay, above other content */
   display: flex;
   align-items: center;
@@ -1617,7 +1617,7 @@ body.is-native .app-container {
 
 /* Modal Overlay & Backdrop */
 #answer-modal-overlay {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
