@@ -252,6 +252,31 @@ document.addEventListener("DOMContentLoaded", () => {
   showScreen(startScreen);
   updateStreakBadge();
   
+  // Floating Answer Island & Modal event listeners
+  const floatingBtn = document.getElementById("floating-answer-island");
+  const modalOverlay = document.getElementById("answer-modal-overlay");
+  const modalCloseBtn = document.getElementById("answer-modal-close-btn");
+  const modalBackdrop = document.querySelector(".answer-modal-backdrop");
+
+  const openAnswerModal = () => {
+    modalOverlay?.classList.remove("hidden");
+  };
+
+  const closeAnswerModal = () => {
+    modalOverlay?.classList.add("hidden");
+  };
+
+  floatingBtn?.addEventListener("click", openAnswerModal);
+  modalCloseBtn?.addEventListener("click", closeAnswerModal);
+  modalBackdrop?.addEventListener("click", closeAnswerModal);
+
+  // Close modal with Escape key
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && modalOverlay && !modalOverlay.classList.contains("hidden")) {
+      closeAnswerModal();
+    }
+  });
+  
   // Home Today's task links -> directs to Exercises page
   document.getElementById("flashcard-today-btn")?.addEventListener("click", () => {
     showScreen("exercises");
@@ -633,6 +658,27 @@ function showScreen(screenId) {
     renderSprachbausteineDashboard();
   } else if (screenId === "myvocab") {
     renderMyVocabScreen();
+  }
+
+  // Show/Hide Floating Answer Island
+  const floatingAnswerIsland = document.getElementById("floating-answer-island");
+  const leseverstehenModalGroup = document.getElementById("leseverstehen-modal-group");
+  const sprachbausteineModalGroup = document.getElementById("sprachbausteine-modal-group");
+  const answerModalOverlay = document.getElementById("answer-modal-overlay");
+
+  // Reset modal states when changing screens
+  answerModalOverlay?.classList.add("hidden");
+  leseverstehenModalGroup?.classList.add("hidden");
+  sprachbausteineModalGroup?.classList.add("hidden");
+
+  if (screenId === "leseverstehen-play") {
+    floatingAnswerIsland?.classList.remove("hidden");
+    leseverstehenModalGroup?.classList.remove("hidden");
+  } else if (screenId === "sprachbausteine-play") {
+    floatingAnswerIsland?.classList.remove("hidden");
+    sprachbausteineModalGroup?.classList.remove("hidden");
+  } else {
+    floatingAnswerIsland?.classList.add("hidden");
   }
 }
 
@@ -2414,6 +2460,15 @@ function updateLeseverstehenStatus() {
         </div>
       `;
     }
+    
+    const island = document.getElementById("floating-answer-island");
+    if (island) {
+      island.style.background = "#10b981";
+    }
+    const badge = document.getElementById("floating-answer-badge");
+    if (badge) {
+      badge.innerHTML = `${correctCount}/${totalCount} <i class="ti ti-check" style="font-size:10px;margin-left:2px;"></i>`;
+    }
     return;
   } else {
     if (resultsSummary) {
@@ -2433,6 +2488,15 @@ function updateLeseverstehenStatus() {
   } else {
     statusText.textContent = `${remaining} boş soru doldurulmayı bekliyor.`;
     statusText.style.color = "var(--theme-coral)";
+  }
+  
+  const island = document.getElementById("floating-answer-island");
+  if (island) {
+    island.style.background = "linear-gradient(135deg, var(--theme-purple), #a855f7)";
+  }
+  const badge = document.getElementById("floating-answer-badge");
+  if (badge) {
+    badge.textContent = `${answeredCount}/${totalCount}`;
   }
 }
 
@@ -2949,6 +3013,15 @@ function updateSprachbausteineStatus() {
         </div>
       `;
     }
+    
+    const island = document.getElementById("floating-answer-island");
+    if (island) {
+      island.style.background = "#10b981";
+    }
+    const badge = document.getElementById("floating-answer-badge");
+    if (badge) {
+      badge.innerHTML = `${correctCount}/${totalCount} <i class="ti ti-check" style="font-size:10px;margin-left:2px;"></i>`;
+    }
     return;
   } else {
     if (resultsSummary) {
@@ -2970,6 +3043,15 @@ function updateSprachbausteineStatus() {
   } else {
     statusText.textContent = `${remaining} boş soru doldurulmayı bekliyor.`;
     statusText.style.color = "var(--theme-coral)";
+  }
+  
+  const island = document.getElementById("floating-answer-island");
+  if (island) {
+    island.style.background = "linear-gradient(135deg, var(--theme-purple), #a855f7)";
+  }
+  const badge = document.getElementById("floating-answer-badge");
+  if (badge) {
+    badge.textContent = `${answeredCount}/${totalCount}`;
   }
 }
 
