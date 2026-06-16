@@ -169,6 +169,7 @@ const FILLBLANKS_QUESTIONS = [
 
 // Helper to save state
 function saveState() {
+  state.lastModifiedAt = new Date().toISOString();
   localStorage.setItem("b1_app_state", JSON.stringify(state));
   if (window.Auth && !localStorage.getItem("pegel_guest_session")) {
     Auth.pushState(state).catch(err => {
@@ -255,6 +256,60 @@ function loadState() {
   state.lastActiveDate = today;
   saveState();
 }
+
+let lastSyncCheckTime = 0;
+
+async function pullAndMergeState() {
+  if (window.Auth && !localStorage.getItem("pegel_guest_session")) {
+    const now = Date.now();
+    // 10-second cooldown to prevent excessive API requests
+    if (now - lastSyncCheckTime < 10000) return;
+    lastSyncCheckTime = now;
+    
+    try {
+      const cloudState = await Auth.fetchState();
+      if (cloudState) {
+        const localTime = new Date(state.lastModifiedAt || 0).getTime();
+        const cloudTime = new Date(cloudState.lastModifiedAt || 0).getTime();
+        
+        // Last-Writer-Wins: Only overwrite if cloud state has a newer modification timestamp
+        if (cloudTime > localTime) {
+          const currentName = state.userName;
+          state = { ...state, ...cloudState };
+          state.userName = currentName;
+          
+          // Save locally
+          localStorage.setItem("b1_app_state", JSON.stringify(state));
+          
+          // Refresh active screen display
+          refreshCurrentScreen();
+        }
+      }
+    } catch (err) {
+      console.warn("Cloud synchronization failed:", err);
+    }
+  }
+}
+
+function refreshCurrentScreen() {
+  const screenId = state.currentScreen || "home";
+  if (screenId === "home") renderHomeScreen();
+  else if (screenId === "sitemap") renderSitemapScreen();
+  else if (screenId === "verben-prep-dashboard") renderPrepDashboard();
+  else if (screenId === "analytics") renderAnalyticsScreen();
+  else if (screenId === "profile") renderProfileScreen();
+  else if (screenId === "leseverstehen-dashboard") renderLeseverstehenDashboard();
+  else if (screenId === "sprachbausteine-dashboard") renderSprachbausteineDashboard();
+  else if (screenId === "myvocab") renderMyVocabScreen();
+}
+
+// Auto-sync when the browser window gains focus or the app tab becomes visible
+window.addEventListener("focus", pullAndMergeState);
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible") {
+    pullAndMergeState();
+  }
+});
 
 // ================= LOGIN SCREEN LOGIC =================
 function initLoginScreen() {
@@ -442,8 +497,12 @@ document.addEventListener("DOMContentLoaded", async () => {
         try {
           const cloudState = await Auth.fetchState();
           if (cloudState) {
-            state = { ...state, ...cloudState };
-            state.userName = displayName; // preserve display name
+            const localTime = new Date(state.lastModifiedAt || 0).getTime();
+            const cloudTime = new Date(cloudState.lastModifiedAt || 0).getTime();
+            if (cloudTime > localTime) {
+              state = { ...state, ...cloudState };
+              state.userName = displayName; // preserve display name
+            }
           }
         } catch (err) {
           console.error("Failed to fetch cloud state on app launch:", err);
