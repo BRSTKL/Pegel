@@ -217,6 +217,31 @@ function loadState() {
   if (!state.activeSprachbausteinePart) state.activeSprachbausteinePart = 1;
   if (!state.myVocabulary) state.myVocabulary = [];
   
+  // Safe migrations for activeDates tracking
+  if (!state.activeDates) {
+    state.activeDates = [];
+    if (state.streak && state.streak > 0) {
+      const todayDate = new Date();
+      for (let i = 0; i < state.streak; i++) {
+        const d = new Date();
+        d.setDate(todayDate.getDate() - i);
+        state.activeDates.push(d.toDateString());
+      }
+    }
+  }
+  
+  // Backwards compatibility for completed activities today
+  const completedSomethingToday = state.completedToday.flashcards || state.completedToday.quiz || state.completedLessons.length > 0;
+  if (completedSomethingToday) {
+    const todayStr = new Date().toDateString();
+    if (!state.activeDates.includes(todayStr)) {
+      state.activeDates.push(todayStr);
+    }
+  }
+  
+  // Keep state.streak in sync with actual sequence of active days
+  state.streak = calculateStreak();
+  
   const today = new Date().toDateString();
   if (state.lastActiveDate && state.lastActiveDate !== today) {
     state.completedToday.flashcards = false;
@@ -566,6 +591,46 @@ function toggleTheme() {
   applyTheme();
   saveState();
   renderProfileScreen();
+}
+
+// Calculate user streak based on consecutive dates in state.activeDates
+function calculateStreak() {
+  if (!state.activeDates) state.activeDates = [];
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  
+  const activeSet = new Set(state.activeDates);
+  
+  let streak = 0;
+  let checkDate = new Date(today);
+  
+  // Check if today is active
+  if (activeSet.has(checkDate.toDateString())) {
+    while (activeSet.has(checkDate.toDateString())) {
+      streak++;
+      checkDate.setDate(checkDate.getDate() - 1);
+    }
+  } else {
+    // If today is not active, check yesterday
+    checkDate.setDate(checkDate.getDate() - 1);
+    while (activeSet.has(checkDate.toDateString())) {
+      streak++;
+      checkDate.setDate(checkDate.getDate() - 1);
+    }
+  }
+  return streak;
+}
+
+// Log active day in history and recalculate streak
+function logActiveDay() {
+  if (!state.activeDates) state.activeDates = [];
+  const todayStr = new Date().toDateString();
+  if (!state.activeDates.includes(todayStr)) {
+    state.activeDates.push(todayStr);
+  }
+  state.streak = calculateStreak();
+  saveState();
+  updateStreakBadge();
 }
 
 // Streak UI helper
@@ -960,10 +1025,9 @@ function openLesson(lesson) {
           state.completedLessons.push(lesson.id);
           state.xp += 15;
           nowCompleted = true;
+          logActiveDay();
         }
-        saveState();
         updateCompleteButtonState(btn, nowCompleted);
-        updateStreakBadge();
       });
     }
     actionContainer.appendChild(btn);
@@ -1187,10 +1251,8 @@ function finishQuiz() {
   if (!container) return;
   
   state.completedToday.quiz = true;
-  state.streak++;
   state.xp += 25;
-  saveState();
-  updateStreakBadge();
+  logActiveDay();
   
   container.innerHTML = `
     <div style="text-align: center; padding: 24px 10px; display:flex; flex-direction:column; align-items:center; gap:18px;">
@@ -1329,10 +1391,8 @@ function finishFb() {
   if (!container) return;
   
   state.completedToday.flashcards = true;
-  state.streak++;
   state.xp += 20;
-  saveState();
-  updateStreakBadge();
+  logActiveDay();
   
   container.innerHTML = `
     <div style="text-align: center; padding: 24px 10px; display:flex; flex-direction:column; align-items:center; gap:18px;">
@@ -1775,10 +1835,8 @@ function finishPrepQuiz() {
   if (!container) return;
   
   state.completedToday.quiz = true;
-  state.streak++;
   state.xp += 30; // +30 XP complete bonus
-  saveState();
-  updateStreakBadge();
+  logActiveDay();
   
   const pct = Math.round(correctPrepQuizScore / activePrepQuizQuestions.length * 100);
   
@@ -2556,7 +2614,7 @@ function submitLeseverstehen() {
   if (attempts.length > 3) attempts.shift();
   state.leseverstehenProgress[exercise.id] = attempts;
   
-  saveState();
+  logActiveDay();
   renderLeseverstehenScreen();
 }
 
@@ -3104,7 +3162,7 @@ function submitSprachbausteine() {
   }
   state.sprachbausteineProgress[exercise.id] = attempts;
   
-  saveState();
+  logActiveDay();
   
   renderSprachbausteineScreen();
 }
@@ -3176,17 +3234,19 @@ function renderStreakCalendar() {
     days.push(d);
   }
   
+  const activeSet = new Set(state.activeDates || []);
+  
   days.forEach(day => {
     const dayDiv = document.createElement("div");
     dayDiv.className = "calendar-day";
     dayDiv.textContent = day.getDate();
     
-    if (day.toDateString() === today.toDateString()) {
+    const dayStr = day.toDateString();
+    if (dayStr === today.toDateString()) {
       dayDiv.classList.add("active");
     }
     
-    const completedSomethingToday = state.completedToday.flashcards || state.completedToday.quiz || state.completedLessons.length > 0;
-    if (day.toDateString() === today.toDateString() && completedSomethingToday) {
+    if (activeSet.has(dayStr)) {
       dayDiv.classList.add("completed");
     }
     
