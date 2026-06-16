@@ -231,7 +231,22 @@ document.addEventListener("DOMContentLoaded", () => {
   loadState();
   applyTheme();
   initNav();
-  showScreen(state.currentScreen);
+  // Safe fallback for volatile screen states on page reload
+  let startScreen = state.currentScreen;
+  const volatileScreens = {
+    "lesson": "sitemap",
+    "lesson-quiz": "sitemap",
+    "leseverstehen-play": "leseverstehen-parts",
+    "sprachbausteine-play": "sprachbausteine-parts",
+    "verben-prep-quiz": "verben-prep-dashboard",
+    "quiz": "exercises",
+    "fillblanks-play": "exercises",
+    "flashcard-play": "exercises"
+  };
+  if (volatileScreens[startScreen]) {
+    startScreen = volatileScreens[startScreen];
+  }
+  showScreen(startScreen);
   updateStreakBadge();
   
   // Home Today's task links -> directs to Exercises page
@@ -3562,19 +3577,20 @@ function renderLessonQuizQuestion() {
       `;
     } else {
       const formattedSentence = q.question.replace(/\((\d+)\)\s*_____/g, (match, gapNum) => {
-        return `
-          <div class="quiz-gap-wrapper" style="position: relative; display: inline-block; vertical-align: middle;">
-            <span class="quiz-letter-gap active" onclick="toggleQuizDropdown(event)">(${gapNum}) _____</span>
-            <div class="quiz-dropdown-menu hidden" onclick="event.stopPropagation()">
-              ${optionsHtml}
-            </div>
-          </div>
-        `;
+        return `<span class="quiz-sentence-gap">(${gapNum}) _____</span>`;
       });
       
       contentHtml = `
         <div class="quiz-sentence-preview">
           ${formattedSentence}
+        </div>
+        <div style="display:flex; flex-direction:column; gap:11px; margin-top: 20px;" id="lesson-quiz-options-container">
+          ${q.options.map((opt, idx) => `
+            <button class="quiz-option" data-idx="${idx}" onclick="selectSentenceOption(event, ${idx})">
+              <span>${opt}</span>
+              <i class="ti ti-circle" style="font-size:16px; color:var(--color-text-tertiary); flex-shrink:0; margin-left:8px;"></i>
+            </button>
+          `).join("")}
         </div>
       `;
     }
@@ -3629,6 +3645,62 @@ function toggleQuizDropdown(event) {
       }
     }
   }
+}
+
+function selectSentenceOption(event, selectedIdx) {
+  const q = activeLessonQuizQuestions[lessonQuizCurrentIndex];
+  const correctIdx = q.correct;
+  const container = document.getElementById("lesson-quiz-options-container");
+  if (!container) return;
+  
+  const allButtons = container.querySelectorAll(".quiz-option");
+  allButtons.forEach(btn => btn.style.pointerEvents = "none");
+  
+  const clickedBtn = event.currentTarget;
+  const isCorrect = selectedIdx === correctIdx;
+  lessonQuizCorrectStates[lessonQuizCurrentIndex] = isCorrect;
+  lessonQuizAnswersText[lessonQuizCurrentIndex] = q.options[selectedIdx];
+  
+  // Update the sentence gap preview
+  const gapSpan = document.querySelector(".quiz-sentence-gap");
+  if (gapSpan) {
+    gapSpan.textContent = q.options[selectedIdx];
+    gapSpan.className = isCorrect ? "quiz-sentence-gap correct" : "quiz-sentence-gap incorrect";
+  }
+  
+  if (isCorrect) {
+    clickedBtn.classList.add("correct");
+    const icon = clickedBtn.querySelector("i");
+    if (icon) icon.className = "ti ti-circle-check";
+  } else {
+    clickedBtn.classList.add("incorrect");
+    const icon = clickedBtn.querySelector("i");
+    if (icon) icon.className = "ti ti-circle-x";
+    
+    // Highlight correct option
+    const correctBtn = allButtons[correctIdx];
+    if (correctBtn) {
+      correctBtn.classList.add("correct");
+      const cIcon = correctBtn.querySelector("i");
+      if (cIcon) cIcon.className = "ti ti-circle-check";
+    }
+    
+    lessonQuizLives--;
+    renderLessonQuizLives();
+  }
+  
+  setTimeout(() => {
+    if (lessonQuizLives <= 0) {
+      finishLessonQuiz(false);
+    } else {
+      lessonQuizCurrentIndex++;
+      if (lessonQuizCurrentIndex >= activeLessonQuizQuestions.length) {
+        finishLessonQuiz(true);
+      } else {
+        renderLessonQuizQuestion();
+      }
+    }
+  }, isCorrect ? 1200 : 1800);
 }
 
 function selectQuizOption(event, selectedIdx) {

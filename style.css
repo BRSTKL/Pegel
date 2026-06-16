@@ -78,7 +78,7 @@ body {
 @media (min-width: 480px) {
   .app-container {
     height: 85vh;
-    min-height: 720px;
+    min-height: min(720px, 90vh);
     max-height: 880px;
     border-radius: var(--border-radius-xl);
     border: 1px solid var(--color-border-primary);
@@ -1512,6 +1512,16 @@ button.c-teal i, button.c-purple i {
   background-color: var(--theme-coral-light) !important;
   color: var(--theme-coral) !important;
   border-color: var(--theme-coral) !important;
+}
+
+.quiz-sentence-gap.correct {
+  color: var(--theme-teal) !important;
+  border-bottom-color: var(--theme-teal) !important;
+}
+
+.quiz-sentence-gap.incorrect {
+  color: var(--theme-coral) !important;
+  border-bottom-color: var(--theme-coral) !important;
 }
 
 
