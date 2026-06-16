@@ -29,6 +29,11 @@ let state = {
   // Leseverstehen specific states
   activeLeseverstehenPart: 1,
 
+  // Hörverstehen specific states
+  hoerverstehenAnswers: {},
+  hoerverstehenProgress: {},
+  activeHoerverstehenPart: 1,
+
   // Vocabulary specific states
   myVocabulary: []
 };
@@ -167,14 +172,25 @@ const FILLBLANKS_QUESTIONS = [
   }
 ];
 
-// Helper to save state
+// Helper to save state locally (no timestamp update, no cloud push)
+function saveStateLocally() {
+  localStorage.setItem("b1_app_state", JSON.stringify(state));
+}
+
+let cloudSyncTimeout = null;
+
+// Helper to save state (updates timestamp, saves locally, debounces cloud push)
 function saveState() {
   state.lastModifiedAt = new Date().toISOString();
-  localStorage.setItem("b1_app_state", JSON.stringify(state));
+  saveStateLocally();
+  
   if (window.Auth && !localStorage.getItem("pegel_guest_session")) {
-    Auth.pushState(state).catch(err => {
-      console.warn("Cloud save failed:", err);
-    });
+    if (cloudSyncTimeout) clearTimeout(cloudSyncTimeout);
+    cloudSyncTimeout = setTimeout(() => {
+      Auth.pushState(state).catch(err => {
+        console.warn("Cloud save failed:", err);
+      });
+    }, 1500); // 1.5 second debounce delay
   }
 }
 
@@ -207,9 +223,11 @@ function loadState() {
     state.sprachbausteineProgress = {};
     state.leseverstehenAnswers = {};
     state.leseverstehenProgress = {};
+    state.hoerverstehenAnswers = {};
+    state.hoerverstehenProgress = {};
     state.myVocabulary = [];
     state.appVersion = 4;
-    saveState();
+    saveStateLocally();
   }
   
   // Safe migrations for newly added properties
@@ -219,8 +237,11 @@ function loadState() {
   if (!state.leseverstehenProgress) state.leseverstehenProgress = {};
   if (!state.sprachbausteineAnswers) state.sprachbausteineAnswers = {};
   if (!state.sprachbausteineProgress) state.sprachbausteineProgress = {};
+  if (!state.hoerverstehenAnswers) state.hoerverstehenAnswers = {};
+  if (!state.hoerverstehenProgress) state.hoerverstehenProgress = {};
   if (!state.activeLeseverstehenPart) state.activeLeseverstehenPart = 1;
   if (!state.activeSprachbausteinePart) state.activeSprachbausteinePart = 1;
+  if (!state.activeHoerverstehenPart) state.activeHoerverstehenPart = 1;
   if (!state.myVocabulary) state.myVocabulary = [];
   
   // Safe migrations for activeDates tracking
@@ -254,7 +275,7 @@ function loadState() {
     state.completedToday.quiz = false;
   }
   state.lastActiveDate = today;
-  saveState();
+  saveStateLocally();
 }
 
 let lastSyncCheckTime = 0;
@@ -279,10 +300,13 @@ async function pullAndMergeState() {
           state.userName = currentName;
           
           // Save locally
-          localStorage.setItem("b1_app_state", JSON.stringify(state));
+          saveStateLocally();
           
           // Refresh active screen display
           refreshCurrentScreen();
+        } else if (localTime > cloudTime) {
+          // Local is newer (e.g. offline edits), push back to cloud
+          Auth.pushState(state).catch(err => console.warn("Cloud push failed during merge:", err));
         }
       }
     } catch (err) {
@@ -369,14 +393,23 @@ function initLoginScreen() {
       try {
         const cloudState = await Auth.fetchState();
         if (cloudState) {
-          state = { ...state, ...cloudState };
+          const localTime = new Date(state.lastModifiedAt || 0).getTime();
+          const cloudTime = new Date(cloudState.lastModifiedAt || 0).getTime();
+          if (cloudTime > localTime) {
+            state = { ...state, ...cloudState };
+            saveStateLocally();
+          } else if (localTime > cloudTime) {
+            Auth.pushState(state).catch(err => console.warn("Push on auth success failed:", err));
+          }
+        } else {
+          Auth.pushState(state).catch(err => console.warn("Push on auth success failed:", err));
         }
       } catch (e) {
         console.error("Failed to fetch cloud state on login:", e);
       }
     }
     state.userName = displayName || "Kullanıcı";
-    saveState();
+    saveStateLocally();
     const bottomNav = document.getElementById("main-bottom-nav");
     if (bottomNav) bottomNav.classList.remove("hidden");
     showScreen("home");
@@ -502,13 +535,16 @@ document.addEventListener("DOMContentLoaded", async () => {
             if (cloudTime > localTime) {
               state = { ...state, ...cloudState };
               state.userName = displayName; // preserve display name
+              saveStateLocally();
+            } else if (localTime > cloudTime) {
+              Auth.pushState(state).catch(err => console.warn("Startup cloud push failed:", err));
             }
+          } else {
+            Auth.pushState(state).catch(err => console.warn("Startup cloud push failed:", err));
           }
         } catch (err) {
           console.error("Failed to fetch cloud state on app launch:", err);
         }
-        
-        saveState();
       }
     } catch (e) {
       console.warn("Auth check failed, falling back to guest mode:", e);
@@ -862,7 +898,431 @@ document.addEventListener("DOMContentLoaded", async () => {
       showScreen(target);
     });
   });
+
+  initHoerverstehen();
 });
+
+// ================= HÖRVERSTEHEN GAME ENGINE =================
+let activeHoerverstehenGame = null;
+let hoerverstehenSubmitted = false;
+
+function initHoerverstehen() {
+  // Launch from Exercises page
+  document.getElementById("launcher-hoerverstehen")?.addEventListener("click", () => {
+    showScreen("hoerverstehen-parts");
+  });
+
+  // Launch dashboard from part selection
+  document.querySelectorAll(".hoerverstehen-part-card").forEach(card => {
+    card.addEventListener("click", () => {
+      const part = parseInt(card.getAttribute("data-part")) || 1;
+      state.activeHoerverstehenPart = part;
+      saveStateLocally();
+      showScreen("hoerverstehen-dashboard");
+    });
+  });
+
+  // Audio Play/Pause Button
+  const playBtn = document.getElementById("hoerverstehen-play-btn");
+  const playIcon = document.getElementById("hoerverstehen-play-icon");
+  const audio = document.getElementById("hoerverstehen-audio");
+
+  playBtn?.addEventListener("click", () => {
+    if (!audio) return;
+    if (audio.paused) {
+      audio.play().then(() => {
+        if (playIcon) playIcon.className = "ti ti-pause";
+      }).catch(err => console.error("Audio playback failed:", err));
+    } else {
+      audio.pause();
+      if (playIcon) playIcon.className = "ti ti-play";
+    }
+  });
+
+  // Rewind 10s Button
+  const rewindBtn = document.getElementById("hoerverstehen-rewind-btn");
+  rewindBtn?.addEventListener("click", () => {
+    if (!audio) return;
+    audio.currentTime = Math.max(0, audio.currentTime - 10);
+  });
+
+  // Progress Bar Seek
+  const progressBar = document.getElementById("hoerverstehen-progress");
+  progressBar?.addEventListener("input", (e) => {
+    if (!audio || !audio.duration) return;
+    const seekTime = (parseFloat(e.target.value) / 100) * audio.duration;
+    audio.currentTime = seekTime;
+  });
+
+  // Update Progress Bar during playback
+  audio?.addEventListener("timeupdate", () => {
+    if (!audio || !audio.duration) return;
+    const progressPercent = (audio.currentTime / audio.duration) * 100;
+    if (progressBar) progressBar.value = progressPercent;
+
+    // Current Time display update
+    const currentTimeEl = document.getElementById("hoerverstehen-current-time");
+    if (currentTimeEl) {
+      const mins = Math.floor(audio.currentTime / 60);
+      const secs = Math.floor(audio.currentTime % 60);
+      currentTimeEl.textContent = `${mins}:${secs.toString().padStart(2, '0')}`;
+    }
+  });
+
+  // Update Total Duration when metadata loads
+  audio?.addEventListener("loadedmetadata", () => {
+    if (!audio) return;
+    const durationEl = document.getElementById("hoerverstehen-total-duration");
+    if (durationEl) {
+      const mins = Math.floor(audio.duration / 60);
+      const secs = Math.floor(audio.duration % 60);
+      durationEl.textContent = `${mins}:${secs.toString().padStart(2, '0')}`;
+    }
+  });
+
+  // When audio finishes, reset play icon
+  audio?.addEventListener("ended", () => {
+    if (playIcon) playIcon.className = "ti ti-play";
+    if (progressBar) progressBar.value = 0;
+  });
+
+  // Speed Control Button
+  const speedBtn = document.getElementById("hoerverstehen-speed-btn");
+  const speedMenu = document.getElementById("hoerverstehen-speed-menu");
+  const speedLabel = document.getElementById("hoerverstehen-speed-label");
+
+  speedBtn?.addEventListener("click", (e) => {
+    e.stopPropagation();
+    speedMenu?.classList.toggle("hidden");
+  });
+
+  // Close speed menu when clicking outside
+  document.addEventListener("click", () => {
+    speedMenu?.classList.add("hidden");
+  });
+
+  // Change speed options
+  document.querySelectorAll(".hoerverstehen-speed-option").forEach(opt => {
+    opt.addEventListener("click", (e) => {
+      e.stopPropagation();
+      if (!audio) return;
+      
+      const speed = parseFloat(opt.getAttribute("data-speed")) || 1.0;
+      audio.playbackRate = speed;
+      
+      if (speedLabel) speedLabel.textContent = `${speed}x`;
+      
+      document.querySelectorAll(".hoerverstehen-speed-option").forEach(o => {
+        o.classList.remove("active");
+        o.style.fontWeight = "normal";
+      });
+      opt.classList.add("active");
+      opt.style.fontWeight = "600";
+      
+      speedMenu?.classList.add("hidden");
+    });
+  });
+
+  // Section Jump Buttons (Skip intro, Repeat, etc.)
+  document.querySelectorAll(".hoerverstehen-seek-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      if (!audio) return;
+      const targetTime = parseFloat(btn.getAttribute("data-time")) || 0;
+      audio.currentTime = targetTime;
+      
+      // Auto play if paused
+      if (audio.paused) {
+        audio.play().then(() => {
+          if (playIcon) playIcon.className = "ti ti-pause";
+        }).catch(err => console.error("Auto-play on seek failed:", err));
+      }
+    });
+  });
+
+  // Submit Button
+  const submitBtn = document.getElementById("hoerverstehen-submit-btn");
+  submitBtn?.addEventListener("click", () => {
+    if (hoerverstehenSubmitted) {
+      showScreen("hoerverstehen-dashboard");
+    } else {
+      submitHoerverstehen();
+    }
+  });
+}
+
+function renderHoerverstehenDashboard() {
+  const dbTitle = document.getElementById("hoerverstehen-dashboard-title");
+  if (dbTitle) {
+    dbTitle.textContent = `Dinleme Anlama · Teil ${state.activeHoerverstehenPart || 1}`;
+  }
+
+  const cardsGrid = document.getElementById("hoerverstehen-cards-grid");
+  if (!cardsGrid) return;
+  cardsGrid.innerHTML = "";
+
+  // Select target data based on selected part
+  let targetData = [];
+  if (state.activeHoerverstehenPart === 1) {
+    targetData = HOERVERSTEHEN_TEIL_1_DATA || [];
+  } else if (state.activeHoerverstehenPart === 2) {
+    targetData = HOERVERSTEHEN_TEIL_2_DATA || [];
+  } else if (state.activeHoerverstehenPart === 3) {
+    targetData = HOERVERSTEHEN_TEIL_3_DATA || [];
+  }
+
+  let completedCount = 0;
+
+  targetData.forEach(ex => {
+    const attempts = state.hoerverstehenProgress[ex.id] || [];
+    const attemptCount = attempts.length;
+    if (attemptCount > 0) {
+      completedCount++;
+    }
+
+    const card = document.createElement("div");
+    card.className = "hoerverstehen-card";
+    card.onclick = () => startNewHoerverstehen(ex.id);
+
+    // 3 history badges
+    let badgesHtml = "";
+    for (let i = 0; i < 3; i++) {
+      if (i < attemptCount) {
+        const attempt = attempts[i];
+        let scoreClass = "score-low";
+        if (attempt.score >= 80) scoreClass = "score-high";
+        else if (attempt.score >= 40) scoreClass = "score-med";
+        badgesHtml += `<span class="hoerverstehen-badge-circle ${scoreClass}">${attempt.score}</span>`;
+      } else {
+        badgesHtml += `<span class="hoerverstehen-badge-circle">-</span>`;
+      }
+    }
+
+    let attemptsLabel = "Deneme yapılmadı";
+    if (attemptCount > 0) {
+      attemptsLabel = `${attemptCount} deneme`;
+    }
+
+    const colors = ["c-purple-bg", "c-blue-bg", "c-teal-bg", "c-coral-bg", "c-pink-bg"];
+    const colorClass = colors[targetData.indexOf(ex) % colors.length];
+
+    card.innerHTML = `
+      <div class="hoerverstehen-card-icon-wrapper ${colorClass}">
+        <span class="hoerverstehen-card-emoji">${ex.emoji}</span>
+      </div>
+      <div class="hoerverstehen-card-details">
+        <p class="hoerverstehen-card-title">${ex.title}</p>
+        <p class="hoerverstehen-card-attempts">${attemptsLabel}</p>
+      </div>
+      <div class="hoerverstehen-card-badges">
+        ${badgesHtml}
+      </div>
+    `;
+    cardsGrid.appendChild(card);
+  });
+
+  // Update stats
+  const totalCount = targetData.length;
+  const progressPercent = totalCount > 0 ? Math.round((completedCount / totalCount) * 100) : 0;
+
+  const progressPercentEl = document.getElementById("hoerverstehen-progress-percent");
+  const progressFillEl = document.getElementById("hoerverstehen-progress-fill");
+  const progressCountEl = document.getElementById("hoerverstehen-progress-count");
+
+  if (progressPercentEl) progressPercentEl.textContent = `${progressPercent}%`;
+  if (progressFillEl) progressFillEl.style.width = `${progressPercent}%`;
+  if (progressCountEl) progressCountEl.textContent = `${completedCount}/${totalCount} tamamlandı`;
+}
+
+function startNewHoerverstehen(exerciseId) {
+  let ex = null;
+  // Look up across all parts
+  ex = (HOERVERSTEHEN_TEIL_1_DATA || []).find(item => item.id === exerciseId) ||
+       (HOERVERSTEHEN_TEIL_2_DATA || []).find(item => item.id === exerciseId) ||
+       (HOERVERSTEHEN_TEIL_3_DATA || []).find(item => item.id === exerciseId);
+       
+  if (!ex) return;
+
+  activeHoerverstehenGame = ex;
+  hoerverstehenSubmitted = false;
+  state.hoerverstehenAnswers = {};
+
+  // Setup play screen title
+  const playTitle = document.getElementById("hoerverstehen-play-title");
+  if (playTitle) playTitle.textContent = ex.title;
+
+  // Set audio source
+  const audio = document.getElementById("hoerverstehen-audio");
+  if (audio) {
+    audio.src = ex.audioPath;
+    audio.load();
+    audio.playbackRate = 1.0;
+  }
+
+  // Reset audio UI controls
+  const playIcon = document.getElementById("hoerverstehen-play-icon");
+  if (playIcon) playIcon.className = "ti ti-play";
+  
+  const speedLabel = document.getElementById("hoerverstehen-speed-label");
+  if (speedLabel) speedLabel.textContent = "1x";
+  
+  const currentTimeEl = document.getElementById("hoerverstehen-current-time");
+  if (currentTimeEl) currentTimeEl.textContent = "0:00";
+  
+  const durationEl = document.getElementById("hoerverstehen-total-duration");
+  if (durationEl) durationEl.textContent = "0:00";
+  
+  const progressBar = document.getElementById("hoerverstehen-progress");
+  if (progressBar) progressBar.value = 0;
+
+  // Dynamic seek button settings based on exercise ID
+  const jumpContainer = document.getElementById("hoerverstehen-jump-container");
+  if (jumpContainer) {
+    if (ex.id === "ohne_vitamin_b") {
+      jumpContainer.classList.remove("hidden");
+    } else {
+      jumpContainer.classList.add("hidden"); // hide for other exercises if they have no custom jump points
+    }
+  }
+
+  showScreen("hoerverstehen-play");
+}
+
+function renderHoerverstehenScreen() {
+  if (!activeHoerverstehenGame) return;
+  const ex = activeHoerverstehenGame;
+
+  // Set instruction
+  const instructionEl = document.getElementById("hoerverstehen-instruction-text");
+  if (instructionEl) instructionEl.textContent = ex.instruction;
+
+  // Header questions label
+  const qHeader = document.getElementById("hoerverstehen-questions-header");
+  if (qHeader) {
+    const qIds = ex.questions.map(q => q.id);
+    if (qIds.length > 0) {
+      qHeader.textContent = `Aufgaben ${Math.min(...qIds)}-${Math.max(...qIds)}`;
+    }
+  }
+
+  // Render questions cards list
+  const listContainer = document.getElementById("hoerverstehen-questions-list");
+  if (!listContainer) return;
+  listContainer.innerHTML = "";
+
+  ex.questions.forEach(q => {
+    const card = document.createElement("div");
+    card.className = "interactive-card";
+    card.style = "padding: 16px; border-radius: var(--border-radius-lg); border-left: 3px solid var(--theme-purple); background: var(--color-background-secondary); border-top: 1px solid var(--color-border-primary); border-right: 1px solid var(--color-border-primary); border-bottom: 1px solid var(--color-border-primary);";
+
+    const userAns = state.hoerverstehenAnswers[q.id];
+    const isRichtigSelected = userAns === "+";
+    const isFalschSelected = userAns === "-";
+
+    let rBtnClass = "hoerverstehen-option-btn";
+    let fBtnClass = "hoerverstehen-option-btn";
+
+    if (hoerverstehenSubmitted) {
+      if (q.correct === "+") {
+        rBtnClass += " correct";
+        if (isFalschSelected) fBtnClass += " incorrect";
+      } else {
+        fBtnClass += " correct";
+        if (isRichtigSelected) rBtnClass += " incorrect";
+      }
+    } else {
+      if (isRichtigSelected) rBtnClass += " selected";
+      if (isFalschSelected) fBtnClass += " selected";
+    }
+
+    let feedbackHtml = "";
+    if (hoerverstehenSubmitted) {
+      const isCorrect = userAns === q.correct;
+      if (isCorrect) {
+        feedbackHtml = `<div class="text-feedback-badge correct" style="margin-top: 10px;"><i class="ti ti-circle-check"></i> Doğru (Cevap: ${q.correct === "+" ? "Richtig" : "Falsch"})</div>`;
+      } else {
+        feedbackHtml = `<div class="text-feedback-badge incorrect" style="margin-top: 10px;"><i class="ti ti-circle-x"></i> Yanlış (Seçiminiz: ${userAns === "+" ? "Richtig" : (userAns === "-" ? "Falsch" : "Boş")}, Doğru: ${q.correct === "+" ? "Richtig" : "Falsch"})</div>`;
+      }
+    }
+
+    card.innerHTML = `
+      <div style="display:flex;align-items:flex-start;gap:10px;">
+        <span class="bubble-row-num" style="width:24px;height:24px;font-size:12px;flex-shrink:0;margin-top:2px;">${q.id}</span>
+        <span style="font-size:13px;font-weight:600;color:var(--color-text-primary);line-height:1.4;">${q.text}</span>
+      </div>
+      <div class="hoerverstehen-options-container">
+        <button class="${rBtnClass}" data-qid="${q.id}" data-val="+" ${hoerverstehenSubmitted ? 'disabled' : ''}>
+          <i class="ti ti-plus" style="font-size:13px;"></i> Richtig (+)
+        </button>
+        <button class="${fBtnClass}" data-qid="${q.id}" data-val="-" ${hoerverstehenSubmitted ? 'disabled' : ''}>
+          <i class="ti ti-minus" style="font-size:13px;"></i> Falsch (-)
+        </button>
+      </div>
+      ${feedbackHtml}
+    `;
+
+    // Listeners for choices if not submitted
+    if (!hoerverstehenSubmitted) {
+      card.querySelectorAll(".hoerverstehen-option-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          const qId = parseInt(btn.getAttribute("data-qid"));
+          const val = btn.getAttribute("data-val");
+          selectHoerverstehenAnswer(qId, val);
+        });
+      });
+    }
+
+    listContainer.appendChild(card);
+  });
+
+  // Footer button state
+  const submitBtn = document.getElementById("hoerverstehen-submit-btn");
+  if (submitBtn) {
+    if (hoerverstehenSubmitted) {
+      submitBtn.innerHTML = '<i class="ti ti-check"></i> Alıştırmayı Tamamla';
+      submitBtn.className = "c-teal";
+    } else {
+      submitBtn.innerHTML = '<i class="ti ti-send"></i> Cevapları Gönder';
+      submitBtn.className = "c-purple";
+    }
+  }
+}
+
+function selectHoerverstehenAnswer(qId, choice) {
+  if (hoerverstehenSubmitted) return;
+  if (state.hoerverstehenAnswers[qId] === choice) {
+    state.hoerverstehenAnswers[qId] = null; // deselect
+  } else {
+    state.hoerverstehenAnswers[qId] = choice;
+  }
+  saveStateLocally();
+  renderHoerverstehenScreen();
+}
+
+function submitHoerverstehen() {
+  if (!activeHoerverstehenGame || hoerverstehenSubmitted) return;
+  const ex = activeHoerverstehenGame;
+
+  let correctCount = 0;
+  const totalCount = ex.questions.length;
+
+  ex.questions.forEach(q => {
+    if (state.hoerverstehenAnswers[q.id] === q.correct) {
+      correctCount++;
+    }
+  });
+
+  hoerverstehenSubmitted = true;
+  state.xp += correctCount * 10;
+
+  // Record attempt in progress
+  let attempts = state.hoerverstehenProgress[ex.id] || [];
+  attempts.push({ score: correctCount * 10 });
+  if (attempts.length > 3) attempts.shift();
+  state.hoerverstehenProgress[ex.id] = attempts;
+
+  logActiveDay();
+  renderHoerverstehenScreen();
+}
 
 // Theme support
 function applyTheme() {
@@ -950,6 +1410,18 @@ function showScreen(screenId) {
     sprachbausteineTimerInterval = null;
   }
 
+  // Pause hoerverstehen audio if navigating away
+  if (screenId !== "hoerverstehen-play") {
+    const audioEl = document.getElementById("hoerverstehen-audio");
+    if (audioEl && !audioEl.paused) {
+      audioEl.pause();
+      const playIcon = document.getElementById("hoerverstehen-play-icon");
+      if (playIcon) {
+        playIcon.className = "ti ti-play";
+      }
+    }
+  }
+
   // Hide all screens
   document.querySelectorAll(".screen").forEach(s => s.classList.add("hidden"));
   
@@ -983,7 +1455,7 @@ function showScreen(screenId) {
   let navActiveId = screenId;
   if (screenId === "lesson" || screenId === "lesson-quiz") {
     navActiveId = "sitemap";
-  } else if (screenId === "flashcard-play" || screenId === "quiz" || screenId === "fillblanks-play" || screenId === "verben-prep-dashboard" || screenId === "verben-prep-quiz" || screenId === "leseverstehen-play" || screenId === "leseverstehen-dashboard" || screenId === "leseverstehen-parts" || screenId === "sprachbausteine-play" || screenId === "sprachbausteine-dashboard" || screenId === "sprachbausteine-parts" || screenId === "myvocab") {
+  } else if (screenId === "flashcard-play" || screenId === "quiz" || screenId === "fillblanks-play" || screenId === "verben-prep-dashboard" || screenId === "verben-prep-quiz" || screenId === "leseverstehen-play" || screenId === "leseverstehen-dashboard" || screenId === "leseverstehen-parts" || screenId === "sprachbausteine-play" || screenId === "sprachbausteine-dashboard" || screenId === "sprachbausteine-parts" || screenId === "hoerverstehen-play" || screenId === "hoerverstehen-dashboard" || screenId === "hoerverstehen-parts" || screenId === "myvocab") {
     navActiveId = "exercises";
   }
   const activeNav = document.querySelector(`.nav-item[data-screen="${navActiveId}"]`);
@@ -1012,6 +1484,10 @@ function showScreen(screenId) {
     renderSprachbausteineScreen();
   } else if (screenId === "sprachbausteine-dashboard") {
     renderSprachbausteineDashboard();
+  } else if (screenId === "hoerverstehen-dashboard") {
+    renderHoerverstehenDashboard();
+  } else if (screenId === "hoerverstehen-play") {
+    renderHoerverstehenScreen();
   } else if (screenId === "myvocab") {
     renderMyVocabScreen();
   }

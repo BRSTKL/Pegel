@@ -335,6 +335,18 @@
             <i class="ti ti-chevron-right" style="font-size:16px; color:var(--color-text-tertiary);" aria-hidden="true"></i>
           </div>
 
+          <!-- Hoerverstehen Launcher -->
+          <div class="interactive-card" id="launcher-hoerverstehen" style="border-radius: var(--border-radius-lg); padding: 16px; display:flex; align-items:center; gap: 14px;">
+            <div class="c-purple-bg" style="width:40px; height:40px; border-radius: var(--border-radius-md); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+              <i class="ti ti-headphones" style="font-size:20px;" aria-hidden="true"></i>
+            </div>
+            <div style="flex:1; min-width:0;">
+              <p style="font-size: 14px; font-weight: 600; margin:0;">Dinleme Anlama (Hörverstehen)</p>
+              <p class="ts" style="font-size: 11.5px; margin:2px 0 0;">Dinleme dosyalarını dinleyip doğru/yanlış sorularını çözün.</p>
+            </div>
+            <i class="ti ti-chevron-right" style="font-size:16px; color:var(--color-text-tertiary);" aria-hidden="true"></i>
+          </div>
+
           <!-- Kelimelerim Launcher -->
           <div class="interactive-card" id="launcher-myvocab" style="border-radius: var(--border-radius-lg); padding: 16px; display:flex; align-items:center; gap: 14px;">
             <div class="c-coral-bg" style="width:40px; height:40px; border-radius: var(--border-radius-md); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
@@ -872,6 +884,197 @@
         </div>
       </div>
 
+      <!-- ================= HÖRVERSTEHEN PARTS SELECTION SCREEN ================= -->
+      <div id="hoerverstehen-parts-screen" class="screen hidden" style="padding: 20px; height: 100%; display: flex; flex-direction: column;">
+        <!-- Header -->
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; flex-shrink: 0;">
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <button class="back-btn" data-target="exercises" style="background: none; border: none; font-size: 20px; color: var(--color-text-primary); cursor: pointer; display: flex; align-items: center; justify-content: center;">
+              <i class="ti ti-arrow-left"></i>
+            </button>
+            <h1 style="font-size: 16px; font-weight: 600; margin: 0;">Dinleme Anlama (Hörverstehen)</h1>
+          </div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 14px; flex: 1; overflow-y: auto; padding-bottom: 20px;">
+          <!-- Part 1 Launcher -->
+          <div class="interactive-card hoerverstehen-part-card" data-part="1" style="border-radius: var(--border-radius-lg); padding: 18px; display: flex; align-items: center; gap: 14px; cursor: pointer;">
+            <div class="c-purple-bg" style="width:40px; height:40px; border-radius: var(--border-radius-md); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+              <i class="ti ti-headphones" style="font-size:20px;" aria-hidden="true"></i>
+            </div>
+            <div style="flex:1; min-width:0;">
+              <p style="font-size: 14px; font-weight: 600; margin:0;">Hörverstehen · Teil 1</p>
+              <p class="ts" style="font-size: 11.5px; margin:2px 0 0;">Doğru (+) ve Yanlış (-) ifadeleri eşleştirme.</p>
+            </div>
+            <i class="ti ti-chevron-right" style="font-size:16px; color:var(--color-text-tertiary);" aria-hidden="true"></i>
+          </div>
+
+          <!-- Part 2 Launcher -->
+          <div class="interactive-card hoerverstehen-part-card" data-part="2" style="border-radius: var(--border-radius-lg); padding: 18px; display: flex; align-items: center; gap: 14px; cursor: pointer;">
+            <div class="c-coral-bg" style="width:40px; height:40px; border-radius: var(--border-radius-md); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+              <i class="ti ti-music" style="font-size:20px;" aria-hidden="true"></i>
+            </div>
+            <div style="flex:1; min-width:0;">
+              <p style="font-size: 14px; font-weight: 600; margin:0;">Hörverstehen · Teil 2</p>
+              <p class="ts" style="font-size: 11.5px; margin:2px 0 0;">Çoktan seçmeli dinleme soruları (Gelecekte eklenecek).</p>
+            </div>
+            <i class="ti ti-chevron-right" style="font-size:16px; color:var(--color-text-tertiary);" aria-hidden="true"></i>
+          </div>
+
+          <!-- Part 3 Launcher -->
+          <div class="interactive-card hoerverstehen-part-card" data-part="3" style="border-radius: var(--border-radius-lg); padding: 18px; display: flex; align-items: center; gap: 14px; cursor: pointer;">
+            <div class="c-teal-bg" style="width:40px; height:40px; border-radius: var(--border-radius-md); display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+              <i class="ti ti-volume" style="font-size:20px;" aria-hidden="true"></i>
+            </div>
+            <div style="flex:1; min-width:0;">
+              <p style="font-size: 14px; font-weight: 600; margin:0;">Hörverstehen · Teil 3</p>
+              <p class="ts" style="font-size: 11.5px; margin:2px 0 0;">Doğru (+) ve Yanlış (-) kısa konuşma alıştırmaları (Gelecekte eklenecek).</p>
+            </div>
+            <i class="ti ti-chevron-right" style="font-size:16px; color:var(--color-text-tertiary);" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- ================= HÖRVERSTEHEN DASHBOARD SCREEN ================= -->
+      <div id="hoerverstehen-dashboard-screen" class="screen hidden" style="padding: 20px; height: 100%; display: flex; flex-direction: column;">
+        <!-- Header -->
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 15px; flex-shrink: 0;">
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <button class="back-btn" data-target="hoerverstehen-parts" style="background: none; border: none; font-size: 20px; color: var(--color-text-primary); cursor: pointer; display: flex; align-items: center; justify-content: center;">
+              <i class="ti ti-arrow-left"></i>
+            </button>
+            <h1 style="font-size: 16px; font-weight: 600; margin: 0;" id="hoerverstehen-dashboard-title">Dinleme Anlama (Hörverstehen)</h1>
+          </div>
+        </div>
+
+        <!-- Progress stats -->
+        <div class="c-purple" style="padding: 14px; border-radius: var(--border-radius-lg); margin-bottom: 20px; flex-shrink: 0; background-color: var(--color-background-secondary); border: 1px solid var(--color-border-primary);">
+          <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom: 8px;">
+            <p class="t" style="font-size: 13px; font-weight: 600; margin:0;">Dinleme Alıştırmaları İlerlemesi</p>
+            <p class="t" style="font-size: 14px; font-weight: 600; margin:0;" id="hoerverstehen-progress-percent">0%</p>
+          </div>
+          <div style="height: 5px; background: var(--color-background-primary); border-radius: 99px; overflow:hidden; border: 1px solid var(--color-border-primary);">
+            <div id="hoerverstehen-progress-fill" style="width: 0%; height: 100%; background: var(--theme-purple); border-radius: 99px;"></div>
+          </div>
+          <div style="display:flex; justify-content:space-between; margin-top: 8px;">
+            <span class="ts" style="font-size: 11px;" id="hoerverstehen-progress-count">0/1 tamamlandı</span>
+          </div>
+        </div>
+
+        <!-- Scrollable list of cards -->
+        <div style="flex: 1; overflow-y: auto; padding-bottom: 20px;">
+          <div class="hoerverstehen-grid" id="hoerverstehen-cards-grid">
+            <!-- Cards loaded dynamically -->
+          </div>
+        </div>
+      </div>
+
+      <!-- ================= HÖRVERSTEHEN PLAY SCREEN ================= -->
+      <div id="hoerverstehen-play-screen" class="screen hidden" style="padding: 20px; height: 100%; display: flex; flex-direction: column;">
+        <!-- Header -->
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 15px; flex-shrink: 0;">
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <button class="back-btn" data-target="hoerverstehen-dashboard" style="background: none; border: none; font-size: 20px; color: var(--color-text-primary); cursor: pointer; display: flex; align-items: center; justify-content: center;">
+              <i class="ti ti-arrow-left"></i>
+            </button>
+            <h1 style="font-size: 15px; font-weight: 600; margin: 0;" id="hoerverstehen-play-title">Hörverstehen</h1>
+          </div>
+        </div>
+
+        <div style="flex: 1; display: flex; flex-direction: column; overflow-y: auto; padding-right: 4px; gap: 16px; padding-bottom: 20px;">
+          
+          <!-- Instructions Box -->
+          <div class="instruction-box" style="background: var(--color-background-secondary); border: 1px dashed var(--color-border-primary); border-radius: var(--border-radius-md); padding: 12px; display: flex; gap: 10px; align-items: flex-start;">
+            <i class="ti ti-info-circle" style="font-size: 18px; color: var(--theme-purple); flex-shrink: 0; margin-top: 2px;"></i>
+            <p style="font-size: 12.5px; margin: 0; line-height: 1.5; color: var(--color-text-secondary);" id="hoerverstehen-instruction-text">
+              <!-- Loaded dynamically -->
+            </p>
+          </div>
+
+          <!-- Tips Collapsible -->
+          <details class="tip-details" style="background: var(--color-background-secondary); border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-md); padding: 12px; font-size: 12px; color: var(--color-text-secondary);">
+            <summary style="font-weight: 600; cursor: pointer; display: flex; align-items: center; justify-content: space-between; outline: none; list-style: none; color: var(--color-text-primary);">
+              <span style="display: flex; align-items: center; gap: 6px;">
+                <i class="ti ti-help-circle" style="color: var(--theme-teal); font-size: 16px;"></i>
+                Nasıl Çözülür? (İpuçları)
+              </span>
+              <i class="ti ti-chevron-down" style="font-size: 14px; color: var(--color-text-tertiary);"></i>
+            </summary>
+            <div style="margin-top: 10px; line-height: 1.5; display: flex; flex-direction: column; gap: 8px;">
+              <p>1. Ses dosyasını başlatmadan önce <b>soruları (1-10)</b> hızlıca okuyun. Bu size dinleme sırasında neyi aramanız gerektiği konusunda ipucu verir.</p>
+              <p>2. Konuşmayı dinlerken anahtar kelimeleri ve ifadeleri yakalamaya çalışın.</p>
+              <p>3. Her ifadenin ses kaydına göre <b>Doğru (+)</b> ya da <b>Yanlış (-)</b> olduğuna karar verip ilgili butona tıklayın.</p>
+              <p>4. Ses dosyasını sınav formatına uygun olarak <b>iki kez</b> dinleyebilirsiniz.</p>
+            </div>
+          </details>
+
+          <!-- Hidden HTML5 Audio Element -->
+          <audio id="hoerverstehen-audio" style="display: none;"></audio>
+
+          <!-- Interactive Audio Player Box -->
+          <div class="hoerverstehen-audio-player-card" style="padding: 16px; border-radius: var(--border-radius-lg); background: var(--color-background-secondary); border: 1px solid var(--color-border-primary); display: flex; flex-direction: column; gap: 14px; box-shadow: var(--box-shadow-sm);">
+            
+            <div style="display: flex; align-items: center; gap: 14px;">
+              <!-- Large Purple Play/Pause Button -->
+              <button id="hoerverstehen-play-btn" style="width: 50px; height: 50px; border-radius: 50%; border: none; background: var(--theme-purple); color: white; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: transform 0.2s, background-color 0.2s; box-shadow: 0 4px 10px rgba(138, 43, 226, 0.3);">
+                <i class="ti ti-play" id="hoerverstehen-play-icon" style="font-size: 24px;"></i>
+              </button>
+
+              <!-- 10s Rewind Button -->
+              <button id="hoerverstehen-rewind-btn" style="width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--color-border-primary); background: var(--color-background-primary); color: var(--color-text-primary); display: flex; align-items: center; justify-content: center; cursor: pointer; transition: background-color 0.2s;">
+                <i class="ti ti-rotate-clockwise-2" style="font-size: 18px; transform: scaleX(-1);"></i>
+              </button>
+
+              <!-- Time Slider and Indicators -->
+              <div style="flex: 1; display: flex; flex-direction: column; gap: 4px;">
+                <div style="display: flex; justify-content: space-between; font-size: 11.5px; color: var(--color-text-secondary); font-weight: 500;">
+                  <span id="hoerverstehen-current-time">0:00</span>
+                  <span id="hoerverstehen-total-duration">0:00</span>
+                </div>
+                <input type="range" id="hoerverstehen-progress" min="0" max="100" value="0" style="width: 100%; height: 4px; border-radius: 99px; background: var(--color-border-primary); outline: none; cursor: pointer; accent-color: var(--theme-purple);">
+              </div>
+
+              <!-- Speed Control Selector -->
+              <div style="position: relative;">
+                <button id="hoerverstehen-speed-btn" style="padding: 6px 10px; border-radius: var(--border-radius-sm); border: 1px solid var(--color-border-primary); background: var(--color-background-primary); color: var(--color-text-primary); font-size: 12px; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 4px;">
+                  <span id="hoerverstehen-speed-label">1x</span>
+                  <i class="ti ti-chevron-down" style="font-size: 10px;"></i>
+                </button>
+                <div id="hoerverstehen-speed-menu" class="hidden" style="position: absolute; bottom: 100%; right: 0; margin-bottom: 6px; background: var(--color-background-secondary); border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-md); box-shadow: var(--box-shadow-md); z-index: 100; display: flex; flex-direction: column; width: 60px; overflow: hidden;">
+                  <button class="hoerverstehen-speed-option" data-speed="0.75" style="border: none; background: none; padding: 6px 10px; font-size: 11px; cursor: pointer; text-align: center; color: var(--color-text-primary);">0.75x</button>
+                  <button class="hoerverstehen-speed-option active" data-speed="1.0" style="border: none; background: none; padding: 6px 10px; font-size: 11px; cursor: pointer; text-align: center; color: var(--color-text-primary); font-weight: 600;">1x</button>
+                  <button class="hoerverstehen-speed-option" data-speed="1.25" style="border: none; background: none; padding: 6px 10px; font-size: 11px; cursor: pointer; text-align: center; color: var(--color-text-primary);">1.25x</button>
+                  <button class="hoerverstehen-speed-option" data-speed="1.5" style="border: none; background: none; padding: 6px 10px; font-size: 11px; cursor: pointer; text-align: center; color: var(--color-text-primary);">1.5x</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bottom: Seek / Section jump buttons -->
+            <div id="hoerverstehen-jump-container" style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; border-top: 1px solid var(--color-border-secondary); padding-top: 10px;">
+              <button class="hoerverstehen-seek-btn" data-time="70" style="padding: 6px 12px; border-radius: 99px; border: 1px solid var(--color-border-primary); background: var(--color-background-primary); color: var(--color-text-secondary); font-size: 11px; font-weight: 600; cursor: pointer; transition: all 0.2s;">Skip intro</button>
+              <button class="hoerverstehen-seek-btn" data-time="70" style="padding: 6px 12px; border-radius: 99px; border: 1px solid var(--color-border-primary); background: var(--color-background-primary); color: var(--color-text-secondary); font-size: 11px; font-weight: 600; cursor: pointer; transition: all 0.2s;">Conversation (1st)</button>
+              <button class="hoerverstehen-seek-btn" data-time="325" style="padding: 6px 12px; border-radius: 99px; border: 1px solid var(--color-border-primary); background: var(--color-background-primary); color: var(--color-text-secondary); font-size: 11px; font-weight: 600; cursor: pointer; transition: all 0.2s;">Repeat</button>
+              <button class="hoerverstehen-seek-btn" data-time="345" style="padding: 6px 12px; border-radius: 99px; border: 1px solid var(--color-border-primary); background: var(--color-background-primary); color: var(--color-text-secondary); font-size: 11px; font-weight: 600; cursor: pointer; transition: all 0.2s;">Conversation (2nd)</button>
+            </div>
+          </div>
+
+          <!-- Questions List Header -->
+          <p class="ts" style="font-size: 11.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin: 10px 0 0;" id="hoerverstehen-questions-header">QUESTIONS 46-55</p>
+
+          <!-- Questions Cards List Container -->
+          <div id="hoerverstehen-questions-list" style="display: flex; flex-direction: column; gap: 12px;">
+            <!-- Question items loaded dynamically -->
+          </div>
+
+          <!-- Play Screen Footer Buttons -->
+          <div style="margin-top: 10px;">
+            <button id="hoerverstehen-submit-btn" class="c-purple" style="width: 100%; border: none; padding: 12px; border-radius: var(--border-radius-md); font-size: 13.5px; font-weight: 600; cursor: pointer; color: var(--color-background-primary); display: flex; align-items: center; justify-content: center; gap: 6px;">
+              <i class="ti ti-send"></i> Cevapları Gönder
+            </button>
+          </div>
+        </div>
+      </div>
+
       <!-- ================= MY VOCABULARY SCREEN ================= -->
       <div id="myvocab-screen" class="screen hidden" style="padding: 20px; height: 100%; display: flex; flex-direction: column;">
         <!-- Header -->
@@ -1034,6 +1237,7 @@
   <script src="verben_prep_data.js?v=24"></script>
   <script src="leseverstehen_data.js?v=24"></script>
   <script src="sprachbausteine_data.js?v=24"></script>
+  <script src="hoerverstehen_data.js?v=24"></script>
   <script src="lesson_quizzes_data.js?v=24"></script>
   <script src="app.js?v=24"></script>
 </body>

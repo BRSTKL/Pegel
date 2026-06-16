@@ -1,0 +1,51 @@
+telc B1 - Hörenverstehen Teil 1
+
+Anweisung:
+Sie hören eine Analyse / Diskussion über den Wohnungsmarkt in Berlin.
+Lesen Sie zuerst die Aufgaben 1 bis 10. Sie haben dafür 60 Sekunden Zeit.
+Entscheiden Sie beim Hören, ob die Aussagen "Richtig" ((+) oder "Falsch" (-) sind.
+
+-------------------------------------------------------------------------------
+
+1. Die Wohnungssuche in Berlin ist für viele Familien eine extrem große Herausforderung.
+   [ ] Richtig (plus)      [ ] Falsch (minus)
+
+2. Familie Krause wohnt im Moment in einer Dreizimmerwohnung im Stadtteil Neukölln.
+   [ ] Richtig (plus)      [ ] Falsch (minus)
+
+3. Wenn eine neue Wohnungsanzeige online geht, melden sich oft innerhalb weniger Stunden über 100 Interessenten.
+   [ ] Richtig (plus)      [ ] Falsch (minus)
+
+4. Bei einer Wohnungsbesichtigung der Krauses standen die Menschen in einer langen Schlange bis auf die Straße.
+   [ ] Richtig (plus)      [ ] Falsch (minus)
+
+5. Um eine Chance auf dem Wohnungsmarkt zu haben, reichen Schnelligkeit und ein guter erster Eindruck völlig aus.
+   [ ] Richtig (plus)      [ ] Falsch (minus)
+
+6. Vermieter in Berlin verlangen bei Vertragsabschluss fast immer fünf Monatsmieten als Kaution.
+   [ ] Richtig (plus)      [ ] Falsch (minus)
+
+7. Weil die Suche im Internet erfolglos war, hat Familie Krause ihre Strategie geändert und nutzt nun persönliche Kontakte (Vitamin B).
+   [ ] Richtig (plus)      [ ] Falsch (minus)
+
+8. Ein Kollege von Herrn Krause hat der Familie eine sehr moderne Dreizimmerwohnung in Pankow empfohlen.
+   [ ] Richtig (plus)      [ ] Falsch (minus)
+
+9. Herr Krause meint im Nachhinein, dass sie viel früher mit der Wohnungssuche hätten beginnen sollen.
+   [ ] Richtig (plus)      [ ] Falsch (minus)
+
+10. Am Ende des Gesprächs wird betont, dass man heute für die Wohnungssuche in Berlin vor allem Ausdauer und ein gutes Netzwerk braucht.
+    [ ] Richtig (plus)      [ ] Falsch (minus)
+
+-------------------------------------------------------------------------------
+LÖSUNGSCHLÜSSEL (Cevap Anahtarı):
+1. Richtig  (+) -> (Konuşmanın başında Berlin'de ev bulmanın zorluğu vurgulanıyor.)
+2. Falsch   (-) -> (Şu an 3 değil, 2 odalı -Zweizimmerwohnung- bir evde yaşıyorlar.)
+3. Richtig  (+) -> (Anzeige online gittiğinde birkaç saatte 100'den fazla kişi başvuruyor deniyor.)
+4. Richtig  (+) -> (İnsanların sokaklara kadar kuyruk olduğu belirtiliyor.)
+5. Falsch   (-) -> (Sadece hızlı olmak yetmez; bürokratik belgeler ve Schufa da mükemmel olmalı.)
+6. Falsch   (-) -> (5 değil, 3 aylık kira bedeli -drei Monatsmieten- depoziro isteniyor.)
+7. Richtig  (+) -> (İnternet çıkmaz sokak olduğu için Vitamin B yöntemine geçtiler.)
+8. Falsch   (-) -> (Ev Pankow'da doğru ama "super modern" değil, aksine "nicht super modern" deniyor.)
+9. Richtig  (+) -> (Daha önce başlasaydık keşke dedikleri belirtiliyor.)
+10. Richtig (+) -> (Sonuç kısmında sabır/ausdauer ve network/kontakte vurgulanıyor.)

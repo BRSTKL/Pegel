@@ -2004,3 +2004,192 @@ body.is-native .app-container {
   background: var(--color-background-secondary);
   color: var(--color-text-primary);
 }
+
+/* ================= HÖRVERSTEHEN STYLES ================= */
+.hoerverstehen-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hoerverstehen-card {
+  background: var(--color-background-secondary);
+  border: 1px solid var(--color-border-primary);
+  border-radius: var(--border-radius-lg);
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: border-color var(--transition-fast) ease, background-color var(--transition-fast) ease, transform var(--transition-fast) ease;
+}
+
+.hoerverstehen-card:hover {
+  border-color: var(--color-text-tertiary);
+  background-color: var(--color-background-tertiary);
+  transform: translateY(-1px);
+}
+
+.hoerverstehen-card-icon-wrapper {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--border-radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.hoerverstehen-card-emoji {
+  font-size: 20px;
+  user-select: none;
+}
+
+.hoerverstehen-card-details {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.hoerverstehen-card-title {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hoerverstehen-card-attempts {
+  font-size: 11px;
+  color: var(--color-text-tertiary);
+  margin: 0;
+}
+
+.hoerverstehen-card-badges {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.hoerverstehen-badge-circle {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  font-size: 8px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  background-color: var(--color-background-tertiary);
+  border: 1px solid var(--color-border-primary);
+  color: var(--color-text-tertiary);
+}
+
+.hoerverstehen-badge-circle.score-high {
+  background-color: rgba(16, 185, 129, 0.15) !important;
+  color: #10b981 !important;
+  border-color: rgba(16, 185, 129, 0.25) !important;
+}
+
+.hoerverstehen-badge-circle.score-med {
+  background-color: rgba(234, 179, 8, 0.15) !important;
+  color: #eab308 !important;
+  border-color: rgba(234, 179, 8, 0.25) !important;
+}
+
+.hoerverstehen-badge-circle.score-low {
+  background-color: rgba(239, 68, 68, 0.15) !important;
+  color: #ef4444 !important;
+  border-color: rgba(239, 68, 68, 0.25) !important;
+}
+
+/* Audio Player Range Input override */
+#hoerverstehen-progress {
+  -webkit-appearance: none;
+  appearance: none;
+  background: var(--color-border-secondary);
+  height: 4px;
+  border-radius: 99px;
+  outline: none;
+}
+#hoerverstehen-progress::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--theme-purple);
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+#hoerverstehen-progress::-webkit-slider-thumb:hover {
+  transform: scale(1.25);
+}
+
+/* Option Toggle Buttons */
+.hoerverstehen-options-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.hoerverstehen-option-btn {
+  flex: 1;
+  padding: 10px;
+  border-radius: var(--border-radius-md);
+  border: 1px solid var(--color-border-primary);
+  background: var(--color-background-primary);
+  color: var(--color-text-secondary);
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  font-family: inherit;
+}
+
+.hoerverstehen-option-btn:hover {
+  background: var(--color-background-secondary);
+  color: var(--color-text-primary);
+  border-color: var(--color-text-tertiary);
+}
+
+.hoerverstehen-option-btn.selected {
+  background-color: rgba(138, 43, 226, 0.1) !important;
+  color: var(--theme-purple) !important;
+  border-color: var(--theme-purple) !important;
+  box-shadow: 0 0 8px rgba(138, 43, 226, 0.2);
+}
+
+.hoerverstehen-option-btn.correct {
+  background-color: var(--theme-teal-light) !important;
+  color: var(--theme-teal) !important;
+  border-color: var(--theme-teal) !important;
+}
+
+.hoerverstehen-option-btn.incorrect {
+  background-color: rgba(239, 68, 68, 0.12) !important;
+  color: var(--theme-coral) !important;
+  border-color: var(--theme-coral) !important;
+}
+
+.hoerverstehen-seek-btn:hover {
+  background: var(--color-background-secondary) !important;
+  color: var(--color-text-primary) !important;
+  border-color: var(--theme-purple) !important;
+}
+
+.hoerverstehen-seek-btn.active {
+  background: var(--theme-purple-light) !important;
+  color: var(--theme-purple) !important;
+  border-color: var(--theme-purple) !important;
+}
