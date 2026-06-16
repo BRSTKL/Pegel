@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx http-server www -o",
+    "android": "npx cap run android",
+    "ios": "npx cap run ios"
   },
   "keywords": [],
   "author": "",
