@@ -5,8 +5,8 @@
   "use strict";
 
   // TODO: Supabase projenizi oluşturduktan sonra bu iki değeri kendi projenize göre güncelleyin.
-  const SUPABASE_URL = ""; 
-  const SUPABASE_ANON_KEY = "";
+  const SUPABASE_URL = "https://helnovyenwqwegdoanfo.supabase.co"; 
+  const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhlbG5vdnllbndxd2VnZG9hbmZvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE2MTY4ODgsImV4cCI6MjA5NzE5Mjg4OH0.hDF_yF84eX5uCQDsm99WnN94i3Mp9BEYLIFPCKUm1sY";
 
   let supabaseClient = null;
 
