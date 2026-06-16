@@ -1455,9 +1455,16 @@ function speakGerman(text) {
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = 'de-DE';
     
-    // Try to select a German voice
+    // Try to select a German voice (Prefer Anna, then Enhanced/Premium, then any German voice)
     const voices = window.speechSynthesis.getVoices();
-    const deVoice = voices.find(v => v.lang.includes('de-') || v.lang.includes('DE'));
+    let deVoice = voices.find(v => v.lang.startsWith('de') && v.name.toLowerCase().includes('anna'));
+    if (!deVoice) {
+      deVoice = voices.find(v => v.lang.startsWith('de') && (v.name.toLowerCase().includes('enhanced') || v.name.toLowerCase().includes('premium')));
+    }
+    if (!deVoice) {
+      deVoice = voices.find(v => v.lang.startsWith('de') || v.lang.includes('DE'));
+    }
+    
     if (deVoice) {
       utterance.voice = deVoice;
     }
@@ -3312,8 +3319,17 @@ function speakGermanWord(word) {
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(word);
     utterance.lang = 'de-DE';
+    
+    // Try to select a German voice (Prefer Anna, then Enhanced/Premium, then any German voice)
     const voices = window.speechSynthesis.getVoices();
-    const deVoice = voices.find(v => v.lang.startsWith('de'));
+    let deVoice = voices.find(v => v.lang.startsWith('de') && v.name.toLowerCase().includes('anna'));
+    if (!deVoice) {
+      deVoice = voices.find(v => v.lang.startsWith('de') && (v.name.toLowerCase().includes('enhanced') || v.name.toLowerCase().includes('premium')));
+    }
+    if (!deVoice) {
+      deVoice = voices.find(v => v.lang.startsWith('de') || v.lang.includes('DE'));
+    }
+    
     if (deVoice) {
       utterance.voice = deVoice;
     }
