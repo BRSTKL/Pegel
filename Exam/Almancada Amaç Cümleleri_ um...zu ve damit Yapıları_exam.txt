@@ -1,0 +1,114 @@
+===========================================================================
+TELC B1 - SPEZIALTRAINING 34: FINALSÄTZE (UM...ZU & DAMIT)
+===========================================================================
+
+TEIL 1: SPRACHBAUSTEINE - MULTIPLE CHOICE
+Wählen Sie für jede Lücke (1-5) die richtige Option (a, b oder c).
+
+Betreff: Meine neuen Pläne im Büro und ein wichtiges Projekt!
+
+Liebe Marie,
+
+ich schreibe dir heute, weil sich in meinem Arbeitsalltag einiges verändert hat. Ich lerne seit drei Wochen sehr intensiv Python und SQL, (1) die komplexen Daten in unserem neuen Energieprojekt selbstständig analysieren zu können. Es macht mir wirklich großen Spaß!
+
+Mein Kollege Lucas unterstützt mich dabei. Er hat mir extra seine alten Unterlagen gegeben, (2) ich die Grundlagen der Programmierung schneller verstehe. Das ist eine riesige Hilfe für mich.
+
+Gestern hat unser Chef eine neue Software auf den Computern installiert. (3) die Berechnungen fehlerfrei laufen, hat er das System den ganzen Nachmittag lang getestet. Wir wollen schließlich keine Fehler machen.
+
+Ich versuche auch, jeden Tag pünktlich Feierabend zu machen, um abends noch etwas Sport (4) treiben. Wenn ich doch bloß mehr Freizeit hätte! Ich (5) mich freuen, bald von dir zu hören.
+
+Viele Grüße
+Laura
+
+1. 
+a) um
+b) damit
+c) weil
+
+2. 
+a) um
+b) damit
+c) zu
+
+3. 
+a) Damit
+b) Um
+c) Dass
+
+4. 
+a) zu
+b) für
+c) um
+
+5. 
+a) würde
+b) hätte
+c) wäre
+
+---------------------------------------------------------------------------
+
+TEIL 2: SPRACHBAUSTEINE - WORTLISTE
+Setzen Sie die passenden Wörter aus der Liste (a-j) in die Lücken (6-10) ein. 
+Achtung: Fünf Wörter bleiben übrig!
+
+Betreff: Erfolgreiche Schulungen und sportliche Aktivitäten
+
+Lieber Jonas,
+
+ich wollte dir kurz von unserer Woche in der Firma berichten. Unser Chef hat für das gesamte Team eine Schulung organisiert. Er hat einen Experten eingeladen, (6) wir die neuen Richtlinien für erneuerbare Energien genau kennenlernen. 
+
+(7) die Präsentation rechtzeitig fertig wird, haben alle Kollegen gestern flexibel länger gearbeitet. Es war anstrengend, ama her şey harika ortak bir amaç için.
+
+Ich nutze meine Freizeit im Moment auch sehr bewusst. Ich gehe dreimal pro Woche zum Training, (8) fit zu bleiben ve stresi azaltmak. Gestern habe ich mich mit Lucas getroffen, (9) eine Runde Padel-Tennis zu spielen.
+
+Wir freuen (10) schon alle riesig auf das nächste gemeinsame Treffen am Wochenende!
+
+Herzliche Grüße
+Lucas
+
+a) DAMIT
+b) UM
+c) ZU
+d) TREIBEN
+e) UNS
+f) SICH
+g) DIR
+h) MITEINANDER
+i) WÄRE
+j) WEIL
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL UND ERKLÄRUNGEN (CEVAP ANAHTARI)
+===========================================================================
+
+1. a) um
+-> Açıklama: "um...zu" (...mak/mek için) yapısıdır. Ana cümlenin öznesi de (ich), verileri analiz etmek isteyen kişi de (ich) aynıdır. Cümle başında amaç bildiren "um" yer alır, cümlenin sonunda ise "zu können" yapısı mevcuttur.
+
+2. b) damit
+-> Açıklama: "damit" (...sın diye) bağlacıdır. Ana cümlenin öznesi Lucas iken, yan cümlenin öznesi "ich" (ben) olarak değişmiştir. Özneler farklı olduğu için "um...zu" kullanılamaz, mecburen "damit" seçilmelidir.
+
+3. a) Damit
+-> Açıklama: "damit" bağlacının cümlenin en başına getirildiği senaryodur. "Hesaplamalar hatasız yürüsün diye..." anlamını kurar, fiili (laufen) en sona atar ve virgülden sonraki ana cümle mecburen çekimli fiille (hat) başlar.
+
+4. a) zu
+-> Açıklama: Mektup metninde önceden verilmiş olan "um abends noch etwas Sport..." yapısının devamıdır[cite: 20]. "Sport treiben" (spor yapmak) kalıbı, "um...zu" yapısı gereği en sondaki yalın eylemin önüne "zu" alarak "zu treiben" halini alır[cite: 20].
+
+5. a) würde
+-> Açıklama: "Ich würde mich freuen" mektupları kibarca ve son derece profesyonel bir şekilde sonlandırırken kullanılan kalıplaşmış bir Konjunktiv II dilek yapısıdır.
+
+6. a) DAMIT
+-> Açıklama: "damit" bağlacıdır[cite: 20]. Ana cümlenin öznesi patron (er) iken, yan cümlenin öznesi ekip (wir) olmuştur[cite: 20]. Bu özne farklılığından dolayı boşluğa sadece listedeki "DAMIT" kelimesi gelebilir[cite: 20].
+
+7. a) DAMIT
+-> Açıklama: Tıpkı Teil 1'deki 3. soruda olduğu gibi, amaç cümlesi en başa alınmıştır[cite: 20]. "Sunum zamanında yetişsin diye..." anlamını kurmak için listeden "DAMIT" seçilir ve virgülden sonra ana cümle doğrudan fiille (haben) başlar[cite: 20].
+
+8. b) UM
+-> Açıklama: "um...zu" kalıbıdır[cite: 20]. Spor yapmaya giden kişi de (ich), formda kalmak isteyen kişi de (ich) aynıdır[cite: 20]. Cümle sonundaki "zu bleiben" ipucunu tamamlamak için boşluğa listeden "UM" getirilmelidir[cite: 20].
+
+9. b) UM
+-> Açıklama: "um...zu" yapısıdır[cite: 20]. Lucas ile buluşma amacının "padel oynamak" olduğunu belirtir[cite: 20]. Özne ortak olduğu ve sonda "zu spielen" beklediği için boşluğu "UM" tamamlar[cite: 20].
+
+10. e) UNS
+-> Açıklama: Klasik "sich freuen auf" dönüşlü fiilinin "wir" öznesine göre karşılığıdır. Boşluğu listedeki "uns" tamamlar.
+
+(Teil 2 için boşa kalan tuzak kelimeler: c, d, f, g, h, i, j)

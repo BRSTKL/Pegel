@@ -1,0 +1,110 @@
+===========================================================================
+TELC B1 - SPEZIALTRAINING 14: ZUSTANDSPASSIV (DURUM EDİLGENİ)
+===========================================================================
+
+TEIL 1: SPRACHBAUSTEINE - MULTIPLE CHOICE
+Wählen Sie für jede Lücke (1-5) die richtige Option (a, b oder c).
+
+Betreff: Endlich Einzug in die neue Wohnung!
+
+Liebe Marie,
+
+ich schreibe dir glücklich aus meiner neuen Wohnung. Der ganze Umzugsstress liegt hinter mir. Als ich heute Morgen ankam, war alles perfekt vorbereitet: Die Haustür (1) bereits geöffnet und alle Umzugskartons standen im Flur. 
+
+Gestern war noch viel zu tun, aber jetzt ist die Arbeit geschafft. Die Wände (2) frisch gestrichen und der neue Mietvertrag ist von beiden Seiten (3). Alles ist offiziell und bezugsfertig!
+
+Ein kleiner Erfolg im Badezimmer: Das kaputte Waschbecken (4) endlich repariert. Ich muss mich heute Abend nicht mehr beeilen und kann mich einfach entspannen. Ich hoffe, wir (5) uns bald wieder privat.
+
+Viele Grüße
+Laura
+
+1. 
+a) wird
+b) ist
+c) sind
+
+2. 
+a) ist
+b) sind
+c) werden
+
+3. 
+a) unterschrieben
+b) unterschreiben
+c) unterschreibt
+
+4. 
+a) wird
+b) ist
+c) sind
+
+5. 
+a) sehen
+b) trefft
+c) hören
+
+---------------------------------------------------------------------------
+
+TEIL 2: SPRACHBAUSTEINE - WORTLISTE
+Setzen Sie die passenden Wörter aus der Liste (a-j) in die Lücken (6-10) ein. 
+Achtung: Fünf Wörter bleiben übrig!
+
+Betreff: Das Buffet für das große Sommerfest steht!
+
+Lieber Jonas,
+
+ich stehe gerade im großen Festzelt auf dem Marktplatz und schaue mir das fertige Buffet an. Die Vorbereitungen sind komplett abgeschlossen und das Essen sieht fantastisch aus. 
+
+Die Tische sind wunderschön dekoriert und die Suppe steht bereit. Auch die Kartoffeln für den Salat (6) schon fleißig geschält und kochen im Topf. Die Einladungen (7) natürlich alle schon vor Tagen verschickt. Es ist alles fertig, wir warten nur noch auf die Gäste.
+
+Sogar das Haupttor zum Festgelände (8) bereits weit geöffnet. Da das Wetter herrlich ist, steht einem tollen Abend nichts im Wege. Ich hoffe, (9) alles reibungslos läuft. Wir freuen (10) schon riesig auf das Fest!
+
+Herzliche Grüße
+Lucas
+
+a) SIND
+b) IST
+c) WIRD
+d) WERDEN
+e) UNS
+f) SICH
+g) DIR
+h) MITEINANDER
+i) DASS
+j) WEIL
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL UND ERKLÄRUNGEN (CEVAP ANAHTARI)
+===========================================================================
+
+1. b) ist
+-> Açıklama: "Die Haustür" tekil bir öznedir (sie). Kapının açılma eylemi çoktan bitmiş ve geriye "açık olma durumu" kalmıştır. Bu yüzden durum edilgeni yardımcı fiili olan "ist" gelir.
+
+2. b) sind
+-> Açıklama: "Die Wände" (Duvarlar) çoğul bir öznedir. Boyama aksiyonu tamamlanmış, geriye duvarların "boyanmış/boyalı durumu" kalmıştır. Çoğul özneye uygun durum edilgeni yardımcısı "sind" doğru seçenektir.
+
+3. a) unterschrieben
+-> Açıklama: Cümlenin başında "ist" yardımcı fiili bulunmaktadır. Mektup veya sözleşme gibi somut bir değişiklik bırakan fiillerle Zustandspassiv kurulur[cite: 14]. Boşluğa "unterschreiben" fiilinin üçüncü hali (Partizip II) olan "unterschrieben" (imzalanmış durumda) gelmelidir[cite: 14].
+
+4. b) ist
+-> Açıklama: "Das Waschbecken" tekildir. Tamir edilme süreci bitmiş, artık çalışır ve "tamir edilmiş durumda" olduğu vurgulandığı için "ist" yardımcı fiili kullanılır[cite: 14].
+
+5. a) sehen
+-> Açıklama: "Wir" öznesine uygun karşılıklı fiil çekimidir. "Wir sehen uns bald" (Yakında görüşürüz) kalıbı mektubu kapatmak için yerleşir.
+
+6. a) SIND
+-> Açıklama: "Die Kartoffeln" çoğul bir öznedir[cite: 14]. Soyulma eylemi bitmiş ve patatesler soyulmuş duruma gelmiştir[cite: 14]. Çoğul durum edilgeni yapısı için listeden "sind" seçilir[cite: 14].
+
+7. a) SIND
+-> Açıklama: "Die Einladungen" (Davetiyeler) çoğul öznedir. Gönderilme aksiyonu gün öncesinden bittiği ve davetiyeler "gönderilmiş/postalanmış durumda" olduğu için boşluğa "sind" gelir[cite: 14].
+
+8. b) IST
+-> Açıklama: "Das Haupttor" (Ana kapı) tekil öznedir (es). Kapının açık vaziyetteki mevcut son durumu aktarıldığı için "ist" kelimesi seçilmelidir[cite: 14].
+
+9. i) DASS
+-> Açıklama: "Ich hoffe, dass..." yapısıdır. Nesne yan cümlesi kuran ve çekimli fiili sona atan "dass" bağlacı boşluğu tamamlar.
+
+10. e) UNS
+-> Açıklama: Klasik "sich freuen auf" dönüşlü fiilinin "wir" öznesine göre karşılığıdır. Boşluğu listedeki "uns" tamamlar.
+
+(Teil 2 için boşa kalan tuzak kelimeler: c, d, f, g, h, j)

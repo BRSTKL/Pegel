@@ -1,0 +1,116 @@
+===========================================================================
+TELC B1 - SPEZIALTRAINING 36: SATZTEILVERNEINUNG MIT "NICHT ... SONDERN"
+===========================================================================
+
+TEIL 1: SPRACHBAUSTEINE - MULTIPLE CHOICE
+Wählen Sie für jede Lücke (1-5) die richtige Option (a, b oder c).
+
+Betreff: Missverständnisse bei der Urlaubsplanung im Büro!
+
+Liebe Marie,
+
+ich muss dir von einem großen Chaos gestern bei unserer Urlaubsplanung im Büro berichten. Mein Kollege Lucas und ich wollten eigentlich gemeinsam ein paar Tage frei nehmen, aber alles wurde komplett missverstanden. 
+
+Zuerst hieß es, Lucas wolle im Sommer verreisen. Er klärte den Chef aber sofort auf: „(1) ich möchte in diesem Sommer Urlaub machen, sondern Laura. Ich bleibe im Büro.“
+
+Dann gab es Verwirrung um den Zeitraum. Der Chef dachte, ich wolle im August gehen. Aber ich fliege (2) im August weg, sondern schon im Juli, weil die Flüge da günstiger sind. 
+
+Am schlimmsten war das Missverständnis über die Aktivitäten. Lucas dachte, ben tatilde sadece dinlenmek istiyorum. Aber ich möchte im Urlaub nicht nur faul am Strand liegen, (3) aktiv surfen gehen! Wenn ich doch bloß mehr Freizeit (4), würde ich sofort die Koffer packen. Ich (5) mich freuen, bald von dir zu hören.
+
+Viele Grüße
+Laura
+
+1. 
+a) Nicht
+b) Nein
+c) Kein
+
+2. 
+a) kein
+b) nicht
+c) sondern
+
+3. 
+a) aber
+b) weil
+c) sondern
+
+4. 
+a) hätte
+b) wäre
+c) würde
+
+5. 
+a) würde
+b) hätte
+c) wäre
+
+---------------------------------------------------------------------------
+
+TEIL 2: SPRACHBAUSTEINE - WORTLISTE
+Setzen Sie die passenden Wörter aus der Liste (a-j) in die Lücken (6-10) ein. 
+Achtung: Fünf Wörter bleiben übrig!
+
+Betreff: Die Wahrheit über unser neues Projekt!
+
+Lieber Jonas,
+
+ich wollte dir kurz die Wahrheit über die Veränderungen an unserem neuen Energieprojekt erzählen, da neulich im Team viele Gerüchte entstanden sind. 
+
+Zuerst hieß es, das Projekt sei gestoppt worden. Das stimmt überhaupt nicht. Wir mussten (6) das Projekt absagen, sondern nur den Abgabetermin ein bisschen verschieben. Wir arbeiten motiviert weiter.
+
+Es gab auch Unklarheiten über die Zuständigkeiten. (7) Maximilian hat die Tabellenkalkulationen vorbereitet, sondern Felix hat die ganze Arbeit mit SQL und Python gemacht. 
+
+Felix hat sich auch bei der Präsentation umentschieden. Er möchte morgen (8) über die Windkraft sprechen, sondern eine Präsentation über Solarenergie halten, da er sich damit besser auskennt.
+
+Momentan arbeiten wir alle sehr hart. Wenn das Wetter am kommenden Sonntag schöner (9), könnten wir uns mal wieder treffen. Wir freuen (10) schon alle riesig auf das Wiedersehen!
+
+Herzliche Grüße
+Lucas
+
+a) NICHT
+b) SONDERN
+c) IHM
+d) WÄRE
+e) UNS
+f) SICH
+g) DIR
+h) MITEINANDER
+i) DASS
+j) WEIL
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL UND ERKLÄRUNGEN (CEVAP ANAHTARI)
+===========================================================================
+
+1. a) Nicht
+-> Açıklama: Sadece cümlenin bir bölümünü (burada özneyi/kişiyi) olumsuz yapma (*Satzteilverneinung*) kuralıdır. "Ben değil, Laura gitmek istiyor" anlamında doğrudan "ich" öznesinin önüne "Nicht" kelimesi getirilir ve "sondern" ile alternatif sunulur.
+
+2. b) nicht
+-> Açıklama: Zaman detayını olumsuz yapma durumudur. "Ağustos'ta değil, Temmuz'da" demek için "nicht" kelimesi doğrudan reddedilen zaman zarfının ("in diesem Sommer/im August") önüne yapışır.
+
+3. c) sondern
+-> Açıklama: "nicht nur ... sondern auch" veya klasik "nicht ... sondern" dengesidir. Cümlenin ilk kısmında "nicht" ile yapılan bölgesel olumsuzlamayı, "aksine/onun yerine" anlamıyla düzelten ve alternatifi başlatan bağlaç "sondern" kelimesidir.
+
+4. a) hätte
+-> Açıklama: "Wenn ich doch bloß..." ile kurulan şimdiki zaman hayal cümlesidir. "Daha çok boş zamana sahip olsaydım" anlamında sahiplik bildirildiği için Konjunktiv II formundaki "hätte" doğru çekimdir.
+
+5. a) würde
+-> Açıklama: "Ich würde mich freuen" mektupları son derece nazik, kibar ve profesyonel bir şekilde kapatırken kullanılan kalıplaşmış bir Konjunktiv II yapısıdır.
+
+6. a) NICHT
+-> Açıklama: Eylemi/durumu kısmen olumsuz yapma durumudur. "Projeyi iptal etmedik, aksine tarihini erteledik" yapısını kurmak için, iptal etme eyleminin önüne listeden "NICHT" kelimesi getirilir.
+
+7. a) NICHT
+-> Açıklama: Kişiyi/özneyi inkar etme kalıbıdır. "Maximilian yapmadı, aksine Felix yaptı" vurgusunu sağlamak için ismin hemen önüne listedeki "NICHT" yerleşir.
+
+8. a) NICHT
+-> Açıklama: Hakkında konuşulacak konuyu (nesneyi) reddetme durumudur. "Rüzgar enerjisi hakkında değil, güneş enerjisi hakkında" alternatifi kurulduğu için edat grubunun hemen önüne "NICHT" kelimesi yapışır.
+
+9. d) WÄRE
+-> Açıklama: "Wenn das Wetter... schöner wäre" (Keşke hava daha güzel olsaydı) şimdiki zaman hayal cümlesidir. "es" (das Wetter) öznesine göre "wäre" fiili en sona gider.
+
+10. e) UNS
+-> Açıklama: Klasik "sich freuen auf" dönüşlü fiilinin "wir" öznesine göre karşılığıdır. Boşluğu listedeki "uns" tamamlar.
+
+(Teil 2 için boşa kalan tuzak kelimeler: b, c, f, g, h, i, j)

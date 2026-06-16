@@ -1,0 +1,112 @@
+===========================================================================
+TELC B1 - SPEZIALTRAINING 37: DIE POSITION VON "NICHT" IM SATZ
+===========================================================================
+
+TEIL 1: SPRACHBAUSTEINE - MULTIPLE CHOICE
+Wählen Sie für jede Lücke (1-5) die richtige Option (a, b oder c).
+
+Betreff: Ein anstrengender Bürotag mit vielen Hindernissen!
+
+Liebe Marie,
+
+ich muss dir von meinem gestrigen Arbeitstag berichten, an dem leider fast nichts nach Plan lief. Ich hatte so viele komplexe Tabellenkalkulationen auf dem Tisch, aber wegen des Systemabsturzes konnte ich gestern einfach (1) arbeiten. 
+
+Ich wollte eigentlich am Nachmittag mit Lucas das neue Energieprojekt besprechen. Aber da er dringend zu einem Kunden fahren musste, kann er morgen (2) kommen. Wir müssen das Meeting verschieben.
+
+Wegen des ganzen Stresses fühle ich mich heute auch nicht besonders fit. Ich gehe heute Abend auf keinen Fall (3) spazieren, sondern lege mich direkt ins Bett. Wenn ich doch bloß mehr Freizeit hätte! Ich (4) mich freuen, bald (5) dir zu hören.
+
+Viele Grüße
+Laura
+
+1. 
+a) nicht
+b) kein
+c) sondern
+
+2. 
+a) nicht
+b) kein
+c) nie
+
+3. 
+a) nicht
+b) kein
+c) sondern
+
+4. 
+a) würde
+b) hätte
+c) wäre
+
+5. 
+a) von
+b) mit
+c) über
+
+---------------------------------------------------------------------------
+
+TEIL 2: SPRACHBAUSTEINE - WORTLISTE
+Setzen Sie die passenden Wörter aus der Liste (a-j) in die Lücken (6-10) ein. 
+Achtung: Fünf Wörter bleiben übrig!
+
+Betreff: Missverständnisse im Büro und neue Pläne
+
+Lieber Jonas,
+
+ich wollte dir kurz von meiner Woche in la firma berichten. Gestern gab es ein großes Missverständnis mit dem neuen Praktikanten. Er dachte, das neue Software-Programm sei sehr teuer. Ich habe ihm direkt erklärt: „Dieses Programm ist (6) teuer, wir können es problemlos bestellen.“
+
+Danach gab es Unklarheiten über meinen Wohnort, da der Chef mir Dokumente per Post schicken wollte. Ich wohne (7) in diesem Haus, das neben dem Büro steht, sondern zwei Straßen weiter. 
+
+Zum Glück läuft es heute ruhiger. Ich bin (8) gestern gekommen, sondern heute Morgen, um die restlichen Daten mit Python und SQL zu sortieren. 
+
+Wenn das Wetter am kommenden Sonntag schöner (9), könnten wir uns mal wieder treffen. Wir freuen (10) schon alle riesig auf das Wiedersehen!
+
+Herzliche Grüße
+Lucas
+
+a) NICHT
+b) SONDERN
+c) IHM
+d) WÄRE
+e) UNS
+f) SICH
+g) DIR
+h) MITEINANDER
+i) DASS
+j) WEIL
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL UND ERKLÄRUNGEN (CEVAP ANAHTARI)
+===========================================================================
+
+1. a) nicht
+-> Açıklama: "Gestern habe ich nicht gearbeitet" (Dün çalışmadım) kuralıdır. Geçmiş zaman eylemi (*Partizip II: gearbeitet*) cümlenin sonunda yer aldığında, "nicht" en sona gidemez; kuralı bozan bu istisna nedeniyle "gearbeitet" kelimesinin hemen önüne yerleşir.
+
+2. a) nicht
+-> Açıklama: Cümlede "kann... kommen" şeklinde ikinci bir fiil (esas fiil yalın halde) bulunmaktadır. İkinci bir fiilin varlığı "nicht" kelimesinin en sona gitmesini engeller; bu yüzden "nicht" doğrudan "kommen" fiilinin önüne oturur.
+
+3. a) nicht
+-> Açıklama: "spazieren gehen" (yürüyüşe çıkmak) ayrılabilen bir yapı gibi davranır. "nicht" kelimesi, cümlenin en sonundaki ayrılabilen eylemin/eklerin (*spazieren*) hemen önüne gelmek zorundadır.
+
+4. a) würde
+-> Açıklama: "Ich würde mich freuen" mektupları son derece nazik ve profesyonel bir şekilde sonlandırırken kullanılan kalıplaşmış bir Konjunktiv II dilek yapısıdır.
+
+5. a) von
+-> Açıklama: "hören von jemandem" (birinden haber almak) kalıplaşmış edat yapısıdır. Mektup kapanışında "von dir" şeklinde tamamlanır.
+
+6. a) NICHT
+-> Açıklama: Sıfatların önünde olumsuzlama yapma kuralıdır. "teuer" (pahalı) sıfatını olumsuz yapmak için "nicht" kelimesi doğrudan sıfatın önüne yerleşir. Listeden "NICHT" seçilir.
+
+7. a) NICHT
+-> Açıklama: Edatların veya yer bildiren ifadelerin önünde konumlanma kuralıdır. "in diesem Haus" edat grubunu olumsuz yapmak ve ardından "sondern" ile alternatifi sunmak için "nicht" doğrudan edatın önüne yapışır.
+
+8. a) NICHT
+-> Açıklama: Sadece bir parçayı/detayı olumsuz yapma (*Satzteil negieren*) kuralıdır. Zaman detayını ("gestern") inkar edip doğrusunu belirtmek için "nicht" kelimesi doğrudan o kelimenin önüne gelir.
+
+9. d) WÄRE
+-> Açıklama: "Wenn das Wetter... schöner wäre" (Keşke hava daha güzel olsaydı) şimdiki zaman hayal cümlesidir. "es" (das Wetter) öznesine göre "wäre" fiil en sona gider.
+
+10. e) UNS
+-> Açıklama: Klasik "sich freuen auf" dönüşlü fiilinin "wir" öznesine göre karşılığıdır. Boşluğu listedeki "uns" tamamlar.
+
+(Teil 2 için boşa kalan tuzak kelimeler: b, c, f, g, h, i, j)

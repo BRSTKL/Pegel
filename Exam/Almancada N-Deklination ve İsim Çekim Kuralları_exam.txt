@@ -1,0 +1,114 @@
+===========================================================================
+TELC B1 - SPEZIALTRAINING 24: N-DEKLINATION - ENDUNGEN -ANT, -ENT, -IST
+===========================================================================
+
+TEIL 1: SPRACHBAUSTEINE - MULTIPLE CHOICE
+Wählen Sie für jede Lücke (1-5) die richtige Option (a, b oder c).
+
+Betreff: Aufregende Wochen in der neuen Firma!
+
+Liebe Marie,
+
+ich muss dir unbedingt von meinen ersten Wochen im neuen Büro berichten. Es gibt viele neue Gesichter hier. In unserer Abteilung arbeitet seit Kurzem ein sehr netter (1). Er macht seine Aufgaben wirklich großartig und lernt sehr schnell.
+
+Gestern gab es auf der Straße vor unserem Gebäude einen kleinen Unfall. Ich musste deshalb lange mit einem (2) sprechen, um den Vorfall genau zu erklären. Zum Glück ist niemand schwer verletzt worden. 
+
+Am Nachmittag hatten wir dann Besuch von einem Experten. Unser Chef hat sich lange mit dem bekannten (3) über die Statik des neuen Energieprojekts unterhalten. Es war ein sehr produktiver Tag!
+
+Wenn ben daha çok boş zamana (4), würde ich am Wochenende mal wieder einen Ausflug machen. Ich (5) mich freuen, bald von dir zu hören.
+
+Viele Grüße
+Laura
+
+1. 
+a) Praktikant
+b) Praktikanten
+c) Praktikantes
+
+2. 
+a) Polizist
+b) Polizisten
+c) Polizistens
+
+3. 
+a) Architekt
+b) Architekten
+c) Architektes
+
+4. 
+a) hätte
+b) wäre
+c) würde
+
+5. 
+a) würde
+b) hätte
+c) wäre
+
+---------------------------------------------------------------------------
+
+TEIL 2: SPRACHBAUSTEINE - WORTLISTE
+Setzen Sie die passenden Wörter aus der Liste (a-j) in die Lücken (6-10) ein. 
+Achtung: Fünf Wörter bleiben übrig!
+
+Betreff: Neuigkeiten aus der Universität und dem Alltag
+
+Lieber Jonas,
+
+ich wollte dir kurz von meiner Woche an der Universität berichten. In meinem neuen Kurs gibt es viele internationale Teilnehmer. Gestern habe ich mich in der Pause lange mit einem neuen (6) aus Spanien unterhalten. Er ist sehr nett.
+
+Nach den Vorlekungen gab es eine kleine Diskussion auf dem Campus. Ein Professor hat intensiv mit einem jungen (7) über die neuen Umweltprojekte gesprochen. Es ging darum, wie man biologische Daten besser auswerten kann.
+
+Auf dem Heimweg hatte ich noch ein kleines Problem mit meinem Fahrrad. Ein freundlicher Passant hat mir geholfen. Es stellte sich heraus, dass er als (8) bei der Stadt arbeitet. Er hat die Situation schnell gelöst.
+
+Wenn das Wetter am kommenden Sonntag schöner (9), könnten wir uns mal wieder treffen. Wir freuen (10) schon alle riesig auf das Wiedersehen!
+
+Herzliche Grüße
+Lucas
+
+a) STUDENTEN
+b) BIOLOGEN
+c) POLIZIST
+d) WÄRE
+e) UNS
+f) SICH
+g) DIR
+h) MITEINANDER
+i) DASS
+j) WEIL
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL UND ERKLÄRUNGEN (CEVAP ANAHTARI)
+===========================================================================
+
+1. a) Praktikant
+-> Açıklama: Cümlede "ein sehr netter..." ifadesi Yalın Hal (Nominativ) konumundadır. N-Çekimi kuralına tabi olan kelimeler Nominativ durumundayken sonlarına asla ek almazlar, yalın kalırlar. Bu yüzden "Praktikant" doğru cevaptır.
+
+2. b) Polizisten
+-> Açıklama: "mit" edatı her zaman Dativ bir nesne gerektirir. "der Polizist" kelimesi sonu "-ist" ile biten maskülen bir isim olduğu için N-Çekimi kuralına tabidir. Dativ koltuğuna oturduğunda sonuna "-en" takısı alarak "mit einem Polizisten" şekline dönüşür.
+
+3. b) Architekten
+-> Açıklama: "mit" edatından dolayı kelime Dativ halindedir. "der Architekt" Yunanca/yabancı kökenli maskülen bir kelimedir ve N-Çekimine tabidir. Dativ durumunda sonuna "-en" takısı alarak "mit dem bekannten Architekten" olur.
+
+4. a) hätte
+-> Açıklama: "Wenn ich... hätte" (Eğer sahip olsaydım) yapısıyla kurulan şimdiki zaman hayal cümlesidir. "Mehr Freizeit" (daha çok boş zaman) bir sahiplik bildirdiği için Konjunktiv II formundaki "hätte" doğru çekimdir.
+
+5. a) würde
+-> Açıklama: "Ich würde mich freuen" mektupları son derece kibar bir şekilde kapatırken kullanılan kalıplaşmış bir Konjunktiv II dilek yapısıdır.
+
+6. a) STUDENTEN
+-> Açıklama: "mit" edatının Dativ zorunluluğu vardır. "der Student" sonu "-ent" ile biten maskülen bir kelime olarak N-Çekimi kuralına tabidir[cite: 20]. Dativ durumunda sonuna "-en" takısı alarak listedeki "STUDENTEN" kelimesiyle tamamlanır[cite: 20].
+
+7. b) BIOLOGEN
+-> Açıklama: "mit" edatından dolayı Dativ halidir. "der Biologe" Yunanca kökenli, sonu "-e" ile biten maskülen bir kelimedir ve N-Çekimine tabidir[cite: 20]. Dativ koltuğunda sonuna "-n" takısı alarak boşluğa "BIOLOGEN" yerleşir[cite: 20].
+
+8. c) POLIZIST
+-> Açıklama: "als" (olarak) bağlacından sonra meslek grupları Yalın Halde (Nominativ) kullanılır ve artikelsiz gelir. Kelime Yalın Halde olduğu için N-Çekimi eki almaz[cite: 20]; sözlükteki gibi sabit kalarak listeden "POLIZIST" olarak seçilir[cite: 20].
+
+9. d) WÄRE
+-> Açıklama: "Wenn das Wetter... schöner wäre" (Keşke hava daha güzel olsaydı) şimdiki zaman hayal cümlesidir. "es" (das Wetter) öznesine göre "wäre" cümlenin en sonuna gider.
+
+10. e) UNS
+-> Açıklama: Klasik "sich freuen auf" dönüşlü fiilinin "wir" öznesine göre karşılığıdır. Boşluğu listedeki "uns" tamamlar.
+
+(Teil 2 için boşa kalan tuzak kelimeler: f, g, h, i, j)

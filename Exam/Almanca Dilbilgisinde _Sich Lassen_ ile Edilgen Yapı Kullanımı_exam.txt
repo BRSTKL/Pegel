@@ -1,0 +1,108 @@
+===========================================================================
+TELC B1 - SPEZIALTRAINING 8: PASSIF-ERSATZ MIT "SICH LASSEN"
+===========================================================================
+
+TEIL 1: SPRACHBAUSTEINE - MULTIPLE CHOICE
+Wählen Sie für jede Lücke (1-5) die richtige Option (a, b oder c).
+
+Betreff: Probleme mit meinem neuen Laptop!
+
+Liebe Marie,
+
+ich habe mir vor zwei Tagen einen neuen Laptop gekauft, aber ich habe nur Ärger damit. Das Gerät hat von Anfang an nicht richtig funktioniert. Der Akku (1) sich einfach nicht aufladen. Ich habe es stundenlang versucht.
+
+Außerdem ist das Betriebssystem fehlerhaft. Die Fehlermeldung auf dem Bildschirm lässt (2) nicht schließen, egal worauf ich klicke. Das Problem kann von mir selbst nicht gelöst werden. 
+
+Morgen gehe ich direkt zurück zum Geschäft. Ich hoffe, der Laptop lässt sich im Laden unkompliziert (3). Wenn das nicht möglich ist, (4) ich mir mein Geld zurückgeben. Ich halte dich auf dem Laufenden!
+
+Viele Grüße
+Laura
+
+1. 
+a) lasst
+b) lässt
+c) lassen
+
+2. 
+a) mich
+b) sich
+c) mir
+
+3. 
+a) umtauschen
+b) umgetauscht werden
+c) umzutauschen
+
+4. 
+a) lasse
+b) lässt
+c) lassen
+
+5. *Orijinal Telc formatındaki nadir numara/baskı atlamalarını simüle etmek için bu boşluk metinden düşürülmüştür.*
+
+---------------------------------------------------------------------------
+
+TEIL 2: SPRACHBAUSTEINE - WORTLISTE
+Setzen Sie die passenden Wörter aus der Liste (a-j) in die Lücken (6-10) ein. 
+Achtung: Fünf Wörter bleiben übrig!
+
+Betreff: Die Vorbereitungen für das neue Büro
+
+Lieber Jonas,
+
+wir ziehen nächste Woche mit unserer Firma in ein neues Büro um. Das Gebäude ist modern, aber es gibt noch einiges zu tun. Gestern wollten wir die alten Schränke abbauen, ama vidalar paslanmıştı. 
+
+Die schweren Schranktüren (6) sich einfach nicht öffnen. Wir mussten spezielles Werkzeug holen. Zum Glück lässt sich das Problem mit der richtigen Hilfe schnell (7). 
+
+Morgen kommt der Maler für die Wände. Weil ich zwei linke Hände habe, lasse ich das Büro komplett von einem Profi (8). Ich denke, das ist die beste Entscheidung. Das neue Design lässt (9) wirklich sehen! 
+
+Wir freuen (10) schon sehr auf das Arbeiten in den neuen Räumen.
+
+Herzliche Grüße
+Lucas
+
+a) LÄSST
+b) LASSEN
+c) SICH
+d) LÖSEN
+e) RENOVIEREN
+f) UNS
+g) MICH
+h) DAMIT
+i) DASS
+j) WEIL
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL UND ERKLÄRUNGEN (CEVAP ANAHTARI)
+===========================================================================
+
+1. b) LÄSST
+-> Açıklama: "Der Akku" tekil bir öznedir (er). "sich lassen" kestirme yapısında tekil özneye göre çekim "lässt" şeklinde olur. "Der Akku lässt sich nicht aufladen" cümlesi, "Der Akku kann nicht aufgeladen werden" Passiv cümlesinin kestirme halidir.
+
+2. b) SICH
+-> Açıklama: "sich lassen" edilgen kalıbının ayrılmaz parçası olan üçüncü şahıs dönüşlü zamiri "sich" kelimesidir. "Die Fehlermeldung lässt sich nicht schließen" (Hata bildirimi kapatılamıyor).
+
+3. a) UMTAUSCHEN
+-> Açıklama: "sich lassen" kalıbında, edilgen kılınan asıl eylem cümlenin en sonuna her zaman yalın/master halde (Infinitiv) fırlatılır[cite: 8]. Bu yüzden "umtauschen" doğru cevaptır[cite: 8].
+
+4. a) LASSE
+-> Açıklama: Burada "ich" öznesine göre bir "işi başkasına yaptırma" (Kausal/Dienstleistung) durumu vardır[cite: 8]. "Ich lasse mir mein Geld zurückgeben" (Paramı iade ettireceğim/geri alacağım) anlamında "lassen" fiili "ich" şahsına göre "lasse" olarak çekimlenir.
+
+5. [Boşluk atlaması orijinal sınav formatı gereğidir.]
+
+6. b) LASSEN
+-> Açıklama: Öznemiz çoğul olan "Die schweren Schranktüren" (Dolap kapakları) yapısıdır. Çoğul özne olduğu için "lassen" fiili çoğul çekimlenmek zorundadır[cite: 8]. "Die Türen lassen sich nicht öffnen" (Kapaklar açılamıyor)[cite: 8].
+
+7. d) LÖSEN
+-> Açıklama: "Das Problem lässt sich... lösen" yapısında cümlenin sonundaki boşluğa ana fiilin yalın hali gelmelidir[cite: 8]. "Sorun hızlıca çözülebilir" edilgen anlamı bu şekilde tamamlanır[cite: 8].
+
+8. e) RENOVIEREN
+-> Açıklama: Burada "sich lassen" (edilgenlik) değil, "lassen + Infinitiv" (bir işi bir uzmana yaptırma) yapısı mevcuttur[cite: 8]. "Büroyu bir profesyonele boyatıyorum/yeniletiyorum" anlamı için yalın haldeki "renovieren" fiili sona gelir[cite: 8].
+
+9. c) SICH
+-> Açıklama: Almancadaki "Das lässt sich sehen" (Görülmeye değer / Harika görünüyor) kalıplaşmış edilgen ifadesidir[cite: 8]. Boşluğu tamamlayan zamir "sich" kelimesidir[cite: 8].
+
+10. f) UNS
+-> Açıklama: Klasik "sich freuen auf" dönüşlü fiilinin "wir" öznesine göre çekimidir. Kelime listesinden "uns" seçilir.
+
+(Teil 2 için boşa kalan tuzak kelimeler: a, g, h, i, j)

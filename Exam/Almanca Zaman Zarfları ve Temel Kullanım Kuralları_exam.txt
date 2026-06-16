@@ -1,0 +1,114 @@
+===========================================================================
+TELC B1 - SPEZIALTRAINING 35: TEMPORALADVERBIEN UND INVERSION
+===========================================================================
+
+TEIL 1: SPRACHBAUSTEINE - MULTIPLE CHOICE
+Wählen Sie für jede Lücke (1-5) die richtige Option (a, b oder c).
+
+Betreff: Meine Arbeitswoche und spannende Pläne für das Wochenende!
+
+Liebe Marie,
+
+ich hoffe, es geht dir gut. Ich muss dir unbedingt von meiner aktuellen Woche im Büro berichten, da sich zeitlich einiges verändert hat. (1) arbeite ich an einem sehr komplexen Energieprojekt, das mich ziemlich fordert. 
+
+Die Vorbereitungen laufen auf Hochtouren. (2) war ich noch sehr gestresst wegen der Tabellenkalkulationen, aber zum Glück habe ich die Daten mit Python und SQL inzwischen fehlerfrei sortiert. 
+
+Morgen haben wir die finale Präsentation vor den Kunden. Ich bin gut vorbereitet. (3) werden wir hoffentlich erfahren, ob der Chef mit unseren Ergebnissen zufrieden ist. Nach dem Meeting werde ich mich erst einmal ausruhen. 
+
+Wenn ich doch bloß mehr Freizeit hätte! Ich (4) mich freuen, bald (5) dir zu hören.
+
+Viele Grüße
+Laura
+
+1. 
+a) Momentan
+b) Gestern
+c) Nachher
+
+2. 
+a) Morgen
+b) Neulich
+c) Heutzutage
+
+3. 
+a) Damals
+b) Vorhin
+c) Später
+
+4. 
+a) würde
+b) hätte
+c) wäre
+
+5. 
+a) von
+b) mit
+c) über
+
+---------------------------------------------------------------------------
+
+TEIL 2: SPRACHBAUSTEINE - WORTLISTE
+Setzen Sie die passenden Wörter aus der Liste (a-j) in die Lücken (6-10) ein. 
+Achtung: Fünf Wörter bleiben übrig!
+
+Betreff: Neuigkeiten aus der Firma ve yeni düzenlemeler
+
+Lieber Jonas,
+
+ich wollte dir kurz berichten, was sich bei mir in den letzten Tagen getan hat. In unserer Firma ändern sich die Arbeitszeiten. (6) müssen wir flexibler arbeiten, da viele Projekte international ablaufen. Das ist manchmal anstrengend.
+
+Gestern gab es eine lange Besprechung. (7) hat uns der Chef die neuen Richtlinien für erneuerbare Energien erklärt. Wir haben danach direkt mit der Umsetzung begonnen.
+
+Das Projekt ist fast fertig. (8) werden wir die Daten in das System einpflegen, damit alles rechtzeitig bereit ist. Ich bin optimistisch, dass wir das schaffen.
+
+Um den Kopf freizubekommen, gehe ich heute Abend zum Sport. Ich bleibe fit, indem ich wöchentlich eine Runde Padel-Tennis spiele. Wenn das Wetter am kommenden Sonntag schöner (9), könnten wir uns mal wieder treffen. Wir freuen (10) schon alle riesig auf das Wiedersehen!
+
+Herzliche Grüße
+Lucas
+
+a) HEUTZUTAGE
+b) GESTERN
+c) NACHHER
+d) WÄRE
+e) UNS
+f) SICH
+g) DIR
+h) MITEINANDER
+i) BALD
+j) WEIL
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL UND ERKLÄRUNGEN (CEVAP ANAHTARI)
+===========================================================================
+
+1. a) Momentan
+-> Açıklama: "momentan" (şu sıralar) şimdiki zamanı (Gegenwart) ifade eden bir zarftır. Cümle başında yer aldığı için meşhur "Inversion" kuralı tetiklenmiş ve fiil (arbeite) özneden (ich) önce gelerek 2. sıradaki yerini korumuştur.
+
+2. b) Neulich
+-> Açıklama: "neulich" (geçenlerde) geçmiş zamanı (Vergangenheit) niteleyen bir zarftır. Cümlenin devamındaki geçmiş zaman vurgusu ve "Inversion" yapısı (war ich...) nedeniyle şıklardaki tek geçmiş zaman seçeneği olan "Neulich" doğru cevaptır.
+
+3. c) Später
+-> Açıklama: "später" (daha sonra) gelecek zaman dilimine (Zukunft) atıfta bulunan bir zarftır. Toplantıdan "sonrasına" işaret ettiği ve cümlenin yapısını (werden wir...) kurduğu için buraya en uygun kelimedir.
+
+4. a) würde
+-> Açıklama: "Ich würde mich freuen" mektupları kibarca ve profesyonel bir şekilde sonlandırırken kullanılan kalıplaşmış bir Konjunktiv II dilek yapısıdır.
+
+5. a) von
+-> Açıklama: "hören von jemandem" (birinden haber almak) kalıplaşmış edat kalıbıdır. Mektup kapanışında "von dir" şeklinde tamamlanır.
+
+6. a) HEUTZUTAGE
+-> Açıklama: "heutzutage" (günümüzde) içinde bulunduğumuz çağı ve şimdiki zamanı anlatan bir zarftır. Cümle başında yer aldığı için fiil (müssen) özneden (wir) önce gelerek devrik yapı oluşturmuştur. Listeden "HEUTZUTAGE" seçilir.
+
+7. b) GESTERN
+-> Açıklama: "gestern" (dün) geçmişe atıfta bulunan klasik bir zaman zarfıdır[cite: 20]. Cümle başındaki boşluktan sonra fiilin geçmiş zaman çekimi (hat uns...) yer aldığı için listeden "GESTERN" kelimesi getirilir ve devrik kural tamamlanır[cite: 20].
+
+8. c) NACHHER
+-> Açıklama: "nachher" (ardından / sonrasında) gelecek zaman dilimini besleyen bir kelimedir[cite: 20]. "Gelecekte/birazdan verileri sisteme gireceğiz" planını kurmak üzere listeden "NACHHER" kelimesi seçilerek cümle başına yerleştirilir[cite: 20].
+
+9. d) WÄRE
+-> Açıklama: "Wenn das Wetter... schöner wäre" (Keşke hava daha güzel olsaydı) şimdiki zaman hayal cümlesidir. "es" (das Wetter) öznesine göre "wäre" fiili en sona gider.
+
+10. e) UNS
+-> Açıklama: Klasik "sich freuen auf" dönüşlü fiilinin "wir" öznesine göre karşılığıdır. Boşluğu listedeki "uns" tamamlar.
+
+(Teil 2 için boşa kalan tuzak kelimeler: f, g, h, i, j)

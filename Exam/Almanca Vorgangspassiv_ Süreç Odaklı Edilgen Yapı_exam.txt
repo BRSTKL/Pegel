@@ -1,0 +1,110 @@
+===========================================================================
+TELC B1 - SPEZIALTRAINING 13: VORGANGSPASSIV (SÜREÇ EDİLGENİ)
+===========================================================================
+
+TEIL 1: SPRACHBAUSTEINE - MULTIPLE CHOICE
+Wählen Sie für jede Lücke (1-5) die richtige Option (a, b oder c).
+
+Betreff: Große Renovierung in unserer Sprachschule!
+
+Liebe Marie,
+
+ich schreibe dir heute aus unserer Sprachschule, aber hier herrscht gerade großes Chaos. Das gesamte Gebäude (1) momentan komplett renoviert. Überall sind Handwerker und es ist unglaublich laut.
+
+Im Erdgeschoss gibt es die größten Veränderungen: Die Wände (2) von den Malern frisch gestrichen und neue Fenster werden eingesetzt. Weil die alten Türen kaputt waren, (3) sie heute durch neue Modelle ersetzt. Man kann der Veränderung quasi live zuschauen!
+
+Sogar unsere Kaffeemaschine in der Pause ist weg. Uns wurde gesagt, dass sie im Moment in einer Werkstatt (4). Ich hoffe sehr, dass die Arbeiten bis nächste Woche (5) werden. 
+
+Viele Grüße
+Laura
+
+1. 
+a) wird
+b) werden
+c) ist
+
+2. 
+a) wird
+b) werden
+c) sind
+
+3. 
+a) wird
+b) werden
+c) wurden
+
+4. 
+a) repariert wird
+b) repariert werden
+c) repariert ist
+
+5. 
+a) abgeschlossen
+b) abschließen
+c) schließt
+
+---------------------------------------------------------------------------
+
+TEIL 2: SPRACHBAUSTEINE - WORTLISTE
+Setzen Sie die passenden Wörter aus der Liste (a-j) in die Lücken (6-10) ein. 
+Achtung: Fünf Wörter bleiben übrig!
+
+Betreff: Vorbereitungen für das große Stadtfest
+
+Lieber Jonas,
+
+ich muss dir von den Vorbereitungen für das große Stadtfest am Wochenende erzählen. Auf dem Marktplatz herrscht seit heute Morgen Hochbetrieb, denn die große Bühne (6) gerade von den Technikern aufgebaut. 
+
+Auch für das Essen ist gesorgt: In den großen Zelten (7) schon fleißig die Kartoffeln für den Salat geschält. Überall packen die Leute mit an. Die Einladungen an die Bürger wurden schon vor Wochen verschickt, und die Plakate (8) überall in der Stadt aufgehängt, um Werbung zu machen.
+
+Weil das Fest so groß ist, darf nichts schiefgehen. Ich hoffe, dass alle Vorbereitungen rechtzeitig beendet (9). Wir freuen (10) schon alle riesig auf dieses Event!
+
+Herzliche Grüße
+Lucas
+
+a) WIRD
+b) WERDEN
+c) WERDE
+d) GESCHÄLT
+e) UNS
+f) SICH
+g) DIR
+h) MITEINANDER
+i) DASS
+j) WEIL
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL UND ERKLÄRUNGEN (CEVAP ANAHTARI)
+===========================================================================
+
+1. a) wird
+-> Açıklama: "Das gesamte Gebäude" (Tüm bina) üçüncü tekil şahıstır (es). Süreç şu an devam ettiği için (Vorgangspassiv) "werden" fiili üçüncü tekil şahsa göre "wird" olarak çekimlenir.
+
+2. b) werden
+-> Açıklama: "Die Wände" (Duvarlar) çoğul bir öznedir (sie). Canlı yayın modu eylemi devam ettirdiği için çoğul özneye uygun olarak "werden" yardımcı fiili getirilmelidir. Duvarlar boyanıyor.
+
+3. b) werden
+-> Açıklama: "sie" (eski kapılar - çoğul) öznesine göre şimdiki zamanda bir edilgen süreç anlatılmaktadır. "Heute" (bugün) ifadesi eylemin şu an yapıldığını pekiştirir, bu yüzden çoğul "werden" doğru cevaptır.
+
+4. a) repariert wird
+-> Açıklama: "dass" yan cümle bağlacı kullanılmıştır. Yan cümlelerde edilgen yapının yardımcı fiili (`wird/werden`) çekimlenerek cümlenin en sonuna gider. Makine şu an tamir edildiği için "repariert wird" yapısı kurulur[cite: 13].
+
+5. a) abgeschlossen
+-> Açıklama: Cümlenin sonunda edilgen yapının "werden" yardımcı fiili halihazırda bulunmaktadır. Boşluğa asıl fiilin üçüncü hali (Partizip II) olan "abgeschlossen" (tamamlanmak) gelmelidir[cite: 13].
+
+6. a) WIRD
+-> Açıklama: "Die große Bühne" (Büyük sahne) tekil bir öznedir (sie). Sahne şu an kurulma aşamasında olduğu için Vorgangspassiv kalıbı tekil çekimle "wird" şeklinde tamamlanır[cite: 13].
+
+7. b) WERDEN
+-> Açıklama: "Die Kartoffeln" (Patatesler) çoğul öznedir[cite: 13]. Harıl harıl patateslerin soyulma süreci devam ettiği için boşluğa çoğul edilgen yardımcı fiili olan "werden" oturur[cite: 13].
+
+8. b) WERDEN
+-> Açıklama: "Die Plakate" (Afişler) çoğul öznedir. Afişlerin şu an şehirde asılma aksiyonu ve süreci vurgulandığı için listeden "werden" seçilir[cite: 13].
+
+9. b) WERDEN
+-> Açıklama: "dass" bağlacıyla kurulan bir yan cümledir. "Alle Vorbereitungen" (Tüm hazırlıklar) çoğul özne olduğu için, cümlenin en sonundaki edilgenlik yardımcısı çoğul çekimlenerek "werden" halini alır[cite: 13].
+
+10. e) UNS
+-> Açıklama: Klasik "sich freuen auf" dönüşlü fiilinin "wir" öznesine göre karşılığıdır. Kelime listesinden "uns" seçilerek alıştırma tamamlanır.
+
+(Teil 2 için boşa kalan tuzak kelimeler: c, d, f, g, h, i, j)
