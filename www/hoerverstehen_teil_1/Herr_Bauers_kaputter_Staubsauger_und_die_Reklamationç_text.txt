@@ -1,0 +1,46 @@
+===========================================================================
+TELC B1 - HÖREN TEIL 1: SPEZIALTRAINING (REKLAMATION IM GESCHÄFT)
+===========================================================================
+
+ANWEISUNG:
+Sie hören eine Analyse im Radio über eine Reklamation. Lesen Sie zuerst 
+die Sätze 1 bis 5. Sie haben dazu 30 Sekunden Zeit. Hören Sie dann den Text. 
+Kreuzen Sie für jede Aufgabe die richtige Lösung an: (r) for Richtig oder (f) for Falsch.
+
+---------------------------------------------------------------------------
+AUFGABEN (SORULAR)
+---------------------------------------------------------------------------
+
+1. Herr Bauer konnte seinen Staubsauger nicht im Geschäft umtauschen, weil er die Quittung zu Hause vergessen hatte.
+   [ r ] Richtig      [ f ] Falsch
+
+2. Da Herr Bauer erst nach mehr als zwei Wochen in den Laden ging, konnte er sein Geld nicht zurückbekommen.
+   [ r ] Richtig      [ f ] Falsch
+
+3. In der Reparaturabteilung musste Herr Bauer eine halbe Stunde warten, bis er mit einem Mitarbeiter sprechen konnte.
+   [ r ] Richtig      [ f ] Falsch
+
+4. Für das kostenlose Ersatzgerät musste Herr Bauer im Geschäft ein spezielles Formular unterschreiben.
+   [ r ] Richtig      [ f ] Falsch
+
+5. Am Ende der Geschichte hat Herr Bauer beschlossen, seine Rechnungen in Zukunft sorgfältiger aufzubewahren.
+   [ r ] Richtig      [ f ] Falsch
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL UND DETAYLI AÇIKLAMALAR (CEVAP ANAHTARI)
+===========================================================================
+
+1. [ f ] Falsch
+-> Açıklama: Metne dikkat edilirse, Herr Bauer mağazaya giderken yanına faturasını (Rechnung) alarak "doğru olan şeyi" yapmıştır. Cihazı umutlaştıramamasının ya da parasını alamamasının sebebi faturayı unutması değil, 14 günlük yasal süreyi aşmış olmasıdır. Sınavlarda sıkça yapılan bir "sebep-sonuç" tuzağıdır.
+
+2. [ r ] Richtig
+-> Açıklama: Kasadaki görevli kadının açıkladığı kurala göre, cihazı değiştirmek veya parayı geri almak için 14 gün süre vardır. Herr Bauer iki haftadan daha uzun bir süre sonra (nach mehr als zwei Wochen) geldiği için para iadesi kuralı onun için artık geçerli değildir. Bu yüzden önerme doğrudur.
+
+3. [ r ] Richtig
+-> Açıklama: Konuşma metninde tam olarak bu detay geçmektedir: "Zuerst muss er fast eine halbe Stunde warten." (İlk olarak neredeyse yarım saat beklemek zorunda kaldı). Bu yüzden cevap Richtig'dir.
+
+4. [ f ] Falsch
+-> Açıklama: Metindeki en ince çeldiricilerden biridir. Konuşmacı açıkça şöyle diyor: "Herr Bauer muss dafür nicht einmal eine zusätzliche Schrift leisten. Das geht alles ganz automatisch." (Herr Bauer bunun için ek bir imza/yazılı belge bile vermek zorunda kalmadı. Her şey tamamen otomatik ilerledi). Soru kökündeki "Formular unterschreiben" ifadesi bu yüzden metinle çelişmektedir.
+
+5. [ r ] Richtig
+-> Açıklama: Hikayenin ana fikri ve Herr Bauer'in çıkardığı ders tam olarak budur. Gelecekte daha hızlı çözüm bulabilmek adına faturalarını ve garanti belgelerini her zaman çok daha iyi saklamak (besser aufbewahren) istemektedir.

@@ -1,0 +1,46 @@
+===========================================================================
+TELC B1 - HÖREN TEIL 1: SPEZIALTRAINING (AUTOZULASSUNG UND BEHÖRDENKRISEN)
+===========================================================================
+
+ANWEISUNG:
+Sie hören eine Analyse im Radio über ein Problem bei der Autozulassung. Lesen Sie 
+zuerst die Sätze 1 bis 5. Sie haben dazu 30 Sekunden Zeit. Hören Sie dann den Text. 
+Kreuzen Sie für jede Aufgabe die richtige Lösung an: (r) für Richtig oder (f) für Falsch.
+
+---------------------------------------------------------------------------
+AUFGABEN (SORULAR)
+---------------------------------------------------------------------------
+
+1. Die Behörde konnte Frau Marinova vorab nicht per E-Mail informieren, weil der zentrale Server für Termine und E-Mails abgestürzt war.
+   [ r ] Richtig      [ f ] Falsch
+
+2. Frau Marinova hat sich am Telefon beschwert, weil ihr so ein Vorfall bei dieser Behörde zum ersten Mal passiert ist.
+   [ r ] Richtig      [ f ] Falsch
+
+3. Der Beamte am Telefon hat Frau Marinova einen neuen Expresstermin für denselben Nachmittag angeboten.
+   [ r ] Richtig      [ f ] Falsch
+
+4. Um zur Arbeit fahren zu können, erhielt Frau Marinova eine kostenlose, temporäre Ausnahmegenehmigung per E-Mail.
+   [ r ] Richtig      [ f ] Falsch
+
+5. Am Ende musste Frau Marinova aufgrund des guten Services die reguläre Anmeldegebühr doppelt bezahlen.
+   [ r ] Richtig      [ f ] Falsch
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL UND DETAYLI AÇIKLAMALAR (CEVAP ANAHTARI)
+===========================================================================
+
+1. [ r ] Richtig
+-> Açıklama: Konuşmacı teknik arka planı net bir şekilde açıklıyor: Randevu sistemi ile e-posta sistemi aynı merkezi sunucuda (zentralen Server) yer aldığı için sunucu çöktüğünde sistem tamamen "kör ve sağır" kalmış, bu yüzden önceden bilgi verilememiştir. Önermedeki gerekçe metne tamamen uygundur.
+
+2. [ f ] Falsch
+-> Açıklama: Metne dikkat edilirse, Frau Marinova bunun kendisi için bir ilk olmadığını açıkça belirtiyor: „Das ist schon das zweite Mal, dass einen Termin ohne Information ausfällt.“ (Bir randevunun bilgilendirme yapılmadan iptal olmasının ikinci kez başına geldiğini söylüyor). Bu yüzden "zum ersten Mal" (ilk kez) ifadesi yanlıştır.
+
+3. [ f ] Falsch
+-> Açıklama: Klasik bir Telc zaman zarfı tuzağıdır. Telefondaki memur ona aynı günün öğleden sonrası için değil, "für die nächste Woche" (gelecek hafta için) yeni bir ekspres randevu sözü vermiştir.
+
+4. [ r ] Richtig
+-> Açıklama: Metinde açıkça belirtildiği üzere, arabanın işe gidiş gelişte acilen kullanılması gerektiği için memur insani inisiyatifini kullanmış ve kadına geçici, ücretsiz bir istisnai izin belgesini (temporäre Ausnahmegenehmigung) e-posta ile hemen göndermiştir.
+
+5. [ f ] Falsch
+-> Açıklama: Metindeki finansal telafi detayıyla tamamen çelişen bir önermedir. Memur, yaşanan tüm bu aksiliklerin ve stresin bir telafisi (Entschädigung) olarak Frau Marinova'dan normalde alınması gereken tescil ücretini almayacağını ("die spätere Gebühr für die Anmeldung nicht bezahlen") söylemiştir. Ücretin iki katı ödenmesi söz konusu değildir.

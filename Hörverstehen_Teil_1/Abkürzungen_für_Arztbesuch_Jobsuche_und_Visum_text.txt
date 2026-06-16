@@ -1,0 +1,46 @@
+===========================================================================
+TELC B1 - HÖREN TEIL 1: SPEZIALTRAINING (ALLTAG IN DEUTSCHLAND)
+===========================================================================
+
+ANWEISUNG:
+Sie hören eine Analyse im Radio. Lesen Sie zuerst die Sätze 1 bis 5. 
+Sie haben dazu 30 Sekunden Zeit. Hören Sie dann den Text. 
+Kreuzen Sie für jede Aufgabe die richtige Lösung an: (r) für Richtig oder (f) für Falsch.
+
+---------------------------------------------------------------------------
+AUFGABEN (SORULAR)
+---------------------------------------------------------------------------
+
+1. Herr Schmidt hat von seiner Hausärztin den Rat bekommen, sich bei verschiedenen Ärzten auf die Warteliste setzen zu lassen.
+   [ r ] Richtig      [ f ] Falsch
+
+2. Lena hat ihre neue Arbeitsstelle im Marketing über ein offizielles Internetportal gefunden.
+   [ r ] Richtig      [ f ] Falsch
+
+3. Da Frau Yilmaz acht Monate auf ihren Termin warten muss, ist ihr Aufenthalt in Deutschland im Moment illegal.
+   [ r ] Richtig      [ f ] Falsch
+
+4. Ohne die Hilfe einer Beratungsstelle hätte Frau Yilmaz ihre geplante Dienstreise ins Ausland wahrscheinlich absagen müssen.
+   [ r ] Richtig      [ f ] Falsch
+
+5. Die Sprecher sind der Meinung, dass man in Deutschland mit Geduld allein alle bürokratischen Probleme problemlos lösen kann.
+   [ r ] Richtig      [ f ] Falsch
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL UND DETAYLI AÇIKLAMALAR (CEVAP ANAHTARI)
+===========================================================================
+
+1. [ f ] Falsch
+-> Açıklama: Metne çok dikkat edilmelidir. Bu tavsiyeyi Herr Schmidt'e "Hausärztin" (kadın pratisyen hekim) vermemiştir. Telefonu sürekli meşgul olduğu için ona ulaşamamış, daha sonra ulaştığı başka bir doktor (der Arzt) bu organizasyonel tavsiyeyi vermiştir. Küçük kelime oyunlarına dayalı klasik bir Telc tuzağıdır.
+
+2. [ f ] Falsch
+-> Açıklama: Lena internet portalları üzerinden yaklaşık 20 başvuru yapmış ama başarısız olmuştur. İşini internetten değil, bizzat katıldığı bir "Netzwerking" (Ağ kurma/tanışma) etkinliğinde edindiği kişisel bir temas sayesinde bulmuştur.
+
+3. [ f ] Falsch
+-> Açıklama: Metinde geçen "Fiktionswirkung" kavramına göre, Frau Yilmaz başvurusunu resmi olarak önceden yaptığı için yasal olarak (legal) ülkede kalmaya devam edebilir. Yani kalışı yasa dışı (illegal) değildir.
+
+4. [ r ] Richtig
+-> Açıklama: Konuşmada açıkça belirtildiği üzere, Frau Yilmaz yeni kartı olmadan yurt dışına çıkamayacağını düşünüyordu. Ancak danışman kadının ona verdiği özel seyahat belgesi (Bescheinigung) tüyosu sayesinde seyahatini iptal etmekten kurtulmuştur.
+
+5. [ f ] Falsch
+-> Açıklama: Konuşmacılar analizin sonunda net bir ortak karara varıyorlar: Almanya'da sadece sabırlı olmak (Geduld allein) yetmez; kişisel bağlantılar, aktif bir çevre ve iyi bir danışmanlık şarttır.

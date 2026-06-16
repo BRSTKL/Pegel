@@ -1,0 +1,46 @@
+===========================================================================
+TELC B1 - HÖREN TEIL 1: SPEZIALTRAINING (INTERNETANSCHLUSS UND KUNDENSERVICE)
+===========================================================================
+
+ANWEISUNG:
+Sie hören eine Analyse im Radio über einen Kundenservice-Bericht. Lesen Sie zuerst 
+die Sätze 1 bis 5. Sie haben dazu 30 Sekunden Zeit. Hören Sie dann den Text. 
+Kreuzen Sie für jede Aufgabe die richtige Lösung an: (r) für Richtig oder (f) für Falsch.
+
+---------------------------------------------------------------------------
+AUFGABEN (SORULAR)
+---------------------------------------------------------------------------
+
+1. Frau Petrowa wurde von der Internetfirma am Montagmorgen per SMS darüber informiert, dass der Technikertermin verschoben ist.
+   [ r ] Richtig      [ f ] Falsch
+
+2. Das Problem mit dem ausfallenden Technikertermin ist Frau Petrowa bei dieser Firma nicht zum ersten Mal passiert.
+   [ r ] Richtig      [ f ] Falsch
+
+3. Der mobile Router, den die Firma per Expresspost geschickt hat, war für Frau Petrowa mit zusätzlichen Kosten verbunden.
+   [ r ] Richtig      [ f ] Falsch
+
+4. Ein mobiler Router bietet laut der Analyse eine genauso stabile ve hızlı bağlantı wie ein echtes Kabel in der Wand.
+   [ r ] Richtig      [ f ] Falsch
+
+5. Frau Petrowa musste für die gesamte Woche, in der sie auf den Techniker gewartet hat, keine Grundgebühr bezahlen.
+   [ r ] Richtig      [ f ] Falsch
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL UND DETAYLI AÇIKLAMALAR (CEVAP ANAHTARI)
+===========================================================================
+
+1. [ f ] Falsch
+-> Açıklama: Metne dikkat edilirse, firma Frau Petrowa'ya önceden hiçbir bilgi vermemiştir. Kadın bütün sabah evde umsonst (boşuna) beklemiş, ancak kendisi müşteri hizmetlerini arayıp 40 dakika telefonda bekledikten sonra randevunun ertelendiğini öğrenebilmiştir. "Önceden bilgilendirilme" iddiası tamamen yanlıştır.
+
+2. [ r ] Richtig
+-> Açıklama: Konuşmacı metinde açıkça şu ifadeyi kullanıyor: "Sie sagt ja auch, das ist ihr jetzt schon zum zweiten Mal passiert." (Bunun kendisine zaten ikinci kez olduğunu söylüyor). Bu yüzden bu durum onun için bir ilk değildir, önerme doğrudur.
+
+3. [ f ] Falsch
+-> Açıklama: Şirket, yaptığı hatayı telafi etmek ve müşteriyi sakinleştirmek için mobil cihazı tamamen ücretsiz göndermiştir: "Die Firma schickt ihr komplett kostenlos einen mobilen Router..." Soru kökündeki "ekstra maliyet" (zusätzliche Kosten) ifadesi metinle çelişmektedir.
+
+4. [ f ] Falsch
+-> Açıklama: Analizde mobil yönlendiricilerin baz istasyonu (Handynetz) üzerinden çalıştığı ve özellikle yoğun zamanlarda kablolu internete göre çok daha yavaş ve istikrarsız (*viel langsamer und nicht so stabil*) olduğu, adeta bir "yedek lastik" gibi davrandığı belirtilmiştir. Bu yüzden önerme yanlıştır.
+
+5. [ r ] Richtig
+-> Açıklama: Konuşmada müşteriyi kaybetmemek adına şirketin attığı finansal adım net bir şekilde ifade edilmiştir: "Frau Petrowa muss für diese gesamte Wartezeit keine Grundgebühr bezahlen." (Frau Petrowa bu bekleme süresinin tamamı için sabit ücret ödemek zorunda kalmadı). Bu yüzden önerme doğrudur.

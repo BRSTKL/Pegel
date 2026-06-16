@@ -1314,9 +1314,10 @@ function submitHoerverstehen() {
   hoerverstehenSubmitted = true;
   state.xp += correctCount * 10;
 
-  // Record attempt in progress
+  // Record attempt in progress (scale to 100% regardless of question count)
   let attempts = state.hoerverstehenProgress[ex.id] || [];
-  attempts.push({ score: correctCount * 10 });
+  const finalScore = totalCount > 0 ? Math.round((correctCount / totalCount) * 100) : 0;
+  attempts.push({ score: finalScore });
   if (attempts.length > 3) attempts.shift();
   state.hoerverstehenProgress[ex.id] = attempts;
 

@@ -1,0 +1,46 @@
+===========================================================================
+TELC B1 - HÖREN TEIL 1: SPEZIALTRAINING (MÖBELLIEFERUNG UND LOGISTIKKRISEN)
+===========================================================================
+
+ANWEISUNG:
+Sie hören eine Analyse im Radio über ein Problem bei einer Möbellieferung. Lesen Sie 
+zuerst die Sätze 1 bis 5. Sie haben dazu 30 Sekunden Zeit. Hören Sie dann den Text. 
+Kreuzen Sie für jede Aufgabe die richtige Lösung an: (r) für Richtig oder (f) für Falsch.
+
+---------------------------------------------------------------------------
+AUFGABEN (SORULAR)
+---------------------------------------------------------------------------
+
+1. Die Information über die Lieferverzögerung erreichte Frau Popova nicht, weil das Möbelhaus und die Spedition unterschiedliche Computersysteme nutzen.
+   [ r ] Richtig      [ f ] Falsch
+
+2. Frau Popova erlebte zum ersten Mal in ihrem Leben, dass ein Lieferwagen des Möbelhauses nicht zum vereinbarten Termin kam.
+   [ r ] Richtig      [ f ] Falsch
+
+3. Da Frau Popova dringend ein Bett brauchte, brachte der LKW-Fahrer noch am selben Mittwochabend ein komfortables Luftbett vorbei.
+   [ r ] Richtig      [ f ] Falsch
+
+4. Aus psychologischer Sicht war das schnelle Zusenden des Luftbetts ein richtiger Schritt, um der Kundin praktische und finanzielle Hilfe zu signalisieren.
+   [ r ] Richtig      [ f ] Falsch
+
+5. Am Ende wurde das richtige Bett eine Woche später von zwei freundlichen Mitarbeitern direkt im Schlafzimmer von Frau Popova aufgebaut.
+   [ r ] Richtig      [ f ] Falsch
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL UND DETAYLI AÇIKLAMALAR (CEVAP ANAHTARI)
+===========================================================================
+
+1. [ r ] Richtig
+-> Açıklama: Konuşmacı lojistik krizinin ana sebebini net bir şekilde açıklıyor: Mobilya mağazası (Möbelhaus) ve nakliye firması (Spedition) tamamen farklı bilgisayar sistemleri kullanıyor. Şoför sisteme hata girdiğinde bu bilgi mağazanın sistemine düşmüyor ve dolayısıyla müşteriye ulaşamıyor. Önerme metne tamamen uygundur.
+
+2. [ f ] Falsch
+-> Açıklama: Metindeki kronoloji çeldiricisine dikkat edilmelidir. Frau Popova bunun kendisi için bir ilk olmadığını şu sözlerle ifade ediyor: „...das war sogar schon das zweite Mal, dass ein Lieferwagen einfach nicht kam.“ (Bir teslimat kamyonunun gelmemesinin zaten ikinci kez başına geldiğini söylüyor). Bu yüzden "zum ersten Mal" (ilk kez) ifadesi yanlıştır.
+
+3. [ f ] Falsch
+-> Açıklama: Klasik bir zaman ve lojistik kanalı tuzağıdır. Hava yatağı aynı çarşamba akşamı kamyon şoförü tarafından getirilmemiştir; telefondaki müşteri temsilcisinin talimatıyla bir kurye (per Kurier) aracılığıyla "ertesi gün ekspres olarak" (am nächsten Tag per Express) ulaştırılmıştır.
+
+4. [ r ] Richtig
+-> Açıklama: Konuşmada geçen uzmanın yorumuna göre, tıbbi olarak tartışılsa da psikolojik açıdan bu hamle çok doğrudur. Şirket sadece konuşmamış, eyleme geçerek müşteriye hem pratik (hava yatağı) hem de mali (teslimat ücretinin silinmesi) olarak arkasında olduğu mesajını vermiştir.
+
+5. [ r ] Richtig
+-> Açıklama: Hikayenin mutlu sonu konuşma metnindeki şu cümleyle birebir örtüşmektedir: „Der Lieferwagen kam ganz pünktlich. Und zwei freundliche Mitarbeiter bauten das richtige Bett auch direkt im Schlafzimmer auf.“ Önerme tamamen doğrudur.

@@ -1,0 +1,46 @@
+===========================================================================
+TELC B1 - HÖREN TEIL 1: SPEZIALTRAINING (SANITÄR-NOTDIENST UND SERVICEKRISEN)
+===========================================================================
+
+ANWEISUNG:
+Sie hören eine Analyse im Radio über ein Problem mit einem Sanitär-Notdienst. Lesen Sie 
+zuerst die Sätze 1 bis 5. Sie haben dazu 30 Sekunden Zeit. Hören Sie dann den Text. 
+Kreuzen Sie für jede Aufgabe die richtige Lösung an: (r) für Richtig oder (f) für Falsch.
+
+---------------------------------------------------------------------------
+AUFGABEN (SORULAR)
+---------------------------------------------------------------------------
+
+1. Frau Ivanova erlebte zum ersten Mal bei dieser Sanitärfirma, dass ein vereinbarter Handwerkertermin ohne Absage ausfiel.
+   [ r ] Richtig      [ f ] Falsch
+
+2. Die Mitarbeiterin an der Hotline erklärte ehrlich, dass der Termin aus organisatorischen Gründen wegen eines anderen großen Notfalls verschoben wurde.
+   [ r ] Richtig      [ f ] Falsch
+
+3. Das spezielle Notfall-Abdichtungsset wurde Frau Ivanova am selben Donnerstagabend direkt vom Handwerker persönlich vorbeigebracht.
+   [ r ] Richtig      [ f ] Falsch
+
+4. Mithilfe der speziellen Bandagen aus dem kostenlosen Notfallset konnte Frau Ivanova das auslaufende Wasser vorerst selbst stoppen.
+   [ r ] Richtig      [ f ] Falsch
+
+5. Als Entschädigung für den Stress und den Ausfall des ersten Termins musste Frau Ivanova die Anfahrtskosten des Handwerkers nicht bezahlen.
+   [ r ] Richtig      [ f ] Falsch
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL UND DETAYLI AÇIKLAMALAR (CEVAP ANAHTARI)
+===========================================================================
+
+1. [ f ] Falsch
+-> Açıklama: Klasik bir kronoloji ve sıklık tuzağıdır. Konuşmada açıkça şu ifade geçmektedir: „Es war nämlich schon das zweite Mal, dass ein Handwerker von dieser Firma einfach nicht erschienen ist...“ (Bir tesisatçının gelmemesinin zaten ikinci kez başına geldiğini söylüyor). Bu yüzden "zum ersten Mal" (ilk kez) ifadesi yanlıştır.
+
+2. [ r ] Richtig
+-> Açıklama: Telefondaki müşteri temsilcisi durumu dürüstçe itiraf etmiştir: Randevu organizasyonel sebeplerden ötürü ertelenmiştir, çünkü araya daha büyük bir acil durum girmiş ve merkez öncelikleri değiştirmek zorunda kalmıştır. Önerme metne tamamen uygundur.
+
+3. [ f ] Falsch
+-> Açıklama: Lojistik kanalı ve zamanlama çeldiricisidir. Tamir seti aynı perşembe akşamı bir tesisatçı tarafından elden teslim edilmemiştir; firmanın talimatıyla bir ekspres kurye (per Expresskurier) vasıtasıyla "ertesi gün" (am nächsten Tag) ulaştırılmıştır.
+
+4. [ r ] Richtig
+-> Açıklama: Konuşmada belirtildiği üzere, setteki malzeme sıradan bir yapışkan bant değildir; su basıncı altında bile sertleşen özel bandajlardır (spezielle Bandagen). Frau Ivanova bu sayede ana boru tamir edilene kadar suyu kendi başına durdurmayı başarmıştır.
+
+5. [ r ] Richtig
+-> Açıklama: Şirketin sunduğu üç çözüm maddesinden biri ve finansal jest tam olarak budur: „...musste Frau Ivanova die Anfahrtskosten für den Handwerker nicht bezahlen.“ (Frau Ivanova tesisatçının yol/servis ücretini ödemek zorunda kalmamıştır). Bu yüzden önerme doğrudur.
