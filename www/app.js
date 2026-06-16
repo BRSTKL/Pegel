@@ -170,6 +170,11 @@ const FILLBLANKS_QUESTIONS = [
 // Helper to save state
 function saveState() {
   localStorage.setItem("b1_app_state", JSON.stringify(state));
+  if (window.Auth && !localStorage.getItem("pegel_guest_session")) {
+    Auth.pushState(state).catch(err => {
+      console.warn("Cloud save failed:", err);
+    });
+  }
 }
 
 // Helper to load state
@@ -304,7 +309,17 @@ function initLoginScreen() {
   }
 
   // Helper: after successful auth, transition to home
-  function onAuthSuccess(displayName) {
+  async function onAuthSuccess(displayName) {
+    if (window.Auth) {
+      try {
+        const cloudState = await Auth.fetchState();
+        if (cloudState) {
+          state = { ...state, ...cloudState };
+        }
+      } catch (e) {
+        console.error("Failed to fetch cloud state on login:", e);
+      }
+    }
     state.userName = displayName || "Kullanıcı";
     saveState();
     const bottomNav = document.getElementById("main-bottom-nav");
@@ -422,6 +437,18 @@ document.addEventListener("DOMContentLoaded", async () => {
         // Update userName from auth profile
         const displayName = user.user_metadata?.display_name || user.email?.split("@")[0] || "Kullanıcı";
         state.userName = displayName;
+        
+        // Fetch progress from cloud on startup
+        try {
+          const cloudState = await Auth.fetchState();
+          if (cloudState) {
+            state = { ...state, ...cloudState };
+            state.userName = displayName; // preserve display name
+          }
+        } catch (err) {
+          console.error("Failed to fetch cloud state on app launch:", err);
+        }
+        
         saveState();
       }
     } catch (e) {
@@ -588,6 +615,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       }
       localStorage.removeItem("pegel_guest_session");
       localStorage.removeItem("pegel_local_active_user");
+      localStorage.removeItem("b1_app_state");
       window.location.reload();
     }
   });
