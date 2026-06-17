@@ -3142,8 +3142,8 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "bin",
         "haben",
-        "weil ihr Wecker kaputt war",
-        "weil sein Kopf weh tut"
+        "ihr Wecker kaputt war",
+        "sein Kopf weh tut"
       ],
       "correct": 2
     },
@@ -3153,8 +3153,8 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "bin",
         "haben",
-        "weil ihr Wecker kaputt war",
-        "weil sein Kopf weh tut"
+        "ist",
+        "sein Kopf weh tut"
       ],
       "correct": 3
     },
@@ -3162,10 +3162,10 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "Wir gehen im Restaurant essen. Wir wollen heute nicht kochen. (Achtung: Modalverb!)\n   -> Wir gehen im Restaurant essen, weil _____________________.",
       "type": "multiple-choice",
       "options": [
+        "ihr Wecker kaputt war",
         "ist",
-        "weil ihr Wecker kaputt war",
-        "weil sein Kopf weh tut",
-        "weil wir heute nicht kochen wollen"
+        "sein Kopf weh tut",
+        "wir heute nicht kochen wollen"
       ],
       "correct": 3
     },
@@ -4397,12 +4397,13 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "Ich glaube. Morgen regnet es.\n   -> Ich glaube, dass _________________________________________.",
-      "type": "multiple-choice",
+      "type": "write-in",
+      "correctAnswer": "es morgen regnet",
       "options": [
+        "Berlin sehr groß ist",
         "bin",
-        "dass Berlin sehr groß ist",
-        "dass es morgen regnet",
-        "haben"
+        "es morgen regnet",
+        "hat"
       ],
       "correct": 2
     },
@@ -4410,21 +4411,21 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "Herr Demir sagt. Seine Wohnungstür ist kaputt.\n   -> Herr Demir sagt, dass ____________________________________.",
       "type": "multiple-choice",
       "options": [
+        "Berlin sehr groß ist",
         "bin",
-        "dass Berlin sehr groß ist",
-        "dass seine Wohnungstür kaputt ist",
-        "hat"
+        "hat",
+        "seine Wohnungstür kaputt ist"
       ],
-      "correct": 2
+      "correct": 3
     },
     {
       "question": "Wir wissen. Berlin ist sehr groß.\n   -> Wir wissen, dass _________________________________________.",
       "type": "multiple-choice",
       "options": [
-        "dass Berlin sehr groß ist",
-        "dass seine Wohnungstür kaputt ist",
+        "Berlin sehr groß ist",
         "haben",
-        "ist"
+        "hat",
+        "seine Wohnungstür kaputt ist"
       ],
       "correct": 0
     },
@@ -5949,33 +5950,33 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "options": [
         "deshalb geht er nicht im Restaurant essen",
-        "deswegen liest sie jeden Tag Anzeigen",
-        "deswegen ruft Herr Demir bei der Post an",
-        "ist"
+        "haben",
+        "liest sie jeden Tag Anzeigen",
+        "ruft Herr Demir bei der Post an"
       ],
-      "correct": 1
+      "correct": 2
     },
     {
       "question": "Herr Novak hat kein Geld. Er geht nicht im Restaurant essen.\n   -> Herr Novak hat kein Geld, deshalb ________________________.",
       "type": "multiple-choice",
       "options": [
         "bin",
-        "deshalb geht er nicht im Restaurant essen",
         "deswegen ruft Herr Demir bei der Post an",
+        "geht er nicht im Restaurant essen",
         "hat"
       ],
-      "correct": 1
+      "correct": 2
     },
     {
       "question": "Das Paket ist weg. Herr Demir ruft bei der Post an.\n   -> Das Paket ist weg, deswegen ______________________________.",
       "type": "multiple-choice",
       "options": [
-        "deswegen liest sie jeden Tag Anzeigen",
-        "deswegen ruft Herr Demir bei der Post an",
-        "hat",
-        "ist"
+        "haben",
+        "ist",
+        "liest sie jeden Tag Anzeigen",
+        "ruft Herr Demir bei der Post an"
       ],
-      "correct": 1
+      "correct": 3
     },
     {
       "type": "multiple-choice",
@@ -6082,34 +6083,34 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "Frau Alahmed fragt. Ist die Wohnung noch frei?\n   -> Frau Alahmed fragt, ob __________________________________.",
       "type": "multiple-choice",
       "options": [
+        "der Handwerker morgen kommt",
+        "die Wohnung noch frei ist",
         "hat",
-        "ob Herr Novak einen Laptop hat",
-        "ob der Handwerker morgen kommt",
-        "ob die Wohnung noch frei ist"
+        "ist"
       ],
-      "correct": 3
+      "correct": 1
     },
     {
       "question": "Ich kann nicht sagen. Kommt der Handwerker morgen?\n   -> Ich kann nicht sagen, ob ________________________________.",
       "type": "multiple-choice",
       "options": [
-        "hat",
-        "ist",
-        "ob Herr Novak einen Laptop hat",
-        "ob der Handwerker morgen kommt"
+        "der Handwerker morgen kommt",
+        "die Wohnung noch frei ist",
+        "haben",
+        "hat"
       ],
-      "correct": 3
+      "correct": 0
     },
     {
       "question": "Wir wissen nicht. Hat Herr Novak einen Laptop?\n   -> Wir wissen nicht, ob ____________________________________.",
       "type": "multiple-choice",
       "options": [
-        "ist",
-        "ob Herr Novak einen Laptop hat",
-        "ob der Handwerker morgen kommt",
-        "ob die Wohnung noch frei ist"
+        "Herr Novak einen Laptop hat",
+        "haben",
+        "hat",
+        "ist"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
       "type": "multiple-choice",
@@ -6642,37 +6643,37 @@ const LESSON_QUIZZES_A1A2 = {
       ]
     },
     {
-      "question": "Ich habe keine Zeit. Trotzdem komme ich am Samstag. [cite: 141]\n   -> Ich habe keine Zeit. Ich _________________________________.",
+      "question": "Ich habe keine Zeit. Trotzdem komme ich am Samstag.\n   -> Ich habe keine Zeit. Ich _________________________________.",
       "type": "multiple-choice",
       "options": [
         "bin",
-        "hat",
+        "ist",
         "komme trotzdem am Samstag",
         "ruft trotzdem nicht bei der Post an"
       ],
       "correct": 2
     },
     {
-      "question": "Das Paket ist weg. Trotzdem ruft Herr Demir nicht bei der Post an. [cite: 141]\n   -> Das Paket ist weg. Herr Demir ____________________________.",
+      "question": "Das Paket ist weg. Trotzdem ruft Herr Demir nicht bei der Post an.\n   -> Das Paket ist weg. Herr Demir ____________________________.",
       "type": "multiple-choice",
       "options": [
         "bin",
-        "ist",
-        "komme trotzdem am Samstag",
+        "haben",
+        "hat",
         "ruft trotzdem nicht bei der Post an"
       ],
       "correct": 3
     },
     {
-      "question": "Es regnet. Trotzdem fahren wir nach Berlin. [cite: 141]\n   -> Es regnet. Wir ___________________________________________.",
+      "question": "Es regnet. Trotzdem fahren wir nach Berlin.\n   -> Es regnet. Wir ___________________________________________.",
       "type": "multiple-choice",
       "options": [
-        "bin",
         "fahren trotzdem nach Berlin",
+        "hat",
         "ist",
-        "komme trotzdem am Samstag"
+        "ruft trotzdem nicht bei der Post an"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
       "type": "multiple-choice",
@@ -6698,7 +6699,7 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Es gefällt mir sehr gut bei euch, _________ nach Hause gehen.",
       "options": [
-        "trotzdem muss ich [cite: 147]",
+        "trotzdem muss ich",
         "trotzdem ich muss",
         "weil muss ich"
       ],
@@ -6826,7 +6827,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Ich kaufe morgen ein Brot, _________ (die Bäckerei) gehe.",
+      "question": "Ich kaufe morgen ein Brot, _________ (die Bäckerei).",
       "options": [
         "wenn ich zur Bäckerei",
         "wenn ich zur Bäckerei gehe",

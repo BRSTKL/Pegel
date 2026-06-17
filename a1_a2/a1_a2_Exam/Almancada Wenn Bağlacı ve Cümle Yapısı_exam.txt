@@ -58,7 +58,7 @@ Welcher Satz ist grammatikalisch richtig built? Kreuzen Sie an (A, B oder C).
    [ ] B) er kann
    [ ] C) weil kann
 
-3. Ich kaufe morgen ein Brot, _________ (die Bäckerei) gehe.
+3. Ich kaufe morgen ein Brot, _________ (die Bäckerei).
    [ ] A) wenn ich zur Bäckerei
    [ ] B) wenn ich zur Bäckerei gehe
    [ ] C) wenn gehe ich zur Bäckerei
