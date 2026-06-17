@@ -74,6 +74,8 @@ function getActiveLessonQuizzes() {
 
 function switchLevel(level) {
   state.activeLevel = level;
+  const firstCat = getActiveLessonsData()[0];
+  if (firstCat) state.activeCategory = firstCat.id;
   saveState();
   showScreen("home");
   renderHome();
@@ -1893,6 +1895,7 @@ function updateCompleteButtonState(btn, isCompleted) {
 }
 
 function formatLessonContent(content) {
+  if (!content) return `<div style="display:flex; flex-direction:column; align-items:center; justify-content:center; gap:12px; padding: 40px 20px; text-align:center;"><i class="ti ti-clock" style="font-size:36px; color:var(--theme-purple); opacity:0.6;"></i><p style="margin:0; font-size:14px; font-weight:600; color:var(--color-text-primary);">İçerik Hazırlanıyor</p><p style="margin:0; font-size:12.5px; color:var(--color-text-secondary); line-height:1.5;">Bu konunun konu anlatımı yakında eklenecek.</p></div>`;
   const lines = content.split("\n");
   let html = "";
   

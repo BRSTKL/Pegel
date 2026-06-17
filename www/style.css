@@ -560,8 +560,7 @@ body {
 }
 
 .category-tab-btn.active {
-  color: var(--theme-purple) !important;
-  border-bottom-color: var(--theme-purple) !important;
+  color: #fff !important;
 }
 
 /* Buttons style override */
