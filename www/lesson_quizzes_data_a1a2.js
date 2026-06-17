@@ -4,11 +4,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "heute",
-        "Fußball",
-        "im Park",
+        "Heute",
         "spielen",
-        "wir"
+        "wir",
+        "Fußball",
+        "im",
+        "Park"
       ],
       "correctAnswers": [
         "Heute spielen wir Fußball im Park.",
@@ -19,11 +20,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "morgen",
-        "einen Brief",
+        "Morgen",
+        "schreibe",
         "ich",
-        "meinem Vater",
-        "schreibe"
+        "meinem",
+        "Vater",
+        "einen",
+        "Brief"
       ],
       "correctAnswers": [
         "Morgen schreibe ich meinem Vater einen Brief.",
@@ -34,10 +37,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "am Wochenende",
-        "im See",
-        "meine Freunde",
-        "schwimmen"
+        "Am",
+        "Wochenende",
+        "schwimmen",
+        "meine",
+        "Freunde",
+        "im",
+        "See"
       ],
       "correctAnswers": [
         "Am Wochenende schwimmen meine Freunde im See.",
@@ -48,11 +54,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "einen Kaffee",
+        "Nachmittags",
         "trinke",
-        "im Café",
         "ich",
-        "nachmittags"
+        "einen",
+        "Kaffee",
+        "im",
+        "Café"
       ],
       "correctAnswers": [
         "Nachmittags trinke ich einen Kaffee im Café.",
@@ -63,11 +71,14 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "meine Mutter",
-        "lecker",
+        "Heute",
         "kocht",
-        "in der Küche",
-        "heute"
+        "meine",
+        "Mutter",
+        "lecker",
+        "in",
+        "der",
+        "Küche"
       ],
       "correctAnswers": [
         "Heute kocht meine Mutter lecker in der Küche.",
@@ -78,11 +89,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "am Samstag",
-        "wir",
-        "gehen",
+        "Am",
+        "Samstag",
         "wollen",
-        "schwimmen"
+        "wir",
+        "schwimmen",
+        "gehen"
       ],
       "correctAnswers": [
         "Am Samstag wollen wir schwimmen gehen.",
@@ -93,11 +105,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Deutsch",
-        "lernen",
+        "Für",
+        "meinen",
+        "Beruf",
+        "muss",
         "ich",
-        "für meinen Beruf",
-        "muss"
+        "Deutsch",
+        "lernen"
       ],
       "correctAnswers": [
         "Für meinen Beruf muss ich Deutsch lernen.",
@@ -108,11 +122,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "am Abend",
-        "meine Schwester",
+        "Am",
+        "Abend",
+        "möchte",
+        "meine",
+        "Schwester",
         "Pizza",
-        "essen",
-        "möchte"
+        "essen"
       ],
       "correctAnswers": [
         "Am Abend möchte meine Schwester Pizza essen.",
@@ -123,11 +139,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
+        "Kannst",
         "du",
-        "im Park",
         "heute",
-        "können",
-        "spazieren gehen ? (Achtung: Frage!)"
+        "im",
+        "Park",
+        "spazieren",
+        "gehen"
       ],
       "correctAnswers": [
         "Kannst du heute im Park spazieren gehen?"
@@ -167,7 +185,7 @@ const LESSON_QUIZZES_A1A2 = {
   "ozne-fiil-uyumu": [
     {
       "type": "multiple-choice",
-      "question": "(gehen)      Ich",
+      "question": "(gehen)      Ich _______________ heute zum Bürgeramt in Berlin.",
       "options": [
         "gehe",
         "kocht",
@@ -180,7 +198,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(lernen)     Du",
+      "question": "(lernen)     Du _______________ sehr fleißig für die telc-Prüfung.",
       "options": [
         "gehe",
         "kocht",
@@ -193,7 +211,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(machen)     Herr Novak",
+      "question": "(machen)     Herr Novak _______________ am Wochenende eine Pause.",
       "options": [
         "gehe",
         "kocht",
@@ -206,7 +224,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(kochen)     Meine Mutter",
+      "question": "(kochen)     Meine Mutter _______________ eine leckere Suppe.",
       "options": [
         "gehe",
         "kocht",
@@ -219,7 +237,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(spielen)    Wir",
+      "question": "(spielen)    Wir _______________ jeden Samstag Padel-Tennis.",
       "options": [
         "gehe",
         "kocht",
@@ -232,7 +250,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(wohnen)     Frau Alahmed und ihr Bruder",
+      "question": "(wohnen)     Frau Alahmed und ihr Bruder _______________ in Frankfurt.",
       "options": [
         "gehe",
         "kocht",
@@ -247,10 +265,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "heute",
-        "ich",
+        "Heute",
         "gehe",
-        "in den Supermarkt"
+        "ich",
+        "in",
+        "den",
+        "Supermarkt"
       ],
       "correctAnswers": [
         "Heute gehe ich in den Supermarkt."
@@ -260,10 +280,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "morgen",
-        "du",
+        "Morgen",
         "machst",
-        "die Hausaufgaben"
+        "du",
+        "die",
+        "Hausaufgaben"
       ],
       "correctAnswers": [
         "Morgen machst du die Hausaufgaben."
@@ -273,9 +294,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "am Samstag",
+        "Am",
+        "Samstag",
         "spielen",
-        "meine Freunde",
+        "meine",
+        "Freunde",
         "Basketball"
       ],
       "correctAnswers": [
@@ -286,7 +309,7 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "jetzt",
+        "Jetzt",
         "lernt",
         "Erhan",
         "Deutsch"
@@ -331,10 +354,9 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
+        "Wo",
         "wohnst",
-        "wo",
-        "du",
-        ""
+        "du"
       ],
       "correctAnswers": [
         "Wo wohnst du?"
@@ -344,12 +366,10 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "ne yapıyor",
-        "beruflich",
-        "Sie",
-        "machen",
         "Was",
-        ""
+        "machen",
+        "Sie",
+        "beruflich"
       ],
       "correctAnswers": [
         "Was machen Sie beruflich?"
@@ -359,10 +379,10 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
+        "Wann",
         "kommt",
-        "wann",
-        "das Paket",
-        ""
+        "das",
+        "Paket"
       ],
       "correctAnswers": [
         "Wann kommt das Paket?"
@@ -372,10 +392,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "wie viel Uhr",
-        "es",
+        "Wie",
+        "viel",
+        "Uhr",
         "ist",
-        ""
+        "es"
       ],
       "correctAnswers": [
         "Wie viel Uhr ist es?"
@@ -385,11 +406,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
+        "Hast",
         "du",
-        "Zeit",
-        "am Samstag",
-        "hast",
-        ""
+        "am",
+        "Samstag",
+        "Zeit"
       ],
       "correctAnswers": [
         "Hast du am Samstag Zeit?"
@@ -399,10 +420,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Herr Novak",
-        "ist",
-        "im Büro",
-        ""
+        "Ist",
+        "Herr",
+        "Novak",
+        "im",
+        "Büro"
       ],
       "correctAnswers": [
         "Ist Herr Novak im Büro?"
@@ -412,11 +434,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Deutsch",
+        "Lernst",
         "du",
-        "lernst",
-        "jeden Tag",
-        ""
+        "jeden",
+        "Tag",
+        "Deutsch"
       ],
       "correctAnswers": [
         "Lernst du jeden Tag Deutsch?"
@@ -426,13 +448,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "bugün",
-        "im Park",
-        "spielen",
-        "könnt",
+        "Könnt",
         "ihr",
+        "bugün",
+        "im",
+        "Park",
         "Basketball",
-        "? (Achtung: Modalverb!)"
+        "spielen"
       ],
       "correctAnswers": [
         "Könnt ihr bugün im Park Basketball spielen?"
@@ -474,10 +496,14 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "nach Berlin",
-        "ich",
+        "Ich",
+        "fliege",
         "morgen",
-        "fliege"
+        "nach",
+        "Berlin",
+        "(morgen",
+        "=",
+        "Zaman"
       ],
       "correctAnswers": [
         "Ich fliege morgen nach Berlin. (morgen = Zaman",
@@ -488,11 +514,15 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "wir",
-        "Fußball",
+        "Wir",
+        "spielen",
         "heute",
-        "im Park",
-        "spielen"
+        "Fußball",
+        "im",
+        "Park",
+        "(heute",
+        "=",
+        "Zaman"
       ],
       "correctAnswers": [
         "Wir spielen heute Fußball im Park. (heute = Zaman",
@@ -503,10 +533,17 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "am Wochenende",
-        "meine Freunde",
-        "im See",
-        "schwimmen"
+        "Meine",
+        "Freunde",
+        "schwimmen",
+        "am",
+        "Wochenende",
+        "im",
+        "See",
+        "(am",
+        "Wochenende",
+        "=",
+        "Zaman"
       ],
       "correctAnswers": [
         "Meine Freunde schwimmen am Wochenende im See. (am Wochenende = Zaman",
@@ -517,11 +554,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "einen Kaffee",
+        "Ich",
         "trinke",
-        "ich",
         "nachmittags",
-        "im Café"
+        "einen",
+        "Kaffee",
+        "im",
+        "Café"
       ],
       "correctAnswers": [
         "Ich trinke nachmittags einen Kaffee im Café."
@@ -531,11 +570,16 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "meine Mutter",
-        "in der Küche",
+        "Meine",
+        "Mutter",
         "kocht",
-        "um 12:00 Uhr",
-        "lecker"
+        "um",
+        "12:00",
+        "Uhr",
+        "lecker",
+        "in",
+        "der",
+        "Küche"
       ],
       "correctAnswers": [
         "Meine Mutter kocht um 12:00 Uhr lecker in der Küche."
@@ -543,101 +587,156 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Vergessen Sie nicht: Das Verb bleibt auf Position 2, das Subjekt rutscht auf Position 3!\n\nÖrnek: Ich fliege morgen nach Berlin. -> Morgen fliege ich nach Berlin.",
+      "question": "(morgen ...)\n   _____________________________________________________________",
       "options": [
-        "Am Samstag wollen wir schwimmen gehen",
-        "Ich muss heute Deutsch lernen",
-        "Kannst du morgen im Büro arbeiten?",
-        "Meine Schwester möchte am Abend Pizza essen"
+        "Am Wochenende schwimmen meine Freunde im See",
+        "Heute spielen wir Fußball im Park",
+        "Morgen fliege ich nach Berlin",
+        "Nachmittags trinke ich einen Kaffee im Café",
+        "Um 12:00 Uhr kocht meine Mutter lecker in der Küche"
       ],
-      "correct": 0
+      "correct": 2
     },
     {
       "type": "multiple-choice",
-      "question": "(morgen ...)",
+      "question": "(heute ...)\n   _____________________________________________________________",
       "options": [
-        "Am Samstag wollen wir schwimmen gehen",
-        "Ich muss heute Deutsch lernen",
-        "Kannst du morgen im Büro arbeiten?",
-        "Meine Schwester möchte am Abend Pizza essen"
-      ],
-      "correct": 0
-    },
-    {
-      "type": "multiple-choice",
-      "question": "(heute ...)",
-      "options": [
-        "Am Samstag wollen wir schwimmen gehen",
-        "Ich muss heute Deutsch lernen",
-        "Kannst du morgen im Büro arbeiten?",
-        "Meine Schwester möchte am Abend Pizza essen"
+        "Am Wochenende schwimmen meine Freunde im See",
+        "Heute spielen wir Fußball im Park",
+        "Morgen fliege ich nach Berlin",
+        "Nachmittags trinke ich einen Kaffee im Café",
+        "Um 12:00 Uhr kocht meine Mutter lecker in der Küche"
       ],
       "correct": 1
     },
     {
       "type": "multiple-choice",
-      "question": "(am Wochenende ...)",
+      "question": "(am Wochenende ...)\n   _____________________________________________________________",
       "options": [
-        "Am Samstag wollen wir schwimmen gehen",
-        "Ich muss heute Deutsch lernen",
-        "Kannst du morgen im Büro arbeiten?",
-        "Meine Schwester möchte am Abend Pizza essen"
+        "Am Wochenende schwimmen meine Freunde im See",
+        "Heute spielen wir Fußball im Park",
+        "Morgen fliege ich nach Berlin",
+        "Nachmittags trinke ich einen Kaffee im Café",
+        "Um 12:00 Uhr kocht meine Mutter lecker in der Küche"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "(nachmittags ...)\n   _____________________________________________________________",
+      "options": [
+        "Am Wochenende schwimmen meine Freunde im See",
+        "Heute spielen wir Fußball im Park",
+        "Morgen fliege ich nach Berlin",
+        "Nachmittags trinke ich einen Kaffee im Café",
+        "Um 12:00 Uhr kocht meine Mutter lecker in der Küche"
       ],
       "correct": 3
     },
     {
       "type": "multiple-choice",
-      "question": "(nachmittags ...)",
+      "question": "(um 12:00 Uhr ...)\n   _____________________________________________________________",
       "options": [
-        "Am Samstag wollen wir schwimmen gehen",
-        "Ich muss heute Deutsch lernen",
-        "Kannst du morgen im Büro arbeiten",
-        "Kannst du morgen im Büro arbeiten?",
-        "Meine Schwester möchte am Abend Pizza essen"
+        "Am Wochenende schwimmen meine Freunde im See",
+        "Heute spielen wir Fußball im Park",
+        "Morgen fliege ich nach Berlin",
+        "Nachmittags trinke ich einen Kaffee im Café",
+        "Um 12:00 Uhr kocht meine Mutter lecker in der Küche"
+      ],
+      "correct": 4
+    },
+    {
+      "type": "sentence-builder",
+      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
+      "words": [
+        "Am",
+        "Samstag",
+        "wollen",
+        "wir",
+        "schwimmen",
+        "gehen"
+      ],
+      "correctAnswers": [
+        "Am Samstag wollen wir schwimmen gehen.",
+        "Wir wollen am Samstag schwimmen gehen."
+      ]
+    },
+    {
+      "type": "sentence-builder",
+      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
+      "words": [
+        "Ich",
+        "muss",
+        "heute",
+        "Deutsch",
+        "lernen"
+      ],
+      "correctAnswers": [
+        "Ich muss heute Deutsch lernen.",
+        "Heute muss ich Deutsch lernen."
+      ]
+    },
+    {
+      "type": "sentence-builder",
+      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
+      "words": [
+        "Meine",
+        "Schwester",
+        "möchte",
+        "am",
+        "Abend",
+        "Pizza",
+        "essen"
+      ],
+      "correctAnswers": [
+        "Meine Schwester möchte am Abend Pizza essen.",
+        "Am Abend möchte meine Schwester Pizza essen."
+      ]
+    },
+    {
+      "type": "sentence-builder",
+      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
+      "words": [
+        "Kannst",
+        "du",
+        "morgen",
+        "im",
+        "Büro",
+        "arbeiten"
+      ],
+      "correctAnswers": [
+        "Kannst du morgen im Büro arbeiten?"
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "",
+      "options": [
+        "Am Sonntag wir gehen im Restaurant essen.",
+        "Am Sonntag gehen wir im Restaurant essen.",
+        "Am Sonntag gehen im Restaurant essen wir."
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "",
+      "options": [
+        "Ich muss heute um 14 Uhr den Arzt anrufen.",
+        "Ich muss den Arzt heute um 14 Uhr anrufen.",
+        "Ich heute um 14 Uhr muss den Arzt anrufen."
+      ],
+      "correct": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "",
+      "options": [
+        "Gestern mein Bruder hat ein neues Auto gekauft.",
+        "Gestern hat ein neues Auto gekauft mein Bruder.",
+        "Gestern hat mein Bruder ein neues Auto gekauft."
       ],
       "correct": 2
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "am Samstag",
-        "wir",
-        "gehen",
-        "wollen",
-        "schwimmen"
-      ],
-      "correctAnswers": [
-        "B - \"Am Sonntag\" zaman ifadesi cümlenin 1. bloğudur, fiil  2. sırada yer alır."
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Deutsch",
-        "lernen",
-        "ich",
-        "heute",
-        "muss"
-      ],
-      "correctAnswers": [
-        "A - Modalverb  2. sıradadır ve zaman bilgisi  nesnelerden önce gelerek TeKaMoLo önceliğini korur."
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "meine Schwester",
-        "Pizza",
-        "essen",
-        "möchte",
-        "am Abend"
-      ],
-      "correctAnswers": [
-        "C - Geçmiş zaman  yapısında yardımcı fiil  2. sıradadır. Zaman  başta olduğu için özne  3. sıraya gelir. Esas fiil  ise en sondadır."
-      ]
     }
   ],
   "kausal": [
@@ -645,12 +744,10 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Ich gehe zum Arzt,",
-        "ich",
         "weil",
+        "ich",
         "krank",
-        "bin",
-        ".\n   -> Ich gehen zum Arzt,"
+        "bin"
       ],
       "correctAnswers": [
         "weil ich krank bin."
@@ -660,12 +757,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Erhan spielt am Samstag kein Padel-Tennis,",
-        "er",
         "weil",
-        "keine Zeit",
-        "hat",
-        ".\n   -> Erhan spielt am Samstag kein Padel-Tennis,"
+        "er",
+        "keine",
+        "Zeit",
+        "hat"
       ],
       "correctAnswers": [
         "weil er keine Zeit hat."
@@ -675,12 +771,10 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Herr Novak bleibt heute im Büro,",
-        "er",
         "weil",
+        "er",
         "arbeiten",
-        "muss",
-        ". (Achtung: Modalverb!)\n   -> Herr Novak bleibt heute im Büro,"
+        "muss"
       ],
       "correctAnswers": [
         "weil er arbeiten muss."
@@ -690,13 +784,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Wir lernen jeden Tag Deutsch,",
-        "wir",
         "weil",
-        "möchten",
-        "die telc-Prüfung",
+        "wir",
+        "die",
+        "telc-Prüfung",
         "machen",
-        ".\n   -> Wir lernen jeden Tag Deutsch,"
+        "möchten"
       ],
       "correctAnswers": [
         "weil wir die telc-Prüfung machen möchten."
@@ -704,7 +797,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Ich lerne [am Montag] (",
+      "question": "Ich lerne [am Montag] (_____) [wegen der Prüfung] (_____) fleißig Deutsch.",
       "options": [
         "am Montag",
         "heute",
@@ -714,7 +807,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Erhan hat [heute] (",
+      "question": "Erhan hat [heute] (_____) [wegen der Arbeit] (_____) keine Zeit für Basketball.",
       "options": [
         "am Montag",
         "heute",
@@ -724,7 +817,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Meine Eltern kommen [im Sommer] (",
+      "question": "Meine Eltern kommen [im Sommer] (_____) nach Berlin. (Sebep yok, Kausal adımı atlanmış!)",
       "options": [
         "am Montag",
         "heute",
@@ -768,11 +861,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "(T - M - L)       Ich gehe",
-        "heute (T)",
-        "zum Arzt (L)",
-        "schnell (M)",
-        ".\n   ->"
+        "Ich",
+        "gehe",
+        "heute",
+        "schnell",
+        "zum",
+        "Arzt"
       ],
       "correctAnswers": [
         "Ich gehe heute schnell zum Arzt."
@@ -782,11 +876,14 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "(T - M - L)       Erhan kommt",
-        "immer (T)",
-        "zu spät (M)",
-        "im Büro (L)",
-        "an . (Achtung: ankommen!)\n   ->"
+        "Erhan",
+        "kommt",
+        "immer",
+        "zu",
+        "spät",
+        "im",
+        "Büro",
+        "an"
       ],
       "correctAnswers": [
         "Erhan kommt immer zu spät im Büro an."
@@ -796,10 +893,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "(T - M)           Wir lernen",
-        "fleißig (M)",
-        "jeden Tag (T)",
-        "Deutsch .\n   ->"
+        "Wir",
+        "lernen",
+        "jeden",
+        "Tag",
+        "fleißig",
+        "Deutsch"
       ],
       "correctAnswers": [
         "Wir lernen jeden Tag fleißig Deutsch.",
@@ -810,10 +909,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "(M - L)           Herr Novak fährt",
-        "nach Berlin (L)",
-        "sehr langsam (M)",
-        ".\n   ->"
+        "Herr",
+        "Novak",
+        "fährt",
+        "sehr",
+        "langsam",
+        "nach",
+        "Berlin"
       ],
       "correctAnswers": [
         "Herr Novak fährt sehr langsam nach Berlin."
@@ -821,7 +923,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Ich fahre [morgen] (",
+      "question": "Ich fahre [morgen] (_____) [schnell] (_____) [nach Hamburg] (_____).",
       "options": [
         "am Samstag",
         "heute",
@@ -832,7 +934,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Frau Alahmed lernt [jeden Tag] (",
+      "question": "Frau Alahmed lernt [jeden Tag] (_____) [wegen der telc-Prüfung] (_____) [fleißig] (_____) zu Hause.",
       "options": [
         "am Samstag",
         "heute",
@@ -843,7 +945,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Ahmet kommt [heute] (",
+      "question": "Ahmet kommt [heute] (_____) [zu spät] (_____) [zum Deutschkurs] (_____).",
       "options": [
         "am Samstag",
         "heute",
@@ -854,7 +956,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Wir spielen [am Samstag] (",
+      "question": "Wir spielen [am Samstag] (_____) [im Park] (_____). (Sebep ve tarz yok, K ve M adımları atlanmış!)",
       "options": [
         "am Samstag",
         "heute",
@@ -899,10 +1001,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "nach Berlin",
-        "ich",
+        "Ich",
+        "fliege",
         "morgen",
-        "fliege"
+        "nach",
+        "Berlin"
       ],
       "correctAnswers": [
         "Ich fliege morgen nach Berlin."
@@ -912,11 +1015,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "im Park",
-        "wir",
+        "Wir",
         "spielen",
         "heute",
-        "Fußball"
+        "Fußball",
+        "im",
+        "Park"
       ],
       "correctAnswers": [
         "Wir spielen heute Fußball im Park."
@@ -926,10 +1030,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "am Wochenende",
-        "im See",
-        "meine Freunde",
-        "schwimmen"
+        "Meine",
+        "Freunde",
+        "schwimmen",
+        "am",
+        "Wochenende",
+        "im",
+        "See"
       ],
       "correctAnswers": [
         "Meine Freunde schwimmen am Wochenende im See."
@@ -939,11 +1046,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "ich",
-        "nachmittags",
+        "Ich",
         "trinke",
-        "einen Kaffee",
-        "im Café"
+        "nachmittags",
+        "einen",
+        "Kaffee",
+        "im",
+        "Café"
       ],
       "correctAnswers": [
         "Ich trinke nachmittags einen Kaffee im Café."
@@ -953,12 +1062,14 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "in der Schule",
-        "Deutsch",
-        "gelernt",
+        "Er",
         "hat",
-        "er",
-        "gestern . (Perfekt yapısı)"
+        "gestern",
+        "Deutsch",
+        "in",
+        "der",
+        "Schule",
+        "gelernt"
       ],
       "correctAnswers": [
         "Er hat gestern Deutsch in der Schule gelernt."
@@ -968,13 +1079,18 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "wegen des Regens (K)",
-        "nach Hause (L)",
-        "mit dem Taxi (M)",
-        "gestern (T)",
-        "ich",
+        "Ich",
         "bin",
-        "gefahren .\n   (Ich bin ...)"
+        "gestern",
+        "wegen",
+        "des",
+        "Regens",
+        "mit",
+        "dem",
+        "Taxi",
+        "nach",
+        "Hause",
+        "gefahren"
       ],
       "correctAnswers": [
         "Ich bin gestern  wegen des Regens  mit dem Taxi  nach Hause  gefahren."
@@ -984,13 +1100,16 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "am Sonntag (T)",
-        "aus Liebe (K)",
-        "wir",
-        "im Restaurant (L)",
-        "romantisch (M)",
-        "gegessen",
-        "haben .\n   (Wir haben ...)"
+        "Wir",
+        "haben",
+        "am",
+        "Sonntag",
+        "aus",
+        "Liebe",
+        "romantisch",
+        "im",
+        "Restaurant",
+        "gegessen"
       ],
       "correctAnswers": [
         "Wir haben am Sonntag  aus Liebe  romantisch  im Restaurant  gegessen."
@@ -1000,12 +1119,16 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
+        "Er",
         "lernt",
-        "für die Prüfung (K)",
-        "fleißig (M)",
-        "heute (T)",
-        "er",
-        "in der Bibliothek (L) .\n   (Er lernt ...)"
+        "heute",
+        "für",
+        "die",
+        "Prüfung",
+        "fleißig",
+        "in",
+        "der",
+        "Bibliothek"
       ],
       "correctAnswers": [
         "Er lernt heute  für die Prüfung  fleißig  in der Bibliothek ."
@@ -1035,7 +1158,7 @@ const LESSON_QUIZZES_A1A2 = {
   "edatli-zarflar": [
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "___________auf wartest du? Auf den Bus? (warten auf)",
       "options": [
         "Womit",
         "Worauf",
@@ -1048,7 +1171,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "___________mit fährst du nach Berlin? Mit dem Zug? (fahren mit)",
       "options": [
         "Womit",
         "Worauf",
@@ -1061,7 +1184,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "___________auf hast du Lust? Auf Pizza oder Pasta? (Lust haben auf)",
       "options": [
         "Womit",
         "Worauf",
@@ -1074,7 +1197,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "___________mit spielt das Kind? Mit dem Ball? (spielen mit)",
       "options": [
         "Womit",
         "Worauf",
@@ -1087,7 +1210,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Wartest du auf das Express-Paket?\n   -> Ja, ich warte",
+      "question": "Wartest du auf das Express-Paket?\n   -> Ja, ich warte _______________.",
       "options": [
         "bin",
         "damit",
@@ -1100,7 +1223,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Bist du mit dem neuen Fahrrad zufrieden?\n   -> Ja, ich bin",
+      "question": "Bist du mit dem neuen Fahrrad zufrieden?\n   -> Ja, ich bin _______________ sehr zufrieden.",
       "options": [
         "bin",
         "damit",
@@ -1113,7 +1236,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Hast du Lust auf einen Kaffee?\n   -> Nein, ich habe keine Lust",
+      "question": "Hast du Lust auf einen Kaffee?\n   -> Nein, ich habe keine Lust _______________.",
       "options": [
         "bin",
         "damit",
@@ -1126,7 +1249,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Arbeitest du heute mit dem neuen Computer?\n   -> Ja, ich arbeite",
+      "question": "Arbeitest du heute mit dem neuen Computer?\n   -> Ja, ich arbeite _______________.",
       "options": [
         "bin",
         "damit",
@@ -1173,10 +1296,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "das Auto",
+        "Das",
+        "Auto",
         "wird",
-        "repariert",
-        "heute"
+        "heute",
+        "repariert"
       ],
       "correctAnswers": [
         "Das Auto wird heute repariert."
@@ -1186,10 +1310,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "gekocht",
-        "die Suppe",
-        "von der Mutter",
-        "wird"
+        "Die",
+        "Suppe",
+        "wird",
+        "von",
+        "der",
+        "Mutter",
+        "gekocht"
       ],
       "correctAnswers": [
         "Die Suppe wird von der Mutter gekocht."
@@ -1199,10 +1326,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "das Zimmer",
-        "jeden Samstag",
-        "geputzt",
-        "wird"
+        "Das",
+        "Zimmer",
+        "wird",
+        "jeden",
+        "Samstag",
+        "geputzt"
       ],
       "correctAnswers": [
         "Das Zimmer wird jeden Samstag geputzt."
@@ -1212,11 +1341,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "am Morgen",
-        "Kaffee",
-        "getrunken",
+        "Am",
+        "Morgen",
         "wird",
-        "viel"
+        "viel",
+        "Kaffee",
+        "getrunken"
       ],
       "correctAnswers": [
         "Am Morgen wird viel Kaffee getrunken.",
@@ -1224,45 +1354,48 @@ const LESSON_QUIZZES_A1A2 = {
       ]
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Meine Mutter kocht die Pizza.\n   -> Die Pizza"
-      ],
-      "correctAnswers": [
-        "wird gekocht"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Der Bruder putzt das Fahrrad.\n   -> Das Fahrrad"
-      ],
-      "correctAnswers": [
-        "wird geputzt"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Wir trinken den Tee.\n   -> Der Tee"
-      ],
-      "correctAnswers": [
+      "type": "multiple-choice",
+      "question": "Meine Mutter kocht die Pizza.\n   -> Die Pizza _______________________________________________.",
+      "options": [
+        "werden repariert",
+        "wird gekocht",
+        "wird geputzt",
         "wird getrunken"
-      ]
+      ],
+      "correct": 1
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Der Mechaniker repariert die Autos. (Achtung: Plural",
-        "Çoğul!)\n   -> Die Autos"
+      "type": "multiple-choice",
+      "question": "Der Bruder putzt das Fahrrad.\n   -> Das Fahrrad _____________________________________________.",
+      "options": [
+        "werden repariert",
+        "wird gekocht",
+        "wird geputzt",
+        "wird getrunken"
       ],
-      "correctAnswers": [
-        "werden repariert"
-      ]
+      "correct": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Wir trinken den Tee.\n   -> Der Tee _________________________________________________.",
+      "options": [
+        "werden repariert",
+        "wird gekocht",
+        "wird geputzt",
+        "wird getrunken"
+      ],
+      "correct": 3
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Der Mechaniker repariert die Autos. (Achtung: Plural / Çoğul!)\n   -> Die Autos _______________________________________________.",
+      "options": [
+        "werden repariert",
+        "wird gekocht",
+        "wird geputzt",
+        "wird getrunken"
+      ],
+      "correct": 0
     },
     {
       "type": "multiple-choice",
@@ -1300,11 +1433,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "gestern",
+        "Gestern",
+        "habe",
         "ich",
         "Deutsch",
-        "gelernt",
-        "habe"
+        "gelernt"
       ],
       "correctAnswers": [
         "Gestern habe ich Deutsch gelernt.",
@@ -1315,11 +1448,14 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "am Wochenende",
-        "nach Berlin",
-        "gefahren",
-        "meine Freunde",
-        "sind"
+        "Am",
+        "Wochenende",
+        "sind",
+        "meine",
+        "Freunde",
+        "nach",
+        "München",
+        "gefahren"
       ],
       "correctAnswers": [
         "Am Wochenende sind meine Freunde nach München gefahren.",
@@ -1330,11 +1466,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "im Supermarkt",
+        "Heute",
+        "haben",
         "wir",
-        "eingekauft",
-        "heute",
-        "haben . (Ayrılan fiil)"
+        "im",
+        "Supermarkt",
+        "eingekauft"
       ],
       "correctAnswers": [
         "Heute haben wir im Supermarkt eingekauft.",
@@ -1345,11 +1482,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "meine Mutter",
-        "gekocht",
-        "eine Suppe",
+        "Heute",
         "hat",
-        "heute"
+        "meine",
+        "Mutter",
+        "eine",
+        "Suppe",
+        "gekocht"
       ],
       "correctAnswers": [
         "Heute hat meine Mutter eine Suppe gekocht.",
@@ -1358,7 +1497,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Ich",
+      "question": "Ich __________ gestern im Park spazieren gegangen.",
       "options": [
         "bin",
         "haben",
@@ -1370,7 +1509,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Was",
+      "question": "Was __________ du heute Morgen gefrühstückt?",
       "options": [
         "bin",
         "haben",
@@ -1382,7 +1521,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Wir",
+      "question": "Wir __________ am Sonntag lange geschlafen.",
       "options": [
         "bin",
         "haben",
@@ -1394,7 +1533,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Wann",
+      "question": "Wann __________ deine Freunde aus der Türkei gekommen?",
       "options": [
         "bin",
         "haben",
@@ -1406,7 +1545,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Er",
+      "question": "Er __________ ein neues Fahrrad gekauft.",
       "options": [
         "bin",
         "haben",
@@ -1449,75 +1588,95 @@ const LESSON_QUIZZES_A1A2 = {
   ],
   "kendini-tanitma": [
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Wie ist dein"
-      ],
-      "correctAnswers": [
-        "Name"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Wer bist du? -> Ich"
-      ],
-      "correctAnswers": [
-        "bin"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Woher kommst du? -> Ich komme"
-      ],
-      "correctAnswers": [
-        "aus"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Wo wohnst du jetzt? -> Ich wohne"
-      ],
-      "correctAnswers": [
+      "type": "multiple-choice",
+      "question": "Wie ist dein _______________? -> Mein Name ist Özdemir.",
+      "options": [
+        "Name",
+        "alt",
+        "aus",
+        "bin",
+        "heißt",
         "in"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Wie alt bist du? -> Ich bin 25 Jahre"
       ],
-      "correctAnswers": [
-        "alt"
-      ]
+      "correct": 0
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Wie"
+      "type": "multiple-choice",
+      "question": "Wer bist du? -> Ich _______________ Erhan.",
+      "options": [
+        "Name",
+        "alt",
+        "aus",
+        "bin",
+        "heißt",
+        "in"
       ],
-      "correctAnswers": [
-        "heißt"
-      ]
+      "correct": 3
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Woher kommst du? -> Ich komme _______________ der Türkei.",
+      "options": [
+        "Name",
+        "alt",
+        "aus",
+        "bin",
+        "heißt",
+        "in"
+      ],
+      "correct": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Wo wohnst du jetzt? -> Ich wohne _______________ Berlin.",
+      "options": [
+        "Name",
+        "alt",
+        "aus",
+        "bin",
+        "heißt",
+        "in"
+      ],
+      "correct": 5
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Wie alt bist du? -> Ich bin 25 Jahre _______________.",
+      "options": [
+        "Name",
+        "alt",
+        "aus",
+        "bin",
+        "heißt",
+        "in"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Wie _______________ du? -> Ich heiße Ahmet.",
+      "options": [
+        "Name",
+        "alt",
+        "aus",
+        "bin",
+        "heißt",
+        "in"
+      ],
+      "correct": 4
     },
     {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Erhan",
-        "ich",
-        "und",
+        "Ich",
         "heiße",
+        "Erhan",
+        "und",
         "komme",
-        "aus der Türkei"
+        "aus",
+        "der",
+        "Türkei"
       ],
       "correctAnswers": [
         "Ich heiße Erhan und komme aus der Türkei."
@@ -1527,10 +1686,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "in Berlin",
-        "seit zwei Monaten",
-        "ich",
-        "wohne"
+        "Ich",
+        "wohne",
+        "seit",
+        "zwei",
+        "Monaten",
+        "in",
+        "Berlin"
       ],
       "correctAnswers": [
         "Ich wohne seit zwei Monaten in Berlin.",
@@ -1541,11 +1703,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "alt",
+        "Ich",
+        "bin",
         "einunddreißig",
-        "ich",
         "Jahre",
-        "bin"
+        "alt"
       ],
       "correctAnswers": [
         "Ich bin einunddreißig Jahre alt."
@@ -1555,14 +1717,14 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
+        "Mein",
+        "Name",
         "ist",
-        "mein Name",
         "Tokul",
-        ".",
-        "zwanzig",
-        "ich",
-        "Jahre",
+        "Ich",
         "bin",
+        "zwanzig",
+        "Jahre",
         "alt"
       ],
       "correctAnswers": [
@@ -1605,11 +1767,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "hier",
+        "Hier",
+        "darf",
         "man",
         "nicht",
-        "rauchen",
-        "darf . (Yasak tabelası)"
+        "rauchen"
       ],
       "correctAnswers": [
         "Hier darf man nicht rauchen.",
@@ -1620,11 +1782,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Schokolade",
-        "ich",
+        "Ich",
         "darf",
-        "essen",
-        "heute . (İzin)"
+        "heute",
+        "Schokolade",
+        "essen"
       ],
       "correctAnswers": [
         "Ich darf heute Schokolade essen.",
@@ -1635,10 +1797,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "im Park",
-        "die Kinder",
-        "spielen",
-        "dürfen"
+        "Die",
+        "Kinder",
+        "dürfen",
+        "im",
+        "Park",
+        "spielen"
       ],
       "correctAnswers": [
         "Die Kinder dürfen im Park spielen.",
@@ -1649,11 +1813,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "parken",
-        "du",
+        "Du",
+        "darfst",
         "hier",
         "nicht",
-        "darfst"
+        "parken"
       ],
       "correctAnswers": [
         "Du darfst hier nicht parken.",
@@ -1662,7 +1826,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Ich bin krank. Der Arzt sagt: Ich",
+      "question": "Ich bin krank. Der Arzt sagt: Ich __________ heute nicht arbeiten.",
       "options": [
         "darf",
         "dürfen",
@@ -1672,7 +1836,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Hallo Kinder! Ihr",
+      "question": "Hallo Kinder! Ihr __________ hier laut Musik hören.",
       "options": [
         "darf",
         "dürfen",
@@ -1682,7 +1846,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Herr Novak,",
+      "question": "Herr Novak, __________ man hier das Auto parken?",
       "options": [
         "darf",
         "dürfen",
@@ -1692,7 +1856,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Das Kind",
+      "question": "Das Kind __________ heute länger fernsehen, weil Wochenende ist.",
       "options": [
         "darf",
         "dürfen",
@@ -1702,7 +1866,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Wir",
+      "question": "Wir __________ in der Prüfung kein Wörterbuch benutzen. Es ist verboten.",
       "options": [
         "darf",
         "dürfen",
@@ -1746,11 +1910,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "heute Abend",
-        "ich",
+        "Ich",
+        "will",
+        "heute",
+        "Abend",
         "Musik",
-        "hören",
-        "will"
+        "hören"
       ],
       "correctAnswers": [
         "Ich will heute Abend Musik hören.",
@@ -1761,10 +1926,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "in Deutschland",
-        "studieren",
+        "Sie",
         "will",
-        "sie"
+        "in",
+        "Deutschland",
+        "studieren"
       ],
       "correctAnswers": [
         "Sie will in Deutschland studieren.",
@@ -1775,12 +1941,14 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "am Wochenende",
-        "wir",
-        "Fußball",
-        "spielen",
+        "Wir",
         "wollen",
-        "im Park"
+        "am",
+        "Wochenende",
+        "Fußball",
+        "im",
+        "Park",
+        "spielen"
       ],
       "correctAnswers": [
         "Wir wollen am Wochenende Fußball im Park spielen."
@@ -1790,11 +1958,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "einen Kaffee",
-        "trinken",
+        "Willst",
         "du",
-        "willst",
-        "jetzt ? (Achtung: Frage!)"
+        "jetzt",
+        "einen",
+        "Kaffee",
+        "trinken"
       ],
       "correctAnswers": [
         "Willst du jetzt einen Kaffee trinken?"
@@ -1802,7 +1971,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Ich",
+      "question": "Ich __________ heute nicht kochen. Ich gehe im Restaurant essen.",
       "options": [
         "Wollt",
         "will",
@@ -1812,7 +1981,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Hallo Kinder!",
+      "question": "Hallo Kinder! __________ ihr heute Nachmittag Tennis spielen?",
       "options": [
         "Wollt",
         "will",
@@ -1822,7 +1991,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Herr Demir",
+      "question": "Herr Demir __________ im Sommer nach Spanien fliegen.",
       "options": [
         "Wollt",
         "will",
@@ -1832,7 +2001,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Meine Freunde",
+      "question": "Meine Freunde __________ am Samstag eine große Party machen.",
       "options": [
         "Wollt",
         "will",
@@ -1842,7 +2011,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Das Kind",
+      "question": "Das Kind __________ keine Suppe essen, es möchte lieber Pizza.",
       "options": [
         "Wollt",
         "will",
@@ -1884,7 +2053,7 @@ const LESSON_QUIZZES_A1A2 = {
   "sayilar-siralama": [
     {
       "type": "multiple-choice",
-      "question": "16 ->",
+      "question": "16 -> _______________________________________________________",
       "options": [
         "achtundfünfzig",
         "dreißig",
@@ -1896,7 +2065,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "17 ->",
+      "question": "17 -> _______________________________________________________",
       "options": [
         "achtundfünfzig",
         "dreißig",
@@ -1908,7 +2077,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "24 ->",
+      "question": "24 -> _______________________________________________________",
       "options": [
         "achtundfünfzig",
         "dreißig",
@@ -1920,7 +2089,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "30 ->",
+      "question": "30 -> _______________________________________________________",
       "options": [
         "achtundfünfzig",
         "dreißig",
@@ -1932,7 +2101,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "58 ->",
+      "question": "58 -> _______________________________________________________",
       "options": [
         "achtundfünfzig",
         "dreißig",
@@ -1944,7 +2113,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Wann hast du Geburtstag? -> Ich habe am 3.",
+      "question": "Wann hast du Geburtstag? -> Ich habe am 3.___________ (drit___) Mai Geburtstag.",
       "options": [
         "dritten",
         "ersten",
@@ -1956,7 +2125,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Heute ist der 1. Mai. -> Am 1.",
+      "question": "Heute ist der 1. Mai. -> Am 1.___________ (ers___) Mai haben wir schulfrei.",
       "options": [
         "dritten",
         "ersten",
@@ -1968,7 +2137,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Der Express-Termin ist am 20.",
+      "question": "Der Express-Termin ist am 20.___________ (zwanzig___) Juni.",
       "options": [
         "dritten",
         "ersten",
@@ -1980,7 +2149,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Herr Novak kommt am 7.",
+      "question": "Herr Novak kommt am 7.___________ (sieb___) September nach Berlin.",
       "options": [
         "dritten",
         "ersten",
@@ -1992,7 +2161,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Mein Vater feiert am 22.",
+      "question": "Mein Vater feiert am 22.___________ (zweiundzwanzig___) Oktober ein Fest.",
       "options": [
         "dritten",
         "ersten",
@@ -2038,11 +2207,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "früh",
-        "ich",
-        "aufstehen",
+        "Ich",
         "soll",
-        "heute"
+        "heute",
+        "früh",
+        "aufstehen"
       ],
       "correctAnswers": [
         "Ich soll heute früh aufstehen.",
@@ -2053,10 +2222,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "viele Vitamine",
-        "essen",
-        "du",
-        "sollst"
+        "Du",
+        "sollst",
+        "viele",
+        "Vitamine",
+        "essen"
       ],
       "correctAnswers": [
         "Du sollst viele Vitamine essen."
@@ -2066,11 +2236,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "leise",
-        "im Krankenhaus",
+        "Im",
+        "Krankenhaus",
+        "soll",
         "man",
-        "sein",
-        "soll"
+        "leise",
+        "sein"
       ],
       "correctAnswers": [
         "Im Krankenhaus soll man leise sein.",
@@ -2081,11 +2252,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "machen",
-        "Hausaufgaben",
-        "die Kinder",
+        "Die",
+        "Kinder",
         "sollen",
-        "jetzt"
+        "jetzt",
+        "Hausaufgaben",
+        "machen"
       ],
       "correctAnswers": [
         "Die Kinder sollen jetzt Hausaufgaben machen.",
@@ -2096,11 +2268,10 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "machen",
-        "Sport",
+        "Soll",
         "er",
-        "soll",
-        "? (Achtung: Frage!)"
+        "Sport",
+        "machen"
       ],
       "correctAnswers": [
         "Soll er Sport machen?"
@@ -2108,7 +2279,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Der Arzt sagt: Ich",
+      "question": "Der Arzt sagt: Ich __________ im Bett bleiben und Tee trinken.",
       "options": [
         "soll",
         "sollen",
@@ -2118,7 +2289,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Hallo Kinder! Ihr",
+      "question": "Hallo Kinder! Ihr __________ heute fleißig Deutsch lernen.",
       "options": [
         "soll",
         "sollen",
@@ -2128,7 +2299,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Frau Alahmed, Sie",
+      "question": "Frau Alahmed, Sie __________ den Zettel im Erdgeschoss lesen.",
       "options": [
         "soll",
         "sollen",
@@ -2138,7 +2309,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Mein Bruder",
+      "question": "Mein Bruder __________ mehr Wasser trinken, das ist gesund.",
       "options": [
         "soll",
         "sollen",
@@ -2148,7 +2319,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Die Schüler",
+      "question": "Die Schüler __________ morgen pünktlich zur Prüfung kommen.",
       "options": [
         "soll",
         "sollen",
@@ -2189,71 +2360,94 @@ const LESSON_QUIZZES_A1A2 = {
   ],
   "sifat-cekimi": [
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Der Kaffee ist heiß"
+      "type": "multiple-choice",
+      "question": "Der Kaffee ist heiß___. (Sıfat tek başına)",
+      "options": [
+        "-e",
+        "-em",
+        "-en",
+        "-er",
+        "-es",
+        "Ek yok (boş)"
       ],
-      "correctAnswers": [
-        "kein Ek",
-        "boş"
-      ]
+      "correct": 5
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Das ist ein heiß___ Kaffee. (ein + der Kaffee)",
+      "options": [
+        "-e",
+        "-em",
+        "-en",
+        "-er",
+        "-es",
+        "Ek yok (boş)"
+      ],
+      "correct": 3
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Herr Novak kauft das neu___ Fahrrad. (das + das Fahrrad)",
+      "options": [
+        "-e",
+        "-em",
+        "-en",
+        "-er",
+        "-es",
+        "Ek yok (boş)"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Ich suche eine klein___ Tasche. (eine + die Tasche)",
+      "options": [
+        "-e",
+        "-em",
+        "-en",
+        "-er",
+        "-es",
+        "Ek yok (boş)"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Herr Demir repariert den kaputt___ Computer. (den + der Computer / Akkusativ!)",
+      "options": [
+        "-e",
+        "-em",
+        "-en",
+        "-er",
+        "-es",
+        "Ek yok (boş)"
+      ],
+      "correct": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Wir mieten eine schön___ Wohnung in Berlin. (eine + die Wohnung)",
+      "options": [
+        "-e",
+        "-em",
+        "-en",
+        "-er",
+        "-es",
+        "Ek yok (boş)"
+      ],
+      "correct": 0
     },
     {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Das ist ein heiß"
-      ],
-      "correctAnswers": [
-        "heißer"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Herr Novak kauft das neu"
-      ],
-      "correctAnswers": [
-        "neue"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Ich suche eine klein"
-      ],
-      "correctAnswers": [
-        "kleine"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Herr Demir repariert den kaputt"
-      ],
-      "correctAnswers": [
-        "kaputten"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Wir mieten eine schön"
-      ],
-      "correctAnswers": [
-        "schöne"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "ein lecker"
+        "Meine",
+        "Mutter",
+        "kocht",
+        "heute",
+        "ein",
+        "leckeres",
+        "Essen"
       ],
       "correctAnswers": [
         "Meine Mutter kocht heute ein leckeres Essen.",
@@ -2264,7 +2458,14 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "einen neu"
+        "Ich",
+        "brauche",
+        "einen",
+        "neuen",
+        "Laptop",
+        "für",
+        "meinen",
+        "Beruf"
       ],
       "correctAnswers": [
         "Ich brauche einen neuen Laptop für meinen Beruf."
@@ -2274,7 +2475,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "das groß"
+        "Das",
+        "große",
+        "Haus",
+        "steht",
+        "im",
+        "Garten"
       ],
       "correctAnswers": [
         "Das große Haus steht im Garten.",
@@ -2312,114 +2518,147 @@ const LESSON_QUIZZES_A1A2 = {
       "correct": 0
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Das ist das alt"
+      "type": "multiple-choice",
+      "question": "Das ist das alt___ Buch von Herrn Novak. (das Buch)",
+      "options": [
+        "-e",
+        "-em",
+        "-en",
+        "-er",
+        "-es",
+        "Ek yok (boş)"
       ],
-      "correctAnswers": [
-        "alte"
-      ]
+      "correct": 0
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Herr Demir hat ein neu"
+      "type": "multiple-choice",
+      "question": "Herr Demir hat ein neu___ Auto. (das Auto)",
+      "options": [
+        "-e",
+        "-em",
+        "-en",
+        "-er",
+        "-es",
+        "Ek yok (boş)"
       ],
-      "correctAnswers": [
-        "neues"
-      ]
+      "correct": 4
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Der blau"
+      "type": "multiple-choice",
+      "question": "Der blau___ Tisch steht im Garten. (der Tisch)",
+      "options": [
+        "-e",
+        "-em",
+        "-en",
+        "-er",
+        "-es",
+        "Ek yok (boş)"
       ],
-      "correctAnswers": [
-        "blaue"
-      ]
+      "correct": 0
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Das ist ein frisch"
+      "type": "multiple-choice",
+      "question": "Das ist ein frisch___ Kaffee. (der Kaffee)",
+      "options": [
+        "-e",
+        "-em",
+        "-en",
+        "-er",
+        "-es",
+        "Ek yok (boş)"
       ],
-      "correctAnswers": [
-        "frischer"
-      ]
+      "correct": 3
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Eine gelb"
+      "type": "multiple-choice",
+      "question": "Eine gelb___ Rose liegt auf dem Tisch. (die Rose)",
+      "options": [
+        "-e",
+        "-em",
+        "-en",
+        "-er",
+        "-es",
+        "Ek yok (boş)"
       ],
-      "correctAnswers": [
-        "gelbe"
-      ]
+      "correct": 0
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Die alt"
+      "type": "multiple-choice",
+      "question": "Die alt___ Bücher liegen im Keller. (Plural / Çoğul!)",
+      "options": [
+        "-e",
+        "-em",
+        "-en",
+        "-er",
+        "-es",
+        "Ek yok (boş)"
       ],
-      "correctAnswers": [
-        "alten"
-      ]
+      "correct": 2
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Ich suche den blau"
+      "type": "multiple-choice",
+      "question": "Ich suche den blau___ Tisch. (Akkusativ / der Tisch)",
+      "options": [
+        "-e",
+        "-em",
+        "-en",
+        "-er",
+        "-es",
+        "Ek yok (boş)"
       ],
-      "correctAnswers": [
-        "blauen"
-      ]
+      "correct": 2
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Frau Alahmed kauft ein neu"
+      "type": "multiple-choice",
+      "question": "Frau Alahmed kauft ein neu___ Fahrrad. (Akkusativ / das Fahrrad)",
+      "options": [
+        "-e",
+        "-em",
+        "-en",
+        "-er",
+        "-es",
+        "Ek yok (boş)"
       ],
-      "correctAnswers": [
-        "neues"
-      ]
+      "correct": 4
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Er hilft einer alt"
+      "type": "multiple-choice",
+      "question": "Er hilft einer alt___ Frau. (Dativ / die Frau -> einer)",
+      "options": [
+        "-e",
+        "-em",
+        "-en",
+        "-er",
+        "-es",
+        "Ek yok (boş)"
       ],
-      "correctAnswers": [
-        "alten"
-      ]
+      "correct": 2
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Wir wohnen in einem groß"
+      "type": "multiple-choice",
+      "question": "Wir wohnen in einem groß___ Haus. (Dativ / das Haus -> einem)",
+      "options": [
+        "-e",
+        "-em",
+        "-en",
+        "-er",
+        "-es",
+        "Ek yok (boş)"
       ],
-      "correctAnswers": [
-        "großen"
-      ]
+      "correct": 2
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Herr Novak sucht einen neu"
+      "type": "multiple-choice",
+      "question": "Herr Novak sucht einen neu___ Laptop. (Akkusativ / der Laptop)",
+      "options": [
+        "-e",
+        "-em",
+        "-en",
+        "-er",
+        "-es",
+        "Ek yok (boş)"
       ],
-      "correctAnswers": [
-        "neuen"
-      ]
+      "correct": 2
     },
     {
       "type": "multiple-choice",
@@ -2454,60 +2693,59 @@ const LESSON_QUIZZES_A1A2 = {
   ],
   "derecelendirme": [
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Berlin ist çok büyük. İstanbul da çok büyük.\n   -> Berlin ist"
-      ],
-      "correctAnswers": [
+      "type": "multiple-choice",
+      "question": "Berlin ist çok büyük. İstanbul da çok büyük.\n   -> Berlin ist ____________________ groß ____________________ İstanbul.",
+      "options": [
+        "als",
+        "am",
+        "so  wie",
         "so ... wie"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Erhan ist 25 Jahre alt. Ahmet ist 30 Jahre alt. Ahmet ist älter"
       ],
-      "correctAnswers": [
-        "als (Komparativ kıyaslamalarda 'daha...' anlamından sonra 'als' [den",
-        "dan] kullanımı zorunludur.)"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Meine Mutter kocht gut, aber mein Vater kocht"
-      ],
-      "correctAnswers": [
-        "am"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Ich bin 1,80 m. Mein Bruder ist 1,85 m. Mein Bruder ist größer"
-      ],
-      "correctAnswers": [
-        "als (Kıyaslama cümlesidir, 'büyük",
-        "grösser' sıfatından sonra 'als' gelir.)"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Dieses Auto ist teuer, ama jene Tasche ist"
-      ],
-      "correctAnswers": [
-        "am"
-      ]
+      "correct": 3
     },
     {
       "type": "multiple-choice",
-      "question": "(gut)        Ich trinke Kaffee, ama çay trinken ist",
+      "question": "Erhan ist 25 Jahre alt. Ahmet ist 30 Jahre alt. Ahmet ist älter ____________________ Erhan.",
+      "options": [
+        "als",
+        "am",
+        "so  wie"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Meine Mutter kocht gut, aber mein Vater kocht ____________________ besten.",
+      "options": [
+        "als",
+        "am",
+        "so  wie"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Ich bin 1,80 m. Mein Bruder ist 1,85 m. Mein Bruder ist größer ____________________ ich.",
+      "options": [
+        "als",
+        "am",
+        "so  wie"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Dieses Auto ist teuer, ama jene Tasche ist ____________________ teuersten.",
+      "options": [
+        "als",
+        "am",
+        "so  wie"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "(gut)        Ich trinke Kaffee, ama çay trinken ist ____________________.",
       "options": [
         "am",
         "besser",
@@ -2517,7 +2755,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(gern)       Ich spiele Basketball, aber ich spiele Padel-Tennis",
+      "question": "(gern)       Ich spiele Basketball, aber ich spiele Padel-Tennis ____________________ liebsten.",
       "options": [
         "am",
         "besser",
@@ -2527,7 +2765,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(kurz)       Im Februar sind die Tage",
+      "question": "(kurz)       Im Februar sind die Tage ____________________ als im Juli.",
       "options": [
         "am",
         "besser",
@@ -2537,7 +2775,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(gut)        Herr Novak programmiert Python gut, aber er programmiert in SQL",
+      "question": "(gut)        Herr Novak programmiert Python gut, aber er programmiert in SQL ____________________ besten.",
       "options": [
         "am",
         "besser",
@@ -2547,7 +2785,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(stark)      Mein Vater ist stark, ama mein Opa ist",
+      "question": "(stark)      Mein Vater ist stark, ama mein Opa ist ____________________ stärksten.",
       "options": [
         "am",
         "besser",
@@ -2588,68 +2826,77 @@ const LESSON_QUIZZES_A1A2 = {
   ],
   "selamlasma-vedalasma": [
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Es ist 08:00 Uhr morgens. Herr Demir kommt ins Büro. Er sagt: \""
-      ],
-      "correctAnswers": [
+      "type": "multiple-choice",
+      "question": "Es ist 08:00 Uhr morgens. Herr Demir kommt ins Büro. Er sagt: \"____________________, Kollegen!\"",
+      "options": [
+        "Auf Wiederhören",
+        "Auf Wiedersehen",
+        "Gute Nacht",
+        "Guten Abend",
         "Guten Morgen"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Es ist 23:00 Uhr. Das Kind geht ins Bett. Es sagt zu den Eltern: \""
       ],
-      "correctAnswers": [
-        "Gute Nacht"
-      ]
+      "correct": 4
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Herr Novak spricht am Telefon mit dem Kundenservice. Am Ende sagt er: \"Vielen Dank und"
+      "type": "multiple-choice",
+      "question": "Es ist 23:00 Uhr. Das Kind geht ins Bett. Es sagt zu den Eltern: \"____________________!\"",
+      "options": [
+        "Auf Wiederhören",
+        "Auf Wiedersehen",
+        "Gute Nacht",
+        "Guten Abend",
+        "Guten Morgen"
       ],
-      "correctAnswers": [
-        "Auf Wiederhören"
-      ]
+      "correct": 2
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Mia trifft Lukas um 19:00 Uhr im Restaurant. Sie sagt: \""
+      "type": "multiple-choice",
+      "question": "Herr Novak spricht am Telefon mit dem Kundenservice. Am Ende sagt er: \"Vielen Dank und ____________________!\"",
+      "options": [
+        "Auf Wiederhören",
+        "Auf Wiedersehen",
+        "Gute Nacht",
+        "Guten Abend",
+        "Guten Morgen"
       ],
-      "correctAnswers": [
-        "Guten Abend"
-      ]
+      "correct": 0
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Herr Demir verlässt das Bürgeramt nach dem Termin. Er sagt zur Mitarbeiterin: \"Tschüss und"
+      "type": "multiple-choice",
+      "question": "Mia trifft Lukas um 19:00 Uhr im Restaurant. Sie sagt: \"____________________, Lukas! Wie geht es dir?\"",
+      "options": [
+        "Auf Wiederhören",
+        "Auf Wiedersehen",
+        "Gute Nacht",
+        "Guten Abend",
+        "Guten Morgen"
       ],
-      "correctAnswers": [
-        "Auf Wiedersehen"
-      ]
+      "correct": 3
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Herr Demir verlässt das Bürgeramt nach dem Termin. Er sagt zur Mitarbeiterin: \"Tschüss und ____________________!\"",
+      "options": [
+        "Auf Wiederhören",
+        "Auf Wiedersehen",
+        "Gute Nacht",
+        "Guten Abend",
+        "Guten Morgen"
+      ],
+      "correct": 1
     },
     {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Herr Demir",
-        "Guten Tag",
-        ",",
-        "!",
-        "wie",
-        "Ihnen",
+        "Guten",
+        "Tag",
+        "Herr",
+        "Demir",
+        "Wie",
         "geht",
         "es",
-        ""
+        "Ihnen"
       ],
       "correctAnswers": [
         "Guten Tag, Herr Demir! Wie geht es Ihnen?"
@@ -2659,11 +2906,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "am Telefon",
+        "Am",
+        "Telefon",
+        "sage",
         "ich",
-        "sagen",
-        "\"Auf Wiederhören\"",
-        ""
+        "\"Auf",
+        "Wiederhören\""
       ],
       "correctAnswers": [
         "Am Telefon sage ich \"Auf Wiederhören\".",
@@ -2674,13 +2922,17 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
+        "Um",
+        "22:00",
+        "Uhr",
         "gehen",
         "wir",
-        "um 22:00 Uhr",
-        "ins Bett",
+        "ins",
+        "Bett",
         "und",
         "sagen",
-        "\"Gute Nacht\""
+        "\"Gute",
+        "Nacht\""
       ],
       "correctAnswers": [
         "Um 22:00 Uhr gehen wir ins Bett und sagen \"Gute Nacht\".",
@@ -2720,58 +2972,73 @@ const LESSON_QUIZZES_A1A2 = {
   ],
   "vucut-saglik": [
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Mein Bauch (der Bauch)"
-      ],
-      "correctAnswers": [
+      "type": "multiple-choice",
+      "question": "Mein Bauch (der Bauch) _______________. Ich habe zu viel Pizza gegessen.",
+      "options": [
+        "bin",
+        "haben",
+        "hat",
+        "ist",
+        "tun weh",
         "tut weh"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Meine Ohren (die Ohren - Plural)"
       ],
-      "correctAnswers": [
-        "tun weh"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Mein Rücken (der Rücken)"
-      ],
-      "correctAnswers": [
-        "tut weh"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Meine Beine (die Beine - Plural)"
-      ],
-      "correctAnswers": [
-        "tun weh"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Mein Hals (der Hals)"
-      ],
-      "correctAnswers": [
-        "tut weh"
-      ]
+      "correct": 5
     },
     {
       "type": "multiple-choice",
-      "question": "Mein Bauch tut weh. \n   -> Ich",
+      "question": "Meine Ohren (die Ohren - Plural) _______________. Die Musik war sehr laut.",
+      "options": [
+        "bin",
+        "haben",
+        "hat",
+        "ist",
+        "tun weh",
+        "tut weh"
+      ],
+      "correct": 4
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Mein Rücken (der Rücken) _______________ vom schweren Möbeltragen.",
+      "options": [
+        "bin",
+        "haben",
+        "hat",
+        "ist",
+        "tun weh",
+        "tut weh"
+      ],
+      "correct": 5
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Meine Beine (die Beine - Plural) _______________ nach dem Fußballspiel.",
+      "options": [
+        "bin",
+        "haben",
+        "hat",
+        "ist",
+        "tun weh",
+        "tut weh"
+      ],
+      "correct": 4
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Mein Hals (der Hals) _______________. Ich kann nicht gut sprechen.",
+      "options": [
+        "bin",
+        "haben",
+        "hat",
+        "ist",
+        "tun weh",
+        "tut weh"
+      ],
+      "correct": 5
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Mein Bauch tut weh. \n   -> Ich ______________________________________________________.",
       "options": [
         "Er hat Rückenschmerzen",
         "Herr Demir hat Halsschmerzen",
@@ -2781,7 +3048,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Mein Rücken tut weh.\n   -> Er",
+      "question": "Mein Rücken tut weh.\n   -> Er _______________________________________________________.",
       "options": [
         "Er hat Rückenschmerzen",
         "Herr Demir hat Halsschmerzen",
@@ -2791,7 +3058,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Mein Hals tut weh. (Hals + schmerzen)\n   -> Herr Demir",
+      "question": "Mein Hals tut weh. (Hals + schmerzen)\n   -> Herr Demir _______________________________________________.",
       "options": [
         "Er hat Rückenschmerzen",
         "Herr Demir hat Halsschmerzen",
@@ -2835,13 +3102,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "ich",
-        "zu Hause",
+        "Ich",
         "bleibe",
-        ",",
+        "zu",
+        "Hause",
         "weil",
-        "müde",
         "ich",
+        "müde",
         "bin"
       ],
       "correctAnswers": [
@@ -2852,13 +3119,15 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Herr Novak",
-        "ruft an",
-        ",",
+        "Herr",
+        "Novak",
+        "ruft",
+        "an",
         "weil",
-        "das Paket",
-        "ist",
-        "weg"
+        "das",
+        "Paket",
+        "weg",
+        "ist"
       ],
       "correctAnswers": [
         "Herr Novak ruft an, weil das Paket weg ist."
@@ -2868,14 +3137,14 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "sie",
-        "Deutsch",
+        "Sie",
         "lernt",
-        ",",
+        "Deutsch",
         "weil",
-        "einen Beruf",
-        "braucht",
-        "sie"
+        "sie",
+        "einen",
+        "Beruf",
+        "braucht"
       ],
       "correctAnswers": [
         "Sie lernt Deutsch, weil sie einen Beruf braucht."
@@ -2885,14 +3154,14 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "ich",
+        "Ich",
+        "kann",
         "nicht",
         "kommen",
-        "kann",
-        ",",
         "weil",
-        "keine Zeit",
         "ich",
+        "keine",
+        "Zeit",
         "habe"
       ],
       "correctAnswers": [
@@ -2901,7 +3170,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Frau Alahmed kommt zu spät. Ihr Wecker war kaputt.\n   -> Frau Alahmed kommt zu spät, weil",
+      "question": "Frau Alahmed kommt zu spät. Ihr Wecker war kaputt.\n   -> Frau Alahmed kommt zu spät, weil ________________________.",
       "options": [
         "weil ihr Wecker kaputt war",
         "weil sein Kopf weh tut",
@@ -2911,7 +3180,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Er geht zum Arzt. Sein Kopf tut weh.\n   -> Er geht zum Arzt, weil",
+      "question": "Er geht zum Arzt. Sein Kopf tut weh.\n   -> Er geht zum Arzt, weil __________________________________.",
       "options": [
         "weil ihr Wecker kaputt war",
         "weil sein Kopf weh tut",
@@ -2921,7 +3190,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Wir gehen im Restaurant essen. Wir wollen heute nicht kochen. (Achtung: Modalverb!)\n   -> Wir gehen im Restaurant essen, weil",
+      "question": "Wir gehen im Restaurant essen. Wir wollen heute nicht kochen. (Achtung: Modalverb!)\n   -> Wir gehen im Restaurant essen, weil _____________________.",
       "options": [
         "weil ihr Wecker kaputt war",
         "weil sein Kopf weh tut",
@@ -2962,104 +3231,103 @@ const LESSON_QUIZZES_A1A2 = {
   ],
   "yer-edatlari": [
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(Wo?",
-        "der Tisch)       Das Buch liegt auf"
-      ],
-      "correctAnswers": [
-        "dem"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(Wohin?",
-        "der Tisch)    Ich lege das Buch auf"
-      ],
-      "correctAnswers": [
-        "den"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(Wo?",
-        "die Tasche)      Der Kuli ist in"
-      ],
-      "correctAnswers": [
-        "der"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(Wohin?",
-        "das Bett)     Das Kind geht in"
-      ],
-      "correctAnswers": [
-        "das"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(Wo?",
-        "das Kino)        Wir sind in"
-      ],
-      "correctAnswers": [
+      "type": "multiple-choice",
+      "question": "(Wo? / der Tisch)       Das Buch liegt auf _______________ Tisch.",
+      "options": [
+        "das",
         "dem",
-        "im"
-      ]
+        "den",
+        "der"
+      ],
+      "correct": 1
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(zu",
-        "der Arzt)         Ich bin krank. Ich gehe heute"
+      "type": "multiple-choice",
+      "question": "(Wohin? / der Tisch)    Ich lege das Buch auf _______________ Tisch.",
+      "options": [
+        "das",
+        "dem",
+        "den",
+        "der"
       ],
-      "correctAnswers": [
-        "zum"
-      ]
+      "correct": 2
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(aus",
-        "die Schule)      Die Kinder kommen um 13:00 Uhr"
+      "type": "multiple-choice",
+      "question": "(Wo? / die Tasche)      Der Kuli ist in _______________ Tasche.",
+      "options": [
+        "das",
+        "dem",
+        "den",
+        "der"
       ],
-      "correctAnswers": [
-        "aus der"
-      ]
+      "correct": 3
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(zu",
-        "die Bäckerei)     Wir gehen"
+      "type": "multiple-choice",
+      "question": "(Wohin? / das Bett)     Das Kind geht in _______________ Bett.",
+      "options": [
+        "das",
+        "dem",
+        "den",
+        "der"
       ],
-      "correctAnswers": [
+      "correct": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "(Wo? / das Kino)        Wir sind in _______________ Kino.",
+      "options": [
+        "das",
+        "dem",
+        "den",
+        "der"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "(zu / der Arzt)         Ich bin krank. Ich gehe heute _______________ Arzt.",
+      "options": [
+        "aus der",
+        "von meinem",
+        "zum",
         "zur"
-      ]
+      ],
+      "correct": 2
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(von",
-        "mein Vater)      Ich komme gerade"
+      "type": "multiple-choice",
+      "question": "(aus / die Schule)      Die Kinder kommen um 13:00 Uhr _______________ Schule.",
+      "options": [
+        "aus der",
+        "von meinem",
+        "zum",
+        "zur"
       ],
-      "correctAnswers": [
-        "von meinem"
-      ]
+      "correct": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "(zu / die Bäckerei)     Wir gehen _______________ Bäckerei und kaufen Brot.",
+      "options": [
+        "aus der",
+        "von meinem",
+        "zum",
+        "zur"
+      ],
+      "correct": 3
+    },
+    {
+      "type": "multiple-choice",
+      "question": "(von / mein Vater)      Ich komme gerade _______________ Vater. O çok iyi.",
+      "options": [
+        "aus der",
+        "von meinem",
+        "zum",
+        "zur"
+      ],
+      "correct": 1
     },
     {
       "type": "multiple-choice",
@@ -3094,63 +3362,72 @@ const LESSON_QUIZZES_A1A2 = {
   ],
   "yol-tarifi": [
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Entschuldigung, wie kann ich in die Universität gehen? \n   -> Gehen Sie zuerst"
-      ],
-      "correctAnswers": [
-        "geradeaus"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Biegen Sie bitte die erste Straße rechts"
-      ],
-      "correctAnswers": [
-        "abbiegen"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Gehen Sie die Schillerstraße"
-      ],
-      "correctAnswers": [
-        "entlang"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Fahren Sie"
-      ],
-      "correctAnswers": [
-        "bis zur"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Gehen Sie an dem Supermarkt"
-      ],
-      "correctAnswers": [
-        "vorbei"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
+      "type": "multiple-choice",
+      "question": "Entschuldigung, wie kann ich in die Universität gehen? \n   -> Gehen Sie zuerst ____________________. (Dümdüz ilerleyin)",
+      "options": [
+        "abbiegen",
+        "bis zur",
+        "entlang",
         "geradeaus",
+        "vorbei"
+      ],
+      "correct": 3
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Biegen Sie bitte die erste Straße rechts ____________________. (Sağa sapın)",
+      "options": [
+        "abbiegen",
+        "bis zur",
+        "entlang",
+        "geradeaus",
+        "vorbei"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Gehen Sie die Schillerstraße ____________________. (Schiller caddesi boyunca ilerleyin)",
+      "options": [
+        "abbiegen",
+        "bis zur",
+        "entlang",
+        "geradeaus",
+        "vorbei"
+      ],
+      "correct": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Fahren Sie ____________________ Ampel und biegen Sie links ab. (Trafik ışıklarına kadar)",
+      "options": [
+        "abbiegen",
+        "bis zur",
+        "entlang",
+        "geradeaus",
+        "vorbei"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Gehen Sie an dem Supermarkt ____________________. Dort ist die Schule. (Süpermarketin yanından geçin)",
+      "options": [
+        "abbiegen",
+        "bis zur",
+        "entlang",
+        "geradeaus",
+        "vorbei"
+      ],
+      "correct": 4
+    },
+    {
+      "type": "sentence-builder",
+      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
+      "words": [
+        "Gehen",
         "Sie",
-        "gehen",
-        ""
+        "geradeaus"
       ],
       "correctAnswers": [
         "Gehen Sie geradeaus."
@@ -3160,11 +3437,10 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "links",
+        "Biegen",
         "Sie",
-        "ab",
-        "biegen",
-        ""
+        "links",
+        "ab"
       ],
       "correctAnswers": [
         "Biegen Sie links ab."
@@ -3174,12 +3450,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "über",
-        "Brücke",
-        "gehen",
-        "die",
+        "Gehen",
         "Sie",
-        ""
+        "über",
+        "die",
+        "Brücke"
       ],
       "correctAnswers": [
         "Gehen Sie über die Brücke."
@@ -3189,11 +3464,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "die Straße",
+        "Gehen",
         "Sie",
-        "gehen",
-        "entlang",
-        ""
+        "die",
+        "Straße",
+        "entlang"
       ],
       "correctAnswers": [
         "Gehen Sie die Straße entlang."
@@ -3232,80 +3507,94 @@ const LESSON_QUIZZES_A1A2 = {
   ],
   "iyelik-zamirleri": [
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(ich",
-        "das Buch)      -> Das ist mein"
-      ],
-      "correctAnswers": [
-        "mein"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(du",
-        "die Tasche)     -> Ist das dein"
-      ],
-      "correctAnswers": [
-        "deine"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(er",
-        "der Vater)      -> Das ist sein"
-      ],
-      "correctAnswers": [
-        "sein"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(sie - o",
-        "die Katze) -> Ihr"
-      ],
-      "correctAnswers": [
+      "type": "multiple-choice",
+      "question": "(ich / das Buch)      -> Das ist mein___ Buch.",
+      "options": [
         "Ihre",
-        "Ihre"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(wir",
-        "die Kinder)    -> Das sind unser"
-      ],
-      "correctAnswers": [
+        "deine",
+        "eure",
+        "mein",
+        "sein",
         "unsere"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(ihr",
-        "die Bücher)    -> Wo sind eur"
       ],
-      "correctAnswers": [
-        "eure"
-      ]
+      "correct": 3
+    },
+    {
+      "type": "multiple-choice",
+      "question": "(du / die Tasche)     -> Ist das dein___ Tasche?",
+      "options": [
+        "-e",
+        "-em",
+        "-en",
+        "-er",
+        "-es",
+        "Ek yok (boş)"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "(er / der Vater)      -> Das ist sein___ Vater.",
+      "options": [
+        "Ihre",
+        "deine",
+        "eure",
+        "mein",
+        "sein",
+        "unsere"
+      ],
+      "correct": 4
+    },
+    {
+      "type": "multiple-choice",
+      "question": "(sie - o / die Katze) -> Ihr___ Katze ist süß.",
+      "options": [
+        "-e",
+        "-em",
+        "-en",
+        "-er",
+        "-es",
+        "Ek yok (boş)"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "(wir / die Kinder)    -> Das sind unser___ Kinder.",
+      "options": [
+        "-e",
+        "-em",
+        "-en",
+        "-er",
+        "-es",
+        "Ek yok (boş)"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "(ihr / die Bücher)    -> Wo sind eur___ Bücher?",
+      "options": [
+        "-e",
+        "-em",
+        "-en",
+        "-er",
+        "-es",
+        "Ek yok (boş)"
+      ],
+      "correct": 0
     },
     {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "heute",
-        "meine Mutter",
+        "Meine",
+        "Mutter",
         "kocht",
-        "in der Küche"
+        "heute",
+        "in",
+        "der",
+        "Küche"
       ],
       "correctAnswers": [
         "Meine Mutter kocht heute in der Küche.",
@@ -3316,10 +3605,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
+        "Wo",
         "ist",
-        "dein Fahrrad",
-        "im Garten",
-        "wo ? (Achtung: Frage!)"
+        "dein",
+        "Fahrrad",
+        "im",
+        "Garten"
       ],
       "correctAnswers": [
         "Wo ist dein Fahrrad im Garten?"
@@ -3329,10 +3620,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "seine Tasche",
-        "Herr Novak",
+        "Herr",
+        "Novak",
         "sucht",
-        "im Büro"
+        "seine",
+        "Tasche",
+        "im",
+        "Büro"
       ],
       "correctAnswers": [
         "Herr Novak sucht seine Tasche im Büro.",
@@ -3343,10 +3637,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "unsere Autos",
-        "kaputt",
-        "am Wochenende",
-        "waren"
+        "Unsere",
+        "Autos",
+        "waren",
+        "am",
+        "Wochenende",
+        "kaputt"
       ],
       "correctAnswers": [
         "Unsere Autos waren am Wochenende kaputt.",
@@ -3397,7 +3693,7 @@ const LESSON_QUIZZES_A1A2 = {
   "sahis-zamirleri": [
     {
       "type": "multiple-choice",
-      "question": "(du -> bana)       Herr Novak hilft",
+      "question": "(du -> bana)       Herr Novak hilft ___________ heute im Büro. (helfen + Dativ)",
       "options": [
         "Ihnen",
         "dich",
@@ -3410,7 +3706,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(ich -> seni)      Ich liebe",
+      "question": "(ich -> seni)      Ich liebe ___________, meine liebe Mia! (lieben + Akkusativ)",
       "options": [
         "Ihnen",
         "dich",
@@ -3423,7 +3719,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(er -> ona/erkek)  Das Fahrrad ist kaputt. Er repariert",
+      "question": "(er -> ona/erkek)  Das Fahrrad ist kaputt. Er repariert ___________ morgen. (reparieren + Akkusativ)",
       "options": [
         "Ihnen",
         "dich",
@@ -3436,7 +3732,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(ihr -> size)      Kinder, ich danke",
+      "question": "(ihr -> size)      Kinder, ich danke ___________ für die Hilfe. (danken + Dativ)",
       "options": [
         "Ihnen",
         "dich",
@@ -3449,7 +3745,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(wir -> bize)      Der Lehrer erklärt",
+      "question": "(wir -> bize)      Der Lehrer erklärt ___________ die Grammatik. (erklären + Dativ)",
       "options": [
         "Ihnen",
         "dich",
@@ -3462,7 +3758,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(Sie -> Size/kibar) Herr Demir, wie geht es",
+      "question": "(Sie -> Size/kibar) Herr Demir, wie geht es ___________ heute? (gehen + Dativ)",
       "options": [
         "Ihnen",
         "dich",
@@ -3477,11 +3773,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "heute",
-        "ich",
+        "Ich",
+        "treffe",
         "dich",
-        "im Park",
-        "treffe . (treffen + Akkusativ)"
+        "heute",
+        "im",
+        "Park"
       ],
       "correctAnswers": [
         "Ich treffe dich heute im Park.",
@@ -3492,10 +3789,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
+        "Der",
+        "Nachbar",
         "bringt",
-        "der Nachbar",
         "mir",
-        "das Paket"
+        "das",
+        "Paket"
       ],
       "correctAnswers": [
         "Der Nachbar bringt mir das Paket."
@@ -3505,10 +3804,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
+        "Das",
+        "Essen",
         "schmeckt",
-        "das Essen",
         "ihm",
-        "sehr gut . (schmecken + Dativ)"
+        "sehr",
+        "gut"
       ],
       "correctAnswers": [
         "Das Essen schmeckt ihm sehr gut.",
@@ -3559,7 +3860,7 @@ const LESSON_QUIZZES_A1A2 = {
   "aile-uyeleri": [
     {
       "type": "multiple-choice",
-      "question": "Das ist",
+      "question": "Das ist _______________ Vater (der Vater). Er ist 64 Jahre alt.",
       "options": [
         "dein [veya mein]",
         "mein",
@@ -3569,7 +3870,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Das ist",
+      "question": "Das ist _______________ Mutter (die Mutter). Sie ist 57 Jahre alt.",
       "options": [
         "dein [veya mein]",
         "mein",
@@ -3579,7 +3880,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Wo wohnen",
+      "question": "Wo wohnen _______________ Großeltern (die Großeltern - Plural)?",
       "options": [
         "dein [veya mein]",
         "mein",
@@ -3589,7 +3890,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "_______________ Bruder (der Bruder) spielt sehr gut Basketball.",
       "options": [
         "dein [veya mein]",
         "mein",
@@ -3599,7 +3900,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "_______________ Schwester (die Schwester) lernt gerade intensiv Deutsch.",
       "options": [
         "dein [veya mein]",
         "mein",
@@ -3609,7 +3910,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Ist das",
+      "question": "Ist das _______________ Onkel (der Onkel)? - Ja, das ist er.",
       "options": [
         "dein [veya mein]",
         "mein",
@@ -3619,7 +3920,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "_______________ Tante (die Tante) kocht heute eine leckere Suppe.",
       "options": [
         "dein [veya mein]",
         "mein",
@@ -3631,10 +3932,14 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "in Berlin",
-        "meine Eltern",
+        "Meine",
+        "Eltern",
         "wohnen",
-        "seit einem Jahr"
+        "seit",
+        "einem",
+        "Jahr",
+        "in",
+        "Berlin"
       ],
       "correctAnswers": [
         "Meine Eltern wohnen seit einem Jahr in Berlin.",
@@ -3645,15 +3950,15 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "çok",
-        "mein Opa",
+        "Mein",
+        "Opa",
         "ist",
+        "sehr",
         "alt",
-        ".",
-        "er",
+        "Er",
+        "ist",
         "80",
         "Jahre",
-        "ist",
         "alt"
       ],
       "correctAnswers": [
@@ -3664,11 +3969,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
+        "Wie",
+        "viele",
         "Geschwister",
         "hast",
-        "wie viele",
-        "du",
-        "? (Achtung: W-Frage!)"
+        "du"
       ],
       "correctAnswers": [
         "Wie viele Geschwister hast du?"
@@ -3678,10 +3983,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
+        "Mein",
+        "Bruder",
         "sucht",
-        "seine Tasche",
-        "mein Bruder",
-        "im Büro"
+        "seine",
+        "Tasche",
+        "im",
+        "Büro"
       ],
       "correctAnswers": [
         "Mein Bruder sucht seine Tasche im Büro.",
@@ -3732,7 +4040,7 @@ const LESSON_QUIZZES_A1A2 = {
   "akkusativ": [
     {
       "type": "multiple-choice",
-      "question": "(der Bleistift)    Ich habe",
+      "question": "(der Bleistift)    Ich habe _______________ Bleistift.",
       "options": [
         "das",
         "den",
@@ -3742,7 +4050,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(die Tasche)       Frau Alahmed sucht",
+      "question": "(die Tasche)       Frau Alahmed sucht _______________ Tasche.",
       "options": [
         "das",
         "den",
@@ -3752,7 +4060,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(das Buch)         Herr Novak liest",
+      "question": "(das Buch)         Herr Novak liest _______________ Buch.",
       "options": [
         "das",
         "den",
@@ -3762,7 +4070,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(der Salat)        Ich esse",
+      "question": "(der Salat)        Ich esse _______________ Salat im Restaurant.",
       "options": [
         "das",
         "den",
@@ -3772,7 +4080,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(die Banane)       Das Kind isst",
+      "question": "(die Banane)       Das Kind isst _______________ Banane.",
       "options": [
         "das",
         "den",
@@ -3782,7 +4090,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(das Fahrrad)      Herr Demir repariert",
+      "question": "(das Fahrrad)      Herr Demir repariert _______________ Fahrrad.",
       "options": [
         "das",
         "den",
@@ -3792,7 +4100,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(der Laptop)       Ich brauche",
+      "question": "(der Laptop)       Ich brauche _______________ neuen Laptop für die Arbeit. (Belirsiz)",
       "options": [
         "eine",
         "einen",
@@ -3803,7 +4111,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(der Kaffee)       Ich trinke heute",
+      "question": "(der Kaffee)       Ich trinke heute _______________ Kaffee. Ich mag keinen Kaffee. (Olumsuz)",
       "options": [
         "eine",
         "einen",
@@ -3814,7 +4122,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(die Wohnung)      Wir suchen",
+      "question": "(die Wohnung)      Wir suchen _______________ Wohnung in Berlin. (Belirsiz)",
       "options": [
         "eine",
         "einen",
@@ -3825,7 +4133,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(das Auto)         Mein Bruder hat",
+      "question": "(das Auto)         Mein Bruder hat _______________ Auto. Er fährt immer mit dem Bus. (Olumsuz)",
       "options": [
         "eine",
         "einen",
@@ -3836,7 +4144,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(der Apfel)        Isst du",
+      "question": "(der Apfel)        Isst du _______________ Apfel? (Belirsiz)",
       "options": [
         "eine",
         "einen",
@@ -3881,11 +4189,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "das Fenster",
-        "ich",
-        "auf",
+        "Ich",
         "mache",
-        "heute . (aufmachen)"
+        "heute",
+        "das",
+        "Fenster",
+        "auf"
       ],
       "correctAnswers": [
         "Ich mache heute das Fenster auf.",
@@ -3896,11 +4205,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "das Zimmer",
-        "jeden Samstag",
+        "Erhan",
         "räumt",
-        "auf",
-        "Erhan . (aufräumen)"
+        "jeden",
+        "Samstag",
+        "das",
+        "Zimmer",
+        "auf"
       ],
       "correctAnswers": [
         "Erhan räumt jeden Samstag das Zimmer auf.",
@@ -3911,11 +4222,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "im Supermarkt",
-        "meine Mutter",
+        "Meine",
+        "Mutter",
         "kauft",
-        "ein",
-        "heute . (einkaufen)"
+        "heute",
+        "im",
+        "Supermarkt",
+        "ein"
       ],
       "correctAnswers": [
         "Meine Mutter kauft heute im Supermarkt ein.",
@@ -3926,11 +4239,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "meinen Vater",
+        "Ich",
         "rufe",
-        "an",
-        "ich",
-        "morgen . (anrufen)"
+        "morgen",
+        "meinen",
+        "Vater",
+        "an"
       ],
       "correctAnswers": [
         "Ich rufe morgen meinen Vater an.",
@@ -3939,7 +4253,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(einkaufen)  Wir haben heute im Supermarkt",
+      "question": "(einkaufen)  Wir haben heute im Supermarkt _______________________.",
       "options": [
         "angerufen",
         "aufgemacht",
@@ -3950,7 +4264,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(anrufen)    Herr Novak hat mich gestern",
+      "question": "(anrufen)    Herr Novak hat mich gestern _______________________.",
       "options": [
         "angerufen",
         "aufgemacht",
@@ -3961,7 +4275,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(aufmachen)  Wer hat die Tür",
+      "question": "(aufmachen)  Wer hat die Tür _______________________?",
       "options": [
         "angerufen",
         "aufgemacht",
@@ -3972,7 +4286,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(aufräumen)  Die Kinder haben das Zimmer nicht",
+      "question": "(aufräumen)  Die Kinder haben das Zimmer nicht _______________________.",
       "options": [
         "angerufen",
         "aufgemacht",
@@ -4017,13 +4331,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "ich",
+        "Ich",
         "weiß",
-        ",",
         "dass",
-        "lernt",
+        "Erhan",
         "Deutsch",
-        "Erhan"
+        "lernt"
       ],
       "correctAnswers": [
         "Ich weiß, dass Erhan Deutsch lernt."
@@ -4033,9 +4346,9 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "der Arzt",
+        "Der",
+        "Arzt",
         "sagt",
-        ",",
         "dass",
         "du",
         "krank",
@@ -4049,13 +4362,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "ich",
+        "Ich",
         "glaube",
-        ",",
         "dass",
-        "kommt",
+        "das",
+        "Paket",
         "heute",
-        "das Paket"
+        "kommt"
       ],
       "correctAnswers": [
         "Ich glaube, dass das Paket heute kommt."
@@ -4065,12 +4378,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "meine Mutter",
+        "Meine",
+        "Mutter",
         "denkt",
-        ",",
         "dass",
+        "das",
+        "Essen",
         "warm",
-        "das Essen",
         "ist"
       ],
       "correctAnswers": [
@@ -4079,7 +4393,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Ich glaube. Morgen regnet es.\n   -> Ich glaube, dass",
+      "question": "Ich glaube. Morgen regnet es.\n   -> Ich glaube, dass _________________________________________.",
       "options": [
         "dass Berlin sehr groß ist",
         "dass es morgen regnet",
@@ -4089,7 +4403,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Herr Demir sagt. Seine Wohnungstür ist kaputt.\n   -> Herr Demir sagt, dass",
+      "question": "Herr Demir sagt. Seine Wohnungstür ist kaputt.\n   -> Herr Demir sagt, dass ____________________________________.",
       "options": [
         "dass Berlin sehr groß ist",
         "dass es morgen regnet",
@@ -4099,7 +4413,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Wir wissen. Berlin ist sehr groß.\n   -> Wir wissen, dass",
+      "question": "Wir wissen. Berlin ist sehr groß.\n   -> Wir wissen, dass _________________________________________.",
       "options": [
         "dass Berlin sehr groß ist",
         "dass es morgen regnet",
@@ -4141,7 +4455,7 @@ const LESSON_QUIZZES_A1A2 = {
   "donuslu-fiiller": [
     {
       "type": "multiple-choice",
-      "question": "Ich bin krank. Ich fühle",
+      "question": "Ich bin krank. Ich fühle _______________ heute nicht so gut.",
       "options": [
         "dich",
         "euch",
@@ -4153,7 +4467,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Der Arzt sagt zu Erhan: Sie müssen",
+      "question": "Der Arzt sagt zu Erhan: Sie müssen _______________ mehr bewegen!",
       "options": [
         "dich",
         "euch",
@@ -4165,7 +4479,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Du bist sehr müde. Du sollst",
+      "question": "Du bist sehr müde. Du sollst _______________ ins Bett legen.",
       "options": [
         "dich",
         "euch",
@@ -4177,7 +4491,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Wir haben heute viel Energie. Wir fühlen",
+      "question": "Wir haben heute viel Energie. Wir fühlen _______________ super!",
       "options": [
         "dich",
         "euch",
@@ -4189,7 +4503,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Hallo Kinder! Wie fühlt ihr",
+      "question": "Hallo Kinder! Wie fühlt ihr _______________ im neuen Deutschkurs?",
       "options": [
         "dich",
         "euch",
@@ -4201,7 +4515,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Das Kind ist krank. Es legt",
+      "question": "Das Kind ist krank. Es legt _______________ auf das Sofa.",
       "options": [
         "dich",
         "euch",
@@ -4215,11 +4529,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "heute",
-        "ich",
+        "Ich",
+        "fühle",
         "mich",
-        "nicht so gut",
-        "fühle"
+        "heute",
+        "nicht",
+        "so",
+        "gut"
       ],
       "correctAnswers": [
         "Ich fühle mich heute nicht so gut.",
@@ -4230,11 +4546,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "uns",
-        "wir",
+        "Wir",
         "bewegen",
-        "jeden Samstag",
-        "im Park"
+        "uns",
+        "jeden",
+        "Samstag",
+        "im",
+        "Park"
       ],
       "correctAnswers": [
         "Wir bewegen uns jeden Samstag im Park.",
@@ -4245,12 +4563,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
+        "Wie",
+        "fühlen",
         "Sie",
         "sich",
-        "fühlen",
-        "wie",
         "heute",
-        ", Herr Demir ? (Achtung: W-Frage!)"
+        "Herr",
+        "Demir"
       ],
       "correctAnswers": [
         "Wie fühlen Sie sich heute, Herr Demir?"
@@ -4260,11 +4579,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "dich",
-        "ins Bett",
+        "Wann",
         "legst",
         "du",
-        "wann ? (Achtung: W-Frage!)"
+        "dich",
+        "ins",
+        "Bett"
       ],
       "correctAnswers": [
         "Wann legst du dich ins Bett?"
@@ -4304,7 +4624,7 @@ const LESSON_QUIZZES_A1A2 = {
   "edatli-fiiller": [
     {
       "type": "multiple-choice",
-      "question": "Ich warte seit einer Stunde",
+      "question": "Ich warte seit einer Stunde _______________ den Bus. (warten)",
       "options": [
         "an",
         "auf",
@@ -4314,7 +4634,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Morgen spreche ich",
+      "question": "Morgen spreche ich _______________ meinem Chef über den Urlaub. (sprechen)",
       "options": [
         "an",
         "auf",
@@ -4324,7 +4644,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Denkst du bazen",
+      "question": "Denkst du bazen _______________ deine Familie in der Türkei? (denken)",
       "options": [
         "an",
         "auf",
@@ -4334,7 +4654,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Erhan wartet",
+      "question": "Erhan wartet _______________ seine Freundin vor dem Kino. (warten)",
       "options": [
         "an",
         "auf",
@@ -4344,7 +4664,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Wir sprechen jeden Tag",
+      "question": "Wir sprechen jeden Tag _______________ den neuen Nachbarn. (sprechen)",
       "options": [
         "an",
         "auf",
@@ -4354,7 +4674,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Ich bin traurig, aber ich denke",
+      "question": "Ich bin traurig, aber ich denke _______________ dich. (denken)",
       "options": [
         "an",
         "auf",
@@ -4363,54 +4683,64 @@ const LESSON_QUIZZES_A1A2 = {
       "correct": 0
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(du -> Akkusativ)    Ich warte auf"
-      ],
-      "correctAnswers": [
-        "dich"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(die Mutter -> Dativ)  Frau Alahmed spricht mit ihrer"
-      ],
-      "correctAnswers": [
-        "Mutter"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(der Urlaub -> Akkusativ) Denkst du an den"
-      ],
-      "correctAnswers": [
-        "Urlaub"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(ich -> Akkusativ)     Denkst du an"
-      ],
-      "correctAnswers": [
+      "type": "multiple-choice",
+      "question": "(du -> Akkusativ)    Ich warte auf _______________. Wo bist du?",
+      "options": [
+        "Lehrer",
+        "Mutter",
+        "Urlaub",
+        "dich",
         "mich"
-      ]
+      ],
+      "correct": 3
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(der Lehrer -> Dativ)  Die Schüler sprechen mit dem"
+      "type": "multiple-choice",
+      "question": "(die Mutter -> Dativ)  Frau Alahmed spricht mit ihrer _______________.",
+      "options": [
+        "Lehrer",
+        "Mutter",
+        "Urlaub",
+        "dich",
+        "mich"
       ],
-      "correctAnswers": [
-        "Lehrer"
-      ]
+      "correct": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "(der Urlaub -> Akkusativ) Denkst du an den _______________ im Sommer?",
+      "options": [
+        "Lehrer",
+        "Mutter",
+        "Urlaub",
+        "dich",
+        "mich"
+      ],
+      "correct": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "(ich -> Akkusativ)     Denkst du an _______________? - Ja, jeden Tag.",
+      "options": [
+        "Lehrer",
+        "Mutter",
+        "Urlaub",
+        "dich",
+        "mich"
+      ],
+      "correct": 4
+    },
+    {
+      "type": "multiple-choice",
+      "question": "(der Lehrer -> Dativ)  Die Schüler sprechen mit dem _______________.",
+      "options": [
+        "Lehrer",
+        "Mutter",
+        "Urlaub",
+        "dich",
+        "mich"
+      ],
+      "correct": 0
     },
     {
       "type": "multiple-choice",
@@ -4446,7 +4776,7 @@ const LESSON_QUIZZES_A1A2 = {
   "gunler-aylar-mevsimler": [
     {
       "type": "multiple-choice",
-      "question": "Herr Demir hat",
+      "question": "Herr Demir hat _______________ Dienstag um 10:00 Uhr einen Termin beim Bürgeramt.",
       "options": [
         "am",
         "bin",
@@ -4459,7 +4789,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Wir machen",
+      "question": "Wir machen _______________ August einen großen Urlaub in Spanien.",
       "options": [
         "am",
         "bin",
@@ -4472,7 +4802,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Was machst du",
+      "question": "Was machst du _______________ Samstag? Spielst du Padel-Tennis?",
       "options": [
         "am",
         "bin",
@@ -4485,7 +4815,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Das neue Semester an der Schule beginnt",
+      "question": "Das neue Semester an der Schule beginnt _______________ September.",
       "options": [
         "am",
         "bin",
@@ -4498,7 +4828,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Mein Vater feiert",
+      "question": "Mein Vater feiert _______________ Sonntag seinen Geburtstag.",
       "options": [
         "am",
         "bin",
@@ -4511,7 +4841,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Es ist sehr kalt",
+      "question": "Es ist sehr kalt _______________ Dezember in Berlin.",
       "options": [
         "am",
         "bin",
@@ -4526,10 +4856,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "ich",
-        "am Freitag",
+        "Ich",
         "gehe",
-        "in den Supermarkt"
+        "am",
+        "Freitag",
+        "in",
+        "den",
+        "Supermarkt"
       ],
       "correctAnswers": [
         "Ich gehe am Freitag in den Supermarkt.",
@@ -4540,10 +4873,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "im Juli",
-        "meine Freunde",
-        "nach Berlin",
-        "kommen"
+        "Im",
+        "Juli",
+        "kommen",
+        "meine",
+        "Freunde",
+        "nach",
+        "Berlin"
       ],
       "correctAnswers": [
         "Im Juli kommen meine Freunde nach Berlin.",
@@ -4554,10 +4890,14 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "eine wichtige Prüfung",
-        "Herr Novak",
-        "am Montag",
-        "macht"
+        "Herr",
+        "Novak",
+        "macht",
+        "am",
+        "Montag",
+        "eine",
+        "wichtige",
+        "Prüfung"
       ],
       "correctAnswers": [
         "Herr Novak macht am Montag eine wichtige Prüfung.",
@@ -4597,78 +4937,72 @@ const LESSON_QUIZZES_A1A2 = {
   ],
   "nasilsin": [
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "- Hallo Ahmet! Wie geht's dir?\n   - Danke, es geht mir"
+      "type": "multiple-choice",
+      "question": "- Hallo Ahmet! Wie geht's dir?\n   - Danke, es geht mir ____________________! (Müthiş / Harika hissediyorum)",
+      "options": [
+        "Na ja",
+        "furchtbar",
+        "nicht so gut",
+        "sehr gut",
+        "super"
       ],
-      "correctAnswers": [
-        "super",
-        "spitze",
-        "wunderbar (Müthiş",
-        "harika durumları karşılayan kelimelerdir.)"
-      ]
+      "correct": 4
+    },
+    {
+      "type": "multiple-choice",
+      "question": "- Guten Tag, Frau Alahmed. Wie geht es Ihnen?\n   - Danke, es geht mir ____________________. (Çok iyi hissettiğini belirtiyor)",
+      "options": [
+        "Na ja",
+        "furchtbar",
+        "nicht so gut",
+        "sehr gut",
+        "super"
+      ],
+      "correct": 3
+    },
+    {
+      "type": "multiple-choice",
+      "question": "- Wie geht's dir, Lukas?\n   - ____________________, es geht. Ich habe viel Arbeit. (İdare eder, eh işte)",
+      "options": [
+        "Na ja",
+        "furchtbar",
+        "nicht so gut",
+        "sehr gut",
+        "super"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "- Was ist los, Begi? Wie geht's?\n   - Es geht mir ____________________. Ich bin krank und habe Kopfschmerzen. (O kadar iyi değil, iyi değil)",
+      "options": [
+        "Na ja",
+        "furchtbar",
+        "nicht so gut",
+        "sehr gut",
+        "super"
+      ],
+      "correct": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "- Hallo Erhan, wie geht es dir heute?\n   - Es geht mir ____________________. Ich habe meine Wohnungstür blockiert! (Berbat hissediyor)",
+      "options": [
+        "Na ja",
+        "furchtbar",
+        "nicht so gut",
+        "sehr gut",
+        "super"
+      ],
+      "correct": 1
     },
     {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "- Guten Tag, Frau Alahmed. Wie geht es Ihnen?\n   - Danke, es geht mir"
-      ],
-      "correctAnswers": [
-        "sehr gut"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "- Wie geht's dir, Lukas?\n   -"
-      ],
-      "correctAnswers": [
-        "Na ja"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "- Was ist los, Begi? Wie geht's?\n   - Es geht mir"
-      ],
-      "correctAnswers": [
-        "nicht so gut"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "- Hallo Erhan, wie geht es dir heute?\n   - Es geht mir"
-      ],
-      "correctAnswers": [
-        "furchtbar"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "sıradadır"
-      ],
-      "correctAnswers": [
-        "Wie geht's dir?",
-        "Wie geht es dir?"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "dir",
-        "wie",
-        "?",
-        "geht",
-        "'s"
+        "Wie",
+        "geht's",
+        "dir"
       ],
       "correctAnswers": [
         "Wie geht's dir?",
@@ -4679,13 +5013,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "mir",
-        "gut",
-        "sehr",
-        "geht",
+        "Danke",
         "es",
-        "danke",
-        ""
+        "geht",
+        "mir",
+        "sehr",
+        "gut"
       ],
       "correctAnswers": [
         "Danke, es geht mir sehr gut.",
@@ -4696,13 +5029,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "nicht",
-        "es",
-        "so",
-        "mir",
-        "gut",
+        "Es",
         "geht",
-        ""
+        "mir",
+        "nicht",
+        "so",
+        "gut"
       ],
       "correctAnswers": [
         "Es geht mir nicht so gut."
@@ -4742,7 +5074,7 @@ const LESSON_QUIZZES_A1A2 = {
   "konjunktiv-ii": [
     {
       "type": "multiple-choice",
-      "question": "Ich bin müde. Ich",
+      "question": "Ich bin müde. Ich _______________ jetzt gerne im Bett. (olmak dilediği yer)",
       "options": [
         "Würdest",
         "hätte",
@@ -4754,7 +5086,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Ich",
+      "question": "Ich _______________ gerne ein neues Fahrrad kaufen. (kaufen = satın almak eylemi)",
       "options": [
         "Würdest",
         "hätte",
@@ -4766,7 +5098,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Erhan",
+      "question": "Erhan _______________ gerne viel Geld. Er möchte ein Haus kaufen. (sahip olmak)",
       "options": [
         "Würdest",
         "hätte",
@@ -4778,7 +5110,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Wir",
+      "question": "Wir _______________ heute Abend gerne im Park Padel-Tennis spielen. (spiel eylemi)",
       "options": [
         "Würdest",
         "hätte",
@@ -4790,7 +5122,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Frau Alahmed",
+      "question": "Frau Alahmed _______________ gerne in Berlin, aber sie ist in Frankfurt. (olmak dilediği yer)",
       "options": [
         "Würdest",
         "hätte",
@@ -4802,7 +5134,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "_______________ du gerne einen heißen Kaffee trinken? (trinken = içmek eylemi)",
       "options": [
         "Würdest",
         "hätte",
@@ -4816,11 +5148,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "gerne",
-        "ein großes Haus",
-        "ich",
+        "Ich",
         "hätte",
-        ""
+        "gerne",
+        "ein",
+        "großes",
+        "Haus"
       ],
       "correctAnswers": [
         "Ich hätte gerne ein großes Haus."
@@ -4830,12 +5163,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "am Strand",
-        "jetzt",
-        "wäre",
-        "gerne",
         "Erhan",
-        ""
+        "wäre",
+        "jetzt",
+        "gerne",
+        "am",
+        "Strand"
       ],
       "correctAnswers": [
         "Erhan wäre jetzt gerne am Strand.",
@@ -4846,12 +5179,14 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "nach Spanien",
-        "fliegen",
-        "wir",
-        "gerne",
+        "Wir",
         "würden",
-        "im Sommer"
+        "im",
+        "Sommer",
+        "gerne",
+        "nach",
+        "Spanien",
+        "fliegen"
       ],
       "correctAnswers": [
         "Wir würden im Sommer gerne nach Spanien fliegen."
@@ -4861,11 +5196,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
+        "Ich",
         "hätte",
         "gerne",
-        "einen Termin",
-        "ich",
-        "beim Arzt . (Nezaket isteği)"
+        "einen",
+        "Termin",
+        "beim",
+        "Arzt"
       ],
       "correctAnswers": [
         "Ich hätte gerne einen Termin beim Arzt."
@@ -4907,11 +5244,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "çok iyi",
-        "ich",
+        "Ich",
+        "kann",
+        "sehr",
+        "gut",
         "Padel-Tennis",
-        "spielen",
-        "kann"
+        "spielen"
       ],
       "correctAnswers": [
         "Ich kann sehr gut Padel-Tennis spielen.",
@@ -4922,11 +5260,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Auto",
-        "fahren",
+        "Sie",
         "kann",
-        "sie",
-        "gut"
+        "gut",
+        "Auto",
+        "fahren"
       ],
       "correctAnswers": [
         "Sie kann gut Auto fahren.",
@@ -4937,11 +5275,17 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "sehr gut",
+        "Meine",
+        "Freunde",
+        "können",
+        "sehr",
+        "gut",
         "Deutsch",
         "sprechen",
-        "können",
-        "meine Freunde"
+        "(Meine",
+        "Freunde",
+        "->",
+        "onlar"
       ],
       "correctAnswers": [
         "Meine Freunde können sehr gut Deutsch sprechen. (Meine Freunde -> onlar",
@@ -4952,11 +5296,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "am Samstag",
-        "kommen",
+        "Kannst",
         "du",
-        "kannst",
-        "? (Achtung: Frage!)"
+        "am",
+        "Samstag",
+        "kommen"
       ],
       "correctAnswers": [
         "Kannst du am Samstag kommen?"
@@ -4964,7 +5308,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Ich",
+      "question": "Ich _______________ Gitarre spielen. Und was kannst du?",
       "options": [
         "Könnt",
         "kann",
@@ -4974,7 +5318,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Hallo Kinder!",
+      "question": "Hallo Kinder! _______________ ihr heute im Park Basketball spielen?",
       "options": [
         "Könnt",
         "kann",
@@ -4984,7 +5328,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Herr Novak",
+      "question": "Herr Novak _______________ sehr gut Python programmieren.",
       "options": [
         "Könnt",
         "kann",
@@ -4994,7 +5338,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Wir",
+      "question": "Wir _______________ heute nicht kommen, weil wir viel Arbeit haben.",
       "options": [
         "Könnt",
         "kann",
@@ -5004,7 +5348,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Das Kind",
+      "question": "Das Kind _______________ schon alleine Fahrrad fahren.",
       "options": [
         "Könnt",
         "kann",
@@ -5046,7 +5390,7 @@ const LESSON_QUIZZES_A1A2 = {
   "meslekler": [
     {
       "type": "multiple-choice",
-      "question": "(der Verkäufer)   Frau Alahmed arbeitet als",
+      "question": "(der Verkäufer)   Frau Alahmed arbeitet als _______________________.",
       "options": [
         "Anwältin",
         "Köchin",
@@ -5058,7 +5402,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(der Arzt)        Mia geht ins Krankenhaus. Sie ist",
+      "question": "(der Arzt)        Mia geht ins Krankenhaus. Sie ist _______________________.",
       "options": [
         "Anwältin",
         "Köchin",
@@ -5070,7 +5414,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(der Lehrer)      Meine Tante ist",
+      "question": "(der Lehrer)      Meine Tante ist _______________________ von Beruf.",
       "options": [
         "Anwältin",
         "Köchin",
@@ -5082,7 +5426,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(der Koch)        Sie arbeitet in einem Restaurant. Sie ist",
+      "question": "(der Koch)        Sie arbeitet in einem Restaurant. Sie ist _______________________.",
       "options": [
         "Anwältin",
         "Köchin",
@@ -5094,7 +5438,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(der Anwalt)      Frau Dimitrova ist",
+      "question": "(der Anwalt)      Frau Dimitrova ist _______________________ in Berlin.",
       "options": [
         "Anwältin",
         "Köchin",
@@ -5108,11 +5452,10 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "beruflich",
+        "Was",
         "machen",
         "Sie",
-        "?",
-        "Was (Resmi meslek sorma)"
+        "beruflich"
       ],
       "correctAnswers": [
         "Was machen Sie beruflich?"
@@ -5122,45 +5465,52 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "als",
         "Erhan",
         "arbeitet",
+        "als",
         "Krankenpfleger",
-        "im Krankenhaus"
+        "im",
+        "Krankenhaus"
       ],
       "correctAnswers": [
         "Erhan arbeitet als Krankenpfleger im Krankenhaus."
       ]
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Ich"
-      ],
-      "correctAnswers": [
+      "type": "multiple-choice",
+      "question": "Ich _______________ Lehrerin von Beruf.",
+      "options": [
+        "Erhan arbeitet als Krankenpfleger im Krankenhaus",
+        "Was machen Sie beruflich?",
+        "als",
+        "beruflich",
         "bin"
-      ]
+      ],
+      "correct": 4
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Herr Demir arbeitet"
+      "type": "multiple-choice",
+      "question": "Herr Demir arbeitet _______________ Verkäufer in einem Autohaus.",
+      "options": [
+        "Erhan arbeitet als Krankenpfleger im Krankenhaus",
+        "Was machen Sie beruflich?",
+        "als",
+        "beruflich",
+        "bin"
       ],
-      "correctAnswers": [
-        "als"
-      ]
+      "correct": 2
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Was machst du"
+      "type": "multiple-choice",
+      "question": "Was machst du _______________? (Samimi meslek sorma)",
+      "options": [
+        "Erhan arbeitet als Krankenpfleger im Krankenhaus",
+        "Was machen Sie beruflich?",
+        "als",
+        "beruflich",
+        "bin"
       ],
-      "correctAnswers": [
-        "beruflich"
-      ]
+      "correct": 3
     },
     {
       "type": "multiple-choice",
@@ -5198,11 +5548,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "einen heißen Kaffee",
-        "ich",
-        "trinken",
+        "Ich",
         "möchte",
-        "heute"
+        "heute",
+        "einen",
+        "heißen",
+        "Kaffee",
+        "trinken"
       ],
       "correctAnswers": [
         "Ich möchte heute einen heißen Kaffee trinken.",
@@ -5213,11 +5565,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Tennis",
-        "spielen",
-        "möchtet",
+        "Möchtet",
         "ihr",
-        "im Park ? (Achtung: Frage!)"
+        "im",
+        "Park",
+        "Tennis",
+        "spielen"
       ],
       "correctAnswers": [
         "Möchtet ihr im Park Tennis spielen?"
@@ -5227,11 +5580,18 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "eine Suppe",
-        "Herr Novak",
-        "essen",
+        "Herr",
+        "Novak",
         "möchte",
-        "im Restaurant"
+        "im",
+        "Restaurant",
+        "eine",
+        "Suppe",
+        "essen",
+        "(Herr",
+        "Novak",
+        "->",
+        "er"
       ],
       "correctAnswers": [
         "Herr Novak möchte im Restaurant eine Suppe essen. (Herr Novak -> er",
@@ -5243,11 +5603,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Deutsch",
-        "lernen",
-        "wir",
+        "Wir",
         "möchten",
-        "fleißig"
+        "fleißig",
+        "Deutsch",
+        "lernen"
       ],
       "correctAnswers": [
         "Wir möchten fleißig Deutsch lernen."
@@ -5255,7 +5615,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Ich bin im Café. Ich",
+      "question": "Ich bin im Café. Ich _______________ ein Glas Wasser trinken, bitte.",
       "options": [
         "Möchtet",
         "möchte",
@@ -5265,7 +5625,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Hallo Kinder!",
+      "question": "Hallo Kinder! _______________ ihr heute Nachmittag im Park Basketball spielen?",
       "options": [
         "Möchtet",
         "möchte",
@@ -5275,7 +5635,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Frau Alahmed",
+      "question": "Frau Alahmed _______________ einen Termin beim Arzt machen.",
       "options": [
         "Möchtet",
         "möchte",
@@ -5285,7 +5645,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Wir",
+      "question": "Wir _______________ heute Abend am Strand spazieren gehen.",
       "options": [
         "Möchtet",
         "möchte",
@@ -5295,7 +5655,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Was",
+      "question": "Was _______________ Sie trinken, Herr Demir? (Kibar hitap)",
       "options": [
         "Möchtet",
         "möchte",
@@ -5339,11 +5699,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
+        "Ich",
+        "muss",
         "fleißig",
-        "ich",
         "Deutsch",
-        "lernen",
-        "muss"
+        "lernen"
       ],
       "correctAnswers": [
         "Ich muss fleißig Deutsch lernen.",
@@ -5354,11 +5714,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "nach Hause",
-        "gehen",
-        "muss",
+        "Muss",
         "sie",
-        "jetzt ? (Achtung: Frage!)"
+        "jetzt",
+        "nach",
+        "Hause",
+        "gehen"
       ],
       "correctAnswers": [
         "Muss sie jetzt nach Hause gehen?"
@@ -5368,11 +5729,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "im Büro",
-        "Herr Novak",
-        "arbeiten",
+        "Herr",
+        "Novak",
         "muss",
-        "heute"
+        "heute",
+        "im",
+        "Büro",
+        "arbeiten"
       ],
       "correctAnswers": [
         "Herr Novak muss heute im Büro arbeiten.",
@@ -5385,11 +5748,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "am Samstag",
-        "wir",
-        "machen",
-        "eine Pause",
-        "müssen"
+        "Wir",
+        "müssen",
+        "am",
+        "Samstag",
+        "eine",
+        "Pausa",
+        "machen"
       ],
       "correctAnswers": [
         "Wir müssen am Samstag eine Pausa machen."
@@ -5397,7 +5762,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Ich bin müde, aber ich",
+      "question": "Ich bin müde, aber ich _______________ heute noch lange im Büro arbeiten.",
       "options": [
         "Müssen",
         "muss",
@@ -5408,7 +5773,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Hallo Kinder! Ihr",
+      "question": "Hallo Kinder! Ihr _______________ jetzt die Hausaufgaben machen.",
       "options": [
         "Müssen",
         "muss",
@@ -5419,7 +5784,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Frau Alahmed",
+      "question": "Frau Alahmed _______________ zum Arzt gehen, weil sie Halsschmerzen hat.",
       "options": [
         "Müssen",
         "muss",
@@ -5430,7 +5795,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Wir",
+      "question": "Wir _______________ fleißig Deutsch lernen für die telc-Prüfung.",
       "options": [
         "Müssen",
         "muss",
@@ -5441,7 +5806,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "_______________ Sie das Paket heute schicken, Herr Demir? (Kibar hitap)",
       "options": [
         "Müssen",
         "muss",
@@ -5486,12 +5851,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Ich bin krank.",
+        "Deshalb",
         "gehe",
         "ich",
-        "zum Arzt",
-        "deshalb",
-        ".\n   -> Ich bin krank"
+        "zum",
+        "Arzt"
       ],
       "correctAnswers": [
         "Deshalb gehe ich zum Arzt."
@@ -5501,12 +5865,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Erhan hat keine Zeit.",
-        "am Samstag",
+        "Deswegen",
         "spielt",
-        "deswegen",
         "er",
-        "kein Padel-Tennis .\n   -> Erhan hat keine Zeit"
+        "am",
+        "Samstag",
+        "kein",
+        "Padel-Tennis"
       ],
       "correctAnswers": [
         "Deswegen spielt er am Samstag kein Padel-Tennis."
@@ -5516,12 +5881,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Meine Wohnungstür ist kaputt.",
-        "den Handwerker",
+        "Deshalb",
         "rufe",
-        "deshalb",
         "ich",
-        "an . (Achtung: anrufen!)\n   -> Meine Wohnungstür ist kaputt"
+        "den",
+        "Handwerker",
+        "an"
       ],
       "correctAnswers": [
         "Deshalb rufe ich den Handwerker an."
@@ -5531,12 +5896,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Wir wollen fleißig Deutsch lernen.",
-        "jeden Tag",
-        "wir",
+        "Deswegen",
         "lernen",
-        "deswegen",
-        ".\n   -> Wir wollen fleißig Deutsch lernen"
+        "wir",
+        "jeden",
+        "Tag"
       ],
       "correctAnswers": [
         "Deswegen lernen wir jeden Tag."
@@ -5544,7 +5908,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Frau Alahmed sucht eine Wohnung. Sie liest jeden Tag Anzeigen.\n   -> Frau Alahmed sucht eine Wohnung, deswegen",
+      "question": "Frau Alahmed sucht eine Wohnung. Sie liest jeden Tag Anzeigen.\n   -> Frau Alahmed sucht eine Wohnung, deswegen ________________.",
       "options": [
         "deshalb geht er nicht im Restaurant essen",
         "deswegen liest sie jeden Tag Anzeigen",
@@ -5554,7 +5918,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Herr Novak hat kein Geld. Er geht nicht im Restaurant essen.\n   -> Herr Novak hat kein Geld, deshalb",
+      "question": "Herr Novak hat kein Geld. Er geht nicht im Restaurant essen.\n   -> Herr Novak hat kein Geld, deshalb ________________________.",
       "options": [
         "deshalb geht er nicht im Restaurant essen",
         "deswegen liest sie jeden Tag Anzeigen",
@@ -5564,7 +5928,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Das Paket ist weg. Herr Demir ruft bei der Post an.\n   -> Das Paket ist weg, deswegen",
+      "question": "Das Paket ist weg. Herr Demir ruft bei der Post an.\n   -> Das Paket ist weg, deswegen ______________________________.",
       "options": [
         "deshalb geht er nicht im Restaurant essen",
         "deswegen liest sie jeden Tag Anzeigen",
@@ -5608,14 +5972,14 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "ich",
+        "Ich",
         "weiß",
         "nicht",
-        ",",
         "ob",
-        "kommt",
+        "das",
+        "Paket",
         "bugün",
-        "das Paket"
+        "kommt"
       ],
       "correctAnswers": [
         "Ich weiß nicht, ob das Paket bugün kommt."
@@ -5627,11 +5991,11 @@ const LESSON_QUIZZES_A1A2 = {
       "words": [
         "Erhan",
         "fragt",
-        ",",
         "ob",
-        "ist",
+        "das",
+        "Essen",
         "warm",
-        "das Essen"
+        "ist"
       ],
       "correctAnswers": [
         "Erhan fragt, ob das Essen warm ist."
@@ -5641,15 +6005,15 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "ich",
+        "Ich",
         "möchte",
         "wissen",
-        ",",
         "ob",
         "du",
-        "hast",
-        "am Samstag",
-        "Zeit"
+        "am",
+        "Samstag",
+        "Zeit",
+        "hast"
       ],
       "correctAnswers": [
         "Ich möchte wissen, ob du am Samstag Zeit hast."
@@ -5659,15 +6023,15 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "der Arzt",
+        "Der",
+        "Arzt",
         "sagt",
         "nicht",
-        ",",
         "ob",
         "er",
-        "hat",
         "heute",
-        "Zeit"
+        "Zeit",
+        "hat"
       ],
       "correctAnswers": [
         "Der Arzt sagt nicht, ob er heute Zeit hat."
@@ -5675,7 +6039,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Frau Alahmed fragt. Ist die Wohnung noch frei?\n   -> Frau Alahmed fragt, ob",
+      "question": "Frau Alahmed fragt. Ist die Wohnung noch frei?\n   -> Frau Alahmed fragt, ob __________________________________.",
       "options": [
         "ob Herr Novak einen Laptop hat",
         "ob der Handwerker morgen kommt",
@@ -5685,7 +6049,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Ich kann nicht sagen. Kommt der Handwerker morgen?\n   -> Ich kann nicht sagen, ob",
+      "question": "Ich kann nicht sagen. Kommt der Handwerker morgen?\n   -> Ich kann nicht sagen, ob ________________________________.",
       "options": [
         "ob Herr Novak einen Laptop hat",
         "ob der Handwerker morgen kommt",
@@ -5695,7 +6059,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Wir wissen nicht. Hat Herr Novak einen Laptop?\n   -> Wir wissen nicht, ob",
+      "question": "Wir wissen nicht. Hat Herr Novak einen Laptop?\n   -> Wir wissen nicht, ob ____________________________________.",
       "options": [
         "ob Herr Novak einen Laptop hat",
         "ob der Handwerker morgen kommt",
@@ -5736,66 +6100,63 @@ const LESSON_QUIZZES_A1A2 = {
   ],
   "prasens": [
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Ich spiele jetzt Padel-Tennis im Park. \n   -> Anlamı:"
-      ],
-      "correctAnswers": [
+      "type": "multiple-choice",
+      "question": "Ich spiele jetzt Padel-Tennis im Park. \n   -> Anlamı: __________________________________________________",
+      "options": [
+        "Gelecek Zaman",
+        "Geniş Zaman",
         "Şimdiki Zaman"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Erhan spielt jeden Samstag Basketball.\n   -> Anlamı:"
       ],
-      "correctAnswers": [
-        "Geniş Zaman (\"jeden Samstag\"  ifadesi bunun düzenli bir hobi",
-        "alışkanlık olduğunu gösterir.)"
-      ]
+      "correct": 2
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Morgen spielt meine Tante Tennis in Berlin.\n   -> Anlamı:"
+      "type": "multiple-choice",
+      "question": "Erhan spielt jeden Samstag Basketball.\n   -> Anlamı: __________________________________________________",
+      "options": [
+        "Gelecek Zaman",
+        "Geniş Zaman",
+        "Şimdiki Zaman"
       ],
-      "correctAnswers": [
-        "Gelecek Zaman"
-      ]
+      "correct": 1
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Herr Novak kocht gerade eine leckere Suppe.\n   -> Anlamı:"
+      "type": "multiple-choice",
+      "question": "Morgen spielt meine Tante Tennis in Berlin.\n   -> Anlamı: __________________________________________________",
+      "options": [
+        "Gelecek Zaman",
+        "Geniş Zaman",
+        "Şimdiki Zaman"
       ],
-      "correctAnswers": [
-        "Şimdiki Zaman (\"gerade\" [şu sıralar",
-        "tam şu an] eylemin şu an sürdüğünü belirtir.)"
-      ]
+      "correct": 0
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Wir fliegen im Sommer nach Spanien.\n   -> Anlamı:"
+      "type": "multiple-choice",
+      "question": "Herr Novak kocht gerade eine leckere Suppe.\n   -> Anlamı: __________________________________________________",
+      "options": [
+        "Gelecek Zaman",
+        "Geniş Zaman",
+        "Şimdiki Zaman"
       ],
-      "correctAnswers": [
-        "Gelecek Zaman"
-      ]
+      "correct": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Wir fliegen im Sommer nach Spanien.\n   -> Anlamı: __________________________________________________",
+      "options": [
+        "Gelecek Zaman",
+        "Geniş Zaman",
+        "Şimdiki Zaman"
+      ],
+      "correct": 0
     },
     {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "(Şimdiki Zaman)   gerade",
-        "ich",
-        "Musik",
-        "hören",
-        ""
+        "Ich",
+        "höre",
+        "gerade",
+        "Musik"
       ],
       "correctAnswers": [
         "Ich höre gerade Musik.",
@@ -5806,11 +6167,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "(Geniş Zaman)     jeden Tag",
-        "lernt",
-        "Python",
         "Erhan",
-        ""
+        "lernt",
+        "jeden",
+        "Tag",
+        "Python"
       ],
       "correctAnswers": [
         "Erhan lernt jeden Tag Python.",
@@ -5821,11 +6182,13 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "(Gelecek Zaman)   nächste Woche",
-        "meine Freunde",
-        "nach Berlin",
+        "Nächste",
+        "Woche",
         "kommen",
-        ""
+        "meine",
+        "Freunde",
+        "nach",
+        "Berlin"
       ],
       "correctAnswers": [
         "Nächste Woche kommen meine Freunde nach Berlin.",
@@ -5866,7 +6229,7 @@ const LESSON_QUIZZES_A1A2 = {
   "prateritum": [
     {
       "type": "multiple-choice",
-      "question": "(ich -> idim)       Letzte Woche",
+      "question": "(ich -> idim)       Letzte Woche _______________ ich krank ve lag im Bett.",
       "options": [
         "hatte",
         "hattest",
@@ -5877,7 +6240,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(er -> sahipti)     Herr Novak",
+      "question": "(er -> sahipti)     Herr Novak _______________ gestern einen wichtigen Termin beim Arzt.",
       "options": [
         "hatte",
         "hattest",
@@ -5888,7 +6251,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(wir -> idik)       Am Samstag",
+      "question": "(wir -> idik)       Am Samstag _______________ wir im Park ve haben Padel-Tennis gespielt.",
       "options": [
         "hatte",
         "hattest",
@@ -5899,7 +6262,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(du -> sahiptin)    Hattest du am Wochenende Zeit veya",
+      "question": "(du -> sahiptin)    Hattest du am Wochenende Zeit veya _______________ du çok işin?",
       "options": [
         "hatte",
         "hattest",
@@ -5910,7 +6273,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(sie -> dişil/idi)  Frau Alahmed",
+      "question": "(sie -> dişil/idi)  Frau Alahmed _______________ gestern müde, weil sie lange gearbeitet hat.",
       "options": [
         "hatte",
         "hattest",
@@ -5921,7 +6284,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(ich -> sahiptim)   Ich",
+      "question": "(ich -> sahiptim)   Ich _______________ früher ein schönes Fahrrad, ama es ist jetzt kaputt.",
       "options": [
         "hatte",
         "hattest",
@@ -5934,11 +6297,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "gestern",
-        "Erhan",
-        "im Büro",
+        "Gestern",
         "war",
-        ""
+        "Erhan",
+        "im",
+        "Büro"
       ],
       "correctAnswers": [
         "Gestern war Erhan im Büro.",
@@ -5949,11 +6312,14 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "eine Wohnung",
-        "in Berlin",
+        "Meine",
+        "Eltern",
         "hatten",
-        "meine Eltern",
-        "früher"
+        "früher",
+        "eine",
+        "Wohnung",
+        "in",
+        "Berlin"
       ],
       "correctAnswers": [
         "Meine Eltern hatten früher eine Wohnung in Berlin.",
@@ -5964,11 +6330,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "beim Arzt",
-        "letzte Woche",
+        "Du",
         "warst",
-        "du",
-        ""
+        "letzte",
+        "Woche",
+        "beim",
+        "Arzt"
       ],
       "correctAnswers": [
         "Du warst letzte Woche beim Arzt.",
@@ -5979,11 +6346,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "keine Zeit",
-        "am Freitag",
+        "Ich",
         "hatte",
-        "ich",
-        ""
+        "am",
+        "Freitag",
+        "keine",
+        "Zeit"
       ],
       "correctAnswers": [
         "Ich hatte am Freitag keine Zeit.",
@@ -6024,7 +6392,7 @@ const LESSON_QUIZZES_A1A2 = {
   "saat-sorma": [
     {
       "type": "multiple-choice",
-      "question": "(09:00 - Tam Saat)    Es ist",
+      "question": "(09:00 - Tam Saat)    Es ist _________________________________________.",
       "options": [
         "Viertel nach neun",
         "Viertel vor zehn",
@@ -6039,7 +6407,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(19:10 - Geçiyor)     Es ist",
+      "question": "(19:10 - Geçiyor)     Es ist _________________________________________.",
       "options": [
         "Viertel nach neun",
         "Viertel vor zehn",
@@ -6054,7 +6422,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(22:50 - Var)         Es ist",
+      "question": "(22:50 - Var)         Es ist _________________________________________.",
       "options": [
         "Viertel nach neun",
         "Viertel vor zehn",
@@ -6069,7 +6437,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(09:15 - Çeyrek Geç)  Es ist",
+      "question": "(09:15 - Çeyrek Geç)  Es ist _________________________________________.",
       "options": [
         "Viertel nach neun",
         "Viertel vor zehn",
@@ -6084,7 +6452,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(09:45 - Çeyrek Var)  Es ist",
+      "question": "(09:45 - Çeyrek Var)  Es ist _________________________________________.",
       "options": [
         "Viertel nach neun",
         "Viertel vor zehn",
@@ -6099,7 +6467,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(11:30 - Buçuk)       Es ist",
+      "question": "(11:30 - Buçuk)       Es ist _________________________________________.",
       "options": [
         "Viertel nach neun",
         "Viertel vor zehn",
@@ -6114,7 +6482,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(05:30 - Buçuk)       Es ist",
+      "question": "(05:30 - Buçuk)       Es ist _________________________________________.",
       "options": [
         "Viertel nach neun",
         "Viertel vor zehn",
@@ -6129,7 +6497,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(17:00 - Resmi/Sokak) Es ist",
+      "question": "(17:00 - Resmi/Sokak) Es ist _________________________________________.",
       "options": [
         "Viertel nach neun",
         "Viertel vor zehn",
@@ -6178,12 +6546,10 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Ich bin müde.",
+        "Trotzdem",
         "lerne",
         "ich",
-        "trotzdem",
-        "Deutsch",
-        ".\n   -> Ich bin müde"
+        "Deutsch"
       ],
       "correctAnswers": [
         "Trotzdem lerne ich Deutsch."
@@ -6193,12 +6559,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Erhan hat çok işi var.",
+        "Trotzdem",
         "spielt",
         "er",
-        "Padel-Tennis",
-        "trotzdem",
-        "am Samstag .\n   -> Erhan hat çok işi var"
+        "am",
+        "Samstag",
+        "Padel-Tennis"
       ],
       "correctAnswers": [
         "Trotzdem spielt er am Samstag Padel-Tennis."
@@ -6208,13 +6574,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Es ist çok soğuk.",
+        "Trotzdem",
         "gehe",
         "ich",
-        "im Park",
-        "spazieren",
-        "trotzdem",
-        ".\n   -> Es ist çok soğuk"
+        "im",
+        "Park",
+        "spazieren"
       ],
       "correctAnswers": [
         "Trotzdem gehe ich im Park spazieren."
@@ -6224,13 +6589,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Mia ist krank.",
+        "Trotzdem",
         "muss",
-        "arbeiten",
         "sie",
-        "im Büro",
-        "trotzdem",
-        ". (Achtung: Modalverb[cite: 147]!)\n   -> Mia ist krank"
+        "im",
+        "Büro",
+        "arbeiten"
       ],
       "correctAnswers": [
         "Trotzdem muss sie im Büro arbeiten."
@@ -6238,17 +6602,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "sırada koruyun[cite: 144]!\n\nÖrnek: Herr Novak ist müde. Trotzdem programmiert er Python. [cite: 141]\n       -> Herr Novak ist müde. Er programmiert trotzdem Python. [cite: 144]",
-      "options": [
-        "fahren trotzdem nach Berlin",
-        "komme trotzdem am Samstag",
-        "ruft trotzdem nicht bei der Post an"
-      ],
-      "correct": 2
-    },
-    {
-      "type": "multiple-choice",
-      "question": "Ich habe keine Zeit. Trotzdem komme ich am Samstag. [cite: 141]\n   -> Ich habe keine Zeit. Ich",
+      "question": "Ich habe keine Zeit. Trotzdem komme ich am Samstag. [cite: 141]\n   -> Ich habe keine Zeit. Ich _________________________________.",
       "options": [
         "fahren trotzdem nach Berlin",
         "komme trotzdem am Samstag",
@@ -6258,7 +6612,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Das Paket ist weg. Trotzdem ruft Herr Demir nicht bei der Post an. [cite: 141]\n   -> Das Paket ist weg. Herr Demir",
+      "question": "Das Paket ist weg. Trotzdem ruft Herr Demir nicht bei der Post an. [cite: 141]\n   -> Das Paket ist weg. Herr Demir ____________________________.",
       "options": [
         "fahren trotzdem nach Berlin",
         "komme trotzdem am Samstag",
@@ -6268,7 +6622,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Es regnet. Trotzdem fahren wir nach Berlin. [cite: 141]\n   -> Es regnet. Wir",
+      "question": "Es regnet. Trotzdem fahren wir nach Berlin. [cite: 141]\n   -> Es regnet. Wir ___________________________________________.",
       "options": [
         "fahren trotzdem nach Berlin",
         "komme trotzdem am Samstag",
@@ -6312,12 +6666,10 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Ich bleibe zu Hause,",
-        "habe",
-        "ich",
         "wenn",
+        "ich",
         "Kopfschmerzen",
-        ".\n   -> Ich bleibe zu Hause,"
+        "habe"
       ],
       "correctAnswers": [
         "wenn ich Kopfschmerzen habe."
@@ -6327,13 +6679,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Erhan spielt Padel-Tennis,",
-        "hat",
-        "am Samstag",
-        "er",
         "wenn",
+        "er",
+        "am",
+        "Samstag",
         "Zeit",
-        ".\n   -> Erhan spielt Padel-Tennis,"
+        "hat"
       ],
       "correctAnswers": [
         "wenn er am Samstag Zeit hat."
@@ -6343,12 +6694,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Herr Novak ruft den Handwerker an,",
-        "ist",
-        "seine Wohnungstür",
         "wenn",
+        "seine",
+        "Wohnungstür",
         "kaputt",
-        ".\n   -> Herr Novak ruft den Handwerker an,"
+        "ist"
       ],
       "correctAnswers": [
         "wenn seine Wohnungstür kaputt ist."
@@ -6358,11 +6708,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Wenn ich müde bin,",
         "trinke",
         "ich",
-        "einen heißen Kaffee",
-        ".\n   -> Wenn ich müde bin,"
+        "einen",
+        "heißen",
+        "Kaffee"
       ],
       "correctAnswers": [
         "trinke ich einen heißen Kaffee."
@@ -6372,12 +6722,10 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Wenn das Paket bugün kommt,",
-        "rufe",
+        "ruft",
         "ich",
         "dich",
-        "an",
-        ". (Achtung: anrufen!)\n   -> Wenn das Paket bugün kommt,"
+        "an"
       ],
       "correctAnswers": [
         "ruft ich dich an.",
@@ -6388,12 +6736,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Wenn du krank bist,",
         "musst",
         "du",
-        "zum Arzt",
-        "gehen",
-        ". (Achtung: Modalverb!)\n   -> Wenn du krank bist,"
+        "zum",
+        "Arzt",
+        "gehen"
       ],
       "correctAnswers": [
         "musst du zum Arzt gehen."
@@ -6403,12 +6750,11 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "Wenn meine Eltern im Sommer kommen,",
-        "wir",
         "gehen",
-        "im Restaurant",
-        "essen",
-        ".\n   -> Wenn meine Eltern im Sommer kommen,"
+        "wir",
+        "im",
+        "Restaurant",
+        "essen"
       ],
       "correctAnswers": [
         "gehen wir im Restaurant essen."
@@ -6448,7 +6794,7 @@ const LESSON_QUIZZES_A1A2 = {
   "yonelim-edatlari": [
     {
       "type": "multiple-choice",
-      "question": "Ich bin müde. Ich gehe jetzt",
+      "question": "Ich bin müde. Ich gehe jetzt ____________________ Hause. (İstisna kalıp)",
       "options": [
         "in",
         "nach",
@@ -6458,7 +6804,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Wir fliegen im Sommer",
+      "question": "Wir fliegen im Sommer ____________________ Hamburg. (Şehir)",
       "options": [
         "in",
         "nach",
@@ -6468,7 +6814,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Herr Novak ist krank. Er geht heute",
+      "question": "Herr Novak ist krank. Er geht heute ____________________ Arzt. (Kişi/Kurum)",
       "options": [
         "in",
         "nach",
@@ -6478,7 +6824,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Das Kind geht",
+      "question": "Das Kind geht ____________________ Park ve spielt Basketball. (İçine giriyor)",
       "options": [
         "in",
         "nach",
@@ -6488,7 +6834,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Morgen fahre ich mit dem Zug",
+      "question": "Morgen fahre ich mit dem Zug ____________________ München. (Şehir)",
       "options": [
         "in",
         "nach",
@@ -6498,7 +6844,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Meine Tante geht",
+      "question": "Meine Tante geht ____________________ Galerie, um Bilder zu sehen. (İçine giriyor)",
       "options": [
         "in",
         "nach",
@@ -6507,81 +6853,96 @@ const LESSON_QUIZZES_A1A2 = {
       "correct": 0
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(in",
-        "der Park)         Wir gehen heute Nachmittag"
-      ],
-      "correctAnswers": [
-        "in den"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(zu",
-        "der Bahnhof)      Wie kann ich"
-      ],
-      "correctAnswers": [
-        "zum"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(in",
-        "das Museum)       Am Sonntag gehen meine Freunde"
-      ],
-      "correctAnswers": [
-        "ins"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(zu",
-        "die Post)         Herr Demir bringt das Paket"
-      ],
-      "correctAnswers": [
+      "type": "multiple-choice",
+      "question": "(in / der Park)         Wir gehen heute Nachmittag _______________ Park.",
+      "options": [
+        "an der  vorbei",
+        "in den",
+        "in die",
+        "ins",
+        "zum",
         "zur"
-      ]
+      ],
+      "correct": 1
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(in",
-        "die Galerie)      Frau Alahmed geht"
+      "type": "multiple-choice",
+      "question": "(zu / der Bahnhof)      Wie kann ich _______________ Bahnhof gehen?",
+      "options": [
+        "an der  vorbei",
+        "in den",
+        "in die",
+        "ins",
+        "zum",
+        "zur"
       ],
-      "correctAnswers": [
-        "in die"
-      ]
+      "correct": 4
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(zu",
-        "das Stadion)      Die Kinder gehen am Samstag"
+      "type": "multiple-choice",
+      "question": "(in / das Museum)       Am Sonntag gehen meine Freunde _______________ Museum.",
+      "options": [
+        "an der  vorbei",
+        "in den",
+        "in die",
+        "ins",
+        "zum",
+        "zur"
       ],
-      "correctAnswers": [
-        "zum"
-      ]
+      "correct": 3
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(an",
-        "die Schule)       Gehen Sie"
+      "type": "multiple-choice",
+      "question": "(zu / die Post)         Herr Demir bringt das Paket _______________ Post.",
+      "options": [
+        "an der  vorbei",
+        "in den",
+        "in die",
+        "ins",
+        "zum",
+        "zur"
       ],
-      "correctAnswers": [
-        "an der ... vorbei"
-      ]
+      "correct": 5
+    },
+    {
+      "type": "multiple-choice",
+      "question": "(in / die Galerie)      Frau Alahmed geht _______________ Galerie.",
+      "options": [
+        "an der  vorbei",
+        "in den",
+        "in die",
+        "ins",
+        "zum",
+        "zur"
+      ],
+      "correct": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "(zu / das Stadion)      Die Kinder gehen am Samstag _______________ Stadion.",
+      "options": [
+        "an der  vorbei",
+        "in den",
+        "in die",
+        "ins",
+        "zum",
+        "zur"
+      ],
+      "correct": 4
+    },
+    {
+      "type": "multiple-choice",
+      "question": "(an / die Schule)       Gehen Sie _______________ Schule ____________________. (Uğramadan geçin)",
+      "options": [
+        "an der  vorbei",
+        "an der ... vorbei",
+        "in den",
+        "in die",
+        "ins",
+        "zum",
+        "zur"
+      ],
+      "correct": 1
     },
     {
       "type": "multiple-choice",
@@ -6703,58 +7064,68 @@ const LESSON_QUIZZES_A1A2 = {
   ],
   "belirli-artikeller": [
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Der Schnee ist"
-      ],
-      "correctAnswers": [
+      "type": "multiple-choice",
+      "question": "Der Schnee ist ____________________.",
+      "options": [
+        "blau",
+        "gelb",
+        "grün",
+        "rot",
         "weiß"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Die Zitrone ist"
       ],
-      "correctAnswers": [
-        "gelb"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Der Himmel ist"
-      ],
-      "correctAnswers": [
-        "blau"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Ich liebe Erdbeeren. Die Erdbeere ist"
-      ],
-      "correctAnswers": [
-        "rot"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "Die Bäume im Park sind"
-      ],
-      "correctAnswers": [
-        "grün"
-      ]
+      "correct": 4
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Die Zitrone ist ____________________.",
+      "options": [
+        "blau",
+        "gelb",
+        "grün",
+        "rot",
+        "weiß"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Der Himmel ist ____________________.",
+      "options": [
+        "blau",
+        "gelb",
+        "grün",
+        "rot",
+        "weiß"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Ich liebe Erdbeeren. Die Erdbeere ist ____________________.",
+      "options": [
+        "blau",
+        "gelb",
+        "grün",
+        "rot",
+        "weiß"
+      ],
+      "correct": 3
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Die Bäume im Park sind ____________________.",
+      "options": [
+        "blau",
+        "gelb",
+        "grün",
+        "rot",
+        "weiß"
+      ],
+      "correct": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "_______________ Apfel ist sehr süß.",
       "options": [
         "bin",
         "der",
@@ -6767,7 +7138,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "_______________ Banane ist gelb.",
       "options": [
         "bin",
         "der",
@@ -6780,7 +7151,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "_______________ Pfirsich schmeckt lecker.",
       "options": [
         "bin",
         "der",
@@ -6793,7 +7164,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "_______________ Orange ist orange.",
       "options": [
         "bin",
         "der",
@@ -6806,7 +7177,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "_______________ Erdbeere ist rot.",
       "options": [
         "bin",
         "der",
@@ -6819,7 +7190,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "_______________ Birne ist grün.",
       "options": [
         "bin",
         "der",
@@ -6831,54 +7202,54 @@ const LESSON_QUIZZES_A1A2 = {
       "correct": 2
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(Deutschland)   Herr Novak kommt"
-      ],
-      "correctAnswers": [
-        "aus"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(die Türkei)    Ahmet kommt"
-      ],
-      "correctAnswers": [
+      "type": "multiple-choice",
+      "question": "(Deutschland)   Herr Novak kommt ____________________ Deutschland.",
+      "options": [
+        "aus",
+        "aus dem",
         "aus der"
-      ]
+      ],
+      "correct": 0
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(Italien)       Wir machen Urlaub in Rom. Meine Freundin kommt"
-      ],
-      "correctAnswers": [
-        "aus"
-      ]
-    },
-    {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(die Schweiz)   Frau Alahmed arbeitet in Zürich. Sie kommt"
-      ],
-      "correctAnswers": [
+      "type": "multiple-choice",
+      "question": "(die Türkei)    Ahmet kommt ____________________ Türkei. O İstanbul'da doğdu.",
+      "options": [
+        "aus",
+        "aus dem",
         "aus der"
-      ]
+      ],
+      "correct": 2
     },
     {
-      "type": "sentence-builder",
-      "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
-      "words": [
-        "(der Iran)      Arash wohnt in Berlin, aber er kommt"
+      "type": "multiple-choice",
+      "question": "(Italien)       Wir machen Urlaub in Rom. Meine Freundin kommt ____________________ Italien.",
+      "options": [
+        "aus",
+        "aus dem",
+        "aus der"
       ],
-      "correctAnswers": [
-        "aus dem"
-      ]
+      "correct": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "(die Schweiz)   Frau Alahmed arbeitet in Zürich. Sie kommt ____________________ Schweiz.",
+      "options": [
+        "aus",
+        "aus dem",
+        "aus der"
+      ],
+      "correct": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "(der Iran)      Arash wohnt in Berlin, aber er kommt ____________________ Iran.",
+      "options": [
+        "aus",
+        "aus dem",
+        "aus der"
+      ],
+      "correct": 1
     },
     {
       "type": "multiple-choice",
