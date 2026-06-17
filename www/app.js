@@ -4695,6 +4695,33 @@ function renderLessonQuizQuestion() {
           <i class="ti ti-check" aria-hidden="true"></i> Kontrol Et
         </button>
       `;
+    } else if (q.type === "write-in") {
+      const formattedSentence = q.question.replace(/\((\d+)\)\s*_____/g, (match, gapNum) => {
+        return `<span class="quiz-sentence-gap">(${gapNum}) _____</span>`;
+      });
+      
+      contentHtml = `
+        <div class="quiz-sentence-preview">
+          ${formattedSentence}
+        </div>
+        
+        <div class="quiz-write-in-container" style="margin-top: 24px; display: flex; flex-direction: column; gap: 15px;">
+          <input type="text" id="quiz-write-in-input" class="quiz-write-in-input" 
+                 placeholder="Cevabınızı yazın..." autocomplete="off" autofocus>
+                 
+          <div id="quiz-write-in-reveal-area"></div>
+          
+          <button id="quiz-write-in-submit-btn" class="c-purple" onclick="submitWriteInAnswer()" 
+                  style="width: 100%; border: none; padding: 14px; border-radius: var(--border-radius-lg); font-size: 14px; font-weight: 600; cursor: pointer; color: #ffffff; display: flex; align-items: center; justify-content: center; gap: 6px; transition: all 0.2s;">
+            <i class="ti ti-check" aria-hidden="true"></i> Kontrol Et
+          </button>
+        </div>
+        
+        <div id="quiz-translation-box" class="quiz-translation-box hidden">
+          <span class="quiz-translation-title">Türkçe Çeviri / Açıklama</span>
+          <span id="quiz-translation-text"></span>
+        </div>
+      `;
     } else {
       const formattedSentence = q.question.replace(/\((\d+)\)\s*_____/g, (match, gapNum) => {
         return `<span class="quiz-sentence-gap">(${gapNum}) _____</span>`;
@@ -4712,10 +4739,28 @@ function renderLessonQuizQuestion() {
             </button>
           `).join("")}
         </div>
+        
+        <div id="quiz-translation-box" class="quiz-translation-box hidden">
+          <span class="quiz-translation-title">Türkçe Çeviri / Açıklama</span>
+          <span id="quiz-translation-text"></span>
+        </div>
       `;
     }
     
     questionArea.innerHTML = contentHtml;
+    
+    if (q.type === "write-in") {
+      const inputEl = document.getElementById("quiz-write-in-input");
+      if (inputEl) {
+        inputEl.focus();
+        inputEl.addEventListener("keypress", (e) => {
+          if (e.key === "Enter") {
+            const btn = document.getElementById("quiz-write-in-submit-btn");
+            if (btn) btn.click();
+          }
+        });
+      }
+    }
   }
 }
 
@@ -4761,6 +4806,18 @@ function selectSentenceOption(event, selectedIdx) {
     renderLessonQuizLives();
   }
   
+  // Show translation if available
+  if (q.translation) {
+    const transBox = document.getElementById("quiz-translation-box");
+    const transText = document.getElementById("quiz-translation-text");
+    if (transBox && transText) {
+      transText.textContent = q.translation;
+      transBox.classList.remove("hidden");
+    }
+  }
+  
+  const delay = q.translation ? 3000 : (isCorrect ? 1200 : 1800);
+  
   setTimeout(() => {
     if (lessonQuizLives <= 0) {
       finishLessonQuiz(false);
@@ -4772,7 +4829,96 @@ function selectSentenceOption(event, selectedIdx) {
         renderLessonQuizQuestion();
       }
     }
-  }, isCorrect ? 1200 : 1800);
+  }, delay);
+}
+
+function submitWriteInAnswer() {
+  const q = activeLessonQuizQuestions[lessonQuizCurrentIndex];
+  const inputEl = document.getElementById("quiz-write-in-input");
+  const submitBtn = document.getElementById("quiz-write-in-submit-btn");
+  const revealArea = document.getElementById("quiz-write-in-reveal-area");
+  if (!inputEl || !submitBtn) return;
+  
+  // If the button is currently in "Devam Et" (Continue) state:
+  if (submitBtn.getAttribute("data-state") === "continue") {
+    proceedFromWriteIn();
+    return;
+  }
+  
+  const userText = inputEl.value.trim();
+  
+  // Check answer case-insensitively
+  const userClean = userText.toLowerCase().replace(/\s+/g, " ");
+  const correctClean = q.correctAnswer.toLowerCase().replace(/\s+/g, " ");
+  
+  // Support both "-er" and "er" style for suffixes
+  let isCorrect = (userClean === correctClean);
+  if (!isCorrect && q.correctAnswer.startsWith("-")) {
+    const rawSuffix = q.correctAnswer.slice(1).toLowerCase();
+    isCorrect = (userClean === rawSuffix);
+  }
+  
+  // Support "Ek yok" or "boş" for "Ek yok (boş)" correct answers
+  if (!isCorrect && q.correctAnswer === "Ek yok (boş)") {
+    isCorrect = (userClean === "ek yok" || userClean === "bos" || userClean === "boş" || userClean === "-" || userClean === "");
+  }
+  
+  // Update sentence gap preview
+  const gapSpan = document.querySelector(".quiz-sentence-gap");
+  if (gapSpan) {
+    gapSpan.textContent = userText || "_____";
+    gapSpan.className = isCorrect ? "quiz-sentence-gap correct" : "quiz-sentence-gap incorrect";
+  }
+  
+  // Disable input
+  inputEl.disabled = true;
+  
+  if (isCorrect) {
+    inputEl.classList.add("correct");
+  } else {
+    inputEl.classList.add("incorrect");
+    // Reveal correct answer underneath
+    if (revealArea) {
+      revealArea.innerHTML = `
+        <div class="quiz-write-in-correct-reveal">
+          <i class="ti ti-info-circle"></i> Doğru Cevap: <strong>${q.correctAnswer}</strong>
+        </div>
+      `;
+    }
+    
+    lessonQuizLives--;
+    renderLessonQuizLives();
+  }
+  
+  // Show translation if available
+  if (q.translation) {
+    const transBox = document.getElementById("quiz-translation-box");
+    const transText = document.getElementById("quiz-translation-text");
+    if (transBox && transText) {
+      transText.textContent = q.translation;
+      transBox.classList.remove("hidden");
+    }
+  }
+  
+  // Change button to "Devam Et" (Continue) state
+  submitBtn.innerHTML = `<i class="ti ti-arrow-right"></i> Devam Et`;
+  submitBtn.setAttribute("data-state", "continue");
+  
+  // Focus continue button so user can press Enter to go to the next question
+  submitBtn.focus();
+}
+
+function proceedFromWriteIn() {
+  if (lessonQuizLives <= 0) {
+    finishLessonQuiz(false);
+  } else {
+    lessonQuizCurrentIndex++;
+    if (lessonQuizCurrentIndex >= activeLessonQuizQuestions.length) {
+      finishLessonQuiz(true);
+    } else {
+      renderLessonQuizQuestion();
+    }
+  }
 }
 
 function selectLetterOption(event, selectedIdx) {
