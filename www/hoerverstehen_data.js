@@ -262,6 +262,108 @@ const HOERVERSTEHEN_TEIL_1_DATA = [
         "correct": "+"
       }
     ]
+  },
+  {
+    "id": "paket_falsche_haustuer",
+    "title": "Paket vor falscher Haustür",
+    "emoji": "📦",
+    "audioPath": "hoerverstehen_teil_1/Das_Paket_vor_der_falschen_Haustür.m4a",
+    "instruction": "Sie hören ein Gespräch im Radio über ein verschwundenes Paket. Lesen Sie zuerst die Sätze 1 bis 5. Sie haben dazu 30 Sekunden Zeit. Hören Sie dann den Text. Entscheiden Sie beim Hören, ob die Aussagen 1 bis 5 richtig (+) oder falsch (-) sind.",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Herr Novak war nicht zu Hause, als der Paketbote das Paket abgeben wollte.",
+        "correct": "-"
+      },
+      {
+        "id": 2,
+        "text": "Am ersten Tag konnte keiner der Nachbarn im Haus Herrn Novak helfen.",
+        "correct": "+"
+      },
+      {
+        "id": 3,
+        "text": "Der Kundenservice hat die Beschwerde abgelehnt, weil das System die Lieferung bestätigte.",
+        "correct": "-"
+      },
+      {
+        "id": 4,
+        "text": "Herr Novak hat nach drei Tagen ein neues Ersatzgerät per Express bekommen.",
+        "correct": "-"
+      },
+      {
+        "id": 5,
+        "text": "Der Fehler lag an einem Missverständnis bei der Hausnummer.",
+        "correct": "+"
+      }
+    ]
+  },
+  {
+    "id": "heizung_techniker",
+    "title": "Heizung & Techniker",
+    "emoji": "🔥",
+    "audioPath": "hoerverstehen_teil_1/Heizung_kaputt_und_kein_Techniker_kommt.m4a",
+    "instruction": "Sie hören ein Gespräch im Radio über ein Problem mit der Heizung. Lesen Sie zuerst die Sätze 1 bis 5. Sie haben dazu 30 Sekunden Zeit. Hören Sie dann den Text. Entscheiden Sie beim Hören, ob die Aussagen 1 bis 5 richtig (+) oder falsch (-) sind.",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Frau Dimitrova hat am Freitag vergeblich auf den Handwerker gewartet.",
+        "correct": "+"
+      },
+      {
+        "id": 2,
+        "text": "Es ist das erste Mal, dass die Firma einen Termin mit Frau Dimitrova vergessen hat.",
+        "correct": "-"
+      },
+      {
+        "id": 3,
+        "text": "Der neue Express-Termin mit dem Techniker findet noch am selben Tag statt.",
+        "correct": "-"
+      },
+      {
+        "id": 4,
+        "text": "Die Firma schickt Frau Dimitrova als Entschädigung ein kostenloses Heizgerät.",
+        "correct": "+"
+      },
+      {
+        "id": 5,
+        "text": "Am Ende musste Frau Dimitrova die Servicegebühr für die Reparatur selbst bezahlen.",
+        "correct": "-"
+      }
+    ]
+  },
+  {
+    "id": "frau_alahmad_stressiger_morgen",
+    "title": "Stressiger Morgen im Deutschkurs",
+    "emoji": "🎒",
+    "audioPath": "hoerverstehen_teil_1/Warum_Frau_Al-Ahmad_trotz_Pechsträhne_lachte.m4a",
+    "instruction": "Sie hören ein Gespräch im Radio über den stressigen Morgen einer Kursteilnehmerin. Lesen Sie zuerst die Sätze 1 bis 5. Sie haben dazu 30 Sekunden Zeit. Hören Sie dann den Text. Entscheiden Sie beim Hören, ob die Aussagen 1 bis 5 richtig (+) oder falsch (-) sind.",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Frau Alahmed lernt schon seit zwei Jahren Deutsch an der Volkshochschule.",
+        "correct": "-"
+      },
+      {
+        "id": 2,
+        "text": "Wegen eines Unfalls auf der Hauptstraße kam kein Bus zur Haltestelle.",
+        "correct": "+"
+      },
+      {
+        "id": 3,
+        "text": "Frau Alahmed ist mit der U-Bahn zur Schule gefahren, um Zeit zu sparen.",
+        "correct": "-"
+      },
+      {
+        "id": 4,
+        "text": "Als Frau Alahmed ankam, war die Tür von ihrem normalen Kursraum geschlossen.",
+        "correct": "+"
+      },
+      {
+        "id": 5,
+        "text": "Weil Frau Alahmed zu spät kam, war der Lehrer sehr wütend auf sie.",
+        "correct": "-"
+      }
+    ]
   }
 ];
 

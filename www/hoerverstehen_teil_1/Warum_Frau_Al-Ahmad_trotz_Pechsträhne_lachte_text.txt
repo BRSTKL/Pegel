@@ -1,0 +1,48 @@
+telc B1 - Hören Teil 1: Sınav Soruları und Cevap Anahtarı Analizi (Frau Alahmed)
+
+Situation: Sie hören ein Gespräch im Radio über den stressigen Morgen einer Kursteilnehmerin.
+Lesen Sie die Aufgaben 1–5. SIND DIE AUSSAGEN RICHTIG ODER FALSCH?
+
+========================================================================
+SINAV SORULARI
+========================================================================
+
+1. Frau Alahmed lernt schon seit zwei Jahren Deutsch an der Volkshochschule.
+   [ ] Richtig
+   [ ] Falsch
+
+2. Wegen eines Unfalls auf der Hauptstraße kam kein Bus zur Haltestelle.
+   [ ] Richtig
+   [ ] Falsch
+
+3. Frau Alahmed ist mit der U-Bahn zur Schule gefahren, um Zeit zu sparen.
+   [ ] Richtig
+   [ ] Falsch
+
+4. Als Frau Alahmed ankam, war die Tür von ihrem normalen Kursraum geschlossen.
+   [ ] Richtig
+   [ ] Falsch
+
+5. Weil Frau Alahmed zu spät kam, war der Lehrer sehr wütend auf sie.
+   [ ] Richtig
+   [ ] Falsch
+
+
+========================================================================
+CEVAP ANAHTARI VE AYRINTILI ANALİZ (PRÜFER-NOTIZEN)
+========================================================================
+
+1. Soru için Cevap: FALSCH
+   - Nedeni: Metinde "Sie lernt seit zwei Monaten in einem B1 Deutschkurs" denmektedir. Soru ise "iki yıl" (zwei Jahre) diyerek adayı yanıltmayı amaçlayan klasik bir sayısal çeldiricidir.
+
+2. Soru için Cevap: RICHTIG
+   - Nedeni: Metinde durağa gelen diğer bir yolcunun "Es gab wohl einen großen Unfall auf der Hauptstraße. Kein Bus fährt." dediği açıkça belirtilmiştir. Durum metindekiyle birebir örtüşmektedir.
+
+3. Soru için Cevap: FALSCH
+   - Nedeni: Metinde "die U-Bahn ist viel zu weit weg" denmiş ve hemen ardından "Also entscheidet sie sich aktiv, den ganzen Weg zur Volkshochschule zu Fuß zu gehen." ifadesi geçmiştir. Yani okula U-Bahn ile değil, yürüyerek gitmiştir.
+
+4. Soru için Cevap: RICHTIG
+   - Nedeni: Metinde ikinci kattaki 204 numaralı odaya çıktığında karşılaştığı durum "und steht vor einer verschlossenen Tür" (kapalı bir kapının önünde duruyor) şeklinde anlatılmıştır. Sorudaki "geschlossen" kelimesi bunu tam olarak karşılar (paraphrasing).
+
+5. Soru için Cevap: FALSCH
+   - Nedeni: Metinde öğretmenin wütend (öfkeli) olmadığı, aksine çok anlayışlı yaklaştığı belirtilmiştir: "Ihr Lehrer reagiert auch sehr verständnisvoll. Er sagt einfach: 'Schön, dass Sie da sind.'"

@@ -1,0 +1,48 @@
+telc B1 - Hören Teil 1: Sınav Soruları ve Cevap Anahtarı Analizi (Paket-Story)
+
+Situation: Sie hören ein Gespräch im Radio über ein verschwundenes Paket.
+Lesen Sie die Aufgaben 1–5. SIND DIE AUSSAGEN RICHTIG ODER FALSCH?
+
+========================================================================
+SINAV SORULARI
+========================================================================
+
+1. Herr Novak war nicht zu Hause, als der Paketbote das Paket abgeben wollte.
+   [ ] Richtig
+   [ ] Falsch
+
+2. Am ersten Tag konnte keiner der Nachbarn im Haus Herrn Novak helfen.
+   [ ] Richtig
+   [ ] Falsch
+
+3. Der Kundenservice hat die Beschwerde abgelehnt, weil das System die Lieferung bestätigte.
+   [ ] Richtig
+   [ ] Falsch
+
+4. Herr Novak hat nach drei Tagen ein neues Ersatzgerät per Express bekommen.
+   [ ] Richtig
+   [ ] Falsch
+
+5. Der Fehler lag an einem Missverständnis bei der Hausnummer.
+   [ ] Richtig
+   [ ] Falsch
+
+
+========================================================================
+CEVAP ANAHTARI VE AYRINTILI ANALİZ (PRÜFER-NOTIZEN)
+========================================================================
+
+1. Soru için Cevap: FALSCH
+   - Nedeni: Metinde "Er war den ganzen Tag zu Hause und es hat niemand geklingelt." denmektedir. Soru ise evde olmadığını (nicht zu Hause) iddia ederek adayları yanıltmaya çalışır.
+
+2. Soru için Cevap: RICHTIG
+   - Nedeni: Herr Novak ilk gün kendi binasındaki (im Haus) giriş katı ve birinci kattaki komşularına sormuş ama "Niemand weiß etwas. Niemand hat dieses Paket gesehen." yanıtını almıştır. Yani binadaki komşulardan kimse yardım edememiştir.
+
+3. Soru için Cevap: FALSCH
+   - Nedeni: Sistem teslim edildi gösterse de müşteri temsilcisi durumu reddetmemiş, aksine profesyonelce yaklaşarak ("Der Mitarbeiter ignoriert das System und verlässt sich auf den Kunden") resmi bir araştırma başlatmıştır.
+
+4. Soru için Cevap: FALSCH
+   - Nedeni: Şirket eğer 2 gün içinde bulunmazsa yeni cihaz gönderme sözü vermiştir ("schickt die Firma sofort ein neues Gerät los"), ancak 3 gün sonra orijinal paket yan binadaki dürüst bir komşu tarafından getirilmiştir. Yani yeni bir cihaz gelmemiştir.
+
+5. Soru için Cevap: RICHTIG
+   - Nedeni: Metnin sonunda ana problem ortaya çıkmaktadır: "Der Postbote hat die Hausnummer falsch gelesen. Er hat das Paket einfach vor die Tür vom Nachbarhaus gelegt." Dolayısıyla sorun tamamen kapı numarası hatasından/karışıklığından kaynaklanmaktadır.
