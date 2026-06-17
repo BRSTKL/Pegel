@@ -1463,6 +1463,60 @@ button.c-teal i, button.c-purple i {
   border-bottom-color: var(--theme-coral) !important;
 }
 
+/* ================= SENTENCE BUILDER STYLES ================= */
+.sentence-builder-zone {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 12px;
+  border-radius: var(--border-radius-lg);
+  border: 1.5px dashed var(--color-border-primary);
+  min-height: 56px;
+  background-color: var(--color-background-secondary);
+  transition: all 0.2s ease;
+}
+
+.word-pill {
+  font-size: 13px;
+  font-weight: 550;
+  padding: 8px 14px;
+  border-radius: var(--border-radius-md);
+  border: 1.5px solid var(--color-border-primary);
+  background-color: var(--color-background-secondary);
+  color: var(--color-text-primary);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.word-pill:hover {
+  border-color: var(--theme-purple);
+  background-color: var(--color-background-primary);
+}
+
+.word-pill.used {
+  opacity: 0.15 !important;
+  pointer-events: none !important;
+  border-style: dashed !important;
+  box-shadow: none !important;
+}
+
+.word-pill.selected-word {
+  border-color: var(--theme-purple);
+  background-color: rgba(147, 51, 234, 0.06);
+  color: var(--theme-purple);
+}
+
+.word-pill.selected-word:hover {
+  background-color: rgba(147, 51, 234, 0.1);
+}
+
+@keyframes popIn {
+  0% { transform: scale(0.92); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
 
 /* ================= CAPACITOR MOBILE APP OVERRIDES ================= */
 body.is-native {

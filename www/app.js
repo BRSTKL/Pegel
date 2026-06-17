@@ -2020,9 +2020,26 @@ let activeQuizQuestions = [];
 let currentQuestionIndex = 0;
 let correctAnswersCount = 0;
 
+function getGlobalReviewQuestions() {
+  const quizzes = getActiveLessonQuizzes();
+  let allQuestions = [];
+  
+  for (const key in quizzes) {
+    const entry = quizzes[key];
+    const qs = (entry && entry.questions) ? entry.questions : (Array.isArray(entry) ? entry : []);
+    allQuestions = allQuestions.concat(qs);
+  }
+  
+  if (allQuestions.length === 0) {
+    return typeof QUIZ_QUESTIONS !== 'undefined' ? QUIZ_QUESTIONS : [];
+  }
+  return allQuestions;
+}
+
 function startNewQuiz() {
   showScreen("quiz");
-  const shuffled = [...QUIZ_QUESTIONS].sort(() => 0.5 - Math.random());
+  const pool = getGlobalReviewQuestions();
+  const shuffled = [...pool].sort(() => 0.5 - Math.random());
   activeQuizQuestions = shuffled.slice(0, 5);
   currentQuestionIndex = 0;
   correctAnswersCount = 0;
@@ -2035,36 +2052,77 @@ function renderQuizQuestion() {
   if (!container) return;
   
   const q = activeQuizQuestions[currentQuestionIndex];
+  const total = activeQuizQuestions.length;
+  const progressPct = total > 0 ? ((currentQuestionIndex + 1) / total) * 100 : 0;
+  
+  let contentHtml = "";
+  if (q.type === "sentence-builder") {
+    sentenceBuilderSelectedWords = [];
+    sentenceBuilderScrambledWords = [...q.words].sort(() => 0.5 - Math.random());
+    
+    contentHtml = `
+      <div class="quiz-sentence-preview" style="margin-bottom: 15px; font-weight: 600; color: var(--color-text-primary);">
+        ${q.question}
+      </div>
+      
+      <!-- Built sentence area -->
+      <div class="sentence-builder-zone" id="sentence-builder-zone" style="min-height: 56px; border: 1.5px dashed var(--color-border-primary); border-radius: var(--border-radius-lg); padding: 10px; display: flex; flex-wrap: wrap; gap: 8px; align-content: center; margin-bottom: 20px; background-color: rgba(0,0,0,0.015); transition: all 0.2s;">
+        <span class="placeholder-text" style="color: var(--color-text-tertiary); font-size: 13px; padding-left: 8px;" id="sentence-builder-placeholder">Kelimelere dokunarak cümleyi kurun...</span>
+      </div>
+      
+      <!-- Scrambled word pills -->
+      <div class="scrambled-words-container" id="scrambled-words-container" style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; justify-content: center;">
+        ${sentenceBuilderScrambledWords.map((word, idx) => `
+          <button class="word-pill" data-scrambled-idx="${idx}" onclick="handleWordPillTap(${idx})">
+            ${word}
+          </button>
+        `).join("")}
+      </div>
+      
+      <!-- Action Check Button -->
+      <button id="sentence-builder-check-btn" class="c-purple" onclick="checkSentenceBuilderAnswer()" style="width: 100%; border: none; padding: 13px; border-radius: var(--border-radius-lg); font-size: 13.5px; font-weight: 600; cursor: pointer; color: #ffffff; display: flex; align-items: center; justify-content: center; gap: 6px; transition: all 0.2s;" disabled>
+        <i class="ti ti-check" aria-hidden="true"></i> Kontrol Et
+      </button>
+    `;
+  } else {
+    contentHtml = `
+      <p style="font-size: 15px; font-weight: 600; line-height: 1.55; margin-bottom: 24px; color: var(--color-text-primary);">
+        ${q.question}
+      </p>
+      
+      <div style="display:flex; flex-direction:column; gap:11px;" id="quiz-options-container">
+        ${q.options.map((opt, idx) => `
+          <button class="quiz-option" data-idx="${idx}">
+            <span>${opt}</span>
+            <i class="ti ti-circle" style="font-size:16px; color:var(--color-text-tertiary); flex-shrink:0; margin-left:8px;"></i>
+          </button>
+        `).join("")}
+      </div>
+    `;
+  }
   
   container.innerHTML = `
     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 16px;">
-      <span class="ts" style="font-size:12.5px; font-weight:500;">Soru ${currentQuestionIndex + 1} / 5</span>
+      <span class="ts" style="font-size:12.5px; font-weight:500;">Soru ${currentQuestionIndex + 1} / ${total}</span>
       <div style="width: 80px; height: 5px; background: var(--color-border-primary); border-radius: 99px; overflow:hidden;">
-        <div style="width: ${(currentQuestionIndex + 1) * 20}%; height:100%; background: var(--theme-coral); border-radius:99px;"></div>
+        <div style="width: ${progressPct}%; height:100%; background: var(--theme-coral); border-radius:99px;"></div>
       </div>
     </div>
     
-    <p style="font-size: 15px; font-weight: 600; line-height: 1.55; margin-bottom: 24px; color: var(--color-text-primary);">
-      ${q.question}
-    </p>
-    
-    <div style="display:flex; flex-direction:column; gap:11px;" id="quiz-options-container">
-      ${q.options.map((opt, idx) => `
-        <button class="quiz-option" data-idx="${idx}">
-          <span>${opt}</span>
-          <i class="ti ti-circle" style="font-size:16px; color:var(--color-text-tertiary); flex-shrink:0; margin-left:8px;"></i>
-        </button>
-      `).join("")}
+    <div id="quiz-question-body-area">
+      ${contentHtml}
     </div>
   `;
   
-  const options = container.querySelectorAll(".quiz-option");
-  options.forEach(btn => {
-    btn.addEventListener("click", () => {
-      const selectedIdx = parseInt(btn.getAttribute("data-idx"));
-      handleQuizAnswer(selectedIdx, btn, options);
+  if (q.type !== "sentence-builder") {
+    const options = container.querySelectorAll(".quiz-option");
+    options.forEach(btn => {
+      btn.addEventListener("click", () => {
+        const selectedIdx = parseInt(btn.getAttribute("data-idx"));
+        handleQuizAnswer(selectedIdx, btn, options);
+      });
     });
-  });
+  }
 }
 
 function handleQuizAnswer(selectedIdx, clickedBtn, allOptions) {
@@ -4609,6 +4667,34 @@ function renderLessonQuizQuestion() {
           `).join("")}
         </div>
       `;
+    } else if (q.type === "sentence-builder") {
+      sentenceBuilderSelectedWords = [];
+      sentenceBuilderScrambledWords = [...q.words].sort(() => 0.5 - Math.random());
+      
+      contentHtml = `
+        <div class="quiz-sentence-preview" style="margin-bottom: 15px; font-weight: 600;">
+          ${q.question}
+        </div>
+        
+        <!-- Built sentence area -->
+        <div class="sentence-builder-zone" id="sentence-builder-zone" style="min-height: 56px; border: 1.5px dashed var(--color-border-primary); border-radius: var(--border-radius-lg); padding: 10px; display: flex; flex-wrap: wrap; gap: 8px; align-content: center; margin-bottom: 20px; background-color: rgba(0,0,0,0.015); transition: all 0.2s;">
+          <span class="placeholder-text" style="color: var(--color-text-tertiary); font-size: 13px; padding-left: 8px;" id="sentence-builder-placeholder">Kelimelere dokunarak cümleyi kurun...</span>
+        </div>
+        
+        <!-- Scrambled word pills -->
+        <div class="scrambled-words-container" id="scrambled-words-container" style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; justify-content: center;">
+          ${sentenceBuilderScrambledWords.map((word, idx) => `
+            <button class="word-pill" data-scrambled-idx="${idx}" onclick="handleWordPillTap(${idx})">
+              ${word}
+            </button>
+          `).join("")}
+        </div>
+        
+        <!-- Action Check Button -->
+        <button id="sentence-builder-check-btn" class="c-purple" onclick="checkSentenceBuilderAnswer()" style="width: 100%; border: none; padding: 13px; border-radius: var(--border-radius-lg); font-size: 13.5px; font-weight: 600; cursor: pointer; color: #ffffff; display: flex; align-items: center; justify-content: center; gap: 6px; transition: all 0.2s;" disabled>
+          <i class="ti ti-check" aria-hidden="true"></i> Kontrol Et
+        </button>
+      `;
     } else {
       const formattedSentence = q.question.replace(/\((\d+)\)\s*_____/g, (match, gapNum) => {
         return `<span class="quiz-sentence-gap">(${gapNum}) _____</span>`;
@@ -4807,4 +4893,134 @@ function finishLessonQuiz(success) {
       showScreen("lesson");
     });
   }
+}
+
+// ================= SENTENCE BUILDER QUIZ COMPONENT =================
+let sentenceBuilderSelectedWords = [];
+let sentenceBuilderScrambledWords = [];
+
+function handleWordPillTap(scrambledIdx) {
+  const scrambledContainer = document.getElementById("scrambled-words-container");
+  if (!scrambledContainer) return;
+  
+  const pill = scrambledContainer.querySelector(`[data-scrambled-idx="${scrambledIdx}"]`);
+  if (!pill || pill.classList.contains("used")) return;
+  
+  // Add to selected list
+  sentenceBuilderSelectedWords.push({
+    scrambledIdx: scrambledIdx,
+    word: sentenceBuilderScrambledWords[scrambledIdx]
+  });
+  
+  // Style as used
+  pill.classList.add("used");
+  
+  // Re-render selected zone
+  renderSentenceBuilderZone();
+}
+
+function handleSelectedWordPillTap(selectedIdx) {
+  // Get item to remove
+  const item = sentenceBuilderSelectedWords[selectedIdx];
+  if (!item) return;
+  
+  // Remove from selected list
+  sentenceBuilderSelectedWords.splice(selectedIdx, 1);
+  
+  // Re-enable pill in scrambled container
+  const scrambledContainer = document.getElementById("scrambled-words-container");
+  if (scrambledContainer) {
+    const pill = scrambledContainer.querySelector(`[data-scrambled-idx="${item.scrambledIdx}"]`);
+    if (pill) {
+      pill.classList.remove("used");
+    }
+  }
+  
+  // Re-render selected zone
+  renderSentenceBuilderZone();
+}
+
+function renderSentenceBuilderZone() {
+  const zone = document.getElementById("sentence-builder-zone");
+  const checkBtn = document.getElementById("sentence-builder-check-btn");
+  if (!zone) return;
+  
+  if (sentenceBuilderSelectedWords.length === 0) {
+    zone.innerHTML = `<span class="placeholder-text" style="color: var(--color-text-tertiary); font-size: 13px; padding-left: 8px;" id="sentence-builder-placeholder">Kelimelere dokunarak cümleyi kurun...</span>`;
+    if (checkBtn) checkBtn.disabled = true;
+  } else {
+    zone.innerHTML = sentenceBuilderSelectedWords.map((item, idx) => `
+      <button class="word-pill selected-word" onclick="handleSelectedWordPillTap(${idx})" style="animation: popIn 0.15s ease-out;">
+        ${item.word}
+      </button>
+    `).join("");
+    if (checkBtn) checkBtn.disabled = false;
+  }
+}
+
+function sanitizeSentence(s) {
+  return s.trim()
+          .replace(/\s+/g, " ")
+          .replace(/[\.\?\!\,\;\:\-]/g, "")
+          .toLowerCase();
+}
+
+function checkSentenceBuilderAnswer() {
+  const q = activeLessonQuizQuestions[lessonQuizCurrentIndex];
+  const checkBtn = document.getElementById("sentence-builder-check-btn");
+  const zone = document.getElementById("sentence-builder-zone");
+  const scrambledContainer = document.getElementById("scrambled-words-container");
+  
+  if (!q || !zone || !checkBtn) return;
+  
+  // Disable check button and all interactions
+  checkBtn.disabled = true;
+  zone.style.pointerEvents = "none";
+  if (scrambledContainer) scrambledContainer.style.pointerEvents = "none";
+  
+  // Construct user string
+  const userStr = sentenceBuilderSelectedWords.map(item => item.word).join(" ");
+  const sanitizedUser = sanitizeSentence(userStr);
+  
+  // Check if it matches any correct answers
+  const isCorrect = q.correctAnswers.some(ans => sanitizeSentence(ans) === sanitizedUser);
+  
+  lessonQuizCorrectStates[lessonQuizCurrentIndex] = isCorrect;
+  lessonQuizAnswersText[lessonQuizCurrentIndex] = userStr;
+  
+  if (isCorrect) {
+    zone.style.borderColor = "#22c55e";
+    zone.style.backgroundColor = "rgba(34, 197, 94, 0.08)";
+    checkBtn.innerHTML = `<i class="ti ti-circle-check-filled" style="font-size: 18px;"></i> Doğru!`;
+    checkBtn.style.backgroundColor = "#22c55e";
+    checkBtn.style.borderColor = "#22c55e";
+  } else {
+    zone.style.borderColor = "#ef4444";
+    zone.style.backgroundColor = "rgba(239, 68, 68, 0.08)";
+    checkBtn.innerHTML = `<i class="ti ti-circle-x-filled" style="font-size: 18px;"></i> Yanlış`;
+    checkBtn.style.backgroundColor = "#ef4444";
+    checkBtn.style.borderColor = "#ef4444";
+    
+    // Show correct answers below the check button
+    const explanation = document.createElement("div");
+    explanation.style = "margin-top: 14px; padding: 12px; border-radius: var(--border-radius-md); background: rgba(239, 68, 68, 0.05); border: 1.5px solid rgba(239, 68, 68, 0.2); font-size: 12.5px; color: #ef4444; font-weight: 500; line-height: 1.5; text-align: left;";
+    explanation.innerHTML = `<p style="margin: 0 0 6px 0; font-weight: 700;">Doğru Cevap(lar):</p>` + q.correctAnswers.map(ans => `<p style="margin: 3px 0 0 0;">✨ ${ans}</p>`).join("");
+    zone.parentNode.insertBefore(explanation, checkBtn.nextSibling);
+    
+    lessonQuizLives--;
+    renderLessonQuizLives();
+  }
+  
+  setTimeout(() => {
+    if (lessonQuizLives <= 0) {
+      finishLessonQuiz(false);
+    } else {
+      lessonQuizCurrentIndex++;
+      if (lessonQuizCurrentIndex >= activeLessonQuizQuestions.length) {
+        finishLessonQuiz(true);
+      } else {
+        renderLessonQuizQuestion();
+      }
+    }
+  }, isCorrect ? 1500 : 3500);
 }
