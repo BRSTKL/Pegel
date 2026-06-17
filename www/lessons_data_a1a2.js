@@ -2,11 +2,11 @@ const LESSONS_DATA_A1A2 = [
   {
     id: "ozel-fiil-yapilari",
     icon: "ti-bolt",
-    label: "Özel Fiil Yapıları",
+    name:"Özel Fiil Yapıları",
     subcategories: [
       {
         id: "ozel-fiil-yapilari-genel",
-        label: "Özel Fiil Yapıları",
+        name:"Özel Fiil Yapıları",
         lessons: [
           { id: "ayrilabilir-fiiller", title: "Ayrılabilir Fiiller (Trennbare Verben)" },
           { id: "donuslu-fiiller", title: "Dönüşlü Fiiller (Reflexive Verben)" },
@@ -20,11 +20,11 @@ const LESSONS_DATA_A1A2 = [
   {
     id: "artikeller-ve-haller",
     icon: "ti-abc",
-    label: "Artikeller ve Haller",
+    name:"Artikeller ve Haller",
     subcategories: [
       {
         id: "artikeller-ve-haller-genel",
-        label: "Artikeller ve Haller",
+        name:"Artikeller ve Haller",
         lessons: [
           { id: "belirli-artikeller", title: "Belirli Artikeller (Der, Die, Das)" },
           { id: "belirsiz-artikeller", title: "Belirsiz Artikeller (Ein, Eine)" },
@@ -38,11 +38,11 @@ const LESSONS_DATA_A1A2 = [
   {
     id: "cumle-yapisi",
     icon: "ti-list",
-    label: "Cümle Yapısı (Wortstellung)",
+    name:"Cümle Yapısı (Wortstellung)",
     subcategories: [
       {
         id: "temel-dizilim",
-        label: "Temel Dizilim",
+        name:"Temel Dizilim",
         lessons: [
           { id: "fiil-ikinci-sirada", title: "Fiil Her Zaman İkinci Sırada" },
           { id: "ozne-fiil-uyumu", title: "Özne ve Fiil Uyumu" },
@@ -51,7 +51,7 @@ const LESSONS_DATA_A1A2 = [
       },
       {
         id: "tekamolo-kurali",
-        label: "TeKaMoLo Kuralı",
+        name:"TeKaMoLo Kuralı",
         lessons: [
           { id: "temporal", title: "Temporal (Ne Zaman)" },
           { id: "kausal", title: "Kausal (Neden)" },
@@ -64,11 +64,11 @@ const LESSONS_DATA_A1A2 = [
   {
     id: "baglaçlar-ve-yan-cumleler",
     icon: "ti-sitemap",
-    label: "Bağlaçlar ve Yan Cümleler",
+    name:"Bağlaçlar ve Yan Cümleler",
     subcategories: [
       {
         id: "fiili-sona-atanlar",
-        label: "Fiili Sona Atanlar",
+        name:"Fiili Sona Atanlar",
         lessons: [
           { id: "weil", title: "Weil (Çünkü/İçin)" },
           { id: "dass", title: "Dass (-dığı/da)" },
@@ -78,7 +78,7 @@ const LESSONS_DATA_A1A2 = [
       },
       {
         id: "cumle-basi-ortasi-baglaçlar",
-        label: "Cümle Başı/Ortası Bağlaçlar",
+        name:"Cümle Başı/Ortası Bağlaçlar",
         lessons: [
           { id: "trotzdem", title: "Trotzdem (Buna Rağmen)" },
           { id: "deshalb-deswegen", title: "Deshalb / Deswegen (Bu Yüzden)" },
@@ -87,7 +87,7 @@ const LESSONS_DATA_A1A2 = [
       },
       {
         id: "dolayli-sorular",
-        label: "Dolaylı Sorular",
+        name:"Dolaylı Sorular",
         lessons: [
           { id: "indirekte-fragen", title: "Dolaylı Sorular (Indirekte Fragen)" },
         ]
@@ -97,11 +97,11 @@ const LESSONS_DATA_A1A2 = [
   {
     id: "fiil-turleri-ve-zamanlar",
     icon: "ti-clock",
-    label: "Fiil Türleri ve Zamanlar",
+    name:"Fiil Türleri ve Zamanlar",
     subcategories: [
       {
         id: "modal-fiiller",
-        label: "Modal Fiiller",
+        name:"Modal Fiiller",
         lessons: [
           { id: "mussen", title: "Müssen (Zorunluluk)" },
           { id: "konnen", title: "Können (Yetenek/İmkân)" },
@@ -113,7 +113,7 @@ const LESSONS_DATA_A1A2 = [
       },
       {
         id: "zaman-formlari",
-        label: "Zaman Formları",
+        name:"Zaman Formları",
         lessons: [
           { id: "prasens", title: "Präsens (Şimdiki ve Geniş Zaman)" },
           { id: "perfekt", title: "Perfekt (-di'li Geçmiş Zaman)" },
@@ -126,11 +126,11 @@ const LESSONS_DATA_A1A2 = [
   {
     id: "isim-ve-sifat-bilgisi",
     icon: "ti-vocabulary",
-    label: "İsim ve Sıfat Bilgisi",
+    name:"İsim ve Sıfat Bilgisi",
     subcategories: [
       {
         id: "zamirler",
-        label: "Zamirler",
+        name:"Zamirler",
         lessons: [
           { id: "sahis-zamirleri", title: "Şahıs Zamirleri (Nominativ, Akkusativ, Dativ)" },
           { id: "iyelik-zamirleri", title: "İyelik Zamirleri (Possessivartikel)" },
@@ -138,7 +138,7 @@ const LESSONS_DATA_A1A2 = [
       },
       {
         id: "sifatlar",
-        label: "Sıfatlar",
+        name:"Sıfatlar",
         lessons: [
           { id: "sifat-cekimi", title: "Sıfat Çekimi (Adjektivdeklination)" },
           { id: "derecelendirme", title: "Derecelendirme (Komparativ & Superlativ)" },
@@ -149,11 +149,11 @@ const LESSONS_DATA_A1A2 = [
   {
     id: "gunluk-konular-ve-kelimeler",
     icon: "ti-message-circle",
-    label: "Günlük Konular ve Kelimeler",
+    name:"Günlük Konular ve Kelimeler",
     subcategories: [
       {
         id: "temel-iletisim",
-        label: "Temel İletişim",
+        name:"Temel İletişim",
         lessons: [
           { id: "selamlasma-vedalasma", title: "Selamlaşma ve Vedalaşma" },
           { id: "kendini-tanitma", title: "Kendini Tanıtma" },
@@ -163,7 +163,7 @@ const LESSONS_DATA_A1A2 = [
       },
       {
         id: "zaman-ve-sayilar",
-        label: "Zaman ve Sayılar",
+        name:"Zaman ve Sayılar",
         lessons: [
           { id: "sayilar-siralama", title: "Sayılar ve Sıralama Sayıları" },
           { id: "saat-sorma", title: "Saat Sorma ve Söyleme" },
@@ -173,7 +173,7 @@ const LESSONS_DATA_A1A2 = [
       },
       {
         id: "yasam-ve-cevre",
-        label: "Yaşam ve Çevre",
+        name:"Yaşam ve Çevre",
         lessons: [
           { id: "aile-uyeleri", title: "Aile Üyeleri (Die Familie)" },
           { id: "meslekler", title: "Meslekler (Die Berufe)" },
@@ -186,11 +186,11 @@ const LESSONS_DATA_A1A2 = [
   {
     id: "edatlar",
     icon: "ti-map-pin",
-    label: "Edatlar (Präpositionen)",
+    name:"Edatlar (Präpositionen)",
     subcategories: [
       {
         id: "edatlar-genel",
-        label: "Edatlar",
+        name:"Edatlar",
         lessons: [
           { id: "yer-edatlari", title: "Yer Edatları (Lokale Präpositionen)" },
           { id: "yonelim-edatlari", title: "Yönelim Edatları (In, Zu, An, Nach)" },
