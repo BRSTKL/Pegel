@@ -2326,8 +2326,7 @@ const LESSON_QUIZZES_A1A2 = {
   "sifat-cekimi": [
     {
       "question": "Der Kaffee ist heiß___. (Sıfat tek başına)",
-      "type": "write-in",
-      "correctAnswer": "Ek yok (boş)",
+      "type": "multiple-choice",
       "options": [
         "-e",
         "-en",
@@ -2338,8 +2337,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "Das ist ein heiß___ Kaffee. (ein + der Kaffee)",
-      "type": "write-in",
-      "correctAnswer": "-er",
+      "type": "multiple-choice",
       "options": [
         "-e",
         "-em",
@@ -2350,8 +2348,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "Herr Novak kauft das neu___ Fahrrad. (das + das Fahrrad)",
-      "type": "write-in",
-      "correctAnswer": "-e",
+      "type": "multiple-choice",
       "options": [
         "-e",
         "-em",
@@ -2362,8 +2359,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "Ich suche eine klein___ Tasche. (eine + die Tasche)",
-      "type": "write-in",
-      "correctAnswer": "-e",
+      "type": "multiple-choice",
       "options": [
         "-e",
         "-en",
@@ -2374,8 +2370,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "Herr Demir repariert den kaputt___ Computer. (den + der Computer / Akkusativ!)",
-      "type": "write-in",
-      "correctAnswer": "-en",
+      "type": "multiple-choice",
       "options": [
         "-e",
         "-en",
@@ -2386,8 +2381,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "Wir mieten eine schön___ Wohnung in Berlin. (eine + die Wohnung)",
-      "type": "write-in",
-      "correctAnswer": "-e",
+      "type": "multiple-choice",
       "options": [
         "-e",
         "-em",
@@ -2478,8 +2472,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "Das ist das alt___ Buch von Herrn Novak. (das Buch)",
-      "type": "write-in",
-      "correctAnswer": "-e",
+      "type": "multiple-choice",
       "options": [
         "-e",
         "-em",
@@ -2490,8 +2483,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "Herr Demir hat ein neu___ Auto. (das Auto)",
-      "type": "write-in",
-      "correctAnswer": "-es",
+      "type": "multiple-choice",
       "options": [
         "-e",
         "-en",
@@ -2502,8 +2494,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "Der blau___ Tisch steht im Garten. (der Tisch)",
-      "type": "write-in",
-      "correctAnswer": "-e",
+      "type": "multiple-choice",
       "options": [
         "-e",
         "-em",
@@ -2514,8 +2505,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "Das ist ein frisch___ Kaffee. (der Kaffee)",
-      "type": "write-in",
-      "correctAnswer": "-er",
+      "type": "multiple-choice",
       "options": [
         "-en",
         "-er",
@@ -2526,8 +2516,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "Eine gelb___ Rose liegt auf dem Tisch. (die Rose)",
-      "type": "write-in",
-      "correctAnswer": "-e",
+      "type": "multiple-choice",
       "options": [
         "-e",
         "-em",
@@ -2538,8 +2527,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "Die alt___ Bücher liegen im Keller. (Plural / Çoğul!)",
-      "type": "write-in",
-      "correctAnswer": "-en",
+      "type": "multiple-choice",
       "options": [
         "-e",
         "-em",
@@ -2550,8 +2538,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "Ich suche den blau___ Tisch. (Akkusativ / der Tisch)",
-      "type": "write-in",
-      "correctAnswer": "-en",
+      "type": "multiple-choice",
       "options": [
         "-e",
         "-em",
@@ -2562,8 +2549,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "Frau Alahmed kauft ein neu___ Fahrrad. (Akkusativ / das Fahrrad)",
-      "type": "write-in",
-      "correctAnswer": "-es",
+      "type": "multiple-choice",
       "options": [
         "-e",
         "-em",
@@ -2574,8 +2560,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "Er hilft einer alt___ Frau. (Dativ / die Frau -> einer)",
-      "type": "write-in",
-      "correctAnswer": "-en",
+      "type": "multiple-choice",
       "options": [
         "-e",
         "-en",
@@ -2586,8 +2571,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "Wir wohnen in einem groß___ Haus. (Dativ / das Haus -> einem)",
-      "type": "write-in",
-      "correctAnswer": "-en",
+      "type": "multiple-choice",
       "options": [
         "-e",
         "-en",
@@ -2598,8 +2582,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "Herr Novak sucht einen neu___ Laptop. (Akkusativ / der Laptop)",
-      "type": "write-in",
-      "correctAnswer": "-en",
+      "type": "multiple-choice",
       "options": [
         "-em",
         "-en",
@@ -2641,22 +2624,19 @@ const LESSON_QUIZZES_A1A2 = {
   ],
   "derecelendirme": [
     {
-      "question": "Berlin ist çok büyük. İstanbul da çok büyük.",
-      "type": "write-in",
-      "correctAnswer": "so ... wie",
+      "question": "Berlin ist çok büyük. İstanbul da çok büyük.\n   -> Berlin ist ____________________ groß ____________________ İstanbul.",
+      "type": "multiple-choice",
       "options": [
         "als",
         "am",
         "so  wie",
         "so ... wie"
       ],
-      "correct": 3,
-      "translation": "-> Berlin ist ____________________ groß ____________________ İstanbul."
+      "correct": 3
     },
     {
       "question": "Erhan ist 25 Jahre alt. Ahmet ist 30 Jahre alt. Ahmet ist älter ____________________ Erhan.",
-      "type": "write-in",
-      "correctAnswer": "als",
+      "type": "multiple-choice",
       "options": [
         "als",
         "am",
@@ -2667,8 +2647,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "Meine Mutter kocht gut, aber mein Vater kocht ____________________ besten.",
-      "type": "write-in",
-      "correctAnswer": "am",
+      "type": "multiple-choice",
       "options": [
         "am",
         "auf",
@@ -2679,8 +2658,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "Ich bin 1,80 m. Mein Bruder ist 1,85 m. Mein Bruder ist größer ____________________ ich.",
-      "type": "write-in",
-      "correctAnswer": "als",
+      "type": "multiple-choice",
       "options": [
         "als",
         "am",
@@ -2691,8 +2669,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "Dieses Auto ist teuer, aber jene Tasche ist ____________________ teuersten.",
-      "type": "write-in",
-      "correctAnswer": "am",
+      "type": "multiple-choice",
       "options": [
         "am",
         "im",
@@ -2703,8 +2680,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "(gut)        Ich trinke Kaffee, aber Tee trinken ist ____________________.",
-      "type": "write-in",
-      "correctAnswer": "besser",
+      "type": "multiple-choice",
       "options": [
         "besser",
         "kürzer",
@@ -2715,8 +2691,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "(gern)       Ich spiele Basketball, aber ich spiele Padel-Tennis ____________________ liebsten.",
-      "type": "write-in",
-      "correctAnswer": "am",
+      "type": "multiple-choice",
       "options": [
         "am",
         "an",
@@ -2727,8 +2702,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "(kurz)       Im Februar sind die Tage ____________________ als im Juli.",
-      "type": "write-in",
-      "correctAnswer": "kürzer",
+      "type": "multiple-choice",
       "options": [
         "größer",
         "kürzer",
@@ -2739,8 +2713,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "(gut)        Herr Novak programmiert Python gut, aber er programmiert in SQL ____________________ besten.",
-      "type": "write-in",
-      "correctAnswer": "am",
+      "type": "multiple-choice",
       "options": [
         "am",
         "im",
@@ -2751,8 +2724,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "(stark)      Mein Vater ist stark, aber mein Opa ist ____________________ stärksten.",
-      "type": "write-in",
-      "correctAnswer": "am",
+      "type": "multiple-choice",
       "options": [
         "am",
         "ins",
@@ -3489,8 +3461,7 @@ const LESSON_QUIZZES_A1A2 = {
   "iyelik-zamirleri": [
     {
       "question": "(ich / das Buch)      -> Das ist mein___ Buch.",
-      "type": "write-in",
-      "correctAnswer": "mein",
+      "type": "multiple-choice",
       "options": [
         "Ihre",
         "eure",
@@ -3501,8 +3472,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "(du / die Tasche)     -> Ist das dein___ Tasche?",
-      "type": "write-in",
-      "correctAnswer": "-e",
+      "type": "multiple-choice",
       "options": [
         "-e",
         "-em",
@@ -3513,8 +3483,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "(er / der Vater)      -> Das ist sein___ Vater.",
-      "type": "write-in",
-      "correctAnswer": "sein",
+      "type": "multiple-choice",
       "options": [
         "deine",
         "eure",
@@ -3525,8 +3494,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "(sie - o / die Katze) -> Ihr___ Katze ist süß.",
-      "type": "write-in",
-      "correctAnswer": "-e",
+      "type": "multiple-choice",
       "options": [
         "-e",
         "-en",
@@ -3537,8 +3505,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "(wir / die Kinder)    -> Das sind unser___ Kinder.",
-      "type": "write-in",
-      "correctAnswer": "-e",
+      "type": "multiple-choice",
       "options": [
         "-e",
         "-em",
@@ -3549,8 +3516,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "(ihr / die Bücher)    -> Wo sind eur___ Bücher?",
-      "type": "write-in",
-      "correctAnswer": "-e",
+      "type": "multiple-choice",
       "options": [
         "-e",
         "-em",
@@ -3668,8 +3634,7 @@ const LESSON_QUIZZES_A1A2 = {
   "sahis-zamirleri": [
     {
       "question": "(du -> bana)       Herr Novak hilft ___________ heute im Büro. (helfen + Dativ)",
-      "type": "write-in",
-      "correctAnswer": "mir",
+      "type": "multiple-choice",
       "options": [
         "dich",
         "euch",
@@ -3680,8 +3645,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "(ich -> seni)      Ich liebe ___________, meine liebe Mia! (lieben + Akkusativ)",
-      "type": "write-in",
-      "correctAnswer": "dich",
+      "type": "multiple-choice",
       "options": [
         "dich",
         "euch",
@@ -3692,8 +3656,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "(er -> ona/erkek)  Das Fahrrad ist kaputt. Er repariert ___________ morgen. (reparieren + Akkusativ)",
-      "type": "write-in",
-      "correctAnswer": "ihn",
+      "type": "multiple-choice",
       "options": [
         "dich",
         "ihn",
@@ -3704,8 +3667,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "(ihr -> size)      Kinder, ich danke ___________ für die Hilfe. (danken + Dativ)",
-      "type": "write-in",
-      "correctAnswer": "euch",
+      "type": "multiple-choice",
       "options": [
         "Ihnen",
         "euch",
@@ -3716,8 +3678,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "(wir -> bize)      Der Lehrer erklärt ___________ die Grammatik. (erklären + Dativ)",
-      "type": "write-in",
-      "correctAnswer": "uns",
+      "type": "multiple-choice",
       "options": [
         "Ihnen",
         "dich",
@@ -3728,8 +3689,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "question": "(Sie -> Size/kibar) Herr Demir, wie geht es ___________ heute? (gehen + Dativ)",
-      "type": "write-in",
-      "correctAnswer": "Ihnen",
+      "type": "multiple-choice",
       "options": [
         "Ihnen",
         "dich",
@@ -6145,7 +6105,7 @@ const LESSON_QUIZZES_A1A2 = {
   ],
   "prasens": [
     {
-      "question": "Ich spiele jetzt Padel-Tennis im Park.",
+      "question": "Ich spiele jetzt Padel-Tennis im Park. \n   -> Anlamı: __________________________________________________",
       "type": "write-in",
       "correctAnswer": "Şimdiki Zaman",
       "options": [
@@ -6154,11 +6114,10 @@ const LESSON_QUIZZES_A1A2 = {
         "ist",
         "Şimdiki Zaman"
       ],
-      "correct": 3,
-      "translation": "-> Anlamı: __________________________________________________"
+      "correct": 3
     },
     {
-      "question": "Erhan spielt jeden Samstag Basketball.",
+      "question": "Erhan spielt jeden Samstag Basketball.\n   -> Anlamı: __________________________________________________",
       "type": "write-in",
       "correctAnswer": "Geniş Zaman",
       "options": [
@@ -6167,11 +6126,10 @@ const LESSON_QUIZZES_A1A2 = {
         "hat",
         "Şimdiki Zaman"
       ],
-      "correct": 0,
-      "translation": "-> Anlamı: __________________________________________________"
+      "correct": 0
     },
     {
-      "question": "Morgen spielt meine Tante Tennis in Berlin.",
+      "question": "Morgen spielt meine Tante Tennis in Berlin.\n   -> Anlamı: __________________________________________________",
       "type": "write-in",
       "correctAnswer": "Gelecek Zaman",
       "options": [
@@ -6180,11 +6138,10 @@ const LESSON_QUIZZES_A1A2 = {
         "hat",
         "ist"
       ],
-      "correct": 0,
-      "translation": "-> Anlamı: __________________________________________________"
+      "correct": 0
     },
     {
-      "question": "Herr Novak kocht gerade eine leckere Suppe.",
+      "question": "Herr Novak kocht gerade eine leckere Suppe.\n   -> Anlamı: __________________________________________________",
       "type": "write-in",
       "correctAnswer": "Şimdiki Zaman",
       "options": [
@@ -6193,11 +6150,10 @@ const LESSON_QUIZZES_A1A2 = {
         "ist",
         "Şimdiki Zaman"
       ],
-      "correct": 3,
-      "translation": "-> Anlamı: __________________________________________________"
+      "correct": 3
     },
     {
-      "question": "Wir fliegen im Sommer nach Spanien.",
+      "question": "Wir fliegen im Sommer nach Spanien.\n   -> Anlamı: __________________________________________________",
       "type": "write-in",
       "correctAnswer": "Gelecek Zaman",
       "options": [
@@ -6206,8 +6162,7 @@ const LESSON_QUIZZES_A1A2 = {
         "haben",
         "hat"
       ],
-      "correct": 0,
-      "translation": "-> Anlamı: __________________________________________________"
+      "correct": 0
     },
     {
       "type": "sentence-builder",
