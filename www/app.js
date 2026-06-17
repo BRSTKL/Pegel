@@ -1760,8 +1760,9 @@ function renderSitemapScreen() {
   catNav.innerHTML = "";
   getActiveLessonsData().forEach(cat => {
     const btn = document.createElement("button");
-    btn.className = `category-tab-btn ${state.activeCategory === cat.id ? 'active' : ''}`;
-    btn.style = `flex: 1; padding: 10px 0; border: none; border-bottom: 2px solid ${state.activeCategory === cat.id ? 'var(--theme-purple)' : 'transparent'}; background: none; font-size: 13px; font-weight: 600; cursor: pointer; color: ${state.activeCategory === cat.id ? 'var(--theme-purple)' : 'var(--color-text-secondary)'};`;
+    const isActive = state.activeCategory === cat.id;
+    btn.className = `category-tab-btn ${isActive ? 'active' : ''}`;
+    btn.style = `flex-shrink: 0; padding: 7px 14px; border: 1.5px solid ${isActive ? 'var(--theme-purple)' : 'var(--color-border-primary)'}; border-radius: 20px; background: ${isActive ? 'var(--theme-purple)' : 'transparent'}; font-size: 12.5px; font-weight: 600; cursor: pointer; color: ${isActive ? '#fff' : 'var(--color-text-secondary)'}; white-space: nowrap; transition: all 0.15s;`;
     btn.textContent = cat.name.split(" ")[0];
     btn.addEventListener("click", () => {
       state.activeCategory = cat.id;
