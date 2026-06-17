@@ -1,42 +1,83 @@
-// app.js - B1 German App Core Logic (Minimalist Redesign + Prepositions Dashboard)
+﻿// app.js - Pegel German App Core Logic (Multi-Level: A1-A2 & B1)
+
+// Per-level progress template
+function emptyLevelProgress() {
+  return {
+    completedLessons: [],
+    leseverstehenAnswers: {}, leseverstehenProgress: {},
+    sprachbausteineAnswers: {}, sprachbausteineProgress: {},
+    hoerverstehenAnswers: {}, hoerverstehenProgress: {},
+    prepScores: {}, starredPreps: [],
+    myVocabulary: [],
+  };
+}
 
 // State management
 let state = {
+  // Global (level-independent)
   userName: "Baris",
+  activeLevel: "B1",
   streak: 0,
   xp: 0,
-  completedLessons: [],
-  completedToday: {
-    flashcards: false,
-    quiz: false
-  },
+  completedToday: { flashcards: false, quiz: false },
   currentScreen: "home",
-  appVersion: 4,
+  appVersion: 5,
   activeCategory: "verben",
   expandedSubcategories: {},
-  theme: "dark", // Default to dark mode for App_Tasarım.PNG aesthetic
+  theme: "dark",
   quizHistory: [],
   lastActiveDate: "",
-  
-  // Prepositions specific states
-  prepScores: {},     // { 'abhängen_von': 3, ... }
-  starredPreps: [],    // [ 'abhängen_von', ... ]
-
-  // Sprachbausteine specific states
-  sprachbausteineAnswers: {},
-  sprachbausteineProgress: {},
-
-  // Leseverstehen specific states
+  activeDates: [],
   activeLeseverstehenPart: 1,
-
-  // Hörverstehen specific states
-  hoerverstehenAnswers: {},
-  hoerverstehenProgress: {},
+  activeSprachbausteinePart: 1,
   activeHoerverstehenPart: 1,
 
-  // Vocabulary specific states
-  myVocabulary: []
+  // Per-level progress
+  progress: {
+    "A1-A2": emptyLevelProgress(),
+    "B1": emptyLevelProgress(),
+  }
 };
+
+// --- Level Helper Functions ---
+function getLevelProgress() {
+  if (!state.progress) state.progress = { "A1-A2": emptyLevelProgress(), "B1": emptyLevelProgress() };
+  if (!state.progress[state.activeLevel]) state.progress[state.activeLevel] = emptyLevelProgress();
+  return state.progress[state.activeLevel];
+}
+
+function getActiveLessonsData() {
+  return state.activeLevel === "A1-A2" ? LESSONS_DATA_A1A2 : LESSONS_DATA_B1;
+}
+
+function getActiveHoerData(teil) {
+  const a1a2 = { 1: HOERVERSTEHEN_TEIL_1_DATA_A1A2 };
+  const b1 = { 1: HOERVERSTEHEN_TEIL_1_DATA_B1 };
+  return (state.activeLevel === "A1-A2" ? a1a2 : b1)[teil] || [];
+}
+
+function getActiveLeseverstehenData(teil) {
+  const a1a2 = { 1: LESEVERSTEHEN_TEIL_1_DATA_A1A2, 2: LESEVERSTEHEN_TEIL_2_DATA_A1A2, 3: LESEVERSTEHEN_TEIL_3_DATA_A1A2 };
+  const b1 = { 1: LESEVERSTEHEN_TEIL_1_DATA_B1, 2: LESEVERSTEHEN_TEIL_2_DATA_B1, 3: LESEVERSTEHEN_TEIL_3_DATA_B1 };
+  return (state.activeLevel === "A1-A2" ? a1a2 : b1)[teil] || [];
+}
+
+function getActiveSprachbausteineData(teil) {
+  const a1a2 = { 1: SPRACHBAUSTEINE_TEIL_1_DATA_A1A2, 2: SPRACHBAUSTEINE_TEIL_2_DATA_A1A2 };
+  const b1 = { 1: SPRACHBAUSTEINE_TEIL_1_DATA_B1, 2: SPRACHBAUSTEINE_TEIL_2_DATA_B1 };
+  return (state.activeLevel === "A1-A2" ? a1a2 : b1)[teil] || [];
+}
+
+function getActiveLessonQuizzes() {
+  return state.activeLevel === "A1-A2" ? LESSON_QUIZZES_A1A2 : LESSON_QUIZZES_B1;
+}
+
+function switchLevel(level) {
+  state.activeLevel = level;
+  saveState();
+  showScreen("home");
+  renderHome();
+}
 
 // Flashcards pool based on the grammar content
 const FLASHCARDS = [
@@ -205,45 +246,63 @@ function loadState() {
       console.error("Error parsing saved state", e);
     }
   }
-  
-  // If there is saved data but no appVersion, treat it as version 1
-  const loadedVersion = saved ? (savedParsed.appVersion || 1) : 4;
-  
+
+  const loadedVersion = saved ? (savedParsed.appVersion || 1) : 5;
+
   state = { ...state, ...savedParsed };
-  
-  // Force reset state to version 4 to clean up legacy mock data
+
+  // Force reset state if below version 4
   if (loadedVersion < 4) {
     state.xp = 0;
     state.streak = 0;
-    state.completedLessons = [];
     state.completedToday = { flashcards: false, quiz: false };
-    state.prepScores = {};
-    state.starredPreps = [];
-    state.sprachbausteineAnswers = {};
-    state.sprachbausteineProgress = {};
-    state.leseverstehenAnswers = {};
-    state.leseverstehenProgress = {};
-    state.hoerverstehenAnswers = {};
-    state.hoerverstehenProgress = {};
-    state.myVocabulary = [];
-    state.appVersion = 4;
+    state.progress = { "A1-A2": emptyLevelProgress(), "B1": emptyLevelProgress() };
+    state.activeLevel = "B1";
+    state.appVersion = 5;
     saveStateLocally();
   }
-  
-  // Safe migrations for newly added properties
-  if (!state.prepScores) state.prepScores = {};
-  if (!state.starredPreps) state.starredPreps = [];
-  if (!state.leseverstehenAnswers) state.leseverstehenAnswers = {};
-  if (!state.leseverstehenProgress) state.leseverstehenProgress = {};
-  if (!state.sprachbausteineAnswers) state.sprachbausteineAnswers = {};
-  if (!state.sprachbausteineProgress) state.sprachbausteineProgress = {};
-  if (!state.hoerverstehenAnswers) state.hoerverstehenAnswers = {};
-  if (!state.hoerverstehenProgress) state.hoerverstehenProgress = {};
+
+  // Migrate from appVersion 4 to 5: move flat fields into progress structure
+  if (!state.progress) {
+    state.progress = {
+      "A1-A2": emptyLevelProgress(),
+      "B1": {
+        completedLessons: savedParsed.completedLessons || [],
+        leseverstehenAnswers: savedParsed.leseverstehenAnswers || {},
+        leseverstehenProgress: savedParsed.leseverstehenProgress || {},
+        sprachbausteineAnswers: savedParsed.sprachbausteineAnswers || {},
+        sprachbausteineProgress: savedParsed.sprachbausteineProgress || {},
+        hoerverstehenAnswers: savedParsed.hoerverstehenAnswers || {},
+        hoerverstehenProgress: savedParsed.hoerverstehenProgress || {},
+        prepScores: savedParsed.prepScores || {},
+        starredPreps: savedParsed.starredPreps || [],
+        myVocabulary: savedParsed.myVocabulary || [],
+      }
+    };
+    if (!state.activeLevel) state.activeLevel = "B1";
+    state.appVersion = 5;
+    saveStateLocally();
+  }
+
+  // Ensure progress structure is complete for all levels
+  if (!state.progress["A1-A2"]) state.progress["A1-A2"] = emptyLevelProgress();
+  if (!state.progress["B1"]) state.progress["B1"] = emptyLevelProgress();
+  const lp = getLevelProgress();
+  if (!lp.completedLessons) lp.completedLessons = [];
+  if (!lp.leseverstehenAnswers) lp.leseverstehenAnswers = {};
+  if (!lp.leseverstehenProgress) lp.leseverstehenProgress = {};
+  if (!lp.sprachbausteineAnswers) lp.sprachbausteineAnswers = {};
+  if (!lp.sprachbausteineProgress) lp.sprachbausteineProgress = {};
+  if (!lp.hoerverstehenAnswers) lp.hoerverstehenAnswers = {};
+  if (!lp.hoerverstehenProgress) lp.hoerverstehenProgress = {};
+  if (!lp.prepScores) lp.prepScores = {};
+  if (!lp.starredPreps) lp.starredPreps = [];
+  if (!lp.myVocabulary) lp.myVocabulary = [];
+
   if (!state.activeLeseverstehenPart) state.activeLeseverstehenPart = 1;
   if (!state.activeSprachbausteinePart) state.activeSprachbausteinePart = 1;
   if (!state.activeHoerverstehenPart) state.activeHoerverstehenPart = 1;
-  if (!state.myVocabulary) state.myVocabulary = [];
-  
+
   // Safe migrations for activeDates tracking
   if (!state.activeDates) {
     state.activeDates = [];
@@ -256,19 +315,19 @@ function loadState() {
       }
     }
   }
-  
+
   // Backwards compatibility for completed activities today
-  const completedSomethingToday = state.completedToday.flashcards || state.completedToday.quiz || state.completedLessons.length > 0;
+  const completedSomethingToday = state.completedToday.flashcards || state.completedToday.quiz || getLevelProgress().completedLessons.length > 0;
   if (completedSomethingToday) {
     const todayStr = new Date().toDateString();
     if (!state.activeDates.includes(todayStr)) {
       state.activeDates.push(todayStr);
     }
   }
-  
+
   // Keep state.streak in sync with actual sequence of active days
   state.streak = calculateStreak();
-  
+
   const today = new Date().toDateString();
   if (state.lastActiveDate && state.lastActiveDate !== today) {
     state.completedToday.flashcards = false;
@@ -831,19 +890,19 @@ document.addEventListener("DOMContentLoaded", async () => {
       return;
     }
     
-    if (!state.myVocabulary) state.myVocabulary = [];
+    if (!getLevelProgress().myVocabulary) getLevelProgress().myVocabulary = [];
     
-    const existingIndex = state.myVocabulary.findIndex(item => item.word.toLowerCase() === word.toLowerCase());
+    const existingIndex = getLevelProgress().myVocabulary.findIndex(item => item.word.toLowerCase() === word.toLowerCase());
     if (existingIndex > -1) {
-      state.myVocabulary[existingIndex] = {
-        id: state.myVocabulary[existingIndex].id,
+      getLevelProgress().myVocabulary[existingIndex] = {
+        id: getLevelProgress().myVocabulary[existingIndex].id,
         word,
         translation,
         context,
         dateAdded: new Date().toLocaleDateString()
       };
     } else {
-      state.myVocabulary.push({
+      getLevelProgress().myVocabulary.push({
         id: Date.now().toString(),
         word,
         translation,
@@ -1063,17 +1122,17 @@ function renderHoerverstehenDashboard() {
   // Select target data based on selected part
   let targetData = [];
   if (state.activeHoerverstehenPart === 1) {
-    targetData = HOERVERSTEHEN_TEIL_1_DATA || [];
+    targetData = getActiveHoerData(1) || [];
   } else if (state.activeHoerverstehenPart === 2) {
-    targetData = HOERVERSTEHEN_TEIL_2_DATA || [];
+    targetData = getActiveHoerData(2) || [];
   } else if (state.activeHoerverstehenPart === 3) {
-    targetData = HOERVERSTEHEN_TEIL_3_DATA || [];
+    targetData = getActiveHoerData(3) || [];
   }
 
   let completedCount = 0;
 
   targetData.forEach(ex => {
-    const attempts = state.hoerverstehenProgress[ex.id] || [];
+    const attempts = getLevelProgress().hoerverstehenProgress[ex.id] || [];
     const attemptCount = attempts.length;
     if (attemptCount > 0) {
       completedCount++;
@@ -1136,15 +1195,15 @@ function renderHoerverstehenDashboard() {
 function startNewHoerverstehen(exerciseId) {
   let ex = null;
   // Look up across all parts
-  ex = (HOERVERSTEHEN_TEIL_1_DATA || []).find(item => item.id === exerciseId) ||
-       (HOERVERSTEHEN_TEIL_2_DATA || []).find(item => item.id === exerciseId) ||
-       (HOERVERSTEHEN_TEIL_3_DATA || []).find(item => item.id === exerciseId);
+  ex = (getActiveHoerData(1) || []).find(item => item.id === exerciseId) ||
+       (getActiveHoerData(2) || []).find(item => item.id === exerciseId) ||
+       (getActiveHoerData(3) || []).find(item => item.id === exerciseId);
        
   if (!ex) return;
 
   activeHoerverstehenGame = ex;
   hoerverstehenSubmitted = false;
-  state.hoerverstehenAnswers = {};
+  getLevelProgress().hoerverstehenAnswers = {};
 
   // Setup play screen title
   const playTitle = document.getElementById("hoerverstehen-play-title");
@@ -1214,7 +1273,7 @@ function renderHoerverstehenScreen() {
     card.className = "interactive-card";
     card.style = "padding: 16px; border-radius: var(--border-radius-lg); border-left: 3px solid var(--theme-purple); background: var(--color-background-secondary); border-top: 1px solid var(--color-border-primary); border-right: 1px solid var(--color-border-primary); border-bottom: 1px solid var(--color-border-primary);";
 
-    const userAns = state.hoerverstehenAnswers[q.id];
+    const userAns = getLevelProgress().hoerverstehenAnswers[q.id];
     const isRichtigSelected = userAns === "+";
     const isFalschSelected = userAns === "-";
 
@@ -1289,10 +1348,10 @@ function renderHoerverstehenScreen() {
 
 function selectHoerverstehenAnswer(qId, choice) {
   if (hoerverstehenSubmitted) return;
-  if (state.hoerverstehenAnswers[qId] === choice) {
-    state.hoerverstehenAnswers[qId] = null; // deselect
+  if (getLevelProgress().hoerverstehenAnswers[qId] === choice) {
+    getLevelProgress().hoerverstehenAnswers[qId] = null; // deselect
   } else {
-    state.hoerverstehenAnswers[qId] = choice;
+    getLevelProgress().hoerverstehenAnswers[qId] = choice;
   }
   saveStateLocally();
   renderHoerverstehenScreen();
@@ -1306,7 +1365,7 @@ function submitHoerverstehen() {
   const totalCount = ex.questions.length;
 
   ex.questions.forEach(q => {
-    if (state.hoerverstehenAnswers[q.id] === q.correct) {
+    if (getLevelProgress().hoerverstehenAnswers[q.id] === q.correct) {
       correctCount++;
     }
   });
@@ -1315,11 +1374,11 @@ function submitHoerverstehen() {
   state.xp += correctCount * 10;
 
   // Record attempt in progress (scale to 100% regardless of question count)
-  let attempts = state.hoerverstehenProgress[ex.id] || [];
+  let attempts = getLevelProgress().hoerverstehenProgress[ex.id] || [];
   const finalScore = totalCount > 0 ? Math.round((correctCount / totalCount) * 100) : 0;
   attempts.push({ score: finalScore });
   if (attempts.length > 3) attempts.shift();
-  state.hoerverstehenProgress[ex.id] = attempts;
+  getLevelProgress().hoerverstehenProgress[ex.id] = attempts;
 
   logActiveDay();
   renderHoerverstehenScreen();
@@ -1529,9 +1588,12 @@ function showScreen(screenId) {
 // HOME SCREEN RENDERING
 function renderHomeScreen() {
   document.getElementById("profile-name").textContent = state.userName;
-  
+
+  const levelLabel = document.getElementById("home-level-label");
+  if (levelLabel) levelLabel.textContent = `${state.activeLevel} hedefine ilerleme`;
+
   const totalLessons = countTotalLessons();
-  const completedCount = state.completedLessons.length;
+  const completedCount = getLevelProgress().completedLessons.length;
   const progressPercent = totalLessons > 0 ? Math.round((completedCount / totalLessons) * 100) : 0;
   
   document.getElementById("progress-text-percent").textContent = `${progressPercent}%`;
@@ -1559,11 +1621,11 @@ function renderHomeScreen() {
   if (continueList) {
     continueList.innerHTML = "";
     
-    LESSONS_DATA.forEach(cat => {
+    getActiveLessonsData().forEach(cat => {
       cat.subcategories.forEach(sub => {
         const subLessons = sub.lessons;
         if (subLessons.length > 0) {
-          const completedSub = subLessons.filter(l => state.completedLessons.includes(l.id)).length;
+          const completedSub = subLessons.filter(l => getLevelProgress().completedLessons.includes(l.id)).length;
           
           if (completedSub > 0 && completedSub < subLessons.length) {
             const pct = Math.round((completedSub / subLessons.length) * 100);
@@ -1601,11 +1663,11 @@ function renderHomeScreen() {
       let recommendedSub = null;
       let recommendedCat = null;
       
-      for (const cat of LESSONS_DATA) {
+      for (const cat of getActiveLessonsData()) {
         for (const sub of cat.subcategories) {
           const subLessons = sub.lessons;
           if (subLessons.length > 0) {
-            const completedSub = subLessons.filter(l => state.completedLessons.includes(l.id)).length;
+            const completedSub = subLessons.filter(l => getLevelProgress().completedLessons.includes(l.id)).length;
             if (completedSub < subLessons.length) {
               recommendedSub = sub;
               recommendedCat = cat;
@@ -1618,7 +1680,7 @@ function renderHomeScreen() {
       
       if (recommendedSub && recommendedCat) {
         const subLessons = recommendedSub.lessons;
-        const completedSub = subLessons.filter(l => state.completedLessons.includes(l.id)).length;
+        const completedSub = subLessons.filter(l => getLevelProgress().completedLessons.includes(l.id)).length;
         const pct = Math.round((completedSub / subLessons.length) * 100);
         
         continueList.innerHTML = `
@@ -1649,7 +1711,20 @@ function renderHomeScreen() {
   const categoriesList = document.getElementById("categories-grid-list");
   if (categoriesList) {
     categoriesList.innerHTML = "";
-    LESSONS_DATA.forEach(cat => {
+
+    if (getActiveLessonsData().length === 0) {
+      categoriesList.style.gridTemplateColumns = "1fr";
+      categoriesList.innerHTML = `
+        <div class="interactive-card" style="border-radius: var(--border-radius-lg); padding: 24px 20px; text-align:center; grid-column: 1 / -1;">
+          <p style="font-size: 28px; margin: 0 0 10px;">🚀</p>
+          <p style="font-size: 14px; font-weight: 600; margin: 0 0 4px;">${state.activeLevel} seviyesi yakında!</p>
+          <p class="ts" style="font-size: 12px; margin: 0;">İçerikler hazırlanıyor. Şimdilik B1 seviyesiyle çalışabilirsin.</p>
+        </div>`;
+    } else {
+      categoriesList.style.gridTemplateColumns = "";
+    }
+
+    getActiveLessonsData().forEach(cat => {
       let totalCatLessons = 0;
       cat.subcategories.forEach(sub => totalCatLessons += sub.lessons.length);
       
@@ -1676,11 +1751,14 @@ function renderHomeScreen() {
 function renderSitemapScreen() {
   const catNav = document.getElementById("sitemap-category-nav");
   const sitemapList = document.getElementById("sitemap-topics-list");
-  
+
   if (!catNav || !sitemapList) return;
+
+  const sub = document.getElementById("sitemap-subtitle");
+  if (sub) sub.textContent = `Mind map yapısına göre organize edilmiş ${state.activeLevel} Almanca müfredatı.`;
   
   catNav.innerHTML = "";
-  LESSONS_DATA.forEach(cat => {
+  getActiveLessonsData().forEach(cat => {
     const btn = document.createElement("button");
     btn.className = `category-tab-btn ${state.activeCategory === cat.id ? 'active' : ''}`;
     btn.style = `flex: 1; padding: 10px 0; border: none; border-bottom: 2px solid ${state.activeCategory === cat.id ? 'var(--theme-purple)' : 'transparent'}; background: none; font-size: 13px; font-weight: 600; cursor: pointer; color: ${state.activeCategory === cat.id ? 'var(--theme-purple)' : 'var(--color-text-secondary)'};`;
@@ -1693,7 +1771,7 @@ function renderSitemapScreen() {
     catNav.appendChild(btn);
   });
   
-  const activeCatObj = LESSONS_DATA.find(c => c.id === state.activeCategory);
+  const activeCatObj = getActiveLessonsData().find(c => c.id === state.activeCategory);
   if (!activeCatObj) return;
   
   sitemapList.innerHTML = "";
@@ -1729,7 +1807,7 @@ function renderSitemapScreen() {
         lessonsList.appendChild(noLesson);
       } else {
         sub.lessons.forEach(les => {
-          const isCompleted = state.completedLessons.includes(les.id);
+          const isCompleted = getLevelProgress().completedLessons.includes(les.id);
           const lesItem = document.createElement("div");
           lesItem.className = `lesson-item ${isCompleted ? 'completed' : ''}`;
           lesItem.innerHTML = `
@@ -1764,8 +1842,8 @@ function openLesson(lesson) {
   if (actionContainer) {
     actionContainer.innerHTML = "";
     
-    const isCompleted = state.completedLessons.includes(lesson.id);
-    const hasQuiz = typeof LESSON_QUIZZES !== 'undefined' && LESSON_QUIZZES[lesson.id];
+    const isCompleted = getLevelProgress().completedLessons.includes(lesson.id);
+    const hasQuiz = typeof getActiveLessonQuizzes() !== 'undefined' && getActiveLessonQuizzes()[lesson.id];
     
     const btn = document.createElement("button");
     btn.style = "width: 100%; border: none; padding: 13px; border-radius: var(--border-radius-lg); font-size: 13.5px; font-weight: 600; cursor: pointer;";
@@ -1785,12 +1863,12 @@ function openLesson(lesson) {
       // Fallback manual completion if no quiz exists yet
       updateCompleteButtonState(btn, isCompleted);
       btn.addEventListener("click", () => {
-        const index = state.completedLessons.indexOf(lesson.id);
+        const index = getLevelProgress().completedLessons.indexOf(lesson.id);
         let nowCompleted = false;
         if (index > -1) {
-          state.completedLessons.splice(index, 1);
+          getLevelProgress().completedLessons.splice(index, 1);
         } else {
-          state.completedLessons.push(lesson.id);
+          getLevelProgress().completedLessons.push(lesson.id);
           state.xp += 15;
           nowCompleted = true;
           logActiveDay();
@@ -2212,7 +2290,7 @@ function renderPrepDashboard() {
   
   VERBEN_PREP_DATA.forEach(item => {
     const key = `${item.verb}_${item.prep}`;
-    const score = state.prepScores[key] || 0;
+    const score = getLevelProgress().prepScores[key] || 0;
     if (score === 0) notStarted++;
     else if (score <= 2) learning++;
     else learned++;
@@ -2264,8 +2342,8 @@ function filterPrepList() {
   // Render cards
   filtered.forEach(item => {
     const key = `${item.verb}_${item.prep}`;
-    const score = state.prepScores[key] || 0;
-    const isStarred = state.starredPreps.includes(key);
+    const score = getLevelProgress().prepScores[key] || 0;
+    const isStarred = getLevelProgress().starredPreps.includes(key);
     
     let stateText = "Başlanmamış";
     let stateClass = "not-started";
@@ -2305,12 +2383,12 @@ function filterPrepList() {
     // Star click event
     card.querySelector(".star-icon").addEventListener("click", (e) => {
       e.stopPropagation();
-      const starredIdx = state.starredPreps.indexOf(key);
+      const starredIdx = getLevelProgress().starredPreps.indexOf(key);
       if (starredIdx > -1) {
-        state.starredPreps.splice(starredIdx, 1);
+        getLevelProgress().starredPreps.splice(starredIdx, 1);
         e.target.className = "ti ti-star star-icon";
       } else {
-        state.starredPreps.push(key);
+        getLevelProgress().starredPreps.push(key);
         e.target.className = "ti ti-star-filled starred star-icon";
       }
       saveState();
@@ -2386,8 +2464,8 @@ function startNewPrepQuiz() {
   // weight formula: base score weight + star bonus
   const weightedPool = pool.map(item => {
     const key = `${item.verb}_${item.prep}`;
-    const score = state.prepScores[key] || 0;
-    const isStarred = state.starredPreps.includes(key);
+    const score = getLevelProgress().prepScores[key] || 0;
+    const isStarred = getLevelProgress().starredPreps.includes(key);
     
     let weight = 100; // Not started weight
     if (score === 1) weight = 80;
@@ -2541,14 +2619,14 @@ function handlePrepQuizAnswer(clickedBtn, allOptions) {
   // Update score in local state
   const q = activePrepQuizQuestions[currentPrepQuizIdx];
   const key = `${q.verb}_${q.prep}`;
-  let score = state.prepScores[key] || 0;
+  let score = getLevelProgress().prepScores[key] || 0;
   
   if (isOk) {
     score = Math.min(5, score + 1);
   } else {
     score = Math.max(-2, score - 2);
   }
-  state.prepScores[key] = score;
+  getLevelProgress().prepScores[key] = score;
   saveState();
   
   // Highlight options
@@ -2662,7 +2740,7 @@ function getWordsToReplace(p) {
 // Utility lesson counters
 function countTotalLessons() {
   let count = 0;
-  LESSONS_DATA.forEach(cat => {
+  getActiveLessonsData().forEach(cat => {
     cat.subcategories.forEach(sub => {
       count += sub.lessons.length;
     });
@@ -2690,7 +2768,7 @@ function renderLeseverstehenDashboard() {
   let completedCount = 0;
   
   LESEVERSTEHEN_DATA.forEach(ex => {
-    const attempts = state.leseverstehenProgress[ex.id] || [];
+    const attempts = getLevelProgress().leseverstehenProgress[ex.id] || [];
     const attemptCount = attempts.length;
     
     // Check if completed (has at least one attempt with score > 0)
@@ -2760,7 +2838,7 @@ function startNewLeseverstehen(exerciseId) {
   
   activeLeseverstehenGame = ex;
   leseverstehenSubmitted = false;
-  state.leseverstehenAnswers = {};
+  getLevelProgress().leseverstehenAnswers = {};
   
   // Set play screen title
   const playTitle = document.getElementById("leseverstehen-play-title");
@@ -2857,7 +2935,7 @@ function renderLeseverstehenScreen() {
       card.className = "interactive-card";
       card.style = "padding: 16px; border-radius: var(--border-radius-lg); position: relative; border-left: 3px solid var(--theme-purple); background: var(--color-background-secondary); border-top: 1px solid var(--color-border-primary); border-right: 1px solid var(--color-border-primary); border-bottom: 1px solid var(--color-border-primary);";
       
-      const userAns = state.leseverstehenAnswers[q.id];
+      const userAns = getLevelProgress().leseverstehenAnswers[q.id];
       const correctAns = exercise.answers[String(q.id)];
       
       let optionsHtml = "";
@@ -2922,7 +3000,7 @@ function renderLeseverstehenScreen() {
     
     Object.entries(exercise.situations).sort((a, b) => parseInt(a[0]) - parseInt(b[0])).forEach(([num, desc]) => {
       const qNum = parseInt(num);
-      const userAns = state.leseverstehenAnswers[qNum];
+      const userAns = getLevelProgress().leseverstehenAnswers[qNum];
       const correctAns = exercise.answers[String(qNum)];
       
       let feedbackHtml = "";
@@ -2963,7 +3041,7 @@ function renderLeseverstehenScreen() {
     adsGrid.innerHTML = "";
     
     Object.entries(exercise.ads).sort((a, b) => a[0].localeCompare(b[0])).forEach(([letter, ad]) => {
-      const isUsed = Object.values(state.leseverstehenAnswers).includes(letter);
+      const isUsed = Object.values(getLevelProgress().leseverstehenAnswers).includes(letter);
       const card = document.createElement("div");
       card.style = `padding:12px;border-radius:var(--border-radius-md);border:1px solid var(--color-border-primary);background:var(--color-background-secondary);font-size:12px;line-height:1.5;position:relative;${isUsed && !leseverstehenSubmitted ? 'border-color:var(--theme-purple);opacity:0.7;' : ''}`;
       card.innerHTML = `
@@ -3002,7 +3080,7 @@ function renderLeseverstehenScreen() {
       
       let feedbackHtml = "";
       if (leseverstehenSubmitted) {
-        const userAns = state.leseverstehenAnswers[text.id];
+        const userAns = getLevelProgress().leseverstehenAnswers[text.id];
         const correctAns = exercise.answers[text.id];
         if (userAns === correctAns) {
           feedbackHtml = `<div class="text-feedback-badge correct"><i class="ti ti-circle-check"></i> Doğru (Başlık ${correctAns.toUpperCase()})</div>`;
@@ -3079,7 +3157,7 @@ function renderAnswersSheet() {
       
       // a-l + x = 13 letters
       const letters = ["a","b","c","d","e","f","g","h","i","j","k","l","x"];
-      const userAns = state.leseverstehenAnswers[qNum];
+      const userAns = getLevelProgress().leseverstehenAnswers[qNum];
       const correctAns = exercise.answers[String(qNum)];
       
       letters.forEach((letter, idx) => {
@@ -3131,7 +3209,7 @@ function renderAnswersSheet() {
       row1.className = "bubble-buttons-grid";
       row1.style = "grid-template-columns: repeat(3, 1fr);";
       
-      const userAns = state.leseverstehenAnswers[q.id];
+      const userAns = getLevelProgress().leseverstehenAnswers[q.id];
       ["a", "b", "c"].forEach(letter => {
         const btn = document.createElement("button");
         btn.className = "bubble-btn";
@@ -3176,7 +3254,7 @@ function renderAnswersSheet() {
       row2.className = "bubble-buttons-grid";
       
       const letters = ["a","b","c","d","e","f","g","h","i","j"];
-      const userAns = state.leseverstehenAnswers[text.id];
+      const userAns = getLevelProgress().leseverstehenAnswers[text.id];
       
       letters.forEach((letter, idx) => {
         const btn = document.createElement("button");
@@ -3215,18 +3293,18 @@ function selectBubbleAnswer(qNum, option) {
   // Unique choice enforcement: only for Teil 1 and Teil 3 (each heading/ad only once)
   // Teil 2 allows same choice for multiple questions
   if (isTeil1 || exerciseType === 'teil3') {
-    Object.keys(state.leseverstehenAnswers).forEach(key => {
-      if (state.leseverstehenAnswers[key] === option) {
-        state.leseverstehenAnswers[key] = null;
+    Object.keys(getLevelProgress().leseverstehenAnswers).forEach(key => {
+      if (getLevelProgress().leseverstehenAnswers[key] === option) {
+        getLevelProgress().leseverstehenAnswers[key] = null;
       }
     });
   }
   
   // Toggle selection
-  if (state.leseverstehenAnswers[qNum] === option) {
-    state.leseverstehenAnswers[qNum] = null;
+  if (getLevelProgress().leseverstehenAnswers[qNum] === option) {
+    getLevelProgress().leseverstehenAnswers[qNum] = null;
   } else {
-    state.leseverstehenAnswers[qNum] = option;
+    getLevelProgress().leseverstehenAnswers[qNum] = option;
   }
   
   saveState();
@@ -3263,10 +3341,10 @@ function updateLeseverstehenStatus() {
   if (leseverstehenSubmitted) {
     let correctCount = 0;
     items.forEach(item => {
-      if (state.leseverstehenAnswers[item.id] === getCorrectAns(item)) correctCount++;
+      if (getLevelProgress().leseverstehenAnswers[item.id] === getCorrectAns(item)) correctCount++;
     });
     
-    const attempts = state.leseverstehenProgress[exercise.id] || [];
+    const attempts = getLevelProgress().leseverstehenProgress[exercise.id] || [];
     const lastAttempt = attempts[attempts.length - 1];
     let timeFormatted = "--:--";
     if (lastAttempt) {
@@ -3315,7 +3393,7 @@ function updateLeseverstehenStatus() {
   
   let answeredCount = 0;
   items.forEach(item => {
-    if (state.leseverstehenAnswers[item.id]) answeredCount++;
+    if (getLevelProgress().leseverstehenAnswers[item.id]) answeredCount++;
   });
   
   const remaining = totalCount - answeredCount;
@@ -3357,17 +3435,17 @@ function submitLeseverstehen() {
   if (isTeil3) {
     items = Object.keys(exercise.situations || {}).map(k => ({ id: parseInt(k) }));
     items.forEach(item => {
-      if (state.leseverstehenAnswers[item.id] === exercise.answers[String(item.id)]) correctCount++;
+      if (getLevelProgress().leseverstehenAnswers[item.id] === exercise.answers[String(item.id)]) correctCount++;
     });
   } else if (isTeil2) {
     items = exercise.questions || [];
     items.forEach(item => {
-      if (state.leseverstehenAnswers[item.id] === exercise.answers[String(item.id)]) correctCount++;
+      if (getLevelProgress().leseverstehenAnswers[item.id] === exercise.answers[String(item.id)]) correctCount++;
     });
   } else {
     items = exercise.texts || [];
     items.forEach(item => {
-      if (state.leseverstehenAnswers[item.id] === exercise.answers[item.id]) correctCount++;
+      if (getLevelProgress().leseverstehenAnswers[item.id] === exercise.answers[item.id]) correctCount++;
     });
   }
   
@@ -3377,10 +3455,10 @@ function submitLeseverstehen() {
   const scoreMultiplier = isTeil3 ? 10 : 20;
   const score = correctCount * scoreMultiplier;
   
-  let attempts = state.leseverstehenProgress[exercise.id] || [];
+  let attempts = getLevelProgress().leseverstehenProgress[exercise.id] || [];
   attempts.push({ score: score, duration: durationSeconds });
   if (attempts.length > 3) attempts.shift();
-  state.leseverstehenProgress[exercise.id] = attempts;
+  getLevelProgress().leseverstehenProgress[exercise.id] = attempts;
   
   logActiveDay();
   renderLeseverstehenScreen();
@@ -3406,7 +3484,7 @@ function renderSprachbausteineDashboard() {
   let completedCount = 0;
   
   SPRACHBAUSTEINE_DATA.forEach(ex => {
-    const attempts = state.sprachbausteineProgress[ex.id] || [];
+    const attempts = getLevelProgress().sprachbausteineProgress[ex.id] || [];
     const attemptCount = attempts.length;
     
     if (attemptCount > 0) {
@@ -3473,7 +3551,7 @@ function startNewSprachbausteine(exerciseId) {
   
   activeSprachbausteineGame = ex;
   sprachbausteineSubmitted = false;
-  state.sprachbausteineAnswers = {};
+  getLevelProgress().sprachbausteineAnswers = {};
   
   const playTitle = document.getElementById("sprachbausteine-play-title");
   if (playTitle) {
@@ -3525,7 +3603,7 @@ function renderSprachbausteineScreen() {
     let textHtml = exercise.text.replace(/\((\d+)\)/g, (match, num) => {
       const gapNum = parseInt(num);
       if (exercise.options[gapNum]) {
-        const userAns = state.sprachbausteineAnswers[gapNum];
+        const userAns = getLevelProgress().sprachbausteineAnswers[gapNum];
         let word = "";
         if (userAns && exercise.options[gapNum]) {
           word = " " + exercise.options[gapNum][userAns];
@@ -3567,7 +3645,7 @@ function renderSprachbausteineScreen() {
       const wordBank = exercise.options[firstGap];
       
       Object.entries(wordBank).sort((a, b) => a[0].localeCompare(b[0])).forEach(([letter, word]) => {
-        const isUsed = Object.values(state.sprachbausteineAnswers).includes(letter);
+        const isUsed = Object.values(getLevelProgress().sprachbausteineAnswers).includes(letter);
         const card = document.createElement("div");
         card.style = `padding: 10px; border-radius: var(--border-radius-md); border: 1px solid var(--color-border-primary); background: var(--color-background-secondary); font-size: 11.5px; display: flex; align-items: center; gap: 8px; ${isUsed && !sprachbausteineSubmitted ? 'opacity: 0.5; border-color: var(--theme-purple);' : ''}`;
         
@@ -3594,7 +3672,7 @@ function renderSprachbausteineScreen() {
         card.id = `sprachbausteine-option-card-${gapNum}`;
         
         if (sprachbausteineSubmitted) {
-          const userAns = state.sprachbausteineAnswers[gapNum];
+          const userAns = getLevelProgress().sprachbausteineAnswers[gapNum];
           const correctAns = exercise.answers[gapNum];
           if (userAns === correctAns) {
             card.style.borderColor = "#10b981";
@@ -3615,7 +3693,7 @@ function renderSprachbausteineScreen() {
         choicesList.className = "option-choices-list";
         
         const gapOptions = exercise.options[gapNum] || { a: "A", b: "B", c: "C" };
-        const userAns = state.sprachbausteineAnswers[gapNum];
+        const userAns = getLevelProgress().sprachbausteineAnswers[gapNum];
         
         Object.keys(gapOptions).forEach(choice => {
           const wordText = gapOptions[choice];
@@ -3696,7 +3774,7 @@ function renderSprachbausteineAnswersSheet() {
     row.className = "bubble-grid-row";
     row.setAttribute("data-gap", gapNum);
     row.style = "display: flex; flex-direction: column; gap: 8px; background: var(--color-background-secondary); padding: 10px; border-radius: var(--border-radius-md); border: 1px solid var(--color-border-primary); align-items: stretch;";
-    if (state.sprachbausteineAnswers[gapNum] && !sprachbausteineSubmitted) {
+    if (getLevelProgress().sprachbausteineAnswers[gapNum] && !sprachbausteineSubmitted) {
       row.style.borderColor = "var(--theme-purple)";
     }
     
@@ -3716,7 +3794,7 @@ function renderSprachbausteineAnswersSheet() {
       buttonsGrid.style = "grid-template-columns: repeat(3, 1fr); gap: 6px; display: grid; margin-top: 4px;";
     }
     
-    const userAns = state.sprachbausteineAnswers[gapNum];
+    const userAns = getLevelProgress().sprachbausteineAnswers[gapNum];
     const correctAns = exercise.answers[gapNum];
     
     letters.forEach(letter => {
@@ -3783,17 +3861,17 @@ function selectSprachbausteineAnswer(gapNum, option) {
   
   if (isTeil2) {
     // Unique choice selection: clear this word from any other gaps
-    Object.keys(state.sprachbausteineAnswers).forEach(key => {
-      if (state.sprachbausteineAnswers[key] === option) {
-        state.sprachbausteineAnswers[key] = null;
+    Object.keys(getLevelProgress().sprachbausteineAnswers).forEach(key => {
+      if (getLevelProgress().sprachbausteineAnswers[key] === option) {
+        getLevelProgress().sprachbausteineAnswers[key] = null;
       }
     });
   }
   
-  if (state.sprachbausteineAnswers[gapNum] === option) {
-    state.sprachbausteineAnswers[gapNum] = null;
+  if (getLevelProgress().sprachbausteineAnswers[gapNum] === option) {
+    getLevelProgress().sprachbausteineAnswers[gapNum] = null;
   } else {
-    state.sprachbausteineAnswers[gapNum] = option;
+    getLevelProgress().sprachbausteineAnswers[gapNum] = option;
   }
   
   saveState();
@@ -3813,12 +3891,12 @@ function updateSprachbausteineStatus() {
   if (sprachbausteineSubmitted) {
     let correctCount = 0;
     gapsList.forEach(gapNum => {
-      if (state.sprachbausteineAnswers[gapNum] === exercise.answers[gapNum]) {
+      if (getLevelProgress().sprachbausteineAnswers[gapNum] === exercise.answers[gapNum]) {
         correctCount++;
       }
     });
     
-    const attempts = state.sprachbausteineProgress[exercise.id] || [];
+    const attempts = getLevelProgress().sprachbausteineProgress[exercise.id] || [];
     const lastAttempt = attempts[attempts.length - 1];
     let timeFormatted = "--:--";
     if (lastAttempt) {
@@ -3868,7 +3946,7 @@ function updateSprachbausteineStatus() {
   
   let answeredCount = 0;
   gapsList.forEach(gapNum => {
-    if (state.sprachbausteineAnswers[gapNum]) {
+    if (getLevelProgress().sprachbausteineAnswers[gapNum]) {
       answeredCount++;
     }
   });
@@ -3909,7 +3987,7 @@ function submitSprachbausteine() {
   
   let correctCount = 0;
   gapsList.forEach(gapNum => {
-    if (state.sprachbausteineAnswers[gapNum] === exercise.answers[gapNum]) {
+    if (getLevelProgress().sprachbausteineAnswers[gapNum] === exercise.answers[gapNum]) {
       correctCount++;
     }
   });
@@ -3923,12 +4001,12 @@ function submitSprachbausteine() {
   const scoreMultiplier = 100 / totalCount;
   const score = Math.round(correctCount * scoreMultiplier);
   
-  let attempts = state.sprachbausteineProgress[exercise.id] || [];
+  let attempts = getLevelProgress().sprachbausteineProgress[exercise.id] || [];
   attempts.push({ score: score, duration: durationSeconds });
   if (attempts.length > 3) {
     attempts.shift();
   }
-  state.sprachbausteineProgress[exercise.id] = attempts;
+  getLevelProgress().sprachbausteineProgress[exercise.id] = attempts;
   
   logActiveDay();
   
@@ -3947,7 +4025,7 @@ function scrollToGapCard(gapNum) {
           row.style.borderColor = 'var(--color-border-primary)';
         } else {
           const correctAns = activeSprachbausteineGame.answers[gapNum];
-          const userAns = state.sprachbausteineAnswers[gapNum];
+          const userAns = getLevelProgress().sprachbausteineAnswers[gapNum];
           row.style.borderColor = userAns === correctAns ? '#10b981' : '#ef4444';
         }
       }, 1500);
@@ -3971,7 +4049,7 @@ function scrollToGapCard(gapNum) {
 
 function renderAnalyticsScreen() {
   const totalLessons = countTotalLessons();
-  const completedCount = state.completedLessons.length;
+  const completedCount = getLevelProgress().completedLessons.length;
   const progressPercent = totalLessons > 0 ? Math.round((completedCount / totalLessons) * 100) : 0;
   
   const overallPercentEl = document.getElementById("analytics-overall-percent");
@@ -4029,23 +4107,23 @@ function renderAnalyticsCategoriesBreakdown() {
   container.innerHTML = "";
   
   const totalLessons = countTotalLessons();
-  const completedLessons = state.completedLessons.length;
+  const completedLessons = getLevelProgress().completedLessons.length;
   const lessonPct = totalLessons > 0 ? Math.round((completedLessons / totalLessons) * 100) : 0;
   
   const totalPreps = typeof VERBEN_PREP_DATA !== 'undefined' ? VERBEN_PREP_DATA.length : 0;
-  const learnedPreps = Object.values(state.prepScores || {}).filter(score => score >= 3).length;
+  const learnedPreps = Object.values(getLevelProgress().prepScores || {}).filter(score => score >= 3).length;
   const prepPct = totalPreps > 0 ? Math.round((learnedPreps / totalPreps) * 100) : 0;
   
-  const totalLese = (typeof LESEVERSTEHEN_TEIL_1_DATA !== 'undefined' ? LESEVERSTEHEN_TEIL_1_DATA.length : 0) +
-                    (typeof LESEVERSTEHEN_TEIL_2_DATA !== 'undefined' ? LESEVERSTEHEN_TEIL_2_DATA.length : 0) +
-                    (typeof LESEVERSTEHEN_TEIL_3_DATA !== 'undefined' ? LESEVERSTEHEN_TEIL_3_DATA.length : 0);
-  const completedLese = Object.keys(state.leseverstehenProgress || {}).length;
+  const totalLese = (typeof getActiveLeseverstehenData(1) !== 'undefined' ? getActiveLeseverstehenData(1).length : 0) +
+                    (typeof getActiveLeseverstehenData(2) !== 'undefined' ? getActiveLeseverstehenData(2).length : 0) +
+                    (typeof getActiveLeseverstehenData(3) !== 'undefined' ? getActiveLeseverstehenData(3).length : 0);
+  const completedLese = Object.keys(getLevelProgress().leseverstehenProgress || {}).length;
   const lesePct = totalLese > 0 ? Math.round((completedLese / totalLese) * 100) : 0;
   
   // Calculate average score for Leseverstehen
   let totalLeseScore = 0;
   let leseAttemptedCount = 0;
-  Object.values(state.leseverstehenProgress || {}).forEach(attempts => {
+  Object.values(getLevelProgress().leseverstehenProgress || {}).forEach(attempts => {
     if (attempts && attempts.length > 0) {
       const latest = attempts[attempts.length - 1];
       totalLeseScore += latest.score;
@@ -4054,15 +4132,15 @@ function renderAnalyticsCategoriesBreakdown() {
   });
   const leseAvgScore = leseAttemptedCount > 0 ? Math.round(totalLeseScore / leseAttemptedCount) : 0;
   
-  const totalSprach = (typeof SPRACHBAUSTEINE_TEIL_1_DATA !== 'undefined' ? SPRACHBAUSTEINE_TEIL_1_DATA.length : 0) +
-                      (typeof SPRACHBAUSTEINE_TEIL_2_DATA !== 'undefined' ? SPRACHBAUSTEINE_TEIL_2_DATA.length : 0);
-  const completedSprach = Object.keys(state.sprachbausteineProgress || {}).length;
+  const totalSprach = (typeof getActiveSprachbausteineData(1) !== 'undefined' ? getActiveSprachbausteineData(1).length : 0) +
+                      (typeof getActiveSprachbausteineData(2) !== 'undefined' ? getActiveSprachbausteineData(2).length : 0);
+  const completedSprach = Object.keys(getLevelProgress().sprachbausteineProgress || {}).length;
   const sprachPct = totalSprach > 0 ? Math.round((completedSprach / totalSprach) * 100) : 0;
   
   // Calculate average score for Sprachbausteine
   let totalSprachScore = 0;
   let sprachAttemptedCount = 0;
-  Object.values(state.sprachbausteineProgress || {}).forEach(attempts => {
+  Object.values(getLevelProgress().sprachbausteineProgress || {}).forEach(attempts => {
     if (attempts && attempts.length > 0) {
       const latest = attempts[attempts.length - 1];
       totalSprachScore += latest.score;
@@ -4124,8 +4202,16 @@ function renderAnalyticsCategoriesBreakdown() {
 
 function renderProfileScreen() {
   const nameInput = document.getElementById("profile-name-input");
-  if (nameInput) {
-    nameInput.value = state.userName;
+  if (nameInput) nameInput.value = state.userName;
+
+  // Level switcher button states
+  const btnA1A2 = document.getElementById("level-btn-a1a2");
+  const btnB1 = document.getElementById("level-btn-b1");
+  if (btnA1A2 && btnB1) {
+    const activeStyle = "background: var(--theme-purple); color: #fff; border-color: var(--theme-purple);";
+    const inactiveStyle = "background: var(--color-background-secondary); color: var(--color-text-secondary); border-color: var(--color-border-primary);";
+    btnA1A2.style.cssText = btnA1A2.style.cssText.replace(/background:[^;]+;|color:[^;]+;|border-color:[^;]+;/g, "") + (state.activeLevel === "A1-A2" ? activeStyle : inactiveStyle);
+    btnB1.style.cssText = btnB1.style.cssText.replace(/background:[^;]+;|color:[^;]+;|border-color:[^;]+;/g, "") + (state.activeLevel === "B1" ? activeStyle : inactiveStyle);
   }
 }
 
@@ -4164,7 +4250,7 @@ function renderVocabList() {
   container.innerHTML = "";
   const query = document.getElementById("vocab-search-input")?.value.toLowerCase().trim() || "";
   
-  const vocabList = state.myVocabulary || [];
+  const vocabList = getLevelProgress().myVocabulary || [];
   const filtered = vocabList.filter(item => 
     item.word.toLowerCase().includes(query) || 
     (item.translation && item.translation.toLowerCase().includes(query))
@@ -4221,7 +4307,7 @@ function renderVocabList() {
     
     card.querySelector(".vocab-delete-btn")?.addEventListener("click", () => {
       if (confirm(`"${item.word}" kelimesini silmek istediğinize emin misiniz?`)) {
-        state.myVocabulary = (state.myVocabulary || []).filter(v => v.id !== item.id);
+        getLevelProgress().myVocabulary = (getLevelProgress().myVocabulary || []).filter(v => v.id !== item.id);
         saveState();
         renderVocabList();
       }
@@ -4271,7 +4357,7 @@ function renderVocabStudyCard() {
   const container = document.getElementById("vocab-study-game-container");
   if (!container) return;
   
-  const vocabList = state.myVocabulary || [];
+  const vocabList = getLevelProgress().myVocabulary || [];
   
   if (vocabList.length < 3) {
     container.innerHTML = `
@@ -4395,7 +4481,7 @@ let lessonQuizCorrectStates = {};
 
 function startLessonQuiz(lesson) {
   activeLessonQuiz = lesson;
-  const quizEntry = LESSON_QUIZZES[lesson.id];
+  const quizEntry = getActiveLessonQuizzes()[lesson.id];
   if (quizEntry && quizEntry.questions) {
     activeLessonQuizQuestions = quizEntry.questions;
   } else {
@@ -4472,7 +4558,7 @@ function renderLessonQuizQuestion() {
   
   if (questionArea) {
     const isTeil2 = lessonQuizCurrentIndex >= 5;
-    const quizEntry = LESSON_QUIZZES[activeLessonQuiz.id];
+    const quizEntry = getActiveLessonQuizzes()[activeLessonQuiz.id];
     const letterText = quizEntry && quizEntry.letterText ? quizEntry.letterText : "";
     
     let contentHtml = "";
@@ -4662,8 +4748,8 @@ function finishLessonQuiz(success) {
   
   if (success) {
     // Save completion state
-    if (!state.completedLessons.includes(activeLessonQuiz.id)) {
-      state.completedLessons.push(activeLessonQuiz.id);
+    if (!getLevelProgress().completedLessons.includes(activeLessonQuiz.id)) {
+      getLevelProgress().completedLessons.push(activeLessonQuiz.id);
       state.xp += 15;
       saveState();
       updateStreakBadge();

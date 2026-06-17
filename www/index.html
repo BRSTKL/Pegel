@@ -42,7 +42,7 @@
           <div class="login-header">
             <img src="icons/Logo_Dark_Mode.png" alt="pegel logo" class="login-logo-img" />
             <h1 class="login-brand">pegel</h1>
-            <p class="login-subtitle">Almanca B1 seviyesine hazırlan</p>
+            <p class="login-subtitle">Almanca seviyene hazırlan</p>
           </div>
 
           <!-- Auth Card -->
@@ -122,7 +122,7 @@
           <!-- Progress Block -->
           <div style="padding: 14px; border-radius: var(--border-radius-md);">
             <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom: 8px;">
-              <p class="t" style="font-size: 13.5px; font-weight: 500; margin:0;">B1 hedefine ilerleme</p>
+              <p class="t" style="font-size: 13.5px; font-weight: 500; margin:0;" id="home-level-label">B1 hedefine ilerleme</p>
               <p class="t" style="font-size: 14.5px; font-weight: 600; margin:0;" id="progress-text-percent">0%</p>
             </div>
             <div style="height: 5px; background: var(--color-background-tertiary); border-radius: 99px; overflow:hidden;">
@@ -182,7 +182,7 @@
       <div id="sitemap-screen" class="screen hidden" style="padding: 20px;">
         <div style="margin-bottom: 18px;">
           <h1 style="font-size: 18px; font-weight: 600; margin-bottom: 4px;">Konular ve İlerleme</h1>
-          <p class="ts" style="font-size: 12px; margin: 0;">Mind map yapısına göre organize edilmiş B1 Almanca müfredatı.</p>
+          <p class="ts" style="font-size: 12px; margin: 0;" id="sitemap-subtitle">Mind map yapısına göre organize edilmiş B1 Almanca müfredatı.</p>
         </div>
         
         <!-- Category Tab Selector -->
@@ -859,6 +859,19 @@
           <input type="text" id="profile-name-input" style="width:100%; padding: 12px; border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); font-size: 13.5px; font-weight: 500; background: var(--color-background-secondary); color: var(--color-text-primary);" />
         </div>
 
+        <!-- Level Switcher -->
+        <div style="margin-bottom: 20px;">
+          <label class="ts" style="font-size: 12px; font-weight: 600; display:block; margin-bottom: 8px;">Aktif Seviye</label>
+          <div style="display:flex; gap: 10px;">
+            <button id="level-btn-a1a2" onclick="switchLevel('A1-A2')" style="flex:1; padding: 10px; border-radius: var(--border-radius-lg); font-size: 13px; font-weight: 600; cursor: pointer; border: 1px solid var(--color-border-primary); background: var(--color-background-secondary); color: var(--color-text-secondary);">
+              A1–A2
+            </button>
+            <button id="level-btn-b1" onclick="switchLevel('B1')" style="flex:1; padding: 10px; border-radius: var(--border-radius-lg); font-size: 13px; font-weight: 600; cursor: pointer; border: 1px solid var(--color-border-primary); background: var(--color-background-secondary); color: var(--color-text-secondary);">
+              B1
+            </button>
+          </div>
+        </div>
+
         <!-- Theme Toggler -->
         <div style="display:flex; justify-content:space-between; align-items:center; border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); padding: 12px 14px; margin-bottom: 20px; background-color: var(--color-background-secondary);">
           <div>
@@ -1233,12 +1246,17 @@
   <script src="auth.js?v=24"></script>
 
   <!-- Loaded Data and Scripts -->
-  <script src="lessons_data.js?v=24"></script>
+  <script src="lessons_data_a1a2.js?v=1"></script>
+  <script src="lessons_data_b1.js?v=1"></script>
+  <script src="leseverstehen_data_a1a2.js?v=1"></script>
+  <script src="leseverstehen_data_b1.js?v=1"></script>
+  <script src="sprachbausteine_data_a1a2.js?v=1"></script>
+  <script src="sprachbausteine_data_b1.js?v=1"></script>
+  <script src="hoerverstehen_data_a1a2.js?v=1"></script>
+  <script src="hoerverstehen_data_b1.js?v=1"></script>
+  <script src="lesson_quizzes_data_a1a2.js?v=1"></script>
+  <script src="lesson_quizzes_data_b1.js?v=1"></script>
   <script src="verben_prep_data.js?v=24"></script>
-  <script src="leseverstehen_data.js?v=24"></script>
-  <script src="sprachbausteine_data.js?v=24"></script>
-  <script src="hoerverstehen_data.js?v=25"></script>
-  <script src="lesson_quizzes_data.js?v=24"></script>
-  <script src="app.js?v=24"></script>
+  <script src="app.js?v=26"></script>
 </body>
 </html>

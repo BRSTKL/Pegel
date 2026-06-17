@@ -1,0 +1,4 @@
+// A1-A2 German App - Leseverstehen Data
+const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [];
+const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [];
+const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [];
