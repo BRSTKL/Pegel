@@ -35,8 +35,8 @@ Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie auf das sarsılm
 1. Wenn ich müde bin, / trinke / ich / einen heißen Kaffee / .
    -> Wenn ich müde bin, _______________________________________.
 
-2. Wenn das Paket bugün kommt, / rufe / ich / dich / an / . (Achtung: anrufen!)
-   -> Wenn das Paket bugün kommt, ______________________________.
+2. Wenn das Paket heute kommt, / rufe / ich / dich / an / . (Achtung: anrufen!)
+   -> Wenn das Paket heute kommt, ______________________________.
 
 3. Wenn du krank bist, / musst / du / zum Arzt / gehen / . (Achtung: Modalverb!)
    -> Wenn du krank bist, ______________________________________.
@@ -75,7 +75,7 @@ LÖSUNGEN (CEVAP ANAHTARI)
 
 ÜBUNG 2:
 1. trinke ich einen heißen Kaffee. (Kılavuza göre virgülden hemen sonra çekimli fiil 'trinke' gelir, özne 'ich' yanına kayar.)
-2. ruft ich dich an. / rufe ich dich an. ('anrufen' ayrılan bir fiildir. Virgülden hemen sonra kök fiil 'rufe' gelir, 'an' takısı cümlenin en sonuna gider.)
+2. rufe ich dich an. ('anrufen' ayrılan bir fiildir. Virgülden hemen sonra kök fiil 'rufe' gelir, 'an' takısı cümlenin en sonuna gider.)
 3. musst du zum Arzt gehen. (Modal fiil çarpışması: Çekimli 'musst' virgülden hemen sonra gelir, asıl eylem 'gehen' mastar olarak en sondadır.)
 4. gehen wir im Restaurant essen. (Virgülden hemen sonra çekimli fiil 'gehen' gelir, asıl eylem 'essen' en sonda mastar kalır.)
 

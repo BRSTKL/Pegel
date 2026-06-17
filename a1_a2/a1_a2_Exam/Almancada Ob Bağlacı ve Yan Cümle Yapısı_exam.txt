@@ -14,7 +14,7 @@ KURAL HATIRLATMASI (A1-A2 SEVİYESİ):
 ÜBUNG 1: Sätze bauen mit "ob" (Cümle Kurma)
 Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie darauf, dass das konjugierte Verb im ob-Satz ganz am Ende steht!
 
-1. ich / weiß / nicht / , / ob / kommt / bugün / das Paket .
+1. ich / weiß / nicht / , / ob / kommt / heute / das Paket .
    _____________________________________________________________
 
 2. Erhan / fragt / , / ob / ist / warm / das Essen .
@@ -66,7 +66,7 @@ LÖSUNGEN (CEVAP ANAHTARI)
 ========================================================================
 
 ÜBUNG 1:
-1. Ich weiß nicht, ob das Paket bugün kommt. (Çekimli fiil 'kommt' en sondadır.)
+1. Ich weiß nicht, ob das Paket heute kommt. (Çekimli fiil 'kommt' en sondadır.)
 2. Erhan fragt, ob das Essen warm ist. (Fiil 'ist' en sondadır.)
 3. Ich möchte wissen, ob du am Samstag Zeit hast. (Fiil 'hast' en sondadır.)
 4. Der Arzt sagt nicht, ob er heute Zeit hat. (Fiil 'hat' en sondadır.)

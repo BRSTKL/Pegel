@@ -153,7 +153,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Welcher Satz ist grammatikalisch richtig?",
       "options": [
         "Morgen ich fahre nach Berlin mit dem Zug.",
         "Morgen fahre ich mit dem Zug nach Berlin.",
@@ -163,7 +163,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Welcher Satz ist grammatikalisch richtig?",
       "options": [
         "Ich muss heute für die Prüfung lernen.",
         "Ich muss lernen heute für die Prüfung.",
@@ -173,7 +173,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Welcher Satz ist grammatikalisch richtig?",
       "options": [
         "Am Nachmittag wir trinken im Garten Kaffee.",
         "Am Nachmittag trinken wir im Garten Kaffee.",
@@ -444,14 +444,14 @@ const LESSON_QUIZZES_A1A2 = {
       "words": [
         "Könnt",
         "ihr",
-        "bugün",
+        "heute",
         "im",
         "Park",
         "Basketball",
         "spielen"
       ],
       "correctAnswers": [
-        "Könnt ihr bugün im Park Basketball spielen?"
+        "Könnt ihr heute im Park Basketball spielen?"
       ]
     },
     {
@@ -494,14 +494,10 @@ const LESSON_QUIZZES_A1A2 = {
         "fliege",
         "morgen",
         "nach",
-        "Berlin",
-        "(morgen",
-        "=",
-        "Zaman"
+        "Berlin"
       ],
       "correctAnswers": [
-        "Ich fliege morgen nach Berlin. (morgen = Zaman",
-        "nach Berlin = Mekan)"
+        "Ich fliege morgen nach Berlin."
       ]
     },
     {
@@ -513,14 +509,10 @@ const LESSON_QUIZZES_A1A2 = {
         "heute",
         "Fußball",
         "im",
-        "Park",
-        "(heute",
-        "=",
-        "Zaman"
+        "Park"
       ],
       "correctAnswers": [
-        "Wir spielen heute Fußball im Park. (heute = Zaman",
-        "im Park = Mekan)"
+        "Wir spielen heute Fußball im Park."
       ]
     },
     {
@@ -533,15 +525,10 @@ const LESSON_QUIZZES_A1A2 = {
         "am",
         "Wochenende",
         "im",
-        "See",
-        "(am",
-        "Wochenende",
-        "=",
-        "Zaman"
+        "See"
       ],
       "correctAnswers": [
-        "Meine Freunde schwimmen am Wochenende im See. (am Wochenende = Zaman",
-        "im See = Mekan)"
+        "Meine Freunde schwimmen am Wochenende im See."
       ]
     },
     {
@@ -699,7 +686,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Welcher Satz ist grammatikalisch richtig?",
       "options": [
         "Am Sonntag wir gehen im Restaurant essen.",
         "Am Sonntag gehen wir im Restaurant essen.",
@@ -709,7 +696,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Welcher Satz ist grammatikalisch richtig?",
       "options": [
         "Ich muss heute um 14 Uhr den Arzt anrufen.",
         "Ich muss den Arzt heute um 14 Uhr anrufen.",
@@ -719,7 +706,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Welcher Satz ist grammatikalisch richtig?",
       "options": [
         "Gestern mein Bruder hat ein neues Auto gekauft.",
         "Gestern hat ein neues Auto gekauft mein Bruder.",
@@ -1081,7 +1068,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Welcher Satz ist grammatikalisch richtig?",
       "options": [
         "Ich fahre morgen wegen der Arbeit mit dem Zug nach München.",
         "Ich fahre nach München morgen wegen der Arbeit mit dem Zug.",
@@ -1091,7 +1078,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Welcher Satz ist grammatikalisch richtig?",
       "options": [
         "Er hat gestern im Büro viel gearbeitet.",
         "Er hat im Büro gestern viel gearbeitet.",
@@ -1340,7 +1327,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Welcher Satz ist grammatikalisch richtig?",
       "options": [
         "Das Essen wird heute von dem Vater gekocht.",
         "Das Essen heute gekocht wird von dem Vater.",
@@ -1350,7 +1337,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Welcher Satz ist grammatikalisch richtig?",
       "options": [
         "Hier wird heute nicht arbeiten.",
         "Hier wird heute nicht gearbeitet.",
@@ -1360,7 +1347,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Welcher Satz ist grammatikalisch richtig?",
       "options": [
         "Die Hausaufgaben werden von den Schülern gemacht.",
         "Die Hausaufgaben wird von den Schülern gemacht.",
@@ -1498,7 +1485,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Welcher Satz ist grammatikalisch richtig?",
       "options": [
         "Gestern ich habe Pizza im Restaurant gegessen.",
         "Gestern habe ich Pizza im Restaurant gegessen.",
@@ -1508,7 +1495,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Welcher Satz ist grammatikalisch richtig?",
       "options": [
         "Er ist am Samstag um 8 Uhr aufgestanden.",
         "Er hat am Samstag um 8 Uhr aufgestanden.",
@@ -1518,7 +1505,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Welcher Satz ist grammatikalisch richtig?",
       "options": [
         "Wir haben gestern im Park Fußball spielen.",
         "Wir haben gestern im Park Fußball gespielt.",
@@ -1821,7 +1808,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Welcher Sätze ist grammatikalisch richtig?",
       "options": [
         "Hier man darf nicht laut sprechen.",
         "Hier darf man nicht laut sprechen.",
@@ -1831,7 +1818,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Welcher Sätze ist grammatikalisch richtig?",
       "options": [
         "Er darf heute ins Kino gehen.",
         "Er darft heute ins Kino gehen.",
@@ -1841,7 +1828,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Welcher Sätze ist grammatikalisch richtig?",
       "options": [
         "Du darfst nicht hier Fotos machen.",
         "Du darfst hier nicht machen Fotos.",
@@ -1976,7 +1963,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Welcher Satz ist grammatikalisch richtig?",
       "options": [
         "Morgen ich will nach Berlin fahren.",
         "Morgen will ich nach Berlin fahren.",
@@ -1986,7 +1973,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Welcher Satz ist grammatikalisch richtig?",
       "options": [
         "Willst du heute Abend mit mir im Park spazieren gehen?",
         "Du willst heute Abend mit mir im Park spazieren gehen?",
@@ -1996,7 +1983,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Welcher Satz ist grammatikalisch richtig?",
       "options": [
         "Wir wollen heute fleißig Deutsch lernen.",
         "Wir will heute fleißig Deutsch lernen.",
@@ -2304,7 +2291,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Welcher Satz ist grammatikalisch richtig?",
       "options": [
         "Morgen ich soll meinen Vater anrufen.",
         "Morgen soll ich meinen Vater anrufen.",
@@ -2314,7 +2301,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Welcher Satz ist grammatikalisch richtig?",
       "options": [
         "Was sollen wir heute kochen für das Abendessen?",
         "Was wir sollen heute kochen für das Abendessen?",
@@ -5204,7 +5191,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Welcher Satz ist grammatikalisch richtig?",
       "options": [
         "Ich wäre gerne morgen im Kino gehen.",
         "Ich würde gerne morgen ins Kino gehen.",
@@ -5255,15 +5242,10 @@ const LESSON_QUIZZES_A1A2 = {
         "sehr",
         "gut",
         "Deutsch",
-        "sprechen",
-        "(Meine",
-        "Freunde",
-        "->",
-        "onlar"
+        "sprechen"
       ],
       "correctAnswers": [
-        "Meine Freunde können sehr gut Deutsch sprechen. (Meine Freunde -> onlar",
-        "sie çoğul çekimi)"
+        "Meine Freunde können sehr gut Deutsch sprechen."
       ]
     },
     {
@@ -5362,11 +5344,11 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Welcher Satz ist grammatikalisch richtig?",
       "options": [
         "Wir können heute fleißig lernen Deutsch.",
-        "Wir kann bugün fleißig Deutsch lernen.",
-        "Wir können bugün fleißig Deutsch lernen."
+        "Wir kann heute fleißig Deutsch lernen.",
+        "Wir können heute fleißig Deutsch lernen."
       ],
       "correct": 2
     }
@@ -5571,16 +5553,10 @@ const LESSON_QUIZZES_A1A2 = {
         "Restaurant",
         "eine",
         "Suppe",
-        "essen",
-        "(Herr",
-        "Novak",
-        "->",
-        "er"
+        "essen"
       ],
       "correctAnswers": [
-        "Herr Novak möchte im Restaurant eine Suppe essen. (Herr Novak -> er",
-        "sie",
-        "es çekimi olan 'möchte' gelir.)"
+        "Herr Novak möchte im Restaurant eine Suppe essen."
       ]
     },
     {
@@ -5669,7 +5645,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Welcher Satz ist grammatikalisch richtig?",
       "options": [
         "Möchtest du heute Abend gehen ins Kino?",
         "Möchtest du heute Abend ins Kino gehen?",
@@ -5733,9 +5709,7 @@ const LESSON_QUIZZES_A1A2 = {
       ],
       "correctAnswers": [
         "Herr Novak muss heute im Büro arbeiten.",
-        "Heute muss Herr Novak im Büro arbeiten. (Herr Novak -> er",
-        "sie",
-        "es çekimi olan 'muss' gelir.)"
+        "Heute muss Herr Novak im Büro arbeiten."
       ]
     },
     {
@@ -5826,7 +5800,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "",
+      "question": "Welcher Satz ist grammatikalisch richtig?",
       "options": [
         "Morgen ich muss nach Berlin fahren.",
         "Morgen muss ich nach Berlin fahren.",
@@ -5980,11 +5954,11 @@ const LESSON_QUIZZES_A1A2 = {
         "ob",
         "das",
         "Paket",
-        "bugün",
+        "heute",
         "kommt"
       ],
       "correctAnswers": [
-        "Ich weiß nicht, ob das Paket bugün kommt."
+        "Ich weiß nicht, ob das Paket heute kommt."
       ]
     },
     {
@@ -6722,13 +6696,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "sentence-builder",
       "question": "Kelimeleri doğru sıraya dizerek cümleyi kurun:",
       "words": [
-        "ruft",
+        "rufe",
         "ich",
         "dich",
         "an"
       ],
       "correctAnswers": [
-        "ruft ich dich an.",
         "rufe ich dich an."
       ]
     },
