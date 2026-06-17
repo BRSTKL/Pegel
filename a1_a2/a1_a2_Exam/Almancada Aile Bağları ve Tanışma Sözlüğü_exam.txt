@@ -50,7 +50,7 @@ Welches Wort passt perfekt in die Lücke? Kreuzen Sie an (A, B oder C).
    [ ] B) meine
    [ ] C) meinen
 
-2. Mein Vater ve meine Mutter sind meine _________.
+2. Mein Vater und meine Mutter sind meine _________.
    [ ] A) Großeltern
    [ ] B) Geschwister
    [ ] C) Eltern

@@ -26,12 +26,23 @@ Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie darauf, dass das
    -> Wir lernen jeden Tag Deutsch, ____________________________ _______________________.
 
 
-ÜBUNG 2: TeKaMoLo Basamaklarını Tamamlama (Zaman mı, Sebep mi?)
-Okuyun ve altı çizili kelimelerin TeKaMoLo formülündeki hangi basamağa (T - Temporal mi, yoksa K - Kausal mı) ait olduğunu parantez içine yazın.
+ÜBUNG 2: TeKaMoLo Basamaklarını Belirleme (Zaman mı, Sebep mi?)
+Hangi seçenek TeKaMoLo kuralına göre basamakları doğru tanımlamaktadır?
 
-1. Ich lerne [am Montag] (_____) [wegen der Prüfung] (_____) fleißig Deutsch.
-2. Erhan hat [heute] (_____) [wegen der Arbeit] (_____) keine Zeit für Basketball.
-3. Meine Eltern kommen [im Sommer] (_____) nach Berlin. (Sebep yok, Kausal adımı atlanmış!)
+1. Ich lerne [am Montag] [wegen der Prüfung] fleißig Deutsch.
+   [ ] A) am Montag (T) - wegen der Prüfung (K)
+   [ ] B) am Montag (K) - wegen der Prüfung (T)
+   [ ] C) am Montag (M) - wegen der Prüfung (L)
+
+2. Erhan hat [heute] [wegen der Arbeit] keine Zeit für Basketball.
+   [ ] A) heute (K) - wegen der Arbeit (T)
+   [ ] B) heute (T) - wegen der Arbeit (K)
+   [ ] C) heute (T) - wegen der Arbeit (L)
+
+3. Meine Eltern kommen [im Sommer] nach Berlin.
+   [ ] A) im Sommer (K)
+   [ ] B) im Sommer (T)
+   [ ] C) im Sommer (L)
 
 
 ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
@@ -64,9 +75,9 @@ LÖSUNGEN (CEVAP ANAHTARI)
 4. weil wir die telc-Prüfung machen möchten. (Çekimli olan 'möchten' en sonda, asıl eylem 'machen' onun solundadır.)
 
 ÜBUNG 2:
-1. am Montag (T - Temporal / Zaman) | wegen der Prüfung (K - Kausal / Sebep)
-2. heute (T - Temporal / Zaman) | wegen der Arbeit (K - Kausal / Sebep)
-3. im Sommer (T - Temporal / Zaman) | (Kılavuza göre bir sebep yoksa Kausal adımı rahatça atlanır.)
+1. A - "am Montag" zaman ifadesi (Temporal - T), "wegen der Prüfung" ise sebep ifadesidir (Kausal - K).
+2. B - "heute" zaman (T), "wegen der Arbeit" ise sebep (K) basamağıdır.
+3. B - "im Sommer" zaman zarfı olduğu için Temporal (T) olarak tanımlanır.
 
 ÜBUNG 3:
 1. C - "weil" bağlacı kulüp kuralı gereği çekimli fiili (hat) cümlenin ta en sonuna fırlatmak zorundadır.

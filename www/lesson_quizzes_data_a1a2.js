@@ -188,11 +188,9 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "(gehen)      Ich _______________ heute zum Bürgeramt in Berlin.",
       "options": [
         "gehe",
-        "kocht",
         "lernst",
         "macht",
-        "spielen",
-        "wohnen"
+        "spielen"
       ],
       "correct": 0
     },
@@ -201,26 +199,22 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "(lernen)     Du _______________ sehr fleißig für die telc-Prüfung.",
       "options": [
         "gehe",
-        "kocht",
         "lernst",
         "macht",
-        "spielen",
-        "wohnen"
+        "spielen"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
       "type": "multiple-choice",
       "question": "(machen)     Herr Novak _______________ am Wochenende eine Pause.",
       "options": [
         "gehe",
-        "kocht",
         "lernst",
         "macht",
-        "spielen",
         "wohnen"
       ],
-      "correct": 3
+      "correct": 2
     },
     {
       "type": "multiple-choice",
@@ -228,8 +222,6 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "gehe",
         "kocht",
-        "lernst",
-        "macht",
         "spielen",
         "wohnen"
       ],
@@ -241,25 +233,21 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "gehe",
         "kocht",
-        "lernst",
-        "macht",
         "spielen",
         "wohnen"
       ],
-      "correct": 4
+      "correct": 2
     },
     {
       "type": "multiple-choice",
       "question": "(wohnen)     Frau Alahmed und ihr Bruder _______________ in Frankfurt.",
       "options": [
         "gehe",
-        "kocht",
         "lernst",
         "macht",
-        "spielen",
         "wohnen"
       ],
-      "correct": 5
+      "correct": 3
     },
     {
       "type": "sentence-builder",
@@ -592,7 +580,6 @@ const LESSON_QUIZZES_A1A2 = {
         "Am Wochenende schwimmen meine Freunde im See",
         "Heute spielen wir Fußball im Park",
         "Morgen fliege ich nach Berlin",
-        "Nachmittags trinke ich einen Kaffee im Café",
         "Um 12:00 Uhr kocht meine Mutter lecker in der Küche"
       ],
       "correct": 2
@@ -601,19 +588,6 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "(heute ...)\n   _____________________________________________________________",
       "options": [
-        "Am Wochenende schwimmen meine Freunde im See",
-        "Heute spielen wir Fußball im Park",
-        "Morgen fliege ich nach Berlin",
-        "Nachmittags trinke ich einen Kaffee im Café",
-        "Um 12:00 Uhr kocht meine Mutter lecker in der Küche"
-      ],
-      "correct": 1
-    },
-    {
-      "type": "multiple-choice",
-      "question": "(am Wochenende ...)\n   _____________________________________________________________",
-      "options": [
-        "Am Wochenende schwimmen meine Freunde im See",
         "Heute spielen wir Fußball im Park",
         "Morgen fliege ich nach Berlin",
         "Nachmittags trinke ich einen Kaffee im Café",
@@ -623,27 +597,36 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(nachmittags ...)\n   _____________________________________________________________",
+      "question": "(am Wochenende ...)\n   _____________________________________________________________",
       "options": [
         "Am Wochenende schwimmen meine Freunde im See",
+        "Heute spielen wir Fußball im Park",
+        "Nachmittags trinke ich einen Kaffee im Café",
+        "Um 12:00 Uhr kocht meine Mutter lecker in der Küche"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "(nachmittags ...)\n   _____________________________________________________________",
+      "options": [
         "Heute spielen wir Fußball im Park",
         "Morgen fliege ich nach Berlin",
         "Nachmittags trinke ich einen Kaffee im Café",
         "Um 12:00 Uhr kocht meine Mutter lecker in der Küche"
       ],
-      "correct": 3
+      "correct": 2
     },
     {
       "type": "multiple-choice",
       "question": "(um 12:00 Uhr ...)\n   _____________________________________________________________",
       "options": [
         "Am Wochenende schwimmen meine Freunde im See",
-        "Heute spielen wir Fußball im Park",
         "Morgen fliege ich nach Berlin",
         "Nachmittags trinke ich einen Kaffee im Café",
         "Um 12:00 Uhr kocht meine Mutter lecker in der Küche"
       ],
-      "correct": 4
+      "correct": 3
     },
     {
       "type": "sentence-builder",
@@ -797,33 +780,33 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Ich lerne [am Montag] (_____) [wegen der Prüfung] (_____) fleißig Deutsch.",
+      "question": "Ich lerne [am Montag] [wegen der Prüfung] fleißig Deutsch.",
       "options": [
-        "am Montag",
-        "heute",
-        "im Sommer"
+        "am Montag (T) - wegen der Prüfung (K)",
+        "am Montag (K) - wegen der Prüfung (T)",
+        "am Montag (M) - wegen der Prüfung (L)"
       ],
       "correct": 0
     },
     {
       "type": "multiple-choice",
-      "question": "Erhan hat [heute] (_____) [wegen der Arbeit] (_____) keine Zeit für Basketball.",
+      "question": "Erhan hat [heute] [wegen der Arbeit] keine Zeit für Basketball.",
       "options": [
-        "am Montag",
-        "heute",
-        "im Sommer"
+        "heute (K) - wegen der Arbeit (T)",
+        "heute (T) - wegen der Arbeit (K)",
+        "heute (T) - wegen der Arbeit (L)"
       ],
       "correct": 1
     },
     {
       "type": "multiple-choice",
-      "question": "Meine Eltern kommen [im Sommer] (_____) nach Berlin. (Sebep yok, Kausal adımı atlanmış!)",
+      "question": "Meine Eltern kommen [im Sommer] nach Berlin.",
       "options": [
-        "am Montag",
-        "heute",
-        "im Sommer"
+        "im Sommer (K)",
+        "im Sommer (T)",
+        "im Sommer (L)"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
       "type": "multiple-choice",
@@ -923,75 +906,31 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Ich fahre [morgen] (_____) [schnell] (_____) [nach Hamburg] (_____).",
+      "question": "Ich fahre [morgen] [schnell] [nach Hamburg].",
       "options": [
-        "am Samstag",
-        "heute",
-        "jeden Tag",
-        "morgen"
-      ],
-      "correct": 3
-    },
-    {
-      "type": "multiple-choice",
-      "question": "Frau Alahmed lernt [jeden Tag] (_____) [wegen der telc-Prüfung] (_____) [fleißig] (_____) zu Hause.",
-      "options": [
-        "am Samstag",
-        "heute",
-        "jeden Tag",
-        "morgen"
-      ],
-      "correct": 2
-    },
-    {
-      "type": "multiple-choice",
-      "question": "Ahmet kommt [heute] (_____) [zu spät] (_____) [zum Deutschkurs] (_____).",
-      "options": [
-        "am Samstag",
-        "heute",
-        "jeden Tag",
-        "morgen"
-      ],
-      "correct": 1
-    },
-    {
-      "type": "multiple-choice",
-      "question": "Wir spielen [am Samstag] (_____) [im Park] (_____). (Sebep ve tarz yok, K ve M adımları atlanmış!)",
-      "options": [
-        "am Samstag",
-        "heute",
-        "jeden Tag",
-        "morgen"
+        "morgen (M) - schnell (T) - nach Hamburg (L)",
+        "morgen (T) - schnell (M) - nach Hamburg (L)",
+        "morgen (L) - schnell (M) - nach Hamburg (T)"
       ],
       "correct": 0
     },
     {
       "type": "multiple-choice",
-      "question": "Ahmet işe çok geç kaldı. Bunu telc mektubunda TeKaMoLo kuralına göre nasıl yazar?",
+      "question": "Frau Alahmed lernt [jeden Tag] [wegen der telc-Prüfung] [fleißig] zu Hause.",
       "options": [
-        "Ich komme heute zu spät ins Büro.",
-        "Ich komme heute ins Büro zu spät.",
-        "Ich zu spät komme heute ins Büro."
-      ],
-      "correct": 0
-    },
-    {
-      "type": "multiple-choice",
-      "question": "Erhan arabasını çok yavaş sürüyor. Doğru dizilim hangisidir?",
-      "options": [
-        "Erhan fährt nach Berlin sehr langsam.",
-        "Erhan fährt sehr langsam nach Berlin.",
-        "Erhan sehr langsam fährt nach Berlin."
+        "jeden Tag (T) - wegen der telc-Prüfung (K) - fleißig (M)",
+        "jeden Tag (K) - wegen der telc-Prüfung (T) - fleißig (M)",
+        "jeden Tag (T) - wegen der telc-Prüfung (M) - fleißig (K)"
       ],
       "correct": 1
     },
     {
       "type": "multiple-choice",
-      "question": "- Wie lernst du Deutsch? - Ich lerne _________.",
+      "question": "Ahmet kommt [heute] [zu spät] [zum Deutschkurs].",
       "options": [
-        "jeden Tag fleißig zu Hause",
-        "fleißig jeden Tag zu Hause",
-        "jeden Tag zu Hause fleißig"
+        "heute (M) - zu spät (T) - zum Deutschkurs (L)",
+        "heute (T) - zu spät (L) - zum Deutschkurs (M)",
+        "heute (T) - zu spät (M) - zum Deutschkurs (L)"
       ],
       "correct": 0
     }
@@ -1160,25 +1099,21 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "___________auf wartest du? Auf den Bus? (warten auf)",
       "options": [
-        "Womit",
         "Worauf",
-        "bin",
-        "haben",
-        "hat",
-        "ist"
+        "wofür",
+        "worauf",
+        "wozu"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
       "type": "multiple-choice",
       "question": "___________mit fährst du nach Berlin? Mit dem Zug? (fahren mit)",
       "options": [
         "Womit",
-        "Worauf",
-        "bin",
-        "haben",
-        "hat",
-        "ist"
+        "wofür",
+        "worauf",
+        "wozu"
       ],
       "correct": 0
     },
@@ -1186,25 +1121,21 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "___________auf hast du Lust? Auf Pizza oder Pasta? (Lust haben auf)",
       "options": [
-        "Womit",
         "Worauf",
-        "bin",
-        "haben",
-        "hat",
-        "ist"
+        "wofür",
+        "womit",
+        "wonach"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
       "type": "multiple-choice",
       "question": "___________mit spielt das Kind? Mit dem Ball? (spielen mit)",
       "options": [
         "Womit",
-        "Worauf",
-        "bin",
-        "haben",
-        "hat",
-        "ist"
+        "wofür",
+        "womit",
+        "wozu"
       ],
       "correct": 0
     },
@@ -1212,53 +1143,45 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Wartest du auf das Express-Paket?\n   -> Ja, ich warte _______________.",
       "options": [
-        "bin",
         "damit",
-        "darauf",
-        "haben",
-        "hat",
-        "ist"
+        "danach",
+        "daran",
+        "darauf"
       ],
-      "correct": 2
+      "correct": 3
     },
     {
       "type": "multiple-choice",
       "question": "Bist du mit dem neuen Fahrrad zufrieden?\n   -> Ja, ich bin _______________ sehr zufrieden.",
       "options": [
-        "bin",
         "damit",
+        "daran",
         "darauf",
-        "haben",
-        "hat",
-        "ist"
+        "darüber"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
       "type": "multiple-choice",
       "question": "Hast du Lust auf einen Kaffee?\n   -> Nein, ich habe keine Lust _______________.",
       "options": [
-        "bin",
-        "damit",
+        "danach",
         "darauf",
-        "haben",
-        "hat",
-        "ist"
+        "darüber",
+        "davon"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
       "type": "multiple-choice",
       "question": "Arbeitest du heute mit dem neuen Computer?\n   -> Ja, ich arbeite _______________.",
       "options": [
-        "bin",
         "damit",
-        "darauf",
-        "haben",
-        "hat",
-        "ist"
+        "danach",
+        "darüber",
+        "davon"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
       "type": "multiple-choice",
@@ -1501,7 +1424,6 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "bin",
         "haben",
-        "hast",
         "hat",
         "sind"
       ],
@@ -1511,19 +1433,6 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Was __________ du heute Morgen gefrühstückt?",
       "options": [
-        "bin",
-        "haben",
-        "hast",
-        "hat",
-        "sind"
-      ],
-      "correct": 2
-    },
-    {
-      "type": "multiple-choice",
-      "question": "Wir __________ am Sonntag lange geschlafen.",
-      "options": [
-        "bin",
         "haben",
         "hast",
         "hat",
@@ -1533,15 +1442,25 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Wann __________ deine Freunde aus der Türkei gekommen?",
+      "question": "Wir __________ am Sonntag lange geschlafen.",
       "options": [
-        "bin",
         "haben",
         "hast",
         "hat",
         "sind"
       ],
-      "correct": 4
+      "correct": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Wann __________ deine Freunde aus der Türkei gekommen?",
+      "options": [
+        "bin",
+        "hast",
+        "hat",
+        "sind"
+      ],
+      "correct": 3
     },
     {
       "type": "multiple-choice",
@@ -1549,11 +1468,10 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "bin",
         "haben",
-        "hast",
         "hat",
         "sind"
       ],
-      "correct": 3
+      "correct": 2
     },
     {
       "type": "multiple-choice",
@@ -1592,11 +1510,9 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "Wie ist dein _______________? -> Mein Name ist Özdemir.",
       "options": [
         "Name",
-        "alt",
         "aus",
         "bin",
-        "heißt",
-        "in"
+        "heißt"
       ],
       "correct": 0
     },
@@ -1606,25 +1522,21 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "Name",
         "alt",
-        "aus",
         "bin",
-        "heißt",
-        "in"
+        "heißt"
       ],
-      "correct": 3
+      "correct": 2
     },
     {
       "type": "multiple-choice",
       "question": "Woher kommst du? -> Ich komme _______________ der Türkei.",
       "options": [
-        "Name",
         "alt",
         "aus",
         "bin",
-        "heißt",
         "in"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
       "type": "multiple-choice",
@@ -1632,12 +1544,10 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "Name",
         "alt",
-        "aus",
         "bin",
-        "heißt",
         "in"
       ],
-      "correct": 5
+      "correct": 3
     },
     {
       "type": "multiple-choice",
@@ -1645,8 +1555,6 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "Name",
         "alt",
-        "aus",
-        "bin",
         "heißt",
         "in"
       ],
@@ -1656,14 +1564,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Wie _______________ du? -> Ich heiße Ahmet.",
       "options": [
-        "Name",
         "alt",
         "aus",
-        "bin",
         "heißt",
         "in"
       ],
-      "correct": 4
+      "correct": 2
     },
     {
       "type": "sentence-builder",
@@ -1829,6 +1735,7 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "Ich bin krank. Der Arzt sagt: Ich __________ heute nicht arbeiten.",
       "options": [
         "darf",
+        "darfst",
         "dürfen",
         "dürft"
       ],
@@ -1839,16 +1746,18 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "Hallo Kinder! Ihr __________ hier laut Musik hören.",
       "options": [
         "darf",
+        "darfst",
         "dürfen",
         "dürft"
       ],
-      "correct": 2
+      "correct": 3
     },
     {
       "type": "multiple-choice",
       "question": "Herr Novak, __________ man hier das Auto parken?",
       "options": [
         "darf",
+        "darfst",
         "dürfen",
         "dürft"
       ],
@@ -1859,6 +1768,7 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "Das Kind __________ heute länger fernsehen, weil Wochenende ist.",
       "options": [
         "darf",
+        "darfst",
         "dürfen",
         "dürft"
       ],
@@ -1869,10 +1779,11 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "Wir __________ in der Prüfung kein Wörterbuch benutzen. Es ist verboten.",
       "options": [
         "darf",
+        "darfst",
         "dürfen",
         "dürft"
       ],
-      "correct": 1
+      "correct": 2
     },
     {
       "type": "multiple-choice",
@@ -1973,19 +1884,21 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Ich __________ heute nicht kochen. Ich gehe im Restaurant essen.",
       "options": [
-        "Wollt",
         "will",
-        "wollen"
+        "willst",
+        "wollen",
+        "wollt"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
       "type": "multiple-choice",
       "question": "Hallo Kinder! __________ ihr heute Nachmittag Tennis spielen?",
       "options": [
         "Wollt",
-        "will",
-        "wollen"
+        "bin",
+        "ist",
+        "will"
       ],
       "correct": 0
     },
@@ -1993,19 +1906,21 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Herr Demir __________ im Sommer nach Spanien fliegen.",
       "options": [
-        "Wollt",
         "will",
-        "wollen"
+        "willst",
+        "wollen",
+        "wollt"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
       "type": "multiple-choice",
       "question": "Meine Freunde __________ am Samstag eine große Party machen.",
       "options": [
-        "Wollt",
         "will",
-        "wollen"
+        "willst",
+        "wollen",
+        "wollt"
       ],
       "correct": 2
     },
@@ -2013,11 +1928,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Das Kind __________ keine Suppe essen, es möchte lieber Pizza.",
       "options": [
-        "Wollt",
         "will",
-        "wollen"
+        "willst",
+        "wollen",
+        "wollt"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
       "type": "multiple-choice",
@@ -2058,7 +1974,6 @@ const LESSON_QUIZZES_A1A2 = {
         "achtundfünfzig",
         "dreißig",
         "sechzehn",
-        "siebzehn",
         "vierundzwanzig"
       ],
       "correct": 2
@@ -2069,11 +1984,10 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "achtundfünfzig",
         "dreißig",
-        "sechzehn",
         "siebzehn",
         "vierundzwanzig"
       ],
-      "correct": 3
+      "correct": 2
     },
     {
       "type": "multiple-choice",
@@ -2081,11 +1995,10 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "achtundfünfzig",
         "dreißig",
-        "sechzehn",
         "siebzehn",
         "vierundzwanzig"
       ],
-      "correct": 4
+      "correct": 3
     },
     {
       "type": "multiple-choice",
@@ -2093,7 +2006,6 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "achtundfünfzig",
         "dreißig",
-        "sechzehn",
         "siebzehn",
         "vierundzwanzig"
       ],
@@ -2104,7 +2016,6 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "58 -> _______________________________________________________",
       "options": [
         "achtundfünfzig",
-        "dreißig",
         "sechzehn",
         "siebzehn",
         "vierundzwanzig"
@@ -2118,7 +2029,6 @@ const LESSON_QUIZZES_A1A2 = {
         "dritten",
         "ersten",
         "siebten",
-        "zwanzigsten",
         "zweiundzwanzigsten"
       ],
       "correct": 0
@@ -2130,8 +2040,7 @@ const LESSON_QUIZZES_A1A2 = {
         "dritten",
         "ersten",
         "siebten",
-        "zwanzigsten",
-        "zweiundzwanzigsten"
+        "zwanzigsten"
       ],
       "correct": 1
     },
@@ -2140,19 +2049,6 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "Der Express-Termin ist am 20.___________ (zwanzig___) Juni.",
       "options": [
         "dritten",
-        "ersten",
-        "siebten",
-        "zwanzigsten",
-        "zweiundzwanzigsten"
-      ],
-      "correct": 3
-    },
-    {
-      "type": "multiple-choice",
-      "question": "Herr Novak kommt am 7.___________ (sieb___) September nach Berlin.",
-      "options": [
-        "dritten",
-        "ersten",
         "siebten",
         "zwanzigsten",
         "zweiundzwanzigsten"
@@ -2161,15 +2057,25 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Mein Vater feiert am 22.___________ (zweiundzwanzig___) Oktober ein Fest.",
+      "question": "Herr Novak kommt am 7.___________ (sieb___) September nach Berlin.",
       "options": [
         "dritten",
+        "siebten",
+        "zwanzigsten",
+        "zweiundzwanzigsten"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Mein Vater feiert am 22.___________ (zweiundzwanzig___) Oktober ein Fest.",
+      "options": [
         "ersten",
         "siebten",
         "zwanzigsten",
         "zweiundzwanzigsten"
       ],
-      "correct": 4
+      "correct": 3
     },
     {
       "type": "multiple-choice",
@@ -2283,6 +2189,7 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "soll",
         "sollen",
+        "sollst",
         "sollt"
       ],
       "correct": 0
@@ -2293,9 +2200,10 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "soll",
         "sollen",
+        "sollst",
         "sollt"
       ],
-      "correct": 2
+      "correct": 3
     },
     {
       "type": "multiple-choice",
@@ -2303,6 +2211,7 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "soll",
         "sollen",
+        "sollst",
         "sollt"
       ],
       "correct": 1
@@ -2313,6 +2222,7 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "soll",
         "sollen",
+        "sollst",
         "sollt"
       ],
       "correct": 0
@@ -2323,6 +2233,7 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "soll",
         "sollen",
+        "sollst",
         "sollt"
       ],
       "correct": 1
@@ -2364,13 +2275,11 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "Der Kaffee ist heiß___. (Sıfat tek başına)",
       "options": [
         "-e",
-        "-em",
         "-en",
         "-er",
-        "-es",
         "Ek yok (boş)"
       ],
-      "correct": 5
+      "correct": 3
     },
     {
       "type": "multiple-choice",
@@ -2378,12 +2287,10 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "-e",
         "-em",
-        "-en",
         "-er",
-        "-es",
         "Ek yok (boş)"
       ],
-      "correct": 3
+      "correct": 2
     },
     {
       "type": "multiple-choice",
@@ -2391,10 +2298,8 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "-e",
         "-em",
-        "-en",
         "-er",
-        "-es",
-        "Ek yok (boş)"
+        "-es"
       ],
       "correct": 0
     },
@@ -2403,10 +2308,8 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "Ich suche eine klein___ Tasche. (eine + die Tasche)",
       "options": [
         "-e",
-        "-em",
         "-en",
         "-er",
-        "-es",
         "Ek yok (boş)"
       ],
       "correct": 0
@@ -2416,13 +2319,11 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "Herr Demir repariert den kaputt___ Computer. (den + der Computer / Akkusativ!)",
       "options": [
         "-e",
-        "-em",
         "-en",
         "-er",
-        "-es",
-        "Ek yok (boş)"
+        "-es"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
       "type": "multiple-choice",
@@ -2430,8 +2331,6 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "-e",
         "-em",
-        "-en",
-        "-er",
         "-es",
         "Ek yok (boş)"
       ],
@@ -2523,9 +2422,7 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "-e",
         "-em",
-        "-en",
         "-er",
-        "-es",
         "Ek yok (boş)"
       ],
       "correct": 0
@@ -2535,13 +2432,11 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "Herr Demir hat ein neu___ Auto. (das Auto)",
       "options": [
         "-e",
-        "-em",
         "-en",
-        "-er",
         "-es",
         "Ek yok (boş)"
       ],
-      "correct": 4
+      "correct": 2
     },
     {
       "type": "multiple-choice",
@@ -2549,9 +2444,7 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "-e",
         "-em",
-        "-en",
         "-er",
-        "-es",
         "Ek yok (boş)"
       ],
       "correct": 0
@@ -2560,14 +2453,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Das ist ein frisch___ Kaffee. (der Kaffee)",
       "options": [
-        "-e",
-        "-em",
         "-en",
         "-er",
         "-es",
         "Ek yok (boş)"
       ],
-      "correct": 3
+      "correct": 1
     },
     {
       "type": "multiple-choice",
@@ -2575,10 +2466,8 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "-e",
         "-em",
-        "-en",
         "-er",
-        "-es",
-        "Ek yok (boş)"
+        "-es"
       ],
       "correct": 0
     },
@@ -2589,9 +2478,7 @@ const LESSON_QUIZZES_A1A2 = {
         "-e",
         "-em",
         "-en",
-        "-er",
-        "-es",
-        "Ek yok (boş)"
+        "-er"
       ],
       "correct": 2
     },
@@ -2602,9 +2489,7 @@ const LESSON_QUIZZES_A1A2 = {
         "-e",
         "-em",
         "-en",
-        "-er",
-        "-es",
-        "Ek yok (boş)"
+        "-er"
       ],
       "correct": 2
     },
@@ -2615,50 +2500,42 @@ const LESSON_QUIZZES_A1A2 = {
         "-e",
         "-em",
         "-en",
-        "-er",
-        "-es",
-        "Ek yok (boş)"
+        "-es"
       ],
-      "correct": 4
+      "correct": 3
     },
     {
       "type": "multiple-choice",
       "question": "Er hilft einer alt___ Frau. (Dativ / die Frau -> einer)",
       "options": [
         "-e",
-        "-em",
         "-en",
         "-er",
-        "-es",
-        "Ek yok (boş)"
+        "-es"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
       "type": "multiple-choice",
       "question": "Wir wohnen in einem groß___ Haus. (Dativ / das Haus -> einem)",
       "options": [
         "-e",
-        "-em",
         "-en",
         "-er",
-        "-es",
         "Ek yok (boş)"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
       "type": "multiple-choice",
       "question": "Herr Novak sucht einen neu___ Laptop. (Akkusativ / der Laptop)",
       "options": [
-        "-e",
         "-em",
         "-en",
-        "-er",
         "-es",
         "Ek yok (boş)"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
       "type": "multiple-choice",
@@ -2709,7 +2586,8 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "als",
         "am",
-        "so  wie"
+        "so ... wie",
+        "wie"
       ],
       "correct": 0
     },
@@ -2717,11 +2595,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Meine Mutter kocht gut, aber mein Vater kocht ____________________ besten.",
       "options": [
-        "als",
         "am",
-        "so  wie"
+        "auf",
+        "bei",
+        "in"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
       "type": "multiple-choice",
@@ -2729,37 +2608,41 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "als",
         "am",
-        "so  wie"
+        "so ... wie",
+        "wie"
       ],
       "correct": 0
     },
     {
       "type": "multiple-choice",
-      "question": "Dieses Auto ist teuer, ama jene Tasche ist ____________________ teuersten.",
+      "question": "Dieses Auto ist teuer, aber jene Tasche ist ____________________ teuersten.",
       "options": [
-        "als",
         "am",
-        "so  wie"
+        "im",
+        "in",
+        "von"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
       "type": "multiple-choice",
-      "question": "(gut)        Ich trinke Kaffee, ama çay trinken ist ____________________.",
+      "question": "(gut)        Ich trinke Kaffee, aber Tee trinken ist ____________________.",
       "options": [
-        "am",
         "besser",
-        "kürzer"
+        "kürzer",
+        "teurer",
+        "älter"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
       "type": "multiple-choice",
       "question": "(gern)       Ich spiele Basketball, aber ich spiele Padel-Tennis ____________________ liebsten.",
       "options": [
         "am",
-        "besser",
-        "kürzer"
+        "an",
+        "ans",
+        "vom"
       ],
       "correct": 0
     },
@@ -2767,29 +2650,32 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "(kurz)       Im Februar sind die Tage ____________________ als im Juli.",
       "options": [
-        "am",
-        "besser",
-        "kürzer"
+        "größer",
+        "kürzer",
+        "schöner",
+        "stärker"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
       "type": "multiple-choice",
       "question": "(gut)        Herr Novak programmiert Python gut, aber er programmiert in SQL ____________________ besten.",
       "options": [
         "am",
-        "besser",
-        "kürzer"
+        "im",
+        "nach",
+        "zur"
       ],
       "correct": 0
     },
     {
       "type": "multiple-choice",
-      "question": "(stark)      Mein Vater ist stark, ama mein Opa ist ____________________ stärksten.",
+      "question": "(stark)      Mein Vater ist stark, aber mein Opa ist ____________________ stärksten.",
       "options": [
         "am",
-        "besser",
-        "kürzer"
+        "ins",
+        "mit",
+        "zum"
       ],
       "correct": 0
     },
@@ -2805,7 +2691,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Mein Laptop ist alt, ama der Laptop von Herr Demir ist noch _________ als mein Laptop.",
+      "question": "Mein Laptop ist alt, aber der Laptop von Herr Demir ist noch _________ als mein Laptop.",
       "options": [
         "älter",
         "alter",
@@ -2831,11 +2717,10 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "Auf Wiederhören",
         "Auf Wiedersehen",
-        "Gute Nacht",
         "Guten Abend",
         "Guten Morgen"
       ],
-      "correct": 4
+      "correct": 3
     },
     {
       "type": "multiple-choice",
@@ -2844,7 +2729,6 @@ const LESSON_QUIZZES_A1A2 = {
         "Auf Wiederhören",
         "Auf Wiedersehen",
         "Gute Nacht",
-        "Guten Abend",
         "Guten Morgen"
       ],
       "correct": 2
@@ -2854,7 +2738,6 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "Herr Novak spricht am Telefon mit dem Kundenservice. Am Ende sagt er: \"Vielen Dank und ____________________!\"",
       "options": [
         "Auf Wiederhören",
-        "Auf Wiedersehen",
         "Gute Nacht",
         "Guten Abend",
         "Guten Morgen"
@@ -2868,8 +2751,7 @@ const LESSON_QUIZZES_A1A2 = {
         "Auf Wiederhören",
         "Auf Wiedersehen",
         "Gute Nacht",
-        "Guten Abend",
-        "Guten Morgen"
+        "Guten Abend"
       ],
       "correct": 3
     },
@@ -2880,8 +2762,7 @@ const LESSON_QUIZZES_A1A2 = {
         "Auf Wiederhören",
         "Auf Wiedersehen",
         "Gute Nacht",
-        "Guten Abend",
-        "Guten Morgen"
+        "Guten Abend"
       ],
       "correct": 1
     },
@@ -2977,25 +2858,21 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "bin",
         "haben",
-        "hat",
         "ist",
-        "tun weh",
         "tut weh"
       ],
-      "correct": 5
+      "correct": 3
     },
     {
       "type": "multiple-choice",
       "question": "Meine Ohren (die Ohren - Plural) _______________. Die Musik war sehr laut.",
       "options": [
         "bin",
-        "haben",
         "hat",
-        "ist",
         "tun weh",
         "tut weh"
       ],
-      "correct": 4
+      "correct": 2
     },
     {
       "type": "multiple-choice",
@@ -3004,37 +2881,31 @@ const LESSON_QUIZZES_A1A2 = {
         "bin",
         "haben",
         "hat",
-        "ist",
-        "tun weh",
         "tut weh"
       ],
-      "correct": 5
+      "correct": 3
     },
     {
       "type": "multiple-choice",
       "question": "Meine Beine (die Beine - Plural) _______________ nach dem Fußballspiel.",
       "options": [
         "bin",
-        "haben",
         "hat",
         "ist",
-        "tun weh",
-        "tut weh"
+        "tun weh"
       ],
-      "correct": 4
+      "correct": 3
     },
     {
       "type": "multiple-choice",
       "question": "Mein Hals (der Hals) _______________. Ich kann nicht gut sprechen.",
       "options": [
         "bin",
-        "haben",
         "hat",
-        "ist",
         "tun weh",
         "tut weh"
       ],
-      "correct": 5
+      "correct": 3
     },
     {
       "type": "multiple-choice",
@@ -3042,7 +2913,8 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "Er hat Rückenschmerzen",
         "Herr Demir hat Halsschmerzen",
-        "Ich habe Bauchschmerzen"
+        "Ich habe Bauchschmerzen",
+        "bin"
       ],
       "correct": 2
     },
@@ -3052,7 +2924,8 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "Er hat Rückenschmerzen",
         "Herr Demir hat Halsschmerzen",
-        "Ich habe Bauchschmerzen"
+        "bin",
+        "ist"
       ],
       "correct": 0
     },
@@ -3062,7 +2935,8 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "Er hat Rückenschmerzen",
         "Herr Demir hat Halsschmerzen",
-        "Ich habe Bauchschmerzen"
+        "haben",
+        "ist"
       ],
       "correct": 1
     },
@@ -3172,31 +3046,34 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Frau Alahmed kommt zu spät. Ihr Wecker war kaputt.\n   -> Frau Alahmed kommt zu spät, weil ________________________.",
       "options": [
+        "bin",
+        "haben",
         "weil ihr Wecker kaputt war",
-        "weil sein Kopf weh tut",
-        "weil wir heute nicht kochen wollen"
+        "weil sein Kopf weh tut"
       ],
-      "correct": 0
+      "correct": 2
     },
     {
       "type": "multiple-choice",
       "question": "Er geht zum Arzt. Sein Kopf tut weh.\n   -> Er geht zum Arzt, weil __________________________________.",
       "options": [
+        "bin",
+        "haben",
         "weil ihr Wecker kaputt war",
-        "weil sein Kopf weh tut",
-        "weil wir heute nicht kochen wollen"
+        "weil sein Kopf weh tut"
       ],
-      "correct": 1
+      "correct": 3
     },
     {
       "type": "multiple-choice",
       "question": "Wir gehen im Restaurant essen. Wir wollen heute nicht kochen. (Achtung: Modalverb!)\n   -> Wir gehen im Restaurant essen, weil _____________________.",
       "options": [
+        "ist",
         "weil ihr Wecker kaputt war",
         "weil sein Kopf weh tut",
         "weil wir heute nicht kochen wollen"
       ],
-      "correct": 2
+      "correct": 3
     },
     {
       "type": "multiple-choice",
@@ -3368,8 +3245,7 @@ const LESSON_QUIZZES_A1A2 = {
         "abbiegen",
         "bis zur",
         "entlang",
-        "geradeaus",
-        "vorbei"
+        "geradeaus"
       ],
       "correct": 3
     },
@@ -3378,7 +3254,6 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "Biegen Sie bitte die erste Straße rechts ____________________. (Sağa sapın)",
       "options": [
         "abbiegen",
-        "bis zur",
         "entlang",
         "geradeaus",
         "vorbei"
@@ -3392,7 +3267,6 @@ const LESSON_QUIZZES_A1A2 = {
         "abbiegen",
         "bis zur",
         "entlang",
-        "geradeaus",
         "vorbei"
       ],
       "correct": 2
@@ -3403,7 +3277,6 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "abbiegen",
         "bis zur",
-        "entlang",
         "geradeaus",
         "vorbei"
       ],
@@ -3413,13 +3286,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Gehen Sie an dem Supermarkt ____________________. Dort ist die Schule. (Süpermarketin yanından geçin)",
       "options": [
-        "abbiegen",
         "bis zur",
         "entlang",
         "geradeaus",
         "vorbei"
       ],
-      "correct": 4
+      "correct": 3
     },
     {
       "type": "sentence-builder",
@@ -3511,13 +3383,11 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "(ich / das Buch)      -> Das ist mein___ Buch.",
       "options": [
         "Ihre",
-        "deine",
         "eure",
         "mein",
-        "sein",
-        "unsere"
+        "sein"
       ],
-      "correct": 3
+      "correct": 2
     },
     {
       "type": "multiple-choice",
@@ -3525,8 +3395,6 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "-e",
         "-em",
-        "-en",
-        "-er",
         "-es",
         "Ek yok (boş)"
       ],
@@ -3536,24 +3404,20 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "(er / der Vater)      -> Das ist sein___ Vater.",
       "options": [
-        "Ihre",
         "deine",
         "eure",
         "mein",
-        "sein",
-        "unsere"
+        "sein"
       ],
-      "correct": 4
+      "correct": 3
     },
     {
       "type": "multiple-choice",
       "question": "(sie - o / die Katze) -> Ihr___ Katze ist süß.",
       "options": [
         "-e",
-        "-em",
         "-en",
         "-er",
-        "-es",
         "Ek yok (boş)"
       ],
       "correct": 0
@@ -3565,9 +3429,7 @@ const LESSON_QUIZZES_A1A2 = {
         "-e",
         "-em",
         "-en",
-        "-er",
-        "-es",
-        "Ek yok (boş)"
+        "-er"
       ],
       "correct": 0
     },
@@ -3577,8 +3439,6 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "-e",
         "-em",
-        "-en",
-        "-er",
         "-es",
         "Ek yok (boş)"
       ],
@@ -3695,22 +3555,29 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "(du -> bana)       Herr Novak hilft ___________ heute im Büro. (helfen + Dativ)",
       "options": [
-        "Ihnen",
         "dich",
         "euch",
         "ihn",
-        "mir",
-        "uns"
+        "mir"
       ],
-      "correct": 4
+      "correct": 3
     },
     {
       "type": "multiple-choice",
       "question": "(ich -> seni)      Ich liebe ___________, meine liebe Mia! (lieben + Akkusativ)",
       "options": [
-        "Ihnen",
         "dich",
         "euch",
+        "ihn",
+        "mir"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "(er -> ona/erkek)  Das Fahrrad ist kaputt. Er repariert ___________ morgen. (reparieren + Akkusativ)",
+      "options": [
+        "dich",
         "ihn",
         "mir",
         "uns"
@@ -3719,29 +3586,14 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(er -> ona/erkek)  Das Fahrrad ist kaputt. Er repariert ___________ morgen. (reparieren + Akkusativ)",
-      "options": [
-        "Ihnen",
-        "dich",
-        "euch",
-        "ihn",
-        "mir",
-        "uns"
-      ],
-      "correct": 3
-    },
-    {
-      "type": "multiple-choice",
       "question": "(ihr -> size)      Kinder, ich danke ___________ für die Hilfe. (danken + Dativ)",
       "options": [
         "Ihnen",
-        "dich",
         "euch",
         "ihn",
-        "mir",
         "uns"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
       "type": "multiple-choice",
@@ -3750,11 +3602,9 @@ const LESSON_QUIZZES_A1A2 = {
         "Ihnen",
         "dich",
         "euch",
-        "ihn",
-        "mir",
         "uns"
       ],
-      "correct": 5
+      "correct": 3
     },
     {
       "type": "multiple-choice",
@@ -3763,9 +3613,7 @@ const LESSON_QUIZZES_A1A2 = {
         "Ihnen",
         "dich",
         "euch",
-        "ihn",
-        "mir",
-        "uns"
+        "mir"
       ],
       "correct": 0
     },
@@ -3862,71 +3710,78 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Das ist _______________ Vater (der Vater). Er ist 64 Jahre alt.",
       "options": [
-        "dein [veya mein]",
-        "mein",
-        "meine"
+        "haben",
+        "hat",
+        "ist",
+        "mein"
       ],
-      "correct": 1
+      "correct": 3
     },
     {
       "type": "multiple-choice",
       "question": "Das ist _______________ Mutter (die Mutter). Sie ist 57 Jahre alt.",
       "options": [
+        "bin",
         "dein [veya mein]",
         "mein",
         "meine"
       ],
-      "correct": 2
+      "correct": 3
     },
     {
       "type": "multiple-choice",
       "question": "Wo wohnen _______________ Großeltern (die Großeltern - Plural)?",
       "options": [
         "dein [veya mein]",
-        "mein",
+        "haben",
+        "hat",
         "meine"
       ],
-      "correct": 2
+      "correct": 3
     },
     {
       "type": "multiple-choice",
       "question": "_______________ Bruder (der Bruder) spielt sehr gut Basketball.",
       "options": [
-        "dein [veya mein]",
+        "bin",
+        "hat",
         "mein",
         "meine"
       ],
-      "correct": 1
+      "correct": 2
     },
     {
       "type": "multiple-choice",
       "question": "_______________ Schwester (die Schwester) lernt gerade intensiv Deutsch.",
       "options": [
-        "dein [veya mein]",
+        "hat",
+        "ist",
         "mein",
         "meine"
       ],
-      "correct": 2
+      "correct": 3
     },
     {
       "type": "multiple-choice",
       "question": "Ist das _______________ Onkel (der Onkel)? - Ja, das ist er.",
       "options": [
+        "bin",
         "dein [veya mein]",
-        "mein",
-        "meine"
+        "hat",
+        "mein"
       ],
-      "correct": 0
+      "correct": 1
     },
     {
       "type": "multiple-choice",
       "question": "_______________ Tante (die Tante) kocht heute eine leckere Suppe.",
       "options": [
-        "dein [veya mein]",
+        "bin",
+        "ist",
         "mein",
         "meine"
       ],
-      "correct": 2
+      "correct": 3
     },
     {
       "type": "sentence-builder",
@@ -4008,7 +3863,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Mein Vater ve meine Mutter sind meine _________.",
+      "question": "Mein Vater und meine Mutter sind meine _________.",
       "options": [
         "Großeltern",
         "Geschwister",
@@ -4044,7 +3899,8 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "das",
         "den",
-        "die"
+        "haben",
+        "ist"
       ],
       "correct": 1
     },
@@ -4052,19 +3908,21 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "(die Tasche)       Frau Alahmed sucht _______________ Tasche.",
       "options": [
-        "das",
-        "den",
-        "die"
+        "bin",
+        "die",
+        "haben",
+        "hat"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
       "type": "multiple-choice",
       "question": "(das Buch)         Herr Novak liest _______________ Buch.",
       "options": [
         "das",
-        "den",
-        "die"
+        "die",
+        "haben",
+        "hat"
       ],
       "correct": 0
     },
@@ -4072,9 +3930,10 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "(der Salat)        Ich esse _______________ Salat im Restaurant.",
       "options": [
-        "das",
+        "bin",
         "den",
-        "die"
+        "die",
+        "ist"
       ],
       "correct": 1
     },
@@ -4082,19 +3941,21 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "(die Banane)       Das Kind isst _______________ Banane.",
       "options": [
+        "bin",
         "das",
         "den",
         "die"
       ],
-      "correct": 2
+      "correct": 3
     },
     {
       "type": "multiple-choice",
       "question": "(das Fahrrad)      Herr Demir repariert _______________ Fahrrad.",
       "options": [
         "das",
-        "den",
-        "die"
+        "die",
+        "haben",
+        "ist"
       ],
       "correct": 0
     },
@@ -4395,19 +4256,21 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Ich glaube. Morgen regnet es.\n   -> Ich glaube, dass _________________________________________.",
       "options": [
+        "bin",
         "dass Berlin sehr groß ist",
         "dass es morgen regnet",
-        "dass seine Wohnungstür kaputt ist"
+        "haben"
       ],
-      "correct": 1
+      "correct": 2
     },
     {
       "type": "multiple-choice",
       "question": "Herr Demir sagt. Seine Wohnungstür ist kaputt.\n   -> Herr Demir sagt, dass ____________________________________.",
       "options": [
+        "bin",
         "dass Berlin sehr groß ist",
-        "dass es morgen regnet",
-        "dass seine Wohnungstür kaputt ist"
+        "dass seine Wohnungstür kaputt ist",
+        "hat"
       ],
       "correct": 2
     },
@@ -4416,8 +4279,9 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "Wir wissen. Berlin ist sehr groß.\n   -> Wir wissen, dass _________________________________________.",
       "options": [
         "dass Berlin sehr groß ist",
-        "dass es morgen regnet",
-        "dass seine Wohnungstür kaputt ist"
+        "dass seine Wohnungstür kaputt ist",
+        "haben",
+        "ist"
       ],
       "correct": 0
     },
@@ -4460,8 +4324,7 @@ const LESSON_QUIZZES_A1A2 = {
         "dich",
         "euch",
         "mich",
-        "sich",
-        "uns"
+        "sich"
       ],
       "correct": 2
     },
@@ -4469,13 +4332,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Der Arzt sagt zu Erhan: Sie müssen _______________ mehr bewegen!",
       "options": [
-        "dich",
         "euch",
         "mich",
         "sich",
         "uns"
       ],
-      "correct": 3
+      "correct": 2
     },
     {
       "type": "multiple-choice",
@@ -4483,7 +4345,6 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "dich",
         "euch",
-        "mich",
         "sich",
         "uns"
       ],
@@ -4495,11 +4356,10 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "dich",
         "euch",
-        "mich",
         "sich",
         "uns"
       ],
-      "correct": 4
+      "correct": 3
     },
     {
       "type": "multiple-choice",
@@ -4508,7 +4368,6 @@ const LESSON_QUIZZES_A1A2 = {
         "dich",
         "euch",
         "mich",
-        "sich",
         "uns"
       ],
       "correct": 1
@@ -4519,11 +4378,10 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "dich",
         "euch",
-        "mich",
         "sich",
         "uns"
       ],
-      "correct": 3
+      "correct": 2
     },
     {
       "type": "sentence-builder",
@@ -4626,67 +4484,105 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Ich warte seit einer Stunde _______________ den Bus. (warten)",
       "options": [
-        "an",
         "auf",
-        "mit"
+        "im",
+        "in",
+        "über"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
       "type": "multiple-choice",
       "question": "Morgen spreche ich _______________ meinem Chef über den Urlaub. (sprechen)",
       "options": [
-        "an",
-        "auf",
-        "mit"
-      ],
-      "correct": 2
-    },
-    {
-      "type": "multiple-choice",
-      "question": "Denkst du bazen _______________ deine Familie in der Türkei? (denken)",
-      "options": [
-        "an",
-        "auf",
-        "mit"
-      ],
-      "correct": 0
-    },
-    {
-      "type": "multiple-choice",
-      "question": "Erhan wartet _______________ seine Freundin vor dem Kino. (warten)",
-      "options": [
-        "an",
-        "auf",
-        "mit"
+        "ins",
+        "mit",
+        "nach",
+        "zur"
       ],
       "correct": 1
     },
     {
       "type": "multiple-choice",
-      "question": "Wir sprechen jeden Tag _______________ den neuen Nachbarn. (sprechen)",
+      "question": "Denkst du manchmal _______________ deine Familie in der Türkei? (denken)",
       "options": [
+        "am",
         "an",
+        "vom",
+        "zum"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Erhan wartet _______________ seine Freundin vor dem Kino. (warten)",
+      "options": [
+        "am",
+        "ans",
         "auf",
-        "mit"
+        "von"
       ],
       "correct": 2
     },
     {
       "type": "multiple-choice",
+      "question": "Wir sprechen jeden Tag _______________ den neuen Nachbarn. (sprechen)",
+      "options": [
+        "auf",
+        "mit",
+        "vom",
+        "zur"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple-choice",
       "question": "Ich bin traurig, aber ich denke _______________ dich. (denken)",
       "options": [
+        "am",
         "an",
-        "auf",
-        "mit"
+        "im",
+        "ins"
       ],
-      "correct": 0
+      "correct": 1
     },
     {
       "type": "multiple-choice",
       "question": "(du -> Akkusativ)    Ich warte auf _______________. Wo bist du?",
       "options": [
         "Lehrer",
+        "Mutter",
+        "dich",
+        "mich"
+      ],
+      "correct": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "(die Mutter -> Dativ)  Frau Alahmed spricht mit ihrer _______________.",
+      "options": [
+        "Mutter",
+        "Urlaub",
+        "dich",
+        "mich"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "(der Urlaub -> Akkusativ) Denkst du an den _______________ im Sommer?",
+      "options": [
+        "Lehrer",
+        "Mutter",
+        "Urlaub",
+        "mich"
+      ],
+      "correct": 2
+    },
+    {
+      "type": "multiple-choice",
+      "question": "(ich -> Akkusativ)     Denkst du an _______________? - Ja, jeden Tag.",
+      "options": [
         "Mutter",
         "Urlaub",
         "dich",
@@ -4696,47 +4592,10 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(die Mutter -> Dativ)  Frau Alahmed spricht mit ihrer _______________.",
-      "options": [
-        "Lehrer",
-        "Mutter",
-        "Urlaub",
-        "dich",
-        "mich"
-      ],
-      "correct": 1
-    },
-    {
-      "type": "multiple-choice",
-      "question": "(der Urlaub -> Akkusativ) Denkst du an den _______________ im Sommer?",
-      "options": [
-        "Lehrer",
-        "Mutter",
-        "Urlaub",
-        "dich",
-        "mich"
-      ],
-      "correct": 2
-    },
-    {
-      "type": "multiple-choice",
-      "question": "(ich -> Akkusativ)     Denkst du an _______________? - Ja, jeden Tag.",
-      "options": [
-        "Lehrer",
-        "Mutter",
-        "Urlaub",
-        "dich",
-        "mich"
-      ],
-      "correct": 4
-    },
-    {
-      "type": "multiple-choice",
       "question": "(der Lehrer -> Dativ)  Die Schüler sprechen mit dem _______________.",
       "options": [
         "Lehrer",
         "Mutter",
-        "Urlaub",
         "dich",
         "mich"
       ],
@@ -4754,7 +4613,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Herr Demir hat viel Arbeit, ama er denkt immer _________ seine Kinder.",
+      "question": "Herr Demir hat viel Arbeit, aber er denkt immer _________ seine Kinder.",
       "options": [
         "an",
         "auf",
@@ -4779,11 +4638,9 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "Herr Demir hat _______________ Dienstag um 10:00 Uhr einen Termin beim Bürgeramt.",
       "options": [
         "am",
-        "bin",
-        "haben",
-        "hat",
-        "im",
-        "ist"
+        "ans",
+        "nach",
+        "über"
       ],
       "correct": 0
     },
@@ -4791,25 +4648,21 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Wir machen _______________ August einen großen Urlaub in Spanien.",
       "options": [
-        "am",
-        "bin",
-        "haben",
-        "hat",
         "im",
-        "ist"
+        "ins",
+        "zum",
+        "über"
       ],
-      "correct": 4
+      "correct": 0
     },
     {
       "type": "multiple-choice",
       "question": "Was machst du _______________ Samstag? Spielst du Padel-Tennis?",
       "options": [
         "am",
-        "bin",
-        "haben",
-        "hat",
+        "auf",
         "im",
-        "ist"
+        "nach"
       ],
       "correct": 0
     },
@@ -4817,25 +4670,21 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Das neue Semester an der Schule beginnt _______________ September.",
       "options": [
-        "am",
-        "bin",
-        "haben",
-        "hat",
+        "bei",
         "im",
-        "ist"
+        "zu",
+        "zur"
       ],
-      "correct": 4
+      "correct": 1
     },
     {
       "type": "multiple-choice",
       "question": "Mein Vater feiert _______________ Sonntag seinen Geburtstag.",
       "options": [
         "am",
-        "bin",
-        "haben",
-        "hat",
         "im",
-        "ist"
+        "nach",
+        "zum"
       ],
       "correct": 0
     },
@@ -4843,14 +4692,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Es ist sehr kalt _______________ Dezember in Berlin.",
       "options": [
-        "am",
-        "bin",
-        "haben",
-        "hat",
+        "bei",
         "im",
-        "ist"
+        "zu",
+        "über"
       ],
-      "correct": 4
+      "correct": 1
     },
     {
       "type": "sentence-builder",
@@ -4940,19 +4787,6 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "- Hallo Ahmet! Wie geht's dir?\n   - Danke, es geht mir ____________________! (Müthiş / Harika hissediyorum)",
       "options": [
-        "Na ja",
-        "furchtbar",
-        "nicht so gut",
-        "sehr gut",
-        "super"
-      ],
-      "correct": 4
-    },
-    {
-      "type": "multiple-choice",
-      "question": "- Guten Tag, Frau Alahmed. Wie geht es Ihnen?\n   - Danke, es geht mir ____________________. (Çok iyi hissettiğini belirtiyor)",
-      "options": [
-        "Na ja",
         "furchtbar",
         "nicht so gut",
         "sehr gut",
@@ -4962,21 +4796,8 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "- Wie geht's dir, Lukas?\n   - ____________________, es geht. Ich habe viel Arbeit. (İdare eder, eh işte)",
+      "question": "- Guten Tag, Frau Alahmed. Wie geht es Ihnen?\n   - Danke, es geht mir ____________________. (Çok iyi hissettiğini belirtiyor)",
       "options": [
-        "Na ja",
-        "furchtbar",
-        "nicht so gut",
-        "sehr gut",
-        "super"
-      ],
-      "correct": 0
-    },
-    {
-      "type": "multiple-choice",
-      "question": "- Was ist los, Begi? Wie geht's?\n   - Es geht mir ____________________. Ich bin krank und habe Kopfschmerzen. (O kadar iyi değil, iyi değil)",
-      "options": [
-        "Na ja",
         "furchtbar",
         "nicht so gut",
         "sehr gut",
@@ -4986,15 +4807,36 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "- Hallo Erhan, wie geht es dir heute?\n   - Es geht mir ____________________. Ich habe meine Wohnungstür blockiert! (Berbat hissediyor)",
+      "question": "- Wie geht's dir, Lukas?\n   - ____________________, es geht. Ich habe viel Arbeit. (İdare eder, eh işte)",
       "options": [
         "Na ja",
         "furchtbar",
+        "nicht so gut",
+        "super"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "- Was ist los, Begi? Wie geht's?\n   - Es geht mir ____________________. Ich bin krank und habe Kopfschmerzen. (O kadar iyi değil, iyi değil)",
+      "options": [
+        "Na ja",
         "nicht so gut",
         "sehr gut",
         "super"
       ],
       "correct": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "- Hallo Erhan, wie geht es dir heute?\n   - Es geht mir ____________________. Ich habe meine Wohnungstür blockiert! (Berbat hissediyor)",
+      "options": [
+        "furchtbar",
+        "nicht so gut",
+        "sehr gut",
+        "super"
+      ],
+      "correct": 0
     },
     {
       "type": "sentence-builder",
@@ -5077,12 +4919,11 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "Ich bin müde. Ich _______________ jetzt gerne im Bett. (olmak dilediği yer)",
       "options": [
         "Würdest",
-        "hätte",
         "wäre",
         "würde",
         "würden"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
       "type": "multiple-choice",
@@ -5090,11 +4931,10 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "Würdest",
         "hätte",
-        "wäre",
         "würde",
         "würden"
       ],
-      "correct": 3
+      "correct": 2
     },
     {
       "type": "multiple-choice",
@@ -5103,7 +4943,6 @@ const LESSON_QUIZZES_A1A2 = {
         "Würdest",
         "hätte",
         "wäre",
-        "würde",
         "würden"
       ],
       "correct": 1
@@ -5115,10 +4954,9 @@ const LESSON_QUIZZES_A1A2 = {
         "Würdest",
         "hätte",
         "wäre",
-        "würde",
         "würden"
       ],
-      "correct": 4
+      "correct": 3
     },
     {
       "type": "multiple-choice",
@@ -5127,7 +4965,6 @@ const LESSON_QUIZZES_A1A2 = {
         "Würdest",
         "hätte",
         "wäre",
-        "würde",
         "würden"
       ],
       "correct": 2
@@ -5139,8 +4976,7 @@ const LESSON_QUIZZES_A1A2 = {
         "Würdest",
         "hätte",
         "wäre",
-        "würde",
-        "würden"
+        "würde"
       ],
       "correct": 0
     },
@@ -5310,18 +5146,20 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Ich _______________ Gitarre spielen. Und was kannst du?",
       "options": [
-        "Könnt",
         "kann",
-        "können"
+        "kannst",
+        "können",
+        "könnt"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
       "type": "multiple-choice",
       "question": "Hallo Kinder! _______________ ihr heute im Park Basketball spielen?",
       "options": [
         "Könnt",
-        "kann",
+        "haben",
+        "ist",
         "können"
       ],
       "correct": 0
@@ -5330,19 +5168,21 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Herr Novak _______________ sehr gut Python programmieren.",
       "options": [
-        "Könnt",
         "kann",
-        "können"
+        "kannst",
+        "können",
+        "könnt"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
       "type": "multiple-choice",
       "question": "Wir _______________ heute nicht kommen, weil wir viel Arbeit haben.",
       "options": [
-        "Könnt",
         "kann",
-        "können"
+        "kannst",
+        "können",
+        "könnt"
       ],
       "correct": 2
     },
@@ -5350,11 +5190,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Das Kind _______________ schon alleine Fahrrad fahren.",
       "options": [
-        "Könnt",
         "kann",
-        "können"
+        "kannst",
+        "können",
+        "könnt"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
       "type": "multiple-choice",
@@ -5395,8 +5236,7 @@ const LESSON_QUIZZES_A1A2 = {
         "Anwältin",
         "Köchin",
         "Lehrerin",
-        "Verkäuferin",
-        "Ärztin"
+        "Verkäuferin"
       ],
       "correct": 3
     },
@@ -5406,23 +5246,21 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "Anwältin",
         "Köchin",
-        "Lehrerin",
         "Verkäuferin",
         "Ärztin"
       ],
-      "correct": 4
+      "correct": 3
     },
     {
       "type": "multiple-choice",
       "question": "(der Lehrer)      Meine Tante ist _______________________ von Beruf.",
       "options": [
-        "Anwältin",
         "Köchin",
         "Lehrerin",
         "Verkäuferin",
         "Ärztin"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
       "type": "multiple-choice",
@@ -5430,7 +5268,6 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "Anwältin",
         "Köchin",
-        "Lehrerin",
         "Verkäuferin",
         "Ärztin"
       ],
@@ -5443,8 +5280,7 @@ const LESSON_QUIZZES_A1A2 = {
         "Anwältin",
         "Köchin",
         "Lehrerin",
-        "Verkäuferin",
-        "Ärztin"
+        "Verkäuferin"
       ],
       "correct": 0
     },
@@ -5483,22 +5319,20 @@ const LESSON_QUIZZES_A1A2 = {
         "Erhan arbeitet als Krankenpfleger im Krankenhaus",
         "Was machen Sie beruflich?",
         "als",
-        "beruflich",
         "bin"
       ],
-      "correct": 4
+      "correct": 3
     },
     {
       "type": "multiple-choice",
       "question": "Herr Demir arbeitet _______________ Verkäufer in einem Autohaus.",
       "options": [
-        "Erhan arbeitet als Krankenpfleger im Krankenhaus",
         "Was machen Sie beruflich?",
         "als",
         "beruflich",
         "bin"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
       "type": "multiple-choice",
@@ -5506,11 +5340,10 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "Erhan arbeitet als Krankenpfleger im Krankenhaus",
         "Was machen Sie beruflich?",
-        "als",
         "beruflich",
         "bin"
       ],
-      "correct": 3
+      "correct": 2
     },
     {
       "type": "multiple-choice",
@@ -5617,19 +5450,21 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Ich bin im Café. Ich _______________ ein Glas Wasser trinken, bitte.",
       "options": [
-        "Möchtet",
         "möchte",
-        "möchten"
+        "möchten",
+        "möchtest",
+        "möchtet"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
       "type": "multiple-choice",
       "question": "Hallo Kinder! _______________ ihr heute Nachmittag im Park Basketball spielen?",
       "options": [
         "Möchtet",
-        "möchte",
-        "möchten"
+        "haben",
+        "hat",
+        "möchte"
       ],
       "correct": 0
     },
@@ -5637,31 +5472,34 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Frau Alahmed _______________ einen Termin beim Arzt machen.",
       "options": [
-        "Möchtet",
         "möchte",
-        "möchten"
+        "möchten",
+        "möchtest",
+        "möchtet"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
       "type": "multiple-choice",
       "question": "Wir _______________ heute Abend am Strand spazieren gehen.",
       "options": [
-        "Möchtet",
         "möchte",
-        "möchten"
+        "möchten",
+        "möchtest",
+        "möchtet"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
       "type": "multiple-choice",
       "question": "Was _______________ Sie trinken, Herr Demir? (Kibar hitap)",
       "options": [
-        "Möchtet",
         "möchte",
-        "möchten"
+        "möchten",
+        "möchtest",
+        "möchtet"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
       "type": "multiple-choice",
@@ -5912,7 +5750,8 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "deshalb geht er nicht im Restaurant essen",
         "deswegen liest sie jeden Tag Anzeigen",
-        "deswegen ruft Herr Demir bei der Post an"
+        "deswegen ruft Herr Demir bei der Post an",
+        "ist"
       ],
       "correct": 1
     },
@@ -5920,21 +5759,23 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Herr Novak hat kein Geld. Er geht nicht im Restaurant essen.\n   -> Herr Novak hat kein Geld, deshalb ________________________.",
       "options": [
+        "bin",
         "deshalb geht er nicht im Restaurant essen",
-        "deswegen liest sie jeden Tag Anzeigen",
-        "deswegen ruft Herr Demir bei der Post an"
+        "deswegen ruft Herr Demir bei der Post an",
+        "hat"
       ],
-      "correct": 0
+      "correct": 1
     },
     {
       "type": "multiple-choice",
       "question": "Das Paket ist weg. Herr Demir ruft bei der Post an.\n   -> Das Paket ist weg, deswegen ______________________________.",
       "options": [
-        "deshalb geht er nicht im Restaurant essen",
         "deswegen liest sie jeden Tag Anzeigen",
-        "deswegen ruft Herr Demir bei der Post an"
+        "deswegen ruft Herr Demir bei der Post an",
+        "hat",
+        "ist"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
       "type": "multiple-choice",
@@ -6041,31 +5882,34 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Frau Alahmed fragt. Ist die Wohnung noch frei?\n   -> Frau Alahmed fragt, ob __________________________________.",
       "options": [
+        "hat",
         "ob Herr Novak einen Laptop hat",
         "ob der Handwerker morgen kommt",
         "ob die Wohnung noch frei ist"
       ],
-      "correct": 2
+      "correct": 3
     },
     {
       "type": "multiple-choice",
       "question": "Ich kann nicht sagen. Kommt der Handwerker morgen?\n   -> Ich kann nicht sagen, ob ________________________________.",
       "options": [
+        "hat",
+        "ist",
         "ob Herr Novak einen Laptop hat",
-        "ob der Handwerker morgen kommt",
-        "ob die Wohnung noch frei ist"
+        "ob der Handwerker morgen kommt"
       ],
-      "correct": 1
+      "correct": 3
     },
     {
       "type": "multiple-choice",
       "question": "Wir wissen nicht. Hat Herr Novak einen Laptop?\n   -> Wir wissen nicht, ob ____________________________________.",
       "options": [
+        "ist",
         "ob Herr Novak einen Laptop hat",
         "ob der Handwerker morgen kommt",
         "ob die Wohnung noch frei ist"
       ],
-      "correct": 0
+      "correct": 1
     },
     {
       "type": "multiple-choice",
@@ -6104,28 +5948,31 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "Ich spiele jetzt Padel-Tennis im Park. \n   -> Anlamı: __________________________________________________",
       "options": [
         "Gelecek Zaman",
-        "Geniş Zaman",
+        "hat",
+        "ist",
         "Şimdiki Zaman"
       ],
-      "correct": 2
+      "correct": 3
     },
     {
       "type": "multiple-choice",
       "question": "Erhan spielt jeden Samstag Basketball.\n   -> Anlamı: __________________________________________________",
       "options": [
-        "Gelecek Zaman",
         "Geniş Zaman",
+        "bin",
+        "hat",
         "Şimdiki Zaman"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
       "type": "multiple-choice",
       "question": "Morgen spielt meine Tante Tennis in Berlin.\n   -> Anlamı: __________________________________________________",
       "options": [
         "Gelecek Zaman",
-        "Geniş Zaman",
-        "Şimdiki Zaman"
+        "bin",
+        "hat",
+        "ist"
       ],
       "correct": 0
     },
@@ -6134,10 +5981,11 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "Herr Novak kocht gerade eine leckere Suppe.\n   -> Anlamı: __________________________________________________",
       "options": [
         "Gelecek Zaman",
-        "Geniş Zaman",
+        "bin",
+        "ist",
         "Şimdiki Zaman"
       ],
-      "correct": 2
+      "correct": 3
     },
     {
       "type": "multiple-choice",
@@ -6145,7 +5993,8 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "Gelecek Zaman",
         "Geniş Zaman",
-        "Şimdiki Zaman"
+        "haben",
+        "hat"
       ],
       "correct": 0
     },
@@ -6229,7 +6078,7 @@ const LESSON_QUIZZES_A1A2 = {
   "prateritum": [
     {
       "type": "multiple-choice",
-      "question": "(ich -> idim)       Letzte Woche _______________ ich krank ve lag im Bett.",
+      "question": "(ich -> idim)       Letzte Woche _______________ ich krank und lag im Bett.",
       "options": [
         "hatte",
         "hattest",
@@ -6251,7 +6100,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(wir -> idik)       Am Samstag _______________ wir im Park ve haben Padel-Tennis gespielt.",
+      "question": "(wir -> idik)       Am Samstag _______________ wir im Park und haben Padel-Tennis gespielt.",
       "options": [
         "hatte",
         "hattest",
@@ -6262,7 +6111,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(du -> sahiptin)    Hattest du am Wochenende Zeit veya _______________ du çok işin?",
+      "question": "(du -> sahiptin)    Hattest du am Wochenende Zeit oder _______________ du viel Arbeit?",
       "options": [
         "hatte",
         "hattest",
@@ -6284,7 +6133,7 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(ich -> sahiptim)   Ich _______________ früher ein schönes Fahrrad, ama es ist jetzt kaputt.",
+      "question": "(ich -> sahiptim)   Ich _______________ früher ein schönes Fahrrad, aber es ist jetzt kaputt.",
       "options": [
         "hatte",
         "hattest",
@@ -6395,58 +6244,42 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "(09:00 - Tam Saat)    Es ist _________________________________________.",
       "options": [
         "Viertel nach neun",
-        "Viertel vor zehn",
-        "halb sechs",
-        "halb zwölf",
         "neun Uhr",
-        "siebzehn Uhr",
         "zehn nach sieben",
         "zehn vor elf"
       ],
-      "correct": 4
+      "correct": 1
     },
     {
       "type": "multiple-choice",
       "question": "(19:10 - Geçiyor)     Es ist _________________________________________.",
       "options": [
-        "Viertel nach neun",
         "Viertel vor zehn",
-        "halb sechs",
         "halb zwölf",
-        "neun Uhr",
-        "siebzehn Uhr",
         "zehn nach sieben",
         "zehn vor elf"
       ],
-      "correct": 6
+      "correct": 2
     },
     {
       "type": "multiple-choice",
       "question": "(22:50 - Var)         Es ist _________________________________________.",
       "options": [
-        "Viertel nach neun",
         "Viertel vor zehn",
-        "halb sechs",
-        "halb zwölf",
-        "neun Uhr",
         "siebzehn Uhr",
         "zehn nach sieben",
         "zehn vor elf"
       ],
-      "correct": 7
+      "correct": 3
     },
     {
       "type": "multiple-choice",
       "question": "(09:15 - Çeyrek Geç)  Es ist _________________________________________.",
       "options": [
         "Viertel nach neun",
-        "Viertel vor zehn",
-        "halb sechs",
         "halb zwölf",
         "neun Uhr",
-        "siebzehn Uhr",
-        "zehn nach sieben",
-        "zehn vor elf"
+        "zehn nach sieben"
       ],
       "correct": 0
     },
@@ -6456,12 +6289,8 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "Viertel nach neun",
         "Viertel vor zehn",
-        "halb sechs",
-        "halb zwölf",
         "neun Uhr",
-        "siebzehn Uhr",
-        "zehn nach sieben",
-        "zehn vor elf"
+        "zehn nach sieben"
       ],
       "correct": 1
     },
@@ -6470,45 +6299,33 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "(11:30 - Buçuk)       Es ist _________________________________________.",
       "options": [
         "Viertel nach neun",
-        "Viertel vor zehn",
-        "halb sechs",
         "halb zwölf",
         "neun Uhr",
-        "siebzehn Uhr",
-        "zehn nach sieben",
-        "zehn vor elf"
+        "zehn nach sieben"
       ],
-      "correct": 3
+      "correct": 1
     },
     {
       "type": "multiple-choice",
       "question": "(05:30 - Buçuk)       Es ist _________________________________________.",
       "options": [
-        "Viertel nach neun",
         "Viertel vor zehn",
         "halb sechs",
-        "halb zwölf",
         "neun Uhr",
-        "siebzehn Uhr",
-        "zehn nach sieben",
         "zehn vor elf"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
       "type": "multiple-choice",
       "question": "(17:00 - Resmi/Sokak) Es ist _________________________________________.",
       "options": [
         "Viertel nach neun",
-        "Viertel vor zehn",
-        "halb sechs",
         "halb zwölf",
-        "neun Uhr",
         "siebzehn Uhr",
-        "zehn nach sieben",
-        "zehn vor elf"
+        "zehn nach sieben"
       ],
-      "correct": 5
+      "correct": 2
     },
     {
       "type": "multiple-choice",
@@ -6604,17 +6421,8 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Ich habe keine Zeit. Trotzdem komme ich am Samstag. [cite: 141]\n   -> Ich habe keine Zeit. Ich _________________________________.",
       "options": [
-        "fahren trotzdem nach Berlin",
-        "komme trotzdem am Samstag",
-        "ruft trotzdem nicht bei der Post an"
-      ],
-      "correct": 1
-    },
-    {
-      "type": "multiple-choice",
-      "question": "Das Paket ist weg. Trotzdem ruft Herr Demir nicht bei der Post an. [cite: 141]\n   -> Das Paket ist weg. Herr Demir ____________________________.",
-      "options": [
-        "fahren trotzdem nach Berlin",
+        "bin",
+        "hat",
         "komme trotzdem am Samstag",
         "ruft trotzdem nicht bei der Post an"
       ],
@@ -6622,13 +6430,25 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "Es regnet. Trotzdem fahren wir nach Berlin. [cite: 141]\n   -> Es regnet. Wir ___________________________________________.",
+      "question": "Das Paket ist weg. Trotzdem ruft Herr Demir nicht bei der Post an. [cite: 141]\n   -> Das Paket ist weg. Herr Demir ____________________________.",
       "options": [
-        "fahren trotzdem nach Berlin",
+        "bin",
+        "ist",
         "komme trotzdem am Samstag",
         "ruft trotzdem nicht bei der Post an"
       ],
-      "correct": 0
+      "correct": 3
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Es regnet. Trotzdem fahren wir nach Berlin. [cite: 141]\n   -> Es regnet. Wir ___________________________________________.",
+      "options": [
+        "bin",
+        "fahren trotzdem nach Berlin",
+        "ist",
+        "komme trotzdem am Samstag"
+      ],
+      "correct": 1
     },
     {
       "type": "multiple-choice",
@@ -6796,19 +6616,21 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Ich bin müde. Ich gehe jetzt ____________________ Hause. (İstisna kalıp)",
       "options": [
-        "in",
-        "nach",
-        "zu"
+        "für",
+        "im",
+        "ins",
+        "nach"
       ],
-      "correct": 1
+      "correct": 3
     },
     {
       "type": "multiple-choice",
       "question": "Wir fliegen im Sommer ____________________ Hamburg. (Şehir)",
       "options": [
-        "in",
+        "ins",
         "nach",
-        "zu"
+        "zu",
+        "zum"
       ],
       "correct": 1
     },
@@ -6816,31 +6638,34 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "Herr Novak ist krank. Er geht heute ____________________ Arzt. (Kişi/Kurum)",
       "options": [
-        "in",
-        "nach",
-        "zu"
+        "auf",
+        "im",
+        "zu",
+        "zum"
       ],
       "correct": 2
     },
     {
       "type": "multiple-choice",
-      "question": "Das Kind geht ____________________ Park ve spielt Basketball. (İçine giriyor)",
+      "question": "Das Kind geht ____________________ Park und spielt Basketball. (İçine giriyor)",
       "options": [
+        "auf",
+        "bei",
         "in",
-        "nach",
-        "zu"
+        "zum"
       ],
-      "correct": 0
+      "correct": 2
     },
     {
       "type": "multiple-choice",
       "question": "Morgen fahre ich mit dem Zug ____________________ München. (Şehir)",
       "options": [
-        "in",
         "nach",
-        "zu"
+        "vom",
+        "zum",
+        "über"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
       "type": "multiple-choice",
@@ -6848,7 +6673,8 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "in",
         "nach",
-        "zu"
+        "von",
+        "zur"
       ],
       "correct": 0
     },
@@ -6856,27 +6682,23 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "(in / der Park)         Wir gehen heute Nachmittag _______________ Park.",
       "options": [
-        "an der  vorbei",
         "in den",
         "in die",
-        "ins",
         "zum",
         "zur"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
       "type": "multiple-choice",
       "question": "(zu / der Bahnhof)      Wie kann ich _______________ Bahnhof gehen?",
       "options": [
         "an der  vorbei",
-        "in den",
         "in die",
         "ins",
-        "zum",
-        "zur"
+        "zum"
       ],
-      "correct": 4
+      "correct": 3
     },
     {
       "type": "multiple-choice",
@@ -6885,6 +6707,15 @@ const LESSON_QUIZZES_A1A2 = {
         "an der  vorbei",
         "in den",
         "in die",
+        "ins"
+      ],
+      "correct": 3
+    },
+    {
+      "type": "multiple-choice",
+      "question": "(zu / die Post)         Herr Demir bringt das Paket _______________ Post.",
+      "options": [
+        "in den",
         "ins",
         "zum",
         "zur"
@@ -6893,24 +6724,20 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(zu / die Post)         Herr Demir bringt das Paket _______________ Post.",
-      "options": [
-        "an der  vorbei",
-        "in den",
-        "in die",
-        "ins",
-        "zum",
-        "zur"
-      ],
-      "correct": 5
-    },
-    {
-      "type": "multiple-choice",
       "question": "(in / die Galerie)      Frau Alahmed geht _______________ Galerie.",
       "options": [
         "an der  vorbei",
-        "in den",
         "in die",
+        "ins",
+        "zum"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "(zu / das Stadion)      Die Kinder gehen am Samstag _______________ Stadion.",
+      "options": [
+        "an der  vorbei",
         "ins",
         "zum",
         "zur"
@@ -6919,28 +6746,12 @@ const LESSON_QUIZZES_A1A2 = {
     },
     {
       "type": "multiple-choice",
-      "question": "(zu / das Stadion)      Die Kinder gehen am Samstag _______________ Stadion.",
-      "options": [
-        "an der  vorbei",
-        "in den",
-        "in die",
-        "ins",
-        "zum",
-        "zur"
-      ],
-      "correct": 4
-    },
-    {
-      "type": "multiple-choice",
       "question": "(an / die Schule)       Gehen Sie _______________ Schule ____________________. (Uğramadan geçin)",
       "options": [
         "an der  vorbei",
         "an der ... vorbei",
         "in den",
-        "in die",
-        "ins",
-        "zum",
-        "zur"
+        "zum"
       ],
       "correct": 1
     },
@@ -7068,12 +6879,11 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "Der Schnee ist ____________________.",
       "options": [
         "blau",
-        "gelb",
         "grün",
         "rot",
         "weiß"
       ],
-      "correct": 4
+      "correct": 3
     },
     {
       "type": "multiple-choice",
@@ -7081,7 +6891,6 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "blau",
         "gelb",
-        "grün",
         "rot",
         "weiß"
       ],
@@ -7092,7 +6901,6 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "Der Himmel ist ____________________.",
       "options": [
         "blau",
-        "gelb",
         "grün",
         "rot",
         "weiß"
@@ -7105,11 +6913,10 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "blau",
         "gelb",
-        "grün",
         "rot",
         "weiß"
       ],
-      "correct": 3
+      "correct": 2
     },
     {
       "type": "multiple-choice",
@@ -7118,7 +6925,6 @@ const LESSON_QUIZZES_A1A2 = {
         "blau",
         "gelb",
         "grün",
-        "rot",
         "weiß"
       ],
       "correct": 2
@@ -7129,8 +6935,6 @@ const LESSON_QUIZZES_A1A2 = {
       "options": [
         "bin",
         "der",
-        "die",
-        "haben",
         "hat",
         "ist"
       ],
@@ -7141,13 +6945,11 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "_______________ Banane ist gelb.",
       "options": [
         "bin",
-        "der",
         "die",
         "haben",
-        "hat",
-        "ist"
+        "hat"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
       "type": "multiple-choice",
@@ -7156,9 +6958,7 @@ const LESSON_QUIZZES_A1A2 = {
         "bin",
         "der",
         "die",
-        "haben",
-        "hat",
-        "ist"
+        "hat"
       ],
       "correct": 1
     },
@@ -7166,14 +6966,12 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "_______________ Orange ist orange.",
       "options": [
-        "bin",
-        "der",
         "die",
         "haben",
         "hat",
         "ist"
       ],
-      "correct": 2
+      "correct": 0
     },
     {
       "type": "multiple-choice",
@@ -7182,8 +6980,6 @@ const LESSON_QUIZZES_A1A2 = {
         "bin",
         "der",
         "die",
-        "haben",
-        "hat",
         "ist"
       ],
       "correct": 2
@@ -7195,8 +6991,6 @@ const LESSON_QUIZZES_A1A2 = {
         "bin",
         "der",
         "die",
-        "haben",
-        "hat",
         "ist"
       ],
       "correct": 2
@@ -7205,29 +6999,32 @@ const LESSON_QUIZZES_A1A2 = {
       "type": "multiple-choice",
       "question": "(Deutschland)   Herr Novak kommt ____________________ Deutschland.",
       "options": [
+        "am",
         "aus",
-        "aus dem",
-        "aus der"
+        "ins",
+        "nach"
       ],
-      "correct": 0
+      "correct": 1
     },
     {
       "type": "multiple-choice",
       "question": "(die Türkei)    Ahmet kommt ____________________ Türkei. O İstanbul'da doğdu.",
       "options": [
         "aus",
-        "aus dem",
-        "aus der"
+        "aus der",
+        "haben",
+        "ist"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
       "type": "multiple-choice",
       "question": "(Italien)       Wir machen Urlaub in Rom. Meine Freundin kommt ____________________ Italien.",
       "options": [
         "aus",
-        "aus dem",
-        "aus der"
+        "bei",
+        "im",
+        "zum"
       ],
       "correct": 0
     },
@@ -7236,20 +7033,22 @@ const LESSON_QUIZZES_A1A2 = {
       "question": "(die Schweiz)   Frau Alahmed arbeitet in Zürich. Sie kommt ____________________ Schweiz.",
       "options": [
         "aus",
-        "aus dem",
-        "aus der"
+        "aus der",
+        "bin",
+        "haben"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
       "type": "multiple-choice",
       "question": "(der Iran)      Arash wohnt in Berlin, aber er kommt ____________________ Iran.",
       "options": [
-        "aus",
         "aus dem",
-        "aus der"
+        "bin",
+        "haben",
+        "ist"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
       "type": "multiple-choice",

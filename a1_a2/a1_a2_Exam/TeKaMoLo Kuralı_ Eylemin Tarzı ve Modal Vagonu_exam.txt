@@ -27,12 +27,28 @@ Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie auf das sarsılm
 
 
 ÜBUNG 2: TeKaMoLo Vagonlarını Ayırma (T, K yoksa direkt M mi?)
-Okuyun ve altı çizili kelimelerin TeKaMoLo formülündeki hangi basamağa (T - Temporal, K - Kausal, M - Modal, L - Lokal) ait olduğunu parantez içine yazın.
+ÜBUNG 2: TeKaMoLo Basamaklarını Belirleme
+Hangi seçenek TeKaMoLo kuralına göre basamakları doğru tanımlamaktadır?
 
-1. Ich fahre [morgen] (_____) [schnell] (_____) [nach Hamburg] (_____).
-2. Frau Alahmed lernt [jeden Tag] (_____) [wegen der telc-Prüfung] (_____) [fleißig] (_____) zu Hause.
-3. Ahmet kommt [heute] (_____) [zu spät] (_____) [zum Deutschkurs] (_____).
-4. Wir spielen [am Samstag] (_____) [im Park] (_____). (Sebep ve tarz yok, K ve M adımları atlanmış!)
+1. Ich fahre [morgen] [schnell] [nach Hamburg].
+   [ ] A) morgen (M) - schnell (T) - nach Hamburg (L)
+   [ ] B) morgen (T) - schnell (M) - nach Hamburg (L)
+   [ ] C) morgen (L) - schnell (M) - nach Hamburg (T)
+
+2. Frau Alahmed lernt [jeden Tag] [wegen der telc-Prüfung] [fleißig] zu Hause.
+   [ ] A) jeden Tag (T) - wegen der telc-Prüfung (K) - fleißig (M)
+   [ ] B) jeden Tag (K) - wegen der telc-Prüfung (T) - fleißig (M)
+   [ ] C) jeden Tag (T) - wegen der telc-Prüfung (M) - fleißig (K)
+
+3. Ahmet kommt [heute] [zu spät] [zum Deutschkurs].
+   [ ] A) heute (M) - zu spät (T) - zum Deutschkurs (L)
+   [ ] B) heute (T) - zu spät (L) - zum Deutschkurs (M)
+   [ ] C) heute (T) - zu spät (M) - zum Deutschkurs (L)
+
+4. Wir spielen [am Samstag] [im Park].
+   [ ] A) am Samstag (T) - im Park (L)
+   [ ] B) am Samstag (L) - im Park (T)
+   [ ] C) am Samstag (T) - im Park (K)
 
 
 ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
@@ -65,10 +81,10 @@ LÖSUNGEN (CEVAP ANAHTARI)
 4. Herr Novak fährt sehr langsam nach Berlin. (TeKaMoLo: tarz bildiren 'sehr langsam' [M], yer bildiren 'nach Berlin' [L] kelimesinden önce gelir.)
 
 ÜBUNG 2:
-1. morgen (T - Temporal) | schnell (M - Modal) | nach Hamburg (L - Lokal)
-2. jeden Tag (T - Temporal) | wegen der telc-Prüfung (K - Kausal) | fleißig (M - Modal) | zu Hause (L - Lokal)
-3. heute (T - Temporal) | zu spät (M - Modal) | zum Deutschkurs (L - Lokal)
-4. am Samstag (T - Temporal) | im Park (L - Lokal) (Kılavuza göre bir sebep veya tarz yoksa o vagonlar trenden rahatça düşürülür.)
+1. B - "morgen" zaman (Temporal - T), "schnell" tarz (Modal - M) ve "nach Hamburg" konum (Lokal - L) bildirir.
+2. A - "jeden Tag" zaman (T), "wegen der telc-Prüfung" sebep (Kausal - K) ve "fleißig" tarz (M) bildirir.
+3. C - "heute" zaman (T), "zu spät" tarz (M) ve "zum Deutschkurs" yön/mekan (L) bildirir.
+4. A - "am Samstag" zaman (T) ve "im Park" konum (L) bildirir.
 
 ÜBUNG 3:
 1. A - Zaman zarfı "heute" (T) önde, tarz bildiren "zu spät" (M) ortada ve yön/mekan bildiren "ins Büro" (L) en sonda yer alarak kusursuz bir T-M-L dizilimi oluşturur.

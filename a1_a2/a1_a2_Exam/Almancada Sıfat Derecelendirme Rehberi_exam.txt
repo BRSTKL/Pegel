@@ -30,17 +30,17 @@ KURAL HATIRLATMASI VE ALTIN FORMÜLLER:
 
 4. Ich bin 1,80 m. Mein Bruder ist 1,85 m. Mein Bruder ist größer ____________________ ich.
 
-5. Dieses Auto ist teuer, ama jene Tasche ist ____________________ teuersten.
+5. Dieses Auto ist teuer, aber jene Tasche ist ____________________ teuersten.
 
 
 ÜBUNG 2: Sıfatları Derecelendirin (Komp. ve Superlativ Formları)
 Schreiben Sie die richtige Form des Adjektivs in Klammern. Achten Sie auf Umlaut-Asiler ve Kökten Değişenler!
 
-1. (gut)        Ich trinke Kaffee, ama çay trinken ist ____________________.
+1. (gut)        Ich trinke Kaffee, aber Tee trinken ist ____________________.
 2. (gern)       Ich spiele Basketball, aber ich spiele Padel-Tennis ____________________ liebsten.
 3. (kurz)       Im Februar sind die Tage ____________________ als im Juli.
 4. (gut)        Herr Novak programmiert Python gut, aber er programmiert in SQL ____________________ besten.
-5. (stark)      Mein Vater ist stark, ama mein Opa ist ____________________ stärksten.
+5. (stark)      Mein Vater ist stark, aber mein Opa ist ____________________ stärksten.
 
 
 ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
@@ -51,7 +51,7 @@ Welcher Satz ist grammatikalisch richtig? Kreuzen Sie an (A, B oder C).
    [ ] B) lieber
    [ ] C) am liebsten
 
-2. Mein Laptop ist alt, ama der Laptop von Herr Demir ist noch _________ als mein Laptop.
+2. Mein Laptop ist alt, aber der Laptop von Herr Demir ist noch _________ als mein Laptop.
    [ ] A) älter
    [ ] B) alter
    [ ] C) am ältesten
