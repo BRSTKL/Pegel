@@ -1,0 +1,82 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: MODALVERB "MÜSSEN" (ZORUNDALIK / MECBURİYET)
+========================================================================
+
+KURAL HATIRLATMASI (A1-A2 SEVİYESİ):
+1. Anlamı: "müssen" bir şeyi yapmak zorunda olmayı, mecburiyeti belirtir.
+2. Cümle Yapısı: Özneye göre çekimlenen "müssen" fiili 2. sıradadır. Asıl eylem cümlenin EN SONUNDA mastar (Infinitiv) halde bulunur.
+3. Çekim Kuralı: "ich" und "er/sie/es" çekimleri aynıdır!
+4. Soru Sorarken: Çekimli fiil 1. sıraya gelir, asıl eylem yine en sonda kalır.
+
+Müssen Çekimi:
+ich muss       | wir müssen
+du musst      | ihr müsst
+er/sie/es muss | sie/Sie müssen
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Sätze bauen mit "müssen" (Cümle Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie auf die Positionen: "müssen" auf Position 2, das Hauptverb ganz am Ende!
+
+1. fleißig / ich / Deutsch / lernen / muss .
+   _____________________________________________________________
+
+2. nach Hause / gehen / muss / sie / jetzt ? (Achtung: Frage!)
+   _____________________________________________________________
+
+3. im Büro / Herr Novak / arbeiten / muss / heute .
+   _____________________________________________________________
+
+4. am Samstag / wir / machen / eine Pause / müssen .
+   _____________________________________________________________
+
+
+ÜBUNG 2: Verbformen ergänzen (Fiil Çekimini Tamamlama)
+Ergänzen Sie die richtige Form von "müssen" im Präsens.
+
+1. Ich bin müde, aber ich _______________ heute noch lange im Büro arbeiten.
+2. Hallo Kinder! Ihr _______________ jetzt die Hausaufgaben machen.
+3. Frau Alahmed _______________ zum Arzt gehen, weil sie Halsschmerzen hat.
+4. Wir _______________ fleißig Deutsch lernen für die telc-Prüfung.
+5. _______________ Sie das Paket heute schicken, Herr Demir? (Kibar hitap)
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welcher Satz ist grammatikalisch richtig? Kreuzen Sie an (A, B oder C).
+
+1. - Warum gehst du nicht im Park spazieren? - Ich _________ heute arbeiten.
+   [ ] A) muss
+   [ ] B) musst
+   [ ] C) müssen
+
+2. [ ] A) Morgen ich muss nach Berlin fahren.
+   [ ] B) Morgen muss ich nach Berlin fahren.
+   [ ] C) Morgen muss ich fahren nach Berlin.
+
+3. Erhan _________ heute zu Hause bleiben, weil das Paket kommt.
+   [ ] A) müsst
+   [ ] B) muss
+   [ ] C) musst
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. Ich muss fleißig Deutsch lernen. / Fleißig Deutsch lernen muss ich. (Zaman veya derece belirteci ortada veya başta yer alabilir, 'lernen' en sondadır.)
+2. Muss sie jetzt nach Hause gehen? (Soru cümlesi olduğu için çekimli fiil 1. sıradadır.)
+3. Herr Novak muss heute im Büro arbeiten. / Heute muss Herr Novak im Büro arbeiten. (Herr Novak -> er/sie/es çekimi olan 'muss' gelir.)
+4. Wir müssen am Samstag eine Pausa machen. (TeKaMoLo sırasına göre am Samstag [T], 'machen' en sondadır.)
+
+ÜBUNG 2:
+1. muss (ich çekimi)
+2. müsst (ihr çekimi)
+3. muss (Frau Alahmed -> er/sie/es çekimi)
+4. müssen (wir çekimi)
+5. Müssen (Sie kibar hitap çoğul çekimi ve soru cümlesi olduğu için büyük harfle başlar)
+
+ÜBUNG 3:
+1. A - "ich" öznesine göre doğru çekim "muss" olur ve asıl eylem "arbeiten" cümlenin ta en sonundadır.
+2. B - "Morgen" zaman ifadesi başta olduğunda inversiyon olur, çekimli fiil "muss" 2. sırada kalır, asıl eylem "fahren" en sondadır.
+3. B - Erhan üçüncü tekil şahıs (er) olduğu için modal fiil çekimi "muss" şeklindedir.

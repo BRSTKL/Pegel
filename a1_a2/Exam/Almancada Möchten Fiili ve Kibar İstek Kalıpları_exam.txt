@@ -1,0 +1,82 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: MODALVERB "MÖCHTEN" (KİBAR İSTEK)
+========================================================================
+
+KURAL HATIRLATMASI (A1-A2 SEVİYESİ):
+1. Anlamı: "möchten" bir şeyi kibarca istemeyi, arzu etmeyi veya sipariş vermeyi belirtir.
+2. Cümle Yapısı: Özneye göre çekimlenen "möchten" fiili 2. sıradadır. Asıl eylem cümlenin EN SONUNDA mastar (Infinitiv) halde bulunur.
+3. Çekim Kuralı: "ich" und "er/sie/es" çekimleri aynıdır!
+4. Soru Sorarken: Çekimli fiil 1. sıraya gelir, asıl eylem yine en sonda kalır.
+
+Möchten Çekimi:
+ich möchte       | wir möchten
+du möchtest      | ihr möchtet
+er/sie/es möchte | sie/Sie möchten
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Sätze bauen mit "möchten" (Cümle Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie auf die Positionen: "möchten" auf Position 2, das Hauptverb ganz am Ende!
+
+1. einen heißen Kaffee / ich / trinken / möchte / heute .
+   _____________________________________________________________
+
+2. Tennis / spielen / möchtet / ihr / im Park ? (Achtung: Frage!)
+   _____________________________________________________________
+
+3. eine Suppe / Herr Novak / essen / möchte / im Restaurant .
+   _____________________________________________________________
+
+4. Deutsch / lernen / wir / möchten / fleißig .
+   _____________________________________________________________
+
+
+ÜBUNG 2: Verbformen ergänzen (Fiil Çekimini Tamamlama)
+Ergänzen Sie die richtige Form von "möchten" im Präsens.
+
+1. Ich bin im Café. Ich _______________ ein Glas Wasser trinken, bitte.
+2. Hallo Kinder! _______________ ihr heute Nachmittag im Park Basketball spielen?
+3. Frau Alahmed _______________ einen Termin beim Arzt machen.
+4. Wir _______________ heute Abend am Strand spazieren gehen.
+5. Was _______________ Sie trinken, Herr Demir? (Kibar hitap)
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welcher Satz ist grammatikalisch richtig? Kreuzen Sie an (A, B oder C).
+
+1. - Was möchten Sie bestellen? - Ich _________ gerne einen Salat essen.
+   [ ] A) möchte
+   [ ] B) möchtest
+   [ ] C) möchten
+
+2. [ ] A) Möchtest du heute Abend gehen ins Kino?
+   [ ] B) Möchtest du heute Abend ins Kino gehen?
+   [ ] C) Du möchtest heute Abend ins Kino gehen?
+
+3. Erhan _________ heute eine Pause machen, weil er viel Arbeit hat.
+   [ ] A) möchtet
+   [ ] B) möchte
+   [ ] C) möchtest
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. Ich möchte heute einen heißen Kaffee trinken. / Heute möchte ich einen heißen Kaffee trinken. (TeKaMoLo: zaman ifadesi 'heute' ortada veya başta, 'trinken' en sondadır.)
+2. Möchtet ihr im Park Tennis spielen? (Soru cümlesi olduğu için çekimli fiil 1. sıradadır.)
+3. Herr Novak möchte im Restaurant eine Suppe essen. (Herr Novak -> er/sie/es çekimi olan 'möchte' gelir.)
+4. Wir möchten fleißig Deutsch lernen. (Wir öznesine göre fiil 'möchten' kalır, asıl eylem 'lernen' en sondadır.)
+
+ÜBUNG 2:
+1. möchte (ich çekimi)
+2. Möchtet (ihr çekimi ve soru cümlesi olduğu için büyük harfle başlar)
+3. möchte (Frau Alahmed -> er/sie/es çekimi)
+4. möchten (wir çekimi)
+5. möchten (Sie kibar hitap çoğul çekimi)
+
+ÜBUNG 3:
+1. A - "ich" öznesine göre doğru çekim "möchte" olur ve asıl eylem "essen" cümlenin ta en sonundadır.
+2. B - Doğru bir evet/hayır soru cümlesidir. Çekimli fiil "Möchtest" 1. sırada, asıl eylem "gehen" ise cümlenin ta en sonundadır.
+3. B - Erhan üçüncü tekil şahıs (er) olduğu için modal fiil çekimi "möchte" şeklindedir.

@@ -1,0 +1,7 @@
+﻿Almancada "Temel Dizilim" içinde özne ve fiil sadece ayrılmaz bir ikili olmakla kalmaz, aynı zamanda birbirlerine kusursuz bir uyum sağlamak zorundadır 1.
+Cümlenin 2. sırasında sabit duran patronumuz (fiil), her zaman özneye (işi yapan kişiye) göre ekler alarak şekil değiştirir, yani çekimlenir 1. Örneğin, "gitmek" anlamına gelen gehen fiilini düşünelim:
+* Özne "Ben" (Ich) ise, fiil "-e" takısı alır: Ich gehe (Ben gidiyorum) 2.
+* Özne "Sen" (Du) ise, fiil "-st" takısı alır: Du gehst (Sen gidiyorsun) 2.
+* Özne "O" (Er/Sie/Es) ise, fiil "-t" takısı alır: Er geht (O gidiyor) 2.
+Cümleye "yarın" veya "bugün" gibi bir zaman zarfıyla başlayıp özneyi 3. sıraya kaydırsan bile bu kural asla bozulmaz. Fiil 2. sırada kalır ve her zaman yanındaki özneye uygun ekini üzerinde taşır 1.
+Bu çekim mantığı kafana yattıysa, istersen kurallara pek uymayan ve kökten değişen "düzensiz fiiller" konusuna kısaca göz atabiliriz, ne dersin?

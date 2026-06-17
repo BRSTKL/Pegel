@@ -1,0 +1,88 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: WOHIN? (YÖNELİM EDATLARI VE HAREKET)
+========================================================================
+
+KURAL HATIRLATMASI VE HEDEF HARİTASI:
+1. in (+ Akkusativ): Kapalı bina veya sınırları olan alanların İÇİNE girerken.
+   - in + den (Eril)  | in + das = ins (Nötr) | in + die (Dişil)
+   - Örnek: in den Park, ins Museum, in die Galerie
+
+2. zu (+ Dativ): İnsanların yanına veya belirli bir kuruma/mekana DOĞRU giderken.
+   - zu + dem = zum (Eril/Nötr) | zu + der = zur (Dişil)
+   - Örnek: zum Arzt, zum Bahnhof, zum Stadion, zur Post
+
+3. nach: Şehirler, ülkeler (artikelsiz olanlar) ve "eve" giderken kullanılır!
+   - Örnek: nach Berlin, nach Spanien | İstisna: nach Hause (eve gitmek)
+
+4. an ... vorbei (+ Dativ): Bir yerin içine girmeden YANINDAN GEÇİP GİTMEK.
+   - Örnek: an der Universität vorbei (üniversitenin yanından geçmek)
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: "in", "zu" oder "nach"? (Doğru Yönelim Edatını Seçme)
+Ergänzen Sie die Lücken mit in, zu oder nach. Achten Sie auf den Kontext!
+
+1. Ich bin müde. Ich gehe jetzt ____________________ Hause. (İstisna kalıp)
+2. Wir fliegen im Sommer ____________________ Hamburg. (Şehir)
+3. Herr Novak ist krank. Er geht heute ____________________ Arzt. (Kişi/Kurum)
+4. Das Kind geht ____________________ Park ve spielt Basketball. (İçine giriyor)
+5. Morgen fahre ich mit dem Zug ____________________ München. (Şehir)
+6. Meine Tante geht ____________________ Galerie, um Bilder zu sehen. (İçine giriyor)
+
+
+ÜBUNG 2: Artikelübung im Akkusativ / Dativ (Artikel Dönüşümleri)
+Ergänzen Sie die Lücken mit den verschmolzenen (birleşik) veya tekil artikellerle: (ins, in den, in die / zum, zur / an der ... vorbei).
+
+1. (in / der Park)         Wir gehen heute Nachmittag _______________ Park.
+2. (zu / der Bahnhof)      Wie kann ich _______________ Bahnhof gehen?
+3. (in / das Museum)       Am Sonntag gehen meine Freunde _______________ Museum.
+4. (zu / die Post)         Herr Demir bringt das Paket _______________ Post.
+5. (in / die Galerie)      Frau Alahmed geht _______________ Galerie.
+6. (zu / das Stadion)      Die Kinder gehen am Samstag _______________ Stadion.
+7. (an / die Schule)       Gehen Sie _______________ Schule ____________________. (Uğramadan geçin)
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welches Wort passt perfekt in die Lücke? Kreuzen Sie an (A, B oder C).
+
+1. - Wohin gehst du, Ahmet? - Ich gehe _________ Park (der Park) spazieren.
+   [ ] A) zum
+   [ ] B) in den
+   [ ] C) nach
+
+2. Erhan möchte nach der Arbeit schnell _________ Hause gehen.
+   [ ] A) nach
+   [ ] B) zu
+   [ ] C) in das
+
+3. Entschuldigung, wie komme ich _________ Bahnhof (der Bahnhof)?
+   [ ] A) nach
+   [ ] B) ins
+   [ ] C) zum
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. nach (Kılavuza göre 'eve doğru gitmek' şaşmaz bir şekilde 'nach Hause' olarak söylenir.)
+2. nach (Şehirlere seyahat ederken 'nach' edatı kullanılır.)
+3. zu (İnsanların yanına doğru hareket bildirirken 'zu' edatı zorunludur.)
+4. in (Park sınırları olan bir alandır ve içine girme eylemini anlatır.)
+5. nach (Şehir ismi olduğu için 'nach' tercih edilir.)
+6. in (Sanat galerisi kapalı bir binadır, içine girildiği için 'in' edatı gelir.)
+
+ÜBUNG 2:
+1. in den ('der Park' kelimesi 'in' edatıyla Akkusativ yönelimde 'in den' formunu alır.)
+2. zum ('zu' edatı her zaman Dativ ister. zu + dem Bahnhof = zum Bahnhof olur.)
+3. ins ('das Museum' kelimesi 'in' edatıyla Akkusativ yönelimde 'in das' yani birleşerek 'ins' olur.)
+4. zur ('zu' edatı Dativ ister. 'die Post' dişil olduğu için zu + der Post = zur Post haline gelir.)
+5. in die ('die Galerie' dişil kelimedir. Akkusativ yönelimde dişil artikel değişmeyerek 'in die' kalır.)
+6. zum ('das Stadion' nötr kelimedir. 'zu' edatı nedeniyle Dativ olur: zu + dem Stadion = zum Stadion.)
+7. an der ... vorbei ('die Schule' kelimesi 'an ... vorbei' Dativ yapısı arasına girdiğinde 'an der Schule vorbei' olur.)
+
+ÜBUNG 3:
+1. B - Parkın içine doğru bir yönelim ve hareket (Wohin?) söz konusu olduğu için Akkusativ grubu olan "in den" seçilmelidir.
+2. A - Almancada yön ve hareket bildirirken 'eve gitmek' ifadesi sarsılmaz bir istisna olarak "nach Hause" şeklinde kurulur.
+3. C - Belirli bir mekana/istasyona doğru yönelmeyi anlatan "zu" edatı, eril olan 'der Bahnhof' kelimesiyle Dativ kuralına göre birleşerek "zum" formunu alır.

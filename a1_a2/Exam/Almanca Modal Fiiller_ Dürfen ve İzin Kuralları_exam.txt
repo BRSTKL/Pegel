@@ -1,0 +1,79 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: MODALVERB "DÜRFEN" (İZİN / YASAK)
+========================================================================
+
+KURAL HATIRLATMASI (A1-A2 SEVİYESİ):
+1. Anlamı: "dürfen" bir şeyi yapmak için iznimizin olduğunu, "nicht dürfen" ise kesin bir yasağı (Verbot) belirtir.
+2. Cümle Yapısı: Çekimli "dürfen" fiili 2. sıradadır. Asıl eylem cümlenin EN SONUNDA mastar (Infinitiv) halde bulunur.
+3. Çekim Kuralı: "ich" ve "er/sie/es" çekimleri aynıdır!
+
+Dürfen Çekimi:
+ich darf       | wir dürfen
+du darfst      | ihr dürft
+er/sie/es darf | sie/Sie dürfen
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Sätze bauen mit "dürfen" (Cümle Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie auf die Positionen: "dürfen" auf Position 2, das Hauptverb ganz am Ende!
+
+1. hier / man / nicht / rauchen / darf . (Yasak tabelası)
+   _____________________________________________________________
+
+2. Schokolade / ich / darf / essen / heute . (İzin)
+   _____________________________________________________________
+
+3. im Park / die Kinder / spielen / dürfen .
+   _____________________________________________________________
+
+4. parken / du / hier / nicht / darfst .
+   _____________________________________________________________
+
+
+ÜBUNG 2: Verbformen ergänzen (Fiil Çekimini Tamamlama)
+Ergänzen Sie die richtige Form von "dürfen" im Präsens.
+
+1. Ich bin krank. Der Arzt sagt: Ich __________ heute nicht arbeiten.
+2. Hallo Kinder! Ihr __________ hier laut Musik hören.
+3. Herr Novak, __________ man hier das Auto parken?
+4. Das Kind __________ heute länger fernsehen, weil Wochenende ist.
+5. Wir __________ in der Prüfung kein Wörterbuch benutzen. Es ist verboten.
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welcher Sätze ist grammatikalisch richtig? Kreuzen Sie an (A, B oder C).
+
+1. [ ] A) Hier man darf nicht laut sprechen.
+   [ ] B) Hier darf man nicht laut sprechen.
+   [ ] C) Hier darf man laut sprechen nicht.
+
+2. [ ] A) Er darf heute ins Kino gehen.
+   [ ] B) Er darft heute ins Kino gehen.
+   [ ] C) Er darf heute gehen ins Kino.
+
+3. [ ] A) Du darfst nicht hier Fotos machen.
+   [ ] B) Du darfst hier nicht machen Fotos.
+   [ ] C) Du darfst hier keine Fotos machen.
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. Hier darf man nicht rauchen. / Man darf hier nicht rauchen. (Tabela yasağı)
+2. Ich darf heute Schokolade essen. / Heute darf ich Schokolade essen. (TeKaMoLo: zaman ifadesi 'heute' ortada veya başta)
+3. Die Kinder dürfen im Park spielen. / Im Park dürfen die Kinder spielen.
+4. Du darfst hier nicht parken. / Hier darfst du nicht parken.
+
+ÜBUNG 2:
+1. darf (ich çekimi)
+2. dürft (ihr çekimi)
+3. darf (man kelimesi er/sie/es gibi tekil çekimlenir)
+4. darf (das Kind -> er/sie/es çekimi)
+5. dürfen (wir çekimi)
+
+ÜBUNG 3:
+1. B - "Hier" konum ifadesi başta olduğunda inversiyon olur, çekimli fiil "darf" 2. sırada kalır, asıl eylem "sprechen" en sondadır.
+2. A - "er" öznesine göre çekim "darf" olur ve asıl eylem "gehen" cümlenin ta en sonuna atılır.
+3. C - Almancada nesneleri olumsuz yaparken "nicht" yerine "kein/keine" tercih edilir (keine Fotos). Çekimli fiil 2. sırada, "machen" ise en sondadır.

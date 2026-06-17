@@ -1,0 +1,4 @@
+﻿Almancada "TeKaMoLo", fiilden sonraki kelime yığınını hangi sıraya koyacağını gösteren basit bir formüldür 1, 2. Bu formülün başı olan T (Temporal), "Zaman" anlamına gelir ve eylemin "Ne zaman?" (Wann?) yapıldığını belirtir 3, 4.
+Kural çok nettir: Fiili 2. sıraya yerleştirdikten sonra geri kalan bilgileri dizerken, zaman bildiren kelimeler (bugün, yarın, saat 3'te vb.) her zaman önceliğe sahiptir ve kuyruğun en başında yer alır 2, 5. Yani "neden", "nasıl" veya "nereye" detaylarına geçmeden önce mutlaka "ne zaman" sorusunu cevaplamalısın 2, 5.
+Bunun sağladığı bir özgürlük de şudur: Eğer zamanı vurgulamak istersen, zaman kelimesini cümlenin en başına (1. sıraya) da alabilirsin; bu durumda fiil değişmez 2. sırasında kalır ve özne onun sağına geçer 6, 7.
+Zamanı (Temporal) hallettiğimize göre, bu dizilimin devamı olan "Kausal" (Neden), "Modal" (Nasıl) veya "Lokal" (Mekan) adımlarından hangisine göz atmak istersin?

@@ -1,0 +1,85 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: KONJUNKTION "TROTZDEM" (ZITLIK BAĞLACI)
+========================================================================
+
+KURAL HATIRLATMASI VE ALTIN İSKELET:
+1. Anlamı: "trotzdem" cümleleri "buna rağmen" anlamıyla zıtlık oluşturarak bağlar.
+2. Cümle Yapısı (Inversion): Bu bağlaç ikinci cümlenin 1. sırasını kaplar[cite: 140]. Bu yüzden ÇEKİMLİ FİİL 2. SIRADA kalır, ÖZNE İSE 3. SIRAYA kayar[cite: 141, 143]!
+   - KURAL: [trotzdem] + [Çekimli Fiil] + [Özne] + ... [cite: 141, 143]
+   - Örnek: Er hat kein Geld. Trotzdem arbeitet er nicht. [cite: 141, 142]
+3. Esneklik Kuralı: Noktadan sonra özne başa gelirse, "trotzdem" 3. sıraya (fiilden sonraya) gelebilir[cite: 144]. Fiil yine 2. sıradadır[cite: 144]!
+   - Örnek: Er hat kein Geld. Er arbeitet trotzdem nicht. [cite: 145, 146]
+4. Modal Fiil Yapısı: Çekimli modal fiil "trotzdem"in hemen sağında (2. sırada) yer alır, asıl eylem mastar olarak EN SONA fırlatılır[cite: 147].
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Sätze bauen mit "trotzdem" (Zıtlık Cümleleri Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie darauf: Fiil her zaman trotzdem'in hemen sağında (Position 2) olmalıdır[cite: 141, 143]!
+
+1. Ich bin müde. / lerne / ich / trotzdem / Deutsch / .
+   -> Ich bin müde. ___________________________________________
+
+2. Erhan hat çok işi var. / spielt / er / Padel-Tennis / trotzdem / am Samstag .
+   -> Erhan hat çok işi var. ____________________________________
+
+3. Es ist çok soğuk. / gehe / ich / im Park / spazieren / trotzdem / .
+   -> Es ist çok soğuk. ________________________________________
+
+4. Mia ist krank. / muss / arbeiten / sie / im Büro / trotzdem / . (Achtung: Modalverb[cite: 147]!)
+   -> Mia ist krank. ___________________________________________
+
+
+ÜBUNG 2: Trotzdem Yerini Değiştirme (Esneklik Pratiği)
+Yazılan cümleleri "trotzdem" kelimesini fiilden sonraya (Position 3) alarak yeniden kurun[cite: 144]. Fiili 2. sırada koruyun[cite: 144]!
+
+Örnek: Herr Novak ist müde. Trotzdem programmiert er Python. [cite: 141]
+       -> Herr Novak ist müde. Er programmiert trotzdem Python. [cite: 144]
+
+1. Ich habe keine Zeit. Trotzdem komme ich am Samstag. [cite: 141]
+   -> Ich habe keine Zeit. Ich _________________________________.
+
+2. Das Paket ist weg. Trotzdem ruft Herr Demir nicht bei der Post an. [cite: 141]
+   -> Das Paket ist weg. Herr Demir ____________________________.
+
+3. Es regnet. Trotzdem fahren wir nach Berlin. [cite: 141]
+   -> Es regnet. Wir ___________________________________________.
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welcher Sätze ist grammatikalisch richtig built? Kreuzen Sie an (A, B oder C).
+
+1. - Gehst du heute zum Deutschkurs? - Ich habe Kopfschmerzen, _________.
+   [ ] A) trotzdem ich gehe zum Kurs.
+   [ ] B) trotzdem gehe ich zum Kurs.
+   [ ] C) gehe ich trotzdem zum Kurs.
+
+2. Herr Demir hat am Samstag viel Arbeit, _________ eine lange Pause machen.
+   [ ] A) trotzdem er möchte
+   [ ] B) weil möchte er
+   [ ] C) trotzdem möchte er
+
+3. Es gefällt mir sehr gut bei euch, _________ nach Hause gehen.
+   [ ] A) trotzdem muss ich [cite: 147]
+   [ ] B) trotzdem ich muss
+   [ ] C) weil muss ich
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. Trotzdem lerne ich Deutsch. (Bağlaç 1'de, fiil 'lerne' 2'de, özne 'ich' 3. sıradadır.)
+2. Trotzdem spielt er am Samstag Padel-Tennis. (TeKaMoLo: am Samstag [T], fiil 'spielt' 2. sıradadır[cite: 141].)
+3. Trotzdem gehe ich im Park spazieren. (Fiil 'gehe' 2. sıradadır[cite: 141].)
+4. Trotzdem muss sie im Büro arbeiten. (Modal fiil kuralı: Çekimli modal fiil 'muss' bağlacın sağında 2. sırada yer alır, asıl eylem 'arbeiten' en sondadır[cite: 147].)
+
+ÜBUNG 2:
+1. komme trotzdem am Samstag. (Özne 'Ich' başa gelince fiil 'komme' 2'de kalır, 'trotzdem' 3. sıraya yerleşir[cite: 144].)
+2. ruft trotzdem nicht bei der Post an. (Ayrılabilir fiil 'anrufen' kökü 2'de kalır, 'an' en sondadır.)
+3. fahren trotzdem nach Berlin. (Fiil 'fahren' 2. sıradadır[cite: 144].)
+
+ÜBUNG 3:
+1. B - Kılavuz kuralına göre "trotzdem" 1. sırayı kapladığı için çekimli fiil "gehe" hemen onun sağında (2. sırada) olmak zorundadır.
+2. C - Doğru inversiyon yapısıdır; zıtlık bağlacı + çekimli modal fiil (möchte) + özne (er)[cite: 141, 143, 147]. Asıl eylem "machen" en sondadır[cite: 147].
+3. A - Kılavuzdaki orijinal örnekle birebir eşleşen modal fiilli doğru Präteritum/Präsens zıtlık yapısıdır[cite: 147].

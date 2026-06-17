@@ -1,0 +1,92 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: DIE FAMILIE (AILE ÜYELERİ & İYELİK UYUMU)
+========================================================================
+
+KURAL HATIRLATMASI VE PÜF NOKTALARI:
+1. Artikel Gruplandırması:
+   - Eril (der): Vater, Opa, Bruder, Sohn, Onkel, Cousin
+   - Dişil (die): Mutter, Oma, Schwester, Tochter, Tante, Cousine
+   - Çoğul (die): Eltern, Großeltern, Geschwister, Kinder
+
+2. İyelik Zamiri (mein / dein) ile Birleştirme:
+   - Eğer aile üyesi ERKEK (der) ise -> EK YOK: mein Vater, dein Bruder, mein Opa.
+   - Eğer aile üyesi KADIN veya ÇOĞUL (die) ise -> "-e" EKLE: meine Mutter, deine Schwester, meine Eltern.
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: "mein" oder "meine"? (Doğru İyelik Zamirini Seçin)
+Ergänzen Sie "mein" oder "meine" basierend auf dem Artikel des Familienmitglieds.
+
+1. Das ist _______________ Vater (der Vater). Er ist 64 Jahre alt.
+2. Das ist _______________ Mutter (die Mutter). Sie ist 57 Jahre alt.
+3. Wo wohnen _______________ Großeltern (die Großeltern - Plural)?
+4. _______________ Bruder (der Bruder) spielt sehr gut Basketball.
+5. _______________ Schwester (die Schwester) lernt gerade intensiv Deutsch.
+6. Ist das _______________ Onkel (der Onkel)? - Ja, das ist er.
+7. _______________ Tante (die Tante) kocht heute eine leckere Suppe.
+
+
+ÜBUNG 2: Sätze bauen (Aile Tanıtma Cümleleri)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie auf die Position des Verbs (Position 2) und die Endungen!
+
+1. in Berlin / meine Eltern / wohnen / seit einem Jahr .
+   _____________________________________________________________
+
+2. çok / mein Opa / ist / alt / . / er / 80 / Jahre / ist / alt .
+   _____________________________________________________________
+
+3. Geschwister / hast / wie viele / du / ? (Achtung: W-Frage!)
+   _____________________________________________________________
+
+4. sucht / seine Tasche / mein Bruder / im Büro .
+   _____________________________________________________________
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welches Wort passt perfekt in die Lücke? Kreuzen Sie an (A, B oder C).
+
+1. - Wer ist das, Ahmet? - Das ist _________ Tochter (die Tochter). Sie geht in die Schule.
+   [ ] A) mein
+   [ ] B) meine
+   [ ] C) meinen
+
+2. Mein Vater ve meine Mutter sind meine _________.
+   [ ] A) Großeltern
+   [ ] B) Geschwister
+   [ ] C) Eltern
+
+3. Hallo Lukas! Ist das _________ Bruder (der Bruder)?
+   [ ] A) dein
+   [ ] B) deine
+   [ ] C) deines
+
+4. Die Schwester von meiner Mutter ist meine _________.
+   [ ] A) Tante
+   [ ] B) Oma
+   [ ] C) Cousine
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. mein (der Vater -> erkek olduğu için ek almaz.)
+2. meine (die Mutter -> kadın olduğu için sonuna '-e' gelir.)
+3. meine (die Großeltern çoğul olduğu için sonuna '-e' gelir.)
+4. mein (der Bruder -> erkek olduğu için ek almaz.)
+5. meine (die Schwester -> kadın olduğu için sonuna '-e' gelir.)
+6. dein [veya mein] (der Onkel -> erkek olduğu için ek almaz.)
+7. meine (die Tante -> kadın olduğu için sonuna '-e' gelir.)
+
+ÜBUNG 2:
+1. Meine Eltern wohnen seit einem Jahr in Berlin. / Seit einem Jahr wohnen meine Eltern in Berlin. (Çoğul özneye göre fiil 'wohnen' olur.)
+2. Mein Opa ist sehr alt. Er ist 80 Jahre alt.
+3. Wie viele Geschwister hast du? (Soru kalıbı 'Wie viele + isim' şeklinde başlar, ardından fiil 'hast' gelir.)
+4. Mein Bruder sucht seine Tasche im Büro. / Im Büro sucht mein Bruder seine Tasche.
+
+ÜBUNG 3:
+1. B - "die Tochter" dişil bir kelime olduğu için "benim kızım" derken sonu '-e' biten "meine" seçilir.
+2. C - Anne ve babanın ortak adı ebeveynler, yani "Eltern" kelimesidir.
+3. A - "der Bruder" eril bir kelimedir ve yalın haldeyken "senin erkek kardeşin" ifadesi ek almadan "dein" olarak kalır.
+4. A - Annemizin kız kardeşi bizim teyzemiz, yani Almanca karşılığıyla "Tante" olur.

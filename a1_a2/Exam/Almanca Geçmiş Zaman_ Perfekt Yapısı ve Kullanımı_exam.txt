@@ -1,0 +1,75 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: PERFEKT (GEÇMİŞ ZAMAN)
+========================================================================
+
+KURAL HATIRLATMASI (A1-A2 SEVİYESİ):
+- Günlük konuşmada geçmiş zaman için "haben" veya "sein" + "Partizip II" kullanılır.
+- Yardımcı fiil (haben/sein) 2. sıradadır, esas fiil (Partizip II) en sondadır.
+- Yer değiştirme / hareket bildiren fiiller (gehen, fahren, kommen) -> SEIN
+- Durağan veya nesne alan düzenli fiiller -> HABEN (ge...t veya ayrılanlarda ...ge...t)
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Sätze bauen im Perfekt (Geçmiş Zaman Cümle Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie auf die Positionen: Hilfsverb auf Position 2, Partizip II ganz am Ende!
+
+1. gestern / ich / Deutsch / gelernt / habe .
+   _____________________________________________________________
+
+2. am Wochenende / nach Berlin / gefahren / meine Freunde / sind .
+   _____________________________________________________________
+
+3. im Supermarkt / wir / eingekauft / heute / haben . (Ayrılan fiil)
+   _____________________________________________________________
+
+4. meine Mutter / gekocht / eine Suppe / hat / heute .
+   _____________________________________________________________
+
+
+ÜBUNG 2: Haben oder Sein? (Yardımcı Fiil Seçimi)
+Ergänzen Sie die Sätze mit der richtigen Form von "haben" oder "sein" im Präsens.
+
+1. Ich __________ gestern im Park spazieren gegangen.
+2. Was __________ du heute Morgen gefrühstückt?
+3. Wir __________ am Sonntag lange geschlafen.
+4. Wann __________ deine Freunde aus der Türkei gekommen?
+5. Er __________ ein neues Fahrrad gekauft.
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welcher Satz ist grammatikalisch richtig? Kreuzen Sie an (A, B oder C).
+
+1. [ ] A) Gestern ich habe Pizza im Restaurant gegessen.
+   [ ] B) Gestern habe ich Pizza im Restaurant gegessen.
+   [ ] C) Gestern habe ich gegessen Pizza im Restaurant.
+
+2. [ ] A) Er ist am Samstag um 8 Uhr aufgestanden.
+   [ ] B) Er hat am Samstag um 8 Uhr aufgestanden.
+   [ ] C) Er ist aufgestanden am Samstag um 8 Uhr.
+
+3. [ ] A) Wir haben gestern im Park Fußball spielen.
+   [ ] B) Wir haben gestern im Park Fußball gespielt.
+   [ ] C) Wir sind gestern im Park Fußball gespielt.
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. Gestern habe ich Deutsch gelernt. / Ich habe gestern Deutsch gelernt. (Zaman ifadesi 'gestern' başta olduğunda özne 3. sıraya kayar.)
+2. Am Wochenende sind meine Freunde nach München gefahren. / Meine Freunde sind am Wochenende nach München gefahren. (Fahren hareket bildirir -> sein.)
+3. Heute haben wir im Supermarkt eingekauft. / Wir haben heute im Supermarkt eingekauft. (Ayrılan fiil yapısı.)
+4. Heute hat meine Mutter eine Suppe gekocht. / Meine Mutter hat heute eine Suppe gekocht.
+
+ÜBUNG 2:
+1. bin (Spazieren gehen yer değiştirme hareketidir -> sein.)
+2. hast (Frühstücken durağandır, nesne alır -> haben.)
+3. haben (Schlafen durağan bir durumdur -> haben.)
+4. sind (Kommen A noktasından B noktasına yönelim bildirir -> sein.)
+5. hat (Kaufen eylemi -> haben.)
+
+ÜBUNG 3:
+1. B - "Gestern" zaman ifadesi başta, yardımcı fiil "habe" 2. sırada, esas fiil "gegessen" en sondadır.
+2. A - "Aufstehen" (Ayağa kalkmak/uyanmak) durum değişikliği bildirir ve "sein" ile çekimlenir. "aufgestanden" en sonda yer alır.
+3. B - Düzenli geçmiş zaman takısı "-t" ile biter (gespielt) ve futbol oynamak durağan/nesne alan bir eylem olduğu için "haben" (haben) yardımcı fiiliyle kurulur.

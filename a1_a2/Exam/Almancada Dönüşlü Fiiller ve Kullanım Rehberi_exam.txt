@@ -1,0 +1,84 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: REFLEXIVE VERBEN (DÖNÜŞLÜ FİİLLER)
+========================================================================
+
+KURAL HATIRLATMASI VE ÖZNE UYUM REHBERİ:
+Almancada dönüşlü fiillerle cümle kurarken "sich" zamiri özneye göre çekimlenir ve genellikle fiilden hemen sonra (Position 3) yer alır.
+
+Reflexivpronomen (Akkusativ) Çekim Tablosu:
+ich  -> mich   | wir -> uns
+du   -> dich   | ihr -> euch
+er/sie/es -> sich | sie/Sie -> sich
+
+Sık Kullanılan Temel Fiiller: sich fühlen (hissetmek), sich bewegen (hareket etmek), sich legen (uzanmak)
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Reflexivpronomen ergänzen (Dönüşlülük Zamirlerini Tamamlama)
+Ergänzen Sie das richtige Reflexivpronomen (mich, dich, sich, uns, euch).
+
+1. Ich bin krank. Ich fühle _______________ heute nicht so gut.
+2. Der Arzt sagt zu Erhan: Sie müssen _______________ mehr bewegen!
+3. Du bist sehr müde. Du sollst _______________ ins Bett legen.
+4. Wir haben heute viel Energie. Wir fühlen _______________ super!
+5. Hallo Kinder! Wie fühlt ihr _______________ im neuen Deutschkurs?
+6. Das Kind ist krank. Es legt _______________ auf das Sofa.
+
+
+ÜBUNG 2: Sätze bauen (Dönüşlü Fiillerle Cümle Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie auf die Positionen: Verb auf Position 2, Reflexivpronomen direkt danach auf Position 3!
+
+1. heute / ich / mich / nicht so gut / fühle .
+   _____________________________________________________________
+
+2. uns / wir / bewegen / jeden Samstag / im Park .
+   _____________________________________________________________
+
+3. Sie / sich / fühlen / wie / heute / , Herr Demir ? (Achtung: W-Frage!)
+   _____________________________________________________________
+
+4. dich / ins Bett / legst / du / wann ? (Achtung: W-Frage!)
+   _____________________________________________________________
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welches Wort passt perfekt in die Lücke? Kreuzen Sie an (A, B oder C).
+
+1. - Warum bleibst du zu Hause, Ahmet? - Ich fühle _________ krank.
+   [ ] A) sich
+   [ ] B) dich
+   [ ] C) mich
+
+2. Frau Alahmed ist müde. Sie legt _________ für 30 Minuten hin.
+   [ ] A) sich
+   [ ] B) mich
+   [ ] C) euch
+
+3. Wir machen jeden Tag Sport, weil wir _________ mehr bewegen wollen.
+   [ ] A) uns
+   [ ] B) sich
+   [ ] C) euch
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. mich ('ich' öznesine göre dönüşlülük zamiri 'mich' olur.)
+2. sich ('Sie' kibar hitap formuna göre dönüşlülük zamiri 'sich' olarak kalır.)
+3. dich ('du' öznesine göre dönüşlülük zamiri 'dich' olur.)
+4. uns ('wir' öznesine göre dönüşlülük zamiri 'uns' olur.)
+5. euch ('ihr' çoğul şahıs öznesine göre dönüşlülük zamiri 'euch' olur.)
+6. sich ('das Kind' yani 'es' üçüncü tekil şahıs olduğu için 'sich' kullanılır.)
+
+ÜBUNG 2:
+1. Ich fühle mich heute nicht so gut. / Heute fühle ich mich nicht so gut. (Zaman ifadesi 'heute' başta olduğunda inversiyon olur ama 'mich' yine özneden hemen sonra kalır.)
+2. Wir bewegen uns jeden Samstag im Park. / Jeden Samstag bewegen wir uns im Park. (TeKaMoLo: am Samstag [T] -> im Park [L])
+3. Wie fühlen Sie sich heute, Herr Demir? (W-Frage yapısında soru kelimesi başta, fiil 2. sırada, özne 3'te ve dönüşlülük zamiri 4. sıradadır.)
+4. Wann legst du dich ins Bett? (Soru kelimesi başta, çekimli fiil 2. sıradadır.)
+
+ÜBUNG 3:
+1. C - "ich" öznesiyle kullanılan doğru dönüşlülük zamiri "mich" şeklindedir.
+2. A - Frau Alahmed üçüncü tekil şahıs (sie) olduğu için dönüşlülük zamiri "sich" olarak seçilir.
+3. A - "wir" öznesinin yan cümle içinde "weil wir..." şeklinde kullanımı dönüşlülük zamirinin "uns" olmasını gerektirir.

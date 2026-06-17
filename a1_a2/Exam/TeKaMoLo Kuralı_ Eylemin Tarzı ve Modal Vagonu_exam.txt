@@ -1,0 +1,76 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: TEKAMOLO - M (MODAL / TARZ BASAMAĞI)
+========================================================================
+
+KURAL HATIRLATMASI VE FORMÜL GEOMETRİSİ:
+1. TeKaMoLo Sıralaması: [Temporal - Zaman] + [Kausal - Sebep] + [Modal - Tarz] + [Lokal - Yer]
+2. Modal (Tarz) Mantığı: Eylemin "Nasıl? (Wie?)" yapıldığını anlatır.
+   - Önemli Kelimeler: schnell (hızlıca), langsam (yavaşça), fleißig (fleißig/çalışkan bir şekilde), zu spät (çok geç).
+3. Yerleşim Kuralı: Tarz kelimesi (Modal), her zaman cümlenin en sonundaki mekan bilgisinden (Lokal) hemen ÖNCE gelir!
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Sätze bauen mit Modal-Fokus (Tarz Basamaklı Cümle Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie auf das sarsılmaz TeKaMoLo kuralı: Zaman [T] baştaysa inversiyon olur, tarz [M] her zaman yer bilgisinden [L] önceden gelir!
+
+1. (T - M - L)       Ich gehe / heute (T) / zum Arzt (L) / schnell (M) / .
+   -> _____________________________________________________________.
+
+2. (T - M - L)       Erhan kommt / immer (T) / zu spät (M) / im Büro (L) / an . (Achtung: ankommen!)
+   -> _____________________________________________________________.
+
+3. (T - M)           Wir lernen / fleißig (M) / jeden Tag (T) / Deutsch .
+   -> _____________________________________________________________.
+
+4. (M - L)           Herr Novak fährt / nach Berlin (L) / sehr langsam (M) / .
+   -> _____________________________________________________________.
+
+
+ÜBUNG 2: TeKaMoLo Vagonlarını Ayırma (T, K yoksa direkt M mi?)
+Okuyun ve altı çizili kelimelerin TeKaMoLo formülündeki hangi basamağa (T - Temporal, K - Kausal, M - Modal, L - Lokal) ait olduğunu parantez içine yazın.
+
+1. Ich fahre [morgen] (_____) [schnell] (_____) [nach Hamburg] (_____).
+2. Frau Alahmed lernt [jeden Tag] (_____) [wegen der telc-Prüfung] (_____) [fleißig] (_____) zu Hause.
+3. Ahmet kommt [heute] (_____) [zu spät] (_____) [zum Deutschkurs] (_____).
+4. Wir spielen [am Samstag] (_____) [im Park] (_____). (Sebep ve tarz yok, K ve M adımları atlanmış!)
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welcher Satz ist grammatikalisch richtig built? Kreuzen Sie an (A, B oder C).
+
+1. Ahmet işe çok geç kaldı. Bunu telc mektubunda TeKaMoLo kuralına göre nasıl yazar?
+   [ ] A) Ich komme heute zu spät ins Büro.
+   [ ] B) Ich komme heute ins Büro zu spät.
+   [ ] C) Ich zu spät komme heute ins Büro.
+
+2. Erhan arabasını çok yavaş sürüyor. Doğru dizilim hangisidir?
+   [ ] A) Erhan fährt nach Berlin sehr langsam.
+   [ ] B) Erhan fährt sehr langsam nach Berlin.
+   [ ] C) Erhan sehr langsam fährt nach Berlin.
+
+3. - Wie lernst du Deutsch? - Ich lerne _________.
+   [ ] A) jeden Tag fleißig zu Hause
+   [ ] B) fleißig jeden Tag zu Hause
+   [ ] C) jeden Tag zu Hause fleißig
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. Ich gehe heute schnell zum Arzt. (TeKaMoLo: heute [T] -> schnell [M] -> zum Arzt [L]. Kausal basamağı olmadığı için direkt Modal'a geçtik.)
+2. Erhan kommt immer zu spät im Büro an. (TeKaMoLo: immer [T] -> zu spät [M] -> im Büro [L]. Ayrılabilir 'ankommen' fiilinin 'an' takısı en sondadır.)
+3. Wir lernen jeden Tag fleißig Deutsch. / Jeden Tag lernen wir fleißig Deutsch. (TeKaMoLo: jeden Tag [T] -> fleißig [M]. Nesne 'Deutsch' en sondadır.)
+4. Herr Novak fährt sehr langsam nach Berlin. (TeKaMoLo: tarz bildiren 'sehr langsam' [M], yer bildiren 'nach Berlin' [L] kelimesinden önce gelir.)
+
+ÜBUNG 2:
+1. morgen (T - Temporal) | schnell (M - Modal) | nach Hamburg (L - Lokal)
+2. jeden Tag (T - Temporal) | wegen der telc-Prüfung (K - Kausal) | fleißig (M - Modal) | zu Hause (L - Lokal)
+3. heute (T - Temporal) | zu spät (M - Modal) | zum Deutschkurs (L - Lokal)
+4. am Samstag (T - Temporal) | im Park (L - Lokal) (Kılavuza göre bir sebep veya tarz yoksa o vagonlar trenden rahatça düşürülür.)
+
+ÜBUNG 3:
+1. A - Zaman zarfı "heute" (T) önde, tarz bildiren "zu spät" (M) ortada ve yön/mekan bildiren "ins Büro" (L) en sonda yer alarak kusursuz bir T-M-L dizilimi oluşturur.
+2. B - Tarz bildiren "sehr langsam" (M), yer/yönelim bildiren "nach Berlin" (L) ifadesinin solunda, yani önünde yer almalıdır.
+3. A - En popüler telc kalıplarından biridir: jeden Tag [T] -> fleißig [M] -> zu Hause [L] sıralaması TeKaMoLo iskeletine birebir uygundur.

@@ -1,0 +1,78 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: ZAHLEN UND DATUM (SAYILAR VE TARİH)
+========================================================================
+
+KURAL HATIRLATMASI (A1-A2 SEVİYESİ):
+1. 21 ve Sonrası (Tersten Okuma): Önce birler basamağı + und + onlar basamağı (bitişik yazılır).
+   - 24 -> vierundzwanzig
+2. Özel Sayı Tuzakları:
+   - 16 -> sechzehn ("s" düşer)  | 17 -> siebzehn ("en" düşer)
+   - 30 -> dreißig (İstisna olarak "-ßig" ile biter, "-zig" değil!)
+3. Tarih Belirtirken (-inci günde):
+   - Önüne "am" edatı gelir.
+   - 1-19 arası sayıların sonuna "-ten" gelir (am ersten, am dritten, am siebten).
+   - 20 ve sonrası sayıların sonuna "-sten" gelir (am zwanzigsten).
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Zahlen schreiben (Sayıların Okunuşunu Yazma)
+Schreiben Sie die Zahlen als Wort. Achten Sie auf die Rechtschreibung!
+
+1. 16 -> _______________________________________________________
+2. 17 -> _______________________________________________________
+3. 24 -> _______________________________________________________
+4. 30 -> _______________________________________________________
+5. 58 -> _______________________________________________________
+
+
+ÜBUNG 2: Datum ergänzen (Tarih Kalıplarını Tamamlama)
+Ergänzen Sie die richtige Endung für die Ordnungszahlen (-ten oder -sten).
+
+1. Wann hast du Geburtstag? -> Ich habe am 3.___________ (drit___) Mai Geburtstag.
+2. Heute ist der 1. Mai. -> Am 1.___________ (ers___) Mai haben wir schulfrei.
+3. Der Express-Termin ist am 20.___________ (zwanzig___) Juni.
+4. Herr Novak kommt am 7.___________ (sieb___) September nach Berlin.
+5. Mein Vater feiert am 22.___________ (zweiundzwanzig___) Oktober ein Fest.
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welche Schreibweise oder Antwort ist richtig? Kreuzen Sie an (A, B oder C).
+
+1. Wie schreibt man die Zahl 35 auf Deutsch?
+   [ ] A) fünfunddreißig
+   [ ] B) fünfunddreizig
+   [ ] C) fünf und dreißig
+
+2. - Wann kommt der Handwerker? - Er kommt am _________ August.
+   [ ] A) achte
+   [ ] B) achten
+   [ ] C) achtest
+
+3. Wie liest man das Jahr 1995 auf Deutsch?
+   [ ] A) tausendneunhundertfünfundneunzig
+   [ ] B) neunzehnfünfundneunzig
+   [ ] C) neunzehnhundertfünfundneunzig
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. sechzehn ("s" harfi düşer)
+2. siebzehn ("en" takısı düşer)
+3. vierundzwanzig (bitişik yazılır, önce 4 sonra 20 söylenir)
+4. dreißig ("ß" ile yazılan tek onluktur)
+5. achtundfünfzig (önce 8 sonra 50 söylenir)
+
+ÜBUNG 2:
+1. dritten (1-19 arası olduğu için "-ten" gelir, "dritte" düzensiz köktür)
+2. ersten (1-19 arası olduğu için "-ten" gelir, "erste" düzensiz köktür)
+3. zwanzigsten (20 ve sonrası olduğu için "-sten" alır)
+4. siebten (1-19 arası olduğu için "-ten" gelir, "siebte" düzensiz köktür)
+5. zweiundzwanzigsten (20 ve sonrası olduğu için "-sten" alır)
+
+ÜBUNG 3:
+1. A - Sayı bitişik yazılmalıdır ve 30 derken "ß" harfi kullanılmalıdır (fünfunddreißig).
+2. B - "am" edatından dolayı sıralama sayısının sonuna "-n" harfi (achten) eklenmelidir.
+3. C - 2000 yılından önceki yıllar ikiye bölünerek "X yüz Y" (neunzehnhundert...) mantığıyla okunur.

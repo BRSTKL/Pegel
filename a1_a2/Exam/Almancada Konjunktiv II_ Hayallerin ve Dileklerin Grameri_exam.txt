@@ -1,0 +1,89 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: KONJUNKTIV II (DİLEK VE HAYAL KİPİ)
+========================================================================
+
+KURAL HATIRLATMASI VE ALTIN İSKELET:
+1. "wäre" (Sein -> Olmak): Bir yerde olmayı veya bir şey olmayı dilerken kullanılır.
+   - Ich wäre jetzt gerne am Strand. (Şu an kumsalda olsam / olmak isterdim.)
+2. "hätte" (Haben -> Sahip Olmak): Şu an sahip olunmayan ama dileyen şeyler için kullanılır.
+   - Ich hätte gerne ein Auto. (Bir arabam olsa / olsun isterdim.)
+3. "würde + İsim/Zarf + Mastar Fiil" (Diğer tüm eylemler):
+   - "würde" özneye göre çekimlenip 2. sıraya gelir, asıl eylem EN SONDA mastar kalır.
+   - Ich würde gerne schwimmen gehen. (Yüzmeye gitsem / gitmek isterdim.)
+4. "gerne" Kelimesi: Cümleye dilek/istek anlamı ("isterdim") katmak için kullanılır.
+
+Konjunktiv II (ich ve er/sie/es çekimleri yine aynıdır!):
+ich wäre / hätte / würde       | wir wären / hätten / würden
+du wärst / hättest / würdest   | ihr wärt / hättet / würdet
+er/sie/es wäre / hätte / würde | sie/Sie wären / hätten / würden
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: "wäre", "hätte" oder "würde"? (Doğru Hayal Fiilini Seçme)
+Ergänzen Sie die Lücken mit der richtigen Form von wäre, hätte oder würde.
+
+1. Ich bin müde. Ich _______________ jetzt gerne im Bett. (olmak dilediği yer)
+2. Ich _______________ gerne ein neues Fahrrad kaufen. (kaufen = satın almak eylemi)
+3. Erhan _______________ gerne viel Geld. Er möchte ein Haus kaufen. (sahip olmak)
+4. Wir _______________ heute Abend gerne im Park Padel-Tennis spielen. (spiel eylemi)
+5. Frau Alahmed _______________ gerne in Berlin, aber sie ist in Frankfurt. (olmak dilediği yer)
+6. _______________ du gerne einen heißen Kaffee trinken? (trinken = içmek eylemi)
+
+
+ÜBUNG 2: Sätze bauen (Dilek Cümleleri Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie auf die Position 2 (Konjunktiv II Fiili) ve cümlenin en sonunu!
+
+1. gerne / ein großes Haus / ich / hätte / .
+   _____________________________________________________________
+
+2. am Strand / jetzt / wäre / gerne / Erhan / .
+   _____________________________________________________________
+
+3. nach Spanien / fliegen / wir / gerne / würden / im Sommer .
+   _____________________________________________________________
+
+4. hätte / gerne / einen Termin / ich / beim Arzt . (Nezaket isteği)
+   _____________________________________________________________
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welcher Satz ist grammatikalisch richtig? Kreuzen Sie an (A, B oder C).
+
+1. - Was machst du am Wochenende? 
+   - Ach, ich _________ gerne am Samstag nach Berlin fahren.
+   [ ] A) hätte
+   [ ] B) wäre
+   [ ] C) würde
+
+2. Herr Demir hat viel Arbeit. Er _________ jetzt gerne eine Pause.
+   [ ] A) hätte
+   [ ] B) wäre
+   [ ] C) würde
+
+3. [ ] A) Ich wäre gerne morgen im Kino gehen.
+   [ ] B) Ich würde gerne morgen ins Kino gehen.
+   [ ] C) Ich würde gerne morgen gehen ins Kino.
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. wäre ('ich' öznesine göre 'sein' dönüşümü. Yatakta olmayı diliyor.)
+2. würde (Cümlenin sonunda 'kaufen' eylemi olduğu için 'würde' yardımcı fiili gelir.)
+3. hätte (Herr Novak -> 'er' şahısına göre 'haben' dönüşümü. Paraya sahip olmayı diliyor.)
+4. würden ('wir' öznesine göre çekim. Sonda 'spielen' eylemi var.)
+5. wäre (Frau Alahmed -> 'sie' şahısına göre çekim. Berlin'de olmayı dilediği için 'wäre' kullanılır.)
+6. Würdest ('du' öznesine göre soru çekimi. Sonda 'trinken' eylemi var.)
+
+ÜBUNG 2:
+1. Ich hätte gerne ein großes Haus. (hätte 2. sırada, nesne ortada.)
+2. Erhan wäre jetzt gerne am Strand. / Jetzt wäre Erhan gerne am Strand. (wäre 2. sırada kalır.)
+3. Wir würden im Sommer gerne nach Spanien fliegen. (TeKaMoLo: im Sommer [T] -> nach Spanien [L], 'fliegen' mastar olarak en sondadır.)
+4. Ich hätte gerne einen Termin beim Arzt. (Günlük hayatta randevu isterken kullanılan en kibar kalıptır.)
+
+ÜBUNG 3:
+1. C - Cümlenin ta en sonunda "fahren" (gitmek/araçla) asıl eylemi mastar halde durduğu için 2. sıraya "würde" yardımcı fiili gelmelidir.
+2. A - Mola vermek/molaya sahip olmak anlamında "eine Pause haben" kalıbı kullanılır, dilek halinde "hätte" formuna bürünür.
+3. B - Sinemaya gitmek bir eylemdir (gehen), bu yüzden "würde" kullanılır  ve asıl eylem "gehen" cümlenin ta en sonuna, kuyruğun ucuna fırlatılır[cite: 115].

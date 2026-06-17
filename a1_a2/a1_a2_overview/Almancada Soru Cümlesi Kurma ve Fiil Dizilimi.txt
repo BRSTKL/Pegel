@@ -1,0 +1,8 @@
+﻿Almancada soru sormak, o meşhur "patron (fiil) her zaman 2. sıradadır" kuralını nerede koruyup nerede bozacağımızla ilgilidir. Soru tiplerine göre dizilim şu şekilde işler:
+1. W-Fragen (Soru Kelimeli Sorular)Kim (Wer), Ne (Was), Nerede (Wo) gibi soru kelimeleriyle sorulan sorulardır 1. Bu sorularda temel kural asla bozulmaz. Soru kelimesi 1. koltuğa oturur, çekimli fiil o sarsılmaz 2. sıradaki yerini korur ve ayrılmaz sevgilisi özne mecburen 3. sıraya geçer 2, 3.
+* Örnek: Woher (1) kommst (2) du (3)? (Nereden geliyorsun?) 4.
+2. Ja/Nein Fragen (Evet/Hayır Soruları)İşte kuralın bozulduğu yer burasıdır! Eğer cevabı sadece "Evet" (Ja) veya "Hayır" (Nein) olacak bir soru soruyorsan, fiili yerinden kaldırıp cümlenin en başına, yani 1. sıraya koyman gerekir 5, 6. Özne ise hemen onun peşinden 2. sıraya yerleşir.
+* Örnek: Ist (1) das (2) ein Bleistift? (Bu bir kurşun kalem mi?) 6.
+* Örnek: Kannst (1) du (2) schwimmen? (Yüzebiliyor musun?) 7.
+Özetle; cümlenin başında bir "W" soru kelimesi varsa fiil her zamanki gibi 2. sıradadır, ancak soru kelimesi yoksa fiil cümlenin en başına geçer.
+Bu mantık kafana yattı mı? Dilersen her iki tipe de uyan basit Türkçe soruları beraber Almancaya çevirmeyi deneyebiliriz.

@@ -1,4 +1,4 @@
-﻿// app.js - Pegel German App Core Logic (Multi-Level: A1-A2 & B1)
+// app.js - Pegel German App Core Logic (Multi-Level: A1-A2 & B1)
 
 // Per-level progress template
 function emptyLevelProgress() {
@@ -51,21 +51,24 @@ function getActiveLessonsData() {
 }
 
 function getActiveHoerData(teil) {
+  const t = teil !== undefined ? teil : (state.activeHoerverstehenPart || 1);
   const a1a2 = { 1: HOERVERSTEHEN_TEIL_1_DATA_A1A2 };
   const b1 = { 1: HOERVERSTEHEN_TEIL_1_DATA_B1 };
-  return (state.activeLevel === "A1-A2" ? a1a2 : b1)[teil] || [];
+  return (state.activeLevel === "A1-A2" ? a1a2 : b1)[t] || [];
 }
 
 function getActiveLeseverstehenData(teil) {
+  const t = teil !== undefined ? teil : (state.activeLeseverstehenPart || 1);
   const a1a2 = { 1: LESEVERSTEHEN_TEIL_1_DATA_A1A2, 2: LESEVERSTEHEN_TEIL_2_DATA_A1A2, 3: LESEVERSTEHEN_TEIL_3_DATA_A1A2 };
   const b1 = { 1: LESEVERSTEHEN_TEIL_1_DATA_B1, 2: LESEVERSTEHEN_TEIL_2_DATA_B1, 3: LESEVERSTEHEN_TEIL_3_DATA_B1 };
-  return (state.activeLevel === "A1-A2" ? a1a2 : b1)[teil] || [];
+  return (state.activeLevel === "A1-A2" ? a1a2 : b1)[t] || [];
 }
 
 function getActiveSprachbausteineData(teil) {
+  const t = teil !== undefined ? teil : (state.activeSprachbausteinePart || 1);
   const a1a2 = { 1: SPRACHBAUSTEINE_TEIL_1_DATA_A1A2, 2: SPRACHBAUSTEINE_TEIL_2_DATA_A1A2 };
   const b1 = { 1: SPRACHBAUSTEINE_TEIL_1_DATA_B1, 2: SPRACHBAUSTEINE_TEIL_2_DATA_B1 };
-  return (state.activeLevel === "A1-A2" ? a1a2 : b1)[teil] || [];
+  return (state.activeLevel === "A1-A2" ? a1a2 : b1)[t] || [];
 }
 
 function getActiveLessonQuizzes() {

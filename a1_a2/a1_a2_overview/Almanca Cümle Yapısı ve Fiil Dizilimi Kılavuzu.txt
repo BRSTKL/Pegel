@@ -1,0 +1,18 @@
+﻿Selam! Almanca cümle kurmayı hiç gözünde büyütme. Seninle en temelden, herkesin çok rahat anlayacağı bir şekilde konuşalım.
+Almancada "Temel Dizilim" (cümle kurma mantığı) aslında tek bir demir kuralın etrafında döner: Cümlenin patronu fiildir ve her zaman 2. koltukta oturur 1, 2.
+Bu kuralın etrafında cümlenin geri kalanının nasıl şekillendiğine beraber bakalım:
+1. Patron Asla Yerinden Kalkmaz ve Sana Özgürlük SağlarNormal bir cümlede, fiili (yüklemi) 2. sıraya çiviyle çakman gerekir 1. Cümleye ne eklersen ekle, bu yer değişmez.Bunun Almancaya sağladığı harika bir kolaylık vardır: İstediğin gibi esneklik yapabilir, vurgulamak istediğin kelimeyi cümlenin en başına (1. sıraya) alabilirsin 3, 4.
+Hemen kaynaklardaki mektup örneğiyle bunu görselleştirelim:
+* Ben yazıyorum yarın babama bir mektup. (Ich schreibe morgen...) -> Özne başta, fiil 2. sırada 5.
+* Yarın yazıyorum ben babama bir mektup. (Morgen schreibe ich...) -> "Yarın" vurgulandı ve başa alındı, fiil yine 2. sırada 3.
+* Babama yazıyorum ben yarın bir mektup. (Meinem Vater schreibe ich...) -> "Kime" yazacağımızı vurguladık, fiil yine 2. sırada 4.
+* Bir mektup yazıyorum ben yarın babama. (Einen Brief schreibe ich...) -> "Neyi" yazacağımızı vurguladık, fiil yine ve her zaman 2. sırada 6!
+2. Özne ve Fiil Ayrılmaz SevgilidirNormalde cümleye özne ile başlarsın ve fiil hemen arkasından gelir. Ama yukarıdaki örneklerde gördüğün gibi, cümlenin başına "Yarın" veya "Babama" gibi başka bir kelime getirirsen, özneye ne olur?Özne ve çekimli fiil birbirine aşıktır ve normal bir cümlede aralarına kimse giremez 7. Fiil 2. sıradaki sarsılmaz yerini koruduğu için, özne mecburen hemen onun diğer yanına, yani 3. sıraya geçer 7, 8.
+3. Cümlenin Geri Kalanı (TeKaMoLo)Fiili 2. sıraya oturttun, özneyi de ondan ayırmadın. Peki cümlenin geri kalanı nasıl dizilecek? Mükemmel bir Almanca cümle kurmak için TeKaMoLo kuralını kullanırız 9, 10.Fiilden sonra kelime kalabalığını her zaman şu sırayla dizmelisin:
+* Zaman (Ne zaman?)
+* Sebep (Neden?)
+* Durum (Nasıl?)
+* Mekan (Nereye/Nerede?) 10, 11.
+4. Peki İki Fiil Varsa Ne Olur?Diyelim ki "Yüzmeye gitmek istiyorum" diyeceksin. Burada hem "istemek" (yardımcı) hem "yüzmek" (ana eylem) var. Kural yine bozulmaz: Sana göre çekimlenen fiil (istiyorum) 2. sıraya oturur 2. Asıl olayı anlatan diğer fiil (yüzmek) ise hiçbir eke uğramadan cümlenin en, ama en sonuna atılır 2, 12.
+İşte Almancanın o meşhur "Temel Dizilim" mantığı tamamen bu 2. sıra kuralı ve onun etrafında şekillenen bu basit yer değiştirmelerden ibarettir. Sadece dass (ki) veya weil (çünkü) gibi bazı özel bağlaçlar kullandığında bu kural bozulur ve fiil en sona gider 13, 14.
+Mantık kafanda biraz daha netleşti mi? İstersen bu kuralı pekiştirmek için basit Türkçe bir cümleyi adım adım Almancaya çevirmeyi deneyebiliriz.

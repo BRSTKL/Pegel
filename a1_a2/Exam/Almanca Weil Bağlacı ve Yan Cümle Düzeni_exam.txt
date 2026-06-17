@@ -1,0 +1,83 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: NEBENSATZ MIT "WEIL" (ÇÜNKÜ / -DIĞI İÇİN)
+========================================================================
+
+KURAL HATIRLATMASI (A1-A2 SEVİYESİ):
+1. Normal (Hauptsatz) bir cümlede çekimli fiil her zaman 2. sıradadır.
+   - Ich bin krank. (Fiil: bin -> Pos. 2)
+2. Cümleye "weil" bağlacı geldiğinde, çekimli fiil cümlenin TA EN SONUNA gider!
+   - Ich bleibe im Bett, weil ich krank bin. (Fiil "bin" en sonda!)
+3. Eğer cümlede iki fiil varsa (örneğin modalverb ile), çekimlenen modal fiil en sona, mastar haldeki fiilin de arkasına geçer!
+   - Ich kann nicht kommen. -> ..., weil ich nicht kommen kann.
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Sätze bauen mit "weil" (Cümle Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie darauf, dass das konjugierte Verb im weil-Satz ganz am Ende steht!
+
+1. ich / zu Hause / bleibe / , / weil / müde / ich / bin .
+   _____________________________________________________________
+
+2. Herr Novak / ruft an / , / weil / das Paket / ist / weg .
+   _____________________________________________________________
+
+3. sie / Deutsch / lernt / , / weil / einen Beruf / braucht / sie .
+   _____________________________________________________________
+
+4. ich / nicht / kommen / kann / , / weil / keine Zeit / ich / habe .
+   _____________________________________________________________
+
+
+ÜBUNG 2: Aktiv verbinden (İki Cümleyi "weil" ile Bağlama)
+Verbinden Sie die zwei Sätze mit "weil". Vergessen Sie nicht das Komma (virgül) vor weil!
+
+Örnek: Ich trinke Wasser. Ich habe Durst. -> Ich trinke Wasser, weil ich Durst habe.
+
+1. Frau Alahmed kommt zu spät. Ihr Wecker war kaputt.
+   -> Frau Alahmed kommt zu spät, weil ________________________.
+
+2. Er geht zum Arzt. Sein Kopf tut weh.
+   -> Er geht zum Arzt, weil __________________________________.
+
+3. Wir gehen im Restaurant essen. Wir wollen heute nicht kochen. (Achtung: Modalverb!)
+   -> Wir gehen im Restaurant essen, weil _____________________.
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welcher Satz ist grammatikalisch richtig? Kreuzen Sie an (A, B oder C).
+
+1. - Warum lernst du so fleißig? - Ich lerne fleißig, _________.
+   [ ] A) weil ich will in Deutschland studieren.
+   [ ] B) weil ich in Deutschland studieren will.
+   [ ] C) weil ich will studieren in Deutschland.
+
+2. Herr Demir kommt heute nicht zur Arbeit, _________.
+   [ ] A) weil seine Wohnungstür blockiert ist.
+   [ ] B) weil seine Wohnungstür ist blockiert.
+   [ ] C) weil ist seine Wohnungstür blockiert.
+
+3. Wir kaufen einen elektrischen Heizlüfter, _________.
+   [ ] A) weil die Wohnung kalt ist.
+   [ ] B) weil ist die Wohnung kalt.
+   [ ] C) weil die Wohnung ist kalt.
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. Ich bleibe zu Hause, weil ich müde bin. (Çekimli fiil 'bin' en sondadır.)
+2. Herr Novak ruft an, weil das Paket weg ist. (Achtung: 'anrufen' ayrılan fiildir ancak ana cümlede ayrılır, weil kısmıyla ilgisi yoktur.)
+3. Sie lernt Deutsch, weil sie einen Beruf braucht. (Fiil 'braucht' en sondadır.)
+4. Ich kann nicht kommen, weil ich keine Zeit habe. (Fiil 'habe' en sondadır.)
+
+ÜBUNG 2:
+1. weil ihr Wecker kaputt war. (Geçmiş zaman fiili 'war' en sona gider.)
+2. weil sein Kopf weh tut. (Ayrılabilen 'wehtun' fiili yan cümlede birleşir ve 'tut' en sona çekimli olarak yazılır.)
+3. weil wir heute nicht kochen wollen. (Modalverb olan 'wollen' en sona, mastar haldeki 'kochen' fiilinin de arkasına geçer!)
+
+ÜBUNG 3:
+1. B - İki fiilli cümlede modal fiil (will) cümlenin ta en sonuna, mastar haldeki esas fiilin (studieren) de sağına fırlatılır.
+2. A - "weil" bağlacından sonra özne (seine Wohnungstür) gelir ve çekimli fiil "ist" en sonda yer alır.
+3. A - "weil" kuralına göre "ist" fiili cümlenin en ucunda olmak zorundadır.

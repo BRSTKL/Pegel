@@ -1,0 +1,82 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: NEBENSATZ MIT "DASS" (-DIĞI / Kİ)
+========================================================================
+
+KURAL HATIRLATMASI (A1-A2 SEVİYESİ):
+1. Normal (Hauptsatz) bir cümlede çekimli fiil her zaman 2. sıradadır.
+   - Du kommst morgen. (Fiil: kommst -> Pos. 2)
+2. Cümleye "dass" bağlacı geldiğinde, çekimli fiil cümlenin TA EN SONUNA gider!
+   - Ich weiß, dass du morgen kommst. (Fiil "kommst" en sonda!)
+3. "dass" cümlesinden önce mutlaka bir virgül (,) koyulur.
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Sätze bauen mit "dass" (Cümle Kurma)
+Bringen Sie die Wörter in die richtige রয়েnfolge. Achten Sie darauf, dass das konjugierte Verb im dass-Satz ganz am Ende steht!
+
+1. ich / weiß / , / dass / lernt / Deutsch / Erhan .
+   _____________________________________________________________
+
+2. der Arzt / sagt / , / dass / du / krank / bist .
+   _____________________________________________________________
+
+3. ich / glaube / , / dass / kommt / heute / das Paket .
+   _____________________________________________________________
+
+4. meine Mutter / denkt / , / dass / warm / das Essen / ist .
+   _____________________________________________________________
+
+
+ÜBUNG 2: Zwei Sätze verbinden (İki Cümleyi "dass" ile Bağlama)
+Verbinden Sie die zwei Sätze mit "dass". Vergessen Sie nicht das Komma (virgül) vor dass!
+
+Örnek: Ich weiß es nicht. Du liebst mich. -> Ich weiß nicht, dass du mich liebst.
+
+1. Ich glaube. Morgen regnet es.
+   -> Ich glaube, dass _________________________________________.
+
+2. Herr Demir sagt. Seine Wohnungstür ist kaputt.
+   -> Herr Demir sagt, dass ____________________________________.
+
+3. Wir wissen. Berlin ist sehr groß.
+   -> Wir wissen, dass _________________________________________.
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welcher Satz ist grammatikalisch richtig? Kreuzen Sie an (A, B oder C).
+
+1. - Was sagt Herr Novak? - Er sagt, _________.
+   [ ] A) dass er hat heute keine Zeit.
+   [ ] B) dass er heute keine Zeit hat.
+   [ ] C) dass hat er heute keine Zeit.
+
+2. Ich glaube, _________ heute nicht zur Arbeit kommt.
+   [ ] A) dass Begi
+   [ ] B) weil Begi
+   [ ] C) dass kommt Begi
+
+3. Wissen Sie, _________?
+   [ ] A) dass das Hotel im Zentrum ist
+   [ ] B) dass das Hotel ist im Zentrum
+   [ ] C) dass im Zentrum das Hotel ist
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. Ich weiß, dass Erhan Deutsch lernt. (Çekimli fiil 'lernt' en sondadır.)
+2. Der Arzt sagt, dass du krank bist. (Fiil 'bist' en sondadır.)
+3. Ich glaube, dass das Paket heute kommt. (TeKaMoLo: zaman ifadesi 'heute' ortada, fiil 'kommt' en sondadır.)
+4. Meine Mutter denkt, dass das Essen warm ist. (Fiil 'ist' en sondadır.)
+
+ÜBUNG 2:
+1. dass es morgen regnet. (Çekimli fiil 'regnet' en sona gider.)
+2. dass seine Wohnungstür kaputt ist. (Çekimli fiil 'ist' en sona fırlatılır.)
+3. dass Berlin sehr groß ist. (Fiil 'ist' en sonda yer alır.)
+
+ÜBUNG 3:
+1. B - "dass" kuralına göre çekimli fiil (hat) cümlenin ta en sonuna, kuyruğun en ucuna gitmek zorundadır.
+2. A - Boşluktan hemen sonra özne (Begi) gelmelidir ve fiil (kommt) zaten cümlenin en sonuna atılmıştır.
+3. A - "Wissen Sie, ..." bir soru cümlesidir ancak "dass" yan cümlesindeki fiilin (ist) en sonda olma kuralını değiştirmez.

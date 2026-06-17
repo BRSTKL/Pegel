@@ -1,0 +1,81 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: BEGRÜSSUNG UND VERABSCHIEDUNG
+========================================================================
+
+KURAL HATIRLATMASI VE PÜF NOKTALARI:
+1. Selamlaşma (Begrüßung):
+   - Hallo: Günün her saati (Standart)
+   - Guten Morgen: Sabah (06:00 - 09:00)
+   - Guten Tag: Gün içinde / İyi günler (10:00 - 17:00)
+   - Guten Abend: İyi akşamlar (17:00 - 20:00)
+
+2. Vedalaşma (Verabschiedung):
+   - Gute Nacht: İyi geceler (Saat 20:00'den sonra). DİKKAT: "Guten" değil, "-n" harfi düşer ve "Gute" olur!
+   - Auf Wiedersehen: Yüz yüze görüşürken (Göz kontağı var).
+   - Auf Wiederhören: Sadece TELEFONDA konuşurken (Hören = Duymak).
+   - Tschüss / Bis bald: Günlük dilde samimi vedalaşmalar.
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Welches Wort passt? (Boşlukları Uygun Kalıpla Tamamlayın)
+(Hallo / Guten Morgen / Guten Abend / Gute Nacht / Auf Wiederhören / Auf Wiedersehen)
+
+1. Es ist 08:00 Uhr morgens. Herr Demir kommt ins Büro. Er sagt: "____________________, Kollegen!"
+2. Es ist 23:00 Uhr. Das Kind geht ins Bett. Es sagt zu den Eltern: "____________________!"
+3. Herr Novak spricht am Telefon mit dem Kundenservice. Am Ende sagt er: "Vielen Dank und ____________________!"
+4. Mia trifft Lukas um 19:00 Uhr im Restaurant. Sie sagt: "____________________, Lukas! Wie geht es dir?"
+5. Herr Demir verlässt das Bürgeramt nach dem Termin. Er sagt zur Mitarbeiterin: "Tschüss und ____________________!"
+
+
+ÜBUNG 2: Sätze bauen (Diyalog Oluşturma)
+Bringen Sie die Wörter in die richtige Reihenfolge, um korrekte Sätze zu bilden.
+
+1. Herr Demir / Guten Tag / , / ! / wie / Ihnen / geht / es / ?
+   _____________________________________________________________
+
+2. am Telefon / ich / sagen / "Auf Wiederhören" / .
+   _____________________________________________________________
+
+3. gehen / wir / um 22:00 Uhr / ins Bett / und / sagen / "Gute Nacht" .
+   _____________________________________________________________
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welche Antwort oder welcher Ausdruck passt perfekt? Kreuzen Sie an (A, B oder C).
+
+1. Frau Alahmed ruft die Volkshochschule an. Wie verabschiedet sie sich am TELEFON?
+   [ ] A) Auf Wiedersehen
+   [ ] B) Auf Wiederhören
+   [ ] C) Gute Nacht
+
+2. Wie schreibt man "İyi geceler" auf Deutsch richtig?
+   [ ] A) Guten Nacht
+   [ ] B) Gute Nacht
+   [ ] C) Guten Morgen
+
+3. Es ist 14:00 Uhr. Herr Novak geht in den Supermarkt. Wie begrüßt er die Verkäuferin?
+   [ ] A) Guten Tag
+   [ ] B) Guten Morgen
+   [ ] C) Guten Abend
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. Guten Morgen (Sabah saat 08:00 için en uygun selamlaşmadır.)
+2. Gute Nacht (Saat 23:00'te uyumaya giderken kullanılır, "-n" harfi yoktur.)
+3. Auf Wiederhören (Telefon konuşması olduğu için duymak anlamına gelen 'hören' köklü kalıp seçilir.)
+4. Guten Abend (Saat 19:00 akşam vaktidir, 'Guten Abend' denir.)
+5. Auf Wiedersehen (Yüz yüze bir iletişimden sonra ayrılırken kullanılır.)
+
+ÜBUNG 2:
+1. Guten Tag, Herr Demir! Wie geht es Ihnen? (Kibar hitap cümlesi, fiil 'geht' doğru konumdadır.)
+2. Am Telefon sage ich "Auf Wiederhören". / Ich sage am Telefon "Auf Wiederhören".
+3. Um 22:00 Uhr gehen wir ins Bett und sagen "Gute Nacht". / Wir gehen um 22:00 Uhr ins Bett und sagen "Gute Nacht".
+
+ÜBUNG 3:
+1. B - Telefonda vedalaşırken "duymak üzere" anlamına gelen "Auf Wiederhören" kalıbı zorunludur.
+2. B - Kelime yapısından dolayı "Guten" değil, "-n" harfi düşerek "Gute Nacht" şeklinde yazılır.
+3. A - Saat 14:00 gün ortası olduğu için "İyi günler" anlamına gelen "Guten Tag" ifadesi doğru selamlamadır.

@@ -1,0 +1,83 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: DIE UHRZEITEN (SAATLER VE OKUNUŞLARI)
+========================================================================
+
+KURAL HATIRLATMASI VE ALTIN FORMÜLLER:
+1. Soru Kalıpları: Wie spät ist es? / Wie viel Uhr ist es?
+2. Cevap Başlangıcı: Es ist...
+3. Günlük Dilde Formül: [Dakika] + [nach / vor] + [Saat]
+   - nach: geçiyor  |  vor: var  |  Viertel: çeyrek
+4. BUÇUK (halb) FORMÜLÜ: Es ist halb + [BİR SONRAKİ SAAT!]
+   - Örnek: 11:30 -> Es ist halb zwölf. (12'ye yarım var / 11 buçuk)
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Wie spät ist es? (Günlük Dilde Saatleri Yazın)
+Schreiben Sie die Uhrzeit auf Deutsch (Formelle veya informelle Varianten).
+
+1. (09:00 - Tam Saat)    Es ist _________________________________________.
+2. (19:10 - Geçiyor)     Es ist _________________________________________.
+3. (22:50 - Var)         Es ist _________________________________________.
+4. (09:15 - Çeyrek Geç)  Es ist _________________________________________.
+5. (09:45 - Çeyrek Var)  Es ist _________________________________________.
+6. (11:30 - Buçuk)       Es ist _________________________________________.
+7. (05:30 - Buçuk)       Es ist _________________________________________.
+8. (17:00 - Resmi/Sokak) Es ist _________________________________________.
+
+
+ÜBUNG 2: Rakamları Eşleştirin (Uhrzeiten Zuordnen)
+Welche digitale Uhrzeit passt zu welchem Satz? Schreiben Sie die passende Uhrzeit (A, B, C, D, E) vor die Sätze.
+
+A) 14:15    B) 16:30    C) 08:55    D) 12:00    E) 20:05
+
+1. [   ] Es ist halb fünf.
+2. [   ] Es ist Viertel nach zwei.
+3. [   ] Es ist fünf vor neun.
+4. [   ] Es ist zwölf Uhr.
+5. [   ] Es ist fünf nach acht.
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welcher Satz drückt die Uhrzeit perfekt aus? Kreuzen Sie an (A, B oder C).
+
+1. Ahmet hat um 15:30 Uhr einen Termin beim Bürgeramt. Wie sagt er das informel (sokak dilinde)?
+   [ ] A) Es ist halb drei.
+   [ ] A) Es ist halb vier.
+   [ ] C) Es ist drei Uhr dreißig.
+
+2. Wie sagt man "10'a çeyrek var" auf Deutsch? (09:45)
+   [ ] A) Es ist Viertel vor neun.
+   [ ] B) Es ist Viertel nach zehn.
+   [ ] C) Es ist Viertel vor zehn.
+
+3. - Entschuldigung, wie viel Uhr ist es? - Es ist _________ (17:10).
+   [ ] A) zehn vor fünf
+   [ ] B) zehn nach fünf
+   [ ] C) fünf nach zehn
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. neun Uhr (Tam saatlerde sayının ardına 'Uhr' kelimesi eklenir.)
+2. zehn nach sieben (Önce dakika 'zehn', sonra 'nach', en son saat 'sieben' söylenir.)
+3. zehn vor elf (11'e 10 var mantığıyla 'zehn vor elf' yazılır.)
+4. Viertel nach neun (Çeyrek geçiyor ifadesinde 'Viertel nach' kalıbı kullanılır.)
+5. Viertel vor zehn (10'a çeyrek var ifadesinde 'Viertel vor' kalıbı kullanılır.)
+6. halb zwölf (11:30 için kılavuz kuralına göre bir sonraki saate atlanır: halb zwölf.)
+7. halb sechs (05:30 için kılavuz kuralına göre bir sonraki saate atlanır: halb sechs.)
+8. siebzehn Uhr / fünf Uhr (Resmi olarak 17:00 'siebzehn Uhr', günlük dilde 'fünf Uhr' olur.)
+
+ÜBUNG 2:
+1. B - "halb fünf" bir sonraki saati söylediği için dijital karşılığı 16:30 (4 buçuk) olur.
+2. A - "Viertel nach zwei" ifadesi 2'yi çeyrek geçiyor demektir (14:15).
+3. C - "fünf vor neun" ifadesi 9'a 5 var demektir (08:55).
+4. D - Tam saat ifadesidir (12:00).
+5. E - "fünf nach acht" ifadesi 8'i 5 geçiyor demektir (20:05).
+
+ÜBUNG 3:
+1. B - Günlük dilde 15:30 (3 buçuk) derken "halb" kalıbıyla bir sonraki rakama atlanarak "halb vier" (4'e yarım var) denir.
+2. C - "Viertel vor" var demektir. 10'a çeyrek var ifadesinin doğru karşılığı "Viertel vor zehn" şeklindedir.
+3. B - 17:10 (5'i 10 geçiyor) ifadesinde önce dakika "zehn", sonra "nach", en son sokak saati karşılığı olan "fünf" getirilir.

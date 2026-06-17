@@ -1,0 +1,17 @@
+﻿Almancada "İyelik Zamirleri" (Possessivartikel), "benim, senin, onun" diyerek bir nesnenin kime ait olduğunu belirtmemizi sağlar 1. Zamirler bağlamında ele aldığımızda, tıpkı şahıs zamirleri gibi bu yapıların da ismin hallerine ve cinsiyetine göre şekil değiştirdiğini görürüz 1.
+Bu sistemin seni hızlandıracak en önemli detayları ve püf noktaları şunlardır:
+1. Sahiplik Kökünü Belirleme:Önce nesneye kimin sahip olduğunu seçmelisin. Şahıslara göre iyelik köklerimiz şunlardır:
+* ich (ben) -> mein (benim) 2
+* du (sen) -> dein (senin) 2
+* er / es (o - erkek/nötr) -> sein (onun) 2
+* sie (o - kadın) -> ihr (onun) 2, 3
+* wir (biz) -> unser (bizim) 3
+* ihr (siz) -> euer (sizin) 3
+* sie / Sie (onlar / Siz) -> ihr / Ihr (onların / Sizin) 3
+2. En Büyük Püf Noktası: Şaşmaz "-e" Kuralı (Nesnenin Cinsiyeti)İyelik zamirlerinde en sık yapılan hata, eki sahip olana göre getirmektir; oysa kural gereği ek, sahip olunan nesnenin artikeline göre belirlenir 1, 4.
+* Eğer sahip olduğun nesnenin artikeli der (eril) veya das (nötr) ise, seçtiğin iyelik kökü hiçbir ek almadan yalın haliyle kalır 2, 4.
+* Örnek: Bu benim kitabım (das Buch). -> Das ist mein Buch. 5.
+* Eğer sahip olduğun nesnenin artikeli die (dişil) veya kelime çoğul ise, seçtiğin iyelik kökünün sonuna istisnasız olarak bir "-e" harfi eklersin 6.
+* Örnek: Bu senin çantan (die Tasche). -> Das ist deine Tasche. 5, 6.
+* Örnek: Bunlar bizim kitaplarımız (die Bücher - çoğul). -> Das sind unsere Bücher. 7.
+3. "Euer" Kelimesindeki İstisna:İkinci çoğul şahıs olan "siz" (ihr) için kullandığımız euer (sizin) kelimesi, "die" veya çoğul bir isimden dolayı sonuna "-e" eki aldığında ortadaki "e" harfi düşer 8. Euere yerine okunuşu kolaylaştırmak için eure şekline bürünür (eure Bücher - sizin kitaplarınız) 8, 9.

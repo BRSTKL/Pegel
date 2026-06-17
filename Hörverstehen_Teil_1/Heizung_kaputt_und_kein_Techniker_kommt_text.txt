@@ -1,0 +1,48 @@
+telc B1 - Hören Teil 1: Sınav Soruları ve Cevap Anahtarı Analizi
+
+Situation: Sie hören ein Gespräch im Radio über ein Problem mit der Heizung.
+Lesen Sie die Aufgaben 1–5. SIND DIE AUSSAGEN RICHTIG ODER FALSCH?
+
+========================================================================
+SINAV SORULARI
+========================================================================
+
+1. Frau Dimitrova hat am Freitag vergeblich auf den Handwerker gewartet.
+   [ ] Richtig
+   [ ] Falsch
+
+2. Es ist das erste Mal, dass die Firma einen Termin mit Frau Dimitrova vergessen hat.
+   [ ] Richtig
+   [ ] Falsch
+
+3. Der neue Express-Termin mit dem Techniker findet noch am selben Tag statt.
+   [ ] Richtig
+   [ ] Falsch
+
+4. Die Firma schickt Frau Dimitrova als Entschädigung ein kostenloses Heizgerät.
+   [ ] Richtig
+   [ ] Falsch
+
+5. Am Ende musste Frau Dimitrova die Servicegebühr für die Reparatur selbst bezahlen.
+   [ ] Richtig
+   [ ] Falsch
+
+
+========================================================================
+CEVAP ANAHTARI VE AYRINTILI ANALİZ (PRÜFER-NOTIZEN)
+========================================================================
+
+1. Soru için Cevap: RICHTIG
+   - Nedeni: Metinde "Zwischen 8 und 12 Uhr soll der Techniker da sein, aber niemand kommt, gar niemand." denmektedir. "Vergeblich warten" (boşuna beklemek) ifadesi B1 seviyesinde bir kelime oyunudur ve metindeki durumu tam olarak karşılar.
+
+2. Soru için Cevap: FALSCH
+   - Nedeni: Metinde açıkça şu ifade geçmektedir: "Und ein wichtiges Detail aus dem Text ist, das passiert ihr nun schon zum zweiten Mal." Soru ise bunun "ilk kez" (das erste Mal) olduğunu iddia etmektedir. Bu, klasik bir telc çeldiricisidir (Sayısal/Sıklık kandırmacası).
+
+3. Soru için Cevap: FALSCH
+   - Nedeni: Metinde müşteri temsilcisinin gelecek hafta için ("für die nächste Woche") bir Express-Termin sözü verdiği belirtilmektedir. Soru ise "aynı gün" (noch am selben Tag) diyerek adayı şaşırtmayı hedeflemektedir.
+
+4. Soru için Cevap: RICHTIG
+   - Nedeni: Metindeki "Sie schickt kostenlos einen elektrischen Heizlüfter" (elektrikli fanlı ısıtıcı) ifadesi, soruda "Heizgerät" (ısıtma cihazı) olarak "paraphrase" edilmiştir (üst anlamlı kelime kullanımı). telc B1 sınavı tam olarak bu kelime değiştirme ve yakalama becerisini ölçer.
+
+5. Soru için Cevap: FALSCH
+   - Nedeni: Metinde "Frau Dimitrova muss auch keine Servicegebühr bezahlen" ifadesi açıkça yer almaktadır. Soru ise ücreti kendisinin ödemek zorunda kaldığını (selbst bezahlen) iddia ederek metnin tam tersini savunmaktadır.

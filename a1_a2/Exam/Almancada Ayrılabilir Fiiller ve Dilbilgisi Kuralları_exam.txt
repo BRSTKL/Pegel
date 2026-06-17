@@ -1,0 +1,80 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: TRENNBARE VERBEN (AYRILABİLİR FİİLLER)
+========================================================================
+
+KURAL HATIRLATMASI VE ALTIN İSKELET:
+1. Şimdiki Zaman (Präsens): 
+   - Kök fiil özneye göre çekimlenip 2. sıraya gelir.
+   - Ön takı (auf, an, ein vb.) HİÇBİR DEĞİŞİKLİĞE UĞRAMADAN cümlenin EN SONUNA gider.
+   - Örnek: Ich mache das Fenster auf. / Ich räume das Zimmer auf.
+
+2. Geçmiş Zaman (Perfekt):
+   - "-ge-" takısı ön takı ile fiilin arasına girer.
+   - Örnek: einkaufen -> eingekauft  |  anrufen -> angerufen
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Sätze bauen im Präsens (Ayrılabilir Fiillerle Cümle Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie darauf, dass der Präfix (ön takı) ganz am Ende steht!
+
+1. das Fenster / ich / auf / mache / heute . (aufmachen)
+   _____________________________________________________________
+
+2. das Zimmer / jeden Samstag / räumt / auf / Erhan . (aufräumen)
+   _____________________________________________________________
+
+3. im Supermarkt / meine Mutter / kauft / ein / heute . (einkaufen)
+   _____________________________________________________________
+
+4. meinen Vater / rufe / an / ich / morgen . (anrufen)
+   _____________________________________________________________
+
+
+ÜBUNG 2: Perfekt Formen ergänzen (Geçmiş Zaman Formları)
+Schreiben Sie das Partizip II der ayrılabilir fiiller. Achten Sie auf das "-ge-" in der Mitte!
+
+1. (einkaufen)  Wir haben heute im Supermarkt _______________________.
+2. (anrufen)    Herr Novak hat mich gestern _______________________.
+3. (aufmachen)  Wer hat die Tür _______________________?
+4. (aufräumen)  Die Kinder haben das Zimmer nicht _______________________.
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welcher Satz ist grammatikalisch richtig? Kreuzen Sie an (A, B oder C).
+
+1. - Wann räumst du deine Wohnung auf? - Ich _________.
+   [ ] A) räume meine Wohnung auf morgen.
+   [ ] B) räume morgen meine Wohnung auf.
+   [ ] C) aufraume morgen meine Wohnung.
+
+2. Herr Demir _________ jeden Tag seine Kollegen _________. (anrufen)
+   [ ] A) ruft / an
+   [ ] B) anruft / -
+   [ ] C) ruft / gean
+
+3. Wir haben am Wochenende viel Gemüse _________. (einkaufen)
+   [ ] A) geeinkauft
+   [ ] B) eingekauft
+   [ ] C) einkauft
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. Ich mache heute das Fenster auf. / Heute mache ich das Fenster auf. (TeKaMoLo: 'heute' zaman ifadesi ortada veya başta, ön takı 'auf' en sondadır.)
+2. Erhan räumt jeden Samstag das Zimmer auf. / Jeden Samstag räumt Erhan das Zimmer auf. (Fiil 'räumt' 2. sırada, 'auf' en sondadır.)
+3. Meine Mutter kauft heute im Supermarkt ein. / Heute kauft meine Mutter im Supermarkt ein. (Ön takı 'ein' en sondadır.)
+4. Ich rufe morgen meinen Vater an. / Morgen rufe ich meinen Vater an. (Ön takı 'an' en sondadır.)
+
+ÜBUNG 2:
+1. eingekauft ('-ge-' takısı 'ein' ve 'kaufen' arasına girer.)
+2. angerufen ('-ge-' takısı 'an' ve 'rufen' arasına girer.)
+3. aufgemacht ('-ge-' takısı 'auf' ve 'machen' arasına girer.)
+4. aufgeräumt ('-ge-' takısı 'auf' ve 'räumen' arasına girer.)
+
+ÜBUNG 3:
+1. B - Çekimli kök fiil "räume" 2. sırada kalmalı, ön takı "auf" ise TeKaMoLo sırasından sonra cümlenin ta en sonuna fırlatılmalıdır.
+2. A - "anrufen" fiili şimdiki zamanda ayrılır; "ruft" 2. sıraya gelir, "an" takısı ise cümlenin en sonuna gider.
+3. B - Ayrılabilir fiillerin Perfekt halinde "-ge-" takısı ön ek ile ana fiilin ortasına sızar, bu yüzden doğru yazım "eingekauft" şeklindedir.

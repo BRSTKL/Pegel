@@ -1,0 +1,82 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: NEBENSATZ MIT "OB" (-IP/-MADIĞI)
+========================================================================
+
+KURAL HATIRLATMASI (A1-A2 SEVİYESİ):
+1. Anlamı: "ob" cümleye "-ıp / -madığı" veya "-ecek mi / -meyecek mi" anlamı katar.
+2. Cümle Yapısı: Cümleye "ob" geldiğinde, çekimli fiil cümlenin TA EN SONUNA gider!
+   - Ich weiß nicht, ob er heute kommt. (Fiil "kommt" en sonda!)
+3. "ob" kelimesi anlamı tek başına karşıladığı için yan cümleye "nicht" eklemeye gerek yoktur.
+4. "ob" cümlesinden önce mutlaka bir virgül (,) koyulur.
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Sätze bauen mit "ob" (Cümle Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie darauf, dass das konjugierte Verb im ob-Satz ganz am Ende steht!
+
+1. ich / weiß / nicht / , / ob / kommt / bugün / das Paket .
+   _____________________________________________________________
+
+2. Erhan / fragt / , / ob / ist / warm / das Essen .
+   _____________________________________________________________
+
+3. ich / möchte / wissen / , / ob / du / hast / am Samstag / Zeit .
+   _____________________________________________________________
+
+4. der Arzt / sagt / nicht / , / ob / er / hat / heute / Zeit .
+   _____________________________________________________________
+
+
+ÜBUNG 2: Zwei Sätze verbinden (İki Cümleyi "ob" ile Bağlama)
+Verbinden Sie die zwei Sätze mit "ob". Vergessen Sie nicht das Komma (virgül) vor ob!
+
+Örnek: Ich weiß es nicht. Kommt Erhan heute? -> Ich weiß nicht, ob Erhan heute kommt.
+
+1. Frau Alahmed fragt. Ist die Wohnung noch frei?
+   -> Frau Alahmed fragt, ob __________________________________.
+
+2. Ich kann nicht sagen. Kommt der Handwerker morgen?
+   -> Ich kann nicht sagen, ob ________________________________.
+
+3. Wir wissen nicht. Hat Herr Novak einen Laptop?
+   -> Wir wissen nicht, ob ____________________________________.
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welcher Satz ist grammatikalisch richtig? Kreuzen Sie an (A, B oder C).
+
+1. - Weißt du, _________? - Nein, ich weiß es nicht.
+   [ ] A) ob Herr Demir kommt heute ins Büro
+   [ ] B) ob Herr Demir heute ins Büro kommt
+   [ ] C) ob kommt Herr Demir heute ins Büro
+
+2. Ich möchte wissen, ob du heute Abend Zeit _________.
+   [ ] A) hast
+   [ ] B) hat
+   [ ] C) bist
+
+3. Erhan fragt den Lehrer, _________ die telc-Prüfung schwer ist.
+   [ ] A) dass
+   [ ] B) weil
+   [ ] C) ob
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. Ich weiß nicht, ob das Paket bugün kommt. (Çekimli fiil 'kommt' en sondadır.)
+2. Erhan fragt, ob das Essen warm ist. (Fiil 'ist' en sondadır.)
+3. Ich möchte wissen, ob du am Samstag Zeit hast. (Fiil 'hast' en sondadır.)
+4. Der Arzt sagt nicht, ob er heute Zeit hat. (Fiil 'hat' en sondadır.)
+
+ÜBUNG 2:
+1. ob die Wohnung noch frei ist. (Çekimli fiil 'ist' en sona gider.)
+2. ob der Handwerker morgen kommt. (Çekimli fiil 'kommt' en sona fırlatılır.)
+3. ob Herr Novak einen Laptop hat. (Fiil 'hat' en sonda yer alır.)
+
+ÜBUNG 3:
+1. B - "ob" yan cümle kuralına göre çekimli fiil (kommt) cümlenin ta en sonuna, kuyruğun en ucuna gitmek zorundadır.
+2. A - "du" öznesine göre "haben" fiilinin doğru çekimi cümlenin en sonunda "hast" şeklinde olmalıdır.
+3. C - Cümle bir merak/soru ("... olup olmadığını soruyor") belirttiği için en uygun bağlaç "ob" kelimesidir.

@@ -1,0 +1,11 @@
+﻿Az önce konuştuğumuz "edatlı fiillerle" (Verben mit Präpositionen) soru sormak veya önceden bahsedilmiş bir duruma atıfta bulunmak istediğimizde bu "Edatlı Zarflar" (Präpositionaladverbien) devreye girer 1.
+Sistem iki basit kelime üzerinden çalışır:
+* Soru Sorarken (Wo-): Bir eylemin neye, niçin veya ne hakkında yapıldığını sorarken ait olduğu edatın başına "wo" getirirsin 1.
+* Cevap Verirken (Da-): Daha önce bahsedilen bir şeye "ona, bununla, bunun için" diye kısaca karşılık verirken edatın başına "da" getirirsin 1.
+Buradaki tek gramer kuralı şudur: Eğer kullandığın edat sesli harfle başlıyorsa (auf, über gibi), okunuşu kolaylaştırmak için araya kaynaştırma harfi olan "r" girer (wo-r-auf, da-r-auf) 2, 3. Sessiz harfle başlıyorsa (mit, von gibi) doğrudan birleşir (wo-mit, da-von) 2, 3.
+Hemen kaynaklardaki Lust haben auf (canı bir şey çekmek) kalıbıyla bu mantığı görelim 4:
+* Soru Sorarken: Canın ne istiyor? -> Worauf hast du Lust? 5.
+* Normal Cevap: Canım dondurma istiyor. -> Ich habe Lust auf Eis. 5.
+* Da- ile Kısaltılmış Tepki: Benim de canım onu (dondurmayı) istiyor. -> Ich habe darauf auch Lust. 6.
+Gördüğün gibi "darauf", uzun uzun dondurmadan bahsetmek yerine "ona/buna" diyerek cümleyi pratik bir şekilde toparlamamızı sağlar 6. Aynı mantıkla bir şeye sinirlendiğinde Worüber (Ne hakkında/Neye?) diye sorup, Darüber (Ona/Buna) diye cevap verebilirsin 7, 8.
+Özel fiil yapılarının bu son parçasını da harika bir şekilde tamamlamış olduk. Dilersen bir yön veya konum bildirdiğimiz "Yönelim Edatları" (in, durch, über) veya "Yön Bildiren Zarflar" (raus, runter, rein) konusuna geçiş yapabiliriz. Hangisinden devam edelim?

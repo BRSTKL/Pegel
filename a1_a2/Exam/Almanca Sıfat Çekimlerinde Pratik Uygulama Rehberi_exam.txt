@@ -1,0 +1,75 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: ADJEKTIVDEKLINATION (SIFAT ÇEKİMLERİ)
+========================================================================
+
+KURAL HATIRLATMASI VE PÜF NOKTALARI:
+1. Belirli Artikel (Nominativ): der/die/das aynen kalıyorsa sıfat sadece "-e" alır. (der blaue Tisch / das alte Buch). Çoğulda ise "-en" olur (die alten Bücher).
+2. Belirsiz Artikel (Nominativ): "ein" kelimesi artikeli gizlediği için sıfat orijinal artikelin son harfini alır. (der -> ein blauer... / das -> ein altes...). "eine" zaten belli ettiği için sıfat "-e" alır (eine gelbe...).
+3. Akkusativ (i-Hali): Sadece "der" grubu değişir (den / einen) ve sıfat otomatik olarak "-en" alır (den blauen Tisch). die ve das grubu yalın haldeki gibi kalır.
+4. Dativ (e-Hali): Tüm artikeller değişir (dem, der, einem, einer) ve artikel değiştiği için sıfat İSTİSNAZIS olarak "-en" takısı alır (einer alten Rose).
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Nominativ - Belirli ve Belirsiz Artikel (Yalın Hal)
+Ergänzen Sie die richtige Endung (-e, -er, -es).
+
+1. Das ist das alt___ Buch von Herrn Novak. (das Buch)
+2. Herr Demir hat ein neu___ Auto. (das Auto)
+3. Der blau___ Tisch steht im Garten. (der Tisch)
+4. Das ist ein frisch___ Kaffee. (der Kaffee)
+5. Eine gelb___ Rose liegt auf dem Tisch. (die Rose)
+6. Die alt___ Bücher liegen im Keller. (Plural / Çoğul!)
+
+
+ÜBUNG 2: Akkusativ und Dativ (İsmin Halleriyle Sıfat Çekimi)
+Ergänzen Sie die richtige Endung (Achtung: Suchen Sie zuerst den Artikel!).
+
+1. Ich suche den blau___ Tisch. (Akkusativ / der Tisch)
+2. Frau Alahmed kauft ein neu___ Fahrrad. (Akkusativ / das Fahrrad)
+3. Er hilft einer alt___ Frau. (Dativ / die Frau -> einer)
+4. Wir wohnen in einem groß___ Haus. (Dativ / das Haus -> einem)
+5. Herr Novak sucht einen neu___ Laptop. (Akkusativ / der Laptop)
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welcher Satz ist grammatikalisch richtig? Kreuzen Sie an (A, B oder C).
+
+1. - Wo ist mein Handy? - Es liegt auf dem _________ Tisch (der Tisch).
+   [ ] A) braven
+   [ ] B) bravem
+   [ ] C) braver
+
+2. Ich möchte heute ein _________ Buch lesen.
+   [ ] A) altes
+   [ ] B) alte
+   [ ] C) alten
+
+3. Er repariert den _________ Computer von Frau Dimitrova.
+   [ ] A) kaputte
+   [ ] B) kaputten
+   [ ] C) kaputter
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. alte (Belirli artikel 'das' değişmediği için sıfat '-e' alır.)
+2. neues (das Auto -> belirsiz artikel 'ein' kimliği gizlediği için sıfat nötr takısı olan '-es' alır.)
+3. blaue (Belirli artikel 'der' değişmediği için sıfat '-e' alır.)
+4. frischer (der Kaffee -> belirsiz artikel 'ein' kimliği gizlediği için sıfat eril takısı olan '-er' alır.)
+5. gelbe ('eine' zaten dişil olduğunu belli ettiği için sıfat sadece '-e' alır.)
+6. alten (Çoğul 'die' artikeliyle sıfat her zaman '-en' takısı alır.)
+
+ÜBUNG 2:
+1. blauen (Erkek kelimelerde Akkusativ ile artikel 'den' olduğu için sıfat '-en' alır.)
+2. neues (Nötr kelimelerde Akkusativ halinde 'ein' değişmez, sıfat gizli kimliği belli etmek için '-es' kalır.)
+3. alten (Dativ halinde artikel 'einer' olarak değiştiği için sıfat şaşmaz şekilde '-en' alır.)
+4. großen (Dativ halinde artikel 'einem' olarak değiştiği için sıfat şaşmaz şekilde '-en' alır.)
+5. neuen (Erkek kelimelerde Akkusativ ile artikel 'einen' olduğu için sıfat '-en' alır.)
+
+ÜBUNG 3:
+1. A - "auf dem" bir Dativ yapısıdır. Artikel 'dem' olarak değişime uğradığı için sıfat istisnasız "-en" alır (braven).
+2. A - "das Buch" nötrdür, önündeki 'ein' kimliği gizlediği için sıfat "-es" (altes) takısını üzerine alır.
+3. B - "den" artikeli Akkusativ (i-hali) belirtir. Artikel değiştiği için sıfat zorunlu olarak "-en" (kaputten) takısını alır.

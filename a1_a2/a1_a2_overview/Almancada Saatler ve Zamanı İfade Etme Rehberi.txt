@@ -1,0 +1,13 @@
+﻿Almancada saatleri ifade ederken, nerede olduğuna bağlı olarak "Resmi" (24 saatlik) ve "Günlük" (12 saatlik) olmak üzere iki farklı sistem kullanılır 1, 2.
+Saati sormak için "Wie spät ist es?" (Ne kadar geç?) veya "Wie viel Uhr ist es?" (Saat kaç?) sorularından birini kullanırsın 3. Karşılık verirken de cümleye her zaman "Es ist..." kalıbıyla başlarsın 4.
+İşte saatleri şıp diye okumanı sağlayacak pratik harita ve püf noktaları:
+1. Tam Saatler ve "Uhr" Kelimesi:Saat tam ise sayının arkasına "Uhr" kelimesini eklersin. Örneğin saat 9:00 ise Es ist neun Uhr dersin 4.Eğer saat 17:00 ise, resmi bir ortamda Es ist siebzehn Uhr dersin ama sokakta arkadaşınla konuşurken 12 saatlik sistemi baz alıp kısaca Es ist fünf Uhr (Saat 5) demen yeterlidir 1.
+2. Geçiyor (Nach) ve Var (Vor) Püf Noktası:Günlük dilde küsuratlı saatleri söylerken her zaman önce dakika, sonra durum, en son saat söylenir 5. Geçiyor demek için "nach", var demek için "vor" kullanılır 6.
+* Örnek (19:10): 7'yi 10 geçiyor -> Es ist zehn nach sieben. 5
+* Örnek (22:50): 11'e 10 var -> Es ist zehn vor elf. 7
+3. Çeyrekler (Viertel) Püf Noktası:Çeyrek anlamına gelen kelimemiz **"Viertel"**dir 6. Tıpkı dakikalarda olduğu gibi çeyrek kelimesini başa alırız.
+* Örnek (09:15): 9'u çeyrek geçiyor -> Es ist Viertel nach neun. 8
+* Örnek (09:45): 10'a çeyrek var -> Es ist Viertel vor zehn. 9
+4. En Büyük Tuzak: Buçuklar (Halb)Almanlar buçuklu saatleri söylerken içinde bulunulan saati değil, her zaman bir sonraki saati söylerler 7, 10. Yani 5:30 demek için "5 buçuk" demezler; "6'ya yarım saat var" mantığıyla bir sonraki rakama atlayıp "halb sechs" derler 7, 10.
+* Örnek (11:30): Saat 11 buçuk -> Es ist halb zwölf. (12'nin yarısı) 11.
+Saatlerdeki bu buçuklu "bir sonrakine atlama" mantığı kafanda netleşti mi? Dilersen rakamları pratik etmeye devam edeceğimiz, zaman bildiren bir diğer konuya; "Günler, Aylar ve Doğum Günü Söyleme" konusuna geçiş yapalım mı?

@@ -1,0 +1,11 @@
+﻿Almancada "Zaman ve Sayılar" (Zahlen) konusu, kendi içinde çok pratik bir matematiğe sahiptir. Sözleştiğimiz gibi hemen bu konunun da detaylı haritasını ve hayat kurtaran püf noktalarını çıkaralım:
+1. En Büyük Püf Noktası: Sayıları Tersten Okuma (21 ve Sonrası)Almancada 20'den büyük sayıları okurken önce birler basamağı, araya "ve" anlamına gelen "und" kelimesi, ardından onlar basamağı söylenir 1, 2.
+* Örnek: 24 derken "dört ve yirmi" (vier-und-zwanzig) dersin 3. Ayrıca bu uzun sayılar yazılırken hiçbir boşluk bırakılmadan tamamen bitişik yazılır 3, 4.
+2. 16, 17 ve 30'daki Şaşmaz Tuzaklar13'ten 19'a kadar olan sayıların sonuna "zehn" (on) getiririz ama iki asiye çok dikkat etmelisin: 16 derken kelimedeki "s" harfi düşer (sechzehn) ve 17 derken "en" takısı düşer (siebzehn) 5, 6. Ayrıca 20, 40, 50 gibi onluk sayılar "-zig" ile biterken, 30 sayısı istisna olarak "-ßig" (dreißig) ile biter 7.
+3. Yılları "Yüzlü" Okuma Püf NoktasıAlmancada 1999'a kadar olan yılları Türkçedeki gibi binli okumazsın; ikiye böler ve araya "yüz" kelimesi (hundert) koyarak okursun 4, 8.
+* Örnek: 1987 yılını söylerken "19 yüz 87" (neunzehn-hundert-siebenundachtzig) demen gerekir 4. Ancak 2000 ve sonrası yıllar normal okunuşuna döner (zweitausendzwei - 2002) 9, 10.
+4. Sıralama Sayıları (1., 2., 3.) Püf NoktasıDoğum günlerini veya sıraları belirtirken sayıların sonuna özel ekler getiririz:
+* 1'den 19'a kadar: Sayının sonuna "-te" eklenir 11. (Düzensiz olanlara dikkat: 1. erste, 3. dritte, 7. siebte, 8. achte) 11.
+* 20 ve sonrası: Sayının sonuna "-ste" eklenir (zwanzigste, einundzwanzigste gibi) 12.
+5. Doğum Günü ve Tarih Söyleme Püf NoktasıEğer "3 Mayıs'ta" diyerek belirli bir günden bahsediyorsan, zaman bildiren "am" edatı devreye girer. İşin asıl püf noktası; "am" edatını kullandığın an, sıralama sayısının sonuna zorunlu bir "-n" harfi eklemendir 13. Yani am dritte Mai değil, am dritten Mai demelisin 13. Almanlar tarihi sayıyla söylerken de aynı kuralı işletip "5. ayın 3'ü" mantığıyla am dritten fünften derler 13, 14.
+Sayıların bu "tersten okuma" ve "ek alma" mantığı kafanda tamamen netleşti mi? Dilersen şimdi bu rakamları doğrudan pratik edebileceğimiz "Saatler" (Die Uhrzeit) konusunun püf noktalarına geçiş yapabiliriz, ne dersin?

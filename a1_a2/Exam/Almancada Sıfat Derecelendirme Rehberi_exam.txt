@@ -1,0 +1,86 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: STEIGERUNG DER ADJEKTIVE (KIYASLAMA)
+========================================================================
+
+KURAL HATIRLATMASI VE ALTIN FORMÜLLER:
+1. Positiv (Eşitlik): so + [Sıfat Yalın] + wie 
+   - Ich bin so müde wie du. (Senin kadar yorgunum.)
+
+2. Komparativ (Kıyaslama / "Daha"): [Sıfat + er] + als
+   - Ich bin müder als du. (Senden daha yorgunum.)
+
+3. Superlativ (En Üstünlük / "En"): am + [Sıfat + sten]
+   - Ich bin am müdesten. (En yorgun benim.)
+
+4. Önemli İstisnalar ve Püf Noktaları:
+   - Umlaut Alanlar: kurz -> kürzer -> am kürzesten  |  stark -> stärker -> am stärksten
+   - Kökten Değişenler: gut -> besser -> am besten  |  gern -> lieber -> am liebsten
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Ergänzen Sie die Lücken (Boşlukları Uygun Yapılarla Tamamlayın)
+(so ... wie / als / am ... sten)
+
+1. Berlin ist çok büyük. İstanbul da çok büyük.
+   -> Berlin ist ____________________ groß ____________________ İstanbul.
+
+2. Erhan ist 25 Jahre alt. Ahmet ist 30 Jahre alt. Ahmet ist älter ____________________ Erhan.
+
+3. Meine Mutter kocht gut, aber mein Vater kocht ____________________ besten.
+
+4. Ich bin 1,80 m. Mein Bruder ist 1,85 m. Mein Bruder ist größer ____________________ ich.
+
+5. Dieses Auto ist teuer, ama jene Tasche ist ____________________ teuersten.
+
+
+ÜBUNG 2: Sıfatları Derecelendirin (Komp. ve Superlativ Formları)
+Schreiben Sie die richtige Form des Adjektivs in Klammern. Achten Sie auf Umlaut-Asiler ve Kökten Değişenler!
+
+1. (gut)        Ich trinke Kaffee, ama çay trinken ist ____________________.
+2. (gern)       Ich spiele Basketball, aber ich spiele Padel-Tennis ____________________ liebsten.
+3. (kurz)       Im Februar sind die Tage ____________________ als im Juli.
+4. (gut)        Herr Novak programmiert Python gut, aber er programmiert in SQL ____________________ besten.
+5. (stark)      Mein Vater ist stark, ama mein Opa ist ____________________ stärksten.
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welcher Satz ist grammatikalisch richtig? Kreuzen Sie an (A, B oder C).
+
+1. - Trinkst du gerne Kaffee? - Nein, ich trinke _________ Tee.
+   [ ] A) gerner
+   [ ] B) lieber
+   [ ] C) am liebsten
+
+2. Mein Laptop ist alt, ama der Laptop von Herr Demir ist noch _________ als mein Laptop.
+   [ ] A) älter
+   [ ] B) alter
+   [ ] C) am ältesten
+
+3. Ahmet lernt fleißig Deutsch. Er möchte _________ sprechen.
+   [ ] A) so gut wie
+   [ ] B) besser
+   [ ] C) am besten
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. so ... wie (Eşitlik durumlarında sıfatın önüne 'so', arkasına 'wie' getirilir.)
+2. als (Komparativ kıyaslamalarda 'daha...' anlamından sonra 'als' [den/dan] kullanımı zorunludur.)
+3. am (Zirveyi belirten Superlativ yapısının başında her zaman sabit 'am' kelimesi bulunur.)
+4. als (Kıyaslama cümlesidir, 'büyük/grösser' sıfatından sonra 'als' gelir.)
+5. am (Zirveyi belirten Superlativ yapısının başında 'am' bulunur, kelime 'am teuersten' olur.)
+
+ÜBUNG 2:
+1. besser ('gut' sıfatı kıyaslama koltuğuna oturduğunda kökten değişerek 'besser' olur.)
+2. am ('gern' sıfatının en üstünlük kalıbı 'am liebsten' şeklindedir, boşluğa 'am' gelmelidir.)
+3. kürzer ('kurz' sıfatı kıyaslamaya girdiğinde kökündeki 'u' harfi Umlaut alarak 'ü' olur ve sonuna '-er' eklenir.)
+4. am ('gut' sıfatının en üstünlük kalıbı 'am besten' şeklindedir, önündeki sabit kelime 'am' olur.)
+5. am ('stark' sıfatının en üstünlük kalıbı kökten Umlaut alarak 'am stärksten' şekline bürünür.)
+
+ÜBUNG 3:
+1. B - "Seve seve" (gern) ifadesinin kıyaslama formu ("tercihen / daha çok isteyerek") kılavuza göre kökten değişen bir asidir ve "lieber" olarak kullanılır.
+2. A - Bir kıyaslama yapıldığı ("als") için Komparativ formu seçilmelidir. "alt" sıfatı tek heceli ve sesli harf barındırdığı için Umlaut alarak "älter" formuna dönüşür.
+3. B - "Daha iyi konuşmak istiyor" anlamını vermek için "gut" sıfatının Komparativ karşılığı olan düzensiz "besser" yapısı tercih edilmelidir.

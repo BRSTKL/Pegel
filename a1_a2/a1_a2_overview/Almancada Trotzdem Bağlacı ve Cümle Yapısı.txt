@@ -1,0 +1,11 @@
+﻿Almancada "Trotzdem", "buna rağmen" demektir ve iki cümleyi birbirine bağlarken beklenmedik bir durumu veya zıtlığı ifade etmek için kullanılır 1. Daha önce konuştuğumuz "fiili sona fırlatan" yan cümle bağlaçlarından (weil, dass, wenn) farklı olarak, trotzdem bambaşka bir mantıkla çalışır.
+Olayı en basit haliyle şöyle düşünmelisin: Trotzdem bir cümleye başlarken 1. sırayı kaplayan güçlü bir kelimedir. Kuralımız neydi? Çekimli fiil (patron) her zaman 2. sıradadır. Bu yüzden, trotzdem kelimesinden hemen sonra her zaman çekimli fiil gelmek zorundadır 2.
+Hemen kaynaklardaki basit bir örnekle görelim:
+1. Önce asıl durumu söylersin: Er hat kein Geld (Onun parası yok) 2.
+2. Araya virgül veya nokta koyup trotzdem eklersin ve fiili hemen arkasına yapıştırırsın: ..., trotzdem arbeitet er nicht. (...buna rağmen çalışmıyor) 2.
+Burada sakın "trotzdem er arbeitet nicht" deme hatasına düşme; çünkü trotzdem 1. sırayı almıştır, fiil mecburen 2. sıraya oturur ve özne 3. sıraya kayar 2.
+Bu bağlacın sana sağladığı güzel bir esneklik de vardır. Eğer cümleleri virgülle değil de nokta ile ayırmak istersen, özne ile trotzdem'in yerini değiştirebilirsin 3. Fiil yine o sarsılmaz 2. sırasında kalır:
+* Başa alarak: Er hat kein Geld. Trotzdem arbeitet er nicht. 3
+* Ortaya alarak: Er hat kein Geld. Er arbeitet trotzdem nicht. 3
+İşin içine iki fiilli durumlar (modal fiiller) girdiğinde de kural aynıdır. Sana göre çekimlenen fiil trotzdem'den hemen sonra 2. sıraya gelir, asıl hareket bildiren fiil en sona atılır: Es gefällt mir sehr gut bei euch, trotzdem muss ich gehen. (Sizinle olmak çok güzel, buna rağmen gitmek zorundayım) 4.
+Gördüğün gibi trotzdem, fiili sona atan o yaramaz bağlaçlara göre temel dizilim kuralına çok daha sadıktır. Bu mantık kafanda tam olarak oturduysa, tıpatıp aynı cümle dizilimiyle çalışan "Deshalb / Deswegen" (Bu yüzden) bağlaçlarına göz atalım mı?

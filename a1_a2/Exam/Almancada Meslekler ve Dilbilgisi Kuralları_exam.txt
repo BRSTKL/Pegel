@@ -1,0 +1,87 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: DIE BERUFE (MESLEKLER VE KALIPLAR)
+========================================================================
+
+KURAL HATIRLATMASI VE ALTIN REHBER:
+1. Kadın Meslekleri Suffixi (-in): 
+   - Genellikle erkek formunun sonuna "-in" eklenir ve artikel "die" olur.
+   - der Lehrer -> die Lehrerin  |  der Verkäufer -> die Verkäuferin
+
+2. Umlaut Alan Kadın Meslekleri (ä, ö, ü):
+   - der Arzt -> die Ärztin  |  der Koch -> die Köchin  |  der Anwalt -> die Anwältin
+
+3. Özel Değişimler / İstisnalar:
+   - die Hausfrau (Ev hanımı) -> der Hausmann (Ev erkeği)
+   - die Krankenschwester (Kadın hemşire) -> der Krankenpfleger (Erkek hemşire)
+
+4. Meslek Söyleme Kalıpları:
+   - Ich bin + [Meslek]. (Artikel kullanılmaz! Örn: Ich bin Lehrer.)
+   - Ich arbeite als + [Meslek]. (Örn: Ich arbeite als Lehrerin.)
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Maskulin zu Feminin (Kadın Meslek Formuna Dönüştürme)
+Schreiben Sie die weibliche Form der Berufe. Achten Sie auf das "-in" und die Umlaut-Asiler!
+
+1. (der Verkäufer)   Frau Alahmed arbeitet als _______________________.
+2. (der Arzt)        Mia geht ins Krankenhaus. Sie ist _______________________.
+3. (der Lehrer)      Meine Tante ist _______________________ von Beruf.
+4. (der Koch)        Sie arbeitet in einem Restaurant. Sie ist _______________________.
+5. (der Anwalt)      Frau Dimitrova ist _______________________ in Berlin.
+
+
+ÜBUNG 2: Sätze bauen und ergänzen (Meslek Kalıpları)
+Bringen Sie die Wörter in die richtige Reihenfolge oder ergänzen Sie das fehlende Wort (bin / als / beruflich).
+
+1. beruflich / machen / Sie / ? / Was (Resmi meslek sorma)
+   _____________________________________________________________
+
+2. als / Erhan / arbeitet / Krankenpfleger / im Krankenhaus .
+   _____________________________________________________________
+
+3. Ich _______________ Lehrerin von Beruf.
+4. Herr Demir arbeitet _______________ Verkäufer in einem Autohaus.
+5. Was machst du _______________? (Samimi meslek sorma)
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welches Wort passt perfekt in die Lücke? Kreuzen Sie an (A, B oder C).
+
+1. - Was ist Ihr Beruf, Herr Novak? - Ich bin _________.
+   [ ] A) ein Ingenieur
+   [ ] B) Ingenieur
+   [ ] C) als Ingenieur
+
+2. Die Ehefrau von Herrn Demir arbeitet zu Hause, wäscht und kocht. Sie ist _________.
+   [ ] A) Hausmann
+   [ ] B) Hausfrau
+   [ ] C) Hausfrauin
+
+3. - Was machst du beruflich? - Ich arbeite _________ Ärztin in Berlin.
+   [ ] A) als
+   [ ] B) wie
+   [ ] C) bin
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. Verkäuferin (Standart '-in' takısı eklenir.)
+2. Ärztin (Kök harfi 'a', Umlaut alarak 'ä' olur ve sonuna '-in' gelir.)
+3. Lehrerin (Standart '-in' takısı eklenir.)
+4. Köchin (Kök harfi 'o', Umlaut alarak 'ö' olur ve sonuna '-in' gelir.)
+5. Anwältin (Kök harfi 'a', Umlaut alarak 'ä' olur ve sonuna '-in' gelir.)
+
+ÜBUNG 2:
+1. Was machen Sie beruflich? (Standart resmi meslek sorma cümlesi.)
+2. Erhan arbeitet als Krankenpfleger im Krankenhaus. ('als' kalıbı mesleklerden önce '-olarak' anlamı katar.)
+3. bin ("Ich bin..." kalıbı.)
+4. als ("arbeite als..." kalıbı.)
+5. beruflich ("Was machst du beruflich?" kalıbı.)
+
+ÜBUNG 3:
+1. B - Almancada meslek söylerken "Ich bin..." kalıbından sonra "ein/eine" artikeli getirilmez, doğrudan meslek yazılır.
+2. B - Ev işleriyle ilgilenen kadınlar için kılavuza göre kökten değişen doğru istisna "Hausfrau" kelimesidir.
+3. A - "... olarak çalışıyorum" derken "arbeite" fiili her zaman "als" edatıyla bir bütün oluşturur.

@@ -1,0 +1,87 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: VERBKONJUGATION (FİİL ÇEKİMİ VE UYUMU)
+========================================================================
+
+KURAL HATIRLATMASI VE ALTIN İSKELET:
+1. Düzenli Fiil Çekim Ekleri (Präsens):
+   - ich      -> -e  (Ich gehe)
+   - du       -> -st (Du gehst)
+   - er/sie/es-> -t  (Er/Sie/Es geht)
+   - wir      -> -en (Wir gehen)
+   - ihr      -> -t  (Ihr geht)
+   - sie/Sie  -> -en (Sie gehen)
+
+2. Sarsılmaz 2. Sıra Kuralı:
+   - Normal cümle: Ich gehe morgen im Park spazieren.
+   - Zaman başta: Morgen gehe ich im Park spazieren. (Fiil yine 2. sırada!)
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Verbformen ergänzen (Düzenli Fiil Çekimlerini Tamamlama)
+Konjugieren Sie das Verb in Klammern passend zum Subjekt.
+
+1. (gehen)      Ich _______________ heute zum Bürgeramt in Berlin.
+2. (lernen)     Du _______________ sehr fleißig für die telc-Prüfung.
+3. (machen)     Herr Novak _______________ am Wochenende eine Pause.
+4. (kochen)     Meine Mutter _______________ eine leckere Suppe.
+5. (spielen)    Wir _______________ jeden Samstag Padel-Tennis.
+6. (wohnen)     Frau Alahmed und ihr Bruder _______________ in Frankfurt.
+
+
+ÜBUNG 2: Sätze bauen mit Inversion (Zaman Başta Cümle Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie darauf: Das Zeitwort steht auf Position 1, das Verb MUSS auf Position 2 bleiben, das Subjekt kommt auf Position 3!
+
+1. heute / ich / gehe / in den Supermarkt .
+   _____________________________________________________________
+
+2. morgen / du / machst / die Hausaufgaben .
+   _____________________________________________________________
+
+3. am Samstag / spielen / meine Freunde / Basketball .
+   _____________________________________________________________
+
+4. jetzt / lernt / Erhan / Deutsch .
+   _____________________________________________________________
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welches Wort passt perfekt in die Lücke? Kreuzen Sie an (A, B oder C).
+
+1. - Was _________ du heute Nachmittag, Ahmet? - Ich spiele Fußball.
+   [ ] A) mache
+   [ ] B) machst
+   [ ] C) macht
+
+2. Morgen _________ wir nach München. Der Zug kommt pünktlich an.
+   [ ] A) gehen
+   [ ] B) gehst
+   [ ] C) fahren
+
+3. Herr Demir und Frau Mia _________ seit zwei Jahren in Berlin.
+   [ ] A) wohnt
+   [ ] B) wohnen
+   [ ] C) wohne
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. gehe ('ich' öznesine göre fiil '-e' takısı alır.)
+2. lernst ('du' öznesine göre fiil '-st' takısı alır.)
+3. macht (Herr Novak -> 'er' üçüncü tekil şahıs olduğu için fiil '-t' takısı alır.)
+4. kocht (Meine Mutter -> 'sie' üçüncü tekil şahıs olduğu için fiil '-t' takısı alır.)
+5. spielen ('wir' öznesine göre fiil mastar halinde '-en' kalır.)
+6. wohnen (Frau Alahmed und ihr Bruder -> 'sie' onlar/çoğul olduğu için fiil '-en' olur.)
+
+ÜBUNG 2:
+1. Heute gehe ich in den Supermarkt. (Zaman ifadesi başta, çekimli fiil 2. sırada, özne 3. sıradadır.)
+2. Morgen machst du die Hausaufgaben. (Fiil 'machst' du öznesine göre çekimli şekilde 2. sıradadır.)
+3. Am Samstag spielen meine Freunde Basketball. (Çoğul özne 'meine Freunde' olduğu için fiil 'spielen' olarak 2. sıraya yerleşir.)
+4. Jetzt lernt Erhan Deutsch. (Fiil 2. sırada yerini korur.)
+
+ÜBUNG 3:
+1. B - "du" şahıs zamiriyle sorulan sorularda düzenli fiil çekimi "-st" (machst) takısını almak zorundadır.
+2. C - "Morgen" zaman ifadesi başta olduğu için inversiyon olur ve fiil 2. sıraya gelir. "wir" öznesine göre doğru fiil ve çekim "fahren" (araçla gitmek) olur.
+3. B - Özne iki kişiden oluştuğu için çoğuldur (onlar / sie). Bu yüzden fiil "-en" takısıyla biten "wohnen" şeklinde çekimlenir.

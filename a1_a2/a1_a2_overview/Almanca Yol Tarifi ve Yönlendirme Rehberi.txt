@@ -1,0 +1,13 @@
+﻿Temel iletişimde yol sorma ve yol tarifi (Wegbeschreibung) yaparken genellikle "Sie" (Siz) nezaket formu üzerinden emir kipleri ve yön edatları kullanılır.
+Yol tarifi istemek için söze her zaman "Entschuldigung" (Afedersiniz) ile başlanır 1, 2. Örneğin, "Afedersiniz, üniversiteye nasıl gidebilirim?" demek için "Entschuldigung, wie kann ich in die Universität gehen?" sorusunu yöneltirsin 1, 2.
+Karşılık verirken veya birini yönlendirirken kullanılan temel kalıplar şunlardır:
+* Düz gitmek: "Gehen Sie geradeaus" (Dümdüz ilerleyin) 3.
+* Sapmak/Dönmek: Ayrılabilir bir fiil olan "abbiegen" kullanılır 4, 5. "Biegen Sie links/rechts ab" (Sola/sağa sapın) diyebilir veya "ikinci sağ sokağa sapın" demek için "die zweite Straße rechts abbiegen" kalıbını kullanabilirsin 3-5.
+* Boyunca ilerlemek: "Gehen Sie die Straße entlang" (Sokağı/yolu boylu boyunca takip edin) 6, 7.
+* Bir noktaya kadar gitmek: "Bis zu" kalıbıyla ifade edilir 8. "Bis zur Ampel" (Trafik ışıklarına kadar) veya "bis zur Kreuzung" (Dörtyol ağzına kadar gidin) diyerek sınır belirlenir 4, 7, 8.
+* Geçip gitmek (Konum Edatlarıyla):
+* Üzerinden: "Gehen Sie über die Brücke" (Köprünün üstünden geçin) 9, 10.
+* İçinden: "durch das Stadttor" (Şehir takının/kapısının içinden geçin) 9.
+* Yanından: "Gehen Sie an der Schule vorbei" (Okulun yanından, içine girmeden geçin) 7, 10.
+Bu kalıplarla karşındaki kişiyi adım adım yönlendirdikten sonra "Dort ist die Universität" (Üniversite orada) diyerek tarifi tamamlayabilirsin 10.
+Yol tariflerinde yönlendirmeyi kusursuz yapmak için sokak numaralarına ve mesafelere ihtiyacımız oluyor.

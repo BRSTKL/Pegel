@@ -1,0 +1,78 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: LOKAL (MEKAN DİZİLİMİ) & TAM TEKAMOLO
+========================================================================
+
+AÇIKLAMA VE KURAL HATIRLATMASI:
+Almancada "TeKaMoLo" formülünün son vagonu L (Lokal) yani "Mekan/Yer" bildiren kısımdır. Eylemin nerede, nereye veya nereden yapıldığını anlatır. Mekan bilgisi, cümlede zaman (T), sebep (K) und durum (M) bilgilerinden sonra, yani her zaman kuyruğun EN SONUNDA yer alır.
+
+Formül Özeti: 
+[Fiil (Pos. 2)] + T (Zaman) + K (Sebep) + M (Durum/Nasıl) + L (Mekan/Nereye)
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Lokal am Ende (Mekanı En Sona Koyma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Setzen Sie die Ortsangabe (Lokal) ganz am Ende des Satzes!
+
+1. nach Berlin / ich / morgen / fliege .
+   _____________________________________________________________
+
+2. im Park / wir / spielen / heute / Fußball .
+   _____________________________________________________________
+
+3. am Wochenende / im See / meine Freunde / schwimmen .
+   _____________________________________________________________
+
+4. ich / nachmittags / trinke / einen Kaffee / im Café .
+   _____________________________________________________________
+
+5. in der Schule / Deutsch / gelernt / hat / er / gestern . (Perfekt yapısı)
+   _____________________________________________________________
+
+
+ÜBUNG 2: Der komplette TeKaMoLo-Zug (Tam TeKaMoLo Dizilimi)
+Bringen Sie alle Vagonen in die richtige Reihenfolge: ZUERST Temporal (Wann?), DANN Kausal (Warum?), DANACH Modal (Wie?) und AM ENDE Lokal (Wo/Wohin?).
+
+1. wegen des Regens (K) / nach Hause (L) / mit dem Taxi (M) / gestern (T) / ich / bin / gefahren .
+   (Ich bin ...)
+   _____________________________________________________________
+
+2. am Sonntag (T) / aus Liebe (K) / wir / im Restaurant (L) / romantisch (M) / gegessen / haben .
+   (Wir haben ...)
+   _____________________________________________________________
+
+3. lernt / für die Prüfung (K) / fleißig (M) / heute (T) / er / in der Bibliothek (L) .
+   (Er lernt ...)
+   _____________________________________________________________
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welcher Satz ist grammatikalisch richtig? Kreuzen Sie an (A, B oder C).
+
+1. [ ] A) Ich fahre morgen wegen der Arbeit mit dem Zug nach München.
+   [ ] B) Ich fahre nach München morgen wegen der Arbeit mit dem Zug.
+   [ ] C) Ich fahre wegen der Arbeit mit dem Zug morgen nach München.
+
+2. [ ] A) Er hat gestern im Büro viel gearbeitet.
+   [ ] B) Er hat im Büro gestern viel gearbeitet.
+   [ ] C) Er gestern hat im Büro viel gearbeitet.
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1 (Mekan Her Zaman En Sonda):
+1. Ich fliege morgen nach Berlin. (morgen = T, nach Berlin = L)
+2. Wir spielen heute Fußball im Park. (heute = T, im Park = L)
+3. Meine Freunde schwimmen am Wochenende im See. (am Wochenende = T, im See = L)
+4. Ich trinke nachmittags einen Kaffee im Café. (nachmittags = T, im Café = L)
+5. Er hat gestern Deutsch in der Schule gelernt. (gestern = T, in der Schule = L. Geçmiş zaman eki 'gelernt' en sondadır, mekan hemen onun önündedir.)
+
+ÜBUNG 2 (Mükemmel TeKaMoLo Treni Sıralaması):
+1. Ich bin gestern (T) wegen des Regens (K) mit dem Taxi (M) nach Hause (L) gefahren.
+2. Wir haben am Sonntag (T) aus Liebe (K) romantisch (M) im Restaurant (L) gegessen.
+3. Er lernt heute (T) für die Prüfung (K) fleißig (M) in der Bibliothek (L).
+
+ÜBUNG 3 (telc Tipi Çoktan Seçmeli):
+1. A - Sıralama tam olarak TeKaMoLo kuralına uygundur: morgen (T) -> wegen der Arbeit (K) -> mit dem Zug (M) -> nach München (L). Mekan en sondadır.
+2. A - Zaman ifadesi (gestern) fiilden hemen sonra gelir, mekan ifadesi (im Büro) ise fiilden önceki son vagondur.

@@ -1,0 +1,87 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: PASSIV PRÄSENS (EDİLGEN ÇATI)
+========================================================================
+
+KURAL HATIRLATMASI (A1-A2 SEVİYESI):
+- Pasif cümle kurarken "werden" fiili 2. sıraya gelir.
+- Esas eylem ise "Partizip II" (ge-...-t / ge-...-en) formunda cümlenin EN SONUNA gider.
+
+Formül: [Yeni Özne] + werden (çekimli) + ... + Partizip II (en sonda)
+
+Werden Çekimi:
+ich werde      | wir werden
+du wirst       | ihr werdet
+er/sie/es wird | sie/Sie werden
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Sätze bauen im Passiv (Pasif Cümle Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie darauf, dass "werden" auf Position 2 steht und das Partizip II ganz am Ende!
+
+1. das Auto / wird / repariert / heute .
+   _____________________________________________________________
+
+2. gekocht / die Suppe / von der Mutter / wird .
+   _____________________________________________________________
+
+3. das Zimmer / jeden Samstag / geputzt / wird .
+   _____________________________________________________________
+
+4. am Morgen / Kaffee / getrunken / wird / viel .
+   _____________________________________________________________
+
+
+ÜBUNG 2: Aktiv zu Passiv (Aktif Cümleyi Pasife Çevirme)
+Schreiben Sie die Sätze im Passiv Präsens. Der Täter (von...) ist nicht wichtig oder wird mit "von" ergänzt.
+
+Örnek: Ahmet repariert das Auto. -> Das Auto wird repariert.
+
+1. Meine Mutter kocht die Pizza.
+   -> Die Pizza _______________________________________________.
+
+2. Der Bruder putzt das Fahrrad.
+   -> Das Fahrrad _____________________________________________.
+
+3. Wir trinken den Tee.
+   -> Der Tee _________________________________________________.
+
+4. Der Mechaniker repariert die Autos. (Achtung: Plural / Çoğul!)
+   -> Die Autos _______________________________________________.
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welcher Satz ist grammatikalisch richtig? Kreuzen Sie an (A, B oder C).
+
+1. [ ] A) Das Essen wird heute von dem Vater gekocht.
+   [ ] B) Das Essen heute gekocht wird von dem Vater.
+   [ ] C) Das Essen wird gekocht heute von dem Vater.
+
+2. [ ] A) Hier wird heute nicht arbeiten.
+   [ ] B) Hier wird heute nicht gearbeitet.
+   [ ] C) Hier gearbeitet wird heute nicht.
+
+3. [ ] A) Die Hausaufgaben werden von den Schülern gemacht.
+   [ ] B) Die Hausaufgaben wird von den Schülern gemacht.
+   [ ] C) Die Hausaufgaben werden gemacht von den Schülern.
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. Das Auto wird heute repariert. (TeKaMoLo: heute zaman ifadesi ortada, repariert en sonda)
+2. Die Suppe wird von der Mutter gekocht. (von + Dativ ortada, gekocht en sonda)
+3. Das Zimmer wird jeden Samstag geputzt. (jeden Samstag zaman ifadesi)
+4. Am Morgen wird viel Kaffee getrunken. / Viel Kaffee wird am Morgen getrunken.
+
+ÜBUNG 2:
+1. wird gekocht (Die Pizza wird von der Mutter gekocht.)
+2. wird geputzt (Das Fahrrad wird geputzt.)
+3. wird getrunken (Der Tee wird getrunken.)
+4. werden repariert (Die Autos çoğul olduğu için 'werden' kullanılır, repariert en sondadır.)
+
+ÜBUNG 3:
+1. A - "werden" 2. sırada, zaman ifadesi (heute) hemen ardından gelir, esas fiil (gekocht) en sondadır.
+2. B - Genel pasif emir/durum yapısıdır. "werden" 2. sırada, Partizip II (gearbeitet) en sondadır.
+3. A - Özne çoğul (Die Hausaufgaben) olduğu için yardımcı fiil "werden" olur ve esas fiil (gemacht) sonda yer alır.

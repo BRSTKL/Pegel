@@ -1,0 +1,111 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: TEMPORAL (ZAMAN DİZİLİMİ)
+========================================================================
+
+AÇIKLAMA VE KURAL HATIRLATMASI:
+Almancada "TeKaMoLo" kuralına göre, fiilden sonra gelen kelimeler dizilirken "ZAMAN" (Temporal) bildiren kelimeler (heute, morgen, um 10 Uhr vb.) her zaman önceliğe sahiptir ve en başa yazılır. 
+
+Eğer zamanı vurgulamak için cümlenin en başına (1. sıraya) alırsanız; fiil yine 2. sıradaki yerini korur, özne ise hemen fiilin sağına (3. sıraya) geçer.
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Sätze bauen mit Temporal-Fokus (Zaman Öncelikli Cümle Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Beginnen Sie die Sätze mit dem Subjekt (Özne). Achten Sie darauf, dass die Zeitangabe direkt nach dem Verb kommt!
+
+1. nach Berlin / ich / morgen / fliege .
+   _____________________________________________________________
+
+2. wir / Fußball / heute / im Park / spielen .
+   _____________________________________________________________
+
+3. am Wochenende / meine Freunde / im See / schwimmen .
+   _____________________________________________________________
+
+4. einen Kaffee / trinke / ich / nachmittags / im Café .
+   _____________________________________________________________
+
+5. meine Mutter / in der Küche / kocht / um 12:00 Uhr / lecker .
+   _____________________________________________________________
+
+
+ÜBUNG 2: Temporal-Inversion (Zamanı Başa Alma)
+Schreiben Sie die Sätze aus Übung 1 um. Bringen Sie dieses Mal die Zeitangabe (Temporal) auf Position 1. Vergessen Sie nicht: Das Verb bleibt auf Position 2, das Subjekt rutscht auf Position 3!
+
+Örnek: Ich fliege morgen nach Berlin. -> Morgen fliege ich nach Berlin.
+
+1. (morgen ...)
+   _____________________________________________________________
+
+2. (heute ...)
+   _____________________________________________________________
+
+3. (am Wochenende ...)
+   _____________________________________________________________
+
+4. (nachmittags ...)
+   _____________________________________________________________
+
+5. (um 12:00 Uhr ...)
+   _____________________________________________________________
+
+
+ÜBUNG 3: Zwei Verben und die Zeit (İki Fiilli Cümlelerde Zaman)
+Bringen Sie die Wörter in die richtige Reihenfolge. Das Modalverb steht auf Position 2, die Zeitangabe folgt danach, und das Hauptverb steht ganz am Ende im Infinitiv!
+
+1. am Samstag / wir / gehen / wollen / schwimmen .
+   _____________________________________________________________
+
+2. Deutsch / lernen / ich / heute / muss .
+   _____________________________________________________________
+
+3. meine Schwester / Pizza / essen / möchte / am Abend .
+   _____________________________________________________________
+
+4. du / im Büro / morgen / können / arbeiten ? (Achtung: Frage!)
+   _____________________________________________________________
+
+
+ÜBUNG 4: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welcher Satz ist grammatikalisch richtig? Kreuzen Sie an (A, B oder C).
+
+1. [ ] A) Am Sonntag wir gehen im Restaurant essen.
+   [ ] B) Am Sonntag gehen wir im Restaurant essen.
+   [ ] C) Am Sonntag gehen im Restaurant essen wir.
+
+2. [ ] A) Ich muss heute um 14 Uhr den Arzt anrufen.
+   [ ] B) Ich muss den Arzt heute um 14 Uhr anrufen.
+   [ ] C) Ich heute um 14 Uhr muss den Arzt anrufen.
+
+3. [ ] A) Gestern mein Bruder hat ein neues Auto gekauft.
+   [ ] B) Gestern hat ein neues Auto gekauft mein Bruder.
+   [ ] C) Gestern hat mein Bruder ein neues Auto gekauft.
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1 (Özne Başta, Fiilden Sonra Önce Zaman):
+1. Ich fliege morgen nach Berlin. (morgen = Zaman / nach Berlin = Mekan)
+2. Wir spielen heute Fußball im Park. (heute = Zaman / im Park = Mekan)
+3. Meine Freunde schwimmen am Wochenende im See. (am Wochenende = Zaman / im See = Mekan)
+4. Ich trinke nachmittags einen Kaffee im Café. (nachmittags = Zaman)
+5. Meine Mutter kocht um 12:00 Uhr lecker in der Küche. (um 12:00 Uhr = Zaman)
+
+ÜBUNG 2 (Zaman Başta, Fiil 2. Sırada, Özne 3. Sırada):
+1. Morgen fliege ich nach Berlin.
+2. Heute spielen wir Fußball im Park.
+3. Am Wochenende schwimmen meine Freunde im See.
+4. Nachmittags trinke ich einen Kaffee im Café.
+5. Um 12:00 Uhr kocht meine Mutter lecker in der Küche.
+
+ÜBUNG 3 (Çift Fiil ve Zaman):
+1. Am Samstag wollen wir schwimmen gehen. / Wir wollen am Samstag schwimmen gehen.
+2. Ich muss heute Deutsch lernen. / Heute muss ich Deutsch lernen.
+3. Meine Schwester möchte am Abend Pizza essen. / Am Abend möchte meine Schwester Pizza essen.
+4. Kannst du morgen im Büro arbeiten? (Soru cümlesi olduğu için çekimli fiil 1. sıradadır, zaman ifadesi özneden hemen sonra gelir.)
+
+ÜBUNG 4 (telc Tipi Çoktan Seçmeli):
+1. B - "Am Sonntag" zaman ifadesi cümlenin 1. bloğudur, fiil (gehen) 2. sırada yer alır.
+2. A - Modalverb (muss) 2. sıradadır ve zaman bilgisi (heute um 14 Uhr) nesnelerden önce gelerek TeKaMoLo önceliğini korur.
+3. C - Geçmiş zaman (Perfekt) yapısında yardımcı fiil (hat) 2. sıradadır. Zaman (gestern) başta olduğu için özne (mein Bruder) 3. sıraya gelir. Esas fiil (gekauft) ise en sondadır.

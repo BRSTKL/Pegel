@@ -1,0 +1,80 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: MODALVERB "WOLLEN" (İSTEMEK / NİYET)
+========================================================================
+
+KURAL HATIRLATMASI (A1-A2 SEVİYESİ):
+1. Anlamı: "wollen" bir şeyi yapma isteğini, planını veya niyetini belirtir.
+2. Cümle Yapısı: Özneye göre çekimlenen "wollen" fiili 2. sıradadır. Asıl eylem cümlenin EN SONUNDA mastar (Infinitiv) halde bulunur.
+3. Çekim Kuralı: "ich" und "er/sie/es" çekimleri aynıdır!
+4. Soru Sorarken: Çekimli fiil 1. sıraya gelir, asıl eylem yine en sonda kalır.
+
+Wollen Çekimi:
+ich will       | wir wollen
+du willst      | ihr wollt
+er/sie/es will | sie/Sie wollen
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Sätze bauen mit "wollen" (Cümle Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie auf die Positionen: "wollen" auf Position 2, das Hauptverb ganz am Ende!
+
+1. heute Abend / ich / Musik / hören / will .
+   _____________________________________________________________
+
+2. in Deutschland / studieren / will / sie .
+   _____________________________________________________________
+
+3. am Wochenende / wir / Fußball / spielen / wollen / im Park .
+   _____________________________________________________________
+
+4. einen Kaffee / trinken / du / willst / jetzt ? (Achtung: Frage!)
+   _____________________________________________________________
+
+
+ÜBUNG 2: Verbformen ergänzen (Fiil Çekimini Tamamlama)
+Ergänzen Sie die richtige Form von "wollen" im Präsens.
+
+1. Ich __________ heute nicht kochen. Ich gehe im Restaurant essen.
+2. Hallo Kinder! __________ ihr heute Nachmittag Tennis spielen?
+3. Herr Demir __________ im Sommer nach Spanien fliegen.
+4. Meine Freunde __________ am Samstag eine große Party machen.
+5. Das Kind __________ keine Suppe essen, es möchte lieber Pizza.
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welcher Satz ist grammatikalisch richtig? Kreuzen Sie an (A, B oder C).
+
+1. [ ] A) Morgen ich will nach Berlin fahren.
+   [ ] B) Morgen will ich nach Berlin fahren.
+   [ ] C) Morgen will ich fahren nach Berlin.
+
+2. [ ] A) Willst du heute Abend mit mir im Park spazieren gehen?
+   [ ] B) Du willst heute Abend mit mir im Park spazieren gehen?
+   [ ] C) Willst du spazieren gehen heute Abend mit mir im Park?
+
+3. [ ] A) Wir wollen heute fleißig Deutsch lernen.
+   [ ] B) Wir will heute fleißig Deutsch lernen.
+   [ ] C) Wir wollen heute fleißig lernen Deutsch.
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. Ich will heute Abend Musik hören. / Heute Abend will ich Musik hören. (Zaman ifadesi 'heute Abend' başta olduğunda özne 3. sıraya kayar.)
+2. Sie will in Deutschland studieren. / In Deutschland will sie studieren.
+3. Wir wollen am Wochenende Fußball im Park spielen. (TeKaMoLo sırasına göre önce am Wochenende [T], sonra im Park [L] gelir, 'spielen' en sondadır.)
+4. Willst du jetzt einen Kaffee trinken? (Soru cümlesi olduğu için çekimli fiil 1. sıradadır.)
+
+ÜBUNG 2:
+1. will (ich çekimi)
+2. Wollt (ihr çekimi ve soru cümlesi olduğu için büyük harfle başlar)
+3. will (Herr Demir -> er/sie/es çekimi)
+4. wollen (Meine Freunde -> onlar / sie çoğul çekimi)
+5. will (Das Kind -> er/sie/es çekimi)
+
+ÜBUNG 3:
+1. B - "Morgen" zaman ifadesi başta olduğunda inversiyon olur, çekimli fiil "will" 2. sırada kalır, asıl eylem "fahren" en sondadır.
+2. A - Doğru bir evet/hayır soru cümlesidir. Çekimli fiil "Willst" 1. sırada, asıl eylem "spazieren gehen" ise cümlenin ta en sonundadır.
+3. A - "Wir" öznesine göre çekim "wollen" olur. "lernen" fiili mastar halde cümlenin en sonuna atılmıştır.

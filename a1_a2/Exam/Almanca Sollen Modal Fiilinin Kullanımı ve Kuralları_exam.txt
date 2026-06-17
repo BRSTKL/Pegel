@@ -1,0 +1,85 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: MODALVERB "SOLLEN" (-MELİ/-MALI / TAVSİYE)
+========================================================================
+
+KURAL HATIRLATMASI (A1-A2 SEVİYESİ):
+1. Anlamı: "sollen" bir görevi, sorumluluğu veya başkasından (doktor, öğretmen, anne-baba) alınan bir tavsiyeyi belirtir.
+2. Cümle Yapısı: Özneye göre çekimlenen "sollen" fiilini 2. sıraya yerleştiririz. Asıl eylem cümlenin EN SONUNDA mastar (Infinitiv) halde bulunur.
+3. Çekim Kuralı: "ich" und "er/sie/es" çekimleri aynıdır!
+4. Soru Sorarken: Çekimli fiil 1. sıraya gelir, asıl eylem yine en sonda kalır.
+
+Sollen Çekimi:
+ich soll       | wir sollen
+du sollst      | ihr sollt
+er/sie/es soll | sie/Sie sollen
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Sätze bauen mit "sollen" (Cümle Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie auf die Positionen: "sollen" auf Position 2, das Hauptverb ganz am Ende!
+
+1. früh / ich / aufstehen / soll / heute .
+   _____________________________________________________________
+
+2. viele Vitamine / essen / du / sollst .
+   _____________________________________________________________
+
+3. leise / im Krankenhaus / man / sein / soll .
+   _____________________________________________________________
+
+4. machen / Hausaufgaben / die Kinder / sollen / jetzt .
+   _____________________________________________________________
+
+5. machen / Sport / er / soll / ? (Achtung: Frage!)
+   _____________________________________________________________
+
+
+ÜBUNG 2: Verbformen ergänzen (Fiil Çekimini Tamamlama)
+Ergänzen Sie die richtige Form von "sollen" im Präsens.
+
+1. Der Arzt sagt: Ich __________ im Bett bleiben und Tee trinken.
+2. Hallo Kinder! Ihr __________ heute fleißig Deutsch lernen.
+3. Frau Alahmed, Sie __________ den Zettel im Erdgeschoss lesen.
+4. Mein Bruder __________ mehr Wasser trinken, das ist gesund.
+5. Die Schüler __________ morgen pünktlich zur Prüfung kommen.
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welcher Satz ist grammatikalisch richtig? Kreuzen Sie an (A, B oder C).
+
+1. - Was hat der Arzt gesagt? - Du _________ im Bett bleiben.
+   [ ] A) sollst
+   [ ] B) sollt
+   [ ] C) soll
+
+2. [ ] A) Morgen ich soll meinen Vater anrufen.
+   [ ] B) Morgen soll ich meinen Vater anrufen.
+   [ ] C) Morgen soll ich anrufen meinen Vater.
+
+3. [ ] A) Was sollen wir heute kochen für das Abendessen?
+   [ ] B) Was wir sollen heute kochen für das Abendessen?
+   [ ] C) Was sollen wir heute für das Abendessen kochen?
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. Ich soll heute früh aufstehen. / Heute soll ich früh aufstehen. (Zaman ifadesi 'heute' başta olduğunda özne 3. sıraya kayar.)
+2. Du sollst viele Vitamine essen.
+3. Im Krankenhaus soll man leise sein. / Man soll im Krankenhaus leise sein.
+4. Die Kinder sollen jetzt Hausaufgaben machen. / Jetzt sollen die Kinder Hausaufgaben machen.
+5. Soll er Sport machen? (Soru cümlesi olduğu için çekimli fiil 1. sıradadır.)
+
+ÜBUNG 2:
+1. soll (ich çekimi)
+2. sollt (ihr çekimi)
+3. sollen (Sie kibar hitap çekimi)
+4. soll (Mein Bruder -> er/sie/es çekimi)
+5. sollen (Die Schüler -> onlar / sie çoğul çekimi)
+
+ÜBUNG 3:
+1. A - "du" öznesine göre doğru çekim "sollst" olur.
+2. B - "Morgen" zaman ifadesi başta olduğunda inversiyon olur, çekimli fiil "soll" 2. sırada kalır, asıl eylem "anrufen" en sondadır.
+3. C - W-Frage (Soru kelimesi olan cümle) yapısında soru kelimesi başta, çekimli fiil "sollen" 2. sıradadır. Asıl eylem "kochen" ise cümlenin ta en sonuna atılmalıdır.

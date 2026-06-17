@@ -1,0 +1,87 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: SICH VORSTELLEN (KENDİNİ TANITMA)
+========================================================================
+
+KURAL HATIRLATMASI (A1-A2 SEVİYESİ):
+1. İsim Belirtirken: 
+   - Ich heiße ... (heißen fiili kullanılır)
+   - Mein Name ist ... (Name kelimesiyle, özellikle resmiyet bildirir)
+   - Ich bin ... (sein fiiliyle kullanılır)
+
+2. Memleket ve Yaşanılan Yer:
+   - Woher kommst du? -> Ich komme AUS ... (-den/-dan eki için 'aus')
+   - Wo wohnst / lebst du? -> Ich wohne/lebe IN ... (-de/-da eki için 'in')
+
+3. Yaş Belirtirken:
+   - Wie alt bist du? -> Ich bin [Sayı] Jahre alt.
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Ergänzen Sie die passende Präposition oder das passende Wort.
+(Boşlukları uygun edat veya kelimeyle tamamlayın: aus / in / bin / heiße / Name)
+
+1. Wie ist dein _______________? -> Mein Name ist Özdemir.
+2. Wer bist du? -> Ich _______________ Erhan.
+3. Woher kommst du? -> Ich komme _______________ der Türkei.
+4. Wo wohnst du jetzt? -> Ich wohne _______________ Berlin.
+5. Wie alt bist du? -> Ich bin 25 Jahre _______________.
+6. Wie _______________ du? -> Ich heiße Ahmet.
+
+
+ÜBUNG 2: Sätze bauen (Kendini Tanıtma Cümleleri Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie auf die Position des Verbs (Position 2)!
+
+1. Erhan / ich / und / heiße / komme / aus der Türkei .
+   _____________________________________________________________
+
+2. in Berlin / seit zwei Monaten / ich / wohne .
+   _____________________________________________________________
+
+3. alt / einunddreißig / ich / Jahre / bin .
+   _____________________________________________________________
+
+4. ist / mein Name / Tokul / . / zwanzig / ich / Jahre / bin / alt .
+   _____________________________________________________________
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welche Antwort passt perfekt zur Frage? Kreuzen Sie an (A, B oder C).
+
+1. - Wo wohnst du?
+   [ ] A) Ich komme aus der Türkei.
+   [ ] B) Ich wohne in Frankfurt.
+   [ ] C) Ich bin in der Türkei.
+
+2. - Woher kommst du?
+   [ ] A) Ich komme aus Italien.
+   [ ] B) Ich wohne aus Italien.
+   [ ] C) Ich lebe in Italien.
+
+3. - Wie alt bist du?
+   [ ] A) Ich habe 20 Jahre alt.
+   [ ] B) Ich bin 20 Jahre alt.
+   [ ] C) Ich bin 20 Jahre.
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. Name (Wie ist dein Name? kalıbı)
+2. bin (Ich bin Erhan -> sein fiili)
+3. aus (Woher sorusuna 'aus' ile cevap verilir)
+4. in (Wo sorusuna konum belirtmek için 'in' ile cevap verilir)
+5. alt (Jahre alt kalıbı)
+6. heißt (Wie heißt du? -> heißen fiili)
+
+ÜBUNG 2:
+1. Ich heiße Erhan und komme aus der Türkei. (und bağlacı iki cümleyi bağlar, her iki kısımda da fiiller doğru pozisyondadır.)
+2. Ich wohne seit zwei Monaten in Berlin. / Seit zwei Monaten wohne ich in Berlin. (Zaman ifadesi başa gelirse inversiyon olur.)
+3. Ich bin einunddreißig Jahre alt. (Yaş belirtme kalıbı)
+4. Mein Name ist Tokul. Ich bin zwanzig Jahre alt.
+
+ÜBUNG 3:
+1. B - "Wo" nerede oturduğunu sorduğu için cevapta "in" edatı kullanılır.
+2. A - "Woher" nereden geldiğini (memleketini) sorduğu için cevapta "aus" edatı kullanılır.
+3. B - Yaş söylenirken Almancada "haben" değil "sein" (bin) fiili kullanılır ve sonuna "Jahre alt" eklenir.

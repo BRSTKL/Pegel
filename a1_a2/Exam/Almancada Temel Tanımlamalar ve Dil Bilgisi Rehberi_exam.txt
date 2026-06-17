@@ -1,0 +1,101 @@
+========================================================================
+TELC A1-A2 WORTSCHATZTRAINING: FARBEN, OBST UND LÄNDER
+========================================================================
+
+KURAL HATIRLATMASI VE PÜF NOKTALARI:
+1. Renkler (Die Farben): Nesneden sonra "ist/sind" ile kullanıldığında ek almaz!
+   - grün (yeşil), braun (kahverengi), gelb (sarı), weiß (beyaz), schwarz (siyah), rot (kırmızı)
+
+2. Meyveler (Das Obst): Çok büyük kısmı "die" artikelidir!
+   - die Birne, die Banane, die Orange, die Erdbeere, die Wassermelone, die Zitrone
+   - ASİ İSTİSNALAR (der): der Apfel, der Pfirsich
+
+3. Ülkeler ve "aus" Edatı (Memleket Söyleme):
+   - Artikelsiz Ülkeler: Deutschland, Italien, Spanien, England. -> Ich komme aus Deutschland.
+   - Artikelli Ülkeler (Dativ Dönüşümü olur!):
+     * die Türkei  -> Ich komme aus der Türkei.
+     * die Schweiz -> Ich komme aus der Schweiz.
+     * der Iran    -> Ich komme aus dem Iran.
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Ergänzen Sie die Farbe (Renkleri Cümleye Göre Tamamlayın)
+(grün / gelb / weiß / blau / rot)
+
+1. Der Schnee ist ____________________.
+2. Die Zitrone ist ____________________.
+3. Der Himmel ist ____________________.
+4. Ich liebe Erdbeeren. Die Erdbeere ist ____________________.
+5. Die Bäume im Park sind ____________________.
+
+
+ÜBUNG 2: "der" oder "die"? (Meyve Artikellerini Tamamlama)
+Ergänzen Sie den richtigen Artikel im Nominativ (der veya die). Hatırlayın: Meyvelerin çoğu "die" ama iki asi "der" artikelidir!
+
+1. _______________ Apfel ist sehr süß.
+2. _______________ Banane ist gelb.
+3. _______________ Pfirsich schmeckt lecker.
+4. _______________ Orange ist orange.
+5. _______________ Erdbeere ist rot.
+6. _______________ Birne ist grün.
+
+
+ÜBUNG 3: Woher kommen sie? (Memleket Cümlelerini Tamamlama)
+Ergänzen Sie die Lücken mit der richtigen Form (aus / aus der / aus dem). Achten Sie auf die Artikel der Länder!
+
+1. (Deutschland)   Herr Novak kommt ____________________ Deutschland.
+2. (die Türkei)    Ahmet kommt ____________________ Türkei. O İstanbul'da doğdu.
+3. (Italien)       Wir machen Urlaub in Rom. Meine Freundin kommt ____________________ Italien.
+4. (die Schweiz)   Frau Alahmed arbeitet in Zürich. Sie kommt ____________________ Schweiz.
+5. (der Iran)      Arash wohnt in Berlin, aber er kommt ____________________ Iran.
+
+
+ÜBUNG 4: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welcher Ausdruck oder Satz passt perfekt? Kreuzen Sie an (A, B oder C).
+
+1. - Woher kommst du, Begi? - Ich komme _________.
+   [ ] A) aus Türkei
+   [ ] B) aus die Türkei
+   [ ] C) aus der Türkei
+
+2. Welches Wort hat einen maskulinen Artikel (der)?
+   [ ] A) Apfel
+   [ ] B) Banane
+   [ ] C) Zitrone
+
+3. - Was möchtest du essen? - Ich möchte gerne _________ Orange (die Orange) essen.
+   [ ] A) einen
+   [ ] B) eine
+   [ ] C) ein
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. weiß (Kılavuza göre kar beyazdır: Der Schnee ist weiß.)
+2. gelb (Kılavuza göre limon sarıdır: Die Zitrone ist gelb.)
+3. blau (Kılavuza göre gökyüzü mavidir: Der Himmel ist blau.)
+4. rot (Çilek kırmızıdır.)
+5. grün (Ağaçlar yeşildir.)
+
+ÜBUNG 2:
+1. der (Kılavuzdaki kurallara uymayan asi meyvedir: der Apfel.)
+2. die (Meyve çoğunluk kuralına uyar: die Banane.)
+3. der (Kılavuzdaki ikinci asi meyvedir: der Pfirsich.)
+4. die (Meyve çoğunluk kuralına uyar: die Orange.)
+5. die (die Erdbeere.)
+6. die (die Birne.)
+
+ÜBUNG 3:
+1. aus (Almanya artikelsiz bir ülke olduğu için dönüşüm olmaz, sadece 'aus' gelir.)
+2. aus der ('die Türkei' ülkesi 'aus' edatının Dativ zorunluluğu nedeniyle 'aus der Türkei' halini alır.)
+3. aus (İtalya artikelsiz bir ülkedir.)
+4. aus der ('die Schweiz' ülkesi 'aus' edatıyla birleştiğinde Dativ kuralıyla 'aus der Schweiz' olur.)
+5. aus dem ('der Iran' ülkesi eril artikellidir. 'aus' edatı nedeniyle Dativ'de 'der' artikeli 'dem' olur: aus dem Iran.)
+
+ÜBUNG 4:
+1. C - Türkiye artikelli bir ülke olduğu için "aus" edatından sonra Dativ kuralı gereği mutlaka "aus der Türkei" kalıbı kullanılmalıdır.
+2. A - Kılavuza göre elma anlamına gelen "Apfel" kelimesi kurallara uymayan istisna bir asi olarak "der" artikeli alır.
+3. B - "die Orange" dişil bir kelimedir. Akkusativ nesne koltuğunda dişil artikeller değişmediği için belirsiz hali "eine" olarak kalır.

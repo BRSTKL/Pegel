@@ -1,0 +1,93 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: POSSESSIVARTIKEL (İYELİK ZAMİRLERİ)
+========================================================================
+
+KURAL HATIRLATMASI (A1-A2 SEVİYESİ):
+1. Önce sahibini bul ve kökü seç:
+   ich -> mein  | wir -> unser
+   du  -> dein  | ihr -> euer
+   er/es -> sein| sie/Sie -> ihr/Ihr
+   sie (o) -> ihr
+
+2. Nesnenin artikelini kontrol et ve eki getir:
+   - Artikel "der" veya "das" ise -> EK YOK (mein, dein, sein, unser, euer, ihr)
+   - Artikel "die" veya ÇOĞUL ise  -> "-e" EKLE (meine, deine, seine, unsere, eure, ihre)
+
+* ÖNEMLİ: "euer" kelimesine "-e" eki gelince "eure" olur (ortadaki 'e' düşer!).
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Endung ergänzen (Eksik Ekleri Tamamlama)
+Ergänzen Sie die richtige Endung (-e oder kein Ek).
+
+1. (ich / das Buch)      -> Das ist mein___ Buch.
+2. (du / die Tasche)     -> Ist das dein___ Tasche?
+3. (er / der Vater)      -> Das ist sein___ Vater.
+4. (sie - o / die Katze) -> Ihr___ Katze ist süß.
+5. (wir / die Kinder)    -> Das sind unser___ Kinder.
+6. (ihr / die Bücher)    -> Wo sind eur___ Bücher?
+
+
+ÜBUNG 2: Sätze bauen (Cümle Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie auf das Verb (Position 2) und die richtige Form des Possessivartikels!
+
+1. heute / meine Mutter / kocht / in der Küche .
+   _____________________________________________________________
+
+2. ist / dein Fahrrad / im Garten / wo ? (Achtung: Frage!)
+   _____________________________________________________________
+
+3. seine Tasche / Herr Novak / sucht / im Büro .
+   _____________________________________________________________
+
+4. unsere Autos / kaputt / am Wochenende / waren .
+   _____________________________________________________________
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welches Wort passt perfekt in die Lücke? Kreuzen Sie an (A, B oder C).
+
+1. - Wo ist _________ Laptop, Herr Demir? - Er liegt auf dem Tisch.
+   [ ] A) Ihr
+   [ ] B) Ihre
+   [ ] C) dein
+
+2. Das Kind spielt im Park. _________ Ball (der Ball) ist neu.
+   [ ] A) Seine
+   [ ] B) Sein
+   [ ] C) Ihr
+
+3. Hallo Kinder! Ist das _________ Mutter (die Mutter)?
+   [ ] A) euer
+   [ ] B) euere
+   [ ] C) eure
+
+4. Wir wohnen in Berlin. _________ Wohnung (die Wohnung) ist sehr groß.
+   [ ] A) Unser
+   [ ] B) Unsere
+   [ ] C) Meine
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. mein (das Buch -> ek almaz)
+2. deine (die Tasche -> sonuna -e gelir)
+3. sein (der Vater -> ek almaz)
+4. Ihre / Ihre (die Katze -> sonuna -e gelir)
+5. unsere (die Kinder çoğul -> sonuna -e gelir)
+6. eure (die Bücher çoğul -> sonuna -e gelir ve euer kelimesindeki ortadaki 'e' düşer)
+
+ÜBUNG 2:
+1. Meine Mutter kocht heute in der Küche. / Heute kocht meine Mutter in der Küche.
+2. Wo ist dein Fahrrad im Garten? (Soru kelimesi başta, fiil 'ist' 2. sırada)
+3. Herr Novak sucht seine Tasche im Büro. / Im Büro sucht Herr Novak seine Tasche.
+4. Unsere Autos waren am Wochenende kaputt. / Am Wochenende waren unsere Autos kaputt.
+
+ÜBUNG 3:
+1. A - "Herr Demir" dendiği için kibar hitap (Sie -> Ihr) seçilir. "Laptop" artikeli "der" olduğu için ek almaz.
+2. B - Çocuk erkek veya nötr kabul edilir (das Kind -> sein). "Ball" artikeli "der" olduğu için ek almaz, yalın kalır.
+3. C - Çocuklara "ihr" (siz) diye hitap ediliyor, iyelik kökü "euer" olur. "Mutter" artikeli "die" olduğu için "-e" eklenince "eure" formuna dönüşür.
+4. B - "Wir" (biz) öznesinin iyelik kökü "unser" olur. "Wohnung" artikeli "die" olduğu için sonuna "-e" alır (unsere).

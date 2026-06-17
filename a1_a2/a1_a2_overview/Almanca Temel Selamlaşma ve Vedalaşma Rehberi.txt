@@ -1,0 +1,12 @@
+﻿Almancada temel iletişimin ilk adımı olan selamlaşma ve vedalaşma kalıpları, günün saatlerine ve iletişimin yüz yüze olup olmamasına göre değişiklik gösterir.
+Selamlaşma (Begrüßung):
+* Hallo: Günün her saati kullanılabilen standart "Merhaba"dır 1.
+* Guten Morgen: Sabah saat 6'dan 9'a kadar "Günaydın" anlamında kullanılır 2.
+* Guten Tag: Saat 10'dan öğleden sonra 16.00-17.00 civarına kadar söylenen "İyi günler" kalıbıdır 2.
+* Guten Abend: Saat 17.00 ile 20.00 arasında söylenen "İyi akşamlar" ifadesidir 2.
+Vedalaşma (Verabschiedung):
+* Gute Nacht: Saat 20.00'den sonra "İyi geceler" anlamında kullanılır. Diğer selamlaşmalardan farklı olarak "Guten" değil "Gute" denir; bunun sebebi ismin yapısıyla alakalıdır ve kelimenin sonundaki "-n" harfi düşer 3.
+* Auf Wiedersehen: Yüz yüze iletişimde (göz kontağı varken) "Tekrar görüşmek üzere" demek için kullanılır 4.
+* Auf Wiederhören: Telefonda vedalaşırken kullanılır. "Hören" duymak anlamına geldiği için birebir çevirisi "tekrar duymak üzere"dir 4.
+* Bis bald: "Yakında görüşmek üzere" anlamına gelir 5.
+* Tschüss: Günlük dilde en yaygın kullanılan, "hoşça kal / bye bye" anlamına gelen vedalaşma sözcüğüdür 5.

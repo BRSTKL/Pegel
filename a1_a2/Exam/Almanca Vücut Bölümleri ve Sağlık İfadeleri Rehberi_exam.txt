@@ -1,0 +1,79 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: DIE KÖRPERTEILE & SCHMERZEN (SAĞLIK)
+========================================================================
+
+KURAL HATIRLATMASI VE PÜF NOKTALARI:
+1. "Was fehlt dir / Ihnen?" -> "Neyin var? / Neyiniz var?" anlamına gelen temel soru kalıbıdır.
+2. "tut weh" vs. "tun weh" Kalıbı:
+   - Eğer ağrıyan organ TEKİL ise: "Mein Kopf tut weh." (Başım ağrıyor)
+   - Eğer ağrıyan organ ÇOĞUL ise: "Meine Augen tun weh." (Gözlerim ağrıyor)
+3. "Schmerzen haben" Kalıbı: 
+   - Organ + Schmerzen kelimeleri birleştirilir ve "haben" fiiliyle kullanılır.
+   - Ich habe Kopfschmerzen. / Er hat Bauchschmerzen.
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: "tut weh" oder "tun weh"? (Tekil / Çoğul Ağrı Seçimi)
+Ergänzen Sie die Lücken mit "tut weh" oder "tun weh". Achten Sie auf den Artikel und Plural!
+
+1. Mein Bauch (der Bauch) _______________. Ich habe zu viel Pizza gegessen.
+2. Meine Ohren (die Ohren - Plural) _______________. Die Musik war sehr laut.
+3. Mein Rücken (der Rücken) _______________ vom schweren Möbeltragen.
+4. Meine Beine (die Beine - Plural) _______________ nach dem Fußballspiel.
+5. Mein Hals (der Hals) _______________. Ich kann nicht gut sprechen.
+
+
+ÜBUNG 2: Schmerzen ausdrücken (Ağrı Kalıplarını Dönüştürme)
+Schreiben Sie die Sätze mit dem Wort "Schmerzen" und dem Verb "haben" um.
+
+Örnek: Mein Kopf tut weh. -> Ich habe Kopfschmerzen.
+
+1. Mein Bauch tut weh. 
+   -> Ich ______________________________________________________.
+
+2. Mein Rücken tut weh.
+   -> Er _______________________________________________________.
+
+3. Mein Hals tut weh. (Hals + schmerzen)
+   -> Herr Demir _______________________________________________.
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welches Wort oder welcher Satz passt perfekt? Kreuzen Sie an (A, B oder C).
+
+1. - Guten Tag, Herr Novak. Was _________ Ihnen? - Ich bin krank.
+   [ ] A) fehlst
+   [ ] B) fehlt
+   [ ] C) fehlen
+
+2. Das Kind hat im Park Padel-Tennis gespielt. Jetzt _________ seine Hände (Plural) weh.
+   [ ] A) tut
+   [ ] B) tun
+   [ ] C) macht
+
+3. Welcher Satz ist grammatikalisch richtig?
+   [ ] A) Ich habe große Bauchschmerzen.
+   [ ] B) Mein Bauchschmerzen tut weh.
+   [ ] C) Ich habe Bauch tut weh.
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. tut weh ("der Bauch" tekildir, bu yüzden 'tut' kullanılır.)
+2. tun weh ("die Ohren" çoğuldur, bu yüzden fiil çoğul çekimlenip 'tun' olur.)
+3. tut weh ("der Rücken" tekildir, 'tut' kullanılır.)
+4. tun weh ("die Beine" bacaklar anlamına gelen çoğul bir kelimedir, 'tun' kullanılır.)
+5. tut weh ("der Hals" tekildir, 'tut' kullanılır.)
+
+ÜBUNG 2:
+1. Ich habe Bauchschmerzen. (Bauch + schmerzen birleşir, 'haben' fiili ich'e göre çekimlenir.)
+2. Er hat Rückenschmerzen. (Rücken + schmerzen birleşir, 'haben' fiili er'e göre 'hat' olur.)
+3. Herr Demir hat Halsschmerzen. (Hals + schmerzen birleşir, üçüncü tekil şahıs çekimi 'hat' olur.)
+
+ÜBUNG 3:
+1. B - Resmi hitaplarda "Was fehlt Ihnen?" (Neyiniz var?) kalıbı kullanılır. "fehlen" fiili burada 'es' gibi üçüncü tekil çekimlenir (fehlt).
+2. B - "seine Hände" (elleri) çoğul bir isim olduğu için "tut weh" kalıbı çoğul forma dönüşerek "tun weh" olur.
+3. A - Ağrıyı kalıcı/süregelen olarak belirtirken "Ich habe [Organ]schmerzen" yapısı en doğru ve standart kullanımdır.

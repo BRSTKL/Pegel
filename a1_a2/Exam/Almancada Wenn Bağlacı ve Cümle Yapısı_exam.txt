@@ -1,0 +1,85 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: NEBENSATZ MIT "WENN" (KOŞUL VE ZAMAN)
+========================================================================
+
+KURAL HATIRLATMASI VE DİZİLİM GEOMETRİSİ:
+1. Wenn Ortada İse: Ana cümle normal kurulur (Fiil Pos. 2). Virgül atılır, "wenn" cümlesinin fiili EN SONA gider.
+   - FORMÜL: [Ana Cümle Fiil Pos. 2] , wenn + [Özne] + ... + [Çekimli Fiil]
+   - Örnek: Ich helfe dir, wenn ich Zeit habe.
+
+2. Wenn Başta İse (Fiillerin Çarpışması): "wenn" cümlesinin fiili virgülün hemen solunda kalır. Virgülden hemen sonraki ana cümle FİİL İLE BAŞLAR!
+   - FORMÜL: Wenn + [Özne] + ... + [Fiil 1] , [Fiil 2] + [Özne] + ...
+   - Örnek: Wenn ich Zeit habe, helfe ich dir. (habe ve helfe yan yana!)
+
+3. Modal Fiil Çarpışması: Wenn cümlesi baştaysa, virgülden sonra çekimli modal fiil gelir.
+   - Örnek: Wenn du schnell fährst, kannst du einen Unfall machen.
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Wenn im Zentrum (Wenn Bağlacını Ortada Kullanarak Cümle Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie darauf, dass das Verb im wenn-Satz ganz am Ende steht!
+
+1. Ich bleibe zu Hause, / habe / ich / wenn / Kopfschmerzen / .
+   -> Ich bleibe zu Hause, ______________________________________.
+
+2. Erhan spielt Padel-Tennis, / hat / am Samstag / er / wenn / Zeit / .
+   -> Erhan spielt Padel-Tennis, ________________________________.
+
+3. Herr Novak ruft den Handwerker an, / ist / seine Wohnungstür / wenn / kaputt / .
+   -> Herr Novak ruft den Handwerker an, ________________________.
+
+
+ÜBUNG 2: Wenn am Anfang (Fiillerin Çarpışması - Wenn Başta Dizilimi)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie auf das sarsılmaz kural: Virgülden hemen sonra FİİL gelmelidir!
+
+1. Wenn ich müde bin, / trinke / ich / einen heißen Kaffee / .
+   -> Wenn ich müde bin, _______________________________________.
+
+2. Wenn das Paket bugün kommt, / rufe / ich / dich / an / . (Achtung: anrufen!)
+   -> Wenn das Paket bugün kommt, ______________________________.
+
+3. Wenn du krank bist, / musst / du / zum Arzt / gehen / . (Achtung: Modalverb!)
+   -> Wenn du krank bist, ______________________________________.
+
+4. Wenn meine Eltern im Sommer kommen, / wir / gehen / im Restaurant / essen / .
+   -> Wenn meine Eltern im Sommer kommen, ______________________.
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welcher Satz ist grammatikalisch richtig built? Kreuzen Sie an (A, B oder C).
+
+1. - Wann lernst du Python? - _________, lerne ich jeden Tag fleißig.
+   [ ] A) Wenn ich Zeit habe
+   [ ] B) Wenn ich habe Zeit
+   [ ] C) Wenn habe ich Zeit
+
+2. Wenn Erhan am Samstag viel Arbeit hat, _________ er keine Pause machen.
+   [ ] A) kann
+   [ ] B) er kann
+   [ ] C) weil kann
+
+3. Ich kaufe morgen ein Brot, _________ (die Bäckerei) gehe.
+   [ ] A) wenn ich zur Bäckerei
+   [ ] B) wenn ich zur Bäckerei gehe
+   [ ] C) wenn gehe ich zur Bäckerei
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. wenn ich Kopfschmerzen habe. (Çekimli fiil 'habe' en sondadır.)
+2. wenn er am Samstag Zeit hat. (TeKaMoLo sırasına göre am Samstag [T], fiil 'hat' en sona fırlatılır.)
+3. wenn seine Wohnungstür kaputt ist. (Çekimli fiil 'ist' en sonda yer alır.)
+
+ÜBUNG 2:
+1. trinke ich einen heißen Kaffee. (Kılavuza göre virgülden hemen sonra çekimli fiil 'trinke' gelir, özne 'ich' yanına kayar.)
+2. ruft ich dich an. / rufe ich dich an. ('anrufen' ayrılan bir fiildir. Virgülden hemen sonra kök fiil 'rufe' gelir, 'an' takısı cümlenin en sonuna gider.)
+3. musst du zum Arzt gehen. (Modal fiil çarpışması: Çekimli 'musst' virgülden hemen sonra gelir, asıl eylem 'gehen' mastar olarak en sondadır.)
+4. gehen wir im Restaurant essen. (Virgülden hemen sonra çekimli fiil 'gehen' gelir, asıl eylem 'essen' en sonda mastar kalır.)
+
+ÜBUNG 3:
+1. A - "Wenn" yan cümle kuralına göre çekimli fiil (habe) cümlenin en sonunda (virgülün hemen solunda) olmalıdır. Cevabın devamı "lerne ich" fiiliyle başladığı için bu dizilim kusursuzdur.
+2. A - "Wenn" cümlesi başta bittiği için virgülden hemen sonra çekimli modal fiil olan "kann" gelerek çarpışmayı tamamlamalıdır[cite: 154, 157].
+3. B - "wenn" ortada kullanıldığında özne (ich) bağlaçtan hemen sonra gelir ve çekimli fiil (gehe) cümlenin ta en sonuna atılır[cite: 151, 152].

@@ -1,0 +1,84 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: KONJUNKTIONEN "DESHALB & DESWEGEN"
+========================================================================
+
+KURAL HATIRLATMASI VE ALTIN İSKELET:
+1. Anlamı: "deshalb" ve "deswegen" cümleleri "bu yüzden / bu sebeple" anlamıyla birbirine bağlar. Gramatik özellikleri tamamen aynıdır.
+2. Cümle Yapısı (Inversion): Bu bağlaçlar ikinci cümlenin 1. sırasındadır. Bu yüzden ÇEKİMLİ FİİL HAKLI OLARAK 2. SIRADA kalır, ÖZNE İSE 3. SIRAYA kayar!
+   - KURAL: [deshalb / deswegen] + [Çekimli Fiil] + [Özne] + ...
+   - Örnek: Ich habe Hunger. Deshalb esse ich eine Pizza. ("ich" öznesi 3. sıradadır!)
+
+3. Stil Farkı: Daily dilde "deswegen" (Örn: Genau deswegen!), yazılı/resmi dilde "deshalb" daha yaygındır.
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Sätze bauen (Neden-Sonuç Cümleleri Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie auf die sarsılmaz kural: Fiil her zaman bağlacın hemen sağında (Position 2)!
+
+1. Ich bin krank. / gehe / ich / zum Arzt / deshalb / .
+   -> Ich bin krank. ___________________________________________
+
+2. Erhan hat keine Zeit. / am Samstag / spielt / deswegen / er / kein Padel-Tennis .
+   -> Erhan hat keine Zeit. _____________________________________
+
+3. Meine Wohnungstür ist kaputt. / den Handwerker / rufe / deshalb / ich / an . (Achtung: anrufen!)
+   -> Meine Wohnungstür ist kaputt. _____________________________
+
+4. Wir wollen fleißig Deutsch lernen. / jeden Tag / wir / lernen / deswegen / .
+   -> Wir wollen fleißig Deutsch lernen. ________________________
+
+
+ÜBUNG 2: Satzpaare verbinden (İki Cümleyi "deshalb/deswegen" ile Bağlama)
+Verbinden Sie die zwei Sätze. Vergessen Sie nicht das Komma oder den Punkt vor dem Bağlaç!
+
+Örnek: Ich habe viel Arbeit. Ich bleibe im Büro. 
+       -> Ich habe viel Arbeit, deshalb bleibe ich im Büro.
+
+1. Frau Alahmed sucht eine Wohnung. Sie liest jeden Tag Anzeigen.
+   -> Frau Alahmed sucht eine Wohnung, deswegen ________________.
+
+2. Herr Novak hat kein Geld. Er geht nicht im Restaurant essen.
+   -> Herr Novak hat kein Geld, deshalb ________________________.
+
+3. Das Paket ist weg. Herr Demir ruft bei der Post an.
+   -> Das Paket ist weg, deswegen ______________________________.
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welcher Satz ist grammatikalisch richtig? Kreuzen Sie an (A, B oder C).
+
+1. - Warum lernst du so viel Python? - Ich brauche einen Beruf, _________.
+   [ ] A) deswegen ich lerne jeden Tag.
+   [ ] B) deswegen lerne ich jeden Tag.
+   [ ] C) lerne ich deswegen jeden Tag.
+
+2. Ich fühle mich heute furchtbar, _________ im Bett.
+   [ ] A) deshalb bleibe ich
+   [ ] B) deshalb ich bleibe
+   [ ] C) weil bleibe ich
+
+3. Ahmet hat am Wochenende eine große telc-Prüfung, _________ am Samstag keine Pause machen.
+   [ ] A) deswegen er kann
+   [ ] B) weil kann er
+   [ ] C) deswegen kann er
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. Deshalb gehe ich zum Arzt. (Bağlaçtan hemen sonra çekimli fiil 'gehe' gelir, özne 'ich' 3. sıraya kayar.)
+2. Deswegen spielt er am Samstag kein Padel-Tennis. (Fiil 'spielt' 2. sıradadır.)
+3. Deshalb rufe ich den Handwerker an. ('anrufen' ayrılan bir fiildir, kök 'rufe' bağlacın sağında kalır, 'an' takısı en sona fırlatılır.)
+4. Deswegen lernen wir jeden Tag. (Fiil 'lernen' 2. sıradadır.)
+
+ÜBUNG 2:
+1. deswegen liest sie jeden Tag Anzeigen. (Fiil 'liest' 2. sırada, özne 'sie' 3. sıradadır.)
+2. deshalb geht er nicht im Restaurant essen. (Fiil 'geht' 2. sıradadır, 'essen' asıl eylemi mastar halde en sondadır.)
+3. deswegen ruft Herr Demir bei der Post an. (Çekimli fiil 'ruft' 2. sırada, ön takı 'an' en sondadır.)
+
+ÜBUNG 3:
+1. B - "deswegen" cümlenin 1. sırasını kapladığı için çekimli fiil "lerne" hemen sağında (2. sırada) yer almalıdır.
+2. A - Doğru inversiyon yapısıdır; bağlaç + fiil (bleibe) + özne (ich).
+3. C - "deswegen" yapısından sonra önce modal fiil "kann" gelir, özne "er" 3. sıraya yerleşir ve asıl eylem "machen" mastar olarak en sonda kalır.

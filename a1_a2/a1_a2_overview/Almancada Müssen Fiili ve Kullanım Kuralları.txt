@@ -1,0 +1,10 @@
+﻿Almancada "Modal Fiiller", cümlenin asıl eylemine destek olan ve ona zorunluluk, yetenek veya istek gibi anlamlar katan özel fiillerdir. Bunlardan en temel olanı müssen, bir şeyi "yapmak zorunda olmak" yani mecburiyet anlamına gelir 1.
+Bir Almanca öğretmeni olarak sana bunu en basit haliyle, daha önce öğrendiğimiz kurallarla birleştirerek özetleyeyim:
+* Asıl Eylem En Sona Gider: Hatırlarsan patron (çekimli fiil) her zaman 2. sıradaydı. Cümleye müssen girdiğinde, özneye göre çekimlenir ve o değişmez 2. sıraya (patron koltuğuna) kurulur 2, 3. Asıl yapmak zorunda olduğun işi anlatan fiil (örneğin öğrenmek, çalışmak) ise hiçbir değişime uğramadan (mastar halinde) cümlenin ta en sonuna atılır 3.
+* Örnek: Ben Almanca öğrenmek zorundayım. -> Ich muss Deutsch lernen. 3.
+* Örnek: Sen büroda çalışmak zorundasın. -> Du musst im Büro arbeiten. 3.
+* Çekim Kolaylığı: Tüm modal fiillerin sana sağladığı harika bir kolaylık vardır; "Ben" (ich) ve "O" (er/sie/es) için yapılan çekimler birbirinin tamamen aynısıdır 4. Yani ich muss derken, er/sie/es muss dersin 1, 5.
+* Soru Sorarken: Soru sormak istersen kural yine basittir. Müssen fiilini cümlenin en başına (1. sıraya) alırsın, asıl olay yine en sonda kalır 6.
+* Örnek: O eve gitmek zorunda mı? -> Muss sie nach Hause gehen? 7.
+Kısacası müssen ikinci sıraya oturup zorunluluğu bildirir, asıl eylem ise en sonda bekler.
+Bu "zorunluluk" mantığı kafanda canlandı mı? Dilersen bunun tam zıttı olan, bir şey için iznin olması veya yasakları belirtmek için kullandığımız "Dürfen" modal fiiline geçebiliriz, ne dersin?

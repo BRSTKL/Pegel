@@ -1,0 +1,89 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: FRAGESÄTZE (SORU CÜMLELERİ VE DİZİLİM)
+========================================================================
+
+KURAL HATIRLATMASI VE ALTIN FORMÜLLER:
+1. W-Fragen (Soru Kelimeli Sorular):
+   - FORMÜL: [W-Wort] + [Çekimli Fiil] + [Özne] + ... ?
+   - Örnek: Woher kommst du? (Nereden geliyorsun?)
+   - Fiil her zaman sarsılmaz bir şekilde 2. sıradadır!
+
+2. Ja/Nein Fragen (Evet/Hayır Soruları - Soru kelimesi YOKSA):
+   - FORMÜL: [Çekimli Fiil] + [Özne] + ... ?
+   - Örnek: Ist das ein Bleistift? (Bu bir kurşun kalem mi?)
+   - Örnek: Kannst du schwimmen? (Yüzebilir misin?)
+   - Çekimli fiil cümlenin EN BAŞINA (1. sıraya) gelir!
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Sätze bauen - W-Fragen (W-Soruları Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie darauf: W-Wort auf Position 1, Verb auf Position 2, Subjekt auf Position 3!
+
+1. wohnst / wo / du / ? 
+   _____________________________________________________________
+
+2. ne yapıyor / beruflich / Sie / machen / Was / ?
+   _____________________________________________________________
+
+3. kommt / wann / das Paket / ?
+   _____________________________________________________________
+
+4. wie viel Uhr / es / ist / ?
+   _____________________________________________________________
+
+
+ÜBUNG 2: Sätze bauen - Ja/Nein Fragen (Evet/Hayır Soruları Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie darauf: Das konjugierte Verb steht auf Position 1, das Subjekt direkt danach auf Position 2!
+
+1. du / Zeit / am Samstag / hast / ?
+   _____________________________________________________________
+
+2. Herr Novak / ist / im Büro / ?
+   _____________________________________________________________
+
+3. Deutsch / du / lernst / jeden Tag / ?
+   _____________________________________________________________
+
+4. bugün / im Park / spielen / könnt / ihr / Basketball / ? (Achtung: Modalverb!)
+   _____________________________________________________________
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welche Frage ist grammatikalisch richtig built? Kreuzen Sie an (A, B oder C).
+
+1. Ahmet möchte wissen, wo Herr Demir ist. Wie fragt er richtig?
+   [ ] A) Wo Herr Demir ist?
+   [ ] B) Wo ist Herr Demir?
+   [ ] C) Ist Herr Demir wo?
+
+2. Siz arkadaşınıza "Müzik dinlemek istiyor musun?" diye soracaksınız (Sipariş/İstek).
+   [ ] A) Möchtest du Musik hören?
+   [ ] B) Du möchtest Musik hören?
+   [ ] C) Was möchtest du Musik hören?
+
+3. - _________? - Ja, ben öğretmenim (Ich bin Lehrer).
+   [ ] A) Was machen Sie beruflich?
+   [ ] B) Sind Sie Lehrer von Beruf?
+   [ ] C) Wo arbeiten Sie als Lehrer?
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. Wo wohnst du? (Soru kelimesi 'Wo' 1'de, fiil 'wohnst' 2'de, özne 'du' 3. sıradadır.)
+2. Was machen Sie beruflich? (Standart resmi meslek sorma dizilimidir.)
+3. Wann kommt das Paket? (Fiil 'kommt' 2. sırada yerini korur.)
+4. Wie viel Uhr ist es? ('Wie viel Uhr' kalıbı tek bir soru bloğu olarak 1. sırayı kaplar, ardından fiil 'ist' gelir.)
+
+ÜBUNG 2:
+1. Hast du am Samstag Zeit? (Soru kelimesi olmadığı için çekimli fiil 'Hast' en başa gelir, özne 'du' 2. sıraya geçer.)
+2. Ist Herr Novak im Büro? (Fiil 'Ist' 1. sırada, özne 'Herr Novak' 2. sıradadır.)
+3. Lernst du jeden Tag Deutsch? (Fiil 'Lernst' en baştadır.)
+4. Könnt ihr bugün im Park Basketball spielen? (Modal fiil 'Könnt' 1. sıraya gelir, özne 'ihr' 2. sıradadır, asıl eylem 'spielen' ise en sonda mastar kalır.)
+
+ÜBUNG 3:
+1. B - "Wo" bir W-soru kelimesi olduğu için kılavuza göre çekimli fiil "ist" sarsılmaz bir şekilde 2. sırada yer almalıdır.
+2. A - Cevabı evet/hayır olan bir modal fiil sorusudur. Çekimli modal fiil "Möchtest" 1. sıraya gelir, asıl eylem "hören" ise en sonda uslu uslu bekler.
+3. B - Cevap "Ja" (Evet) ile başladığı için soru kalıbı bir Ja/Nein sorusu olmak zorundadır. Bu yüzden soru kelimesi barındırmayan ve fiille ("Sind") başlayan B seçeneği doğrudur.

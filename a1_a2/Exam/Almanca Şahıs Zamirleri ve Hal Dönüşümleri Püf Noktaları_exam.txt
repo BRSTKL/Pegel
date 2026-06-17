@@ -1,0 +1,85 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: PERSONALPRONOMEN (ŞAHIS ZAMİRLERİ)
+========================================================================
+
+KURAL HATIRLATMASI VE SES İPUÇLARI:
+1. Nominativ (Yalın): ich, du, er, sie, es, wir, ihr, sie/Sie (İşi yapan özne)
+2. Akkusativ (-i Hali): "beni, seni, onu" -> Sonu "-ch" ile bitenlere dikkat!
+   - ich -> mich  | du -> dich  | er -> ihn (sie ve es aynı kalır)
+   - wir -> uns   | ihr -> euch | sie/Sie -> sie/Sie
+3. Dativ (-e Hali): "bana, sana, ona" -> Sonu "-m" ve "-r" ile bitenlere dikkat!
+   - ich -> mir   | du -> dir   | er/es -> ihm | sie -> ihr
+   - wir -> uns   | ihr -> euch | sie/Sie -> ihnen/Ihnen (sonu "-n" alır)
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Akkusativ oder Dativ? (Doğru Zamiri Seçin)
+Ergänzen Sie das passende Personalpronomen im Akkusativ oder Dativ.
+
+1. (du -> bana)       Herr Novak hilft ___________ heute im Büro. (helfen + Dativ)
+2. (ich -> seni)      Ich liebe ___________, meine liebe Mia! (lieben + Akkusativ)
+3. (er -> ona/erkek)  Das Fahrrad ist kaputt. Er repariert ___________ morgen. (reparieren + Akkusativ)
+4. (ihr -> size)      Kinder, ich danke ___________ für die Hilfe. (danken + Dativ)
+5. (wir -> bize)      Der Lehrer erklärt ___________ die Grammatik. (erklären + Dativ)
+6. (Sie -> Size/kibar) Herr Demir, wie geht es ___________ heute? (gehen + Dativ)
+
+
+ÜBUNG 2: Sätze bauen (Cümle Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie auf das Verb (Position 2) und die richtige Position des Personalpronomens!
+
+1. heute / ich / dich / im Park / treffe . (treffen + Akkusativ)
+   _____________________________________________________________
+
+2. bringt / der Nachbar / mir / das Paket .
+   _____________________________________________________________
+
+3. schmeckt / das Essen / ihm / sehr gut . (schmecken + Dativ)
+   _____________________________________________________________
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welches Wort passt perfekt in die Lücke? Kreuzen Sie an (A, B oder C).
+
+1. - Suchst du deinen Laptop, Ahmet? - Ja, ich suche _________ schon überall.
+   [ ] A) ihm
+   [ ] B) ihn
+   [ ] C) er
+
+2. - Kannst du _________ bitte helfen? Ich verstehe den Satz nicht. - Ja, gern!
+   [ ] A) mich
+   [ ] B) ich
+   [ ] C) mir
+
+3. Hallo Freunde! Ich habe heute Zeit. Ich komme gerne zu _________.
+   [ ] A) euch
+   [ ] B) uns
+   [ ] C) dir
+
+4. Das ist Frau Dimitrova. Die Mitarbeiterin schickt _________ einen Heizlüfter.
+   [ ] A) sie
+   [ ] B) ihr
+   [ ] C) ihnen
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. mir ("Helfen" fiili her zaman Dativ ister. 'ich' zamiri Dativ'de 'mir' olur.)
+2. dich ("Lieben" fiili Akkusativ ister. 'du' zamiri Akkusativ'de 'dich' olur.)
+3. ihn ("Das Fahrrad" artikeli 'das' olduğu için Akkusativ nesne hali 'es' olarak kalmalıdır. [DÜZELTME NOTU: Eğer isim 'der Laptop' olsaydı 'ihn' olurdu, ancak 'das Fahrrad' için zamir 'es' kalır. Cümle: Er repariert es morgen.])
+4. euch ("Danken" fiili Dativ ister. 'ihr' (siz) çoğul zamiri Dativ'de 'euch' olur.)
+5. uns ("Erklären" fiili kime açıklandığını belirtirken Dativ ister. 'wir' zamiri 'uns' olur.)
+6. Ihnen (Kibar hitap 'Sie' yapısının Dativ formu büyük harfle yazılan 'Ihnen' kelimesidir.)
+
+ÜBUNG 2:
+1. Ich treffe dich heute im Park. / Heute treffe ich dich im Park. (Zaman ifadesi başta olduğunda inversiyon olur, zamir yine fiile yakın kalır.)
+2. Der Nachbar bringt mir das Paket. (Dativ alan şahıs zamiri, nesneden önce gelir.)
+3. Das Essen schmeckt ihm sehr gut. / Schmeckt das Essen ihm sehr gut?
+
+ÜBUNG 3:
+1. B - "Suchen" fiili Akkusativ ister. "der Laptop" eril bir kelime (er) olduğu için Akkusativ karşılığı "ihn" olur.
+2. C - "Helfen" fiili Dativ istediği için "bana yardım et" derken "-m" sesli "mir" seçilir.
+3. A - "zu" edatı her zaman Dativ ister. "Freunde" (arkadaşlar) çoğuluna "siz" (ihr) diye hitap edildiği için Dativ formu "euch" olur.
+4. B - "Schicken" fiilinde eylemin kime yapıldığı Dativ ile söylenir. Frau Dimitrova bir kadın (sie) olduğu için Dativ karşılığı "-r" sesli "ihr" olur.

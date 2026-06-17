@@ -1,0 +1,85 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: ADJEKTIVDEKLINATION (SIFAT ÇEKİMLERİ)
+========================================================================
+
+KURAL HATIRLATMASI (A1-A2 SEVİYESİ):
+1. Sıfat İsmin Arkasındaysa -> EK YOK!
+   - Das Auto ist neu.
+2. Sıfat İsmin Önündeyse -> EK GELİR!
+   
+   A) Belirli Artikel (der/die/das) ile Nominativ:
+      - der neu-e Computer  | die neu-e Tasche | das neu-e Buch
+   
+   B) Belirsiz Artikel (ein/eine) ile Nominativ:
+      - ein neu-er Computer | eine neu-e Tasche | ein neu-es Buch
+   
+   C) Akkusativ (i-Hali) Değişimi:
+      - Sadece ERKEK kelimeler (der -> den / ein -> einen) değişir ve sıfat "-en" alır!
+      - Ich kaufe den neu-en Computer. / Ich kaufe einen neu-en Computer.
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Endung ergänzen (Eksik Sıfat Eklerini Tamamlama)
+Ergänzen Sie die richtige Endung (-e, -er, -es, -en oder kein Ek).
+
+1. Der Kaffee ist heiß___. (Sıfat tek başına)
+2. Das ist ein heiß___ Kaffee. (ein + der Kaffee)
+3. Herr Novak kauft das neu___ Fahrrad. (das + das Fahrrad)
+4. Ich suche eine klein___ Tasche. (eine + die Tasche)
+5. Herr Demir repariert den kaputt___ Computer. (den + der Computer / Akkusativ!)
+6. Wir mieten eine schön___ Wohnung in Berlin. (eine + die Wohnung)
+
+
+ÜBUNG 2: Sätze bauen (Cümle Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie auf die Position des Verbs (Position 2) und die richtige Endung des Adjektivs!
+
+1. ein lecker___ / meine Mutter / Essen / kocht / heute .
+   _____________________________________________________________
+
+2. einen neu___ / ich / Laptop / brauche / für meinen Beruf .
+   _____________________________________________________________
+
+3. das groß___ / im Garten / steht / Haus .
+   _____________________________________________________________
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welcher Satz ist grammatikalisch richtig? Kreuzen Sie an (A, B oder C).
+
+1. - Wie finden Sie den Salat? - Der Salat ist _________.
+   [ ] A) leckerer
+   [ ] B) leckere
+   [ ] C) lecker
+
+2. Frau Alahmed sucht einen _________ Deutschkurs an der Volkshochschule.
+   [ ] A) guter
+   [ ] B) guten
+   [ ] C) gutes
+
+3. Das ist ein _________ Buch (das Buch) für das Grammatiktraining.
+   [ ] A) interessantes
+   [ ] B) interessante
+   [ ] C) interessanter
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. kein Ek / boş (Sıfat ismin arkasında tek başına kaldığı için ek almaz.)
+2. heißer (der Kaffee -> belirsiz artikel 'ein' olduğunda sıfat eril takısı olan '-er' alır.)
+3. neue (Belirli artikel 'das' ile sıfat yalın halde '-e' alır.)
+4. kleine (Belirsiz artikel 'eine' dişil olduğu için sıfat '-e' alır.)
+5. kaputten (Erkek kelime 'der Computer', Akkusativ nesne konumunda 'den kaputten' olur.)
+6. schöne (Akkusativ halinde dişil 'die' kelimeler değişmez, sıfat '-e' kalır.)
+
+ÜBUNG 2:
+1. Meine Mutter kocht heute ein leckeres Essen. / Heute kocht meine Mutter ein leckeres Essen. (das Essen -> ein leckeres)
+2. Ich brauche einen neuen Laptop für meinen Beruf. (der Laptop -> Akkusativ: einen neuen)
+3. Das große Haus steht im Garten. / Im Garten steht das große Haus. (das Haus -> das große)
+
+ÜBUNG 3:
+1. C - Sıfat ismin arkasında tek başına kullanılmıştır, bu yüzden tamamen yalın kalmalıdır.
+2. B - "einen" artikeli Akkusativ (i-hali) belirtir. Erkek kelimelerin önündeki sıfat Akkusativ'de her zaman "-en" takısı alır.
+3. A - "das Buch" nötr bir kelimedir. Önünde belirsiz artikel "ein" varken sıfat nötr olduğunu belli etmek için "-es" takısı alır.

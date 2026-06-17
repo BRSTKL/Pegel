@@ -1,0 +1,13 @@
+﻿O zaman hiç hız kesmeden, az önce bahsettiğimiz "Sıfat Çekimleri" (Adjektivdeklination) konusunun pratik haritasını çıkaralım:
+1. Belirli Artikellerde "e" Kuralı (Nominativ - Yalın Hal):Eğer der, die, das artikelleri cümlede açıkça yazıyorsa ve ismin yalın halindeysek işimiz çok kolaydır; sıfatın sonuna sadece "-e" harfi ekleriz 1, 2.
+* Örnek: der blaue Tisch (o mavi masa), das alte Buch (o eski kitap) 1, 2.
+* İstisna: Çoğul die artikeli kullanıldığında sıfat her zaman "-en" takısı alır (die alten Bücher) 3, 4.
+2. Belirsiz Artikellerde "Gizli Kimliği Gösterme" (ein/eine):Ein (bir) kelimesi kullanıldığında kelimenin orijinal artikelinin der mi yoksa das mı olduğunu ilk bakışta anlayamayız 4, 5. Bu yüzden sıfat, gizlenen asıl artikelin son harfini üzerine alarak kelimenin kimliğini ortaya çıkarır 5, 6.
+* der Tisch -> ein blauer Tisch 5.
+* das Buch -> ein altes Buch 6.
+* die Rose -> eine gelbe Rose (Burada zaten eine diyerek artikeli belli ettiğimiz için sıfat sadece -e alır) 5, 6.
+3. Akkusativ'de (-i Hali) Sadece "Der" Değişimi:Tıpkı ismin hallerinde olduğu gibi, sadece der artikeli den (veya belirsizse einen) şekline dönüşür 7, 8. Bir artikel değişime uğradığı an, arkasından gelen sıfat zorunlu olarak "-en" takısı alır 7, 9. Diğer artikeller (die, das) ise yalın haldeki kurallarıyla tamamen aynı kalır 8.
+* Örnek: den blauen Tisch / einen blauen Tisch 7, 9.
+4. Dativ'de (-e Hali) Şaşmaz "En" Kuralı:İsmin -e halinde tüm artikeller (dem, der vb.) değişime uğrar 10. Buradaki en büyük püf noktası şudur: Artikel herhangi bir değişime uğradıysa, ister belirli (dem) ister belirsiz (einem/einer) olsun, arkasından gelen sıfat istisnasız olarak "-en" takısı alır 11, 12.
+* Örnek: dem braven Tisch, einer alten Rose 11, 12.
+Sıfatları tıpkı bir yapboz gibi yerine yerleştirme mantığı kafana yattı mı?

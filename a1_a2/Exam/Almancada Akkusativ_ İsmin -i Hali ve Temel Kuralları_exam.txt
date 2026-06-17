@@ -1,0 +1,78 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: AKKUSATIV (-İ HALİ)
+========================================================================
+
+KURAL HATIRLATMASI VE ALTIN REHBER:
+1. Sadece "der" Grubu Değişir:
+   - Belirli:   der  -> den   (die -> die  | das -> das  | Plural die -> die)
+   - Belirsiz:  ein  -> einen (eine -> eine| ein -> ein)
+   - Olumsuz:   kein -> keinen (keine -> keine| kein -> kein)
+
+2. Akkusativ İsteyen Temel Fiiller:
+   - haben (sahip olmak), suchen (aramak), lesen (okumak), essen (yemek), brauchen (ihtiyacı olmak)
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Artikel ergänzen (Belirli Artikelleri Tamamlama)
+Ergänzen Sie den Artikel im Akkusativ (den, die oder das). Suchen Sie zuerst den Original-Artikel!
+
+1. (der Bleistift)    Ich habe _______________ Bleistift.
+2. (die Tasche)       Frau Alahmed sucht _______________ Tasche.
+3. (das Buch)         Herr Novak liest _______________ Buch.
+4. (der Salat)        Ich esse _______________ Salat im Restaurant.
+5. (die Banane)       Das Kind isst _______________ Banane.
+6. (das Fahrrad)      Herr Demir repariert _______________ Fahrrad.
+
+
+ÜBUNG 2: Unbestimmt oder Negativ (Belirsiz veya Olumsuz Artikel Seçimi)
+Ergänzen Sie die Lücken mit "einen/keinen", "eine/keine" oder "ein/kein".
+
+1. (der Laptop)       Ich brauche _______________ neuen Laptop für die Arbeit. (Belirsiz)
+2. (der Kaffee)       Ich trinke heute _______________ Kaffee. Ich mag keinen Kaffee. (Olumsuz)
+3. (die Wohnung)      Wir suchen _______________ Wohnung in Berlin. (Belirsiz)
+4. (das Auto)         Mein Bruder hat _______________ Auto. Er fährt immer mit dem Bus. (Olumsuz)
+5. (der Apfel)        Isst du _______________ Apfel? (Belirsiz)
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welches Wort passt perfekt in die Lücke? Kreuzen Sie an (A, B oder C).
+
+1. - Was suchst du, Ahmet? - Ich suche _________ Schlüssel (der Schlüssel).
+   [ ] A) der
+   [ ] B) den
+   [ ] C) dem
+
+2. Herr Novak hat heute _________ Zeit (die Zeit). Er muss lange arbeiten.
+   [ ] A) kein
+   [ ] B) keinen
+   [ ] C) keine
+
+3. Ich möchte im Sommer _________ gutes Buch (das Buch) lesen.
+   [ ] A) ein
+   [ ] B) einen
+   [ ] C) eine
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. den ("der Bleistift" Akkusativ nesne konumunda 'den' olur.)
+2. die ("die Tasche" Akkusativ halinde hiçbir değişime uğramaz, 'die' kalır.)
+3. das ("das Buch" nötr bir kelimedir, Akkusativ halinde aynen kalır.)
+4. den ("der Salat" erkek kelimedir, 'essen' fiiliyle Akkusativ olup 'den' olur.)
+5. die ("die Banane" dişil kelimedir, Akkusativ'de değişmez.)
+6. das ("das Fahrrad" nötr kelimedir, değişime uğramaz.)
+
+ÜBUNG 2:
+1. einen (der Laptop -> brauche [Was?] -> Akkusativ: einen)
+2. keinen (der Kaffee -> trinke [Was?] -> Olumsuz Akkusativ: keinen)
+3. eine (die Wohnung -> suchen -> Akkusativ'de dişil grup değişmez: eine)
+4. kein (das Auto -> haben -> Olumsuz Akkusativ'de nötr grup değişmez: kein)
+5. einen (der Apfel -> isst du [Was?] -> Akkusativ: einen)
+
+ÜBUNG 3:
+1. B - "Suchen" fiili Akkusativ gerektirir. "der Schlüssel" eril bir kelime olduğu için nesne koltuğunda "den" formuna dönüşür.
+2. C - "die Zeit" dişil bir kelimedir. Akkusativ durumunda dişil kelimeler değişmediği için olumsuz hali "keine" olarak kalır.
+3. A - "das Buch" nötr bir kelimedir. Akkusativ halinde nötr grubun belirsiz artikeli değişmeyerek "ein" olarak kullanılır.

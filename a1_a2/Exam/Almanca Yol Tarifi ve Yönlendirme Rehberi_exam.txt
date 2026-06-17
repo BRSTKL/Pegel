@@ -1,0 +1,91 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: WEGBESCHREIBUNG (YOL TARİFİ)
+========================================================================
+
+KURAL HATIRLATMASI VE PÜF NOKTALARI:
+1. Yol Sorma: Söze kibarca "Entschuldigung, wie kann ich...?" diyerek başlanır.
+2. Kibar Emir Kipi (Sie-Form): Fiil başa gelir, arkasından "Sie" eklenir.
+   - Gehen Sie... (Gidin) / Biegen Sie... ab (Sapın)
+3. Önemli Yön Kalıpları:
+   - geradeaus (dümdüz) / links (sola) / rechts (sağa)
+   - die Straße entlang (sokak boyunca - 'entlang' kelimesi ismin arkasından gelir!)
+   - bis zur... (trafik ışıklarına/dörtyol ağzına kadar)
+4. Geçip Gitme Edatları:
+   - über die Brücke (köprünün üstünden - Akkusativ)
+   - durch das Stadttor (kapının içinden - Akkusativ)
+   - an der Schule vorbei (okulun yanından - Dativ + vorbei)
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Ergänzen Sie die Lücken. (Boşlukları Uygun Kalıpla Tamamlayın)
+(geradeaus / abbiegen / entlang / vorbei / bis zur)
+
+1. Entschuldigung, wie kann ich in die Universität gehen? 
+   -> Gehen Sie zuerst ____________________. (Dümdüz ilerleyin)
+
+2. Biegen Sie bitte die erste Straße rechts ____________________. (Sağa sapın)
+
+3. Gehen Sie die Schillerstraße ____________________. (Schiller caddesi boyunca ilerleyin)
+
+4. Fahren Sie ____________________ Ampel und biegen Sie links ab. (Trafik ışıklarına kadar)
+
+5. Gehen Sie an dem Supermarkt ____________________. Dort ist die Schule. (Süpermarketin yanından geçin)
+
+
+ÜBUNG 2: Sätze bauen im Imperativ (Emir Kipiyle Cümle Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie auf die Position von "Sie" und das Verb (Ayrılan fiillere dikkat!).
+
+1. geradeaus / Sie / gehen / .
+   _____________________________________________________________
+
+2. links / Sie / ab / biegen / .
+   _____________________________________________________________
+
+3. über / Brücke / gehen / die / Sie / .
+   _____________________________________________________________
+
+4. die Straße / Sie / gehen / entlang / .
+   _____________________________________________________________
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welches Wort passt perfekt in die Lücke? Kreuzen Sie an (A, B oder C).
+
+1. - Entschuldigung, wie komme ich zum Bahnhof?
+   - Gehen Sie _________ die Brücke (die Brücke) und dann rechts.
+   [ ] A) durch
+   [ ] B) über
+   [ ] C) an
+
+2. Biegen Sie die zweite Straße links _________.
+   [ ] A) an
+   [ ] B) vorbei
+   [ ] C) ab
+
+3. Gehen Sie bis _________ Kreuzung (die Kreuzung) und fragen Sie dort noch einmal.
+   [ ] A) zur
+   [ ] B) zum
+   [ ] C) durch
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. geradeaus (Dümdüz gitme kalıbı)
+2. abbiegen ('Biegen Sie... ab' ayrılan fiil yapısı, 'abbiegen' mastar kalıbın tamamlayıcısıdır.)
+3. entlang ('Entlang' edatı caddenin arkasına yazılarak boylu boyunca anlamı katar.)
+4. bis zur ('die Ampel' kelimesiyle sınır belirtirken 'bis zur' kalıbı kullanılır.)
+5. vorbei ('an... vorbei' bir şeyin içine girmeden yanından geçip gitmektir.)
+
+ÜBUNG 2:
+1. Gehen Sie geradeaus. (Kibar emir yapısında fiil en baştadır.)
+2. Biegen Sie links ab. ('abbiegen' ayrılan bir fiil olduğu için 'ab' eki cümlenin en sonuna fırlatılır.)
+3. Gehen Sie über die Brücke. ('über' edatı köprünün üzerinden geçmeyi anlatır ve Akkusativ alır.)
+4. Gehen Sie die Straße entlang. ('entlang' kelimesi yönlendirilen sokağın sağına yerleşir.)
+
+ÜBUNG 3:
+1. B - Bir köprünün üzerinden/üstünden geçmek için "über" edatı (Akkusativ) tercih edilir.
+2. C - Sapmak anlamındaki fiilimiz "abbiegen" olduğu için boşluğa ayrılan ek olan "ab" gelmelidir.
+3. A - "die Kreuzung" kelimesi dişil (die) olduğu için "bis zu" kalıbıyla birleştiğinde Dativ kuralıyla "bis zur" halini alır.

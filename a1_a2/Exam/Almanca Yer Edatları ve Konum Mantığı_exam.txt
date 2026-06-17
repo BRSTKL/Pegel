@@ -1,0 +1,73 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: LOKALE PRÄPOSITIONEN (YER EDATLARI)
+========================================================================
+
+KURAL HATIRLATMASI VE PÜF NOKTALARI:
+1. Wechselpräpositionen (Değişken Edatlar): in, auf, unter, vor, hinter, neben vb.
+   - Wo? (Nerede? / Sabit Konum) -> DATIV ister! (der/das -> dem | die -> der)
+   - Wohin? (Nereye? / Hareket-Yönelim) -> AKKUSATIV ister! (der -> den | die/das aynı kalır)
+
+2. Immer Dativ (Her Zaman Dativ Alanlar): zu, aus, von edatları her zaman Dativ ile kullanılır!
+   - zu + dem = zum  |  zu + der = zur
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Wo? oder Wohin? (Dativ mi, Akkusativ mi?)
+Ergänzen Sie den Artikel im Dativ oder Akkusativ. Achten Sie auf das Verb (stehen/liegen = sabit, gehen/legen = hareket).
+
+1. (Wo? / der Tisch)       Das Buch liegt auf _______________ Tisch.
+2. (Wohin? / der Tisch)    Ich lege das Buch auf _______________ Tisch.
+3. (Wo? / die Tasche)      Der Kuli ist in _______________ Tasche.
+4. (Wohin? / das Bett)     Das Kind geht in _______________ Bett.
+5. (Wo? / das Kino)        Wir sind in _______________ Kino.
+
+
+ÜBUNG 2: Immer Dativ (zu, aus, von Yapıları)
+Ergänzen Sie die passende Form (zum, zur, aus der, von meinem).
+
+1. (zu / der Arzt)         Ich bin krank. Ich gehe heute _______________ Arzt.
+2. (aus / die Schule)      Die Kinder kommen um 13:00 Uhr _______________ Schule.
+3. (zu / die Bäckerei)     Wir gehen _______________ Bäckerei und kaufen Brot.
+4. (von / mein Vater)      Ich komme gerade _______________ Vater. O çok iyi.
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welches Wort passt perfekt in die Lücke? Kreuzen Sie an (A, B oder C).
+
+1. - Wo ist Herr Novak? - Er sitzt im Büro _________ dem Stuhl (der Stuhl).
+   [ ] A) auf den
+   [ ] B) auf dem
+   [ ] C) an dem
+
+2. Herr Demir bringt das Paket _________ Post (die Post).
+   [ ] A) zur
+   [ ] B) zum
+   [ ] C) aus der
+
+3. Meine Freunde gehen am Samstag _________ Park (der Park) spazieren.
+   [ ] A) in den
+   [ ] B) im
+   [ ] C) in dem
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. dem (Liegen = sabit durmak, Wo? sorusudur ve 'der Tisch' Dativ'de 'dem' olur.)
+2. den (Legen = yatay koymak, Wohin? sorusudur ve 'der Tisch' Akkusativ'de 'den' olur.)
+3. der (İçinde sabit duruyor, Wo? sorusudur ve 'die Tasche' Dativ'de 'der' olur.)
+4. das (Yatağa doğru gidiyor, Wohin? yönelimdir ve 'das Bett' Akkusativ'de 'das' kalır.)
+5. dem / im (Sinemanın içindeyiz, sabit konumdur. 'in dem' birleşerek 'im' de yazılabilir.)
+
+ÜBUNG 2:
+1. zum ('zu' her zaman Dativ ister. zu + dem Arzt = zum Arzt olur.)
+2. aus der ('aus' binadan çıkmayı anlatır ve Dativ ister. die Schule -> der Schule.)
+3. zur ('zu' her zaman Dativ ister. zu + der Bäckerei = zur Bäckerei olur.)
+4. von meinem ('von' birinin yanından gelmeyi anlatır ve Dativ ister. mein Vater -> meinem Vater.)
+
+ÜBUNG 3:
+1. B - Sandalyede oturmak sabit bir konumdur (Wo?). Bu yüzden Dativ hali olan "auf dem" doğru seçenektir.
+2. A - Bir mekana/kuruma doğru gitmek için "zu" edatı kullanılır ve 'die Post' Dativ'de 'der' olduğu için birleşerek "zur" olur.
+3. A - Parkın içine doğru yürümek/gitmek bir yönelimdir (Wohin?). Bu yüzden Akkusativ grubu olan "in den" seçilir. (Eğer parkın içinde halihazırda geziyor olsalardı 'im/in dem' olurdu, ancak yönelim odaklı gitme eyleminde 'in den' tercih edilir.)

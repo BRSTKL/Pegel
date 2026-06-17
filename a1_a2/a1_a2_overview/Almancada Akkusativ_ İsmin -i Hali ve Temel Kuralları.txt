@@ -1,0 +1,21 @@
+﻿Almancada ismin "-i hali" olan Akkusativ, "Artikeller ve Haller" konusunun en insaflı ve en pratik öğrenilen bölümüdür.
+Senden istediğim gibi detaylı ve püf noktalarıyla bu halin haritasını çıkaralım:
+1. En Büyük Püf Noktası: Sadece "Der" DeğişirAkkusativ'in en temel kuralı şudur: Tüm artikeller içinde sadece maskülen olan der artikeli değişime uğrar ve den şekline dönüşür 1, 2.Feminen die, nötr das ve çoğul die artikellerinin tamamı hiçbir değişime uğramadan, tıpkı yalın haldeki gibi kalır 2.
+* Bu kural belirsiz ve olumsuz artikeller için de birebir kopyalanır: Sadece der grubuna ait kelimelerin önündeki ein artikeli einen, kein artikeli ise keinen olur 2, 3.
+2. Akkusativ'i Bulduran SorularBir cümlenin ismin -i halini gerektirip gerektirmediğini anlamak için eyleme şu üç sorudan birini sorman yeterlidir 4:
+* Wen? (Kimi?)
+* Was? (Neyi?)
+* Wohin? (Nereye?)
+3. Akkusativ İsteyen Temel FiillerAlmancada bazı fiiller yapısı gereği her zaman ismin -i haliyle çalışır. A1/A2 seviyesinde en çok karşılaşacağın Akkusativ fiilleri şunlardır: haben (sahip olmak), suchen (aramak), essen (yemek yemek) ve lesen (okumak) 1, 4.
+Hemen bu fiillerle ve altın kuralımızla örnekler kurarak durumu netleştirelim:
+* Der Artikeli (Değişir): Kurşun kalem (der Bleistift).
+* "O kurşun kalem bende" -> Ich habe den Bleistift. 5.
+* "Bir kurşun kalem arıyorum" -> Ich suche einen Bleistift. 6.
+* "Benim kurşun kalemim yok" -> Ich habe keinen Bleistift. 3.
+* Die Artikeli (Aynen Kalır): Çanta (die Tasche).
+* "O çanta bende" -> Ich habe die Tasche. 7.
+* "Bir çanta arıyorum" -> Ich suche eine Tasche. 8.
+* Das Artikeli (Aynen Kalır): Kitap (das Buch).
+* "O kitap bende" -> Ich habe das Buch. 9.
+* "Bir kitap okuyorum" -> Ich lese ein Buch. 8.
+Sadece "der" artikelini dönüştürüp diğerlerine hiç dokunmama mantığı (Akkusativ) kafanda tam olarak yer etti mi?

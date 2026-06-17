@@ -1,0 +1,74 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: TEKAMOLO - K (KAUSAL / SEBEP BASAMAĞI)
+========================================================================
+
+KURAL HATIRLATMASI VE STRATEJİ REHBERİ:
+1. TeKaMoLo Sıralaması: [Temporal - Zaman] + [Kausal - Sebep] + ...
+2. Kausal (Sebep) Mantığı: Eylemin neden yapıldığını bildirir. Başlangıç seviyesinde ağır tamlamalar yerine ana cümleden sonra virgül koyup "weil" (çünkü) ile sebep bildirmek çok daha kolaydır!
+3. "weil" Kuralı Hatırlatması: Cümleye "weil" girdiğinde çekimli fiil cümlenin TA EN SONUNA fırlatılır!
+   - Örnek: Ich bleibe heute zu Hause, weil ich krank bin. (Fiil "bin" en sonda!)
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: "weil" ile Kolay Sebep Cümleleri Kurma (Yan Cümle Dizilimi)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie darauf, dass das konjugierte Verb im weil-Satz ganz am Ende steht!
+
+1. Ich gehe zum Arzt, / ich / weil / krank / bin / .
+   -> Ich gehen zum Arzt, ______________________________________.
+
+2. Erhan spielt am Samstag kein Padel-Tennis, / er / weil / keine Zeit / hat / .
+   -> Erhan spielt am Samstag kein Padel-Tennis, _______________ _______________________.
+
+3. Herr Novak bleibt heute im Büro, / er / weil / arbeiten / muss / . (Achtung: Modalverb!)
+   -> Herr Novak bleibt heute im Büro, _________________________ _______________________.
+
+4. Wir lernen jeden Tag Deutsch, / wir / weil / möchten / die telc-Prüfung / machen / .
+   -> Wir lernen jeden Tag Deutsch, ____________________________ _______________________.
+
+
+ÜBUNG 2: TeKaMoLo Basamaklarını Tamamlama (Zaman mı, Sebep mi?)
+Okuyun ve altı çizili kelimelerin TeKaMoLo formülündeki hangi basamağa (T - Temporal mi, yoksa K - Kausal mı) ait olduğunu parantez içine yazın.
+
+1. Ich lerne [am Montag] (_____) [wegen der Prüfung] (_____) fleißig Deutsch.
+2. Erhan hat [heute] (_____) [wegen der Arbeit] (_____) keine Zeit für Basketball.
+3. Meine Eltern kommen [im Sommer] (_____) nach Berlin. (Sebep yok, Kausal adımı atlanmış!)
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welcher Satz ist grammatikalisch richtig built? Kreuzen Sie an (A, B oder C).
+
+1. Ahmet kann heute nicht zum Deutschkurs kommen. Nasıl sebep bildirir?
+   [ ] A) weil er hat viel Arbeit.
+   [ ] B) weil er çok işi var.
+   [ ] C) weil er viel Arbeit hat.
+
+2. Frau Alahmed sucht eine Wohnung in Berlin, _________ müde ist.
+   [ ] A) weil sie
+   [ ] B) weil
+   [ ] C) dass sie
+
+3. Ich trinke einen heißen Kaffee, _________ müde bin.
+   [ ] A) deshalb ich
+   [ ] B) weil ich
+   [ ] C) weil bin ich
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. weil ich krank bin. (Çekimli fiil 'bin' en sondadır.)
+2. weil er keine Zeit hat. (Çekimli fiil 'hat' en sona fırlatılır.)
+3. weil er arbeiten muss. (Modal fiil kuralı: Çekimli modal fiil 'muss' en sona gider, asıl eylem 'arbeiten' mastar olarak onun hemen solunda yer alır.)
+4. weil wir die telc-Prüfung machen möchten. (Çekimli olan 'möchten' en sonda, asıl eylem 'machen' onun solundadır.)
+
+ÜBUNG 2:
+1. am Montag (T - Temporal / Zaman) | wegen der Prüfung (K - Kausal / Sebep)
+2. heute (T - Temporal / Zaman) | wegen der Arbeit (K - Kausal / Sebep)
+3. im Sommer (T - Temporal / Zaman) | (Kılavuza göre bir sebep yoksa Kausal adımı rahatça atlanır.)
+
+ÜBUNG 3:
+1. C - "weil" bağlacı kulüp kuralı gereği çekimli fiili (hat) cümlenin ta en sonuna fırlatmak zorundadır.
+2. A - Boşluktan hemen sonra özne (sie) gelmeli ve fiil (ist) zaten cümlenin en sonuna atılmış olmalıdır.
+3. B - "Çünkü yorgunum" anlamını kurarken "weil" bağlacından sonra özne (ich) gelir ve fiil (bin) en sonda yerini alır.

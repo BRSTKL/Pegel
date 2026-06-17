@@ -1,0 +1,87 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: PRÄSENS (ŞİMDİKİ, GENİŞ VE GELECEK ZAMAN)
+========================================================================
+
+KURAL HATIRLATMASI VE ANLAM FONKSİYONLARI (A1-A2 SEVİYESİ):
+Almancada Präsens formu ek bir zaman kalıbına ihtiyaç duymadan 3 farklı anlamda kullanılabilir:
+
+1. Şimdiki Zaman (Şu an yapılan eylemler):
+   - Ich lerne Deutsch (jetzt). -> (Şu an) Almanca öğreniyorum.
+2. Geniş Zaman (Düzenli yapılan alışkanlıklar/hobiler):
+   - Ich lerne jeden Tag Deutsch. -> Her gün Almanca öğrenirim.
+3. Gelecek Zaman (Cümlede zaman zarfı [morgen, nächste Woche] varsa):
+   - Ich lerne morgen Deutsch. -> Yarın Almanca öğreneceğim.
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Welches Anlam? (Cümlelerin Zaman Anlamını Belirleme)
+Okuyun ve cümlelerin hangi zaman anlamını (Şimdiki Zaman / Geniş Zaman / Gelecek Zaman) taşıdığını yanlarına yazın.
+
+1. Ich spiele jetzt Padel-Tennis im Park. 
+   -> Anlamı: __________________________________________________
+
+2. Erhan spielt jeden Samstag Basketball.
+   -> Anlamı: __________________________________________________
+
+3. Morgen spielt meine Tante Tennis in Berlin.
+   -> Anlamı: __________________________________________________
+
+4. Herr Novak kocht gerade eine leckere Suppe.
+   -> Anlamı: __________________________________________________
+
+5. Wir fliegen im Sommer nach Spanien.
+   -> Anlamı: __________________________________________________
+
+
+ÜBUNG 2: Sätze bauen im Präsens (Zaman Anlamlarına Göre Cümle Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie auf das Verb (Position 2). Denken Sie bei Zeitangaben am Anfang an die Inversion!
+
+1. (Şimdiki Zaman)   gerade / ich / Musik / hören / .
+   _____________________________________________________________
+
+2. (Geniş Zaman)     jeden Tag / lernt / Python / Erhan / .
+   _____________________________________________________________
+
+3. (Gelecek Zaman)   nächste Woche / meine Freunde / nach Berlin / kommen / .
+   _____________________________________________________________
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welches Wort passt perfekt in die Lücke? Kreuzen Sie an (A, B oder C).
+
+1. - Was machst du morgen, Ahmet? - Morgen _________ ich mein Zimmer auf.
+   [ ] A) räume
+   [ ] B) habe aufgeräumt
+   [ ] C) räumte
+
+2. Frau Alahmed _________ jeden Samstag im Supermarkt ein. Das ist ihre Routine.
+   [ ] A) kauft
+   [ ] B) einkauft
+   [ ] C) kaufen
+
+3. - Wo ist Herr Demir? - Er _________ gerade ein wichtiges Buch im Büro.
+   [ ] A) liest
+   [ ] B) lesen
+   [ ] C) lest
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. Şimdiki Zaman ("jetzt" [şu an] kelimesinden dolayı eylemin tam şu an yapıldığı anlaşılır.)
+2. Geniş Zaman ("jeden Samstag" [her Cumartesi] ifadesi bunun düzenli bir hobi/alışkanlık olduğunu gösterir.)
+3. Gelecek Zaman ("Morgen" [Yarın] zaman zarfı Präsens cümlesine gelecek zaman anlamı katmıştır.)
+4. Şimdiki Zaman ("gerade" [şu sıralar/tam şu an] eylemin şu an sürdüğünü belirtir.)
+5. Gelecek Zaman ("im Sommer" [yazın] gelecekteki bir planı ve niyetini ifade eder.)
+
+ÜBUNG 2:
+1. Ich höre gerade Musik. / Gerade höre ich Musik. (Fiil 'höre' 2. sıradadır.)
+2. Erhan lernt jeden Tag Python. / Jeden Tag lernt Erhan Python. (Zaman başta olursa inversiyon olur, fiil 'lernt' yerini korur.)
+3. Nächste Woche kommen meine Freunde nach Berlin. / Meine Freunde kommen nächste Woche nach Berlin. (Çoğul özneye göre fiil 'kommen' olur.)
+
+ÜBUNG 3:
+1. A - "Morgen" kelimesi gelecek zaman anlamı katsa da fiil Präsens formunda ("räume... auf" ayrılabilir fiili) çekimlenir.
+2. A - "Frau Alahmed" üçüncü tekil şahıstır (sie). Ayrılabilir "einkaufen" fiili Präsens geniş zaman anlamında "kauft... ein" olarak doğru çekimlenir.
+3. A - "Herr Demir" (er) öznesine göre düzensiz olan "lesen" fiilinin doğru Präsens çekimi "liest" şeklindedir.

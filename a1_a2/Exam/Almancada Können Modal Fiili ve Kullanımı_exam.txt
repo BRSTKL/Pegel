@@ -1,0 +1,82 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: MODALVERB "KÖNNEN" (YETENEK / İMKAN)
+========================================================================
+
+KURAL HATIRLATMASI (A1-A2 SEVİYESİ):
+1. Anlamı: "können" bir şeyi yapabilme becerisini, yeteneğini veya olasılığını/imkanını belirtir.
+2. Cümle Yapısı: Özneye göre çekimlenen "können" fiili 2. sıradadır. Asıl eylem cümlenin EN SONUNDA mastar (Infinitiv) halde bulunur.
+3. Çekim Kuralı: "ich" und "er/sie/es" çekimleri aynıdır!
+4. Soru Sorarken: Çekimli fiil 1. sıraya gelir, asıl eylem yine en sonda kalır.
+
+Können Çekimi:
+ich kann       | wir können
+du kannst      | ihr könnt
+er/sie/es kann | sie/Sie können
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: Sätze bauen mit "können" (Cümle Kurma)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie auf die Positionen: "können" auf Position 2, das Hauptverb ganz am Ende!
+
+1. çok iyi / ich / Padel-Tennis / spielen / kann .
+   _____________________________________________________________
+
+2. Auto / fahren / kann / sie / gut .
+   _____________________________________________________________
+
+3. sehr gut / Deutsch / sprechen / können / meine Freunde .
+   _____________________________________________________________
+
+4. am Samstag / kommen / du / kannst / ? (Achtung: Frage!)
+   _____________________________________________________________
+
+
+ÜBUNG 2: Verbformen ergänzen (Fiil Çekimini Tamamlama)
+Ergänzen Sie die richtige Form von "können" im Präsens.
+
+1. Ich _______________ Gitarre spielen. Und was kannst du?
+2. Hallo Kinder! _______________ ihr heute im Park Basketball spielen?
+3. Herr Novak _______________ sehr gut Python programmieren.
+4. Wir _______________ heute nicht kommen, weil wir viel Arbeit haben.
+5. Das Kind _______________ schon alleine Fahrrad fahren.
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welcher Satz ist grammatikalisch richtig? Kreuzen Sie an (A, B oder C).
+
+1. - Kannst du schwimmen? - Ja, ich _________.
+   [ ] A) kann gut schwimmen.
+   [ ] B) kannst gut schwimmen.
+   [ ] C) kann schwimmen gut.
+
+2. Erhan _________ heute Abend nicht mit uns Fußball spielen.
+   [ ] A) könnt
+   [ ] B) kann
+   [ ] C) kanns
+
+3. [ ] A) Wir können heute fleißig lernen Deutsch.
+   [ ] B) Wir kann bugün fleißig Deutsch lernen.
+   [ ] C) Wir können bugün fleißig Deutsch lernen.
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. Ich kann sehr gut Padel-Tennis spielen. / Sehr gut Padel-Tennis kann ich spielen. (Zaman veya derece belirteci ortada veya başta yer alabilir.)
+2. Sie kann gut Auto fahren. / Gut Auto fahren kann sie.
+3. Meine Freunde können sehr gut Deutsch sprechen. (Meine Freunde -> onlar / sie çoğul çekimi)
+4. Kannst du am Samstag kommen? (Soru cümlesi olduğu için çekimli fiil 1. sıradadır.)
+
+ÜBUNG 2:
+1. kann (ich çekimi)
+2. Könnt (ihr çekimi ve soru cümlesi olduğu için büyük harfle başlar)
+3. kann (Herr Novak -> er/sie/es çekimi)
+4. können (wir çekimi)
+5. kann (Das Kind -> er/sie/es çekimi)
+
+ÜBUNG 3:
+1. A - "ich" öznesine göre doğru çekim "kann" olur ve asıl eylem "schwimmen" cümlenin ta en sonundadır.
+2. B - Erhan üçüncü tekil şahıs (er) olduğu için modal fiil çekimi "kann" şeklindedir.
+3. C - "Wir" öznesine göre çekim "können" olur. Asıl eylem "lernen" ise mastar halde cümlenin en sonuna atılmıştır.

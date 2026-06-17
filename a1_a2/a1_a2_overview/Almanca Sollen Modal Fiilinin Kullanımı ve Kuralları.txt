@@ -1,0 +1,9 @@
+﻿Almancada "Modal Fiiller" ailesinin tavsiye ve görev bildiren üyesi sollen fiilidir ve Türkçeye "-meli/-malı" olarak çevrilir 1. Birinden bir tavsiye aldığımızda (örneğin bir doktorun "spor yapmalısın" demesi) veya bize bir görev verildiğinde bu fiili kullanırız 2, 3.
+Diğer modal fiillerde öğrendiğimiz o meşhur iskelet kuralı burada da aynen geçerlidir:
+* Asıl Eylem En Sona Gider: Özneye göre çekimlediğin sollen fiilini cümlenin 2. sırasına (patron koltuğuna) yerleştirirsin 4. Asıl yapılması gereken eylem ise (kalkmak, öğrenmek vb.) hiçbir ek almadan mastar halinde cümlenin en sonuna fırlatılır 2, 4.
+* Örnek: Erken kalkmalıyım. -> Ich soll früh aufstehen. 4.
+* Örnek: Almanca öğrenmelisin. -> Du sollst Deutsch lernen. 2.
+* Ben ve O Kardeşliği: "Ben" (ich) ve "O" (er/sie/es) için çekimler tıpatıp aynıdır ve fiil soll şeklini alır 1, 5.
+* Soru Sorarken: Birine ne yapması gerektiğini sorarken sollen fiili başa, yani 1. sıraya geçer 6.
+* Örnek: O spor yapmalı mı? -> Soll er Sport machen? 6.
+Böylece tavsiye ve görev bildiren bu yapıyı da halletmiş olduk. Aynı kaynakta bahsedilen ve bir şeyden "hoşlanmak / sevmek" anlamına gelen mögen fiiline de göz atarak modal fiiller konusuna güzel bir nokta koyalım mı?

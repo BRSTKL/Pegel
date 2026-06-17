@@ -1,0 +1,7 @@
+﻿Almancada "Passiv Präsens" (Edilgen Çatı), eylemi kimin yaptığının önemli olmadığı, asıl vurgunun yapılan işin üzerinde olduğu özel bir fiil yapısıdır 1-3.
+Bu yapıyı kurmak için werden yardımcı fiilini ve asıl fiilin geçmiş zaman (Perfekt) halini kullanırsın 3, 4. Tıpkı diğer özel yapılarda olduğu gibi kural şaşmaz: "Werden" fiili cümlenin yeni öznesine göre çekimlenip 2. sıraya (patron koltuğuna) yerleşir, asıl yapılan eylem ise geçmiş zaman formunda cümlenin ta en sonuna fırlatılır 3.
+Hemen basit bir örnekle görelim:
+* Aktif Cümle: Ahmet arabasını tamir ediyor. (Ahmet repariert sein Auto.) 5
+* Pasif Cümle: Araba tamir ediliyor. (Das Auto wird repariert.) 5
+Eğer eylemi kimin yaptığını ille de belirtmek istersen, araya von edatını (Dativ kuralıyla) ekleyebilirsin 6. Örneğin; "Pasif bize öğretmen tarafından anlatılıyor" (Das Passiv wird uns von der Lehrerin erklärt) 6, 7. Ayrıca Almanlar "Şimdi uyunacak!" (Jetzt wird geschlafen!) gibi genel emirler verirken de bu edilgen yapıyı çok sık kullanırlar 8.
+Edilgen çatı mantığı kafanda tam olarak oturduysa, başkasına bir işi "yaptırtmak" (ettirgen yapı) için kullandığımız Lassen fiiline göz atalım mı?

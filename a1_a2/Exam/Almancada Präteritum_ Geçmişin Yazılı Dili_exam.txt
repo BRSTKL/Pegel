@@ -1,0 +1,87 @@
+========================================================================
+TELC A1-A2 GRAMMATIKTRAINING: PRÄTERITUM (WAR & HATTE)
+========================================================================
+
+KURAL HATIRLATMASI VE PÜF NOKTALARI (A1-A2 SEVİYESİ):
+1. Kullanım Alanı: Yazılı metinlerde, hikayelerde ve resmi mektuplarda sıklıkla "haben" ve "sein" fiillerinin Präteritum formları tercih edilir.
+2. war (sein - idim/olmak): Geçmişteki durum, duygu, zaman veya bulunulan konumu belirtir.
+   - Gestern war Montag. (Dün pazartesiydi.)
+3. hatte (haben - sahiptim): Geçmişte sahip olunan şeyleri, randevuları veya zamanı belirtir.
+   - Ich hatte ein Auto. (Bir arabam vardı.)
+4. Çekim Kuralı: "ich" ve "er/sie/es" çekimleri TIPATIP AYNDIR!
+
+Präteritum Çekim Tablosu:
+ich war    | hatte        || wir waren    | hatten
+du warst   | hattest      || ihr wart     | hattet
+er/sie/es war | hatte     || sie/Sie waren | hatten
+
+------------------------------------------------------------------------
+
+ÜBUNG 1: "war" oder "hatte"? (Doğru Präteritum Fiilini Seçme)
+Ergänzen Sie die Lücken mit der richtigen Form von "war" oder "habe" im Präteritum.
+
+1. (ich -> idim)       Letzte Woche _______________ ich krank ve lag im Bett.
+2. (er -> sahipti)     Herr Novak _______________ gestern einen wichtigen Termin beim Arzt.
+3. (wir -> idik)       Am Samstag _______________ wir im Park ve haben Padel-Tennis gespielt.
+4. (du -> sahiptin)    Hattest du am Wochenende Zeit veya _______________ du çok işin?
+5. (sie -> dişil/idi)  Frau Alahmed _______________ gestern müde, weil sie lange gearbeitet hat.
+6. (ich -> sahiptim)   Ich _______________ früher ein schönes Fahrrad, ama es ist jetzt kaputt.
+
+
+ÜBUNG 2: Sätze bauen im Präteritum (Geçmiş Zaman Cümle Yapısı)
+Bringen Sie die Wörter in die richtige Reihenfolge. Achten Sie auf das Verb (Position 2). Denken Sie bei Zeitangaben am Anfang an die Inversion (Fiil 2'de, Özne 3'te)!
+
+1. gestern / Erhan / im Büro / war / .
+   _____________________________________________________________
+
+2. eine Wohnung / in Berlin / hatten / meine Eltern / früher .
+   _____________________________________________________________
+
+3. beim Arzt / letzte Woche / warst / du / .
+   _____________________________________________________________
+
+4. keine Zeit / am Freitag / hatte / ich / .
+   _____________________________________________________________
+
+
+ÜBUNG 3: telc-Format (Mehrfachauswahl / Çoktan Seçmeli)
+Welches Wort passt perfekt in die Lücke? Kreuzen Sie an (A, B oder C).
+
+1. - Wo _________ du gestern, Ahmet? - Ich war zu Hause.
+   [ ] A) warst
+   [ ] B) hattest
+   [ ] C) bist
+
+2. Herr Demir _________ gestern keine Zeit, deshalb konnte er das Paket nicht abholen.
+   [ ] A) war
+   [ ] B) hatte
+   [ ] C) hat
+
+3. Kinder, _________ ihr am Samstag im Kino? - Ja, der Film war sehr gut.
+   [ ] A) wart
+   [ ] B) hattet
+   [ ] C) waren
+
+
+========================================================================
+LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+ÜBUNG 1:
+1. war (Hastalık bir durumdur, 'ich' öznesine göre 'war' olur.)
+2. hatte (Randevulara/terminlere sahip olunur, 'Herr Novak' yani 'er' için 'hatte' kullanılır.)
+3. waren (Parkta bulunma konumudur, 'wir' öznesine göre 'waren' olur.)
+4. hattest (Zamana sahip olmak anlamında 'haben' geçmişi 'hattest' tercih edilir.)
+5. war (Yorgunluk bir durumdur, 'Frau Alahmed' yani 'sie' için 'war' kullanılır.)
+6. hatte (Bisiklete sahip olmayı anlatır, 'ich' çekimi 'hatte' olur.)
+
+ÜBUNG 2:
+1. Gestern war Erhan im Büro. / Erhan war gestern im Büro. (Zaman ifadesi 'gestern' başta olduğunda inversiyon olur, fiil 'war' 2. sıradadır.)
+2. Meine Eltern hatten früher eine Wohnung in Berlin. / Früher hatten meine Eltern eine Wohnung in Berlin. (Çoğul özneye göre fiil 'hatten' olur.)
+3. Du warst letzte Woche beim Arzt. / Letzte Woche warst du beim Arzt.
+4. Ich hatte am Freitag keine Zeit. / Am Freitag hatte ich keine Zeit. (Neden-sonuç cümlelerinde de sıkça kullanılan temel bir yapıdır.)
+
+ÜBUNG 3:
+1. A - "Dün neredeydin?" sorusu bir konum/durum belirttiği ve "du" öznesine hitap ettiği için doğru cevap "warst" olur.
+2. B - "Zamanı olmamak / zamana sahip olmamak" ifadesi "keine Zeit haben" kalıbıdır. Herr Demir (er) için geçmiş zaman formu "hatte" şeklindedir.
+3. A - "Kinder" (çocuklar) çoğul hitabı "ihr" (siz) zamirine karşılık gelir. Geçmişte bir yerde bulunma durumunu sorduğu için "ihr" Dativ/konum çekimi "wart" olarak seçilir.
