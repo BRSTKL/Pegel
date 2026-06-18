@@ -1617,7 +1617,8 @@ let progressRiveInstance = null;
 let progressRiveInput = null;
 
 function base64ToArrayBuffer(base64) {
-  const binaryString = atob(base64);
+  const cleanBase64 = base64.replace(/\s/g, '');
+  const binaryString = atob(cleanBase64);
   const len = binaryString.length;
   const bytes = new Uint8Array(len);
   for (let i = 0; i < len; i++) {
