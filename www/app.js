@@ -2219,7 +2219,7 @@ function renderLevelPath() {
 
   // Render cat animation container
   if (firstCategoryY0 !== null) {
-    const catTop = firstCategoryY0 + 45; // Align it next to droplet 2 & 3
+    const catTop = firstCategoryY0 + 85; // Align it next to droplet 2 & 3
     const catContainer = document.createElement("div");
     catContainer.id = "cat-animation-container";
     catContainer.style.position = "absolute";
