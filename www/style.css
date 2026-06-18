@@ -2555,6 +2555,7 @@ body.is-native .app-container {
   height: 100%;
   color: #ffffff;
   font-size: 18px;
+  transform: translateY(4.5px); /* Optical centering: shifts icons down to the center of the rounded base */
 }
 
 .droplet-node.completed .droplet-icon-container {

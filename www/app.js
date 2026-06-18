@@ -2111,24 +2111,42 @@ function renderLevelPath() {
     btn.style.left = `${x - 29}px`;
     btn.style.top = `${currentY}px`;
     
-    let fillColor = "var(--color-background-tertiary)";
-    let strokeColor = "var(--color-border-primary)";
-    let strokeWidth = "2";
+    // Gradient definitions mapping
+    const colorGradients = {
+      purple: { start: "#c5b6ff", end: "#8368f9" },
+      teal: { start: "#34e8b0", end: "#0fa572" },
+      coral: { start: "#fca395", end: "#dc6d5e" },
+      pink: { start: "#fcaecc", end: "#db7ea0" }
+    };
+    
+    let startColor = "#3d3d3b";
+    let endColor = "#2c2c2a";
+    let strokeColor = "rgba(255, 255, 255, 0.12)";
+    let strokeWidth = "1.5";
+    
+    const theme = colorGradients[les.categoryColor] || colorGradients.purple;
     
     if (les.status === "completed") {
-      fillColor = `var(--theme-${les.categoryColor})`;
-      strokeColor = "rgba(255, 255, 255, 0.25)";
+      startColor = theme.start;
+      endColor = theme.end;
+      strokeColor = "rgba(255, 255, 255, 0.35)";
     } else if (les.status === "active") {
-      // Glow and active color
-      fillColor = `var(--theme-${les.categoryColor})`;
+      startColor = "#ffffff"; // White highlight at the tip
+      endColor = theme.end;   // Sloped to theme color at the bottom
       strokeColor = "#ffffff";
       strokeWidth = "2.5";
     }
     
     btn.innerHTML = `
       <svg class="droplet-svg" viewBox="0 0 64 64">
-        <path d="M 32,4 C 32,4 10,28 10,42 A 22,22 0 0,0 54,42 C 54,28 32,4 32,4 Z" 
-              fill="${fillColor}" stroke="${strokeColor}" stroke-width="${strokeWidth}" />
+        <defs>
+          <linearGradient id="grad-${les.id}-${index}" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="${startColor}" />
+            <stop offset="100%" stop-color="${endColor}" />
+          </linearGradient>
+        </defs>
+        <path d="M 32,2 C 30,12 12,28 12,44 A 20,20 0 0,0 52,44 C 52,28 34,12 32,2 Z" 
+              fill="url(#grad-${les.id}-${index})" stroke="${strokeColor}" stroke-width="${strokeWidth}" />
       </svg>
       <div class="droplet-icon-container">
         <i class="ti ${les.status === 'locked' ? 'ti-lock' : getLessonIcon(les, index)}"></i>
