@@ -1682,7 +1682,7 @@ function initProgressRive() {
     autoplay: true,
     stateMachines: ["State Machine", "State Machine 1"],
     layout: new window.rive.Layout({
-      fit: window.rive.Fit.Fill,
+      fit: window.rive.Fit.FitWidth,
       alignment: window.rive.Alignment.Center
     }),
     onLoad: () => {
