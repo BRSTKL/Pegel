@@ -1764,7 +1764,13 @@ function initCatAnimation() {
       autoplay: true,
       stateMachines: ["State Machine 1"],
       onLoad: () => {
-        catRiveInstance.resizeDrawingToCanvas();
+        if (catRiveInstance) {
+          if (typeof catRiveInstance.resizeDrawingSurfaceToCanvas === "function") {
+            catRiveInstance.resizeDrawingSurfaceToCanvas();
+          } else if (typeof catRiveInstance.resizeDrawingToCanvas === "function") {
+            catRiveInstance.resizeDrawingToCanvas();
+          }
+        }
       },
       onLoadError: (err) => {
         console.error("Rive cat_animation load error:", err);
