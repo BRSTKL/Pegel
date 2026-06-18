@@ -2281,7 +2281,7 @@ function renderLevelPath() {
     const catContainer2 = document.createElement("div");
     catContainer2.id = "cat-animation-container-2";
     catContainer2.style.position = "absolute";
-    catContainer2.style.right = "20px"; // Centered in the right side gap
+    catContainer2.style.right = "12px"; // Shifted slightly to the right
     catContainer2.style.top = `${catTop2}px`;
     catContainer2.style.width = "180px";
     catContainer2.style.height = "180px";
