@@ -1781,6 +1781,46 @@ function initCatAnimation() {
   }
 }
 
+let catRiveInstance2 = null;
+
+function initCatAnimation2() {
+  const canvas = document.getElementById("cat-rive-canvas-2");
+  if (!canvas) return;
+  
+  if (typeof rive === "undefined") {
+    console.warn("Rive library is not loaded yet.");
+    return;
+  }
+  
+  if (catRiveInstance2) {
+    catRiveInstance2.cleanup();
+    catRiveInstance2 = null;
+  }
+  
+  try {
+    catRiveInstance2 = new rive.Rive({
+      src: "animations/cat_animation_2.riv",
+      canvas: canvas,
+      autoplay: true,
+      stateMachines: ["State Machine 1"],
+      onLoad: () => {
+        if (catRiveInstance2) {
+          if (typeof catRiveInstance2.resizeDrawingSurfaceToCanvas === "function") {
+            catRiveInstance2.resizeDrawingSurfaceToCanvas();
+          } else if (typeof catRiveInstance2.resizeDrawingToCanvas === "function") {
+            catRiveInstance2.resizeDrawingToCanvas();
+          }
+        }
+      },
+      onLoadError: (err) => {
+        console.error("Rive cat_animation_2 load error:", err);
+      }
+    });
+  } catch (e) {
+    console.error("Rive cat_animation_2 initialization error:", e);
+  }
+}
+
 function base64ToArrayBuffer(base64) {
   const cleanBase64 = base64.replace(/\s/g, '');
   const binaryString = atob(cleanBase64);
@@ -2091,6 +2131,10 @@ function renderLevelPath() {
     catRiveInstance.cleanup();
     catRiveInstance = null;
   }
+  if (catRiveInstance2) {
+    catRiveInstance2.cleanup();
+    catRiveInstance2 = null;
+  }
 
   const pathView = document.getElementById("level-path-view");
   if (!pathView) return;
@@ -2232,8 +2276,23 @@ function renderLevelPath() {
     catContainer.innerHTML = `<canvas id="cat-rive-canvas" width="360" height="360" style="width: 100%; height: 100%;"></canvas>`;
     pathView.appendChild(catContainer);
     
+    // Render second cat animation container
+    const catTop2 = firstCategoryY0 + 265; // Align it next to droplet 4 & 5
+    const catContainer2 = document.createElement("div");
+    catContainer2.id = "cat-animation-container-2";
+    catContainer2.style.position = "absolute";
+    catContainer2.style.left = "24px"; // shift slightly to match the left margin
+    catContainer2.style.top = `${catTop2}px`;
+    catContainer2.style.width = "150px";
+    catContainer2.style.height = "150px";
+    catContainer2.style.zIndex = "1";
+    catContainer2.style.pointerEvents = "none";
+    catContainer2.innerHTML = `<canvas id="cat-rive-canvas-2" width="300" height="300" style="width: 100%; height: 100%;"></canvas>`;
+    pathView.appendChild(catContainer2);
+    
     setTimeout(() => {
       initCatAnimation();
+      initCatAnimation2();
     }, 50);
   }
 }
