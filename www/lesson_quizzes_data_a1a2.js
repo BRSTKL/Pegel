@@ -6982,31 +6982,132 @@ const LESSON_QUIZZES_A1A2 = {
   ],
   "zaman-zarflari": [
     {
-      "question": "\\",
+      "type": "multiple-choice",
+      "question": "_________ hatte ich keine Zeit und lag im Bett, weil ich sehr krank war.",
       "options": [
-        "Akşamları",
-        "Sabahları",
-        "Öğlenleri"
+        "Morgen",
+        "Gestern",
+        "Übermorgen"
       ],
       "correct": 1
     },
     {
-      "question": "\\",
+      "type": "multiple-choice",
+      "question": "Ich bin jetzt im Büro, aber _________ habe ich endlich frei und spiele Padel-Tennis.",
       "options": [
-        "Sabahları",
-        "Öğlenleri",
-        "Akşamları"
+        "gestern",
+        "früher",
+        "heute"
       ],
       "correct": 2
     },
     {
-      "question": "\\",
+      "type": "multiple-choice",
+      "question": "Erhan mag Basketball sehr. Er spielt _________ mit seinen Freunden im Park.",
       "options": [
-        "Her hafta",
-        "Her gün",
-        "Her ay"
+        "oft",
+        "nie",
+        "selten"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "multiple-choice",
+      "question": "_________ trinke ich immer einen heißen Kaffee, direkt nach dem Aufstehen um 07:00 Uhr.",
+      "options": [
+        "Nachts",
+        "Morgens",
+        "Damals"
       ],
       "correct": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Ahmet hat um 12:00 Uhr Pause. Er kommt _________ zum Restaurant essen.",
+      "options": [
+        "mittags",
+        "gestern",
+        "vorgestern"
+      ],
+      "correct": 0
+    },
+    {
+      "type": "sentence-builder",
+      "question": "Kelimeleri doğru sıraya dizin (Sıklık Vurgusu - jeden Tag ile başlayın):",
+      "words": [
+        "Jeden",
+        "Tag",
+        "geht",
+        "Erhan",
+        "in",
+        "den",
+        "Park"
+      ],
+      "correctAnswers": [
+        "Jeden Tag geht Erhan in den Park."
+      ]
+    },
+    {
+      "type": "sentence-builder",
+      "question": "Kelimeleri doğru sıraya dizin (Zaman Vurgusu - übermorgen ile başlayın):",
+      "words": [
+        "Übermorgen",
+        "werde",
+        "ich",
+        "meine",
+        "Eltern",
+        "anrufen"
+      ],
+      "correctAnswers": [
+        "Übermorgen werde ich meine Eltern anrufen."
+      ]
+    },
+    {
+      "type": "sentence-builder",
+      "question": "Kelimeleri doğru sıraya dizin (Günün Dilimi - morgens ile başlayın):",
+      "words": [
+        "Morgens",
+        "lerne",
+        "ich",
+        "Deutsch"
+      ],
+      "correctAnswers": [
+        "Morgens lerne ich Deutsch."
+      ]
+    },
+    {
+      "type": "sentence-builder",
+      "question": "Kelimeleri doğru sıraya dizin (Geçmiş Zaman - vorgestern ile başlayın):",
+      "words": [
+        "Vorgestern",
+        "war",
+        "Herr",
+        "Novak",
+        "krank"
+      ],
+      "correctAnswers": [
+        "Vorgestern war Herr Novak krank."
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Prüfer: Wie oft lernen Sie Python für Ihren Beruf?",
+      "options": [
+        "Gestern lerne ich Python.",
+        "Ich lerne jeden Tag fleißig Python.",
+        "Morgen habe ich Python gelernt."
+      ],
+      "correct": 1
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Prüfer: Wann bringen Sie das Paket zur Post?",
+      "options": [
+        "Ich bringe abends das Paket zur Post.",
+        "Abends ich bringe das Paket zur Post.",
+        "Abends das Paket bringe ich zur Post."
+      ],
+      "correct": 0
     }
   ],
   "dativ-akkusativ-edatlar": [

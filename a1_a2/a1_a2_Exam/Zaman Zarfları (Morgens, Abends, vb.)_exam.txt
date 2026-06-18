@@ -1,0 +1,96 @@
+========================================================================
+telc DEUTSCH A1-A2: OFFIZIELLES GRAMMATIK- UND WORTSCHATZTRAINING
+========================================================================
+Prüfungsbaustein: Sprachbausteine / Grammatik (Zaman Zarfları & İnversiyon)
+Dauer: 15 Minuten
+
+KURAL REHBERİ (telc Sınav Stratejisi):
+1. Günün Dilimleri: morgens (sabahları), mittags (öğlenleri), abends (akşamları), nachts (geceleri)[cite: 14].
+2. Sıklık Bildiren Zarflar: immer (her zaman), oft (sık sık), manchmal (bazen), selten (nadiren), nie (hiçbir zaman)[cite: 14].
+3. Zaman Ekseni: vorgestern (önceki gün), gestern (dün), heute (bugün), morgen (yarın), übermorgen (öbür gün)[cite: 14].
+4. telc Altın Kuralı (Inversion): Zaman zarfı cümlenin 1. sırasına (Position 1) gelirse, ÇEKİMLİ FİİL mutlaka 2. sırada kalır[cite: 14]. Özne ise hemen fiilin sağına (Position 3) kayar[cite: 14]. 
+   - Örnek: Ich lerne morgens Deutsch.[cite: 14] -> Morgens lerne ich Deutsch.
+
+------------------------------------------------------------------------
+
+TEIL 1: LÜCKENTEXT (Tek Tek Cümle Boşluk Doldurma)
+Satzkontexten uygun olan doğru zaman zarfını (A, B oder C) seçerek boşlukları doldurun.
+
+1. _________ hatte ich keine Zeit ve lag im Bett, weil ich sehr krank war.
+   [ ] A) Morgen
+   [ ] B) Gestern[cite: 14]
+   [ ] C) Übermorgen
+
+2. Ich bin jetzt im Büro, aber _________ habe ich endlich frei und spiele Padel-Tennis.
+   [ ] A) gestern
+   [ ] B) früher
+   [ ] C) heute[cite: 14]
+
+3. Erhan mag Basketball sehr. Er spielt _________ mit seinen Freunden im Park.
+   [ ] A) oft[cite: 14]
+   [ ] B) nie
+   [ ] C) selten
+
+4. _________ trinke ich immer einen heißen Kaffee, direkt nach dem Aufstehen um 07:00 Uhr.
+   [ ] A) Nachts
+   [ ] B) Morgens[cite: 14]
+   [ ] C) Damals
+
+5. Ahmet hat um 12:00 Uhr Pause. Er kommt _________ zum Restaurant essen.
+   [ ] A) mittags[cite: 14]
+   [ ] B) gestern
+   [ ] C) vorgestern
+
+------------------------------------------------------------------------
+
+TEIL 2: SCHREIBEN - SATZBAU (Mektup/E-Posta Cümle Kurma Pratiği)
+Bringen Sie die Wörter in die richtige Reihenfolge, wie in einem telc-Brief. Achten Sie auf die Position des Verbs (Fiil daima 2. sırada!)[cite: 14].
+
+1. (Sıklık Vurgusu)  jeden Tag (Pos. 1) / Erhan / in den Park / geht / .
+   -> Jeden Tag ________________________________________________________.[cite: 14]
+
+2. (Zaman Vurgusu)   übermorgen / ich / meine Eltern / anrufen / werde / . (Achtung: Futur)
+   -> Übermorgen _______________________________________________________.
+
+3. (Günün Dilimi)    morgens / lerne / Deutsch / ich / .
+   -> Morgens __________________________________________________________.[cite: 14]
+
+4. (Geçmiş Zaman)    war / vorgestern / Herr Novak / krank / .
+   -> Vorgestern _______________________________________________________.
+
+------------------------------------------------------------------------
+
+TEIL 3: HÖREN/SPRECHEN – REAKTIONEN (Konuşma Bölümü Kart Pratiği)
+Welche Antwort passt perfekt zur Frage des Prüfers? Kreuzen Sie an (A, B oder C).
+
+1. Prüfer: Wie oft lernen Sie Python für Ihren Beruf?
+   [ ] A) Gestern lerne ich Python.
+   [ ] B) Ich lerne jeden Tag fleißig Python.[cite: 14]
+   [ ] C) Morgen habe ich Python gelernt.
+
+2. Prüfer: Wann bringen Sie das Paket zur Post?
+   [ ] A) Ich bringe abends das Paket zur Post.[cite: 14]
+   [ ] B) Abends ich bringe das Paket zur Post.
+   [ ] C) Abends das Paket bringe ich zur Post.
+
+
+========================================================================
+OFFIZIELLE LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+TEIL 1:
+1. B - "hatte ich" (sahiptim) Präteritum geçmiş zaman çekimi olduğu için geçmişe ait olan "Gestern" (dün) seçilmelidir[cite: 14].
+2. C - "Şu an bürodayım ama bugün nihayet boşum" anlamını tamamlayan şimdiki zaman zarfı "heute" seçeneğidir[cite: 14].
+3. A - "Basketbolu çok seviyor" ifadesini anlamca destekleyen en uygun sıklık zarfı "oft" (sık sık) kelimesidir[cite: 14].
+4. B - Sabah saat 07:00'deki bir rutin anlatıldığı için günün dilimini belirten "Morgens" (sabahları) doğrudur[cite: 14].
+5. A - Saat 12:00'deki öğle arasını ve yemek zamanını en iyi tamamlayan zaman dilimi zarfı "mittags" (öğlenleri) kelimesidir[cite: 14].
+
+TEIL 2:
+1. Jeden Tag geht Erhan in den Park. (Zaman ifadesi 1'de, çekimli fiil 'geht' 2'de, özne 'Erhan' 3. sıradadır[cite: 14].)
+2. Übermorgen werde ich meine Eltern anrufen. (Yardımcı fiil 'werde' 2. sırada, asıl eylem 'anrufen' mastar olarak en sondadır.)
+3. Morgens lerne ich Deutsch. (Günün dilimi zarfı başta olunca inversiyon tetiklenir: Zarf + Fiil + Özne[cite: 14].)
+4. Vorgestern war Herr Novak krank. (Geçmiş zaman durum fiili 'war' sarsılmaz bir şekilde 2. sıradaki yerini alır.)
+
+TEIL 3:
+1. B - "Ne sıklıkla?" (Wie oft?) sorusuna verilebilecek en doğru ve gramatik olarak kusursuz cevap "jeden Tag" (her gün) sıklık zarfını barındıran B seçeneğidir[cite: 14].
+2. A - A seçeneği özne başta olan normal bir TeKaMoLo dizilimidir[cite: 14]. B seçeneğinde zaman zarfından sonra fiil gelmeyerek inversiyon kuralı ihlal edilmiştir[cite: 14].
