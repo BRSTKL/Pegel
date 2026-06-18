@@ -1941,7 +1941,45 @@ function initHandshakeAnimation() {
   }
 }
 
+let catPlayingRiveInstance = null;
 
+function initCatPlayingAnimation() {
+  const canvas = document.getElementById("cat-playing-canvas");
+  if (!canvas) return;
+  
+  if (typeof rive === "undefined") {
+    console.warn("Rive library is not loaded yet.");
+    return;
+  }
+  
+  if (catPlayingRiveInstance) {
+    catPlayingRiveInstance.cleanup();
+    catPlayingRiveInstance = null;
+  }
+  
+  try {
+    catPlayingRiveInstance = new rive.Rive({
+      src: "animations/cat-playing-animation.riv",
+      canvas: canvas,
+      autoplay: true,
+      onLoad: () => {
+        if (catPlayingRiveInstance) {
+          if (typeof catPlayingRiveInstance.resizeDrawingSurfaceToCanvas === "function") {
+            catPlayingRiveInstance.resizeDrawingSurfaceToCanvas();
+          } else if (typeof catPlayingRiveInstance.resizeDrawingToCanvas === "function") {
+            catPlayingRiveInstance.resizeDrawingToCanvas();
+          }
+          catPlayingRiveInstance.play();
+        }
+      },
+      onLoadError: (err) => {
+        console.error("Rive cat-playing load error:", err);
+      }
+    });
+  } catch (e) {
+    console.error("Rive cat-playing initialization error:", e);
+  }
+}
 
 function base64ToArrayBuffer(base64) {
   const cleanBase64 = base64.replace(/\s/g, '');
@@ -2270,6 +2308,10 @@ function renderLevelPath() {
     handshakeRiveInstance.cleanup();
     handshakeRiveInstance = null;
   }
+  if (catPlayingRiveInstance) {
+    catPlayingRiveInstance.cleanup();
+    catPlayingRiveInstance = null;
+  }
 
   const pathView = document.getElementById("level-path-view");
   if (!pathView) return;
@@ -2309,6 +2351,7 @@ function renderLevelPath() {
   let secondCategoryY0 = null;
   let thirdCategoryY0 = null;
   let fourthCategoryY0 = null;
+  let sixthCategoryY0 = null;
   
   processedLessons.forEach((les, index) => {
     if (les.categoryId !== lastCategoryId) {
@@ -2339,6 +2382,9 @@ function renderLevelPath() {
       }
       if (catIndex === 4 && fourthCategoryY0 === null) {
         fourthCategoryY0 = currentY;
+      }
+      if (catIndex === 6 && sixthCategoryY0 === null) {
+        sixthCategoryY0 = currentY;
       }
       
       lastCategoryId = les.categoryId;
@@ -2487,13 +2533,30 @@ function renderLevelPath() {
     pathView.appendChild(handshakeContainer);
   }
 
-  if (firstCategoryY0 !== null || secondCategoryY0 !== null || thirdCategoryY0 !== null || fourthCategoryY0 !== null) {
+  // Render cat-playing animation container in the sixth category's empty left space
+  if (sixthCategoryY0 !== null) {
+    const catPlayingTop = sixthCategoryY0 + 85; // Align it next to droplet 2 & 3 in the sixth category
+    const catPlayingContainer = document.createElement("div");
+    catPlayingContainer.id = "cat-playing-animation-container";
+    catPlayingContainer.style.position = "absolute";
+    catPlayingContainer.style.left = "8px"; // Left side
+    catPlayingContainer.style.top = `${catPlayingTop}px`;
+    catPlayingContainer.style.width = "180px";
+    catPlayingContainer.style.height = "180px";
+    catPlayingContainer.style.zIndex = "1";
+    catPlayingContainer.style.pointerEvents = "none";
+    catPlayingContainer.innerHTML = `<canvas id="cat-playing-canvas" width="360" height="360" style="width: 100%; height: 100%;"></canvas>`;
+    pathView.appendChild(catPlayingContainer);
+  }
+
+  if (firstCategoryY0 !== null || secondCategoryY0 !== null || thirdCategoryY0 !== null || fourthCategoryY0 !== null || sixthCategoryY0 !== null) {
     setTimeout(() => {
       initCatAnimation();
       initCatAnimation2();
       initBunnyAnimation();
       initHouseAnimation();
       initHandshakeAnimation();
+      initCatPlayingAnimation();
     }, 50);
   }
 }
