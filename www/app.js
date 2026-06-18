@@ -2371,16 +2371,15 @@ function renderLevelPath() {
   }
   
   const completedLessons = getLevelProgress().completedLessons;
-  let activeFound = false;
+  const maxCompletedIndex = lessons.reduce((max, les, idx) => completedLessons.includes(les.id) ? idx : max, -1);
   
-  const processedLessons = lessons.map(les => {
+  const processedLessons = lessons.map((les, idx) => {
     const isCompleted = completedLessons.includes(les.id);
     let status = "locked";
     if (isCompleted) {
       status = "completed";
-    } else if (!activeFound) {
+    } else if (idx <= maxCompletedIndex + 1) {
       status = "active";
-      activeFound = true;
     } else {
       status = "locked";
     }
