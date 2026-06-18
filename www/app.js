@@ -1762,7 +1762,6 @@ function initCatAnimation() {
       src: "animations/cat_animation.riv",
       canvas: canvas,
       autoplay: true,
-      stateMachines: ["State Machine 1"],
       onLoad: () => {
         if (catRiveInstance) {
           if (typeof catRiveInstance.resizeDrawingSurfaceToCanvas === "function") {
@@ -1770,6 +1769,7 @@ function initCatAnimation() {
           } else if (typeof catRiveInstance.resizeDrawingToCanvas === "function") {
             catRiveInstance.resizeDrawingToCanvas();
           }
+          catRiveInstance.play();
         }
       },
       onLoadError: (err) => {
@@ -1802,7 +1802,6 @@ function initCatAnimation2() {
       src: "animations/cat_animation_2.riv",
       canvas: canvas,
       autoplay: true,
-      stateMachines: ["State Machine 1"],
       onLoad: () => {
         if (catRiveInstance2) {
           if (typeof catRiveInstance2.resizeDrawingSurfaceToCanvas === "function") {
@@ -1810,6 +1809,7 @@ function initCatAnimation2() {
           } else if (typeof catRiveInstance2.resizeDrawingToCanvas === "function") {
             catRiveInstance2.resizeDrawingToCanvas();
           }
+          catRiveInstance2.play();
         }
       },
       onLoadError: (err) => {
@@ -2277,11 +2277,11 @@ function renderLevelPath() {
     pathView.appendChild(catContainer);
     
     // Render second cat animation container
-    const catTop2 = firstCategoryY0 + 320; // Align it next to droplet 5 & 6 on the right side
+    const catTop2 = firstCategoryY0 + 440; // Align it next to droplet 5 & 6 on the right side
     const catContainer2 = document.createElement("div");
     catContainer2.id = "cat-animation-container-2";
     catContainer2.style.position = "absolute";
-    catContainer2.style.right = "8px"; // Place it on the right side
+    catContainer2.style.right = "20px"; // Centered in the right side gap
     catContainer2.style.top = `${catTop2}px`;
     catContainer2.style.width = "180px";
     catContainer2.style.height = "180px";
