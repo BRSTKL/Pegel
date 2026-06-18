@@ -1962,6 +1962,7 @@ function initCatPlayingAnimation() {
       src: "animations/cat-playing-animation.riv",
       canvas: canvas,
       autoplay: true,
+      stateMachines: "State Machine 1",
       onLoad: () => {
         if (catPlayingRiveInstance) {
           if (typeof catPlayingRiveInstance.resizeDrawingSurfaceToCanvas === "function") {
@@ -2002,6 +2003,7 @@ function initOctoAnimation() {
       src: "animations/octo.riv",
       canvas: canvas,
       autoplay: true,
+      stateMachines: "State Machine 1",
       onLoad: () => {
         if (octoRiveInstance) {
           if (typeof octoRiveInstance.resizeDrawingSurfaceToCanvas === "function") {
