@@ -1,11 +1,233 @@
 // B1 German App Lessons Data
 const LESSONS_DATA_B1 = [
   {
+    "id": "satzbau_adverbien",
+    "name": "Satzbau & Adverbien",
+    "icon": "ti-sitemap",
+    "color": "coral",
+    "subcategories": [
+      {
+        "name": "Nebensatz-Strukturen",
+        "lessons": [
+          {
+            "id": "almanca_arac_cumleleri__indem_ve_dadurch_dass_yapilari",
+            "title": "Almanca Araç Cümleleri_ Indem ve Dadurch Dass Yapıları",
+            "category": "Satzbau & Adverbien",
+            "subcategory": "Nebensatz-Strukturen",
+            "content": "﻿Yan cümleler (Nebensatz) bağlamında Instrumentalsätze (Araç Cümleleri), bir amaca \"hangi yolla\" veya \"nasıl\" ulaştığınızı detaylandırmak için kullanılır 1, 2. \"Wie?\" (Nasıl?) veya \"Wodurch?\" (Ne yoluyla?) sorularına cevap vererek eylemin yapılma yöntemini açıklarlar 1.\nBu yapıyı kurmak için birbirinin tamamen eş anlamlısı olan iki kalıbı kullanırız 3-5:\n1. \"indem\" (-erek / -arak):En pratik ve yaygın olanıdır. Ana cümledeki hedefe nasıl ulaştığımızı \"indem\" ile başlayan yan cümlede açıklarız 2. Klasik bir yan cümle olduğu için fiil her zaman cümlenin en sonuna gider 2.\n* Örnek: \"Ich bleibe aktiv, indem ich täglich Sport treibe\" (Her gün spor yaparak aktif kalıyorum) 3.\n* Kural: Cümleye doğrudan \"indem\" ile de başlayabilirsiniz. Bu durumda, virgülden sonraki ana cümle mecburen fiil ile başlamak zorundadır: \"Indem ich täglich Sport treibe, bleibe ich aktiv\" 6.\n2. \"dadurch, dass\" (-mesi yoluyla / sayesinde):Anlam olarak \"indem\" ile tamamen aynıdır, sadece cümledeki dizilimi biraz farklıdır 4, 5. Genellikle \"dadurch\" kelimesi ana cümlenin içine yerleştirilir, \"dass\" ise yan cümleyi başlatarak fiili en sona atar 7.\n* Örnek: \"Man kann einen Unfall dadurch vermeiden, dass man vorsichtig fährt\" (İnsanlar dikkatli sürmeleri yoluyla bir kazayı önleyebilirler) 7.\n* Kural: İsterseniz bu ikiliyi hiç parçalamadan cümlenin en başına da koyabilirsiniz: \"Dadurch dass man vorsichtig fährt, kann man einen Unfall vermeiden\" 8.\nCümleleri birbirine \"yöntem ve araç\" belirterek bağlama mantığı netleşti mi?"
+          },
+          {
+            "id": "almanca_modalsätze__beklentilerin_disindaki_yan_cumleler",
+            "title": "Almanca Modalsätze_ Beklentilerin Dışındaki Yan Cümleler",
+            "category": "Satzbau & Adverbien",
+            "subcategory": "Nebensatz-Strukturen",
+            "content": "﻿Modalsätze (Tarz Cümleleri), eylemlerin nasıl yapıldığını veya beklentilerin aksine nelerin yapılmadığını anlatan yan cümlelerdir (Nebensatz). Bu grupta işlerin normal akışının dışına çıktığı iki temel yapıyı kullanırız:\n1. \"ohne dass / ohne zu\" (...-meden / -maksızın):Beklenen veya normalde olması gereken bir eylemin gerçekleşmediğini gösterir 1.\n* Özneler aynıysa: Cümleyi kısaltmak için pratik olan ohne...zu kalıbı kullanılır 2. Örnek: \"Er ist gegangen, ohne sich zu verabschieden\" (Vedalaşmadan gitti) 2.\n* Özneler farklıysa: Mecburen ohne dass kullanılır ve yan cümlenin fiili en sona gider 3. Örnek: \"Sie weint, ohne dass ich ihr etwas gesagt habe\" (Ben ona hiçbir şey söylemeden ağlıyor) 3. (Not: Özneler aynı olsa bile \"ohne dass\" kullanılabilir ancak Almanlar genelde daha kısa olan \"ohne...zu\" yapısını tercih eder 4).\n2. \"anstatt dass / anstatt zu\" (...-mek yerine):Beklenen bir durumun yerine bambaşka bir şey yapıldığında kullanılır 5. (\"statt\" ve \"anstatt\" kelimeleri tamamen eş anlamlıdır ve birbirinin yerine kullanılabilir 6).\n* Kural tamamen aynıdır; özneler aynıysa her zaman anstatt...zu tercih edilir çünkü daha şık ve kısadır 7. Örnek: \"Du solltest mir helfen, anstatt faul herumzusitzen\" (Tembel tembel oturmak yerine bana yardım etmelisin) 7, 8.\nBeklentilerin aksine gelişen olayları birbirine bağladığımız bu Modalsätze (tarz) mantığı oturdu mu?"
+          },
+          {
+            "id": "almancada_amac_cumleleri__um...zu_ve_damit_yapilari",
+            "title": "Almancada Amaç Cümleleri_ um...zu ve damit Yapıları",
+            "category": "Satzbau & Adverbien",
+            "subcategory": "Nebensatz-Strukturen",
+            "content": "﻿Finalsätze (Amaç Cümleleri), eylemlerimizi \"hangi amaçla\" veya \"ne için\" (wozu) yaptığımızı anlatan yan cümleciklerdir (Nebensatz) 1. Bu yapıları kurmak için Almancada iki temel seçeneğimiz vardır:\n1. \"um...zu\" (...mak/mek için):Bu yapıyı sadece ana cümledeki eylemi yapan kişi ile amacı gerçekleştiren kişi (özne) aynıysa kullanabilirsiniz 2, 3. Çok pratiktir çünkü yan cümlede özneyi tekrar etmenize gerek kalmaz 2. \"um\" başa gelir, \"zu\" ise en sondaki yalın fiilin (infinitiv) hemen önüne eklenir 2.\n* Örnek: \"Ich lerne fleißig, um gute Punkte zu bekommen\" (İyi notlar almak için sıkı çalışıyorum) 4.\n* Küçük bir kural: Amaç zaten cümlenin doğasında olduğu için, bu yapılarda wollen, möchten, sollen gibi niyet bildiren yardımcı fiilleri kullanmayız 5. Eğer ayrılabilen bir fiil kullanıyorsanız \"zu\" kelimesi araya girer (um... aufzunehmen gibi) 5.\n2. \"damit\" (...sın diye / böylece):Eğer iki cümlenin özneleri farklıysa, \"um...zu\" kullanamazsınız; mecburen \"damit\" kullanmak zorundasınız 3. \"damit\" klasik bir yan cümledir; bağlaçtan sonra mutlaka özne gelir ve çekimlenmiş fiil cümlenin en sonuna uçar 6.\n* Örnek: \"Er spricht Englisch, damit die Touristen ihn verstehen\" (Turistler onu anlasın diye İngilizce konuşuyor) 7.\n* Özneler aynı olsa bile \"damit\" yapısını her zaman kullanabilirsiniz, tüm durumlar için geçerli ve garantili bir yoldur 8.\nGenel Yan Cümle (Nebensatz) Kuralı:Tıpkı weil veya da bağlaçlarında olduğu gibi, cümlenize \"damit\" veya \"um...zu\" içeren yan cümle ile başlarsanız, virgülden sonraki ana cümle mecburen doğrudan fiille başlamak zorundadır (Örn: Damit die Touristen ihn verstehen, spricht er Englisch) 6, 9, 10.\nCümleleri birbirine \"amaç\" ile bağlama mantığı netleşti mi?"
+          },
+          {
+            "id": "almanca_zu_infinitiv_yapisi_ve_kullanim_kurallari",
+            "title": "Almanca Zu + Infinitiv Yapısı ve Kullanım Kuralları",
+            "category": "Satzbau & Adverbien",
+            "subcategory": "Nebensatz-Strukturen",
+            "content": "Cümle yapıları bağlamında \"zu + Infinitiv\" (Mastar Yapısı), iki cümleyi birbirine bağlarken özneyi tekrar etmemek ve cümleyi daha akıcı bir \"fiilimsi\" haline getirmek için kullanılır 1, 2.\r\nBu yapıyı kurarken dikkat etmen gereken temel yapısal kurallar şunlardır:\r\n* Virgül ve Konum: Ana cümle ile yan cümle her zaman birbirinden virgülle ayrılır 3, 4. Yan cümlenin fiili, kişi zamirine göre çekimlenmeden (yalın halde) cümlenin en sonuna gider ve hemen önüne \"zu\" alır (örneğin: zu gehen) 3, 4.\r\n* Ayrılabilen Fiiller (Trennbare Verben): Eğer fiil ayrılabilen bir fiilse (aufstehen, zumachen vb.), \"zu\" edatı önek ile asıl fiilin tam arasına girer ve bitişik yazılır (örneğin: aufzustehen) 5.\r\n* Özne Eşitliği Şartı: Bu yapının kullanılabilmesi için ana cümlenin öznesi ile yan cümlenin öznesi aynı olmak zorundadır 1, 6. Özneler farklıysa mecburen \"dass\" bağlacı ile normal bir yan cümle kurulmalıdır 6. İstisnai olarak, ana cümlenin nesnesi yan cümlenin eylemini yapıyorsa (Örn: Doktor bana sigara içmeyi yasakladı) veya \"man / es\" gibi belirsiz öznelerle genelleme yapılıyorsa da bu yapı kullanılabilir 7-9.\r\nHangi durumlarda \"zu + Infinitiv\" kullanılır?\r\n1. Belirli Fiillerden Sonra: hoffen (ummak), versuchen (çalışmak/denemek), anfangen (başlamak), vergessen (unutmak) ve vorhaben (niyetinde olmak) gibi ikinci bir eyleme ihtiyaç duyan fiillerle kullanılır 10, 11. Not: können, müssen gibi Modalverb'ler (tarz fiiller) \"zu\" almazlar 12.\r\n2. İsim + Haben Kalıplarıyla: Lust haben (canı istemek), Zeit haben (zamanı olmak), Angst haben (korkmak) gibi durumları ifade ederken kullanılır 13, 14. (Örn: Ich habe keine Zeit, mit dir zu telefonieren. - Seninle telefonda konuşmaya zamanım yok 13.)\r\n3. \"Es ist...\" (Sıfat) Kalıplarıyla: Es ist wichtig (önemlidir), es ist einfach (kolaydır), es ist verboten (yasaktır) gibi genel durum bildiren sıfat kalıplarının ardından kullanılır 5, 15. (Örn: Es ist langweilig, zu Hause allein zu bleiben. - Evde yalnız kalmak sıkıcıdır 5.)\r\nBu yapı, daha önce öğrendiğin \"dass\" cümlelerinin daha pratik ve kısa versiyonudur. İkisinin arasındaki farkı netleştirmek için aynı cümlenin hem \"dass\" hem de \"zu\" ile kurulmuş halini karşılaştırmalı olarak göstermemi ister misin, yoksa doğrudan başka bir konuya mı geçelim?"
+          },
+          {
+            "id": "almanca_ilgi_cumleleri_kurma_rehberi",
+            "title": "Almanca İlgi Cümleleri Kurma Rehberi",
+            "category": "Satzbau & Adverbien",
+            "subcategory": "Nebensatz-Strukturen",
+            "content": "İlgi cümlelerini daha rahat kurman ve analiz etmen için en önemli püf noktaları şunlardır:\r\n* İki Cümle Taktiği: Karmaşık bir cümleyi kafanda önce iki basit cümleye bölerek düşünmek işini çok kolaylaştırır 1. Örneğin, \"Das ist der Mann.\" (Bu o adam.) ve \"Der Mann ist sehr nett.\" (Adam çok nazik.) cümlelerini birleştirirken ortak kelimeyi zamire dönüştürüp fiili sona atarsın: \"Das ist der Mann, der sehr nett ist.\" 1.\r\n* İçerideki Özneyi Kontrol Et: İlgi cümlesinin içinde (virgülden sonraki kısımda) \"ich, du, er\" gibi net bir özne olup olmadığına bakmalısın 2, 3. Eğer içeride bir özne varsa, senin kullanacağın ilgi zamiri özne (Nominativ) olamaz; nesne durumunda yani Akkusativ veya Dativ olmak zorundadır 2, 3. Örneğin, \"Das ist der Mann, den ich kennengelernt habe.\" (Bu, tanıdığım adam.) cümlesinde içerideki özne \"ich\" olduğu için zamir Akkusativ \"den\" olmuştur 4.\r\n* Fiilin Ne İstediğine Bak: Yan cümledeki fiil özel olarak Dativ alan bir fiilse (zuhören, helfen, vertrauen gibi), zamirin kesinlikle Dativ olmak zorundadır 5, 6. Örneğin, \"Das ist der Arzt, dem viele Patienten vertrauen.\" (Bu, birçok hastanın güvendiği doktor.) 7.\r\n* İstisnai Zamirleri Ezberle: Zamirler genellikle normal belirli artikellerle (der, die, das) aynı görünür, ancak Dativ çoğul için \"den\" yerine \"denen\" kullanılır 8. Sahiplik (Genitiv) bildiren durumlarda ise eriller/nötrler için \"dessen\", dişiller/çoğullar için \"deren\" kullanılır 8, 9.\r\n* Edatların (Präpositionen) Konumu: Eğer yan cümledeki fiil ayrılmaz bir edat gerektiriyorsa, o edat ilgi cümlesinin en başına, zamirin hemen önüne yapışır 10, 11. Örneğin, \"warten auf\" (birini beklemek) fiilini kullanırken cümlemiz \"Das ist die Frau, auf die ich warte.\" (Bu, beklediğim kadın.) şeklinde kurulur 11.\r\nBu ipuçları konunun matematiğini çözmeni oldukça hızlandıracaktır. Dilersen bu kuralları pratikte görmek için, Akkusativ alan veya edatla kurulan bir örnek cümleyi beraber inceleyebiliriz. Hangisiyle devam edelim?"
+          }
+        ]
+      },
+      {
+        "name": "Pronominaladverbien",
+        "lessons": [
+          {
+            "id": "almanca_wo-kompozita_ve_soru_yapilari",
+            "title": "Almanca Wo-Kompozita ve Soru Yapıları",
+            "category": "Satzbau & Adverbien",
+            "subcategory": "Pronominaladverbien",
+            "content": "﻿Bir önceki konumuzda \"Bunun hakkında\" (darüber) diyerek cümleleri kısaltmayı öğrenmiştik. Wo-Komposita ise tam olarak bunun soru halidir. Birine cansız bir nesne veya durum hakkında \"Ne hakkında?\", \"Ne için?\" veya \"Ne ile?\" gibi sorular sorarken bu pratik yapıyı kullanırız 1, 2.\nOluşturma mantığı tıpatıp aynıdır: \"wo\" kelimesine bir edat (für, mit vb.) eklenir. Eğer edat sesli harfle başlıyorsa araya \"r\" harfi girer (worauf, worüber gibi) 2.\nAlmanlar cansız nesneler için soru sorarken edatları ayrı kullanmayı sevmezler:\n* \"Ne hakkında gülüyorsunuz?\" derken \"Über was?\" demek yerine \"Worüber lacht ihr?\" derler 2.\n* \"Ne ile ilgileniyorsun?\" demek için \"Für was?\" yerine \"Wofür interessierst du dich?\" kullanırlar 3.\nAsla unutulmaması gereken kural: Wo-Komposita SADECE cansız nesneler ve durumlar için kullanılır 3. Eğer bir insan hakkında soru soruyorsanız mecburen edatı ayırıp kişi zamiriyle sormak zorundasınız. Yani \"Kimin hakkında konuşuyorsunuz?\" demek için \"Worüber\" diyemezsiniz, mecburen \"Über wen?\" demek zorundasınız 3, 4.\nEk olarak, Almanlar bu \"wo-\" kelimelerini alles (her şey) veya nichts (hiçbir şey) gibi belirsiz kelimeleri açıklarken ilgi zamiri (bağlaç) olarak da sıkça kullanırlar (Örneğin; \"İlgilendiğimiz tek şey bu\" - Das ist alles, womit wir uns beschäftigen) 5, 6.\nBu soru sorma mantığı işinizi kolaylaştırdı mı? Dilerseniz artık cümleleri \"şunu yaparak / ederek\" (örneğin \"Spor yaparak sağlıklı kalıyorum\") diyerek birbirine bağladığımız o meşhur indem / dadurch, dass (Araç Cümleleri) konusuna geçiş yapabiliriz. Ne dersiniz?"
+          },
+          {
+            "id": "almancada_da-kompozita_ve_pratik_kullanim_rehberi",
+            "title": "Almancada Da-Kompozita ve Pratik Kullanım Rehberi",
+            "category": "Satzbau & Adverbien",
+            "subcategory": "Pronominaladverbien",
+            "content": "﻿\"Da-Komposita\" (Pronominaladverbien), Almanların daha önce bahsedilen cansız bir nesneyi veya koca bir durumu tekrar tekrar söylememek için kullandıkları pratik kısaltmalardır 1-3. Cümleleri inanılmaz derecede hızlandırırlar.\nOluşturması çok basittir: \"da\" kelimesinin yanına bir edat eklenir 4. Eğer edat sesli harfle başlıyorsa araya kaynaştırma harfi olarak \"r\" girer 4.\nSorduğunuz örneklere bakalım:\n* dafür (bunun için): \"für\" edatıyla yapılır. Örnek: \"Er hat dafür viel Geld ausgegeben.\" (Bunun için çok para harcadı.) 5.\n* darauf (buna): \"auf\" sesli harfle başladığı için araya \"r\" girer. Örnek: \"Ich freue mich darauf.\" (Bunu dört gözle bekliyorum.) 4, 6.\n* damit (bununla): \"mit\" edatıyla yapılır. Örnek: \"Was machst du damit?\" (Bununla ne yapıyorsun?) 7.\nÇok Önemli Kural: Bu \"da-\" kelimeleri sadece cansız nesneler veya durumlar için kullanılır, insanlar için asla kullanılamaz 8. Örneğin, cansız bir eşyadan bahsederken \"Bunun hakkında konuşuyoruz\" (Wir sprechen darüber) diyebilirsiniz, ancak bir kız arkadaştan bahsediyorsanız mecburen \"Onun hakkında konuşuyoruz\" (Wir sprechen über sie) demek zorundasınız 9.\nBu kelimelerin cümleyi nasıl pratikleştirdiği mantıklı geldi mi? Dilerseniz tam da bu mantığın soru sorarken kullandığımız hali olan Wo-Komposita (worauf, wofür, womit vb.) konusuna göz atabiliriz. Hangisiyle devam edelim?"
+          }
+        ]
+      },
+      {
+        "name": "Negation",
+        "lessons": [
+          {
+            "id": "almancada_nicht_kullanimi_ve_cumle_olumsuzlama_yapilari",
+            "title": "Almancada Nicht Kullanımı ve Cümle Olumsuzlama Yapıları",
+            "category": "Satzbau & Adverbien",
+            "subcategory": "Negation",
+            "content": "﻿Almancada \"nicht\" kelimesinin konumu, tüm cümleyi mi (Satzverneinung) yoksa cümlenin sadece bir bölümünü mü (Satzteilverneinung) olumsuz yapmak istediğinize göre değişir 1, 2.\n1. Tüm Cümleyi Olumsuz Yapmak (Satzverneinung):Cümlenin genelindeki eylemi veya durumu reddediyorsanız, \"nicht\" kelimesi cümlenin en sonuna gider 1.\n* Örnek: \"Ich mag dich nicht.\" (Seni sevmiyorum) 3.\n2. Sadece Bir Bölümü Olumsuz Yapmak (Satzteilverneinung):Cümlenin tamamını değil de sadece belirli bir detayı (zamanı, kişiyi veya yeri) inkar edip doğrusunu söylemek isterseniz, \"nicht\" kelimesi doğrudan reddettiğiniz o parçanın önüne yerleşir 2. Bu tür durumlarda her zaman bir alternatif sunulduğu için cümleye \"sondern\" (aksine / onun yerine) bağlacı eşlik eder ve olumsuz yapılan parça konuşurken özel olarak vurgulanır 2.\nBu yapının ne kadar esnek olduğunu kaynaklarımızdaki şu detaylı örnek üzerinden görebiliriz: \"Er möchte in diesem Sommer mit Anna im Urlaub surfen gehen.\" (Bu yaz Anna ile tatilde sörf yapmaya gitmek istiyor) 4.\n\"Nicht\" kelimesinin yerini değiştirerek cümlenin bambaşka detaylarını inkar edebiliriz:\n* Özneyi reddetmek: \"Nicht er möchte in diesem Sommer... gehen, sondern ich.\" (O değil, ben gitmek istiyorum) 4.\n* Zamanı reddetmek: \"Er möchte nicht in diesem Sommer... gehen, sondern im Winter.\" (Bu yaz değil, kışın) 4.\n* Kişiyi reddetmek: \"Er möchte... nicht mit Anna... gehen, sondern mit Nicole.\" (Anna ile değil, Nicole ile) 4.\n* Eylemi reddetmek: \"Er möchte... nicht surfen gehen, sondern tauchen.\" (Sörf yapmaya değil, dalış yapmaya) 5.\nBaşka bir deyişle, \"nicht\" tam olarak inkar ettiğimiz kelimenin önüne yapışır ve \"sondern\" ile doğrusunu belirtiriz 2, 4.\nBu \"değil... aksine...\" mantığı tam olarak kafanıza yattı mı?"
+          },
+          {
+            "id": "almancada_nicht_kullanimi_ve_cumle_yapisi",
+            "title": "Almancada Nicht Kullanımı ve Cümle Yapısı",
+            "category": "Satzbau & Adverbien",
+            "subcategory": "Negation",
+            "content": "﻿Almancada bir cümleyi veya durumu olumsuz yapmak (Negation) için genellikle \"nicht\" kelimesini kullanırız 1. Ancak bu kelimenin cümlede nereye konulacağı, neyi olumsuz yapmak istediğinize göre değişir.\nMantığı üç temel kurala oturtabiliriz:\n1. Tüm Cümleyi Olumsuz Yapmak (Sona Atma Kuralı)Eğer cümlenin genelini olumsuz yapıyorsanız, \"nicht\" kelimesi cümlenin en sonuna gider 1, 2.\n* Örnek: \"Ich mag dich nicht.\" (Seni sevmiyorum) 2.\n2. Kuralı Bozan İstisnalar (Kelimenin Önüne Gelme)Bazı durumlarda \"nicht\" en sona gidemez; doğrudan olumsuz yapacağı kelimenin veya yapının hemen önüne yerleşmek zorundadır 2, 3:\n* İkinci bir fiil varsa: \"Morgen kann ich nicht kommen.\" 2\n* Ayrılabilen bir fiil eki (Präfix) varsa: \"Heute gehe ich nicht spazieren.\" 2\n* Geçmiş zaman eylemi (Partizip II) varsa: \"Gestern habe ich nicht gearbeitet.\" 2, 3\n* Sıfatların, zarfların, edatların veya yer bildiren ifadelerin önünde: \"Dieses Hotel ist nicht teuer.\" (Sıfat) veya \"Ich wohne nicht in diesem Haus.\" (Edat) 3.\n3. Sadece Bir Parçayı Olumsuz Yapmak (Satzteil negieren)Bazen cümlenin tamamını değil, sadece küçük bir detayını inkar edip doğrusunu söylemek isteriz. Bu durumda \"nicht\" doğrudan o detayın önüne gelir ve genelde ardından alternatif sunan sondern (aksine/bilakis) bağlacı kullanılır 4.\n* Örnek: \"Ich bin nicht gestern gekommen, sondern heute.\" (Dün gelmedim, bugün geldim) 4.\n\"Nicht\" kelimesinin bu konumlanma mantığı kafanızda netleşti mi?"
+          }
+        ]
+      },
+      {
+        "name": "Doppelkonnektoren",
+        "lessons": [
+          {
+            "id": "almanca_ikili_baglaclar_ve_kullanim_rehberi",
+            "title": "Almanca İkili Bağlaçlar ve Kullanım Rehberi",
+            "category": "Satzbau & Adverbien",
+            "subcategory": "Doppelkonnektoren",
+            "content": "Almanca'da bağlaçlar (Konnektoren) genel olarak cümleleri veya cümle ögelerini birbirine bağlamak için kullanılır 1. İkili bağlaçlar (Doppelkonnektoren) ise tam olarak aynı işlevi iki ayrı parçadan oluşarak yerine getirir ve iki durum arasındaki zıtlık, seçenek, koşul veya ekleme ilişkilerini daha vurgulu bir şekilde ifade eder 1-3.\r\nEn çok karşına çıkacak ikili bağlaçlar ve kattıkları anlamlar şunlardır:\r\n* sowohl ... als auch ... (Hem ... hem de ...): İki seçeneğin de olumlu ve geçerli olduğunu gösterir 4, 5.\r\n* weder ... noch ... (Ne ... ne de ...): Her iki seçeneğin de geçersiz olduğunu belirtir. Yapısı gereği zaten olumsuz bir anlam taşıdığı için cümlede \"nicht\" veya \"kein\" gibi ekstra olumsuzluk kelimeleri kesinlikle kullanılmaz 6, 7.\r\n* entweder ... oder ... (Ya ... ya da ...): İki seçenekten yalnızca birini seçmeniz veya ikisinden birinin gerçekleşeceği durumlarda kullanılır 4, 8.\r\n* nicht nur ..., sondern auch ... (Sadece ... değil, aynı zamanda ...): İki durumu da kapsar, ancak özellikle ikinci duruma ekstra vurgu ve övgü katar 1, 9.\r\n* zwar ..., aber ... (Gerçi/Her ne kadar ... ama/yine de ...): Bir durumu veya gerçeği kabul edip, hemen ardından bir kısıtlama veya zıtlık getirir 10, 11.\r\n* einerseits ..., andererseits ... (Bir yandan ... diğer yandan ...): İki farklı durumu, avantajı ve dezavantajı birbiriyle tartmak için kullanılır 12, 13.\r\n* je ..., desto/umso ... (Ne kadar ... o kadar ...): İki eylem arasındaki artış veya azalış orantısını gösterir. Bu yapıda her iki tarafta da mutlaka karşılaştırma bildiren (Komparativ) sıfatlar (daha iyi, daha fazla vb.) kullanılmalıdır 14, 15.\r\nÖnemli Püf Noktası (Virgül Kuralı):İkili bağlaçlarda noktalama işaretleri kalıptır. sowohl... als auch, entweder... oder ve kelimeleri birbirine bağlıyorsa weder... noch bağlaçlarında virgül kullanılmaz 4, 16, 17. Ancak nicht nur..., sondern auch..., zwar..., aber..., einerseits..., andererseits... ve je..., desto... yapılarında parçalar mutlaka virgül ile ayrılır 18.\r\nBu bağlaçların bazıları cümledeki kelime dizilimini (özne ve fiilin yerini) etkiler. İstersen cümle yapısını en çok değiştiren \"je ... desto\" veya \"weder ... noch\" kalıplarının örnek cümlelerine bakarak devam edebiliriz. Hangisiyle ilerleyelim?"
+          }
+        ]
+      },
+      {
+        "name": "Adverbien",
+        "lessons": [
+          {
+            "id": "almanca_zaman_zarflari_ve_temel_kullanim_kurallari",
+            "title": "Almanca Zaman Zarfları ve Temel Kullanım Kuralları",
+            "category": "Satzbau & Adverbien",
+            "subcategory": "Adverbien",
+            "content": "﻿Temporaladverbien (Zaman Zarfları), bir eylemin \"ne zaman\" (wann) gerçekleştiğini netleştirmek için kullandığımız pratik kelimelerdir 1, 2. Bu zarfları anlattıkları zaman dilimine göre üç ana kategoriye ayırabiliriz:\n1. Vergangenheit (Geçmiş):Geçmişte yaşanmış olayları anlatırken şu zarfları kullanırız:\n* gestern (dün) ve früher (eskiden) 2, 3.\n* damals (o zamanlar) ve einst (bir zamanlar) 3.\n* neulich / kürzlich (geçenlerde) ve vorhin (az önce) 2, 3.\n2. Gegenwart (Şu an / Günümüz):İçinde bulunduğumuz zamanı ifade etmek için şunlar tercih edilir:\n* heute (bugün), jetzt / nun (şimdi) ve heutzutage (günümüzde) 4, 5.\n* momentan / zurzeit (şu sıralar) 4, 5.\n* gleich / sofort (hemen) 5.\n3. Zukunft (Gelecek):Gelecekteki planlar veya olaylar için şu zarfları kullanırız:\n* morgen (yarın), bald (yakında) ve demnächst (kısa süre içinde) 6, 7.\n* später (daha sonra) ve nachher (ardından / sonrasında) 7, 8.\n* künftig / zukünftig (gelecekte) 7.\nÇok Önemli Bir Kural: Zamanı vurgulamak isterseniz bu zarfları cümlenin en başına (1. sıraya) koyabilirsiniz. Ancak bu durumda, Almancanın o meşhur kuralı gereği özne ile fiil yer değiştirmek zorundadır. Örneğin; \"Ich werde heute ein neues Auto kaufen\" demek yerine, \"Heute werde ich ein neues Auto kaufen\" demelisiniz 4.\nZamanı ifade ettiğimiz bu kelimelerin mantığı oturdu mu?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "grammatik_nomen",
+    "name": "Grammatik & Nomen",
+    "icon": "ti-abc",
+    "color": "teal",
+    "subcategories": [
+      {
+        "name": "Genitiv & Genitivpräpositionen",
+        "lessons": [
+          {
+            "id": "almanca_genitiv_gramer_rehberi_ve_tamlama_kurallari",
+            "title": "Almanca Genitiv Gramer Rehberi ve Tamlama Kuralları",
+            "category": "Grammatik & Nomen",
+            "subcategory": "Genitiv & Genitivpräpositionen",
+            "content": "Almanca A2-B1 dilbilgisi bağlamında Genitiv (İsmin -in Hali), Türkçedeki isim tamlamalarına (örneğin: kapının kolu, adamın şapkası) veya aidiyet durumlarına karşılık gelir 1, 2.\r\nGenitiv kurarken dikkat etmen gereken temel püf noktaları ve değişimler şunlardır:\r\n* Artikel ve İsim Değişimi: Eril (der) ve nötr (das) kelimelerin artikeli des olur ve ismin sonuna -s veya -es takısı gelir (Örn: des Mannes, des Kindes) 1, 3. Dişil (die) ve çoğul (die) kelimelerin artikeli ise der olur ve isim kelime olarak hiçbir ek almaz 1, 3.\r\n* Kelime Dizilimi (Devrik Mantık): Türkçede \"adamın şapkası\" derken, Almancada bu yapı sondan başa doğru yani \"şapkası adamın\" mantığıyla dizilir (der Hut des Mannes) 3, 4. İkinci kısım her zaman Genitiv yapısında kalarak aidiyeti belirtir.\r\n* Belirsiz Artikeller (B1 Seviyesi): Belirsiz artikeller kullandığında yapı eines ve einer şekline dönüşür (Örn: ein Lächeln eines Mannes - bir adamın bir gülümsemesi) 5, 6.\r\n* Çoğullar İçin \"von\" İstisnası: Çoğul kelimelerin belirsiz hali (bir kelimesinin çoğulu) olmadığı için, belirsiz çoğul tamlamalar kurarken von + Dativ yapısı kullanılır 7, 8. Örneğin genel anlamda \"çocukların gülüşü\" derken das Lachen von Kindern denilir, çünkü \"von\" edatı her zaman Dativ gerektirir ve ismin çoğul halinin sonuna \"-n\" harfi ekletir 8, 9.\r\nGenitiv yapısının formülü oldukça kuralcıdır. Bu yapıyı cümle içinde daha rahat görebilmen için, \"öğretmenin çantası masada duruyor\" gibi tamlamaların cümle içindeki farklı görevlerini inceleyerek devam edelim mi?"
+          },
+          {
+            "id": "almanca_genitiv_edatlari_ve_kullanim_kurallari",
+            "title": "Almanca Genitiv Edatları ve Kullanım Kuralları",
+            "category": "Grammatik & Nomen",
+            "subcategory": "Genitiv & Genitivpräpositionen",
+            "content": "﻿Genitivpräpositionen (Genitiv edatları), isimleri her zaman Genitiv (-in) halinde çekimlenmeye zorlayan edatlardır. Bu grubun en klasik ve yaygın üçlüsü şunlardır:\n* wegen (...yüzünden / nedeniyle): Bir şeyin nedenini veya gerekçesini açıklar Örnek: wegen des Regens (yağmur yüzünden) \n* während (...sırasında / esnasında): Olayların aynı zaman diliminde paralel olarak gerçekleştiğini gösterir Örnek: während des Urlaubs (tatil sırasında/esnasında) \n* trotz (...-e rağmen): Beklenmedik veya zıt bir durumu ifade eder Örnek: trotz der Kälte (soğuğa rağmen) \nÇok Önemli Bir İstisna:Eğer bu edatlardan sonra gelen kelimenin önünde hiçbir artikel (der/die/das/mein vb.) yoksa ve kelime çoğulsa, mecburen Dativ (-e) haline geçiş yaparız 6. Örneğin \"çocuklar yüzünden\" derken wegen Kinder değil, wegen Kindern deriz Ayrıca Almanlar günlük konuşma dilinde (sokak ağzında) bu edatlardan sonra Genitiv yerine sıklıkla Dativ kullanırlar (wegen dem schlechten Wetter gibi) \nBu klasik üçlünün mantığı tam olarak anlaşıldı mı? Dilerseniz yine aynı Genitiv kuralına uyan ama daha resmi durumlarda karşımıza çıkan diğer edatlara (aufgrund, anstelle, statt) geçiş yapabiliriz. Hangisini istersiniz?"
+          },
+          {
+            "id": "almanca_genitiv_edatlari_ve_kullanim_rehberi",
+            "title": "Almanca Genitiv Edatları ve Kullanım Rehberi",
+            "category": "Grammatik & Nomen",
+            "subcategory": "Genitiv & Genitivpräpositionen",
+            "content": "﻿Genitiv (-in hali) edatlarının daha resmi durumlarda karşımıza çıkan diğer önemli üyeleri şunlardır:\n1. aufgrund (nedeniyle / yüzünden): Bir şeyin sebebini gösterir ve \"wegen\" ile aynı mantıkta çalışır Örnek: \"Aufgrund des Regens\" (yağmur nedeniyle) \n2. anstelle (yerine): Birinin veya bir şeyin yerini almayı ifade eder ve çoğunlukla kişiler için tercih edilir Örnek: \"Anstelle seines Vaters\" (babasının yerine) 3. laut (...-e göre): Genellikle yasa, belge veya plan gibi şeylere atıf yaparken çoğu zaman artikelsiz kullanılır Örnek: \"Laut Gesetz\" (kanuna göre) \n4. mithilfe (yardımıyla): Bir eylemin kimin veya neyin desteğiyle yapıldığını belirtir Örnek: \"Mithilfe seiner Freunde\" (arkadaşlarının yardımıyla) \n5. zufolge (...-e göre): Bir rapora, habere veya söylentiye atıf yapar Genitiv ile kullanıldığında ismin önüne gelir (zufolge des Gerüchts), ancak Dativ (ismin -e hali) ile kullanılırsa ismin arkasına atılır (dem Vertrag zufolge) \nKüçük Bir Kural: Tıpkı diğer Genitiv edatlarında olduğu gibi, bu kelimelerden sonra gelen çoğul ismin önünde hiçbir artikel yoksa, mecburen araya \"von\" kelimesi eklenir (aufgrund von Problemen, mithilfe von Geräten gibi) \nBöylece Genitiv edatları konusunu tamamen bitirmiş olduk!"
+          },
+          {
+            "id": "almanca_genitiv_edatlari__mekansal_konum_belirtecleri",
+            "title": "Almanca Genitiv Edatları_ Mekansal Konum Belirteçleri",
+            "category": "Grammatik & Nomen",
+            "subcategory": "Genitiv & Genitivpräpositionen",
+            "content": "﻿Genitiv (-in hali) edatlarından olan außerhalb (dışında) ve innerhalb (içinde), bir şeyin mekansal (lokal) konumunu belirtmek için birbirinin tam zıttı olarak çalışır \naußerhalb (Dışında): Bir şeyin o mekanda değil, dışarıda veya o yerin yakın çevresinde olduğunu ifade eder Örneğin; \"Er wohnt außerhalb der Stadt\" (Şehrin dışında yaşıyor) Çoğul kelimelerde Genitiv durumu ekiyle tam belli olmuyorsa veya şehir isimleri gibi özel isimlerle kullanıldığında \"von\" edatıyla desteklenir (außerhalb von Köln veya außerhalb von Einrichtungen gibi) \ninnerhalb (İçinde): Bir şeyin sınırları net olarak çizilmiş, kapalı bir alanın veya mekanın içinde yer aldığını gösterir Örneğin; \"Innerhalb des Gebäudes darf nicht geraucht werden\" (Binanın içinde sigara içilmesine izin verilmez) \nBu iki zıt mekan edatının mantığı netleşti mi? İsterseniz bu iki edatın bir de zamansal (temporal) olarak nasıl kullanıldığına (\"bir ay içinde\" gibi) bakabiliriz veya aynı gruba giren laut, mithilfe, zufolge (göre, yardımıyla) gibi diğer resmi Genitiv edatlarına geçiş yapabiliriz. Ne dersiniz?"
+          }
+        ]
+      },
+      {
+        "name": "N-Deklination",
+        "lessons": [
+          {
+            "id": "almanca_dilbilgisinde_n-cekimi_kurallari_ve_i̇stisnalari",
+            "title": "Almanca Dilbilgisinde N-Çekimi Kuralları ve İstisnaları",
+            "category": "Grammatik & Nomen",
+            "subcategory": "N-Deklination",
+            "content": "﻿N-Deklination (N-Çekimi) kuralının en yaygın ve akılda kalıcı grubu, sonu \"-e\" harfi ile biten maskülen (der artikelli) canlılardır 1. Bu canlıları tam da bahsettiğiniz gibi üç ana kategoriye ayırıyoruz: İnsanlar (Personen), Milletler (Nationalitäten) ve Hayvanlar (Tiere) 1.\nBu kelimeler, Yalın Hal (Nominativ) dışında kalan tüm ismin hallerinde (Akkusativ, Dativ, Genitiv) sonlarına \"-n\" takısı alırlar 1. En önemli detay ise, Genitiv (-in hali) durumunda bile normal maskülen kelimelerde gördüğümüz \"-s\" takısını kesinlikle almamalarıdır 1, 2.\nKaynaklarımızdaki örnekler üzerinden bu üç grubu inceleyelim:\n* İnsanlar (Personen): der Kollege (meslektaş). Cümle içinde kullanıldığında -> den/dem/des Kollegen şekline dönüşür 1.\n* Milletler (Nationalitäten): der Chinese (Çinli). Cümle içinde kullanıldığında -> den/dem/des Chinesen olur 1.\n* Hayvanlar (Tiere): der Affe (maymun). Cümle içinde kullanıldığında -> den/dem/des Affen şeklini alır 1.\nBurada işinizi çok kolaylaştıracak güzel bir ipucu var: Bu kelimelerin N-Çekimi sırasında aldıkları \"-n\" takısı, aslında onların çoğul (Plural) haliyle tamamen aynıdır 1.\nSonu \"-e\" ile biten bu canlılar grubu kafanızda netleşti mi?"
+          },
+          {
+            "id": "almanca_n-cekimi_kurali_ve_onemli_i̇stisnalar",
+            "title": "Almanca N-Çekimi Kuralı ve Önemli İstisnalar",
+            "category": "Grammatik & Nomen",
+            "subcategory": "N-Deklination",
+            "content": "﻿N-Deklination (N-Çekimi) kuralının genelde maskülen (der) kelimeler için geçerli olduğunu konuşmuştuk, ancak kaynaklarımız bu kuralı biraz esneten üç çok önemli istisnaya dikkat çekiyor 1:\n1. der Herr (Bay/Beyefendi): Bu kelimenin normal çoğulu \"Herren\" olmasına rağmen, N-Çekiminde sonuna \"-en\" değil, sadece \"-n\" harfi alır (den/dem/des Herrn) 1.\n2. der Name (İsim): Kurala uyan diğer kelimeler Genitiv (-in hali) durumunda asla \"-s\" almazken, der Name bir istisnadır ve Genitiv'de hem \"n\" hem \"s\" alarak des Namens şekline dönüşür 1.\n3. das Herz (Kalp): N-Çekimi grubunda yer alan tek nötr (das) artikelli kelimedir 1. Yalın ve Akkusativ (-i hali) durumunda das Herz olarak kalır, ancak Dativ'de dem Herzen, Genitiv'de ise tıpkı Name kelimesi gibi fazladan bir \"s\" alarak des Herzens olur 1.\nBöylece isimlerin sonuna \"n\" takılma kuralını istisnalarıyla birlikte tamamen bitirmiş olduk!"
+          },
+          {
+            "id": "almancada_n-deklination_ve_i̇sim_cekim_kurallari",
+            "title": "Almancada N-Deklination ve İsim Çekim Kuralları",
+            "category": "Grammatik & Nomen",
+            "subcategory": "N-Deklination",
+            "content": "﻿N-Deklination (N-Çekimi), sadece belirli maskülen (der artikelli) isimleri etkileyen özel bir kuraldır. Kuralın özü şudur: Bu isimler Nominativ (yalın hal) dışındaki tüm ismin hallerinde (Akkusativ, Dativ ve Genitiv) sonlarına ekstradan \"-n\" veya \"-en\" harfi alırlar 1.\nHangi maskülen isimlerin bu gruba girdiğini üç temel kategoride toplayabiliriz:\n1. Sonu \"-e\" ile biten canlılar (insanlar, milletler, hayvanlar): der Kollege (meslektaş) -> den/dem/des Kollegen veya der Affe (maymun) -> den/dem/des Affen gibi 2.\n2. Sonu \"-ant, -ent, -ist\" ile bitenler: der Praktikant -> den Praktikanten, der Polizist -> dem Polizisten 3.\n3. Yunanca kökenli bazı kelimeler: der Biologe, der Demokrat, der Architekt gibi isimler 4.\nBurada hayat kurtaran iki küçük ipucu var:\n* Bu kelimelerin sonuna gelen \"-n/-en\" takıları, aslında kelimenin çoğul (Plural) haliyle tamamen aynıdır 2, 3.\n* Genitiv (-in hali) normalde maskülen kelimelerin sonuna \"-s\" takısı getirirken, bu kurala uyan kelimeler \"-s\" almazlar (des Nachbarn, des Praktikanten gibi) 3, 5. Sadece der Name (isim) kelimesi bir istisnadır ve Genitiv'de hem \"n\" hem \"s\" alarak des Namens olur 6.\nBazı kelimelerin sürekli \"-n\" kuyruğuyla dolaştığı bu N-Çekimi mantığı kafanıza yattı mı?"
+          }
+        ]
+      },
+      {
+        "name": "Partizipien als Adjektive/Nomen",
+        "lessons": [
+          {
+            "id": "almanca_partizip_i_yapisi_ve_kullanimi",
+            "title": "Almanca Partizip I Yapısı ve Kullanımı",
+            "category": "Grammatik & Nomen",
+            "subcategory": "Partizipien als Adjektive/Nomen",
+            "content": "﻿Partizip I (1. Ortaç), eylemlerin aynı anda gerçekleştiğini (Gleichzeitigkeit) veya henüz bitmediğini göstermek için kullanılır 1, 2. Fiilin yalın (infinitiv) halinin sonuna sadece bir \"d\" harfi eklenerek oluşturulur (örneğin singen -> singend / şarkı söyleyerek) 1.\nGeniş bağlamda bu yapıyı sıfat veya isim olarak şöyle kullanabiliriz:\n* Sıfat olarak (Adjektiv): Bu yapıyı bir ismin önüne koyduğunuzda, ismin hallerine göre tıpkı normal bir sıfat gibi çekimlenir 2, 3. Örneğin; die kochende Suppe (kaynayan çorba) veya den laufenden Film (devam eden/oynayan film) 2, 3.\n* İsim olarak (Nomen): Bu kelimeleri büyük harfle başlatarak doğrudan isimleştirebilirsiniz 3. Mesela reisen (seyahat etmek) fiilinden der Reisende (seyahat eden kişi / yolcu) veya schlafen (uyumak) fiilinden die Schlafende (uyuyan kadın) üretebilirsiniz 3, 4.\nBu \"devam eden veya aynı anda olan eylemler\" mantığı netleşti mi? Dilerseniz tam zıttı olan, eylemin tamamen bittiğini ve sonucunu gösteren Partizip II (2. Ortaç) konusuna (das gestohlene Auto - çalınmış araba) geçiş yapabiliriz. Ne dersiniz?"
+          },
+          {
+            "id": "almancada_partizip_ii_kullanimi_ve_sifatlastirma_yontemleri",
+            "title": "Almancada Partizip II Kullanımı ve Sıfatlaştırma Yöntemleri",
+            "category": "Grammatik & Nomen",
+            "subcategory": "Partizipien als Adjektive/Nomen",
+            "content": "﻿Bir önceki konumuzda eylemin henüz devam ettiğini gösteren Partizip I'i konuşmuştuk. Sorduğunuz Partizip II (2. Ortaç) ise bunun tam zıttıdır: Eylem tamamen bitmiştir ve ortada kalıcı bir sonuç (Abgeschlossenheit) vardır 1.\nBu yapıyı Almancada bir sıfat veya isim olarak kullanmak çok pratiktir ve uzun cümleleri kısaltmanızı sağlar.\n1. Sıfat Olarak Kullanımı (Adjektiv):Fiilin üçüncü halini (Partizip Perfekt) doğrudan ismin önüne koyarsınız. İsmin önüne geldiği için, ismin haline (Akkusativ, Dativ vb.) göre normal sıfat çekimi (Adjektivdeklination) kurallarına uymak zorundadır 1, 2.\n* Örnek: \"Ich kaufe mir ein gebrauchtes Auto.\" (Kullanılmış bir araba alıyorum.) 1.\n* Örnek: \"Wann kann ich meinen reparierten Wagen abholen?\" (Tamir edilmiş arabamı ne zaman alabilirim?) Burada arabanın tamir işlemi çoktan bitmiş, sonuç ortadadır 2.\n2. İsim Olarak Kullanımı (Nomen):Sıfat olarak kullandığınız bu kelimeleri büyük harfle başlatarak doğrudan bir kişiye veya duruma dönüştürebilirsiniz 3.\n* Örnek: \"sich verletzen\" (yaralanmak) fiilinden -> der Verletzte (yaralı adam) veya die Verletzte (yaralı kadın) türetebilirsiniz 3.\n* Örnek: \"sich verlieben\" (aşık olmak) fiilinden -> der Verliebte (aşık olan kişi) diyebilirsiniz 3.\nÇok Önemli İki Kural:\n* Eğer dönüştürdüğünüz fiil dönüşlü (reflexiv) bir fiilse, başındaki \"sich\" kelimesi sıfatlaştırma sırasında tamamen düşer 3, 4. Örneğin; \"sich erkälten\" (üşütmek) fiili için \"die sich erkältete Frau\" denmez, doğrudan \"die erkältete Frau\" (üşütmüş kadın) denir 4.\n* İki ayrı cümleyi veya uzun bir ilgi cümlesini (Relativsatz) kısaltmak için harika bir yöntemdir. \"Die Polizei sucht das Auto. Das Auto wurde gestohlen.\" demek yerine tek bir hamleyle \"Die Polizei sucht das gestohlene Auto.\" (Polis çalınan arabayı arıyor) diyebilirsiniz 4, 5.\nEylemlerin \"devam eden\" (Partizip I) ve \"bitmiş\" (Partizip II) hallerini sıfatlaştırma mantığı kafanızda tam olarak netleşti mi?"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "verben",
     "name": "Verben",
     "icon": "ti-bolt",
     "color": "purple",
     "subcategories": [
+      {
+        "name": "Zeitformen",
+        "lessons": [
+          {
+            "id": "almanca_prateritum_yazi_dili_ve_gecmis_zaman_rehberi",
+            "title": "Almanca Präteritum_ Yazı Dili ve Geçmiş Zaman Rehberi",
+            "category": "Verben",
+            "subcategory": "Zeitformen",
+            "content": "Almanca zamanlar (Zeitformen) bağlamında Präteritum, \"di'li geçmiş zaman\" veya \"geçmiş zamanın hikayesi\" olarak adlandırılır 1, 2. Daha önce gördüğümüz Perfekt (konuşma dili geçmiş zamanı) ile anlam olarak tamamen aynıdır, aralarındaki temel fark kullanım yeridir 1, 3, 4.\r\nPräteritum daha çok romanlarda, gazetelerde ve resmi yazışmalarda yani yazı dilinde tercih edilir 1-3. Ancak Almanlar günlük konuşmada da bazı fiilleri Perfekt yerine Präteritum çekimiyle kullanmayı daha pratik bulurlar; bunlar genellikle haben (sahip olmak), sein (olmak) ve tarz fiilleridir (Modalverben) 3, 5, 6.\r\nCümle Yapısı ve Fiil ÇekimiPräteritum'da fiilleri çekerken onları üç ana gruba ayırırız:\r\n* Düzenli Fiiller (Regelmäßige Verben): Fiil kökü değişmez, kökün sonuna şahsa göre \"-te\" veya \"-ete\" ile başlayan ekler gelir. (Örn: arbeiten -> arbeitete) 7-9.\r\n* Düzensiz Fiiller (Unregelmäßige Verben): Fiilin kökündeki sesli harf tamamen değişime uğrar. (Örn: kommen -> kam, sehen -> sah) 10.\r\n* Karışık Fiiller (Mischverben): Hem kökündeki sesli harf değişir hem de düzenli fiiller gibi sonuna \"-te\" eki alır. (Örn: bringen -> brachte, denken -> dachte) 11-13.\r\nAltın Kural: Präteritum çekimlerinde, tüm fiil grupları için 1. tekil şahıs (ich) ile 3. tekil şahıs (er/sie/es) çekimi istisnasız olarak birbiriyle tamamen aynıdır 10, 14, 15.\r\nBu zamanın mantığı oldukça nettir. Dilersen, sokakta ve günlük dilde de çok sık kullanılan \"haben\" ve \"sein\" fiillerinin geçmiş zaman cümlelerindeki örneklerine bakarak devam edebiliriz. Nasıl ilerleyelim?"
+          },
+          {
+            "id": "almanca_dilbilgisinde_plusquamperfekt_gecmisin_gecmisi",
+            "title": "Almanca Dilbilgisinde Plusquamperfekt_ Geçmişin Geçmişi",
+            "category": "Verben",
+            "subcategory": "Zeitformen",
+            "content": "Almanca'daki zamanlar (Zeitformen) bağlamında Plusquamperfekt, geçmiş zamanın da geçmişini (Vorvergangenheit) ifade etmek için kullanılır 1, 2. Türkçedeki \"-mıştı, -mişti\" (Mişli Geçmiş Zaman) yapısına net olarak karşılık gelir 3.\r\nBu zaman genellikle tek başına kullanılmaz; her zaman Perfekt (konuşma dili geçmiş zamanı) veya Präteritum (yazı dili geçmiş zamanı) ile birlikte kurulan bir bağlamda, geçmişte olan iki olaydan hangisinin daha önce gerçekleştiğini vurgulamak için işe yarar 4-6. Bu nedenle sık sık \"nachdem\" (-dıktan sonra) veya \"davor\" (önce) gibi bağlaçlarla kurulan cümlelerde karşımıza çıkar 7.\r\nCümle Yapısı (Gramer)Aslında bu yapı, önceden bildiğin Perfekt ve Präteritum'un basit bir birleşimidir 8. Perfekt yaparken kullandığımız haben veya sein yardımcı fiillerini geçmiş zamanda, yani hatten veya waren olarak kullanırsın ve asıl fiili cümlenin en sonuna yine \"Partizip 2\" (genellikle ge- takısı alan 3. hal) olarak gönderirsin 2, 8, 9. Hangi fiilin waren, hangisinin hatten alacağı kuralı Perfekt'teki ile tamamen aynıdır (örneğin hareket ve durum değişikliği bildirenler waren alır) 2, 8, 10.\r\nÖrneklerle İnceleyelim:\r\n* Der Fahrer hatte Alkohol getrunken, deshalb ist ein Unfall passiert. (Sürücü alkol içmişti, bu yüzden kaza oldu.) -> Önce alkol içme eylemi yaşanıyor (Plusquamperfekt), daha sonra kaza oluyor (Perfekt) 4.\r\n* Ich bin heute sehr spät zur Arbeit gekommen. Ich hatte zu lange geschlafen. (Bugün işe çok geç gittim. Gereğinden fazla uyumuştum.) 11.\r\nMantığı oldukça kurallı ve basittir. Bu zamanın yapısını pekiştirmek için \"nachdem\" (sonra) bağlacı ile iki geçmiş zamanı birbirine nasıl bağlayacağımızı inceleyerek devam edelim mi?"
+          },
+          {
+            "id": "almanca_futur_1_gelecek_zaman_yapisi_ve_kullanimi",
+            "title": "Almanca Futur 1_ Gelecek Zaman Yapısı ve Kullanımı",
+            "category": "Verben",
+            "subcategory": "Zeitformen",
+            "content": "Almanca zamanlar (Zeitformen) bağlamında Futur 1, gelecekteki olayları, niyetleri, tahminleri ve hatta kesin emirleri ifade etmek için kullandığımız \"Gelecek Zaman\" yapısıdır 1. Ancak cümle yapıları bağlamında bilmen gereken en önemli detay şudur: Almanlar günlük konuşma dilinde gelecekten bahsederken çoğunlukla Futur 1 yerine şimdiki zamanı (Präsens) \"morgen\" (yarın) veya \"bald\" (yakında) gibi bir zaman zarfıyla birlikte kullanmayı tercih ederler 1-3. Futur 1 daha çok yazı dilinde veya cümleye özel bir anlam katmak istendiğinde karşımıza çıkar 1, 4.\r\nCümle Yapısı (Gramer)Futur 1, \"werden\" (olmak) yardımcı fiili ve ana fiilin mastar (yalın) haliyle kurulur 5, 6. Tıpkı tarz fiillerinde (Modalverben) olduğu gibi, çekimlenmiş \"werden\" fiili cümlenin ikinci sırasına yerleşir, asıl eylemi bildiren fiil ise hiçbir ek almadan cümlenin en sonuna gider 1, 7.(Örnek: Ich werde morgen das Auto waschen. - Yarın arabayı yıkayacağım.)\r\nHangi Durumlarda Futur 1 Kullanmalısın?\r\n* Tahminler ve Öngörüler (Vermutungen): \"Wahrscheinlich\" (büyük ihtimalle) veya \"wohl\" (muhtemelen) gibi kelimelerle birlikte geleceğe dair bir tahminde bulunurken kullanılır 1, 8, 9. (Örn: Morgen wird es wahrscheinlich regnen. - Yarın büyük ihtimalle yağmur yağacak.)\r\n* Söz Verirken (Versprechen) veya Kesin Niyetlerde: Birine kesin bir söz verirken veya kararlı bir niyet bildirirken Futur 1 tercih edilir 1, 9. (Örn: Ich werde dir helfen. - Sana yardım edeceğim.)\r\n* Emir ve Talimatlarda: Karşı tarafa sert ve itiraz edilemez bir emir verirken kullanılır 1, 10. (Örn: Du wirst jetzt die Musik leiser machen! - Şimdi o müziğin sesini kısacaksın!)\r\nPüf Noktası (Modal Fiillerle Kullanım): Eğer cümlede bir tarz fiili (können, müssen vb.) kullanman gerekiyorsa, \"werden\" yine ikinci sırada kalır; asıl fiil ve tarz fiili ise yan yana mastar halinde cümlenin en sonuna gider 1. (Örn: Du wirst viel schreiben können. - Çok yazabiliyor olacaksın.)\r\nFutur 1'in bu temel mantığı ve şimdiki zamanla olan kullanım farkı sana net geldi mi? Dilersen bu yapıyı ayrılabilen fiillerle (trennbare Verben) nasıl kullandığımıza dair bir örneğe bakarak devam edebiliriz."
+          }
+        ]
+      },
       {
         "name": "Reflexivverben",
         "lessons": [
@@ -175,228 +397,6 @@ const LESSONS_DATA_B1 = [
             "content": "﻿Nomen-Verb-Verbindungen (İsim-Fiil Bağlantıları), namıdiğer Funktionsverbgefüge, kelimelerin bir araya gelip \"takım çalışması\" yaptığı özel bir yapıdır 1, 2.\nBu yapıyı bir \"Patron ve Asistan\" ilişkisi gibi düşünün.Burada \"İsim\" (Nomen) patrondur ve cümlenin asıl anlamını o taşır 3. Yanına gelen \"Fiil\" (Verb) ise sadece asistanlık yapar, kendi orijinal anlamını tamamen kaybeder 3.\nBunu örneklerle çok net görebiliriz:\n* eine Frage stellen (soru sormak): Normalde stellen \"bir şeyi dik olarak koymak\" demektir 3. Ama Frage (soru) kelimesinin asistanı olduğunda bu anlamını unutur ve koca kalıp sadece \"soru sormak\" anlamına gelir 3. Aslında bu kalıp, tek bir kelime olan fragen (sormak) fiilinin süslü halidir 3.\n* eine Entscheidung treffen (karar vermek): Normalde treffen \"buluşmak\" demektir. Ancak burada \"karar vermek\" (entscheiden) anlama bürünür 4.\n* Sport treiben (spor yapmak): Bu ikili sadece bir arada bu anlama gelir, kelimeleri tek tek ayırırsanız bambaşka anlamlara çıkarlar 1, 2.\nNeden bunu kullanıyoruz?Almanlar dillerini daha havalı ve resmi yapmayı çok severler. Sadece \"Karar verdi\" (Sie entschied) demek yerine, \"Bir karar aldı\" (Sie hat die Entscheidung getroffen) diyerek cümleyi uzatmayı ve süslemeyi tercih ederler 4.\nBazen de bu asistan fiillerin köküyle hiçbir alakası kalmaz. Örneğin \"in Kauf nehmen\" (riskleri göze almak/kabul etmek) kalıbının, kaufen (satın almak) eylemiyle hiçbir ilgisi yoktur, doğrudan akzeptieren (kabul etmek) anlamına gelir 5, 6.\nİsim ve fiilin bu havalı takım çalışması mantıklı geldi mi? Dilerseniz artık fiilleri geride bırakıp, Almanların günlük hayatta sürekli kullandığı \"darüber, damit, dafür\" gibi kelimeleri barındıran Da-Komposita konusuna geçiş yapabiliriz."
           }
         ]
-      },
-      {
-        "name": "Zeitformen",
-        "lessons": [
-          {
-            "id": "almanca_prateritum_yazi_dili_ve_gecmis_zaman_rehberi",
-            "title": "Almanca Präteritum_ Yazı Dili ve Geçmiş Zaman Rehberi",
-            "category": "Verben",
-            "subcategory": "Zeitformen",
-            "content": "Almanca zamanlar (Zeitformen) bağlamında Präteritum, \"di'li geçmiş zaman\" veya \"geçmiş zamanın hikayesi\" olarak adlandırılır 1, 2. Daha önce gördüğümüz Perfekt (konuşma dili geçmiş zamanı) ile anlam olarak tamamen aynıdır, aralarındaki temel fark kullanım yeridir 1, 3, 4.\r\nPräteritum daha çok romanlarda, gazetelerde ve resmi yazışmalarda yani yazı dilinde tercih edilir 1-3. Ancak Almanlar günlük konuşmada da bazı fiilleri Perfekt yerine Präteritum çekimiyle kullanmayı daha pratik bulurlar; bunlar genellikle haben (sahip olmak), sein (olmak) ve tarz fiilleridir (Modalverben) 3, 5, 6.\r\nCümle Yapısı ve Fiil ÇekimiPräteritum'da fiilleri çekerken onları üç ana gruba ayırırız:\r\n* Düzenli Fiiller (Regelmäßige Verben): Fiil kökü değişmez, kökün sonuna şahsa göre \"-te\" veya \"-ete\" ile başlayan ekler gelir. (Örn: arbeiten -> arbeitete) 7-9.\r\n* Düzensiz Fiiller (Unregelmäßige Verben): Fiilin kökündeki sesli harf tamamen değişime uğrar. (Örn: kommen -> kam, sehen -> sah) 10.\r\n* Karışık Fiiller (Mischverben): Hem kökündeki sesli harf değişir hem de düzenli fiiller gibi sonuna \"-te\" eki alır. (Örn: bringen -> brachte, denken -> dachte) 11-13.\r\nAltın Kural: Präteritum çekimlerinde, tüm fiil grupları için 1. tekil şahıs (ich) ile 3. tekil şahıs (er/sie/es) çekimi istisnasız olarak birbiriyle tamamen aynıdır 10, 14, 15.\r\nBu zamanın mantığı oldukça nettir. Dilersen, sokakta ve günlük dilde de çok sık kullanılan \"haben\" ve \"sein\" fiillerinin geçmiş zaman cümlelerindeki örneklerine bakarak devam edebiliriz. Nasıl ilerleyelim?"
-          },
-          {
-            "id": "almanca_dilbilgisinde_plusquamperfekt_gecmisin_gecmisi",
-            "title": "Almanca Dilbilgisinde Plusquamperfekt_ Geçmişin Geçmişi",
-            "category": "Verben",
-            "subcategory": "Zeitformen",
-            "content": "Almanca'daki zamanlar (Zeitformen) bağlamında Plusquamperfekt, geçmiş zamanın da geçmişini (Vorvergangenheit) ifade etmek için kullanılır 1, 2. Türkçedeki \"-mıştı, -mişti\" (Mişli Geçmiş Zaman) yapısına net olarak karşılık gelir 3.\r\nBu zaman genellikle tek başına kullanılmaz; her zaman Perfekt (konuşma dili geçmiş zamanı) veya Präteritum (yazı dili geçmiş zamanı) ile birlikte kurulan bir bağlamda, geçmişte olan iki olaydan hangisinin daha önce gerçekleştiğini vurgulamak için işe yarar 4-6. Bu nedenle sık sık \"nachdem\" (-dıktan sonra) veya \"davor\" (önce) gibi bağlaçlarla kurulan cümlelerde karşımıza çıkar 7.\r\nCümle Yapısı (Gramer)Aslında bu yapı, önceden bildiğin Perfekt ve Präteritum'un basit bir birleşimidir 8. Perfekt yaparken kullandığımız haben veya sein yardımcı fiillerini geçmiş zamanda, yani hatten veya waren olarak kullanırsın ve asıl fiili cümlenin en sonuna yine \"Partizip 2\" (genellikle ge- takısı alan 3. hal) olarak gönderirsin 2, 8, 9. Hangi fiilin waren, hangisinin hatten alacağı kuralı Perfekt'teki ile tamamen aynıdır (örneğin hareket ve durum değişikliği bildirenler waren alır) 2, 8, 10.\r\nÖrneklerle İnceleyelim:\r\n* Der Fahrer hatte Alkohol getrunken, deshalb ist ein Unfall passiert. (Sürücü alkol içmişti, bu yüzden kaza oldu.) -> Önce alkol içme eylemi yaşanıyor (Plusquamperfekt), daha sonra kaza oluyor (Perfekt) 4.\r\n* Ich bin heute sehr spät zur Arbeit gekommen. Ich hatte zu lange geschlafen. (Bugün işe çok geç gittim. Gereğinden fazla uyumuştum.) 11.\r\nMantığı oldukça kurallı ve basittir. Bu zamanın yapısını pekiştirmek için \"nachdem\" (sonra) bağlacı ile iki geçmiş zamanı birbirine nasıl bağlayacağımızı inceleyerek devam edelim mi?"
-          },
-          {
-            "id": "almanca_futur_1_gelecek_zaman_yapisi_ve_kullanimi",
-            "title": "Almanca Futur 1_ Gelecek Zaman Yapısı ve Kullanımı",
-            "category": "Verben",
-            "subcategory": "Zeitformen",
-            "content": "Almanca zamanlar (Zeitformen) bağlamında Futur 1, gelecekteki olayları, niyetleri, tahminleri ve hatta kesin emirleri ifade etmek için kullandığımız \"Gelecek Zaman\" yapısıdır 1. Ancak cümle yapıları bağlamında bilmen gereken en önemli detay şudur: Almanlar günlük konuşma dilinde gelecekten bahsederken çoğunlukla Futur 1 yerine şimdiki zamanı (Präsens) \"morgen\" (yarın) veya \"bald\" (yakında) gibi bir zaman zarfıyla birlikte kullanmayı tercih ederler 1-3. Futur 1 daha çok yazı dilinde veya cümleye özel bir anlam katmak istendiğinde karşımıza çıkar 1, 4.\r\nCümle Yapısı (Gramer)Futur 1, \"werden\" (olmak) yardımcı fiili ve ana fiilin mastar (yalın) haliyle kurulur 5, 6. Tıpkı tarz fiillerinde (Modalverben) olduğu gibi, çekimlenmiş \"werden\" fiili cümlenin ikinci sırasına yerleşir, asıl eylemi bildiren fiil ise hiçbir ek almadan cümlenin en sonuna gider 1, 7.(Örnek: Ich werde morgen das Auto waschen. - Yarın arabayı yıkayacağım.)\r\nHangi Durumlarda Futur 1 Kullanmalısın?\r\n* Tahminler ve Öngörüler (Vermutungen): \"Wahrscheinlich\" (büyük ihtimalle) veya \"wohl\" (muhtemelen) gibi kelimelerle birlikte geleceğe dair bir tahminde bulunurken kullanılır 1, 8, 9. (Örn: Morgen wird es wahrscheinlich regnen. - Yarın büyük ihtimalle yağmur yağacak.)\r\n* Söz Verirken (Versprechen) veya Kesin Niyetlerde: Birine kesin bir söz verirken veya kararlı bir niyet bildirirken Futur 1 tercih edilir 1, 9. (Örn: Ich werde dir helfen. - Sana yardım edeceğim.)\r\n* Emir ve Talimatlarda: Karşı tarafa sert ve itiraz edilemez bir emir verirken kullanılır 1, 10. (Örn: Du wirst jetzt die Musik leiser machen! - Şimdi o müziğin sesini kısacaksın!)\r\nPüf Noktası (Modal Fiillerle Kullanım): Eğer cümlede bir tarz fiili (können, müssen vb.) kullanman gerekiyorsa, \"werden\" yine ikinci sırada kalır; asıl fiil ve tarz fiili ise yan yana mastar halinde cümlenin en sonuna gider 1. (Örn: Du wirst viel schreiben können. - Çok yazabiliyor olacaksın.)\r\nFutur 1'in bu temel mantığı ve şimdiki zamanla olan kullanım farkı sana net geldi mi? Dilersen bu yapıyı ayrılabilen fiillerle (trennbare Verben) nasıl kullandığımıza dair bir örneğe bakarak devam edebiliriz."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "grammatik_nomen",
-    "name": "Grammatik & Nomen",
-    "icon": "ti-abc",
-    "color": "teal",
-    "subcategories": [
-      {
-        "name": "N-Deklination",
-        "lessons": [
-          {
-            "id": "almanca_dilbilgisinde_n-cekimi_kurallari_ve_i̇stisnalari",
-            "title": "Almanca Dilbilgisinde N-Çekimi Kuralları ve İstisnaları",
-            "category": "Grammatik & Nomen",
-            "subcategory": "N-Deklination",
-            "content": "﻿N-Deklination (N-Çekimi) kuralının en yaygın ve akılda kalıcı grubu, sonu \"-e\" harfi ile biten maskülen (der artikelli) canlılardır 1. Bu canlıları tam da bahsettiğiniz gibi üç ana kategoriye ayırıyoruz: İnsanlar (Personen), Milletler (Nationalitäten) ve Hayvanlar (Tiere) 1.\nBu kelimeler, Yalın Hal (Nominativ) dışında kalan tüm ismin hallerinde (Akkusativ, Dativ, Genitiv) sonlarına \"-n\" takısı alırlar 1. En önemli detay ise, Genitiv (-in hali) durumunda bile normal maskülen kelimelerde gördüğümüz \"-s\" takısını kesinlikle almamalarıdır 1, 2.\nKaynaklarımızdaki örnekler üzerinden bu üç grubu inceleyelim:\n* İnsanlar (Personen): der Kollege (meslektaş). Cümle içinde kullanıldığında -> den/dem/des Kollegen şekline dönüşür 1.\n* Milletler (Nationalitäten): der Chinese (Çinli). Cümle içinde kullanıldığında -> den/dem/des Chinesen olur 1.\n* Hayvanlar (Tiere): der Affe (maymun). Cümle içinde kullanıldığında -> den/dem/des Affen şeklini alır 1.\nBurada işinizi çok kolaylaştıracak güzel bir ipucu var: Bu kelimelerin N-Çekimi sırasında aldıkları \"-n\" takısı, aslında onların çoğul (Plural) haliyle tamamen aynıdır 1.\nSonu \"-e\" ile biten bu canlılar grubu kafanızda netleşti mi?"
-          },
-          {
-            "id": "almanca_n-cekimi_kurali_ve_onemli_i̇stisnalar",
-            "title": "Almanca N-Çekimi Kuralı ve Önemli İstisnalar",
-            "category": "Grammatik & Nomen",
-            "subcategory": "N-Deklination",
-            "content": "﻿N-Deklination (N-Çekimi) kuralının genelde maskülen (der) kelimeler için geçerli olduğunu konuşmuştuk, ancak kaynaklarımız bu kuralı biraz esneten üç çok önemli istisnaya dikkat çekiyor 1:\n1. der Herr (Bay/Beyefendi): Bu kelimenin normal çoğulu \"Herren\" olmasına rağmen, N-Çekiminde sonuna \"-en\" değil, sadece \"-n\" harfi alır (den/dem/des Herrn) 1.\n2. der Name (İsim): Kurala uyan diğer kelimeler Genitiv (-in hali) durumunda asla \"-s\" almazken, der Name bir istisnadır ve Genitiv'de hem \"n\" hem \"s\" alarak des Namens şekline dönüşür 1.\n3. das Herz (Kalp): N-Çekimi grubunda yer alan tek nötr (das) artikelli kelimedir 1. Yalın ve Akkusativ (-i hali) durumunda das Herz olarak kalır, ancak Dativ'de dem Herzen, Genitiv'de ise tıpkı Name kelimesi gibi fazladan bir \"s\" alarak des Herzens olur 1.\nBöylece isimlerin sonuna \"n\" takılma kuralını istisnalarıyla birlikte tamamen bitirmiş olduk!"
-          },
-          {
-            "id": "almancada_n-deklination_ve_i̇sim_cekim_kurallari",
-            "title": "Almancada N-Deklination ve İsim Çekim Kuralları",
-            "category": "Grammatik & Nomen",
-            "subcategory": "N-Deklination",
-            "content": "﻿N-Deklination (N-Çekimi), sadece belirli maskülen (der artikelli) isimleri etkileyen özel bir kuraldır. Kuralın özü şudur: Bu isimler Nominativ (yalın hal) dışındaki tüm ismin hallerinde (Akkusativ, Dativ ve Genitiv) sonlarına ekstradan \"-n\" veya \"-en\" harfi alırlar 1.\nHangi maskülen isimlerin bu gruba girdiğini üç temel kategoride toplayabiliriz:\n1. Sonu \"-e\" ile biten canlılar (insanlar, milletler, hayvanlar): der Kollege (meslektaş) -> den/dem/des Kollegen veya der Affe (maymun) -> den/dem/des Affen gibi 2.\n2. Sonu \"-ant, -ent, -ist\" ile bitenler: der Praktikant -> den Praktikanten, der Polizist -> dem Polizisten 3.\n3. Yunanca kökenli bazı kelimeler: der Biologe, der Demokrat, der Architekt gibi isimler 4.\nBurada hayat kurtaran iki küçük ipucu var:\n* Bu kelimelerin sonuna gelen \"-n/-en\" takıları, aslında kelimenin çoğul (Plural) haliyle tamamen aynıdır 2, 3.\n* Genitiv (-in hali) normalde maskülen kelimelerin sonuna \"-s\" takısı getirirken, bu kurala uyan kelimeler \"-s\" almazlar (des Nachbarn, des Praktikanten gibi) 3, 5. Sadece der Name (isim) kelimesi bir istisnadır ve Genitiv'de hem \"n\" hem \"s\" alarak des Namens olur 6.\nBazı kelimelerin sürekli \"-n\" kuyruğuyla dolaştığı bu N-Çekimi mantığı kafanıza yattı mı?"
-          }
-        ]
-      },
-      {
-        "name": "Genitiv & Genitivpräpositionen",
-        "lessons": [
-          {
-            "id": "almanca_genitiv_gramer_rehberi_ve_tamlama_kurallari",
-            "title": "Almanca Genitiv Gramer Rehberi ve Tamlama Kuralları",
-            "category": "Grammatik & Nomen",
-            "subcategory": "Genitiv & Genitivpräpositionen",
-            "content": "Almanca A2-B1 dilbilgisi bağlamında Genitiv (İsmin -in Hali), Türkçedeki isim tamlamalarına (örneğin: kapının kolu, adamın şapkası) veya aidiyet durumlarına karşılık gelir 1, 2.\r\nGenitiv kurarken dikkat etmen gereken temel püf noktaları ve değişimler şunlardır:\r\n* Artikel ve İsim Değişimi: Eril (der) ve nötr (das) kelimelerin artikeli des olur ve ismin sonuna -s veya -es takısı gelir (Örn: des Mannes, des Kindes) 1, 3. Dişil (die) ve çoğul (die) kelimelerin artikeli ise der olur ve isim kelime olarak hiçbir ek almaz 1, 3.\r\n* Kelime Dizilimi (Devrik Mantık): Türkçede \"adamın şapkası\" derken, Almancada bu yapı sondan başa doğru yani \"şapkası adamın\" mantığıyla dizilir (der Hut des Mannes) 3, 4. İkinci kısım her zaman Genitiv yapısında kalarak aidiyeti belirtir.\r\n* Belirsiz Artikeller (B1 Seviyesi): Belirsiz artikeller kullandığında yapı eines ve einer şekline dönüşür (Örn: ein Lächeln eines Mannes - bir adamın bir gülümsemesi) 5, 6.\r\n* Çoğullar İçin \"von\" İstisnası: Çoğul kelimelerin belirsiz hali (bir kelimesinin çoğulu) olmadığı için, belirsiz çoğul tamlamalar kurarken von + Dativ yapısı kullanılır 7, 8. Örneğin genel anlamda \"çocukların gülüşü\" derken das Lachen von Kindern denilir, çünkü \"von\" edatı her zaman Dativ gerektirir ve ismin çoğul halinin sonuna \"-n\" harfi ekletir 8, 9.\r\nGenitiv yapısının formülü oldukça kuralcıdır. Bu yapıyı cümle içinde daha rahat görebilmen için, \"öğretmenin çantası masada duruyor\" gibi tamlamaların cümle içindeki farklı görevlerini inceleyerek devam edelim mi?"
-          },
-          {
-            "id": "almanca_genitiv_edatlari_ve_kullanim_kurallari",
-            "title": "Almanca Genitiv Edatları ve Kullanım Kuralları",
-            "category": "Grammatik & Nomen",
-            "subcategory": "Genitiv & Genitivpräpositionen",
-            "content": "﻿Genitivpräpositionen (Genitiv edatları), isimleri her zaman Genitiv (-in) halinde çekimlenmeye zorlayan edatlardır. Bu grubun en klasik ve yaygın üçlüsü şunlardır:\n* wegen (...yüzünden / nedeniyle): Bir şeyin nedenini veya gerekçesini açıklar Örnek: wegen des Regens (yağmur yüzünden) \n* während (...sırasında / esnasında): Olayların aynı zaman diliminde paralel olarak gerçekleştiğini gösterir Örnek: während des Urlaubs (tatil sırasında/esnasında) \n* trotz (...-e rağmen): Beklenmedik veya zıt bir durumu ifade eder Örnek: trotz der Kälte (soğuğa rağmen) \nÇok Önemli Bir İstisna:Eğer bu edatlardan sonra gelen kelimenin önünde hiçbir artikel (der/die/das/mein vb.) yoksa ve kelime çoğulsa, mecburen Dativ (-e) haline geçiş yaparız 6. Örneğin \"çocuklar yüzünden\" derken wegen Kinder değil, wegen Kindern deriz Ayrıca Almanlar günlük konuşma dilinde (sokak ağzında) bu edatlardan sonra Genitiv yerine sıklıkla Dativ kullanırlar (wegen dem schlechten Wetter gibi) \nBu klasik üçlünün mantığı tam olarak anlaşıldı mı? Dilerseniz yine aynı Genitiv kuralına uyan ama daha resmi durumlarda karşımıza çıkan diğer edatlara (aufgrund, anstelle, statt) geçiş yapabiliriz. Hangisini istersiniz?"
-          },
-          {
-            "id": "almanca_genitiv_edatlari_ve_kullanim_rehberi",
-            "title": "Almanca Genitiv Edatları ve Kullanım Rehberi",
-            "category": "Grammatik & Nomen",
-            "subcategory": "Genitiv & Genitivpräpositionen",
-            "content": "﻿Genitiv (-in hali) edatlarının daha resmi durumlarda karşımıza çıkan diğer önemli üyeleri şunlardır:\n1. aufgrund (nedeniyle / yüzünden): Bir şeyin sebebini gösterir ve \"wegen\" ile aynı mantıkta çalışır Örnek: \"Aufgrund des Regens\" (yağmur nedeniyle) \n2. anstelle (yerine): Birinin veya bir şeyin yerini almayı ifade eder ve çoğunlukla kişiler için tercih edilir Örnek: \"Anstelle seines Vaters\" (babasının yerine) 3. laut (...-e göre): Genellikle yasa, belge veya plan gibi şeylere atıf yaparken çoğu zaman artikelsiz kullanılır Örnek: \"Laut Gesetz\" (kanuna göre) \n4. mithilfe (yardımıyla): Bir eylemin kimin veya neyin desteğiyle yapıldığını belirtir Örnek: \"Mithilfe seiner Freunde\" (arkadaşlarının yardımıyla) \n5. zufolge (...-e göre): Bir rapora, habere veya söylentiye atıf yapar Genitiv ile kullanıldığında ismin önüne gelir (zufolge des Gerüchts), ancak Dativ (ismin -e hali) ile kullanılırsa ismin arkasına atılır (dem Vertrag zufolge) \nKüçük Bir Kural: Tıpkı diğer Genitiv edatlarında olduğu gibi, bu kelimelerden sonra gelen çoğul ismin önünde hiçbir artikel yoksa, mecburen araya \"von\" kelimesi eklenir (aufgrund von Problemen, mithilfe von Geräten gibi) \nBöylece Genitiv edatları konusunu tamamen bitirmiş olduk!"
-          },
-          {
-            "id": "almanca_genitiv_edatlari__mekansal_konum_belirtecleri",
-            "title": "Almanca Genitiv Edatları_ Mekansal Konum Belirteçleri",
-            "category": "Grammatik & Nomen",
-            "subcategory": "Genitiv & Genitivpräpositionen",
-            "content": "﻿Genitiv (-in hali) edatlarından olan außerhalb (dışında) ve innerhalb (içinde), bir şeyin mekansal (lokal) konumunu belirtmek için birbirinin tam zıttı olarak çalışır \naußerhalb (Dışında): Bir şeyin o mekanda değil, dışarıda veya o yerin yakın çevresinde olduğunu ifade eder Örneğin; \"Er wohnt außerhalb der Stadt\" (Şehrin dışında yaşıyor) Çoğul kelimelerde Genitiv durumu ekiyle tam belli olmuyorsa veya şehir isimleri gibi özel isimlerle kullanıldığında \"von\" edatıyla desteklenir (außerhalb von Köln veya außerhalb von Einrichtungen gibi) \ninnerhalb (İçinde): Bir şeyin sınırları net olarak çizilmiş, kapalı bir alanın veya mekanın içinde yer aldığını gösterir Örneğin; \"Innerhalb des Gebäudes darf nicht geraucht werden\" (Binanın içinde sigara içilmesine izin verilmez) \nBu iki zıt mekan edatının mantığı netleşti mi? İsterseniz bu iki edatın bir de zamansal (temporal) olarak nasıl kullanıldığına (\"bir ay içinde\" gibi) bakabiliriz veya aynı gruba giren laut, mithilfe, zufolge (göre, yardımıyla) gibi diğer resmi Genitiv edatlarına geçiş yapabiliriz. Ne dersiniz?"
-          }
-        ]
-      },
-      {
-        "name": "Partizipien als Adjektive/Nomen",
-        "lessons": [
-          {
-            "id": "almanca_partizip_i_yapisi_ve_kullanimi",
-            "title": "Almanca Partizip I Yapısı ve Kullanımı",
-            "category": "Grammatik & Nomen",
-            "subcategory": "Partizipien als Adjektive/Nomen",
-            "content": "﻿Partizip I (1. Ortaç), eylemlerin aynı anda gerçekleştiğini (Gleichzeitigkeit) veya henüz bitmediğini göstermek için kullanılır 1, 2. Fiilin yalın (infinitiv) halinin sonuna sadece bir \"d\" harfi eklenerek oluşturulur (örneğin singen -> singend / şarkı söyleyerek) 1.\nGeniş bağlamda bu yapıyı sıfat veya isim olarak şöyle kullanabiliriz:\n* Sıfat olarak (Adjektiv): Bu yapıyı bir ismin önüne koyduğunuzda, ismin hallerine göre tıpkı normal bir sıfat gibi çekimlenir 2, 3. Örneğin; die kochende Suppe (kaynayan çorba) veya den laufenden Film (devam eden/oynayan film) 2, 3.\n* İsim olarak (Nomen): Bu kelimeleri büyük harfle başlatarak doğrudan isimleştirebilirsiniz 3. Mesela reisen (seyahat etmek) fiilinden der Reisende (seyahat eden kişi / yolcu) veya schlafen (uyumak) fiilinden die Schlafende (uyuyan kadın) üretebilirsiniz 3, 4.\nBu \"devam eden veya aynı anda olan eylemler\" mantığı netleşti mi? Dilerseniz tam zıttı olan, eylemin tamamen bittiğini ve sonucunu gösteren Partizip II (2. Ortaç) konusuna (das gestohlene Auto - çalınmış araba) geçiş yapabiliriz. Ne dersiniz?"
-          },
-          {
-            "id": "almancada_partizip_ii_kullanimi_ve_sifatlastirma_yontemleri",
-            "title": "Almancada Partizip II Kullanımı ve Sıfatlaştırma Yöntemleri",
-            "category": "Grammatik & Nomen",
-            "subcategory": "Partizipien als Adjektive/Nomen",
-            "content": "﻿Bir önceki konumuzda eylemin henüz devam ettiğini gösteren Partizip I'i konuşmuştuk. Sorduğunuz Partizip II (2. Ortaç) ise bunun tam zıttıdır: Eylem tamamen bitmiştir ve ortada kalıcı bir sonuç (Abgeschlossenheit) vardır 1.\nBu yapıyı Almancada bir sıfat veya isim olarak kullanmak çok pratiktir ve uzun cümleleri kısaltmanızı sağlar.\n1. Sıfat Olarak Kullanımı (Adjektiv):Fiilin üçüncü halini (Partizip Perfekt) doğrudan ismin önüne koyarsınız. İsmin önüne geldiği için, ismin haline (Akkusativ, Dativ vb.) göre normal sıfat çekimi (Adjektivdeklination) kurallarına uymak zorundadır 1, 2.\n* Örnek: \"Ich kaufe mir ein gebrauchtes Auto.\" (Kullanılmış bir araba alıyorum.) 1.\n* Örnek: \"Wann kann ich meinen reparierten Wagen abholen?\" (Tamir edilmiş arabamı ne zaman alabilirim?) Burada arabanın tamir işlemi çoktan bitmiş, sonuç ortadadır 2.\n2. İsim Olarak Kullanımı (Nomen):Sıfat olarak kullandığınız bu kelimeleri büyük harfle başlatarak doğrudan bir kişiye veya duruma dönüştürebilirsiniz 3.\n* Örnek: \"sich verletzen\" (yaralanmak) fiilinden -> der Verletzte (yaralı adam) veya die Verletzte (yaralı kadın) türetebilirsiniz 3.\n* Örnek: \"sich verlieben\" (aşık olmak) fiilinden -> der Verliebte (aşık olan kişi) diyebilirsiniz 3.\nÇok Önemli İki Kural:\n* Eğer dönüştürdüğünüz fiil dönüşlü (reflexiv) bir fiilse, başındaki \"sich\" kelimesi sıfatlaştırma sırasında tamamen düşer 3, 4. Örneğin; \"sich erkälten\" (üşütmek) fiili için \"die sich erkältete Frau\" denmez, doğrudan \"die erkältete Frau\" (üşütmüş kadın) denir 4.\n* İki ayrı cümleyi veya uzun bir ilgi cümlesini (Relativsatz) kısaltmak için harika bir yöntemdir. \"Die Polizei sucht das Auto. Das Auto wurde gestohlen.\" demek yerine tek bir hamleyle \"Die Polizei sucht das gestohlene Auto.\" (Polis çalınan arabayı arıyor) diyebilirsiniz 4, 5.\nEylemlerin \"devam eden\" (Partizip I) ve \"bitmiş\" (Partizip II) hallerini sıfatlaştırma mantığı kafanızda tam olarak netleşti mi?"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "satzbau_adverbien",
-    "name": "Satzbau & Adverbien",
-    "icon": "ti-sitemap",
-    "color": "coral",
-    "subcategories": [
-      {
-        "name": "Pronominaladverbien",
-        "lessons": [
-          {
-            "id": "almanca_wo-kompozita_ve_soru_yapilari",
-            "title": "Almanca Wo-Kompozita ve Soru Yapıları",
-            "category": "Satzbau & Adverbien",
-            "subcategory": "Pronominaladverbien",
-            "content": "﻿Bir önceki konumuzda \"Bunun hakkında\" (darüber) diyerek cümleleri kısaltmayı öğrenmiştik. Wo-Komposita ise tam olarak bunun soru halidir. Birine cansız bir nesne veya durum hakkında \"Ne hakkında?\", \"Ne için?\" veya \"Ne ile?\" gibi sorular sorarken bu pratik yapıyı kullanırız 1, 2.\nOluşturma mantığı tıpatıp aynıdır: \"wo\" kelimesine bir edat (für, mit vb.) eklenir. Eğer edat sesli harfle başlıyorsa araya \"r\" harfi girer (worauf, worüber gibi) 2.\nAlmanlar cansız nesneler için soru sorarken edatları ayrı kullanmayı sevmezler:\n* \"Ne hakkında gülüyorsunuz?\" derken \"Über was?\" demek yerine \"Worüber lacht ihr?\" derler 2.\n* \"Ne ile ilgileniyorsun?\" demek için \"Für was?\" yerine \"Wofür interessierst du dich?\" kullanırlar 3.\nAsla unutulmaması gereken kural: Wo-Komposita SADECE cansız nesneler ve durumlar için kullanılır 3. Eğer bir insan hakkında soru soruyorsanız mecburen edatı ayırıp kişi zamiriyle sormak zorundasınız. Yani \"Kimin hakkında konuşuyorsunuz?\" demek için \"Worüber\" diyemezsiniz, mecburen \"Über wen?\" demek zorundasınız 3, 4.\nEk olarak, Almanlar bu \"wo-\" kelimelerini alles (her şey) veya nichts (hiçbir şey) gibi belirsiz kelimeleri açıklarken ilgi zamiri (bağlaç) olarak da sıkça kullanırlar (Örneğin; \"İlgilendiğimiz tek şey bu\" - Das ist alles, womit wir uns beschäftigen) 5, 6.\nBu soru sorma mantığı işinizi kolaylaştırdı mı? Dilerseniz artık cümleleri \"şunu yaparak / ederek\" (örneğin \"Spor yaparak sağlıklı kalıyorum\") diyerek birbirine bağladığımız o meşhur indem / dadurch, dass (Araç Cümleleri) konusuna geçiş yapabiliriz. Ne dersiniz?"
-          },
-          {
-            "id": "almancada_da-kompozita_ve_pratik_kullanim_rehberi",
-            "title": "Almancada Da-Kompozita ve Pratik Kullanım Rehberi",
-            "category": "Satzbau & Adverbien",
-            "subcategory": "Pronominaladverbien",
-            "content": "﻿\"Da-Komposita\" (Pronominaladverbien), Almanların daha önce bahsedilen cansız bir nesneyi veya koca bir durumu tekrar tekrar söylememek için kullandıkları pratik kısaltmalardır 1-3. Cümleleri inanılmaz derecede hızlandırırlar.\nOluşturması çok basittir: \"da\" kelimesinin yanına bir edat eklenir 4. Eğer edat sesli harfle başlıyorsa araya kaynaştırma harfi olarak \"r\" girer 4.\nSorduğunuz örneklere bakalım:\n* dafür (bunun için): \"für\" edatıyla yapılır. Örnek: \"Er hat dafür viel Geld ausgegeben.\" (Bunun için çok para harcadı.) 5.\n* darauf (buna): \"auf\" sesli harfle başladığı için araya \"r\" girer. Örnek: \"Ich freue mich darauf.\" (Bunu dört gözle bekliyorum.) 4, 6.\n* damit (bununla): \"mit\" edatıyla yapılır. Örnek: \"Was machst du damit?\" (Bununla ne yapıyorsun?) 7.\nÇok Önemli Kural: Bu \"da-\" kelimeleri sadece cansız nesneler veya durumlar için kullanılır, insanlar için asla kullanılamaz 8. Örneğin, cansız bir eşyadan bahsederken \"Bunun hakkında konuşuyoruz\" (Wir sprechen darüber) diyebilirsiniz, ancak bir kız arkadaştan bahsediyorsanız mecburen \"Onun hakkında konuşuyoruz\" (Wir sprechen über sie) demek zorundasınız 9.\nBu kelimelerin cümleyi nasıl pratikleştirdiği mantıklı geldi mi? Dilerseniz tam da bu mantığın soru sorarken kullandığımız hali olan Wo-Komposita (worauf, wofür, womit vb.) konusuna göz atabiliriz. Hangisiyle devam edelim?"
-          }
-        ]
-      },
-      {
-        "name": "Nebensatz-Strukturen",
-        "lessons": [
-          {
-            "id": "almanca_arac_cumleleri__indem_ve_dadurch_dass_yapilari",
-            "title": "Almanca Araç Cümleleri_ Indem ve Dadurch Dass Yapıları",
-            "category": "Satzbau & Adverbien",
-            "subcategory": "Nebensatz-Strukturen",
-            "content": "﻿Yan cümleler (Nebensatz) bağlamında Instrumentalsätze (Araç Cümleleri), bir amaca \"hangi yolla\" veya \"nasıl\" ulaştığınızı detaylandırmak için kullanılır 1, 2. \"Wie?\" (Nasıl?) veya \"Wodurch?\" (Ne yoluyla?) sorularına cevap vererek eylemin yapılma yöntemini açıklarlar 1.\nBu yapıyı kurmak için birbirinin tamamen eş anlamlısı olan iki kalıbı kullanırız 3-5:\n1. \"indem\" (-erek / -arak):En pratik ve yaygın olanıdır. Ana cümledeki hedefe nasıl ulaştığımızı \"indem\" ile başlayan yan cümlede açıklarız 2. Klasik bir yan cümle olduğu için fiil her zaman cümlenin en sonuna gider 2.\n* Örnek: \"Ich bleibe aktiv, indem ich täglich Sport treibe\" (Her gün spor yaparak aktif kalıyorum) 3.\n* Kural: Cümleye doğrudan \"indem\" ile de başlayabilirsiniz. Bu durumda, virgülden sonraki ana cümle mecburen fiil ile başlamak zorundadır: \"Indem ich täglich Sport treibe, bleibe ich aktiv\" 6.\n2. \"dadurch, dass\" (-mesi yoluyla / sayesinde):Anlam olarak \"indem\" ile tamamen aynıdır, sadece cümledeki dizilimi biraz farklıdır 4, 5. Genellikle \"dadurch\" kelimesi ana cümlenin içine yerleştirilir, \"dass\" ise yan cümleyi başlatarak fiili en sona atar 7.\n* Örnek: \"Man kann einen Unfall dadurch vermeiden, dass man vorsichtig fährt\" (İnsanlar dikkatli sürmeleri yoluyla bir kazayı önleyebilirler) 7.\n* Kural: İsterseniz bu ikiliyi hiç parçalamadan cümlenin en başına da koyabilirsiniz: \"Dadurch dass man vorsichtig fährt, kann man einen Unfall vermeiden\" 8.\nCümleleri birbirine \"yöntem ve araç\" belirterek bağlama mantığı netleşti mi?"
-          },
-          {
-            "id": "almanca_modalsätze__beklentilerin_disindaki_yan_cumleler",
-            "title": "Almanca Modalsätze_ Beklentilerin Dışındaki Yan Cümleler",
-            "category": "Satzbau & Adverbien",
-            "subcategory": "Nebensatz-Strukturen",
-            "content": "﻿Modalsätze (Tarz Cümleleri), eylemlerin nasıl yapıldığını veya beklentilerin aksine nelerin yapılmadığını anlatan yan cümlelerdir (Nebensatz). Bu grupta işlerin normal akışının dışına çıktığı iki temel yapıyı kullanırız:\n1. \"ohne dass / ohne zu\" (...-meden / -maksızın):Beklenen veya normalde olması gereken bir eylemin gerçekleşmediğini gösterir 1.\n* Özneler aynıysa: Cümleyi kısaltmak için pratik olan ohne...zu kalıbı kullanılır 2. Örnek: \"Er ist gegangen, ohne sich zu verabschieden\" (Vedalaşmadan gitti) 2.\n* Özneler farklıysa: Mecburen ohne dass kullanılır ve yan cümlenin fiili en sona gider 3. Örnek: \"Sie weint, ohne dass ich ihr etwas gesagt habe\" (Ben ona hiçbir şey söylemeden ağlıyor) 3. (Not: Özneler aynı olsa bile \"ohne dass\" kullanılabilir ancak Almanlar genelde daha kısa olan \"ohne...zu\" yapısını tercih eder 4).\n2. \"anstatt dass / anstatt zu\" (...-mek yerine):Beklenen bir durumun yerine bambaşka bir şey yapıldığında kullanılır 5. (\"statt\" ve \"anstatt\" kelimeleri tamamen eş anlamlıdır ve birbirinin yerine kullanılabilir 6).\n* Kural tamamen aynıdır; özneler aynıysa her zaman anstatt...zu tercih edilir çünkü daha şık ve kısadır 7. Örnek: \"Du solltest mir helfen, anstatt faul herumzusitzen\" (Tembel tembel oturmak yerine bana yardım etmelisin) 7, 8.\nBeklentilerin aksine gelişen olayları birbirine bağladığımız bu Modalsätze (tarz) mantığı oturdu mu?"
-          },
-          {
-            "id": "almancada_amac_cumleleri__um...zu_ve_damit_yapilari",
-            "title": "Almancada Amaç Cümleleri_ um...zu ve damit Yapıları",
-            "category": "Satzbau & Adverbien",
-            "subcategory": "Nebensatz-Strukturen",
-            "content": "﻿Finalsätze (Amaç Cümleleri), eylemlerimizi \"hangi amaçla\" veya \"ne için\" (wozu) yaptığımızı anlatan yan cümleciklerdir (Nebensatz) 1. Bu yapıları kurmak için Almancada iki temel seçeneğimiz vardır:\n1. \"um...zu\" (...mak/mek için):Bu yapıyı sadece ana cümledeki eylemi yapan kişi ile amacı gerçekleştiren kişi (özne) aynıysa kullanabilirsiniz 2, 3. Çok pratiktir çünkü yan cümlede özneyi tekrar etmenize gerek kalmaz 2. \"um\" başa gelir, \"zu\" ise en sondaki yalın fiilin (infinitiv) hemen önüne eklenir 2.\n* Örnek: \"Ich lerne fleißig, um gute Punkte zu bekommen\" (İyi notlar almak için sıkı çalışıyorum) 4.\n* Küçük bir kural: Amaç zaten cümlenin doğasında olduğu için, bu yapılarda wollen, möchten, sollen gibi niyet bildiren yardımcı fiilleri kullanmayız 5. Eğer ayrılabilen bir fiil kullanıyorsanız \"zu\" kelimesi araya girer (um... aufzunehmen gibi) 5.\n2. \"damit\" (...sın diye / böylece):Eğer iki cümlenin özneleri farklıysa, \"um...zu\" kullanamazsınız; mecburen \"damit\" kullanmak zorundasınız 3. \"damit\" klasik bir yan cümledir; bağlaçtan sonra mutlaka özne gelir ve çekimlenmiş fiil cümlenin en sonuna uçar 6.\n* Örnek: \"Er spricht Englisch, damit die Touristen ihn verstehen\" (Turistler onu anlasın diye İngilizce konuşuyor) 7.\n* Özneler aynı olsa bile \"damit\" yapısını her zaman kullanabilirsiniz, tüm durumlar için geçerli ve garantili bir yoldur 8.\nGenel Yan Cümle (Nebensatz) Kuralı:Tıpkı weil veya da bağlaçlarında olduğu gibi, cümlenize \"damit\" veya \"um...zu\" içeren yan cümle ile başlarsanız, virgülden sonraki ana cümle mecburen doğrudan fiille başlamak zorundadır (Örn: Damit die Touristen ihn verstehen, spricht er Englisch) 6, 9, 10.\nCümleleri birbirine \"amaç\" ile bağlama mantığı netleşti mi?"
-          },
-          {
-            "id": "almanca_zu_infinitiv_yapisi_ve_kullanim_kurallari",
-            "title": "Almanca Zu + Infinitiv Yapısı ve Kullanım Kuralları",
-            "category": "Satzbau & Adverbien",
-            "subcategory": "Nebensatz-Strukturen",
-            "content": "Cümle yapıları bağlamında \"zu + Infinitiv\" (Mastar Yapısı), iki cümleyi birbirine bağlarken özneyi tekrar etmemek ve cümleyi daha akıcı bir \"fiilimsi\" haline getirmek için kullanılır 1, 2.\r\nBu yapıyı kurarken dikkat etmen gereken temel yapısal kurallar şunlardır:\r\n* Virgül ve Konum: Ana cümle ile yan cümle her zaman birbirinden virgülle ayrılır 3, 4. Yan cümlenin fiili, kişi zamirine göre çekimlenmeden (yalın halde) cümlenin en sonuna gider ve hemen önüne \"zu\" alır (örneğin: zu gehen) 3, 4.\r\n* Ayrılabilen Fiiller (Trennbare Verben): Eğer fiil ayrılabilen bir fiilse (aufstehen, zumachen vb.), \"zu\" edatı önek ile asıl fiilin tam arasına girer ve bitişik yazılır (örneğin: aufzustehen) 5.\r\n* Özne Eşitliği Şartı: Bu yapının kullanılabilmesi için ana cümlenin öznesi ile yan cümlenin öznesi aynı olmak zorundadır 1, 6. Özneler farklıysa mecburen \"dass\" bağlacı ile normal bir yan cümle kurulmalıdır 6. İstisnai olarak, ana cümlenin nesnesi yan cümlenin eylemini yapıyorsa (Örn: Doktor bana sigara içmeyi yasakladı) veya \"man / es\" gibi belirsiz öznelerle genelleme yapılıyorsa da bu yapı kullanılabilir 7-9.\r\nHangi durumlarda \"zu + Infinitiv\" kullanılır?\r\n1. Belirli Fiillerden Sonra: hoffen (ummak), versuchen (çalışmak/denemek), anfangen (başlamak), vergessen (unutmak) ve vorhaben (niyetinde olmak) gibi ikinci bir eyleme ihtiyaç duyan fiillerle kullanılır 10, 11. Not: können, müssen gibi Modalverb'ler (tarz fiiller) \"zu\" almazlar 12.\r\n2. İsim + Haben Kalıplarıyla: Lust haben (canı istemek), Zeit haben (zamanı olmak), Angst haben (korkmak) gibi durumları ifade ederken kullanılır 13, 14. (Örn: Ich habe keine Zeit, mit dir zu telefonieren. - Seninle telefonda konuşmaya zamanım yok 13.)\r\n3. \"Es ist...\" (Sıfat) Kalıplarıyla: Es ist wichtig (önemlidir), es ist einfach (kolaydır), es ist verboten (yasaktır) gibi genel durum bildiren sıfat kalıplarının ardından kullanılır 5, 15. (Örn: Es ist langweilig, zu Hause allein zu bleiben. - Evde yalnız kalmak sıkıcıdır 5.)\r\nBu yapı, daha önce öğrendiğin \"dass\" cümlelerinin daha pratik ve kısa versiyonudur. İkisinin arasındaki farkı netleştirmek için aynı cümlenin hem \"dass\" hem de \"zu\" ile kurulmuş halini karşılaştırmalı olarak göstermemi ister misin, yoksa doğrudan başka bir konuya mı geçelim?"
-          },
-          {
-            "id": "almanca_ilgi_cumleleri_kurma_rehberi",
-            "title": "Almanca İlgi Cümleleri Kurma Rehberi",
-            "category": "Satzbau & Adverbien",
-            "subcategory": "Nebensatz-Strukturen",
-            "content": "İlgi cümlelerini daha rahat kurman ve analiz etmen için en önemli püf noktaları şunlardır:\r\n* İki Cümle Taktiği: Karmaşık bir cümleyi kafanda önce iki basit cümleye bölerek düşünmek işini çok kolaylaştırır 1. Örneğin, \"Das ist der Mann.\" (Bu o adam.) ve \"Der Mann ist sehr nett.\" (Adam çok nazik.) cümlelerini birleştirirken ortak kelimeyi zamire dönüştürüp fiili sona atarsın: \"Das ist der Mann, der sehr nett ist.\" 1.\r\n* İçerideki Özneyi Kontrol Et: İlgi cümlesinin içinde (virgülden sonraki kısımda) \"ich, du, er\" gibi net bir özne olup olmadığına bakmalısın 2, 3. Eğer içeride bir özne varsa, senin kullanacağın ilgi zamiri özne (Nominativ) olamaz; nesne durumunda yani Akkusativ veya Dativ olmak zorundadır 2, 3. Örneğin, \"Das ist der Mann, den ich kennengelernt habe.\" (Bu, tanıdığım adam.) cümlesinde içerideki özne \"ich\" olduğu için zamir Akkusativ \"den\" olmuştur 4.\r\n* Fiilin Ne İstediğine Bak: Yan cümledeki fiil özel olarak Dativ alan bir fiilse (zuhören, helfen, vertrauen gibi), zamirin kesinlikle Dativ olmak zorundadır 5, 6. Örneğin, \"Das ist der Arzt, dem viele Patienten vertrauen.\" (Bu, birçok hastanın güvendiği doktor.) 7.\r\n* İstisnai Zamirleri Ezberle: Zamirler genellikle normal belirli artikellerle (der, die, das) aynı görünür, ancak Dativ çoğul için \"den\" yerine \"denen\" kullanılır 8. Sahiplik (Genitiv) bildiren durumlarda ise eriller/nötrler için \"dessen\", dişiller/çoğullar için \"deren\" kullanılır 8, 9.\r\n* Edatların (Präpositionen) Konumu: Eğer yan cümledeki fiil ayrılmaz bir edat gerektiriyorsa, o edat ilgi cümlesinin en başına, zamirin hemen önüne yapışır 10, 11. Örneğin, \"warten auf\" (birini beklemek) fiilini kullanırken cümlemiz \"Das ist die Frau, auf die ich warte.\" (Bu, beklediğim kadın.) şeklinde kurulur 11.\r\nBu ipuçları konunun matematiğini çözmeni oldukça hızlandıracaktır. Dilersen bu kuralları pratikte görmek için, Akkusativ alan veya edatla kurulan bir örnek cümleyi beraber inceleyebiliriz. Hangisiyle devam edelim?"
-          }
-        ]
-      },
-      {
-        "name": "Adverbien",
-        "lessons": [
-          {
-            "id": "almanca_zaman_zarflari_ve_temel_kullanim_kurallari",
-            "title": "Almanca Zaman Zarfları ve Temel Kullanım Kuralları",
-            "category": "Satzbau & Adverbien",
-            "subcategory": "Adverbien",
-            "content": "﻿Temporaladverbien (Zaman Zarfları), bir eylemin \"ne zaman\" (wann) gerçekleştiğini netleştirmek için kullandığımız pratik kelimelerdir 1, 2. Bu zarfları anlattıkları zaman dilimine göre üç ana kategoriye ayırabiliriz:\n1. Vergangenheit (Geçmiş):Geçmişte yaşanmış olayları anlatırken şu zarfları kullanırız:\n* gestern (dün) ve früher (eskiden) 2, 3.\n* damals (o zamanlar) ve einst (bir zamanlar) 3.\n* neulich / kürzlich (geçenlerde) ve vorhin (az önce) 2, 3.\n2. Gegenwart (Şu an / Günümüz):İçinde bulunduğumuz zamanı ifade etmek için şunlar tercih edilir:\n* heute (bugün), jetzt / nun (şimdi) ve heutzutage (günümüzde) 4, 5.\n* momentan / zurzeit (şu sıralar) 4, 5.\n* gleich / sofort (hemen) 5.\n3. Zukunft (Gelecek):Gelecekteki planlar veya olaylar için şu zarfları kullanırız:\n* morgen (yarın), bald (yakında) ve demnächst (kısa süre içinde) 6, 7.\n* später (daha sonra) ve nachher (ardından / sonrasında) 7, 8.\n* künftig / zukünftig (gelecekte) 7.\nÇok Önemli Bir Kural: Zamanı vurgulamak isterseniz bu zarfları cümlenin en başına (1. sıraya) koyabilirsiniz. Ancak bu durumda, Almancanın o meşhur kuralı gereği özne ile fiil yer değiştirmek zorundadır. Örneğin; \"Ich werde heute ein neues Auto kaufen\" demek yerine, \"Heute werde ich ein neues Auto kaufen\" demelisiniz 4.\nZamanı ifade ettiğimiz bu kelimelerin mantığı oturdu mu?"
-          }
-        ]
-      },
-      {
-        "name": "Negation",
-        "lessons": [
-          {
-            "id": "almancada_nicht_kullanimi_ve_cumle_olumsuzlama_yapilari",
-            "title": "Almancada Nicht Kullanımı ve Cümle Olumsuzlama Yapıları",
-            "category": "Satzbau & Adverbien",
-            "subcategory": "Negation",
-            "content": "﻿Almancada \"nicht\" kelimesinin konumu, tüm cümleyi mi (Satzverneinung) yoksa cümlenin sadece bir bölümünü mü (Satzteilverneinung) olumsuz yapmak istediğinize göre değişir 1, 2.\n1. Tüm Cümleyi Olumsuz Yapmak (Satzverneinung):Cümlenin genelindeki eylemi veya durumu reddediyorsanız, \"nicht\" kelimesi cümlenin en sonuna gider 1.\n* Örnek: \"Ich mag dich nicht.\" (Seni sevmiyorum) 3.\n2. Sadece Bir Bölümü Olumsuz Yapmak (Satzteilverneinung):Cümlenin tamamını değil de sadece belirli bir detayı (zamanı, kişiyi veya yeri) inkar edip doğrusunu söylemek isterseniz, \"nicht\" kelimesi doğrudan reddettiğiniz o parçanın önüne yerleşir 2. Bu tür durumlarda her zaman bir alternatif sunulduğu için cümleye \"sondern\" (aksine / onun yerine) bağlacı eşlik eder ve olumsuz yapılan parça konuşurken özel olarak vurgulanır 2.\nBu yapının ne kadar esnek olduğunu kaynaklarımızdaki şu detaylı örnek üzerinden görebiliriz: \"Er möchte in diesem Sommer mit Anna im Urlaub surfen gehen.\" (Bu yaz Anna ile tatilde sörf yapmaya gitmek istiyor) 4.\n\"Nicht\" kelimesinin yerini değiştirerek cümlenin bambaşka detaylarını inkar edebiliriz:\n* Özneyi reddetmek: \"Nicht er möchte in diesem Sommer... gehen, sondern ich.\" (O değil, ben gitmek istiyorum) 4.\n* Zamanı reddetmek: \"Er möchte nicht in diesem Sommer... gehen, sondern im Winter.\" (Bu yaz değil, kışın) 4.\n* Kişiyi reddetmek: \"Er möchte... nicht mit Anna... gehen, sondern mit Nicole.\" (Anna ile değil, Nicole ile) 4.\n* Eylemi reddetmek: \"Er möchte... nicht surfen gehen, sondern tauchen.\" (Sörf yapmaya değil, dalış yapmaya) 5.\nBaşka bir deyişle, \"nicht\" tam olarak inkar ettiğimiz kelimenin önüne yapışır ve \"sondern\" ile doğrusunu belirtiriz 2, 4.\nBu \"değil... aksine...\" mantığı tam olarak kafanıza yattı mı?"
-          },
-          {
-            "id": "almancada_nicht_kullanimi_ve_cumle_yapisi",
-            "title": "Almancada Nicht Kullanımı ve Cümle Yapısı",
-            "category": "Satzbau & Adverbien",
-            "subcategory": "Negation",
-            "content": "﻿Almancada bir cümleyi veya durumu olumsuz yapmak (Negation) için genellikle \"nicht\" kelimesini kullanırız 1. Ancak bu kelimenin cümlede nereye konulacağı, neyi olumsuz yapmak istediğinize göre değişir.\nMantığı üç temel kurala oturtabiliriz:\n1. Tüm Cümleyi Olumsuz Yapmak (Sona Atma Kuralı)Eğer cümlenin genelini olumsuz yapıyorsanız, \"nicht\" kelimesi cümlenin en sonuna gider 1, 2.\n* Örnek: \"Ich mag dich nicht.\" (Seni sevmiyorum) 2.\n2. Kuralı Bozan İstisnalar (Kelimenin Önüne Gelme)Bazı durumlarda \"nicht\" en sona gidemez; doğrudan olumsuz yapacağı kelimenin veya yapının hemen önüne yerleşmek zorundadır 2, 3:\n* İkinci bir fiil varsa: \"Morgen kann ich nicht kommen.\" 2\n* Ayrılabilen bir fiil eki (Präfix) varsa: \"Heute gehe ich nicht spazieren.\" 2\n* Geçmiş zaman eylemi (Partizip II) varsa: \"Gestern habe ich nicht gearbeitet.\" 2, 3\n* Sıfatların, zarfların, edatların veya yer bildiren ifadelerin önünde: \"Dieses Hotel ist nicht teuer.\" (Sıfat) veya \"Ich wohne nicht in diesem Haus.\" (Edat) 3.\n3. Sadece Bir Parçayı Olumsuz Yapmak (Satzteil negieren)Bazen cümlenin tamamını değil, sadece küçük bir detayını inkar edip doğrusunu söylemek isteriz. Bu durumda \"nicht\" doğrudan o detayın önüne gelir ve genelde ardından alternatif sunan sondern (aksine/bilakis) bağlacı kullanılır 4.\n* Örnek: \"Ich bin nicht gestern gekommen, sondern heute.\" (Dün gelmedim, bugün geldim) 4.\n\"Nicht\" kelimesinin bu konumlanma mantığı kafanızda netleşti mi?"
-          }
-        ]
-      },
-      {
-        "name": "Doppelkonnektoren",
-        "lessons": [
-          {
-            "id": "almanca_ikili_baglaclar_ve_kullanim_rehberi",
-            "title": "Almanca İkili Bağlaçlar ve Kullanım Rehberi",
-            "category": "Satzbau & Adverbien",
-            "subcategory": "Doppelkonnektoren",
-            "content": "Almanca'da bağlaçlar (Konnektoren) genel olarak cümleleri veya cümle ögelerini birbirine bağlamak için kullanılır 1. İkili bağlaçlar (Doppelkonnektoren) ise tam olarak aynı işlevi iki ayrı parçadan oluşarak yerine getirir ve iki durum arasındaki zıtlık, seçenek, koşul veya ekleme ilişkilerini daha vurgulu bir şekilde ifade eder 1-3.\r\nEn çok karşına çıkacak ikili bağlaçlar ve kattıkları anlamlar şunlardır:\r\n* sowohl ... als auch ... (Hem ... hem de ...): İki seçeneğin de olumlu ve geçerli olduğunu gösterir 4, 5.\r\n* weder ... noch ... (Ne ... ne de ...): Her iki seçeneğin de geçersiz olduğunu belirtir. Yapısı gereği zaten olumsuz bir anlam taşıdığı için cümlede \"nicht\" veya \"kein\" gibi ekstra olumsuzluk kelimeleri kesinlikle kullanılmaz 6, 7.\r\n* entweder ... oder ... (Ya ... ya da ...): İki seçenekten yalnızca birini seçmeniz veya ikisinden birinin gerçekleşeceği durumlarda kullanılır 4, 8.\r\n* nicht nur ..., sondern auch ... (Sadece ... değil, aynı zamanda ...): İki durumu da kapsar, ancak özellikle ikinci duruma ekstra vurgu ve övgü katar 1, 9.\r\n* zwar ..., aber ... (Gerçi/Her ne kadar ... ama/yine de ...): Bir durumu veya gerçeği kabul edip, hemen ardından bir kısıtlama veya zıtlık getirir 10, 11.\r\n* einerseits ..., andererseits ... (Bir yandan ... diğer yandan ...): İki farklı durumu, avantajı ve dezavantajı birbiriyle tartmak için kullanılır 12, 13.\r\n* je ..., desto/umso ... (Ne kadar ... o kadar ...): İki eylem arasındaki artış veya azalış orantısını gösterir. Bu yapıda her iki tarafta da mutlaka karşılaştırma bildiren (Komparativ) sıfatlar (daha iyi, daha fazla vb.) kullanılmalıdır 14, 15.\r\nÖnemli Püf Noktası (Virgül Kuralı):İkili bağlaçlarda noktalama işaretleri kalıptır. sowohl... als auch, entweder... oder ve kelimeleri birbirine bağlıyorsa weder... noch bağlaçlarında virgül kullanılmaz 4, 16, 17. Ancak nicht nur..., sondern auch..., zwar..., aber..., einerseits..., andererseits... ve je..., desto... yapılarında parçalar mutlaka virgül ile ayrılır 18.\r\nBu bağlaçların bazıları cümledeki kelime dizilimini (özne ve fiilin yerini) etkiler. İstersen cümle yapısını en çok değiştiren \"je ... desto\" veya \"weder ... noch\" kalıplarının örnek cümlelerine bakarak devam edebiliriz. Hangisiyle ilerleyelim?"
-          }
-        ]
       }
     ]
   },
@@ -406,6 +406,32 @@ const LESSONS_DATA_B1 = [
     "icon": "ti-message-circle",
     "color": "pink",
     "subcategories": [
+      {
+        "name": "Wortschatz-Themen",
+        "lessons": [
+          {
+            "id": "almanca_b1_seviyesi__cevre_ve_ekoloji_sozlugu",
+            "title": "Almanca B1 Seviyesi_ Çevre ve Ekoloji Sözlüğü",
+            "category": "B1 Kommunikation",
+            "subcategory": "Wortschatz-Themen",
+            "content": "﻿Almanca B1 kelime dağarcığı (Wortschatz) konularından biri olan \"Umwelt\" (Çevre), günlük hayatta sıkça karşılaştığımız çevre sorunlarını ve bunlara getirebileceğimiz çözümleri kapsar.\nKaynaklarımız bu temayı şu alt başlıklarla pratik kelimelere döküyor:\n* Umweltprobleme (Çevre Sorunları): Sera etkisiyle oluşan iklim değişiklikleri (Klimaveränderungen durch den Treibhauseffekt), yağmur ormanlarının yok olması (Zerstörung der Regenwälder) ile su, hava ve toprak kirliliği en temel çevre problemleri olarak öne çıkıyor 1.\n* Mülltrennung (Çöp Ayırma): Almanya'da evsel atıkları (Hausmüll) türüne göre ayırmak standart bir uygulamadır 2, 3. Kağıtları (Altpapier) ve camları (Altglas) kendilerine ait özel geri dönüşüm kutularına atmak ve gereksiz atık oluşumunu önlemek (Abfall vermeiden) büyük önem taşır 2, 3.\n* Umweltschutz / Klimaschutz (Çevre ve İklim Koruması): Günlük hayatta çevreyi korumak için alınabilecek pek çok pratik önlem vardır 4. Alışverişte tek kullanımlık plastik ambalajlar yerine depozitolu şişeler (Pfandflaschen) ve bez çantalar (Stofftasche) kullanmak tavsiye edilir 3, 5. Araba yerine toplu taşımaya (öffentliche Verkehrsmittel) geçmek, güneş ve rüzgar enerjisi gibi yenilenebilir enerji kaynakları (erneuerbare Energiequellen) kullanarak enerji tasarrufu yapmak (Strom sparen) iklimi koruyan diğer önemli adımlardır 6.\nÇevre ve iklim korumayla ilgili bu temel B1 kelimeleri netleşti mi?"
+          },
+          {
+            "id": "almanca_b1_i̇s_arama_ve_basvuru_rehberi",
+            "title": "Almanca B1 İş Arama ve Başvuru Rehberi",
+            "category": "B1 Kommunikation",
+            "subcategory": "Wortschatz-Themen",
+            "content": "﻿Almanca B1 kelime dağarcığı (Wortschatz) içinde \"Jobsuche\" (İş Arama) konusu, günlük hayatta ve kariyerinizde en çok işinize yarayacak temalardan biridir. Kaynaklarımız bu süreci üç temel aşamada inceliyor:\n* Stellenanzeigen (İş İlanları): İş ilanlarını internet portallarında, LinkedIn gibi sosyal medyalarda, iş ve kariyer fuarlarında (Messe) veya Almanların \"Vitamin B\" dedikleri tanıdıklar/kontaklar aracılığıyla bulabilirsiniz 1-3. İlanları okurken karşınıza çıkacak en önemli kelimeler ve kısaltmalar şunlardır: cinsiyet ayrımcılığı yapılmadığını gösteren m/w/d (männlich/weiblich/divers), VZ (Vollzeit - tam zamanlı) ve TZ (Teilzeit - yarı zamanlı) 4, 5. Ayrıca Festanstellung (kadrolu/sabit çalışma) ve Quereinsteiger (farklı bir meslekten/eğitimden geçiş yapan kişi) gibi terimler ilanlarda çok sık kullanılır 5.\n* Lebenslauf (Özgeçmiş): Almanya'da standart format, tablo şeklinde hazırlanan \"tabellarischer Lebenslauf\" formatıdır 6. Modern özgeçmişler \"antichronologisch\" (en sondan geriye doğru) yazılır; yani en son veya en güncel iş deneyiminizi en üste yazmanız gerekir 6, 7. Özgeçmişiniz maksimum iki veya üç sayfa olmalı, Berufserfahrung (İş Deneyimi), Ausbildung (Eğitim) ve Kenntnisse (Beceriler/Yabancı Dil vb.) gibi net kategorilere ayrılmalı ve mutlaka profesyonel bir başvuru fotoğrafı barındırmalıdır 7-9.\n* Bewerbungsgespräch (İş Görüşmesi): Görüşmeler genellikle kısa bir ısınma sohbetiyle (Smalltalk) başlar ve ardından Selbstpräsentation (kendinizi tanıtmanız) istenir 10, 11. İş görüşmelerinin en kritik bölümü, Stärken und Schwächen (güçlü ve zayıf yönleriniz) hakkında örnekler vererek konuşabilmektir 12, 13. Sürecin sonunda sizin de şirkete hazırladığınız kendi sorularınızı (Rückfragen) sormanız beklenir, bu sizin işe olan ilginizi gösterir 13.\nİş arama sürecinin bu üç temel adımı netleşti mi?"
+          },
+          {
+            "id": "almanca_sehir_ve_memleket_tanitim_rehberi",
+            "title": "Almanca Şehir ve Memleket Tanıtım Rehberi",
+            "category": "B1 Kommunikation",
+            "subcategory": "Wortschatz-Themen",
+            "content": "﻿B1 kelime dağarcığında (Wortschatz) \"Meine Stadt / Heimat\" konusu, doğup büyüdüğünüz veya kendinizi tam anlamıyla evinizde hissettiğiniz yeri tanıtmak için çok pratik kalıplar sunar 1.\nŞehrinizi detaylıca tanıtırken şu üç ana başlığı kullanabilirsiniz:\n* Lage und Größe (Konum ve Büyüklük): Şehrinizin konumunu \"Meine Heimatstadt liegt im Süden von Deutschland\" (Memleketim Almanya'nın güneyinde) veya \"am Donau Fluss\" (Tuna nehri kıyısında) diyerek tarif edebilirsiniz 2. Büyüklüğünü anlatmak için \"Die Stadt hat 1000 Einwohner\" (Şehrin 1000 nüfusu var) kalıbını kullanabilirsiniz 3.\n* Klima und Landschaft (İklim ve Manzara): Havasından bahsederken sıcaklıkların \"angenehm\" (hoş) veya \"mild\" (ılıman) olduğunu söyleyebilirsiniz 4. \"Die Landschaft ist abwechslungsreich\" (Manzara çeşitlidir) diyerek çevredeki dağlara (Berge), göllere (Seen) veya ormanlara (Wälder) dikkat çekebilirsiniz 4, 5.\n* Sehenswürdigkeiten (Görülecek Yerler): Şehrin sembolünü anlatmak için \"Unser Wahrzeichen ist...\" (Sembolümüz...) veya meşhur bir yemeğini/özelliğini vurgulamak için \"...ist bekannt für...\" (... ile ünlüdür) kalıplarını kullanabilirsiniz 5. Ziyaretçilere \"Besonders sehenswert ist...\" (Özellikle ... görülmeye değer) diyerek tarihi binaları, doğa yürüyüşlerini (Wanderungen) veya müzeleri tavsiye edebilirsiniz 5, 6.\nMemleketinizi tanıtmanızı sağlayacak bu kalıplar da kafanızda netleşti mi?"
+          }
+        ]
+      },
       {
         "name": "Prüfungsvorbereitung",
         "lessons": [
@@ -436,32 +462,6 @@ const LESSONS_DATA_B1 = [
             "category": "B1 Kommunikation",
             "subcategory": "Prüfungsvorbereitung",
             "content": "﻿Goethe B1 sınavının yazma bölümünde (Schreiben) karşımıza çıkan yarı resmi mektuplar (halbformeller Brief), tanıdığımız ancak \"Sie\" (Siz) diyerek saygı çerçevesinde hitap ettiğimiz kişilere yazılır 1. Sınavda bu bölümde genellikle bir davete veya randevuya neden katılamayacağınızı açıklamanız istenir 1, 2.\nMektubun üç temel taşı şunlardır:\n* Anrede (Hitap): Karşınızdaki kişinin cinsiyetine göre \"Lieber Herr Soyadı\" veya \"Liebe Frau Soyadı\" şeklinde başlanır 3. Biraz daha resmi bir dil kullanmak isterseniz \"Sehr geehrter Herr...\" veya \"Sehr geehrte Frau...\" kalıplarını da tercih edebilirsiniz 3.\n* Entschuldigung (Özür Dileme): Durumu açıklarken \"Es tut mir leid, aber...\" (Üzgünüm ama...) veya \"Ich bedauere sehr, dass...\" (Çok üzgünüm ki...) gibi nazik kalıplar kullanılır 4.\n* Grund (Sebep Bildirme): Özrünüzü mecburen bir nedene dayandırmanız gerekir. Bunun için weil, da veya denn bağlaçlarını kullanabilirsiniz 4. Örneğin; \"...weil ich an diesem Wochenende arbeiten muss\" (...çünkü bu hafta sonu çalışmak zorundayım) kalıbı çok hayat kurtarıcıdır 5.\nSınav İpucu: Sınavda bu görev için 15 dakikanız vardır ve ortalama 40 kelime yazmanız beklenir 2. Tam puan almak için hitap, teşekkür, özür, sebep, iyi dilek belirten kapanış cümlesi ve veda (viele Grüße vb.) adımlarının hiçbirini atlamadığınızdan emin olmalısınız 5.\nSınavdaki mektup şablonu kafanızda netleşti mi? Dilerseniz yine B1 sınavının konuşma (Sprechen) bölümünde tartışırken sıkça kullanacağınız Kendi Fikrini İfade Etme (Meinung äußern) kalıplarına geçiş yapabiliriz. Ne dersiniz?"
-          }
-        ]
-      },
-      {
-        "name": "Wortschatz-Themen",
-        "lessons": [
-          {
-            "id": "almanca_b1_seviyesi__cevre_ve_ekoloji_sozlugu",
-            "title": "Almanca B1 Seviyesi_ Çevre ve Ekoloji Sözlüğü",
-            "category": "B1 Kommunikation",
-            "subcategory": "Wortschatz-Themen",
-            "content": "﻿Almanca B1 kelime dağarcığı (Wortschatz) konularından biri olan \"Umwelt\" (Çevre), günlük hayatta sıkça karşılaştığımız çevre sorunlarını ve bunlara getirebileceğimiz çözümleri kapsar.\nKaynaklarımız bu temayı şu alt başlıklarla pratik kelimelere döküyor:\n* Umweltprobleme (Çevre Sorunları): Sera etkisiyle oluşan iklim değişiklikleri (Klimaveränderungen durch den Treibhauseffekt), yağmur ormanlarının yok olması (Zerstörung der Regenwälder) ile su, hava ve toprak kirliliği en temel çevre problemleri olarak öne çıkıyor 1.\n* Mülltrennung (Çöp Ayırma): Almanya'da evsel atıkları (Hausmüll) türüne göre ayırmak standart bir uygulamadır 2, 3. Kağıtları (Altpapier) ve camları (Altglas) kendilerine ait özel geri dönüşüm kutularına atmak ve gereksiz atık oluşumunu önlemek (Abfall vermeiden) büyük önem taşır 2, 3.\n* Umweltschutz / Klimaschutz (Çevre ve İklim Koruması): Günlük hayatta çevreyi korumak için alınabilecek pek çok pratik önlem vardır 4. Alışverişte tek kullanımlık plastik ambalajlar yerine depozitolu şişeler (Pfandflaschen) ve bez çantalar (Stofftasche) kullanmak tavsiye edilir 3, 5. Araba yerine toplu taşımaya (öffentliche Verkehrsmittel) geçmek, güneş ve rüzgar enerjisi gibi yenilenebilir enerji kaynakları (erneuerbare Energiequellen) kullanarak enerji tasarrufu yapmak (Strom sparen) iklimi koruyan diğer önemli adımlardır 6.\nÇevre ve iklim korumayla ilgili bu temel B1 kelimeleri netleşti mi?"
-          },
-          {
-            "id": "almanca_b1_i̇s_arama_ve_basvuru_rehberi",
-            "title": "Almanca B1 İş Arama ve Başvuru Rehberi",
-            "category": "B1 Kommunikation",
-            "subcategory": "Wortschatz-Themen",
-            "content": "﻿Almanca B1 kelime dağarcığı (Wortschatz) içinde \"Jobsuche\" (İş Arama) konusu, günlük hayatta ve kariyerinizde en çok işinize yarayacak temalardan biridir. Kaynaklarımız bu süreci üç temel aşamada inceliyor:\n* Stellenanzeigen (İş İlanları): İş ilanlarını internet portallarında, LinkedIn gibi sosyal medyalarda, iş ve kariyer fuarlarında (Messe) veya Almanların \"Vitamin B\" dedikleri tanıdıklar/kontaklar aracılığıyla bulabilirsiniz 1-3. İlanları okurken karşınıza çıkacak en önemli kelimeler ve kısaltmalar şunlardır: cinsiyet ayrımcılığı yapılmadığını gösteren m/w/d (männlich/weiblich/divers), VZ (Vollzeit - tam zamanlı) ve TZ (Teilzeit - yarı zamanlı) 4, 5. Ayrıca Festanstellung (kadrolu/sabit çalışma) ve Quereinsteiger (farklı bir meslekten/eğitimden geçiş yapan kişi) gibi terimler ilanlarda çok sık kullanılır 5.\n* Lebenslauf (Özgeçmiş): Almanya'da standart format, tablo şeklinde hazırlanan \"tabellarischer Lebenslauf\" formatıdır 6. Modern özgeçmişler \"antichronologisch\" (en sondan geriye doğru) yazılır; yani en son veya en güncel iş deneyiminizi en üste yazmanız gerekir 6, 7. Özgeçmişiniz maksimum iki veya üç sayfa olmalı, Berufserfahrung (İş Deneyimi), Ausbildung (Eğitim) ve Kenntnisse (Beceriler/Yabancı Dil vb.) gibi net kategorilere ayrılmalı ve mutlaka profesyonel bir başvuru fotoğrafı barındırmalıdır 7-9.\n* Bewerbungsgespräch (İş Görüşmesi): Görüşmeler genellikle kısa bir ısınma sohbetiyle (Smalltalk) başlar ve ardından Selbstpräsentation (kendinizi tanıtmanız) istenir 10, 11. İş görüşmelerinin en kritik bölümü, Stärken und Schwächen (güçlü ve zayıf yönleriniz) hakkında örnekler vererek konuşabilmektir 12, 13. Sürecin sonunda sizin de şirkete hazırladığınız kendi sorularınızı (Rückfragen) sormanız beklenir, bu sizin işe olan ilginizi gösterir 13.\nİş arama sürecinin bu üç temel adımı netleşti mi?"
-          },
-          {
-            "id": "almanca_sehir_ve_memleket_tanitim_rehberi",
-            "title": "Almanca Şehir ve Memleket Tanıtım Rehberi",
-            "category": "B1 Kommunikation",
-            "subcategory": "Wortschatz-Themen",
-            "content": "﻿B1 kelime dağarcığında (Wortschatz) \"Meine Stadt / Heimat\" konusu, doğup büyüdüğünüz veya kendinizi tam anlamıyla evinizde hissettiğiniz yeri tanıtmak için çok pratik kalıplar sunar 1.\nŞehrinizi detaylıca tanıtırken şu üç ana başlığı kullanabilirsiniz:\n* Lage und Größe (Konum ve Büyüklük): Şehrinizin konumunu \"Meine Heimatstadt liegt im Süden von Deutschland\" (Memleketim Almanya'nın güneyinde) veya \"am Donau Fluss\" (Tuna nehri kıyısında) diyerek tarif edebilirsiniz 2. Büyüklüğünü anlatmak için \"Die Stadt hat 1000 Einwohner\" (Şehrin 1000 nüfusu var) kalıbını kullanabilirsiniz 3.\n* Klima und Landschaft (İklim ve Manzara): Havasından bahsederken sıcaklıkların \"angenehm\" (hoş) veya \"mild\" (ılıman) olduğunu söyleyebilirsiniz 4. \"Die Landschaft ist abwechslungsreich\" (Manzara çeşitlidir) diyerek çevredeki dağlara (Berge), göllere (Seen) veya ormanlara (Wälder) dikkat çekebilirsiniz 4, 5.\n* Sehenswürdigkeiten (Görülecek Yerler): Şehrin sembolünü anlatmak için \"Unser Wahrzeichen ist...\" (Sembolümüz...) veya meşhur bir yemeğini/özelliğini vurgulamak için \"...ist bekannt für...\" (... ile ünlüdür) kalıplarını kullanabilirsiniz 5. Ziyaretçilere \"Besonders sehenswert ist...\" (Özellikle ... görülmeye değer) diyerek tarihi binaları, doğa yürüyüşlerini (Wanderungen) veya müzeleri tavsiye edebilirsiniz 5, 6.\nMemleketinizi tanıtmanızı sağlayacak bu kalıplar da kafanızda netleşti mi?"
           }
         ]
       }
