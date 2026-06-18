@@ -2678,12 +2678,32 @@ let correctAnswersCount = 0;
 
 function getGlobalReviewQuestions() {
   const quizzes = getActiveLessonQuizzes();
+  const completedLessons = getLevelProgress().completedLessons || [];
   let allQuestions = [];
   
-  for (const key in quizzes) {
-    const entry = quizzes[key];
-    const qs = (entry && entry.questions) ? entry.questions : (Array.isArray(entry) ? entry : []);
-    allQuestions = allQuestions.concat(qs);
+  // Gather questions from completed lessons
+  for (const lessonId of completedLessons) {
+    const entry = quizzes[lessonId];
+    if (entry) {
+      const qs = (entry && entry.questions) ? entry.questions : (Array.isArray(entry) ? entry : []);
+      if (qs && qs.length > 0) {
+        allQuestions = allQuestions.concat(qs);
+      }
+    }
+  }
+  
+  // Fallback: If no lessons are completed, or completed lessons have no questions,
+  // load all questions from the active level's quizzes.
+  if (allQuestions.length === 0) {
+    for (const key in quizzes) {
+      const entry = quizzes[key];
+      if (entry) {
+        const qs = (entry && entry.questions) ? entry.questions : (Array.isArray(entry) ? entry : []);
+        if (qs && qs.length > 0) {
+          allQuestions = allQuestions.concat(qs);
+        }
+      }
+    }
   }
   
   if (allQuestions.length === 0) {
@@ -2696,7 +2716,7 @@ function startNewQuiz() {
   showScreen("quiz");
   const pool = getGlobalReviewQuestions();
   const shuffled = [...pool].sort(() => 0.5 - Math.random());
-  activeQuizQuestions = shuffled.slice(0, 5);
+  activeQuizQuestions = shuffled.slice(0, 10);
   currentQuestionIndex = 0;
   correctAnswersCount = 0;
   
@@ -2839,7 +2859,7 @@ function finishQuiz() {
       <div style="background: var(--color-background-secondary); border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); padding: 16px; width: 100%; display:grid; grid-template-columns: 1fr 1fr; gap:12px; margin: 8px 0;">
         <div style="text-align:center; border-right: 1px solid var(--color-border-secondary);">
           <p class="ts" style="font-size:11px; margin:0 0 4px;">Skor</p>
-          <p style="font-size:18px; font-weight:700; margin:0; color:var(--theme-coral);">${correctAnswersCount} / 5</p>
+          <p style="font-size:18px; font-weight:700; margin:0; color:var(--theme-coral);">${correctAnswersCount} / ${activeQuizQuestions.length}</p>
         </div>
         <div style="text-align:center;">
           <p class="ts" style="font-size:11px; margin:0 0 4px;">Kazanılan XP</p>
