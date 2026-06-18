@@ -39,6 +39,24 @@ let state = {
   }
 };
 
+// iOS 18+ Web PWA Haptic feedback workaround setup
+function initIosHapticDOM() {
+  if (document.getElementById("ios-haptic-switch")) return;
+  const container = document.createElement("div");
+  container.style = "position: absolute; width: 1px; height: 1px; opacity: 0.01; pointer-events: none; overflow: hidden; clip: rect(0, 0, 0, 0);";
+  container.innerHTML = `
+    <input type="checkbox" id="ios-haptic-switch" switch />
+    <label for="ios-haptic-switch" id="ios-haptic-label"></label>
+  `;
+  document.body.appendChild(container);
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initIosHapticDOM);
+} else {
+  initIosHapticDOM();
+}
+
 // Sound playback and haptic vibration utility
 function playSound(type) {
   // Play sound (except for click)
@@ -67,13 +85,33 @@ function playSound(type) {
       } else if (type === "click") {
         Haptics.impact({ style: "LIGHT" });
       }
-    } else if (navigator.vibrate) {
-      if (type === "true" || type === "done") {
-        navigator.vibrate([40, 40, 40]);
-      } else if (type === "false") {
-        navigator.vibrate([80, 50, 80, 50]);
-      } else if (type === "click") {
-        navigator.vibrate(15); // Clear button tap feedback (15ms)
+    } else {
+      // Fallback for Web PWA environments (like Vercel deployed app)
+      const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+      if (isIOS) {
+        // iOS 18+ WebKit Switch Haptic Workaround
+        const label = document.getElementById("ios-haptic-label");
+        if (label) {
+          if (type === "true" || type === "done") {
+            label.click();
+            setTimeout(() => label.click(), 80);
+          } else if (type === "false") {
+            label.click();
+            setTimeout(() => label.click(), 80);
+            setTimeout(() => label.click(), 160);
+          } else if (type === "click") {
+            label.click();
+          }
+        }
+      } else if (navigator.vibrate) {
+        // Android and other browsers supporting HTML5 Vibration API
+        if (type === "true" || type === "done") {
+          navigator.vibrate([40, 40, 40]);
+        } else if (type === "false") {
+          navigator.vibrate([80, 50, 80, 50]);
+        } else if (type === "click") {
+          navigator.vibrate(15); // Clear button tap feedback (15ms)
+        }
       }
     }
   } catch (e) {
