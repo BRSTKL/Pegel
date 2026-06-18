@@ -1681,6 +1681,10 @@ function initProgressRive() {
     canvas: canvas,
     autoplay: true,
     stateMachines: ["State Machine", "State Machine 1"],
+    layout: new window.rive.Layout({
+      fit: window.rive.Fit.Fill,
+      alignment: window.rive.Alignment.Center
+    }),
     onLoad: () => {
       if (typeof progressRiveInstance.resizeDrawingSurfaceToCanvas === "function") {
         progressRiveInstance.resizeDrawingSurfaceToCanvas();
