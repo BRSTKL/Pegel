@@ -1740,6 +1740,41 @@ function showScreen(screenId) {
 let progressRiveInstance = null;
 let progressRiveInput = null;
 
+// RIVE CAT ANIMATION INTEGRATION
+let catRiveInstance = null;
+
+function initCatAnimation() {
+  const canvas = document.getElementById("cat-rive-canvas");
+  if (!canvas) return;
+  
+  if (typeof rive === "undefined") {
+    console.warn("Rive library is not loaded yet.");
+    return;
+  }
+  
+  if (catRiveInstance) {
+    catRiveInstance.cleanup();
+    catRiveInstance = null;
+  }
+  
+  try {
+    catRiveInstance = new rive.Rive({
+      src: "animations/cat_animation.riv",
+      canvas: canvas,
+      autoplay: true,
+      stateMachines: ["State Machine 1"],
+      onLoad: () => {
+        catRiveInstance.resizeDrawingToCanvas();
+      },
+      onLoadError: (err) => {
+        console.error("Rive cat_animation load error:", err);
+      }
+    });
+  } catch (e) {
+    console.error("Rive cat_animation initialization error:", e);
+  }
+}
+
 function base64ToArrayBuffer(base64) {
   const cleanBase64 = base64.replace(/\s/g, '');
   const binaryString = atob(cleanBase64);
@@ -2046,6 +2081,11 @@ function getLessonIcon(lesson, index) {
 }
 
 function renderLevelPath() {
+  if (catRiveInstance) {
+    catRiveInstance.cleanup();
+    catRiveInstance = null;
+  }
+
   const pathView = document.getElementById("level-path-view");
   if (!pathView) return;
   
@@ -2080,6 +2120,7 @@ function renderLevelPath() {
   let currentY = 15;
   let lastCategoryId = null;
   let nodeInCategoryIndex = 0;
+  let firstCategoryY0 = null;
   
   processedLessons.forEach((les, index) => {
     if (les.categoryId !== lastCategoryId) {
@@ -2098,6 +2139,11 @@ function renderLevelPath() {
       pathView.appendChild(banner);
       
       currentY += 56 + 24;
+      
+      if (firstCategoryY0 === null) {
+        firstCategoryY0 = currentY;
+      }
+      
       lastCategoryId = les.categoryId;
       nodeInCategoryIndex = 0;
     }
@@ -2164,6 +2210,26 @@ function renderLevelPath() {
   });
   
   pathView.style.height = `${currentY + 30}px`;
+
+  // Render cat animation container
+  if (firstCategoryY0 !== null) {
+    const catTop = firstCategoryY0 + 65; // Align it next to droplet 2 & 3
+    const catContainer = document.createElement("div");
+    catContainer.id = "cat-animation-container";
+    catContainer.style.position = "absolute";
+    catContainer.style.left = "16px";
+    catContainer.style.top = `${catTop}px`;
+    catContainer.style.width = "140px";
+    catContainer.style.height = "140px";
+    catContainer.style.zIndex = "1";
+    catContainer.style.pointerEvents = "none";
+    catContainer.innerHTML = `<canvas id="cat-rive-canvas" width="280" height="280" style="width: 100%; height: 100%;"></canvas>`;
+    pathView.appendChild(catContainer);
+    
+    setTimeout(() => {
+      initCatAnimation();
+    }, 50);
+  }
 }
 
 function showLessonPreview(lesson, status) {
