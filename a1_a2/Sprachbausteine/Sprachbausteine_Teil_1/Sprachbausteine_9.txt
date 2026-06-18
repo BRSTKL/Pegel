@@ -1,0 +1,192 @@
+========================================================================
+telc DEUTSCH A1-A2: OFFIZIELLES SPRACHBAUSTEINE-TRAINING (ÖZGÜN SET 46)
+========================================================================
+Prüfungsbaustein: Sprachbausteine (Lücke füllen / Boşluk Doldurma)
+Dauer: 15 Minuten
+
+KURAL REHBERİ (telc Sınav Stratejisi):
+1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız,
+   mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir.
+2. Strateji: Boşluğun öncesindeki ve sonrasındaki kelimelere dikkat edin. Özellikle
+   trennbare Verben (ayrılabilen fiiller) ile birlikte kullanılan edatları, Reflexivverben
+   (dönüşlü fiiller) ve sıklık zarflarını (manchmal, meistens, kaum) analiz edin.
+3. Dikkat: Ayrılabilen fiillerin öneki (Präfix) Perfekt'te Partizip II'nin içinde
+   kalır (z.B. aufgehört → ge+hört değil, aufge+hört). Bağlaç seçimlerinde hem
+   anlam hem dilbilgisel yapı birlikte değerlendirilmelidir.
+
+Konu: Dil öğrenmek — Rafael, iş arkadaşı Marta'ya Almanca kursunu anlatıyor.
+
+------------------------------------------------------------------------
+
+Liebe Marta,
+
+du hast mich letzte Woche gefragt, wie mein Deutschkurs läuft — jetzt habe ich
+endlich Zeit, dir ___21___ antworten! Ich besuche den Kurs seit drei Monaten und
+muss sagen: Am Anfang war es wirklich schwer, aber ich habe ___22___ aufgehört.
+
+Unser Lehrer, Herr Bergmann, erklärt alles sehr ___23___ und gibt uns nach jeder
+Stunde kleine Hausaufgaben. Manchmal nerve ich mich ___24___ die Grammatik, weil
+es so viele Regeln gibt. Aber ich merke, dass ich mich ___25___ verbessere — letzte
+Woche konnte ich sogar ein kurzes Gespräch ___26___ meiner Nachbarin auf Deutsch
+führen!
+
+Was mir am meisten hilft, ist das Hören: Ich höre jeden Abend ___27___ eine halbe
+Stunde deutschsprachige Podcasts. Zuerst habe ich kaum etwas ___28___, aber jetzt
+verstehe ich schon vieles. Hast du einen Tipp, ___29___ man Vokabeln am besten
+lernt? Ich vergesse sie leider sehr ___30___, obwohl ich sie immer aufschreibe.
+
+Bis bald,
+Dein Rafael
+
+------------------------------------------------------------------------
+
+SCHLAUBAUSTEINE (SEÇENEKLER: 21 - 30)
+
+21
+a) dir
+b) dich
+c) dich zu
+
+22
+a) nie
+b) nicht
+c) kein
+
+23
+a) deutlich
+b) deutliche
+c) deutlichem
+
+24
+a) über
+b) auf
+c) mit
+
+25
+a) täglich
+b) langsam
+c) kaum
+
+26
+a) von
+b) mit
+c) zu
+
+27
+a) seit
+b) für
+c) ungefähr
+
+28
+a) gewusst
+b) verstanden
+c) gehört
+
+29
+a) wie
+b) ob
+c) dass
+
+30
+a) schnell
+b) oft
+c) bald
+
+------------------------------------------------------------------------
+
+========================================================================
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+21: a (dir)
+   - Açıklama: "jemandem antworten" = birine cevap vermek. "antworten" fiili
+     Dativ gerektirir: "dir antworten." Özne Rafael, muhatap Marta → Dativ 2.
+     tekil şahıs = "dir."
+     Şık (b) "dich" Akkusativ olur; "antworten" Akkusativ almaz.
+     Şık (c) "dich zu" anlamsız bir yapı oluşturur; "zu + Infinitiv" kalıbında
+     zaten "antworten" Infinitiv olarak kullanılıyor, önünde ayrıca zamir gelmez.
+
+22: a (nie)
+   - Açıklama: "Ich habe nie aufgehört" = hiç vazgeçmedim. "nie" (hiçbir zaman)
+     fiili bütünüyle olumsuzlar ve burada cesareti/kararlılığı vurgular.
+     Şık (b) "nicht" → "Ich habe nicht aufgehört" de dilbilgisel olarak doğrudur
+     ancak "nie" (hiç, asla) daha güçlü ve anlam bakımından daha yerinde bir
+     vurgudur; telc kalıplarında bu tür anlam vurgusuna dikkat edin.
+     Şık (c) "kein" isim önünde kullanılır (kein Geld, keine Zeit); fiil önünde
+     kullanılamaz.
+
+23: a (deutlich)
+   - Açıklama: "sehr deutlich erklären" = çok açık bir şekilde açıklamak.
+     "deutlich" burada fiili niteleyen bir zarf olarak kullanılmaktadır; zarflar
+     Almancada hiç çekim eki almaz: "erklärt alles sehr deutlich."
+     Şık (b) "deutliche" ve Şık (c) "deutlichem" sıfat çekimi eklerini taşır;
+     bu ekler yalnızca isim önünde (attributiv) kullanılan sıfatlara gelir,
+     yüklem/zarf konumundaki sıfatlara gelmez.
+
+24: a (über)
+   - Açıklama: "sich über etwas nerven / ärgern" = bir şeye sinir olmak, bir şeyden
+     bıkmak. Dönüşlü fiil "sich nerven" Akkusativ edat "über" alır:
+     "Ich nerve mich über die Grammatik."
+     Şık (b) "auf" → "sich auf etwas freuen" (bir şeyi dört gözle beklemek) farklı
+     dönüşlü fiil kalıbıdır. Şık (c) "mit" araç/birliktelik bildirir; bu bağlama uymaz.
+
+25: b (langsam)
+   - Açıklama: "Ich merke, dass ich mich langsam verbessere" = yavaş yavaş
+     ilerlediğimi fark ediyorum. "langsam" (yavaşça/adım adım) dil öğrenme
+     sürecindeki kademeli gelişimi ifade eder ve bağlama tam oturur.
+     Şık (a) "täglich" = her gün; "täglich verbessern" mümkün ama çok mekanik
+     bir ifade olur ve cümlenin genel tonuyla uyuşmaz.
+     Şık (c) "kaum" = neredeyse hiç; "kaum verbessere" (neredeyse hiç gelişmiyorum)
+     bağlamla çelişir — Rafael az sonra başarılarından söz ediyor.
+
+26: b (mit)
+   - Açıklama: "ein Gespräch mit jemandem führen" = biriyle konuşma yapmak.
+     "mit + Dativ" birliktelik bildirir: "mit meiner Nachbarin."
+     Şık (a) "von" → "ein Gespräch von jemandem" anlamsız bir yapıdır.
+     Şık (c) "zu" → "ein Gespräch zu jemandem führen" yön bildirir; birlikte
+     konuşmak için "mit" zorunludur.
+
+27: c (ungefähr)
+   - Açıklama: "ungefähr eine halbe Stunde" = yaklaşık yarım saat. "ungefähr"
+     tahmini bir süreyi belirtir ve miktar ifadelerinin önünde kullanılır.
+     Şık (a) "seit" → "seit einer halben Stunde" = yarım saattir (geçmişten beri
+     devam eden durum); burada her akşam dinleme süresi anlatılıyor, başlangıç
+     noktası değil.
+     Şık (b) "für" → "für eine halbe Stunde" = yarım saatliğine; dilbilgisel
+     olarak mümkün ancak "ungefähr" belirsiz süreyi çok daha doğal ifade eder.
+
+28: b (verstanden)
+   - Açıklama: "kaum etwas verstehen" = neredeyse hiçbir şey anlayamamak.
+     "verstehen" fiilinin Partizip II'si "verstanden"dır: "habe kaum etwas
+     verstanden." Bağlam podcast dinlemeyi anlatıyor; anlama fiili "verstehen"
+     doğrudan bu bağlama oturur.
+     Şık (a) "gewusst" → "wissen" (bilmek); "kaum etwas gewusst" = neredeyse
+     hiçbir şey bilmemek — anlam yakın ama dinleme bağlamında "verstehen" çok
+     daha doğaldır.
+     Şık (c) "gehört" → "kaum etwas gehört" = neredeyse hiçbir şey duymamak;
+     fiziksel olarak duymamakla ilgili olurdu, oysa sorun anlamakla ilgili.
+
+29: a (wie)
+   - Açıklama: "einen Tipp, wie man ... lernt" = nasıl öğreneceğine dair bir ipucu.
+     "wie" dolaylı soru kelimesidir ve yöntem sorar: "wie man Vokabeln am besten
+     lernt." Fiil yan cümlede sona gider.
+     Şık (b) "ob" → evet/hayır belirsizliği içeren dolaylı soru kurar; burada
+     yöntem soruluyor, belirsizlik değil.
+     Şık (c) "dass" → nesne yan cümlesi kurar; "einen Tipp, dass..." dilbilgisel
+     olarak anlamsız bir yapı oluşturur.
+
+30: a (schnell)
+   - Açıklama: "sehr schnell vergessen" = çok çabuk unutmak. "schnell" hız bildiren
+     zarftır ve kelimelerin hızla bellekten silindiğini ifade eder; bağlama
+     tam oturur.
+     Şık (b) "oft" = sık sık; "sehr oft vergessen" de mümkün görünür ancak
+     "çok sık" değil "çok çabuk" unutmak dil öğrenmede asıl sorundur ve
+     "obwohl ich sie immer aufschreibe" (her ne kadar yazıyor olsam da) cümlesiyle
+     "schnell" daha iyi bir zıtlık oluşturur.
+     Şık (c) "bald" = yakında; "sehr bald vergessen" (çok yakında unutmak)
+     zaman bildiren bir anlam taşır ama bu bağlamda doğal değildir.
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+21-a / 22-a / 23-a / 24-a / 25-b / 26-b / 27-c / 28-b / 29-a / 30-a
+========================================================================

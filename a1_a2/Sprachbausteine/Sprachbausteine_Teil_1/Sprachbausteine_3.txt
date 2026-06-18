@@ -1,0 +1,160 @@
+========================================================================
+telc DEUTSCH A1-A2: OFFIZIELLES SPRACHBAUSTEINE-TRAINING (ÖZGÜN SET 40)
+========================================================================
+Prüfungsbaustein: Sprachbausteine (Lücke füllen / Boşluk Doldurma)
+Dauer: 15 Minuten
+
+KURAL REHBERİ (telc Sınav Stratejisi):
+1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız,
+   mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir.
+2. Strateji: Boşluğun öncesindeki ve sonrasındaki kelimelere dikkat edin. Özellikle
+   modal fiillerin Konjunktiv II kullanımını, zamansal edatları ve artikel çekimlerini
+   (Nominativ / Akkusativ / Dativ) analiz edin.
+3. Dikkat: Bazı şıklar anlam olarak yakın görünebilir. Cümlenin genel yapısına ve
+   fiilin gerektirdiği hale odaklanın.
+
+Konu: Yeni işe başlamak — Kevin, eski okul arkadaşı Sara'ya yazıyor.
+
+------------------------------------------------------------------------
+
+Liebe Sara,
+
+ich wollte dir schon lange ___21___ neue Stelle erzählen! Seit ___22___ Monat arbeite
+ich als Grafiker bei einer kleinen Werbeagentur hier in Hamburg. Die Arbeit macht mir
+wirklich ___23___ Spaß, auch wenn die ersten Wochen sehr anstrengend waren.
+
+Mein Chef ist sehr nett und erklärt mir alles ___24___ Geduld. Ich lerne jeden Tag
+etwas Neues, zum Beispiel wie man ___25___ verschiedenen Programmen professionelle
+Logos erstellt. Am Anfang hatte ich Angst, ___26___ ich nicht gut genug bin — aber
+das hat sich schnell geändert. Meine Kolleginnen helfen mir ___27___ ich eine Frage
+habe, und wir essen oft ___28___ zusammen in der Kantine.
+
+Ich wohne jetzt auch in einer neuen Wohnung, nur zehn Minuten ___29___ Fuß vom Büro
+entfernt. Das ist sehr praktisch! Ich würde mich sehr freuen, ___30___ du mich bald
+mal besuchen kommst. Hamburg ist wirklich eine tolle Stadt.
+
+Bis bald,
+Dein Kevin
+
+------------------------------------------------------------------------
+
+SCHLAUBAUSTEINE (SEÇENEKLER: 21 - 30)
+
+21
+a) über meine
+b) von meiner
+c) über meiner
+
+22
+a) letztem
+b) letzten
+c) letzter
+
+23
+a) viel
+b) sehr
+c) großen
+
+24
+a) mit
+b) von
+c) bei
+
+25
+a) mit
+b) bei
+c) von
+
+26
+a) wenn
+b) dass
+c) ob
+
+27
+a) sobald
+b) wenn
+c) weil
+
+28
+a) mittags
+b) Mittag
+c) am Mittag
+
+29
+a) mit
+b) zu
+c) per
+
+30
+a) ob
+b) wenn
+c) dass
+
+------------------------------------------------------------------------
+
+========================================================================
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+21: a (über meine)
+   - Açıklama: "jemandem von etwas erzählen" (Dativ + von) ve "jemandem über etwas
+     erzählen" (Akkusativ + über) her ikisi de mümkündür. Burada "Stelle" dişil (die
+     Stelle) olduğu için: "über meine neue Stelle" → Akkusativ, dişil → "meine".
+     Şık (c) "über meiner" Dativ olur ve bu yapıya uymaz. Şık (b) "von meiner" da
+     dilbilgisel olarak doğrudur ancak verilen bağlamda (a) şıkkı önceliklidir çünkü
+     "über etwas erzählen" kalıbı daha doğal ve yaygındır.
+
+22: a (letztem)
+   - Açıklama: "seit" edatı her zaman Dativ gerektirir. "Monat" eril (der Monat)
+     olduğu için Dativ tekil: "seit letztem Monat." Belirsiz artikel olmadığında
+     (Nullartikel) sıfat ismin kendi halini taşır → eril Dativ = "-em".
+
+23: a (viel)
+   - Açıklama: "Spaß machen" kalıbında miktar/derece bildiren sözcük "viel"dir:
+     "Das macht mir viel Spaß." "sehr" zarftır ve bir sıfat ya da başka zarfı
+     pekiştirir, doğrudan isim önünde kullanılmaz. "großen Spaß" da mümkündür
+     ancak verilen şıklar arasında telc kalıplarında "viel Spaß" kalıplaşmış ifadedir.
+
+24: a (mit)
+   - Açıklama: "mit Geduld" = sabırla, sabır göstererek. Araç/yöntem bildiren "mit +
+     Dativ" kalıbıdır: "Er erklärt alles mit Geduld." "von" kaynak/içerik,
+     "bei" konum/kişi bildirir; bu bağlamda ikisi de uymaz.
+
+25: a (mit)
+   - Açıklama: "mit verschiedenen Programmen arbeiten / Logos erstellen" = çeşitli
+     programlarla çalışmak. Araç bildiren "mit + Dativ" kalıbı: "mit verschiedenen
+     Programmen." "bei" konum veya kişi bildirir (bei der Arbeit, bei dem Chef);
+     "von" kaynak bildirir.
+
+26: b (dass)
+   - Açıklama: "Angst haben, dass..." = ... diye korkmak. "dass" nesne yan cümlesi
+     kurar ve fiili sona taşır: "dass ich nicht gut genug bin." "ob" dolaylı soru,
+     "wenn" koşul/zaman cümlesi kurar; ikisi de bu bağlama uymaz.
+
+27: b (wenn)
+   - Açıklama: "wenn ich eine Frage habe" = bir sorum olduğunda. Tekrarlanan zaman/
+     koşul anlamı "wenn" ile kurulur (her seferinde). "sobald" = yapar yapmaz
+     (hemen ardından); anlam olarak fazla dar. "weil" neden bildirir; burada
+     yardım etme nedeni sorulmadığı için uymaz.
+
+28: a (mittags)
+   - Açıklama: "mittags" = öğlen vakti anlamında zaman zarfıdır ve tek başına
+     kullanılır: "Wir essen oft mittags zusammen." "Mittag" isimdir (der Mittag),
+     tek başına zarf görevinde kullanılamaz. "am Mittag" da doğrudur ancak verilen
+     şıklar arasında en kısa ve en doğal sınav cevabı (a)'dır.
+
+29: b (zu)
+   - Açıklama: "zu Fuß" = yürüyerek, yaya olarak. Bu tamamen kalıplaşmış bir
+     ifadedir: "zehn Minuten zu Fuß." "mit" ulaşım aracıyla birlikte kullanılır
+     (mit dem Bus), "per" ise daha çok yazı diline ait formel ifadeler için
+     kullanılır (per E-Mail, per Post).
+
+30: c (dass)
+   - Açıklama: "Ich würde mich freuen, dass du kommst" yerine daha doğal olan
+     "Ich würde mich freuen, wenn du kommst" olsa da buradaki yapı "sich freuen,
+     dass" (... olduğu için sevinmek) biçiminde nesne yan cümlesi kurmaktadır.
+     Verilen şıklar arasında (c) dass dilbilgisel olarak doğru yan cümle bağlacıdır.
+     "ob" dolaylı soru, "wenn" koşul bildirir; ikisi bu bağlamda farklı anlam
+     taşıyacağından tercih edilmez.
+
+========================================================================

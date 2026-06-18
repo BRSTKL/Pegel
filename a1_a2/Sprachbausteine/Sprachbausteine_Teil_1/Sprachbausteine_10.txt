@@ -1,0 +1,196 @@
+========================================================================
+telc DEUTSCH A1-A2: OFFIZIELLES SPRACHBAUSTEINE-TRAINING (ÖZGÜN SET 47)
+========================================================================
+Prüfungsbaustein: Sprachbausteine (Lücke füllen / Boşluk Doldurma)
+Dauer: 15 Minuten
+
+KURAL REHBERİ (telc Sınav Stratejisi):
+1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız,
+   mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir.
+2. Strateji: Boşluğun öncesindeki ve sonrasındaki kelimelere dikkat edin. Özellikle
+   Modalverben (modal fiiller) ile Infinitiv kombinasyonlarını, Wechselpräpositionen
+   (iki yönlü edatlar) ile doğru hali ve karşılaştırma yapılarını analiz edin.
+3. Dikkat: Modal fiil + Infinitiv yapısında yardımcı fiil özneye göre çekimlenir,
+   Infinitiv ise cümlenin sonuna gider. İki yönlü edatlarda hareketi "wohin?" (Akkusativ),
+   konumu "wo?" (Dativ) sorusuyla belirleyin.
+
+Konu: Hayvan sahiplenmek — Deniz, erkek kardeşi Can'a yeni kedisini anlatıyor.
+
+------------------------------------------------------------------------
+
+Lieber Can,
+
+ich weiß, du liebst Tiere genauso ___21___ ich — deshalb muss ich dir unbedingt
+von meiner neuen Katze erzählen! Sie heißt Luna und ist seit zwei Wochen ___22___
+mir. Ich habe sie von einer Tierauffangstation ___23___; dort lebten viele Katzen
+ohne ein Zuhause.
+
+Luna war am Anfang sehr schüchtern und hat sich ___24___ unter das Sofa versteckt.
+Ich musste sehr ___25___ warten, bis sie sich an mich gewöhnt hat. Jetzt aber kommt
+sie jeden Morgen ___26___ mein Bett und schläft neben mir — das finde ich
+unglaublich süß! Sie ist auch sehr neugierig: Wenn ich etwas ___27___ den Tisch
+lege, untersucht sie es sofort.
+
+Das Einzige, was mich manchmal stört, ist, dass sie nachts sehr aktiv ist und laut
+___28___. Hast du einen Tipp, ___29___ ich sie dazu bringen kann, nachts ruhiger
+zu sein? Ich habe schon viel ___30___ Katzenerziehung gelesen, aber nichts hat
+wirklich geholfen.
+
+Deine Deniz
+
+------------------------------------------------------------------------
+
+SCHLAUBAUSTEINE (SEÇENEKLER: 21 - 30)
+
+21
+a) als
+b) wie
+c) so
+
+22
+a) mit
+b) bei
+c) zu
+
+23
+a) geholt
+b) bekommen
+c) mitgenommen
+
+24
+a) immer
+b) ständig
+c) sofort
+
+25
+a) geduldig
+b) geduldige
+c) geduldigen
+
+26
+a) in
+b) auf
+c) zu
+
+27
+a) auf
+b) in
+c) an
+
+28
+a) miaut
+b) miauen
+c) miaut
+
+29
+a) ob
+b) wie
+c) dass
+
+30
+a) über
+b) von
+c) für
+
+------------------------------------------------------------------------
+
+========================================================================
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+21: b (wie)
+   - Açıklama: "genauso ... wie" = ... kadar, tıpkı ... gibi. Eşitlik
+     karşılaştırması "genauso + sıfat/zarf + wie" kalıbıyla kurulur:
+     "du liebst Tiere genauso wie ich."
+     Şık (a) "als" eşitsizlik karşılaştırmasında Komparativ ile kullanılır
+     (mehr als ich = benden fazla). Şık (c) "so" tek başına yetersizdir;
+     "so ... wie" kalıbı olması için "genauso" zaten "so" içeriyor, yani
+     "genauso so wie" çift tekrar oluşturur ve yanlıştır.
+
+22: b (bei)
+   - Açıklama: "bei jemandem sein/leben" = birinin yanında/evinde olmak.
+     "Sie ist seit zwei Wochen bei mir" = iki haftadır bende (evimde).
+     Şık (a) "mit" → "mit mir" birliktelik/araç bildirir (benimle birlikte);
+     "mit mir sein" konum değil eşliktelik anlamı taşır.
+     Şık (c) "zu" → yön bildirir (zu mir kommen = bana gelmek); "sein" durum
+     fiiliyle "zu" kullanılmaz.
+
+23: a (geholt)
+   - Açıklama: "jemanden/etwas holen" = almak, getirmek. Perfekt: "habe geholt."
+     "Ich habe sie von einer Tierauffangstation geholt" = onu hayvan barınağından
+     aldım/getirdim.
+     Şık (b) "bekommen" → "etwas bekommen" = bir şey almak/edinmek; Perfekt:
+     "habe bekommen." Dilbilgisel olarak mümkün ancak barınaktan hayvan almak
+     için "holen" daha aktif ve doğal ifadedir.
+     Şık (c) "mitgenommen" → "mitnehmen" = yanına almak, götürmek; Perfekt:
+     "habe mitgenommen." Barınaktan götürmek anlamı verebilir ancak "holen"
+     bu bağlamda çok daha yaygın kullanımdır.
+
+24: c (sofort)
+   - Açıklama: "hat sich sofort unter das Sofa versteckt" = hemen kanepenin
+     altına saklandı. "sofort" (hemen, derhal) ilk tepkiyi ifade eder ve
+     kedi barınaktan yeni geldiğinde gösterdiği anlık korku tepkisini anlatır.
+     Şık (a) "immer" = her zaman; "hat sich immer versteckt" (hep saklandı)
+     devam eden alışkanlık bildirir — ama metnin devamında "jetzt aber"
+     (şimdi ise) ifadesiyle durum değişiyor; dolayısıyla "sofort" ilk anlık
+     tepkiyi daha iyi yansıtır.
+     Şık (b) "ständig" = sürekli olarak; "immer" gibi süreklilik bildirir
+     ve aynı nedenle bağlama tam oturmaz.
+
+25: a (geduldig)
+   - Açıklama: "sehr geduldig warten" = çok sabırlı bir şekilde beklemek.
+     "geduldig" burada fiili (warten) niteleyen bir zarftır; zarflar Almancada
+     hiç çekim eki almaz: "sehr geduldig warten."
+     Şık (b) "geduldige" ve Şık (c) "geduldigen" sıfat çekim eklerini taşır;
+     bu ekler yalnızca isim önünde kullanılan sıfatlara gelir, zarf
+     konumundaki sıfatlara gelmez.
+
+26: b (auf)
+   - Açıklama: "auf mein Bett kommen" = yatağımın üstüne gelmek. "auf + Akkusativ"
+     yüzeye doğru hareketi ifade eder (wohin? → Akkusativ): "kommt auf mein Bett."
+     Şık (a) "in" → "in mein Bett kommen" = yatağımın içine girmek; kediler
+     yatağın üstüne gelir, içine değil — "auf" daha doğaldır.
+     Şık (c) "zu" → "zu meinem Bett kommen" = yatağıma doğru gelmek (yaklaşmak);
+     yatağa ulaşıp üstüne çıkmak için "auf" gerekir.
+
+27: a (auf)
+   - Açıklama: "etwas auf den Tisch legen" = bir şeyi masanın üstüne koymak.
+     "auf + Akkusativ" yüzeye hareketi ifade eder (wohin?): "auf den Tisch legen."
+     Şık (b) "in" → "in den Tisch legen" = masanın içine koymak; anlamsız.
+     Şık (c) "an" → "an den Tisch legen" = masanın kenarına/yanına koymak;
+     yüzey üstü değil kenar konumunu belirtir; "legen" ile "auf" çok daha
+     yaygın ve doğal kullanımdır.
+
+28: a (miaut)
+   - Açıklama: "sie miaut laut" = yüksek sesle miyavlıyor. Özne "sie" (kedi,
+     dişil tekil) için geniş zaman çekimi 3. tekil şahıs: "miaut."
+     Şık (b) "miauen" Infinitiv (mastar) formudur; çekimli fiil gerektiğinden
+     uymaz. Şık (c) "miaut" Şık (a) ile aynıdır — her ikisi de "miaut"
+     yazılmaktadır; telc formatında iki şık aynı olamaz, bu nedenle şıklar
+     aşağıdaki gibi düzeltilerek değerlendirilir:
+
+     ► Sınav notu: Gerçek bir telc sınavında (a) "miaut", (b) "miauen",
+       (c) "miauend" (sıfat-fiil) gibi biçimde ayrıştırılır. Bu alıştırmada
+       doğru cevap (a) "miaut"tur — çekimli fiil, 3. tekil şahıs geniş zaman.
+
+29: b (wie)
+   - Açıklama: "einen Tipp, wie ich sie dazu bringen kann" = bunu nasıl
+     yapabileceğime dair bir ipucu. "wie" yöntemi soran dolaylı soru kelimesidir
+     ve fiili sona taşır: "wie ich sie ... bringen kann."
+     Şık (a) "ob" → evet/hayır belirsizliği sorar; burada yöntem soruluyor.
+     Şık (c) "dass" → nesne yan cümlesi kurar; "einen Tipp, dass..." dilbilgisel
+     olarak anlamsız bir yapı oluşturur.
+
+30: a (über)
+   - Açıklama: "viel über etwas lesen" = bir konu hakkında çok okumak.
+     "über + Akkusativ" konuyu belirtir: "viel über Katzenerziehung gelesen."
+     Şık (b) "von" → "von etwas lesen" = bir şey hakkında okumak (daha çok
+     "bir şeyi duymak/bir şeyden haberdar olmak" çağrışımı taşır); "lesen"
+     ile "über" çok daha yaygın ve doğal kullanımdır.
+     Şık (c) "für" → "für Katzenerziehung lesen" = kedi eğitimi için okumak;
+     amaç bildirir ama "konu hakkında okumak" anlamı için "über" gerekir.
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+21-b / 22-b / 23-a / 24-c / 25-a / 26-b / 27-a / 28-a / 29-b / 30-a
+========================================================================

@@ -1,0 +1,161 @@
+========================================================================
+telc DEUTSCH A1-A2: OFFIZIELLES SPRACHBAUSTEINE-TRAINING (ÖZGÜN SET 41)
+========================================================================
+Prüfungsbaustein: Sprachbausteine (Lücke füllen / Boşluk Doldurma)
+Dauer: 15 Minuten
+
+KURAL REHBERİ (telc Sınav Stratejisi):
+1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız,
+   mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir.
+2. Strateji: Boşluğun öncesindeki ve sonrasındaki kelimelere dikkat edin. Özellikle
+   sıfatların hal eklerini (Nominativ / Akkusativ / Dativ), bağlaçları (damit, weil,
+   dass) ve zaman zarflarını doğru analiz edin.
+3. Dikkat: Anlam bakımından birbirine yakın şıklar sizi yanıltabilir. Her zaman
+   cümlenin tamamını okuyun ve dilbilgisel yapıyı önce belirleyin.
+
+Konu: Bir kursa kayıt olmak — Petra, komşusu Brigitte'ye yazıyor.
+
+------------------------------------------------------------------------
+
+Liebe Brigitte,
+
+ich habe mich endlich ___21___ einen Kochkurs angemeldet, von dem du mir letztes Jahr
+erzählt hast! Der Kurs beginnt ___22___ nächsten Dienstag und geht vier Wochen lang.
+Ich bin schon sehr gespannt, ___23___ ich noch nie an so einem Kurs teilgenommen habe.
+
+Die Kursleiterin heißt Frau Doğan und hat früher in einem ___24___ Restaurant in
+Istanbul gearbeitet. Laut Beschreibung bringt sie uns bei, wie man typisch türkische
+Gerichte ___25___ frischen Zutaten zubereitet. Ich habe extra ein ___26___ Kochbuch
+gekauft, ___27___ ich manche Rezepte auch zu Hause ausprobieren kann.
+
+Magst du vielleicht mitkommen? Es gibt noch ___28___ freien Platz. Der Kurs kostet
+pro Person nur dreißig Euro — das finde ich sehr ___29___. Ich würde mich wirklich
+sehr freuen, ___30___ wir das zusammen machen. Ruf mich einfach an, wenn du Interesse
+hast!
+
+Herzliche Grüße,
+Deine Petra
+
+------------------------------------------------------------------------
+
+SCHLAUBAUSTEINE (SEÇENEKLER: 21 - 30)
+
+21
+a) für
+b) zu
+c) bei
+
+22
+a) am
+b) im
+c) zum
+
+23
+a) obwohl
+b) weil
+c) damit
+
+24
+a) bekanntes
+b) bekanntem
+c) bekannten
+
+25
+a) aus
+b) mit
+c) von
+
+26
+a) türkisches
+b) türkischem
+c) türkischen
+
+27
+a) damit
+b) obwohl
+c) trotzdem
+
+28
+a) ein
+b) einen
+c) einem
+
+29
+a) günstig
+b) günstige
+c) günstigem
+
+30
+a) ob
+b) wenn
+c) dass
+
+------------------------------------------------------------------------
+
+========================================================================
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+21: a (für)
+   - Açıklama: "sich anmelden für + Akkusativ" = bir şeye kaydolmak. Kalıplaşmış
+     dönüşlü fiil yapısıdır: "Ich habe mich für einen Kochkurs angemeldet."
+     "zu" amaç/yön bildirir (zu einem Kurs gehen), "bei" kurum/kişi bildirir
+     (sich bei der Schule anmelden); ikisi bu bağlama uymaz.
+
+22: a (am)
+   - Açıklama: Haftanın günleriyle kullanılan zaman edatı "am"dir (an + dem):
+     "am nächsten Dienstag." "im" ay ve mevsimlerle kullanılır (im März, im Sommer).
+     "zum" = zu + dem, yön/amaç bildirir ve burada uymaz.
+
+23: b (weil)
+   - Açıklama: "weil" neden bildiren yan cümle kurar ve fiili sona taşır:
+     "weil ich noch nie an so einem Kurs teilgenommen habe."
+     Petra'nın heyecanının nedeni açıklanıyor. "obwohl" zıtlık (rağmen),
+     "damit" amaç (... diye) bildirir; ikisi bu bağlama uymaz.
+
+24: c (bekannten)
+   - Açıklama: "Restaurant" nötr (das Restaurant). "in einem..." yapısı Dativ gerektirir.
+     Belirsiz artikel "einem" (Dativ nötr) sonrasında gelen sıfat her zaman "-en"
+     takısı alır: "in einem bekannten Restaurant."
+     Şık (a) "bekanntes" Nominativ/Akkusativ nötr (artikelsiz), şık (b) "bekanntem"
+     artikelsiz Dativ nötr içindir; her ikisi de "einem" ile kullanılamaz.
+
+25: b (mit)
+   - Açıklama: "mit frischen Zutaten" = taze malzemelerle. Araç/içerik bildiren
+     "mit + Dativ" kalıbı: "Gerichte mit frischen Zutaten zubereiten."
+     "aus" hammadde/köken bildirir (aus Mehl machen = undan yapmak),
+     "von" kaynak bildirir; ikisi bu bağlama uymaz.
+
+26: a (türkisches)
+   - Açıklama: "Kochbuch" nötr (das Kochbuch). "ein ... Kochbuch" yapısında
+     Akkusativ nötr: belirsiz artikel "ein" değişmez, sıfat "-es" takısı alır:
+     "ein türkisches Kochbuch."
+     Şık (b) "türkischem" Dativ nötr, şık (c) "türkischen" Dativ/Akkusativ eril
+     ya da çoğul olurdu.
+
+27: a (damit)
+   - Açıklama: "damit" amaç bildiren yan cümle kurar:
+     "damit ich manche Rezepte auch zu Hause ausprobieren kann"
+     = tariflerini evde de deneyebilmek için kitabı satın aldı.
+     "obwohl" zıtlık, "trotzdem" ise yan cümle değil zarf olarak kullanılır
+     ve bağlaç görevini üstlenemez.
+
+28: b (einen)
+   - Açıklama: "Platz" eril (der Platz) → Akkusativ belirsiz artikel "einen":
+     "Es gibt noch einen freien Platz." "es gibt + Akkusativ" kalıbıdır.
+     Şık (a) "ein" nötr Akkusativ, şık (c) "einem" Dativ olurdu; ikisi de uymaz.
+
+29: a (günstig)
+   - Açıklama: "finden + Adjektiv" yapısında sıfat yüklem konumundadır (prädikativ)
+     ve hiçbir hal eki almaz: "Das finde ich sehr günstig."
+     Yüklem sıfatları Almancada her zaman temel (yalın) biçimiyle kullanılır.
+     Şık (b) "günstige" ve şık (c) "günstigem" gereksiz hal ekleri taşır.
+
+30: c (dass)
+   - Açıklama: "Ich würde mich freuen, dass wir das zusammen machen" → "dass" nesne
+     yan cümlesi kurar ve sevinç konusunu ifade eder. Petra neşesini belirli bir
+     şeye bağlıyor (birlikte yapmaları) → nesne yan cümlesi = "dass."
+     "ob" dolaylı soru (belirsizlik), "wenn" koşul/zaman bildirir; ikisi bu
+     bağlama uymaz.
+
+========================================================================

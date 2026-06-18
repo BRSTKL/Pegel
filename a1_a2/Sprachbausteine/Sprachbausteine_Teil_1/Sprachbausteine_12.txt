@@ -1,0 +1,197 @@
+========================================================================
+telc DEUTSCH A1-A2: OFFIZIELLES SPRACHBAUSTEINE-TRAINING (ÖZGÜN SET 49)
+========================================================================
+Prüfungsbaustein: Sprachbausteine (Lücke füllen / Boşluk Doldurma)
+Dauer: 15 Minuten
+
+KURAL REHBERİ (telc Sınav Stratejisi):
+1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız,
+   mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir.
+2. Strateji: Boşluğun öncesindeki ve sonrasındaki kelimelere dikkat edin. Özellikle
+   dolaylı soru yapılarını (ob, wann, wohin), Dativ çekimini gerektiren fiilleri
+   (helfen, gefallen, gehören, passen) ve zaman bağlaçlarını (nachdem, bevor, während)
+   analiz edin.
+3. Dikkat: "nachdem" (sonra) bağlacında zaman sıralaması önemlidir — "nachdem" yan
+   cümlesi ana cümleden bir zaman dilimi önce gerçekleşen eylemi anlatır ve bu nedenle
+   genellikle Perfekt + Präteritum ya da Plusquamperfekt kombinasyonu gerektirir.
+
+Konu: Yeni şehre taşınmak ve oryantasyon — Henrik, annesi Sigrid'e yazıyor.
+
+------------------------------------------------------------------------
+
+Liebe Mama,
+
+jetzt bin ich schon seit drei Wochen in München und fange langsam an, mich hier
+wohl ___21___. Die Stadt ist wirklich wunderschön, auch wenn ich am Anfang nicht
+wusste, ___22___ ich in so einer großen Stadt zurechtkommen soll.
+
+Nachdem ich ___23___ die Wohnung eingerichtet hatte, habe ich angefangen, die
+Umgebung zu erkunden. Mein Nachbar Otto hat mir dabei sehr ___24___ — er hat mir
+die besten Bäckereien und Märkte in der Nähe gezeigt. Besonders gut ___25___ mir
+ein kleines Café direkt um die Ecke: Der Kaffee dort ist ausgezeichnet und die
+Inhaberin ist sehr freundlich.
+
+Letzte Woche bin ich sogar ___26___ Abend mit ein paar Kollegen aus der neuen
+Arbeit ausgegangen. Wir waren in einem Biergarten — das ist hier wirklich ___27___
+als bei uns zu Hause! Ich habe mich mit ___28___ sehr gut unterhalten, auch wenn
+ich manchmal noch Schwierigkeiten mit ___29___ bayrischen Dialekt habe.
+
+Kannst du mir vielleicht schreiben, ___30___ du mich besuchst? Ich würde mich
+riesig freuen!
+
+Dein Henrik
+
+------------------------------------------------------------------------
+
+SCHLAUBAUSTEINE (SEÇENEKLER: 21 - 30)
+
+21
+a) zu fühlen
+b) fühlen
+c) gefühlt
+
+22
+a) ob
+b) wie
+c) wann
+
+23
+a) mir
+b) mich
+c) sich
+
+24
+a) geholfen
+b) gehelft
+c) helfen
+
+25
+a) schmeckte
+b) gefiel
+c) mochte
+
+26
+a) einen
+b) einem
+c) am
+
+27
+a) schöner
+b) schön
+c) am schönsten
+
+28
+a) ihnen
+b) sie
+c) ihr
+
+29
+a) der
+b) dem
+c) den
+
+30
+a) ob
+b) wann
+c) dass
+
+------------------------------------------------------------------------
+
+========================================================================
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+21: a (zu fühlen)
+   - Açıklama: "anfangen, sich wohl zu fühlen" = kendini iyi hissetmeye başlamak.
+     "anfangen + zu + Infinitiv" kalıbında mastar "zu fühlen" biçiminde gelir.
+     Dönüşlü fiil "sich wohlfühlen" bu yapıda "sich ... zu fühlen" olarak ayrılır:
+     "fange an, mich hier wohl zu fühlen."
+     Şık (b) "fühlen" → "zu" olmadan Infinitiv kullanılamaz; "anfangen" her zaman
+     "zu + Infinitiv" gerektirir.
+     Şık (c) "gefühlt" → Partizip II'dir; "anfangen" Partizip II ile değil
+     "zu + Infinitiv" ile tamamlanır.
+
+22: b (wie)
+   - Açıklama: "nicht wusste, wie ich zurechtkommen soll" = nasıl başa çıkacağımı
+     bilmiyordum. "wie" yöntemi/şekli soran dolaylı soru kelimesidir; fiili sona taşır.
+     Şık (a) "ob" → evet/hayır belirsizliği sorar; burada "nasıl" yöntemi soruluyor.
+     Şık (c) "wann" → zaman sorar (ne zaman); anlam olarak uymaz.
+
+23: c (sich)
+   - Açıklama: "sich die Wohnung einrichten" = evi döşemek/düzenlemek. Bu dönüşlü
+     fiilde özne "ich" (Henrik), dolayısıyla Akkusativ dönüşlülük zamiri "mich"
+     değil Dativ dönüşlülük zamiri "mir" gerekir — çünkü "einrichten" burada
+     Akkusativ nesne ("die Wohnung") alıyor, dolayısıyla dönüşlülük zamiri Dativ:
+     "Ich habe mir die Wohnung eingerichtet."
+     Ancak "nachdem" yan cümlesiyle: "Nachdem ich mir die Wohnung eingerichtet hatte."
+     Şık (a) "mir" → doğru Dativ dönüşlülük zamiri.
+     Şık (b) "mich" → Akkusativ dönüşlülük zamiri; "die Wohnung" zaten Akkusativ
+     nesne olduğundan "mich" kullanılamaz (çift Akkusativ olmaz).
+     Şık (c) "sich" → 3. şahıs dönüşlülük zamiri; özne "ich" olduğundan yanlış.
+
+     CEVAP: a (mir)
+
+24: a (geholfen)
+   - Açıklama: "helfen" fiilinin Partizip II'si "geholfen"dır (starkes Verb —
+     güçlü fiil, kök sesli değişir: helfen → half → geholfen).
+     "hat mir sehr geholfen" = bana çok yardım etti. "helfen" Dativ alır: "mir."
+     Şık (b) "gehelft" → yanlış biçim; "helfen" düzenli (schwach) değil güçlü
+     (stark) bir fiildir, Partizip II "geholfen"dır.
+     Şık (c) "helfen" → Infinitiv; "hat" yardımcı fiilinden sonra Partizip II
+     gerekir, Infinitiv değil.
+
+25: b (gefiel)
+   - Açıklama: "gefallen" = hoşuna gitmek, beğenmek. Dativ alır: "mir gefiel"
+     (benim hoşuma gitti). Präteritum: "gefiel."
+     "Besonders gut gefiel mir ein kleines Café" — sözdizimi dikkat: özne "ein
+     kleines Café", Dativ "mir", yüklem "gefiel."
+     Şık (a) "schmeckte" → "schmecken" yiyecek/içeceklerin tadı için kullanılır;
+     burada kafe (mekan) hakkında genel beğeni ifade ediliyor → "gefallen" daha uygun.
+     Şık (c) "mochte" → "mögen" Präteritum; "ich mochte das Café" (kafe'yi sevdim)
+     dilbilgisel olarak mümkün ama cümle yapısı "mir gefiel" sözdizimini
+     gerektirdiğinden (özne kafe, Dativ mir) "gefiel" doğrudur.
+
+26: c (am)
+   - Açıklama: "am Abend ausgehen" = akşam dışarı çıkmak. Günün bölümleriyle
+     kullanılan zaman edatı "am"dir: "am Abend", "am Morgen", "am Nachmittag."
+     Şık (a) "einen" → "einen Abend" Akkusativ; tek başına zaman belirteci olarak
+     kullanılabilir (einen Abend lang = bir akşam boyunca) ancak bu bağlama uymaz.
+     Şık (b) "einem" → Dativ; tek başına kullanılamaz, bir edat gerektirir.
+
+27: a (schöner)
+   - Açıklama: "schöner als bei uns" = bizim evdekinden daha güzel. Eşitsizlik
+     karşılaştırması Komparativ + "als" kalıbıyla yapılır: "schöner als."
+     Şık (b) "schön" → temel derece; karşılaştırma için Komparativ gerekir.
+     Şık (c) "am schönsten" → Superlativ (en güzel); "als" ile birlikte kullanılamaz,
+     Superlativ tek başına ya da "der/die/das schönste" biçiminde gelir.
+
+28: a (ihnen)
+   - Açıklama: "sich mit jemandem unterhalten" = biriyle sohbet etmek. "mit + Dativ"
+     gerektirir. "ein paar Kollegen" çoğul, 3. şahıs → Dativ çoğul: "ihnen."
+     "Ich habe mich mit ihnen sehr gut unterhalten."
+     Şık (b) "sie" → Nominativ veya Akkusativ çoğul; "mit" Dativ gerektirir.
+     Şık (c) "ihr" → dişil tekil Dativ (ona — kadın); burada çoğul (meslektaşlar)
+     söz konusu olduğundan "ihnen" doğrudur.
+
+29: b (dem)
+   - Açıklama: "Schwierigkeiten mit + Dativ" = ... konusunda zorluk çekmek.
+     "Dialekt" eril (der Dialekt), "mit" Dativ gerektirir: "mit dem bayrischen
+     Dialekt." Belirsiz değil belirli artikel: belirli bir diyalekt (Bavyera).
+     Şık (a) "der" → eril Nominativ ya da dişil Genitiv/Dativ olurdu; "mit"
+     sonrası eril için "dem" gerekir.
+     Şık (c) "den" → eril Akkusativ olurdu; "mit" Dativ gerektirir.
+
+30: b (wann)
+   - Açıklama: "schreiben, wann du mich besuchst" = ne zaman ziyarete geleceğini
+     yaz. "wann" zaman soran dolaylı soru kelimesidir; fiili sona taşır:
+     "wann du mich besuchst."
+     Şık (a) "ob" → evet/hayır belirsizliği sorar; Henrik'in annesi için "gelip
+     gelmeyeceğini" değil "ne zaman geleceğini" sorduğu bağlamdan anlaşılıyor
+     ("ich würde mich riesig freuen" = ziyareti kesin istiyor).
+     Şık (c) "dass" → nesne yan cümlesi kurar; "schreiben, dass du kommst" farklı
+     anlam taşır (geleceğini yaz) — ancak burada tarih/zaman soruluyor → "wann."
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+21-a / 22-b / 23-a / 24-a / 25-b / 26-c / 27-a / 28-a / 29-b / 30-b
+========================================================================

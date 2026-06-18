@@ -1,0 +1,182 @@
+========================================================================
+telc DEUTSCH A1-A2: OFFIZIELLES SPRACHBAUSTEINE-TRAINING (ÖZGÜN SET 42)
+========================================================================
+Prüfungsbaustein: Sprachbausteine (Lücke füllen / Boşluk Doldurma)
+Dauer: 15 Minuten
+
+KURAL REHBERİ (telc Sınav Stratejisi):
+1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız,
+   mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir.
+2. Strateji: Boşluğun öncesindeki ve sonrasındaki kelimelere dikkat edin. Özellikle
+   Perfekt yapısını (haben/sein + Partizip II), karşılaştırma yapılarını (so...wie, als)
+   ve modal fiil + Infinitiv kalıplarını analiz edin.
+3. Dikkat: "haben" ile "sein" yardımcı fiil seçimi sık hata kaynağıdır — hareket ve
+   durum değişikliği fiilleri "sein" alır. Şıkları cümlenin tamamıyla birlikte okuyun.
+
+Konu: Taşınmak — Nils, üniversite arkadaşı Hanna'ya yeni evini anlatıyor.
+
+------------------------------------------------------------------------
+
+Liebe Hanna,
+
+ich ___21___ letzte Woche endlich in meine neue Wohnung eingezogen! Du kannst dir
+nicht vorstellen, wie aufgeregt ich war. Die Wohnung ist nicht so groß ___22___ meine
+alte, aber sie liegt viel besser — direkt in der Nähe ___23___ Stadtmitte.
+
+Das Wohnzimmer bekommt morgens sehr viel Sonne, was ich wirklich schön finde. Ich
+habe fast alle Möbel selbst mitgebracht, nur das Bett ist neu. Meine Mutter hat mir
+___24___ dem Umzug sehr geholfen; ohne sie hätte ich das nie ___25___. Am Abend
+haben wir uns dann erschöpft auf das Sofa gesetzt und Pizza bestellt — wir waren
+beide so müde, dass wir kaum noch ___26___ konnten.
+
+Mein neuer Nachbar heißt Felix und scheint sehr nett ___27___ sein. Er hat sich
+gleich am ersten Tag ___28___ mir vorgestellt und mir sogar einen Kuchen mitgebracht.
+Ich glaube, in dieser Wohnung werde ich ___29___ sehr wohlfühlen! Vielleicht kannst
+du mich ja ___30___ besuchen kommen — ich würde mich riesig freuen.
+
+Bis bald,
+Dein Nils
+
+------------------------------------------------------------------------
+
+SCHLAUBAUSTEINE (SEÇENEKLER: 21 - 30)
+
+21
+a) habe
+b) bin
+c) wurde
+
+22
+a) wie
+b) als
+c) weil
+
+23
+a) der
+b) die
+c) des
+
+24
+a) während
+b) bei
+c) nach
+
+25
+a) geschafft
+b) geschaft
+c) schaffte
+
+26
+a) essen
+b) reden
+c) schlafen
+
+27
+a) für
+b) zu
+c) an
+
+28
+a) an
+b) bei
+c) zu
+
+29
+a) mir
+b) mich
+c) sich
+
+30
+a) bald
+b) selten
+c) nie
+
+------------------------------------------------------------------------
+
+========================================================================
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+21: b (bin)
+   - Açıklama: "einziehen" (taşınmak) yer değişikliği bildiren geçişsiz bir
+     hareket fiilidir. Almancada Perfekt'te yardımcı fiil olarak "sein" alır:
+     "Ich bin eingezogen." Şık (a) "habe" geçişli ya da hareketsiz fiillerle
+     kullanılır. Şık (c) "wurde" Passiv (edilgen) yapısına aittir; burada özne
+     eylemi kendisi gerçekleştiriyor, dolayısıyla Aktiv gerekir.
+
+22: a (wie)
+   - Açıklama: "so groß wie" = ... kadar büyük. Eşitlik karşılaştırması
+     "so + sıfat + wie" kalıbıyla kurulur: "nicht so groß wie meine alte."
+     Şık (b) "als" eşitsizlik karşılaştırmasında kullanılır (größer als = daha büyük
+     olduğunda). Burada olumsuz eşitlik söz konusu olduğundan "wie" zorunludur.
+     Şık (c) "weil" neden bağlacıdır; dilbilgisel olarak bu yapıya hiç uymaz.
+
+23: c (des)
+   - Açıklama: "in der Nähe + Genitiv" kalıbıdır. "Stadtmitte" dişil (die Stadtmitte)
+     olduğu için Genitiv tekil belirli artikel "der" değil "des" değil — dişil
+     Genitiv belirli artikel: "der". Dolayısıyla "in der Nähe der Stadtmitte."
+     ► Dikkat: Eril/nötr Genitiv → "des"; dişil Genitiv → "der"; çoğul → "der".
+     Şık (a) "der" dişil Genitiv için doğrudur.
+     Şık (b) "die" Nominativ/Akkusativ dişil olurdu; Genitiv bağlamına uymaz.
+     Şık (c) "des" eril/nötr Genitiv için kullanılır; "Stadtmitte" dişil
+     olduğundan yanlıştır.
+
+     CEVAP: a (der)
+
+24: b (bei)
+   - Açıklama: "bei dem Umzug helfen" = taşınma sırasında yardım etmek.
+     "bei + Dativ" zaman/bağlam bildiren kalıpsal kullanımdır.
+     Şık (a) "während" da "sırasında" anlamı taşır ancak Genitiv gerektirir:
+     "während des Umzugs" — şıkta yalnızca "während" verilmiş, ardından
+     "dem Umzug" Dativ geldiği için gramer uyumsuzdur.
+     Şık (c) "nach" = sonra; anlam olarak uymaz (anne sonra değil, sırasında yardım etti).
+
+25: a (geschafft)
+   - Açıklama: "schaffen" (başarmak) fiilinin Partizip II'si "geschafft"tır:
+     "hätte ich das nie geschafft" = bunu hiç başaramazdım (Konjunktiv II).
+     Şık (b) "geschaft" yanlış yazımdır — Almancada "ff" çift ünsüz gerekir: geschafft.
+     Şık (c) "schaffte" Präteritum formudur ve "hätte" yardımcı fiiliyle kullanılamaz;
+     Konjunktiv II yapısı "hätte + Partizip II" gerektirir.
+
+26: b (reden)
+   - Açıklama: Bağlam: "o kadar yorgunlardı ki neredeyse konuşamıyorlardı."
+     "kaum noch reden können" = neredeyse konuşamamak. "reden" = konuşmak, sohbet etmek.
+     Şık (a) "essen" = yemek yemek; yorgunlukla bağdaşır ama "kaum essen" (neredeyse
+     yiyememek) daha önceki cümlede zaten pizza yedikleri söylendiğinden çelişir.
+     Şık (c) "schlafen" = uyumak; "kaum schlafen können" mantıklı görünse de
+     "auf das Sofa setzen" (oturmak) ve ardından konuşamamak daha doğal bir yorgunluk
+     tablosu çizer; ayrıca mektubun akışında sohbet vurgusu öne çıkmaktadır.
+
+27: b (zu)
+   - Açıklama: "scheinen + zu + Infinitiv" = ... gibi görünmek. Bu yapı her zaman
+     "zu + Infinitiv" ile tamamlanır: "Er scheint sehr nett zu sein."
+     Şık (a) "für" ve şık (c) "an" bu modal benzeri yapıda kullanılmaz;
+     "scheinen" yalnızca "zu-Infinitiv" alır.
+
+28: b (bei)
+   - Açıklama: "sich bei jemandem vorstellen" = birine kendini tanıtmak.
+     Bu kalıpta kişi Dativ alır ve edat "bei"dir: "Er hat sich bei mir vorgestellt."
+     Şık (a) "an" → "sich an jemanden wenden" (birine başvurmak) farklı bir kalıptır.
+     Şık (c) "zu" → "sich zu jemandem stellen" (yanına geçmek) farklı anlam taşır.
+
+29: a (mir)
+   - Açıklama: "sich wohlfühlen" dönüşlü fiildir. "Ich" öznesi için Akkusativ
+     dönüşlülük zamiri "mich"tir: "Ich werde mich wohlfühlen."
+     Ancak burada "in dieser Wohnung werde ich ___" boşluğuna bakıldığında özne
+     yine "ich" olduğu için dönüşlülük zamiri "mich" olmalıdır.
+     ► Şıklar: (a) "mir" Dativ, (b) "mich" Akkusativ, (c) "sich" 3. şahıs.
+     "sich wohlfühlen" Akkusativ dönüşlü fiildir → "mich" doğrudur.
+
+     CEVAP: b (mich)
+
+30: a (bald)
+   - Açıklama: "Vielleicht kannst du mich ja bald besuchen kommen" = Belki yakında
+     beni ziyarete gelebilirsin. Bağlam davet ve umut içerdiğinden "bald" (yakında)
+     anlam olarak tek uygun seçenektir.
+     Şık (b) "selten" = nadiren; davet bağlamında çelişkili bir anlam verir.
+     Şık (c) "nie" = hiçbir zaman; daveti tamamen olumsuzlar, bağlama kesinlikle uymaz.
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+21-b / 22-a / 23-a / 24-b / 25-a / 26-b / 27-b / 28-b / 29-b / 30-a
+========================================================================

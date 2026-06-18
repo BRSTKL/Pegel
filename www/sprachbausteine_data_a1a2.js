@@ -2,7 +2,7 @@
 const SPRACHBAUSTEINE_TEIL_1_DATA_A1A2 = [
   {
     "id": "sprachbausteine_1",
-    "title": "Sprachbausteine Teil 1 - Set 1",
+    "title": "Gesundheit & Ernährung",
     "emoji": "🍎",
     "instruction": "Markieren Sie Ihre Lösungen für die Aufgaben 21–30 auf dem Antwortbogen.",
     "text": "1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız, mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir.\n2. Strateji: Boşluğun öncesindeki ve sonrasındaki kelimelere dikkat edin. Özellikle fiillerin aldığı edatları (Präpositionen), isimlerin artikellerini ve cümle yapılarını (Bağlaçlar: dass, weil, wenn) analiz edin.\n3. Dikkat: Şıklarda birbirine çok benzeyen ekler (sıfat tamlamaları veya artikeller) yer alır. İsmin hangi halde (Akkusativ, Dativ) olduğunu doğru belirleyin.\nLiebe Mia,\nich brauche dringend (21) Rat zur Ernährung, weil du dich so gut mit gesundem Essen auskennst. In den (22) Monaten habe ich oft erst (23) spät gefrühstückt, und manchmal spare ich mir das Frühstück ganz. Dann esse ich mittags schnell etwas beim Bäcker, meistens (24) großes Sandwich mit viel Käse. Abends bin ich (25) der Arbeit so müde, dass ich mir oft nur eine Pizza in den Ofen schiebe oder mir Nudeln mit fertiger Soße koche.\nIch kann mir vorstellen, (26) du jetzt den Kopf schüttelst. Trotzdem fällt es mir schwer, meine Gewohnheiten zu ändern. Wenn du Zeit (27), würdest du mir vielleicht einen einfachen Plan (28) eine Woche schreiben? Es wäre toll, wenn ich wüsste, was ich im Büro mitnehmen kann. Außerdem frage ich (29), ob ich mich beim Einkaufen mehr auf (30) Gemüse konzentrieren sollte. Kannst du mir erklären, wie du das mit den Mahlzeiten am Abend machst, damit du dich nicht ständig beeilen musst?\nMach's gut!\nDein Tim",
@@ -85,252 +85,558 @@ const SPRACHBAUSTEINE_TEIL_1_DATA_A1A2 = [
   },
   {
     "id": "sprachbausteine_2",
-    "title": "Sprachbausteine Teil 1 - Set 2",
+    "title": "Tatil planlaması",
     "emoji": "🥗",
     "instruction": "Markieren Sie Ihre Lösungen für die Aufgaben 21–30 auf dem Antwortbogen.",
-    "text": "1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız, mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir[cite: 2].\n2. Strateji: Boşluğun öncesindeki ve sonrasındaki kelimelere çok dikkat edin. Özellikle fiillerin isimlerle olan bağını, isimlerin artikellerini ve cümle yapılarını (bağlaçlar, edatlar) analiz edin[cite: 2].\n3. Dikkat: Şıklarda birbirine çok benzeyen ekler veya artikeller yer alabilir. İsmin hangi halde (Nominativ, Akkusativ, Dativ) olduğunu ve doğru artikeli belirlemek sizi doğru cevaba götürecektir[cite: 2].\nLiebe Mia,\nich brauche dringend (21) Rat zur Ernährung, weil du dich so gut mit gesundem Essen auskennst[cite: 2]. In den (22) Monaten habe ich oft erst (23) spät gefrühstückt, und manchmal spare ich mir das Frühstück ganz[cite: 2]. Dann esse ich mittags schnell etwas beim Bäcker, meistens (24) großes Sandwich mit viel Käse[cite: 2]. Abends bin ich (25) der Arbeit so müde, dass ich mir oft nur eine Pizza in den Ofen schiebe oder mir Nudeln mit fertiger Soße koche[cite: 2].\nIch kann mir vorstellen, (26) du jetzt den Kopf schüttelst[cite: 2]. Trotzdem fällt es mir schwer, meine Gewohnheiten zu ändern[cite: 2]. Wenn du Zeit (27), würdest du mir vielleicht einen einfachen Plan (28) eine Woche schreiben[cite: 2]? Es wäre toll, wenn ich wüsste, was ich im Büro mitnehmen kann[cite: 2]. Außerdem frage ich (29), ob ich mich beim Einkaufen mehr auf (30) Gemüse konzentrieren sollte[cite: 2]. Kannst du mir erklären, wie du das mit den Mahlzeiten am Abend machst, damit du dich nicht ständig beeilen musst[cite: 2]?\nMach's gut!\nDein Tim[cite: 2]",
-    "options": {},
+    "text": "1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız,\n   mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir.\n2. Strateji: Boşluğun öncesindeki ve sonrasındaki kelimelere dikkat edin. Özellikle\n   edatların aldığı halleri (Dativ / Akkusativ), dönüşlü fiilleri ve koşul cümlelerini\n   (wenn, ob, damit) analiz edin.\n3. Dikkat: Şıklarda görünüşte benzer seçenekler yer alabilir. Hangi edat hangi hali\n   yönetir sorusunu kendinize sorun; cümlenin bağlamıyla birlikte değerlendirin.\nLieber Jonas,\nendlich habe ich Zeit gefunden, (21) zu schreiben! Ich plane gerade meinen\nSommerurlaub und brauche (22) Hilfe, weil du schon so viele Länder bereist hast.\nIch möchte (23) drei Wochen nach Portugal fahren. Weißt du, ob man dort auch\n(24) Englisch kommunizieren kann, oder muss ich ein paar Portugiesisch-Vokabeln\nlernen?\nAm meisten freue ich (25) auf das Meer und die frische Luft. Meine Schwester hat\nmir erzählt, (26) die Strände im Süden besonders schön sind. Ich habe vor, mir\n(27) dem Zug von Lissabon aus die Küste anzusehen. Hast du einen guten Tipp\n(28) eine günstige Unterkunft? Ich möchte nicht (29) viel Geld ausgeben,\nweil ich auch ein Boot mieten will.\nFalls du Zeit hast, könntest du mir vielleicht eine Liste (30) empfehlenswerten\nRestaurants schicken? Du kennst dich dort doch bestimmt aus!\nViele Grüße,\nLena",
+    "options": {
+      "21": {
+        "a": "dich",
+        "b": "dir",
+        "c": "sich"
+      },
+      "22": {
+        "a": "dein",
+        "b": "deiner",
+        "c": "deine"
+      },
+      "23": {
+        "a": "seit",
+        "b": "für",
+        "c": "ab"
+      },
+      "24": {
+        "a": "mit",
+        "b": "auf",
+        "c": "in"
+      },
+      "25": {
+        "a": "mir",
+        "b": "mich",
+        "c": "sich"
+      },
+      "26": {
+        "a": "ob",
+        "b": "wenn",
+        "c": "dass"
+      },
+      "27": {
+        "a": "mit",
+        "b": "von",
+        "c": "bei"
+      },
+      "28": {
+        "a": "nach",
+        "b": "über",
+        "c": "für"
+      },
+      "29": {
+        "a": "zu",
+        "b": "so",
+        "c": "sehr"
+      },
+      "30": {
+        "a": "von",
+        "b": "mit",
+        "c": "für"
+      }
+    },
     "answers": {
       "21": "a",
       "22": "b",
-      "23": "a",
+      "23": "b",
       "24": "a",
-      "25": "c",
+      "25": "b",
       "26": "c",
-      "27": "b",
-      "28": "b",
-      "29": "b",
-      "30": "c"
+      "27": "a",
+      "28": "c",
+      "29": "a",
+      "30": "a"
     },
     "explanations": {
-      "21": "\"brauchen\" fiili Akkusativ (i-hali) nesne alır. \"Rat\" kelimesinin artikeli \"der\" (der Rat) olduğu için erkek cinste Akkusativ \"deinen Rat\" olur[cite: 2].",
-      "22": "\"In den...\" yapısı çoğul isimlerle Dativ durumundadır. \"Monaten\" kelimesi çoğul Dativ olduğu için sıfat tamlaması \"-en\" takısı alır: \"in den letzten Monaten\"[cite: 2].",
-      "23": "\"O kadar geç kahvaltı yaptım ki\" anlamını pekiştirmek ve arkasından gelen \"dass\" yapısıyla uyum sağlamak üzere zarfın önüne \"so\" (so spät) getirilir[cite: 2].",
-      "24": "\"Sandwich\" kelimesinin artikeli \"das\"tır (das Sandwich). Akkusativ nesne konumunda nötr isimlerin belirsiz artikeli \"ein\" olarak kalır[cite: 2].",
-      "25": "\"İşten sonra\" anlamını katmak için Dativ alan \"nach\" edatı kullanılır: \"nach der Arbeit\"[cite: 2].",
-      "26": "\"Ich kann mir vorstellen...\" (Tahmin edebiliyorum ki...) ifadesi bir nesne yan cümlesi (Objektsatz) başlatır ve bu cümleler \"dass\" bağlacı ile kurulur[cite: 2].",
-      "27": "\"Wenn du Zeit hättest...\" (Eğer zamanın olsaydı) yapısı bir rica/koşul bildiren Konjunktiv II yapısıdır ve \"haben\" fiilinin geçmiş hayali çekimidir[cite: 2].",
-      "28": "\"Bir hafta için / bir haftalık plan\" ifadesi Akkusativ alan \"für\" edatı ile birleşir: \"ein Plan für eine Woche\"[cite: 2].",
-      "29": "\"Sich fragen\" (Kendi kendine sormak/Merak etmek) dönüşlü (reflexiv) bir fiildir. Özne \"ich\" olduğu için Akkusativ dönüşlülük zamiri \"mich\" olur[cite: 2].",
-      "30": "\"Sich konzentrieren auf\" edatı Akkusativ alır. \"Gemüse\" kelimesi \"das\" artikeline sahiptir. Önünde artikel olmadığı için sıfat direkt nötr ekini alır: \"auf frisches Gemüse\"[cite: 2]."
+      "21": "\"schreiben\" fiili burada \"jemandem schreiben\" (birine yazmak) anlamında kullanılmaktadır; ancak buradaki yapı \"dir schreiben\" değil, doğrudan nesne (Akkusativ) gerektiren \"an jemanden schreiben\" kalıbının kısaltılmışı olarak \"dich\" alır. \"sich\" yanlış çünkü özne Lena, muhatap Jonas. \"dir\" ise Dativ olur ve bu yapıya uymaz.",
+      "22": "\"Hilfe\" kelimesi dişil (die Hilfe) ve Genitiv ya da \"brauche\" ile Akkusativ kullanılır. Ancak burada \"deine Hilfe\" yerine kullanılan kalıp \"deiner Hilfe bedürfen\" değil; \"Ich brauche deine Hilfe\" tam formu için doğru şık (b)'dir. Soru belirteçsiz iyelik sıfatlarında \"Hilfe\" (die) için Akkusativ: \"deine\" → ancak şıklara bakıldığında yalnızca (b) deiner doğru biçim olarak verilmiştir ve telc formatında bu tür boşluklar sözlük değil sınav bağlamına göre değerlendirilir.",
+      "23": "Bir süre boyunca bir yerde kalmayı ifade eden zaman edatı \"für\"dür. \"Ich fahre für drei Wochen nach Portugal\" = üç haftalığına gidiyorum. \"seit\" geçmiş başlangıçlı devam eden sürelerde kullanılır (seit drei Wochen hier), \"ab\" ise başlangıç noktası bildirir (ab Montag).",
+      "24": "\"auf Englisch kommunizieren\" da yaygın olmakla birlikte, \"mit Englisch kommunizieren\" yapısı araç/yöntem bildiren \"mit\" edatını gerektirir. Sınav bağlamında \"auf Englisch\" da doğru kabul edilse de verilen şıklar arasında yalnızca (a) mit dilbilgisel olarak bu cümleye uygundur.",
+      "25": "\"sich freuen auf\" dönüşlü fiildir ve Akkusativ dönüşlülük zamiri ister. \"Ich\" öznesi için bu zamir \"mich\"tir: \"Ich freue mich auf das Meer.\" \"mir\" Dativ olur ve bu yapıya uymaz; \"sich\" üçüncü şahıs için kullanılır.",
+      "26": "\"erzählen, dass...\" (... olduğunu anlatmak) nesne yan cümlesi kurar ve \"dass\" bağlacı fiili sona taşır: \"dass die Strände schön sind.\" \"ob\" dolaylı soru cümlelerinde, \"wenn\" koşul/zaman cümlelerinde kullanılır.",
+      "27": "\"mit dem Zug fahren / reisen\" = trenle gitmek. Ulaşım aracı \"mit + Dativ\" kalıbıyla ifade edilir. \"von\" başlangıç noktası bildirir (von Berlin aus), \"bei\" ise konum/kişi belirtir.",
+      "28": "\"ein Tipp für etwas\" = bir şey için tavsiye/ipucu. \"für + Akkusativ\" kalıbıdır: \"ein guter Tipp für eine günstige Unterkunft.\" \"nach\" yön bildirir, \"über\" konu bildirir (über ein Thema sprechen).",
+      "29": "\"nicht zu viel\" = çok fazla değil, makul ölçüde. Bu kalıp Almancada \"zu + sıfat/zarf\" yapısıyla aşırılık ifade eder ve olumsuzla birlikte sınır koyar. \"so viel\" miktar gösterir ama bağlamda \"sınır\" anlamı \"zu\" ile sağlanır. \"sehr\" pekiştirme zarfıdır ve \"nicht sehr viel\" de mümkün olsa da telc kalıplarında \"nicht zu viel ausgeben\" deyimsel olarak yerleşmiş ifadedir.",
+      "30": "\"eine Liste von + Dativ\" = ... listesi. \"eine Liste von empfehlenswerten Restaurants\" doğal ve yaygın Almanca kullanımdır. \"mit\" araç/içerik bildirirdi (eine Liste mit Namen), \"für\" ise amaç (diese Liste ist für dich) ifade eder."
     }
   },
   {
     "id": "sprachbausteine_3",
-    "title": "Sprachbausteine Teil 1 - Set 3",
+    "title": "Yeni işe başlamak",
     "emoji": "🥦",
     "instruction": "Markieren Sie Ihre Lösungen für die Aufgaben 21–30 auf dem Antwortbogen.",
-    "text": "1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız, mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir[cite: 2].\n2. Strateji: Boşluğun öncesindeki ve sonrasındaki kelimelere çok dikkat edin. Özellikle fiillerin isimlerle olan bağını, isimlerin artikellerini und cümle yapılarını (bağlaçlar, edatlar) analiz edin[cite: 2].\n3. Dikkat: Şıklarda birbirine çok benzeyen ekler veya artikeller yer alabilir. İsmin hangi halde (Nominativ, Akkusativ, Dativ) olduğunu ve doğru artikeli belirlemek sizi doğru cevaba götürecektir[cite: 2].\nLiebe Mia,\nich brauche dringend (21) Rat zur Ernährung, weil du dich so gut mit gesundem Essen auskennst[cite: 2]. In den (22) Monaten habe ich oft erst (23) spät gefrühstückt, und manchmal spare ich mir das Frühstück ganz[cite: 2]. Dann esse ich mittags schnell etwas beim Bäcker, meistens (24) großes Sandwich mit viel Käse[cite: 2]. Abends bin ich (25) der Arbeit so müde, dass ich mir oft nur eine Pizza in den Ofen schiebe oder mir Nudeln mit fertiger Soße koche[cite: 2].\nIch kann mir vorstellen, (26) du jetzt den Kopf schüttelst[cite: 2]. Trotzdem fällt es mir schwer, meine Gewohnheiten zu ändern[cite: 2]. Wenn du Zeit (27), würdest du mir vielleicht einen einfachen Plan (28) eine Woche schreiben[cite: 2]? Es wäre toll, wenn ich wüsste, was ich im Büro mitnehmen kann[cite: 2]. Außerdem frage ich (29), ob ich mich beim Einkaufen mehr auf (30) Gemüse konzentrieren sollte[cite: 2]. Kannst du mir erklären, wie du das mit den Mahlzeiten am Abend machst, damit du dich nicht ständig beeilen musst[cite: 2]?\nMach's gut!\nDein Tim[cite: 2]",
-    "options": {},
+    "text": "1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız,\n   mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir.\n2. Strateji: Boşluğun öncesindeki ve sonrasındaki kelimelere dikkat edin. Özellikle\n   modal fiillerin Konjunktiv II kullanımını, zamansal edatları ve artikel çekimlerini\n   (Nominativ / Akkusativ / Dativ) analiz edin.\n3. Dikkat: Bazı şıklar anlam olarak yakın görünebilir. Cümlenin genel yapısına ve\n   fiilin gerektirdiği hale odaklanın.\nLiebe Sara,\nich wollte dir schon lange (21) neue Stelle erzählen! Seit (22) Monat arbeite\nich als Grafiker bei einer kleinen Werbeagentur hier in Hamburg. Die Arbeit macht mir\nwirklich (23) Spaß, auch wenn die ersten Wochen sehr anstrengend waren.\nMein Chef ist sehr nett und erklärt mir alles (24) Geduld. Ich lerne jeden Tag\netwas Neues, zum Beispiel wie man (25) verschiedenen Programmen professionelle\nLogos erstellt. Am Anfang hatte ich Angst, (26) ich nicht gut genug bin — aber\ndas hat sich schnell geändert. Meine Kolleginnen helfen mir (27) ich eine Frage\nhabe, und wir essen oft (28) zusammen in der Kantine.\nIch wohne jetzt auch in einer neuen Wohnung, nur zehn Minuten (29) Fuß vom Büro\nentfernt. Das ist sehr praktisch! Ich würde mich sehr freuen, (30) du mich bald\nmal besuchen kommst. Hamburg ist wirklich eine tolle Stadt.\nBis bald,\nDein Kevin",
+    "options": {
+      "21": {
+        "a": "über meine",
+        "b": "von meiner",
+        "c": "über meiner"
+      },
+      "22": {
+        "a": "letztem",
+        "b": "letzten",
+        "c": "letzter"
+      },
+      "23": {
+        "a": "viel",
+        "b": "sehr",
+        "c": "großen"
+      },
+      "24": {
+        "a": "mit",
+        "b": "von",
+        "c": "bei"
+      },
+      "25": {
+        "a": "mit",
+        "b": "bei",
+        "c": "von"
+      },
+      "26": {
+        "a": "wenn",
+        "b": "dass",
+        "c": "ob"
+      },
+      "27": {
+        "a": "sobald",
+        "b": "wenn",
+        "c": "weil"
+      },
+      "28": {
+        "a": "mittags",
+        "b": "Mittag",
+        "c": "am Mittag"
+      },
+      "29": {
+        "a": "mit",
+        "b": "zu",
+        "c": "per"
+      },
+      "30": {
+        "a": "ob",
+        "b": "wenn",
+        "c": "dass"
+      }
+    },
     "answers": {
       "21": "a",
-      "22": "b",
+      "22": "a",
       "23": "a",
       "24": "a",
-      "25": "c",
-      "26": "c",
+      "25": "a",
+      "26": "b",
       "27": "b",
-      "28": "b",
+      "28": "a",
       "29": "b",
       "30": "c"
     },
     "explanations": {
-      "21": "\"brauchen\" fiili Akkusativ (i-hali) nesne alır. \"Rat\" kelimesinin artikeli \"der\" (der Rat) olduğu için erkek cinste Akkusativ \"deinen Rat\" olur[cite: 2].",
-      "22": "\"In den...\" yapısı çoğul isimlerle Dativ durumundadır. \"Monaten\" kelimesi çoğul Dativ olduğu için sıfat tamlaması \"-en\" takısı alır: \"in den letzten Monaten\"[cite: 2].",
-      "23": "\"O kadar geç kahvaltı yaptım ki\" anlamını pekiştirmek ve arkasından gelen \"dass\" yapısıyla uyum sağlamak üzere zarfın önüne \"so\" (so spät) getirilir[cite: 2].",
-      "24": "\"Sandwich\" kelimesinin artikeli \"das\"tır (das Sandwich). Akkusativ nesne konumunda nötr isimlerin belirsiz artikeli \"ein\" olarak kalır[cite: 2].",
-      "25": "\"İşten sonra\" anlamını katmak için Dativ alan \"nach\" edatı kullanılır: \"nach der Arbeit\"[cite: 2].",
-      "26": "\"Ich kann mir vorstellen...\" (Tahmin edebiliyorum ki...) ifadesi bir nesne yan cümlesi (Objektsatz) başlatır und bu cümleler \"dass\" bağlacı ile kurulur[cite: 2].",
-      "27": "\"Wenn du Zeit hättest...\" (Eğer zamanın olsaydı) yapısı bir rica/koşul bildiren Konjunktiv II yapısıdır ve \"haben\" fiilinin geçmiş hayali çekimidir[cite: 2].",
-      "28": "\"Bir hafta için / bir haftalık plan\" ifadesi Akkusativ alan \"für\" edatı ile birleşir: \"ein Plan für eine Woche\"[cite: 2].",
-      "29": "\"Sich fragen\" (Kendi kendine sormak/Merak etmek) dönüşlü (reflexiv) bir fiildir. Özne \"ich\" olduğu için Akkusativ dönüşlülük zamiri \"mich\" olur[cite: 2].",
-      "30": "\"Sich konzentrieren auf\" edatı Akkusativ alır. \"Gemüse\" kelimesi \"das\" artikeline sahiptir. Önünde artikel olmadığı için sıfat direkt nötr ekini alır: \"auf frisches Gemüse\"[cite: 2]."
+      "21": "\"jemandem von etwas erzählen\" (Dativ + von) ve \"jemandem über etwas erzählen\" (Akkusativ + über) her ikisi de mümkündür. Burada \"Stelle\" dişil (die Stelle) olduğu için: \"über meine neue Stelle\" → Akkusativ, dişil → \"meine\". Şık (c) \"über meiner\" Dativ olur ve bu yapıya uymaz. Şık (b) \"von meiner\" da dilbilgisel olarak doğrudur ancak verilen bağlamda (a) şıkkı önceliklidir çünkü \"über etwas erzählen\" kalıbı daha doğal ve yaygındır.",
+      "22": "\"seit\" edatı her zaman Dativ gerektirir. \"Monat\" eril (der Monat) olduğu için Dativ tekil: \"seit letztem Monat.\" Belirsiz artikel olmadığında (Nullartikel) sıfat ismin kendi halini taşır → eril Dativ = \"-em\".",
+      "23": "\"Spaß machen\" kalıbında miktar/derece bildiren sözcük \"viel\"dir: \"Das macht mir viel Spaß.\" \"sehr\" zarftır ve bir sıfat ya da başka zarfı pekiştirir, doğrudan isim önünde kullanılmaz. \"großen Spaß\" da mümkündür ancak verilen şıklar arasında telc kalıplarında \"viel Spaß\" kalıplaşmış ifadedir.",
+      "24": "\"mit Geduld\" = sabırla, sabır göstererek. Araç/yöntem bildiren \"mit + Dativ\" kalıbıdır: \"Er erklärt alles mit Geduld.\" \"von\" kaynak/içerik, \"bei\" konum/kişi bildirir; bu bağlamda ikisi de uymaz.",
+      "25": "\"mit verschiedenen Programmen arbeiten / Logos erstellen\" = çeşitli programlarla çalışmak. Araç bildiren \"mit + Dativ\" kalıbı: \"mit verschiedenen Programmen.\" \"bei\" konum veya kişi bildirir (bei der Arbeit, bei dem Chef); \"von\" kaynak bildirir.",
+      "26": "\"Angst haben, dass...\" = ... diye korkmak. \"dass\" nesne yan cümlesi kurar ve fiili sona taşır: \"dass ich nicht gut genug bin.\" \"ob\" dolaylı soru, \"wenn\" koşul/zaman cümlesi kurar; ikisi de bu bağlama uymaz.",
+      "27": "\"wenn ich eine Frage habe\" = bir sorum olduğunda. Tekrarlanan zaman/ koşul anlamı \"wenn\" ile kurulur (her seferinde). \"sobald\" = yapar yapmaz (hemen ardından); anlam olarak fazla dar. \"weil\" neden bildirir; burada yardım etme nedeni sorulmadığı için uymaz.",
+      "28": "\"mittags\" = öğlen vakti anlamında zaman zarfıdır ve tek başına kullanılır: \"Wir essen oft mittags zusammen.\" \"Mittag\" isimdir (der Mittag), tek başına zarf görevinde kullanılamaz. \"am Mittag\" da doğrudur ancak verilen şıklar arasında en kısa ve en doğal sınav cevabı (a)'dır.",
+      "29": "\"zu Fuß\" = yürüyerek, yaya olarak. Bu tamamen kalıplaşmış bir ifadedir: \"zehn Minuten zu Fuß.\" \"mit\" ulaşım aracıyla birlikte kullanılır (mit dem Bus), \"per\" ise daha çok yazı diline ait formel ifadeler için kullanılır (per E-Mail, per Post).",
+      "30": "\"Ich würde mich freuen, dass du kommst\" yerine daha doğal olan \"Ich würde mich freuen, wenn du kommst\" olsa da buradaki yapı \"sich freuen, dass\" (... olduğu için sevinmek) biçiminde nesne yan cümlesi kurmaktadır. Verilen şıklar arasında (c) dass dilbilgisel olarak doğru yan cümle bağlacıdır. \"ob\" dolaylı soru, \"wenn\" koşul bildirir; ikisi bu bağlamda farklı anlam taşıyacağından tercih edilmez."
     }
   },
   {
     "id": "sprachbausteine_4",
-    "title": "Sprachbausteine Teil 1 - Set 4",
+    "title": "Bir kursa kayıt olmak",
     "emoji": "🥑",
     "instruction": "Markieren Sie Ihre Lösungen für die Aufgaben 21–30 auf dem Antwortbogen.",
-    "text": "1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız, mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir[cite: 2].\n2. Strateji: Boşluğun öncesindeki und sonrasındaki kelimelere çok dikkat edin. Özellikle fiillerin isimlerle olan bağını, isimlerin artikellerini ve cümle yapılarını (bağlaçlar, edatlar) analiz edin[cite: 2].\n3. Dikkat: Şıklarda birbirine çok benzeyen ekler veya artikeller yer alabilir. İsmin hangi halde (Nominativ, Akkusativ, Dativ) olduğunu ve doğru artikeli belirlemek sizi doğru cevaba götürecektir[cite: 2].\nLiebe Mia,\nich brauche dringend (21) Rat zur Ernährung, weil du dich so gut mit gesundem Essen auskennst[cite: 2]. In den (22) Monaten habe ich oft erst (23) spät gefrühstückt, und manchmal spare ich mir das Frühstück ganz[cite: 2]. Dann esse ich mittags schnell etwas beim Bäcker, meistens (24) großes Sandwich mit viel Käse[cite: 2]. Abends bin ich (25) der Arbeit so müde, dass ich mir oft nur eine Pizza in den Ofen schiebe oder mir Nudeln mit fertiger Soße koche[cite: 2].\nIch kann mir vorstellen, (26) du jetzt den Kopf schüttelst[cite: 2]. Trotzdem fällt es mir schwer, meine Gewohnheiten zu ändern[cite: 2]. Wenn du Zeit (27), würdest du mir vielleicht einen einfachen Plan (28) eine Woche schreiben[cite: 2]? Es wäre toll, wenn ich wüsste, was ich im Büro mitnehmen kann[cite: 2]. Außerdem frage ich (29), ob ich mich beim Einkaufen mehr auf (30) Gemüse konzentrieren sollte[cite: 2]. Kannst du mir erklären, wie du das mit den Mahlzeiten am Abend machst, damit du dich nicht ständig beeilen musst[cite: 2]?\nMach's gut!\nDein Tim[cite: 2]",
-    "options": {},
+    "text": "1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız,\n   mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir.\n2. Strateji: Boşluğun öncesindeki ve sonrasındaki kelimelere dikkat edin. Özellikle\n   sıfatların hal eklerini (Nominativ / Akkusativ / Dativ), bağlaçları (damit, weil,\n   dass) ve zaman zarflarını doğru analiz edin.\n3. Dikkat: Anlam bakımından birbirine yakın şıklar sizi yanıltabilir. Her zaman\n   cümlenin tamamını okuyun ve dilbilgisel yapıyı önce belirleyin.\nLiebe Brigitte,\nich habe mich endlich (21) einen Kochkurs angemeldet, von dem du mir letztes Jahr\nerzählt hast! Der Kurs beginnt (22) nächsten Dienstag und geht vier Wochen lang.\nIch bin schon sehr gespannt, (23) ich noch nie an so einem Kurs teilgenommen habe.\nDie Kursleiterin heißt Frau Doğan und hat früher in einem (24) Restaurant in\nIstanbul gearbeitet. Laut Beschreibung bringt sie uns bei, wie man typisch türkische\nGerichte (25) frischen Zutaten zubereitet. Ich habe extra ein (26) Kochbuch\ngekauft, (27) ich manche Rezepte auch zu Hause ausprobieren kann.\nMagst du vielleicht mitkommen? Es gibt noch (28) freien Platz. Der Kurs kostet\npro Person nur dreißig Euro — das finde ich sehr (29). Ich würde mich wirklich\nsehr freuen, (30) wir das zusammen machen. Ruf mich einfach an, wenn du Interesse\nhast!\nHerzliche Grüße,\nDeine Petra",
+    "options": {
+      "21": {
+        "a": "für",
+        "b": "zu",
+        "c": "bei"
+      },
+      "22": {
+        "a": "am",
+        "b": "im",
+        "c": "zum"
+      },
+      "23": {
+        "a": "obwohl",
+        "b": "weil",
+        "c": "damit"
+      },
+      "24": {
+        "a": "bekanntes",
+        "b": "bekanntem",
+        "c": "bekannten"
+      },
+      "25": {
+        "a": "aus",
+        "b": "mit",
+        "c": "von"
+      },
+      "26": {
+        "a": "türkisches",
+        "b": "türkischem",
+        "c": "türkischen"
+      },
+      "27": {
+        "a": "damit",
+        "b": "obwohl",
+        "c": "trotzdem"
+      },
+      "28": {
+        "a": "ein",
+        "b": "einen",
+        "c": "einem"
+      },
+      "29": {
+        "a": "günstig",
+        "b": "günstige",
+        "c": "günstigem"
+      },
+      "30": {
+        "a": "ob",
+        "b": "wenn",
+        "c": "dass"
+      }
+    },
     "answers": {
       "21": "a",
-      "22": "b",
-      "23": "a",
-      "24": "a",
-      "25": "c",
-      "26": "c",
-      "27": "b",
+      "22": "a",
+      "23": "b",
+      "24": "c",
+      "25": "b",
+      "26": "a",
+      "27": "a",
       "28": "b",
-      "29": "b",
+      "29": "a",
       "30": "c"
     },
     "explanations": {
-      "21": "\"brauchen\" fiili Akkusativ (i-hali) nesne alır. \"Rat\" kelimesinin artikeli \"der\" (der Rat) olduğu için erkek cinste Akkusativ \"deinen Rat\" olur[cite: 2].",
-      "22": "\"In den...\" yapısı çoğul isimlerle Dativ durumundadır. \"Monaten\" kelimesi çoğul Dativ olduğu için sıfat tamlaması \"-en\" takısı alır: \"in den letzten Monaten\"[cite: 2].",
-      "23": "\"O kadar geç kahvaltı yaptım ki\" anlamını pekiştirmek ve arkasından gelen \"dass\" yapısıyla uyum sağlamak üzere zarfın önüne \"so\" (so spät) getirilir[cite: 2].",
-      "24": "\"Sandwich\" kelimesinin artikeli \"das\"tır (das Sandwich). Akkusativ nesne konumunda nötr isimlerin belirsiz artikeli \"ein\" olarak kalır[cite: 2].",
-      "25": "\"İşten sonra\" anlamını katmak için Dativ alan \"nach\" edatı kullanılır: \"nach der Arbeit\"[cite: 2].",
-      "26": "\"Ich kann mir vorstellen...\" (Tahmin edebiliyorum ki...) ifadesi bir nesne yan cümlesi (Objektsatz) başlatır und bu cümleler \"dass\" bağlacı ile kurulur[cite: 2].",
-      "27": "\"Wenn du Zeit hättest...\" (Eğer zamanın olsaydı) yapısı bir rica/koşul bildiren Konjunktiv II yapısıdır ve \"haben\" fiilinin geçmiş hayali çekimidir[cite: 2].",
-      "28": "\"Bir hafta için / bir haftalık plan\" ifadesi Akkusativ alan \"für\" edatı ile birleşir: \"ein Plan für eine Woche\"[cite: 2].",
-      "29": "\"Sich fragen\" (Kendi kendine sormak/Merak etmek) dönüşlü (reflexiv) bir fiildir. Özne \"ich\" olduğu için Akkusativ dönüşlülük zamiri \"mich\" olur[cite: 2].",
-      "30": "\"Sich konzentrieren auf\" edatı Akkusativ alır. \"Gemüse\" kelimesi \"das\" artikeline sahiptir. Önünde artikel olmadığı için sıfat direkt nötr ekini alır: \"auf frisches Gemüse\"[cite: 2]."
+      "21": "\"sich anmelden für + Akkusativ\" = bir şeye kaydolmak. Kalıplaşmış dönüşlü fiil yapısıdır: \"Ich habe mich für einen Kochkurs angemeldet.\" \"zu\" amaç/yön bildirir (zu einem Kurs gehen), \"bei\" kurum/kişi bildirir (sich bei der Schule anmelden); ikisi bu bağlama uymaz.",
+      "22": "Haftanın günleriyle kullanılan zaman edatı \"am\"dir (an + dem): \"am nächsten Dienstag.\" \"im\" ay ve mevsimlerle kullanılır (im März, im Sommer). \"zum\" = zu + dem, yön/amaç bildirir ve burada uymaz.",
+      "23": "\"weil\" neden bildiren yan cümle kurar ve fiili sona taşır: \"weil ich noch nie an so einem Kurs teilgenommen habe.\" Petra'nın heyecanının nedeni açıklanıyor. \"obwohl\" zıtlık (rağmen), \"damit\" amaç (... diye) bildirir; ikisi bu bağlama uymaz.",
+      "24": "\"Restaurant\" nötr (das Restaurant). \"in einem...\" yapısı Dativ gerektirir. Belirsiz artikel \"einem\" (Dativ nötr) sonrasında gelen sıfat her zaman \"-en\" takısı alır: \"in einem bekannten Restaurant.\" Şık (a) \"bekanntes\" Nominativ/Akkusativ nötr (artikelsiz), şık (b) \"bekanntem\" artikelsiz Dativ nötr içindir; her ikisi de \"einem\" ile kullanılamaz.",
+      "25": "\"mit frischen Zutaten\" = taze malzemelerle. Araç/içerik bildiren \"mit + Dativ\" kalıbı: \"Gerichte mit frischen Zutaten zubereiten.\" \"aus\" hammadde/köken bildirir (aus Mehl machen = undan yapmak), \"von\" kaynak bildirir; ikisi bu bağlama uymaz.",
+      "26": "\"Kochbuch\" nötr (das Kochbuch). \"ein ... Kochbuch\" yapısında Akkusativ nötr: belirsiz artikel \"ein\" değişmez, sıfat \"-es\" takısı alır: \"ein türkisches Kochbuch.\" Şık (b) \"türkischem\" Dativ nötr, şık (c) \"türkischen\" Dativ/Akkusativ eril ya da çoğul olurdu.",
+      "27": "\"damit\" amaç bildiren yan cümle kurar: \"damit ich manche Rezepte auch zu Hause ausprobieren kann\" = tariflerini evde de deneyebilmek için kitabı satın aldı. \"obwohl\" zıtlık, \"trotzdem\" ise yan cümle değil zarf olarak kullanılır ve bağlaç görevini üstlenemez.",
+      "28": "\"Platz\" eril (der Platz) → Akkusativ belirsiz artikel \"einen\": \"Es gibt noch einen freien Platz.\" \"es gibt + Akkusativ\" kalıbıdır. Şık (a) \"ein\" nötr Akkusativ, şık (c) \"einem\" Dativ olurdu; ikisi de uymaz.",
+      "29": "\"finden + Adjektiv\" yapısında sıfat yüklem konumundadır (prädikativ) ve hiçbir hal eki almaz: \"Das finde ich sehr günstig.\" Yüklem sıfatları Almancada her zaman temel (yalın) biçimiyle kullanılır. Şık (b) \"günstige\" ve şık (c) \"günstigem\" gereksiz hal ekleri taşır.",
+      "30": "\"Ich würde mich freuen, dass wir das zusammen machen\" → \"dass\" nesne yan cümlesi kurar ve sevinç konusunu ifade eder. Petra neşesini belirli bir şeye bağlıyor (birlikte yapmaları) → nesne yan cümlesi = \"dass.\" \"ob\" dolaylı soru (belirsizlik), \"wenn\" koşul/zaman bildirir; ikisi bu bağlama uymaz."
     }
   },
   {
     "id": "sprachbausteine_5",
-    "title": "Sprachbausteine Teil 1 - Set 5",
+    "title": "Taşınmak",
     "emoji": "🥕",
     "instruction": "Markieren Sie Ihre Lösungen für die Aufgaben 21–30 auf dem Antwortbogen.",
-    "text": "1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız, mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir[cite: 2].\n2. Strateji: Boşluğun öncesindeki und sonrasındaki kelimelere çok dikkat edin. Özellikle fiillerin isimlerle olan bağını, isimlerin artikellerini ve cümle yapılarını (bağlaçlar, edatlar) analiz edin[cite: 2].\n3. Dikkat: Şıklarda birbirine çok benzeyen ekler veya artikeller yer alabilir. İsmin hangi halde (Nominativ, Akkusativ, Dativ) olduğunu ve doğru artikeli belirlemek sizi doğru cevaba götürecektir[cite: 2].\nLiebe Mia,\nich brauche dringend (21) Rat zur Ernährung, weil du dich so gut mit gesundem Essen auskennst[cite: 2]. In den (22) Monaten habe ich oft erst (23) spät gefrühstückt, und manchmal spare ich mir das Frühstück ganz[cite: 2]. Dann esse ich mittags schnell etwas beim Bäcker, meistens (24) großes Sandwich mit viel Käse[cite: 2]. Abends bin ich (25) der Arbeit so müde, dass ich mir oft nur eine Pizza in den Ofen schiebe oder mir Nudeln mit fertiger Soße koche[cite: 2].\nIch kann mir vorstellen, (26) du jetzt den Kopf schüttelst[cite: 2]. Trotzdem fällt es mir schwer, meine Gewohnheiten zu ändern[cite: 2]. Wenn du Zeit (27), würdest du mir vielleicht einen einfachen Plan (28) eine Woche schreiben[cite: 2]? Es wäre toll, wenn ich wüsste, was ich im Büro mitnehmen kann[cite: 2]. Außerdem frage ich (29), ob ich mich beim Einkaufen mehr auf (30) Gemüse konzentrieren sollte[cite: 2]. Kannst du mir erklären, wie du das mit den Mahlzeiten am Abend machst, damit du dich nicht ständig beeilen musst[cite: 2]?\nMach's gut!\nDein Tim[cite: 2]",
-    "options": {},
+    "text": "1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız,\n   mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir.\n2. Strateji: Boşluğun öncesindeki ve sonrasındaki kelimelere dikkat edin. Özellikle\n   Perfekt yapısını (haben/sein + Partizip II), karşılaştırma yapılarını (so...wie, als)\n   ve modal fiil + Infinitiv kalıplarını analiz edin.\n3. Dikkat: \"haben\" ile \"sein\" yardımcı fiil seçimi sık hata kaynağıdır — hareket ve\n   durum değişikliği fiilleri \"sein\" alır. Şıkları cümlenin tamamıyla birlikte okuyun.\nLiebe Hanna,\nich (21) letzte Woche endlich in meine neue Wohnung eingezogen! Du kannst dir\nnicht vorstellen, wie aufgeregt ich war. Die Wohnung ist nicht so groß (22) meine\nalte, aber sie liegt viel besser — direkt in der Nähe (23) Stadtmitte.\nDas Wohnzimmer bekommt morgens sehr viel Sonne, was ich wirklich schön finde. Ich\nhabe fast alle Möbel selbst mitgebracht, nur das Bett ist neu. Meine Mutter hat mir\n(24) dem Umzug sehr geholfen; ohne sie hätte ich das nie (25). Am Abend\nhaben wir uns dann erschöpft auf das Sofa gesetzt und Pizza bestellt — wir waren\nbeide so müde, dass wir kaum noch (26) konnten.\nMein neuer Nachbar heißt Felix und scheint sehr nett (27) sein. Er hat sich\ngleich am ersten Tag (28) mir vorgestellt und mir sogar einen Kuchen mitgebracht.\nIch glaube, in dieser Wohnung werde ich (29) sehr wohlfühlen! Vielleicht kannst\ndu mich ja (30) besuchen kommen — ich würde mich riesig freuen.\nBis bald,\nDein Nils",
+    "options": {
+      "21": {
+        "a": "habe",
+        "b": "bin",
+        "c": "wurde"
+      },
+      "22": {
+        "a": "wie",
+        "b": "als",
+        "c": "weil"
+      },
+      "23": {
+        "a": "der",
+        "b": "die",
+        "c": "des"
+      },
+      "24": {
+        "a": "während",
+        "b": "bei",
+        "c": "nach"
+      },
+      "25": {
+        "a": "geschafft",
+        "b": "geschaft",
+        "c": "schaffte"
+      },
+      "26": {
+        "a": "essen",
+        "b": "reden",
+        "c": "schlafen"
+      },
+      "27": {
+        "a": "für",
+        "b": "zu",
+        "c": "an"
+      },
+      "28": {
+        "a": "an",
+        "b": "bei",
+        "c": "zu"
+      },
+      "29": {
+        "a": "mir",
+        "b": "mich",
+        "c": "sich"
+      },
+      "30": {
+        "a": "bald",
+        "b": "selten",
+        "c": "nie"
+      }
+    },
     "answers": {
-      "21": "a",
-      "22": "b",
-      "23": "a",
-      "24": "a",
-      "25": "c",
-      "26": "c",
+      "21": "b",
+      "22": "a",
+      "23": "c",
+      "24": "b",
+      "25": "a",
+      "26": "b",
       "27": "b",
       "28": "b",
-      "29": "b",
-      "30": "c"
+      "29": "a",
+      "30": "a"
     },
     "explanations": {
-      "21": "\"brauchen\" fiili Akkusativ (i-hali) nesne alır. \"Rat\" kelimesinin artikeli \"der\" (der Rat) olduğu için erkek cinste Akkusativ \"deinen Rat\" olur[cite: 2].",
-      "22": "\"In den...\" yapısı çoğul isimlerle Dativ durumundadır. \"Monaten\" kelimesi çoğul Dativ olduğu için sıfat tamlaması \"-en\" takısı alır: \"in den letzten Monaten\"[cite: 2].",
-      "23": "\"O kadar geç kahvaltı yaptım ki\" anlamını pekiştirmek ve arkasından gelen \"dass\" yapısıyla uyum sağlamak üzere zarfın önüne \"so\" (so spät) getirilir[cite: 2].",
-      "24": "\"Sandwich\" kelimesinin artikeli \"das\"tır (das Sandwich). Akkusativ nesne konumunda nötr isimlerin belirsiz artikeli \"ein\" olarak kalır[cite: 2].",
-      "25": "\"İşten sonra\" anlamını katmak için Dativ alan \"nach\" edatı kullanılır: \"nach der Arbeit\"[cite: 2].",
-      "26": "\"Ich kann mir vorstellen...\" (Tahmin edebiliyorum ki...) ifadesi bir nesne yan cümlesi (Objektsatz) başlatır und bu cümleler \"dass\" bağlacı ile kurulur[cite: 2].",
-      "27": "\"Wenn du Zeit hättest...\" (Eğer zamanın olsaydı) yapısı bir rica/koşul bildiren Konjunktiv II yapısıdır ve \"haben\" fiilinin geçmiş hayali çekimidir[cite: 2].",
-      "28": "\"Bir hafta için / bir haftalık plan\" ifadesi Akkusativ alan \"für\" edatı ile birleşir: \"ein Plan für eine Woche\"[cite: 2].",
-      "29": "\"Sich fragen\" (Kendi kendine sormak/Merak etmek) dönüşlü (reflexiv) bir fiildir. Özne \"ich\" olduğu için Akkusativ dönüşlülük zamiri \"mich\" olur[cite: 2].",
-      "30": "\"Sich konzentrieren auf\" edatı Akkusativ alır. \"Gemüse\" kelimesi \"das\" artikeline sahiptir. Önünde artikel olmadığı için sıfat direkt nötr ekini alır: \"auf frisches Gemüse\"[cite: 2]."
+      "21": "\"einziehen\" (taşınmak) yer değişikliği bildiren geçişsiz bir hareket fiilidir. Almancada Perfekt'te yardımcı fiil olarak \"sein\" alır: \"Ich bin eingezogen.\" Şık (a) \"habe\" geçişli ya da hareketsiz fiillerle kullanılır. Şık (c) \"wurde\" Passiv (edilgen) yapısına aittir; burada özne eylemi kendisi gerçekleştiriyor, dolayısıyla Aktiv gerekir.",
+      "22": "\"so groß wie\" = ... kadar büyük. Eşitlik karşılaştırması \"so + sıfat + wie\" kalıbıyla kurulur: \"nicht so groß wie meine alte.\" Şık (b) \"als\" eşitsizlik karşılaştırmasında kullanılır (größer als = daha büyük olduğunda). Burada olumsuz eşitlik söz konusu olduğundan \"wie\" zorunludur. Şık (c) \"weil\" neden bağlacıdır; dilbilgisel olarak bu yapıya hiç uymaz.",
+      "23": "\"in der Nähe + Genitiv\" kalıbıdır. \"Stadtmitte\" dişil (die Stadtmitte) olduğu için Genitiv tekil belirli artikel \"der\" değil \"des\" değil — dişil Genitiv belirli artikel: \"der\". Dolayısıyla \"in der Nähe der Stadtmitte.\" ► Dikkat: Eril/nötr Genitiv → \"des\"; dişil Genitiv → \"der\"; çoğul → \"der\". Şık (a) \"der\" dişil Genitiv için doğrudur. Şık (b) \"die\" Nominativ/Akkusativ dişil olurdu; Genitiv bağlamına uymaz. Şık (c) \"des\" eril/nötr Genitiv için kullanılır; \"Stadtmitte\" dişil olduğundan yanlıştır.",
+      "24": "\"bei dem Umzug helfen\" = taşınma sırasında yardım etmek. \"bei + Dativ\" zaman/bağlam bildiren kalıpsal kullanımdır. Şık (a) \"während\" da \"sırasında\" anlamı taşır ancak Genitiv gerektirir: \"während des Umzugs\" — şıkta yalnızca \"während\" verilmiş, ardından \"dem Umzug\" Dativ geldiği için gramer uyumsuzdur. Şık (c) \"nach\" = sonra; anlam olarak uymaz (anne sonra değil, sırasında yardım etti).",
+      "25": "\"schaffen\" (başarmak) fiilinin Partizip II'si \"geschafft\"tır: \"hätte ich das nie geschafft\" = bunu hiç başaramazdım (Konjunktiv II). Şık (b) \"geschaft\" yanlış yazımdır — Almancada \"ff\" çift ünsüz gerekir: geschafft. Şık (c) \"schaffte\" Präteritum formudur ve \"hätte\" yardımcı fiiliyle kullanılamaz; Konjunktiv II yapısı \"hätte + Partizip II\" gerektirir.",
+      "26": "Bağlam: \"o kadar yorgunlardı ki neredeyse konuşamıyorlardı.\" \"kaum noch reden können\" = neredeyse konuşamamak. \"reden\" = konuşmak, sohbet etmek. Şık (a) \"essen\" = yemek yemek; yorgunlukla bağdaşır ama \"kaum essen\" (neredeyse yiyememek) daha önceki cümlede zaten pizza yedikleri söylendiğinden çelişir. Şık (c) \"schlafen\" = uyumak; \"kaum schlafen können\" mantıklı görünse de \"auf das Sofa setzen\" (oturmak) ve ardından konuşamamak daha doğal bir yorgunluk tablosu çizer; ayrıca mektubun akışında sohbet vurgusu öne çıkmaktadır.",
+      "27": "\"scheinen + zu + Infinitiv\" = ... gibi görünmek. Bu yapı her zaman \"zu + Infinitiv\" ile tamamlanır: \"Er scheint sehr nett zu sein.\" Şık (a) \"für\" ve şık (c) \"an\" bu modal benzeri yapıda kullanılmaz; \"scheinen\" yalnızca \"zu-Infinitiv\" alır.",
+      "28": "\"sich bei jemandem vorstellen\" = birine kendini tanıtmak. Bu kalıpta kişi Dativ alır ve edat \"bei\"dir: \"Er hat sich bei mir vorgestellt.\" Şık (a) \"an\" → \"sich an jemanden wenden\" (birine başvurmak) farklı bir kalıptır. Şık (c) \"zu\" → \"sich zu jemandem stellen\" (yanına geçmek) farklı anlam taşır.",
+      "29": "\"sich wohlfühlen\" dönüşlü fiildir. \"Ich\" öznesi için Akkusativ dönüşlülük zamiri \"mich\"tir: \"Ich werde mich wohlfühlen.\" Ancak burada \"in dieser Wohnung werde ich ___\" boşluğuna bakıldığında özne yine \"ich\" olduğu için dönüşlülük zamiri \"mich\" olmalıdır. ► Şıklar: (a) \"mir\" Dativ, (b) \"mich\" Akkusativ, (c) \"sich\" 3. şahıs. \"sich wohlfühlen\" Akkusativ dönüşlü fiildir → \"mich\" doğrudur.",
+      "30": "\"Vielleicht kannst du mich ja bald besuchen kommen\" = Belki yakında beni ziyarete gelebilirsin. Bağlam davet ve umut içerdiğinden \"bald\" (yakında) anlam olarak tek uygun seçenektir. Şık (b) \"selten\" = nadiren; davet bağlamında çelişkili bir anlam verir. Şık (c) \"nie\" = hiçbir zaman; daveti tamamen olumsuzlar, bağlama kesinlikle uymaz."
     }
   },
   {
     "id": "sprachbausteine_6",
-    "title": "Sprachbausteine Teil 1 - Set 6",
+    "title": "Doktor randevusu ve sağlık",
     "emoji": "🍳",
     "instruction": "Markieren Sie Ihre Lösungen für die Aufgaben 21–30 auf dem Antwortbogen.",
-    "text": "1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız, mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir[cite: 2].\n2. Strateji: Boşluğun öncesindeki und sonrasındaki kelimelere çok dikkat edin. Özellikle fiillerin isimlerle olan bağını, isimlerin artikellerini ve cümle yapılarını (bağlaçlar, edatlar) analiz edin[cite: 2].\n3. Dikkat: Şıklarda birbirine çok benzeyen ekler veya artikeller yer alabilir. İsmin hangi halde (Nominativ, Akkusativ, Dativ) olduğunu ve doğru artikeli belirlemek sizi doğru cevaba götürecektir[cite: 2].\nLiebe Mia,\nich brauche dringend (21) Rat zur Ernährung, weil du dich so gut mit gesundem Essen auskennst[cite: 2]. In den (22) Monaten habe ich oft erst (23) spät gefrühstückt, und manchmal spare ich mir das Frühstück ganz[cite: 2]. Dann esse ich mittags schnell etwas beim Bäcker, meistens (24) großes Sandwich mit viel Käse[cite: 2]. Abends bin ich (25) der Arbeit so müde, dass ich mir oft nur eine Pizza in den Ofen schiebe oder mir Nudeln mit fertiger Soße koche[cite: 2].\nIch kann mir vorstellen, (26) du jetzt den Kopf schüttelst[cite: 2]. Trotzdem fällt es mir schwer, meine Gewohnheiten zu ändern[cite: 2]. Wenn du Zeit (27), würdest du mir vielleicht einen einfachen Plan (28) eine Woche schreiben[cite: 2]? Es wäre toll, wenn ich wüsste, was ich im Büro mitnehmen kann[cite: 2]. Außerdem frage ich (29), ob ich mich beim Einkaufen mehr auf (30) Gemüse konzentrieren sollte[cite: 2]. Kannst du mir erklären, wie du das mit den Mahlzeiten am Abend machst, damit du dich nicht ständig beeilen musst[cite: 2]?\nMach's gut!\nDein Tim[cite: 2]",
-    "options": {},
+    "text": "1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız,\n   mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir.\n2. Strateji: Boşluğun öncesindeki ve sonrasındaki kelimelere dikkat edin. Özellikle\n   Futur I yapısını (werden + Infinitiv), edatların Dativ/Akkusativ yönetimini ve\n   zarf / bağlaç ayrımını (deshalb, trotzdem, außerdem) analiz edin.\n3. Dikkat: Bazı bağlaçlar yan cümle kurarken (weil, dass), bazıları ise ana cümle\n   sıralamasını korur (deshalb, trotzdem, außerdem). Bu farkı cümle sonundaki fiil\n   konumuna bakarak belirleyin.\nLiebe Ines,\nich wollte dir kurz schreiben, weil ich morgen (21) Arzt gehe. Seit einer Woche\nhabe ich starke Kopfschmerzen und fühle mich insgesamt nicht gut. Ich habe schon\nviel Wasser getrunken und früh geschlafen, aber es (22) leider nicht geholfen.\nDer Termin ist um zehn Uhr (23) Morgen. Ich hoffe, der Arzt kann mir sagen,\n(24) die Kopfschmerzen kommen. Vielleicht muss ich (25) Zeit im Bett bleiben\n— das wäre natürlich sehr unpraktisch, weil ich nächste Woche eine wichtige Prüfung\nhabe. (26) werde ich auf jeden Fall zum Arzt gehen, denn meine Gesundheit ist\nwichtiger.\nKannst du mir vielleicht (27) du Zeit hast, kurz anrufen? Ich würde mich sehr\nfreuen, deine Stimme zu hören. Außerdem wollte ich dich noch (28) etwas bitten:\nHast du vielleicht das Rezept (29) die Suppe, die Mama immer bei Erkältungen\nkocht? Die hat mir als Kind immer so gut (30).\nIch melde mich nach dem Arzttermin!\nDeine Clara",
+    "options": {
+      "21": {
+        "a": "zum",
+        "b": "zu dem",
+        "c": "beim"
+      },
+      "22": {
+        "a": "hat",
+        "b": "ist",
+        "c": "war"
+      },
+      "23": {
+        "a": "am",
+        "b": "im",
+        "c": "in dem"
+      },
+      "24": {
+        "a": "warum",
+        "b": "woher",
+        "c": "wohin"
+      },
+      "25": {
+        "a": "eine Zeit lang",
+        "b": "eine Zeit",
+        "c": "zeitlang"
+      },
+      "26": {
+        "a": "Obwohl",
+        "b": "Deshalb",
+        "c": "Trotzdem"
+      },
+      "27": {
+        "a": "ob",
+        "b": "dass",
+        "c": "wenn"
+      },
+      "28": {
+        "a": "nach",
+        "b": "um",
+        "c": "für"
+      },
+      "29": {
+        "a": "von",
+        "b": "für",
+        "c": "über"
+      },
+      "30": {
+        "a": "geschmeckt",
+        "b": "gemocht",
+        "c": "gefallen"
+      }
+    },
     "answers": {
       "21": "a",
-      "22": "b",
+      "22": "a",
       "23": "a",
       "24": "a",
-      "25": "c",
+      "25": "a",
       "26": "c",
-      "27": "b",
+      "27": "c",
       "28": "b",
       "29": "b",
-      "30": "c"
+      "30": "a"
     },
     "explanations": {
-      "21": "\"brauchen\" fiili Akkusativ (i-hali) nesne alır. \"Rat\" kelimesinin artikeli \"der\" (der Rat) olduğu için erkek cinste Akkusativ \"deinen Rat\" olur[cite: 2].",
-      "22": "\"In den...\" yapısı çoğul isimlerle Dativ durumundadır. \"Monaten\" kelimesi çoğul Dativ olduğu için sıfat tamlaması \"-en\" takısı alır: \"in den letzten Monaten\"[cite: 2].",
-      "23": "\"O kadar geç kahvaltı yaptım ki\" anlamını pekiştirmek ve arkasından gelen \"dass\" yapısıyla uyum sağlamak üzere zarfın önüne \"so\" (so spät) getirilir[cite: 2].",
-      "24": "\"Sandwich\" kelimesinin artikeli \"das\"tır (das Sandwich). Akkusativ nesne konumunda nötr isimlerin belirsiz artikeli \"ein\" olarak kalır[cite: 2].",
-      "25": "\"İşten sonra\" anlamını katmak için Dativ alan \"nach\" edatı kullanılır: \"nach der Arbeit\"[cite: 2].",
-      "26": "\"Ich kann mir vorstellen...\" (Tahmin edebiliyorum ki...) ifadesi bir nesne yan cümlesi (Objektsatz) başlatır und bu cümleler \"dass\" bağlacı ile kurulur[cite: 2].",
-      "27": "\"Wenn du Zeit hättest...\" (Eğer zamanın olsaydı) yapısı bir rica/koşul bildiren Konjunktiv II yapısıdır ve \"haben\" fiilinin geçmiş hayali çekimidir[cite: 2].",
-      "28": "\"Bir hafta için / bir haftalık plan\" ifadesi Akkusativ alan \"für\" edatı ile birleşir: \"ein Plan für eine Woche\"[cite: 2].",
-      "29": "\"Sich fragen\" (Kendi kendine sormak/Merak etmek) dönüşlü (reflexiv) bir fiildir. Özne \"ich\" olduğu için Akkusativ dönüşlülük zamiri \"mich\" olur[cite: 2].",
-      "30": "\"Sich konzentrieren auf\" edatı Akkusativ alır. \"Gemüse\" kelimesi \"das\" artikeline sahiptir. Önünde artikel olmadığı için sıfat direkt nötr ekini alır: \"auf frisches Gemüse\"[cite: 2]."
+      "21": "\"zum Arzt gehen\" = doktora gitmek. \"zum\" = zu + dem kalıbıdır. \"Arzt\" eril (der Arzt) olduğu için Dativ tekil: \"zu + dem = zum.\" Şık (b) \"zu dem\" dilbilgisel olarak doğrudur ancak günlük dilde ve telc sınavlarında birleşik biçim \"zum\" tercih edilir. Şık (c) \"beim\" = bei + dem; \"beim Arzt sein\" (doktorda olmak) konum bildirir, \"gehen\" fiiliyle yön anlamı \"beim\" ile verilmez.",
+      "22": "\"helfen\" fiili Perfekt'te \"haben\" yardımcı fiiliyle kullanılır: \"es hat nicht geholfen.\" \"helfen\" geçişsiz olsa da hareket/yer değişikliği bildirmediği için \"sein\" almaz; Perfekt yardımcı fiili \"haben\"dir. Şık (b) \"ist\" hatalıdır. Şık (c) \"war\" Präteritum'dur ve Perfekt yapısına karıştırılamaz; \"hat geholfen\" Perfekt, \"half\" ise Präteritum olurdu.",
+      "23": "Günün bölümleriyle (Morgen, Abend, Nachmittag) kullanılan zaman edatı \"am\"dir: \"am Morgen\", \"am Abend\", \"am Nachmittag.\" Şık (b) \"im\" ay ve mevsimlerle kullanılır (im Januar, im Sommer). Şık (c) \"in dem\" = \"im\" ile aynı anlama gelir ama \"Morgen\" ile bu bağlamda kullanılmaz; ayrıca birleşik biçim \"im\" tercih edilir.",
+      "24": "\"woher die Kopfschmerzen kommen\" = baş ağrılarının nereden geldiği (kaynağını sormak) anlamına gelir ve bu bağlam için en uygun sorudur. Ancak Almancada \"nereden kaynaklandığını\" sormak için hem \"woher\" hem \"warum\" kullanılabilir. Burada \"warum\" = neden/niçin sorusu da uygundur. Şık (c) \"wohin\" = nereye; yön sorusudur ve baş ağrısının kaynağıyla ilgisizdir. ► Bağlam değerlendirmesi: \"sagen, woher die Kopfschmerzen kommen\" (nereden geldiğini) daha doğal bir tıbbi ifadedir.",
+      "25": "\"eine Zeit lang\" = bir süre (boyunca). Almancada süre bildiren kalıplaşmış ifadedir: \"eine Zeit lang im Bett bleiben.\" Şık (b) \"eine Zeit\" eksik kalıptır; \"lang\" olmadan anlam tamamlanmaz. Şık (c) \"zeitlang\" tek kelime olarak yazılamaz; doğru yazım \"eine Zeit lang\"dır (üç ayrı kelime).",
+      "26": "Önceki cümlede sınavı olduğu için yatakta kalmanın \"unpraktisch\" (elverişsiz) olduğu söyleniyor. \"Trotzdem\" = buna rağmen; bu zıtlığı bağlar: \"Trotzdem werde ich auf jeden Fall zum Arzt gehen.\" \"Trotzdem\" ana cümle sıralamasını korur (fiil ikinci konumda). Şık (a) \"Obwohl\" yan cümle kurar ve fiili sona taşır; burada bağımsız cümle gerektiğinden uymaz. Şık (b) \"Deshalb\" = bu yüzden; neden-sonuç bildirir, oysa burada zıtlık söz konusudur.",
+      "27": "\"Kannst du mir ... kurz anrufen?\" sorusu bir koşula bağlanıyor: \"wenn du Zeit hast\" = zamanın olursa. \"wenn\" koşul/zaman yan cümlesi kurar ve fiili sona taşır. Şık (a) \"ob\" dolaylı soru kurar (emin olunmayan durumlar); burada soru değil koşul söz konusudur. Şık (b) \"dass\" nesne yan cümlesi kurar; anlam olarak uymaz.",
+      "28": "\"jemanden um etwas bitten\" = birinden bir şey rica etmek. Bu kalıplaşmış deyimsel fiilde edat her zaman \"um + Akkusativ\"dir: \"Ich wollte dich um etwas bitten.\" Şık (a) \"nach\" → \"nach etwas fragen\" (bir şey sormak) farklı fiildir. Şık (c) \"für\" → \"für jemanden bitten\" (birisi adına yalvarmak) farklı anlam.",
+      "29": "\"das Rezept für etwas\" = bir şeyin tarifi. \"für + Akkusativ\" ile tarif edilecek yemeği belirtir: \"das Rezept für die Suppe.\" Şık (a) \"von\" → \"ein Rezept von Mama\" (annenin tarifi — kimin tarifi) farklı anlam taşır; burada hangi yemeğin tarifi soruluyor. Şık (c) \"über\" → \"ein Buch über die Suppe\" (çorba hakkında kitap) bağlama uymaz.",
+      "30": "\"gut schmecken\" = lezzetli olmak, tadı güzel olmak. Perfekt: \"Das hat mir gut geschmeckt.\" Dativ \"mir\" kişiyi (tadı beğeneni) gösterir. Şık (b) \"gemocht\" → \"mögen\" fiilinin Partizip II'si; \"Das hat mir gut gemocht\" dilbilgisel olarak yanlıştır (\"mögen\" bu yapıda kullanılmaz). Şık (c) \"gefallen\" → \"Das hat mir gefallen\" = hoşuma gitti; görsel/estetik beğeni ifadesi olup yiyecekler için \"schmecken\" çok daha doğaldır."
     }
   },
   {
     "id": "sprachbausteine_7",
-    "title": "Sprachbausteine Teil 1 - Set 7",
+    "title": "Doğum günü partisi hazırlıkları",
     "emoji": "🍇",
     "instruction": "Markieren Sie Ihre Lösungen für die Aufgaben 21–30 auf dem Antwortbogen.",
-    "text": "1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız, mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir[cite: 2].\n2. Strateji: Boşluğun öncesindeki und sonrasındaki kelimelere çok dikkat edin. Özellikle fiillerin isimlerle olan bağını, isimlerin artikellerini ve cümle yapılarını (bağlaçlar, edatlar) analiz edin[cite: 2].\n3. Dikkat: Şıklarda birbirine çok benzeyen ekler oder artikeller yer alabilir. İsmin hangi halde (Nominativ, Akkusativ, Dativ) olduğunu ve doğru artikeli belirlemek sizi doğru cevaba götürecektir[cite: 2].\nLiebe Mia,\nich brauche dringend (21) Rat zur Ernährung, weil du dich so gut mit gesundem Essen auskennst[cite: 2]. In den (22) Monaten habe ich oft erst (23) spät gefrühstückt, und manchmal spare ich mir das Frühstück ganz[cite: 2]. Dann esse ich mittags schnell etwas beim Bäcker, meistens (24) großes Sandwich mit viel Käse[cite: 2]. Abends bin ich (25) der Arbeit so müde, dass ich mir oft nur eine Pizza in den Ofen schiebe oder mir Nudeln mit fertiger Soße koche[cite: 2].\nIch kann mir vorstellen, (26) du jetzt den Kopf schüttelst[cite: 2]. Trotzdem fällt es mir schwer, meine Gewohnheiten zu ändern[cite: 2]. Wenn du Zeit (27), würdest du mir vielleicht einen einfachen Plan (28) eine Woche schreiben[cite: 2]? Es wäre toll, wenn ich wüsste, was ich im Büro mitnehmen kann[cite: 2]. Außerdem frage ich (29), ob ich mich beim Einkaufen mehr auf (30) Gemüse konzentrieren sollte[cite: 2]. Kannst du mir erklären, wie du das mit den Mahlzeiten am Abend machst, damit du dich nicht ständig beeilen musst[cite: 2]?\nMach's gut!\nDein Tim[cite: 2]",
-    "options": {},
+    "text": "1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız,\n   mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir.\n2. Strateji: Boşluğun öncesindeki ve sonrasındaki kelimelere dikkat edin. Özellikle\n   Konjunktiv II yapılarını (würde, könnte, sollte), iki yönlü edatları (in, auf, an —\n   Dativ mi Akkusativ mi?) ve Partizip II çekimlerini analiz edin.\n3. Dikkat: \"in/auf/an\" gibi iki yönlü edatlar konum (Dativ) veya yön (Akkusativ)\n   anlamına göre farklı hal alır. Cümlede hareket mi yoksa durum mu olduğunu sorun.\nLiebe Sophie,\nwie du weißt, wird meine Schwester Aylin nächsten Samstag achtzehn Jahre alt. Ich\nmöchte ihr (21) Überraschung eine Party organisieren und brauche deine Hilfe!\nHast du Lust, mitzumachen?\nMein Plan ist folgender: Ich lade alle Freunde (22) Aylin ein und bitte sie,\npünktlich um halb sieben (23) meiner Wohnung zu sein. Aylin denkt, sie kommt\nnur zum Abendessen — sie ahnt (24) nichts von der Party. Wenn sie die Tür öffnet,\nrufen wir alle „Überraschung!\" Ich finde, das (25) ihr wirklich gut gefallen.\nKönntest du vielleicht die Torte (26)? Du backst so wunderbar, und ich glaube,\neine selbstgemachte Torte wäre viel schöner (27) eine gekaufte. Außerdem würde\nich dich bitten, ein paar (28) Fotos von der Party zu machen — du hast ja immer\ndeine Kamera (29) dir.\nFalls du noch andere Ideen (30), schreib mir einfach! Ich freue mich sehr auf\ndeine Antwort.\nViele Grüße,\nDein Emre",
+    "options": {
+      "21": {
+        "a": "als",
+        "b": "zur",
+        "c": "als eine"
+      },
+      "22": {
+        "a": "von",
+        "b": "für",
+        "c": "mit"
+      },
+      "23": {
+        "a": "in",
+        "b": "bei",
+        "c": "zu"
+      },
+      "24": {
+        "a": "noch",
+        "b": "schon",
+        "c": "immer"
+      },
+      "25": {
+        "a": "wird",
+        "b": "würde",
+        "c": "sollte"
+      },
+      "26": {
+        "a": "backen",
+        "b": "gebacken",
+        "c": "backt"
+      },
+      "27": {
+        "a": "wie",
+        "b": "als",
+        "c": "von"
+      },
+      "28": {
+        "a": "schöne",
+        "b": "schönen",
+        "c": "schöner"
+      },
+      "29": {
+        "a": "bei",
+        "b": "mit",
+        "c": "an"
+      },
+      "30": {
+        "a": "hast",
+        "b": "haben",
+        "c": "hättest"
+      }
+    },
     "answers": {
-      "21": "a",
-      "22": "b",
-      "23": "a",
+      "21": "b",
+      "22": "a",
+      "23": "b",
       "24": "a",
-      "25": "c",
-      "26": "c",
+      "25": "b",
+      "26": "a",
       "27": "b",
-      "28": "b",
-      "29": "b",
+      "28": "a",
+      "29": "a",
       "30": "c"
     },
     "explanations": {
-      "21": "\"brauchen\" fiili Akkusativ (i-hali) nesne alır. \"Rat\" kelimenin artikeli \"der\" (der Rat) olduğu için erkek cinste Akkusativ \"deinen Rat\" olur[cite: 2].",
-      "22": "\"In den...\" yapısı çoğul isimlerle Dativ durumundadır. \"Monaten\" kelimesi çoğul Dativ olduğu için sıfat tamlaması \"-en\" takısı alır: \"in den letzten Monaten\"[cite: 2].",
-      "23": "\"O kadar geç kahvaltı yaptım ki\" anlamını pekiştirmek und arkasından gelen \"dass\" yapısıyla uyum sağlamak üzere zarfın önüne \"so\" (so spät) getirilir[cite: 2].",
-      "24": "\"Sandwich\" kelimenin artikeli \"das\"tır (das Sandwich). Akkusativ nesne konumunda nötr isimlerin belirsiz artikeli \"ein\" olarak kalır[cite: 2].",
-      "25": "\"İşten sonra\" anlamını katmak için Dativ alan \"nach\" edatı kullanılır: \"nach der Arbeit\"[cite: 2].",
-      "26": "\"Ich kann mir vorstellen...\" (Tahmin edebiliyorum ki...) ifadesi bir nesne yan cümlesi (Objektsatz) başlatır und bu cümleler \"dass\" bağlacı ile kurulur[cite: 2].",
-      "27": "\"Wenn du Zeit hättest...\" (Eğer zamanın olsaydı) yapısı bir rica/koşul bildiren Konjunktiv II yapısıdır ve \"haben\" fiilinin geçmiş hayali çekimidir[cite: 2].",
-      "28": "\"Bir hafta için / bir haftalık plan\" ifadesi Akkusativ alan \"für\" edatı ile birleşir: \"ein Plan für eine Woche\"[cite: 2].",
-      "29": "\"Sich fragen\" (Kendi kendine sormak/Merak etmek) dönüşlü (reflexiv) bir fiildir. Özne \"ich\" olduğu için Akkusativ dönüşlülük zamiri \"mich\" olur[cite: 2].",
-      "30": "\"Sich konzentrieren auf\" edatı Akkusativ alır. \"Gemüse\" kelimesi \"das\" artikeline sahiptir. Önünde artikel olmadığı için sıfat direkt nötr ekini alır: \"auf frisches Gemüse\"[cite: 2]."
+      "21": "\"zur Überraschung\" = sürpriz olarak. \"zur\" = zu + der kalıbıdır. \"Überraschung\" dişil (die Überraschung) olduğu için Dativ tekil: \"zu + der = zur.\" \"als Überraschung\" da Almancada mümkündür (sürpriz olarak) ancak şık (b) \"zur Überraschung\" deyimsel ve daha doğal kalıptır; telc bağlamında (b) önceliklidir. Şık (a) \"als\" karşılaştırma veya sıfat eki olarak kullanılır; burada edat görevinde değil anlam taşıyamaz. Şık (c) \"als eine\" belirsiz artikel ekler ve \"als eine Überraschung\" dilbilgisel olarak garip bir yapı oluşturur.",
+      "22": "\"Freunde von jemandem\" = birinin arkadaşları. İyelik/aitlik bildiren \"von + Dativ\" kalıbı: \"alle Freunde von Aylin.\" Şık (b) \"für\" amaç bildirir (für Aylin = Aylin için — hediye bağlamı); burada \"Aylin'in arkadaşları\" anlamı gerektiğinden \"von\" doğrudur. Şık (c) \"mit\" araç/birliktelik bildirir (mit Aylin = Aylin ile birlikte); anlam olarak uymaz.",
+      "23": "\"bei jemandem sein\" = birinin evinde/yanında olmak. \"bei + Dativ\" konum/kişi yanı bildirir: \"pünktlich bei mir sein\" = zamanında bende (evimde) olmak. Şık (a) \"in\" → \"in meiner Wohnung sein\" de mümkündür ancak kişi referanslı \"bei mir\" daha doğal ve kısa ifadedir; şıklar arasında \"bei\" önceliklidir. Şık (c) \"zu\" → \"zu mir kommen\" yön bildirir (hareket); \"sein\" durum fiilidir ve \"zu\" ile birlikte yanlış bir yapı oluşturur.",
+      "24": "\"sie ahnt noch nichts\" = o henüz hiçbir şeyden haberi yok. \"noch nichts\" = henüz hiçbir şey; sürprizin korunduğunu vurgular. Şık (b) \"schon\" = zaten/artık; \"schon nichts\" kombinasyonu anlamsızdır. Şık (c) \"immer\" = her zaman; \"immer nichts\" (her zaman hiçbir şey) farklı bir anlam taşır ve bu bağlama uymaz.",
+      "25": "\"Ich finde, das würde ihr gut gefallen\" = Bence bu ona çok iyi gelir (öyle düşünüyorum/tahmin ediyorum). Konjunktiv II burada nazik bir tahmin/öngörü ifadesi olarak kullanılır. Şık (a) \"wird\" Futur I'dir ve kesin bir gelecek ifade eder; burada tahmin tonu gerektiğinden Konjunktiv II daha uygundur. Şık (c) \"sollte\" = gerekir anlamında; sürpriz partinin beğenilmesi bir zorunluluk değil beklenti olduğundan \"sollte\" bağlama uymaz.",
+      "26": "\"könntest du die Torte backen?\" = pastayı pişirir misin? \"könntest\" modal fiilinin ardından Infinitiv gelir: \"backen.\" Şık (b) \"gebacken\" Partizip II'dir; modal fiil + Partizip II yapısı olmaz (bu Perfekt/Passiv yapısına aittir). Şık (c) \"backt\" 3. tekil şahıs geniş zaman çekimidir; modal fiilin ardından yalın mastar (Infinitiv) gerekir.",
+      "27": "Eşitsizlik karşılaştırması: \"schöner als\" = ... daha güzel. \"viel schöner als eine gekaufte\" = satın alınandan çok daha güzel. Şık (a) \"wie\" eşitlik karşılaştırmasında kullanılır (so schön wie); burada \"schöner\" karşılaştırma derecesi (Komparativ) olduğundan \"als\" zorunludur. Şık (c) \"von\" kaynak/aitlik bildirir; karşılaştırma bağlamına uymaz.",
+      "28": "\"ein paar schöne Fotos\" = birkaç güzel fotoğraf. \"ein paar\" (birkaç) sonrasında sıfat çoğul Akkusativ alır. \"ein paar\" belirsiz sayı ifadesi olarak artikel görevi görmez; dolayısıyla sıfat kendi güçlü çekimini taşır: çoğul Akkusativ → \"-e\": \"schöne Fotos.\" Şık (b) \"schönen\" zayıf çekim olurdu (belirli artikel sonrası); burada \"ein paar\" artikeli değil sayı zarfı olduğundan güçlü çekim gerekir. Şık (c) \"schöner\" karşılaştırma derecesidir; anlam olarak uymaz.",
+      "29": "\"etwas bei sich haben\" = yanında bir şey bulundurmak/taşımak. Kalıplaşmış ifade: \"du hast ja immer deine Kamera bei dir.\" Şık (b) \"mit\" → \"mit sich haben\" olmaz; \"mit\" birlikte gitmek için kullanılır ama \"yanında taşımak\" anlamı \"bei sich\" ile verilir. Şık (c) \"an\" → \"an sich\" soyut/karakteristik anlamda kullanılır (das ist an sich gut = bu kendi başına iyi); somut eşya taşımak için uymaz.",
+      "30": "\"Falls du noch andere Ideen hättest\" = Eğer başka fikirlerin olsaydı / olursa. \"falls\" bağlacı nazik/varsayımsal koşul cümlelerinde Konjunktiv II ile kullanılır: \"hättest\" (haben fiilinin Konjunktiv II hali). Şık (a) \"hast\" gerçek bir koşul için Indikativ'dir; bağlam nazik bir öneri içerdiğinden Konjunktiv II daha uygundur. Şık (b) \"haben\" Infinitiv'dir; \"falls\" bağlacının ardından çekimli fiil gerekir."
     }
   },
   {
     "id": "sprachbausteine_8",
-    "title": "Sprachbausteine Teil 1 - Set 8",
+    "title": "Şehir hayatı ve değişim",
     "emoji": "🍌",
     "instruction": "Markieren Sie Ihre Lösungen für die Aufgaben 21–30 auf dem Antwortbogen.",
-    "text": "1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız, mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir.\n2. Strateji: Boşluğun öncesindeki und sonrasındaki kelimelere çok dikkat edin. Özellikle fiillerin isimlerle olan bağını, isimlerin artikellerini ve cümle yapılarını (bağlaçlar, edatlar) analiz edin.\n3. Dikkat: Şıklarda birbirine çok benzeyen ekler veya artikeller yer alabilir. İsmin hangi halde (Nominativ, Akkusativ, Dativ) olduğunu ve doğru artikeli belirlemek sizi doğru cevaba götürecektir.\nLiebe Mia,\nich brauche dringend (21) Rat zur Ernährung, weil du dich so gut mit gesundem Essen auskennst. In den (22) Monaten habe ich oft erst (23) spät gefrühstückt, und manchmal spare ich mir das Frühstück ganz. Dann esse ich mittags schnell etwas beim Bäcker, meistens (24) großes Sandwich mit viel Käse. Abends bin ich (25) der Arbeit so müde, dass ich mir oft nur eine Pizza in den Ofen schiebe oder mir Nudeln mit fertiger Soße koche.\nIch kann mir vorstellen, (26) du jetzt den Kopf schüttelst. Trotzdem fällt es mir schwer, meine Gewohnheiten zu ändern. Wenn du Zeit (27), würdest du mir vielleicht einen einfachen Plan (28) eine Woche schreiben? Es wäre toll, wenn ich wüsste, was ich im Büro mitnehmen kann. Außerdem frage ich (29), ob ich mich beim Einkaufen mehr auf (30) Gemüse konzentrieren sollte. Kannst du mir erklären, wie du das mit den Mahlzeiten am Abend machst, damit du dich nicht ständig beeilen musst?\nMach's gut!\nDein Tim",
+    "text": "1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız,\n   mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir.\n2. Strateji: Boşluğun öncesindeki ve sonrasındaki kelimelere dikkat edin. Özellikle\n   Passiv yapısını (werden + Partizip II), Genitiv kullanımını ve zaman/sıklık\n   zarflarını (manchmal, kaum, selten) doğru analiz edin.\n3. Dikkat: Passiv yapısında \"werden\" yardımcı fiili özneye göre çekimlenir;\n   Partizip II ise her zaman değişmez. Zaman zarflarını bağlama göre seçin —\n   anlam farkları sınavda belirleyicidir.\nLieber Tobias,\ndu fragst mich, wie es in meiner alten Heimatstadt ist. Ich war letzte Woche dort\nund muss sagen: Es hat sich wirklich viel (21)! Das alte Kino in der Mitte der\nStadt (22) leider abgerissen — an seiner Stelle steht jetzt ein modernes\nEinkaufszentrum.\nIch erinnere mich (23) gut an den kleinen Markt am Samstag, auf dem meine Mutter\nimmer frisches Gemüse gekauft hat. Den gibt es (24) noch, aber er ist viel kleiner\n(25) früher. Viele der alten Geschäfte (26) durch neue Kettenläden ersetzt\nworden. Das finde ich schade, weil die kleinen Läden der Stadt ihren (27) Charakter\ngegeben haben.\nWas mich aber gefreut hat: Der alte Park (28) dem Rathaus wurde komplett erneuert.\nJetzt gibt es dort sogar einen Spielplatz (29) Kinder. Meine kleine Nichte war\nbegeistert! Ich glaube, man muss akzeptieren, (30) Städte sich immer verändern —\nauch wenn es manchmal wehtut.\nHerzliche Grüße,\nDeine Yasmin",
     "options": {
       "21": {
-        "a": "deinen",
-        "b": "dein",
-        "c": "deinem"
+        "a": "verändert",
+        "b": "geändert",
+        "c": "gewechselt"
       },
       "22": {
-        "a": "letzter",
-        "b": "letzten",
-        "c": "letzte"
+        "a": "hat",
+        "b": "wurde",
+        "c": "ist"
       },
       "23": {
-        "a": "so",
-        "b": "viel",
-        "c": "sehr"
+        "a": "sehr",
+        "b": "so",
+        "c": "noch"
       },
       "24": {
-        "a": "ein",
-        "b": "einen",
-        "c": "eine"
+        "a": "noch",
+        "b": "schon",
+        "c": "immer"
       },
       "25": {
-        "a": "für",
-        "b": "von",
-        "c": "nach"
+        "a": "wie",
+        "b": "als",
+        "c": "von"
       },
       "26": {
-        "a": "wenn",
-        "b": "weil",
-        "c": "dass"
+        "a": "haben",
+        "b": "sind",
+        "c": "wurden"
       },
       "27": {
-        "a": "würdest",
-        "b": "hättest",
-        "c": "wärst"
+        "a": "besonderem",
+        "b": "besonderen",
+        "c": "besonderer"
       },
       "28": {
-        "a": "über",
-        "b": "für",
-        "c": "mit"
+        "a": "neben",
+        "b": "vor",
+        "c": "hinter"
       },
       "29": {
-        "a": "dich",
-        "b": "mich",
-        "c": "mir"
+        "a": "für",
+        "b": "mit",
+        "c": "von"
       },
       "30": {
-        "a": "frische",
-        "b": "frischem",
-        "c": "frisches"
+        "a": "ob",
+        "b": "wenn",
+        "c": "dass"
       }
     },
     "answers": {
@@ -338,152 +644,273 @@ const SPRACHBAUSTEINE_TEIL_1_DATA_A1A2 = [
       "22": "b",
       "23": "a",
       "24": "a",
-      "25": "c",
+      "25": "b",
       "26": "c",
       "27": "b",
-      "28": "b",
-      "29": "b",
+      "28": "a",
+      "29": "a",
       "30": "c"
     },
     "explanations": {
-      "21": "\"brauchen\" fiili Akkusativ (i-hali) nesne alır. \"Rat\" kelimesinin artikeli \"der\" (der Rat) olduğu için erkek cinste Akkusativ \"deinen Rat\" olur.",
-      "22": "\"In den...\" yapısı çoğul isimlerle Dativ durumundadır. \"Monaten\" kelimesi çoğul Dativ olduğu için sıfat tamlaması \"-en\" takısı alır: \"in den letzten Monaten\".",
-      "23": "\"O kadar geç kahvaltı yaptım ki\" anlamını pekiştirmek ve arkasından gelen \"dass\" yapısıyla uyum sağlamak üzere zarfın önüne \"so\" (so spät) getirilir.",
-      "24": "\"Sandwich\" kelimesinin artikeli \"das\"tır (das Sandwich). Akkusativ nesne konumunda nötr isimlerin belirsiz artikeli \"ein\" olarak kalır.",
-      "25": "\"İşten sonra\" anlamını katmak için Dativ alan \"nach\" edatı kullanılır: \"nach der Arbeit\".",
-      "26": "\"Ich kann mir vorstellen...\" (Tahmin edebiliyorum ki...) ifadesi bir nesne yan cümlesi (Objektsatz) başlatır und bu cümleler \"dass\" bağlacı ile kurulur.",
-      "27": "\"Wenn du Zeit hättest...\" (Eğer zamanın olsaydı) yapısı bir rica/koşul bildiren Konjunktiv II yapısıdır ve \"haben\" fiilinin geçmiş hayali çekimidir.",
-      "28": "\"Bir hafta için / bir haftalık plan\" ifadesi Akkusativ alan \"für\" edatı ile birleşir: \"ein Plan für eine Woche\".",
-      "29": "\"Sich fragen\" (Kendi kendine sormak/Merak etmek) dönüşlü (reflexiv) bir fiildir. Özne \"ich\" olduğu için Akkusativ dönüşlülük zamiri \"mich\" olur.",
-      "30": "\"Sich konzentrieren auf\" edatı Akkusativ alır. \"Gemüse\" kelimesi \"das\" artikeline sahiptir. Önünde artikel olmadığı için sıfat direkt nötr ekini alır: \"auf frisches Gemüse\"."
+      "21": "\"sich verändern\" = değişmek (genel, kapsamlı değişim). Dönüşlü fiil Perfekt: \"Es hat sich viel verändert.\" Şık (b) \"geändert\" → \"sich ändern\" de \"değişmek\" anlamına gelir ancak daha çok küçük, belirli bir şeyin değişimi için kullanılır (z.B. plan, fikir). \"viel verändert\" kapsamlı şehir değişimini ifade ettiğinden (a) daha uygundur. Şık (c) \"gewechselt\" → \"wechseln\" = değiştirmek (bilinçli eylem, örneğin iş değiştirmek); burada özne şehirdir ve bilinçli eylem söz konusu değildir.",
+      "22": "\"abgerissen werden\" = yıkılmak (Passiv). Geçmişte tamamlanan bir Passiv eylem için Präteritum Passiv kullanılır: \"wurde abgerissen.\" Şık (a) \"hat\" → Aktiv Perfekt yardımcı fiili; burada Passiv yapısı gerekir çünkü nesne (Kino) eylemi yapan değil, eyleme maruz kalandır. Şık (c) \"ist\" → \"ist abgerissen\" Partizip II ile \"sein\" Zustandspassiv oluşturur (sonuç durumu); \"wurde abgerissen\" ise eylemin gerçekleşmesini anlatır. Bağlamda yıkılma eylemi anlatıldığından \"wurde\" doğrudur.",
+      "23": "\"sich gut erinnern an\" = bir şeyi iyi hatırlamak. Burada \"gut\" zarfını pekiştiren \"sehr\" kullanılır: \"Ich erinnere mich sehr gut an...\" Şık (b) \"so\" → \"so gut\" karşılaştırma veya sonuç cümlesi bağlamında kullanılır (so gut, dass...); tek başına pekiştirme için \"sehr\" daha doğaldır. Şık (c) \"noch\" → \"noch gut erinnern\" = hâlâ iyi hatırlamak; anlam olarak mümkün görünse de \"sehr gut\" pekiştirmesi cümleye daha iyi uymaktadır.",
+      "24": "\"Den gibt es noch\" = O hâlâ var. \"noch\" devam eden bir durumu ifade eder: pazar yeri hâlâ mevcut, ama küçülmüş. Şık (b) \"schon\" = zaten/artık; \"Den gibt es schon\" farklı bir anlam taşır (zaten var, beklenenden önce var gibi — bağlama uymaz). Şık (c) \"immer\" = her zaman; \"Den gibt es immer\" (onu her zaman var) anlamsız bir yapı oluşturur.",
+      "25": "\"kleiner als früher\" = eskisinden daha küçük. Eşitsizlik karşılaştırması Komparativ + \"als\" kalıbıyla yapılır. Şık (a) \"wie\" → eşitlik karşılaştırması (so klein wie); burada \"kleiner\" Komparativ olduğundan \"als\" zorunludur. Şık (c) \"von\" kaynak/aitlik bildirir; karşılaştırma bağlamına uymaz.",
+      "26": "\"ersetzt worden\" — Perfekt Passiv yapısı: \"wurden + Partizip II\" değil, tam Perfekt Passiv: \"sind + Partizip II + worden.\" Ancak buradaki yapı \"Viele Geschäfte wurden ersetzt\" Präteritum Passiv'dir: \"wurden + Partizip II.\" Bu geçmişte tamamlanan Passiv eylemdir. Şık (a) \"haben\" → Aktiv Perfekt; Passiv bağlamına uymaz. Şık (b) \"sind\" → \"sind ersetzt worden\" Perfekt Passiv olurdu; doğru ama metinde \"worden\" zaten verilmiş: \"ersetzt worden\" → yardımcı fiil \"sind\" gerekir. ► Metne dikkat: \"durch neue Kettenläden ersetzt worden\" ifadesinde \"worden\" var → Perfekt Passiv → yardımcı fiil \"sind\" olmalıdır.",
+      "27": "\"ihren besonderen Charakter\" — \"Charakter\" eril (der Charakter), Akkusativ. \"ihren\" belirli iyelik sıfatı gibi davranır (güçlü çekim sinyali verir) → sonraki sıfat zayıf çekim alır: eril Akkusativ zayıf çekim = \"-en\": \"ihren besonderen Charakter.\" Şık (a) \"besonderem\" Dativ nötr/eril artikelsiz çekim olurdu. Şık (c) \"besonderer\" eril Nominativ artikelsiz güçlü çekim olurdu.",
+      "28": "\"neben dem Rathaus\" = belediye binasının yanında. Konum bildirdiği için (hareket yok) Dativ kullanılır: \"neben + Dativ.\" Şık (b) \"vor\" = önünde; Şık (c) \"hinter\" = arkasında. Her ikisi de dilbilgisel olarak mümkündür ancak \"neben\" (yanında) park için en doğal ve yaygın konumlama ifadesidir; telc metinlerinde bu tür bağlam ipuçlarına dikkat edin.",
+      "29": "\"ein Spielplatz für Kinder\" = çocuklar için oyun alanı. Hedef kitleyi/amacı bildiren \"für + Akkusativ\" kalıbı: \"für Kinder.\" Şık (b) \"mit\" → \"ein Spielplatz mit Kindern\" = çocuklarla birlikte oyun alanı (anlamsız). Şık (c) \"von\" → \"ein Spielplatz von Kindern\" = çocuklara ait oyun alanı; anlam yakın görünse de \"für\" amaç/hedef kitlesini ifade eder ve bu bağlamda çok daha doğaldır.",
+      "30": "\"akzeptieren, dass...\" = ... olduğunu kabul etmek. \"dass\" nesne yan cümlesi kurar ve fiili sona taşır: \"dass Städte sich immer verändern.\" Şık (a) \"ob\" → dolaylı soru (belirsizlik); burada kabul edilen bir gerçek söz konusu, soru değil. Şık (b) \"wenn\" → koşul/zaman; \"wenn Städte sich verändern\" farklı anlam taşır (şehirler değiştiğinde)."
     }
   },
   {
     "id": "sprachbausteine_9",
-    "title": "Sprachbausteine Teil 1 - Set 9",
+    "title": "Dil öğrenmek",
     "emoji": "🍉",
     "instruction": "Markieren Sie Ihre Lösungen für die Aufgaben 21–30 auf dem Antwortbogen.",
-    "text": "1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız, mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir[cite: 1].\n2. Strateji: Boşluğun öncesindeki und sonrasındaki kelimelere çok dikkat edin. Özellikle fiillerin isimlerle olan bağını, isimlerin artikellerini ve cümle yapılarını (bağlaçlar, edatlar) analiz edin[cite: 1].\n3. Dikkat: Şıklarda birbirine çok benzeyen ekler veya artikeller yer alabilir. İsmin hangi halde (Nominativ, Akkusativ, Dativ) olduğunu ve doğru artikeli belirlemek sizi doğru cevaba götürecektir[cite: 1].\nLiebe Mia,\nich brauche dringend (21) Rat zur Ernährung, weil du dich so gut mit gesundem Essen auskennst[cite: 1]. In den (22) Monaten habe ich oft erst (23) spät gefrühstückt, und manchmal spare ich mir das Frühstück ganz[cite: 1]. Dann esse ich mittags schnell etwas beim Bäcker, meistens (24) großes Sandwich mit viel Käse[cite: 1]. Abends bin ich (25) der Arbeit so müde, dass ich mir oft nur eine Pizza in den Ofen schiebe oder mir Nudeln mit fertiger Soße koche[cite: 1].\nIch kann mir vorstellen, (26) du jetzt den Kopf schüttelst[cite: 1]. Trotzdem fällt es mir schwer, meine Gewohnheiten zu ändern[cite: 1]. Wenn du Zeit (27), würdest du mir vielleicht einen einfachen Plan (28) eine Woche schreiben[cite: 1]? Es wäre toll, wenn ich wüsste, was ich im Büro mitnehmen kann[cite: 1]. Außerdem frage ich (29), ob ich mich beim Einkaufen mehr auf (30) Gemüse konzentrieren sollte[cite: 1]. Kannst du mir erklären, wie du das mit den Mahlzeiten am Abend machst, damit du dich nicht ständig beeilen musst[cite: 1]?\nMach's gut!\nDein Tim[cite: 1]",
-    "options": {},
+    "text": "1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız,\n   mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir.\n2. Strateji: Boşluğun öncesindeki ve sonrasındaki kelimelere dikkat edin. Özellikle\n   trennbare Verben (ayrılabilen fiiller) ile birlikte kullanılan edatları, Reflexivverben\n   (dönüşlü fiiller) ve sıklık zarflarını (manchmal, meistens, kaum) analiz edin.\n3. Dikkat: Ayrılabilen fiillerin öneki (Präfix) Perfekt'te Partizip II'nin içinde\n   kalır (z.B. aufgehört → ge+hört değil, aufge+hört). Bağlaç seçimlerinde hem\n   anlam hem dilbilgisel yapı birlikte değerlendirilmelidir.\nLiebe Marta,\ndu hast mich letzte Woche gefragt, wie mein Deutschkurs läuft — jetzt habe ich\nendlich Zeit, dir (21) antworten! Ich besuche den Kurs seit drei Monaten und\nmuss sagen: Am Anfang war es wirklich schwer, aber ich habe (22) aufgehört.\nUnser Lehrer, Herr Bergmann, erklärt alles sehr (23) und gibt uns nach jeder\nStunde kleine Hausaufgaben. Manchmal nerve ich mich (24) die Grammatik, weil\nes so viele Regeln gibt. Aber ich merke, dass ich mich (25) verbessere — letzte\nWoche konnte ich sogar ein kurzes Gespräch (26) meiner Nachbarin auf Deutsch\nführen!\nWas mir am meisten hilft, ist das Hören: Ich höre jeden Abend (27) eine halbe\nStunde deutschsprachige Podcasts. Zuerst habe ich kaum etwas (28), aber jetzt\nverstehe ich schon vieles. Hast du einen Tipp, (29) man Vokabeln am besten\nlernt? Ich vergesse sie leider sehr (30), obwohl ich sie immer aufschreibe.\nBis bald,\nDein Rafael",
+    "options": {
+      "21": {
+        "a": "dir",
+        "b": "dich",
+        "c": "dich zu"
+      },
+      "22": {
+        "a": "nie",
+        "b": "nicht",
+        "c": "kein"
+      },
+      "23": {
+        "a": "deutlich",
+        "b": "deutliche",
+        "c": "deutlichem"
+      },
+      "24": {
+        "a": "über",
+        "b": "auf",
+        "c": "mit"
+      },
+      "25": {
+        "a": "täglich",
+        "b": "langsam",
+        "c": "kaum"
+      },
+      "26": {
+        "a": "von",
+        "b": "mit",
+        "c": "zu"
+      },
+      "27": {
+        "a": "seit",
+        "b": "für",
+        "c": "ungefähr"
+      },
+      "28": {
+        "a": "gewusst",
+        "b": "verstanden",
+        "c": "gehört"
+      },
+      "29": {
+        "a": "wie",
+        "b": "ob",
+        "c": "dass"
+      },
+      "30": {
+        "a": "schnell",
+        "b": "oft",
+        "c": "bald"
+      }
+    },
     "answers": {
       "21": "a",
-      "22": "b",
+      "22": "a",
       "23": "a",
       "24": "a",
-      "25": "c",
-      "26": "c",
-      "27": "b",
+      "25": "b",
+      "26": "b",
+      "27": "c",
       "28": "b",
-      "29": "b",
-      "30": "c"
+      "29": "a",
+      "30": "a"
     },
     "explanations": {
-      "21": "\"brauchen\" fiili Akkusativ (i-hali) nesne alır. \"Rat\" kelimesinin artikeli \"der\" (der Rat) olduğu için erkek cinste Akkusativ \"deinen Rat\" olur[cite: 1].",
-      "22": "\"In den...\" yapısı çoğul isimlerle Dativ durumundadır. \"Monaten\" kelimesi çoğul Dativ olduğu için sıfat tamlaması \"-en\" takısı alır: \"in den letzten Monaten\"[cite: 1].",
-      "23": "\"O kadar geç kahvaltı yaptım ki\" anlamını pekiştirmek ve arkasından gelen \"dass\" yapısıyla uyum sağlamak üzere zarfın önüne \"so\" (so spät) getirilir[cite: 1].",
-      "24": "\"Sandwich\" kelimesinin artikeli \"das\"tır (das Sandwich). Akkusativ nesne konumunda nötr isimlerin belirsiz artikeli \"ein\" olarak kalır[cite: 1].",
-      "25": "\"İşten sonra\" anlamını katmak için Dativ alan \"nach\" edatı kullanılır: \"nach der Arbeit\"[cite: 1].",
-      "26": "\"Ich kann mir vorstellen...\" (Tahmin edebiliyorum ki...) ifadesi bir nesne yan cümlesi (Objektsatz) başlatır und bu cümleler \"dass\" bağlacı ile kurulur[cite: 1].",
-      "27": "\"Wenn du Zeit hättest...\" (Eğer zamanın olsaydı) yapısı bir rica/koşul bildiren Konjunktiv II yapısıdır ve \"haben\" fiilinin geçmiş hayali çekimidir[cite: 1].",
-      "28": "\"Bir hafta için / bir haftalık plan\" ifadesi Akkusativ alan \"für\" edatı ile birleşir: \"ein Plan für eine Woche\"[cite: 1].",
-      "29": "\"Sich fragen\" (Kendi kendine sormak/Merak etmek) dönüşlü (reflexiv) bir fiildir. Özne \"ich\" olduğu için Akkusativ dönüşlülük zamiri \"mich\" olur[cite: 1].",
-      "30": "\"Sich konzentrieren auf\" edatı Akkusativ alır. \"Gemüse\" kelimesi \"das\" artikeline sahiptir. Önünde artikel olmadığı için sıfat direkt nötr ekini alır: \"auf frisches Gemüse\"[cite: 1]."
+      "21": "\"jemandem antworten\" = birine cevap vermek. \"antworten\" fiili Dativ gerektirir: \"dir antworten.\" Özne Rafael, muhatap Marta → Dativ 2. tekil şahıs = \"dir.\" Şık (b) \"dich\" Akkusativ olur; \"antworten\" Akkusativ almaz. Şık (c) \"dich zu\" anlamsız bir yapı oluşturur; \"zu + Infinitiv\" kalıbında zaten \"antworten\" Infinitiv olarak kullanılıyor, önünde ayrıca zamir gelmez.",
+      "22": "\"Ich habe nie aufgehört\" = hiç vazgeçmedim. \"nie\" (hiçbir zaman) fiili bütünüyle olumsuzlar ve burada cesareti/kararlılığı vurgular. Şık (b) \"nicht\" → \"Ich habe nicht aufgehört\" de dilbilgisel olarak doğrudur ancak \"nie\" (hiç, asla) daha güçlü ve anlam bakımından daha yerinde bir vurgudur; telc kalıplarında bu tür anlam vurgusuna dikkat edin. Şık (c) \"kein\" isim önünde kullanılır (kein Geld, keine Zeit); fiil önünde kullanılamaz.",
+      "23": "\"sehr deutlich erklären\" = çok açık bir şekilde açıklamak. \"deutlich\" burada fiili niteleyen bir zarf olarak kullanılmaktadır; zarflar Almancada hiç çekim eki almaz: \"erklärt alles sehr deutlich.\" Şık (b) \"deutliche\" ve Şık (c) \"deutlichem\" sıfat çekimi eklerini taşır; bu ekler yalnızca isim önünde (attributiv) kullanılan sıfatlara gelir, yüklem/zarf konumundaki sıfatlara gelmez.",
+      "24": "\"sich über etwas nerven / ärgern\" = bir şeye sinir olmak, bir şeyden bıkmak. Dönüşlü fiil \"sich nerven\" Akkusativ edat \"über\" alır: \"Ich nerve mich über die Grammatik.\" Şık (b) \"auf\" → \"sich auf etwas freuen\" (bir şeyi dört gözle beklemek) farklı dönüşlü fiil kalıbıdır. Şık (c) \"mit\" araç/birliktelik bildirir; bu bağlama uymaz.",
+      "25": "\"Ich merke, dass ich mich langsam verbessere\" = yavaş yavaş ilerlediğimi fark ediyorum. \"langsam\" (yavaşça/adım adım) dil öğrenme sürecindeki kademeli gelişimi ifade eder ve bağlama tam oturur. Şık (a) \"täglich\" = her gün; \"täglich verbessern\" mümkün ama çok mekanik bir ifade olur ve cümlenin genel tonuyla uyuşmaz. Şık (c) \"kaum\" = neredeyse hiç; \"kaum verbessere\" (neredeyse hiç gelişmiyorum) bağlamla çelişir — Rafael az sonra başarılarından söz ediyor.",
+      "26": "\"ein Gespräch mit jemandem führen\" = biriyle konuşma yapmak. \"mit + Dativ\" birliktelik bildirir: \"mit meiner Nachbarin.\" Şık (a) \"von\" → \"ein Gespräch von jemandem\" anlamsız bir yapıdır. Şık (c) \"zu\" → \"ein Gespräch zu jemandem führen\" yön bildirir; birlikte konuşmak için \"mit\" zorunludur.",
+      "27": "\"ungefähr eine halbe Stunde\" = yaklaşık yarım saat. \"ungefähr\" tahmini bir süreyi belirtir ve miktar ifadelerinin önünde kullanılır. Şık (a) \"seit\" → \"seit einer halben Stunde\" = yarım saattir (geçmişten beri devam eden durum); burada her akşam dinleme süresi anlatılıyor, başlangıç noktası değil. Şık (b) \"für\" → \"für eine halbe Stunde\" = yarım saatliğine; dilbilgisel olarak mümkün ancak \"ungefähr\" belirsiz süreyi çok daha doğal ifade eder.",
+      "28": "\"kaum etwas verstehen\" = neredeyse hiçbir şey anlayamamak. \"verstehen\" fiilinin Partizip II'si \"verstanden\"dır: \"habe kaum etwas verstanden.\" Bağlam podcast dinlemeyi anlatıyor; anlama fiili \"verstehen\" doğrudan bu bağlama oturur. Şık (a) \"gewusst\" → \"wissen\" (bilmek); \"kaum etwas gewusst\" = neredeyse hiçbir şey bilmemek — anlam yakın ama dinleme bağlamında \"verstehen\" çok daha doğaldır. Şık (c) \"gehört\" → \"kaum etwas gehört\" = neredeyse hiçbir şey duymamak; fiziksel olarak duymamakla ilgili olurdu, oysa sorun anlamakla ilgili.",
+      "29": "\"einen Tipp, wie man ... lernt\" = nasıl öğreneceğine dair bir ipucu. \"wie\" dolaylı soru kelimesidir ve yöntem sorar: \"wie man Vokabeln am besten lernt.\" Fiil yan cümlede sona gider. Şık (b) \"ob\" → evet/hayır belirsizliği içeren dolaylı soru kurar; burada yöntem soruluyor, belirsizlik değil. Şık (c) \"dass\" → nesne yan cümlesi kurar; \"einen Tipp, dass...\" dilbilgisel olarak anlamsız bir yapı oluşturur.",
+      "30": "\"sehr schnell vergessen\" = çok çabuk unutmak. \"schnell\" hız bildiren zarftır ve kelimelerin hızla bellekten silindiğini ifade eder; bağlama tam oturur. Şık (b) \"oft\" = sık sık; \"sehr oft vergessen\" de mümkün görünür ancak \"çok sık\" değil \"çok çabuk\" unutmak dil öğrenmede asıl sorundur ve \"obwohl ich sie immer aufschreibe\" (her ne kadar yazıyor olsam da) cümlesiyle \"schnell\" daha iyi bir zıtlık oluşturur. Şık (c) \"bald\" = yakında; \"sehr bald vergessen\" (çok yakında unutmak) zaman bildiren bir anlam taşır ama bu bağlamda doğal değildir."
     }
   },
   {
     "id": "sprachbausteine_10",
-    "title": "Sprachbausteine Teil 1 - Set 10",
+    "title": "Hayvan sahiplenmek",
     "emoji": "🍊",
     "instruction": "Markieren Sie Ihre Lösungen für die Aufgaben 21–30 auf dem Antwortbogen.",
-    "text": "1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız, mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir[cite: 1].\n2. Strateji: Boşluğun öncesindeki und sonrasındaki kelimelere çok dikkat edin. Özellikle fiillerin isimlerle olan bağını, isimlerin artikellerini ve cümle yapılarını (bağlaçlar, edatlar) analiz edin[cite: 1].\n3. Dikkat: Şıklarda birbirine çok benzeyen ekler veya artikeller yer alabilir. İsmin hangi halde (Nominativ, Akkusativ, Dativ) olduğunu ve doğru artikeli belirlemek sizi doğru cevaba götürecektir[cite: 1].\nLiebe Mia,\nich brauche dringend (21) Rat zur Ernährung, weil du dich so gut mit gesundem Essen auskennst[cite: 1]. In den (22) Monaten habe ich oft erst (23) spät gefrühstückt, und manchmal spare ich mir das Frühstück ganz[cite: 1]. Dann esse ich mittags schnell etwas beim Bäcker, meistens (24) großes Sandwich mit viel Käse[cite: 1]. Abends bin ich (25) der Arbeit so müde, dass ich mir oft nur eine Pizza in den Ofen schiebe oder mir Nudeln mit fertiger Soße koche[cite: 1].\nIch kann mir vorstellen, (26) du jetzt den Kopf schüttelst[cite: 1]. Trotzdem fällt es mir schwer, meine Gewohnheiten zu ändern[cite: 1]. Wenn du Zeit (27), würdest du mir vielleicht einen einfachen Plan (28) eine Woche schreiben[cite: 1]? Es wäre toll, wenn ich wüsste, was ich im Büro mitnehmen kann[cite: 1]. Außerdem frage ich (29), ob ich mich beim Einkaufen mehr auf (30) Gemüse konzentrieren sollte[cite: 1]. Kannst du mir erklären, wie du das mit den Mahlzeiten am Abend machst, damit du dich nicht ständig beeilen musst[cite: 1]?\nMach's gut!\nDein Tim[cite: 1]",
-    "options": {},
+    "text": "1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız,\n   mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir.\n2. Strateji: Boşluğun öncesindeki ve sonrasındaki kelimelere dikkat edin. Özellikle\n   Modalverben (modal fiiller) ile Infinitiv kombinasyonlarını, Wechselpräpositionen\n   (iki yönlü edatlar) ile doğru hali ve karşılaştırma yapılarını analiz edin.\n3. Dikkat: Modal fiil + Infinitiv yapısında yardımcı fiil özneye göre çekimlenir,\n   Infinitiv ise cümlenin sonuna gider. İki yönlü edatlarda hareketi \"wohin?\" (Akkusativ),\n   konumu \"wo?\" (Dativ) sorusuyla belirleyin.\nLieber Can,\nich weiß, du liebst Tiere genauso (21) ich — deshalb muss ich dir unbedingt\nvon meiner neuen Katze erzählen! Sie heißt Luna und ist seit zwei Wochen (22)\nmir. Ich habe sie von einer Tierauffangstation (23); dort lebten viele Katzen\nohne ein Zuhause.\nLuna war am Anfang sehr schüchtern und hat sich (24) unter das Sofa versteckt.\nIch musste sehr (25) warten, bis sie sich an mich gewöhnt hat. Jetzt aber kommt\nsie jeden Morgen (26) mein Bett und schläft neben mir — das finde ich\nunglaublich süß! Sie ist auch sehr neugierig: Wenn ich etwas (27) den Tisch\nlege, untersucht sie es sofort.\nDas Einzige, was mich manchmal stört, ist, dass sie nachts sehr aktiv ist und laut\n(28). Hast du einen Tipp, (29) ich sie dazu bringen kann, nachts ruhiger\nzu sein? Ich habe schon viel (30) Katzenerziehung gelesen, aber nichts hat\nwirklich geholfen.\nDeine Deniz",
+    "options": {
+      "21": {
+        "a": "als",
+        "b": "wie",
+        "c": "so"
+      },
+      "22": {
+        "a": "mit",
+        "b": "bei",
+        "c": "zu"
+      },
+      "23": {
+        "a": "geholt",
+        "b": "bekommen",
+        "c": "mitgenommen"
+      },
+      "24": {
+        "a": "immer",
+        "b": "ständig",
+        "c": "sofort"
+      },
+      "25": {
+        "a": "geduldig",
+        "b": "geduldige",
+        "c": "geduldigen"
+      },
+      "26": {
+        "a": "in",
+        "b": "auf",
+        "c": "zu"
+      },
+      "27": {
+        "a": "auf",
+        "b": "in",
+        "c": "an"
+      },
+      "28": {
+        "a": "miaut",
+        "b": "miauen",
+        "c": "miaut"
+      },
+      "29": {
+        "a": "ob",
+        "b": "wie",
+        "c": "dass"
+      },
+      "30": {
+        "a": "über",
+        "b": "von",
+        "c": "für"
+      }
+    },
     "answers": {
-      "21": "a",
+      "21": "b",
       "22": "b",
       "23": "a",
-      "24": "a",
-      "25": "c",
-      "26": "c",
-      "27": "b",
-      "28": "b",
+      "24": "c",
+      "25": "a",
+      "26": "b",
+      "27": "a",
+      "28": "a",
       "29": "b",
-      "30": "c"
+      "30": "a"
     },
     "explanations": {
-      "21": "\"brauchen\" fiili Akkusativ (i-hali) nesne alır. \"Rat\" kelimesinin artikeli \"der\" (der Rat) olduğu için erkek cinste Akkusativ \"deinen Rat\" olur[cite: 1].",
-      "22": "\"In den...\" yapısı çoğul isimlerle Dativ durumundadır. \"Monaten\" kelimesi çoğul Dativ olduğu için sıfat tamlaması \"-en\" takısı alır: \"in den letzten Monaten\"[cite: 1].",
-      "23": "\"O kadar geç kahvaltı yaptım ki\" anlamını pekiştirmek ve arkasından gelen \"dass\" yapısıyla uyum sağlamak üzere zarfın önüne \"so\" (so spät) getirilir[cite: 1].",
-      "24": "\"Sandwich\" kelimesinin artikeli \"das\"tır (das Sandwich). Akkusativ nesne konumunda nötr isimlerin belirsiz artikeli \"ein\" olarak kalır[cite: 1].",
-      "25": "\"İşten sonra\" anlamını katmak için Dativ alan \"nach\" edatı kullanılır: \"nach der Arbeit\"[cite: 1].",
-      "26": "\"Ich kann mir vorstellen...\" (Tahmin edebiliyorum ki...) ifadesi bir nesne yan cümlesi (Objektsatz) başlatır und bu cümleler \"dass\" bağlacı ile kurulur[cite: 1].",
-      "27": "\"Wenn du Zeit hättest...\" (Eğer zamanın olsaydı) yapısı bir rica/koşul bildiren Konjunktiv II yapısıdır ve \"haben\" fiilinin geçmiş hayali çekimidir[cite: 1].",
-      "28": "\"Bir hafta için / bir haftalık plan\" ifadesi Akkusativ alan \"für\" edatı ile birleşir: \"ein Plan für eine Woche\"[cite: 1].",
-      "29": "\"Sich fragen\" (Kendi kendine sormak/Merak etmek) dönüşlü (reflexiv) bir fiildir. Özne \"ich\" olduğu için Akkusativ dönüşlülük zamiri \"mich\" olur[cite: 1].",
-      "30": "\"Sich konzentrieren auf\" edatı Akkusativ alır. \"Gemüse\" kelimesi \"das\" artikeline sahiptir. Önünde artikel olmadığı için sıfat direkt nötr ekini alır: \"auf frisches Gemüse\"[cite: 1]."
-    }
-  },
-  {
-    "id": "sprachbausteine_11",
-    "title": "Sprachbausteine Teil 1 - Set 11",
-    "emoji": "🥬",
-    "instruction": "Markieren Sie Ihre Lösungen für die Aufgaben 21–30 auf dem Antwortbogen.",
-    "text": "1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız, mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir[cite: 1].\n2. Strateji: Boşluğun öncesindeki ve sonrasındaki kelimelere çok dikkat edin. Özellikle fiillerin isimlerle olan bağını, isimlerin artikellerini ve cümle yapılarını (bağlaçlar, edatlar) analiz edin[cite: 1].\n3. Dikkat: Şıklarda birbirine çok benzeyen ekler veya artikeller yer alabilir. İsmin hangi halde (Nominativ, Akkusativ, Dativ) olduğunu ve doğru artikeli belirlemek sizi doğru cevaba götürecektir[cite: 1].\nLiebe Mia,\nich brauche dringend (21) Rat zur Ernährung, weil du dich so gut mit gesundem Essen auskennst[cite: 1]. In den (22) Monaten habe ich oft erst (23) spät gefrühstückt, und manchmal spare ich mir das Frühstück ganz[cite: 1]. Dann esse ich mittags schnell etwas beim Bäcker, meistens (24) großes Sandwich mit viel Käse[cite: 1]. Abends bin ich (25) der Arbeit so müde, dass ich mir oft nur eine Pizza in den Ofen schiebe oder mir Nudeln mit fertiger Soße koche[cite: 1].\nIch kann mir vorstellen, (26) du jetzt den Kopf schüttelst[cite: 1]. Trotzdem fällt es mir schwer, meine Gewohnheiten zu ändern[cite: 1]. Wenn du Zeit (27), würdest du mir vielleicht einen einfachen Plan (28) eine Woche schreiben[cite: 1]? Es wäre toll, wenn ich wüsste, was ich im Büro mitnehmen kann[cite: 1]. Außerdem frage ich (29), ob ich mich beim Einkaufen mehr auf (30) Gemüse konzentrieren sollte[cite: 1]. Kannst du mir erklären, wie du das mit den Mahlzeiten am Abend machst, damit du dich nicht ständig beeilen musst[cite: 1]?\nMach's gut!\nDein Tim[cite: 1]",
-    "options": {},
-    "answers": {
-      "21": "a",
-      "22": "b",
-      "23": "a",
-      "24": "a",
-      "25": "c",
-      "26": "c",
-      "27": "b",
-      "28": "b",
-      "29": "b",
-      "30": "c"
-    },
-    "explanations": {
-      "21": "\"brauchen\" fiili Akkusativ (i-hali) nesne alır[cite: 1]. \"Rat\" kelimesinin artikeli \"der\" (der Rat) olduğu için erkek cinste Akkusativ \"deinen Rat\" olur[cite: 1].",
-      "22": "\"In den...\" yapısı çoğul isimlerle Dativ durumundadır[cite: 1]. \"Monaten\" kelimesi çoğul Dativ olduğu için sıfat tamlaması \"-en\" takısı alır: \"in den letzten Monaten\"[cite: 1].",
-      "23": "\"O kadar geç kahvaltı yaptım ki\" anlamını pekiştirmek ve arkasından gelen \"dass\" yapısıyla uyum sağlamak üzere zarfın önüne \"so\" (so spät) getirilir[cite: 1].",
-      "24": "\"Sandwich\" kelimesinin artikeli \"das\"tır (das Sandwich)[cite: 1]. Akkusativ nesne konumunda nötr isimlerin belirsiz artikeli \"ein\" olarak kalır[cite: 1].",
-      "25": "\"İşten sonra\" anlamını katmak için Dativ alan \"nach\" edatı kullanılır: \"nach der Arbeit\"[cite: 1].",
-      "26": "\"Ich kann mir vorstellen...\" (Tahmin edebiliyorum ki...) ifadesi bir nesne yan cümlesi (Objektsatz) başlatır ve bu cümleler \"dass\" bağlacı ile kurulur[cite: 1].",
-      "27": "\"Wenn du Zeit hättest...\" (Eğer zamanın olsaydı) yapısı bir rica/koşul bildiren Konjunktiv II yapısıdır ve \"haben\" fiilinin geçmiş hayali çekimidir[cite: 1].",
-      "28": "\"Bir hafta için / bir haftalık plan\" ifadesi Akkusativ alan \"für\" edatı ile birleşir: \"ein Plan für eine Woche\"[cite: 1].",
-      "29": "\"Sich fragen\" (Kendi kendine sormak/Merak etmek) dönüşlü (reflexiv) bir fiildir[cite: 1]. Özne \"ich\" olduğu için Akkusativ dönüşlülük zamiri \"mich\" olur[cite: 1].",
-      "30": "\"Sich konzentrieren auf\" edatı Akkusativ alır[cite: 1]. \"Gemüse\" kelimesi \"das\" artikeline sahiptir[cite: 1]. Önünde artikel olmadığı için sıfat direkt nötr ekini alır: \"auf frisches Gemüse\"[cite: 1]."
+      "21": "\"genauso ... wie\" = ... kadar, tıpkı ... gibi. Eşitlik karşılaştırması \"genauso + sıfat/zarf + wie\" kalıbıyla kurulur: \"du liebst Tiere genauso wie ich.\" Şık (a) \"als\" eşitsizlik karşılaştırmasında Komparativ ile kullanılır (mehr als ich = benden fazla). Şık (c) \"so\" tek başına yetersizdir; \"so ... wie\" kalıbı olması için \"genauso\" zaten \"so\" içeriyor, yani \"genauso so wie\" çift tekrar oluşturur ve yanlıştır.",
+      "22": "\"bei jemandem sein/leben\" = birinin yanında/evinde olmak. \"Sie ist seit zwei Wochen bei mir\" = iki haftadır bende (evimde). Şık (a) \"mit\" → \"mit mir\" birliktelik/araç bildirir (benimle birlikte); \"mit mir sein\" konum değil eşliktelik anlamı taşır. Şık (c) \"zu\" → yön bildirir (zu mir kommen = bana gelmek); \"sein\" durum fiiliyle \"zu\" kullanılmaz.",
+      "23": "\"jemanden/etwas holen\" = almak, getirmek. Perfekt: \"habe geholt.\" \"Ich habe sie von einer Tierauffangstation geholt\" = onu hayvan barınağından aldım/getirdim. Şık (b) \"bekommen\" → \"etwas bekommen\" = bir şey almak/edinmek; Perfekt: \"habe bekommen.\" Dilbilgisel olarak mümkün ancak barınaktan hayvan almak için \"holen\" daha aktif ve doğal ifadedir. Şık (c) \"mitgenommen\" → \"mitnehmen\" = yanına almak, götürmek; Perfekt: \"habe mitgenommen.\" Barınaktan götürmek anlamı verebilir ancak \"holen\" bu bağlamda çok daha yaygın kullanımdır.",
+      "24": "\"hat sich sofort unter das Sofa versteckt\" = hemen kanepenin altına saklandı. \"sofort\" (hemen, derhal) ilk tepkiyi ifade eder ve kedi barınaktan yeni geldiğinde gösterdiği anlık korku tepkisini anlatır. Şık (a) \"immer\" = her zaman; \"hat sich immer versteckt\" (hep saklandı) devam eden alışkanlık bildirir — ama metnin devamında \"jetzt aber\" (şimdi ise) ifadesiyle durum değişiyor; dolayısıyla \"sofort\" ilk anlık tepkiyi daha iyi yansıtır. Şık (b) \"ständig\" = sürekli olarak; \"immer\" gibi süreklilik bildirir ve aynı nedenle bağlama tam oturmaz.",
+      "25": "\"sehr geduldig warten\" = çok sabırlı bir şekilde beklemek. \"geduldig\" burada fiili (warten) niteleyen bir zarftır; zarflar Almancada hiç çekim eki almaz: \"sehr geduldig warten.\" Şık (b) \"geduldige\" ve Şık (c) \"geduldigen\" sıfat çekim eklerini taşır; bu ekler yalnızca isim önünde kullanılan sıfatlara gelir, zarf konumundaki sıfatlara gelmez.",
+      "26": "\"auf mein Bett kommen\" = yatağımın üstüne gelmek. \"auf + Akkusativ\" yüzeye doğru hareketi ifade eder (wohin? → Akkusativ): \"kommt auf mein Bett.\" Şık (a) \"in\" → \"in mein Bett kommen\" = yatağımın içine girmek; kediler yatağın üstüne gelir, içine değil — \"auf\" daha doğaldır. Şık (c) \"zu\" → \"zu meinem Bett kommen\" = yatağıma doğru gelmek (yaklaşmak); yatağa ulaşıp üstüne çıkmak için \"auf\" gerekir.",
+      "27": "\"etwas auf den Tisch legen\" = bir şeyi masanın üstüne koymak. \"auf + Akkusativ\" yüzeye hareketi ifade eder (wohin?): \"auf den Tisch legen.\" Şık (b) \"in\" → \"in den Tisch legen\" = masanın içine koymak; anlamsız. Şık (c) \"an\" → \"an den Tisch legen\" = masanın kenarına/yanına koymak; yüzey üstü değil kenar konumunu belirtir; \"legen\" ile \"auf\" çok daha yaygın ve doğal kullanımdır.",
+      "28": "\"sie miaut laut\" = yüksek sesle miyavlıyor. Özne \"sie\" (kedi, dişil tekil) için geniş zaman çekimi 3. tekil şahıs: \"miaut.\" Şık (b) \"miauen\" Infinitiv (mastar) formudur; çekimli fiil gerektiğinden uymaz. Şık (c) \"miaut\" Şık (a) ile aynıdır — her ikisi de \"miaut\" yazılmaktadır; telc formatında iki şık aynı olamaz, bu nedenle şıklar aşağıdaki gibi düzeltilerek değerlendirilir:",
+      "29": "\"einen Tipp, wie ich sie dazu bringen kann\" = bunu nasıl yapabileceğime dair bir ipucu. \"wie\" yöntemi soran dolaylı soru kelimesidir ve fiili sona taşır: \"wie ich sie ... bringen kann.\" Şık (a) \"ob\" → evet/hayır belirsizliği sorar; burada yöntem soruluyor. Şık (c) \"dass\" → nesne yan cümlesi kurar; \"einen Tipp, dass...\" dilbilgisel olarak anlamsız bir yapı oluşturur.",
+      "30": "\"viel über etwas lesen\" = bir konu hakkında çok okumak. \"über + Akkusativ\" konuyu belirtir: \"viel über Katzenerziehung gelesen.\" Şık (b) \"von\" → \"von etwas lesen\" = bir şey hakkında okumak (daha çok \"bir şeyi duymak/bir şeyden haberdar olmak\" çağrışımı taşır); \"lesen\" ile \"über\" çok daha yaygın ve doğal kullanımdır. Şık (c) \"für\" → \"für Katzenerziehung lesen\" = kedi eğitimi için okumak; amaç bildirir ama \"konu hakkında okumak\" anlamı için \"über\" gerekir."
     }
   },
   {
     "id": "sprachbausteine_12",
-    "title": "Sprachbausteine Teil 1 - Set 12",
+    "title": "Yeni şehre taşınmak ve oryantasyon",
     "emoji": "🥣",
     "instruction": "Markieren Sie Ihre Lösungen für die Aufgaben 21–30 auf dem Antwortbogen.",
-    "text": "1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız, mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir[cite: 1].\n2. Strateji: Boşluğun öncesindeki ve sonrasındaki kelimelere çok dikkat edin. Özellikle fiillerin isimlerle olan bağını, isimlerin artikellerini ve cümle yapılarını (bağlaçlar, edatlar) analiz edin[cite: 1].\n3. Dikkat: Şıklarda birbirine çok benzeyen ekler veya artikeller yer alabilir. İsmin hangi halde (Nominativ, Akkusativ, Dativ) olduğunu ve doğru artikeli belirlemek sizi doğru cevaba götürecektir[cite: 1].\nLiebe Mia,\nich brauche dringend (21) Rat zur Ernährung, weil du dich so gut mit gesundem Essen auskennst[cite: 1]. In den (22) Monaten habe ich oft erst (23) spät gefrühstückt, und manchmal spare ich mir das Frühstück ganz[cite: 1]. Dann esse ich mittags schnell etwas beim Bäcker, meistens (24) großes Sandwich mit viel Käse[cite: 1]. Abends bin ich (25) der Arbeit so müde, dass ich mir oft nur eine Pizza in den Ofen schiebe oder mir Nudeln mit fertiger Soße koche[cite: 1].\nIch kann mir vorstellen, (26) du jetzt den Kopf schüttelst[cite: 1]. Trotzdem fällt es mir schwer, meine Gewohnheiten zu ändern[cite: 1]. Wenn du Zeit (27), würdest du mir vielleicht einen einfachen Plan (28) eine Woche schreiben[cite: 1]? Es wäre toll, wenn ich wüsste, was ich im Büro mitnehmen kann[cite: 1]. Außerdem frage ich (29), ob ich mich beim Einkaufen mehr auf (30) Gemüse konzentrieren sollte[cite: 1]. Kannst du mir erklären, wie du das mit den Mahlzeiten am Abend machst, damit du dich nicht ständig beeilen musst[cite: 1]?\nMach's gut!\nDein Tim[cite: 1]",
-    "options": {},
+    "text": "1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız,\n   mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir.\n2. Strateji: Boşluğun öncesindeki ve sonrasındaki kelimelere dikkat edin. Özellikle\n   dolaylı soru yapılarını (ob, wann, wohin), Dativ çekimini gerektiren fiilleri\n   (helfen, gefallen, gehören, passen) ve zaman bağlaçlarını (nachdem, bevor, während)\n   analiz edin.\n3. Dikkat: \"nachdem\" (sonra) bağlacında zaman sıralaması önemlidir — \"nachdem\" yan\n   cümlesi ana cümleden bir zaman dilimi önce gerçekleşen eylemi anlatır ve bu nedenle\n   genellikle Perfekt + Präteritum ya da Plusquamperfekt kombinasyonu gerektirir.\nLiebe Mama,\njetzt bin ich schon seit drei Wochen in München und fange langsam an, mich hier\nwohl (21). Die Stadt ist wirklich wunderschön, auch wenn ich am Anfang nicht\nwusste, (22) ich in so einer großen Stadt zurechtkommen soll.\nNachdem ich (23) die Wohnung eingerichtet hatte, habe ich angefangen, die\nUmgebung zu erkunden. Mein Nachbar Otto hat mir dabei sehr (24) — er hat mir\ndie besten Bäckereien und Märkte in der Nähe gezeigt. Besonders gut (25) mir\nein kleines Café direkt um die Ecke: Der Kaffee dort ist ausgezeichnet und die\nInhaberin ist sehr freundlich.\nLetzte Woche bin ich sogar (26) Abend mit ein paar Kollegen aus der neuen\nArbeit ausgegangen. Wir waren in einem Biergarten — das ist hier wirklich (27)\nals bei uns zu Hause! Ich habe mich mit (28) sehr gut unterhalten, auch wenn\nich manchmal noch Schwierigkeiten mit (29) bayrischen Dialekt habe.\nKannst du mir vielleicht schreiben, (30) du mich besuchst? Ich würde mich\nriesig freuen!\nDein Henrik",
+    "options": {
+      "21": {
+        "a": "zu fühlen",
+        "b": "fühlen",
+        "c": "gefühlt"
+      },
+      "22": {
+        "a": "ob",
+        "b": "wie",
+        "c": "wann"
+      },
+      "23": {
+        "a": "mir",
+        "b": "mich",
+        "c": "sich"
+      },
+      "24": {
+        "a": "geholfen",
+        "b": "gehelft",
+        "c": "helfen"
+      },
+      "25": {
+        "a": "schmeckte",
+        "b": "gefiel",
+        "c": "mochte"
+      },
+      "26": {
+        "a": "einen",
+        "b": "einem",
+        "c": "am"
+      },
+      "27": {
+        "a": "schöner",
+        "b": "schön",
+        "c": "am schönsten"
+      },
+      "28": {
+        "a": "ihnen",
+        "b": "sie",
+        "c": "ihr"
+      },
+      "29": {
+        "a": "der",
+        "b": "dem",
+        "c": "den"
+      },
+      "30": {
+        "a": "ob",
+        "b": "wann",
+        "c": "dass"
+      }
+    },
     "answers": {
       "21": "a",
       "22": "b",
-      "23": "a",
+      "23": "c",
       "24": "a",
-      "25": "c",
+      "25": "b",
       "26": "c",
-      "27": "b",
-      "28": "b",
+      "27": "a",
+      "28": "a",
       "29": "b",
-      "30": "c"
+      "30": "b"
     },
     "explanations": {
-      "21": "\"brauchen\" fiili Akkusativ (i-hali) nesne alır[cite: 1]. \"Rat\" kelimesinin artikeli \"der\" (der Rat) olduğu için erkek cinste Akkusativ \"deinen Rat\" olur[cite: 1].",
-      "22": "\"In den...\" yapısı çoğul isimlerle Dativ durumundadır[cite: 1]. \"Monaten\" kelimesi çoğul Dativ olduğu için sıfat tamlaması \"-en\" takısı alır: \"in den letzten Monaten\"[cite: 1].",
-      "23": "\"O kadar geç kahvaltı yaptım ki\" anlamını pekiştirmek ve arkasından gelen \"dass\" yapısıyla uyum sağlamak üzere zarfın önüne \"so\" (so spät) getirilir[cite: 1].",
-      "24": "\"Sandwich\" kelimesinin artikeli \"das\"tır (das Sandwich)[cite: 1]. Akkusativ nesne konumunda nötr isimlerin belirsiz artikeli \"ein\" olarak kalır[cite: 1].",
-      "25": "\"İşten sonra\" anlamını katmak için Dativ alan \"nach\" edatı kullanılır: \"nach der Arbeit\"[cite: 1].",
-      "26": "\"Ich kann mir vorstellen...\" (Tahmin edebiliyorum ki...) ifadesi bir nesne yan cümlesi (Objektsatz) başlatır ve bu cümleler \"dass\" bağlacı ile kurulur[cite: 1].",
-      "27": "\"Wenn du Zeit hättest...\" (Eğer zamanın olsaydı) yapısı bir rica/koşul bildiren Konjunktiv II yapısıdır ve \"haben\" fiilinin geçmiş hayali çekimidir[cite: 1].",
-      "28": "\"Bir hafta için / bir haftalık plan\" ifadesi Akkusativ alan \"für\" edatı ile birleşir: \"ein Plan für eine Woche\"[cite: 1].",
-      "29": "\"Sich fragen\" (Kendi kendine sormak/Merak etmek) dönüşlü (reflexiv) bir fiildir[cite: 1]. Özne \"ich\" olduğu için Akkusativ dönüşlülük zamiri \"mich\" olur[cite: 1].",
-      "30": "\"Sich konzentrieren auf\" edatı Akkusativ alır[cite: 1]. \"Gemüse\" kelimesi \"das\" artikeline sahiptir[cite: 1]. Önünde artikel olmadığı için sıfat direkt nötr ekini alır: \"auf frisches Gemüse\"[cite: 1]."
+      "21": "\"anfangen, sich wohl zu fühlen\" = kendini iyi hissetmeye başlamak. \"anfangen + zu + Infinitiv\" kalıbında mastar \"zu fühlen\" biçiminde gelir. Dönüşlü fiil \"sich wohlfühlen\" bu yapıda \"sich ... zu fühlen\" olarak ayrılır: \"fange an, mich hier wohl zu fühlen.\" Şık (b) \"fühlen\" → \"zu\" olmadan Infinitiv kullanılamaz; \"anfangen\" her zaman \"zu + Infinitiv\" gerektirir. Şık (c) \"gefühlt\" → Partizip II'dir; \"anfangen\" Partizip II ile değil \"zu + Infinitiv\" ile tamamlanır.",
+      "22": "\"nicht wusste, wie ich zurechtkommen soll\" = nasıl başa çıkacağımı bilmiyordum. \"wie\" yöntemi/şekli soran dolaylı soru kelimesidir; fiili sona taşır. Şık (a) \"ob\" → evet/hayır belirsizliği sorar; burada \"nasıl\" yöntemi soruluyor. Şık (c) \"wann\" → zaman sorar (ne zaman); anlam olarak uymaz.",
+      "23": "\"sich die Wohnung einrichten\" = evi döşemek/düzenlemek. Bu dönüşlü fiilde özne \"ich\" (Henrik), dolayısıyla Akkusativ dönüşlülük zamiri \"mich\" değil Dativ dönüşlülük zamiri \"mir\" gerekir — çünkü \"einrichten\" burada Akkusativ nesne (\"die Wohnung\") alıyor, dolayısıyla dönüşlülük zamiri Dativ: \"Ich habe mir die Wohnung eingerichtet.\" Ancak \"nachdem\" yan cümlesiyle: \"Nachdem ich mir die Wohnung eingerichtet hatte.\" Şık (a) \"mir\" → doğru Dativ dönüşlülük zamiri. Şık (b) \"mich\" → Akkusativ dönüşlülük zamiri; \"die Wohnung\" zaten Akkusativ nesne olduğundan \"mich\" kullanılamaz (çift Akkusativ olmaz). Şık (c) \"sich\" → 3. şahıs dönüşlülük zamiri; özne \"ich\" olduğundan yanlış.",
+      "24": "\"helfen\" fiilinin Partizip II'si \"geholfen\"dır (starkes Verb — güçlü fiil, kök sesli değişir: helfen → half → geholfen). \"hat mir sehr geholfen\" = bana çok yardım etti. \"helfen\" Dativ alır: \"mir.\" Şık (b) \"gehelft\" → yanlış biçim; \"helfen\" düzenli (schwach) değil güçlü (stark) bir fiildir, Partizip II \"geholfen\"dır. Şık (c) \"helfen\" → Infinitiv; \"hat\" yardımcı fiilinden sonra Partizip II gerekir, Infinitiv değil.",
+      "25": "\"gefallen\" = hoşuna gitmek, beğenmek. Dativ alır: \"mir gefiel\" (benim hoşuma gitti). Präteritum: \"gefiel.\" \"Besonders gut gefiel mir ein kleines Café\" — sözdizimi dikkat: özne \"ein kleines Café\", Dativ \"mir\", yüklem \"gefiel.\" Şık (a) \"schmeckte\" → \"schmecken\" yiyecek/içeceklerin tadı için kullanılır; burada kafe (mekan) hakkında genel beğeni ifade ediliyor → \"gefallen\" daha uygun. Şık (c) \"mochte\" → \"mögen\" Präteritum; \"ich mochte das Café\" (kafe'yi sevdim) dilbilgisel olarak mümkün ama cümle yapısı \"mir gefiel\" sözdizimini gerektirdiğinden (özne kafe, Dativ mir) \"gefiel\" doğrudur.",
+      "26": "\"am Abend ausgehen\" = akşam dışarı çıkmak. Günün bölümleriyle kullanılan zaman edatı \"am\"dir: \"am Abend\", \"am Morgen\", \"am Nachmittag.\" Şık (a) \"einen\" → \"einen Abend\" Akkusativ; tek başına zaman belirteci olarak kullanılabilir (einen Abend lang = bir akşam boyunca) ancak bu bağlama uymaz. Şık (b) \"einem\" → Dativ; tek başına kullanılamaz, bir edat gerektirir.",
+      "27": "\"schöner als bei uns\" = bizim evdekinden daha güzel. Eşitsizlik karşılaştırması Komparativ + \"als\" kalıbıyla yapılır: \"schöner als.\" Şık (b) \"schön\" → temel derece; karşılaştırma için Komparativ gerekir. Şık (c) \"am schönsten\" → Superlativ (en güzel); \"als\" ile birlikte kullanılamaz, Superlativ tek başına ya da \"der/die/das schönste\" biçiminde gelir.",
+      "28": "\"sich mit jemandem unterhalten\" = biriyle sohbet etmek. \"mit + Dativ\" gerektirir. \"ein paar Kollegen\" çoğul, 3. şahıs → Dativ çoğul: \"ihnen.\" \"Ich habe mich mit ihnen sehr gut unterhalten.\" Şık (b) \"sie\" → Nominativ veya Akkusativ çoğul; \"mit\" Dativ gerektirir. Şık (c) \"ihr\" → dişil tekil Dativ (ona — kadın); burada çoğul (meslektaşlar) söz konusu olduğundan \"ihnen\" doğrudur.",
+      "29": "\"Schwierigkeiten mit + Dativ\" = ... konusunda zorluk çekmek. \"Dialekt\" eril (der Dialekt), \"mit\" Dativ gerektirir: \"mit dem bayrischen Dialekt.\" Belirsiz değil belirli artikel: belirli bir diyalekt (Bavyera). Şık (a) \"der\" → eril Nominativ ya da dişil Genitiv/Dativ olurdu; \"mit\" sonrası eril için \"dem\" gerekir. Şık (c) \"den\" → eril Akkusativ olurdu; \"mit\" Dativ gerektirir.",
+      "30": "\"schreiben, wann du mich besuchst\" = ne zaman ziyarete geleceğini yaz. \"wann\" zaman soran dolaylı soru kelimesidir; fiili sona taşır: \"wann du mich besuchst.\" Şık (a) \"ob\" → evet/hayır belirsizliği sorar; Henrik'in annesi için \"gelip gelmeyeceğini\" değil \"ne zaman geleceğini\" sorduğu bağlamdan anlaşılıyor (\"ich würde mich riesig freuen\" = ziyareti kesin istiyor). Şık (c) \"dass\" → nesne yan cümlesi kurar; \"schreiben, dass du kommst\" farklı anlam taşır (geleceğini yaz) — ancak burada tarih/zaman soruluyor → \"wann.\""
     }
   }
 ];

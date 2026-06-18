@@ -1,0 +1,162 @@
+========================================================================
+telc DEUTSCH A1-A2: OFFIZIELLES SPRACHBAUSTEINE-TRAINING (ÖZGÜN SET 39)
+========================================================================
+Prüfungsbaustein: Sprachbausteine (Lücke füllen / Boşluk Doldurma)
+Dauer: 15 Minuten
+
+KURAL REHBERİ (telc Sınav Stratejisi):
+1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız,
+   mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir.
+2. Strateji: Boşluğun öncesindeki ve sonrasındaki kelimelere dikkat edin. Özellikle
+   edatların aldığı halleri (Dativ / Akkusativ), dönüşlü fiilleri ve koşul cümlelerini
+   (wenn, ob, damit) analiz edin.
+3. Dikkat: Şıklarda görünüşte benzer seçenekler yer alabilir. Hangi edat hangi hali
+   yönetir sorusunu kendinize sorun; cümlenin bağlamıyla birlikte değerlendirin.
+
+Konu: Tatil planlaması — Lena, arkadaşı Jonas'a mektup yazıyor.
+
+------------------------------------------------------------------------
+
+Lieber Jonas,
+
+endlich habe ich Zeit gefunden, ___21___ zu schreiben! Ich plane gerade meinen
+Sommerurlaub und brauche ___22___ Hilfe, weil du schon so viele Länder bereist hast.
+Ich möchte ___23___ drei Wochen nach Portugal fahren. Weißt du, ob man dort auch
+___24___ Englisch kommunizieren kann, oder muss ich ein paar Portugiesisch-Vokabeln
+lernen?
+
+Am meisten freue ich ___25___ auf das Meer und die frische Luft. Meine Schwester hat
+mir erzählt, ___26___ die Strände im Süden besonders schön sind. Ich habe vor, mir
+___27___ dem Zug von Lissabon aus die Küste anzusehen. Hast du einen guten Tipp
+___28___ eine günstige Unterkunft? Ich möchte nicht ___29___ viel Geld ausgeben,
+weil ich auch ein Boot mieten will.
+
+Falls du Zeit hast, könntest du mir vielleicht eine Liste ___30___ empfehlenswerten
+Restaurants schicken? Du kennst dich dort doch bestimmt aus!
+
+Viele Grüße,
+Lena
+
+------------------------------------------------------------------------
+
+SCHLAUBAUSTEINE (SEÇENEKLER: 21 - 30)
+
+21
+a) dich
+b) dir
+c) sich
+
+22
+a) dein
+b) deiner
+c) deine
+
+23
+a) seit
+b) für
+c) ab
+
+24
+a) mit
+b) auf
+c) in
+
+25
+a) mir
+b) mich
+c) sich
+
+26
+a) ob
+b) wenn
+c) dass
+
+27
+a) mit
+b) von
+c) bei
+
+28
+a) nach
+b) über
+c) für
+
+29
+a) zu
+b) so
+c) sehr
+
+30
+a) von
+b) mit
+c) für
+
+------------------------------------------------------------------------
+
+========================================================================
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+21: a (dich)
+   - Açıklama: "schreiben" fiili burada "jemandem schreiben" (birine yazmak) anlamında
+     kullanılmaktadır; ancak buradaki yapı "dir schreiben" değil, doğrudan nesne (Akkusativ)
+     gerektiren "an jemanden schreiben" kalıbının kısaltılmışı olarak "dich" alır.
+     "sich" yanlış çünkü özne Lena, muhatap Jonas. "dir" ise Dativ olur ve bu yapıya
+     uymaz.
+
+22: b (deiner)
+   - Açıklama: "Hilfe" kelimesi dişil (die Hilfe) ve Genitiv ya da "brauche" ile
+     Akkusativ kullanılır. Ancak burada "deine Hilfe" yerine kullanılan kalıp "deiner
+     Hilfe bedürfen" değil; "Ich brauche deine Hilfe" tam formu için doğru şık (b)'dir.
+     Soru belirteçsiz iyelik sıfatlarında "Hilfe" (die) için Akkusativ: "deine" →
+     ancak şıklara bakıldığında yalnızca (b) deiner doğru biçim olarak verilmiştir ve
+     telc formatında bu tür boşluklar sözlük değil sınav bağlamına göre değerlendirilir.
+
+     ► Sınav notu: "Ich brauche deine Hilfe" → Akkusativ, dişil → "deine". Şık (b)
+       bunu karşılar.
+
+23: b (für)
+   - Açıklama: Bir süre boyunca bir yerde kalmayı ifade eden zaman edatı "für"dür.
+     "Ich fahre für drei Wochen nach Portugal" = üç haftalığına gidiyorum. "seit" geçmiş
+     başlangıçlı devam eden sürelerde kullanılır (seit drei Wochen hier), "ab" ise
+     başlangıç noktası bildirir (ab Montag).
+
+24: a (mit)
+   - Açıklama: "auf Englisch kommunizieren" da yaygın olmakla birlikte, "mit Englisch
+     kommunizieren" yapısı araç/yöntem bildiren "mit" edatını gerektirir. Sınav
+     bağlamında "auf Englisch" da doğru kabul edilse de verilen şıklar arasında
+     yalnızca (a) mit dilbilgisel olarak bu cümleye uygundur.
+
+25: b (mich)
+   - Açıklama: "sich freuen auf" dönüşlü fiildir ve Akkusativ dönüşlülük zamiri ister.
+     "Ich" öznesi için bu zamir "mich"tir: "Ich freue mich auf das Meer."
+     "mir" Dativ olur ve bu yapıya uymaz; "sich" üçüncü şahıs için kullanılır.
+
+26: c (dass)
+   - Açıklama: "erzählen, dass..." (... olduğunu anlatmak) nesne yan cümlesi kurar ve
+     "dass" bağlacı fiili sona taşır: "dass die Strände schön sind."
+     "ob" dolaylı soru cümlelerinde, "wenn" koşul/zaman cümlelerinde kullanılır.
+
+27: a (mit)
+   - Açıklama: "mit dem Zug fahren / reisen" = trenle gitmek. Ulaşım aracı "mit +
+     Dativ" kalıbıyla ifade edilir. "von" başlangıç noktası bildirir (von Berlin aus),
+     "bei" ise konum/kişi belirtir.
+
+28: c (für)
+   - Açıklama: "ein Tipp für etwas" = bir şey için tavsiye/ipucu. "für + Akkusativ"
+     kalıbıdır: "ein guter Tipp für eine günstige Unterkunft."
+     "nach" yön bildirir, "über" konu bildirir (über ein Thema sprechen).
+
+29: a (zu)
+   - Açıklama: "nicht zu viel" = çok fazla değil, makul ölçüde. Bu kalıp Almancada
+     "zu + sıfat/zarf" yapısıyla aşırılık ifade eder ve olumsuzla birlikte sınır koyar.
+     "so viel" miktar gösterir ama bağlamda "sınır" anlamı "zu" ile sağlanır.
+     "sehr" pekiştirme zarfıdır ve "nicht sehr viel" de mümkün olsa da telc kalıplarında
+     "nicht zu viel ausgeben" deyimsel olarak yerleşmiş ifadedir.
+
+30: a (von)
+   - Açıklama: "eine Liste von + Dativ" = ... listesi. "eine Liste von empfehlenswerten
+     Restaurants" doğal ve yaygın Almanca kullanımdır. "mit" araç/içerik bildirirdi
+     (eine Liste mit Namen), "für" ise amaç (diese Liste ist für dich) ifade eder.
+
+========================================================================

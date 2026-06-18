@@ -1,0 +1,190 @@
+========================================================================
+telc DEUTSCH A1-A2: OFFIZIELLES SPRACHBAUSTEINE-TRAINING (ÖZGÜN SET 45)
+========================================================================
+Prüfungsbaustein: Sprachbausteine (Lücke füllen / Boşluk Doldurma)
+Dauer: 15 Minuten
+
+KURAL REHBERİ (telc Sınav Stratejisi):
+1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız,
+   mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir.
+2. Strateji: Boşluğun öncesindeki ve sonrasındaki kelimelere dikkat edin. Özellikle
+   Passiv yapısını (werden + Partizip II), Genitiv kullanımını ve zaman/sıklık
+   zarflarını (manchmal, kaum, selten) doğru analiz edin.
+3. Dikkat: Passiv yapısında "werden" yardımcı fiili özneye göre çekimlenir;
+   Partizip II ise her zaman değişmez. Zaman zarflarını bağlama göre seçin —
+   anlam farkları sınavda belirleyicidir.
+
+Konu: Şehir hayatı ve değişim — Yasmin, kuzeni Tobias'a eski mahallesini anlatıyor.
+
+------------------------------------------------------------------------
+
+Lieber Tobias,
+
+du fragst mich, wie es in meiner alten Heimatstadt ist. Ich war letzte Woche dort
+und muss sagen: Es hat sich wirklich viel ___21___! Das alte Kino in der Mitte der
+Stadt ___22___ leider abgerissen — an seiner Stelle steht jetzt ein modernes
+Einkaufszentrum.
+
+Ich erinnere mich ___23___ gut an den kleinen Markt am Samstag, auf dem meine Mutter
+immer frisches Gemüse gekauft hat. Den gibt es ___24___ noch, aber er ist viel kleiner
+___25___ früher. Viele der alten Geschäfte ___26___ durch neue Kettenläden ersetzt
+worden. Das finde ich schade, weil die kleinen Läden der Stadt ihren ___27___ Charakter
+gegeben haben.
+
+Was mich aber gefreut hat: Der alte Park ___28___ dem Rathaus wurde komplett erneuert.
+Jetzt gibt es dort sogar einen Spielplatz ___29___ Kinder. Meine kleine Nichte war
+begeistert! Ich glaube, man muss akzeptieren, ___30___ Städte sich immer verändern —
+auch wenn es manchmal wehtut.
+
+Herzliche Grüße,
+Deine Yasmin
+
+------------------------------------------------------------------------
+
+SCHLAUBAUSTEINE (SEÇENEKLER: 21 - 30)
+
+21
+a) verändert
+b) geändert
+c) gewechselt
+
+22
+a) hat
+b) wurde
+c) ist
+
+23
+a) sehr
+b) so
+c) noch
+
+24
+a) noch
+b) schon
+c) immer
+
+25
+a) wie
+b) als
+c) von
+
+26
+a) haben
+b) sind
+c) wurden
+
+27
+a) besonderem
+b) besonderen
+c) besonderer
+
+28
+a) neben
+b) vor
+c) hinter
+
+29
+a) für
+b) mit
+c) von
+
+30
+a) ob
+b) wenn
+c) dass
+
+------------------------------------------------------------------------
+
+========================================================================
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+21: a (verändert)
+   - Açıklama: "sich verändern" = değişmek (genel, kapsamlı değişim).
+     Dönüşlü fiil Perfekt: "Es hat sich viel verändert."
+     Şık (b) "geändert" → "sich ändern" de "değişmek" anlamına gelir ancak
+     daha çok küçük, belirli bir şeyin değişimi için kullanılır (z.B. plan, fikir).
+     "viel verändert" kapsamlı şehir değişimini ifade ettiğinden (a) daha uygundur.
+     Şık (c) "gewechselt" → "wechseln" = değiştirmek (bilinçli eylem, örneğin iş
+     değiştirmek); burada özne şehirdir ve bilinçli eylem söz konusu değildir.
+
+22: b (wurde)
+   - Açıklama: "abgerissen werden" = yıkılmak (Passiv). Geçmişte tamamlanan bir
+     Passiv eylem için Präteritum Passiv kullanılır: "wurde abgerissen."
+     Şık (a) "hat" → Aktiv Perfekt yardımcı fiili; burada Passiv yapısı gerekir
+     çünkü nesne (Kino) eylemi yapan değil, eyleme maruz kalandır.
+     Şık (c) "ist" → "ist abgerissen" Partizip II ile "sein" Zustandspassiv
+     oluşturur (sonuç durumu); "wurde abgerissen" ise eylemin gerçekleşmesini
+     anlatır. Bağlamda yıkılma eylemi anlatıldığından "wurde" doğrudur.
+
+23: a (sehr)
+   - Açıklama: "sich gut erinnern an" = bir şeyi iyi hatırlamak. Burada "gut"
+     zarfını pekiştiren "sehr" kullanılır: "Ich erinnere mich sehr gut an..."
+     Şık (b) "so" → "so gut" karşılaştırma veya sonuç cümlesi bağlamında
+     kullanılır (so gut, dass...); tek başına pekiştirme için "sehr" daha doğaldır.
+     Şık (c) "noch" → "noch gut erinnern" = hâlâ iyi hatırlamak; anlam olarak
+     mümkün görünse de "sehr gut" pekiştirmesi cümleye daha iyi uymaktadır.
+
+24: a (noch)
+   - Açıklama: "Den gibt es noch" = O hâlâ var. "noch" devam eden bir durumu
+     ifade eder: pazar yeri hâlâ mevcut, ama küçülmüş.
+     Şık (b) "schon" = zaten/artık; "Den gibt es schon" farklı bir anlam taşır
+     (zaten var, beklenenden önce var gibi — bağlama uymaz).
+     Şık (c) "immer" = her zaman; "Den gibt es immer" (onu her zaman var) anlamsız
+     bir yapı oluşturur.
+
+25: b (als)
+   - Açıklama: "kleiner als früher" = eskisinden daha küçük. Eşitsizlik
+     karşılaştırması Komparativ + "als" kalıbıyla yapılır.
+     Şık (a) "wie" → eşitlik karşılaştırması (so klein wie); burada "kleiner"
+     Komparativ olduğundan "als" zorunludur.
+     Şık (c) "von" kaynak/aitlik bildirir; karşılaştırma bağlamına uymaz.
+
+26: c (wurden)
+   - Açıklama: "ersetzt worden" — Perfekt Passiv yapısı: "wurden + Partizip II"
+     değil, tam Perfekt Passiv: "sind + Partizip II + worden."
+     Ancak buradaki yapı "Viele Geschäfte wurden ersetzt" Präteritum Passiv'dir:
+     "wurden + Partizip II." Bu geçmişte tamamlanan Passiv eylemdir.
+     Şık (a) "haben" → Aktiv Perfekt; Passiv bağlamına uymaz.
+     Şık (b) "sind" → "sind ersetzt worden" Perfekt Passiv olurdu; doğru ama
+     metinde "worden" zaten verilmiş: "ersetzt worden" → yardımcı fiil "sind"
+     gerekir. ► Metne dikkat: "durch neue Kettenläden ersetzt worden" ifadesinde
+     "worden" var → Perfekt Passiv → yardımcı fiil "sind" olmalıdır.
+
+     CEVAP: b (sind)
+
+27: b (besonderen)
+   - Açıklama: "ihren besonderen Charakter" — "Charakter" eril (der Charakter),
+     Akkusativ. "ihren" belirli iyelik sıfatı gibi davranır (güçlü çekim sinyali
+     verir) → sonraki sıfat zayıf çekim alır: eril Akkusativ zayıf çekim = "-en":
+     "ihren besonderen Charakter."
+     Şık (a) "besonderem" Dativ nötr/eril artikelsiz çekim olurdu.
+     Şık (c) "besonderer" eril Nominativ artikelsiz güçlü çekim olurdu.
+
+28: a (neben)
+   - Açıklama: "neben dem Rathaus" = belediye binasının yanında. Konum bildirdiği
+     için (hareket yok) Dativ kullanılır: "neben + Dativ."
+     Şık (b) "vor" = önünde; Şık (c) "hinter" = arkasında. Her ikisi de
+     dilbilgisel olarak mümkündür ancak "neben" (yanında) park için en doğal
+     ve yaygın konumlama ifadesidir; telc metinlerinde bu tür bağlam ipuçlarına
+     dikkat edin.
+
+29: a (für)
+   - Açıklama: "ein Spielplatz für Kinder" = çocuklar için oyun alanı. Hedef
+     kitleyi/amacı bildiren "für + Akkusativ" kalıbı: "für Kinder."
+     Şık (b) "mit" → "ein Spielplatz mit Kindern" = çocuklarla birlikte oyun alanı
+     (anlamsız). Şık (c) "von" → "ein Spielplatz von Kindern" = çocuklara ait
+     oyun alanı; anlam yakın görünse de "für" amaç/hedef kitlesini ifade eder
+     ve bu bağlamda çok daha doğaldır.
+
+30: c (dass)
+   - Açıklama: "akzeptieren, dass..." = ... olduğunu kabul etmek. "dass" nesne
+     yan cümlesi kurar ve fiili sona taşır: "dass Städte sich immer verändern."
+     Şık (a) "ob" → dolaylı soru (belirsizlik); burada kabul edilen bir gerçek
+     söz konusu, soru değil. Şık (b) "wenn" → koşul/zaman; "wenn Städte sich
+     verändern" farklı anlam taşır (şehirler değiştiğinde).
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+21-a / 22-b / 23-a / 24-a / 25-b / 26-b / 27-b / 28-a / 29-a / 30-c
+========================================================================

@@ -1,0 +1,182 @@
+========================================================================
+telc DEUTSCH A1-A2: OFFIZIELLES SPRACHBAUSTEINE-TRAINING (ÖZGÜN SET 43)
+========================================================================
+Prüfungsbaustein: Sprachbausteine (Lücke füllen / Boşluk Doldurma)
+Dauer: 15 Minuten
+
+KURAL REHBERİ (telc Sınav Stratejisi):
+1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız,
+   mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir.
+2. Strateji: Boşluğun öncesindeki ve sonrasındaki kelimelere dikkat edin. Özellikle
+   Futur I yapısını (werden + Infinitiv), edatların Dativ/Akkusativ yönetimini ve
+   zarf / bağlaç ayrımını (deshalb, trotzdem, außerdem) analiz edin.
+3. Dikkat: Bazı bağlaçlar yan cümle kurarken (weil, dass), bazıları ise ana cümle
+   sıralamasını korur (deshalb, trotzdem, außerdem). Bu farkı cümle sonundaki fiil
+   konumuna bakarak belirleyin.
+
+Konu: Doktor randevusu ve sağlık — Clara, ablası Ines'e yazıyor.
+
+------------------------------------------------------------------------
+
+Liebe Ines,
+
+ich wollte dir kurz schreiben, weil ich morgen ___21___ Arzt gehe. Seit einer Woche
+habe ich starke Kopfschmerzen und fühle mich insgesamt nicht gut. Ich habe schon
+viel Wasser getrunken und früh geschlafen, aber es ___22___ leider nicht geholfen.
+
+Der Termin ist um zehn Uhr ___23___ Morgen. Ich hoffe, der Arzt kann mir sagen,
+___24___ die Kopfschmerzen kommen. Vielleicht muss ich ___25___ Zeit im Bett bleiben
+— das wäre natürlich sehr unpraktisch, weil ich nächste Woche eine wichtige Prüfung
+habe. ___26___ werde ich auf jeden Fall zum Arzt gehen, denn meine Gesundheit ist
+wichtiger.
+
+Kannst du mir vielleicht ___27___ du Zeit hast, kurz anrufen? Ich würde mich sehr
+freuen, deine Stimme zu hören. Außerdem wollte ich dich noch ___28___ etwas bitten:
+Hast du vielleicht das Rezept ___29___ die Suppe, die Mama immer bei Erkältungen
+kocht? Die hat mir als Kind immer so gut ___30___.
+
+Ich melde mich nach dem Arzttermin!
+Deine Clara
+
+------------------------------------------------------------------------
+
+SCHLAUBAUSTEINE (SEÇENEKLER: 21 - 30)
+
+21
+a) zum
+b) zu dem
+c) beim
+
+22
+a) hat
+b) ist
+c) war
+
+23
+a) am
+b) im
+c) in dem
+
+24
+a) warum
+b) woher
+c) wohin
+
+25
+a) eine Zeit lang
+b) eine Zeit
+c) zeitlang
+
+26
+a) Obwohl
+b) Deshalb
+c) Trotzdem
+
+27
+a) ob
+b) dass
+c) wenn
+
+28
+a) nach
+b) um
+c) für
+
+29
+a) von
+b) für
+c) über
+
+30
+a) geschmeckt
+b) gemocht
+c) gefallen
+
+------------------------------------------------------------------------
+
+========================================================================
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+21: a (zum)
+   - Açıklama: "zum Arzt gehen" = doktora gitmek. "zum" = zu + dem kalıbıdır.
+     "Arzt" eril (der Arzt) olduğu için Dativ tekil: "zu + dem = zum."
+     Şık (b) "zu dem" dilbilgisel olarak doğrudur ancak günlük dilde ve
+     telc sınavlarında birleşik biçim "zum" tercih edilir.
+     Şık (c) "beim" = bei + dem; "beim Arzt sein" (doktorda olmak) konum bildirir,
+     "gehen" fiiliyle yön anlamı "beim" ile verilmez.
+
+22: a (hat)
+   - Açıklama: "helfen" fiili Perfekt'te "haben" yardımcı fiiliyle kullanılır:
+     "es hat nicht geholfen." "helfen" geçişsiz olsa da hareket/yer değişikliği
+     bildirmediği için "sein" almaz; Perfekt yardımcı fiili "haben"dir.
+     Şık (b) "ist" hatalıdır. Şık (c) "war" Präteritum'dur ve Perfekt yapısına
+     karıştırılamaz; "hat geholfen" Perfekt, "half" ise Präteritum olurdu.
+
+23: a (am)
+   - Açıklama: Günün bölümleriyle (Morgen, Abend, Nachmittag) kullanılan zaman
+     edatı "am"dir: "am Morgen", "am Abend", "am Nachmittag."
+     Şık (b) "im" ay ve mevsimlerle kullanılır (im Januar, im Sommer).
+     Şık (c) "in dem" = "im" ile aynı anlama gelir ama "Morgen" ile bu bağlamda
+     kullanılmaz; ayrıca birleşik biçim "im" tercih edilir.
+
+24: a (warum)
+   - Açıklama: "woher die Kopfschmerzen kommen" = baş ağrılarının nereden geldiği
+     (kaynağını sormak) anlamına gelir ve bu bağlam için en uygun sorudur.
+     Ancak Almancada "nereden kaynaklandığını" sormak için hem "woher" hem "warum"
+     kullanılabilir. Burada "warum" = neden/niçin sorusu da uygundur.
+     Şık (c) "wohin" = nereye; yön sorusudur ve baş ağrısının kaynağıyla ilgisizdir.
+     ► Bağlam değerlendirmesi: "sagen, woher die Kopfschmerzen kommen" (nereden
+     geldiğini) daha doğal bir tıbbi ifadedir.
+
+     CEVAP: b (woher)
+
+25: a (eine Zeit lang)
+   - Açıklama: "eine Zeit lang" = bir süre (boyunca). Almancada süre bildiren
+     kalıplaşmış ifadedir: "eine Zeit lang im Bett bleiben."
+     Şık (b) "eine Zeit" eksik kalıptır; "lang" olmadan anlam tamamlanmaz.
+     Şık (c) "zeitlang" tek kelime olarak yazılamaz; doğru yazım "eine Zeit lang"dır
+     (üç ayrı kelime).
+
+26: c (Trotzdem)
+   - Açıklama: Önceki cümlede sınavı olduğu için yatakta kalmanın "unpraktisch"
+     (elverişsiz) olduğu söyleniyor. "Trotzdem" = buna rağmen; bu zıtlığı bağlar:
+     "Trotzdem werde ich auf jeden Fall zum Arzt gehen."
+     "Trotzdem" ana cümle sıralamasını korur (fiil ikinci konumda).
+     Şık (a) "Obwohl" yan cümle kurar ve fiili sona taşır; burada bağımsız cümle
+     gerektiğinden uymaz. Şık (b) "Deshalb" = bu yüzden; neden-sonuç bildirir,
+     oysa burada zıtlık söz konusudur.
+
+27: c (wenn)
+   - Açıklama: "Kannst du mir ... kurz anrufen?" sorusu bir koşula bağlanıyor:
+     "wenn du Zeit hast" = zamanın olursa. "wenn" koşul/zaman yan cümlesi kurar
+     ve fiili sona taşır.
+     Şık (a) "ob" dolaylı soru kurar (emin olunmayan durumlar); burada soru değil
+     koşul söz konusudur. Şık (b) "dass" nesne yan cümlesi kurar; anlam olarak uymaz.
+
+28: b (um)
+   - Açıklama: "jemanden um etwas bitten" = birinden bir şey rica etmek.
+     Bu kalıplaşmış deyimsel fiilde edat her zaman "um + Akkusativ"dir:
+     "Ich wollte dich um etwas bitten."
+     Şık (a) "nach" → "nach etwas fragen" (bir şey sormak) farklı fiildir.
+     Şık (c) "für" → "für jemanden bitten" (birisi adına yalvarmak) farklı anlam.
+
+29: b (für)
+   - Açıklama: "das Rezept für etwas" = bir şeyin tarifi. "für + Akkusativ" ile
+     tarif edilecek yemeği belirtir: "das Rezept für die Suppe."
+     Şık (a) "von" → "ein Rezept von Mama" (annenin tarifi — kimin tarifi) farklı
+     anlam taşır; burada hangi yemeğin tarifi soruluyor.
+     Şık (c) "über" → "ein Buch über die Suppe" (çorba hakkında kitap) bağlama uymaz.
+
+30: a (geschmeckt)
+   - Açıklama: "gut schmecken" = lezzetli olmak, tadı güzel olmak. Perfekt:
+     "Das hat mir gut geschmeckt." Dativ "mir" kişiyi (tadı beğeneni) gösterir.
+     Şık (b) "gemocht" → "mögen" fiilinin Partizip II'si; "Das hat mir gut gemocht"
+     dilbilgisel olarak yanlıştır ("mögen" bu yapıda kullanılmaz).
+     Şık (c) "gefallen" → "Das hat mir gefallen" = hoşuma gitti; görsel/estetik
+     beğeni ifadesi olup yiyecekler için "schmecken" çok daha doğaldır.
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+21-a / 22-a / 23-a / 24-b / 25-a / 26-c / 27-c / 28-b / 29-b / 30-a
+========================================================================

@@ -1,0 +1,185 @@
+========================================================================
+telc DEUTSCH A1-A2: OFFIZIELLES SPRACHBAUSTEINE-TRAINING (ÖZGÜN SET 44)
+========================================================================
+Prüfungsbaustein: Sprachbausteine (Lücke füllen / Boşluk Doldurma)
+Dauer: 15 Minuten
+
+KURAL REHBERİ (telc Sınav Stratejisi):
+1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız,
+   mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir.
+2. Strateji: Boşluğun öncesindeki ve sonrasındaki kelimelere dikkat edin. Özellikle
+   Konjunktiv II yapılarını (würde, könnte, sollte), iki yönlü edatları (in, auf, an —
+   Dativ mi Akkusativ mi?) ve Partizip II çekimlerini analiz edin.
+3. Dikkat: "in/auf/an" gibi iki yönlü edatlar konum (Dativ) veya yön (Akkusativ)
+   anlamına göre farklı hal alır. Cümlede hareket mi yoksa durum mu olduğunu sorun.
+
+Konu: Doğum günü partisi hazırlıkları — Emre, arkadaşı Sophie'ye yazıyor.
+
+------------------------------------------------------------------------
+
+Liebe Sophie,
+
+wie du weißt, wird meine Schwester Aylin nächsten Samstag achtzehn Jahre alt. Ich
+möchte ihr ___21___ Überraschung eine Party organisieren und brauche deine Hilfe!
+Hast du Lust, mitzumachen?
+
+Mein Plan ist folgender: Ich lade alle Freunde ___22___ Aylin ein und bitte sie,
+pünktlich um halb sieben ___23___ meiner Wohnung zu sein. Aylin denkt, sie kommt
+nur zum Abendessen — sie ahnt ___24___ nichts von der Party. Wenn sie die Tür öffnet,
+rufen wir alle „Überraschung!" Ich finde, das ___25___ ihr wirklich gut gefallen.
+
+Könntest du vielleicht die Torte ___26___? Du backst so wunderbar, und ich glaube,
+eine selbstgemachte Torte wäre viel schöner ___27___ eine gekaufte. Außerdem würde
+ich dich bitten, ein paar ___28___ Fotos von der Party zu machen — du hast ja immer
+deine Kamera ___29___ dir.
+
+Falls du noch andere Ideen ___30___, schreib mir einfach! Ich freue mich sehr auf
+deine Antwort.
+
+Viele Grüße,
+Dein Emre
+
+------------------------------------------------------------------------
+
+SCHLAUBAUSTEINE (SEÇENEKLER: 21 - 30)
+
+21
+a) als
+b) zur
+c) als eine
+
+22
+a) von
+b) für
+c) mit
+
+23
+a) in
+b) bei
+c) zu
+
+24
+a) noch
+b) schon
+c) immer
+
+25
+a) wird
+b) würde
+c) sollte
+
+26
+a) backen
+b) gebacken
+c) backt
+
+27
+a) wie
+b) als
+c) von
+
+28
+a) schöne
+b) schönen
+c) schöner
+
+29
+a) bei
+b) mit
+c) an
+
+30
+a) hast
+b) haben
+c) hättest
+
+------------------------------------------------------------------------
+
+========================================================================
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+21: b (zur)
+   - Açıklama: "zur Überraschung" = sürpriz olarak. "zur" = zu + der kalıbıdır.
+     "Überraschung" dişil (die Überraschung) olduğu için Dativ tekil: "zu + der = zur."
+     "als Überraschung" da Almancada mümkündür (sürpriz olarak) ancak şık (b)
+     "zur Überraschung" deyimsel ve daha doğal kalıptır; telc bağlamında (b) önceliklidir.
+     Şık (a) "als" karşılaştırma veya sıfat eki olarak kullanılır; burada edat
+     görevinde değil anlam taşıyamaz. Şık (c) "als eine" belirsiz artikel ekler
+     ve "als eine Überraschung" dilbilgisel olarak garip bir yapı oluşturur.
+
+22: a (von)
+   - Açıklama: "Freunde von jemandem" = birinin arkadaşları. İyelik/aitlik bildiren
+     "von + Dativ" kalıbı: "alle Freunde von Aylin."
+     Şık (b) "für" amaç bildirir (für Aylin = Aylin için — hediye bağlamı);
+     burada "Aylin'in arkadaşları" anlamı gerektiğinden "von" doğrudur.
+     Şık (c) "mit" araç/birliktelik bildirir (mit Aylin = Aylin ile birlikte);
+     anlam olarak uymaz.
+
+23: b (bei)
+   - Açıklama: "bei jemandem sein" = birinin evinde/yanında olmak. "bei + Dativ"
+     konum/kişi yanı bildirir: "pünktlich bei mir sein" = zamanında bende (evimde) olmak.
+     Şık (a) "in" → "in meiner Wohnung sein" de mümkündür ancak kişi referanslı
+     "bei mir" daha doğal ve kısa ifadedir; şıklar arasında "bei" önceliklidir.
+     Şık (c) "zu" → "zu mir kommen" yön bildirir (hareket); "sein" durum fiilidir
+     ve "zu" ile birlikte yanlış bir yapı oluşturur.
+
+24: a (noch)
+   - Açıklama: "sie ahnt noch nichts" = o henüz hiçbir şeyden haberi yok.
+     "noch nichts" = henüz hiçbir şey; sürprizin korunduğunu vurgular.
+     Şık (b) "schon" = zaten/artık; "schon nichts" kombinasyonu anlamsızdır.
+     Şık (c) "immer" = her zaman; "immer nichts" (her zaman hiçbir şey) farklı
+     bir anlam taşır ve bu bağlama uymaz.
+
+25: b (würde)
+   - Açıklama: "Ich finde, das würde ihr gut gefallen" = Bence bu ona çok iyi gelir
+     (öyle düşünüyorum/tahmin ediyorum). Konjunktiv II burada nazik bir tahmin/öngörü
+     ifadesi olarak kullanılır.
+     Şık (a) "wird" Futur I'dir ve kesin bir gelecek ifade eder; burada tahmin tonu
+     gerektiğinden Konjunktiv II daha uygundur.
+     Şık (c) "sollte" = gerekir anlamında; sürpriz partinin beğenilmesi bir zorunluluk
+     değil beklenti olduğundan "sollte" bağlama uymaz.
+
+26: a (backen)
+   - Açıklama: "könntest du die Torte backen?" = pastayı pişirir misin?
+     "könntest" modal fiilinin ardından Infinitiv gelir: "backen."
+     Şık (b) "gebacken" Partizip II'dir; modal fiil + Partizip II yapısı olmaz
+     (bu Perfekt/Passiv yapısına aittir). Şık (c) "backt" 3. tekil şahıs
+     geniş zaman çekimidir; modal fiilin ardından yalın mastar (Infinitiv) gerekir.
+
+27: b (als)
+   - Açıklama: Eşitsizlik karşılaştırması: "schöner als" = ... daha güzel.
+     "viel schöner als eine gekaufte" = satın alınandan çok daha güzel.
+     Şık (a) "wie" eşitlik karşılaştırmasında kullanılır (so schön wie); burada
+     "schöner" karşılaştırma derecesi (Komparativ) olduğundan "als" zorunludur.
+     Şık (c) "von" kaynak/aitlik bildirir; karşılaştırma bağlamına uymaz.
+
+28: a (schöne)
+   - Açıklama: "ein paar schöne Fotos" = birkaç güzel fotoğraf. "ein paar" (birkaç)
+     sonrasında sıfat çoğul Akkusativ alır. "ein paar" belirsiz sayı ifadesi olarak
+     artikel görevi görmez; dolayısıyla sıfat kendi güçlü çekimini taşır:
+     çoğul Akkusativ → "-e": "schöne Fotos."
+     Şık (b) "schönen" zayıf çekim olurdu (belirli artikel sonrası); burada
+     "ein paar" artikeli değil sayı zarfı olduğundan güçlü çekim gerekir.
+     Şık (c) "schöner" karşılaştırma derecesidir; anlam olarak uymaz.
+
+29: a (bei)
+   - Açıklama: "etwas bei sich haben" = yanında bir şey bulundurmak/taşımak.
+     Kalıplaşmış ifade: "du hast ja immer deine Kamera bei dir."
+     Şık (b) "mit" → "mit sich haben" olmaz; "mit" birlikte gitmek için
+     kullanılır ama "yanında taşımak" anlamı "bei sich" ile verilir.
+     Şık (c) "an" → "an sich" soyut/karakteristik anlamda kullanılır
+     (das ist an sich gut = bu kendi başına iyi); somut eşya taşımak için uymaz.
+
+30: c (hättest)
+   - Açıklama: "Falls du noch andere Ideen hättest" = Eğer başka fikirlerin olsaydı /
+     olursa. "falls" bağlacı nazik/varsayımsal koşul cümlelerinde Konjunktiv II ile
+     kullanılır: "hättest" (haben fiilinin Konjunktiv II hali).
+     Şık (a) "hast" gerçek bir koşul için Indikativ'dir; bağlam nazik bir öneri
+     içerdiğinden Konjunktiv II daha uygundur.
+     Şık (b) "haben" Infinitiv'dir; "falls" bağlacının ardından çekimli fiil gerekir.
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+21-b / 22-a / 23-b / 24-a / 25-b / 26-a / 27-b / 28-a / 29-a / 30-c
+========================================================================
