@@ -1,4 +1,4 @@
-﻿// lesson_quizzes_data.js - Quiz questions database for B1 App lessons
+// lesson_quizzes_data.js - Quiz questions database for B1 App lessons
 const LESSON_QUIZZES_B1 = {
   "almanca_arac_cumleleri__indem_ve_dadurch_dass_yapilari": {
     "letterText": "Betreff: Erfolgreiche Projekte und sportliche Pläne\n\nLieber Jonas,\n\nich wollte dir kurz berichten, wie wir unser neues Energieprojekt in der Firma so schnell vorangebracht haben. Wir konnten die Nachteile und Risiken (6)vermeiden, dass wir im Team sehr intensiv und offen miteinander gesprochen haben. \n\n(7)dass alle Kollegen flexibel mitgearbeitet haben, lief alles absolut reibungslos. Man erreicht die besten Ergebnisse eben immer noch, (8)man gut als Team zusammenarbeitet.\n\nUm den Kopf nach der Arbeit freizubekommen, gehe ich jetzt oft zum Sport. Ich bleibe fit, indem ich wöchentlich mit Lucas Padel-Tennis (9). Das macht richtig Spaß!\n\nWir freuen (10)schon alle riesig auf das nächste Wiedersehen am Wochenende!\n\nHerzliche Grüße\nLucas",
@@ -51,7 +51,7 @@ const LESSON_QUIZZES_B1 = {
       {
         "question": "Wir konnten die Nachteile und Risiken (6) _____ vermeiden, dass wir im Team sehr intensiv und offen miteinander gesprochen haben.",
         "options": [
-          "dass (sıralama uyumu için: b şıkkı dass)",
+          "dadurch",
           "indem",
           "treibe",
           "uns",
@@ -66,7 +66,22 @@ const LESSON_QUIZZES_B1 = {
       {
         "question": "(7) _____ dass alle Kollegen flexibel mitgearbeitet haben, lief alles absolut reibungslos.",
         "options": [
-          "dass (sıralama uyumu için: b şıkkı dass)",
+          "dadurch",
+          "indem",
+          "treibe",
+          "uns",
+          "sich",
+          "dir",
+          "miteinander",
+          "wäre",
+          "weil"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Man erreicht die besten Ergebnisse eben immer noch, (8) _____ man gut als Team zusammenarbeitet.",
+        "options": [
+          "dadurch",
           "indem",
           "treibe",
           "uns",
@@ -79,9 +94,9 @@ const LESSON_QUIZZES_B1 = {
         "correct": 1
       },
       {
-        "question": "Man erreicht die besten Ergebnisse eben immer noch, (8) _____ man gut als Team zusammenarbeitet.",
+        "question": "Ich bleibe fit, indem ich wöchentlich mit Lucas Padel-Tennis (9) _____.",
         "options": [
-          "dass (sıralama uyumu için: b şıkkı dass)",
+          "dadurch",
           "indem",
           "treibe",
           "uns",
@@ -94,9 +109,9 @@ const LESSON_QUIZZES_B1 = {
         "correct": 2
       },
       {
-        "question": "Ich bleibe fit, indem ich wöchentlich mit Lucas Padel-Tennis (9) _____.",
+        "question": "Wir freuen (10) _____ schon alle riesig auf das nächste Wiedersehen am Wochenende!",
         "options": [
-          "dass (sıralama uyumu için: b şıkkı dass)",
+          "dadurch",
           "indem",
           "treibe",
           "uns",
@@ -107,21 +122,6 @@ const LESSON_QUIZZES_B1 = {
           "weil"
         ],
         "correct": 3
-      },
-      {
-        "question": "Wir freuen (10) _____ schon alle riesig auf das nächste Wiedersehen am Wochenende!",
-        "options": [
-          "dass (sıralama uyumu için: b şıkkı dass)",
-          "indem",
-          "treibe",
-          "uns",
-          "sich",
-          "dir",
-          "miteinander",
-          "wäre",
-          "weil"
-        ],
-        "correct": 4
       }
     ]
   },
@@ -251,7 +251,7 @@ const LESSON_QUIZZES_B1 = {
     ]
   },
   "almanca_dilbilgisinde__sich_lassen__ile_edilgen_yapi_kullanimi": {
-    "letterText": "Betreff: Die Vorbereitungen für das neue Büro\n\nLieber Jonas,\n\nwir ziehen nächste Woche mit unserer Firma in ein neues Büro um. Das Gebäude ist modern, aber es gibt noch einiges zu tun. Gestern wollten wir die alten Schränke abbauen, ama vidalar paslanmıştı. \n\nDie schweren Schranktüren (6)sich einfach nicht öffnen. Wir mussten spezielles Werkzeug holen. Zum Glück lässt sich das Problem mit der richtigen Hilfe schnell (7). \n\nMorgen kommt der Maler für die Wände. Weil ich zwei linke Hände habe, lasse ich das Büro komplett von einem Profi (8). Ich denke, das ist die beste Entscheidung. Das neue Design lässt (9)wirklich sehen! \n\nWir freuen (10)schon sehr auf das Arbeiten in den neuen Räumen.\n\nHerzliche Grüße\nLucas",
+    "letterText": "Betreff: Die Vorbereitungen für das neue Büro\n\nLieber Jonas,\n\nwir ziehen nächste Woche mit unserer Firma in ein neues Büro um. Das Gebäude ist modern, aber es gibt noch einiges zu tun. Gestern wollten wir die alten Schränke abbauen, aber die Schrauben waren verrostet. \n\nDie schweren Schranktüren (6) sich einfach nicht öffnen. Wir mussten spezielles Werkzeug holen. Zum Glück lässt sich das Problem mit der richtigen Hilfe schnell (7). \n\nMorgen kommt der Maler für die Wände. Weil ich zwei linke Hände habe, lasse ich das Büro komplett von einem Profi (8). Ich denke, das ist die beste Entscheidung. Das neue Design lässt (9) wirklich sehen! \n\nWir freuen (10) schon sehr auf das Arbeiten in den neuen Räumen.\n\nHerzliche Grüße\nLucas",
     "questions": [
       {
         "question": "Der Akku (1) _____ sich einfach nicht aufladen.",
@@ -381,7 +381,7 @@ const LESSON_QUIZZES_B1 = {
     ]
   },
   "almanca_donuslu_fiillerde_akkusativ_ve_dativ_mantigi": {
-    "letterText": "Betreff: Mein neuer Alltag in Berlin\n\nLieber Jonas,\n\nich habe eingelebt und mein neuer Alltag in Berlin hat begonnen. Am Anfang war es schwer, aber ich merke (6)langsam die Namen der U-Bahn-Stationen. Ich muss (7)im Studium wirklich konzentrieren, da die Professoren sehr schnell sprechen.\n\nManchmal bilde ich (8)ein, dass Deutsch viel zu schwer für mich ist, aber meine Mitbewohner helfen mir sehr. Wenn wir zusammen kochen, waschen wir (9)vor dem Essen immer gründlich die Hände. \n\nMorgen Abend gehen wir zusammen ins Kino. Wir freuen (10)schon sehr auf den Film! Wie geht es dir?\n\nHerzliche Grüße\nLucas",
+    "letterText": "Betreff: Mein neuer Alltag in Berlin\n\nLieber Jonas,\n\nich habe eingelebt und mein neuer Alltag in Berlin hat begonnen. Am Anfang war es schwer, aber ich merke (6) langsam die Namen der U-Bahn-Stationen. Ich muss (7) im Studium wirklich konzentrieren, da die Professoren sehr schnell sprechen.\n\nManchmal bilde ich (8) ein, dass Deutsch viel zu schwer für mich ist, aber meine Mitbewohner helfen mir sehr. Wenn wir zusammen kochen, waschen wir (9) vor dem Essen immer gründlich die Hände. \n\nMorgen Abend gehen wir zusammen ins Kino. Wir freuen (10) schon sehr auf den Film! Wie geht es dir?\n\nHerzliche Grüße\nLucas",
     "questions": [
       {
         "question": "Ich muss mich heute Abend gut ausruhen und (1) _____ früh ins Bett legen.",
@@ -511,7 +511,7 @@ const LESSON_QUIZZES_B1 = {
     ]
   },
   "almanca_donuslu_fiillerin_mantigi_ve_kullanimi": {
-    "letterText": "Betreff: Vorbereitungen für das Winterfest\n\nLiebe Emma,\n\nwir stecken mitten in den Vorbereitungen für das große Winterfest an unserer Sprachschule. Wir müssen (6)gut organisieren, damit alles rechtzeitig fertig wird. Die Lehrer und Schüler teilen sich die Aufgaben.\n\nIch koche zusammen mit Sarah eine Suppe. Bevor wir das Gemüse schneiden, waschen wir (7)natürlich gründlich die Hände. Einige Mitschüler ziehen (8)lustige Kostüme an, um die Gäste zu unterhalten. \n\nManchmal bilde ich (9)ein, dass wir zu wenig Dekoration haben, aber Laura beruhigt mich immer wieder. Wir freuen (10)schon riesig auf diesen gemeinsamen Abend!\n\nBis bald und liebe Grüße\nMaximilian",
+    "letterText": "Betreff: Vorbereitungen für das Winterfest\n\nLiebe Emma,\n\nwir stecken mitten in den Vorbereitungen für das große Winterfest an unserer Sprachschule. Wir müssen (6) gut organisieren, damit alles rechtzeitig fertig wird. Die Lehrer und Schüler teilen sich die Aufgaben.\n\nIch koche zusammen mit Sarah eine Suppe. Bevor wir das Gemüse schneiden, waschen wir (7) natürlich gründlich die Hände. Einige Mitschüler ziehen (8) lustige Kostüme an, um die Gäste zu unterhalten. \n\nManchmal bilde ich (9) ein, dass wir zu wenig Dekoration haben, aber Laura beruhigt mich immer wieder. Wir freuen (10) schon riesig auf diesen gemeinsamen Abend!\n\nBis bald und liebe Grüße\nMaximilian",
     "questions": [
       {
         "question": "Mein Wecker hat nicht geklingelt und ich musste (1) _____ extrem beeilen, um nicht zu spät zu kommen.",
@@ -641,7 +641,7 @@ const LESSON_QUIZZES_B1 = {
     ]
   },
   "almanca_donuslu_fiillerin_uc_grubu": {
-    "letterText": "Betreff: Vorbereitungen auf das große Tennisturnier\n\nLieber Jonas,\n\nnächste Woche nehme ich an einem großen Tennisturnier teil. Deshalb verändert (6)mein Tagesablauf im Moment komplett. Ich trainiere jeden Tag sehr hart.\n\nVor dem Training ziehe ich (7)immer meine Sportkleidung an. Während des Spiels muss ich mich voll auf den Ball fokussieren. Wenn ich verliere, ärgere ich (8)meistens ein bisschen, aber das gehört zum Sport dazu. \n\nNach dem Match bin ich völlig erschöpft. Ich gehe sofort in die Kabine und wasche (9)gründlich, um frisch zu werden. Meine Mannschaftskollegen und ich unterstützen uns immer gegenseitig. Wir freuen (10)schon riesig auf das Turnier!\n\nBis bald und liebe Grüße\nMaximilian",
+    "letterText": "Betreff: Vorbereitungen auf das große Tennisturnier\n\nLieber Jonas,\n\nnächste Woche nehme ich an einem großen Tennisturnier teil. Deshalb verändert (6) mein Tagesablauf im Moment komplett. Ich trainiere jeden Tag sehr hart.\n\nVor dem Training ziehe ich (7) immer meine Sportkleidung an. Während des Spiels muss ich mich voll auf den Ball fokussieren. Wenn ich verliere, ärgere ich (8) meistens ein bisschen, aber das gehört zum Sport dazu. \n\nNach dem Match bin ich völlig erschöpft. Ich gehe sofort in die Kabine und wasche (9) gründlich, um frisch zu werden. Meine Mannschaftskollegen und ich unterstützen uns immer gegenseitig. Wir freuen (10) schon riesig auf das Turnier!\n\nBis bald und liebe Grüße\nMaximilian",
     "questions": [
       {
         "question": "Gestern Morgen war ich so nervös, dass ich (1) _____ beim Frühstück dreimal beeilen musste, um den Bus nicht zu verpassen.",
@@ -1161,7 +1161,7 @@ const LESSON_QUIZZES_B1 = {
     ]
   },
   "almanca_gercek_karsilikli_fiillerin_mantigi_ve_kullanimi": {
-    "letterText": "Betreff: Neuigkeiten aus unserer Wohngemeinschaft\n\nLieber Jonas,\n\nin unserer WG gibt es ein paar Veränderungen. Maximilian und Sarah haben (6)in den letzten Wochen leider öfter gestritten. Zum Glück haben sie sich gestern Abend hingesetzt und ausgesprochen. Sie vertragen (7)jetzt wieder richtig gut, was das Leben in der Küche viel entspannter macht.\n\nAußerdem haben wir zwei neue Nachbarn im Haus. Wir haben (8)gestern im Treppenhaus getroffen und direkt miteinander angefreundet. Sie haben uns sogar zu ihrer Einzugsparty eingeladen. \n\nMorgen Abend wollen wir alle zusammen kochen. Wir freuen (9)schon sehr auf den gemeinsamen Abend. Wie läuft es bei dir? Hoffentlich hören wir (10)bald wieder!\n\nHerzliche Grüße\nLucas",
+    "letterText": "Betreff: Neuigkeiten aus unserer Wohngemeinschaft\n\nLieber Jonas,\n\nin unserer WG gibt es ein paar Veränderungen. Maximilian und Sarah haben (6) in den letzten Wochen leider öfter gestritten. Zum Glück haben sie sich gestern Abend hingesetzt und ausgesprochen. Sie vertragen (7) jetzt wieder richtig gut, was das Leben in der Küche viel entspannter macht.\n\nAußerdem haben wir zwei neue Nachbarn im Haus. Wir haben (8) gestern im Treppenhaus getroffen und direkt miteinander angefreundet. Sie haben uns sogar zu ihrer Einzugsparty eingeladen. \n\nMorgen Abend wollen wir alle zusammen kochen. Wir freuen (9) schon sehr auf den gemeinsamen Abend. Wie läuft es bei dir? Hoffentlich hören wir (10) bald wieder!\n\nHerzliche Grüße\nLucas",
     "questions": [
       {
         "question": "Du weißt ja, dass Felix und ich (1) _____ letzte Woche wegen einer Kleinigkeit total verkracht haben.",
@@ -1276,7 +1276,7 @@ const LESSON_QUIZZES_B1 = {
     ]
   },
   "almanca_hayaller_ve_dilekler_dunyasi__konjunktiv_ii": {
-    "letterText": "Betreff: Gedanken an ein besseres Leben\n\nLieber Jonas,\n\nich mache mir im Moment viele Gedanken über meine aktuelle Wohnsituation. Meine Wohnung ist leider sehr klein und dunkel. Wenn ich doch bloß eine größere Wohnung (6), würde ich direkt eine Einzugsparty organisieren!\n\n(7)ich reich, würde ich mir sofort ein schönes Haus in Berlin kaufen. Aber das ist im Moment leider nur ein Traum. Wenn das Wetter am kommenden Wochenende schöner (8), könnten wir zumindest einen tollen Ausflug machen. \n\nWenn du Zeit hast, (9)du mir einfach Bescheid sagen. Wir freuen (10)schon alle riesig auf das nächste Wiedersehen!\n\nHerzliche Grüße\nLucas",
+    "letterText": "Betreff: Gedanken an ein besseres Leben\n\nLieber Jonas,\n\nich mache mir im Moment viele Gedanken über meine aktuelle Wohnsituation. Meine Wohnung ist leider sehr klein und dunkel. Wenn ich doch bloß eine größere Wohnung (6), würde ich direkt eine Einzugsparty organisieren!\n\n(7) ich reich, würde ich mir sofort ein schönes Haus in Berlin kaufen. Aber das ist im Moment leider nur ein Traum. Wenn das Wetter am kommenden Wochenende schöner (8), könnten wir zumindest einen tollen Ausflug machen. \n\nWenn du Zeit hast, (9) du mir einfach Bescheid sagen. Wir freuen (10) schon alle riesig auf das nächste Wiedersehen!\n\nHerzliche Grüße\nLucas",
     "questions": [
       {
         "question": "(1) _____ ich doch bloß mehr Freizeit hätte!",
@@ -1401,7 +1401,7 @@ const LESSON_QUIZZES_B1 = {
     ]
   },
   "almanca_karsilikli_fiiller_ve_einander_kullanimi": {
-    "letterText": "Betreff: Das große Klassentreffen nach fünf Jahren\n\nLieber Jonas,\n\nnächste Woche findet unser großes Klassentreffen statt. Viele Mitschüler haben sich seit Jahren nicht mehr gesehen, deshalb freuen (6)alle riesig darauf. \n\nDa wir in verschiedenen Städten wohnen, haben wir in letzter Zeit leider nur selten (7)gehört. Umso spannender wird es, am Wochenende endlich wieder (8)zu sprechen und alte Erinnerungen auszutauschen. \n\nMaximilian und Felix haben das Treffen organisiert. Sie haben sich bei der Planung viel geholfen und intensiv (9)zusammengearbeitet. Wenn wir uns am Samstag im Restaurant treffen, begrüßen wir (10)bestimmt alle sehr herzlich!\n\nBis bald und liebe Grüße\nLucas",
+    "letterText": "Betreff: Das große Klassentreffen nach fünf Jahren\n\nLieber Jonas,\n\nnächste Woche findet unser großes Klassentreffen statt. Viele Mitschüler haben sich seit Jahren nicht mehr gesehen, deshalb freuen (6) alle riesig darauf. \n\nDa wir in verschiedenen Städten wohnen, haben wir in letzter Zeit leider nur selten (7) gehört. Umso spannender wird es, am Wochenende endlich wieder (8) zu sprechen und alte Erinnerungen auszutauschen. \n\nMaximilian und Felix haben das Treffen organisiert. Sie haben sich bei der Planung viel geholfen und intensiv (9) zusammengearbeitet. Wenn wir uns am Samstag im Restaurant treffen, begrüßen wir (10) bestimmt alle sehr herzlich!\n\nBis bald und liebe Grüße\nLucas",
     "questions": [
       {
         "question": "Meine Mitbewohnerin Anna und ich verstehen (1) _____ wirklich blind.",
@@ -1531,7 +1531,7 @@ const LESSON_QUIZZES_B1 = {
     ]
   },
   "almanca_karsilikli_fiillerin_mantigi_ve_kullanimi": {
-    "letterText": "Betreff: Grüße von Marie und Felix!\n\nLieber Jonas,\n\nich schreibe dir heute im Namen von Marie und Felix. Die beiden sind nun schon seit drei Jahren ein Paar. Sie lieben (6)wirklich sehr und planen sogar schon ihre Hochzeit im nächsten Sommer. \n\nIn einer Beziehung ist es natürlich wichtig, dass Partner gut (7)umgehen. Wenn es mal Streit gibt, hören sie (8)aufmerksam zu und finden immer eine schnelle Lösung. Sie unterstützen (9)in allen Lebenslagen.\n\nNächste Woche wollen wir uns alle mal wieder treffen. Wir freuen (10)schon riesig auf das Wiedersehen! \n\nHerzliche Grüße\nLucas",
+    "letterText": "Betreff: Grüße von Marie und Felix!\n\nLieber Jonas,\n\nich schreibe dir heute im Namen von Marie und Felix. Die beiden sind nun schon seit drei Jahren ein Paar. Sie lieben (6) wirklich sehr und planen sogar schon ihre Hochzeit im nächsten Sommer. \n\nIn einer Beziehung ist es natürlich wichtig, dass Partner gut (7) umgehen. Wenn es mal Streit gibt, hören sie (8) aufmerksam zu und finden immer eine schnelle Lösung. Sie unterstützen (9) in allen Lebenslagen.\n\nNächste Woche wollen wir uns alle mal wieder treffen. Wir freuen (10) schon riesig auf das Wiedersehen! \n\nHerzliche Grüße\nLucas",
     "questions": [
       {
         "question": "In unserer Abteilung helfen wir (1) _____ immer, wenn jemand viel zu tun hat.",
@@ -1661,7 +1661,7 @@ const LESSON_QUIZZES_B1 = {
     ]
   },
   "almanca_konjunktiv_ii__simdiki_zaman_ve_hayal_kaliplari": {
-    "letterText": "Betreff: Pläne für ein perfektes Wochenende\n\nLieber Jonas,\n\nich mache mir gerade Gedanken über das kommende Wochenende. Der Wetterbericht sagt leider Regen voraus, was meine Pläne ein bisschen zerstört. Wenn das Wetter doch schöner (6), könnten wir einen tollen Ausflug machen!\n\nWenn ich ein Auto (7), würde ich uns beide zu dem schönen See außerhalb von Berlin fahren. Leider habe ich keins, deshalb müssen wir in der Stadt bleiben. Ich denke, wir (8)stattdessen ins Kino gehen und uns den neuen Film anschauen. Das (9)bestimmt auch sehr lustig.\n\nWas meinst du? Du (10)mir einfach Bescheid sagen, wenn du Zeit hast. Ich hoffe, wir sehen uns bald wieder!\n\nHerzliche Grüße\nLucas",
+    "letterText": "Betreff: Pläne für ein perfektes Wochenende\n\nLieber Jonas,\n\nich mache mir gerade Gedanken über das kommende Wochenende. Der Wetterbericht sagt leider Regen voraus, was meine Pläne ein bisschen zerstört. Wenn das Wetter doch schöner (6), könnten wir einen tollen Ausflug machen!\n\nWenn ich ein Auto (7), würde ich uns beide zu dem schönen See außerhalb von Berlin fahren. Leider habe ich keins, deshalb müssen wir in der Stadt bleiben. Ich denke, wir (8) stattdessen ins Kino gehen und uns den neuen Film anschauen. Das (9) bestimmt auch sehr lustig.\n\nWas meinst du? Du (10) mir einfach Bescheid sagen, wenn du Zeit hast. Ich hoffe, wir sehen uns bald wieder!\n\nHerzliche Grüße\nLucas",
     "questions": [
       {
         "question": "Wenn ich doch bloß im Urlaub (1) _____!",
@@ -1791,7 +1791,7 @@ const LESSON_QUIZZES_B1 = {
     ]
   },
   "almanca_lassen_fiili_ve_ayrilmayan_eklerin_kullanimi": {
-    "letterText": "Betreff: Neuigkeiten aus dem Krankenhaus und dem Alltag\n\nLieber Jonas,\n\nich habe gute Nachrichten von meinem Opa. Er war wegen einer Grippe im Krankenhaus, aber die Ärzte (6)ihn morgen endlich nach Hause. Er hat sich dort gut erholt. \n\nBevor er das Krankenhaus (7), muss er noch die letzten Papiere abholen. Wenn du ihn anrufst und er nicht da ist, kannst du ihm einfach eine Nachricht auf dem Anrufbeantworter (8). \n\nEin anderer Punkt: Ich ziehe bald um. Ich kann meine alte Waschmaschine nicht mitnehmen, deshalb möchte ich sie meinem Nachrn (9). Er braucht sowieso eine neue. Ich hoffe, dass alles reibungslos läuft. Wir hören (10)bestimmt bald!\n\nHerzliche Grüße\nLucas",
+    "letterText": "Betreff: Neuigkeiten aus dem Krankenhaus und dem Alltag\n\nLieber Jonas,\n\nich habe gute Nachrichten von meinem Opa. Er war wegen einer Grippe im Krankenhaus, aber die Ärzte (6) ihn morgen endlich nach Hause. Er hat sich dort gut erholt. \n\nBevor er das Krankenhaus (7), muss er noch die letzten Papiere abholen. Wenn du ihn anrufst und er nicht da ist, kannst du ihm einfach eine Nachricht auf dem Anrufbeantworter (8). \n\nEin anderer Punkt: Ich ziehe bald um. Ich kann meine alte Waschmaschine nicht mitnehmen, deshalb möchte ich sie meinem Nachrn (9). Er braucht sowieso eine neue. Ich hoffe, dass alles reibungslos läuft. Wir hören (10) bestimmt bald!\n\nHerzliche Grüße\nLucas",
     "questions": [
       {
         "question": "Unsere Firma steckt in einer Krise, und der Chef (1) _____ in dieser Woche leider drei Mitarbeiter aus der Marketingabteilung.",
@@ -1921,7 +1921,7 @@ const LESSON_QUIZZES_B1 = {
     ]
   },
   "almanca_lassen_fiilinin_kullanim_rehberi": {
-    "letterText": "Betreff: Vorbereitungen auf den Urlaub\n\nLieber Jonas,\n\nmorgen fliege ich endlich für zwei Wochen nach Spanien! Ich bin schon mitten beim Packen. Da mein Koffer ziemlich klein is, muss ich viele dinge zu Hause (6). Ich nehme nur das Nötigste mit.\n\nMeinen Wohnungsschlüssel (7)ich bei meiner Nachbarin Anna. Sie ist sehr nett und gießt in der Zwischenzeit meine Pflanzen. Ein kleiner Erfolg: Mein Bruder raucht seit einer Woche nicht mehr. Er kann das Rauchen endlich (8)! Ich bin wirklich stolz auf ihn.\n\nWenn ich am Flughafen ankomme, (9)ich mein Auto auf dem Parkplatz stehen. Die Parkgebühren sind zwar teuer, ama başka çarem yok. \n\nWir freuen (10)schon riesig auf das Wiedersehen nach meinem Urlaub!\n\nHerzliche Grüße\nLucas",
+    "letterText": "Betreff: Vorbereitungen auf den Urlaub\n\nLieber Jonas,\n\nmorgen fliege ich endlich für zwei Wochen nach Spanien! Ich bin schon mitten beim Packen. Da mein Koffer ziemlich klein is, muss ich viele dinge zu Hause (6). Ich nehme nur das Nötigste mit.\n\nMeinen Wohnungsschlüssel (7) ich bei meiner Nachbarin Anna. Sie ist sehr nett und gießt in der Zwischenzeit meine Pflanzen. Ein kleiner Erfolg: Mein Bruder raucht seit einer Woche nicht mehr. Er kann das Rauchen endlich (8)! Ich bin wirklich stolz auf ihn.\n\nWenn ich am Flughafen ankomme, (9) ich mein Auto auf dem Parkplatz stehen. Die Parkgebühren sind zwar teuer, aber ich habe keine andere Wahl. \n\nWir freuen (10) schon riesig auf das Wiedersehen nach meinem Urlaub!\n\nHerzliche Grüße\nLucas",
     "questions": [
       {
         "question": "Damit ist jetzt Schluss: Ich (1) _____ ab heute das Kaffeetrinken komplett und trinke nur noch Tee.",
@@ -2441,7 +2441,7 @@ const LESSON_QUIZZES_B1 = {
     ]
   },
   "almanca_vorgangspassiv__surec_odakli_edilgen_yapi": {
-    "letterText": "Betreff: Vorbereitungen für das große Stadtfest\n\nLieber Jonas,\n\nich muss dir von den Vorbereitungen für das große Stadtfest am Wochenende erzählen. Auf dem Marktplatz herrscht seit heute Morgen Hochbetrieb, denn die große Bühne (6)gerade von den Technikern aufgebaut. \n\nAuch für das Essen ist gesorgt: In den großen Zelten (7)schon fleißig die Kartoffeln für den Salat geschält. Überall packen die Leute mit an. Die Einladungen an die Bürger wurden schon vor Wochen verschickt, und die Plakate (8)überall in der Stadt aufgehängt, um Werbung zu machen.\n\nWeil das Fest so groß ist, darf nichts schiefgehen. Ich hoffe, dass alle Vorbereitungen rechtzeitig beendet (9). Wir freuen (10)schon alle riesig auf dieses Event!\n\nHerzliche Grüße\nLucas",
+    "letterText": "Betreff: Vorbereitungen für das große Stadtfest\n\nLieber Jonas,\n\nich muss dir von den Vorbereitungen für das große Stadtfest am Wochenende erzählen. Auf dem Marktplatz herrscht seit heute Morgen Hochbetrieb, denn die große Bühne (6) gerade von den Technikern aufgebaut. \n\nAuch für das Essen ist gesorgt: In den großen Zelten (7) schon fleißig die Kartoffeln für den Salat geschält. Überall packen die Leute mit an. Die Einladungen an die Bürger wurden schon vor Wochen verschickt, und die Plakate (8) überall in der Stadt aufgehängt, um Werbung zu machen.\n\nWeil das Fest so groß ist, darf nichts schiefgehen. Ich hoffe, dass alle Vorbereitungen rechtzeitig beendet (9). Wir freuen (10) schon alle riesig auf dieses Event!\n\nHerzliche Grüße\nLucas",
     "questions": [
       {
         "question": "Das gesamte Gebäude (1) _____ momentan komplett renoviert.",
@@ -2961,7 +2961,7 @@ const LESSON_QUIZZES_B1 = {
     ]
   },
   "almancada_brauchen_ve_zu_kullanim_rehberi": {
-    "letterText": "Betreff: Die Vorbereitungen für das Abendessen\n\nLieber Jonas,\n\nich stehe gerade in der Küche und bereite alles für unser gemeinsames Abendessen vor. Ich habe schon fast alles fertig. Da ich die Einkäufe bereits erledigt habe, (6)du nach der Arbeit nicht mehr in den Supermarkt zu gehen. Komm einfach direkt zu mir.\n\nDu (7)auch kein Geld für die Getränke mitzubringen, denn mein Kühlschrank ist voll. Es ist also alles gesorgt. Wenn du den Weg zu meiner neuen Wohnung nicht genau weißt, brauchst du mich nur kurz (8)anzurufen, dann hole ich dich an der U-Bahn-Station ab. \n\nDu brauchst (9)also absolut keinen Stress zu machen. Wir freuen (10)schon alle auf einen entspannten Abend!\n\nHerzliche Grüße\nLucas",
+    "letterText": "Betreff: Die Vorbereitungen für das Abendessen\n\nLieber Jonas,\n\nich stehe gerade in der Küche und bereite alles für unser gemeinsames Abendessen vor. Ich habe schon fast alles fertig. Da ich die Einkäufe bereits erledigt habe, (6) du nach der Arbeit nicht mehr in den Supermarkt zu gehen. Komm einfach direkt zu mir.\n\nDu (7) auch kein Geld für die Getränke mitzubringen, denn mein Kühlschrank ist voll. Es ist also alles gesorgt. Wenn du den Weg zu meiner neuen Wohnung nicht genau weißt, brauchst du mich nur kurz (8) anzurufen, dann hole ich dich an der U-Bahn-Station ab. \n\nDu brauchst (9) also absolut keinen Stress zu machen. Wir freuen (10) schon alle auf einen entspannten Abend!\n\nHerzliche Grüße\nLucas",
     "questions": [
       {
         "question": "Da mein Bruder und drei meiner Freunde feste zugesagt haben, (1) _____ du dir überhaupt keine Sorgen zu machen.",
@@ -3017,7 +3017,7 @@ const LESSON_QUIZZES_B1 = {
           "dir",
           "uns",
           "sich",
-          "dir (tuzağı önlemek adına şıklar düzenlenmiştir: d şıkkı \"dir\")",
+          "dich",
           "miteinander",
           "dass"
         ],
@@ -3032,7 +3032,7 @@ const LESSON_QUIZZES_B1 = {
           "dir",
           "uns",
           "sich",
-          "dir (tuzağı önlemek adına şıklar düzenlenmiştir: d şıkkı \"dir\")",
+          "dich",
           "miteinander",
           "dass"
         ],
@@ -3047,7 +3047,7 @@ const LESSON_QUIZZES_B1 = {
           "dir",
           "uns",
           "sich",
-          "dir (tuzağı önlemek adına şıklar düzenlenmiştir: d şıkkı \"dir\")",
+          "dich",
           "miteinander",
           "dass"
         ],
@@ -3062,7 +3062,7 @@ const LESSON_QUIZZES_B1 = {
           "dir",
           "uns",
           "sich",
-          "dir (tuzağı önlemek adına şıklar düzenlenmiştir: d şıkkı \"dir\")",
+          "dich",
           "miteinander",
           "dass"
         ],
@@ -3077,7 +3077,7 @@ const LESSON_QUIZZES_B1 = {
           "dir",
           "uns",
           "sich",
-          "dir (tuzağı önlemek adına şıklar düzenlenmiştir: d şıkkı \"dir\")",
+          "dich",
           "miteinander",
           "dass"
         ],
@@ -3216,7 +3216,7 @@ const LESSON_QUIZZES_B1 = {
     ]
   },
   "almancada_durum_edilgeni__zustandspassiv_ve_kullanim_esaslari": {
-    "letterText": "Betreff: Das Buffet für das große Sommerfest steht!\n\nLieber Jonas,\n\nich stehe gerade im großen Festzelt auf dem Marktplatz und schaue mir das fertige Buffet an. Die Vorbereitungen sind komplett abgeschlossen und das Essen sieht fantastisch aus. \n\nDie Tische sind wunderschön dekoriert und die Suppe steht bereit. Auch die Kartoffeln für den Salat (6)schon fleißig geschält und kochen im Topf. Die Einladungen (7)natürlich alle schon vor Tagen verschickt. Es ist alles fertig, wir warten nur noch auf die Gäste.\n\nSogar das Haupttor zum Festgelände (8)bereits weit geöffnet. Da das Wetter herrlich ist, steht einem tollen Abend nichts im Wege. Ich hoffe, (9)alles reibungslos läuft. Wir freuen (10)schon riesig auf das Fest!\n\nHerzliche Grüße\nLucas",
+    "letterText": "Betreff: Das Buffet für das große Sommerfest steht!\n\nLieber Jonas,\n\nich stehe gerade im großen Festzelt auf dem Marktplatz und schaue mir das fertige Buffet an. Die Vorbereitungen sind komplett abgeschlossen und das Essen sieht fantastisch aus. \n\nDie Tische sind wunderschön dekoriert und die Suppe steht bereit. Auch die Kartoffeln für den Salat (6) schon fleißig geschält und kochen im Topf. Die Einladungen (7) natürlich alle schon vor Tagen verschickt. Es ist alles fertig, wir warten nur noch auf die Gäste.\n\nSogar das Haupttor zum Festgelände (8) bereits weit geöffnet. Da das Wetter herrlich ist, steht einem tollen Abend nichts im Wege. Ich hoffe, (9) alles reibungslos läuft. Wir freuen (10) schon riesig auf das Fest!\n\nHerzliche Grüße\nLucas",
     "questions": [
       {
         "question": "Als ich heute Morgen ankam, war alles perfekt vorbereitet: Die Haustür (1) _____ bereits geöffnet und alle Umzugskartons standen im Flur.",
@@ -3346,7 +3346,7 @@ const LESSON_QUIZZES_B1 = {
     ]
   },
   "almancada_kibarligin_dili__konjunktiv_ii_rehberi": {
-    "letterText": "Betreff: Anfrage zum Mietvertrag und eine Empfehlung\n\nSehr geehrte Frau Hoffmann,\n\nich wende mich heute mit einer kurzen Frage an Sie bezüglich unserer neuen Wohnung. (6)Sie mir bitte mitteilen, ob die Nebenkostenabrechnung für diesen Monat bereits fertig ist? Das (7)mir bei meiner Budgetplanung sehr helfen.\n\nZudem hat mir mein Nachbar Jonas erzählt, dass er Probleme mit der Heizung hat. An seiner (8)würde ich sofort den Hausmeister anrufen und nicht länger warten, da es draußen immer kälter wird. An Ihrer Stelle (9)ich ihm vielleicht diese Telefonnummer noch einmal schicken.\n\nIch danke Ihnen im Voraus für Ihre Unterstützung. Ich (10)mich über eine baldige Rückmeldung freuen.\n\nMit freundlichen Grüßen\nLucas Becker",
+    "letterText": "Betreff: Anfrage zum Mietvertrag und eine Empfehlung\n\nSehr geehrte Frau Hoffmann,\n\nich wende mich heute mit einer kurzen Frage an Sie bezüglich unserer neuen Wohnung. (6) Sie mir bitte mitteilen, ob die Nebenkostenabrechnung für diesen Monat bereits fertig ist? Das (7) mir bei meiner Budgetplanung sehr helfen.\n\nZudem hat mir mein Nachbar Jonas erzählt, dass er Probleme mit der Heizung hat. An seiner (8) würde ich sofort den Hausmeister anrufen und nicht länger warten, da es draußen immer kälter wird. An Ihrer Stelle (9) ich ihm vielleicht diese Telefonnummer noch einmal schicken.\n\nIch danke Ihnen im Voraus für Ihre Unterstützung. Ich (10) mich über eine baldige Rückmeldung freuen.\n\nMit freundlichen Grüßen\nLucas Becker",
     "questions": [
       {
         "question": "(1) _____ ich dich etwas fragen?",
@@ -3476,7 +3476,7 @@ const LESSON_QUIZZES_B1 = {
     ]
   },
   "almancada_lassen_fiili_ve_ayrilabilen_onekler": {
-    "letterText": "Betreff: Das Wetter und ein verpasster Termin\n\nLieber Jonas,\n\nich wollte dir kurz von meinem Wochenende berichten. Gestern gab es einen heftigen Sturm in Berlin. Ich wollte eigentlich zum Sport gehen, aber ich habe gewartet, bis der Wind etwas (6). Erst am Abend wurde es besser.\n\nWegen des Sturms habe ich leider den Bus verpasst und musste den ersten Termin (7). Das war schade, aber nicht zu ändern. Wenn ich im Alltag gestresst bin, versuche ich immer, meine schlechte Laune nicht an anderen Menschen (8). Man muss einfach ruhig bleiben.\n\nMorgen wird das Wetter hoffentlich schöner. Die Meteorologen sagen, dass der Regen komplett (9). Wir freuen (10)schon sehr auf die Sonne! Wie ist das Wetter bei dir?\n\nHerzliche Grüße\nLucas",
+    "letterText": "Betreff: Das Wetter und ein verpasster Termin\n\nLieber Jonas,\n\nich wollte dir kurz von meinem Wochenende berichten. Gestern gab es einen heftigen Sturm in Berlin. Ich wollte eigentlich zum Sport gehen, aber ich habe gewartet, bis der Wind etwas (6). Erst am Abend wurde es besser.\n\nWegen des Sturms habe ich leider den Bus verpasst und musste den ersten Termin (7). Das war schade, aber nicht zu ändern. Wenn ich im Alltag gestresst bin, versuche ich immer, meine schlechte Laune nicht an anderen Menschen (8). Man muss einfach ruhig bleiben.\n\nMorgen wird das Wetter hoffentlich schöner. Die Meteorologen sagen, dass der Regen komplett (9). Wir freuen (10) schon sehr auf die Sonne! Wie ist das Wetter bei dir?\n\nHerzliche Grüße\nLucas",
     "questions": [
       {
         "question": "Zum Glück nahm ich eine Tablette und der Schmerz ließ nach ein paar Minuten (1) _____.",
@@ -4126,7 +4126,7 @@ const LESSON_QUIZZES_B1 = {
     ]
   },
   "almancada_i̇sim-fiil_kaliplari_ve_funktionsverbgefuge_mantigi": {
-    "letterText": "Betreff: Unser neues Projekt läuft super!\n\nLieber Jonas,\n\nich wollte dir ein kurzes Update zu unserer neuen Arbeitsgruppe geben. Wir arbeiten wirklich toll zusammen und haben in den letzten Tagen große Fortschritte gemacht. Gestern haben wir nach einer langen Diskussion endlich eine wichtige Entscheidung (6). \n\nUnser Kollege Maximilian hatte anfangs ein paar Zweifel, aber nachdem er dem Team einige Fragen (7)hatte, waren alle Unklarheiten beseitigt. Wir wissen, dass das Projekt viel Arbeit bedeutet, aber wir müssen diese Herausforderung einfach in Kauf (8). \n\nDamit wir den Stress besser abbauen können, haben wir beschlossen, abends zusammen Sport zu (9). Das stärkt auch den Teamgeist! \n\nWir freuen (10)schon alle riesig auf das Endergebnis. Wie läuft es bei dir?\n\nHerzliche Grüße\nLucas",
+    "letterText": "Betreff: Unser neues Projekt läuft super!\n\nLieber Jonas,\n\nich wollte dir ein kurzes Update zu unserer neuen Arbeitsgruppe geben. Wir arbeiten wirklich toll zusammen und haben in den letzten Tagen große Fortschritte gemacht. Gestern haben wir nach einer langen Diskussion endlich eine wichtige Entscheidung (6). \n\nUnser Kollege Maximilian hatte anfangs ein paar Zweifel, aber nachdem er dem Team einige Fragen (7) hatte, waren alle Unklarheiten beseitigt. Wir wissen, dass das Projekt viel Arbeit bedeutet, aber wir müssen diese Herausforderung einfach in Kauf (8). \n\nDamit wir den Stress besser abbauen können, haben wir beschlossen, abends zusammen Sport zu (9). Das stärkt auch den Teamgeist! \n\nWir freuen (10) schon alle riesig auf das Endergebnis. Wie läuft es bei dir?\n\nHerzliche Grüße\nLucas",
     "questions": [
       {
         "question": "Ich stand vor einer großen Herausforderung in der Firma und musste endlich eine wichtige Entscheidung (1) _____.",
@@ -4251,7 +4251,7 @@ const LESSON_QUIZZES_B1 = {
     ]
   },
   "gecmis_zamanin_keskeleri__konjunktiv_ii_rehberi": {
-    "letterText": "Betreff: Unser verpasster Urlaub im Winter\n\nLieber Jonas,\n\nich muss oft an unseren geplanten Urlaub im letzten Winter denken, der leider wegen des Sturms ausfallen musste. Wenn das Wetter doch nur ein bisschen besser gewesen (6), (7)wir eine wunderbare Zeit in den Bergen verbracht! \n\nDer Flug wurde im letzten Moment storniert. Wenn wir das früher gewusst (8), wären wir stattdessen mit dem Zug gefahren. Wenn ich doch bloß selbst (9)hätte, dann hätten wir nicht im Restaurant essen müssen, als alles geschlossen war. Aber im Nachhinein ist man immer schlauer.\n\nIch hoffe, dass wir diesen Ausflug bald nachholen können. Wir freuen (10)schon alle auf ein neues Treffen!\n\nHerzliche Grüße\nLucas",
+    "letterText": "Betreff: Unser verpasster Urlaub im Winter\n\nLieber Jonas,\n\nich muss oft an unseren geplanten Urlaub im letzten Winter denken, der leider wegen des Sturms ausfallen musste. Wenn das Wetter doch nur ein bisschen besser gewesen (6), (7) wir eine wunderbare Zeit in den Bergen verbracht! \n\nDer Flug wurde im letzten Moment storniert. Wenn wir das früher gewusst (8), wären wir stattdessen mit dem Zug gefahren. Wenn ich doch bloß selbst (9) hätte, dann hätten wir nicht im Restaurant essen müssen, als alles geschlossen war. Aber im Nachhinein ist man immer schlauer.\n\nIch hoffe, dass wir diesen Ausflug bald nachholen können. Wir freuen (10) schon alle auf ein neues Treffen!\n\nHerzliche Grüße\nLucas",
     "questions": [
       {
         "question": "Wenn ich doch bloß in den Kalender geschaut (1) _____!",
@@ -4381,7 +4381,7 @@ const LESSON_QUIZZES_B1 = {
     ]
   },
   "lassen_fiilinin_yardimci_fiil_olarak_kullanimi_ve_i̇slevleri": {
-    "letterText": "Betreff: Mein neues Auto und die Wohnungsrenovierung\n\nLieber Jonas,\n\nich muss dir von meiner Woche erzählen. Mein Auto hatte leider einen Motorschaden. Weil ich von Automechanik gar keine Ahnung habe, ließ ich den Wagen gestern in einer Werkstatt (6). Das war zwar teuer, aber jetzt fährt er wieder super.\n\nAuch in meiner Wohnung verändere ich gerade viel. Ich (7)mir von einem Maler das Wohnzimmer komplett neu streichen, da ich selbst keine Zeit dafür habe. \n\nGestern Abend gab es noch eine lustige Situation: Meine Nachbarin hat ihre kleine Tochter bei mir (8)gehen, damit die Kleine mit meinem Hund spielen kann. Sie hat es ihr für eine Stunde erlaubt. \n\nMorgen muss ich mich im Studium wieder konzentrieren. Ich (9)mich von den lauten Bauarbeiten draußen bestimmt nicht ablenken! Hoffentlich hören wir (10)bald wieder.\n\nHerzliche Grüße\nLucas",
+    "letterText": "Betreff: Mein neues Auto und die Wohnungsrenovierung\n\nLieber Jonas,\n\nich muss dir von meiner Woche erzählen. Mein Auto hatte leider einen Motorschaden. Weil ich von Automechanik gar keine Ahnung habe, ließ ich den Wagen gestern in einer Werkstatt (6). Das war zwar teuer, aber jetzt fährt er wieder super.\n\nAuch in meiner Wohnung verändere ich gerade viel. Ich (7) mir von einem Maler das Wohnzimmer komplett neu streichen, da ich selbst keine Zeit dafür habe. \n\nGestern Abend gab es noch eine lustige Situation: Meine Nachbarin hat ihre kleine Tochter bei mir (8) gehen, damit die Kleine mit meinem Hund spielen kann. Sie hat es ihr für eine Stunde erlaubt. \n\nMorgen muss ich mich im Studium wieder konzentrieren. Ich (9) mich von den lauten Bauarbeiten draußen bestimmt nicht ablenken! Hoffentlich hören wir (10) bald wieder.\n\nHerzliche Grüße\nLucas",
     "questions": [
       {
         "question": "Weil wir das Fest im Garten feiern, (1) _____ wir von einer Catering-Firma das Essen zubereiten.",
@@ -4511,7 +4511,7 @@ const LESSON_QUIZZES_B1 = {
     ]
   },
   "i̇ki_yuzlu_fiiller_ve_donuslu_yapilar": {
-    "letterText": "Betreff: Unser Umzug und neue Nachbarn\n\nLieber Jonas,\n\nwir sind endlich in die neue Wohnung eingezogen. Der Umzug war anstrengend, aber wir mussten die alte Wohnung einfach (6), weil sie viel zu klein für uns war.\n\nAm ersten Tag gab es ein kleines Problem: Die laute Musik der Nachbarn hat (7)beim Auspacken ziemlich geärgert. Ich bin dann höflich zu ihnen gegangen und habe mit ihnen gesprochen. Sie waren sehr verständnisvoll. Jetzt ärgere ich (8)überhaupt nicht mehr über sie, denn sie sind eigentlich sehr höflich.\n\nWir müssen uns im neuen Viertel erst noch einleben, aber wir können (9)zum Glück voll auf die Hilfe unserer Freunde verlassen. Wir freuen (10)schon darauf, wenn alles fertig dekoriert ist!\n\nBis bald und liebe Grüße\nMaximilian",
+    "letterText": "Betreff: Unser Umzug und neue Nachbarn\n\nLieber Jonas,\n\nwir sind endlich in die neue Wohnung eingezogen. Der Umzug war anstrengend, aber wir mussten die alte Wohnung einfach (6), weil sie viel zu klein für uns war.\n\nAm ersten Tag gab es ein kleines Problem: Die laute Musik der Nachbarn hat (7) beim Auspacken ziemlich geärgert. Ich bin dann höflich zu ihnen gegangen und habe mit ihnen gesprochen. Sie waren sehr verständnisvoll. Jetzt ärgere ich (8) überhaupt nicht mehr über sie, denn sie sind eigentlich sehr höflich.\n\nWir müssen uns im neuen Viertel erst noch einleben, aber wir können (9) zum Glück voll auf die Hilfe unserer Freunde verlassen. Wir freuen (10) schon darauf, wenn alles fertig dekoriert ist!\n\nBis bald und liebe Grüße\nMaximilian",
     "questions": [
       {
         "question": "Wie du weißt, war ich in meinem alten Job unglücklich, weil der ständige Lärm im Großraumbüro (1) _____ jeden Tag extrem geärgert hat.",
@@ -4637,6 +4637,396 @@ const LESSON_QUIZZES_B1 = {
           "weil"
         ],
         "correct": 1
+      }
+    ]
+  },
+  "almanca_prateritum_yazi_dili_ve_gecmis_zaman_rehberi": {
+    "letterText": "Betreff: Ein anstrengender, aber erfolgreicher Tag\n\nLieber Jonas,\n\nich wollte dir kurz berichten, wie mein Tag gestern war. Ich (6) früh auf und trank einen Kaffee. Danach (7) ich ins Büro. Dort (8) wir stundenlang an dem neuen Projekt.\n\nAm Nachmittag (9) ich meinen Chef über die Ergebnisse. Er (10) sehr zufrieden mit unserer Arbeit.\n\nHerzliche Grüße\nLucas",
+    "questions": [
+      {
+        "question": "Als Kind _____ ich jeden Tag im Park. (spielen)",
+        "options": [
+          "spielte",
+          "gespielt",
+          "spielten"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Gestern _____ wir den ganzen Abend zu Hause. (bleiben)",
+        "options": [
+          "blieben",
+          "geblieben",
+          "bliebt"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Er _____ mir gestern ein schönes Buch. (geben)",
+        "options": [
+          "gab",
+          "geben",
+          "gabst"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Wir _____ gestern keine Zeit für ein Treffen. (haben)",
+        "options": [
+          "hatten",
+          "haben",
+          "hattet"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "_____ du gestern den Film im Kino? (sehen)",
+        "options": [
+          "Sahst",
+          "Sah",
+          "Gesehen"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Ich (6) _____ früh auf und trank einen Kaffee.",
+        "options": [
+          "stand",
+          "ging",
+          "arbeiteten",
+          "informierte",
+          "war",
+          "hatte",
+          "konnte",
+          "musste",
+          "wollte",
+          "uns"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Danach (7) _____ ich ins Büro.",
+        "options": [
+          "stand",
+          "ging",
+          "arbeiteten",
+          "informierte",
+          "war",
+          "hatte",
+          "konnte",
+          "musste",
+          "wollte",
+          "uns"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Dort (8) _____ wir stundenlang an dem neuen Projekt.",
+        "options": [
+          "stand",
+          "ging",
+          "arbeiteten",
+          "informierte",
+          "war",
+          "hatte",
+          "konnte",
+          "musste",
+          "wollte",
+          "uns"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Am Nachmittag (9) _____ ich meinen Chef über die Ergebnisse.",
+        "options": [
+          "stand",
+          "ging",
+          "arbeiteten",
+          "informierte",
+          "war",
+          "hatte",
+          "konnte",
+          "musste",
+          "wollte",
+          "uns"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "Er (10) _____ sehr zufrieden mit unserer Arbeit.",
+        "options": [
+          "stand",
+          "ging",
+          "arbeiteten",
+          "informierte",
+          "war",
+          "hatte",
+          "konnte",
+          "musste",
+          "wollte",
+          "uns"
+        ],
+        "correct": 4
+      }
+    ]
+  },
+  "almanca_dilbilgisinde_plusquamperfekt_gecmisin_gecmisi": {
+    "letterText": "Betreff: Ein verpasster Zug am Bahnhof\n\nLieber Jonas,\n\ngestern hatte ich großes Pech. Nachdem ich am Bahnhof (6) war, merkte ich, dass mein Zug schon (7) war. Ich (8) den Wecker nicht gehört, weil ich am Vorabend sehr spät ins Bett gegangen war.\n\nZum Glück hatte ein Freund mir eine Nachricht (9), dass er mich mit dem Auto abholen kann. Nachdem wir zusammen gefrühstückt (10), fuhren wir los.\n\nHerzliche Grüße\nLucas",
+    "questions": [
+      {
+        "question": "Nachdem wir das Essen _____, gingen wir spazieren.",
+        "options": [
+          "gekocht hatten",
+          "gekocht haben",
+          "kochen"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Als ich ankam, _____ der Film schon begonnen.",
+        "options": [
+          "hatte",
+          "war",
+          "hätte"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Nachdem er den Brief _____, brachte er ihn zur Post.",
+        "options": [
+          "geschrieben hatte",
+          "geschrieben hat",
+          "schreiben"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Sie gingen ins Kino, nachdem sie die Tickets _____ hatten.",
+        "options": [
+          "gekauft",
+          "kaufen",
+          "gekauft haben"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Nachdem sie aufgestanden _____, tranken sie Kaffee.",
+        "options": [
+          "waren",
+          "hatten",
+          "wurden"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Nachdem ich am Bahnhof (6) _____ war, merkte ich, dass...",
+        "options": [
+          "angekommen",
+          "abgefahren",
+          "hatte",
+          "geschrieben",
+          "hatten",
+          "war",
+          "waren",
+          "hätte",
+          "uns",
+          "sich"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "...dass mein Zug schon (7) _____ war.",
+        "options": [
+          "angekommen",
+          "abgefahren",
+          "hatte",
+          "geschrieben",
+          "hatten",
+          "war",
+          "waren",
+          "hätte",
+          "uns",
+          "sich"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Ich (8) _____ den Wecker nicht gehört...",
+        "options": [
+          "angekommen",
+          "abgefahren",
+          "hatte",
+          "geschrieben",
+          "hatten",
+          "war",
+          "waren",
+          "hätte",
+          "uns",
+          "sich"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Zum Glück hatte ein Freund mir eine Nachricht (9) _____, dass...",
+        "options": [
+          "angekommen",
+          "abgefahren",
+          "hatte",
+          "geschrieben",
+          "hatten",
+          "war",
+          "waren",
+          "hätte",
+          "uns",
+          "sich"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "Nachdem wir zusammen gefrühstückt (10) _____, fuhren wir los.",
+        "options": [
+          "angekommen",
+          "abgefahren",
+          "hatte",
+          "geschrieben",
+          "hatten",
+          "war",
+          "waren",
+          "hätte",
+          "uns",
+          "sich"
+        ],
+        "correct": 4
+      }
+    ]
+  },
+  "almanca_futur_1_gelecek_zaman_yapisi_ve_kullanimi": {
+    "letterText": "Betreff: Pläne für den nächsten Sommer\n\nLieber Jonas,\n\nich möchte dir von meinen Plänen für den nächsten Sommer erzählen. Ich (6) im August nach Spanien reisen. Dort (7) du mich hoffentlich besuchen.\n\nMein Freund Marc wird wahrscheinlich auch mitkommen. Wir (8) viel Spaß haben. Ich bin sicher, das Wetter (9) fantastisch sein. \n\nIch (10) dir bald wieder schreiben, wenn ich mehr Details weiß!\n\nHerzliche Grüße\nLucas",
+    "questions": [
+      {
+        "question": "Nächstes Jahr _____ wir nach Berlin fliegen.",
+        "options": [
+          "werden",
+          "wird",
+          "werde"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Ich bin sicher, er _____ morgen kommen.",
+        "options": [
+          "wird",
+          "werden",
+          "werde"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Morgen _____ es wahrscheinlich regnen.",
+        "options": [
+          "wird",
+          "werden",
+          "werde"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Ich _____ dir bei den Hausaufgaben helfen.",
+        "options": [
+          "werde",
+          "wird",
+          "wirst"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "_____ ihr am Wochenende zu Hause bleiben?",
+        "options": [
+          "Werdet",
+          "Werden",
+          "Wird"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Ich (6) _____ im August nach Spanien reisen.",
+        "options": [
+          "werde",
+          "wirst",
+          "werden",
+          "wird",
+          "werdet",
+          "haben",
+          "sein",
+          "kommen",
+          "gehen",
+          "uns"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Dort (7) _____ du mich hoffentlich besuchen.",
+        "options": [
+          "werde",
+          "wirst",
+          "werden",
+          "wird",
+          "werdet",
+          "haben",
+          "sein",
+          "kommen",
+          "gehen",
+          "uns"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Wir (8) _____ viel Spaß haben.",
+        "options": [
+          "werde",
+          "wirst",
+          "werden",
+          "wird",
+          "werdet",
+          "haben",
+          "sein",
+          "kommen",
+          "gehen",
+          "uns"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Ich bin sicher, das Wetter (9) _____ fantastisch sein.",
+        "options": [
+          "werde",
+          "wirst",
+          "werden",
+          "wird",
+          "werdet",
+          "haben",
+          "sein",
+          "kommen",
+          "gehen",
+          "uns"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "Ich (10) _____ dir bald wieder schreiben...",
+        "options": [
+          "werde",
+          "wirst",
+          "werden",
+          "wird",
+          "werdet",
+          "haben",
+          "sein",
+          "kommen",
+          "gehen",
+          "uns"
+        ],
+        "correct": 0
       }
     ]
   }
