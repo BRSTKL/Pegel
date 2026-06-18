@@ -1941,112 +1941,7 @@ function initHandshakeAnimation() {
   }
 }
 
-let octopusLoopRiveInstance = null;
 
-function initOctopusLoopAnimation() {
-  const canvas = document.getElementById("octopus-loop-canvas");
-  if (!canvas) return;
-  
-  if (typeof rive === "undefined") {
-    console.warn("Rive library is not loaded yet.");
-    return;
-  }
-
-  // Intercept context creation to make full-screen white background transparent
-  if (!canvas.__wrapped) {
-    canvas.__wrapped = true;
-    const originalGetContext = canvas.getContext;
-    canvas.getContext = function(type, attribs) {
-      const ctx = originalGetContext.call(this, type, attribs);
-      if (type === '2d') {
-        return new Proxy(ctx, {
-          get(target, prop) {
-            if (prop === 'fillRect') {
-              return function(x, y, w, h) {
-                // If it covers the whole canvas, it's the background clear/fill
-                if (w >= canvas.width - 5 && h >= canvas.height - 5) {
-                  const fillStr = String(target.fillStyle).toLowerCase().replace(/\s/g, '');
-                  if (fillStr === '#ffffff' || fillStr === '#fff' || fillStr === 'rgb(255,255,255)' || fillStr === 'rgba(255,255,255,1)') {
-                    const prevFill = target.fillStyle;
-                    target.fillStyle = 'rgba(255, 255, 255, 0)';
-                    target.fillRect(x, y, w, h);
-                    target.fillStyle = prevFill;
-                    return;
-                  }
-                }
-                return target.fillRect(x, y, w, h);
-              };
-            }
-            if (prop === 'rect') {
-              return function(x, y, w, h) {
-                if (w >= canvas.width - 5 && h >= canvas.height - 5) {
-                  canvas.__isFullRectPath = true;
-                } else {
-                  canvas.__isFullRectPath = false;
-                }
-                return target.rect(x, y, w, h);
-              };
-            }
-            if (prop === 'fill') {
-              return function(...args) {
-                if (canvas.__isFullRectPath) {
-                  canvas.__isFullRectPath = false;
-                  const fillStr = String(target.fillStyle).toLowerCase().replace(/\s/g, '');
-                  if (fillStr === '#ffffff' || fillStr === '#fff' || fillStr === 'rgb(255,255,255)' || fillStr === 'rgba(255,255,255,1)') {
-                    const prevFill = target.fillStyle;
-                    target.fillStyle = 'rgba(255, 255, 255, 0)';
-                    target.fill(...args);
-                    target.fillStyle = prevFill;
-                    return;
-                  }
-                }
-                return target.fill(...args);
-              };
-            }
-            const value = target[prop];
-            if (typeof value === 'function') {
-              return value.bind(target);
-            }
-            return value;
-          },
-          set(target, prop, value) {
-            target[prop] = value;
-            return true;
-          }
-        });
-      }
-      return ctx;
-    };
-  }
-  
-  if (octopusLoopRiveInstance) {
-    octopusLoopRiveInstance.cleanup();
-    octopusLoopRiveInstance = null;
-  }
-  
-  try {
-    octopusLoopRiveInstance = new rive.Rive({
-      src: "animations/octopus-loop.riv",
-      canvas: canvas,
-      autoplay: true,
-      onLoad: () => {
-        if (octopusLoopRiveInstance) {
-          if (typeof octopusLoopRiveInstance.resizeDrawingSurfaceToCanvas === "function") {
-            octopusLoopRiveInstance.resizeDrawingSurfaceToCanvas();
-          } else if (typeof octopusLoopRiveInstance.resizeDrawingToCanvas === "function") {
-            octopusLoopRiveInstance.resizeDrawingToCanvas();
-          }
-          octopusLoopRiveInstance.play();
-        }
-      },
-      onLoadError: (err) => {
-        console.error("Rive octopus-loop load error:", err);
-      }
-    });
-  } catch (e) {
-    console.error("Rive octopus-loop initialization error:", e);
-  }
-}
 
 function base64ToArrayBuffer(base64) {
   const cleanBase64 = base64.replace(/\s/g, '');
@@ -2375,10 +2270,6 @@ function renderLevelPath() {
     handshakeRiveInstance.cleanup();
     handshakeRiveInstance = null;
   }
-  if (octopusLoopRiveInstance) {
-    octopusLoopRiveInstance.cleanup();
-    octopusLoopRiveInstance = null;
-  }
 
   const pathView = document.getElementById("level-path-view");
   if (!pathView) return;
@@ -2418,7 +2309,6 @@ function renderLevelPath() {
   let secondCategoryY0 = null;
   let thirdCategoryY0 = null;
   let fourthCategoryY0 = null;
-  let sixthCategoryY0 = null;
   
   processedLessons.forEach((les, index) => {
     if (les.categoryId !== lastCategoryId) {
@@ -2449,9 +2339,6 @@ function renderLevelPath() {
       }
       if (catIndex === 4 && fourthCategoryY0 === null) {
         fourthCategoryY0 = currentY;
-      }
-      if (catIndex === 6 && sixthCategoryY0 === null) {
-        sixthCategoryY0 = currentY;
       }
       
       lastCategoryId = les.categoryId;
@@ -2600,30 +2487,13 @@ function renderLevelPath() {
     pathView.appendChild(handshakeContainer);
   }
 
-  // Render octopus-loop animation container in the sixth category's empty left space
-  if (sixthCategoryY0 !== null) {
-    const octopusLoopTop = sixthCategoryY0 + 85; // Align it next to droplet 2 & 3 in the sixth category
-    const octopusLoopContainer = document.createElement("div");
-    octopusLoopContainer.id = "octopus-loop-animation-container";
-    octopusLoopContainer.style.position = "absolute";
-    octopusLoopContainer.style.left = "8px"; // Left side
-    octopusLoopContainer.style.top = `${octopusLoopTop}px`;
-    octopusLoopContainer.style.width = "180px";
-    octopusLoopContainer.style.height = "180px";
-    octopusLoopContainer.style.zIndex = "1";
-    octopusLoopContainer.style.pointerEvents = "none";
-    octopusLoopContainer.innerHTML = `<canvas id="octopus-loop-canvas" width="360" height="360" style="width: 100%; height: 100%;"></canvas>`;
-    pathView.appendChild(octopusLoopContainer);
-  }
-
-  if (firstCategoryY0 !== null || secondCategoryY0 !== null || thirdCategoryY0 !== null || fourthCategoryY0 !== null || sixthCategoryY0 !== null) {
+  if (firstCategoryY0 !== null || secondCategoryY0 !== null || thirdCategoryY0 !== null || fourthCategoryY0 !== null) {
     setTimeout(() => {
       initCatAnimation();
       initCatAnimation2();
       initBunnyAnimation();
       initHouseAnimation();
       initHandshakeAnimation();
-      initOctopusLoopAnimation();
     }, 50);
   }
 }
