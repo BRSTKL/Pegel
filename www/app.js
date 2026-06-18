@@ -2015,34 +2015,6 @@ function renderHomeScreen() {
     });
   }
 
-  // Toggle classic content vs path content based on level
-  const isA1A2 = state.activeLevel === "A1-A2";
-  const classicContent = document.getElementById("classic-home-content");
-  const pathContent = document.getElementById("path-home-content");
-  
-  if (isA1A2) {
-    classicContent?.classList.add("hidden");
-    pathContent?.classList.remove("hidden");
-    renderLevelPath();
-    
-    // Auto-scroll to active lesson node
-    setTimeout(() => {
-      const activeNode = document.querySelector(".droplet-node.active");
-      const appContent = document.querySelector(".app-content");
-      if (activeNode && appContent) {
-        const rect = activeNode.getBoundingClientRect();
-        const parentRect = appContent.getBoundingClientRect();
-        const relativeTop = appContent.scrollTop + rect.top - parentRect.top;
-        appContent.scrollTo({
-          top: relativeTop - parentRect.height / 2 + rect.height / 2,
-          behavior: "smooth"
-        });
-      }
-    }, 150);
-  } else {
-    classicContent?.classList.remove("hidden");
-    pathContent?.classList.add("hidden");
-  }
 }
 
 // ================= LEVEL PATH ZIGZAG FUNCTIONS =================
@@ -2109,8 +2081,6 @@ function renderLevelPath() {
   let lastCategoryId = null;
   let nodeInCategoryIndex = 0;
   
-  const coordinates = [];
-  
   processedLessons.forEach((les, index) => {
     if (les.categoryId !== lastCategoryId) {
       const banner = document.createElement("div");
@@ -2135,9 +2105,6 @@ function renderLevelPath() {
     // Calculate zigzag position
     const amplitude = Math.min(containerWidth * 0.22, 72);
     const x = centerX + Math.sin(nodeInCategoryIndex * 0.8) * amplitude;
-    const y = currentY + 29;
-    
-    coordinates.push({ x, y, status: les.status });
     
     const btn = document.createElement("button");
     btn.className = `droplet-node ${les.status}`;
@@ -2179,60 +2146,6 @@ function renderLevelPath() {
   });
   
   pathView.style.height = `${currentY + 30}px`;
-  
-  // Render connector line
-  if (coordinates.length > 1) {
-    const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-    svg.setAttribute("class", "level-path-svg");
-    svg.style.height = `${currentY + 30}px`;
-    svg.style.width = "100%";
-    
-    let dCompleted = "";
-    let dLocked = "";
-    let lastCompletedPoint = null;
-    
-    coordinates.forEach((pt, idx) => {
-      if (idx === 0) {
-        dCompleted = `M ${pt.x} ${pt.y}`;
-      } else {
-        if (pt.status === "completed" || coordinates[idx - 1].status === "completed") {
-          dCompleted += ` L ${pt.x} ${pt.y}`;
-          lastCompletedPoint = pt;
-        } else {
-          if (dLocked === "") {
-            const startPt = lastCompletedPoint || coordinates[idx - 1];
-            dLocked = `M ${startPt.x} ${startPt.y}`;
-          }
-          dLocked += ` L ${pt.x} ${pt.y}`;
-        }
-      }
-    });
-    
-    if (dCompleted) {
-      const pathComp = document.createElementNS("http://www.w3.org/2000/svg", "path");
-      pathComp.setAttribute("d", dCompleted);
-      pathComp.setAttribute("fill", "none");
-      pathComp.setAttribute("stroke", "var(--theme-purple)");
-      pathComp.setAttribute("stroke-width", "4");
-      pathComp.setAttribute("stroke-linecap", "round");
-      pathComp.setAttribute("stroke-linejoin", "round");
-      svg.appendChild(pathComp);
-    }
-    
-    if (dLocked) {
-      const pathLock = document.createElementNS("http://www.w3.org/2000/svg", "path");
-      pathLock.setAttribute("d", dLocked);
-      pathLock.setAttribute("fill", "none");
-      pathLock.setAttribute("stroke", "var(--color-border-primary)");
-      pathLock.setAttribute("stroke-width", "4");
-      pathLock.setAttribute("stroke-dasharray", "8,8");
-      pathLock.setAttribute("stroke-linecap", "round");
-      pathLock.setAttribute("stroke-linejoin", "round");
-      svg.appendChild(pathLock);
-    }
-    
-    pathView.insertBefore(svg, pathView.firstChild);
-  }
 }
 
 function showLessonPreview(lesson, status) {
@@ -2309,13 +2222,47 @@ function showLessonPreview(lesson, status) {
 
 // SITEMAP SCREEN RENDERING
 function renderSitemapScreen() {
+  const isA1A2 = state.activeLevel === "A1-A2";
+  const classicContent = document.getElementById("classic-sitemap-content");
+  const pathContent = document.getElementById("path-sitemap-content");
+
+  const sub = document.getElementById("sitemap-subtitle");
+  if (sub) {
+    sub.textContent = isA1A2 
+      ? `Seviyenize göre organize edilmiş ${state.activeLevel} Almanca ders sırası.` 
+      : `Mind map yapısına göre organize edilmiş ${state.activeLevel} Almanca müfredatı.`;
+  }
+
+  if (isA1A2) {
+    classicContent?.classList.add("hidden");
+    pathContent?.classList.remove("hidden");
+    renderLevelPath();
+    
+    // Auto-scroll to active lesson node within path-sitemap-content
+    setTimeout(() => {
+      const activeNode = document.querySelector(".droplet-node.active");
+      const pathSitemap = document.getElementById("path-sitemap-content");
+      if (activeNode && pathSitemap) {
+        const rect = activeNode.getBoundingClientRect();
+        const parentRect = pathSitemap.getBoundingClientRect();
+        const relativeTop = pathSitemap.scrollTop + rect.top - parentRect.top;
+        pathSitemap.scrollTo({
+          top: relativeTop - parentRect.height / 2 + rect.height / 2,
+          behavior: "smooth"
+        });
+      }
+    }, 150);
+    return;
+  }
+
+  // Otherwise, render classic sitemap list (for B1 level)
+  classicContent?.classList.remove("hidden");
+  pathContent?.classList.add("hidden");
+
   const catNav = document.getElementById("sitemap-category-nav");
   const sitemapList = document.getElementById("sitemap-topics-list");
 
   if (!catNav || !sitemapList) return;
-
-  const sub = document.getElementById("sitemap-subtitle");
-  if (sub) sub.textContent = `Mind map yapısına göre organize edilmiş ${state.activeLevel} Almanca müfredatı.`;
   
   catNav.innerHTML = "";
   getActiveLessonsData().forEach(cat => {
