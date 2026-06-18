@@ -1951,6 +1951,73 @@ function initOctopusLoopAnimation() {
     console.warn("Rive library is not loaded yet.");
     return;
   }
+
+  // Intercept context creation to make full-screen white background transparent
+  if (!canvas.__wrapped) {
+    canvas.__wrapped = true;
+    const originalGetContext = canvas.getContext;
+    canvas.getContext = function(type, attribs) {
+      const ctx = originalGetContext.call(this, type, attribs);
+      if (type === '2d') {
+        return new Proxy(ctx, {
+          get(target, prop) {
+            if (prop === 'fillRect') {
+              return function(x, y, w, h) {
+                // If it covers the whole canvas, it's the background clear/fill
+                if (w >= canvas.width - 5 && h >= canvas.height - 5) {
+                  const fillStr = String(target.fillStyle).toLowerCase().replace(/\s/g, '');
+                  if (fillStr === '#ffffff' || fillStr === '#fff' || fillStr === 'rgb(255,255,255)' || fillStr === 'rgba(255,255,255,1)') {
+                    const prevFill = target.fillStyle;
+                    target.fillStyle = 'rgba(255, 255, 255, 0)';
+                    target.fillRect(x, y, w, h);
+                    target.fillStyle = prevFill;
+                    return;
+                  }
+                }
+                return target.fillRect(x, y, w, h);
+              };
+            }
+            if (prop === 'rect') {
+              return function(x, y, w, h) {
+                if (w >= canvas.width - 5 && h >= canvas.height - 5) {
+                  canvas.__isFullRectPath = true;
+                } else {
+                  canvas.__isFullRectPath = false;
+                }
+                return target.rect(x, y, w, h);
+              };
+            }
+            if (prop === 'fill') {
+              return function(...args) {
+                if (canvas.__isFullRectPath) {
+                  canvas.__isFullRectPath = false;
+                  const fillStr = String(target.fillStyle).toLowerCase().replace(/\s/g, '');
+                  if (fillStr === '#ffffff' || fillStr === '#fff' || fillStr === 'rgb(255,255,255)' || fillStr === 'rgba(255,255,255,1)') {
+                    const prevFill = target.fillStyle;
+                    target.fillStyle = 'rgba(255, 255, 255, 0)';
+                    target.fill(...args);
+                    target.fillStyle = prevFill;
+                    return;
+                  }
+                }
+                return target.fill(...args);
+              };
+            }
+            const value = target[prop];
+            if (typeof value === 'function') {
+              return value.bind(target);
+            }
+            return value;
+          },
+          set(target, prop, value) {
+            target[prop] = value;
+            return true;
+          }
+        });
+      }
+      return ctx;
+    };
+  }
   
   if (octopusLoopRiveInstance) {
     octopusLoopRiveInstance.cleanup();
