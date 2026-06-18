@@ -2603,7 +2603,8 @@ function renderFlashcardScreen() {
   // Map myVocabulary to flashcard format
   activeFlashcards = vocabList.map(item => ({
     front: item.word,
-    back: item.translation
+    back: item.translation,
+    context: item.context
   }));
   
   // Shuffle flashcards
@@ -2644,30 +2645,40 @@ function updateFlashcardUI() {
   
   if (!container || !card) return;
   
+  let contextHtml = "";
+  if (card.context) {
+    contextHtml = `
+      <div style="font-size: 12.5px; color: var(--color-text-secondary); margin-bottom: auto; border-top: 1px solid rgba(255, 255, 255, 0.08); padding-top: 12px; font-style: italic; line-height: 1.5; text-align: center; max-width: 90%; margin-left: auto; margin-right: auto;">
+        "${card.context}"
+      </div>
+    `;
+  }
+  
   container.innerHTML = `
     <div class="flashcard" id="active-flashcard">
-      <div class="card-face card-front">
-        <div style="font-size: 11.5px; color: var(--color-text-tertiary); display:flex; justify-content:space-between;">
-          <span>Kart ${currentCardIndex + 1} / ${activeFlashcards.length}</span>
-          <span>Kelimelerim</span>
+      <div class="card-face card-front" style="display: flex; flex-direction: column; justify-content: space-between;">
+        <div style="display:flex; justify-content:space-between; align-items:center; width: 100%;">
+          <span style="background: rgba(177, 159, 251, 0.12); color: var(--theme-purple); padding: 4px 10px; border-radius: 99px; font-size: 10.5px; font-weight: 700; letter-spacing: 0.3px;">KELİMELERİM</span>
+          <span style="color: var(--color-text-tertiary); font-size: 11.5px; font-weight: 500;">${currentCardIndex + 1} / ${activeFlashcards.length}</span>
         </div>
-        <div style="font-size: 17.5px; font-weight: 600; text-align: center; margin: auto 0; line-height:1.55;">
+        <div style="font-size: 21px; font-weight: 700; text-align: center; margin: auto 0; line-height:1.5; color: #ffffff; letter-spacing: 0.2px;">
           ${card.front}
         </div>
-        <div style="font-size: 11px; color: var(--color-text-tertiary); text-align: center;">
-          Türkçesini görmek için dokunun
+        <div style="font-size: 10.5px; color: var(--theme-purple); opacity: 0.85; text-align: center; display: flex; align-items: center; justify-content: center; gap: 6px; font-weight: 600; letter-spacing: 0.2px;">
+          <i class="ti ti-eye-check" style="font-size: 13px;"></i> TÜRKÇESİNİ GÖSTER
         </div>
       </div>
-      <div class="card-face card-back">
-        <div style="font-size: 11.5px; color: var(--color-text-tertiary); display:flex; justify-content:space-between;">
-          <span>Kart ${currentCardIndex + 1} / ${activeFlashcards.length}</span>
-          <span>Türkçe Karşılığı</span>
+      <div class="card-face card-back" style="display: flex; flex-direction: column; justify-content: space-between;">
+        <div style="display:flex; justify-content:space-between; align-items:center; width: 100%;">
+          <span style="background: rgba(52, 232, 176, 0.12); color: var(--theme-teal); padding: 4px 10px; border-radius: 99px; font-size: 10.5px; font-weight: 700; letter-spacing: 0.3px;">TÜRKÇE ÇEVİRİ</span>
+          <span style="color: var(--color-text-tertiary); font-size: 11.5px; font-weight: 500;">${currentCardIndex + 1} / ${activeFlashcards.length}</span>
         </div>
-        <div style="font-size: 15.5px; font-weight: 500; text-align: center; margin: auto 0; line-height:1.6; color: var(--theme-purple);">
+        <div style="font-size: 19px; font-weight: 700; text-align: center; margin: auto 0; line-height:1.55; color: var(--theme-teal); letter-spacing: 0.2px;">
           ${card.back}
         </div>
-        <div style="font-size: 11px; color: var(--color-text-tertiary); text-align: center;">
-          Almancasını görmek için dokunun
+        ${contextHtml}
+        <div style="font-size: 10.5px; color: var(--theme-teal); opacity: 0.85; text-align: center; display: flex; align-items: center; justify-content: center; gap: 6px; font-weight: 600; letter-spacing: 0.2px; margin-top: auto;">
+          <i class="ti ti-eye-off" style="font-size: 13px;"></i> ALMANCASINI GÖSTER
         </div>
       </div>
     </div>
