@@ -793,10 +793,27 @@ document.addEventListener("DOMContentLoaded", async () => {
   modalCloseBtn?.addEventListener("click", closeAnswerModal);
   modalBackdrop?.addEventListener("click", closeAnswerModal);
 
-  // Close modal with Escape key
+  // Lesson Preview overlay close triggers
+  const lessonPreviewOverlay = document.getElementById("lesson-preview-overlay");
+  const lessonPreviewCloseBtn = document.getElementById("lesson-preview-close-btn");
+  const lessonPreviewBackdrop = document.getElementById("lesson-preview-backdrop");
+
+  const closeLessonPreview = () => {
+    lessonPreviewOverlay?.classList.add("hidden");
+  };
+
+  lessonPreviewCloseBtn?.addEventListener("click", closeLessonPreview);
+  lessonPreviewBackdrop?.addEventListener("click", closeLessonPreview);
+
+  // Close modals with Escape key
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape" && modalOverlay && !modalOverlay.classList.contains("hidden")) {
-      closeAnswerModal();
+    if (e.key === "Escape") {
+      if (modalOverlay && !modalOverlay.classList.contains("hidden")) {
+        closeAnswerModal();
+      }
+      if (lessonPreviewOverlay && !lessonPreviewOverlay.classList.contains("hidden")) {
+        closeLessonPreview();
+      }
     }
   });
   
@@ -1997,7 +2014,298 @@ function renderHomeScreen() {
       categoriesList.appendChild(catCard);
     });
   }
+
+  // Toggle classic content vs path content based on level
+  const isA1A2 = state.activeLevel === "A1-A2";
+  const classicContent = document.getElementById("classic-home-content");
+  const pathContent = document.getElementById("path-home-content");
+  
+  if (isA1A2) {
+    classicContent?.classList.add("hidden");
+    pathContent?.classList.remove("hidden");
+    renderLevelPath();
+    
+    // Auto-scroll to active lesson node
+    setTimeout(() => {
+      const activeNode = document.querySelector(".droplet-node.active");
+      const appContent = document.querySelector(".app-content");
+      if (activeNode && appContent) {
+        const rect = activeNode.getBoundingClientRect();
+        const parentRect = appContent.getBoundingClientRect();
+        const relativeTop = appContent.scrollTop + rect.top - parentRect.top;
+        appContent.scrollTo({
+          top: relativeTop - parentRect.height / 2 + rect.height / 2,
+          behavior: "smooth"
+        });
+      }
+    }, 150);
+  } else {
+    classicContent?.classList.remove("hidden");
+    pathContent?.classList.add("hidden");
+  }
 }
+
+// ================= LEVEL PATH ZIGZAG FUNCTIONS =================
+function getSequentialLessons() {
+  const lessons = [];
+  getActiveLessonsData().forEach(cat => {
+    cat.subcategories.forEach(sub => {
+      sub.lessons.forEach(les => {
+        lessons.push({
+          ...les,
+          categoryId: cat.id,
+          categoryName: cat.name,
+          categoryColor: cat.color || "purple",
+          categoryIcon: cat.icon || "ti-book",
+          subcategoryName: sub.name
+        });
+      });
+    });
+  });
+  return lessons;
+}
+
+function getLessonIcon(lesson, index) {
+  if (getLevelProgress().completedLessons.includes(lesson.id)) {
+    return "ti-check";
+  }
+  const icons = ["ti-notebook", "ti-video", "ti-headphones", "ti-star"];
+  return icons[index % icons.length];
+}
+
+function renderLevelPath() {
+  const pathView = document.getElementById("level-path-view");
+  if (!pathView) return;
+  
+  pathView.innerHTML = "";
+  
+  const lessons = getSequentialLessons();
+  if (lessons.length === 0) {
+    pathView.innerHTML = `<div style="text-align:center; padding: 40px; color: var(--color-text-secondary); font-size:13px;">Dersler yükleniyor...</div>`;
+    return;
+  }
+  
+  const completedLessons = getLevelProgress().completedLessons;
+  let activeFound = false;
+  
+  const processedLessons = lessons.map(les => {
+    const isCompleted = completedLessons.includes(les.id);
+    let status = "locked";
+    if (isCompleted) {
+      status = "completed";
+    } else if (!activeFound) {
+      status = "active";
+      activeFound = true;
+    } else {
+      status = "locked";
+    }
+    return { ...les, status };
+  });
+  
+  const containerWidth = pathView.clientWidth || 340;
+  const centerX = containerWidth / 2;
+  
+  let currentY = 15;
+  let lastCategoryId = null;
+  let nodeInCategoryIndex = 0;
+  
+  const coordinates = [];
+  
+  processedLessons.forEach((les, index) => {
+    if (les.categoryId !== lastCategoryId) {
+      const banner = document.createElement("div");
+      banner.className = `category-banner c-${les.categoryColor}-bg`;
+      banner.style.top = `${currentY}px`;
+      banner.style.borderLeftColor = `var(--theme-${les.categoryColor})`;
+      
+      const categories = getActiveLessonsData();
+      const catIndex = categories.findIndex(c => c.id === les.categoryId) + 1;
+      
+      banner.innerHTML = `
+        <span class="kisim-title" style="color: var(--theme-${les.categoryColor});">${catIndex}. KISIM</span>
+        <span class="kisim-name">${les.categoryName}</span>
+      `;
+      pathView.appendChild(banner);
+      
+      currentY += 56 + 24;
+      lastCategoryId = les.categoryId;
+      nodeInCategoryIndex = 0;
+    }
+    
+    // Calculate zigzag position
+    const amplitude = Math.min(containerWidth * 0.22, 72);
+    const x = centerX + Math.sin(nodeInCategoryIndex * 0.8) * amplitude;
+    const y = currentY + 29;
+    
+    coordinates.push({ x, y, status: les.status });
+    
+    const btn = document.createElement("button");
+    btn.className = `droplet-node ${les.status}`;
+    btn.style.left = `${x - 29}px`;
+    btn.style.top = `${currentY}px`;
+    
+    let fillColor = "var(--color-background-tertiary)";
+    let strokeColor = "var(--color-border-primary)";
+    let strokeWidth = "2";
+    
+    if (les.status === "completed") {
+      fillColor = `var(--theme-${les.categoryColor})`;
+      strokeColor = "rgba(255, 255, 255, 0.25)";
+    } else if (les.status === "active") {
+      // Glow and active color
+      fillColor = `var(--theme-${les.categoryColor})`;
+      strokeColor = "#ffffff";
+      strokeWidth = "2.5";
+    }
+    
+    btn.innerHTML = `
+      <svg class="droplet-svg" viewBox="0 0 64 64">
+        <path d="M 32,4 C 32,4 10,28 10,42 A 22,22 0 0,0 54,42 C 54,28 32,4 32,4 Z" 
+              fill="${fillColor}" stroke="${strokeColor}" stroke-width="${strokeWidth}" />
+      </svg>
+      <div class="droplet-icon-container">
+        <i class="ti ${les.status === 'locked' ? 'ti-lock' : getLessonIcon(les, index)}"></i>
+      </div>
+    `;
+    
+    btn.addEventListener("click", () => {
+      showLessonPreview(les, les.status);
+    });
+    
+    pathView.appendChild(btn);
+    
+    currentY += 92;
+    nodeInCategoryIndex++;
+  });
+  
+  pathView.style.height = `${currentY + 30}px`;
+  
+  // Render connector line
+  if (coordinates.length > 1) {
+    const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    svg.setAttribute("class", "level-path-svg");
+    svg.style.height = `${currentY + 30}px`;
+    svg.style.width = "100%";
+    
+    let dCompleted = "";
+    let dLocked = "";
+    let lastCompletedPoint = null;
+    
+    coordinates.forEach((pt, idx) => {
+      if (idx === 0) {
+        dCompleted = `M ${pt.x} ${pt.y}`;
+      } else {
+        if (pt.status === "completed" || coordinates[idx - 1].status === "completed") {
+          dCompleted += ` L ${pt.x} ${pt.y}`;
+          lastCompletedPoint = pt;
+        } else {
+          if (dLocked === "") {
+            const startPt = lastCompletedPoint || coordinates[idx - 1];
+            dLocked = `M ${startPt.x} ${startPt.y}`;
+          }
+          dLocked += ` L ${pt.x} ${pt.y}`;
+        }
+      }
+    });
+    
+    if (dCompleted) {
+      const pathComp = document.createElementNS("http://www.w3.org/2000/svg", "path");
+      pathComp.setAttribute("d", dCompleted);
+      pathComp.setAttribute("fill", "none");
+      pathComp.setAttribute("stroke", "var(--theme-purple)");
+      pathComp.setAttribute("stroke-width", "4");
+      pathComp.setAttribute("stroke-linecap", "round");
+      pathComp.setAttribute("stroke-linejoin", "round");
+      svg.appendChild(pathComp);
+    }
+    
+    if (dLocked) {
+      const pathLock = document.createElementNS("http://www.w3.org/2000/svg", "path");
+      pathLock.setAttribute("d", dLocked);
+      pathLock.setAttribute("fill", "none");
+      pathLock.setAttribute("stroke", "var(--color-border-primary)");
+      pathLock.setAttribute("stroke-width", "4");
+      pathLock.setAttribute("stroke-dasharray", "8,8");
+      pathLock.setAttribute("stroke-linecap", "round");
+      pathLock.setAttribute("stroke-linejoin", "round");
+      svg.appendChild(pathLock);
+    }
+    
+    pathView.insertBefore(svg, pathView.firstChild);
+  }
+}
+
+function showLessonPreview(lesson, status) {
+  if (status === "locked") {
+    playSound("click");
+    if (typeof capacitorHapticVibrate === "function") {
+      capacitorHapticVibrate("warning");
+    }
+    alert("Bu konuya erişmek için lütfen önceki konuları tamamlayın.");
+    return;
+  }
+  
+  playSound("click");
+  if (typeof capacitorHapticVibrate === "function") {
+    capacitorHapticVibrate("light");
+  }
+  
+  const overlay = document.getElementById("lesson-preview-overlay");
+  const badge = document.getElementById("lesson-preview-badge");
+  const statusBadge = document.getElementById("lesson-preview-status-badge");
+  const title = document.getElementById("lesson-preview-title");
+  const teaser = document.getElementById("lesson-preview-teaser");
+  const actions = document.getElementById("lesson-preview-actions");
+  
+  if (!overlay || !badge || !statusBadge || !title || !teaser || !actions) return;
+  
+  title.textContent = lesson.title;
+  badge.textContent = lesson.subcategoryName;
+  badge.style.backgroundColor = `var(--theme-${lesson.categoryColor}-light)`;
+  badge.style.color = `var(--theme-${lesson.categoryColor})`;
+  badge.style.border = `1px solid rgba(177, 159, 251, 0.2)`;
+  
+  if (status === "completed") {
+    statusBadge.innerHTML = `<span style="color: var(--theme-teal); display: flex; align-items: center; gap: 4px;"><i class="ti ti-circle-check-filled"></i> Tamamlandı</span>`;
+  } else {
+    statusBadge.innerHTML = `<span style="color: var(--theme-purple); display: flex; align-items: center; gap: 4px;"><i class="ti ti-flame"></i> Sıradaki Konu</span>`;
+  }
+  
+  const contentText = lesson.content || "";
+  const cleanText = contentText.replace(/[#*`]/g, "").substring(0, 150) + (contentText.length > 150 ? "..." : "");
+  teaser.textContent = cleanText || "Bu ders için konu anlatımı henüz hazır değil.";
+  
+  actions.innerHTML = "";
+  
+  const readBtn = document.createElement("button");
+  readBtn.className = "c-purple";
+  readBtn.style = "width: 100%; border: none; padding: 12px; border-radius: var(--border-radius-lg); font-size: 13.5px; font-weight: 600; cursor: pointer; color: #ffffff; display: flex; align-items: center; justify-content: center; gap: 8px;";
+  readBtn.innerHTML = `<i class="ti ti-book-open"></i> Dersi Oku`;
+  readBtn.addEventListener("click", () => {
+    overlay.classList.add("hidden");
+    openLesson(lesson, "home");
+  });
+  actions.appendChild(readBtn);
+  
+  const quizzes = getActiveLessonQuizzes();
+  const hasQuiz = quizzes && quizzes[lesson.id];
+  if (hasQuiz) {
+    const quizBtn = document.createElement("button");
+    quizBtn.className = "c-teal";
+    quizBtn.style = "width: 100%; border: none; padding: 12px; border-radius: var(--border-radius-lg); font-size: 13.5px; font-weight: 600; cursor: pointer; color: #ffffff; display: flex; align-items: center; justify-content: center; gap: 8px;";
+    quizBtn.innerHTML = `<i class="ti ti-pencil"></i> Sınava Başla`;
+    quizBtn.addEventListener("click", () => {
+      overlay.classList.add("hidden");
+      state.quizReferrer = "home";
+      saveState();
+      startLessonQuiz(lesson);
+    });
+    actions.appendChild(quizBtn);
+  }
+  
+  overlay.classList.remove("hidden");
+}
+
 
 // SITEMAP SCREEN RENDERING
 function renderSitemapScreen() {
@@ -2081,8 +2389,13 @@ function renderSitemapScreen() {
 }
 
 // LESSON DETAILS SCREEN
-function openLesson(lesson) {
+function openLesson(lesson, referrer = "sitemap") {
   showScreen("lesson");
+  
+  const backBtn = document.querySelector("#lesson-screen .back-btn");
+  if (backBtn) {
+    backBtn.setAttribute("data-target", referrer);
+  }
   
   document.getElementById("lesson-title").textContent = lesson.title;
   
@@ -4812,6 +5125,9 @@ let lessonQuizCorrectStates = {};
 
 function startLessonQuiz(lesson) {
   activeLessonQuiz = lesson;
+  if (!state.quizReferrer) {
+    state.quizReferrer = document.querySelector("#lesson-screen .back-btn")?.getAttribute("data-target") || "sitemap";
+  }
   const quizEntry = getActiveLessonQuizzes()[lesson.id];
   if (quizEntry && quizEntry.questions) {
     activeLessonQuizQuestions = quizEntry.questions;
@@ -5281,7 +5597,10 @@ function finishLessonQuiz(success) {
     
     document.getElementById("lesson-quiz-result-ok-btn")?.addEventListener("click", () => {
       overlay.classList.add("hidden");
-      showScreen("sitemap");
+      const target = state.quizReferrer || "sitemap";
+      state.quizReferrer = "";
+      saveState();
+      showScreen(target);
     });
   } else {
     card.innerHTML = `
