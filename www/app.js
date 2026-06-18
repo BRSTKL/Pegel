@@ -2597,9 +2597,9 @@ function renderLevelPath() {
     pathView.appendChild(catPlayingContainer);
   }
 
-  // Render octo animation container in the fifth category's empty right space
-  if (fifthCategoryY0 !== null) {
-    const octoTop = fifthCategoryY0 - 250; // Align it on the right side above Category 5 banner
+  // Render octo animation container in the fourth category's empty right space
+  if (fourthCategoryY0 !== null) {
+    const octoTop = fourthCategoryY0 + 430; // Align it on the right side next to droplets 5 & 6, centered in the empty space
     const octoContainer = document.createElement("div");
     octoContainer.id = "octo-animation-container";
     octoContainer.style.position = "absolute";
