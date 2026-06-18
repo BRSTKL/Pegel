@@ -1,0 +1,65 @@
+========================================================================
+telc DEUTSCH A1-A2: OFFIZIELLES LESEVERSTEHEN-TRAINING (ÖZGÜN SET 4)
+========================================================================
+Prüfungsbaustein: Leseverstehen (Eşleştirme / Zuordnung)
+Dauer: 20 Minuten
+
+KURAL REHBERİ (telc Sınav Stratejisi):
+1. Bu bölüm bir eşleştirme (Zuordnung) alıştırmasıdır. Amacınız, aşağıda verilen kısa gazete haberleri, ilanlar veya tanıtımlar (1-5) için en uygun başlığı (a-j) bulmaktır.
+2. Her başlık sadece bir kez kullanılabilir. Bazı başlıklar ise tamamen çeldiricidir ve hiçbir metne uymaz.
+3. Strateji: Metindeki anahtar kelimeleri (Schlüsselwörter) başlıklarla eşleştirin. Kelimelerin benzer anlamlarına (örn: Auto -> Fahrzeug, lernen -> Intensivkurs) ve başlığın metnin tamamını kapsayıp kapsamadığına dikkat edin.
+
+------------------------------------------------------------------------
+
+ÜBERSCHRIFTEN (BAŞLIKLAR: a - j)
+
+a) Neuer Intensivkurs für Deutsch auf C1-Niveau am Goethe-Institut
+b) Elektroautos in Deutschland: Verkaufszahlen sinken im Sommer
+c) Junge Leute lernen Spanisch im Ausland
+d) Neue Regeln für die telc B2-Prüfung ab nächstem Monat
+e) Karriere im Ausland: Ingenieure suchen Stellen in Berlin
+f) Berlin investiert Millionen in neue Buslinien im Zentrum
+g) Neue Statistik: Immer mehr Studierende wechseln die Universität
+h) Energie-Experten sagen: Deutschland braucht mehr Windparks
+i) Trend auf dem Gebrauchtwagenmarkt: Preise für alte Autos steigen
+j) Fit im Beruf: Sportprogramme für Angestellte in großen Firmen
+
+------------------------------------------------------------------------
+
+TEXTE (METİNLER: 1 - 5)
+
+1. [  ]
+Das Goethe-Institut in Berlin hat ein neues Kursprogramm für den kommenden Herbst veröffentlicht. Für ausländische Berufstätige und Akademiker, die bereits gute Vorkenntnisse haben, gibt es ab Oktober einen speziellen Intensivkurs. In diesem Kurs lernen die Teilnehmer jeden Tag vier Stunden, um das anspruchsvolle C1-Niveau zu erreichen. Das Ziel ist es, die sprachlichen Voraussetzungen für ein Studium oder eine fortgeschrittene Karriere in Deutschland zu schaffen.
+
+2. [  ]
+Der Markt für gebrauchte Fahrzeuge in Deutschland zeigt im laufenden Jahr eine überraschende Entwicklung. Laut einer aktuellen Analyse des Automobilclubs sind die Preise für gut erhaltene Gebrauchtwagen (Second-Hand-Autos) im Durchschnitt um fast 12 Prozent gestiegen. Besonders junge Leute, die kein Geld für ein teures Neufahrzeug haben, suchen auf Online-Plattformen nach älteren Modellen. Händler berichten, dass die Nachfrage im Moment das Angebot deutlich übersteigt.
+
+3. [  ]
+Eine aktuelle Umfrage unter 5.000 Absolventen zeigt, dass Berlin für ausländische Fachkräfte ein sehr attraktives Ziel bleibt. Besonders junge Menschen aus dem Bereich der Energietechnik und des Ingenieurwesens suchen nach dem Bachelor- oder Masterabschluss eine Stelle in der deutschen Hauptstadt. Viele internationale Unternehmen bieten englischsprachige Arbeitsplätze an, was den Einstieg in den deutschen Arbeitsmarkt für qualifizierte Ingenieure erheblich erleichtert.
+
+4. [  ]
+Viele große Unternehmen in Deutschland bieten ihren Mitarbeitern mittlerweile eigene Fitness- und Gesundheitsprogramme an. Direkt nach der Arbeit oder in den Pausen können die Angestellten an kostenlosen Kursen wie Yoga, Rückentraining oder Basketball teilnehmen. Laut einer Studie des Instituts für Gesundheit senken diese sportlichen Aktivitäten am Arbeitsplatz den Stress der Mitarbeiter deutlich und verbessern gleichzeitig das Teamgefühl in den Abteilungen.
+
+5. [  ]
+In der Diskussion um den Klimaschutz fordern deutsche Energie-Experten einen schnelleren Ausbau der Windenergie. Um die Klimaziele für das Jahr 2030 zu erreichen, muss Deutschland laut einer neuen Analyse der Energiebranche pro Jahr mindestens 1.500 neue Windparks an Land und auf dem Meer bauen. Aktuell bremsen komplizierte bürokratische Prozesse und lange Wartezeiten beim Bürgeramt für Genehmigungen das Tempo beim Ausbau der grünen Energie stark aus.
+
+------------------------------------------------------------------------
+
+========================================================================
+OFFIZIELLE LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+1. DOĞRU CEVAP: a (Neuer Intensivkurs für Deutsch auf C1-Niveau am Goethe-Institut)
+   - Açıklama: Metin doğrudan Goethe-Institut Berlin'in sonbaharda açacağı yeni dil kursu programından bahsediyor. Kursun hedefinin ileri seviyedeki (C1-Niveau) akademik ve profesyonel ihtiyaçları karşılamak olduğu ve bunun bir yoğunlaştırılmış kurs (Intrasivkurs) olduğu belirtildiği için cevap "a" şıkkıdır.
+
+2. DOĞRU CEVAP: i (Trend auf dem Gebrauchtwagenmarkt: Preise für alte Autos steigen)
+   - Açıklama: Metinde ikinci el araç piyasasındaki durum inceleniyor. "Gebrauchtwagenmarket" (ikinci el araç piyasası) ifadesi metindeki "gebrauchte Fahrzeuge" ile, "Preise für alte Autos steigen" (eski arabaların fiyatları yükseliyor) ifadesi ise metindeki fiyatların %12 arttığı ("Preise... um fast 12 Prozent gestiegen") bilgisiyle birebir örtüşmektedir.
+
+3. DOĞRU CEVAP: e (Karriere im Ausland: Ingenieure suchen Stellen in Berlin)
+   - Açıklama: Metinde mühendislik alanından mezun olan yabancı uzmanların ("Ingenieure/Fachkräfte") kariyer yapmak amacıyla Berlin'deki iş ilanlarına ("Stellen in Berlin") başvurduğu ve buradaki uluslararası şirketlerde iş aradığı anlatılıyor. Bu durum "e" başlığı ile kusursuz eşleşir.
+
+4. DOĞRU CEVAP: j (Fit im Beruf: Sportprogramme für Angestellte in großen Firmen)
+   - Açıklama: Metin büyük şirketlerin ("große Unternehmen/großen Firmen") çalışanlarına sunduğu spor ve fitness programlarını (Sportprogramme) konu alıyor. Bu aktivitelerin iş hayatındaki sağlığa (Fit im Beruf) ve çalışanlara (Angestellte) olan faydaları vurgulandığı için en uygun başlık "j" seçeneğidir.
+
+5. DOĞRU CEVAP: h (Energie-Experten sagen: Deutschland braucht mehr Windparks)
+   - Açıklama: Metinde enerji uzmanlarının (Energie-Experten) iklim hedeflerine ulaşabilmek için her yıl en az 1.500 yeni rüzgar enerjisi santrali ("Windparks") kurulması gerektiğine yönelik açıklamaları ve talepleri yer alıyor. Bu içerik "h" başlığını doğrudan doğrular.

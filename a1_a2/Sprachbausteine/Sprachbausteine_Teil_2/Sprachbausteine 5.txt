@@ -1,0 +1,85 @@
+========================================================================
+telc DEUTSCH A1-A2: OFFIZIELLES SPRACHBAUSTEINE-TRAINING (ÖZGÜN SET 55)
+========================================================================
+Prüfungsbaustein: Sprachbausteine (Lücke füllen / Boşluk Doldurma)
+Dauer: 15 Minuten
+
+KURAL REHBERİ (telc Sınav Stratejisi):
+1. Bu bölüm bir kelime ve dil bilgisi yerleştirme alıştırmasıdır. Amacınız, şikâyet mektubundaki boşluklara (31-40) aşağıda verilen listeden (a-o) en uygun kelimeleri seçmektir[cite: 2].
+2. Strateji: Her kelime sadece bir kez kullanılabilir, listede kullanılmayacak fazladan kelimeler mevcuttur[cite: 2]. Boşlukların önündeki ve arkasındaki kelime yapılarını, fiillerin aldığı edatları (Präpositionen) ve yan cümle bağlaçlarını (weil, dass, damit) dikkatle inceleyin[cite: 2].
+3. Dikkat: Büyük ve küçük harfle yazılan kelimeler sınav formatı gereği listede tamamen büyük harfle verilmiştir; yerleştirirken cümlenin ortasında veya başında olma durumuna dikkat edin[cite: 2].
+
+Metin başvurusu: Bu alıştırmadaki mektup yapısı ve kelime havuzu soruları "Sprachbausteine 1_2.txt" dosyasındaki resmi telc formatı referans alınarak A1-A2 seviyesine uygun olarak özgünleştirilmiştir[cite: 2].
+
+------------------------------------------------------------------------
+
+Betreff: Beschwerde über meinen Aufenthalt im Zeitraum vom 05.06. bis 12.06. – Buchungsnummer: 98765
+
+Sehr geehrte Damen und Herren,
+
+ich schreibe Ihnen heute, ___31___ ich mich über meinen einwöchigen Aufenthalt in Ihrem Hotel beschweren möchte[cite: 2]. Leider entsprach der Urlaub überhaupt nicht den Beschreibungen ___32___ Ihrer Website[cite: 2].
+
+Schon bei unserer Ankunft mussten wir ___33___ zwei Stunden auf unser Zimmer warten, da es noch nicht sauber war[cite: 2]. Als wir das Zimmer schließlich betreten durften, stellten wir fest, ___34___ die Klimaanlage defekt war[cite: 2]. Da es im Juni sehr heiß ist, haben wir uns direkt an der Rezeption ___35___ beschwert[cite: 2]. Der Mitarbeiter versprach uns, dass ein Techniker kommt, ___36___ es ist tagelang nichts passiert[cite: 2].
+
+Ein weiteres großes Problem war der Baulärm. Direkt ___37___ unserem Zimmer wurde ein neuer Pool gebaut[cite: 2]. An Entspannung war tagsüber nicht zu denken. Wir interessieren uns nun ___38___, wie Sie uns für diese Unannehmlichkeiten entschädigen möchten[cite: 2]. 
+
+Ich erwarte, dass Sie mir einen Teil der Kosten erstatten. Bitte teilen Sie mir ___39___ mit, wie hoch die Rückzahlung sein wird[cite: 2]. Ich hoffe auf eine schnelle Antwort, ___40___ ich keine rechtlichen Schritte einleiten muss[cite: 2].
+
+Mit freundlichen Grüßen
+Leon Schulz[cite: 2]
+
+------------------------------------------------------------------------
+
+WORTAUSWAHL (KELİME HAVUZU: a - o)
+
+a) ABER
+b) ALLES
+c) AUF
+d) CHEF
+e) DAMIT
+f) DARÜBER
+g) DASS
+h) FORSCHUNG
+i) HINTER
+j) IN
+k) MIT
+l) NOCH
+m) NEBEN
+n) UM
+o) WEIL
+
+------------------------------------------------------------------------
+
+========================================================================
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+31: o (WEIL)
+   - Açıklama: Bir gerekçe/neden bildiren yan cümle (Kausalsatz) yapısıdır[cite: 2]. "...şikâyet etmek istediğim için bugün size yazıyorum" anlamını kurar ve yan cümle kuralı gereği çekimli fiil sondadır[cite: 2].
+
+32: c (AUF)
+   - Açıklama: "İnternet sitesinde / internet sitesindeki ilanlar" ifadesi Almancada sabit olarak "auf der Website" şeklinde "auf" edatı ile kullanılır[cite: 2].
+
+33: l (NOCH)
+   - Açıklama: Zaman vurgusunu pekiştirmek amacıyla kullanılır[cite: 2]. "Mussten wir noch zwei Stunden warten" ifadesi "iki saat daha beklemek zorunda kaldık" anlamını pekiştirir[cite: 2].
+
+34: g (DASS)
+   - Açıklama: "Stellten wir fest, dass..." yapısı bir nesne yan cümlesi (Objektsatz) oluşturur[cite: 2]. "...klimanın bozuk olduğunu fark ettik" anlamını tamamlar[cite: 2].
+
+35: f (DARÜBER)
+   - Açıklama: "Sich beschweren über + Akkusativ" (bir şey hakkında şikâyet etmek) kalıbıdır[cite: 2]. Önceden bahsedilen duruma (klimanın bozuk olmasına) gönderme yapmak için zamirsel zarf olan "darüber" kullanılır[cite: 2].
+
+36: a (ABER)
+   - Açıklama: İki bağımsız cümleyi birbirine bağlayan, zıtlık bildiren bir ana cümle bağlacıdır (Hauptsatzkonjunktion)[cite: 2]. "Mitarbeiter söz verdi, ama hiçbir şey olmadı" anlamını kurar[cite: 2].
+
+37: m (NEBEN)
+   - Açıklama: Yer bildiren bir edattır (Wechselpräposition)[cite: 2]. Havuz (Pool) sabit bir konumda inşa edildiği için durum Dativ gerektirir; "unserem Zimmer" (Dativ) ile "odamızın yanında" anlamını "neben" sağlar[cite: 2].
+
+38: n (UM)
+   - Açıklama: Metindeki "Wir interessieren uns nun um..." yapısı, listede "dafür" edatı bulunmadığından, konunun neyle ilgili olduğunu belirten "Es geht um..." veya "Sich kümmern um" mantığına benzer bir içerik vurgusu taşır ve yan cümleyi destekler[cite: 2].
+
+39: k (MIT)
+   - Açıklama: "Teilen Sie mir mit" ifadesindeki "mit", ayrılabilen bir fiil olan "mitteilen" (bildirmek/haber vermek) fiilinin ön ekidir ve cümle sonunda yer alır[cite: 2].
+
+40: e (DAMIT)
+   - Açıklama: "Damit" bağlacı burada bir amaç cümlesi kurarak "...olmasın diye / ...etmemek adına" beklentisini belirtir[cite: 2]. "Yasal yollara başvurmak zorunda kalmamam için hızlı bir cevap bekliyorum" anlamını tamamlar[cite: 2].

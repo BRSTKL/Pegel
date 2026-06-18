@@ -1,0 +1,84 @@
+========================================================================
+telc DEUTSCH A1-A2: OFFIZIELLES LESEVERSTEHEN-TRAINING (ÖZGÜN SET 14)
+========================================================================
+Prüfungsbaustein: Leseverstehen (Mehrfachauswahl / Çoktan Seçmeli)
+Dauer: 20 Minuten
+
+KURAL REHBERİ (telc Sınav Stratejisi):
+1. Bu bölüm bir okuma-anlama (Leseverstehen) alıştırmasıdır. Amacınız, verilen metni okuyarak çoktan seçmeli sorulara (6-10) en uygun cevabı (a, b veya c) seçmektir.
+2. Strateji: Sorulardaki anahtar kelimeleri metinde arayın. Şıklar genellikle metindeki cümlelerin eş anlamlı kelimelerle yeniden yazılmış halidir (Örn: "Geld sparen" -> "günstig sein", "nicht teuer").
+3. Dikkat: Metinde açıkça geçmeyen, sadece mantıklı gelen şıklardan uzak durun. Sadece metne dayalı olanı seçin.
+
+------------------------------------------------------------------------
+
+Thema: Energiewende zu Hause – Warum Solarenergie immer beliebter wird
+
+Das Leben in modernen Städten verbraucht viel Energie: Große Fabriken, Serverräume und der tägliche Strombedarf im Haushalt kosten viel Geld und belasten das Klima. Doch gegen dieses Problem im Alltag entscheiden sich immer mehr Hausbesitzer für eine Alternative: die eigene Solar-PV-Anlage auf dem Dach.
+
+Laut einer aktuellen Umfrage zur nachhaltigen Energieversorgung in Europa nutzen immer mehr Bürger die Kraft der Sonne für die Stromerzeugung zu Hause. Die Gründe dafür sind einfach: Unabhängigkeit und Klimaschutz. Statt teuren Strom aus dem Netz zu kaufen, produzieren die Menschen saubere Energie auf dem eigenen Dach. Gleichzeitig schont die Solarenergie die Umwelt durch einen geringeren CO2-Ausstoß und hilft dabei, die monatlichen Stromkosten massiv zu senken.
+
+Der 30-jährige Energie-Ingenieur Baris Egemen Tokul aus Berlin hat sein Zuhause dieses Jahr komplett modernisiert. Er hat ein neues Solar-PV-System installiert. „Früher war ich am Monatsende oft gestresst, wenn ich die hohe Stromrechnung gesehen habe“, erzählt er. Jetzt nutzt er die Solaranlage in Kombination mit einem modernen Batterie-Energiespeichersystem (BESS). „Ich produziere meinen Strom selbst, kann die saubere Energie durch die Batterie auch nachts nutzen und spare sehr viel Geld“, sagt Baris.
+
+Ein wenig skeptischer sieht das der Immobilienunternehmer Markus Schulte (55). Er leitet eine große Wohnungsbaugesellschaft und glaubt, dass Solarenergie nicht für alle Menschen im Alltag funktioniert. „Viele Mieter wohnen in großen Wohnblöcken im Zentrum der Stadt und haben kein eigenes Dach. Für diese Menschen ist eine große PV-Anlage ungeeignet, besonders wenn die Gebäude im Schatten anderer Hochhäuser stehen“, gibt er zu bedenken. Für ihn bleibt der klassische Strommix für diese Gruppe unverzichtbar.
+
+Die Ökonomin Dr. Verena Kraft betont jedoch, dass Solar-PV-Systeme und Heimspeicher die Zukunft der nachhaltigen Stadt sind. Die Verbrennung von Kohle zerstöre an vielen Orten die Umwelt und das Klima. „Immer mehr Städte planen neue Förderprogramme für Balkonkraftwerke im Zentrum, damit auch Mieter ohne eigenes Dach sauberen Strom produzieren können“, erklärt Kraft. Sie fordert, dass die Politik mehr Geld in die grüne Infrastruktur investiert, um die Energiewende für alle Bürger bezahlbar zu machen.
+
+Experten empfehlen Personen, die die Energiewende im eigenen Haushalt testen möchten, klein anzufangen. Man muss nicht sofort das komplette Dach mit teuren Paneelen umbauen. Oft reicht es schon, mit einem kleinen Balkonkraftwerk zu starten und die wichtigsten Haushaltsgeräte am Nachmittag zu nutzen, wenn die Sonne am stärksten scheint.
+
+------------------------------------------------------------------------
+
+6
+Was ist laut Text ein Hauptgrund, warum Solarenergie in Haushalten immer beliebter wird?
+
+a) Weil man mit Solarenergie den Stromverbrauch in großen Fabriken komplett stoppen kann.
+b) Weil sie Unabhängigkeit bietet, das Klima schützt und die Stromkosten massiv senkt.
+c) Weil Solar-PV-Anlagen im Geschäft neuerdings komplett kostenlos an alle Bürger verteilt werden.
+
+7
+Baris Egemen Tokul aus Berlin
+
+a) ist gestresst, weil sein neues Batterie-Energiespeichersystem (BESS) nur in der Nacht funktioniert.
+b) hat ein Solar-PV-System mit einem Heimspeicher (BESS) kombiniert, um Geld zu sparen und sauberen Strom auch nachts zu nutzen.
+c) sucht eine neue Stelle als Energie-Ingenieur, weil die Installation der Solaranlage zu teuer war.
+
+8
+Warum äußert sich der Unternehmer Markus Schulte skeptisch über den Solartrend?
+
+a) Weil er denkt, dass Solaranlagen für Mieter in großen Wohnblöcken ohne eigenes Dach ungeeignet sind.
+b) Weil es in modernen Großstädten überhaupt keine Experten für die Installation von PV-Anlagen gibt.
+c) Weil seine Mieter laut Mietvertrag keinen Strom aus erneuerbaren Energien nutzen dürfen.
+
+9
+Was ist nach Ansicht von Dr. Verena Kraft wichtig für die Zukunft der Energieversorgung in den Städten?
+
+a) Dass alle Bürger sofort aufhören, Strom im Haushalt zu verbrauchen, um die Kohlekraftwerke zu entlasten.
+b) Dass Städte Förderprogramme für Balkonkraftwerke planen, damit auch Mieter ohne eigenes Dach sauberen Strom produzieren können.
+c) Dass die Preise für klassischen Strom aus Kohle sinken, damit die Energiewende schneller geht.
+
+10
+Welchen Rat geben Experten am Ende des Textes Menschen, die Solarenergie testen möchten?
+
+a) Sie sollten sofort ihr komplettes Dach umbauen und alle alten Haushaltsgeräte wegschmeißen.
+b) Es ist ratsam, klein anzufangen, zum Beispiel mit einem kleinen Balkonkraftwerk für den eigenen Haushalt.
+c) Man sollte die Solarpaneele nur zusammen mit professionellen Trainern in der Sporthalle testen.
+
+------------------------------------------------------------------------
+
+========================================================================
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+6: b 
+   - Açıklama (Text): "Die Gründe dafür sind einfach: Unabhängigkeit und Klimaschutz... und hilft dabei, die monatlichen Stromkosten massiv zu senken." Bu cümle b seçeneğindeki faydaları doğrudan doğrular.
+
+7: b 
+   - Açıklama (Text): "Jetzt nutzt er die Solaranlage in Kombination mit einem modernen Batterie-Energiespeichersystem (BESS)... kann die saubere Energie durch die Batterie auch nachts nutzen und spare sehr viel Geld". Bu bilgi b şıkkı ile birebir örtüşür.
+
+8: a 
+   - Açıklama (Text): "Viele Mieter wohnen in großen Wohnblöcken... und haben kein eigenes Dach. Für diese Menschen ist eine große PV-Anlage ungeeignet...". Markus Schulte'nin şüpheci olma nedeni a şıkkında tam olarak verilmiştir.
+
+9: b 
+   - Açıklama (Text): „Immer mehr Städte planen neue Förderprogramme für Balkonkraftwerke im Zentrum, damit auch Mieter ohne eigenes Dach sauberen Strom produzieren können...“ Dr. Verena Kraft'ın kiracılar ve balkon santralleri hakkındaki görüşü b seçeneğini doğru cevap yapar.
+
+10: b 
+    - Açıklama (Text): "Experten empfehlen... klein anzufangen... Oft reicht es schon, mit einem kleinen Balkonkraftwerk zu starten...". Uzmanların "küçük başlama" tavsiyesi b şıkkında özetlenmiştir.

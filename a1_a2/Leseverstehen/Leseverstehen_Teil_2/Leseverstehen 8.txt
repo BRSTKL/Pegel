@@ -1,0 +1,84 @@
+========================================================================
+telc DEUTSCH A1-A2: OFFIZIELLES LESEVERSTEHEN-TRAINING (ÖZGÜN SET 21)
+========================================================================
+Prüfungsbaustein: Leseverstehen (Mehrfachauswahl / Çoktan Seçmeli)
+Dauer: 20 Minuten
+
+KURAL REHBERİ (telc Sınav Sratejisi):
+1. Bu bölüm bir okuma-anlama (Leseverstehen) alıştırmasıdır. Amacınız, verilen metni okuyarak çoktan seçmeli sorulara (6-10) en uygun cevabı (a, b veya c) seçmektir[cite: 1].
+2. Strateji: Sorulardaki anahtar kelimeleri metinde arayın. Şıklar genellikle metindeki cümlelerin farklı kelimelerle veya eş anlamlılarıyla yeniden yazılmış halidir[cite: 1].
+3. Dikkat: Metinde açıkça geçmeyen, sadece genel olarak mantıklı gelen şıklardan uzak durun. Sadece metindeki bilgilere güvenin[cite: 1].
+
+------------------------------------------------------------------------
+
+Thema: Intelligentes Wohnen – Warum das Energiemanagement zu Hause boomt
+
+Das Leben in modernen Städten verbraucht immer mehr Strom: Das Laden von Elektrogeräten, die Nutzung von Klimaanlagen und der tägliche Haushaltsbedarf kosten viel Geld. In Zeiten schwankender Strompreise an der Börse belastet dieser unkontrollierte Verbrauch oft die Haushaltskasse. Doch gegen diese finanziellen Sorgen im Alltag etabliert sich eine innovative Lösung: das intelligente Energiemanagement im eigenen Zuhause.
+
+Laut einer aktuellen Studie des Instituts für Energiewirtschaft in Europa entscheiden sich immer mehr Familien bewusst für eine digitale Kontrolle ihres Stromverbrauchs. Die Philosophie dahinter ist einfach: Kostenersparnis und Ressourcenschonung. Statt den Strom teuer zu den Spitzenzeiten am Abend zu kaufen, nutzen technikbegeisterte Bürger intelligente Steuerungssysteme. Ziel ist es, den Energieverbrauch im Alltag automatisch zu optimieren, den Strom vor allem dann zu nutzen, wenn er günstig ist, und die Effizienz von Heimspeichern voll auszuschöpfen.
+
+Der 26-jährige Energy Systems Engineer Baris Egemen Tokul aus Berlin hat seine Wohnung dieses Jahr mit modernster Technik ausgestattet. Er hat ein digitales System installiert, das seinen Haushaltsstrom mit den aktuellen Day-Ahead- und Intraday-Preisen des Strommarktes verbindet. „Früher habe ich Waschmaschine oder Geschirrspüler oft genau dann eingeschaltet, wenn der Strom an der Börse am teuersten war“, erzählt er. Jetzt steuert eine intelligente Software die Geräte automatisch. „Ich nutze den Strom jetzt am Nachmittag, wenn er durch die Solarenergie günstig ist, speichere den Rest im BESS und fühle mich nach der Arbeit im Büro sehr zufrieden, weil ich meine Energiekosten halbiert habe“, sagt Baris.
+
+Ein wenig skeptischer sieht das der klassische Elektroinstallateur Torsten Lange (51). Er betreibt einen traditionellen Handwerksbetrieb und glaubt, dass dieser digitale Trend nur für eine bestimmte Zielgruppe mit hohem technischem Vorwissen funktioniert. „Die meisten Menschen wollen einfach nur den Lichtschalter drücken und sich nicht täglich mit Preisprognosen oder Software-Updates beschäftigen. Wenn das System einen Fehler hat, stehen die Leute im Dunkeln“, gibt er zu bedenken. Für ihn bleibt die klassische, einfache Verkabelung ohne Internetanbindung die verlässlicher Methode für den normalen Verbraucher.
+
+Die Energieökonomin Dr. Verena Kraft betont jedoch, dass digitale Decision-Mechanismen die Zukunft des urbanen Wohnens sind. Der unkontrollierte Massenverbrauch überlaste in den Abendstunden die Stromnetze. „Intelligentes Energiemanagement regt die Menschen dazu an, ihren Verbrauch aktiv an die Produktion von sauberer Energie anzupassen“, erklärt Kraft. Sie fordert, dass die Politik offene Schnittstellen für Smart-Home-Systeme fördert, damit umweltfreundliche Optimierung für alle Bürger bezahlbar und komfortabel anwendbar wird.
+
+Experten empfehlen Personen, die das Energiemanagement im Alltag testen möchten, klein anzufangen. Man muss nicht sofort das gesamte Haus mit teurer Automatisierungstechnik umbauen; oft reicht es schon, beim nächsten Neukauf auf smarte Haushaltsgeräte zu achten, die Waschmaschine bei gutem Wetter am Nachmittag per Zeitschaltuhr zu starten oder einfache Energie-Apps zur Kontrolle des täglichen Verbrauchs zu nutzen.
+
+------------------------------------------------------------------------
+
+6
+Was ist laut Text ein Hauptgrund, warum intelligentes Energiemanagement immer beliebter wird?
+
+a) Weil man mit diesen Systemen in möglichst kurzer Zeit sehr viel Geld direkt im Büro verdienen kann.
+b) Weil es den Stromverbrauch automatisch optimiert, Kosten spart und Ressourcen schont.
+c) Weil Energieunternehmen neuerdings komplett kostenlose Smart-Home-Systeme an alle Bürger verschenken.
+
+7
+Baris Egemen Tokul aus Berlin
+
+a) hat sein digitales Energiemanagement wieder abgeschaltet, weil die Day-Ahead-Preise am Nachmittag zu hoch waren.
+b) steuert seinen Haushaltsstrom intelligent über eine Software und hat seine Energiekosten dadurch halbiert.
+c) hat seine Wohnung auf dem Land verkauft, weil er die Software-Updates nicht verstanden hat.
+
+8
+Warum äußert sich Torsten Lange skeptisch über den digitalen Energiemanagement-Trend?
+
+a) Weil er glaubt, dass normale Verbraucher sich nicht mit Preisprognosen beschäftigen wollen und einfache Systeme verlässlicher sind.
+b) Weil die Nutzung von digitalen Stromzählern in ganz Deutschland ab nächstem Monat streng verboten wird.
+c) Weil er denkt, dass intelligente Software-Systeme überhaupt keinen Strom sparen können.
+
+9
+Was ist nach Ansicht von Dr. Verena Kraft ein Vorteil von intelligentem Energiemanagement für die Zukunft?
+
+a) Es zwingt alle Bürger dazu, am Abend komplett auf die Nutzung von elektrischem Licht zu verzichten.
+b) Es entlastet die Stromnetze und passt den Verbrauch der Menschen an die Erzeugung sauberer Energie an.
+c) Es sorgt dafür, dass der Strom aus Kohlekraftwerken in Zukunft für alle Menschen komplett kostenlos wird.
+
+10
+Welchen Rat geben Experten am Ende des Textes Menschen, die ihr Energiemanagement optimieren möchten?
+
+a) Sie sollten sofort die komplette Verkabelung des Hauses ohne die Hilfe von Handwerkern umbauen.
+b) Es ist ratsam, klein anzufangen, zum Beispiel einfache Apps zu nutzen oder Geräte per Zeitschaltuhr am Nachmittag zu starten.
+c) Man sollte das Energiemanagement am besten komplett ohne digitale Geräte oder Internet planen.
+
+------------------------------------------------------------------------
+
+========================================================================
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+6: b 
+   - Açıklama (Text): Metnin ikinci paragrafında bu sistemlerin amacı "Kostenersparnis und Ressourcenschonung" ve "den Energieverbrauch im Alltag automatisch zu optimieren" olarak belirtilmiştir. Bu cümle b seçeneğini doğrudan doğrular.
+
+7: b 
+   - Açıklama (Text): "Jetzt steuert eine intelligente Software die Geräte automatisch... und fühle mich... sehr zufrieden, weil ich meine Energiekosten halbiert habe..." Baris'in sistemi kullanması ve maliyetlerini düşürmesi b şıkkı ile birebir örtüşür.
+
+8: a 
+   - Açıklama (Text): "Die meisten Menschen wollen einfach nur den Lichtschalter drücken und sich nicht täglich mit Preisprognosen... beschäftigen... Für ihn bleibt die klassische... Verkabelung... die verlässlicher Methode..." Torsten Lange'nin şüpheci olma nedeni a şıkkında doğru verilmiştir.
+
+9: b 
+   - Açıklama (Text): "Der unkontrollierte Massenverbrauch überlaste... die Stromnetze... Intelligentes Energiemanagement regt die Menschen dazu an, ihren Verbrauch aktiv an die Produktion von sauberer Energie anzupassen..." Dr. Verena Kraft'ın net yükü ve temiz enerji uyumu hakkındaki görüşü b seçeneğini doğru cevap yapar.
+
+10: b 
+    - Açıklama (Text): "Experten empfehlen... klein anzufangen... oft reicht es schon... die Waschmaschine bei gutem Wetter am Nachmittag per Zeitschaltuhr zu starten oder einfache Energie-Apps... zu nutzen." Uzmanların küçük adımlarla başlama tavsiyesi b şıkkında özetlenmiştir.

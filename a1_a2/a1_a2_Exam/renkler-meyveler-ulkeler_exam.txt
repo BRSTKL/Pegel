@@ -1,0 +1,98 @@
+========================================================================
+telc DEUTSCH A1-A2: OFFIZIELLES GRAMMATIK- UND WORTSCHATZTRAINING
+========================================================================
+Prüfungsbaustein: Sprachbausteine / Wortschatz (Farben, Obst & Länder)
+Dauer: 15 Minuten
+
+KURAL REHBERİ (telc Sınav Stratejisi):
+1. Renkler (Die Farben): Bir nesneden sonra "ist/sind" ile kullanıldıklarında asla ek almazlar, yalın kalırlar[cite: 14].
+   - rot, blau, grün, gelb, weiß, schwarz, braun, rosa[cite: 14].
+2. Meyveler (Das Obst): Meyve kelimelerinin çok büyük bir çoğunluğu "die" artikelini alır[cite: 14]. 
+   - İki büyük telc tuzağı (İstisnalar): der Apfel ve der Pfirsich kelimeleridir[cite: 14].
+3. Ülkeler ve Memleket Söyleme (aus + Dativ): Çoğu ülke artikelsizdir (Deutschland, Italien)[cite: 14]. Ancak artikelli bir ülkeden (die Türkei, die Schweiz) geliyorsak, "aus" edatı Dativ gerektirdiği için artikel "der" formuna dönüşür[cite: 14].
+   - Örnek: Ich komme aus Deutschland.[cite: 14]
+   - Örnek: Ich komme aus der Türkei.[cite: 14]
+
+------------------------------------------------------------------------
+
+TEIL 1: LÜCKENTEXT (Tek Tek Cümle Boşluk Doldurma)
+Satzkontexten en uygun olan doğru kelimeyi veya edat yapısını (A, B oder C) seçerek boşlukları doldurun.
+
+1. - Woher kommen Sie, Frau Alahmed? - Ich komme _________. O İsviçre'de doğdu.
+   [ ] A) aus Schweiz
+   [ ] B) aus der Schweiz[cite: 14]
+   [ ] C) aus die Schweiz
+
+2. Was möchten Sie essen? - Ich esse gerne Obst. _________ (elma) schmeckt sehr lecker.
+   [ ] A) Der Apfel[cite: 14]
+   [ ] B) Die Apfel
+   [ ] C) Das Apfel
+
+3. Herr Novak kommt _________ Deutschland, aber er wohnt und arbeitet jetzt in Berlin.
+   [ ] A) aus der
+   [ ] B) aus[cite: 14]
+   [ ] C) aus dem
+
+4. Bananen sind süß. Die Banane ist _________ (sarı).
+   [ ] A) gelber
+   [ ] B) gelb[cite: 14]
+   [ ] C) gelbe
+
+5. Welches Wort hat einen femininen Artikel (die)?
+   [ ] A) Pfirsich[cite: 14]
+   [ ] B) Apfel[cite: 14]
+   [ ] C) Orange[cite: 14]
+
+------------------------------------------------------------------------
+
+TEIL 2: SCHREIBEN - SATZBAU (Mektup/E-Posta Cümle Kurma Pratiği)
+Bringen Sie die Wörter in die richtige Reihenfolge, wie in einem telc-Brief. Achten Sie auf die Position des Verbs (Fiil daima 2. sırada!) ve artikel dönüşümlerine.
+
+1. (Memleket / Artikelsiz)  aus / Ahmet / Spanien / kommt / .
+   -> Ahmet ____________________________________________________________.[cite: 14]
+
+2. (Memleket / Artikelli)    aus / ich / der Türkei / komme / .
+   -> Ich ______________________________________________________________.[cite: 14]
+
+3. (Renk Tanımlama)        blau / der Himmel / ist / .
+   -> Der Himmel _______________________________________________________.[cite: 14]
+
+4. (Meyve Artikeli)        lecker / die Erdbeere / ist / .
+   -> Die Erdbeere ______________________________________________________.[cite: 14]
+
+------------------------------------------------------------------------
+
+TEIL 3: SPRECHEN – REAKTIONEN (Konuşma Bölümü Kart Pratiği)
+Welche Antwort passt perfekt zur Frage des Prüfers? Kreuzen Sie an (A, B oder C).
+
+1. Prüfer: Woher kommen Sie? (Memleketinizi söyleyin)
+   [ ] A) Ich komme aus der Türkei.[cite: 14]
+   [ ] B) Ich komme aus Türkei.
+   [ ] C) Ich komme in die Türkei.
+
+2. Prüfer: Was ist Ihr Lieblingsonbst? (En sevdiğiniz meyveyi doğru artikelle söyleyin)
+   [ ] A) Mein Lieblingsobst ist die Pfirsich.
+   [ ] B) Mein Lieblingsobst ist der Apfel.[cite: 14]
+   [ ] C) Mein Lieblingsobst ist das Banane.
+
+
+========================================================================
+OFFIZIELLE LÖSUNGEN (CEVAP ANAHTARI)
+========================================================================
+
+TEIL 1:
+1. B - İsviçre "die Schweiz" artikelini alır[cite: 14]. "aus" edatının Dativ zorunluluğundan dolayı "aus der Schweiz" formu doğru kelimedir[cite: 14].
+2. A - Elma anlamına gelen "Apfel" kelimesi, meyve genel kuralına uymayan eril istisnalardan biridir ve artikeli "der" olur[cite: 14].
+3. B - Almanya artikelsiz kullanılan bir ülke olduğu için önüne dönüşümsüz olarak sadece "aus" edatı gelir[cite: 14].
+4. B - Renkler nesneden veya isminden sonra ("ist" ile) kullanıldıklarında hiçbir ek almadan yalın (gelb) kalırlar[cite: 14].
+5. C - Kılavuza göre "Pfirsich" ve "Apfel" kelimeleri "der" artikelini alırken; "Orange" kelimesi dişil "die" artikelini alır[cite: 14].
+
+TEIL 2:
+1. Ahmet kommt aus Spanien. (Fiil 'kommt' 2. sırada, artikelsiz ülke yönelimi 'aus Spanien' sondadır[cite: 14].)
+2. Ich komme aus der Türkei. (Çekimli fiil 2. sıradadır. 'die Türkei' Dativ dönüşümüyle 'aus der Türkei' olur[cite: 14].)
+3. Der Himmel ist blau. (Kılavuzdaki örnek cümle dizilimidir; renk ek almadan sonda kalır[cite: 14].)
+4. Die Erdbeere ist lecker. ('Erdbeere' kelimesi doğru dişil artikeli 'die' ile cümlenin öznesi konumundadır[cite: 14].)
+
+TEIL 3:
+1. A - Türkiye artikelli bir ülke olduğu için "aus" edatından sonra Dativ kuralıyla "aus der Türkei" kalıbı kullanılmalıdır[cite: 14].
+2. B - "Apfel" kelimesinin artikeli "der" olduğu için gramatik olarak kusursuz olan tek seçenek B'dir[cite: 14]. (Pfirsich 'der' olur, Banane ise 'die' artikeline sahiptir[cite: 14]).

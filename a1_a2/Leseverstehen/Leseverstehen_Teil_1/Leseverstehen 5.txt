@@ -1,0 +1,65 @@
+========================================================================
+telc DEUTSCH A1-A2: OFFIZIELLES LESEVERSTEHEN-TRAINING (ÖZGÜN SET 5)
+========================================================================
+Prüfungsbaustein: Leseverstehen (Eşleştirme / Zuordnung)
+Dauer: 20 Minuten
+
+KURAL REHBERİ (telc Sınav Stratejisi):
+1. Bu bölüm bir eşleştirme (Zuordnung) alıştırmasıdır. Amacınız, aşağıda verilen kısa gazete haberleri, ilanlar veya tanıtımlar (1-5) için en uygun başlığı (a-j) bulmaktır.
+2. Her başlık sadece bir kez kullanılabilir. Bazı başlıklar ise tamamen çeldiricidir ve hiçbir metne uymaz.
+3. Strateji: Metindeki anahtar kelimeleri (Schlüsselwörter) başlıklarla eşleştirin. Kelimelerin benzer anlamlarına (örn: Kurs -> Seminar, Sprache -> Türkisch/Deutsch) ve zaman zarflarının etkilerine dikkat edin.
+
+------------------------------------------------------------------------
+
+ÜBERSCHRIFTEN (BAŞLIKLAR: a - j)
+
+a) Neuer Intensivkurs für Deutsch auf A2-Niveau am Vormittag
+b) Online-Plattformen: Viele Berliner verkaufen ihre Möbel im Internet
+c) Junge Berufstätige lernen Padel-Tennis am Wochenende
+d) Großer Flohmarkt für gebrauchte Gegenstände zieht nach Berlin-Mitte
+e) Energiekrise: Strompreise am Abend steigen auf einen neuen Rekord
+f) Neue Sprachseminare: Türkisch für Anfänger an der Volkshochschule
+g) Trend im Handwerk: Immer mehr Frauen arbeiten als Handwerkerin
+h) Wetterumschwung in Europa: Starker Regen am Wochenende erwartet
+i) Neue App für Handwerker-Dienstleistungen reduziert die Kosten im Alltag
+j) Berliner Gastronomie: Höhere Preise für Bio-Lebensmittel in Restaurants
+
+------------------------------------------------------------------------
+
+TEXTE (METİNLER: 1 - 5)
+
+1. [  ]
+MÜNCHEN. Ein neuer Trend begeistert immer mehr Menschen, die am Wochenende aktiv sein möchten. Die Sportart Padel-Tennis wird in Deutschland rasant populärer. Besonders junge Angestellte und Berufstätige nutzen den schlägerbasierten Sport am Samstag oder Sonntag, um den Stress der Woche abzubauen und fit zu bleiben. Da man die Regeln in wenigen Minuten lernen kann, wächst die Zahl der Spieler auf den Plätzen kontinuierlich.
+
+2. [  ]
+Die Volkshochschule (VHS) in Berlin erweitert ihr aktuelles Programm für das nächste Semester um ein neues Angebot. Ab kommenden Monat gibt es spezielle Sprachseminare für Personen ohne Vorkenntnisse, die gerne Türkisch lernen möchten. Der Fokus liegt auf der alltäglichen Kommunikation für den Urlaub oder den Beruf. Ein Kurs umfasst zwölf Termine und findet immer abends statt, damit auch Berufstätige problemlos teilnehmen können.
+
+3. [  ]
+Eine Analyse des europäischen Wetterdienstes warnt vor schweren Unwettern in den kommenden Tagen. Besonders in Teilen von Deutschland, Frankreich und Österreich wird für den kommenden Samstag und Sonntag ein heftiger Wetterumschwung erwartet. Meteorologen rechnen mit starkem Dauerregen ve Gewittern, was zu lokalen Überschwemmungen führen kann. Bürger werden gebeten, am Wochenende auf Aktivitäten im Freien zu verzichten.
+
+4. [  ]
+Wer zu Hause eine Reparatur durchführen muss veya neue Möbel zusammenbauen möchte, findet oft nicht den passenden Experten. Eine neue digitale Plattform bietet jetzt eine Lösung: Über eine Smartphone-App können Berliner günstige Dienstleistungen im Haushalt buchen. Die App vermittelt erfahrene Handwerker und Freelancer direkt in der Nachbarschaft. Laut den Entwicklern spart dieses System viel Zeit und senkt die Kosten für die Kunden im Alltag erheblich.
+
+5. [  ]
+Der Verband der Gastronomen in Berlin berichtet über eine neue Entwicklung in der lokalen Gastroszene. Da die Einkaufskosten für landwirtschaftliche Produkte aus biologischem Anbau im letzten Jahr stark gestiegen sind, müssen viele Restaurants ihre Speisekarten anpassen. Die Preise für Gerichte mit hochwertigen Bio-Zutaten sind im Durchschnitt um 15 Prozent teurer geworden. Trotzdem bleibt die Nachfrage der Kunden nach gesunder Ernährung stabil.
+
+------------------------------------------------------------------------
+
+========================================================================
+OFFIZIELLE LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+1. DOĞRU CEVAP: c (Junge Berufstätige lernen Padel-Tennis am Wochenende)
+   - Açıklama: Metinde genç çalışanların ("junge Angestellte und Berufstätige") Padel-Tennis sporuna büyük ilgi gösterdiği ve bu sporu hafta sonları ("am Samstag oder Sonntag/am Wochenende") stres atmak için oynadıkları belirtiliyor. Bu durum "c" başlığı ile kusursuz eşleşir.
+
+2. DOĞRU CEVAP: f (Neue Sprachseminare: Türkisch für Anfänger an der Volkshochschule)
+   - Açıklama: Metin doğrudan Berlin'deki halk eğitim merkezinin (VHS) başlangıç seviyesindekiler / hiç bilmeyenler ("Personen ohne Vorkenntnisse/Anfänger") için açtığı Türkisch kurslarını (Sprachseminare) konu alıyor. Bu içerik "f" başlığını doğrudan doğrular.
+
+3. DOĞRU CEVAP: h (Wetterumschwung in Europa: Starker Regen am Wochenende erwartet)
+   - Açıklama: Metinde Avrupa'daki ani hava değişiminden ("Wetterumschwung") ve hafta sonu beklenen yoğun yağışlardan ("starkem Dauerregen am Samstag und Sonntag") bahsediliyor. "Wetterumschwung", "starker Regen" ve "Wochenende" anahtar kelimeleri "h" başlığı ile birebir örtüşmektedir.
+
+4. DOĞRU CEVAP: i (Neue App für Handwerker-Dienstleistungen reduziert die Kosten im Alltag)
+   - Açıklama: Metin, ev işleri ve montaj için bir akıllı telefon uygulaması (App) üzerinden yerel ustaların/freelancerların (Handwerker) nasıl bulunacağını anlatıyor. Bu sistemin maliyetleri düşürdüğü ("senkt die Kosten/reduziert die Kosten") belirtildiği için en uygun başlık "i" seçeneğidir.
+
+5. DOĞRU CEVAP: j (Berliner Gastronomie: Höhere Preise für Bio-Lebensmittel in Restaurants)
+   - Açıklama: Metinde Berlin restoranlarındaki (Berliner Gastronomie) son durum ele alınıyor. Organik gıda (Bio-Zutaten/Bio-Lebensmittel) maliyetlerinin artması sebebiyle restoranlardaki menü fiyatlarının %15 yükseldiği ("teurer geworden/höhere Preise") aktarıldığı için cevap "j" şıkkıdır.

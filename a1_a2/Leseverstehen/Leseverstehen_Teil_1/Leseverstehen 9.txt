@@ -1,0 +1,65 @@
+========================================================================
+telc DEUTSCH A1-A2: OFFIZIELLES LESEVERSTEHEN-TRAINING (ÖZGÜN SET 9)
+========================================================================
+Prüfungsbaustein: Leseverstehen (Eşleştirme / Zuordnung)
+Dauer: 20 Minuten
+
+KURAL REHBERİ (telc Sınav Stratejisi):
+1. Bu bölüm bir eşleştirme (Zuordnung) alıştırmasıdır. Amacınız, aşağıda verilen kısa gazete haberleri, ilanlar oder tanıtımlar (1-5) için en uygun başlığı (a-j) bulmaktır.
+2. Her başlık sadece bir kez kullanılabilir. Bazı başlıklar ise tamamen çeldiricidir ve hiçbir metne uymaz.
+3. Strateji: Metindeki anahtar kelimeleri (Schlüsselwörter) başlıklarla eşleştirin. Kelimelerin benzer anlamlarına (örn: Kurs -> Unterricht, lernen -> üben, billig -> günstig) ve metindeki ana çelişkilere dikkat edin.
+
+------------------------------------------------------------------------
+
+ÜBERSCHRIFTEN (BAŞLIKLAR: a - j)
+
+a) Neuer Trend in Berlin: Junge Leute kaufen teure Neufahrräder
+b) Sprachkurse am Abend: Deutsch lernen für internationale Studierende
+c) Gesunde Ernährung: Warum täglich Obst essen das Immunsystem stärkt
+d) Padel-Tennis wird immer populärer bei jungen Berufstätigen in Europa
+e) Hilfe im Haushalt: Erfahrene Handwerker per App für Möbelmontage buchen
+f) Neue Buslinien im Zentrum: Berlin investiert Millionen für die Sicherheit
+g) Trends auf dem Strommarkt: Preise sinken am Nachmittag durch Solarenergie
+h) Neue Regeln für Haustiere: Hunde ab dem 10. Lebensjahr im Büro verboten
+i) Berlin plant mehr Fahrradwege für die Sicherheit der Fahrradfahrer
+j) Höhere Preise für Bio-Lebensmittel in Berliner Restaurants
+
+------------------------------------------------------------------------
+
+TEXTE (METİNLER: 1 - 5)
+
+1. [  ]
+Wer ein neues Bett, einen Kleiderschrank oder Küchenmöbel gekauft hat, steht oft vor einem Problem: Die Montage ist kompliziert und dauert viele Stunden. In Berlin nutzen deshalb immer mehr Menschen digitale Dienstleistungsplattformen im Internet. Über eine unkomplizierte Smartphone-App kann man schnell einen erfahrenen Handwerker oder Freelancer aus der Nachbarschaft buchen, der die Möbel direkt zu Hause fachgerecht zusammenbaut.
+
+2. [  ]
+Eine Analyse des deutschen Strommarktes zeigt eine interessante Entwicklung bei den Preisen an der Strombörse. Durch den starken Ausbau von erneuerbaren Energien gibt es besonders an sonnigen Tagen sehr viel Strom im Netz. Das führt dazu, dass die Day-Ahead- und Intraday-Preise für Strom am Nachmittag oft sehr stark sinken. Experten empfehlen Firmen, energieintensive Arbeiten in diese Stunden zu verlegen, um Geld zu sparen.
+
+3. [  ]
+In Ländern wie Spanien, Schweden und Deutschland sieht man auf Sportplätzen immer häufiger eine neue Sportart: Padel-Tennis. Es ist eine Mischung aus Tennis und Squash. Laut einer aktuellen Sport-Umfrage spielen mittlerweile über eine Million Menschen in Europa regelmäßig diesen Sport. Besonders junge Berufstätige schätzen das Spiel am Wochenende, weil man es schnell lernen kann und man viel Bewegung hat.
+
+4. [  ]
+BERLIN. Die Stadt möchte den Verkehr für Fahrradfahrer sicherer machen. Das Verkehrsministerium hat ein neues Großprojekt für das laufende Jahr angekündigt. In den nächsten zwei Jahren sollen über 120 Kilometer neue Wege nur für Fahrräder gebaut werden, besonders im Stadtzentrum. Viele Bürger finden das gut, weil es die Sicherheit im Alltag deutlich erhöht, aber einige Autofahrer protestieren gegen den Plan.
+
+5. [  ]
+Der Verband der Gastronomen in Berlin berichtet über eine neue Entwicklung in der lokalen Gastroszene. Da die Einkaufskosten für landwirtschaftliche Produkte aus biologischem Anbau im letzten Jahr stark gestiegen sind, müssen viele Restaurants ihre Speisekarten anpassen. Die Preise für Gerichte mit hochwertigen Bio-Zutaten sind im Durchschnitt um 15 Prozent teurer geworden. Trotzdem bleibt die Nachfrage stabil.
+
+------------------------------------------------------------------------
+
+========================================================================
+OFFIZIELLE LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+1. DOĞRU CEVAP: e (Hilfe im Haushalt: Erfahrene Handwerker per App für Möbelmontage buchen)
+   - Açıklama: Metinde yeni alınan ev mobilyalarının (Bett, Kleiderschrank, Küchenmöbel) kurulumunun zorluğundan ve insanların bir akıllı telefon uygulaması (App) üzerinden usta/yardımcı (Handwerker) bularak evde montaj (Möbelmontage) yaptırdıklarından bahsediliyor. "e" başlığı bu içeriği tam olarak karşılar.
+
+2. DOĞRU CEVAP: g (Trends auf dem Strommarkt: Preise sinken am Nachmittag durch Solarenergie)
+   - Açıklama: Metin elektrik piyasasını (Strommarkt) ele almaktadır. Güneşli günlerde yenilenebilir enerji üretimi sayesinde gün öncesi ve gün içi piyasalarında elektrik fiyatlarının öğleden sonraları (am Nachmittag) ciddi oranda düştüğü (sinken) belirtildiğinden doğru cevap "g" seçeneğidir.
+
+3. DOĞRU CEVAP: d (Padel-Tennis wird immer populärer bei jungen Berufstätigen in Europa)
+   - Açıklama: Metinde Avrupa'da (Europa) bir milyondan fazla insanın düzenli olarak oynamaya başladığı yeni bir spor dalı olan Padel-Tennis tanıtılıyor. Bu sporu özellikle genç çalışanların ("junge Berufstätige") hafta sonları tercih ettiği ve popülerliğinin arttığı ("immer häufiger/immer populärer") belirtildiği için cevap "d" şıkkıdır.
+
+4. DOĞRU CEVAP: i (Berlin plant mehr Fahrradwege für die Sicherheit der Fahrradfahrer)
+   - Açıklama: Metin, Berlin şehir yönetiminin ve bakanlığın bisiklet sürücülerinin trafiğini daha güvenli hale getirmek ("sicherer machen/Sicherheit") amacıyla merkezde 120 kilometrelik yeni bisiklet yolları ("neue Wege nur für Fahrräder/Fahrradwege") inşa etmeyi planladığını duyuruyor. Cevap "i" şıkkıdır.
+
+5. DOĞRU CEVAP: j (Solarenergie boomt: Immer mehr豪 Höhere Preise für Bio-Lebensmittel in Berliner Restaurants)
+   - Açıklama: Metinde Berlin'deki restoranların (Berliner Restaurants) organik hammadde (Bio-Zutaten) maliyetlerindeki artış sebebiyle menü fiyatlarını %15 oranında yükseltmek (teurer/höhere Preise) zorunda kaldıkları anlatılıyor. Bu durum "j" başlığı ile birebir örtüşmektedir.

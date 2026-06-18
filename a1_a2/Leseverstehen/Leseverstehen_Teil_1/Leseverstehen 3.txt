@@ -1,0 +1,65 @@
+========================================================================
+telc DEUTSCH A1-A2: OFFIZIELLES LESEVERSTEHEN-TRAINING (ÖZGÜN SET 3)
+========================================================================
+Prüfungsbaustein: Leseverstehen (Eşleştirme / Zuordnung)
+Dauer: 20 Minutes
+
+KURAL REHBERİ (telc Sınav Stratejisi):
+1. Bu bölüm bir eşleştirme (Zuordnung) alıştırmasıdır. Amacınız, aşağıda verilen kısa gazete haberleri, ilanlar veya tanıtımlar (1-5) için en uygun başlığı (a-j) bulmaktır.
+2. Her başlık sadece bir kez kullanılabilir. Bazı başlıklar ise tamamen çeldiricidir ve hiçbir metne uymaz.
+3. Strateji: Metindeki anahtar kelimeleri (Schlüsselwörter) başlıklarla eşleştirin. Kelimelerin eş anlamlılarına ve dolaylı anlatımlarına (örn: Haustier -> Hund, Reparieren -> Handwerker) dikkat edin.
+
+------------------------------------------------------------------------
+
+ÜBERSCHRIFTEN (BAŞLIKLAR: a - j)
+
+a) Neuer Sprachkurs am Abend für Berufstätige
+b) Haustier-Gesundheit: Richtige Ernährung für Hunde
+c) Handwerker-Service in Berlin wird teurer
+d) Junge Paare suchen größere Wohnungen im Zentrum
+e) Neues Verbot für Autos in der Innenstadt am Wochenende
+f) Solarenergie: Immer mehr Häuser mit Solar-PV-Systemen
+g) Hilfe im Haushalt: Möbelmontage per App buchen
+h) Neue Trends im deutschen Strommarkt: Preise sinken am Nachmittag
+i) Sport am Wochenende: Basketballturnier für Jugendliche
+j) Haustierbesitzer kaufen mehr Bio-Futter online
+
+------------------------------------------------------------------------
+
+TEXTE (METİNLER: 1 - 5)
+
+1. [  ]
+Wer ein neues Bett, einen Kleiderschrank oder Küchenmöbel gekauft hat, steht oft vor einem Problem: Die Montage ist kompliziert und dauert viele Stunden. In Berlin nutzen deshalb immer mehr Menschen digitale Dienstleistungsplattformen wie TaskRabbit. Über eine App kann man schnell einen erfahrenen Handwerker oder Freelancer buchen, der die Möbel direkt zu Hause fachgerecht zusammenbaut. Das spart Zeit und schont die Nerven.
+
+2. [  ]
+Eine Analyse des deutschen Strommarktes zeigt eine interessante Entwicklung bei den Preisen an der Strombörse. Durch den starken Ausbau von erneuerbaren Energien gibt es besonders an sonnigen und windigen Tagen viel Strom im Netz. Das führt dazu, dass die Day-Ahead- und Intraday-Preise für Strom am Nachmittag oft sehr stark sinken. Experten empfehlen Firmen, energieintensive Arbeiten in diese Stunden zu verlegen.
+
+3. [  ]
+Viele Menschen möchten unabhängiger von teuren Stromanbietern werden ve einen Beitrag zum Klimaschutz leisten. Eine aktuelle Statistik zeigt, dass im letzten Jahr die Installation von Solar-PV-Systemen auf privaten Hausdächern in Deutschland um 20 Prozent gestiegen ist. Besonders beliebt ist die Kombination mit modernen Batterie-Energiespeichersystemen (BESS), damit man den sauberen Strom auch nachts nutzen kann.
+
+4. [  ]
+Der richtige Speiseplan für den vierbeinigen Freund ist wichtig für ein langes Leben. Tierärzte aus Berlin betonen, dass ältere Hunde ab dem 10. Lebensjahr eine spezielle Pflege brauchen. Wenn ein Hund beispielsweise etwa 8 Kilo wiegt, wie es oft bei Rassen wie dem Jack Russell Terrier der Fall ist, sollte man genau auf das Gewicht achten. Zu viel Futter schadet den Gelenken. Senior-Hunde brauchen weniger Kalorien, aber dafür mehr Proteine und Vitamine im Napf.
+
+5. [  ]
+Am kommenden Samstag organisiert der Berliner Sportverein ein großes Event auf den Freiplätzen im Volkspark. Junge Spielerinnen und Spieler im Alter von 12 bis 18 Jahren können an einem großen Basketballturnier teilnehmen. Die Anmeldung ist kostenlos und es gibt tolle Preise zu gewinnen. Der Spaß an der Bewegung und das Teamgefühl stehen im Vordergrund. Bei schlechtem Wetter wird das Turnier in die Sporthalle verlegt.
+
+------------------------------------------------------------------------
+
+========================================================================
+OFFIZIELLE LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+1. DOĞRU CEVAP: g (Hilfe im Haushalt: Möbelmontage per App buchen)
+   - Açıklama: Metinde yeni alınan mobilyaların (Bett, Kleiderschrank, Küchenmöbel) montajının zor olduğu ve Berlin'de insanların TaskRabbit gibi uygulamalar (App) üzerinden ev işlerine yardım edecek bir freelancer/handwerker bulduğu anlatılıyor. "Möbelmontage" ve "App" kelimeleri g şıkkı ile tam eşleşir.
+
+2. DOĞRU CEVAP: h (Neue Trends im deutschen Strommarkt: Preise sinken am Nachmittag)
+   - Açıklama: Alman elektrik piyasası (deutschen Strommarkt) analizinde, yenilenebilir enerjinin etkisiyle gün öncesi (Day-Ahead) ve gün içi (Intraday) piyasalarında elektrik fiyatlarının özellikle öğleden sonraları (am Nachmittag) ciddi şekilde düştüğü (sinken) belirtiliyor. Bu durum h başlığını doğrudan karşılar.
+
+3. DOĞRU CEVAP: f (Solarenergie: Immer mehr Häuser mit Solar-PV-Systemen)
+   - Açıklama: Metin, Almanya'da müstakil evlerin çatılarına kurulan Solar PV sistemlerinin (Solar-PV-Systemen) ve batarya depolama çözümlerinin (BESS) %20 oranında arttığını, insanların güneş enerjisine (Solarenergie) yöneldiğini anlatıyor. f başlığı metnin ana fikridir.
+
+4. DOĞRU CEVAP: b (Haustier-Gesundheit: Richtige Ernährung für Hunde)
+   - Açıklama: Metinde 10 yaşındaki kıdemli köpeklerin (örneğin 8 kilo ağırlığındaki Jack Russell cinsi bir köpeğin) sağlık ve beslenme düzeninden bahsediliyor. Kalori kontrolü, protein ve vitamin ihtiyacı doğrudan evcil hayvan sağlığı ve doğru beslenme (Ernährung für Hunde) ile ilgili olduğundan cevap b şıkkıdır.
+
+5. DOĞRU CEVAP: i (Sport am Wochenende: Basketballturnier für Jugendliche)
+   - Açıklama: Metinde önümüzdeki Cumartesi günü (Wochenende) 12-18 yaş arası gençler (Jugendliche) için düzenlenecek büyük bir basketbol turnuvası (Basketballturnier) ilanı yer alıyor. Etkinliğin yeri, yaşı ve içeriği i başlığı ile kusursuz bir şekilde örtüşmektedir.

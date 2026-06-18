@@ -1,0 +1,113 @@
+========================================================================
+telc DEUTSCH A1-A2: OFFIZIELLES SPRACHBAUSTEINE-TRAINING (ÖZGÜN SET 38)
+========================================================================
+Prüfungsbaustein: Sprachbausteine (Mücke füllen / Boşluk Doldurma)
+Dauer: 15 Minuten
+
+KURAL REHBERİ (telc Sınav Stratejisi):
+1. Bu bölüm bir dil bilgisi ve kelime bilgisi (Sprachbausteine) alıştırmasıdır. Amacınız, mektuptaki boşluklara (21-30) en uygun kelimeyi (a, b veya c) seçmektir.
+2. Strateji: Boşluğun öncesindeki ve sonrasındaki kelimelere dikkat edin. Özellikle fiillerin aldığı edatları (Präpositionen), isimlerin artikellerini ve cümle yapılarını (Bağlaçlar: dass, weil, wenn) analiz edin.
+3. Dikkat: Şıklarda birbirine çok benzeyen ekler (sıfat tamlamaları veya artikeller) yer alır. İsmin hangi halde (Akkusativ, Dativ) olduğunu doğru belirleyin.
+
+Metin başvurusu: Bu alıştırmadaki mektup yapısı ve dil bilgisi soruları "Leseverstehen 1.txt" dosyasındaki resmi telc formatı referans alınarak A1-A2 seviyesine uygun olarak özgünleştirilmiştir.
+
+------------------------------------------------------------------------
+
+Liebe Mia,
+
+ich brauche dringend ___21___ Rat zur Ernährung, weil du dich so gut mit gesundem Essen auskennst. In den ___22___ Monaten habe ich oft erst ___23___ spät gefrühstückt, und manchmal spare ich mir das Frühstück ganz. Dann esse ich mittags schnell etwas beim Bäcker, meistens ___24___ großes Sandwich mit viel Käse. Abends bin ich ___25___ der Arbeit so müde, dass ich mir oft nur eine Pizza in den Ofen schiebe oder mir Nudeln mit fertiger Soße koche.
+
+Ich kann mir vorstellen, ___26___ du jetzt den Kopf schüttelst. Trotzdem fällt es mir schwer, meine Gewohnheiten zu ändern. Wenn du Zeit ___27___, würdest du mir vielleicht einen einfachen Plan ___28___ eine Woche schreiben? Es wäre toll, wenn ich wüsste, was ich im Büro mitnehmen kann. Außerdem frage ich ___29___, ob ich mich beim Einkaufen mehr auf ___30___ Gemüse konzentrieren sollte. Kannst du mir erklären, wie du das mit den Mahlzeiten am Abend machst, damit du dich nicht ständig beeilen musst?
+
+Mach's gut!
+Dein Tim
+
+------------------------------------------------------------------------
+
+SCHLAUBAUSTEINE (SEÇENEKLER: 21 - 30)
+
+21
+a) deinen
+b) dein
+c) deinem
+
+22
+a) letzter
+b) letzten
+c) letzte
+
+23
+a) so
+b) viel
+c) sehr
+
+24
+a) ein
+b) einen
+c) eine
+
+25
+a) für
+b) von
+c) nach
+
+26
+a) wenn
+b) weil
+c) dass
+
+27
+a) würdest
+b) hättest
+c) wärst
+
+28
+a) über
+b) für
+c) mit
+
+29
+a) dich
+b) mich
+c) mir
+
+30
+a) frische
+b) frischem
+c) frisches
+
+------------------------------------------------------------------------
+
+========================================================================
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+21: a (deinen)
+   - Açıklama: "brauchen" fiili Akkusativ (i-hali) gerektirir. "Rat" kelimesinin artikeli "der" (der Rat) olduğu için Akkusativ halinde "deinen Rat" olur.
+
+22: b (letzten)
+   - Açıklama: "In den..." ifadesi çoğul isimlerle Dativ yapı oluşturur. "Monaten" çoğul ve Dativ olduğu için sıfat "-en" takısı alır: "in den letzten Monaten".
+
+23: c (sehr)
+   - Açıklama: "Spät" (geç) bir zarftır. Derecelendirme yapmak için zarflardan önce "sehr spät" (çok geç) ifadesi kullanılır. "so" da anlamca uyabilir ancak telc kalıplarında miktar vurgusu için "sehr" önceliklidir.
+
+24: a (ein)
+   - Açıklama: "Sandwich" kelimesinin artikeli "das"tır (das Sandwich). Akkusativ nesne konumunda nötr (das) isimler için belirsiz artikel "ein" olarak kalır.
+
+25: c (nach)
+   - Açıklama: "İşten sonra" anlamına gelen zaman bildiren edat "nach"tır (nach der Arbeit). Dativ ile kullanılır.
+
+26: c (dass)
+   - Açıklama: "Ich kann mir vorstellen, dass..." (Tahmin edebiliyorum ki... / ... yaptığını hayal edebiliyorum) bir nesne yan cümlesidir ve "dass" bağlacı ile kurulur.Fiil (schüttelst) sonda yer alır.
+
+27: b (hättest)
+   - Açıklama: Konjunktiv II yapısında "Eğer zamanın olsaydı" ifadesi "Wenn du Zeit hättest" şeklinde kurulur (haben fiilinin Konjunktiv II hali).
+
+28: b (for)
+   - Açıklama: "Bir haftalık / bir hafta için plan" ifadesi "ein Plan für eine Woche" şeklinde "für" (+Akkusativ) edatı ile ifade edilir.
+
+29: b (mich)
+   - Açıklama: "Sich fragen" (kendi kendine sormak/merak etmek) dönüşlü bir fiildir. "Ich" öznesine göre Akkusativ dönüşlülük zamiri "mich" olur: "Ich frage mich".
+
+30: c (frisches)
+   - Açıklama: "auf" edatı "konzentrieren" ile Akkusativ alır. "Gemüse" kelimesinin artikeli "das"tır. Önünde artikel olmadığı için (Nullartikel) sıfat ismin kendi takısını alır: "auf frisches Gemüse".

@@ -1,0 +1,65 @@
+========================================================================
+telc DEUTSCH A1-A2: OFFIZIELLES LESEVERSTEHEN-TRAINING (ÖZGÜN SET 6)
+========================================================================
+Prüfungsbaustein: Leseverstehen (Eşleştirme / Zuordnung)
+Dauer: 20 Minuten
+
+KURAL REHBERİ (telc Sınav Stratejisi):
+1. Bu bölüm bir eşleştirme (Zuordnung) alıştırmasıdır. Amacınız, aşağıda verilen kısa gazete haberleri, ilanlar veya tanıtımlar (1-5) için en uygun başlığı (a-j) bulmaktır.
+2. Her başlık sadece bir kez kullanılabilir. Bazı başlıklar ise tamamen çeldiricidir ve hiçbir metne uymaz.
+3. Strateji: Metindeki anahtar kelimeleri (Schlüsselwörter) başlıklarla eşleştirin. Kelimelerin benzer anlamlarına (örn: Auto -> PKW, Kurs -> Training, lernen -> üben) dikkat edin.
+
+------------------------------------------------------------------------
+
+ÜBERSCHRIFTEN (BAŞLIKLAR: a - j)
+
+a) Trend bei Jugendlichen: Spanischkurse am Abend werden beliebter
+b) Neue Regeln für die telc B2-Prüfung in Deutschland angekündigt
+c) Gebrauchtwagenmarkt: Preise für alte Elektroautos sinken rasant
+d) Berlin plant neue Parkplätze für Fahrräder am Bahnhof
+e) Fitness für Haustiere: Hunde-Training im Park liegt im Trend
+f) Neue Sprachkurse: Deutsch intensiv am Vormittag für den Beruf
+g) Berlin investiert Millionen in neue Buslinien im Stadtzentrum
+h) Energie-Experten fordern: Mehr Solarenergie auf öffentlichen Gebäuden
+i) Neue Statistik: Immer mehr ältere Menschen kaufen ein E-Bike
+j) Umfrage im Büro: Kurze Pausen am Arbeitsplatz reduzieren den Stress
+
+------------------------------------------------------------------------
+
+TEXTE (METİNLER: 1 - 5)
+
+1. [  ]
+Das Goethe-Institut in Berlin bietet für das kommende Semester ein neues Kursprogramm an. Ausländische Fachkräfte, die schnell ihre Sprachkenntnisse verbessern möchten, können ab nächsten Monat an einem Intensivkurs teilnehmen. Der Unterricht findet jeden Tag von Montag bis Freitag am Vormittag zwischen 09:00 und 13:00 Uhr statt. Der Fokus liegt auf der professionellen Kommunikation im Büro und dem Schreiben von offiziellen E-Mails.
+
+2. [  ]
+Der Markt für gebrauchte Kraftfahrzeuge in Deutschland verändert sich. Laut einer aktuellen Analyse des Automobilclubs gibt es im Bereich der Elektromobilität eine überraschende Entwicklung. Die Preise für gebrauchte Elektroautos sind im Vergleich zum Vorjahr um fast 15 Prozent gesunken. Viele Händler berichten, dass die Batterien älterer Modelle oft an Leistung verlieren und die Kunden deshalb beim Kauf von gebrauchten E-PKWs sehr vorsichtig sind.
+
+3. [  ]
+BERLIN. Die Stadtverwaltung möchte den öffentlichen Nahverkehr im Zentrum moderner und schneller machen. Das Verkehrsministerium hat ein neues Großprojekt angekündigt. In den nächsten zwei Jahren sollen über 20 Millionen Euro ausgegeben werden, um neue und umweltfreundliche Buslinien zu bauen. Besonders die stark frequentierten Straßen im Stadtzentrum sollen durch dieses Projekt entlastet werden, damit die Bürger schneller zur Arbeit kommen.
+
+4. [  ]
+Eine aktuelle Umfrage unter 2.000 Angestellten in deutschen Großraumbüros zeigt interessante Ergebnisse über die Arbeitszufriedenheit. Wer während der Arbeitszeit alle zwei Stunden eine kurze Pause von fünf bis zehn Minuten macht, ist deutlich produktiver. Die Forscher betonen, dass kleine Erholungsphasen am Schreibtisch oder ein kurzer Kaffee mit Kollegen den Stress der Mitarbeiter im Beruf stark reduzieren und die Konzentration verbessern.
+
+5. [  ]
+In der Diskussion um den Klimaschutz fordern deutsche Energie-Experten eine bessere Nutzung von Dachflächen. Um die nationalen Klimaziele für das Jahr 2030 zu erreichen, sollten laut einer neuen Studie alle Schulen, Rathäuser und Krankenhäuser in Deutschland mit modernen Solar-PV-Systemen ausgestattet werden. Aktuell wird viel Potenzial verschenkt, da nur ein kleiner Teil der öffentlichen Gebäude sauberen Strom durch Sonnenenergie produziert.
+
+------------------------------------------------------------------------
+
+========================================================================
+OFFIZIELLE LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+1. DOĞRU CEVAP: f (Neue Sprachkurse: Deutsch intensiv am Vormittag für den Beruf)
+   - Açıklama: Metinde yabancı uzmanlar için açılan, hafta içi her sabah ("am Vormittag") düzenlenen yoğun bir dil kursundan ("Intensivkurs/Deutsch intensiv") bahsediliyor. Kursun iş hayatına ("für den Beruf/Büro") yönelik olması nedeniyle cevap "f" şıkkıdır.
+
+2. DOĞRU CEVAP: c (Gebrauchtewagenmarkt: Preise für alte Elektroautos sinken rasant)
+   - Açıklama: İkinci el araç piyasasındaki (Gebrauchtwagenmarkt) durumun anlatıldığı metinde, eski elektrikli arabaların ("gebrauchte Elektroautos") fiyatlarının %15 düştüğü ("gesunken/Preise... sinken") belirtiliyor. Bu durum "c" başlığı ile tam olarak eşleşir.
+
+3. DOĞRU CEVAP: g (Berlin investiert Millionen in neue Buslinien im Stadtzentrum)
+   - Açıklama: Metin, Berlin şehir yönetiminin ve bakanlığın merkezdeki trafiği rahatlatmak için 20 milyon Euro harcayarak ("investiert Millionen") yeni otobüs hatları ("neue Buslinien") açacağını ilan ediyor. Bu bilgiler "g" başlığını doğrudan doğrular.
+
+4. DOĞRU CEVAP: j (Umfrage im Büro: Kurze Pausen am Arbeitsplatz reduzieren den Stress)
+   - Açıklama: Metinde büro çalışanları arasında yapılan bir anketten ("Umfrage im Büro") bahsediliyor. Çalışırken verilen kısa molaların ("kurze Pausen am Arbeitsplatz") iş stresini azalttığı ("den Stress... stark reduzieren") aktarıldığı için en uygun başlık "j" seçeneğidir.
+
+5. DOĞRU CEVAP: h (Energie-Experten fordern: Mehr Solarenergie auf öffentlichen Gebäuden)
+   - Açıklama: Metinde enerji uzmanlarının (Energie-Experten), iklim hedefleri doğrultusunda okul, hastane gibi kamu binalarının ("öffentlichen Gebäuden") çatılarına güneş enerjisi sistemleri ("Solar-PV-Systemen/Solarenergie") kurulması yönündeki talepleri ve çağrıları yer alıyor. Cevap "h" şıkkıdır.
