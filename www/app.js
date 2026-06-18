@@ -1901,10 +1901,10 @@ function initHouseAnimation() {
   }
 }
 
-let octopusRiveInstance = null;
+let handshakeRiveInstance = null;
 
-function initOctopusAnimation() {
-  const canvas = document.getElementById("octopus-rive-canvas");
+function initHandshakeAnimation() {
+  const canvas = document.getElementById("handshake-rive-canvas");
   if (!canvas) return;
   
   if (typeof rive === "undefined") {
@@ -1912,32 +1912,32 @@ function initOctopusAnimation() {
     return;
   }
   
-  if (octopusRiveInstance) {
-    octopusRiveInstance.cleanup();
-    octopusRiveInstance = null;
+  if (handshakeRiveInstance) {
+    handshakeRiveInstance.cleanup();
+    handshakeRiveInstance = null;
   }
   
   try {
-    octopusRiveInstance = new rive.Rive({
-      src: "animations/octopus_2.riv",
+    handshakeRiveInstance = new rive.Rive({
+      src: "animations/handshake.riv",
       canvas: canvas,
       autoplay: true,
       onLoad: () => {
-        if (octopusRiveInstance) {
-          if (typeof octopusRiveInstance.resizeDrawingSurfaceToCanvas === "function") {
-            octopusRiveInstance.resizeDrawingSurfaceToCanvas();
-          } else if (typeof octopusRiveInstance.resizeDrawingToCanvas === "function") {
-            octopusRiveInstance.resizeDrawingToCanvas();
+        if (handshakeRiveInstance) {
+          if (typeof handshakeRiveInstance.resizeDrawingSurfaceToCanvas === "function") {
+            handshakeRiveInstance.resizeDrawingSurfaceToCanvas();
+          } else if (typeof handshakeRiveInstance.resizeDrawingToCanvas === "function") {
+            handshakeRiveInstance.resizeDrawingToCanvas();
           }
-          octopusRiveInstance.play();
+          handshakeRiveInstance.play();
         }
       },
       onLoadError: (err) => {
-        console.error("Rive octopus load error:", err);
+        console.error("Rive handshake load error:", err);
       }
     });
   } catch (e) {
-    console.error("Rive octopus initialization error:", e);
+    console.error("Rive handshake initialization error:", e);
   }
 }
 
@@ -2264,9 +2264,9 @@ function renderLevelPath() {
     houseRiveInstance.cleanup();
     houseRiveInstance = null;
   }
-  if (octopusRiveInstance) {
-    octopusRiveInstance.cleanup();
-    octopusRiveInstance = null;
+  if (handshakeRiveInstance) {
+    handshakeRiveInstance.cleanup();
+    handshakeRiveInstance = null;
   }
 
   const pathView = document.getElementById("level-path-view");
@@ -2469,20 +2469,20 @@ function renderLevelPath() {
     pathView.appendChild(houseContainer);
   }
 
-  // Render octopus animation container in the fourth category's empty left space
+  // Render handshake animation container in the fourth category's empty left space
   if (fourthCategoryY0 !== null) {
-    const octopusTop = fourthCategoryY0 + 85; // Align it next to droplet 2 & 3 in the fourth category
-    const octopusContainer = document.createElement("div");
-    octopusContainer.id = "octopus-animation-container";
-    octopusContainer.style.position = "absolute";
-    octopusContainer.style.left = "8px"; // Left side
-    octopusContainer.style.top = `${octopusTop}px`;
-    octopusContainer.style.width = "180px";
-    octopusContainer.style.height = "180px";
-    octopusContainer.style.zIndex = "1";
-    octopusContainer.style.pointerEvents = "none";
-    octopusContainer.innerHTML = `<canvas id="octopus-rive-canvas" width="360" height="360" style="width: 100%; height: 100%;"></canvas>`;
-    pathView.appendChild(octopusContainer);
+    const handshakeTop = fourthCategoryY0 + 85; // Align it next to droplet 2 & 3 in the fourth category
+    const handshakeContainer = document.createElement("div");
+    handshakeContainer.id = "handshake-animation-container";
+    handshakeContainer.style.position = "absolute";
+    handshakeContainer.style.left = "8px"; // Left side
+    handshakeContainer.style.top = `${handshakeTop}px`;
+    handshakeContainer.style.width = "180px";
+    handshakeContainer.style.height = "180px";
+    handshakeContainer.style.zIndex = "1";
+    handshakeContainer.style.pointerEvents = "none";
+    handshakeContainer.innerHTML = `<canvas id="handshake-rive-canvas" width="360" height="360" style="width: 100%; height: 100%;"></canvas>`;
+    pathView.appendChild(handshakeContainer);
   }
 
   if (firstCategoryY0 !== null || secondCategoryY0 !== null || thirdCategoryY0 !== null || fourthCategoryY0 !== null) {
@@ -2491,7 +2491,7 @@ function renderLevelPath() {
       initCatAnimation2();
       initBunnyAnimation();
       initHouseAnimation();
-      initOctopusAnimation();
+      initHandshakeAnimation();
     }, 50);
   }
 }
