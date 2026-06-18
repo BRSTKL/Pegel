@@ -2277,17 +2277,17 @@ function renderLevelPath() {
     pathView.appendChild(catContainer);
     
     // Render second cat animation container
-    const catTop2 = firstCategoryY0 + 265; // Align it next to droplet 4 & 5
+    const catTop2 = firstCategoryY0 + 320; // Align it next to droplet 5 & 6 on the right side
     const catContainer2 = document.createElement("div");
     catContainer2.id = "cat-animation-container-2";
     catContainer2.style.position = "absolute";
-    catContainer2.style.left = "24px"; // shift slightly to match the left margin
+    catContainer2.style.right = "8px"; // Place it on the right side
     catContainer2.style.top = `${catTop2}px`;
-    catContainer2.style.width = "150px";
-    catContainer2.style.height = "150px";
+    catContainer2.style.width = "180px";
+    catContainer2.style.height = "180px";
     catContainer2.style.zIndex = "1";
     catContainer2.style.pointerEvents = "none";
-    catContainer2.innerHTML = `<canvas id="cat-rive-canvas-2" width="300" height="300" style="width: 100%; height: 100%;"></canvas>`;
+    catContainer2.innerHTML = `<canvas id="cat-rive-canvas-2" width="360" height="360" style="width: 100%; height: 100%;"></canvas>`;
     pathView.appendChild(catContainer2);
     
     setTimeout(() => {
