@@ -85,9 +85,11 @@ function playSound(type) {
             const label = document.createElement("label");
             label.ariaHidden = "true";
             label.style.display = "none";
+            label.addEventListener("click", (e) => e.stopPropagation()); // Prevent recursion
             const input = document.createElement("input");
             input.type = "checkbox";
             input.setAttribute("switch", "");
+            input.addEventListener("click", (e) => e.stopPropagation()); // Prevent recursion
             label.appendChild(input);
             document.head.appendChild(label);
             label.click();
@@ -116,6 +118,10 @@ function playSound(type) {
 
 // Global click sound feedback
 document.addEventListener("click", (e) => {
+  // Ignore clicks inside <head> or on hidden/aria-hidden elements to avoid feedback loops
+  if (e.target.closest("head") || e.target.closest("[aria-hidden='true']")) {
+    return;
+  }
   // Check if click target or its parent is interactive
   const target = e.target.closest("button, a, input, select, textarea, [onclick]");
   if (target) {
