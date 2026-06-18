@@ -39,6 +39,16 @@ let state = {
   }
 };
 
+// Sound playback utility
+function playSound(type) {
+  try {
+    const audio = new Audio(`sounds/${type}.mp3`);
+    audio.play().catch(err => console.log("Sound play error:", err));
+  } catch (e) {
+    console.error("Audio creation failed:", e);
+  }
+}
+
 // --- Level Helper Functions ---
 function getLevelProgress() {
   if (!state.progress) state.progress = { "A1-A2": emptyLevelProgress(), "B1": emptyLevelProgress() };
@@ -1399,6 +1409,7 @@ function submitHoerverstehen() {
 
   hoerverstehenSubmitted = true;
   state.xp += correctCount * 10;
+  playSound("done");
 
   // Record attempt in progress (scale to 100% regardless of question count)
   let attempts = getLevelProgress().hoerverstehenProgress[ex.id] || [];
@@ -2276,6 +2287,7 @@ function handleQuizAnswer(selectedIdx, clickedBtn, allOptions) {
     clickedBtn.querySelector("i").className = "ti ti-circle-check-filled";
     correctAnswersCount++;
     state.xp += 10;
+    playSound("true");
   } else {
     clickedBtn.classList.add("incorrect");
     clickedBtn.querySelector("i").className = "ti ti-circle-x-filled";
@@ -2283,6 +2295,7 @@ function handleQuizAnswer(selectedIdx, clickedBtn, allOptions) {
     const correctBtn = allOptions[correctIdx];
     correctBtn.classList.add("correct");
     correctBtn.querySelector("i").className = "ti ti-circle-check-filled";
+    playSound("false");
   }
   
   saveState();
@@ -2304,6 +2317,7 @@ function finishQuiz() {
   state.completedToday.quiz = true;
   state.xp += 25;
   logActiveDay();
+  playSound("done");
   
   container.innerHTML = `
     <div style="text-align: center; padding: 24px 10px; display:flex; flex-direction:column; align-items:center; gap:18px;">
@@ -2415,6 +2429,7 @@ function handleFbAnswer(selectedVal, clickedBtn, allOptions) {
     clickedBtn.classList.add("correct");
     correctFbCount++;
     state.xp += 10;
+    playSound("true");
   } else {
     clickedBtn.classList.add("incorrect");
     
@@ -2423,6 +2438,7 @@ function handleFbAnswer(selectedVal, clickedBtn, allOptions) {
         opt.classList.add("correct");
       }
     });
+    playSound("false");
   }
   
   saveState();
@@ -2444,6 +2460,7 @@ function finishFb() {
   state.completedToday.flashcards = true;
   state.xp += 20;
   logActiveDay();
+  playSound("done");
   
   container.innerHTML = `
     <div style="text-align: center; padding: 24px 10px; display:flex; flex-direction:column; align-items:center; gap:18px;">
@@ -2819,7 +2836,12 @@ function handlePrepQuizAnswer(clickedBtn, allOptions) {
   const correct = currentPrepQuestionObj.correct;
   const isOk = chosen === correct;
   
-  if (isOk) correctPrepQuizScore++;
+  if (isOk) {
+    correctPrepQuizScore++;
+    playSound("true");
+  } else {
+    playSound("false");
+  }
   
   // Update score in local state
   const q = activePrepQuizQuestions[currentPrepQuizIdx];
@@ -2888,6 +2910,7 @@ function finishPrepQuiz() {
   state.completedToday.quiz = true;
   state.xp += 30; // +30 XP complete bonus
   logActiveDay();
+  playSound("done");
   
   const pct = Math.round(correctPrepQuizScore / activePrepQuizQuestions.length * 100);
   
@@ -3656,6 +3679,7 @@ function submitLeseverstehen() {
   
   leseverstehenSubmitted = true;
   state.xp += correctCount * 10;
+  playSound("done");
   
   const scoreMultiplier = isTeil3 ? 10 : 20;
   const score = correctCount * scoreMultiplier;
@@ -4198,6 +4222,7 @@ function submitSprachbausteine() {
   });
   
   sprachbausteineSubmitted = true;
+  playSound("done");
   
   const xpEarned = correctCount * 10;
   state.xp += xpEarned;
@@ -4934,6 +4959,7 @@ function selectSentenceOption(event, selectedIdx) {
     clickedBtn.classList.add("correct");
     const icon = clickedBtn.querySelector("i");
     if (icon) icon.className = "ti ti-circle-check";
+    playSound("true");
   } else {
     clickedBtn.classList.add("incorrect");
     const icon = clickedBtn.querySelector("i");
@@ -4949,6 +4975,7 @@ function selectSentenceOption(event, selectedIdx) {
     
     lessonQuizLives--;
     renderLessonQuizLives();
+    playSound("false");
   }
   
   // Show translation if available
@@ -5020,6 +5047,7 @@ function submitWriteInAnswer() {
   
   if (isCorrect) {
     inputEl.classList.add("correct");
+    playSound("true");
   } else {
     inputEl.classList.add("incorrect");
     // Reveal correct answer underneath
@@ -5033,6 +5061,7 @@ function submitWriteInAnswer() {
     
     lessonQuizLives--;
     renderLessonQuizLives();
+    playSound("false");
   }
   
   // Show translation if available
@@ -5138,6 +5167,7 @@ function finishLessonQuiz(success) {
       saveState();
       updateStreakBadge();
     }
+    playSound("done");
     
     card.innerHTML = `
       <div style="font-size: 50px; margin-bottom: 10px;">🎉</div>
@@ -5285,6 +5315,7 @@ function checkSentenceBuilderAnswer() {
     checkBtn.innerHTML = `<i class="ti ti-circle-check-filled" style="font-size: 18px;"></i> Doğru!`;
     checkBtn.style.backgroundColor = "#22c55e";
     checkBtn.style.borderColor = "#22c55e";
+    playSound("true");
   } else {
     zone.style.borderColor = "#ef4444";
     zone.style.backgroundColor = "rgba(239, 68, 68, 0.08)";
@@ -5300,6 +5331,7 @@ function checkSentenceBuilderAnswer() {
     
     lessonQuizLives--;
     renderLessonQuizLives();
+    playSound("false");
   }
   
   setTimeout(() => {
