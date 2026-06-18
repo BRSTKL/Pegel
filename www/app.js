@@ -68,11 +68,11 @@ function playSound(type) {
       }
     } else if (navigator.vibrate) {
       if (type === "true" || type === "done") {
-        navigator.vibrate([30, 40, 30]);
+        navigator.vibrate([40, 40, 40]);
       } else if (type === "false") {
-        navigator.vibrate([60, 60, 60, 60]);
+        navigator.vibrate([80, 50, 80, 50]);
       } else if (type === "click") {
-        navigator.vibrate(8); // Soft tick (8ms)
+        navigator.vibrate(15); // Clear button tap feedback (15ms)
       }
     }
   } catch (e) {
