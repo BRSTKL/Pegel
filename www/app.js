@@ -1616,29 +1616,23 @@ function renderHomeScreen() {
   document.getElementById("profile-name").textContent = state.userName;
 
   const homeLevelBtn = document.getElementById("home-level-btn");
-  const homeLevelMiniBadge = document.getElementById("home-level-mini-badge");
   const homeLevelBtnText = document.getElementById("home-level-btn-text");
   
-  if (homeLevelBtn && homeLevelMiniBadge && homeLevelBtnText) {
+  if (homeLevelBtn && homeLevelBtnText) {
     const isB1 = state.activeLevel === "B1";
     
-    // Set text and mini badge
-    homeLevelBtnText.textContent = isB1 ? "telc B1" : "telc A1-A2";
-    homeLevelMiniBadge.textContent = isB1 ? "B1" : "A1/2";
+    // Set text (only level names)
+    homeLevelBtnText.textContent = isB1 ? "B1" : "A1-A2";
     
     // Set dynamic color themes
     if (isB1) {
       homeLevelBtn.style.background = "var(--theme-purple-light)";
       homeLevelBtn.style.borderColor = "rgba(177, 159, 251, 0.2)";
       homeLevelBtn.style.color = "var(--theme-purple)";
-      homeLevelMiniBadge.style.background = "var(--theme-purple)";
-      homeLevelMiniBadge.style.color = "var(--color-background-secondary)";
     } else {
       homeLevelBtn.style.background = "var(--theme-teal-light)";
       homeLevelBtn.style.borderColor = "rgba(16, 185, 129, 0.2)";
       homeLevelBtn.style.color = "var(--theme-teal)";
-      homeLevelMiniBadge.style.background = "var(--theme-teal)";
-      homeLevelMiniBadge.style.color = "var(--color-background-secondary)";
     }
   }
 
@@ -1646,8 +1640,8 @@ function renderHomeScreen() {
   if (levelList) {
     levelList.innerHTML = "";
     const levels = [
-      { id: "A1-A2", label: "telc A1-A2", badge: "A1/2" },
-      { id: "B1", label: "telc B1", badge: "B1" }
+      { id: "A1-A2", label: "A1-A2", badge: "A1/2" },
+      { id: "B1", label: "B1", badge: "B1" }
     ];
     levels.forEach(lvl => {
       const isActive = state.activeLevel === lvl.id;
