@@ -1624,16 +1624,10 @@ function renderHomeScreen() {
     // Set text (only level names)
     homeLevelBtnText.textContent = isB1 ? "B1" : "A1-A2";
     
-    // Set dynamic color themes
-    if (isB1) {
-      homeLevelBtn.style.background = "var(--theme-purple-light)";
-      homeLevelBtn.style.borderColor = "rgba(177, 159, 251, 0.2)";
-      homeLevelBtn.style.color = "var(--theme-purple)";
-    } else {
-      homeLevelBtn.style.background = "var(--theme-teal-light)";
-      homeLevelBtn.style.borderColor = "rgba(16, 185, 129, 0.2)";
-      homeLevelBtn.style.color = "var(--theme-teal)";
-    }
+    // Set purple color theme for all levels
+    homeLevelBtn.style.background = "var(--theme-purple-light)";
+    homeLevelBtn.style.borderColor = "rgba(177, 159, 251, 0.2)";
+    homeLevelBtn.style.color = "var(--theme-purple)";
   }
 
   const levelList = document.getElementById("home-level-list");
