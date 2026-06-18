@@ -110,12 +110,41 @@
         <!-- Header Card -->
         <div class="c-purple">
           <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom: 16px;">
-            <div>
-              <p class="ts" style="font-size: 13px; margin: 0;">Merhaba</p>
-              <p class="t" style="font-size: 19px; font-weight: 600; margin: 2px 0 0;" id="profile-name">Baris</p>
+            <div style="display:flex; align-items:center; gap: 8px;">
+              <div>
+                <p class="ts" style="font-size: 12px; margin: 0;">Merhaba</p>
+                <div style="display:flex; align-items:center; gap: 6px; margin-top: 2px;">
+                  <span class="t" style="font-size: 17px; font-weight: 600;" id="profile-name">Baris</span>
+                  <div id="streak-counter" style="padding: 3px 8px; border-radius: var(--border-radius-full); display:flex; align-items:center; gap: 4px; font-weight: 600; font-size: 11px;">
+                    <!-- Streak counter -->
+                  </div>
+                </div>
+              </div>
             </div>
-            <div id="streak-counter" style="padding: 5px 12px; border-radius: var(--border-radius-full); display:flex; align-items:center; gap: 4px; font-weight: 600; font-size: 12.5px;">
-              <!-- Streak counter -->
+            
+            <div style="display:flex; align-items:center; gap: 8px; position: relative;">
+              <!-- Level Switcher -->
+              <div style="position: relative;" id="home-level-switcher-container">
+                <button id="home-level-btn" style="display:flex; align-items:center; gap: 4px; padding: 6px 12px; border-radius: var(--border-radius-full); border: 1px solid var(--color-border-primary); background: var(--theme-purple-light); color: var(--theme-purple); font-size: 12.5px; font-weight: 600; cursor: pointer; transition: all var(--transition-fast);">
+                  <span id="home-level-btn-text">telc B1</span>
+                  <i class="ti ti-chevron-down" style="font-size: 11px; color: var(--theme-purple) !important;"></i>
+                </button>
+                <!-- Dropdown Menu -->
+                <div id="home-level-dropdown" class="hidden" style="position: absolute; right: 0; top: calc(100% + 8px); width: 250px; background: var(--color-background-secondary); border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); box-shadow: var(--shadow-lg); z-index: 1000; padding: 12px; font-family: inherit;">
+                  <div style="font-size: 11px; font-weight: 600; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 10px;">Seviye Değiştir</div>
+                  <div style="display: flex; flex-direction: column; gap: 6px;" id="home-level-list">
+                    <!-- Dropdown Options -->
+                  </div>
+                  <div style="margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--color-border-secondary); font-size: 10.5px; color: var(--color-text-tertiary); line-height: 1.4;">
+                    Çalışma ilerlemeniz her seviye için ayrı olarak kaydedilir.
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Profile Avatar -->
+              <div id="home-profile-avatar" class="c-purple-bg" style="width: 32px; height: 32px; border-radius: 50%; display:flex; align-items:center; justify-content:center; font-size: 13px; font-weight: 600; border: 1px solid var(--color-border-primary); color: var(--theme-purple); cursor: pointer; transition: all var(--transition-fast);">
+                B
+              </div>
             </div>
           </div>
 
@@ -847,7 +876,7 @@
       <!-- ================= PROFILE SCREEN ================= -->
       <div id="profile-screen" class="screen hidden" style="padding: 20px;">
         <div style="margin-bottom: 20px; display:flex; flex-direction:column; align-items:center; gap:12px; padding: 10px 0;">
-          <div class="c-purple" style="width: 64px; height: 64px; border-radius: 50%; display:flex; align-items:center; justify-content:center; font-size: 24px; font-weight: 600; border: 1px solid var(--color-border-primary);">
+          <div id="profile-avatar-large" class="c-purple" style="width: 64px; height: 64px; border-radius: 50%; display:flex; align-items:center; justify-content:center; font-size: 24px; font-weight: 600; border: 1px solid var(--color-border-primary);">
             B
           </div>
           <h1 style="font-size: 18px; font-weight: 600; margin: 0;">Kullanıcı Profili</h1>

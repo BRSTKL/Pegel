@@ -2316,3 +2316,30 @@ body.is-native .app-container {
   font-size: 13.5px;
   font-weight: 500;
 }
+
+/* Homepage Level Switcher Custom Styles */
+#home-level-btn {
+  transition: transform var(--transition-fast) ease, filter var(--transition-fast) ease, background-color var(--transition-fast) ease;
+}
+#home-level-btn:hover {
+  filter: brightness(1.1);
+  transform: translateY(-0.5px);
+}
+#home-level-btn:active {
+  transform: translateY(0.5px) scale(0.98);
+}
+#home-profile-avatar {
+  transition: transform var(--transition-fast) ease, filter var(--transition-fast) ease, background-color var(--transition-fast) ease;
+}
+#home-profile-avatar:hover {
+  filter: brightness(1.1);
+  transform: translateY(-0.5px);
+}
+#home-profile-avatar:active {
+  transform: translateY(0.5px) scale(0.95);
+}
+#home-level-dropdown {
+  box-shadow: var(--shadow-lg);
+  animation: fadeIn var(--transition-fast) ease-out;
+}
+

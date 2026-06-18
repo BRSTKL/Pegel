@@ -81,7 +81,7 @@ function switchLevel(level) {
   if (firstCat) state.activeCategory = firstCat.id;
   saveState();
   showScreen("home");
-  renderHome();
+  renderHomeScreen();
 }
 
 // Flashcards pool based on the grammar content
@@ -646,6 +646,27 @@ document.addEventListener("DOMContentLoaded", async () => {
     showScreen("login");
   }
   updateStreakBadge();
+
+  // Home Screen Level Switcher Interactivity
+  const homeLevelBtn = document.getElementById("home-level-btn");
+  const homeLevelDropdown = document.getElementById("home-level-dropdown");
+  if (homeLevelBtn && homeLevelDropdown) {
+    homeLevelBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      homeLevelDropdown.classList.toggle("hidden");
+    });
+    document.addEventListener("click", (e) => {
+      if (!homeLevelDropdown.classList.contains("hidden") && !homeLevelDropdown.contains(e.target) && e.target !== homeLevelBtn) {
+        homeLevelDropdown.classList.add("hidden");
+      }
+    });
+  }
+  const homeProfileAvatar = document.getElementById("home-profile-avatar");
+  if (homeProfileAvatar) {
+    homeProfileAvatar.addEventListener("click", () => {
+      showScreen("profile");
+    });
+  }
   
   // Floating Answer Island & Modal event listeners
   const floatingBtn = document.getElementById("floating-answer-island");
@@ -1593,6 +1614,89 @@ function showScreen(screenId) {
 // HOME SCREEN RENDERING
 function renderHomeScreen() {
   document.getElementById("profile-name").textContent = state.userName;
+
+  const homeLevelBtnText = document.getElementById("home-level-btn-text");
+  if (homeLevelBtnText) {
+    homeLevelBtnText.textContent = state.activeLevel === "A1-A2" ? "telc A1-A2" : "telc B1";
+  }
+
+  const homeProfileAvatar = document.getElementById("home-profile-avatar");
+  if (homeProfileAvatar) {
+    homeProfileAvatar.textContent = state.userName ? state.userName.charAt(0).toUpperCase() : "B";
+  }
+
+  const levelList = document.getElementById("home-level-list");
+  if (levelList) {
+    levelList.innerHTML = "";
+    const levels = [
+      { id: "A1-A2", label: "telc A1-A2", badge: "A1/2" },
+      { id: "B1", label: "telc B1", badge: "B1" }
+    ];
+    levels.forEach(lvl => {
+      const isActive = state.activeLevel === lvl.id;
+      const option = document.createElement("div");
+      option.style = `
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px 10px;
+        border-radius: var(--border-radius-md);
+        cursor: pointer;
+        transition: all var(--transition-fast);
+        background: ${isActive ? 'var(--theme-purple-light)' : 'transparent'};
+        border: 1px solid ${isActive ? 'rgba(177, 159, 251, 0.2)' : 'transparent'};
+      `;
+      option.addEventListener("mouseenter", () => {
+        if (!isActive) option.style.backgroundColor = "var(--color-background-tertiary)";
+      });
+      option.addEventListener("mouseleave", () => {
+        if (!isActive) option.style.backgroundColor = "transparent";
+      });
+      option.addEventListener("click", () => {
+        switchLevel(lvl.id);
+        document.getElementById("home-level-dropdown")?.classList.add("hidden");
+      });
+      
+      const leftPart = document.createElement("div");
+      leftPart.style = "display: flex; align-items: center; gap: 8px;";
+      
+      const badge = document.createElement("div");
+      badge.textContent = lvl.badge;
+      badge.style = `
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 11px;
+        font-weight: 700;
+        background: ${isActive ? 'var(--theme-purple)' : 'var(--color-background-tertiary)'};
+        color: ${isActive ? 'var(--color-background-secondary)' : 'var(--color-text-secondary)'};
+      `;
+      
+      const label = document.createElement("span");
+      label.textContent = lvl.label;
+      label.style = `
+        font-size: 13px;
+        font-weight: 500;
+        color: ${isActive ? 'var(--color-text-primary)' : 'var(--color-text-secondary)'};
+      `;
+      
+      leftPart.appendChild(badge);
+      leftPart.appendChild(label);
+      option.appendChild(leftPart);
+      
+      if (isActive) {
+        const check = document.createElement("i");
+        check.className = "ti ti-check";
+        check.style = "font-size: 14px; color: var(--theme-purple);";
+        option.appendChild(check);
+      }
+      
+      levelList.appendChild(option);
+    });
+  }
 
   const levelLabel = document.getElementById("home-level-label");
   if (levelLabel) levelLabel.textContent = `${state.activeLevel} hedefine ilerleme`;
@@ -4268,6 +4372,11 @@ function renderAnalyticsCategoriesBreakdown() {
 function renderProfileScreen() {
   const nameInput = document.getElementById("profile-name-input");
   if (nameInput) nameInput.value = state.userName;
+
+  const profileAvatarLarge = document.getElementById("profile-avatar-large");
+  if (profileAvatarLarge) {
+    profileAvatarLarge.textContent = state.userName ? state.userName.charAt(0).toUpperCase() : "B";
+  }
 
   // Level switcher button states
   const btnA1A2 = document.getElementById("level-btn-a1a2");
