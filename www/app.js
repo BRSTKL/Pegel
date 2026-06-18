@@ -1644,6 +1644,27 @@ function initProgressRive() {
     canvas.height = rect.height;
   }
 
+  // Resize observer to handle visibility and sizing changes dynamically
+  if (window.ResizeObserver) {
+    const resizeObserver = new ResizeObserver((entries) => {
+      for (let entry of entries) {
+        const r = entry.contentRect;
+        if (r.width > 0 && r.height > 0) {
+          const targetWidth = Math.floor(r.width);
+          const targetHeight = Math.floor(r.height);
+          if (canvas.width !== targetWidth || canvas.height !== targetHeight) {
+            canvas.width = targetWidth;
+            canvas.height = targetHeight;
+            if (progressRiveInstance && typeof progressRiveInstance.resizeDrawingSurfaceToCanvas === "function") {
+              progressRiveInstance.resizeDrawingSurfaceToCanvas();
+            }
+          }
+        }
+      }
+    });
+    resizeObserver.observe(canvas);
+  }
+
   // Convert base64 to array buffer
   let riveBuffer = null;
   if (typeof WATER_BAR_RIVE_BASE64 !== "undefined") {
@@ -1661,7 +1682,9 @@ function initProgressRive() {
     autoplay: true,
     stateMachines: ["State Machine", "State Machine 1"],
     onLoad: () => {
-      progressRiveInstance.resizeDrawingToCanvas();
+      if (typeof progressRiveInstance.resizeDrawingSurfaceToCanvas === "function") {
+        progressRiveInstance.resizeDrawingSurfaceToCanvas();
+      }
       
       console.log("Rive animation loaded successfully!");
       console.log("State Machines:", progressRiveInstance.stateMachineNames);
