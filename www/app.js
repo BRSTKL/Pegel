@@ -2210,10 +2210,10 @@ function renderLevelPath() {
     
     // Gradient definitions mapping
     const colorGradients = {
-      purple: { start: "#c5b6ff", end: "#8368f9" },
-      teal: { start: "#34e8b0", end: "#0fa572" },
-      coral: { start: "#fca395", end: "#dc6d5e" },
-      pink: { start: "#fcaecc", end: "#db7ea0" }
+      purple: { start: "#c5b6ff", end: "#8368f9", glow: "rgba(131, 104, 249, 0.6)" },
+      teal: { start: "#34e8b0", end: "#0fa572", glow: "rgba(15, 165, 114, 0.6)" },
+      coral: { start: "#fca395", end: "#dc6d5e", glow: "rgba(220, 109, 94, 0.6)" },
+      pink: { start: "#fcaecc", end: "#db7ea0", glow: "rgba(219, 126, 160, 0.6)" }
     };
     
     let startColor = "#3d3d3b";
@@ -2228,10 +2228,11 @@ function renderLevelPath() {
       endColor = theme.end;
       strokeColor = "rgba(255, 255, 255, 0.35)";
     } else if (les.status === "active") {
-      startColor = "#ffffff"; // White highlight at the tip
-      endColor = theme.end;   // Sloped to theme color at the bottom
+      startColor = theme.start; // Soft color gradient matching the theme
+      endColor = theme.end;
       strokeColor = "#ffffff";
       strokeWidth = "2.5";
+      btn.style.setProperty('--active-glow-color', theme.glow);
     }
     
     btn.innerHTML = `

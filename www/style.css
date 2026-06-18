@@ -2556,7 +2556,7 @@ body.is-native .app-container {
 }
 
 .droplet-node.active .droplet-svg {
-  filter: drop-shadow(0 0 6px rgba(177, 159, 251, 0.6));
+  filter: drop-shadow(0 0 6px var(--active-glow-color, rgba(177, 159, 251, 0.6)));
   animation: activePulse 2s infinite ease-in-out;
 }
 
@@ -2592,9 +2592,9 @@ body.is-native .app-container {
 }
 
 @keyframes activePulse {
-  0% { transform: scale(1); filter: drop-shadow(0 0 4px rgba(177, 159, 251, 0.5)); }
-  50% { transform: scale(1.04); filter: drop-shadow(0 0 10px rgba(177, 159, 251, 0.8)); }
-  100% { transform: scale(1); filter: drop-shadow(0 0 4px rgba(177, 159, 251, 0.5)); }
+  0% { transform: scale(1); filter: drop-shadow(0 0 4px var(--active-glow-color, rgba(177, 159, 251, 0.5))); }
+  50% { transform: scale(1.04); filter: drop-shadow(0 0 10px var(--active-glow-color, rgba(177, 159, 251, 0.8))); }
+  100% { transform: scale(1); filter: drop-shadow(0 0 4px var(--active-glow-color, rgba(177, 159, 251, 0.5))); }
 }
 
 /* Lesson Preview Bottom Sheet Modal */
