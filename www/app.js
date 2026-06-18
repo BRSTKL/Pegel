@@ -1901,6 +1901,46 @@ function initHouseAnimation() {
   }
 }
 
+let octopusRiveInstance = null;
+
+function initOctopusAnimation() {
+  const canvas = document.getElementById("octopus-rive-canvas");
+  if (!canvas) return;
+  
+  if (typeof rive === "undefined") {
+    console.warn("Rive library is not loaded yet.");
+    return;
+  }
+  
+  if (octopusRiveInstance) {
+    octopusRiveInstance.cleanup();
+    octopusRiveInstance = null;
+  }
+  
+  try {
+    octopusRiveInstance = new rive.Rive({
+      src: "animations/octopus_2.riv",
+      canvas: canvas,
+      autoplay: true,
+      onLoad: () => {
+        if (octopusRiveInstance) {
+          if (typeof octopusRiveInstance.resizeDrawingSurfaceToCanvas === "function") {
+            octopusRiveInstance.resizeDrawingSurfaceToCanvas();
+          } else if (typeof octopusRiveInstance.resizeDrawingToCanvas === "function") {
+            octopusRiveInstance.resizeDrawingToCanvas();
+          }
+          octopusRiveInstance.play();
+        }
+      },
+      onLoadError: (err) => {
+        console.error("Rive octopus load error:", err);
+      }
+    });
+  } catch (e) {
+    console.error("Rive octopus initialization error:", e);
+  }
+}
+
 function base64ToArrayBuffer(base64) {
   const cleanBase64 = base64.replace(/\s/g, '');
   const binaryString = atob(cleanBase64);
@@ -2224,6 +2264,10 @@ function renderLevelPath() {
     houseRiveInstance.cleanup();
     houseRiveInstance = null;
   }
+  if (octopusRiveInstance) {
+    octopusRiveInstance.cleanup();
+    octopusRiveInstance = null;
+  }
 
   const pathView = document.getElementById("level-path-view");
   if (!pathView) return;
@@ -2262,6 +2306,7 @@ function renderLevelPath() {
   let firstCategoryY0 = null;
   let secondCategoryY0 = null;
   let thirdCategoryY0 = null;
+  let fourthCategoryY0 = null;
   
   processedLessons.forEach((les, index) => {
     if (les.categoryId !== lastCategoryId) {
@@ -2289,6 +2334,9 @@ function renderLevelPath() {
       }
       if (catIndex === 3 && thirdCategoryY0 === null) {
         thirdCategoryY0 = currentY;
+      }
+      if (catIndex === 4 && fourthCategoryY0 === null) {
+        fourthCategoryY0 = currentY;
       }
       
       lastCategoryId = les.categoryId;
@@ -2421,12 +2469,29 @@ function renderLevelPath() {
     pathView.appendChild(houseContainer);
   }
 
-  if (firstCategoryY0 !== null || secondCategoryY0 !== null || thirdCategoryY0 !== null) {
+  // Render octopus animation container in the fourth category's empty left space
+  if (fourthCategoryY0 !== null) {
+    const octopusTop = fourthCategoryY0 + 85; // Align it next to droplet 2 & 3 in the fourth category
+    const octopusContainer = document.createElement("div");
+    octopusContainer.id = "octopus-animation-container";
+    octopusContainer.style.position = "absolute";
+    octopusContainer.style.left = "8px"; // Left side
+    octopusContainer.style.top = `${octopusTop}px`;
+    octopusContainer.style.width = "180px";
+    octopusContainer.style.height = "180px";
+    octopusContainer.style.zIndex = "1";
+    octopusContainer.style.pointerEvents = "none";
+    octopusContainer.innerHTML = `<canvas id="octopus-rive-canvas" width="360" height="360" style="width: 100%; height: 100%;"></canvas>`;
+    pathView.appendChild(octopusContainer);
+  }
+
+  if (firstCategoryY0 !== null || secondCategoryY0 !== null || thirdCategoryY0 !== null || fourthCategoryY0 !== null) {
     setTimeout(() => {
       initCatAnimation();
       initCatAnimation2();
       initBunnyAnimation();
       initHouseAnimation();
+      initOctopusAnimation();
     }, 50);
   }
 }
