@@ -1628,9 +1628,8 @@ function base64ToArrayBuffer(base64) {
 }
 
 function initProgressRive() {
-  const container = document.getElementById("progress-rive-container");
   const canvas = document.getElementById("progress-rive-canvas");
-  if (!canvas || !container || progressRiveInstance) return;
+  if (!canvas || progressRiveInstance) return;
 
   if (!window.rive) {
     // Retry in 100ms if Rive library is not loaded yet
@@ -1638,40 +1637,25 @@ function initProgressRive() {
     return;
   }
 
-  // Set backing store dimensions to match the rotated container dimensions
-  const containerRect = container.getBoundingClientRect();
-  if (containerRect.width > 0 && containerRect.height > 0) {
-    const targetW = Math.floor(containerRect.width);
-    const targetH = Math.floor(containerRect.height);
-    
-    // Set canvas CSS size (flipped because of rotation)
-    canvas.style.width = targetH + "px";
-    canvas.style.height = targetW + "px";
-    
-    // Set canvas backing store size (flipped because of rotation)
-    canvas.width = targetH;
-    canvas.height = targetW;
+  // Set backing store dimensions to match the display size of canvas
+  const rect = canvas.getBoundingClientRect();
+  if (rect.width > 0 && rect.height > 0) {
+    canvas.width = rect.width;
+    canvas.height = rect.height;
   }
 
-  // Resize observer to handle visibility and sizing changes dynamically on the container
+  // Resize observer to handle visibility and sizing changes dynamically on the canvas
   if (window.ResizeObserver) {
     const resizeObserver = new ResizeObserver((entries) => {
       for (let entry of entries) {
         const r = entry.contentRect;
         if (r.width > 0 && r.height > 0) {
-          const targetW = Math.floor(r.width);
-          const targetH = Math.floor(r.height);
+          const targetWidth = Math.floor(r.width);
+          const targetHeight = Math.floor(r.height);
           
-          // Flipped canvas size
-          const canvasCSSWidth = targetH + "px";
-          const canvasCSSHeight = targetW + "px";
-          
-          if (canvas.style.width !== canvasCSSWidth || canvas.style.height !== canvasCSSHeight) {
-            canvas.style.width = canvasCSSWidth;
-            canvas.style.height = canvasCSSHeight;
-            
-            canvas.width = targetH;
-            canvas.height = targetW;
+          if (canvas.width !== targetWidth || canvas.height !== targetHeight) {
+            canvas.width = targetWidth;
+            canvas.height = targetHeight;
             
             if (progressRiveInstance && typeof progressRiveInstance.resizeDrawingSurfaceToCanvas === "function") {
               progressRiveInstance.resizeDrawingSurfaceToCanvas();
@@ -1680,7 +1664,7 @@ function initProgressRive() {
         }
       }
     });
-    resizeObserver.observe(container);
+    resizeObserver.observe(canvas);
   }
 
   // Convert base64 to array buffer
@@ -1700,7 +1684,7 @@ function initProgressRive() {
     autoplay: true,
     stateMachines: ["State Machine", "State Machine 1"],
     layout: new window.rive.Layout({
-      fit: window.rive.Fit.FitHeight,
+      fit: window.rive.Fit.Cover,
       alignment: window.rive.Alignment.Center
     }),
     onLoad: () => {
