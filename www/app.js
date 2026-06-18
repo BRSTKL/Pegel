@@ -2378,111 +2378,27 @@ function renderSitemapScreen() {
 
   const sub = document.getElementById("sitemap-subtitle");
   if (sub) {
-    sub.textContent = isA1A2 
-      ? `Seviyenize göre organize edilmiş ${state.activeLevel} Almanca ders sırası.` 
-      : `Mind map yapısına göre organize edilmiş ${state.activeLevel} Almanca müfredatı.`;
+    sub.textContent = `Seviyenize göre organize edilmiş ${state.activeLevel} Almanca ders sırası.`;
   }
 
-  if (isA1A2) {
-    classicContent?.classList.add("hidden");
-    pathContent?.classList.remove("hidden");
-    renderLevelPath();
-    
-    // Auto-scroll to active lesson node within path-sitemap-content
-    setTimeout(() => {
-      const activeNode = document.querySelector(".droplet-node.active");
-      const pathSitemap = document.getElementById("path-sitemap-content");
-      if (activeNode && pathSitemap) {
-        const rect = activeNode.getBoundingClientRect();
-        const parentRect = pathSitemap.getBoundingClientRect();
-        const relativeTop = pathSitemap.scrollTop + rect.top - parentRect.top;
-        pathSitemap.scrollTo({
-          top: relativeTop - parentRect.height / 2 + rect.height / 2,
-          behavior: "smooth"
-        });
-      }
-    }, 150);
-    return;
-  }
-
-  // Otherwise, render classic sitemap list (for B1 level)
-  classicContent?.classList.remove("hidden");
-  pathContent?.classList.add("hidden");
-
-  const catNav = document.getElementById("sitemap-category-nav");
-  const sitemapList = document.getElementById("sitemap-topics-list");
-
-  if (!catNav || !sitemapList) return;
+  classicContent?.classList.add("hidden");
+  pathContent?.classList.remove("hidden");
+  renderLevelPath();
   
-  catNav.innerHTML = "";
-  getActiveLessonsData().forEach(cat => {
-    const btn = document.createElement("button");
-    const isActive = state.activeCategory === cat.id;
-    btn.className = `category-tab-btn ${isActive ? 'active' : ''}`;
-    btn.style = `flex-shrink: 0; padding: 7px 14px; border: 1.5px solid ${isActive ? 'var(--theme-purple)' : 'var(--color-border-primary)'}; border-radius: 20px; background: ${isActive ? 'var(--theme-purple)' : 'transparent'}; font-size: 12.5px; font-weight: 600; cursor: pointer; color: ${isActive ? '#fff' : 'var(--color-text-secondary)'}; white-space: nowrap; transition: all 0.15s;`;
-    btn.textContent = cat.name.split(" ")[0];
-    btn.addEventListener("click", () => {
-      state.activeCategory = cat.id;
-      saveState();
-      renderSitemapScreen();
-    });
-    catNav.appendChild(btn);
-  });
-  
-  const activeCatObj = getActiveLessonsData().find(c => c.id === state.activeCategory);
-  if (!activeCatObj) return;
-  
-  sitemapList.innerHTML = "";
-  
-  activeCatObj.subcategories.forEach(sub => {
-    const item = document.createElement("div");
-    item.className = "subcategory-item";
-    item.style = "margin-bottom: 10px;";
-    
-    const isExpanded = state.expandedSubcategories[sub.name];
-    
-    const header = document.createElement("div");
-    header.className = "subcategory-header";
-    header.innerHTML = `
-      <span class="t">${sub.name}</span>
-      <i class="ti ${isExpanded ? 'ti-chevron-down' : 'ti-chevron-right'}" style="color: var(--color-text-tertiary);"></i>
-    `;
-    header.addEventListener("click", () => {
-      state.expandedSubcategories[sub.name] = !isExpanded;
-      saveState();
-      renderSitemapScreen();
-    });
-    item.appendChild(header);
-    
-    if (isExpanded) {
-      const lessonsList = document.createElement("div");
-      lessonsList.className = "lessons-list";
-      
-      if (sub.lessons.length === 0) {
-        const noLesson = document.createElement("div");
-        noLesson.style = "padding: 12px 18px; font-size: 12.5px; color: var(--color-text-tertiary); font-style: italic;";
-        noLesson.textContent = "Bu kategoride henüz ders eklenmemiş.";
-        lessonsList.appendChild(noLesson);
-      } else {
-        sub.lessons.forEach(les => {
-          const isCompleted = getLevelProgress().completedLessons.includes(les.id);
-          const lesItem = document.createElement("div");
-          lesItem.className = `lesson-item ${isCompleted ? 'completed' : ''}`;
-          lesItem.innerHTML = `
-            <span class="lesson-item-title">${les.title}</span>
-            <i class="ti ${isCompleted ? 'ti-circle-check completed' : 'ti-circle'} lesson-status-icon ${isCompleted ? 'completed' : 'incomplete'}"></i>
-          `;
-          lesItem.addEventListener("click", () => {
-            openLesson(les);
-          });
-          lessonsList.appendChild(lesItem);
-        });
-      }
-      item.appendChild(lessonsList);
+  // Auto-scroll to active lesson node within path-sitemap-content
+  setTimeout(() => {
+    const activeNode = document.querySelector(".droplet-node.active");
+    const pathSitemap = document.getElementById("path-sitemap-content");
+    if (activeNode && pathSitemap) {
+      const rect = activeNode.getBoundingClientRect();
+      const parentRect = pathSitemap.getBoundingClientRect();
+      const relativeTop = pathSitemap.scrollTop + rect.top - parentRect.top;
+      pathSitemap.scrollTo({
+        top: relativeTop - parentRect.height / 2 + rect.height / 2,
+        behavior: "smooth"
+      });
     }
-    
-    sitemapList.appendChild(item);
-  });
+  }, 150);
 }
 
 // LESSON DETAILS SCREEN
