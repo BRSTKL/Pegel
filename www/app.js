@@ -1615,14 +1615,31 @@ function showScreen(screenId) {
 function renderHomeScreen() {
   document.getElementById("profile-name").textContent = state.userName;
 
+  const homeLevelBtn = document.getElementById("home-level-btn");
+  const homeLevelMiniBadge = document.getElementById("home-level-mini-badge");
   const homeLevelBtnText = document.getElementById("home-level-btn-text");
-  if (homeLevelBtnText) {
-    homeLevelBtnText.textContent = state.activeLevel === "A1-A2" ? "telc A1-A2" : "telc B1";
-  }
-
-  const homeProfileAvatar = document.getElementById("home-profile-avatar");
-  if (homeProfileAvatar) {
-    homeProfileAvatar.textContent = state.userName ? state.userName.charAt(0).toUpperCase() : "B";
+  
+  if (homeLevelBtn && homeLevelMiniBadge && homeLevelBtnText) {
+    const isB1 = state.activeLevel === "B1";
+    
+    // Set text and mini badge
+    homeLevelBtnText.textContent = isB1 ? "telc B1" : "telc A1-A2";
+    homeLevelMiniBadge.textContent = isB1 ? "B1" : "A1/2";
+    
+    // Set dynamic color themes
+    if (isB1) {
+      homeLevelBtn.style.background = "var(--theme-purple-light)";
+      homeLevelBtn.style.borderColor = "rgba(177, 159, 251, 0.2)";
+      homeLevelBtn.style.color = "var(--theme-purple)";
+      homeLevelMiniBadge.style.background = "var(--theme-purple)";
+      homeLevelMiniBadge.style.color = "var(--color-background-secondary)";
+    } else {
+      homeLevelBtn.style.background = "var(--theme-teal-light)";
+      homeLevelBtn.style.borderColor = "rgba(16, 185, 129, 0.2)";
+      homeLevelBtn.style.color = "var(--theme-teal)";
+      homeLevelMiniBadge.style.background = "var(--theme-teal)";
+      homeLevelMiniBadge.style.color = "var(--color-background-secondary)";
+    }
   }
 
   const levelList = document.getElementById("home-level-list");
