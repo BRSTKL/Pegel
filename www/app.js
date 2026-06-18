@@ -1616,6 +1616,16 @@ function showScreen(screenId) {
 let progressRiveInstance = null;
 let progressRiveInput = null;
 
+function base64ToArrayBuffer(base64) {
+  const binaryString = atob(base64);
+  const len = binaryString.length;
+  const bytes = new Uint8Array(len);
+  for (let i = 0; i < len; i++) {
+    bytes[i] = binaryString.charCodeAt(i);
+  }
+  return bytes.buffer;
+}
+
 function initProgressRive() {
   const canvas = document.getElementById("progress-rive-canvas");
   if (!canvas || progressRiveInstance) return;
@@ -1633,9 +1643,19 @@ function initProgressRive() {
     canvas.height = rect.height;
   }
 
+  // Convert base64 to array buffer
+  let riveBuffer = null;
+  if (typeof WATER_BAR_RIVE_BASE64 !== "undefined") {
+    try {
+      riveBuffer = base64ToArrayBuffer(WATER_BAR_RIVE_BASE64);
+      console.log("Loaded Rive animation data from Base64 string");
+    } catch (e) {
+      console.error("Failed to decode WATER_BAR_RIVE_BASE64:", e);
+    }
+  }
+
   // Initialize Rive
-  progressRiveInstance = new rive.Rive({
-    src: "animations/water_bar.riv",
+  const riveOptions = {
     canvas: canvas,
     autoplay: true,
     stateMachines: ["State Machine", "State Machine 1"],
@@ -1673,7 +1693,15 @@ function initProgressRive() {
       
       updateRiveProgress();
     }
-  });
+  };
+
+  if (riveBuffer) {
+    riveOptions.buffer = riveBuffer;
+  } else {
+    riveOptions.src = "animations/water_bar.riv";
+  }
+
+  progressRiveInstance = new rive.Rive(riveOptions);
 }
 
 function updateRiveProgress() {
