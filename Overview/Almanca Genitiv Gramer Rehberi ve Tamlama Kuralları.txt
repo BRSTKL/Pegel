@@ -1,0 +1,7 @@
+﻿Almanca A2-B1 dilbilgisi bağlamında Genitiv (İsmin -in Hali), Türkçedeki isim tamlamalarına (örneğin: kapının kolu, adamın şapkası) veya aidiyet durumlarına karşılık gelir 1, 2.
+Genitiv kurarken dikkat etmen gereken temel püf noktaları ve değişimler şunlardır:
+* Artikel ve İsim Değişimi: Eril (der) ve nötr (das) kelimelerin artikeli des olur ve ismin sonuna -s veya -es takısı gelir (Örn: des Mannes, des Kindes) 1, 3. Dişil (die) ve çoğul (die) kelimelerin artikeli ise der olur ve isim kelime olarak hiçbir ek almaz 1, 3.
+* Kelime Dizilimi (Devrik Mantık): Türkçede "adamın şapkası" derken, Almancada bu yapı sondan başa doğru yani "şapkası adamın" mantığıyla dizilir (der Hut des Mannes) 3, 4. İkinci kısım her zaman Genitiv yapısında kalarak aidiyeti belirtir.
+* Belirsiz Artikeller (B1 Seviyesi): Belirsiz artikeller kullandığında yapı eines ve einer şekline dönüşür (Örn: ein Lächeln eines Mannes - bir adamın bir gülümsemesi) 5, 6.
+* Çoğullar İçin "von" İstisnası: Çoğul kelimelerin belirsiz hali (bir kelimesinin çoğulu) olmadığı için, belirsiz çoğul tamlamalar kurarken von + Dativ yapısı kullanılır 7, 8. Örneğin genel anlamda "çocukların gülüşü" derken das Lachen von Kindern denilir, çünkü "von" edatı her zaman Dativ gerektirir ve ismin çoğul halinin sonuna "-n" harfi ekletir 8, 9.
+Genitiv yapısının formülü oldukça kuralcıdır. Bu yapıyı cümle içinde daha rahat görebilmen için, "öğretmenin çantası masada duruyor" gibi tamlamaların cümle içindeki farklı görevlerini inceleyerek devam edelim mi?

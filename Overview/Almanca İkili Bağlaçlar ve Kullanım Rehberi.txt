@@ -1,0 +1,11 @@
+﻿Almanca'da bağlaçlar (Konnektoren) genel olarak cümleleri veya cümle ögelerini birbirine bağlamak için kullanılır 1. İkili bağlaçlar (Doppelkonnektoren) ise tam olarak aynı işlevi iki ayrı parçadan oluşarak yerine getirir ve iki durum arasındaki zıtlık, seçenek, koşul veya ekleme ilişkilerini daha vurgulu bir şekilde ifade eder 1-3.
+En çok karşına çıkacak ikili bağlaçlar ve kattıkları anlamlar şunlardır:
+* sowohl ... als auch ... (Hem ... hem de ...): İki seçeneğin de olumlu ve geçerli olduğunu gösterir 4, 5.
+* weder ... noch ... (Ne ... ne de ...): Her iki seçeneğin de geçersiz olduğunu belirtir. Yapısı gereği zaten olumsuz bir anlam taşıdığı için cümlede "nicht" veya "kein" gibi ekstra olumsuzluk kelimeleri kesinlikle kullanılmaz 6, 7.
+* entweder ... oder ... (Ya ... ya da ...): İki seçenekten yalnızca birini seçmeniz veya ikisinden birinin gerçekleşeceği durumlarda kullanılır 4, 8.
+* nicht nur ..., sondern auch ... (Sadece ... değil, aynı zamanda ...): İki durumu da kapsar, ancak özellikle ikinci duruma ekstra vurgu ve övgü katar 1, 9.
+* zwar ..., aber ... (Gerçi/Her ne kadar ... ama/yine de ...): Bir durumu veya gerçeği kabul edip, hemen ardından bir kısıtlama veya zıtlık getirir 10, 11.
+* einerseits ..., andererseits ... (Bir yandan ... diğer yandan ...): İki farklı durumu, avantajı ve dezavantajı birbiriyle tartmak için kullanılır 12, 13.
+* je ..., desto/umso ... (Ne kadar ... o kadar ...): İki eylem arasındaki artış veya azalış orantısını gösterir. Bu yapıda her iki tarafta da mutlaka karşılaştırma bildiren (Komparativ) sıfatlar (daha iyi, daha fazla vb.) kullanılmalıdır 14, 15.
+Önemli Püf Noktası (Virgül Kuralı):İkili bağlaçlarda noktalama işaretleri kalıptır. sowohl... als auch, entweder... oder ve kelimeleri birbirine bağlıyorsa weder... noch bağlaçlarında virgül kullanılmaz 4, 16, 17. Ancak nicht nur..., sondern auch..., zwar..., aber..., einerseits..., andererseits... ve je..., desto... yapılarında parçalar mutlaka virgül ile ayrılır 18.
+Bu bağlaçların bazıları cümledeki kelime dizilimini (özne ve fiilin yerini) etkiler. İstersen cümle yapısını en çok değiştiren "je ... desto" veya "weder ... noch" kalıplarının örnek cümlelerine bakarak devam edebiliriz. Hangisiyle ilerleyelim?
