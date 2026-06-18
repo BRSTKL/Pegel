@@ -49,6 +49,31 @@ function playSound(type) {
   }
 }
 
+// Global click sound feedback
+document.addEventListener("click", (e) => {
+  // Check if click target or its parent is interactive
+  const target = e.target.closest("button, a, input, select, textarea, [onclick]");
+  if (target) {
+    if (target.disabled || target.hasAttribute("disabled") || window.getComputedStyle(target).pointerEvents === "none") {
+      return;
+    }
+    playSound("click");
+    return;
+  }
+  
+  let el = e.target;
+  while (el && el !== document.body) {
+    if (window.getComputedStyle(el).pointerEvents === "none") {
+      return;
+    }
+    if (window.getComputedStyle(el).cursor === "pointer" || el.classList.contains("interactive-element")) {
+      playSound("click");
+      break;
+    }
+    el = el.parentElement;
+  }
+});
+
 // --- Level Helper Functions ---
 function getLevelProgress() {
   if (!state.progress) state.progress = { "A1-A2": emptyLevelProgress(), "B1": emptyLevelProgress() };
