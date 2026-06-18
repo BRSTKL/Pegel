@@ -1628,129 +1628,7 @@ function base64ToArrayBuffer(base64) {
 }
 
 function initProgressRive() {
-  const container = document.getElementById("progress-rive-container");
-  const canvas = document.getElementById("progress-rive-canvas");
-  if (!canvas || !container || progressRiveInstance) return;
-
-  if (!window.rive) {
-    // Retry in 100ms if Rive library is not loaded yet
-    setTimeout(initProgressRive, 100);
-    return;
-  }
-
-  // Scale multiplier to stretch the vertical artboard's water box horizontally
-  const multiplier = 2.8;
-
-  // Set backing store dimensions to match the rotated container dimensions
-  const containerRect = container.getBoundingClientRect();
-  if (containerRect.width > 0 && containerRect.height > 0) {
-    const targetW = Math.floor(containerRect.width * multiplier);
-    const targetH = Math.floor(containerRect.height);
-    
-    // Set canvas CSS size (flipped because of rotation)
-    canvas.style.width = targetH + "px";
-    canvas.style.height = targetW + "px";
-    
-    // Set canvas backing store size
-    canvas.width = targetH;
-    canvas.height = targetW;
-  }
-
-  // Resize observer to handle visibility and sizing changes dynamically on the container
-  if (window.ResizeObserver) {
-    const resizeObserver = new ResizeObserver((entries) => {
-      for (let entry of entries) {
-        const r = entry.contentRect;
-        if (r.width > 0 && r.height > 0) {
-          const targetW = Math.floor(r.width * multiplier);
-          const targetH = Math.floor(r.height);
-          
-          // Flipped canvas size
-          const canvasCSSWidth = targetH + "px";
-          const canvasCSSHeight = targetW + "px";
-          
-          if (canvas.style.width !== canvasCSSWidth || canvas.style.height !== canvasCSSHeight) {
-            canvas.style.width = canvasCSSWidth;
-            canvas.style.height = canvasCSSHeight;
-            
-            canvas.width = targetH;
-            canvas.height = targetW;
-            
-            if (progressRiveInstance && typeof progressRiveInstance.resizeDrawingSurfaceToCanvas === "function") {
-              progressRiveInstance.resizeDrawingSurfaceToCanvas();
-            }
-          }
-        }
-      }
-    });
-    resizeObserver.observe(container);
-  }
-
-  // Convert base64 to array buffer
-  let riveBuffer = null;
-  if (typeof WATER_BAR_RIVE_BASE64 !== "undefined") {
-    try {
-      riveBuffer = base64ToArrayBuffer(WATER_BAR_RIVE_BASE64);
-      console.log("Loaded Rive animation data from Base64 string");
-    } catch (e) {
-      console.error("Failed to decode WATER_BAR_RIVE_BASE64:", e);
-    }
-  }
-
-  // Initialize Rive
-  const riveOptions = {
-    canvas: canvas,
-    autoplay: true,
-    stateMachines: ["State Machine", "State Machine 1"],
-    layout: new window.rive.Layout({
-      fit: window.rive.Fit.FitHeight,
-      alignment: window.rive.Alignment.Center
-    }),
-    onLoad: () => {
-      if (typeof progressRiveInstance.resizeDrawingSurfaceToCanvas === "function") {
-        progressRiveInstance.resizeDrawingSurfaceToCanvas();
-      }
-      
-      console.log("Rive animation loaded successfully!");
-      console.log("State Machines:", progressRiveInstance.stateMachineNames);
-      console.log("Animations:", progressRiveInstance.animationNames);
-      
-      try {
-        const smName = progressRiveInstance.stateMachineNames[0] || "State Machine";
-        const inputs = progressRiveInstance.stateMachineInputs(smName);
-        console.log(`Inputs for ${smName}:`, inputs);
-        
-        if (inputs) {
-          progressRiveInput = inputs.find(i => 
-            i.name.toLowerCase().includes("level") || 
-            i.name.toLowerCase().includes("progress") || 
-            i.name.toLowerCase().includes("percent") || 
-            i.name.toLowerCase().includes("fill") || 
-            i.name.toLowerCase().includes("volume") || 
-            i.type === 1 // 1: Number type input in Rive
-          );
-          if (progressRiveInput) {
-            console.log(`Found progress control input: "${progressRiveInput.name}"`);
-          } else if (inputs.length > 0) {
-            progressRiveInput = inputs[0];
-            console.log(`Fallback control input: "${progressRiveInput.name}"`);
-          }
-        }
-      } catch (e) {
-        console.warn("Could not retrieve Rive state machine inputs:", e);
-      }
-      
-      updateRiveProgress();
-    }
-  };
-
-  if (riveBuffer) {
-    riveOptions.buffer = riveBuffer;
-  } else {
-    riveOptions.src = "animations/water_bar.riv";
-  }
-
-  progressRiveInstance = new rive.Rive(riveOptions);
+  updateRiveProgress();
 }
 
 function updateRiveProgress() {
@@ -1758,11 +1636,9 @@ function updateRiveProgress() {
   const completedCount = getLevelProgress().completedLessons.length;
   const progressPercent = totalLessons > 0 ? Math.round((completedCount / totalLessons) * 100) : 0;
   
-  if (progressRiveInput) {
-    progressRiveInput.value = progressPercent;
-    console.log(`Rive progress input "${progressRiveInput.name}" set to: ${progressPercent}`);
-  } else {
-    console.log(`Rive not ready yet, progress is ${progressPercent}%`);
+  const fill = document.getElementById("liquid-progress-fill");
+  if (fill) {
+    fill.style.width = progressPercent + "%";
   }
 }
 

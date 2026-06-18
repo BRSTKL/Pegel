@@ -65,8 +65,7 @@
   <!-- App Stylesheet -->
   <link rel="stylesheet" href="style.css?v=21">
   
-  <!-- Rive Canvas Runtime -->
-  <script src="rive.js?v=26"></script>
+
   
   <!-- Web Clip / PWA Support -->
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -187,8 +186,11 @@
               <p class="t" style="font-size: 13.5px; font-weight: 500; margin:0;" id="home-level-label">B1 hedefine ilerleme</p>
               <p class="t" style="font-size: 14.5px; font-weight: 600; margin:0;" id="progress-text-percent">0%</p>
             </div>
-            <div id="progress-rive-container" style="height: 38px; background: var(--color-background-tertiary); border-radius: var(--border-radius-full); overflow:hidden; display: flex; align-items: center; position: relative; border: 1px solid var(--color-border-primary);">
-              <canvas id="progress-rive-canvas" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-90deg); transform-origin: center center; display: block;"></canvas>
+            <div class="liquid-progress-container" style="height: 38px;">
+              <div class="liquid-progress-fill" id="liquid-progress-fill">
+                <div class="liquid-wave liquid-wave-1"></div>
+                <div class="liquid-wave liquid-wave-2"></div>
+              </div>
             </div>
             <div style="display:flex; justify-content:space-between; margin-top: 8px;">
               <span class="ts" style="font-size: 11.5px;" id="total-topics-count">15 alt konu</span>
@@ -1324,7 +1326,6 @@
   <script src="lesson_quizzes_data_a1a2.js?v=1"></script>
   <script src="lesson_quizzes_data_b1.js?v=1"></script>
   <script src="verben_prep_data.js?v=24"></script>
-  <script src="rive_data.js?v=26"></script>
   <script src="app.js?v=26"></script>
 </body>
 </html>
