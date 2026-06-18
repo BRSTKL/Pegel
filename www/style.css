@@ -2553,6 +2553,7 @@ body.is-native .app-container {
   height: 100%;
   filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.3));
   transition: filter 0.2s ease;
+  overflow: visible !important;
 }
 
 .droplet-node.active .droplet-svg {

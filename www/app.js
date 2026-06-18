@@ -2243,7 +2243,7 @@ function renderLevelPath() {
             <stop offset="100%" stop-color="${endColor}" />
           </linearGradient>
         </defs>
-        <path d="M 32,2 C 30,12 12,28 12,44 A 20,20 0 0,0 52,44 C 52,28 34,12 32,2 Z" 
+        <path d="M 32,4 C 30,13 13,28 13,43 A 19,19 0 0,0 51,43 C 51,28 34,13 32,4 Z" 
               fill="url(#grad-${les.id}-${index})" stroke="${strokeColor}" stroke-width="${strokeWidth}" />
       </svg>
       <div class="droplet-icon-container">
