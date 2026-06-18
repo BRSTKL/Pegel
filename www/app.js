@@ -1618,14 +1618,27 @@ let progressRiveInput = null;
 
 function initProgressRive() {
   const canvas = document.getElementById("progress-rive-canvas");
-  if (!canvas || progressRiveInstance || !window.rive) return;
+  if (!canvas || progressRiveInstance) return;
+
+  if (!window.rive) {
+    // Retry in 100ms if Rive library is not loaded yet
+    setTimeout(initProgressRive, 100);
+    return;
+  }
+
+  // Set backing store dimensions to match the display size of canvas
+  const rect = canvas.getBoundingClientRect();
+  if (rect.width > 0 && rect.height > 0) {
+    canvas.width = rect.width;
+    canvas.height = rect.height;
+  }
 
   // Initialize Rive
   progressRiveInstance = new rive.Rive({
-    src: "animations/715-6730-water-bar-demo (1).riv",
+    src: "animations/water_bar.riv",
     canvas: canvas,
     autoplay: true,
-    stateMachines: ["State Machine 1", "state_machine", "StateMachine", "water_bar"],
+    stateMachines: ["State Machine", "State Machine 1"],
     onLoad: () => {
       progressRiveInstance.resizeDrawingToCanvas();
       
@@ -1634,7 +1647,7 @@ function initProgressRive() {
       console.log("Animations:", progressRiveInstance.animationNames);
       
       try {
-        const smName = progressRiveInstance.stateMachineNames[0] || "State Machine 1";
+        const smName = progressRiveInstance.stateMachineNames[0] || "State Machine";
         const inputs = progressRiveInstance.stateMachineInputs(smName);
         console.log(`Inputs for ${smName}:`, inputs);
         
