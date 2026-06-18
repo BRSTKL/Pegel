@@ -1861,6 +1861,46 @@ function initBunnyAnimation() {
   }
 }
 
+let houseRiveInstance = null;
+
+function initHouseAnimation() {
+  const canvas = document.getElementById("house-rive-canvas");
+  if (!canvas) return;
+  
+  if (typeof rive === "undefined") {
+    console.warn("Rive library is not loaded yet.");
+    return;
+  }
+  
+  if (houseRiveInstance) {
+    houseRiveInstance.cleanup();
+    houseRiveInstance = null;
+  }
+  
+  try {
+    houseRiveInstance = new rive.Rive({
+      src: "animations/house.riv",
+      canvas: canvas,
+      autoplay: true,
+      onLoad: () => {
+        if (houseRiveInstance) {
+          if (typeof houseRiveInstance.resizeDrawingSurfaceToCanvas === "function") {
+            houseRiveInstance.resizeDrawingSurfaceToCanvas();
+          } else if (typeof houseRiveInstance.resizeDrawingToCanvas === "function") {
+            houseRiveInstance.resizeDrawingToCanvas();
+          }
+          houseRiveInstance.play();
+        }
+      },
+      onLoadError: (err) => {
+        console.error("Rive house load error:", err);
+      }
+    });
+  } catch (e) {
+    console.error("Rive house initialization error:", e);
+  }
+}
+
 function base64ToArrayBuffer(base64) {
   const cleanBase64 = base64.replace(/\s/g, '');
   const binaryString = atob(cleanBase64);
@@ -2180,6 +2220,10 @@ function renderLevelPath() {
     bunnyRiveInstance.cleanup();
     bunnyRiveInstance = null;
   }
+  if (houseRiveInstance) {
+    houseRiveInstance.cleanup();
+    houseRiveInstance = null;
+  }
 
   const pathView = document.getElementById("level-path-view");
   if (!pathView) return;
@@ -2217,6 +2261,7 @@ function renderLevelPath() {
   let nodeInCategoryIndex = 0;
   let firstCategoryY0 = null;
   let secondCategoryY0 = null;
+  let thirdCategoryY0 = null;
   
   processedLessons.forEach((les, index) => {
     if (les.categoryId !== lastCategoryId) {
@@ -2241,6 +2286,9 @@ function renderLevelPath() {
       }
       if (catIndex === 2 && secondCategoryY0 === null) {
         secondCategoryY0 = currentY;
+      }
+      if (catIndex === 3 && thirdCategoryY0 === null) {
+        thirdCategoryY0 = currentY;
       }
       
       lastCategoryId = les.categoryId;
@@ -2357,11 +2405,28 @@ function renderLevelPath() {
     pathView.appendChild(bunnyContainer);
   }
 
-  if (firstCategoryY0 !== null || secondCategoryY0 !== null) {
+  // Render house animation container in the third category's empty left space
+  if (thirdCategoryY0 !== null) {
+    const houseTop = thirdCategoryY0 + 85; // Align it next to droplet 2 & 3 in the third category
+    const houseContainer = document.createElement("div");
+    houseContainer.id = "house-animation-container";
+    houseContainer.style.position = "absolute";
+    houseContainer.style.left = "8px"; // Left side
+    houseContainer.style.top = `${houseTop}px`;
+    houseContainer.style.width = "180px";
+    houseContainer.style.height = "180px";
+    houseContainer.style.zIndex = "1";
+    houseContainer.style.pointerEvents = "none";
+    houseContainer.innerHTML = `<canvas id="house-rive-canvas" width="360" height="360" style="width: 100%; height: 100%;"></canvas>`;
+    pathView.appendChild(houseContainer);
+  }
+
+  if (firstCategoryY0 !== null || secondCategoryY0 !== null || thirdCategoryY0 !== null) {
     setTimeout(() => {
       initCatAnimation();
       initCatAnimation2();
       initBunnyAnimation();
+      initHouseAnimation();
     }, 50);
   }
 }
