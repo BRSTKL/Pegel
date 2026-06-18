@@ -1981,6 +1981,46 @@ function initCatPlayingAnimation() {
   }
 }
 
+let octoRiveInstance = null;
+
+function initOctoAnimation() {
+  const canvas = document.getElementById("octo-rive-canvas");
+  if (!canvas) return;
+  
+  if (typeof rive === "undefined") {
+    console.warn("Rive library is not loaded yet.");
+    return;
+  }
+  
+  if (octoRiveInstance) {
+    octoRiveInstance.cleanup();
+    octoRiveInstance = null;
+  }
+  
+  try {
+    octoRiveInstance = new rive.Rive({
+      src: "animations/octo.riv",
+      canvas: canvas,
+      autoplay: true,
+      onLoad: () => {
+        if (octoRiveInstance) {
+          if (typeof octoRiveInstance.resizeDrawingSurfaceToCanvas === "function") {
+            octoRiveInstance.resizeDrawingSurfaceToCanvas();
+          } else if (typeof octoRiveInstance.resizeDrawingToCanvas === "function") {
+            octoRiveInstance.resizeDrawingToCanvas();
+          }
+          octoRiveInstance.play();
+        }
+      },
+      onLoadError: (err) => {
+        console.error("Rive octo load error:", err);
+      }
+    });
+  } catch (e) {
+    console.error("Rive octo initialization error:", e);
+  }
+}
+
 function base64ToArrayBuffer(base64) {
   const cleanBase64 = base64.replace(/\s/g, '');
   const binaryString = atob(cleanBase64);
@@ -2312,6 +2352,10 @@ function renderLevelPath() {
     catPlayingRiveInstance.cleanup();
     catPlayingRiveInstance = null;
   }
+  if (octoRiveInstance) {
+    octoRiveInstance.cleanup();
+    octoRiveInstance = null;
+  }
 
   const pathView = document.getElementById("level-path-view");
   if (!pathView) return;
@@ -2351,6 +2395,7 @@ function renderLevelPath() {
   let secondCategoryY0 = null;
   let thirdCategoryY0 = null;
   let fourthCategoryY0 = null;
+  let fifthCategoryY0 = null;
   let sixthCategoryY0 = null;
   
   processedLessons.forEach((les, index) => {
@@ -2382,6 +2427,9 @@ function renderLevelPath() {
       }
       if (catIndex === 4 && fourthCategoryY0 === null) {
         fourthCategoryY0 = currentY;
+      }
+      if (catIndex === 5 && fifthCategoryY0 === null) {
+        fifthCategoryY0 = currentY;
       }
       if (catIndex === 6 && sixthCategoryY0 === null) {
         sixthCategoryY0 = currentY;
@@ -2549,7 +2597,23 @@ function renderLevelPath() {
     pathView.appendChild(catPlayingContainer);
   }
 
-  if (firstCategoryY0 !== null || secondCategoryY0 !== null || thirdCategoryY0 !== null || fourthCategoryY0 !== null || sixthCategoryY0 !== null) {
+  // Render octo animation container in the fifth category's empty right space
+  if (fifthCategoryY0 !== null) {
+    const octoTop = fifthCategoryY0 - 250; // Align it on the right side above Category 5 banner
+    const octoContainer = document.createElement("div");
+    octoContainer.id = "octo-animation-container";
+    octoContainer.style.position = "absolute";
+    octoContainer.style.right = "8px"; // Right side
+    octoContainer.style.top = `${octoTop}px`;
+    octoContainer.style.width = "180px";
+    octoContainer.style.height = "180px";
+    octoContainer.style.zIndex = "1";
+    octoContainer.style.pointerEvents = "none";
+    octoContainer.innerHTML = `<canvas id="octo-rive-canvas" width="360" height="360" style="width: 100%; height: 100%;"></canvas>`;
+    pathView.appendChild(octoContainer);
+  }
+
+  if (firstCategoryY0 !== null || secondCategoryY0 !== null || thirdCategoryY0 !== null || fourthCategoryY0 !== null || fifthCategoryY0 !== null || sixthCategoryY0 !== null) {
     setTimeout(() => {
       initCatAnimation();
       initCatAnimation2();
@@ -2557,6 +2621,7 @@ function renderLevelPath() {
       initHouseAnimation();
       initHandshakeAnimation();
       initCatPlayingAnimation();
+      initOctoAnimation();
     }, 50);
   }
 }
