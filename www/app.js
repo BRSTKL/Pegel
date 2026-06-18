@@ -39,13 +39,44 @@ let state = {
   }
 };
 
-// Sound playback utility
+// Sound playback and haptic vibration utility
 function playSound(type) {
   try {
     const audio = new Audio(`sounds/${type}.mp3`);
+    if (type === "click") {
+      audio.volume = 0.3; // Lower click volume to 30%
+    } else if (type === "true" || type === "false") {
+      audio.volume = 0.65; // Soften correct/incorrect sounds slightly
+    } else {
+      audio.volume = 0.8; // Standard volume for done sound
+    }
     audio.play().catch(err => console.log("Sound play error:", err));
   } catch (e) {
     console.error("Audio creation failed:", e);
+  }
+
+  // Trigger phone haptic feedback vibration
+  try {
+    if (window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.Haptics) {
+      const Haptics = window.Capacitor.Plugins.Haptics;
+      if (type === "true" || type === "done") {
+        Haptics.notification({ type: "SUCCESS" });
+      } else if (type === "false") {
+        Haptics.notification({ type: "ERROR" });
+      } else if (type === "click") {
+        Haptics.impact({ style: "LIGHT" });
+      }
+    } else if (navigator.vibrate) {
+      if (type === "true" || type === "done") {
+        navigator.vibrate([30, 40, 30]);
+      } else if (type === "false") {
+        navigator.vibrate([60, 60, 60, 60]);
+      } else if (type === "click") {
+        navigator.vibrate(8); // Soft tick (8ms)
+      }
+    }
+  } catch (e) {
+    console.warn("Haptic feedback failed:", e);
   }
 }
 
