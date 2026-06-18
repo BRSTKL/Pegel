@@ -23,6 +23,9 @@
   <!-- App Stylesheet -->
   <link rel="stylesheet" href="style.css?v=21">
   
+  <!-- Rive Canvas Runtime -->
+  <script src="https://unpkg.com/@rive-app/canvas@2.9.1"></script>
+  
   <!-- Web Clip / PWA Support -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -142,8 +145,8 @@
               <p class="t" style="font-size: 13.5px; font-weight: 500; margin:0;" id="home-level-label">B1 hedefine ilerleme</p>
               <p class="t" style="font-size: 14.5px; font-weight: 600; margin:0;" id="progress-text-percent">0%</p>
             </div>
-            <div style="height: 5px; background: var(--color-background-tertiary); border-radius: 99px; overflow:hidden;">
-              <div id="progress-bar-fill" style="width: 0%; height: 100%; border-radius: 99px;"></div>
+            <div style="height: 28px; background: var(--color-background-tertiary); border-radius: var(--border-radius-full); overflow:hidden; display: flex; align-items: center; position: relative; border: 1px solid var(--color-border-primary);">
+              <canvas id="progress-rive-canvas" style="width: 100%; height: 100%; display: block;"></canvas>
             </div>
             <div style="display:flex; justify-content:space-between; margin-top: 8px;">
               <span class="ts" style="font-size: 11.5px;" id="total-topics-count">15 alt konu</span>

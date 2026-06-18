@@ -646,6 +646,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     showScreen("login");
   }
   updateStreakBadge();
+  initProgressRive();
 
   // Home Screen Level Switcher Interactivity
   const homeLevelBtn = document.getElementById("home-level-btn");
@@ -1611,6 +1612,70 @@ function showScreen(screenId) {
   }
 }
 
+// RIVE PROGRESS BAR INTEGRATION
+let progressRiveInstance = null;
+let progressRiveInput = null;
+
+function initProgressRive() {
+  const canvas = document.getElementById("progress-rive-canvas");
+  if (!canvas || progressRiveInstance || !window.rive) return;
+
+  // Initialize Rive
+  progressRiveInstance = new rive.Rive({
+    src: "animations/715-6730-water-bar-demo (1).riv",
+    canvas: canvas,
+    autoplay: true,
+    stateMachines: ["State Machine 1", "state_machine", "StateMachine", "water_bar"],
+    onLoad: () => {
+      progressRiveInstance.resizeDrawingToCanvas();
+      
+      console.log("Rive animation loaded successfully!");
+      console.log("State Machines:", progressRiveInstance.stateMachineNames);
+      console.log("Animations:", progressRiveInstance.animationNames);
+      
+      try {
+        const smName = progressRiveInstance.stateMachineNames[0] || "State Machine 1";
+        const inputs = progressRiveInstance.stateMachineInputs(smName);
+        console.log(`Inputs for ${smName}:`, inputs);
+        
+        if (inputs) {
+          progressRiveInput = inputs.find(i => 
+            i.name.toLowerCase().includes("level") || 
+            i.name.toLowerCase().includes("progress") || 
+            i.name.toLowerCase().includes("percent") || 
+            i.name.toLowerCase().includes("fill") || 
+            i.name.toLowerCase().includes("volume") || 
+            i.type === 1 // 1: Number type input in Rive
+          );
+          if (progressRiveInput) {
+            console.log(`Found progress control input: "${progressRiveInput.name}"`);
+          } else if (inputs.length > 0) {
+            progressRiveInput = inputs[0];
+            console.log(`Fallback control input: "${progressRiveInput.name}"`);
+          }
+        }
+      } catch (e) {
+        console.warn("Could not retrieve Rive state machine inputs:", e);
+      }
+      
+      updateRiveProgress();
+    }
+  });
+}
+
+function updateRiveProgress() {
+  const totalLessons = countTotalLessons();
+  const completedCount = getLevelProgress().completedLessons.length;
+  const progressPercent = totalLessons > 0 ? Math.round((completedCount / totalLessons) * 100) : 0;
+  
+  if (progressRiveInput) {
+    progressRiveInput.value = progressPercent;
+    console.log(`Rive progress input "${progressRiveInput.name}" set to: ${progressPercent}`);
+  } else {
+    console.log(`Rive not ready yet, progress is ${progressPercent}%`);
+  }
+}
+
 // HOME SCREEN RENDERING
 function renderHomeScreen() {
   document.getElementById("profile-name").textContent = state.userName;
@@ -1711,7 +1776,7 @@ function renderHomeScreen() {
   const progressPercent = totalLessons > 0 ? Math.round((completedCount / totalLessons) * 100) : 0;
   
   document.getElementById("progress-text-percent").textContent = `${progressPercent}%`;
-  document.getElementById("progress-bar-fill").style.width = `${progressPercent}%`;
+  updateRiveProgress();
   document.getElementById("completed-fraction").textContent = `${completedCount}/${totalLessons} tamamlandı`;
   
   const totalTopicsCount = document.getElementById("total-topics-count");
