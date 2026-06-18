@@ -1821,6 +1821,46 @@ function initCatAnimation2() {
   }
 }
 
+let bunnyRiveInstance = null;
+
+function initBunnyAnimation() {
+  const canvas = document.getElementById("bunny-rive-canvas");
+  if (!canvas) return;
+  
+  if (typeof rive === "undefined") {
+    console.warn("Rive library is not loaded yet.");
+    return;
+  }
+  
+  if (bunnyRiveInstance) {
+    bunnyRiveInstance.cleanup();
+    bunnyRiveInstance = null;
+  }
+  
+  try {
+    bunnyRiveInstance = new rive.Rive({
+      src: "animations/bunny.riv",
+      canvas: canvas,
+      autoplay: true,
+      onLoad: () => {
+        if (bunnyRiveInstance) {
+          if (typeof bunnyRiveInstance.resizeDrawingSurfaceToCanvas === "function") {
+            bunnyRiveInstance.resizeDrawingSurfaceToCanvas();
+          } else if (typeof bunnyRiveInstance.resizeDrawingToCanvas === "function") {
+            bunnyRiveInstance.resizeDrawingToCanvas();
+          }
+          bunnyRiveInstance.play();
+        }
+      },
+      onLoadError: (err) => {
+        console.error("Rive bunny load error:", err);
+      }
+    });
+  } catch (e) {
+    console.error("Rive bunny initialization error:", e);
+  }
+}
+
 function base64ToArrayBuffer(base64) {
   const cleanBase64 = base64.replace(/\s/g, '');
   const binaryString = atob(cleanBase64);
@@ -2136,6 +2176,10 @@ function renderLevelPath() {
     catRiveInstance2.cleanup();
     catRiveInstance2 = null;
   }
+  if (bunnyRiveInstance) {
+    bunnyRiveInstance.cleanup();
+    bunnyRiveInstance = null;
+  }
 
   const pathView = document.getElementById("level-path-view");
   if (!pathView) return;
@@ -2172,6 +2216,7 @@ function renderLevelPath() {
   let lastCategoryId = null;
   let nodeInCategoryIndex = 0;
   let firstCategoryY0 = null;
+  let secondCategoryY0 = null;
   
   processedLessons.forEach((les, index) => {
     if (les.categoryId !== lastCategoryId) {
@@ -2193,6 +2238,9 @@ function renderLevelPath() {
       
       if (firstCategoryY0 === null) {
         firstCategoryY0 = currentY;
+      }
+      if (catIndex === 2 && secondCategoryY0 === null) {
+        secondCategoryY0 = currentY;
       }
       
       lastCategoryId = les.categoryId;
@@ -2291,10 +2339,29 @@ function renderLevelPath() {
     catContainer2.style.pointerEvents = "none";
     catContainer2.innerHTML = `<canvas id="cat-rive-canvas-2" width="360" height="360" style="width: 100%; height: 100%;"></canvas>`;
     pathView.appendChild(catContainer2);
-    
+  }
+
+  // Render bunny animation container in the second category's empty left space
+  if (secondCategoryY0 !== null) {
+    const bunnyTop = secondCategoryY0 + 85; // Align it next to droplet 2 & 3 in the second category
+    const bunnyContainer = document.createElement("div");
+    bunnyContainer.id = "bunny-animation-container";
+    bunnyContainer.style.position = "absolute";
+    bunnyContainer.style.left = "8px"; // Left side
+    bunnyContainer.style.top = `${bunnyTop}px`;
+    bunnyContainer.style.width = "180px";
+    bunnyContainer.style.height = "180px";
+    bunnyContainer.style.zIndex = "1";
+    bunnyContainer.style.pointerEvents = "none";
+    bunnyContainer.innerHTML = `<canvas id="bunny-rive-canvas" width="360" height="360" style="width: 100%; height: 100%;"></canvas>`;
+    pathView.appendChild(bunnyContainer);
+  }
+
+  if (firstCategoryY0 !== null || secondCategoryY0 !== null) {
     setTimeout(() => {
       initCatAnimation();
       initCatAnimation2();
+      initBunnyAnimation();
     }, 50);
   }
 }
