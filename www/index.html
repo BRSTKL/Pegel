@@ -109,40 +109,34 @@
         
         <!-- Header Card -->
         <div class="c-purple">
-          <!-- Row 1: Merhaba & Level Switcher/Avatar -->
-          <div style="display:flex; align-items:center; justify-content:space-between;">
+          <!-- Row 1: Merhaba & Avatar -->
+          <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom: 2px;">
             <span class="ts" style="font-size: 13px; font-weight: 500; opacity: 0.85;">Merhaba</span>
-            <div style="display:flex; align-items:center; gap: 8px; position: relative;">
-              <!-- Level Switcher -->
-              <div style="position: relative;" id="home-level-switcher-container">
-                <button id="home-level-btn" style="display:flex; align-items:center; gap: 4px; padding: 6px 12px; border-radius: var(--border-radius-full); border: 1px solid var(--color-border-primary); background: var(--theme-purple-light); color: var(--theme-purple); font-size: 12.5px; font-weight: 600; cursor: pointer; transition: all var(--transition-fast);">
-                  <span id="home-level-btn-text">telc B1</span>
-                  <i class="ti ti-chevron-down" style="font-size: 11px; color: var(--theme-purple) !important;"></i>
-                </button>
-                <!-- Dropdown Menu -->
-                <div id="home-level-dropdown" class="hidden" style="position: absolute; right: 0; top: calc(100% + 8px); width: 250px; background: var(--color-background-secondary); border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); box-shadow: var(--shadow-lg); z-index: 1000; padding: 12px; font-family: inherit;">
-                  <div style="font-size: 11px; font-weight: 600; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 10px;">Seviye Değiştir</div>
-                  <div style="display: flex; flex-direction: column; gap: 6px;" id="home-level-list">
-                    <!-- Dropdown Options -->
-                  </div>
-                  <div style="margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--color-border-secondary); font-size: 10.5px; color: var(--color-text-tertiary); line-height: 1.4;">
-                    Çalışma ilerlemeniz her seviye için ayrı olarak kaydedilir.
-                  </div>
-                </div>
-              </div>
-              
-              <!-- Profile Avatar -->
-              <div id="home-profile-avatar" class="c-purple-bg" style="width: 32px; height: 32px; border-radius: 50%; display:flex; align-items:center; justify-content:center; font-size: 13px; font-weight: 600; border: 1px solid var(--color-border-primary); color: var(--theme-purple); cursor: pointer; transition: all var(--transition-fast);">
-                B
-              </div>
+            <!-- Profile Avatar -->
+            <div id="home-profile-avatar" class="c-purple-bg" style="width: 28px; height: 28px; border-radius: 50%; display:flex; align-items:center; justify-content:center; font-size: 11px; font-weight: 600; border: 1px solid var(--color-border-primary); color: var(--theme-purple); cursor: pointer; transition: all var(--transition-fast);">
+              B
             </div>
           </div>
           
-          <!-- Row 2: Name & Streak -->
-          <div style="display:flex; align-items:center; gap: 10px; margin-top: 4px; margin-bottom: 20px;">
+          <!-- Row 2: Name & Level Switcher -->
+          <div style="display:flex; align-items:center; justify-content:space-between; margin-top: 4px; margin-bottom: 20px;">
             <span class="t" style="font-size: 22px; font-weight: 700; letter-spacing: -0.3px;" id="profile-name">Baris</span>
-            <div id="streak-counter" style="padding: 4px 10px; border-radius: var(--border-radius-full); display:flex; align-items:center; gap: 4px; font-weight: 600; font-size: 11px;">
-              <!-- Streak counter -->
+            <!-- Level Switcher -->
+            <div style="position: relative;" id="home-level-switcher-container">
+              <button id="home-level-btn" style="display:flex; align-items:center; gap: 4px; padding: 4px 10px; border-radius: var(--border-radius-full); border: 1px solid var(--color-border-primary); background: var(--theme-purple-light); color: var(--theme-purple); font-size: 11.5px; font-weight: 600; cursor: pointer; transition: all var(--transition-fast);">
+                <span id="home-level-btn-text">telc B1</span>
+                <i class="ti ti-chevron-down" style="font-size: 10px; color: var(--theme-purple) !important;"></i>
+              </button>
+              <!-- Dropdown Menu -->
+              <div id="home-level-dropdown" class="hidden" style="position: absolute; right: 0; top: calc(100% + 6px); width: 220px; background: var(--color-background-secondary); border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); box-shadow: var(--shadow-lg); z-index: 1000; padding: 10px; font-family: inherit;">
+                <div style="font-size: 10px; font-weight: 600; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px;">Seviye Değiştir</div>
+                <div style="display: flex; flex-direction: column; gap: 5px;" id="home-level-list">
+                  <!-- Dropdown Options -->
+                </div>
+                <div style="margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--color-border-secondary); font-size: 9.5px; color: var(--color-text-tertiary); line-height: 1.4;">
+                  Çalışma ilerlemeniz her seviye için ayrı olarak kaydedilir.
+                </div>
+              </div>
             </div>
           </div>
 
@@ -164,7 +158,12 @@
 
         <!-- Today Section -->
         <div style="padding: 16px 20px 4px;">
-          <p class="ts" style="font-size: 12.5px; font-weight: 600; margin: 0 0 10px; text-transform: uppercase; letter-spacing: 0.5px;">Bugün için</p>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 10px;">
+            <p class="ts" style="font-size: 12.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin: 0;">Bugün için</p>
+            <div id="streak-counter" style="padding: 3px 8px; border-radius: var(--border-radius-full); display:flex; align-items:center; gap: 4px; font-weight: 600; font-size: 11px;">
+              <!-- Streak counter -->
+            </div>
+          </div>
           <div class="grid-2">
             <div class="interactive-card" id="flashcard-today-btn" style="border-radius: var(--border-radius-lg); padding: 14px; display:flex; flex-direction:column; gap:8px;">
               <div class="c-teal-bg" style="width:30px; height:30px; border-radius: var(--border-radius-sm); display:flex; align-items:center; justify-content:center; width: fit-content; padding: 0 6px;">

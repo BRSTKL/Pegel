@@ -1639,7 +1639,7 @@ function renderHomeScreen() {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 8px 10px;
+        padding: 6px 8px;
         border-radius: var(--border-radius-md);
         cursor: pointer;
         transition: all var(--transition-fast);
@@ -1663,13 +1663,13 @@ function renderHomeScreen() {
       const badge = document.createElement("div");
       badge.textContent = lvl.badge;
       badge.style = `
-        width: 28px;
-        height: 28px;
+        width: 24px;
+        height: 24px;
         border-radius: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 11px;
+        font-size: 9.5px;
         font-weight: 700;
         background: ${isActive ? 'var(--theme-purple)' : 'var(--color-background-tertiary)'};
         color: ${isActive ? 'var(--color-background-secondary)' : 'var(--color-text-secondary)'};
@@ -1678,7 +1678,7 @@ function renderHomeScreen() {
       const label = document.createElement("span");
       label.textContent = lvl.label;
       label.style = `
-        font-size: 13px;
+        font-size: 12px;
         font-weight: 500;
         color: ${isActive ? 'var(--color-text-primary)' : 'var(--color-text-secondary)'};
       `;
@@ -1690,7 +1690,7 @@ function renderHomeScreen() {
       if (isActive) {
         const check = document.createElement("i");
         check.className = "ti ti-check";
-        check.style = "font-size: 14px; color: var(--theme-purple);";
+        check.style = "font-size: 12px; color: var(--theme-purple);";
         option.appendChild(check);
       }
       
