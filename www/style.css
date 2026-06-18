@@ -2394,6 +2394,8 @@ body.is-native .app-container {
   border-radius: var(--border-radius-full);
   position: relative;
   overflow: hidden; /* Clips wave elements to the parent's rounded capsule shape */
+  background: #472ebb; /* Deep rich purple base filling 100% height */
+  box-shadow: 0 0 6px rgba(177, 159, 251, 0.25);
   transition: width 1.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -2407,13 +2409,13 @@ body.is-native .app-container {
   background: linear-gradient(90deg, #5c43d3 0%, #8b6ffb 100%);
   opacity: 0.6;
   border-radius: var(--border-radius-full);
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 14' preserveAspectRatio='none'%3E%3Cpath d='M0 0.8 Q 20 1.6, 40 0.8 T 80 0.8 L 80 14 L 0 14 Z' fill='%23000'/%3E%3C/svg%3E");
-  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 14' preserveAspectRatio='none'%3E%3Cpath d='M0 0.8 Q 20 1.6, 40 0.8 T 80 0.8 L 80 14 L 0 14 Z' fill='%23000'/%3E%3C/svg%3E");
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 14' preserveAspectRatio='none'%3E%3Cpath d='M0 5 Q 20 2.5, 40 5 T 80 5 L 80 14 L 0 14 Z' fill='%23000'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 14' preserveAspectRatio='none'%3E%3Cpath d='M0 5 Q 20 2.5, 40 5 T 80 5 L 80 14 L 0 14 Z' fill='%23000'/%3E%3C/svg%3E");
   -webkit-mask-size: 80px 100%;
   mask-size: 80px 100%;
   -webkit-mask-repeat: repeat-x;
   mask-repeat: repeat-x;
-  animation: wave-move-back 7s ease-in-out infinite alternate;
+  animation: wave-move-back 4.5s ease-in-out infinite alternate;
 }
 
 /* Front wave layer - sways gently back and forth out of phase */
@@ -2426,13 +2428,13 @@ body.is-native .app-container {
   background: linear-gradient(90deg, #8b6ffb 0%, #b19ffb 100%);
   box-shadow: 0 0 4px rgba(177, 159, 251, 0.25);
   border-radius: var(--border-radius-full);
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 14' preserveAspectRatio='none'%3E%3Cpath d='M0 1 Q 20 0.2, 40 1 T 80 1 L 80 14 L 0 14 Z' fill='%23000'/%3E%3C/svg%3E");
-  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 14' preserveAspectRatio='none'%3E%3Cpath d='M0 1 Q 20 0.2, 40 1 T 80 1 L 80 14 L 0 14 Z' fill='%23000'/%3E%3C/svg%3E");
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 14' preserveAspectRatio='none'%3E%3Cpath d='M0 7 Q 20 4.5, 40 7 T 80 7 L 80 14 L 0 14 Z' fill='%23000'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 14' preserveAspectRatio='none'%3E%3Cpath d='M0 7 Q 20 4.5, 40 7 T 80 7 L 80 14 L 0 14 Z' fill='%23000'/%3E%3C/svg%3E");
   -webkit-mask-size: 80px 100%;
   mask-size: 80px 100%;
   -webkit-mask-repeat: repeat-x;
   mask-repeat: repeat-x;
-  animation: wave-move-front 5s ease-in-out infinite alternate;
+  animation: wave-move-front 3s ease-in-out infinite alternate;
 }
 
 @keyframes wave-move-front {
@@ -2441,8 +2443,8 @@ body.is-native .app-container {
     mask-position: 0 0;
   }
   100% {
-    -webkit-mask-position: -40px 0;
-    mask-position: -40px 0;
+    -webkit-mask-position: -60px 0;
+    mask-position: -60px 0;
   }
 }
 
@@ -2452,8 +2454,8 @@ body.is-native .app-container {
     mask-position: 0 0;
   }
   100% {
-    -webkit-mask-position: 40px 0;
-    mask-position: 40px 0;
+    -webkit-mask-position: 60px 0;
+    mask-position: 60px 0;
   }
 }
 
