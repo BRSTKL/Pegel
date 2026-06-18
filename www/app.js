@@ -1959,7 +1959,8 @@ function renderHomeScreen() {
   
   const fcText = document.getElementById("fc-status-text");
   if (fcText) {
-    fcText.textContent = state.completedToday.flashcards ? "Tamamlandı! 🎉" : "12 kart bekliyor";
+    const vocabCount = (getLevelProgress().myVocabulary || []).length;
+    fcText.textContent = state.completedToday.flashcards ? "Tamamlandı! 🎉" : `${vocabCount} kart bekliyor`;
   }
   const quizText = document.getElementById("quiz-status-text");
   if (quizText) {
@@ -2588,7 +2589,26 @@ function formatCitations(text) {
 
 // FLASHCARDS CONTROLLER
 let currentCardIndex = 0;
+let activeFlashcards = [];
+
 function renderFlashcardScreen() {
+  const vocabList = getLevelProgress().myVocabulary || [];
+  
+  if (vocabList.length === 0) {
+    alert("Kelime listeniz henüz boş! Flashcard turu yapabilmek için lütfen önce Kelimelerim kısmından kelime ekleyin.");
+    showScreen("exercises");
+    return;
+  }
+  
+  // Map myVocabulary to flashcard format
+  activeFlashcards = vocabList.map(item => ({
+    front: item.word,
+    back: item.translation
+  }));
+  
+  // Shuffle flashcards
+  activeFlashcards.sort(() => 0.5 - Math.random());
+  
   currentCardIndex = 0;
   updateFlashcardUI();
   
@@ -2603,14 +2623,14 @@ function renderFlashcardScreen() {
       }
     };
     nextBtn.onclick = () => {
-      if (currentCardIndex < FLASHCARDS.length - 1) {
+      if (currentCardIndex < activeFlashcards.length - 1) {
         currentCardIndex++;
         updateFlashcardUI();
       } else {
         state.completedToday.flashcards = true;
         state.xp += 20;
         saveState();
-        alert("Harika! Tüm kartları incelediniz ve +20 XP kazandınız! 🎉");
+        alert("Harika! Tüm kelimelerinizi incelediniz ve +20 XP kazandınız! 🎉");
         showScreen("exercises");
       }
     };
@@ -2618,17 +2638,18 @@ function renderFlashcardScreen() {
 }
 
 function updateFlashcardUI() {
-  const card = FLASHCARDS[currentCardIndex];
+  if (activeFlashcards.length === 0) return;
+  const card = activeFlashcards[currentCardIndex];
   const container = document.getElementById("flashcard-container");
   
-  if (!container) return;
+  if (!container || !card) return;
   
   container.innerHTML = `
     <div class="flashcard" id="active-flashcard">
       <div class="card-face card-front">
         <div style="font-size: 11.5px; color: var(--color-text-tertiary); display:flex; justify-content:space-between;">
-          <span>Kart ${currentCardIndex + 1} / ${FLASHCARDS.length}</span>
-          <span>B1 Almanca</span>
+          <span>Kart ${currentCardIndex + 1} / ${activeFlashcards.length}</span>
+          <span>Kelimelerim</span>
         </div>
         <div style="font-size: 17.5px; font-weight: 600; text-align: center; margin: auto 0; line-height:1.55;">
           ${card.front}
@@ -2639,7 +2660,7 @@ function updateFlashcardUI() {
       </div>
       <div class="card-face card-back">
         <div style="font-size: 11.5px; color: var(--color-text-tertiary); display:flex; justify-content:space-between;">
-          <span>Kart ${currentCardIndex + 1} / ${FLASHCARDS.length}</span>
+          <span>Kart ${currentCardIndex + 1} / ${activeFlashcards.length}</span>
           <span>Türkçe Karşılığı</span>
         </div>
         <div style="font-size: 15.5px; font-weight: 500; text-align: center; margin: auto 0; line-height:1.6; color: var(--theme-purple);">
@@ -2667,7 +2688,7 @@ function updateFlashcardUI() {
   
   const nextBtn = document.getElementById("fc-next-btn");
   if (nextBtn) {
-    nextBtn.textContent = currentCardIndex === FLASHCARDS.length - 1 ? "Tamamla" : "Sonraki";
+    nextBtn.textContent = currentCardIndex === activeFlashcards.length - 1 ? "Tamamla" : "Sonraki";
   }
 }
 
