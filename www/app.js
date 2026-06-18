@@ -41,18 +41,19 @@ let state = {
 
 // Sound playback and haptic vibration utility
 function playSound(type) {
-  try {
-    const audio = new Audio(`sounds/${type}.mp3`);
-    if (type === "click") {
-      audio.volume = 0.3; // Lower click volume to 30%
-    } else if (type === "true" || type === "false") {
-      audio.volume = 0.65; // Soften correct/incorrect sounds slightly
-    } else {
-      audio.volume = 0.8; // Standard volume for done sound
+  // Play sound (except for click)
+  if (type !== "click") {
+    try {
+      const audio = new Audio(`sounds/${type}.mp3`);
+      if (type === "true" || type === "false") {
+        audio.volume = 0.65; // Soften correct/incorrect sounds slightly
+      } else {
+        audio.volume = 0.8; // Standard volume for done sound
+      }
+      audio.play().catch(err => console.log("Sound play error:", err));
+    } catch (e) {
+      console.error("Audio creation failed:", e);
     }
-    audio.play().catch(err => console.log("Sound play error:", err));
-  } catch (e) {
-    console.error("Audio creation failed:", e);
   }
 
   // Trigger phone haptic feedback vibration
