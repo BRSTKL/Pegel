@@ -1643,6 +1643,15 @@ function showScreen(screenId) {
   const targetScreen = document.getElementById(`${screenId}-screen`);
   if (targetScreen) {
     targetScreen.classList.remove("hidden");
+    
+    // Reset scroll positions of parent containers (.app-content, body, window)
+    const appContent = document.querySelector(".app-content");
+    if (appContent) {
+      appContent.scrollTop = 0;
+    }
+    window.scrollTo(0, 0);
+
+    // Reset scroll positions of the target screen and all inner elements
     targetScreen.scrollTop = 0;
     targetScreen.querySelectorAll("*").forEach(el => {
       el.scrollTop = 0;
