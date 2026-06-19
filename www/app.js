@@ -4114,6 +4114,9 @@ function renderLeseverstehenScreen() {
         } else {
           feedbackHtml = `<div class="text-feedback-badge incorrect"><i class="ti ti-circle-x"></i> Yanlış (Seçiminiz: ${userAns ? userAns.toUpperCase() : 'Boş'}, Doğru: ${correctAns.toUpperCase()})</div>`;
         }
+        if (exercise.explanations && exercise.explanations[String(text.id)]) {
+          feedbackHtml += `<div style="margin-top:8px;font-size:11px;color:var(--color-text-secondary);line-height:1.4;border-top:1px dashed var(--color-border-secondary);padding-top:6px;"><i class="ti ti-bulb" style="color:var(--theme-purple);font-size:13px;margin-right:2px;"></i> ${exercise.explanations[String(text.id)]}</div>`;
+        }
       }
       
       card.innerHTML = `

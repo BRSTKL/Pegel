@@ -62,6 +62,9 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     ],
     "answers": {
       "1": "j"
+    },
+    "explanations": {
+      "1": ""
     }
   },
   {
@@ -126,6 +129,9 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     ],
     "answers": {
       "1": "j"
+    },
+    "explanations": {
+      "1": ""
     }
   },
   {
@@ -190,6 +196,9 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     ],
     "answers": {
       "1": "i"
+    },
+    "explanations": {
+      "1": ""
     }
   },
   {
@@ -254,6 +263,9 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     ],
     "answers": {
       "1": "a"
+    },
+    "explanations": {
+      "1": ""
     }
   },
   {
@@ -318,6 +330,9 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     ],
     "answers": {
       "1": "j"
+    },
+    "explanations": {
+      "1": ""
     }
   },
   {
@@ -382,6 +397,9 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     ],
     "answers": {
       "1": "c"
+    },
+    "explanations": {
+      "1": ""
     }
   },
   {
@@ -446,6 +464,9 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     ],
     "answers": {
       "1": "a"
+    },
+    "explanations": {
+      "1": ""
     }
   },
   {
@@ -510,6 +531,9 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     ],
     "answers": {
       "1": "j"
+    },
+    "explanations": {
+      "1": ""
     }
   },
   {
@@ -574,6 +598,9 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     ],
     "answers": {
       "1": "e"
+    },
+    "explanations": {
+      "1": ""
     }
   },
   {
@@ -638,6 +665,9 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     ],
     "answers": {
       "1": "e"
+    },
+    "explanations": {
+      "1": ""
     }
   },
   {
@@ -702,6 +732,9 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     ],
     "answers": {
       "1": "i"
+    },
+    "explanations": {
+      "1": ""
     }
   },
   {
@@ -766,6 +799,9 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     ],
     "answers": {
       "1": "d"
+    },
+    "explanations": {
+      "1": ""
     }
   }
 ];
@@ -822,31 +858,6 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
           "b": "Man sollte nur kurze Strecken fahren.",
           "c": "Es ist besser als Sport im Fitnessstudio."
         }
-      },
-      {
-        "id": 6,
-        "question": "b - Açıklama: \"Das Fahrrad ist schnell, kostet nichts im Betrieb und ist gut für die Umwelt\" → üç neden açıkça belirtilmiş. (a) otobüs fiyatı metinde yok. (c) arabalar hâlâ var.",
-        "options": {}
-      },
-      {
-        "id": 7,
-        "question": "b - Açıklama: \"immer einen Helm zu tragen\" ve \"das Fahrrad regelmäßig überprüft werden: Bremsen, Licht und Reifen\" → her ikisi de metinde. (a) sadece bisiklet yolunda gitme metinde yok. (c) gece yasağı yok.",
-        "options": {}
-      },
-      {
-        "id": 8,
-        "question": "c - Açıklama: \"Viele junge Menschen kaufen sich gebrauchte Fahrräder, weil neue oft sehr teuer sind\" → doğrudan metinden. (a) ve (b) metinde yok.",
-        "options": {}
-      },
-      {
-        "id": 9,
-        "question": "b - Açıklama: \"hat fast jeder Einwohner ein Fahrrad — manchmal sogar mehrere\" → metinde açıkça yazılı. (a) arabasız şehir değil. (c) ücretsiz bisiklet metinde yok.",
-        "options": {}
-      },
-      {
-        "id": 10,
-        "question": "a - Açıklama: \"Wer jeden Tag 30 Minuten Fahrrad fährt, bleibt fit und spart gleichzeitig Geld\" ve \"Ärzte empfehlen deshalb das Fahrrad\" → sağlık + para tasarrufu. (b) sadece kısa mesafe metinde yok. (c) fitness stüdyoyla karşılaştırma yok.",
-        "options": {}
       }
     ],
     "answers": {
@@ -856,7 +867,13 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
       "9": "b",
       "10": "a"
     },
-    "explanations": {}
+    "explanations": {
+      "6": "\"Das Fahrrad ist schnell, kostet nichts im Betrieb und ist gut für die Umwelt\" → üç neden açıkça belirtilmiş. (a) otobüs fiyatı metinde yok. (c) arabalar hâlâ var.",
+      "7": "\"immer einen Helm zu tragen\" ve \"das Fahrrad regelmäßig überprüft werden: Bremsen, Licht und Reifen\" → her ikisi de metinde. (a) sadece bisiklet yolunda gitme metinde yok. (c) gece yasağı yok.",
+      "8": "\"Viele junge Menschen kaufen sich gebrauchte Fahrräder, weil neue oft sehr teuer sind\" → doğrudan metinden. (a) ve (b) metinde yok.",
+      "9": "\"hat fast jeder Einwohner ein Fahrrad — manchmal sogar mehrere\" → metinde açıkça yazılı. (a) arabasız şehir değil. (c) ücretsiz bisiklet metinde yok.",
+      "10": "\"Wer jeden Tag 30 Minuten Fahrrad fährt, bleibt fit und spart gleichzeitig Geld\" ve \"Ärzte empfehlen deshalb das Fahrrad\" → sağlık + para tasarrufu. (b) sadece kısa mesafe metinde yok. (c) fitness stüdyoyla karşılaştırma yok."
+    }
   },
   {
     "id": "lese_2_2",
@@ -910,31 +927,6 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
           "b": "zuerst einen Hund im Tierheim suchen",
           "c": "mit dem Nachbarn sprechen, bevor man einen Hund kauft"
         }
-      },
-      {
-        "id": 6,
-        "question": "a - Açıklama: \"über 16 Millionen Hunde\" → doğrudan metinden. (b) 20 milyon metinde yok. (c) 10 milyon yanlış.",
-        "options": {}
-      },
-      {
-        "id": 7,
-        "question": "b - Açıklama: \"gehen täglich spazieren und bewegen sich mehr\" ve \"glücklicher sind\" → ikisi de metinde. (a) alışveriş tasarrufu yok. (c) tatilsiz yaşam değil, aksine planlama gerekiyor.",
-        "options": {}
-      },
-      {
-        "id": 8,
-        "question": "c - Açıklama: \"kostet ein Hund... rund 1.500 Euro pro Jahr\" → doğrudan metinden. (a) ve (b) yanlış rakamlar.",
-        "options": {}
-      },
-      {
-        "id": 9,
-        "question": "b - Açıklama: \"wenn sie klein sind oder in einer Transporttasche sitzen\" → küçük köpekler veya çantada olanlar binebilir. (a) hiç binemez yanlış. (c) ücretsiz değil, büyük köpekler bilet alıyor.",
-        "options": {}
-      },
-      {
-        "id": 10,
-        "question": "b - Açıklama: \"Experten raten, zuerst einen Hund in einem Tierheim zu suchen\" → doğrudan metinden. (a) zoogeschäft değil, aksine önerilmiyor. (c) komşu konuşması metinde yok.",
-        "options": {}
       }
     ],
     "answers": {
@@ -944,7 +936,13 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
       "9": "b",
       "10": "b"
     },
-    "explanations": {}
+    "explanations": {
+      "6": "\"über 16 Millionen Hunde\" → doğrudan metinden. (b) 20 milyon metinde yok. (c) 10 milyon yanlış.",
+      "7": "\"gehen täglich spazieren und bewegen sich mehr\" ve \"glücklicher sind\" → ikisi de metinde. (a) alışveriş tasarrufu yok. (c) tatilsiz yaşam değil, aksine planlama gerekiyor.",
+      "8": "\"kostet ein Hund... rund 1.500 Euro pro Jahr\" → doğrudan metinden. (a) ve (b) yanlış rakamlar.",
+      "9": "\"wenn sie klein sind oder in einer Transporttasche sitzen\" → küçük köpekler veya çantada olanlar binebilir. (a) hiç binemez yanlış. (c) ücretsiz değil, büyük köpekler bilet alıyor.",
+      "10": "\"Experten raten, zuerst einen Hund in einem Tierheim zu suchen\" → doğrudan metinden. (a) zoogeschäft değil, aksine önerilmiyor. (c) komşu konuşması metinde yok."
+    }
   },
   {
     "id": "lese_2_3",
@@ -998,31 +996,6 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
           "b": "mehr als ein Einkaufsort — er verbindet Menschen und stärkt",
           "c": "ein Ort, der bald durch Supermärkte ersetzt wird"
         }
-      },
-      {
-        "id": 6,
-        "question": "b - Açıklama: \"schon früh morgens um sieben Uhr geöffnet und schließt mittags\" → doğrudan metinden. (a) tüm gün değil. (c) öğleden sonra değil.",
-        "options": {}
-      },
-      {
-        "id": 7,
-        "question": "b - Açıklama: \"frischer als im Laden\" ve \"wissen, woher das Gemüse... kommt\" → iki neden metinde açık. (a) her zaman daha ucuz değil, aksine bazen daha pahalı. (c) uzaklık konusu yok.",
-        "options": {}
-      },
-      {
-        "id": 8,
-        "question": "c - Açıklama: \"ein kleines Extra — zum Beispiel ein paar Tomaten mehr oder ein Stück Kuchen\" → doğrudan metinden. (a) indirim değil, ekstra. (b) müşteri kartı metinde yok.",
-        "options": {}
-      },
-      {
-        "id": 9,
-        "question": "b - Açıklama: \"Immer mehr junge Familien und Menschen unter 30 entdecken den Markt für sich\" → metinde açıkça. (a) sadece yaşlılar yanlış. (c) turistler metinde yok.",
-        "options": {}
-      },
-      {
-        "id": 10,
-        "question": "b - Açıklama: \"mehr als nur ein Ort zum Einkaufen. Er verbindet Menschen, stärkt die lokale Wirtschaft\" → son paragraftan doğrudan. (a) yanlış, aksine metinde \"mehr als nur\" deniyor. (c) süpermarketle yer değiştirme yok.",
-        "options": {}
       }
     ],
     "answers": {
@@ -1032,7 +1005,13 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
       "9": "b",
       "10": "b"
     },
-    "explanations": {}
+    "explanations": {
+      "6": "\"schon früh morgens um sieben Uhr geöffnet und schließt mittags\" → doğrudan metinden. (a) tüm gün değil. (c) öğleden sonra değil.",
+      "7": "\"frischer als im Laden\" ve \"wissen, woher das Gemüse... kommt\" → iki neden metinde açık. (a) her zaman daha ucuz değil, aksine bazen daha pahalı. (c) uzaklık konusu yok.",
+      "8": "\"ein kleines Extra — zum Beispiel ein paar Tomaten mehr oder ein Stück Kuchen\" → doğrudan metinden. (a) indirim değil, ekstra. (b) müşteri kartı metinde yok.",
+      "9": "\"Immer mehr junge Familien und Menschen unter 30 entdecken den Markt für sich\" → metinde açıkça. (a) sadece yaşlılar yanlış. (c) turistler metinde yok.",
+      "10": "\"mehr als nur ein Ort zum Einkaufen. Er verbindet Menschen, stärkt die lokale Wirtschaft\" → son paragraftan doğrudan. (a) yanlış, aksine metinde \"mehr als nur\" deniyor. (c) süpermarketle yer değiştirme yok."
+    }
   },
   {
     "id": "lese_2_4",
@@ -1086,31 +1065,6 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
           "b": "Sie geben Freiwilligen zum Beispiel kostenlose Fahrkarten",
           "c": "Sie bauen neue Gebäude für Ehrenamtliche."
         }
-      },
-      {
-        "id": 6,
-        "question": "b - Açıklama: \"rund 29 Millionen Menschen ehrenamtlich\" → doğrudan. (a) 10 milyon yanlış. (c) 50 milyon yok.",
-        "options": {}
-      },
-      {
-        "id": 7,
-        "question": "b - Açıklama: \"anderen helfen wollen\", \"neue Menschen kennenlernen\", \"etwas Sinnvolles tun\", \"wichtige Erfahrungen\" → metinde birden fazla neden var, (b) bunları özetliyor. (a) yanlış; para almıyorlar. (c) okul zorunluluğu metinde yok.",
-        "options": {}
-      },
-      {
-        "id": 8,
-        "question": "b - Açıklama: \"rund eine Million Freiwillige\" → doğrudan metinden. (a) yanlış; gönüllü, devlet değil. (c) işsizler için değil.",
-        "options": {}
-      },
-      {
-        "id": 9,
-        "question": "c - Açıklama: \"Einige Schulen vergeben sogar Punkte für ehrenamtliche Tätigkeiten\" → doğrudan metinden. (a) para metinde yok. (b) erken eve gitme metinde yok.",
-        "options": {}
-      },
-      {
-        "id": 10,
-        "question": "b - Açıklama: \"kostenlosen Fahrkarten oder Eintritt in Schwimmbäder\" → doğrudan metinden. (a) maaş değil, küçük avantajlar. (c) bina yapımı metinde yok.",
-        "options": {}
       }
     ],
     "answers": {
@@ -1120,7 +1074,13 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
       "9": "c",
       "10": "b"
     },
-    "explanations": {}
+    "explanations": {
+      "6": "\"rund 29 Millionen Menschen ehrenamtlich\" → doğrudan. (a) 10 milyon yanlış. (c) 50 milyon yok.",
+      "7": "\"anderen helfen wollen\", \"neue Menschen kennenlernen\", \"etwas Sinnvolles tun\", \"wichtige Erfahrungen\" → metinde birden fazla neden var, (b) bunları özetliyor. (a) yanlış; para almıyorlar. (c) okul zorunluluğu metinde yok.",
+      "8": "\"rund eine Million Freiwillige\" → doğrudan metinden. (a) yanlış; gönüllü, devlet değil. (c) işsizler için değil.",
+      "9": "\"Einige Schulen vergeben sogar Punkte für ehrenamtliche Tätigkeiten\" → doğrudan metinden. (a) para metinde yok. (b) erken eve gitme metinde yok.",
+      "10": "\"kostenlosen Fahrkarten oder Eintritt in Schwimmbäder\" → doğrudan metinden. (a) maaş değil, küçük avantajlar. (c) bina yapımı metinde yok."
+    }
   },
   {
     "id": "lese_2_5",
@@ -1174,31 +1134,6 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
           "b": "feste Arbeitszeiten, Pausen und regelmäßige Bürobesuche",
           "c": "nur halbtags zu arbeiten"
         }
-      },
-      {
-        "id": 6,
-        "question": "b - Açıklama: \"rund 70 Prozent der Befragten möchten das Homeoffice nicht mehr missen\" → doğrudan metinden. (a) 50 yanlış. (c) 90 yok.",
-        "options": {}
-      },
-      {
-        "id": 7,
-        "question": "b - Açıklama: \"Der größte Vorteil... Zeit- und Geldersparnis durch den fehlenden Weg zur Arbeit\" → doğrudan metinden. (a) pijama metinde yok. (c) daha fazla maaş metinde yok.",
-        "options": {}
-      },
-      {
-        "id": 8,
-        "question": "b - Açıklama: \"vermissen den Kontakt zu Kollegen\" ve \"ohne klare Grenzen zwischen Arbeit und Freizeit arbeiten manche bis spät\" → her ikisi de metinde. (a) teknik sorun yok. (c) şef kontrolü yok.",
-        "options": {}
-      },
-      {
-        "id": 9,
-        "question": "c - Açıklama: \"wenn Kinder zu Hause sind und Betreuung brauchen, ist konzentriertes Arbeiten kaum möglich\" → doğrudan metinden. (a) meeting yasağı yok. (b) okula götürme metinde yok.",
-        "options": {}
-      },
-      {
-        "id": 10,
-        "question": "b - Açıklama: \"Feste Arbeitszeiten, eine kurze Mittagspause\" ve \"regelmäßig ins Büro fahren\" → metinde açıkça. (a) aksine ofise gitme tavsiye ediliyor. (c) yarı zamanlı çalışma metinde yok.",
-        "options": {}
       }
     ],
     "answers": {
@@ -1208,7 +1143,13 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
       "9": "c",
       "10": "b"
     },
-    "explanations": {}
+    "explanations": {
+      "6": "\"rund 70 Prozent der Befragten möchten das Homeoffice nicht mehr missen\" → doğrudan metinden. (a) 50 yanlış. (c) 90 yok.",
+      "7": "\"Der größte Vorteil... Zeit- und Geldersparnis durch den fehlenden Weg zur Arbeit\" → doğrudan metinden. (a) pijama metinde yok. (c) daha fazla maaş metinde yok.",
+      "8": "\"vermissen den Kontakt zu Kollegen\" ve \"ohne klare Grenzen zwischen Arbeit und Freizeit arbeiten manche bis spät\" → her ikisi de metinde. (a) teknik sorun yok. (c) şef kontrolü yok.",
+      "9": "\"wenn Kinder zu Hause sind und Betreuung brauchen, ist konzentriertes Arbeiten kaum möglich\" → doğrudan metinden. (a) meeting yasağı yok. (b) okula götürme metinde yok.",
+      "10": "\"Feste Arbeitszeiten, eine kurze Mittagspause\" ve \"regelmäßig ins Büro fahren\" → metinde açıkça. (a) aksine ofise gitme tavsiye ediliyor. (c) yarı zamanlı çalışma metinde yok."
+    }
   },
   {
     "id": "lese_2_6",
@@ -1262,31 +1203,6 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
           "b": "Sie gibt 5.000 Euro pro Schule und Jahr.",
           "c": "Sie baut neue Gewächshäuser für die Schulen."
         }
-      },
-      {
-        "id": 6,
-        "question": "b - Açıklama: \"Jetzt weiß ich, wie viel Arbeit Essen macht\" → Lena'nın kendi sözleri. (a) restoran metinde yok. (c) süpermarket yok.",
-        "options": {}
-      },
-      {
-        "id": 7,
-        "question": "b - Açıklama: \"Das geerntete Gemüse wird dann in der Schulküche zu Salaten oder Suppen verarbeitet\" → doğrudan metinden. (a) satılmıyor. (c) eve götürülmüyor.",
-        "options": {}
-      },
-      {
-        "id": 8,
-        "question": "b - Açıklama: \"Kinder, die draußen arbeiten, sind ruhiger und konzentrierter im Unterricht\" → doğrudan öğretmenlerden. (a) yabancı dil metinde yok. (c) daha fazla sebze yeme yok.",
-        "options": {}
-      },
-      {
-        "id": 9,
-        "question": "b - Açıklama: \"Probleme, den Garten das ganze Jahr zu pflegen — zum Beispiel in den Sommerferien\" → doğrudan metinden. (a) küçük bahçe metinde yok. (c) hırsızlık metinde yok.",
-        "options": {}
-      },
-      {
-        "id": 10,
-        "question": "b - Açıklama: \"Die Stadt München unterstützt das Projekt mit 5.000 Euro pro Schule und Jahr\" → doğrudan metinden. (a) bahçıvan yok. (c) sera yapımı yok.",
-        "options": {}
       }
     ],
     "answers": {
@@ -1296,7 +1212,13 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
       "9": "b",
       "10": "b"
     },
-    "explanations": {}
+    "explanations": {
+      "6": "\"Jetzt weiß ich, wie viel Arbeit Essen macht\" → Lena'nın kendi sözleri. (a) restoran metinde yok. (c) süpermarket yok.",
+      "7": "\"Das geerntete Gemüse wird dann in der Schulküche zu Salaten oder Suppen verarbeitet\" → doğrudan metinden. (a) satılmıyor. (c) eve götürülmüyor.",
+      "8": "\"Kinder, die draußen arbeiten, sind ruhiger und konzentrierter im Unterricht\" → doğrudan öğretmenlerden. (a) yabancı dil metinde yok. (c) daha fazla sebze yeme yok.",
+      "9": "\"Probleme, den Garten das ganze Jahr zu pflegen — zum Beispiel in den Sommerferien\" → doğrudan metinden. (a) küçük bahçe metinde yok. (c) hırsızlık metinde yok.",
+      "10": "\"Die Stadt München unterstützt das Projekt mit 5.000 Euro pro Schule und Jahr\" → doğrudan metinden. (a) bahçıvan yok. (c) sera yapımı yok."
+    }
   },
   {
     "id": "lese_2_7",
@@ -1350,31 +1272,6 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
           "b": "Sie ist ein demokratischer Ort, wo jeder willkommen ist.",
           "c": "Sie braucht dringend mehr Geld vom Staat."
         }
-      },
-      {
-        "id": 6,
-        "question": "b - Açıklama: \"DVDs, Hörbücher, Spiele und sogar 3D-Drucker\" → doğrudan metinden. (a) sadece kitap ve dergi yanlış. (c) restoran yok.",
-        "options": {}
-      },
-      {
-        "id": 7,
-        "question": "b - Açıklama: \"Lernräume für Schüler, Babykurse... Lesungen... Ausstellungen\" → metinde açıkça. (a) sadece kitap koleksiyonu yanlış. (c) ücretsiz kahve metinde yok.",
-        "options": {}
-      },
-      {
-        "id": 8,
-        "question": "c - Açıklama: \"Kinder unter 18 Jahren erhalten den Ausweis oft vollständig kostenlos\" → doğrudan metinden. (a) ve (b) yanlış.",
-        "options": {}
-      },
-      {
-        "id": 9,
-        "question": "b - Açıklama: \"In manchen Städten werden sie wegen fehlender Gelder geschlossen\" → doğrudan metinden. (a) çok fazla kitap değil. (c) açılış saatleri konusu yok.",
-        "options": {}
-      },
-      {
-        "id": 10,
-        "question": "b - Açıklama: \" 'Eine Bibliothek ist ein demokratischer Ort', sagt Bibliothekarin Frau Bauer. 'Hier ist jeder willkommen.' \" → doğrudan alıntı. (a) sadece öğrenciler yanlış. (c) para talebi yok.",
-        "options": {}
       }
     ],
     "answers": {
@@ -1384,7 +1281,13 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
       "9": "b",
       "10": "b"
     },
-    "explanations": {}
+    "explanations": {
+      "6": "\"DVDs, Hörbücher, Spiele und sogar 3D-Drucker\" → doğrudan metinden. (a) sadece kitap ve dergi yanlış. (c) restoran yok.",
+      "7": "\"Lernräume für Schüler, Babykurse... Lesungen... Ausstellungen\" → metinde açıkça. (a) sadece kitap koleksiyonu yanlış. (c) ücretsiz kahve metinde yok.",
+      "8": "\"Kinder unter 18 Jahren erhalten den Ausweis oft vollständig kostenlos\" → doğrudan metinden. (a) ve (b) yanlış.",
+      "9": "\"In manchen Städten werden sie wegen fehlender Gelder geschlossen\" → doğrudan metinden. (a) çok fazla kitap değil. (c) açılış saatleri konusu yok.",
+      "10": "\" 'Eine Bibliothek ist ein demokratischer Ort', sagt Bibliothekarin Frau Bauer. 'Hier ist jeder willkommen.' \" → doğrudan alıntı. (a) sadece öğrenciler yanlış. (c) para talebi yok."
+    }
   },
   {
     "id": "lese_2_8",
@@ -1438,31 +1341,6 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
           "b": "in ein Café gehen und dort frühstücken",
           "c": "schnelle Optionen wie Joghurt, Obst oder ein"
         }
-      },
-      {
-        "id": 6,
-        "question": "b - Açıklama: \"Vollkornbrot mit Käse oder Ei\", \"Obst oder Gemüse\", \"Wasser oder ungesüßter Tee\" → metinde açıkça. (a) tatlı tahıllar önerilmiyor. (c) sadece kahve ve tost yok.",
-        "options": {}
-      },
-      {
-        "id": 7,
-        "question": "b - Açıklama: \"Wir essen meistens Haferflocken mit Joghurt und Früchten\" → Mika'nın kendi sözleri. (a) Cornflakes, annesinin söylediği ama Mika'nın yediği değil. (c) tam tahıllı ekmek Mika için yok.",
-        "options": {}
-      },
-      {
-        "id": 8,
-        "question": "b - Açıklama: \"Saft viel Zucker hat und er lieber ein ganzes Stück Obst essen soll\" → doktorun açıklaması, doğrudan metinden. (a) fiyat değil. (c) daha fazla vitamin konusu yok.",
-        "options": {}
-      },
-      {
-        "id": 9,
-        "question": "b - Açıklama: \"kann sich schlechter konzentrieren\" ve \"isst man mittags oft zu viel, weil man sehr hungrig ist\" → iki sonuç, doğrudan metinden. (a) uyuma metinde yok. (c) hasta olma metinde yok.",
-        "options": {}
-      },
-      {
-        "id": 10,
-        "question": "c - Açıklama: \"Naturjoghurt mit Früchten, ein Stück Obst... oder ein hartgekochtes Ei vom Vortag\" → hızlı seçenekler metinde. (a) hiç yememek, aksine önerilmiyor. (b) kafe metinde yok.",
-        "options": {}
       }
     ],
     "answers": {
@@ -1472,7 +1350,13 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
       "9": "b",
       "10": "c"
     },
-    "explanations": {}
+    "explanations": {
+      "6": "\"Vollkornbrot mit Käse oder Ei\", \"Obst oder Gemüse\", \"Wasser oder ungesüßter Tee\" → metinde açıkça. (a) tatlı tahıllar önerilmiyor. (c) sadece kahve ve tost yok.",
+      "7": "\"Wir essen meistens Haferflocken mit Joghurt und Früchten\" → Mika'nın kendi sözleri. (a) Cornflakes, annesinin söylediği ama Mika'nın yediği değil. (c) tam tahıllı ekmek Mika için yok.",
+      "8": "\"Saft viel Zucker hat und er lieber ein ganzes Stück Obst essen soll\" → doktorun açıklaması, doğrudan metinden. (a) fiyat değil. (c) daha fazla vitamin konusu yok.",
+      "9": "\"kann sich schlechter konzentrieren\" ve \"isst man mittags oft zu viel, weil man sehr hungrig ist\" → iki sonuç, doğrudan metinden. (a) uyuma metinde yok. (c) hasta olma metinde yok.",
+      "10": "\"Naturjoghurt mit Früchten, ein Stück Obst... oder ein hartgekochtes Ei vom Vortag\" → hızlı seçenekler metinde. (a) hiç yememek, aksine önerilmiyor. (b) kafe metinde yok."
+    }
   },
   {
     "id": "lese_2_9",
@@ -1526,31 +1410,6 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
           "b": "besonders junge Menschen unter 30",
           "c": "hauptsächlich Touristen aus dem Ausland"
         }
-      },
-      {
-        "id": 6,
-        "question": "b - Açıklama: \"in weniger als vier Stunden fahren\" → doğrudan metinden. (a) iki saat yanlış. (c) altı saat yok.",
-        "options": {}
-      },
-      {
-        "id": 7,
-        "question": "a - Açıklama: \"lesen, arbeiten oder einfach die Landschaft genießen\" → doğrudan metinden. (b) ücretsiz yemek metinde yok. (c) film ekranı yok.",
-        "options": {}
-      },
-      {
-        "id": 8,
-        "question": "b - Açıklama: \"Für 49 Euro pro Monat kann man alle Busse, Straßenbahnen, U-Bahnen und Regionalzüge in ganz Deutschland nutzen\" → doğrudan. (a) sadece ICE değil. (c) turistler için değil, genel.",
-        "options": {}
-      },
-      {
-        "id": 9,
-        "question": "c - Açıklama: \"Verspätungen und Zugausfälle sind ein bekanntes Problem der Deutschen Bahn\" → doğrudan metinden. (a) gürültü/rahatsızlık yok. (b) yemek fiyatı metinde yok.",
-        "options": {}
-      },
-      {
-        "id": 10,
-        "question": "b - Açıklama: \"Besonders junge Menschen unter 30 nutzen die Bahn häufiger als frühere Generationen\" → doğrudan metinden. (a) 60+ değil. (c) yabancı turistler değil.",
-        "options": {}
       }
     ],
     "answers": {
@@ -1560,7 +1419,13 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
       "9": "c",
       "10": "b"
     },
-    "explanations": {}
+    "explanations": {
+      "6": "\"in weniger als vier Stunden fahren\" → doğrudan metinden. (a) iki saat yanlış. (c) altı saat yok.",
+      "7": "\"lesen, arbeiten oder einfach die Landschaft genießen\" → doğrudan metinden. (b) ücretsiz yemek metinde yok. (c) film ekranı yok.",
+      "8": "\"Für 49 Euro pro Monat kann man alle Busse, Straßenbahnen, U-Bahnen und Regionalzüge in ganz Deutschland nutzen\" → doğrudan. (a) sadece ICE değil. (c) turistler için değil, genel.",
+      "9": "\"Verspätungen und Zugausfälle sind ein bekanntes Problem der Deutschen Bahn\" → doğrudan metinden. (a) gürültü/rahatsızlık yok. (b) yemek fiyatı metinde yok.",
+      "10": "\"Besonders junge Menschen unter 30 nutzen die Bahn häufiger als frühere Generationen\" → doğrudan metinden. (a) 60+ değil. (c) yabancı turistler değil."
+    }
   },
   {
     "id": "lese_2_10",
@@ -1614,31 +1479,6 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
           "b": "Musik ist für Erwachsene gefährlich.",
           "c": "Musik reduziert Stress, macht glücklich und hält das"
         }
-      },
-      {
-        "id": 6,
-        "question": "b - Açıklama: \"rund 30 Prozent aller Kinder in Deutschland\" → doğrudan metinden. (a) neredeyse hepsi yanlış. (c) 10 yüzden az yanlış.",
-        "options": {}
-      },
-      {
-        "id": 7,
-        "question": "b - Açıklama: \"besonders in Mathematik und Sprachen\" ve \"bessere Leistungen zeigen\" → doğrudan metinden. (a) sportif metinde yok. (c) daha az arkadaş metinde yok.",
-        "options": {}
-      },
-      {
-        "id": 8,
-        "question": "b - Açıklama: \"Am Anfang war es sehr schwer... Die Geige hat einen komischen Klang gemacht\" → Sofie'nin kendi sözleri. (a) hemen eğlenceli değil. (c) annesi kapıyı kapıyordu, yardım etmiyordu.",
-        "options": {}
-      },
-      {
-        "id": 9,
-        "question": "b - Açıklama: \"sollte man ruhig mit ihm sprechen und gemeinsam eine Lösung finden\" → doğrudan metinden. (a) aksine, zorlamak önerilmiyor. (c) başka enstrüman arama metinde yok.",
-        "options": {}
-      },
-      {
-        "id": 10,
-        "question": "c - Açıklama: \"Musik hören oder spielen reduziert Stress, macht glücklich und hält das Gehirn aktiv\" → doğrudan son paragraftan. (a) aksine, yetişkinler de faydalanıyor. (b) tehlikeli metinde yok.",
-        "options": {}
       }
     ],
     "answers": {
@@ -1648,7 +1488,13 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
       "9": "b",
       "10": "c"
     },
-    "explanations": {}
+    "explanations": {
+      "6": "\"rund 30 Prozent aller Kinder in Deutschland\" → doğrudan metinden. (a) neredeyse hepsi yanlış. (c) 10 yüzden az yanlış.",
+      "7": "\"besonders in Mathematik und Sprachen\" ve \"bessere Leistungen zeigen\" → doğrudan metinden. (a) sportif metinde yok. (c) daha az arkadaş metinde yok.",
+      "8": "\"Am Anfang war es sehr schwer... Die Geige hat einen komischen Klang gemacht\" → Sofie'nin kendi sözleri. (a) hemen eğlenceli değil. (c) annesi kapıyı kapıyordu, yardım etmiyordu.",
+      "9": "\"sollte man ruhig mit ihm sprechen und gemeinsam eine Lösung finden\" → doğrudan metinden. (a) aksine, zorlamak önerilmiyor. (c) başka enstrüman arama metinde yok.",
+      "10": "\"Musik hören oder spielen reduziert Stress, macht glücklich und hält das Gehirn aktiv\" → doğrudan son paragraftan. (a) aksine, yetişkinler de faydalanıyor. (b) tehlikeli metinde yok."
+    }
   },
   {
     "id": "lese_2_11",
@@ -1702,31 +1548,6 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
           "b": "weil der Eintritt immer kostenlos ist",
           "c": "weil man durch den Kauf gebrauchter Dinge Müll reduziert"
         }
-      },
-      {
-        "id": 6,
-        "question": "b - Açıklama: \"Kleidung, Bücher, Geschirr, Möbel, Spielzeug — fast alles\" → doğrudan metinden. (a) sadece giysi değil. (c) yeni ürünler değil.",
-        "options": {}
-      },
-      {
-        "id": 7,
-        "question": "b - Açıklama: \"Ich habe schon so viele tolle Sachen gefunden\" ve ucuz kamera örneği → bağlamdan. (a) süpermarket fiyatları metinde yok. (c) zaman sorunu metinde yok.",
-        "options": {}
-      },
-      {
-        "id": 8,
-        "question": "b - Açıklama: \"Petra verkauft auch selbst auf dem Flohmarkt: Kleidung... und Bücher, die sie schon gelesen hat\" → doğrudan metinden. (a) profesyonel satıcı değil. (c) blog metinde yok.",
-        "options": {}
-      },
-      {
-        "id": 9,
-        "question": "b - Açıklama: \"Viele Flohmärkte haben auch Stände mit Streetfood und Musik, was die Atmosphäre noch angenehmer macht\" → doğrudan. (a) ucuz fiyatlar var ama atmosfer sorusu bu. (c) ücretsiz giriş metinde yok.",
-        "options": {}
-      },
-      {
-        "id": 10,
-        "question": "c - Açıklama: \"Wer gebrauchte Dinge kauft, reduziert den Müll und schont die Umwelt\" → doğrudan son paragraftan. (a) taze/temiz ürün yok. (b) ücretsiz giriş metinde yok.",
-        "options": {}
       }
     ],
     "answers": {
@@ -1736,7 +1557,13 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
       "9": "b",
       "10": "c"
     },
-    "explanations": {}
+    "explanations": {
+      "6": "\"Kleidung, Bücher, Geschirr, Möbel, Spielzeug — fast alles\" → doğrudan metinden. (a) sadece giysi değil. (c) yeni ürünler değil.",
+      "7": "\"Ich habe schon so viele tolle Sachen gefunden\" ve ucuz kamera örneği → bağlamdan. (a) süpermarket fiyatları metinde yok. (c) zaman sorunu metinde yok.",
+      "8": "\"Petra verkauft auch selbst auf dem Flohmarkt: Kleidung... und Bücher, die sie schon gelesen hat\" → doğrudan metinden. (a) profesyonel satıcı değil. (c) blog metinde yok.",
+      "9": "\"Viele Flohmärkte haben auch Stände mit Streetfood und Musik, was die Atmosphäre noch angenehmer macht\" → doğrudan. (a) ucuz fiyatlar var ama atmosfer sorusu bu. (c) ücretsiz giriş metinde yok.",
+      "10": "\"Wer gebrauchte Dinge kauft, reduziert den Müll und schont die Umwelt\" → doğrudan son paragraftan. (a) taze/temiz ürün yok. (b) ücretsiz giriş metinde yok."
+    }
   },
   {
     "id": "lese_2_12",
@@ -1790,31 +1617,6 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
           "b": "Eltern sollten regelmäßig mit dem Kind ins Schwimmbad",
           "c": "Kinder sollten erst ab zwölf Jahren schwimmen lernen."
         }
-      },
-      {
-        "id": 6,
-        "question": "b - Açıklama: \"meistens in der dritten oder vierten Klasse\" → doğrudan metinden. (a) anaokulu değil. (c) lise değil.",
-        "options": {}
-      },
-      {
-        "id": 7,
-        "question": "b - Açıklama: \"etwa jedes dritte Kind in Deutschland kann nicht sicher schwimmen\" → doğrudan metinden. (a) yanlış, aksine endişe var. (c) sadece Bavyera değil.",
-        "options": {}
-      },
-      {
-        "id": 8,
-        "question": "b - Açıklama: \"das Seepferdchen-Abzeichen bestanden — den ersten Schwimmschein in Deutschland\" → doğrudan metinden. (a) en iyi yüzücü değil. (c) yetişkinler için değil.",
-        "options": {}
-      },
-      {
-        "id": 9,
-        "question": "c - Açıklama: \"weit vom nächsten Hallenbad entfernt\" ve \"immer mehr Schwimmbäder... schließen\" → her ikisi de metinde. (a) öğretmen yok. (b) isteksizlik metinde yok.",
-        "options": {}
-      },
-      {
-        "id": 10,
-        "question": "b - Açıklama: \"regelmäßig ins Schwimmbad geht\" ve \"so früh wie möglich ans Wasser gewöhnt werden\" → doğrudan son paragraftan. (a) her gün denize gitme yok. (c) 12 yaş metinde yok.",
-        "options": {}
       }
     ],
     "answers": {
@@ -1824,7 +1626,13 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
       "9": "c",
       "10": "b"
     },
-    "explanations": {}
+    "explanations": {
+      "6": "\"meistens in der dritten oder vierten Klasse\" → doğrudan metinden. (a) anaokulu değil. (c) lise değil.",
+      "7": "\"etwa jedes dritte Kind in Deutschland kann nicht sicher schwimmen\" → doğrudan metinden. (a) yanlış, aksine endişe var. (c) sadece Bavyera değil.",
+      "8": "\"das Seepferdchen-Abzeichen bestanden — den ersten Schwimmschein in Deutschland\" → doğrudan metinden. (a) en iyi yüzücü değil. (c) yetişkinler için değil.",
+      "9": "\"weit vom nächsten Hallenbad entfernt\" ve \"immer mehr Schwimmbäder... schließen\" → her ikisi de metinde. (a) öğretmen yok. (b) isteksizlik metinde yok.",
+      "10": "\"regelmäßig ins Schwimmbad geht\" ve \"so früh wie möglich ans Wasser gewöhnt werden\" → doğrudan son paragraftan. (a) her gün denize gitme yok. (c) 12 yaş metinde yok."
+    }
   }
 ];
 const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
@@ -1879,6 +1687,18 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
       "18": "e",
       "19": "x",
       "20": "b"
+    },
+    "explanations": {
+      "11": "Çocuk hayvanları seviyor ve 6 yaşında → Streichelzoo (a), Kinder ab 3 Jahren uygun. Hafta sonu açık (täglich). ✓",
+      "12": "Bir gecelik ucuz konaklama, araba yok → Hostel, Hauptbahnhof'a 5 dakika yürüme mesafesi. Schlafsaal ab 18 €. ✓",
+      "13": "Anne sağlıklı yeme kursu arıyor, akşam vakti uygun → İlanlarda bu konuyla ilgili bir kurs yok. x ✓",
+      "14": "Yaz dönemi iş arıyor, İngilizce biliyor, insanlarla çalışmak istiyor → İlanlarda iş ilanı yok. x ✓",
+      "15": "Gitar öğrenmek istiyor, başlangıç seviyesi, hafta sonu uygun → \"Kein Vorwissen notwendig\", Samstag/Sonntag kursu mevcut. ✓",
+      "16": "Çiçek seven arkadaşına doğum günü hediyesi arıyor → İlanlarda çiçek satışı veya hediye ilanı yok. x ✓",
+      "17": "Salı ve Perşembe akşamı bebek bakıcısı arıyor → İlanlarda bakıcı ilanı yok. x ✓",
+      "18": "Yaz Almanca kursu, başlangıç seviyesi, gündüz vakti uygun → A1 kursu, Juli/August, 09:00–12:30 Uhr. ✓",
+      "19": "İkinci el bisiklet, max. 150 € bütçe → İlanlarda bisiklet satışı yok. x ✓",
+      "20": "Cumartesi akşamı, İtalyan mutfağı → Samstag açık (Di–So), İtalyan restoran, akşam yemeği uygun. ✓"
     }
   },
   {
@@ -1932,6 +1752,18 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
       "18": "d",
       "19": "x",
       "20": "e"
+    },
+    "explanations": {
+      "11": "Yoga/Pilates, Pazartesi ve Çarşamba akşamı → \"Montag und Mittwoch: Yoga 18:30–19:45 Uhr\" tam eşleşme. ✓",
+      "12": "2 kişi, 2 hafta, denize doğrudan erişim → 2-Zimmer für 2–4 Personen, \"direktem Strandzugang\", Ağustos uygun. ✓",
+      "13": "Bilgisayar kullanmayı öğrenmek isteyen emekli, başlangıç → İlanlarda bilgisayar kursu yok. x ✓",
+      "14": "Cumartesi taze balık satın almak istiyor → İlanlarda balık satışı veya balık pazarı ilanı yok. x ✓",
+      "15": "Haftada bir temizlikçi arıyor → İlanlarda temizlik hizmeti yok. x ✓",
+      "16": "Biraz İngilizce biliyor, geliştirmek istiyor, akşam vakti → \"Englisch für Fortgeschrittene\", akşam kursu (Di/Do 18:00). ✓",
+      "17": "Hafta sonu klasik müzik konseri → İlanlarda konser ilanı yok. x ✓",
+      "18": "2 çocuk (4 ve 7 yaş), aile yüzme havuzu, çocuk bölümü → \"separatem Kinderbereich\", Familienticket, hafta sonu açık. ✓",
+      "19": "Musluk tamiri için tesisatçı arıyor → İlanlarda tamirci/tesisatçı ilanı yok. x ✓",
+      "20": "Yemek yapmayı seviyor, yeni tarifler öğrenmek istiyor, Cumartesi vakti uygun → Samstags-Kochkurse, 55 € / kişi. ✓"
     }
   },
   {
@@ -1985,6 +1817,18 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
       "18": "b",
       "19": "x",
       "20": "e"
+    },
+    "explanations": {
+      "11": "Çalışmak/öğrenmek için sakin kafe, WLAN, yiyecek → \"Freies WLAN\", \"Ideal zum Lernen\", yemek menüsü var. ✓",
+      "12": "Eski televizyonu online satmak istiyor → İlanlarda online satış platformu yok. x ✓",
+      "13": "8 kişilik aile kutlaması, restoran → \"Reservierung für Gruppen ab 6 Personen\" → 8 kişi uygun. Not: Resmi restoran değil kafe; ama tek uygun seçenek bu. ► Daha uygun bir restoran ilanı olmadığından (a) seçilir. ✓",
+      "14": "Garson işi arıyor, gastronomi deneyimi var → İlanlarda iş ilanı yok. x ✓",
+      "15": "8 yaşında çocuk, yüzme kursu → \"Kinder ab 5 Jahren\", Dienstag/Donnerstag veya Samstag. ✓",
+      "16": "Cuma akşamı bowling → \"Freitag: 13:00–01:00 Uhr\" açık. ✓",
+      "17": "5. sınıf matematik özel ders, öğleden sonra → İlanlarda özel ders/matematik ilanı yok. x ✓",
+      "18": "Dağlarda tatil, kahvaltılı küçük otel, 1 hafta Temmuz, 2 kişi → Doppelzimmer inkl. Frühstück, Temmuz uygun. ✓",
+      "19": "Sigortsız ucuz diş doktoru → İlanlarda diş hekimi ilanı yok. x ✓",
+      "20": "Profesyonel fotoğrafçılık, kamerası var, deneyim yok → \"Keine Vorkenntnisse notwendig — eigene Kamera mitbringen\". ✓"
     }
   },
   {
@@ -2038,6 +1882,18 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
       "18": "x",
       "19": "x",
       "20": "d"
+    },
+    "explanations": {
+      "11": "Hamburg, 4 kişi, uygun fiyatlı → \"Zimmer für 2, 3 oder 4 Personen\", ab 22 € / Nacht. ✓",
+      "12": "Sırt ağrısı, Salı ve Perşembe akşamı → \"Dienstag und Donnerstag: 18:30–19:30 Uhr\", Rückenprobleme. ✓",
+      "13": "20 yaşında, yaz dönemi iş, aşçılık yapabiliyor → İlanlarda iş ilanı yok. x ✓",
+      "14": "Babası için polisiye roman hediyesi → İlanlarda kitap satışı yok. x ✓",
+      "15": "Bebek, diğer annelerle tanışmak, aktif olmak → \"Mütter mit Baby (0–12 Monate)\", \"Treffen Sie andere Mütter\". ✓",
+      "16": "Fransızca öğrenmek istiyor, Pazartesi ve Çarşamba akşamı → \"Montag und Mittwoch, 18:00–19:30 Uhr\" ✓",
+      "17": "Arabasını satmak istiyor → İlanlarda araç satış platformu yok. x ✓",
+      "18": "Sakin, kaliteli iş yemeği restoranı, Salı → İlanlarda bu tür restoran ilanı yok. x ✓",
+      "19": "16 yaşında, yaz tatili iş arıyor → İlanlarda iş ilanı yok. x ✓",
+      "20": "Resim yapmayı öğrenmek, Cumartesi, başlangıç → \"Absolute Anfänger\", Samstags 10:00–12:30 Uhr. ✓"
     }
   },
   {
@@ -2091,6 +1947,18 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
       "18": "x",
       "19": "x",
       "20": "e"
+    },
+    "explanations": {
+      "11": "Genç köpek, temel komutlar yok → \"Junghundekurs\", \"Grundgehorsam\" öğretiyor. ✓",
+      "12": "Başlangıç, akşam, hafta içi → \"Absolute Anfänger\", \"Montag und Mittwoch, 18:30–20:00 Uhr\". ✓",
+      "13": "15 kişilik salon kiralama, kendi yemeğini getirebilecek → İlanlarda salon kiralama ilanı yok. x ✓",
+      "14": "Sakin, yeşil, 1 hafta, 2 kişi, bisiklet → \"ruhige Lage\", \"Fahrräder kostenlos leihbar\", 2 kişi ideal. ✓",
+      "15": "Beslenme danışmanlığı, Cuma → İlanlarda beslenme danışmanlığı yok. x ✓",
+      "16": "Pazartesi akşamı bebek bakıcısı → İlanlarda bakıcı ilanı yok. x ✓",
+      "17": "9 yaşında, futbol kursu, başlangıç, saat fark etmez → \"7 bis 14 Jahren\", \"Anfänger herzlich willkommen\". ✓",
+      "18": "Ücretsiz eski kanepe vermek istiyor → İlanlarda ikinci el eşya verme/satma ilanı yok. x ✓",
+      "19": "İngilizce bilen ofis çalışanı iş arıyor → İlanlarda iş ilanı yok. x ✓",
+      "20": "Frankfurt yakını, 1 gece, arabayla gelecek, şehir dışı, sakin → \"bei Frankfurt\", \"Kostenloser Parkplatz\", \"im Grünen\". ✓"
     }
   },
   {
@@ -2145,6 +2013,18 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
       "18": "c",
       "19": "x",
       "20": "x"
+    },
+    "explanations": {
+      "11": "14 yaş, yemek kursu, başlangıç, gündüz → \"12–17 Jahren\", \"Keine Vorkenntnisse\", \"täglich 10:00–13:00 Uhr\". ✓",
+      "12": "Max. 700 € kira, şehirde sakin daire → İlanlarda kiralık daire ilanı yok. x ✓",
+      "13": "Uçuş fobisi kursu → İlanlarda uçuş fobisi veya terapi ilanı yok. x ✓",
+      "14": "Cumartesi, 2 yetişkin 3 çocuk, eğlence parkı → \"täglich\" açık, \"Familienticket (2+3): 65 €\", Cumartesi uygun. ✓",
+      "15": "Max. 200 € ikinci el laptop → İlanlarda bilgisayar satışı yok. x ✓",
+      "16": "B1 seviyesi, geliştirmek istiyor, akşam → \"B1-Niveau\", \"18:30–20:00 Uhr\" akşam kursu. ✓",
+      "17": "Masaj, rahatlama → \"Entspannungsmassagen\", Mo–Sa açık. ✓",
+      "18": "Asya mutfağı, Cumartesi açık, doğum günü yemeği → \"auch samstags\", \"Geburtstagsfeiern möglich\". ✓",
+      "19": "İngilizce pratik için dil partneri → İlanlarda dil ortağı arama ilanı yok. x ✓",
+      "20": "Cumartesi muayenesi olan doktor → İlanlarda doktor/klinik ilanı yok. x ✓"
     }
   },
   {
@@ -2198,6 +2078,18 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
       "18": "e",
       "19": "x",
       "20": "x"
+    },
+    "explanations": {
+      "11": "Romantik, göl kenarı, özel iskele, su manzarası, 2 kişi → \"Seeblick\", \"Eigener Steg\", \"Für 2 Personen\". ✓",
+      "12": "Dikiş öğrenmek, başlangıç, Cumartesi → \"Anfänger\", \"Samstags\", \"Material... werden gestellt\". ✓",
+      "13": "Ucuz fitness, kas yapmak, akşam → \"Krafttraining... 19:00–20:30 Uhr\", \"35 € / Monat\". ✓",
+      "14": "Şehir merkezinde terasta kahvaltı yapılabilecek kafe → İlanlarda bu tür kafe ilanı yok. x ✓",
+      "15": "11 yaşında kız, bale veya modern dans → \"Ballett für Kinder (ab 5 Jahren), Modern Dance\", Di/Do 16:00. ✓",
+      "16": "Vergi beyannamesi yardımı → İlanlarda vergi danışmanlığı yok. x ✓",
+      "17": "Haftada bir bahçe bakımı, 15 €/saat → İlanlarda bahçıvanlık hizmeti yok. x ✓",
+      "18": "Cuma akşamı, 4 kişi, kutu oyunları → \"Di–So 14:00–23:00 Uhr\" (Cuma uygun), \"300 Brettspiele\", \"Gruppen willkommen\". ✓",
+      "19": "Sigarayı bırakma kursu veya danışmanlık → İlanlarda sigara bırakma ilanı yok. x ✓",
+      "20": "Biraz bilen için İtalyanca kursu, Salı akşamı → İlanlarda İtalyanca kursu yok. x ✓"
     }
   },
   {
@@ -2252,6 +2144,18 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
       "18": "d",
       "19": "x",
       "20": "e"
+    },
+    "explanations": {
+      "11": "Pazar günü, 2 yetişkin 2 çocuk, hayvanlar, doğa → \"Wildtiergehege, Streichelzoo\", \"Mo–So\" açık, \"Familienkarte (2+2)\". ✓",
+      "12": "2 odalı kiralık daire, max. 800 €, küçük köpek → İlanlarda kiralık daire yok. x ✓",
+      "13": "Suluboya kursu, Perşembe öğleden sonra → \"Donnerstags: 14:00–16:30 Uhr\", \"Anfänger\". ✓",
+      "14": "8 yaşında çocuk doktoru, karın ağrısı → İlanlarda doktor/klinik ilanı yok. x ✓",
+      "15": "Motosiklet ehliyeti kursu → İlanlarda motosiklet sürüş kursu yok. x ✓",
+      "16": "Hafta sonu, rehberli yürüyüş, arkadaşlarla → \"Samstags und sonntags\", \"geführte Wanderungen\". ✓",
+      "17": "Meditasyon ve farkındalık kursu, akşam → İlanlarda meditasyon kursu yok. x ✓",
+      "18": "7 yaşında çocuk doğum günü, renkli ve çocuk dostu kafe → \"Geburtstagspartys für Kinder\", \"Buntes Interieur\". ✓",
+      "19": "Ucuz ikinci el akıllı telefon → İlanlarda telefon satışı yok. x ✓",
+      "20": "Arkadaşlara sushi yapmayı göstermek, 5 kişilik grup → \"4–8 Personen\", \"Alle Zutaten inklusive\", Cumartesi. ✓"
     }
   },
   {
@@ -2305,6 +2209,18 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
       "18": "x",
       "19": "c",
       "20": "e"
+    },
+    "explanations": {
+      "11": "Spa, sauna, masaj, 1 kişi → \"Tagesticket\", \"Sauna, Dampfbad\", \"Massagen buchbar\". ✓",
+      "12": "Şoför işi → İlanlarda iş ilanı yok. x ✓",
+      "13": "İleri seviye dikiş, Cuma günü → \"grundlegende Nähkenntnisse\", \"komplizierte Muster\" karşılığı: \"Kleider schneidern, Muster erstellen\", \"Freitags 14:00–17:00\". ✓",
+      "14": "İkinci el bebek yatağı → İlanlarda bebek yatağı satışı yok. x ✓",
+      "15": "Öğrenci, paylaşımlı daire, max. 500 €, şehir merkezi → İlanlarda kiralık oda ilanı yok. x ✓",
+      "16": "Cumartesi şehir turu, tarihe ilgi → \"Samstags... 10:00 Uhr und 14:00 Uhr\", \"Geschichte der Stadt\". ✓",
+      "17": "Topluluk önünde konuşma korkusu kursu → İlanlarda bu tür kurs yok. x ✓",
+      "18": "Balkon bitki danışmanlığı, gölgede büyüyen bitkiler → İlanlarda bahçecilik danışmanlığı yok. x ✓",
+      "19": "Akşam yoga, başlangıç, hafta içi → \"Anfänger\", hafta içi akşam saatleri çok seçenek. ✓",
+      "20": "Çay seven kolleğe hediye, 15–25 € bütçe → \"Geschenksets ab 9,90 €\", \"Premium-Sets ab 19,90 €\", \"Personalisierte Geschenkverpackung\". ✓"
     }
   },
   {
@@ -2358,6 +2274,18 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
       "18": "b",
       "19": "d",
       "20": "x"
+    },
+    "explanations": {
+      "11": "4 yaşında çocuk yaz tatili bakımı, sabah 8–14 → İlanlarda çocuk bakım hizmeti yok. x ✓",
+      "12": "Kayak öğrenme kursu, başlangıç, konaklamalı 1 hafta → İlanlarda kayak kursu yok. x ✓",
+      "13": "Ucuz berber, basit saç kesimi → İlanlarda berber ilanı yok. x ✓",
+      "14": "Aktif tatil, yürüyüş, tırmanma, doğa, 1 hafta → \"Wanderungen, Klettern\", \"1 Woche\", konaklama dahil. ✓",
+      "15": "Akıllı telefonda fotoğraf düzenleme, Pazartesi → \"Fotos mit dem Smartphone... bearbeiten\", \"Montags\". ✓",
+      "16": "Üniversite yakını kafe, uygun öğle yemeği → \"direkt neben der Uni\", \"Mittagsmenü\", \"5,50–7,90 €\". ✓",
+      "17": "Bodrumu boşaltma ve çöp atma → İlanlarda bu tür hizmet yok. x ✓",
+      "18": "14 Şubat Çarşamba, romantik restoran → \"Di–So\" açık (Çarşamba uygun), \"romantische Atmosphäre\", \"besondere Anlässe\". ✓",
+      "19": "25 yaşında basketbol kulübü, düzenli antrenman → \"Herrenmannschaft (18–40 Jahre)\", Di ve Do antrenman. ✓",
+      "20": "Ofis temizliği, haftada bir, Cuma sabahı → İlanlarda temizlik hizmeti yok. x ✓"
     }
   },
   {
@@ -2411,6 +2339,18 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
       "18": "x",
       "19": "e",
       "20": "x"
+    },
+    "explanations": {
+      "11": "Çift, Latin dansları, başlangıç, deneyim yok → \"Salsa, Bachata\", \"Anfängerkurse für Paare: keine Vorkenntnisse\". ✓",
+      "12": "13 yaşında, İngilizce özel ders, Salı ve Perşembe öğleden sonra → \"Englisch für Klassen 5–10\", \"Di und Do: 15:00–18:00 Uhr\". ✓",
+      "13": "Berlin, iş seyahati, yazı masalı sakin oda, iyi internet, max. 120 € → \"Schreibtisch, Highspeed-WLAN\", \"ruhige Lage\", Einzelzimmer ab 95 €. ✓",
+      "14": "Yeni şehir bisikleti, ~500 € bütçe → İlanlarda bisiklet satışı yok. x ✓",
+      "15": "Yaz tatili yurt dışı İspanyolca kursu → İlanlarda yurt dışı dil kursu yok. x ✓",
+      "16": "Genel sağlık kontrolü için doktor → İlanlarda doktor/klinik ilanı yok. x ✓",
+      "17": "Mobilya tamir/restorasyon kursu, Cumartesi → \"Möbel zu reparieren, zu schleifen und zu lackieren\", \"Samstags\". ✓",
+      "18": "Sağlıklı beslenme kitabı, vitamin ve mineral → İlanlarda kitap satışı yok. x ✓",
+      "19": "Perşembe akşamı, iş arkadaşlarıyla, canlı müzik → \"Livemusik: täglich ab 20:00 Uhr (Do–Sa auch Bands)\". ✓",
+      "20": "Akşam lise tamamlama kursu → İlanlarda akşam okulu/Abitur ilanı yok. x ✓"
     }
   },
   {
@@ -2464,6 +2404,18 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
       "18": "c",
       "19": "b",
       "20": "x"
+    },
+    "explanations": {
+      "11": "5 yaşında ikizler, Pzt–Cuma 7–13 arası bakım → \"Kinder von 3–6 Jahren\", \"Mo–Fr 7:00–13:00 Uhr (Halbtag)\". ✓",
+      "12": "Koşu antrenman planı, başlangıç → İlanlarda koşu/jogging kursu yok. x ✓",
+      "13": "Türkçe kursu, başlangıç, akşam → İlanlarda Türkçe kursu yok. x ✓",
+      "14": "Viyana okul gezisi, 20 öğrenci, 5 gece → İlanlarda grup/okul gezisi konaklama ilanı yok. x ✓",
+      "15": "Sonbaharda mantar toplama, uzman eşliğinde tur → \"Geführte Pilztour\", \"September und Oktober\", \"Samstags\". ✓",
+      "16": "Yetişkin, eskiden piyano çaldı, tekrar başlamak, Perşembe → \"Wiedereinsteiger... für Erwachsene\", \"Donnerstags 18:30–20:30 Uhr\". ✓",
+      "17": "Uyku sorunu, kurs/danışmanlık → İlanlarda uyku terapisi yok. x ✓",
+      "18": "3 yaşında çocukla yüzme, sıcak su, küçük çocuk bölümü → \"Warmes Wasser (32°C)\", \"Kleinkindbereich\", \"Kinder bis 3 Jahre: 3,50 €\". ✓",
+      "19": "Büro Almancası, yazma ve e-posta, akşam → \"Schriftliches Deutsch für den Beruf — E-Mails\", \"18:30–20:00 Uhr\". ✓",
+      "20": "Eski fotoğrafları dijitalleştirme hizmeti → İlanlarda fotoğraf dijitalleştirme yok. x ✓"
     }
   }
 ];
