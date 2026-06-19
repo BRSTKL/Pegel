@@ -36,6 +36,7 @@ let state = {
   progress: {
     "A1-A2": emptyLevelProgress(),
     "B1": emptyLevelProgress(),
+    "B2": emptyLevelProgress()
   }
 };
 
@@ -153,32 +154,39 @@ function getLevelProgress() {
 }
 
 function getActiveLessonsData() {
-  return state.activeLevel === "A1-A2" ? LESSONS_DATA_A1A2 : LESSONS_DATA_B1;
+  if (state.activeLevel === "A1-A2") return LESSONS_DATA_A1A2;
+  if (state.activeLevel === "B1") return LESSONS_DATA_B1;
+  return typeof LESSONS_DATA_B2 !== 'undefined' ? LESSONS_DATA_B2 : [];
 }
 
 function getActiveHoerData(teil) {
   const t = teil !== undefined ? teil : (state.activeHoerverstehenPart || 1);
-  const a1a2 = { 1: HOERVERSTEHEN_TEIL_1_DATA_A1A2 };
-  const b1 = { 1: HOERVERSTEHEN_TEIL_1_DATA_B1 };
-  return (state.activeLevel === "A1-A2" ? a1a2 : b1)[t] || [];
+  if (state.activeLevel === "A1-A2") return { 1: HOERVERSTEHEN_TEIL_1_DATA_A1A2 }[t] || [];
+  if (state.activeLevel === "B1") return { 1: HOERVERSTEHEN_TEIL_1_DATA_B1 }[t] || [];
+  const b2 = typeof HOERVERSTEHEN_TEIL_1_DATA_B2 !== 'undefined' ? { 1: HOERVERSTEHEN_TEIL_1_DATA_B2 } : { 1: [] };
+  return b2[t] || [];
 }
 
 function getActiveLeseverstehenData(teil) {
   const t = teil !== undefined ? teil : (state.activeLeseverstehenPart || 1);
-  const a1a2 = { 1: LESEVERSTEHEN_TEIL_1_DATA_A1A2, 2: LESEVERSTEHEN_TEIL_2_DATA_A1A2, 3: LESEVERSTEHEN_TEIL_3_DATA_A1A2 };
-  const b1 = { 1: LESEVERSTEHEN_TEIL_1_DATA_B1, 2: LESEVERSTEHEN_TEIL_2_DATA_B1, 3: LESEVERSTEHEN_TEIL_3_DATA_B1 };
-  return (state.activeLevel === "A1-A2" ? a1a2 : b1)[t] || [];
+  if (state.activeLevel === "A1-A2") return { 1: LESEVERSTEHEN_TEIL_1_DATA_A1A2, 2: LESEVERSTEHEN_TEIL_2_DATA_A1A2, 3: LESEVERSTEHEN_TEIL_3_DATA_A1A2 }[t] || [];
+  if (state.activeLevel === "B1") return { 1: LESEVERSTEHEN_TEIL_1_DATA_B1, 2: LESEVERSTEHEN_TEIL_2_DATA_B1, 3: LESEVERSTEHEN_TEIL_3_DATA_B1 }[t] || [];
+  const b2 = typeof LESEVERSTEHEN_TEIL_1_DATA_B2 !== 'undefined' ? { 1: LESEVERSTEHEN_TEIL_1_DATA_B2, 2: LESEVERSTEHEN_TEIL_2_DATA_B2, 3: LESEVERSTEHEN_TEIL_3_DATA_B2 } : { 1: [], 2: [], 3: [] };
+  return b2[t] || [];
 }
 
 function getActiveSprachbausteineData(teil) {
   const t = teil !== undefined ? teil : (state.activeSprachbausteinePart || 1);
-  const a1a2 = { 1: SPRACHBAUSTEINE_TEIL_1_DATA_A1A2, 2: SPRACHBAUSTEINE_TEIL_2_DATA_A1A2 };
-  const b1 = { 1: SPRACHBAUSTEINE_TEIL_1_DATA_B1, 2: SPRACHBAUSTEINE_TEIL_2_DATA_B1 };
-  return (state.activeLevel === "A1-A2" ? a1a2 : b1)[t] || [];
+  if (state.activeLevel === "A1-A2") return { 1: SPRACHBAUSTEINE_TEIL_1_DATA_A1A2, 2: SPRACHBAUSTEINE_TEIL_2_DATA_A1A2 }[t] || [];
+  if (state.activeLevel === "B1") return { 1: SPRACHBAUSTEINE_TEIL_1_DATA_B1, 2: SPRACHBAUSTEINE_TEIL_2_DATA_B1 }[t] || [];
+  const b2 = typeof SPRACHBAUSTEINE_TEIL_1_DATA_B2 !== 'undefined' ? { 1: SPRACHBAUSTEINE_TEIL_1_DATA_B2, 2: SPRACHBAUSTEINE_TEIL_2_DATA_B2 } : { 1: [], 2: [] };
+  return b2[t] || [];
 }
 
 function getActiveLessonQuizzes() {
-  return state.activeLevel === "A1-A2" ? LESSON_QUIZZES_A1A2 : LESSON_QUIZZES_B1;
+  if (state.activeLevel === "A1-A2") return LESSON_QUIZZES_A1A2;
+  if (state.activeLevel === "B1") return LESSON_QUIZZES_B1;
+  return typeof LESSON_QUIZZES_B2 !== 'undefined' ? LESSON_QUIZZES_B2 : {};
 }
 
 function switchLevel(level) {
@@ -367,7 +375,7 @@ function loadState() {
     state.xp = 0;
     state.streak = 0;
     state.completedToday = { flashcards: false, quiz: false };
-    state.progress = { "A1-A2": emptyLevelProgress(), "B1": emptyLevelProgress() };
+    state.progress = { "A1-A2": emptyLevelProgress(), "B1": emptyLevelProgress(), "B2": emptyLevelProgress() };
     state.activeLevel = "B1";
     state.appVersion = 5;
     saveStateLocally();
@@ -388,7 +396,8 @@ function loadState() {
         prepScores: savedParsed.prepScores || {},
         starredPreps: savedParsed.starredPreps || [],
         myVocabulary: savedParsed.myVocabulary || [],
-      }
+      },
+      "B2": emptyLevelProgress()
     };
     if (!state.activeLevel) state.activeLevel = "B1";
     state.appVersion = 5;
@@ -398,6 +407,7 @@ function loadState() {
   // Ensure progress structure is complete for all levels
   if (!state.progress["A1-A2"]) state.progress["A1-A2"] = emptyLevelProgress();
   if (!state.progress["B1"]) state.progress["B1"] = emptyLevelProgress();
+  if (!state.progress["B2"]) state.progress["B2"] = emptyLevelProgress();
   const lp = getLevelProgress();
   if (!lp.completedLessons) lp.completedLessons = [];
   if (!lp.leseverstehenAnswers) lp.leseverstehenAnswers = {};
@@ -1924,10 +1934,7 @@ function renderHomeScreen() {
   const homeLevelBtnText = document.getElementById("home-level-btn-text");
   
   if (homeLevelBtn && homeLevelBtnText) {
-    const isB1 = state.activeLevel === "B1";
-    
-    // Set text (only level names)
-    homeLevelBtnText.textContent = isB1 ? "B1" : "A1-A2";
+    homeLevelBtnText.textContent = state.activeLevel;
     
     // Set purple color theme for all levels
     homeLevelBtn.style.background = "var(--theme-purple-light)";
@@ -1940,7 +1947,8 @@ function renderHomeScreen() {
     levelList.innerHTML = "";
     const levels = [
       { id: "A1-A2", label: "A1-A2", badge: "A1/2" },
-      { id: "B1", label: "B1", badge: "B1" }
+      { id: "B1", label: "B1", badge: "B1" },
+      { id: "B2", label: "B2", badge: "B2" }
     ];
     levels.forEach(lvl => {
       const isActive = state.activeLevel === lvl.id;
@@ -2371,7 +2379,7 @@ function renderLevelPath() {
   
   // DYNAMIC SITEMAP ILLUSTRATIONS RENDER BASED ON ROAD WINDING GAPS
   const animInstancesToInit = [];
-  const levelAnims = state.activeLevel === "B1" ? B1_ANIMATION_FILES : A1A2_ANIMATION_FILES;
+  const levelAnims = state.activeLevel === "A1-A2" ? A1A2_ANIMATION_FILES : B1_ANIMATION_FILES;
   const shuffledAnims = [...levelAnims].sort(() => 0.5 - Math.random());
   let animIdx = 0;
   
@@ -5099,11 +5107,13 @@ function renderProfileScreen() {
   // Level switcher button states
   const btnA1A2 = document.getElementById("level-btn-a1a2");
   const btnB1 = document.getElementById("level-btn-b1");
-  if (btnA1A2 && btnB1) {
+  const btnB2 = document.getElementById("level-btn-b2");
+  if (btnA1A2 && btnB1 && btnB2) {
     const activeStyle = "background: var(--theme-purple); color: #fff; border-color: var(--theme-purple);";
     const inactiveStyle = "background: var(--color-background-secondary); color: var(--color-text-secondary); border-color: var(--color-border-primary);";
     btnA1A2.style.cssText = btnA1A2.style.cssText.replace(/background:[^;]+;|color:[^;]+;|border-color:[^;]+;/g, "") + (state.activeLevel === "A1-A2" ? activeStyle : inactiveStyle);
     btnB1.style.cssText = btnB1.style.cssText.replace(/background:[^;]+;|color:[^;]+;|border-color:[^;]+;/g, "") + (state.activeLevel === "B1" ? activeStyle : inactiveStyle);
+    btnB2.style.cssText = btnB2.style.cssText.replace(/background:[^;]+;|color:[^;]+;|border-color:[^;]+;/g, "") + (state.activeLevel === "B2" ? activeStyle : inactiveStyle);
   }
 }
 
