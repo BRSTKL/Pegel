@@ -1,0 +1,184 @@
+========================================================================
+telc DEUTSCH A1-A2: SPRACHBAUSTEINE TEIL 2 — ÖZGÜN SET 16
+========================================================================
+Prüfungsbaustein: Sprachbausteine Teil 2 (Lücke füllen / Boşluk Doldurma)
+Dauer: ca. 15 Minuten
+
+FORMAT BİLGİSİ:
+- 10 boşluk (21–30), her biri için 3 şık (a / b / c)
+- Günlük yazışma: arkadaşa veya aile üyesine mektup
+- Seviye: A1–A2 (temel kelime bilgisi ve dilbilgisi)
+
+Konu: Piknik günü — Lia, arkadaşı Jana'ya yazıyor.
+
+BOŞLUK–CEVAP PLANI (önce sabitlendi):
+21 → am          "am Sonntag"                        (gün: am)
+22 → mit         "mit meiner Familie"                (birliktelik: mit)
+23 → in den      "in den Park gegangen"              (Akk: yön, eril)
+24 → weil        "weil das Wetter so schön war"      (neden)
+25 → auf         "auf einer Decke gesessen"          (yüzey: auf + Dativ)
+26 → so viel     "so viel gegessen"                  (miktar: so viel)
+27 → dass        "so satt, dass ich kaum gehen"      (sonuç: so...dass)
+28 → danach      "danach spazieren gegangen"         (zaman: danach)
+29 → ob          "weiß nicht, ob wir wiederkommen"   (evet/hayır sorusu)
+30 → mit         "komm mit!"                         (birlikte gel: mitkommen)
+
+------------------------------------------------------------------------
+
+Liebe Jana,
+
+ich muss dir von unserem Ausflug erzählen! Wir waren ___21___ Sonntag
+mit ___22___ meiner Familie auf einem Picknick. Wir sind ___23___ großen
+Park am Stadtrand gegangen, ___24___ das Wetter so schön war.
+
+Mama hatte alles vorbereitet: Sandwiches, Obst, Saft und sogar einen
+selbstgemachten Kuchen. Wir haben ___25___ einer bunten Decke unter einem
+Baum gesessen und fast drei Stunden lang gegessen und geredet. Ich habe
+so ___26___ gegessen, ___27___ ich danach kaum noch aufstehen konnte!
+
+___28___ sind wir noch ein bisschen durch den Park spaziert. Mein kleiner
+Bruder hat Enten am Teich gefüttert — das war so lustig anzusehen! Papa
+hat viele Fotos gemacht. Ich weiß noch nicht, ___29___ wir das nächste
+Wochenende wieder hingehen.
+
+Du musst das nächste Mal unbedingt ___30___!
+
+Deine Lia
+
+------------------------------------------------------------------------
+
+SCHLAUBAUSTEINE (SEÇENEKLER: 21–30)
+
+21
+a) im
+b) am
+c) zum
+
+22
+a) allen
+b) ganz
+c) der ganzen
+
+23
+a) in den
+b) in dem
+c) in die
+
+24
+a) obwohl
+b) weil
+c) dass
+
+25
+a) auf
+b) an
+c) in
+
+26
+a) sehr
+b) so viel
+c) viel zu
+
+27
+a) weil
+b) obwohl
+c) dass
+
+28
+a) Danach
+b) Deshalb
+c) Trotzdem
+
+29
+a) wann
+b) ob
+c) wie
+
+30
+a) kommen
+b) mitkommen
+c) mitmachen
+
+------------------------------------------------------------------------
+
+========================================================================
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+21: b (am)
+   - Açıklama: "am Sonntag" = Pazar günü. Haftanın günleriyle kullanılan
+     zaman edatı her zaman "am"dir: "am Montag / am Dienstag / am Sonntag."
+     Şık (a) "im" → ay ve mevsimlerle kullanılır (im März, im Winter).
+     Şık (c) "zum" → yön/amaç bildirir (zum Park gehen); zaman bağlamına
+     uymaz.
+
+22: c (der ganzen)
+   - Açıklama: "mit der ganzen Familie" = tüm aileyle. "Familie" dişil
+     (die Familie); "mit + Dativ" → "mit der Familie." "ganz" sıfatı
+     Dativ dişil → "ganzen": "mit der ganzen Familie."
+     Şık (a) "allen" → çoğul Dativ; "Familie" tekil dişil.
+     Şık (b) "ganz" → çekim eki almamış; Dativ dişil "-en" gerekir.
+
+23: a (in den)
+   - Açıklama: "in den Park gegangen" = parka gitmek. "gehen" yön bildirir
+     (wohin? → Akkusativ): "Park" eril (der Park) → Akkusativ "den Park"
+     → "in den Park."
+     Şık (b) "in dem" → Dativ; konum (wo?) bildirir; "gehen" yön gerektirir.
+     Şık (c) "in die" → dişil veya çoğul Akkusativ; "Park" erildir.
+
+24: b (weil)
+   - Açıklama: "weil das Wetter so schön war" = hava çok güzel olduğu için.
+     "weil" neden bildiren yan cümle bağlacıdır; fiili sona taşır.
+     Şık (a) "obwohl" zıtlık bildirir; burada neden var.
+     Şık (c) "dass" nesne yan cümlesi; neden bağlamına uymaz.
+
+25: a (auf)
+   - Açıklama: "auf einer Decke sitzen" = bir battaniyenin üzerinde oturmak.
+     "auf + Dativ" yüzey üzerinde konum bildirir: "auf einer bunten Decke."
+     Şık (b) "an" → kenar/kıyı konumları için (an der Wand, an dem Tisch);
+     battaniye üzeri için "auf" gerekir.
+     Şık (c) "in" → kapalı alan/içi için; battaniye üzeri açık yüzey.
+
+26: b (so viel)
+   - Açıklama: "so viel gegessen" = bu kadar çok yedim. "so viel" miktar
+     zarfıdır; arkasından gelen "dass" ile sonuç yapısı kurulur:
+     "so viel gegessen, dass ich kaum aufstehen konnte."
+     Şık (a) "sehr" → fiil veya sıfatı pekiştiren zarftır; doğrudan
+     Partizip II önünde kullanılmaz ("sehr gegessen" yanlış).
+     Şık (c) "viel zu" → "viel zu viel" = gereğinden çok fazla; "viel zu"
+     tek başına bu yapıda kullanılmaz.
+
+27: c (dass)
+   - Açıklama: "so satt, dass ich kaum aufstehen konnte" = o kadar toktu
+     ki neredeyse kalkamadım. "so + Adjektiv/Adverb + dass" sonuç bildiren
+     yapı; "so viel...dass" burada da aynı kalıbı tamamlar.
+     Şık (a) "weil" neden bildirir; "so...weil" diye bir yapı yoktur.
+     Şık (b) "obwohl" zıtlık bildirir; bu bağlama uymaz.
+
+28: a (Danach)
+   - Açıklama: "danach spazieren gegangen" = ondan sonra yürüyüşe gittik.
+     "danach" zaman zarfıdır: bir olaydan sonra gerçekleşeni anlatır.
+     Cümle başında geldiğinde yüklem ikinci konuma geçer: "Danach sind wir..."
+     Şık (b) "Deshalb" = bu yüzden; neden-sonuç bildirir; bağlama uymaz.
+     Şık (c) "Trotzdem" = buna rağmen; zıtlık bildirir; bağlama uymaz.
+
+29: b (ob)
+   - Açıklama: "weiß nicht, ob wir nächstes Wochenende wieder hingehen" =
+     gelecek hafta sonu tekrar gidip gitmeyeceğimizi bilmiyorum. "ob" dolaylı
+     evet/hayır sorusu; fiili sona taşır.
+     Şık (a) "wann" zaman sorar; burada gidip gitmeme belirsiz → "ob."
+     Şık (c) "wie" yöntem sorar; bu bağlama uymaz.
+
+30: b (mitkommen)
+   - Açıklama: "unbedingt mitkommen" = kesinlikle birlikte gelmek.
+     "mitkommen" = birlikte gelmek; ayrılabilen fiil. "Du musst mitkommen!"
+     modal fiil + Infinitiv: "musst mitkommen."
+     Şık (a) "kommen" → "Du musst kommen" = gelmelisin; mümkün ama
+     "mitkommen" birlikte gelme vurgusunu çok daha güçlü ifade eder.
+     Şık (c) "mitmachen" = katılmak; piknik bağlamında birlikte gelmek
+     için "mitkommen" çok daha doğaldır.
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+21-b / 22-c / 23-a / 24-b / 25-a / 26-b / 27-c / 28-a / 29-b / 30-b
+========================================================================

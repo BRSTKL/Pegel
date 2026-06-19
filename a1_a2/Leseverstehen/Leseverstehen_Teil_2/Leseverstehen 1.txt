@@ -1,66 +1,98 @@
 ========================================================================
-telc DEUTSCH A1-A2: OFFIZIELLES LESEVERSTEHEN-TRAINING (ÖZGÜN SET 13)
+telc DEUTSCH A1-A2: LESEVERSTEHEN TEIL 3 — ÖZGÜN SET 01
 ========================================================================
-Prüfungsbaustein: Leseverstehen (Mehrfachauswahl / Çoktan Seçmeli)
-Dauer: 20 Minuten
+Prüfungsbaustein: Leseverstehen Teil 3 (Baumkuchen / Langer Text)
+Dauer: ca. 20 Minuten (Leseverstehen gesamt)
 
-KURAL REHBERİ (telc Sınav Stratejisi):
-1. Bu bölüm bir okuma-anlama (Leseverstehen) alıştırmasıdır. Amacınız, verilen metni okuyarak çoktan seçmeli sorulara (6-10) en uygun cevabı (a, b veya c) seçmektir.
-2. Strateji: Sorulardaki anahtar kelimeleri metinde arayın. Şıklar genellikle metindeki cümlelerin eş anlamlı kelimelerle yeniden yazılmış halidir (Örn: "Geld sparen" -> "günstig sein", "nicht teuer").
-3. Dikkat: Metinde açıkça geçmeyen, sadece mantıklı gelen şıklardan uzak durun. Sadece metne dayalı olanı seçin.
-
-------------------------------------------------------------------------
-
-Thema: Fahrrad-Boom in der Stadt – Warum das Rad immer beliebter wird
-
-Das Leben in modernen Großstädten ist oft stressig: Volle Busse, Staus auf den Straßen und die lange Suche nach einem Parkplatz kosten viel Zeit und Nerven. Doch gegen dieses Problem im Alltag entscheiden sich immer mehr Menschen für eine Alternative: das Fahrrad. 
-
-Laut einer aktuellen Umfrage zur urbanen Mobilität in Europa nutzen immer mehr Bürger das Fahrrad für den Weg zur Arbeit oder in der Freizeit. Die Gründe dafür sind einfach: Gesundheit und Flexibilität. Statt im Stau zu stehen, bewegen sich die Menschen an der frischen Luft. Gleichzeitig schont das Radfahren die Umwelt durch einen geringeren CO2-Ausstoß und hilft dabei, viel Geld für Benzin oder teure Tickets zu sparen.
-
-Die 28-jährige Ingenieurin Melis Özgül aus Berlin hat ihren Alltag dieses Jahr komplett verändert. Sie hat ihr altes Auto verkauft und fährt jetzt jeden Tag mit dem Fahrrad ins Büro. „Früher war ich morgens oft schon vor der Arbeit gestresst, weil ich keinen Parkplatz gefunden habe“, erzählt sie. Jetzt nutzt sie ein gebrauchtes Trekkingrad, das sie günstig online gekauft und selbst repariert hat. „Ich bewege mich jeden Tag, bin viel schneller im Zentrum und fühle mich im Beruf deutlich fitter“, sagt Melis. 
-
-Ein wenig skeptischer sieht das der Geschäftsmann Thomas Meier (48). Er leitet ein großes Logistikunternehmen und glaubt, dass das Fahrrad nicht für alle Menschen im Alltag funktioniert. „Viele Mitarbeiter wohnen weit außerhalb der Stadt und müssen jeden Tag 30 oder 40 Kilometer pendeln. Für diese langen Strecken ist das normale Fahrrad zu anstrengend, besonders bei schlechtem Wetter wie starkem Regen oder Schnee“, gibt er zu bedenken. Für ihn bleibt das Auto oder der Zug für diese Gruppe unverzichtbar.
-
-Die Mobilitätsexpertin Dr. Verena Kraft betont jedoch, dass Fahrräder und E-Bikes die Zukunft der gesunden Stadt sind. Der Autoverkehr zerstöre an vielen Orten die Lebensqualität durch Lärm und schmutzige Luft. „Immer mehr Städte planen neue, sichere Fahrradwege im Zentrum, damit die Menschen keine Angst mehr vor Unfällen haben müssen“, erklärt Kraft. Sie fordert, dass die Politik mehr Geld in die Fahrrad-Infrastruktur investiert, um das Radfahren für alle Bürger komfortabler zu machen.
-
-Experten empfehlen Personen, die das Fahrradfahren im Alltag testen möchten, langsam anzufangen. Man muss nicht sofort jeden Tag 20 Kilometer fahren. Oft reicht es schon, bei gutem Wetter am Wochenende das Auto stehenzulassen und kleine Einkäufe in der Nähe mit dem Rad zu erledigen.
+FORMAT BİLGİSİ:
+- 1 uzun metin (4–5 paragraf)
+- 5 soru (6–10), her biri için 3 şık (a / b / c)
+- Sorular metnin detaylarını veya ana fikrini test eder
+- Seviye: A1–A2
 
 ------------------------------------------------------------------------
 
-6
-Was ist laut Text ein Hauptgrund, warum das Fahrradfahren in Großstädten immer beliebter wird?
+TEXT: Fahrradfahren in der Stadt
 
-a) Weil man mit dem Fahrrad auf den großen Straßen viel schneller im Stau stehen kann.
-b) Weil es gut für die Gesundheit ist, Flexibilität bietet und Geld für Benzin spart.
-c) Weil Fahrräder im Geschäft neuerdings komplett kostenlos an alle Bürger verteilt werden.
+In vielen deutschen Städten fahren immer mehr Menschen mit dem
+Fahrrad zur Arbeit oder zur Schule. Das Fahrrad ist schnell,
+kostet nichts im Betrieb und ist gut für die Umwelt. Viele
+Städte bauen deshalb neue Radwege und stellen Fahrräder zum
+Ausleihen auf. Laut einer Umfrage nutzen schon 30 Prozent der
+Deutschen das Fahrrad täglich.
 
-7
-Melis Özgül aus Berlin
+Besonders beliebt ist das Fahrradfahren bei jüngeren Menschen
+zwischen 18 und 35 Jahren. Sie sagen, das Fahrrad sei schneller
+als der Bus und billiger als das Auto. Auch das Parken ist kein
+Problem: Ein Fahrrad kann man fast überall abstellen. Viele
+junge Menschen kaufen sich gebrauchte Fahrräder, weil neue
+oft sehr teuer sind.
 
-a) ist gestresst, weil sie jeden Tag viele Stunden nach einem Parkplatz für ihr neues Fahrrad suchen muss.
-b) hat ihr Auto verkauft und nutzt jetzt ein gebrauchtes, selbst repariertes Fahrrad für den Weg zur Arbeit.
-c) fährt nur bei schlechtem Wetter mit dem Auto ins Büro, weil das Radfahren dann zu gefährlich ist.
+Aber Fahrradfahren in der Stadt ist nicht immer einfach.
+Manchmal gibt es keine Radwege und man muss auf der Straße
+fahren — zwischen Autos und Bussen. Das kann gefährlich sein.
+Experten empfehlen deshalb, immer einen Helm zu tragen und
+helle Kleidung bei Dunkelheit. Außerdem sollte das Fahrrad
+regelmäßig überprüft werden: Bremsen, Licht und Reifen sind
+besonders wichtig.
 
-8
-Warum äußert sich der Geschäftsmann Thomas Meier skeptisch über das Fahrrad im Alltag?
+Die Stadt Münster gilt als Fahrradhauptstadt Deutschlands.
+Dort hat fast jeder Einwohner ein Fahrrad — manchmal sogar
+mehrere. Es gibt breite Radwege überall in der Stadt und
+spezielle Fahrradparkhäuser am Bahnhof. Viele Menschen
+fahren sogar im Winter Fahrrad, obwohl es kalt und nass ist.
 
-a) Weil er denkt, dass das Fahrrad für Mitarbeiter mit sehr langen Arbeitswegen von 30 bis 40 Kilometern zu anstrengend ist.
-b) Weil es in modernen Großstädten überhaupt keine Geschäfte für gebrauchte Fahrräder gibt.
-c) Weil seine Mitarbeiter laut Arbeitsvertrag nur mit dem Zug oder Bus zur Arbeit kommen dürfen.
+Experten sagen, dass Fahrradfahren auch sehr gesund ist.
+Es ist gut für Herz und Muskeln und reduziert Stress.
+Wer jeden Tag 30 Minuten Fahrrad fährt, bleibt fit und
+spart gleichzeitig Geld. Viele Ärzte empfehlen deshalb
+das Fahrrad als Alternative zum Auto — besonders für
+kurze Strecken in der Stadt.
 
-9
-Was ist nach Ansicht von Dr. Verena Kraft wichtig für die Zukunft der Mobilität in den Städten?
+------------------------------------------------------------------------
 
-a) Dass alle Bürger sofort aufhören zu arbeiten, um mehr Freizeit für lange Fahrradtouren zu haben.
-b) Dass Städte neue und sichere Fahrradwege im Zentrum bauen, um Unfälle zu verhindern und die Lebensqualität zu verbessern.
-c) Dass die Preise für Benzin und Autos sinken, damit der Lärm in der Innenstadt abnimmt.
+FRAGEN 6–10
 
-10
-Welchen Rat geben Experten am Ende des Textes Menschen, die mehr Rad fahren möchten?
+FRAGE 6: Warum fahren viele Menschen in deutschen Städten
+          Fahrrad?
 
-a) Sie sollten sofort ihr Auto verkaufen und jeden Tag mindestens 50 Kilometer mit dem Fahrrad fahren.
-b) Es ist ratsam, langsam anzufangen und zum Beispiel am Wochenende kleine Einkäufe in der Nähe mit dem Rad zu machen.
-c) Man sollte das Fahrradfahren nur zusammen mit Experten oder professionellen Trainern in der Sporthalle üben.
+a) weil der Bus zu teuer ist
+b) weil es schnell, günstig und umweltfreundlich ist
+c) weil es keine Autos mehr in der Stadt gibt
+
+------------------------------------------------------------------------
+
+FRAGE 7: Was empfehlen Experten beim Fahrradfahren
+          in der Stadt?
+
+a) nur auf Radwegen fahren und das Auto stehen lassen
+b) immer einen Helm tragen und das Fahrrad regelmäßig prüfen
+c) nachts nicht Fahrrad fahren
+
+------------------------------------------------------------------------
+
+FRAGE 8: Warum kaufen viele junge Menschen gebrauchte
+          Fahrräder?
+
+a) weil neue Fahrräder zu schwer sind
+b) weil gebrauchte Fahrräder schneller sind
+c) weil neue Fahrräder oft sehr teuer sind
+
+------------------------------------------------------------------------
+
+FRAGE 9: Was ist Besonderes an der Stadt Münster?
+
+a) Dort gibt es keine Autos mehr.
+b) Dort hat fast jeder Einwohner ein Fahrrad.
+c) Dort ist das Fahrradfahren kostenlos.
+
+------------------------------------------------------------------------
+
+FRAGE 10: Was sagen Ärzte über das Fahrradfahren?
+
+a) Es ist gut für die Gesundheit und spart Geld.
+b) Man sollte nur kurze Strecken fahren.
+c) Es ist besser als Sport im Fitnessstudio.
 
 ------------------------------------------------------------------------
 
@@ -68,17 +100,31 @@ c) Man sollte das Fahrradfahren nur zusammen mit Experten oder professionellen T
 LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
 ========================================================================
 
-6: b 
-   - Açıklama (Text): "Die Gründe dafür sind einfach: Gesundheit und Flexibilität... und hilft dabei, viel Geld für Benzin... zu sparen." Bu cümle b seçeneğindeki faydaları doğrudan doğrular.
+6: b
+   - Açıklama: "Das Fahrrad ist schnell, kostet nichts im Betrieb und ist
+     gut für die Umwelt" → üç neden açıkça belirtilmiş. (a) otobüs fiyatı
+     metinde yok. (c) arabalar hâlâ var.
 
-7: b 
-   - Açıklama (Text): "Sie hat ihr altes Auto verkauft und fährt jetzt jeden Tag mit dem Fahrrad ins Büro... Jetzt nutzt sie ein gebrauchtes Trekkingrad, das sie günstig online gekauft und selbst repariert hat." Bu bilgi b şıkkı ile birebir örtüşür.
+7: b
+   - Açıklama: "immer einen Helm zu tragen" ve "das Fahrrad regelmäßig
+     überprüft werden: Bremsen, Licht und Reifen" → her ikisi de metinde.
+     (a) sadece bisiklet yolunda gitme metinde yok. (c) gece yasağı yok.
 
-8: a 
-   - Açıklama (Text): "Viele Mitarbeiter wohnen weit außerhalb... müssen jeden Tag 30 oder 40 Kilometer pendeln. Für diese langen Strecken ist das normale Fahrrad zu anstrengend..." Thomas Meier'ın şüpheci olma nedeni a şıkkında tam olarak verilmiştir.
+8: c
+   - Açıklama: "Viele junge Menschen kaufen sich gebrauchte Fahrräder,
+     weil neue oft sehr teuer sind" → doğrudan metinden. (a) ve (b) metinde yok.
 
-9: b 
-   - Açıklama (Text): „Immer mehr Städte planen neue, sichere Fahrradwege im Zentrum, damit die Menschen keine Angst mehr vor Unfällen haben müssen...“ Dr. Verena Kraft'ın güvenli yollar ve yaşam kalitesi hakkındaki görüşü b seçeneğini doğru cevap yapar.
+9: b
+   - Açıklama: "hat fast jeder Einwohner ein Fahrrad — manchmal sogar
+     mehrere" → metinde açıkça yazılı. (a) arabasız şehir değil. (c) ücretsiz
+     bisiklet metinde yok.
 
-10: b 
-    - Açıklama (Text): "Experten empfehlen... langsam anzufangen... Oft reicht es schon, bei gutem Wetter am Wochenende das Auto stehenzulassen und kleine Einkäufe in der Nähe mit dem Rad zu erledigen." Uzmanların "küçük/yavaş başlama" tavsiyesi b şıkkında özetlenmiştir.
+10: a
+   - Açıklama: "Wer jeden Tag 30 Minuten Fahrrad fährt, bleibt fit und
+     spart gleichzeitig Geld" ve "Ärzte empfehlen deshalb das Fahrrad" →
+     sağlık + para tasarrufu. (b) sadece kısa mesafe metinde yok.
+     (c) fitness stüdyoyla karşılaştırma yok.
+
+========================================================================
+ÖZET CEVAP ANAHTARI: 6-b / 7-b / 8-c / 9-b / 10-a
+========================================================================

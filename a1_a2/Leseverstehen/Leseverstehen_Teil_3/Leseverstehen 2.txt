@@ -1,124 +1,163 @@
 ========================================================================
-telc DEUTSCH A1-A2: OFFIZIELLES LESEVERSTEHEN-TRAINING (ÖZGÜN SET 27)
+telc DEUTSCH A1-A2: LESEVERSTEHEN TEIL 4 — ÖZGÜN SET 02
 ========================================================================
-Prüfungsbaustein: Leseverstehen (Anzeigenzuordnung / İlan Eşleştirme)
-Dauer: 20 Minuten
+Prüfungsbaustein: Leseverstehen Teil 4
+Dauer: ca. 20 Minuten
 
-KURAL REHBERİ (telc Sınav Stratejisi):
-1. Bu bölüm bir ilan esleştirme (Zuordnung) alıştırmasıdır. Amacınız, verilen durumlara (11-20) en uygun ilanı (a-l) bulmaktır[cite: 2]. Eğer bir durum için uygun bir ilan yoksa, o durumun karşısına "x" işareti koymalısınız[cite: 2].
-2. Strateji: Metinlerdeki anahtar kelimeleri (kurs günleri, saatler, bütçe, mutfak türleri veya aranılan mesleki özellikler) ilanlardaki detaylarla çok dikkatli eşleştirin. 
-3. Dikkat: Kelimelerin eş anlamlılarına odaklanın (Örn: "Am Vormittag" -> "9:30 Uhr", "Gebraucht" -> "Zweite Hand").
+FORMAT BİLGİSİ:
+- 10 kişi/durum tanımı (11–20)
+- 5 ilan (a–e)
+- Görev: Her kişi için en uygun ilanı seçin (a–e veya x)
+- x = Kein Angebot passt.
+- Her ilan birden fazla kez kullanılabilir
 
 ------------------------------------------------------------------------
 
-SITUATIONEN (DURUMLAR: 11 - 20)
+SITUATIONEN (DURUMLAR: 11–20)
 
-11 [  ]
-Sie möchten am Samstagabend mit Ihrem Partner ein gemütliches indisches Restaurant direkt im Stadtzentrum besuchen[cite: 2].
+11  Ihre Freundin möchte abnehmen und sucht ein Studio, wo
+    sie Yoga oder Pilates machen kann. Sie hat montags und
+    mittwochs abends Zeit.
 
-12 [  ]
-Ihr Cousin plant einen Sommerurlaub in den Bergen mit seiner Familie (insgesamt 4 Personen) und möchte in der Unterkunft selbst kochen[cite: 2].
+12  Sie suchen eine Ferienwohnung für zwei Wochen im August
+    mit direktem Zugang zum Meer. Sie reisen zu zweit.
 
-13 [  ]
-Die Tochter Ihrer Nachbarin geht noch zur Schule und sucht ein kurzes, zweiwöchiges Praktikum in einer Autowerkstatt, um das Handwerk kennenzulernen[cite: 2].
+13  Ihr Vater möchte lernen, wie man einen Computer benutzt.
+    Er ist Rentner und hat keine Vorkenntnisse.
 
-14 [  ]
-Ihr Bekannter möchte sich selbstständig machen und ein kleines Café eröffnen. Er sucht jemanden für das Design des Logos ve der Speisekarten[cite: 2].
+14  Sie möchten samstags frischen Fisch kaufen. Sie wohnen
+    in der Nähe des Stadtzentrums.
 
-15 [  ]
-Ihre Kollegin möchte unbedingt Spanisch für Anfänger lernen, kann den Kurs aber nur am Wochenende besuchen, da sie unter der Woche arbeitet[cite: 2].
+15  Ihre Nachbarin sucht jemanden, der ihre Wohnung einmal
+    pro Woche putzt. Sie zahlt fair.
 
-16 [  ]
-Ihr Bruder arbeitet im Marketing, spricht schon recht gut Deutsch (B2) und sucht ein gezieltes Training, um professionelle Präsentationen zu halten[cite: 2].
+16  Ihr Bruder sucht einen Englischkurs. Er kann schon ein
+    bisschen Englisch und möchte besser werden. Er arbeitet
+    tagsüber und hat abends Zeit.
 
-17 [  ]
-Sie organisieren ein großes Familienessen für Sonntagmittag mit den Großeltern und suchen ein gemütliches Restaurant mit traditioneller deutscher Küche[cite: 2].
+17  Sie möchten am Wochenende ein Konzert besuchen.
+    Sie hören gerne klassische Musik.
 
-18 [  ]
-Ihre Schwester leidet unter starken Rückenschmerzen und sucht dringend eine Praxis für Physiotherapie, die Termine am späten Abend anbietet[cite: 2].
+18  Ihre Schwester möchte mit ihren zwei Kindern (4 und 7
+    Jahre alt) ins Schwimmbad. Sie sucht ein Familienbad
+    mit Kinderbereich.
 
-19 [  ]
-Ihr Freund studiert Informatik und sucht für die vorlesungsfreie Zeit im Spätsommer (August–Oktober) ein bezahltes Praktikum im Bereich App-Entwicklung[cite: 2].
+19  Sie brauchen einen Handwerker, der einen kaputten
+    Wasserhahn in Ihrer Wohnung repariert.
 
-20 [  ]
-Die Mutter Ihres Freundes hat ein neues Smartphone bekommen. Sie sucht einen Einsteigerkurs, der vormittags stattfindet[cite: 2].
+20  Ihr Kollege möchte einen Kochkurs machen. Er kocht
+    gerne und möchte neue Rezepte lernen. Samstags hat er Zeit.
 
 ------------------------------------------------------------------------
 
-ANZEIGEN (İLANLAR: a - l)
+ANGEBOTE (İLANLAR: a–e)
 
-a) Chili & Chutney – Indische Spezialitäten
-Erleben Sie die Vielfalt der indischen Küche mitten in der Altstadt! Wir bieten traditionelle Currys, Tandoori-Gerichte und eine große Auswahl an vegetarischen Speisen[cite: 2].
-Öffnungszeiten: Di.–So. 12:00–15:00 Uhr und 18:00–23:00 Uhr. Montag Ruhetag[cite: 2].
-Reservierungen online oder unter Tel. 030-22 33 44. Friedrichstraße 12, Berlin[cite: 2].
+------------------------------------------------------------------------
+a  FITNESS & WELLNESS STUDIO BEWEGUNGSRAUM
+   Ihr Studio für Yoga, Pilates und Entspannung
 
-b) Ferienhaus Alpenglück
-Verbringen Sie Ihren Sommerurlaub im wunderschönen Allgäu! Unser modern eingerichtetes Ferienhaus bietet Platz für bis zu 6 Personen[cite: 2]. Große Wohnküche zur Selbstversorgung, Balkon mit Bergblick, Garten mit Grillplatz[cite: 2].
-Vermietung: Mai bis Oktober. Mindestaufenthalt: 7 Nächte[cite: 2].
-Kontakt: info@alpenglueck-ferien.de, Tel. 08321-99 88 77[cite: 2].
+   Kurse für Anfänger und Fortgeschrittene.
+   Montag und Mittwoch: Yoga 18:30–19:45 Uhr
+   Dienstag und Donnerstag: Pilates 19:00–20:15 Uhr
+   Freitag: Entspannungskurs 18:00–19:00 Uhr
 
-c) Grafikdesign-Studio „Farbenfroh“
-Wir bringen Ihre Ideen auf Papier und Bildschirm! Professionelle Gestaltung von Logos, Flyern, Visitenkarten und Speisekarten für Gastronomie und Gewerbe[cite: 2]. Individuelle Beratung für Gründer und Kleinunternehmer[cite: 2].
-Kostenloses Erstgespräch: kontakt@studio-farbenfroh.de, Tel. 0176-55 44 33 22[cite: 2].
+   Monatsbeitrag: 49 € (alle Kurse inklusive)
+   Probestunde kostenlos! Anmeldung: bewegungsraum-studio.de
 
-d) Praktikum bei TechSolutions
-Du studierst Informatik oder Software Engineering und suchst praktische Erfahrung? Wir bieten 3-monatige bezahlte Praktikumsplätze im Bereich Mobile Apps für die Monate August bis Oktober[cite: 2].
-Anforderungen: Grundkenntnisse in Java oder Swift, Teamfähigkeit[cite: 2].
-Bewerbung mit Lebenslauf an: jobs@techsolutions-it.de[cite: 2].
+------------------------------------------------------------------------
+b  FERIENWOHNUNG MEERESBLICK — RÜGEN
+   Direkt am Wasser — Urlaub pur!
 
-e) Deutsches Haus – Traditionelle Küche
-Genießen Sie klassische deutsche Gerichte wie Schweinebraten, Schnitzel und frische Salate in gemütlicher Atmosphäre[cite: 2]. Großer Biergarten für sonnige Tage. Ideal für Familienfeiern[cite: 2].
-Öffnungszeiten: Fr.–So. 11:30–22:00 Uhr, Mo.–Do. Ruhetag[cite: 2].
-Reservierung dringend empfohlen: Tel. 089-44 55 66, Hauptstraße 45, München[cite: 2].
+   Gemütliche 2-Zimmer-Wohnung für 2–4 Personen.
+   Terrasse mit direktem Strandzugang, voll ausgestattete Küche.
+   WLAN, Fahrradverleih vor Ort.
 
-f) Sprachschule Lingua – Spanisch am Samstag
-Wochenendkurs Spanisch A1/A2 für Berufstätige. Lernen Sie die Grundlagen für Beruf und Urlaub ganz ohne Stress neben der Arbeit[cite: 2]. Small Talk, Grammatik und nützliche Vokabeln[cite: 2].
-Kursdauer: 8 Wochen, jeden Samstag von 10:00 bis 13:30 Uhr[cite: 2].
-Anmeldung: www.lingua-sprachschule.de, Tel. 040-77 88 99[cite: 2].
+   Verfügbar: Mai bis September.
+   Mindestaufenthalt: 5 Nächte. Preis: ab 95 € / Nacht.
+   Buchung: meeresblick-ruegen.de oder Tel. 038301-44556
 
-g) Präsentationstraining Deutsch (C1)
-Intensivseminar für Fach- und Führungskräfte mit sehr guten Deutschkenntnissen (ab B2/C1)[cite: 2]. Themen: Struktur von Vorträgen, Körpersprache, Medieneinsatz, professionelles Auftreten vor Kunden[cite: 2].
-Wochenend-Workshop: Sa. und So. jeweils 9:00–16:00 Uhr[cite: 2].
-Infos unter: training@business-deutsch.de[cite: 2].
+------------------------------------------------------------------------
+c  VOLKSHOCHSCHULE STADTMITTE
+   Englisch für Fortgeschrittene — Abendkurs
 
-h) Physio-Zentrum Mitte
-Ihre Experten für Rückenschmerzen, Sportverletzungen und Rehabilitation[cite: 2]. Modernste Geräte und individuelle Betreuung durch erfahrene Therapeuten[cite: 2].
-Sprechzeiten: Mo.–Fr. 7:00–21:30 Uhr. Alle Krankenkassen und Privatpatienten[cite: 2].
-Termine nach Vereinbarung: Tel. 069-11 22 33, info@physio-mitte.de[cite: 2].
+   Sie haben bereits Grundkenntnisse und möchten Ihr Englisch
+   verbessern? Dieser Kurs ist für Sie!
 
-i) Smartphone-Kurs für Senioren
-Keine Angst vor der Technik! Wir zeigen Ihnen Schritt für Schritt, wie Sie Ihr Smartphone für Nachrichten, Fotos und Internet nutzen[cite: 2]. Keine Vorkenntnisse erforderlich. Small Groups, geduldiges Lernen[cite: 2].
-Kurszeiten: Di. und Do. jeweils von 9:30 bis 11:00 Uhr. Dauer: 4 Wochen[cite: 2].
-Anmeldung im Stadtteilzentrum, Tel. 0221-55 66 77[cite: 2].
+   Kurszeiten: Dienstag und Donnerstag, 18:00–19:30 Uhr
+   Kursdauer: 12 Wochen | Kursstart: 5. September
+   Kursgebühr: 140 € inkl. Lernmaterial
 
-j) Kfz-Meisterbetrieb Wagner & Söhne
-Wir reparieren alle Automarken! Jahresservice, Reifenwechsel, Unfallreparaturen[cite: 2]. Wir suchen ab September Auszubildende (m/w/d) für den Beruf Kfz-Mechatroniker[cite: 2].
-Bitte senden Sie Ihre vollständigen Bewerbungsunterlagen per Post an unsere Werkstatt[cite: 2].
-Kontakt: Tel. 0711-88 99 00, info@kfz-wagner.de[cite: 2].
+   Information: vhs-stadtmitte.de | Tel. 030-998877
 
-k) Ferienwohnung Seeblick
-Erholung pur direkt am Chiemsee für 2 Personen[cite: 2]. Moderne Ausstattung, Einbauküche, Terrasse zum See. Haustiere auf Anfrage erlaubt. Perfekt für ein langes Wochenende[cite: 2].
-Buchung ab 3 Nächten möglich[cite: 2].
-Anfragen unter: seeblick-urlaub@web.de[cite: 2].
+------------------------------------------------------------------------
+d  FAMILIENBAD SONNENWELLE
+   Spaß und Entspannung für die ganze Familie!
 
-l) Praktikum im Medienhaus
-Die Kölner Mediengruppe bietet Studentinnen und Studenten der Medienwissenschaften dreimonatige Praktika im Bereich Online-Redaktion und Social Media[cite: 2]. Aufgaben: Schreiben von Artikeln, Recherche[cite: 2].
-Beginn: flexibel. Unvergütetes Pflichtpraktikum[cite: 2].
-Bewerbung an: redaktion@medienhaus-koeln.de[cite: 2].
+   Großes Hallenbad mit separatem Kinderbereich (Wasserrutsche,
+   Planschbecken für Kleinkinder). Eintritt: Erwachsene 6 €,
+   Kinder (bis 14) 3,50 €, Familienticket (2 Erw. + 2 Kinder) 15 €.
+
+   Öffnungszeiten: Mo–Fr 7:00–21:00, Sa–So 9:00–20:00 Uhr.
+   Adresse: Brunnenweg 12 | Tel. 0711-334455
+
+------------------------------------------------------------------------
+e  KOCHSCHULE GENUSSWERKSTATT
+   Kochen lernen — Spaß garantiert!
+
+   Samstags-Kochkurse für Hobbyköche.
+   Themen: Mediterrane Küche, Asiatisch kochen, Backen für Anfänger.
+
+   Kursdauer: 3 Stunden | Kurszeiten: 10:00–13:00 Uhr
+   Preis: 55 € pro Person inkl. Zutaten und Getränke.
+   Anmeldung: genusswerkstatt.de oder Tel. 040-667788
 
 ------------------------------------------------------------------------
 
 ========================================================================
-OFFIZIELLER LÖSUNGSSCHLÜSSEL (CEVAP ANAHTARI VE AÇIKLAMALAR)
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
 ========================================================================
 
-11: a (Chili & Chutney: Hint spesiyaliteleri sunuyor, Berlin merkezde/Altstadt ve cumartesi akşamları açık[cite: 2].)
-12: b (Ferienhaus Alpenglück: Dağlık bölgede (Allgäu), kendi yemeğini pişirmek için büyük bir mutfağı var ve 6 kişiye kadar uygun[cite: 2].)
-13: x (İlan j'deki oto tamir servisi kısa süreli staj (Praktikum) sunmuyor, sadece uzun süreli mesleki eğitim (Ausbildung) için öğrenci arıyor[cite: 2]. Bu yüzden uygun ilan yoktur.)
-14: c (Studio Farbenfroh: Yeni mekân açanlar için profesyonel logo ve menü kartı tasarımı yapıyor[cite: 2].)
-15: f (Sprachschule Lingua: Başlangıç seviyesinde (A1/A2) İspanyolca eğitimi, sadece cumartesi günleri yani hafta sonu[cite: 2].)
-16: g (Präsentationstraining: En az B2 seviyesinde Almancası olanlar için iş hayatında profesyonel sunum teknikleri semineri[cite: 2].)
-17: e (Deutsches Haus: Geleneksel Alman mutfağı sunuyor, Pazar öğlenleri açık ve aile kutlamaları için ideal[cite: 2].)
-18: h (Physio-Zentrum Mitte: Sırt ağrıları için uzman, hafta içi akşam saat 21:30'a kadar açık (geç saat)[cite: 2].)
-19: d (TechSolutions: Bilişim öğrencileri için Spätsommer (Ağustos-Ekim) döneminde ücretli mobil uygulama geliştirme stajı[cite: 2].)
-20: i (Smartphone-Kurs: Akıllı telefon kullanmayı yeni öğrenecekler için sabah saat 9:30 - 11:00 arası (vormittags) düzenlenen kurs[cite: 2].)
+11: a (Fitness & Wellness Studio Bewegungsraum)
+   - Açıklama: Yoga/Pilates, Pazartesi ve Çarşamba akşamı →
+     "Montag und Mittwoch: Yoga 18:30–19:45 Uhr" tam eşleşme. ✓
+
+12: b (Ferienwohnung Meeresblick — Rügen)
+   - Açıklama: 2 kişi, 2 hafta, denize doğrudan erişim →
+     2-Zimmer für 2–4 Personen, "direktem Strandzugang", Ağustos uygun. ✓
+
+13: x (Kein Angebot passt)
+   - Açıklama: Bilgisayar kullanmayı öğrenmek isteyen emekli, başlangıç →
+     İlanlarda bilgisayar kursu yok. x ✓
+
+14: x (Kein Angebot passt)
+   - Açıklama: Cumartesi taze balık satın almak istiyor →
+     İlanlarda balık satışı veya balık pazarı ilanı yok. x ✓
+
+15: x (Kein Angebot passt)
+   - Açıklama: Haftada bir temizlikçi arıyor →
+     İlanlarda temizlik hizmeti yok. x ✓
+
+16: c (Volkshochschule Stadtmitte)
+   - Açıklama: Biraz İngilizce biliyor, geliştirmek istiyor, akşam vakti →
+     "Englisch für Fortgeschrittene", akşam kursu (Di/Do 18:00). ✓
+
+17: x (Kein Angebot passt)
+   - Açıklama: Hafta sonu klasik müzik konseri →
+     İlanlarda konser ilanı yok. x ✓
+
+18: d (Familienbad Sonnenwelle)
+   - Açıklama: 2 çocuk (4 ve 7 yaş), aile yüzme havuzu, çocuk bölümü →
+     "separatem Kinderbereich", Familienticket, hafta sonu açık. ✓
+
+19: x (Kein Angebot passt)
+   - Açıklama: Musluk tamiri için tesisatçı arıyor →
+     İlanlarda tamirci/tesisatçı ilanı yok. x ✓
+
+20: e (Kochschule Genusswerkstatt)
+   - Açıklama: Yemek yapmayı seviyor, yeni tarifler öğrenmek istiyor,
+     Cumartesi vakti uygun → Samstags-Kochkurse, 55 € / kişi. ✓
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+11-a / 12-b / 13-x / 14-x / 15-x / 16-c / 17-x / 18-d / 19-x / 20-e
+========================================================================

@@ -7,45 +7,61 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Größere Menschen bekommen oft mehr Lohn",
-      "b": "Büro-Übungen beugen Rückenschmerzen vor",
-      "c": "Viel Stress, aber Job macht froh",
-      "d": "Luxus-Burger sorgt für Diskussionen",
-      "e": "Firmen organisieren eigene After-Work-Partys",
-      "f": "Soziale Medien kritisieren Restaurantpreise",
-      "g": "Einfache Übungen gegen Rückenschmerzen",
-      "h": "Forscher prüfen Einfluss der Ausstrahlung",
-      "i": "Feiern nach der Arbeit liegen im Trend",
-      "j": "Flexible Arbeitszeiten senken Stress"
+      "a": "Hunde helfen Kindern beim Lesen lernen",
+      "b": "Zu viel Zucker macht Kinder unruhig",
+      "c": "Immer mehr Menschen kaufen gebrauchte Kleidung",
+      "d": "Schule beginnt jetzt später am Morgen",
+      "e": "Neue App hilft beim Sprachenlernen",
+      "f": "Stadt baut mehr Fahrradwege",
+      "g": "Forscher: Musik macht klüger",
+      "h": "Supermarkt verschenkt Essen vor Ladenschluss",
+      "i": "Weniger Schlaf schadet der Gesundheit",
+      "j": "Kinder lernen besser mit Bewegung"
     },
     "texts": [
       {
         "id": 1,
-        "content": "Der „Rücken-Gesundheits-Ratgeber“ vom GesundFit-Verlag ist ein praktisches Buch für alle, die Rückenschmerzen haben oder vorbeugen wollen. Der Autor, Dr. Martin Keller, erklärt in einfachen Worten, wie die Wirbelsäule funktioniert. Viele Fotos zeigen leichte Übungen für zu Hause und fürs Büro. Besonders hilfreich sind die kurzen Trainingspläne für jeden Tag. Das Buch kostet 14,90 Euro und ist im Buchhandel und online erhältlich."
+        "content": "Wissenschaftler haben herausgefunden, dass Kinder, die jeden Tag Sport treiben, in der Schule besser aufpassen können. Bewegung hilft dem Gehirn, neue Informationen zu verarbeiten. Viele Schulen in Deutschland planen deshalb mehr Sportunterricht. Experten empfehlen mindestens 60 Minuten Bewegung pro Tag."
       },
       {
         "id": 2,
-        "content": "LONDON. In einem Luxus-Restaurant wurde gestern der angeblich teuerste Hamburger der Welt verkauft. Der Burger kostete 1.500 Pfund, also fast 1.800 Euro. Er wurde aus sehr hochwertigem Rindfleisch, Trüffel, Kaviar und einem speziellen Gold-Brötchen gemacht. Nur zehn Gäste durften den Hamburger probieren. Das Restaurant spendete einen Teil des Geldes für ein Kinderkrankenhaus. Viele Menschen diskutierten in den sozialen Medien über den Preis."
+        "content": "In vielen Städten wächst die Zahl der Secondhand-Läden. Immer mehr Menschen kaufen Kleidung, die schon einmal getragen wurde. Das spart Geld und ist gut für die Umwelt. Besonders junge Leute finden Secondhand-Mode interessant. Online-Plattformen machen den Kauf noch einfacher."
       },
       {
         "id": 3,
-        "content": "Eine Studie der Universität Köln zeigt, dass es einen Zusammenhang zwischen Körpergröße und Gehalt gibt. In der Umfrage wurden 2.000 Angestellte aus verschiedenen Branchen befragt. Männer über 1,85 Meter verdienen im Durchschnitt 8 Prozent mehr als kleinere Männer. Bei Frauen ist der Unterschied etwas geringer, etwa 5 Prozent. Die Forscher sagen, dass große Personen oft selbstsicherer wirken und deshalb schneller befördert werden."
+        "content": "Eine neue Studie zeigt: Wer weniger als sieben Stunden pro Nacht schläft, hat häufiger Probleme mit Konzentration und Gedächtnis. Auch das Immunsystem wird schwächer. Ärzte raten dazu, jeden Tag zur gleichen Zeit ins Bett zu gehen. Bildschirme sollten mindestens eine Stunde vor dem Schlafen ausgeschaltet werden."
       },
       {
         "id": 4,
-        "content": "Laut einer Umfrage des Instituts ArbeitPlus sind viele Deutsche gestresst, aber trotzdem relativ zufrieden mit ihrer Arbeit. Es wurden 1.500 Beschäftigte in Büros, Fabriken und im Einzelhandel befragt. 62 Prozent fühlen sich mehrmals pro Woche gestresst, vor allem durch Zeitdruck. Gleichzeitig sagten 70 Prozent, dass sie ihren Job insgesamt mögen. Wer flexible Arbeitszeiten hat, berichtet deutlich weniger Stress und eine höhere Arbeitszufriedenheit."
+        "content": "In einem Supermarkt in Bremen gibt es ab sofort ein neues Angebot: Eine Stunde vor der Schließung werden Lebensmittel, die bald ablaufen, kostenlos an Kunden abgegeben. Das Ziel ist es, weniger Essen wegzuwerfen. Kunden können sich ab 19:00 Uhr an der Infotheke melden."
       },
       {
         "id": 5,
-        "content": "BERLIN. After-Work-Partys sind in deutschen Großstädten immer beliebter geworden. In vielen Bars treffen sich Angestellte donnerstags oder freitags direkt nach der Arbeit. Die Veranstaltungen beginnen oft schon um 18 Uhr und dauern bis etwa 22 Uhr. Firmen nutzen die Partys, um das Teamgefühl zu stärken. Laut den Veranstaltern kommen besonders junge Berufstätige, die neue Leute kennenlernen und trotzdem nicht zu spät nach Hause gehen wollen."
+        "content": "Die Stadt Hamburg investiert in diesem Jahr 12 Millionen Euro in neue Fahrradwege. Viele alte Straßen werden verbreitert, damit Radfahrer sicherer unterwegs sind. Ziel ist es, mehr Menschen dazu zu bringen, das Auto stehen zu lassen und stattdessen das Fahrrad zu benutzen."
+      },
+      {
+        "id": 1,
+        "content": "- Açıklama: Metin, hareketin çocukların okuldaki başarısını artırdığını anlatıyor. \"Bewegung hilft dem Gehirn\" ve \"besser aufpassen\" → (j) tam eşleşme. (g) \"Musik macht klüger\" aldatmaca; müzikle ilgisi yok."
+      },
+      {
+        "id": 2,
+        "content": "- Açıklama: \"kaufen Kleidung, die schon einmal getragen wurde\" = ikinci el giysi satın almak → (c) tam eşleşme. (f) bisiklet yolları aldatmaca."
+      },
+      {
+        "id": 3,
+        "content": "- Açıklama: \"wer weniger als sieben Stunden schläft, hat häufiger Probleme\" = az uyku sağlığa zarar veriyor → (i) tam eşleşme. (b) \"Zucker macht Kinder unruhig\" aldatmaca; şekerle ilgisi yok."
+      },
+      {
+        "id": 4,
+        "content": "- Açıklama: \"werden Lebensmittel... kostenlos an Kunden abgegeben\" = yiyecekler ücretsiz dağıtılıyor → (h) tam eşleşme. (e) app aldatmaca."
+      },
+      {
+        "id": 5,
+        "content": "- Açıklama: \"investiert in neue Fahrradwege\" ve \"Radfahrer sicherer\" → (f) tam eşleşme. (d) \"Schule beginnt später\" aldatmaca. Kullanılmayan (aldatmaca) başlıklar: a / b / d / e / g"
       }
     ],
     "answers": {
-      "1": "g",
-      "2": "d",
-      "3": "a",
-      "4": "c",
-      "5": "i"
+      "1": "j"
     }
   },
   {
@@ -55,45 +71,61 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Neuer Trend: Deutsche essen weniger Fleisch",
-      "b": "Smartphone-Verbot an Schulen bringt bessere Noten",
-      "c": "Gesund im Alltag: Täglich Äpfel essen",
-      "d": "Padel-Tennis wird immer populärer in Europa",
-      "e": "Günstige Sprachkurse für internationale Studierende",
-      "f": "Junge Menschen kaufen lieber gebrauchte Fahrräder",
-      "g": "Neuer Rekord: Ticketpreise für Fußballspiele steigen",
-      "h": "Forscher sagen: Kaffeetrinken am Morgen reduziert Stress",
-      "i": "Berlin plant mehr Fahrradwege für die Sicherheit",
-      "j": "Online-Shopping: Senioren kaufen weniger im Internet"
+      "a": "Roboter übernehmen Jobs in Fabriken",
+      "b": "Immer mehr Touristen besuchen kleine Dörfer",
+      "c": "Neues Gesetz: Plastiktüten verboten",
+      "d": "Alte Menschen fühlen sich in Städten einsamer",
+      "e": "Schüler lernen Kochen in der Schule",
+      "f": "Weniger Autos in der Innenstadt geplant",
+      "g": "Bibliotheken werden zu Treffpunkten",
+      "h": "Kinder und Jugendliche schlafen zu wenig",
+      "i": "Neue Studie: Sport im Alter sehr wichtig",
+      "j": "Immer mehr Menschen essen vegetarisch"
     },
     "texts": [
       {
         "id": 1,
-        "content": "Eine Untersuchung der Universität München zeigt interessante Ergebnisse über den Alltag von Studierenden. Immer mehr junge Leute in Deutschland möchten Geld sparen und die Umwelt schützen. Deshalb kaufen fast 65 Prozent kein neues Fahrrad im Geschäft. Sie suchen stattdessen auf Online-Marktplätzen nach einem gebrauchten Rad (Second-Hand). Oft reparieren onlar die Fahrräder selbst zu Hause."
+        "content": "Eine neue Umfrage zeigt: Immer weniger Menschen essen täglich Fleisch. Besonders bei jungen Erwachsenen zwischen 20 und 35 Jahren ist der Trend zum vegetarischen Essen stark. Viele nennen als Grund den Umweltschutz oder die Tierrechte. Supermärkte reagieren und bieten immer mehr pflanzliche Produkte an."
       },
       {
         "id": 2,
-        "content": "Der Volkshochschule-Verband (VHS) in Berlin bietet ab nächsten Monat ein neues Programm an. Ausländische Studenten und Studentinnen, die an einer Universität angemeldet sind, können Deutschkurse auf den Niveaus A1 bis C1 besuchen. Ein Kurs dauert sechs Wochen und kostet nur 40 Euro. Das Ziel ist es, den Studierenden beim schnellen Start in das Leben und die Karriere in Deutschland zu helfen."
+        "content": "Schlafforscher warnen: Viele Jugendliche schlafen nur fünf bis sechs Stunden pro Nacht — das ist zu wenig. Zu wenig Schlaf führt zu schlechteren Schulleistungen und mehr Stress. Ein Grund ist die lange Nutzung von Smartphones am Abend. Experten empfehlen neun Stunden Schlaf für Teenager."
       },
       {
         "id": 3,
-        "content": "In Ländern wie Spanien, Schweden und Deutschland sieht man auf Sportplätzen immer häufiger eine neue Sportart: Padel-Tennis. Es ist eine Mischung aus Tennis und Squash. Laut einer aktuellen Sport-Umfrage spielen mittlerweile über eine Million Menschen in Europa regelmäßig diesen Sport. Besonders junge Berufstätige schätzen das Spiel am Wochenende, weil man es schnell lernen kann und man viel Bewegung hat."
+        "content": "In Deutschland müssen Supermärkte und Geschäfte seit dem 1. Januar keine kostenlosen Plastiktüten mehr anbieten. Wer eine Tüte möchte, muss dafür bezahlen. Das neue Gesetz soll helfen, Plastikmüll zu reduzieren. Viele Kunden bringen jetzt eigene Taschen mit."
       },
       {
         "id": 4,
-        "content": "BERLIN. Die Stadt möchte den Verkehr für Fahrradfahrer sicherer machen. Das Verkehrsministerium hat ein neues Projekt für das Jahr 2027 angekündigt. In den nächsten zwei Jahren sollen über 120 Kilometer neue Wege nur für Fahrräder gebaut werden, besonders im Stadtzentrum. Viele Bürger finden das gut, aber einige Autofahrer protestieren, weil es dann weniger Platz für Autos auf den Straßen gibt."
+        "content": "Viele Städte planen, Autos aus den Innenstädten zu verbannen. Ziel ist es, die Luft sauberer zu machen und mehr Platz für Fußgänger und Radfahrer zu schaffen. In einigen deutschen Städten gibt es bereits autofreie Zonen an Wochenenden. Händler sind gespalten: Manche befürworten die Idee, andere haben Angst vor weniger Kunden."
       },
       {
         "id": 5,
-        "content": "Eine gesunde Ernährung ist wichtig, um Krankheiten vorzubeugen. Wissenschaftler aus der Schweiz haben die Wirkung von täglichem Obstkonsum untersucht. Die Ergebnisse zeigen: Wer jeden Tag einen Apfel isst, stärkt sein Immunsystem und hat deutlich seltener Probleme mit dem Magen. Die Forscher empfehlen, das Obst am Morgen direkt zum Frühstück zu essen, da der Körper die Vitamine dann am besten aufnehmen kann."
+        "content": "Früher waren Bibliotheken nur Orte zum Bücher ausleihen. Heute bieten viele Bibliotheken Kurse, Spieleabende und Ausstellungen an. Sie werden zu Orten, an denen Menschen zusammenkommen und sich austauschen. Besonders ältere Menschen und Familien nutzen dieses neue Angebot gerne."
+      },
+      {
+        "id": 1,
+        "content": "- Açıklama: \"Immer weniger Menschen essen täglich Fleisch\" ve \"Trend zum vegetarischen Essen\" → (j) doğrudan eşleşme. (i) \"Sport im Alter\" aldatmaca; spor yok."
+      },
+      {
+        "id": 2,
+        "content": "- Açıklama: \"Viele Jugendliche schlafen nur fünf bis sechs Stunden — das ist zu wenig\" → (h) tam eşleşme. (i) \"Sport im Alter\" aldatmaca; uyku konusu."
+      },
+      {
+        "id": 3,
+        "content": "- Açıklama: \"müssen... keine kostenlosen Plastiktüten mehr anbieten\" ve \"Das neue Gesetz\" → (c) tam eşleşme. (a) \"Roboter\" aldatmaca; yasayla ilgisi yok."
+      },
+      {
+        "id": 4,
+        "content": "- Açıklama: \"Autos aus den Innenstädten zu verbannen\" ve \"mehr Platz für Fußgänger\" → (f) tam eşleşme. (b) \"Touristen\" aldatmaca; turizm değil trafik konusu."
+      },
+      {
+        "id": 5,
+        "content": "- Açıklama: \"Orte, an denen Menschen zusammenkommen und sich austauschen\" = buluşma yerleri → (g) tam eşleşme. (d) \"Alte Menschen fühlen sich einsamer\" aldatmaca; yaşlılar kütüphaneye geliyor ama yalnızlık değil, sosyalleşme konusu. Kullanılmayan (aldatmaca) başlıklar: a / b / d / e / i"
       }
     ],
     "answers": {
-      "1": "f",
-      "2": "e",
-      "3": "d",
-      "4": "i",
-      "5": "c"
+      "1": "j"
     }
   },
   {
@@ -103,45 +135,61 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Neuer Sprachkurs am Abend für Berufstätige",
-      "b": "Haustier-Gesundheit: Richtige Ernährung für Hunde",
-      "c": "Handwerker-Service in Berlin wird teurer",
-      "d": "Junge Paare suchen größere Wohnungen im Zentrum",
-      "e": "Neues Verbot für Autos in der Innenstadt am Wochenende",
-      "f": "Solarenergie: Immer mehr Häuser mit Solar-PV-Systemen",
-      "g": "Hilfe im Haushalt: Möbelmontage per App buchen",
-      "h": "Neue Trends im deutschen Strommarkt: Preise sinken am Nachmittag",
-      "i": "Sport am Wochenende: Basketballturnier für Jugendliche",
-      "j": "Haustierbesitzer kaufen mehr Bio-Futter online"
+      "a": "Haustiere helfen gegen Einsamkeit",
+      "b": "Gemeinsames Kochen verbindet Menschen",
+      "c": "Online-Unterricht ersetzt Schule nicht",
+      "d": "Mehr Frauen in Führungspositionen",
+      "e": "Neue Regeln für E-Scooter in der Stadt",
+      "f": "Weniger Bienen: Problem für die Landwirtschaft",
+      "g": "Kaffee ist gesünder als gedacht",
+      "h": "Immer mehr Kinder haben Allergie",
+      "i": "Bauern verkaufen direkt an Kunden",
+      "j": "Frische Luft verbessert die Konzentration"
     },
     "texts": [
       {
         "id": 1,
-        "content": "Wer ein neues Bett, einen Kleiderschrank oder Küchenmöbel gekauft hat, steht oft vor einem Problem: Die Montage ist kompliziert und dauert viele Stunden. In Berlin nutzen deshalb immer mehr Menschen digitale Dienstleistungsplattformen wie TaskRabbit. Über eine App kann man schnell einen erfahrenen Handwerker oder Freelancer buchen, der die Möbel direkt zu Hause fachgerecht zusammenbaut. Das spart Zeit und schont die Nerven."
+        "content": "Immer mehr Landwirte verkaufen ihre Produkte direkt an Privatpersonen — ohne den Umweg über den Supermarkt. Auf sogenannten Hofläden oder über Online-Bestellungen können Kunden frisches Gemüse, Eier oder Fleisch direkt beim Erzeuger kaufen. Das ist oft günstiger und frischer. Viele Kunden schätzen außerdem den persönlichen Kontakt."
       },
       {
         "id": 2,
-        "content": "Eine Analyse des deutschen Strommarktes zeigt eine interessante Entwicklung bei den Preisen an der Strombörse. Durch den starken Ausbau von erneuerbaren Energien gibt es besonders an sonnigen und windigen Tagen viel Strom im Netz. Das führt dazu, dass die Day-Ahead- und Intraday-Preise für Strom am Nachmittag oft sehr stark sinken. Experten empfehlen Firmen, energieintensive Arbeiten in diese Stunden zu verlegen."
+        "content": "Eine Studie der Universität Köln zeigt: Kinder, die draußen spielen und frische Luft atmen, können sich in der Schule besser konzentrieren. Besonders nach einer Pause im Freien steigen Aufmerksamkeit und Leistung deutlich an. Lehrer berichten, dass Kinder nach dem Schulhofpause ruhiger und fokussierter sind."
       },
       {
         "id": 3,
-        "content": "Viele Menschen möchten unabhängiger von teuren Stromanbietern werden ve einen Beitrag zum Klimaschutz leisten. Eine aktuelle Statistik zeigt, dass im letzten Jahr die Installation von Solar-PV-Systemen auf privaten Hausdächern in Deutschland um 20 Prozent gestiegen ist. Besonders beliebt ist die Kombination mit modernen Batterie-Energiespeichersystemen (BESS), damit man den sauberen Strom auch nachts nutzen kann."
+        "content": "In vielen deutschen Städten gibt es neue Verkehrsregeln für E-Scooter. Fahrer müssen jetzt einen Helm tragen und dürfen nur auf Radwegen fahren — nicht auf Gehwegen. Außerdem ist Fahren zu zweit auf einem Scooter verboten. Wer die Regeln nicht befolgt, muss ein Bußgeld bezahlen."
       },
       {
         "id": 4,
-        "content": "Der richtige Speiseplan für den vierbeinigen Freund ist wichtig für ein langes Leben. Tierärzte aus Berlin betonen, dass ältere Hunde ab dem 10. Lebensjahr eine spezielle Pflege brauchen. Wenn ein Hund beispielsweise etwa 8 Kilo wiegt, wie es oft bei Rassen wie dem Jack Russell Terrier der Fall ist, sollte man genau auf das Gewicht achten. Zu viel Futter schadet den Gelenken. Senior-Hunde brauchen weniger Kalorien, aber dafür mehr Proteine und Vitamine im Napf."
+        "content": "Immer mehr Studien belegen: Menschen, die ein Tier zu Hause haben, fühlen sich weniger allein. Besonders ältere Menschen profitieren davon. Hunde sorgen auch dafür, dass ihre Besitzer regelmäßig an die frische Luft gehen. Einige Pflegeheime erlauben deshalb jetzt Haustiere in den Zimmern."
       },
       {
         "id": 5,
-        "content": "Am kommenden Samstag organisiert der Berliner Sportverein ein großes Event auf den Freiplätzen im Volkspark. Junge Spielerinnen und Spieler im Alter von 12 bis 18 Jahren können an einem großen Basketballturnier teilnehmen. Die Anmeldung ist kostenlos und es gibt tolle Preise zu gewinnen. Der Spaß an der Bewegung und das Teamgefühl stehen im Vordergrund. Bei schlechtem Wetter wird das Turnier in die Sporthalle verlegt."
+        "content": "Koch-Workshops, bei denen Menschen gemeinsam Mahlzeiten zubereiten, werden immer beliebter. Ob im Verein, in der Schule oder in der Nachbarschaft — gemeinsames Kochen fördert den sozialen Kontakt. Viele Teilnehmer berichten, dass sie dabei neue Freundschaften geschlossen haben. Besonders für Neuankömmlinge ist das Angebot sehr wertvoll."
+      },
+      {
+        "id": 1,
+        "content": "- Açıklama: \"Landwirte verkaufen ihre Produkte direkt an Privatpersonen\" ve \"direkt beim Erzeuger kaufen\" → (i) tam eşleşme. (g) \"Kaffee\" aldatmaca; tarımla ilgisi yok."
+      },
+      {
+        "id": 2,
+        "content": "- Açıklama: \"frische Luft atmen, können sich besser konzentrieren\" → (j) tam eşleşme. (h) \"Allergie\" aldatmaca; konsantrasyon konusu."
+      },
+      {
+        "id": 3,
+        "content": "- Açıklama: \"neue Verkehrsregeln für E-Scooter\" ve \"Helm tragen\", \"Bußgeld\" → (e) tam eşleşme. (d) \"Frauen in Führungspositionen\" aldatmaca; trafik kuralları konusu."
+      },
+      {
+        "id": 4,
+        "content": "- Açıklama: \"fühlen sich weniger allein\" ve \"Haustiere in den Zimmern\" → (a) tam eşleşme. (j) \"Frische Luft\" aldatmaca; yürüyüş geçse de ana tema yalnızlık değil mi konusu."
+      },
+      {
+        "id": 5,
+        "content": "- Açıklama: \"gemeinsames Kochen fördert den sozialen Kontakt\" ve \"neue Freundschaften\" → (b) tam eşleşme. (c) \"Online-Unterricht\" aldatmaca. Kullanılmayan (aldatmaca) başlıklar: c / d / f / g / h"
       }
     ],
     "answers": {
-      "1": "g",
-      "2": "h",
-      "3": "f",
-      "4": "b",
-      "5": "i"
+      "1": "i"
     }
   },
   {
@@ -151,45 +199,61 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Neuer Intensivkurs für Deutsch auf C1-Niveau am Goethe-Institut",
-      "b": "Elektroautos in Deutschland: Verkaufszahlen sinken im Sommer",
-      "c": "Junge Leute lernen Spanisch im Ausland",
-      "d": "Neue Regeln für die telc B2-Prüfung ab nächstem Monat",
-      "e": "Karriere im Ausland: Ingenieure suchen Stellen in Berlin",
-      "f": "Berlin investiert Millionen in neue Buslinien im Zentrum",
-      "g": "Neue Statistik: Immer mehr Studierende wechseln die Universität",
-      "h": "Energie-Experten sagen: Deutschland braucht mehr Windparks",
-      "i": "Trend auf dem Gebrauchtwagenmarkt: Preise für alte Autos steigen",
-      "j": "Fit im Beruf: Sportprogramme für Angestellte in großen Firmen"
+      "a": "Weniger Lärm in der Nacht gefordert",
+      "b": "Schüler gründen eigenes Unternehmen",
+      "c": "Regen schadet der Ernte",
+      "d": "Urlaub im eigenen Land liegt im Trend",
+      "e": "Neues Museum für Stadtgeschichte eröffnet",
+      "f": "Kinder brauchen mehr Pausen in der Schule",
+      "g": "Tierärzte warnen vor Sommerhitze für Hunde",
+      "h": "Arbeiten von zu Hause bleibt beliebt",
+      "i": "Ältere Arbeitnehmer gesucht",
+      "j": "Weniger Papier im Büro dank Digitalisierung"
     },
     "texts": [
       {
         "id": 1,
-        "content": "Das Goethe-Institut in Berlin hat ein neues Kursprogramm für den kommenden Herbst veröffentlicht. Für ausländische Berufstätige und Akademiker, die bereits gute Vorkenntnisse haben, gibt es ab Oktober einen speziellen Intensivkurs. In diesem Kurs lernen die Teilnehmer jeden Tag vier Stunden, um das anspruchsvolle C1-Niveau zu erreichen. Das Ziel ist es, die sprachlichen Voraussetzungen für ein Studium oder eine fortgeschrittene Karriere in Deutschland zu schaffen."
+        "content": "Viele Bürger beschweren sich über Lärm in der Nacht — besonders über Autos, Baustellen und laute Partys. Eine neue Initiative in mehreren deutschen Städten fordert strengere Regeln für nächtlichen Lärm. Zwischen 22:00 Uhr und 6:00 Uhr sollen Verstöße härter bestraft werden. Anwohner unterstützen die Forderung mehrheitlich."
       },
       {
         "id": 2,
-        "content": "Der Markt für gebrauchte Fahrzeuge in Deutschland zeigt im laufenden Jahr eine überraschende Entwicklung. Laut einer aktuellen Analyse des Automobilclubs sind die Preise für gut erhaltene Gebrauchtwagen (Second-Hand-Autos) im Durchschnitt um fast 12 Prozent gestiegen. Besonders junge Leute, die kein Geld für ein teures Neufahrzeug haben, suchen auf Online-Plattformen nach älteren Modellen. Händler berichten, dass die Nachfrage im Moment das Angebot deutlich übersteigt."
+        "content": "Immer mehr Deutschen machen ihren Urlaub lieber im eigenen Land. Die Küste, die Berge oder kleine Städte sind beliebt. Reisen im Inland ist oft günstiger und bequemer als lange Flugreisen. Auch der Umweltschutz spielt eine Rolle: Viele Menschen möchten ihren CO₂-Ausstoß reduzieren."
       },
       {
         "id": 3,
-        "content": "Eine aktuelle Umfrage unter 5.000 Absolventen zeigt, dass Berlin für ausländische Fachkräfte ein sehr attraktives Ziel bleibt. Besonders junge Menschen aus dem Bereich der Energietechnik und des Ingenieurwesens suchen nach dem Bachelor- oder Masterabschluss eine Stelle in der deutschen Hauptstadt. Viele internationale Unternehmen bieten englischsprachige Arbeitsplätze an, was den Einstieg in den deutschen Arbeitsmarkt für qualifizierte Ingenieure erheblich erleichtert."
+        "content": "Seit der Corona-Pandemie arbeiten viele Menschen regelmäßig von zu Hause aus. Eine aktuelle Umfrage zeigt: Die Mehrheit der Befragten möchte das Homeoffice nicht mehr missen. Flexibilität und weniger Pendelzeit nennen sie als größte Vorteile. Viele Firmen planen, das Homeoffice dauerhaft anzubieten."
       },
       {
         "id": 4,
-        "content": "Viele große Unternehmen in Deutschland bieten ihren Mitarbeitern mittlerweile eigene Fitness- und Gesundheitsprogramme an. Direkt nach der Arbeit oder in den Pausen können die Angestellten an kostenlosen Kursen wie Yoga, Rückentraining oder Basketball teilnehmen. Laut einer Studie des Instituts für Gesundheit senken diese sportlichen Aktivitäten am Arbeitsplatz den Stress der Mitarbeiter deutlich und verbessern gleichzeitig das Teamgefühl in den Abteilungen."
+        "content": "In einer Berufsschule in München haben Schülerinnen und Schüler eine eigene kleine Firma gegründet. Sie verkaufen handgemachte Produkte wie Taschen und Schmuck. Das Projekt soll ihnen zeigen, wie Unternehmertum in der Praxis funktioniert. Die Schüler kümmern sich selbst um Einkauf, Produktion und Verkauf."
       },
       {
         "id": 5,
-        "content": "In der Diskussion um den Klimaschutz fordern deutsche Energie-Experten einen schnelleren Ausbau der Windenergie. Um die Klimaziele für das Jahr 2030 zu erreichen, muss Deutschland laut einer neuen Analyse der Energiebranche pro Jahr mindestens 1.500 neue Windparks an Land und auf dem Meer bauen. Aktuell bremsen komplizierte bürokratische Prozesse und lange Wartezeiten beim Bürgeramt für Genehmigungen das Tempo beim Ausbau der grünen Energie stark aus."
+        "content": "In Deutschland öffnet ein neues Museum, das die Geschichte einer Stadt von 1800 bis heute zeigt. Besucher können interaktive Stationen nutzen und alte Fotos sowie Dokumente ansehen. Das Museum richtet sich an Familien, Schulen und Touristen. Der Eintritt ist für Kinder unter 14 Jahren kostenlos."
+      },
+      {
+        "id": 1,
+        "content": "- Açıklama: \"Bürger beschweren sich über Lärm in der Nacht\" ve \"strengere Regeln für nächtlichen Lärm\" → (a) tam eşleşme. (c) \"Regen schadet der Ernte\" aldatmaca; gürültü konusu."
+      },
+      {
+        "id": 2,
+        "content": "- Açıklama: \"Urlaub lieber im eigenen Land\" ve \"Reisen im Inland\" → (d) tam eşleşme. (g) \"Sommerhitze für Hunde\" aldatmaca."
+      },
+      {
+        "id": 3,
+        "content": "- Açıklama: \"von zu Hause aus arbeiten\" ve \"Homeoffice dauerhaft anbieten\" → (h) tam eşleşme. (j) \"Weniger Papier\" aldatmaca; her ikisi de iş hayatıyla ilgili ama (h) tam eşleşiyor."
+      },
+      {
+        "id": 4,
+        "content": "- Açıklama: \"Schülerinnen und Schüler eine eigene kleine Firma gegründet\" → (b) tam eşleşme. (i) \"Ältere Arbeitnehmer gesucht\" aldatmaca."
+      },
+      {
+        "id": 5,
+        "content": "- Açıklama: \"neues Museum, das die Geschichte einer Stadt zeigt\" → (e) tam eşleşme. (f) \"Pausen in der Schule\" aldatmaca; okuldan bahsedilse de tarih müzesi konusu. Kullanılmayan (aldatmaca) başlıklar: c / f / g / i / j"
       }
     ],
     "answers": {
-      "1": "a",
-      "2": "i",
-      "3": "e",
-      "4": "j",
-      "5": "h"
+      "1": "a"
     }
   },
   {
@@ -199,45 +263,61 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Neuer Intensivkurs für Deutsch auf A2-Niveau am Vormittag",
-      "b": "Online-Plattformen: Viele Berliner verkaufen ihre Möbel im Internet",
-      "c": "Junge Berufstätige lernen Padel-Tennis am Wochenende",
-      "d": "Großer Flohmarkt für gebrauchte Gegenstände zieht nach Berlin-Mitte",
-      "e": "Energiekrise: Strompreise am Abend steigen auf einen neuen Rekord",
-      "f": "Neue Sprachseminare: Türkisch für Anfänger an der Volkshochschule",
-      "g": "Trend im Handwerk: Immer mehr Frauen arbeiten als Handwerkerin",
-      "h": "Wetterumschwung in Europa: Starker Regen am Wochenende erwartet",
-      "i": "Neue App für Handwerker-Dienstleistungen reduziert die Kosten im Alltag",
-      "j": "Berliner Gastronomie: Höhere Preise für Bio-Lebensmittel in Restaurants"
+      "a": "Tanzen hält Senioren fit",
+      "b": "Zu viel Bildschirmzeit schadet den Augen",
+      "c": "Neues Café bietet Arbeit für Menschen mit Behinderung",
+      "d": "Gemeindegärten werden immer beliebter",
+      "e": "Weniger Fleisch, mehr Gesundheit",
+      "f": "Tierpark erhält seltene Tiere aus Australien",
+      "g": "Jugendliche engagieren sich mehr ehrenamtlich",
+      "h": "Weniger Wasser verbrauchen: Tipps für den Alltag",
+      "i": "Immer mehr Menschen wohnen allein",
+      "j": "Lesen fördert Empathie, sagen Forscher"
     },
     "texts": [
       {
         "id": 1,
-        "content": "MÜNCHEN. Ein neuer Trend begeistert immer mehr Menschen, die am Wochenende aktiv sein möchten. Die Sportart Padel-Tennis wird in Deutschland rasant populärer. Besonders junge Angestellte und Berufstätige nutzen den schlägerbasierten Sport am Samstag oder Sonntag, um den Stress der Woche abzubauen und fit zu bleiben. Da man die Regeln in wenigen Minuten lernen kann, wächst die Zahl der Spieler auf den Plätzen kontinuierlich."
+        "content": "Forscher der Universität Hamburg haben untersucht, ob regelmäßiges Lesen das Einfühlungsvermögen von Menschen verbessert. Das Ergebnis: Menschen, die viel lesen — besonders Romane — können sich besser in andere hineinversetzen. Das Lesen von Geschichten trainiert das Gehirn, Gefühle anderer zu verstehen. Experten empfehlen daher, täglich mindestens 20 Minuten zu lesen."
       },
       {
         "id": 2,
-        "content": "Die Volkshochschule (VHS) in Berlin erweitert ihr aktuelles Programm für das nächste Semester um ein neues Angebot. Ab kommenden Monat gibt es spezielle Sprachseminare für Personen ohne Vorkenntnisse, die gerne Türkisch lernen möchten. Der Fokus liegt auf der alltäglichen Kommunikation für den Urlaub oder den Beruf. Ein Kurs umfasst zwölf Termine und findet immer abends statt, damit auch Berufstätige problemlos teilnehmen können."
+        "content": "Immer mehr Menschen in deutschen Städten legen einen kleinen Garten auf gemeinschaftlichen Flächen an. Diese sogenannten Gemeinschaftsgärten bieten Platz zum Gärtnern für alle, die keinen eigenen Garten haben. Nachbarn kommen zusammen, tauschen Samen und Erfahrungen aus. Stadtplaner sehen das als wichtigen Beitrag zur Lebensqualität in der Stadt."
       },
       {
         "id": 3,
-        "content": "Eine Analyse des europäischen Wetterdienstes warnt vor schweren Unwettern in den kommenden Tagen. Besonders in Teilen von Deutschland, Frankreich und Österreich wird für den kommenden Samstag und Sonntag ein heftiger Wetterumschwung erwartet. Meteorologen rechnen mit starkem Dauerregen ve Gewittern, was zu lokalen Überschwemmungen führen kann. Bürger werden gebeten, am Wochenende auf Aktivitäten im Freien zu verzichten."
+        "content": "In Köln hat ein neues Café eröffnet, in dem Menschen mit verschiedenen Behinderungen als Servicekräfte arbeiten. Das Konzept kommt sehr gut an: Das Café ist fast täglich ausgebucht. Inhaber Peter Lenz sagt: \"Wir wollen zeigen, dass inklusive Arbeit möglich und bereichernd ist.\" Die Stadt unterstützt das Projekt finanziell."
       },
       {
         "id": 4,
-        "content": "Wer zu Hause eine Reparatur durchführen muss veya neue Möbel zusammenbauen möchte, findet oft nicht den passenden Experten. Eine neue digitale Plattform bietet jetzt eine Lösung: Über eine Smartphone-App können Berliner günstige Dienstleistungen im Haushalt buchen. Die App vermittelt erfahrene Handwerker und Freelancer direkt in der Nachbarschaft. Laut den Entwicklern spart dieses System viel Zeit und senkt die Kosten für die Kunden im Alltag erheblich."
+        "content": "Eine Studie zeigt: Jugendliche zwischen 14 und 20 Jahren engagieren sich heute mehr als früher in Vereinen, sozialen Projekten und bei freiwilligen Feuerwehren. Viele geben an, dass ihnen Gemeinschaft und das Gefühl, etwas Gutes zu tun, sehr wichtig sind. Experten sehen das als positives Zeichen für die Gesellschaft."
       },
       {
         "id": 5,
-        "content": "Der Verband der Gastronomen in Berlin berichtet über eine neue Entwicklung in der lokalen Gastroszene. Da die Einkaufskosten für landwirtschaftliche Produkte aus biologischem Anbau im letzten Jahr stark gestiegen sind, müssen viele Restaurants ihre Speisekarten anpassen. Die Preise für Gerichte mit hochwertigen Bio-Zutaten sind im Durchschnitt um 15 Prozent teurer geworden. Trotzdem bleibt die Nachfrage der Kunden nach gesunder Ernährung stabil."
+        "content": "Immer häufiger leben Menschen in Deutschland ohne Partner oder Familie in einer eigenen Wohnung. In Großstädten wie Berlin und München ist jeder zweite Haushalt ein Einpersonenhaushalt. Gründe dafür sind Scheidungen, längeres Studium und der Wunsch nach Unabhängigkeit. Soziologen diskutieren, welche Auswirkungen das auf die Gesellschaft hat."
+      },
+      {
+        "id": 1,
+        "content": "- Açıklama: \"regelmäßiges Lesen das Einfühlungsvermögen verbessert\" (Einfühlungsvermögen = empati) ve \"Forscher der Universität\" → (j) tam eşleşme. (b) \"Bildschirmzeit schadet den Augen\" aldatmaca; okuma var ama ekran değil."
+      },
+      {
+        "id": 2,
+        "content": "- Açıklama: \"Gemeinschaftsgärten\" ve \"immer mehr Menschen legen einen Garten an\" → (d) tam eşleşme. (h) \"Wasser verbrauchen\" aldatmaca; bahçe var ama su tasarrufu konusu değil."
+      },
+      {
+        "id": 3,
+        "content": "- Açıklama: \"Menschen mit verschiedenen Behinderungen als Servicekräfte arbeiten\" → (c) tam eşleşme. (a) \"Tanzen hält Senioren fit\" aldatmaca."
+      },
+      {
+        "id": 4,
+        "content": "- Açıklama: \"Jugendliche engagieren sich heute mehr als früher in Vereinen, sozialen Projekten\" → (g) tam eşleşme. (f) \"Tierpark erhält seltene Tiere\" aldatmaca."
+      },
+      {
+        "id": 5,
+        "content": "- Açıklama: \"ohne Partner oder Familie in einer eigenen Wohnung\" ve \"jeder zweite Haushalt ein Einpersonenhaushalt\" → (i) tam eşleşme. (e) \"Weniger Fleisch\" aldatmaca; yalnız yaşam konusu. Kullanılmayan (aldatmaca) başlıklar: a / b / e / f / h"
       }
     ],
     "answers": {
-      "1": "c",
-      "2": "f",
-      "3": "h",
-      "4": "i",
-      "5": "j"
+      "1": "j"
     }
   },
   {
@@ -247,45 +327,61 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Trend bei Jugendlichen: Spanischkurse am Abend werden beliebter",
-      "b": "Neue Regeln für die telc B2-Prüfung in Deutschland angekündigt",
-      "c": "Gebrauchtwagenmarkt: Preise für alte Elektroautos sinken rasant",
-      "d": "Berlin plant neue Parkplätze für Fahrräder am Bahnhof",
-      "e": "Fitness für Haustiere: Hunde-Training im Park liegt im Trend",
-      "f": "Neue Sprachkurse: Deutsch intensiv am Vormittag für den Beruf",
-      "g": "Berlin investiert Millionen in neue Buslinien im Stadtzentrum",
-      "h": "Energie-Experten fordern: Mehr Solarenergie auf öffentlichen Gebäuden",
-      "i": "Neue Statistik: Immer mehr ältere Menschen kaufen ein E-Bike",
-      "j": "Umfrage im Büro: Kurze Pausen am Arbeitsplatz reduzieren den Stress"
+      "a": "Neue Technik macht Brillen günstiger",
+      "b": "Schulen testen kürzere Unterrichtstage",
+      "c": "Immer mehr Senioren nutzen Smartphones",
+      "d": "Flüsse in Deutschland werden wärmer",
+      "e": "Kostenlose Sprachkurse für Geflüchtete",
+      "f": "Frühstück gilt als wichtigste Mahlzeit",
+      "g": "Weniger Kinder in deutschen Schulen",
+      "h": "Stadtpark wird zum Freiluftkonzert",
+      "i": "Mehr Bio-Produkte in Kantinen",
+      "j": "Hitzewelle: Städte pflanzen mehr Bäume"
     },
     "texts": [
       {
         "id": 1,
-        "content": "Das Goethe-Institut in Berlin bietet für das kommende Semester ein neues Kursprogramm an. Ausländische Fachkräfte, die schnell ihre Sprachkenntnisse verbessern möchten, können ab nächsten Monat an einem Intensivkurs teilnehmen. Der Unterricht findet jeden Tag von Montag bis Freitag am Vormittag zwischen 09:00 und 13:00 Uhr statt. Der Fokus liegt auf der professionellen Kommunikation im Büro und dem Schreiben von offiziellen E-Mails."
+        "content": "Viele ältere Menschen über 65 nutzen heute regelmäßig ein Smartphone. Sie schreiben Nachrichten, machen Fotos und telefonieren per Video mit der Familie. Kurse in Volkshochschulen helfen dabei, das Handy besser zu bedienen. Laut einer Studie fühlen sich Senioren durch das Smartphone weniger allein."
       },
       {
         "id": 2,
-        "content": "Der Markt für gebrauchte Kraftfahrzeuge in Deutschland verändert sich. Laut einer aktuellen Analyse des Automobilclubs gibt es im Bereich der Elektromobilität eine überraschende Entwicklung. Die Preise für gebrauchte Elektroautos sind im Vergleich zum Vorjahr um fast 15 Prozent gesunken. Viele Händler berichten, dass die Batterien älterer Modelle oft an Leistung verlieren und die Kunden deshalb beim Kauf von gebrauchten E-PKWs sehr vorsichtig sind."
+        "content": "In mehreren deutschen Städten werden in diesem Sommer Tausende neue Bäume gepflanzt. Der Grund: In den letzten Jahren sind die Temperaturen in Städten stark gestiegen. Bäume spenden Schatten und kühlen die Luft. Besonders Parks und Schulhöfe sollen mehr Grün bekommen."
       },
       {
         "id": 3,
-        "content": "BERLIN. Die Stadtverwaltung möchte den öffentlichen Nahverkehr im Zentrum moderner und schneller machen. Das Verkehrsministerium hat ein neues Großprojekt angekündigt. In den nächsten zwei Jahren sollen über 20 Millionen Euro ausgegeben werden, um neue und umweltfreundliche Buslinien zu bauen. Besonders die stark frequentierten Straßen im Stadtzentrum sollen durch dieses Projekt entlastet werden, damit die Bürger schneller zur Arbeit kommen."
+        "content": "Kantinen in Schulen und Betrieben servieren immer häufiger Bio-Lebensmittel. Frisches Gemüse, regionales Fleisch und weniger Fertigprodukte stehen auf dem Speiseplan. Viele Betreiber sagen, dass die Nachfrage von Kunden und Eltern stark gestiegen ist. Einige Kantinen sind schon zu 100 Prozent bio-zertifiziert."
       },
       {
         "id": 4,
-        "content": "Eine aktuelle Umfrage unter 2.000 Angestellten in deutschen Großraumbüros zeigt interessante Ergebnisse über die Arbeitszufriedenheit. Wer während der Arbeitszeit alle zwei Stunden eine kurze Pause von fünf bis zehn Minuten macht, ist deutlich produktiver. Die Forscher betonen, dass kleine Erholungsphasen am Schreibtisch oder ein kurzer Kaffee mit Kollegen den Stress der Mitarbeiter im Beruf stark reduzieren und die Konzentration verbessern."
+        "content": "Wissenschaftler beobachten, dass die Temperaturen in deutschen Flüssen wie dem Rhein und der Elbe in den letzten Jahren deutlich gestiegen sind. Das schadet bestimmten Fischarten, die kühleres Wasser brauchen. Experten fordern mehr Schutz der Flussufer durch Bäume und Pflanzen."
       },
       {
         "id": 5,
-        "content": "In der Diskussion um den Klimaschutz fordern deutsche Energie-Experten eine bessere Nutzung von Dachflächen. Um die nationalen Klimaziele für das Jahr 2030 zu erreichen, sollten laut einer neuen Studie alle Schulen, Rathäuser und Krankenhäuser in Deutschland mit modernen Solar-PV-Systemen ausgestattet werden. Aktuell wird viel Potenzial verschenkt, da nur ein kleiner Teil der öffentlichen Gebäude sauberen Strom durch Sonnenenergie produziert."
+        "content": "Ein neues Projekt in Hamburg bietet Geflüchteten kostenlose Deutschkurse an. Die Kurse finden dreimal pro Woche statt und werden von ausgebildeten Lehrern geleitet. Ziel ist es, den Teilnehmern den Einstieg in den Alltag und die Arbeitswelt zu erleichtern. Bisher haben über 300 Menschen teilgenommen."
+      },
+      {
+        "id": 1,
+        "content": "- Açıklama: \"ältere Menschen über 65 nutzen regelmäßig ein Smartphone\" → (c) tam eşleşme. (a) \"Brillen\" aldatmaca; teknoloji konusu ama gözlük değil akıllı telefon."
+      },
+      {
+        "id": 2,
+        "content": "- Açıklama: \"Temperaturen in Städten stark gestiegen\" ve \"Tausende neue Bäume gepflanzt\" → (j) tam eşleşme. (d) \"Flüsse wärmer\" aldatmaca; ısınma konusu ama nehir değil şehir."
+      },
+      {
+        "id": 3,
+        "content": "- Açıklama: \"Kantinen... Bio-Lebensmittel\" ve \"100 Prozent bio-zertifiziert\" → (i) tam eşleşme. (f) \"Frühstück\" aldatmaca; yemek var ama kahvaltı değil kantin konusu."
+      },
+      {
+        "id": 4,
+        "content": "- Açıklama: \"Temperaturen in deutschen Flüssen... gestiegen\" → (d) tam eşleşme. (j) \"Bäume\" aldatmaca; zaten Text 2'de kullanıldı."
+      },
+      {
+        "id": 5,
+        "content": "- Açıklama: \"Geflüchteten kostenlose Deutschkurse\" → (e) tam eşleşme. (b) \"Schulen testen kürzere Unterrichtstage\" aldatmaca; kurs var ama okul konusu değil. Kullanılmayan (aldatmaca) başlıklar: a / b / f / g / h"
       }
     ],
     "answers": {
-      "1": "f",
-      "2": "c",
-      "3": "g",
-      "4": "j",
-      "5": "h"
+      "1": "c"
     }
   },
   {
@@ -295,45 +391,61 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Trend in Großstädten: Junge Leute reparieren alte Fahrräder selbst",
-      "b": "Neue Regeln für Haustiere in öffentlichen Bussen in Berlin",
-      "c": "Sprachkurs am Wochenende: Spanisch lernen für den Urlaub",
-      "d": "Teure Wohnungen: Senioren suchen Zimmer auf dem Land",
-      "e": "Neuer Trend: Immer mehr Menschen nutzen Carsharing in Deutschland",
-      "f": "Hilfe bei der Gartenarbeit per Smartphone-App buchen",
-      "g": "Berlin plant neue Sportplätze für Padel-Tennis im Stadtzentrum",
-      "h": "Energie-Experten sagen: Batterienspeicher senken die Stromkosten",
-      "i": "Gesunde Ernährung: Warum Bio-Gemüse auf dem Wochenmarkt teurer ist",
-      "j": "Neue App für Handwerker: Einfache Möbelmontage zu Hause"
+      "a": "Mehr Frauen werden Handwerkerinnen",
+      "b": "Kleine Geschäfte kämpfen ums Überleben",
+      "c": "Neues Angebot: Bücher per Post leihen",
+      "d": "Sport im Freien macht glücklicher",
+      "e": "Städte planen mehr Spielplätze",
+      "f": "Tiere im Zoo bekommen neue Gehege",
+      "g": "Weniger Fleisch auf Schulspeiseplänen",
+      "h": "Online-Shopping verdrängt lokale Läden",
+      "i": "Musik verbessert die Stimmung",
+      "j": "Forscher entdecken neuen Schlaftyp"
     },
     "texts": [
       {
         "id": 1,
-        "content": "BERLIN. Ein neuer Trend auf dem Second-Hand-Markt begeistert viele Studierende und junge Berufstätige in der Hauptstadt. Anstatt ein teures neues Rad im Geschäft zu kaufen, erwerben viele junge Menschen ein gebrauchtes Trekkingrad (zum Beispiel von Marken wie Pegasus) für wenig Geld auf Online-Plattformen. In speziellen Fahrrad-Werkstätten im Kiez lernen sie dann, wie man die Bremsen, das Licht und die Kette selbst repariert ve das alte Fahrrad wieder komplett fit macht."
+        "content": "Immer mehr Frauen entscheiden sich für einen Beruf im Handwerk. Tischlerinnen, Elektronikerinnen und Klempnerinnen sind gefragt wie nie. Betriebe suchen händeringend Nachwuchs und werben gezielt um weibliche Auszubildende. Experten sagen, dass Handwerksberufe gute Verdienstmöglichkeiten bieten."
       },
       {
         "id": 2,
-        "content": "Wer eine neue Wohnung bezieht oder neue Möbel im Möbelhaus kauft, hat oft ein großes Problem mit dem Transport und dem Aufbau. In deutschen Großstädten nutzen Bürger deshalb immer häufiger digitale Plattformen im Internet. Über eine unkomplizierte Smartphone-App kann man erfahrene Handwerker oder Freelancer in der Nähe buchen. Diese Helfer kommen direkt nach Hause, bringen ihr eigenes Werkzeug mit und montieren Schränke, Tische oder Betten schnell und fachgerecht."
+        "content": "Lokale Geschäfte in deutschen Innenstädten leiden unter der wachsenden Konkurrenz durch Online-Händler. Immer mehr Kunden bestellen Kleidung, Bücher und Elektronikartikel bequem von zu Hause. Viele Ladenbesitzer berichten von sinkenden Umsätzen. Städte versuchen, mit Aktionen und Märkten die Kunden zurückzubringen."
       },
       {
         "id": 3,
-        "content": "In der Diskussion über die Energiewende betonen Experten aus Berlin die Bedeutung von modernen Technologien für Privathaushalte. Wer eine Solar-PV-Anlage auf dem Dach hat, sollte diese mit einem Batterie-Energiespeichersystem (BESS) kombinieren. Eine neue Studie zeigt, dass Familien dadurch den sauberen Strom auch nachts nutzen können. Das macht sie unabhängig von teuren Stromanbietern und reduziert die monatlichen Stromkosten im Durchschnitt um bis zu 30 Prozent."
+        "content": "Eine neue Bibliothek in Berlin bietet einen besonderen Service: Kunden können Bücher online auswählen und bekommen sie per Post nach Hause geschickt. Die Rückgabe erfolgt ebenfalls per Post. Das Angebot richtet sich besonders an ältere Menschen und Menschen, die schlecht zu Fuß sind."
       },
       {
         "id": 4,
-        "content": "Die Stadt Berlin möchte das Sportangebot für die Bürger im Sommer erweitern. Das Sportministerium hat angekündigt, in den kommenden zwei Jahren über fünf Millionen Euro in moderne Sportanlagen zu investieren. Besonders der neue Trendsport Padel-Tennis steht im Fokus: In zentralen Parks und auf öffentlichen Sportplätzen im Stadtzentrum sollen über zwanzig neue Plätze gebaut werden, die man flexibel und kostengünstig online reservieren kann."
+        "content": "Forscher haben untersucht, ob Sport unter freiem Himmel glücklicher macht als Sport in der Turnhalle. Das Ergebnis: Menschen, die im Freien joggen, Rad fahren oder spazieren gehen, berichten von besserer Stimmung und weniger Stress. Das Naturerlebnis spielt dabei eine wichtige Rolle."
       },
       {
         "id": 5,
-        "content": "Immer mehr Deutsche verzichten in Großstädten auf ein eigenes Auto und nutzen stattdessen moderne Mobilitätskonzepte. Laut einer aktuellen Statistik des Automobilclubs hat sich die Zahl der Registrierungen bei Carsharing-Anbietern im laufenden Jahr verdoppelt. Die Bürger schätzen es, ein Fahrzeug flexibel per App für eine Stunde oder einen Tag zu mieten. Das spart viel Geld für Versicherung und Benzin und schont gleichzeitig die Umwelt."
+        "content": "In immer mehr Schulen in Deutschland steht Fleisch seltener auf dem Speiseplan der Schulkantine. Viele Schulen bieten jetzt täglich vegetarische Gerichte an. Einige Schulen haben sich sogar entschieden, komplett auf Fleisch zu verzichten. Eltern und Schüler reagieren unterschiedlich auf die Änderung."
+      },
+      {
+        "id": 1,
+        "content": "- Açıklama: \"Immer mehr Frauen entscheiden sich für einen Beruf im Handwerk\" → (a) tam eşleşme. (b) \"Kleine Geschäfte\" aldatmaca; meslek konusu ama küçük işletme değil."
+      },
+      {
+        "id": 2,
+        "content": "- Açıklama: \"leiden unter der Konkurrenz durch Online-Händler\" ve \"Immer mehr Kunden bestellen... von zu Hause\" → (h) tam eşleşme. (b) \"Kleine Geschäfte kämpfen\" de yakın ama (h) çok daha doğrudan eşleşiyor."
+      },
+      {
+        "id": 3,
+        "content": "- Açıklama: \"Bücher online auswählen und bekommen sie per Post\" → (c) tam eşleşme. (i) \"Musik\" aldatmaca."
+      },
+      {
+        "id": 4,
+        "content": "- Açıklama: \"Sport unter freiem Himmel glücklicher macht\" ve \"besserer Stimmung\" → (d) tam eşleşme. (i) \"Musik verbessert die Stimmung\" aldatmaca; ruh hali konusu ama müzik değil spor."
+      },
+      {
+        "id": 5,
+        "content": "- Açıklama: \"Schulkantine... Fleisch seltener auf dem Speiseplan\" → (g) tam eşleşme. (e) \"Spielplätze\" aldatmaca; okul konusu ama oyun alanı değil kantin. Kullanılmayan (aldatmaca) başlıklar: b / e / f / i / j"
       }
     ],
     "answers": {
-      "1": "a",
-      "2": "j",
-      "3": "h",
-      "4": "g",
-      "5": "e"
+      "1": "a"
     }
   },
   {
@@ -343,45 +455,61 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Neuer Trend: Deutsche trinken mehr Kaffee im Büro",
-      "b": "Höhere Preise für Bahntickets am Wochenende angekündigt",
-      "c": "Studie zeigt: Flexible Arbeitszeiten reduzieren den Stress im Beruf",
-      "d": "Berlin plant ein neues Verbot für Diesel-Autos im Stadtzentrum",
-      "e": "Steigende Kosten: Restaurants erhöhen die Preise für Hamburger",
-      "f": "Solarenergie boomt: Immer mehr Haushalte nutzen Solar-PV-Systeme",
-      "g": "Handwerker per App: Schnelle Hilfe bei der Möbelmontage im Alltag",
-      "h": "Neue Sprachkurse: Spanisch für Anfänger am Goethe-Institut Berlin",
-      "i": "Seltener krank: Gesunde Ernährung mit viel Obst schützt das Immunsystem",
-      "j": "Sensation auf dem Gebrauchtwagenmarkt: Preise für alte Fahrräder sinken"
+      "a": "Neue Brücke verbindet zwei Stadtteile",
+      "b": "Mehr Menschen fahren mit der Bahn",
+      "c": "Kindergärten suchen dringend Personal",
+      "d": "Weniger Müll durch Pfandsystem",
+      "e": "Sportvereine verlieren Mitglieder",
+      "f": "Stadtfest lockt Tausende Besucher",
+      "g": "Forscher testen essbare Verpackungen",
+      "h": "Schulbücher werden digital",
+      "i": "Fahrpreise steigen: Autofahrer wechseln zur Bahn",
+      "j": "Alte Fabrik wird zum Kulturzentrum"
     },
     "texts": [
       {
         "id": 1,
-        "content": "Eine aktuelle Umfrage des Instituts für Arbeitsmarktforschung unter 3.000 Angestellten in Deutschland zeigt interessante Ergebnisse zum Thema Gesundheit am Arbeitsplatz. Mitarbeiter, die ihre tägliche Arbeitszeit flexibel selbst einteilen können (Gleitzeit), berichten von einer deutlich höheren Zufriedenheit. Die Forscher betonen, dass diese Flexibilität den zeitlichen Druck am Morgen stark minimiert ve den Stress im Beruf im Durchschnitt um fast 25 Prozent senkt."
+        "content": "Eine alte Fabrik in Leipzig, die seit zwanzig Jahren leer stand, wird jetzt zu einem Kulturzentrum umgebaut. In dem neuen Gebäude sollen Konzerte, Ausstellungen und Theateraufführungen stattfinden. Das Projekt kostet fünf Millionen Euro und soll im nächsten Jahr eröffnet werden."
       },
       {
         "id": 2,
-        "content": "Wer nach dem Umzug in eine neue Wohnung frustriert vor unaufgebauten Schränken oder Betten steht, findet in deutschen Großstädten jetzt schnelle Hilfe. Über moderne Online-Plattformen und Smartphone-Apps lassen sich erfahrene Handwerker und studentische Freelancer aus der direkten Nachbarschaft buchen. Die Helfer kommen flexibel vorbei, bringen ihr eigenes Werkzeug mit und erledigen die Möbelmontage im Haushalt unkompliziert und fachgerecht."
+        "content": "In Deutschland steigen immer mehr Menschen auf die Bahn um. Ein Grund sind die höheren Benzinpreise. Aber auch das günstige Deutschlandticket spielt eine Rolle: Mit 49 Euro pro Monat kann man den gesamten Nahverkehr nutzen. Die Deutsche Bahn meldet Rekordzahlen bei den Fahrgästen."
       },
       {
         "id": 3,
-        "content": "Wissenschaftler der Universität Zürich haben in einer dreijährigen Studie die gesundheitlichen Effekte von regelmäßiger Rohkost untersucht. Wer täglich frisches Obst wie Äpfel, Bananen veya Orangen isst, führt dem Körper wichtige Vitamine und Antioxidantien zu. Die Ergebnisse der medizinischen Untersuchung belegen, dass diese Menschen ein deutlich stärkeres Immunsystem haben, seltener an Erkältungen leiden ve im Alltag seltener krank werden."
+        "content": "Wissenschaftler arbeiten an Verpackungen, die man nach dem Gebrauch einfach essen kann. Diese Verpackungen bestehen aus natürlichen Zutaten wie Algen oder Stärke. Ziel ist es, Plastikmüll zu reduzieren. Die ersten Produkte sollen noch in diesem Jahr auf den Markt kommen."
       },
       {
         "id": 4,
-        "content": "Die Energiewende in Europa ist in vollem Gange, und immer mehr Privatpersonen beteiligen sich aktiv daran. Laut einer neuen Statistik der Bundesnetzagentur hat sich die Installation von Solar-PV-Systemen auf den Dächern von Einfamilienhäusern im laufenden Jahr massiv erhöht. Die Kombination mit modernen Batterie-Speichern (BESS) sorgt dafür, dass die Besitzer den umweltfreundlichen Strom unabhängig von der Tageszeit nutzen und Geld sparen können."
+        "content": "In Deutschland gibt es zu wenige Erzieherinnen und Erzieher. Viele Kindergärten können nicht alle Plätze belegen, weil das Personal fehlt. Fachleute fordern bessere Gehälter und kürzere Arbeitszeiten, um den Beruf attraktiver zu machen. Die Situation ist besonders in Großstädten problematisch."
       },
       {
         "id": 5,
-        "content": "Aufgrund der stark gestiegenen Kosten für Energie und Transport müssen Reisende in Deutschland ab dem nächsten Monat tiefer in die Tasche greifen. Die Deutsche Bahn hat eine Erhöhung der Ticketpreise für den Fernverkehr (ICE und IC) um durchschnittlich 6 Prozent angekündigt. Besonders betroffen von den teureren Tarifen sind Wochenendfahrer und Urlauber, die ihre Fahrkarten nicht weit im Voraus online gebucht haben."
+        "content": "Immer mehr Schulen in Deutschland stellen auf digitale Schulbücher um. Schüler können die Bücher auf Tablets oder Laptops lesen. Das spart Gewicht im Schulranzen und ermöglicht interaktive Inhalte. Nicht alle Eltern sind begeistert — einige sorgen sich um zu viel Bildschirmzeit."
+      },
+      {
+        "id": 1,
+        "content": "- Açıklama: \"alte Fabrik... wird jetzt zu einem Kulturzentrum umgebaut\" → (j) tam eşleşme. (a) \"Neue Brücke\" aldatmaca; yapı var ama köprü değil."
+      },
+      {
+        "id": 2,
+        "content": "- Açıklama: \"immer mehr Menschen auf die Bahn um\" ve \"Rekordzahlen bei den Fahrgästen\" → (b) tam eşleşme. (i) \"Fahrpreise steigen\" aldatmaca; fiyatlar metinde geçiyor ama başlık asıl fikri yanlış özetliyor — metinde tren yolcuları artıyor, araba sürücüleri değil."
+      },
+      {
+        "id": 3,
+        "content": "- Açıklama: \"Verpackungen, die man... essen kann\" ve \"Wissenschaftler arbeiten\" → (g) tam eşleşme. (d) \"Pfandsystem\" aldatmaca; ambalaj atığı konusu ama depozito sistemi değil."
+      },
+      {
+        "id": 4,
+        "content": "- Açıklama: \"zu wenige Erzieherinnen und Erzieher\" ve \"Kindergärten können nicht alle Plätze belegen\" → (c) tam eşleşme. (e) \"Sportvereine verlieren Mitglieder\" aldatmaca."
+      },
+      {
+        "id": 5,
+        "content": "- Açıklama: \"Schulen stellen auf digitale Schulbücher um\" → (h) tam eşleşme. (e) \"Sportvereine\" aldatmaca; okul var ama spor değil. Kullanılmayan (aldatmaca) başlıklar: a / d / e / f / i"
       }
     ],
     "answers": {
-      "1": "c",
-      "2": "g",
-      "3": "i",
-      "4": "f",
-      "5": "b"
+      "1": "j"
     }
   },
   {
@@ -391,45 +519,61 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Neuer Trend in Berlin: Junge Leute kaufen teure Neufahrräder",
-      "b": "Sprachkurse am Abend: Deutsch lernen für internationale Studierende",
-      "c": "Gesunde Ernährung: Warum täglich Obst essen das Immunsystem stärkt",
-      "d": "Padel-Tennis wird immer populärer bei jungen Berufstätigen in Europa",
-      "e": "Hilfe im Haushalt: Erfahrene Handwerker per App für Möbelmontage buchen",
-      "f": "Neue Buslinien im Zentrum: Berlin investiert Millionen für die Sicherheit",
-      "g": "Trends auf dem Strommarkt: Preise sinken am Nachmittag durch Solarenergie",
-      "h": "Neue Regeln für Haustiere: Hunde ab dem 10. Lebensjahr im Büro verboten",
-      "i": "Berlin plant mehr Fahrradwege für die Sicherheit der Fahrradfahrer",
-      "j": "Höhere Preise für Bio-Lebensmittel in Berliner Restaurants"
+      "a": "Kältewelle trifft Norddeutschland",
+      "b": "Weniger Werbung für Kinder im Fernsehen",
+      "c": "Neue App hilft bei der Jobsuche",
+      "d": "Wandern liegt wieder im Trend",
+      "e": "Strom aus Solaranlagen wird billiger",
+      "f": "Immer mehr Pflegeheime suchen Fachkräfte",
+      "g": "Schüler bauen eigene Roboter",
+      "h": "Tiere im Winter: Tipps für Gartenbesitzer",
+      "i": "Kostenlose Sportkurse in der Stadt",
+      "j": "Gemeinsam statt einsam: WG für Senioren"
     },
     "texts": [
       {
         "id": 1,
-        "content": "Wer ein neues Bett, einen Kleiderschrank oder Küchenmöbel gekauft hat, steht oft vor einem Problem: Die Montage ist kompliziert und dauert viele Stunden. In Berlin nutzen deshalb immer mehr Menschen digitale Dienstleistungsplattformen im Internet. Über eine unkomplizierte Smartphone-App kann man schnell einen erfahrenen Handwerker oder Freelancer aus der Nachbarschaft buchen, der die Möbel direkt zu Hause fachgerecht zusammenbaut."
+        "content": "Solarenergie wird für private Haushalte immer erschwinglicher. Die Kosten für Solaranlagen sind in den letzten Jahren stark gesunken. Viele Familien investieren deshalb in eigene Anlagen auf dem Dach. Wer mehr Strom produziert, als er verbraucht, kann den Überschuss ins Netz einspeisen und Geld verdienen."
       },
       {
         "id": 2,
-        "content": "Eine Analyse des deutschen Strommarktes zeigt eine interessante Entwicklung bei den Preisen an der Strombörse. Durch den starken Ausbau von erneuerbaren Energien gibt es besonders an sonnigen Tagen sehr viel Strom im Netz. Das führt dazu, dass die Day-Ahead- und Intraday-Preise für Strom am Nachmittag oft sehr stark sinken. Experten empfehlen Firmen, energieintensive Arbeiten in diese Stunden zu verlegen, um Geld zu sparen."
+        "content": "In mehreren deutschen Städten bieten Sportvereine kostenlose Kurse für alle Einwohner an. Yoga, Schwimmen und Volleyball stehen auf dem Programm. Die Kurse werden vom Stadtrat finanziert und sollen besonders Menschen ansprechen, die sich bisher wenig bewegt haben."
       },
       {
         "id": 3,
-        "content": "In Ländern wie Spanien, Schweden und Deutschland sieht man auf Sportplätzen immer häufiger eine neue Sportart: Padel-Tennis. Es ist eine Mischung aus Tennis und Squash. Laut einer aktuellen Sport-Umfrage spielen mittlerweile über eine Million Menschen in Europa regelmäßig diesen Sport. Besonders junge Berufstätige schätzen das Spiel am Wochenende, weil man es schnell lernen kann und man viel Bewegung hat."
+        "content": "Immer mehr ältere Menschen in Deutschland entscheiden sich für das Wohnen in einer Wohngemeinschaft. Sie teilen sich eine Wohnung oder ein Haus mit anderen Senioren. Das spart Kosten und verhindert Einsamkeit. In vielen Städten gibt es inzwischen spezielle WG-Vermittlungen für Menschen ab 60."
       },
       {
         "id": 4,
-        "content": "BERLIN. Die Stadt möchte den Verkehr für Fahrradfahrer sicherer machen. Das Verkehrsministerium hat ein neues Großprojekt für das laufende Jahr angekündigt. In den nächsten zwei Jahren sollen über 120 Kilometer neue Wege nur für Fahrräder gebaut werden, besonders im Stadtzentrum. Viele Bürger finden das gut, weil es die Sicherheit im Alltag deutlich erhöht, aber einige Autofahrer protestieren gegen den Plan."
+        "content": "Eine Studie zeigt, dass Wandern nicht nur körperlich, sondern auch mental gesund ist. Immer mehr Deutsche entdecken die Natur als Freizeitbeschäftigung. Wandervereine melden steigende Mitgliederzahlen. Besonders beliebt sind kurze Touren von zwei bis vier Stunden, die keine besondere Ausrüstung brauchen."
       },
       {
         "id": 5,
-        "content": "Der Verband der Gastronomen in Berlin berichtet über eine neue Entwicklung in der lokalen Gastroszene. Da die Einkaufskosten für landwirtschaftliche Produkte aus biologischem Anbau im letzten Jahr stark gestiegen sind, müssen viele Restaurants ihre Speisekarten anpassen. Die Preise für Gerichte mit hochwertigen Bio-Zutaten sind im Durchschnitt um 15 Prozent teurer geworden. Trotzdem bleibt die Nachfrage stabil."
+        "content": "Eine Berufsschule in Stuttgart hat ein neues Projekt gestartet: Schülerinnen und Schüler aus technischen Klassen bauen selbst kleine Roboter, die einfache Aufgaben erledigen können. Das Projekt soll das Interesse an Technik und Informatik wecken. Mehrere Unternehmen unterstützen das Projekt mit Material und Geld."
+      },
+      {
+        "id": 1,
+        "content": "- Açıklama: \"Kosten für Solaranlagen sind... gesunken\" ve \"Solarenergie wird... erschwinglicher\" → (e) tam eşleşme. (a) \"Kältewelle\" aldatmaca; enerji konusu ama soğuk hava değil güneş enerjisi."
+      },
+      {
+        "id": 2,
+        "content": "- Açıklama: \"kostenlose Kurse\" ve \"Yoga, Schwimmen und Volleyball\" → (i) tam eşleşme. (d) \"Wandern\" aldatmaca; spor var ama yürüyüş değil."
+      },
+      {
+        "id": 3,
+        "content": "- Açıklama: \"Wohngemeinschaft\" + \"verhindert Einsamkeit\" + \"Menschen ab 60\" → (j) tam eşleşme. (f) \"Pflegeheime\" aldatmaca; yaşlılar var ama bakım evi değil WG konusu."
+      },
+      {
+        "id": 4,
+        "content": "- Açıklama: \"Wandern... gesund ist\" ve \"Wandervereine melden steigende Mitgliederzahlen\" → (d) tam eşleşme. (i) \"Sportkurse\" aldatmaca; zaten Text 2'de kullanıldı."
+      },
+      {
+        "id": 5,
+        "content": "- Açıklama: \"Schülerinnen und Schüler... bauen selbst kleine Roboter\" → (g) tam eşleşme. (c) \"App hilft bei der Jobsuche\" aldatmaca; teknoloji var ama iş arama değil robotik konusu. Kullanılmayan (aldatmaca) başlıklar: a / b / c / f / h"
       }
     ],
     "answers": {
-      "1": "e",
-      "2": "g",
-      "3": "d",
-      "4": "i",
-      "5": "j"
+      "1": "e"
     }
   },
   {
@@ -439,45 +583,61 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Neuer Trend: Immer mehr Deutsche reisen ohne Gepäck",
-      "b": "Haustier-Gesundheit: Die richtige Pflege für ältere Hunde im Alltag",
-      "c": "Berlin investiert Millionen in neue Sportplätze für Basketball",
-      "d": "Umfrage zeigt: Viele Deutsche gestresst, aber trotzdem zufrieden im Beruf",
-      "e": "Neue Sprachkurse: Spanisch intensiv am Nachmittag für Anfänger",
-      "f": "Flexible Arbeitszeiten senken den Stress der Mitarbeiter deutlich",
-      "g": "Großer Erfolg: Preise für gebrauchte Elektroautos steigen in Berlin",
-      "h": "Energie-Experten sagen: Kombination aus Solar-PV und BESS spart viel Geld",
-      "i": "Nach der Arbeit feiern: After-Work-Partys werden immer beliebter",
-      "j": "Luxus-Restaurant in London verkauft den teuersten Burger der Welt"
+      "a": "Neue Wohnungen für wenig Geld gebaut",
+      "b": "Tierheim sucht Freiwillige",
+      "c": "Immer mehr Kinder lernen ein Instrument",
+      "d": "Urlaub auf dem Bauernhof wird beliebter",
+      "e": "Supermarkt ohne Plastikverpackungen eröffnet",
+      "f": "Reisen mit dem Zug wächst in Europa",
+      "g": "Mehr Sicherheit auf Schulwegen gefordert",
+      "h": "Stadtbibliothek feiert hundertsten Geburtstag",
+      "i": "Kinder und Bildschirme: Experten geben Tipps",
+      "j": "Weniger Werbung, mehr Qualität im Radio"
     },
     "texts": [
       {
         "id": 1,
-        "content": "Laut einer Umfrage des Instituts ArbeitPlus sind viele Deutsche gestresst, aber trotzdem relativ zufrieden mit ihrer Arbeit. Es wurden 1.500 Beschäftigte in Büros, Fabriken und im Einzelhandel befragt. 62 Prozent fühlen sich mehrmals pro Woche gestresst, vor allem durch Zeitdruck. Gleichzeitig sagten 70 Prozent, dass sie ihren Job insgesamt mögen. Wer flexible Arbeitszeiten hat, berichtet deutlich weniger Stress und eine höhere Arbeitszufriedenheit."
+        "content": "Ein neuer Supermarkt in Freiburg verkauft alle Produkte ohne Plastikverpackungen. Kunden bringen eigene Behälter mit oder kaufen wiederverwendbare Verpackungen im Laden. Das Konzept kommt gut an: Seit der Eröffnung kommen täglich mehrere hundert Kunden. Weitere Filialen sind bereits geplant."
       },
       {
         "id": 2,
-        "content": "BERLIN. After-Work-Partys sind in deutschen Großstädten immer beliebter geworden. In vielen Bars treffen sich Angestellte donnerstags oder freitags direkt nach der Arbeit. Die Veranstaltungen beginnen oft schon um 18 Uhr und dauern bis etwa 22 Uhr. Firmen nutzen die Partys, um das Teamgefühl zu stärken. Laut den Veranstaltern kommen besonders junge Berufstätige, die neue Leute kennenlernen und trotzdem nicht zu spät nach Hause gehen wollen."
+        "content": "Eltern und Schulen fordern mehr Sicherheit auf den Wegen, die Kinder täglich zur Schule gehen. Besonders an gefährlichen Kreuzungen fehlen Zebrastreifen und Ampeln. In einigen Städten helfen freiwillige Schulweghelfer. Verkehrsexperten empfehlen außerdem, die Geschwindigkeit vor Schulen auf Tempo 20 zu reduzieren."
       },
       {
         "id": 3,
-        "content": "Der richtige Speiseplan für den vierbeinigen Freund ist wichtig für ein langes Leben. Tierärzte aus Berlin betonen, dass ältere Hunde ab dem 10. Lebensjahr eine spezielle Pflege brauchen. Wenn ein Hund beispielsweise etwa 8 Kilo wiegt, wie es oft bei Rassen wie dem Jack Russell Terrier der Fall ist, sollte man genau auf das Gewicht achten. Zu viel Futter schadet den Gelenken. Senior-Hunde brauchen weniger Kalorien, aber dafür mehr Proteine und Vitamine im Napf."
+        "content": "Das Tierheim in Hannover sucht dringend Freiwillige, die helfen möchten. Gesucht werden Menschen, die Hunde spazieren führen, Katzen streicheln oder bei der Verwaltung helfen. Eine Ausbildung ist nicht notwendig — nur Tierliebe und etwas Zeit. Interessierte können sich direkt im Tierheim melden."
       },
       {
         "id": 4,
-        "content": "Viele Menschen möchten unabhängiger von teuren Stromanbietern werden und einen Beitrag zum Klimaschutz leisten. Eine aktuelle Statistik zeigt, dass im letzten Jahr die Installation von Solar-PV-Systemen auf privaten Hausdächern in Deutschland um 20 Prozent gestiegen ist. Besonders beliebt ist die Kombination mit modernen Batterie-Energiespeichersystemen (BESS), damit man den sauberen Strom auch nachts nutzen kann, was die Stromkosten massiv senkt."
+        "content": "Immer mehr Familien mit Kindern verbringen ihren Urlaub auf einem Bauernhof. Kinder können Tiere füttern, beim Melken zuschauen und frische Luft genießen. Viele Eltern schätzen die ruhige Atmosphäre und die Entfernung vom Alltag. Landwirte berichten von ausgebuchten Sommern."
       },
       {
         "id": 5,
-        "content": "LONDON. In einem Luxus-Restaurant wurde gestern der angeblich teuerste Hamburger der Welt verkauft. Der Burger kostete 1.500 Pfund, also fast 1.800 Euro. Er wurde aus sehr hochwertigem Rindfleisch, Trüffel, Kaviar und einem speziellen Gold-Brötchen gemacht. Nur zehn Gäste durften den Hamburger probieren. Das Restaurant spendete einen Teil des Geldes für ein Kinderkrankenhaus. Viele Menschen diskutierten in den sozialen Medien über den Preis."
+        "content": "Medienpädagogen geben Eltern Tipps, wie Kinder verantwortungsvoll mit Tablets und Smartphones umgehen lernen. Wichtig sei, klare Regeln für die Bildschirmzeit zu setzen. Außerdem sollten Kinder nicht direkt vor dem Schlafen auf Bildschirme schauen. Gemeinsame Aktivitäten ohne Geräte seien ebenso wichtig."
+      },
+      {
+        "id": 1,
+        "content": "- Açıklama: \"alle Produkte ohne Plastikverpackungen\" ve \"Eröffnung\" → (e) tam eşleşme. (a) \"Neue Wohnungen\" aldatmaca; yeni açılış var ama konut değil market."
+      },
+      {
+        "id": 2,
+        "content": "- Açıklama: \"Sicherheit auf den Wegen... zur Schule\" ve \"fordern\" → (g) tam eşleşme. (i) \"Kinder und Bildschirme\" aldatmaca; çocuk ve okul var ama trafik güvenliği konusu."
+      },
+      {
+        "id": 3,
+        "content": "- Açıklama: \"Tierheim... sucht dringend Freiwillige\" → (b) tam eşleşme. (j) \"Werbung im Radio\" aldatmaca."
+      },
+      {
+        "id": 4,
+        "content": "- Açıklama: \"Urlaub auf einem Bauernhof\" ve \"ausgebuchten Sommern\" → (d) tam eşleşme. (f) \"Reisen mit dem Zug\" aldatmaca; tatil var ama tren yolculuğu değil."
+      },
+      {
+        "id": 5,
+        "content": "- Açıklama: \"Tipps, wie Kinder... mit Tablets und Smartphones umgehen\" ve \"Medienpädagogen\" → (i) tam eşleşme. (c) \"Instrument lernen\" aldatmaca; çocuk var ama müzik değil ekran konusu. Kullanılmayan (aldatmaca) başlıklar: a / c / f / h / j"
       }
     ],
     "answers": {
-      "1": "d",
-      "2": "i",
-      "3": "b",
-      "4": "h",
-      "5": "j"
+      "1": "e"
     }
   },
   {
@@ -487,45 +647,61 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Neuer Trend: Immer mehr Menschen lernen Spanisch am Nachmittag",
-      "b": "Gemüse und Früchte: Bio-Märkte in Deutschland erhöhen die Preise",
-      "c": "Junge Leute in Berlin kaufen alte Fahrräder und reparieren sie selbst",
-      "d": "Reisetipps für Europa: Warum Italien und Spanien im Sommer beliebt sind",
-      "e": "Neues Verbot für Autos: Das Stadtzentrum wird komplett fahrradfreundlich",
-      "f": "Hilfe im Haushalt: Möbelmontage einfach per App buchen",
-      "g": "Trends auf dem Strommarkt: Erneuerbare Energien senken die Preise am Nachmittag",
-      "h": "Haustier-Gesundheit: Die richtige Pflege für ältere Hunde im Alltag",
-      "i": "Eine Umfrage zeigt: Viele Deutsche fühlen sich im Büro oft gestresst",
-      "j": "Luxus-Restaurant in London verkauft den teuersten Burger der Welt"
+      "a": "Neue Technik erkennt Krankheiten früher",
+      "b": "Jugendliche verbringen mehr Zeit in der Natur",
+      "c": "Parkgebühren in der Innenstadt steigen",
+      "d": "Stadtteile bekommen mehr Grünflächen",
+      "e": "Kochen ohne Fleisch: Kochkurs für Anfänger",
+      "f": "Kunstprojekt verschönert graue Hauswände",
+      "g": "Weniger Unfälle durch neue Ampeltechnik",
+      "h": "Katzen sind beliebter als Hunde in Deutschland",
+      "i": "Bürger gestalten ihren Stadtteil selbst",
+      "j": "Mehr Grün für die Stadt: Dächer bepflanzen"
     },
     "texts": [
       {
         "id": 1,
-        "content": "Laut einer Umfrage des Instituts ArbeitPlus sind viele Deutsche gestresst, aber trotzdem relativ zufrieden mit ihrer Arbeit[cite: 3]. Es wurden 1.500 Beschäftigte in Büros, Fabriken und im Einzelhandel befragt[cite: 3]. 62 Prozent fühlen sich mehrmals pro Woche gestresst, vor allem durch Zeitdruck[cite: 3]. Gleichzeitig sagten 70 Prozent, dass sie ihren Job insgesamt mögen[cite: 3]. Wer flexible Arbeitszeiten hat, berichtet deutlich weniger Stress und eine höhere Arbeitszufriedenheit[cite: 3]."
+        "content": "In einer Stadt in Nordrhein-Westfalen können Bürger aktiv mitentscheiden, wie ihr Stadtteil aussehen soll. In regelmäßigen Treffen diskutieren Anwohner über neue Spielplätze, Bänke oder Blumenbeete. Viele Ideen der Bürger wurden bereits umgesetzt. Die Stadt sagt, dass die Beteiligung der Menschen das Zusammenleben verbessert."
       },
       {
         "id": 2,
-        "content": "LONDON. In einem Luxus-Restaurant wurde gestern der angeblich teuerste Hamburger der Welt verkauft[cite: 3]. Der Burger kostete 1.500 Pfund, also fast 1.800 Euro[cite: 3]. Er wurde aus sehr hochwertigem Rindfleisch, Trüffel, Kaviar und einem speziellen Gold-Brötchen gemacht[cite: 3]. Nur zehn Gäste durften den Hamburger probieren[cite: 3]. Das Restaurant spendete einen Teil des Geldes für ein Kinderkrankenhaus[cite: 3]. Viele Menschen diskutierten in den sozialen Medien über den Preis[cite: 3]."
+        "content": "In der Innenstadt von Düsseldorf wurden alte graue Hauswände von lokalen Künstlern bunt bemalt. Das Projekt soll die Stadt lebendiger und freundlicher machen. Viele Passanten bleiben stehen und fotografieren die Bilder. Die Stadtverwaltung plant, das Projekt auf weitere Stadtteile auszudehnen."
       },
       {
         "id": 3,
-        "content": "Wer ein neues Bett, einen Kleiderschrank oder Küchenmöbel gekauft hat, steht oft vor einem Problem: Die Montage ist kompliziert und dauert viele Stunden. In Berlin nutzen deshalb immer mehr Menschen digitale Dienstleistungsplattformen im Internet. Über eine unkomplizierte Smartphone-App kann man schnell einen erfahrenen Handwerker veya Freelancer aus der Nachbarschaft buchen, der die Möbel direkt zu Hause fachgerecht zusammenbaut. Das spart viel Zeit."
+        "content": "Neue intelligente Ampeln sollen den Verkehr in deutschen Städten sicherer machen. Die Ampeln erkennen Fußgänger und Radfahrer und passen die Schaltzeiten automatisch an. Bei schlechtem Wetter oder nachts schalten sie langsamer. Erste Tests in Frankfurt zeigen: Die Zahl der Unfälle ist deutlich gesunken."
       },
       {
         "id": 4,
-        "content": "Eine Analyse des deutschen Strommarktes zeigt eine interessante Entwicklung bei den Preisen an der Strombörse. Durch den starken Ausbau von erneuerbaren Energien gibt es besonders an sonnigen Tagen sehr viel Strom im Netz. Das führt dazu, dass die Day-Ahead- und Intraday-Preise für Strom am Nachmittag oft sehr stark sinken. Experten empfehlen Firmen, energieintensive Arbeiten in diese Stunden zu verlegen, um Geld zu sparen."
+        "content": "Immer mehr Hausbesitzer und Wohnungsbaugesellschaften bepflanzen ihre Gebäudedächer mit Gras, Blumen und Sträuchern. Diese sogenannten Gründächer speichern Regenwasser, kühlen das Gebäude im Sommer und bieten Lebensraum für Insekten. Städte fördern das mit finanziellen Zuschüssen."
       },
       {
         "id": 5,
-        "content": "Der richtige Speiseplan für den vierbeinigen Freund ist wichtig für ein langes Leben. Tierärzte aus Berlin betonen, dass ältere Hunde ab dem 10. Lebensjahr eine spezielle Pflege brauchen. Wenn ein Hund beispielsweise etwa 8 Kilo wiegt, wie es oft bei Rassen wie dem Jack Russell Terrier der Fall ist, sollte man genau auf das Gewicht achten. Zu viel Futter schadet den Gelenken. Senior-Hunde brauchen weniger Kalorien, aber dafür mehr Proteine im Napf."
+        "content": "Ärzte und Forscher arbeiten an neuen Methoden, um Krankheiten wie Krebs oder Diabetes früher zu erkennen. Mit Hilfe von künstlicher Intelligenz können Bluttests und Röntgenbilder schneller und genauer ausgewertet werden. Experten sagen, dass eine frühe Diagnose die Heilungschancen deutlich verbessert."
+      },
+      {
+        "id": 1,
+        "content": "- Açıklama: \"Bürger aktiv mitentscheiden\" ve \"Anwohner diskutieren\" → (i) tam eşleşme. (d) \"Mehr Grünflächen\" aldatmaca; Spielplatz ve Blumenbeete var ama ana fikir vatandaş katılımı."
+      },
+      {
+        "id": 2,
+        "content": "- Açıklama: \"alte graue Hauswände... von lokalen Künstlern bunt bemalt\" → (f) tam eşleşme. (d) \"Grünflächen\" aldatmaca; şehir güzelleştirme var ama yeşil alan değil sanat konusu."
+      },
+      {
+        "id": 3,
+        "content": "- Açıklama: \"Neue intelligente Ampeln\" ve \"Zahl der Unfälle ist gesunken\" → (g) tam eşleşme. (c) \"Parkgebühren\" aldatmaca; trafik var ama otopark ücreti değil."
+      },
+      {
+        "id": 4,
+        "content": "- Açıklama: \"bepflanzen ihre Gebäudedächer\" ve \"Gründächer\" → (j) tam eşleşme. (d) \"Stadtteile bekommen mehr Grünflächen\" aldatmaca; yeşil alan var ama çatı bahçesi tam eşleşme."
+      },
+      {
+        "id": 5,
+        "content": "- Açıklama: \"Krankheiten... früher zu erkennen\" ve \"künstlicher Intelligenz\" → (a) tam eşleşme. (e) \"Kochkurs\" aldatmaca. Kullanılmayan (aldatmaca) başlıklar: b / c / d / e / h"
       }
     ],
     "answers": {
-      "1": "i",
-      "2": "j",
-      "3": "f",
-      "4": "g",
-      "5": "h"
+      "1": "i"
     }
   },
   {
@@ -535,876 +711,1120 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Trend in Großstädten: Junge Leute kaufen teure Neufahrräder",
-      "b": "Neue Sprachseminare: Türkisch für Anfänger an der Volkshochschule",
-      "c": "Gesunde Ernährung: Warum täglich Obst essen das Immunsystem stärkt",
-      "d": "Padel-Tennis wird immer populärer bei jungen Berufstätigen in Europa",
-      "e": "Hilfe im Haushalt: Erfahrene Handwerker per App für Möbelmontage buchen",
-      "f": "Studie der Universität Köln: Körpergröße beeinflusst das Gehalt",
-      "g": "Berlin plant neue Sportplätze für Padel-Tennis im Stadtzentrum",
-      "h": "Energie-Experten sagen: Kombination aus Solar-PV und BESS spart viel Geld",
-      "i": "Nach der Arbeit feiern: After-Work-Partys werden immer beliebter",
-      "j": "Luxus-Restaurant in London verkauft den teuersten Burger der Welt"
+      "a": "Neue Rekordhitze in Europa erwartet",
+      "b": "Schule auf dem Schiff: Lernen auf dem Wasser",
+      "c": "Backen zu Hause liegt im Trend",
+      "d": "Elektroautos werden erschwinglicher",
+      "e": "Mehr Lernzeit durch kürzere Ferien",
+      "f": "Freiwillige bauen Häuser für Bedürftige",
+      "g": "Weniger Stress durch kurze Pausen bei der Arbeit",
+      "h": "Neue Studie: Humor macht gesünder",
+      "i": "Stadtgespräch: Fußgängerzonen sollen wachsen",
+      "j": "Erste-Hilfe-Kurs jetzt Pflicht in Schulen"
     },
     "texts": [
       {
         "id": 1,
-        "content": "Eine Studie der Universität Köln zeigt, dass es einen Zusammenhang zwischen Körpergröße und Gehalt gibt[cite: 3]. In der Umfrage wurden 2.000 Angestellte aus verschiedenen Branchen befragt[cite: 3]. Männer über 1,85 Meter verdienen im Durchschnitt 8 Prozent mehr als kleinere Männer[cite: 3]. Bei Frauen ist der Unterschied etwas geringer, etwa 5 Prozent[cite: 3]. Die Forscher sagen, dass große Personen oft selbstsicherer wirken und deshalb schneller befördert werden[cite: 3]."
+        "content": "Elektroautos werden in Deutschland immer günstiger. Neue Modelle von verschiedenen Herstellern sind schon ab 20.000 Euro erhältlich. Außerdem werden die Ladezeiten kürzer und die Reichweite größer. Die Bundesregierung plant, den Ausbau der Ladeinfrastruktur weiter zu fördern."
       },
       {
         "id": 2,
-        "content": "BERLIN. After-Work-Partys sind in deutschen Großstädten immer beliebter geworden[cite: 3]. In vielen Bars treffen sich Angestellte donnerstags oder freitags direkt nach der Arbeit[cite: 3]. Die Veranstaltungen beginnen oft schon um 18 Uhr und dauern bis etwa 22 Uhr[cite: 3]. Firmen nutzen die Partys, um das Teamgefühl zu stärken[cite: 3]. Laut den Veranstaltern kommen besonders junge Berufstätige, die neue Leute kennenlernen und trotzdem nicht zu spät nach Hause gehen wollen[cite: 3]."
+        "content": "Eine neue Untersuchung zeigt: Wer bei der Arbeit regelmäßig kurze Pausen macht, ist produktiver und ausgeglichener. Schon fünf Minuten Pause pro Stunde können helfen, den Stresspegel zu senken. Experten empfehlen außerdem, während der Pausen Bildschirme auszuschalten und sich kurz zu bewegen."
       },
       {
         "id": 3,
-        "content": "Wer ein neues Bett, einen Kleiderschrank oder Küchenmöbel gekauft hat, steht oft vor einem Problem: Die Montage ist kompliziert und dauert viele Stunden. In Berlin nutzen deshalb immer mehr Menschen digitale Dienstleistungsplattformen im Internet. Über eine unkomplizierte Smartphone-App kann man schnell einen erfahrenen Handwerker veya Freelancer aus der Nachbarschaft buchen, der die Möbel direkt zu Hause fachgerecht zusammenbaut."
+        "content": "In mehreren deutschen Städten wollen Stadtplaner die Fußgängerzonen erweitern. Mehr Platz für Menschen, weniger für Autos — das ist das Ziel. Cafés, Sitzbänke und Grünflächen sollen die Innenstädte einladender machen. Händler sind geteilter Meinung, ob weniger Autos ihrem Geschäft schadet oder nützt."
       },
       {
         "id": 4,
-        "content": "In Ländern wie Spanien, Schweden und Deutschland sieht man auf Sportplätzen immer häufiger eine neue Sportart: Padel-Tennis. Es ist eine Mischung aus Tennis und Squash. Laut einer aktuellen Sport-Umfrage spielen mittlerweile über eine Million Menschen in Europa regelmäßig diesen Sport. Besonders junge Berufstätige schätzen das Spiel am Wochenende, weil man es schnell lernen kann und man viel Bewegung hat."
+        "content": "Wissenschaftler der Uniklinik Bonn haben untersucht, ob Lachen wirklich gesund ist. Das Ergebnis überrascht: Menschen, die häufig lachen und Humor zeigen, haben ein stärkeres Immunsystem und fühlen sich weniger gestresst. Auch Schmerzen werden durch Humor besser ertragen, sagen die Forscher."
       },
       {
         "id": 5,
-        "content": "Eine gesunde Ernährung ist wichtig, um Krankheiten vorzubeugen. Wissenschaftler aus der Schweiz haben die Wirkung von täglichem Obstkonsum untersucht. Die Ergebnisse zeigen: Wer jeden Tag einen Apfel oder eine Banane isst, stärkt sein Immunsystem und hat deutlich seltener Probleme mit dem Magen. Die Forscher empfehlen, das Obst am Morgen direkt zum Frühstück zu essen, da der Körper die Vitamine dann am besten aufnehmen kann."
+        "content": "Immer mehr Menschen backen in ihrer Freizeit Brot, Kuchen und Kekse selbst. Besonders während der Corona-Pandemie hat dieser Trend stark zugenommen. Viele sagen, Backen sei entspannend und mache stolz. Online-Rezepte und Backkurse in Volkshochschulen sind sehr beliebt."
+      },
+      {
+        "id": 1,
+        "content": "- Açıklama: \"Elektroautos werden... immer günstiger\" ve \"ab 20.000 Euro erhältlich\" → (d) tam eşleşme. (a) \"Rekordhitze\" aldatmaca."
+      },
+      {
+        "id": 2,
+        "content": "- Açıklama: \"kurze Pausen macht\" ve \"Stresspegel zu senken\" → (g) tam eşleşme. (e) \"kürzere Ferien\" aldatmaca; zaman kısaltma var ama iş hayatı paus konusu."
+      },
+      {
+        "id": 3,
+        "content": "- Açıklama: \"Fußgängerzonen erweitern\" ve \"Stadtplaner\" → (i) tam eşleşme. (f) \"Häuser bauen\" aldatmaca."
+      },
+      {
+        "id": 4,
+        "content": "- Açıklama: \"Wissenschaftler haben untersucht, ob Lachen gesund ist\" ve \"Humor zeigen... stärkeres Immunsystem\" → (h) tam eşleşme. (b) \"Schule auf dem Schiff\" aldatmaca."
+      },
+      {
+        "id": 5,
+        "content": "- Açıklama: \"backen in ihrer Freizeit Brot, Kuchen... selbst\" ve \"dieser Trend stark zugenommen\" → (c) tam eşleşme. (j) \"Erste-Hilfe-Kurs\" aldatmaca; kurs var ama ilk yardım değil fırın konusu. Kullanılmayan (aldatmaca) başlıklar: a / b / e / f / j"
       }
     ],
     "answers": {
-      "1": "f",
-      "2": "i",
-      "3": "e",
-      "4": "d",
-      "5": "c"
+      "1": "d"
     }
   }
 ];
 const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
   {
     "id": "lese_2_1",
-    "title": "Fahrrad-Boom in der Stadt – Warum das Rad immer beliebter wird",
+    "title": "Fahrradfahren in der Stadt",
     "emoji": "🚲",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "Das Leben in modernen Großstädten ist oft stressig: Volle Busse, Staus auf den Straßen und die lange Suche nach einem Parkplatz kosten viel Zeit und Nerven. Doch gegen dieses Problem im Alltag entscheiden sich immer mehr Menschen für eine Alternative: das Fahrrad. \nLaut einer aktuellen Umfrage zur urbanen Mobilität in Europa nutzen immer mehr Bürger das Fahrrad für den Weg zur Arbeit oder in der Freizeit. Die Gründe dafür sind einfach: Gesundheit und Flexibilität. Statt im Stau zu stehen, bewegen sich die Menschen an der frischen Luft. Gleichzeitig schont das Radfahren die Umwelt durch einen geringeren CO2-Ausstoß und hilft dabei, viel Geld für Benzin oder teure Tickets zu sparen.\nDie 28-jährige Ingenieurin Melis Özgül aus Berlin hat ihren Alltag dieses Jahr komplett verändert. Sie hat ihr altes Auto verkauft und fährt jetzt jeden Tag mit dem Fahrrad ins Büro. „Früher war ich morgens oft schon vor der Arbeit gestresst, weil ich keinen Parkplatz gefunden habe“, erzählt sie. Jetzt nutzt sie ein gebrauchtes Trekkingrad, das sie günstig online gekauft und selbst repariert hat. „Ich bewege mich jeden Tag, bin viel schneller im Zentrum und fühle mich im Beruf deutlich fitter“, sagt Melis. \nEin wenig skeptischer sieht das der Geschäftsmann Thomas Meier (48). Er leitet ein großes Logistikunternehmen und glaubt, dass das Fahrrad nicht für alle Menschen im Alltag funktioniert. „Viele Mitarbeiter wohnen weit außerhalb der Stadt und müssen jeden Tag 30 oder 40 Kilometer pendeln. Für diese langen Strecken ist das normale Fahrrad zu anstrengend, besonders bei schlechtem Wetter wie starkem Regen oder Schnee“, gibt er zu bedenken. Für ihn bleibt das Auto oder der Zug für diese Gruppe unverzichtbar.\nDie Mobilitätsexpertin Dr. Verena Kraft betont jedoch, dass Fahrräder und E-Bikes die Zukunft der gesunden Stadt sind. Der Autoverkehr zerstöre an vielen Orten die Lebensqualität durch Lärm und schmutzige Luft. „Immer mehr Städte planen neue, sichere Fahrradwege im Zentrum, damit die Menschen keine Angst mehr vor Unfällen haben müssen“, erklärt Kraft. Sie fordert, dass die Politik mehr Geld in die Fahrrad-Infrastruktur investiert, um das Radfahren für alle Bürger komfortabler zu machen.\nExperten empfehlen Personen, die das Fahrradfahren im Alltag testen möchten, langsam anzufangen. Man muss nicht sofort jeden Tag 20 Kilometer fahren. Oft reicht es schon, bei gutem Wetter am Wochenende das Auto stehenzulassen und kleine Einkäufe in der Nähe mit dem Rad zu erledigen.",
+    "text": "In vielen deutschen Städten fahren immer mehr Menschen mit dem\nFahrrad zur Arbeit oder zur Schule. Das Fahrrad ist schnell,\nkostet nichts im Betrieb und ist gut für die Umwelt. Viele\nStädte bauen deshalb neue Radwege und stellen Fahrräder zum\nAusleihen auf. Laut einer Umfrage nutzen schon 30 Prozent der\nDeutschen das Fahrrad täglich.\nBesonders beliebt ist das Fahrradfahren bei jüngeren Menschen\nzwischen 18 und 35 Jahren. Sie sagen, das Fahrrad sei schneller\nals der Bus und billiger als das Auto. Auch das Parken ist kein\nProblem: Ein Fahrrad kann man fast überall abstellen. Viele\njunge Menschen kaufen sich gebrauchte Fahrräder, weil neue\noft sehr teuer sind.\nAber Fahrradfahren in der Stadt ist nicht immer einfach.\nManchmal gibt es keine Radwege und man muss auf der Straße\nfahren — zwischen Autos und Bussen. Das kann gefährlich sein.\nExperten empfehlen deshalb, immer einen Helm zu tragen und\nhelle Kleidung bei Dunkelheit. Außerdem sollte das Fahrrad\nregelmäßig überprüft werden: Bremsen, Licht und Reifen sind\nbesonders wichtig.\nDie Stadt Münster gilt als Fahrradhauptstadt Deutschlands.\nDort hat fast jeder Einwohner ein Fahrrad — manchmal sogar\nmehrere. Es gibt breite Radwege überall in der Stadt und\nspezielle Fahrradparkhäuser am Bahnhof. Viele Menschen\nfahren sogar im Winter Fahrrad, obwohl es kalt und nass ist.\nExperten sagen, dass Fahrradfahren auch sehr gesund ist.\nEs ist gut für Herz und Muskeln und reduziert Stress.\nWer jeden Tag 30 Minuten Fahrrad fährt, bleibt fit und\nspart gleichzeitig Geld. Viele Ärzte empfehlen deshalb\ndas Fahrrad als Alternative zum Auto — besonders für\nkurze Strecken in der Stadt.\nFRAGEN 6–10",
     "questions": [
       {
         "id": 6,
-        "question": "Was ist laut Text ein Hauptgrund, warum das Fahrradfahren in Großstädten immer beliebter wird?",
+        "question": "Warum fahren viele Menschen in deutschen Städten Fahrrad?",
         "options": {
-          "a": "Weil man mit dem Fahrrad auf den großen Straßen viel schneller im Stau stehen kann.",
-          "b": "Weil es gut für die Gesundheit ist, Flexibilität bietet und Geld für Benzin spart.",
-          "c": "Weil Fahrräder im Geschäft neuerdings komplett kostenlos an alle Bürger verteilt werden."
+          "a": "weil der Bus zu teuer ist",
+          "b": "weil es schnell, günstig und umweltfreundlich ist",
+          "c": "weil es keine Autos mehr in der Stadt gibt"
         }
       },
       {
         "id": 7,
-        "question": "Melis Özgül aus Berlin",
+        "question": "Was empfehlen Experten beim Fahrradfahren in der Stadt?",
         "options": {
-          "a": "ist gestresst, weil sie jeden Tag viele Stunden nach einem Parkplatz für ihr neues Fahrrad suchen muss.",
-          "b": "hat ihr Auto verkauft und nutzt jetzt ein gebrauchtes, selbst repariertes Fahrrad für den Weg zur Arbeit.",
-          "c": "fährt nur bei schlechtem Wetter mit dem Auto ins Büro, weil das Radfahren dann zu gefährlich ist."
+          "a": "nur auf Radwegen fahren und das Auto stehen lassen",
+          "b": "immer einen Helm tragen und das Fahrrad regelmäßig prüfen",
+          "c": "nachts nicht Fahrrad fahren"
         }
       },
       {
         "id": 8,
-        "question": "Warum äußert sich der Geschäftsmann Thomas Meier skeptisch über das Fahrrad im Alltag?",
+        "question": "Warum kaufen viele junge Menschen gebrauchte Fahrräder?",
         "options": {
-          "a": "Weil er denkt, dass das Fahrrad für Mitarbeiter mit sehr langen Arbeitswegen von 30 bis 40 Kilometern zu anstrengend ist.",
-          "b": "Weil es in modernen Großstädten überhaupt keine Geschäfte für gebrauchte Fahrräder gibt.",
-          "c": "Weil seine Mitarbeiter laut Arbeitsvertrag nur mit dem Zug oder Bus zur Arbeit kommen dürfen."
+          "a": "weil neue Fahrräder zu schwer sind",
+          "b": "weil gebrauchte Fahrräder schneller sind",
+          "c": "weil neue Fahrräder oft sehr teuer sind"
         }
       },
       {
         "id": 9,
-        "question": "Was ist nach Ansicht von Dr. Verena Kraft wichtig für die Zukunft der Mobilität in den Städten?",
+        "question": "Was ist Besonderes an der Stadt Münster?",
         "options": {
-          "a": "Dass alle Bürger sofort aufhören zu arbeiten, um mehr Freizeit für lange Fahrradtouren zu haben.",
-          "b": "Dass Städte neue und sichere Fahrradwege im Zentrum bauen, um Unfälle zu verhindern und die Lebensqualität zu verbessern.",
-          "c": "Dass die Preise für Benzin und Autos sinken, damit der Lärm in der Innenstadt abnimmt."
+          "a": "Dort gibt es keine Autos mehr.",
+          "b": "Dort hat fast jeder Einwohner ein Fahrrad.",
+          "c": "Dort ist das Fahrradfahren kostenlos."
         }
       },
       {
         "id": 10,
-        "question": "Welchen Rat geben Experten am Ende des Textes Menschen, die mehr Rad fahren möchten?",
+        "question": "Was sagen Ärzte über das Fahrradfahren?",
         "options": {
-          "a": "Sie sollten sofort ihr Auto verkaufen und jeden Tag mindestens 50 Kilometer mit dem Fahrrad fahren.",
-          "b": "Es ist ratsam, langsam anzufangen und zum Beispiel am Wochenende kleine Einkäufe in der Nähe mit dem Rad zu machen.",
-          "c": "Man sollte das Fahrradfahren nur zusammen mit Experten oder professionellen Trainern in der Sporthalle üben."
+          "a": "Es ist gut für die Gesundheit und spart Geld.",
+          "b": "Man sollte nur kurze Strecken fahren.",
+          "c": "Es ist besser als Sport im Fitnessstudio."
         }
+      },
+      {
+        "id": 6,
+        "question": "b - Açıklama: \"Das Fahrrad ist schnell, kostet nichts im Betrieb und ist gut für die Umwelt\" → üç neden açıkça belirtilmiş. (a) otobüs fiyatı metinde yok. (c) arabalar hâlâ var.",
+        "options": {}
+      },
+      {
+        "id": 7,
+        "question": "b - Açıklama: \"immer einen Helm zu tragen\" ve \"das Fahrrad regelmäßig überprüft werden: Bremsen, Licht und Reifen\" → her ikisi de metinde. (a) sadece bisiklet yolunda gitme metinde yok. (c) gece yasağı yok.",
+        "options": {}
+      },
+      {
+        "id": 8,
+        "question": "c - Açıklama: \"Viele junge Menschen kaufen sich gebrauchte Fahrräder, weil neue oft sehr teuer sind\" → doğrudan metinden. (a) ve (b) metinde yok.",
+        "options": {}
+      },
+      {
+        "id": 9,
+        "question": "b - Açıklama: \"hat fast jeder Einwohner ein Fahrrad — manchmal sogar mehrere\" → metinde açıkça yazılı. (a) arabasız şehir değil. (c) ücretsiz bisiklet metinde yok.",
+        "options": {}
+      },
+      {
+        "id": 10,
+        "question": "a - Açıklama: \"Wer jeden Tag 30 Minuten Fahrrad fährt, bleibt fit und spart gleichzeitig Geld\" ve \"Ärzte empfehlen deshalb das Fahrrad\" → sağlık + para tasarrufu. (b) sadece kısa mesafe metinde yok. (c) fitness stüdyoyla karşılaştırma yok.",
+        "options": {}
       }
     ],
     "answers": {
       "6": "b",
       "7": "b",
-      "8": "a",
+      "8": "c",
       "9": "b",
-      "10": "b"
+      "10": "a"
     },
-    "explanations": {
-      "6": "\"Die Gründe dafür sind einfach: Gesundheit und Flexibilität... und hilft dabei, viel Geld für Benzin... zu sparen.\" Bu cümle b seçeneğindeki faydaları doğrudan doğrular.",
-      "7": "\"Sie hat ihr altes Auto verkauft und fährt jetzt jeden Tag mit dem Fahrrad ins Büro... Jetzt nutzt sie ein gebrauchtes Trekkingrad, das sie günstig online gekauft und selbst repariert hat.\" Bu bilgi b şıkkı ile birebir örtüşür.",
-      "8": "\"Viele Mitarbeiter wohnen weit außerhalb... müssen jeden Tag 30 oder 40 Kilometer pendeln. Für diese langen Strecken ist das normale Fahrrad zu anstrengend...\" Thomas Meier'ın şüpheci olma nedeni a şıkkında tam olarak verilmiştir.",
-      "9": "„Immer mehr Städte planen neue, sichere Fahrradwege im Zentrum, damit die Menschen keine Angst mehr vor Unfällen haben müssen...“ Dr. Verena Kraft'ın güvenli yollar ve yaşam kalitesi hakkındaki görüşü b seçeneğini doğru cevap yapar.",
-      "10": "\"Experten empfehlen... langsam anzufangen... Oft reicht es schon, bei gutem Wetter am Wochenende das Auto stehenzulassen und kleine Einkäufe in der Nähe mit dem Rad zu erledigen.\" Uzmanların \"küçük/yavaş başlama\" tavsiyesi b şıkkında özetlenmiştir."
-    }
+    "explanations": {}
   },
   {
     "id": "lese_2_2",
-    "title": "Energiewende zu Hause – Warum Solarenergie immer beliebter wird",
+    "title": "Hunde — treue Freunde des Menschen",
     "emoji": "☀️",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "Das Leben in modernen Städten verbraucht viel Energie: Große Fabriken, Serverräume und der tägliche Strombedarf im Haushalt kosten viel Geld und belasten das Klima. Doch gegen dieses Problem im Alltag entscheiden sich immer mehr Hausbesitzer für eine Alternative: die eigene Solar-PV-Anlage auf dem Dach.\nLaut einer aktuellen Umfrage zur nachhaltigen Energieversorgung in Europa nutzen immer mehr Bürger die Kraft der Sonne für die Stromerzeugung zu Hause. Die Gründe dafür sind einfach: Unabhängigkeit und Klimaschutz. Statt teuren Strom aus dem Netz zu kaufen, produzieren die Menschen saubere Energie auf dem eigenen Dach. Gleichzeitig schont die Solarenergie die Umwelt durch einen geringeren CO2-Ausstoß und hilft dabei, die monatlichen Stromkosten massiv zu senken.\nDer 30-jährige Energie-Ingenieur Baris Egemen Tokul aus Berlin hat sein Zuhause dieses Jahr komplett modernisiert. Er hat ein neues Solar-PV-System installiert. „Früher war ich am Monatsende oft gestresst, wenn ich die hohe Stromrechnung gesehen habe“, erzählt er. Jetzt nutzt er die Solaranlage in Kombination mit einem modernen Batterie-Energiespeichersystem (BESS). „Ich produziere meinen Strom selbst, kann die saubere Energie durch die Batterie auch nachts nutzen und spare sehr viel Geld“, sagt Baris.\nEin wenig skeptischer sieht das der Immobilienunternehmer Markus Schulte (55). Er leitet eine große Wohnungsbaugesellschaft und glaubt, dass Solarenergie nicht für alle Menschen im Alltag funktioniert. „Viele Mieter wohnen in großen Wohnblöcken im Zentrum der Stadt und haben kein eigenes Dach. Für diese Menschen ist eine große PV-Anlage ungeeignet, besonders wenn die Gebäude im Schatten anderer Hochhäuser stehen“, gibt er zu bedenken. Für ihn bleibt der klassische Strommix für diese Gruppe unverzichtbar.\nDie Ökonomin Dr. Verena Kraft betont jedoch, dass Solar-PV-Systeme und Heimspeicher die Zukunft der nachhaltigen Stadt sind. Die Verbrennung von Kohle zerstöre an vielen Orten die Umwelt und das Klima. „Immer mehr Städte planen neue Förderprogramme für Balkonkraftwerke im Zentrum, damit auch Mieter ohne eigenes Dach sauberen Strom produzieren können“, erklärt Kraft. Sie fordert, dass die Politik mehr Geld in die grüne Infrastruktur investiert, um die Energiewende für alle Bürger bezahlbar zu machen.\nExperten empfehlen Personen, die die Energiewende im eigenen Haushalt testen möchten, klein anzufangen. Man muss nicht sofort das komplette Dach mit teuren Paneelen umbauen. Oft reicht es schon, mit einem kleinen Balkonkraftwerk zu starten und die wichtigsten Haushaltsgeräte am Nachmittag zu nutzen, wenn die Sonne am stärksten scheint.",
+    "text": "Hunde sind in Deutschland sehr beliebt. Laut einer Studie\nleben in deutschen Haushalten über 16 Millionen Hunde.\nSie sind das häufigste Haustier — noch vor Katzen und Vögeln.\nViele Menschen nennen ihren Hund ihr „bestes Freund\", weil\nHunde loyal, freundlich und immer für ihre Besitzer da sind.\nDas Leben mit einem Hund bringt viele Vorteile. Besitzer gehen\ntäglich spazieren und bewegen sich mehr als Menschen ohne Hund.\nStudien zeigen, dass Hundebesitzer seltener unter Stress leiden\nund glücklicher sind. Außerdem helfen Hunde gegen Einsamkeit —\nbesonders älteren Menschen, die alleine leben.\nEin Hund kostet aber auch Zeit und Geld. Ein gesunder Hund\nbraucht täglich Bewegung, gutes Futter und regelmäßige Besuche\nbeim Tierarzt. Im Durchschnitt kostet ein Hund seinen Besitzer\nrund 1.500 Euro pro Jahr. Urlaub muss man ebenfalls planen:\nMan muss jemanden finden, der auf den Hund aufpasst, oder\nden Hund mitnehmen.\nIn Deutschland darf man Hunde in vielen öffentlichen\nVerkehrsmitteln mitnehmen, wenn sie klein sind oder in einer\nTransporttasche sitzen. Größere Hunde brauchen oft ein Ticket.\nIn Restaurants und Supermärkten sind Hunde meistens nicht\nerlaubt — außer in bestimmten hundefreundlichen Cafés.\nWer sich einen Hund wünscht, sollte gut nachdenken, bevor\ner sich entscheidet. Experten raten, zuerst einen Hund\nin einem Tierheim zu suchen, statt ein Tier zu kaufen.\nIm Tierheim warten viele Hunde auf ein neues Zuhause.\nEin Hund aus dem Tierheim braucht oft etwas mehr Geduld,\nmacht aber genauso viel Freude.\nFRAGEN 6–10",
     "questions": [
       {
         "id": 6,
-        "question": "Was ist laut Text ein Hauptgrund, warum Solarenergie in Haushalten immer beliebter wird?",
+        "question": "Wie viele Hunde leben laut Text in deutschen Haushalten?",
         "options": {
-          "a": "Weil man mit Solarenergie den Stromverbrauch in großen Fabriken komplett stoppen kann.",
-          "b": "Weil sie Unabhängigkeit bietet, das Klima schützt und die Stromkosten massiv senkt.",
-          "c": "Weil Solar-PV-Anlagen im Geschäft neuerdings komplett kostenlos an alle Bürger verteilt werden."
+          "a": "über 16 Millionen",
+          "b": "mehr als 20 Millionen",
+          "c": "ungefähr 10 Millionen"
         }
       },
       {
         "id": 7,
-        "question": "Baris Egemen Tokul aus Berlin",
+        "question": "Was ist ein Vorteil, wenn man einen Hund hat?",
         "options": {
-          "a": "ist gestresst, weil sein neues Batterie-Energiespeichersystem (BESS) nur in der Nacht funktioniert.",
-          "b": "hat ein Solar-PV-System mit einem Heimspeicher (BESS) kombiniert, um Geld zu sparen und sauberen Strom auch nachts zu nutzen.",
-          "c": "sucht eine neue Stelle als Energie-Ingenieur, weil die Installation der Solaranlage zu teuer war."
+          "a": "Man spart Geld beim Einkaufen.",
+          "b": "Man bewegt sich mehr und ist glücklicher.",
+          "c": "Man muss nicht mehr in den Urlaub fahren."
         }
       },
       {
         "id": 8,
-        "question": "Warum äußert sich der Unternehmer Markus Schulte skeptisch über den Solartrend?",
+        "question": "Wie viel kostet ein Hund durchschnittlich pro Jahr?",
         "options": {
-          "a": "Weil er denkt, dass Solaranlagen für Mieter in großen Wohnblöcken ohne eigenes Dach ungeeignet sind.",
-          "b": "Weil es in modernen Großstädten überhaupt keine Experten für die Installation von PV-Anlagen gibt.",
-          "c": "Weil seine Mieter laut Mietvertrag keinen Strom aus erneuerbaren Energien nutzen dürfen."
+          "a": "ungefähr 500 Euro",
+          "b": "ungefähr 1.000 Euro",
+          "c": "ungefähr 1.500 Euro"
         }
       },
       {
         "id": 9,
-        "question": "Was ist nach Ansicht von Dr. Verena Kraft wichtig für die Zukunft der Energieversorgung in den Städten?",
+        "question": "Was gilt für Hunde in öffentlichen Verkehrsmitteln in Deutschland?",
         "options": {
-          "a": "Dass alle Bürger sofort aufhören, Strom im Haushalt zu verbrauchen, um die Kohlekraftwerke zu entlasten.",
-          "b": "Dass Städte Förderprogramme für Balkonkraftwerke planen, damit auch Mieter ohne eigenes Dach sauberen Strom produzieren können.",
-          "c": "Dass die Preise für klassischen Strom aus Kohle sinken, damit die Energiewende schneller geht."
+          "a": "Hunde dürfen nie mitfahren.",
+          "b": "Kleine Hunde oder Hunde in Taschen dürfen oft mitfahren.",
+          "c": "Alle Hunde dürfen kostenlos mitfahren."
         }
       },
       {
         "id": 10,
-        "question": "Welchen Rat geben Experten am Ende des Textes Menschen, die Solarenergie testen möchten?",
+        "question": "Was empfehlen Experten für Menschen, die einen Hund möchten?",
         "options": {
-          "a": "Sie sollten sofort ihr komplettes Dach umbauen und alle alten Haushaltsgeräte wegschmeißen.",
-          "b": "Es ist ratsam, klein anzufangen, zum Beispiel mit einem kleinen Balkonkraftwerk für den eigenen Haushalt.",
-          "c": "Man sollte die Solarpaneele nur zusammen mit professionellen Trainern in der Sporthalle testen."
+          "a": "einen Hund in einem Zoogeschäft kaufen",
+          "b": "zuerst einen Hund im Tierheim suchen",
+          "c": "mit dem Nachbarn sprechen, bevor man einen Hund kauft"
         }
+      },
+      {
+        "id": 6,
+        "question": "a - Açıklama: \"über 16 Millionen Hunde\" → doğrudan metinden. (b) 20 milyon metinde yok. (c) 10 milyon yanlış.",
+        "options": {}
+      },
+      {
+        "id": 7,
+        "question": "b - Açıklama: \"gehen täglich spazieren und bewegen sich mehr\" ve \"glücklicher sind\" → ikisi de metinde. (a) alışveriş tasarrufu yok. (c) tatilsiz yaşam değil, aksine planlama gerekiyor.",
+        "options": {}
+      },
+      {
+        "id": 8,
+        "question": "c - Açıklama: \"kostet ein Hund... rund 1.500 Euro pro Jahr\" → doğrudan metinden. (a) ve (b) yanlış rakamlar.",
+        "options": {}
+      },
+      {
+        "id": 9,
+        "question": "b - Açıklama: \"wenn sie klein sind oder in einer Transporttasche sitzen\" → küçük köpekler veya çantada olanlar binebilir. (a) hiç binemez yanlış. (c) ücretsiz değil, büyük köpekler bilet alıyor.",
+        "options": {}
+      },
+      {
+        "id": 10,
+        "question": "b - Açıklama: \"Experten raten, zuerst einen Hund in einem Tierheim zu suchen\" → doğrudan metinden. (a) zoogeschäft değil, aksine önerilmiyor. (c) komşu konuşması metinde yok.",
+        "options": {}
       }
     ],
     "answers": {
-      "6": "b",
+      "6": "a",
       "7": "b",
-      "8": "a",
+      "8": "c",
       "9": "b",
       "10": "b"
     },
-    "explanations": {
-      "6": "\"Die Gründe dafür sind einfach: Unabhängigkeit und Klimaschutz... und hilft dabei, die monatlichen Stromkosten massiv zu senken.\" Bu cümle b seçeneğindeki faydaları doğrudan doğrular.",
-      "7": "\"Jetzt nutzt er die Solaranlage in Kombination mit einem modernen Batterie-Energiespeichersystem (BESS)... kann die saubere Energie durch die Batterie auch nachts nutzen und spare sehr viel Geld\". Bu bilgi b şıkkı ile birebir örtüşür.",
-      "8": "\"Viele Mieter wohnen in großen Wohnblöcken... und haben kein eigenes Dach. Für diese Menschen ist eine große PV-Anlage ungeeignet...\". Markus Schulte'nin şüpheci olma nedeni a şıkkında tam olarak verilmiştir.",
-      "9": "„Immer mehr Städte planen neue Förderprogramme für Balkonkraftwerke im Zentrum, damit auch Mieter ohne eigenes Dach sauberen Strom produzieren können...“ Dr. Verena Kraft'ın kiracılar ve balkon santralleri hakkındaki görüşü b seçeneğini doğru cevap yapar.",
-      "10": "\"Experten empfehlen... klein anzufangen... Oft reicht es schon, mit einem kleinen Balkonkraftwerk zu starten...\". Uzmanların \"küçük başlama\" tavsiyesi b şıkkında özetlenmiştir."
-    }
+    "explanations": {}
   },
   {
     "id": "lese_2_3",
-    "title": "Fit im Alltag – Warum Sportvereine in Deutschland boomen",
+    "title": "Der Wochenmarkt — frisch und regional",
     "emoji": "🏃",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "Das Leben in modernen Großstädten ist oft von Bewegungsmangel geprägt: Viele Menschen sitzen stundenlang im Büro am Schreibtisch oder im Auto. Dieser Mangel an Aktivität führt oft zu Stress, Rückenschmerzen und Unzufriedenheit im Alltag. Doch gegen dieses Problem etabliert sich ein deutlicher Gegentrend: Immer mehr Menschen melden sich in lokalen Sportvereinen an.\nLaut einer aktuellen Studie des Instituts für Sportwissenschaften in Europa entscheiden sich immer mehr Bürger bewusst dafür, mehrmals pro Woche aktiv zu sein[cite: 3]. Die Philosophie dahinter ist einfach: Gesundheit und soziale Kontakte[cite: 3]. Statt alleine zu Hause vor dem Fernseher zu sitzen, nutzen die Menschen Sportarten wie Basketball, Fußball oder den neuen Trendsport Padel-Tennis. Ziel ist es, den Körper intensiv zu bewegen, den Alltagsstress abzubauen und neue Freunde in der Nachbarschaft kennenzulernen.\nDie 27-jährige Grafikdesignerin Melis Özgül aus Berlin hat ihren Alltag dieses Jahr komplett verändert. Sie spielt jetzt dreimal pro Woche Padel-Tennis im Verein. „Früher war ich nach der Arbeit oft müder und gestresster als vorher, weil ich mich kaum bewegt habe“, erzählt sie[cite: 3]. Dieses Mal hat sie sich mit Freunden angemeldet und nutzt die Wochenenden für kleine Turniere. „Ich habe noch nie so schnell eine Sportart gelernt, fühle mich körperlich viel fitter und habe gleichzeitig tolle Leute getroffen“, sagt Melis. Der Verzicht auf das Sofa am Abend war für sie eine Bereicherung[cite: 3].\nEin wenig skeptischer sieht das der Fitness-Unternehmer Torsten Lange (51)[cite: 3]. Er betreibt klassische, große Fitnessstudios und glaubt, dass feste Sportvereine nur für eine bestimmte Zielgruppe funktionieren[cite: 3]. „Die meisten Menschen haben im Beruf sehr unregelmäßige Arbeitszeiten. Wenn sie erst spät am Abend aus dem Büro kommen, wollen sie flexibel trainieren und nicht an feste Trainingszeiten eines Vereins gebunden sein“, gibt er zu bedenken[cite: 3]. Für ihn bleibt das klassische Fitnessstudio die flexiblere Lösung für gestresste Berufstätige.\nDie Sportökonomin Dr. Verena Kraft betont jedoch, dass Sportvereine die Zukunft der gesunden Stadtpolitik sind[cite: 3]. Der Bewegungsmangel zerstöre an vielen Orten die Lebensqualität der Bürger und belaste das Gesundheitssystem[cite: 3]. „Sportvereine regen die Menschen dazu an, gemeinsam aktiv zu werden, statt sich zu Hause zu isolieren“, erklärt Kraft[cite: 3]. Sie fordert, dass die Sportinfrastruktur und die Hallen in den Städten besser ausgebaut werden, damit Freizeitsport für alle Bürger bezahlbar und komfortabel wird[cite: 3].\nExperten empfehlen Menschen, die mehr Sport treiben möchten, klein anzufangen[cite: 3]. Man muss nicht sofort an fünf Tagen pro Woche trainieren[cite: 3]; oft reicht es schon, beim nächsten Wochenendausflug das Auto stehenzulassen, eine Stunde im Park spazieren zu gehen oder eine kleine Runde Basketball zu spielen[cite: 3].",
+    "text": "In vielen deutschen Städten und Dörfern gibt es einen\nWochenmarkt. Einmal oder zweimal pro Woche treffen sich\nBauern, Händler und Kunden auf einem Platz in der Stadtmitte.\nDort kann man frisches Obst und Gemüse, Brot, Käse, Eier\nund manchmal auch Blumen kaufen. Der Markt ist oft schon\nfrüh morgens um sieben Uhr geöffnet und schließt mittags.\nViele Menschen kaufen lieber auf dem Markt als im Supermarkt.\nDer Grund: Die Produkte kommen direkt vom Bauernhof und\nsind oft frischer als im Laden. Außerdem wissen die Kunden,\nwoher das Gemüse oder das Fleisch kommt. Das ist vielen\nMenschen wichtig, besonders wenn sie auf gute Qualität achten.\nDie Preise auf dem Wochenmarkt sind manchmal höher als im\nSupermarkt. Aber viele Stammkunden sagen, dass es sich lohnt.\nSie kennen die Verkäufer persönlich und bekommen manchmal\nein kleines Extra — zum Beispiel ein paar Tomaten mehr\noder ein Stück Kuchen zum Probieren. Der Markt ist auch\nein sozialer Treffpunkt: Man trifft Nachbarn und plaudert.\nNicht nur alte Menschen gehen auf den Wochenmarkt.\nImmer mehr junge Familien und Menschen unter 30 entdecken\nden Markt für sich. Sie schätzen die kurzen Wege der Produkte\nund möchten die lokale Landwirtschaft unterstützen.\nManche Märkte bieten auch Bio-Produkte an — also Lebensmittel,\ndie ohne chemische Mittel angebaut wurden.\nDer Wochenmarkt ist also mehr als nur ein Ort zum Einkaufen.\nEr verbindet Menschen, stärkt die lokale Wirtschaft und\nbietet frische, qualitativ hochwertige Produkte. Viele\nStädte wollen deshalb ihre Märkte erhalten und sogar\nneue Marktplätze einrichten. Wer noch keinen Wochenmarkt\nin seiner Nähe besucht hat, sollte es unbedingt einmal\nausprobieren.\nFRAGEN 6–10",
     "questions": [
       {
         "id": 6,
-        "question": "Was ist laut Text ein Hauptgrund, warum die Anmeldung in Sportvereinen immer beliebter wird?",
+        "question": "Wann ist der Wochenmarkt laut Text meistens geöffnet?",
         "options": {
-          "a": "Weil man in Sportvereinen in möglichst kurzer Zeit sehr viel Geld im Büro verdienen kann.",
-          "b": "Weil es dabei hilft, den Körper intensiv zu bewegen, Alltagsstress abzubauen und soziale Kontakte zu knüpfen.",
-          "c": "Weil Sportvereine neuerdings komplett kostenlose Fernseher an alle Mitglieder verteilen."
+          "a": "den ganzen Tag, von morgens bis abends",
+          "b": "früh morgens und schließt mittags",
+          "c": "nur nachmittags und abends"
         }
       },
       {
         "id": 7,
-        "question": "Melis Özgül aus Berlin",
+        "question": "Warum kaufen viele Menschen lieber auf dem Wochenmarkt als im Supermarkt?",
         "options": {
-          "a": "ist nach dem Padel-Tennis-Training gestresster und müder als je zuvor.",
-          "b": "spielt regelmäßig Padel-Tennis im Verein, fühlt sich dadurch körperlich fitter und hat neue Leute kennengelernt.",
-          "c": "hat ein neues Auto gekauft, um schneller zu den Turnieren in den anderen Großstädten fahren zu können."
+          "a": "weil es auf dem Markt immer günstiger ist",
+          "b": "weil die Produkte frischer sind und man weiß, woher sie kommen",
+          "c": "weil der Supermarkt oft zu weit weg ist"
         }
       },
       {
         "id": 8,
-        "question": "Warum äußert sich Torsten Lange skeptisch über den Trend zu festen Sportvereinen?",
+        "question": "Was bekommen Stammkunden auf dem Markt manchmal?",
         "options": {
-          "a": "Weil er glaubt, dass Menschen mit unregelmäßigen Arbeitszeiten flexiblere Trainingszeiten brauchen als ein Verein sie bietet.",
-          "b": "Weil Sportvereine in Berlin und ganz Deutschland ab nächstem Monat komplett verboten werden.",
-          "c": "Weil er denkt, dass man in Sportvereinen überhaupt keine gesunden Getränke kaufen kann."
+          "a": "einen Rabatt auf alle Produkte",
+          "b": "eine Kundenkarte für den nächsten Einkauf",
+          "c": "ein kleines Extra, zum Beispiel mehr Tomaten"
         }
       },
       {
         "id": 9,
-        "question": "Was ist nach Ansicht von Dr. Verena Kraft ein Vorteil von Sportvereinen für die Zukunft?",
+        "question": "Wer geht laut Text auf den Wochenmarkt?",
         "options": {
-          "a": "Sie zwingen alle Menschen dazu, ihre Arbeit im Büro sofort zu kündigen und nur noch Sport zu treiben.",
-          "b": "Sie schützen vor den negativen Folgen des Bewegungsmangels und fördern die Gemeinschaft der Menschen.",
-          "c": "Sie sorgen dafür, dass Mitgliedskarten für alle Fitnessstudios in Europa komplett kostenlos werden."
+          "a": "nur ältere Menschen",
+          "b": "auch junge Familien und Menschen unter 30",
+          "c": "hauptsächlich Touristen"
         }
       },
       {
         "id": 10,
-        "question": "Welchen Rat geben Experten am Ende des Textes Menschen, die mehr Bewegung in ihren Alltag bringen möchten?",
+        "question": "Was ist der Wochenmarkt laut dem letzten Abschnitt? die lokale Wirtschaft",
         "options": {
-          "a": "Sie sollten sofort ein intensives Profi-Training für fünf Tage die Woche buchen, um den Effekt zu maximieren.",
-          "b": "Es ist ratsam, klein anzufangen, zum Beispiel am Wochenende das Auto stehenzulassen und im Park aktiv zu werden.",
-          "c": "Man sollte Sportaktivitäten am besten ohne die Unterstützung von Freunden oder der Familie planen."
+          "a": "ein Ort, der nur zum Einkaufen da ist",
+          "b": "mehr als ein Einkaufsort — er verbindet Menschen und stärkt",
+          "c": "ein Ort, der bald durch Supermärkte ersetzt wird"
         }
+      },
+      {
+        "id": 6,
+        "question": "b - Açıklama: \"schon früh morgens um sieben Uhr geöffnet und schließt mittags\" → doğrudan metinden. (a) tüm gün değil. (c) öğleden sonra değil.",
+        "options": {}
+      },
+      {
+        "id": 7,
+        "question": "b - Açıklama: \"frischer als im Laden\" ve \"wissen, woher das Gemüse... kommt\" → iki neden metinde açık. (a) her zaman daha ucuz değil, aksine bazen daha pahalı. (c) uzaklık konusu yok.",
+        "options": {}
+      },
+      {
+        "id": 8,
+        "question": "c - Açıklama: \"ein kleines Extra — zum Beispiel ein paar Tomaten mehr oder ein Stück Kuchen\" → doğrudan metinden. (a) indirim değil, ekstra. (b) müşteri kartı metinde yok.",
+        "options": {}
+      },
+      {
+        "id": 9,
+        "question": "b - Açıklama: \"Immer mehr junge Familien und Menschen unter 30 entdecken den Markt für sich\" → metinde açıkça. (a) sadece yaşlılar yanlış. (c) turistler metinde yok.",
+        "options": {}
+      },
+      {
+        "id": 10,
+        "question": "b - Açıklama: \"mehr als nur ein Ort zum Einkaufen. Er verbindet Menschen, stärkt die lokale Wirtschaft\" → son paragraftan doğrudan. (a) yanlış, aksine metinde \"mehr als nur\" deniyor. (c) süpermarketle yer değiştirme yok.",
+        "options": {}
       }
     ],
     "answers": {
       "6": "b",
       "7": "b",
-      "8": "a",
+      "8": "c",
       "9": "b",
       "10": "b"
     },
-    "explanations": {
-      "6": "\"Ziel ist es, den Körper intensiv zu bewegen, den Alltagsstress abzubauen und neue Freunde in der Nachbarschaft kennenzulernen.\" Bu cümle b seçeneğindeki faydaları doğrudan karşılar[cite: 3].",
-      "7": "\"Sie spielt jetzt dreimal pro Woche Padel-Tennis im Verein... fühle mich körperlich viel fitter und habe gleichzeitig tolle Leute getroffen\". Bu bilgi b şıkkı ile birebir örtüşür[cite: 3].",
-      "8": "\"Wenn sie erst spät am Abend aus dem Büro kommen, wollen sie flexibel trainieren und nicht an feste Trainingszeiten eines Vereins gebunden sein...\" Torsten Lange'nin şüpheci olma nedeni a şıkkında tam olarak aktarılmıştır[cite: 3].",
-      "9": "\"Der Bewegungsmangel zerstöre an vielen Orten die Lebensqualität... Sportvereine regen die Menschen dazu an, gemeinsam aktiv zu werden...\" Dr. Verena Kraft'ın toplumsal sağlık ve topluluk bilinci hakkındaki görüşü b seçeneğini doğru cevap yapar[cite: 3].",
-      "10": "\"Experten empfehlen... klein anzufangen... oft reicht es schon, beim nächsten Wochenendausflug das Auto stehenzulassen, eine Stunde im Park spazieren zu gehen...\" Uzmanların \"küçük adımlarla başlama\" tavsiyesi b şıkkında tam olarak özetlenmiştir[cite: 3]."
-    }
+    "explanations": {}
   },
   {
     "id": "lese_2_4",
-    "title": "Neue Mobilität – Warum das Teilen von Autos im Trend liegt",
+    "title": "Ehrenamt in Deutschland — Zeit schenken, Leben bereichern",
     "emoji": "🚗",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "Das Leben in modernen Großstädten verändert sich schnell: Staus auf den Straßen, die teure Suche nach einem Parkplatz im Zentrum ve yüksek araç masrafları insanları yoruyor. Doch gegen diesen Stress im Alltag etabliert sich eine flexible Alternative: das sogenannte „Carsharing“ (Autoteilen).\nLaut einer aktuellen Studie des Instituts für Mobilitätsforschung in Europa entscheiden sich immer mehr Reisende und Stadtbewohner bewusst dafür, kein eigenes Auto mehr zu besitzen[cite: 3]. Die Philosophie dahinter ist einfach: Flexibilität und Umweltschutz[cite: 3]. Statt ein Fahrzeug zu kaufen, das die meiste Zeit nur am Straßenrand steht, nutzen Carsharing-Kunden moderne Smartphone-Apps, um ein Auto nur für ein paar Stunden oder Tage zu mieten. Ziel ist es, die Kosten im Alltag zu senken, den Verkehr im Zentrum zu entlasten ve die Umwelt durch einen geringeren CO2-Ausstoß zu schonen.\nDie 29-jährige Projektingenieurin Melis Özgül aus Berlin hat ihren Alltag dieses Jahr komplett umgestellt. Sie hat ihr altes Fahrzeug verkauft und nutzt jetzt im Alltag flexible Sharing-Angebote. „Früher war ich nach der Arbeit oft sehr gestresst, weil ich in meinem Kiez stundenlang nach einem Parkplatz suchen musste“, erzählt sie[cite: 3]. Dieses Mal nutzt sie die App, um Autos direkt in der Nähe zu reservieren, wenn sie einen großen Einkauf erledigen muss. „Ich spare viel Geld für Versicherung und Benzin ve fühle mich im Alltag deutlich freier“, sagt Melis. Der Verzicht auf das eigene Auto war für sie eine Bereicherung[cite: 3].\nEin wenig skeptischer sieht das der klassische Autohändler Torsten Lange (51)[cite: 3]. Er betreibt ein großes Autohaus und glaubt, dass dieser Sharing-Trend nur für eine bestimmte Zielgruppe in den Innenstädten funktioniert[cite: 3]. „Die meisten Menschen auf dem Land haben sehr lange Arbeitswege. Wenn sie täglich flexibel zur Arbeit pendeln müssen, wollen sie ein eigenes, verlässliches Auto vor der Tür haben und nicht erst per App nach einem freien Fahrzeug in der Umgebung suchen“, gibt er zu bedenken[cite: 3]. Für ihn bleibt das private Auto auf dem Land unverzichtbar.\nDie Verkehrsökonomin Dr. Verena Kraft betont jedoch, dass Carsharing die Zukunft des nachhaltigen Stadtverkehrs sein könnte[cite: 3]. Der Massenverkehr mit privaten PKWs zerstöre an vielen Orten die Lebensqualität der Einheimischen und blockiere wertvollen Platz[cite: 3]. „Carsharing regt die Menschen dazu an, ihre Mobilität neu zu entdecken und Fahrzeuge effizienter zu nutzen“, erklärt Kraft[cite: 3]. Sie fordert, dass die Ladeinfrastruktur für Elektro-Carsharing in den Städten besser ausgebaut wird, damit umweltfreundliches Teilen für alle Bürger bezahlbar und komfortabel wird[cite: 3].\nExperten empfehlen Personen, die Carsharing ausprobieren möchten, klein anzufangen[cite: 3]. Man muss nicht sofort das eigene Auto verkaufen[cite: 3]; oft reicht es schon, beim nächsten Wochenendausflug das private Fahrzeug stehenzulassen, die nähere Umgebung mit der Bahn zu erkunden oder für kurze Strecken in der Stadt eine Sharing-App zu testen[cite: 3].",
+    "text": "In Deutschland engagieren sich rund 29 Millionen Menschen\nehrenamtlich. Das bedeutet: Sie helfen freiwillig und bekommen\ndafür kein Geld. Ehrenamtliche arbeiten in Sportvereinen,\nbei der Feuerwehr, in Schulen oder in Altenheimen.\nSie helfen bei Veranstaltungen, unterrichten, begleiten\nältere Menschen oder retten Leben.\nWarum machen Menschen das, ohne bezahlt zu werden?\nDie Antworten sind verschieden. Viele sagen, dass sie anderen\nhelfen wollen und sich dabei selbst gut fühlen. Andere möchten\nneue Menschen kennenlernen oder etwas Sinnvolles in ihrer\nFreizeit tun. Manche sammeln durch das Ehrenamt auch\nwichtige Erfahrungen für ihren Beruf.\nEin bekanntes Beispiel ist die Freiwillige Feuerwehr.\nIn Deutschland gibt es rund eine Million Freiwillige,\ndie bei Bränden, Unfällen und Naturkatastrophen helfen.\nSie müssen regelmäßig trainieren und immer erreichbar sein.\nViele von ihnen haben gleichzeitig einen normalen Job\nund machen die Feuerwehrarbeit in ihrer Freizeit.\nAuch junge Menschen engagieren sich immer mehr. Viele\nSchülerinnen und Schüler helfen zum Beispiel bei\nSchulbibliotheken, organisieren Feste oder besuchen\nSenioren. Einige Schulen vergeben sogar Punkte für\nehrenamtliche Tätigkeiten. Das zeigt: Schon früh kann\nman lernen, Verantwortung zu übernehmen.\nExperten betonen, dass Ehrenamt auch der Gesellschaft\nsehr nützt. Ohne Freiwillige würden viele wichtige\nAufgaben nicht erledigt werden — oder der Staat müsste\nviel mehr Geld ausgeben. Deshalb unterstützen viele\nKommunen das Ehrenamt mit kleinen Vergünstigungen,\nzum Beispiel kostenlosen Fahrkarten oder Eintritt in\nSchwimmbäder.\nFRAGEN 6–10",
     "questions": [
       {
         "id": 6,
-        "question": "Was ist laut Text ein Hauptgrund, warum Carsharing in Großstädten immer beliebter wird?",
+        "question": "Wie viele Menschen engagieren sich laut Text ehrenamtlich in Deutschland?",
         "options": {
-          "a": "Weil man mit Carsharing in möglichst kurzer Zeit sehr viel Geld beim Autohändler verdienen kann.",
-          "b": "Weil es die Mobilitätskosten senkt, Flexibilität bietet und die Umwelt durch weniger CO2 schont.",
-          "c": "Weil Carsharing-Anbieter neuerdings komplett kostenlose Autos an alle Bürger verschenken."
+          "a": "rund 10 Millionen",
+          "b": "rund 29 Millionen",
+          "c": "mehr als 50 Millionen"
         }
       },
       {
         "id": 7,
-        "question": "Melis Özgül aus Berlin",
+        "question": "Warum machen Menschen laut Text ehrenamtliche Arbeit? oder sinnvolle Erfahrungen sammeln möchten",
         "options": {
-          "a": "ist gestresster als je zuvor, weil sie ihr eigenes Auto jeden Tag reparieren muss.",
-          "b": "hat ihr altes Fahrzeug verkauft, nutzt jetzt Carsharing per App und spart dadurch viel Geld.",
-          "c": "hat ein neues, teures Auto gekauft, um schneller einen Parkplatz im Zentrum zu finden."
+          "a": "weil sie dafür gut bezahlt werden",
+          "b": "weil sie helfen wollen, neue Menschen kennenlernen",
+          "c": "weil sie von der Schule dazu gezwungen werden"
         }
       },
       {
         "id": 8,
-        "question": "Warum äußert sich Torsten Lange skeptisch über den Carsharing-Trend?",
+        "question": "Was ist die Freiwillige Feuerwehr in Deutschland?",
         "options": {
-          "a": "Weil er glaubt, dass Menschen auf dem Land für ihre täglichen Arbeitswege ein eigenes Auto brauchen.",
-          "b": "Weil die Nutzung von Smartphone-Apps in ganz Deutschland ab nächstem Monat verboten wird.",
-          "c": "Weil er denkt, dass man mit Carsharing-Autos überhaupt nicht einkaufen fahren kann."
+          "a": "eine staatliche Einrichtung mit bezahlten Mitarbeitern",
+          "b": "eine Organisation mit rund einer Million freiwilliger Helfer",
+          "c": "ein Verein nur für Menschen ohne Job"
         }
       },
       {
         "id": 9,
-        "question": "Was ist nach Ansicht von Dr. Verena Kraft ein Vorteil von Carsharing für die Zukunft?",
+        "question": "Was machen manche Schulen für Schülerinnen und Schüler, die ehrenamtlich tätig sind?",
         "options": {
-          "a": "Es zwingt alle Menschen dazu, in ihrem Urlaub überhaupt nicht mehr das Haus zu verlassen.",
-          "b": "Es schützt die Lebensqualität in den Städten und sorgt für eine effizientere Nutzung von Fahrzeugen.",
-          "c": "Es sorgt dafür, dass Benzin für private Autos in Zukunft für alle Menschen komplett kostenlos wird."
+          "a": "Sie schenken ihnen Geld.",
+          "b": "Sie erlauben ihnen, früher nach Hause zu gehen.",
+          "c": "Sie vergeben Punkte für ehrenamtliche Tätigkeiten."
         }
       },
       {
         "id": 10,
-        "question": "Welchen Rat geben Experten am Ende des Textes Menschen, die Carsharing testen möchten?",
+        "question": "Wie unterstützen Kommunen das Ehrenamt laut Text? oder freien Eintritt in Schwimmbäder.",
         "options": {
-          "a": "Sie sollten sofort ihr eigenes Auto verkaufen und eine vierwöchige Reise ohne Gepäck buchen.",
-          "b": "Es ist ratsam, klein anzufangen ve zum Beispiel bei einem Wochenendausflug eine Sharing-App zu testen.",
-          "c": "Man sollte den Alltag am besten komplett ohne die Unterstützung von Smartphones oder Apps planen."
+          "a": "Sie zahlen allen Ehrenamtlichen ein monatliches Gehalt.",
+          "b": "Sie geben Freiwilligen zum Beispiel kostenlose Fahrkarten",
+          "c": "Sie bauen neue Gebäude für Ehrenamtliche."
         }
+      },
+      {
+        "id": 6,
+        "question": "b - Açıklama: \"rund 29 Millionen Menschen ehrenamtlich\" → doğrudan. (a) 10 milyon yanlış. (c) 50 milyon yok.",
+        "options": {}
+      },
+      {
+        "id": 7,
+        "question": "b - Açıklama: \"anderen helfen wollen\", \"neue Menschen kennenlernen\", \"etwas Sinnvolles tun\", \"wichtige Erfahrungen\" → metinde birden fazla neden var, (b) bunları özetliyor. (a) yanlış; para almıyorlar. (c) okul zorunluluğu metinde yok.",
+        "options": {}
+      },
+      {
+        "id": 8,
+        "question": "b - Açıklama: \"rund eine Million Freiwillige\" → doğrudan metinden. (a) yanlış; gönüllü, devlet değil. (c) işsizler için değil.",
+        "options": {}
+      },
+      {
+        "id": 9,
+        "question": "c - Açıklama: \"Einige Schulen vergeben sogar Punkte für ehrenamtliche Tätigkeiten\" → doğrudan metinden. (a) para metinde yok. (b) erken eve gitme metinde yok.",
+        "options": {}
+      },
+      {
+        "id": 10,
+        "question": "b - Açıklama: \"kostenlosen Fahrkarten oder Eintritt in Schwimmbäder\" → doğrudan metinden. (a) maaş değil, küçük avantajlar. (c) bina yapımı metinde yok.",
+        "options": {}
       }
     ],
     "answers": {
       "6": "b",
       "7": "b",
-      "8": "a",
-      "9": "b",
+      "8": "b",
+      "9": "c",
       "10": "b"
     },
-    "explanations": {
-      "6": "Metnin ikinci paragrafında Carsharing'in amaçları \"Kosten im Alltag zu senken... und die Umwelt durch einen geringeren CO2-Ausstoß zu schonen\" olarak belirtilmiştir[cite: 3]. Bu cümle b seçeneğindeki faydaları doğrudan doğrular.",
-      "7": "\"Sie hat ihr altes Fahrzeug verkauft und nutzt jetzt im Alltag flexible Sharing-Angebote... Ich spare viel Geld...\" Melis'in arabasını satıp paylaşım modeline geçmesi b şıkkı ile birebir örtüşür[cite: 3].",
-      "8": "\"Die meisten Menschen auf dem Land haben sehr lange Arbeitswege... wollen sie ein eigenes, verlässliches Auto vor der Tür haben...\" Torsten Lange'nin şüpheci yaklaşımının nedeni a şıkkında doğru verilmiştir[cite: 3].",
-      "9": "\"Massenverkehr... zerstöre... die Lebensqualität... Carsharing regt die Menschen dazu an... Fahrzeuge effizienter zu nutzen...\" Dr. Verena Kraft'ın şehir kalitesi ve verimlilik hakkındaki görüşü b seçeneğini doğru cevap yapar[cite: 3].",
-      "10": "\"Experten empfehlen... klein anzufangen... oft reicht es schon, beim nächsten Wochenendausflug das private Fahrzeug stehenzulassen... oder... eine Sharing-App zu testen.\" Uzmanların küçük adımlarla başlama tavsiyesi b şıkkında özetlenmiştir[cite: 3]."
-    }
+    "explanations": {}
   },
   {
     "id": "lese_2_5",
-    "title": "Zweites Leben für Gegenstände – Warum Do-It-Yourself (DIY) im Trend liegt",
+    "title": "Homeoffice — Fluch oder Segen?",
     "emoji": "🔨",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "Das Leben in modernen Großstädten ist oft teuer und konsumorientiert: Ständig kaufen Menschen neue Möbel, Fahrräder veya Dekorationsartikel, während alte Gegenstände im Müll landen. Das kostet viel Geld und belastet die Umwelt. Doch gegen diese Hürden im Alltag etabliert sich eine kreative Lösung: das sogenannte „Do-It-Yourself“ (DIY) – Gegenstände selbst reparieren ve renovieren.\nLaut einer aktuellen Studie des Instituts für nachhaltigen Konsum in Europa entscheiden sich immer mehr junge Leute und Handwerker bewusst für den Erhalt von alten Dingen[cite: 3]. Die Philosophie dahinter ist einfach: Nachhaltigkeit und Kostenersparnis[cite: 3]. Statt im Geschäft teure Neuwaren zu erwerben, nutzen DIY-Begeisterte Online-Plattformen, um gebrauchte Dinge zu kaufen. Ziel ist es, die Ausgaben im Alltag zu senken, handwerkliche Fähigkeiten zu lernen ve die Umwelt durch weniger Abfall zu schonen.\nDer 26-jährige Energy Systems Engineer Baris Egemen Tokul aus Berlin hat seinen Alltag dieses Jahr komplett umstrukturiert. Er kauft alte, gebrauchte Trekkingräder (wie zum Beispiel von der Marke Pegasus), repariert die Bremsen, das Licht und die Kette selbst in seiner Freizeit und verkauft sie danach wieder fit auf dem lokalen Gebrauchtmarkt. „Früher habe ich viel Geld für neue Sachen ausgegeben“, erzählt er[cite: 3]. Jetzt nutzt er sein Werkzeug direkt zu Hause. „Ich lerne viel über Technik, spare Geld ve fühle mich nach der Arbeit im Büro deutlich erholter, wenn ich etwas mit meinen eigenen Händen geschafft habe“, sagt Baris. Der Verzicht auf teure Neuwaren war für ihn eine Bereicherung[cite: 3].\nEin wenig skeptischer sieht das der klassische Fahrradhändler Torsten Lange (51)[cite: 3]. Er betreibt ein großes, traditionelles Geschäft und glaubt, dass dieser DIY-Trend nur für eine bestimmte Zielgruppe mit viel Freizeit funktioniert[cite: 3]. „Die meisten Menschen haben im Beruf sehr viel Stress. Wenn sie erst spät am Abend müde aus dem Büro kommen, wollen sie ein fertiges, funktionierendes Fahrrad kaufen und nicht noch stundenlang in der Werkstatt stehen ve Ketten reparieren“, gibt er zu bedenken[cite: 3]. Für ihn bleibt das neue Fahrrad aus dem Fachgeschäft die komfortablere Methode für gestresste Berufstätige.\nDie Ökonomin Dr. Verena Kraft betont jedoch, dass die Reparatur und das Recycling von Gegenständen die Zukunft der nachhaltigen Kreislaufwirtschaft sind[cite: 3]. Der Massenkonsum zerstöre an vielen Orten die Umwelt und verbrauche zu viele Ressourcen[cite: 3]. „DIY regt die Menschen dazu an, den Wert von Gegenständen neu zu entdecken, statt alles sofort wegzuschmeißen“, erklärt Kraft[cite: 3]. Sie fordert, dass offene Fahrrad-Werkstätten in den Städten weiter ausgebaut werden, damit das Reparieren für alle Bürger bezahlbar und komfortabel wird[cite: 3].\nExperten empfehlen Personen, die das Do-It-Yourself im Alltag testen möchten, klein anzufangen[cite: 3]. Man muss nicht sofort ein komplettes Auto reparieren[cite: 3]; oft reicht es schon, beim nächsten Problem das kaputte Licht am Rad selbst zu reparieren, eine kleine Schraube zu wechseln oder einfache Holzmöbel zu Hause mithilfe einer App-Anleitung zusammenzubauen[cite: 3].",
+    "text": "Seit einigen Jahren arbeiten immer mehr Menschen von zu Hause\naus. Dieses sogenannte Homeoffice war früher eher selten —\naber seit der Corona-Pandemie hat es sich stark verbreitet.\nViele Firmen erlauben ihren Mitarbeitern jetzt, ein bis drei\nTage pro Woche von zu Hause zu arbeiten. Laut einer Umfrage\nmöchten rund 70 Prozent der Befragten das Homeoffice nicht\nmehr missen.\nDer größte Vorteil des Homeoffices ist die Zeit- und\nGeldersparnis durch den fehlenden Weg zur Arbeit.\nWer jeden Tag eine Stunde pendelt, spart pro Woche fünf\nStunden. Diese Zeit kann man nutzen, um zu schlafen,\nSport zu treiben oder mit der Familie zu verbringen.\nAuch die Fahrtkosten fallen weg. Viele Arbeitnehmer\nberichten, dass sie zu Hause sogar konzentrierter arbeiten,\nweil es weniger Ablenkung gibt.\nAber das Homeoffice hat auch Nachteile. Manche Menschen\nvermissen den Kontakt zu Kollegen und fühlen sich allein.\nOhne klare Grenzen zwischen Arbeit und Freizeit arbeiten\nmanche bis spät in die Nacht. Ein weiteres Problem ist der\nArbeitsplatz: Nicht jeder hat zu Hause ein ruhiges Zimmer\nund einen ergonomischen Stuhl. Kleine Wohnungen machen\ndas Arbeiten zu Hause schwierig.\nBesonders Eltern stehen vor einer Herausforderung.\nWenn Kinder zu Hause sind und Betreuung brauchen, ist\nkonzentriertes Arbeiten kaum möglich. Viele Eltern sagen,\ndass sie nachts oder sehr früh morgens arbeiten müssen,\nwenn die Kinder schlafen. Das führt oft zu Erschöpfung.\nExperten raten dazu, klare Regeln für das Homeoffice zu\nsetzen. Feste Arbeitszeiten, eine kurze Mittagspause und\nein fester Platz für die Arbeit helfen dabei, Beruf und\nPrivatleben zu trennen. Außerdem sollte man regelmäßig\nins Büro fahren, um den Kontakt zu Kollegen zu halten.\nDas richtige Gleichgewicht zu finden, ist der Schlüssel.\nFRAGEN 6–10",
     "questions": [
       {
         "id": 6,
-        "question": "Was ist laut Text ein Hauptgrund, warum das Do-It-Yourself (DIY) immer beliebter wird?",
+        "question": "Wie viele Prozent der Befragten möchten laut Text das Homeoffice nicht aufgeben?",
         "options": {
-          "a": "Weil man mit DIY-Projekten in möglichst kurzer Zeit sehr viel Geld im Büro verdienen kann.",
-          "b": "Weil es die Ausgaben senkt, handwerkliche Fähigkeiten fördert und die Umwelt schont.",
-          "c": "Weil Baumärkte neuerdings komplett kostenlose Werkzeuge an alle Bürger verschenken."
+          "a": "rund 50 Prozent",
+          "b": "rund 70 Prozent",
+          "c": "fast 90 Prozent"
         }
       },
       {
         "id": 7,
-        "question": "Baris Egemen Tokul aus Berlin",
+        "question": "Was ist laut Text der größte Vorteil des Homeoffices?",
         "options": {
-          "a": "ist gestresster als je zuvor, weil er seine Arbeit als Ingenieur wegen der Fahrradreparaturen aufgeben musste.",
-          "b": "kauft gebrauchte Fahrräder, macht sie selbst wieder fit und fühler sich durch diese Arbeit nach dem Büro erholt.",
-          "c": "hat ein neues, teures Pegasus-Fahrrad im traditionellen Geschäft von Torsten Lange gekauft."
+          "a": "Man kann im Pyjama arbeiten.",
+          "b": "Man spart Zeit und Geld durch den fehlenden Weg zur Arbeit.",
+          "c": "Man bekommt mehr Gehalt."
         }
       },
       {
         "id": 8,
-        "question": "Warum äußert sich Torsten Lange skeptisch über den DIY-Trend?",
+        "question": "Welchen Nachteil nennt der Text für das Homeoffice? und Freizeit verschwimmen.",
         "options": {
-          "a": "Weil er glaubt, dass gestresste Berufstätige nach der Arbeit lieber ein fertiges Fahrrad kaufen statt selbst zu reparieren.",
-          "b": "Weil das Reparieren von Fahrrädern in ganz Deutschland ab nächstem Monat komplett verboten wird.",
-          "c": "Weil er denkt, dass gebrauchte Fahrräder überhaupt keine Bremsen oder Ketten haben."
+          "a": "Die Technik funktioniert oft nicht.",
+          "b": "Man vermisst Kollegen und die Grenzen zwischen Arbeit",
+          "c": "Die Chefs kontrollieren die Mitarbeiter zu viel."
         }
       },
       {
         "id": 9,
-        "question": "Was ist nach Ansicht von Dr. Verena Kraft ein Vorteil von DIY für die Zukunft?",
+        "question": "Vor welcher besonderen Herausforderung stehen Eltern im Homeoffice? zu Hause sind.",
         "options": {
-          "a": "Es zwingt alle Menschen dazu, in ihrer Freizeit überhaupt nicht mehr das Haus zu verlassen.",
-          "b": "Es schützt die Umwelt vor den Folgen des Massenkonsums und zeigt den Menschen den Wert von Gegenständen.",
-          "c": "Es sorgt dafür, dass neue Fahrräder in Zukunft für alle Menschen im Geschäft komplett kostenlos werden."
+          "a": "Sie dürfen keine Meetings machen.",
+          "b": "Sie müssen die Kinder zur Schule bringen.",
+          "c": "Sie können nicht konzentriert arbeiten, wenn Kinder"
         }
       },
       {
         "id": 10,
-        "question": "Welchen Rat geben Experten am Ende des Textes Menschen, die DIY ausprobieren möchten?",
+        "question": "Was empfehlen Experten für erfolgreiches Homeoffice?",
         "options": {
-          "a": "Sie sollten sofort ein großes Auto kaufen und den kompletten Motor ohne Hilfe umbauen.",
-          "b": "Es ist ratsam, klein anzufangen ve zum Beispiel eine kleine Schraube oder ein Licht am Fahrrad selbst zu reparieren.",
-          "c": "Man sollte handwerkliche Projekte am besten komplett ohne die Unterstützung von Werkzeugen planen."
+          "a": "immer alleine zu Hause bleiben und nie ins Büro fahren",
+          "b": "feste Arbeitszeiten, Pausen und regelmäßige Bürobesuche",
+          "c": "nur halbtags zu arbeiten"
         }
+      },
+      {
+        "id": 6,
+        "question": "b - Açıklama: \"rund 70 Prozent der Befragten möchten das Homeoffice nicht mehr missen\" → doğrudan metinden. (a) 50 yanlış. (c) 90 yok.",
+        "options": {}
+      },
+      {
+        "id": 7,
+        "question": "b - Açıklama: \"Der größte Vorteil... Zeit- und Geldersparnis durch den fehlenden Weg zur Arbeit\" → doğrudan metinden. (a) pijama metinde yok. (c) daha fazla maaş metinde yok.",
+        "options": {}
+      },
+      {
+        "id": 8,
+        "question": "b - Açıklama: \"vermissen den Kontakt zu Kollegen\" ve \"ohne klare Grenzen zwischen Arbeit und Freizeit arbeiten manche bis spät\" → her ikisi de metinde. (a) teknik sorun yok. (c) şef kontrolü yok.",
+        "options": {}
+      },
+      {
+        "id": 9,
+        "question": "c - Açıklama: \"wenn Kinder zu Hause sind und Betreuung brauchen, ist konzentriertes Arbeiten kaum möglich\" → doğrudan metinden. (a) meeting yasağı yok. (b) okula götürme metinde yok.",
+        "options": {}
+      },
+      {
+        "id": 10,
+        "question": "b - Açıklama: \"Feste Arbeitszeiten, eine kurze Mittagspause\" ve \"regelmäßig ins Büro fahren\" → metinde açıkça. (a) aksine ofise gitme tavsiye ediliyor. (c) yarı zamanlı çalışma metinde yok.",
+        "options": {}
       }
     ],
     "answers": {
       "6": "b",
       "7": "b",
-      "8": "a",
-      "9": "b",
+      "8": "b",
+      "9": "c",
       "10": "b"
     },
-    "explanations": {
-      "6": "Metnin ikinci paragrafında DIY'ın amaçları \"die Ausgaben im Alltag zu senken, handwerkliche Fähigkeiten zu lernen und die Umwelt... zu schonen\" olarak açıkça belirtilmiştir[cite: 3]. Bu cümle b seçeneğini doğrudan doğrular.",
-      "7": "\"Er kauft alte, gebrauchte Trekkingräder... repariert... selbst... und fühle mich nach der Arbeit im Büro deutlich erholter...\" Baris'in ikinci el bisikletleri alıp tamir etmesi ve bunun kendisine iyi gelmesi b şıkkı ile tamamen örtüşür.",
-      "8": "\"Wenn sie erst spät am Abend müde aus dem Büro kommen, wollen sie ein fertiges, funktionierendes Fahrrad kaufen und nicht noch stundenlang in der Werkstatt stehen...\" Torsten Lange'nin şüpheci yaklaşımının nedeni a şıkkında tam olarak aktarılmıştır[cite: 3].",
-      "9": "\"Massenkonsum zerstöre... die Umwelt... DIY regt die Menschen dazu an, den Wert von Gegenständen neu zu entdecken...\" Dr. Verena Kraft'ın tüketim karşıtlığı ve çevre koruma hakkındaki görüşü b seçeneğini doğru cevap yapar[cite: 3].",
-      "10": "\"Experten empfehlen... klein anzufangen... oft reicht es schon, beim nächsten Problem das kaputte Licht am Rad selbst zu reparieren, eine kleine Schraube zu wechseln...\" Uzmanların küçük adımlarla başlama tavsiyesi b şıkkında özetlenmiştir[cite: 3]."
-    }
+    "explanations": {}
   },
   {
     "id": "lese_2_6",
-    "title": "Teamgeist nach Feierabend – Warum Padel-Tennis boomt",
+    "title": "Der Schulgarten — lernen und ernten",
     "emoji": "🎾",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "Das Leben in modernen Großstädten ist oft hektisch und sitzend geprägt: Viele Menschen verbringen den Tag am Schreibtisch im Büro, bewegen sich kaum und sind am Abend mental erschöpft. Dieser Mangel an Aktivität führt oft zu Stress und Rückenschmerzen im Alltag. Doch gegen diese Hürden im Beruf etabliert sich eine dynamische Lösung: der Einstieg in moderne Racketsportarten.\nLaut einer aktuellen Studie des Instituts für Sportökonomie in Europa entscheiden sich immer mehr junge Berufstätige bewusst für eine aktive Freizeitgestaltung. Die Philosophie dahinter ist einfach: Spaß an der Bewegung und Stärkung des Teamgefühls. Statt alleine im Fitnessstudio zu trainieren, nutzen Sportbegeisterte die lokalen Sportplätze für Padel-Tennis – eine schnelle Mischung aus Tennis und Squash. Ziel ist es, die Koordination intensiv zu trainieren, den Stress nach der Arbeit schnell abzubauen und neue Kontakte in einer entspannten Atmosphäre zu knüpfen.\nDer 26-jährige Energy Systems Engineer Baris Egemen Tokul aus Berlin hat seinen Alltag dieses Jahr sportlich neu organisiert. Er spielt jetzt regelmäßig Padel-Tennis nach Feierabend. „Früher war ich nach einem langen Tag im Büro oft müde und hatte Rückenschmerzen“, erzählt er. Dieses Mal nutzt er die Plätze im Kiez gemeinsam mit Freunden und Kollegen. „Ich habe noch nie so schnell die Regeln einer Sportart gelernt. Man hat sofort Erfolgserlebnisse, bewegt sich viel an der frischen Luft und fühler sich im Beruf deutlich fitter und ausgeglichener“, sagt Baris. Der Verzicht auf das Sofa direkt nach der Arbeit war für ihn eine Bereicherung.\nEin wenig skeptischer sieht das der traditionelle Tennis-Trainer Torsten Lange (51). Er leitet eine klassische Tennisschule und glaubt, dass dieser neue Trend nur für eine bestimmte Zielgruppe eine schnelle Modeerscheinung bleibt. „Die meisten Menschen unterschätzen die Technik. Wenn sie ohne professionelles Training sofort intensiv spielen, können sie sich leicht verletzen. Für eine echte sportliche Entwicklung bleibt das klassische Tennis mit intensivem Einzeltraining die bessere Methode“, gibt er zu bedenken. Für ihn ist der Trend zu unkomplizierten Funsportarten auf Dauer zu oberflächlich.\nDie Sportwissenschaftlerin Dr. Verena Kraft betont jedoch, dass Padel-Tennis die Zukunft des urbanen Freizeitsports ist. Der Bewegungsmangel zerstöre an vielen Orten die Lebensqualität und die Gesundheit der Bürger. „Padel-Tennis regt die Menschen dazu an, gemeinsam aktiv zu werden, da man immer zu viert spielt und das Spiel sehr sozial ist“, erklärt Kraft. Sie fordert, dass die Sportinfrastruktur in den Städten modernisiert wird, damit unkomplizierte Sportangebote für alle Bürger bezahlbar und komfortabel erreichbar werden.\nExperten empfehlen Personen, die Padel-Tennis oder andere Sportarten im Alltag testen möchten, klein anzufangen. Man muss nicht sofort an großen Turnieren teilnehmen; oft reicht es schon, beim nächsten Wochenendausflug eine Stunde einen Platz zu mieten, mit Freunden ein paar Bälle zu schlagen oder kurze Trainingseinheiten spielerisch in den Alltag zu integrieren.",
+    "text": "Immer mehr Schulen in Deutschland legen einen eigenen\nSchulgarten an. In diesem Garten pflanzen Schülerinnen\nund Schüler Gemüse, Kräuter und Blumen und lernen,\nwie Pflanzen wachsen. Das klingt einfach — aber ein\nSchulgarten bringt viel mehr als nur frisches Gemüse.\nDie zwölfjährige Lena aus München besucht eine Schule\nmit einem großen Garten. „Ich wusste nicht, dass Karotten\nunter der Erde wachsen\", sagt sie lachend. „Jetzt weiß\nich, wie viel Arbeit Essen macht.\" Lena und ihre Klasse\ntreffen sich jeden Dienstag im Garten. Sie gießen, jäten\nUnkraut und ernten. Das geerntete Gemüse wird dann in der\nSchulküche zu Salaten oder Suppen verarbeitet.\nLehrer berichten, dass der Garten viele positive Effekte hat.\nKinder, die draußen arbeiten, sind ruhiger und konzentrierter\nim Unterricht. Der Garten fördert auch die Teamarbeit:\nMan muss zusammenarbeiten, Aufgaben verteilen und\nVerantwortung übernehmen. Außerdem lernen Kinder,\nGeduld zu haben — denn Gemüse wächst nicht über Nacht.\nSchulgärten kosten Geld und brauchen jemanden, der sich\ndarum kümmert. Manche Schulen haben deshalb Probleme,\nden Garten das ganze Jahr zu pflegen — zum Beispiel\nin den Sommerferien. Einige Schulen lösen das Problem,\nindem sie Eltern oder Freiwillige um Hilfe bitten.\nAndere Schulen arbeiten mit lokalen Bauern zusammen.\nTrotz dieser Herausforderungen wächst das Interesse\nan Schulgärten. Viele Eltern und Lehrkräfte sehen sie\nals wichtige Ergänzung zum normalen Unterricht.\n„Kinder lernen am besten, wenn sie etwas selbst erleben\",\nsagt Schulleiterin Frau Wagner. „Der Garten ist ein\nlebendiges Klassenzimmer.\" Die Stadt München unterstützt\ndas Projekt mit 5.000 Euro pro Schule und Jahr.\nFRAGEN 6–10",
     "questions": [
       {
         "id": 6,
-        "question": "Was ist laut Text ein Hauptgrund, warum Padel-Tennis bei Berufstätigen immer beliebter wird?",
+        "question": "Was lernt Lena durch den Schulgarten?",
         "options": {
-          "a": "Weil man mit Padel-Tennis in möglichst kurzer Zeit sehr viel Geld direkt im Büro verdienen kann.",
-          "b": "Weil es Koordination trainiert, Stress nach der Arbeit abbaut und das Teamgefühl stärkt.",
-          "c": "Weil Sportvereine neuerdings komplett kostenlose Schläger an alle Bürger verschenken."
+          "a": "wie man ein Restaurant führt",
+          "b": "wie viel Arbeit hinter dem Essen steckt",
+          "c": "wie man einen Supermarkt einkauft"
         }
       },
       {
         "id": 7,
-        "question": "Baris Egemen Tokul aus Berlin",
+        "question": "Was passiert mit dem geernteten Gemüse in Lenas Schule?",
         "options": {
-          "a": "hat mit dem Sport aufgehört, weil er nach dem Padel-Tennis viel stärkere Rückenschmerzen hatte als vorher.",
-          "b": "spielt regelmäßig nach Feierabend Padel-Tennis und fühlt sich dadurch fitter und ausgeglichener im Beruf.",
-          "c": "hat eine klassische Tennisschule gegründet, um den Sport im Ausland bekannter zu machen."
+          "a": "Es wird verkauft.",
+          "b": "Es wird in der Schulküche zu Salaten oder Suppen verarbeitet.",
+          "c": "Es wird nach Hause mitgenommen."
         }
       },
       {
         "id": 8,
-        "question": "Warum äußert sich Torsten Lange skeptisch über den Padel-Tennis-Trend?",
+        "question": "Was ist laut Lehrern ein positiver Effekt des Schulgartens?",
         "options": {
-          "a": "Weil er glaubt, dass sich Menschen ohne professionelles Training leicht verletzen können und klassisches Tennis besser ist.",
-          "b": "Weil das Spielen auf Sportplätzen in Berlin ab nächstem Monat komplett verboten wird.",
-          "c": "Weil er denkt, dass man Padel-Tennis nur alleine vor dem Fernseher spielen kann."
+          "a": "Kinder lernen schneller Fremdsprachen.",
+          "b": "Kinder sind ruhiger und konzentrierter im Unterricht.",
+          "c": "Kinder essen in der Schule mehr Gemüse."
         }
       },
       {
         "id": 9,
-        "question": "Was ist nach Ansicht von Dr. Verena Kraft ein Vorteil von Padel-Tennis für die Zukunft?",
+        "question": "Welches Problem haben manche Schulen mit dem Schulgarten?",
         "options": {
-          "a": "Es zwingt alle Menschen dazu, ihre Jobs sofort zu kündigen und nur noch in Sportvereinen zu leben.",
-          "b": "Es verbessert die Lebensqualität der Bürger, bekämpft Bewegungsmangel und fördert soziale Kontakte.",
-          "c": "Es sorgt dafür, dass die Miete für Sportplätze in Zukunft in ganz Europa komplett kostenlos wird."
+          "a": "Der Garten ist zu klein für alle Schüler.",
+          "b": "Den Garten in den Sommerferien zu pflegen ist schwierig.",
+          "c": "Das Gemüse wird oft gestohlen."
         }
       },
       {
         "id": 10,
-        "question": "Welchen Rat geben Experten am Ende des Textes Menschen, die eine neue Sportart testen möchten?",
+        "question": "Wie unterstützt die Stadt München die Schulgärten?",
         "options": {
-          "a": "Sie sollten sofort ein intensives Profitraining für fünf Jahre buchen, um den Effekt zu maximieren.",
-          "b": "Es ist ratsam, klein anzufangen und zum Beispiel erst einmal eine Stunde einen Platz mit Freunden zu mieten.",
-          "c": "Man sollte Sportaktivitäten am besten komplett ohne die Unterstützung von Freunden oder der Familie planen."
+          "a": "Sie schickt professionelle Gärtner in die Schulen.",
+          "b": "Sie gibt 5.000 Euro pro Schule und Jahr.",
+          "c": "Sie baut neue Gewächshäuser für die Schulen."
         }
+      },
+      {
+        "id": 6,
+        "question": "b - Açıklama: \"Jetzt weiß ich, wie viel Arbeit Essen macht\" → Lena'nın kendi sözleri. (a) restoran metinde yok. (c) süpermarket yok.",
+        "options": {}
+      },
+      {
+        "id": 7,
+        "question": "b - Açıklama: \"Das geerntete Gemüse wird dann in der Schulküche zu Salaten oder Suppen verarbeitet\" → doğrudan metinden. (a) satılmıyor. (c) eve götürülmüyor.",
+        "options": {}
+      },
+      {
+        "id": 8,
+        "question": "b - Açıklama: \"Kinder, die draußen arbeiten, sind ruhiger und konzentrierter im Unterricht\" → doğrudan öğretmenlerden. (a) yabancı dil metinde yok. (c) daha fazla sebze yeme yok.",
+        "options": {}
+      },
+      {
+        "id": 9,
+        "question": "b - Açıklama: \"Probleme, den Garten das ganze Jahr zu pflegen — zum Beispiel in den Sommerferien\" → doğrudan metinden. (a) küçük bahçe metinde yok. (c) hırsızlık metinde yok.",
+        "options": {}
+      },
+      {
+        "id": 10,
+        "question": "b - Açıklama: \"Die Stadt München unterstützt das Projekt mit 5.000 Euro pro Schule und Jahr\" → doğrudan metinden. (a) bahçıvan yok. (c) sera yapımı yok.",
+        "options": {}
       }
     ],
     "answers": {
       "6": "b",
       "7": "b",
-      "8": "a",
+      "8": "b",
       "9": "b",
       "10": "b"
     },
-    "explanations": {
-      "6": "Metnin ikinci paragrafında bu sporun amaçları \"Spaß an der Bewegung und Stärkung des Teamgefühls... den Stress nach der Arbeit schnell abzubauen\" olarak açıkça belirtilmiştir. Bu cümle b seçeneğini doğrudan doğrular.",
-      "7": "\"Ich habe noch nie so schnell die Regeln... gelernt... bewegt sich viel... und fühlt sich im Beruf deutlich fitter und ausgeglichener...\" Baris'in bu sporu yapması ve iş hayatında kendisine iyi gelmesi b şıkkı ile tamamen örtüşür.",
-      "8": "\"Wenn sie ohne professionelles Training sofort intensiv spielen, können sie sich leicht verletzen. Für eine echte sportliche Entwicklung bleibt das klassische Tennis... die bessere Methode...\" Torsten Lange'nin şüpheci yaklaşımının nedeni a şıkkında doğru aktarılmıştır.",
-      "9": "\"Der Bewegungsmangel zerstöre... die Lebensqualität... Padel-Tennis regt die Menschen dazu an, gemeinsam aktiv zu werden, da man... spielt und das Spiel sehr sozial ist...\" Dr. Verena Kraft'ın sağlık ve sosyal etkiler hakkındaki görüşü b seçeneğini doğru cevap yapar.",
-      "10": "\"Experten empfehlen... klein anzufangen... oft reicht es schon, beim nächsten Wochenendausflug eine Stunde einen Platz zu mieten, mit Freunden ein paar Bälle zu schlagen...\" Uzmanların küçük adımlarla başlama tavsiyesi b şıkkında özetlenmiştir."
-    }
+    "explanations": {}
   },
   {
     "id": "lese_2_7",
-    "title": "Bewusster Konsum – Warum das Reparieren von Haushaltsgeräten boomt",
+    "title": "Die moderne Stadtbibliothek — ein Ort für alle",
     "emoji": "🔌",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "Das Leben in modernen Städten ist oft von einer Wegwerfkultur geprägt: Wenn eine Kaffeemaschine, ein Staubsauger oder eine Dampfbürste nicht mehr funktioniert, kaufen viele Menschen sofort ein neues Modell. Das wegwerfen von alten Geräten kostet viel Geld und produziert tonnenweise elektronischen Abfall, was die Umwelt stark belastet. Doch gegen diesen Trend im Alltag etabliert sich eine nachhaltige Alternative: das Reparieren zu Hause.\nLaut einer aktuellen Umfrage zur Nachhaltigkeit im Haushalt in Europa entscheiden sich immer mehr Bürger bewusst dafür, defekte Geräte nicht sofort zu entsorgen. Die Philosophie dahinter ist einfach: Ressourcen schonen und Kosten sparen. Statt im Geschäft teure Neuwaren zu kaufen, nutzen Reparatur-Begeisterte Online-Plattformen, um Ersatzteile zu bestellen oder technische Anleitungen zu lesen. Ziel ist es, die Ausgaben im Alltag zu senken, praktische Fähigkeiten zu lernen und die Lebensdauer von technischen Geräten aktiv zu verlängern.\nDer 26-jährige Energy Systems Engineer Baris Egemen Tokul aus Berlin hat seinen Haushalt dieses Jahr komplett auf Nachhaltigkeit umgestellt. Als seine Dampfbürste mit einer Leistung von 1200 Watt plötzlich nicht mehr funktionierte, warf er das Gerät nicht weg. „Früher war ich bei solchen Defekten oft genervt und dachte, ich muss sofort ein neues Gerät kaufen“, erzählt er. Dieses Mal öffnete er das Gehäuse, überprüfte die Kabel und reparierte den kleinen Fehler mithilfe seines eigenen Werkzeugs direkt zu Hause. „Ich spare Geld, verstehe die Technik besser und fühle mich nach der Arbeit im Büro sehr zufrieden, wenn ich etwas repariert habe“, sagt Baris.\nEin wenig skeptischer sieht das der Elektronikhändler Torsten Lange (51). Er betreibt ein großes Fachgeschäft für Haushaltsgeräte und glaubt, dass dieser Reparatur-Trend nur für eine bestimmte Zielgruppe mit technischem Vorwissen funktioniert. „Die meisten modernen Geräte sind sehr kompliziert gebaut. Wenn die Menschen ohne professionelle Ausbildung versuchen, die Elektronik zu reparieren, können sie das Gerät komplett zerstören oder sich verletzen“, gibt er zu bedenken. Für ihn bleibt der Kauf eines neuen Geräts mit Garantie die sicherere Methode für gestresste Verbraucher.\nDie Umweltökonomin Dr. Verena Kraft betont jedoch, dass die Reparatur von Haushaltsgeräten die Zukunft des nachhaltigen Konsums ist. Der Massenkonsum zerstöre wertvolle Ressourcen und belaste das Klima. „Das Reparieren regt die Menschen dazu an, den Wert von Technik neu zu entdecken, statt alles sofort in den Müll zu werfen“, erklärt Kraft. Sie fordert, dass Hersteller die Geräte so bauen müssen, dass man sie leicht zu Hause öffnen und reparieren kann, damit umweltfreundliches Handeln für alle Bürger bezahlbar und komfortabel wird.\nExperten empfehlen Personen, die das Reparieren im Alltag testen möchten, klein anzufangen. Man muss nicht sofort eine komplizierte Waschmaschine auseinanderbauen; oft reicht es schon, beim nächsten Problem eine kleine Schraube zu wechseln, den Filter eines Staubsaugers zu reinigen oder einfache Anleitungen im Internet Schritt für Schritt zu befolgen.",
+    "text": "Viele Menschen denken bei einer Bibliothek an lange Regalreihen\nvoller Bücher und absolute Stille. Aber moderne Stadtbibliotheken\nsehen heute ganz anders aus. Sie sind lebendige Orte, die viel\nmehr anbieten als nur Bücher. Wer heute eine Bibliothek besucht,\nfindet dort Zeitschriften, DVDs, Hörbücher, Spiele und sogar\n3D-Drucker.\nDie Stadtbibliothek Stuttgart zum Beispiel ist eines der\nmodernsten Gebäude seiner Art in Europa. Es hat neun Stockwerke\nund über 500.000 Medien. Aber nicht nur die Sammlung ist\nbeeindruckend: Es gibt Lernräume für Schüler, Babykurse\nfür junge Eltern, Lesungen von Schriftstellern und sogar\nAusstellungen von Künstlern. Viele Besucher kommen einfach\nnur, um zu arbeiten oder Kaffee zu trinken.\nDer Eintritt in die meisten Bibliotheken ist kostenlos.\nWer Bücher ausleihen möchte, braucht einen Bibliotheksausweis.\nDieser kostet in vielen Städten nichts — oder nur wenige Euro\npro Jahr. Kinder unter 18 Jahren erhalten den Ausweis oft\nvollständig kostenlos. Man kann Bücher normalerweise für\nvier Wochen ausleihen und sie dann zurückgeben oder verlängern.\nAber Bibliotheken haben auch mit Problemen zu kämpfen.\nIn manchen Städten werden sie wegen fehlender Gelder geschlossen.\nViele Menschen nutzen das Internet, um Bücher digital zu lesen,\nund kommen seltener in die Bibliothek. Bibliothekare müssen\ndeshalb kreativ sein und neue Angebote entwickeln, um die\nMenschen anzulocken.\nTrotz dieser Herausforderungen haben Bibliotheken eine\nwichtige gesellschaftliche Aufgabe. Sie bieten jedem Menschen —\negal wie viel Geld er hat — Zugang zu Wissen und Bildung.\n„Eine Bibliothek ist ein demokratischer Ort\", sagt Bibliothekarin\nFrau Bauer. „Hier ist jeder willkommen.\" Deshalb kämpfen viele\nBürger für den Erhalt ihrer lokalen Bibliothek.\nFRAGEN 6–10",
     "questions": [
       {
         "id": 6,
-        "question": "Was ist laut Text ein Hauptgrund, warum das Reparieren von Geräten immer beliebter wird?",
+        "question": "Was kann man laut Text in einer modernen Bibliothek finden?",
         "options": {
-          "a": "Weil man durch das Reparieren in möglichst kurzer Zeit sehr viel Geld im Büro verdienen kann.",
-          "b": "Weil es Kosten im Alltag spart, Ressourcen schont und die Lebensdauer von Geräten verlängert.",
-          "c": "Weil Elektronikgeschäfte neuerdings komplett kostenlose Ersatzteile an alle Bürger verschenken."
+          "a": "nur Bücher und Zeitschriften",
+          "b": "unter anderem DVDs, Hörbücher, Spiele und 3D-Drucker",
+          "c": "Restaurants und Einkaufsmöglichkeiten"
         }
       },
       {
         "id": 7,
-        "question": "Baris Egemen Tokul aus Berlin",
+        "question": "Was bietet die Stadtbibliothek Stuttgart laut Text an?",
         "options": {
-          "a": "hat seine defekte 1200-Watt-Dampfbürste sofort weggeworfen, weil die Reparatur zu kompliziert war.",
-          "b": "hat seine Dampfbürste zu Hause selbst repariert, spart dadurch Geld und verstehe die Technik besser.",
-          "c": "hat ein neues, teures Gerät im Fachgeschäft von Torsten Lange gekauft, um Zeit im Alltag zu sparen."
+          "a": "nur eine große Büchersammlung",
+          "b": "unter anderem Lernräume, Babykurse, Lesungen und Ausstellungen",
+          "c": "kostenlosen Kaffee für alle Besucher"
         }
       },
       {
         "id": 8,
-        "question": "Warum äußert sich der Händler Torsten Lange skeptisch über den Reparatur-Trend?",
+        "question": "Was kostet ein Bibliotheksausweis für Kinder unter 18 Jahren?",
         "options": {
-          "a": "Weil er glaubt, dass moderne Geräte sehr kompliziert sind und Reparaturen ohne Fachwissen gefährlich sein können.",
-          "b": "Weil das Nutzen von Werkzeugen in großen Wohnungen in Berlin ab nächstem Monat komplett verboten wird.",
-          "c": "Weil er denkt, dass Haushaltsgeräte in Zukunft für alle Menschen im Geschäft komplett kostenlos werden."
+          "a": "denselben Preis wie für Erwachsene",
+          "b": "die Hälfte des normalen Preises",
+          "c": "oft nichts — er ist kostenlos"
         }
       },
       {
         "id": 9,
-        "question": "Was ist nach Ansicht von Dr. Verena Kraft ein Vorteil des Reparierens für die Zukunft?",
+        "question": "Vor welchem Problem stehen Bibliotheken laut Text?",
         "options": {
-          "a": "Es zwingt alle Menschen dazu, in ihrem Alltag überhaupt keine elektronischen Geräte mehr zu benutzen.",
-          "b": "Es schützt die Umwelt vor den Folgen des Massenkonsums und zeigt den Menschen den Wert von Technik.",
-          "c": "Es sorgt dafür, dass alte Waschmaschinen in Zukunft automatisch und ohne Hilfe funktionieren."
+          "a": "Es gibt zu viele Bücher und zu wenig Platz.",
+          "b": "In manchen Städten werden sie wegen fehlender Gelder geschlossen.",
+          "c": "Die Öffnungszeiten sind zu kurz."
         }
       },
       {
         "id": 10,
-        "question": "Welchen Rat geben Experten am Ende des Textes Menschen, die das Reparieren ausprobieren möchten?",
+        "question": "Was sagt Bibliothekarin Frau Bauer über die Bibliothek?",
         "options": {
-          "a": "Sie sollten sofort die komplette Elektronik einer Waschmaschine ohne Anleitung umbauen.",
-          "b": "Es ist ratsam, klein anzufangen, zum Beispiel einen Filter zu reinigen oder eine kleine Schraube zu wechseln.",
-          "c": "Man sollte handwerkliche Projekte am besten komplett ohne die Unterstützung von Werkzeugen planen."
+          "a": "Sie ist ein Ort nur für Studierende.",
+          "b": "Sie ist ein demokratischer Ort, wo jeder willkommen ist.",
+          "c": "Sie braucht dringend mehr Geld vom Staat."
         }
+      },
+      {
+        "id": 6,
+        "question": "b - Açıklama: \"DVDs, Hörbücher, Spiele und sogar 3D-Drucker\" → doğrudan metinden. (a) sadece kitap ve dergi yanlış. (c) restoran yok.",
+        "options": {}
+      },
+      {
+        "id": 7,
+        "question": "b - Açıklama: \"Lernräume für Schüler, Babykurse... Lesungen... Ausstellungen\" → metinde açıkça. (a) sadece kitap koleksiyonu yanlış. (c) ücretsiz kahve metinde yok.",
+        "options": {}
+      },
+      {
+        "id": 8,
+        "question": "c - Açıklama: \"Kinder unter 18 Jahren erhalten den Ausweis oft vollständig kostenlos\" → doğrudan metinden. (a) ve (b) yanlış.",
+        "options": {}
+      },
+      {
+        "id": 9,
+        "question": "b - Açıklama: \"In manchen Städten werden sie wegen fehlender Gelder geschlossen\" → doğrudan metinden. (a) çok fazla kitap değil. (c) açılış saatleri konusu yok.",
+        "options": {}
+      },
+      {
+        "id": 10,
+        "question": "b - Açıklama: \" 'Eine Bibliothek ist ein demokratischer Ort', sagt Bibliothekarin Frau Bauer. 'Hier ist jeder willkommen.' \" → doğrudan alıntı. (a) sadece öğrenciler yanlış. (c) para talebi yok.",
+        "options": {}
       }
     ],
     "answers": {
       "6": "b",
       "7": "b",
-      "8": "a",
+      "8": "c",
       "9": "b",
       "10": "b"
     },
-    "explanations": {
-      "6": "Metnin ikinci paragrafında bu eğilimin amaçları \"Ressourcen schonen und Kosten sparen\" ve \"die Lebensdauer von technischen Geräten aktiv zu verlängern\" olarak belirtilmiştir. Bu cümle b seçeneğindeki faydaları doğrudan doğrular.",
-      "7": "\"Dieses Mal öffnete er das Gehäuse... und reparierte den kleinen Fehler... Ich spare Geld, verstehe die Technik besser...\" Baris'in kendi cihazını tamir etmesi ve bundan memnun kalması b şıkkı ile birebir örtüşür.",
-      "8": "\"Die meisten modernen Geräte sind sehr kompliziert gebaut. Wenn die Menschen ohne professionelle Ausbildung versuchen... können sie das Gerät komplett zerstören oder sich verletzen...\" Torsten Lange'nin şüpheci olma nedeni a şıkkında doğru verilmiştir.",
-      "9": "\"Massenkonsum zerstöre wertvolle Ressourcen... Das Reparieren regt die Menschen dazu an, den Wert von Technik neu zu entdecken...\" Dr. Verena Kraft'ın sürdürülebilir tüketim hakkındaki görüşü b seçeneğini doğru cevap yapar.",
-      "10": "\"Experten empfehlen... klein anzufangen... oft reicht es schon, beim nächsten Problem eine kleine Schraube zu wechseln, den Filter eines Staubsaugers zu reinigen...\" Uzmanların küçük adımlarla başlama tavsiyesi b şıkkında özetlenmiştir."
-    }
+    "explanations": {}
   },
   {
     "id": "lese_2_8",
-    "title": "Intelligentes Wohnen – Warum das Energiemanagement zu Hause boomt",
+    "title": "Das Frühstück — die wichtigste Mahlzeit des Tages?",
     "emoji": "🏠",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "Das Leben in modernen Städten verbraucht immer mehr Strom: Das Laden von Elektrogeräten, die Nutzung von Klimaanlagen und der tägliche Haushaltsbedarf kosten viel Geld. In Zeiten schwankender Strompreise an der Börse belastet dieser unkontrollierte Verbrauch oft die Haushaltskasse. Doch gegen diese finanziellen Sorgen im Alltag etabliert sich eine innovative Lösung: das intelligente Energiemanagement im eigenen Zuhause.\nLaut einer aktuellen Studie des Instituts für Energiewirtschaft in Europa entscheiden sich immer mehr Familien bewusst für eine digitale Kontrolle ihres Stromverbrauchs. Die Philosophie dahinter ist einfach: Kostenersparnis und Ressourcenschonung. Statt den Strom teuer zu den Spitzenzeiten am Abend zu kaufen, nutzen technikbegeisterte Bürger intelligente Steuerungssysteme. Ziel ist es, den Energieverbrauch im Alltag automatisch zu optimieren, den Strom vor allem dann zu nutzen, wenn er günstig ist, und die Effizienz von Heimspeichern voll auszuschöpfen.\nDer 26-jährige Energy Systems Engineer Baris Egemen Tokul aus Berlin hat seine Wohnung dieses Jahr mit modernster Technik ausgestattet. Er hat ein digitales System installiert, das seinen Haushaltsstrom mit den aktuellen Day-Ahead- und Intraday-Preisen des Strommarktes verbindet. „Früher habe ich Waschmaschine oder Geschirrspüler oft genau dann eingeschaltet, wenn der Strom an der Börse am teuersten war“, erzählt er. Jetzt steuert eine intelligente Software die Geräte automatisch. „Ich nutze den Strom jetzt am Nachmittag, wenn er durch die Solarenergie günstig ist, speichere den Rest im BESS und fühle mich nach der Arbeit im Büro sehr zufrieden, weil ich meine Energiekosten halbiert habe“, sagt Baris.\nEin wenig skeptischer sieht das der klassische Elektroinstallateur Torsten Lange (51). Er betreibt einen traditionellen Handwerksbetrieb und glaubt, dass dieser digitale Trend nur für eine bestimmte Zielgruppe mit hohem technischem Vorwissen funktioniert. „Die meisten Menschen wollen einfach nur den Lichtschalter drücken und sich nicht täglich mit Preisprognosen oder Software-Updates beschäftigen. Wenn das System einen Fehler hat, stehen die Leute im Dunkeln“, gibt er zu bedenken. Für ihn bleibt die klassische, einfache Verkabelung ohne Internetanbindung die verlässlicher Methode für den normalen Verbraucher.\nDie Energieökonomin Dr. Verena Kraft betont jedoch, dass digitale Decision-Mechanismen die Zukunft des urbanen Wohnens sind. Der unkontrollierte Massenverbrauch überlaste in den Abendstunden die Stromnetze. „Intelligentes Energiemanagement regt die Menschen dazu an, ihren Verbrauch aktiv an die Produktion von sauberer Energie anzupassen“, erklärt Kraft. Sie fordert, dass die Politik offene Schnittstellen für Smart-Home-Systeme fördert, damit umweltfreundliche Optimierung für alle Bürger bezahlbar und komfortabel anwendbar wird.\nExperten empfehlen Personen, die das Energiemanagement im Alltag testen möchten, klein anzufangen. Man muss nicht sofort das gesamte Haus mit teurer Automatisierungstechnik umbauen; oft reicht es schon, beim nächsten Neukauf auf smarte Haushaltsgeräte zu achten, die Waschmaschine bei gutem Wetter am Nachmittag per Zeitschaltuhr zu starten oder einfache Energie-Apps zur Kontrolle des täglichen Verbrauchs zu nutzen.",
+    "text": "„Das Frühstück ist die wichtigste Mahlzeit des Tages\" —\ndiesen Satz hört man oft. Aber stimmt das wirklich?\nErnährungswissenschaftler sind sich nicht vollständig einig.\nKlar ist aber: Wer morgens etwas isst, startet besser\nin den Tag. Das Gehirn braucht Energie, und die bekommt\nes am besten durch ein gutes Frühstück.\nWas gehört zu einem gesunden Frühstück? Experten empfehlen\neine Kombination aus verschiedenen Nährstoffen. Vollkornbrot\nmit Käse oder Ei liefert Energie und macht lange satt.\nObst oder Gemüse geben Vitamine. Ein Glas Wasser oder\nungesüßter Tee sind ideal zum Trinken. Süße Frühstückscerealien,\ndie viel Zucker enthalten, sind dagegen weniger geeignet.\nDer zwölfjährige Mika aus Hamburg frühstückt jeden Morgen\nmit seiner Familie. „Wir essen meistens Haferflocken mit\nJoghurt und Früchten\", sagt er. „Mama sagt, das hält länger\nsatt als Cornflakes.\" Sein Vater trinkt dazu immer einen\nschwarzen Kaffee. Mika selbst mag lieber Orangensaft —\naber sein Arzt hat ihm erklärt, dass Saft viel Zucker hat\nund er lieber ein ganzes Stück Obst essen soll.\nViele Menschen frühstücken aus Zeitmangel gar nichts.\nSie sagen, morgens keine Zeit oder keinen Hunger zu haben.\nDas ist laut Ernährungsexperten ein Fehler. Wer ohne\nFrühstück zur Schule oder Arbeit geht, kann sich schlechter\nkonzentrieren. Außerdem isst man mittags oft zu viel,\nweil man sehr hungrig ist.\nFür Menschen, die morgens wenig Zeit haben, gibt es\npraktische Lösungen. Ein Naturjoghurt mit Früchten,\nein Stück Obst oder ein selbst gemachter Smoothie\nkönnen schnell zubereitet werden. Auch ein hartgekochtes\nEi vom Vortag ist eine gute Option. Das Wichtigste ist,\nüberhaupt etwas zu essen — auch wenn es klein ist.\nFRAGEN 6–10",
     "questions": [
       {
         "id": 6,
-        "question": "Was ist laut Text ein Hauptgrund, warum intelligentes Energiemanagement immer beliebter wird?",
+        "question": "Was empfehlen Experten als gesundes Frühstück?",
         "options": {
-          "a": "Weil man mit diesen Systemen in möglichst kurzer Zeit sehr viel Geld direkt im Büro verdienen kann.",
-          "b": "Weil es den Stromverbrauch automatisch optimiert, Kosten spart und Ressourcen schont.",
-          "c": "Weil Energieunternehmen neuerdings komplett kostenlose Smart-Home-Systeme an alle Bürger verschenken."
+          "a": "süße Cerealien mit Milch",
+          "b": "Vollkornbrot, Obst oder Gemüse und Wasser oder Tee",
+          "c": "nur Kaffee und ein Toast"
         }
       },
       {
         "id": 7,
-        "question": "Baris Egemen Tokul aus Berlin",
+        "question": "Was isst Mika laut Text zum Frühstück?",
         "options": {
-          "a": "hat sein digitales Energiemanagement wieder abgeschaltet, weil die Day-Ahead-Preise am Nachmittag zu hoch waren.",
-          "b": "steuert seinen Haushaltsstrom intelligent über eine Software und hat seine Energiekosten dadurch halbiert.",
-          "c": "hat seine Wohnung auf dem Land verkauft, weil er die Software-Updates nicht verstanden hat."
+          "a": "Cornflakes mit Milch",
+          "b": "Haferflocken mit Joghurt und Früchten",
+          "c": "Vollkornbrot mit Käse"
         }
       },
       {
         "id": 8,
-        "question": "Warum äußert sich Torsten Lange skeptisch über den digitalen Energiemanagement-Trend?",
+        "question": "Warum soll Mika laut seinem Arzt lieber ein ganzes Stück Obst essen statt Orangensaft trinken?",
         "options": {
-          "a": "Weil er glaubt, dass normale Verbraucher sich nicht mit Preisprognosen beschäftigen wollen und einfache Systeme verlässlicher sind.",
-          "b": "Weil die Nutzung von digitalen Stromzählern in ganz Deutschland ab nächstem Monat streng verboten wird.",
-          "c": "Weil er denkt, dass intelligente Software-Systeme überhaupt keinen Strom sparen können."
+          "a": "weil Saft teurer ist als Obst",
+          "b": "weil Saft viel Zucker hat",
+          "c": "weil Obst mehr Vitamine hat als Saft"
         }
       },
       {
         "id": 9,
-        "question": "Was ist nach Ansicht von Dr. Verena Kraft ein Vorteil von intelligentem Energiemanagement für die Zukunft?",
+        "question": "Was passiert laut Text, wenn man ohne Frühstück zur Schule oder Arbeit geht?",
         "options": {
-          "a": "Es zwingt alle Bürger dazu, am Abend komplett auf die Nutzung von elektrischem Licht zu verzichten.",
-          "b": "Es entlastet die Stromnetze und passt den Verbrauch der Menschen an die Erzeugung sauberer Energie an.",
-          "c": "Es sorgt dafür, dass der Strom aus Kohlekraftwerken in Zukunft für alle Menschen komplett kostenlos wird."
+          "a": "Man schläft im Unterricht ein.",
+          "b": "Man kann sich schlechter konzentrieren und isst mittags zu viel.",
+          "c": "Man wird krank."
         }
       },
       {
         "id": 10,
-        "question": "Welchen Rat geben Experten am Ende des Textes Menschen, die ihr Energiemanagement optimieren möchten?",
+        "question": "Was empfiehlt der Text für Menschen mit wenig Zeit am Morgen? hartgekochtes Ei vom Vortag",
         "options": {
-          "a": "Sie sollten sofort die komplette Verkabelung des Hauses ohne die Hilfe von Handwerkern umbauen.",
-          "b": "Es ist ratsam, klein anzufangen, zum Beispiel einfache Apps zu nutzen oder Geräte per Zeitschaltuhr am Nachmittag zu starten.",
-          "c": "Man sollte das Energiemanagement am besten komplett ohne digitale Geräte oder Internet planen."
+          "a": "gar nichts essen und warten bis zum Mittagessen",
+          "b": "in ein Café gehen und dort frühstücken",
+          "c": "schnelle Optionen wie Joghurt, Obst oder ein"
         }
+      },
+      {
+        "id": 6,
+        "question": "b - Açıklama: \"Vollkornbrot mit Käse oder Ei\", \"Obst oder Gemüse\", \"Wasser oder ungesüßter Tee\" → metinde açıkça. (a) tatlı tahıllar önerilmiyor. (c) sadece kahve ve tost yok.",
+        "options": {}
+      },
+      {
+        "id": 7,
+        "question": "b - Açıklama: \"Wir essen meistens Haferflocken mit Joghurt und Früchten\" → Mika'nın kendi sözleri. (a) Cornflakes, annesinin söylediği ama Mika'nın yediği değil. (c) tam tahıllı ekmek Mika için yok.",
+        "options": {}
+      },
+      {
+        "id": 8,
+        "question": "b - Açıklama: \"Saft viel Zucker hat und er lieber ein ganzes Stück Obst essen soll\" → doktorun açıklaması, doğrudan metinden. (a) fiyat değil. (c) daha fazla vitamin konusu yok.",
+        "options": {}
+      },
+      {
+        "id": 9,
+        "question": "b - Açıklama: \"kann sich schlechter konzentrieren\" ve \"isst man mittags oft zu viel, weil man sehr hungrig ist\" → iki sonuç, doğrudan metinden. (a) uyuma metinde yok. (c) hasta olma metinde yok.",
+        "options": {}
+      },
+      {
+        "id": 10,
+        "question": "c - Açıklama: \"Naturjoghurt mit Früchten, ein Stück Obst... oder ein hartgekochtes Ei vom Vortag\" → hızlı seçenekler metinde. (a) hiç yememek, aksine önerilmiyor. (b) kafe metinde yok.",
+        "options": {}
       }
     ],
     "answers": {
       "6": "b",
       "7": "b",
-      "8": "a",
+      "8": "b",
       "9": "b",
-      "10": "b"
+      "10": "c"
     },
-    "explanations": {
-      "6": "Metnin ikinci paragrafında bu sistemlerin amacı \"Kostenersparnis und Ressourcenschonung\" ve \"den Energieverbrauch im Alltag automatisch zu optimieren\" olarak belirtilmiştir. Bu cümle b seçeneğini doğrudan doğrular.",
-      "7": "\"Jetzt steuert eine intelligente Software die Geräte automatisch... und fühle mich... sehr zufrieden, weil ich meine Energiekosten halbiert habe...\" Baris'in sistemi kullanması ve maliyetlerini düşürmesi b şıkkı ile birebir örtüşür.",
-      "8": "\"Die meisten Menschen wollen einfach nur den Lichtschalter drücken und sich nicht täglich mit Preisprognosen... beschäftigen... Für ihn bleibt die klassische... Verkabelung... die verlässlicher Methode...\" Torsten Lange'nin şüpheci olma nedeni a şıkkında doğru verilmiştir.",
-      "9": "\"Der unkontrollierte Massenverbrauch überlaste... die Stromnetze... Intelligentes Energiemanagement regt die Menschen dazu an, ihren Verbrauch aktiv an die Produktion von sauberer Energie anzupassen...\" Dr. Verena Kraft'ın net yükü ve temiz enerji uyumu hakkındaki görüşü b seçeneğini doğru cevap yapar.",
-      "10": "\"Experten empfehlen... klein anzufangen... oft reicht es schon... die Waschmaschine bei gutem Wetter am Nachmittag per Zeitschaltuhr zu starten oder einfache Energie-Apps... zu nutzen.\" Uzmanların küçük adımlarla başlama tavsiyesi b şıkkında özetlenmiştir."
-    }
+    "explanations": {}
   },
   {
     "id": "lese_2_9",
-    "title": "Aktive Freizeit – Warum Padel-Tennis in Großstädten boomt",
+    "title": "Mit dem Zug durch Deutschland — bequem und umweltfreundlich",
     "emoji": "🏸",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "Das Leben in modernen Städten ist oft von Hektik und Bewegungsmangel geprägt: Viele Menschen sitzen stundenlang im Büro am Schreibtisch, bewegen sich kaum und sind am Abend mental erschöpft. Dieser Mangel an Aktivität führt im Alltag häufig zu Stress und Rückenschmerzen. Doch gegen diese Probleme in der Freizeit etabliert sich eine dynamische Alternative: der Trendsport „Padel-Tennis“.\nLaut einer aktuellen Studie des Instituts für Sportwissenschaften in Europa entscheiden sich immer mehr junge Berufstätige bewusst für diesen schlägerbasierten Sport. Die Philosophie dahinter ist einfach: Spaß an der Bewegung und schnelle soziale Kontakte. Statt alleine auf dem Laufband zu trainieren, nutzen Sportbegeisterte die neuen Padel-Plätze in den Vierteln. Ziel ist es, die Koordination intensiv zu trainieren, den Alltagsstress nach der Arbeit schnell abzubauen und neue Freunde in einer entspannten Atmosphäre kennenzulernen.\nDie 28-jährige Ingenieurin Melis Özgül aus Berlin hat ihren Alltag dieses Jahr sportlich komplett umgestellt. Sie spielt jetzt dreimal pro Woche Padel-Tennis im lokalen Verein. „Früher war ich nach einem langen Tag im Büro oft müde und hatte Rückenschmerzen“, erzählt sie. Dieses Mal nutzt sie die Plätze in der Nachbarschaft gemeinsam mit Freunden. „Ich habe noch nie so schnell die Regeln einer Sportart gelernt. Man versteht das Spiel in wenigen Minuten, bewegt sich viel an der frischen Luft und fühlt sich im Beruf deutlich fitter“, sagt Melis. Der Verzicht auf das Sofa am Abend war für sie eine echte Bereicherung.\nEin wenig skeptischer sieht das der traditionelle Tennis-Trainer Torsten Lange (51). Er leitet eine klassische Tennisschule und glaubt, dass dieser neue Trend nur für eine bestimmte Zielgruppe eine schnelle Modeerscheinung bleibt. „Die meisten Menschen unterschätzen die richtige Technik. Wenn sie ohne professionelle Ausbildung sofort intensiv spielen, können sie sich leicht verletzen. Für eine echte sportliche Entwicklung bleibt das klassische Tennis mit intensivem Einzeltraining die bessere Methode“, gibt er zu bedenken. Für ihn ist der Trend zu unkomplizierten Funsportarten auf Dauer zu oberflächlich.\nDie Sportökonomin Dr. Verena Kraft betont jedoch, dass Padel-Tennis die Zukunft des urbanen Freizeitsports ist. Der Bewegungsmangel zerstöre an vielen Orten die Lebensqualität und belaste die Gesundheit der Bürger. „Padel-Tennis regt die Menschen dazu an, gemeinsam aktiv zu werden, da man immer zu viert spielt und das Spiel sehr sozial ist“, erklärt Kraft. Sie fordert, dass Städte mehr Geld in moderne Sportanlagen investieren, damit unkomplizierte Sportangebote für alle Bürger bezahlbar und komfortabel erreichbar werden.\nExperten empfehlen Personen, die Padel-Tennis im Alltag testen möchten, klein anzufangen. Man muss nicht sofort an großen Vereinsturnieren teilnehmen; oft reicht es schon, beim nächsten Wochenendausflug eine Stunde einen Platz mit Freunden zu mieten, ein paar Bälle zu schlagen oder kurze Trainingseinheiten spielerisch in den Alltag zu integrieren.",
+    "text": "Deutschland hat eines der dichtesten Schienennetze Europas.\nTäglich fahren Millionen Menschen mit dem Zug — zur Arbeit,\nin den Urlaub oder zu Freunden. Die Deutsche Bahn verbindet\nfast alle größeren Städte miteinander. Mit dem ICE,\ndem Intercity-Express, kann man zum Beispiel von Berlin\nnach München in weniger als vier Stunden fahren.\nDas Reisen mit dem Zug hat viele Vorteile. Man muss nicht\nselbst fahren und kann die Zeit nutzen: lesen, arbeiten\noder einfach die Landschaft genießen. Außerdem ist der\nZug umweltfreundlicher als das Auto oder das Flugzeug.\nLaut einer Studie verursacht eine Zugfahrt pro Person\nviermal weniger CO₂ als eine Autofahrt über die gleiche\nStrecke.\nBesonders beliebt ist das Deutschlandticket. Für 49 Euro\npro Monat kann man alle Busse, Straßenbahnen, U-Bahnen\nund Regionalzüge in ganz Deutschland nutzen. Das Ticket\nist günstig und einfach — man kauft es online und zeigt\nes auf dem Smartphone. Seit seiner Einführung haben\nMillionen Menschen vom Auto auf öffentliche Verkehrsmittel\numgestiegen.\nAber das Zugreisen hat auch Nachteile. Verspätungen\nund Zugausfälle sind ein bekanntes Problem der Deutschen\nBahn. Viele Pendler ärgern sich darüber. Besonders auf\nlangen Strecken können Verspätungen bedeuten, dass man\nAnschlusszüge verpasst. Die Deutsche Bahn arbeitet an\nder Verbesserung ihrer Pünktlichkeit — aber das braucht\nZeit und viel Geld.\nTrotzdem wächst die Zahl der Bahnreisenden. Immer mehr\nMenschen wählen den Zug, nicht nur wegen des Preises,\nsondern auch wegen der Umwelt. Besonders junge Menschen\nunter 30 nutzen die Bahn häufiger als frühere Generationen.\nDer Zug ist nicht immer pünktlich — aber er ist bequem,\ngünstig und gut für den Planeten.\nFRAGEN 6–10",
     "questions": [
       {
         "id": 6,
-        "question": "Was ist laut Text ein Hauptgrund, warum Padel-Tennis immer beliebter wird?",
+        "question": "Wie lange dauert eine Fahrt von Berlin nach München mit dem ICE laut Text?",
         "options": {
-          "a": "Weil man mit Padel-Tennis in möglichst kurzer Zeit sehr viel Geld direkt im Büro verdienen kann.",
-          "b": "Weil es die Koordination trainiert, Alltagsstress abbaut und schnelle soziale Kontakte fördert.",
-          "c": "Weil Sportvereine neuerdings komplett kostenlose Schläger an alle Bürger verschenken."
+          "a": "weniger als zwei Stunden",
+          "b": "weniger als vier Stunden",
+          "c": "ungefähr sechs Stunden"
         }
       },
       {
         "id": 7,
-        "question": "Melis Özgül aus Berlin",
+        "question": "Was kann man während einer Zugreise laut Text tun?",
         "options": {
-          "a": "hat mit dem Sport aufgehört, weil sie nach dem Padel-Tennis viel stärkere Rückenschmerzen hatte als vorher.",
-          "b": "spielt regelmäßig im Verein Padel-Tennis, fühlt sich dadurch körperlich fitter und lernt schnell die Regeln.",
-          "c": "hat eine klassische Tennisschule gegründet, um den Sport im Ausland bekannter zu machen."
+          "a": "lesen, arbeiten oder die Landschaft genießen",
+          "b": "kostenlos essen und trinken",
+          "c": "Filme auf einem Bildschirm sehen"
         }
       },
       {
         "id": 8,
-        "question": "Warum äußert sich der Trainer Torsten Lange skeptisch über den Padel-Tennis-Trend?",
+        "question": "Was ist das Deutschlandticket? Verkehrsmittel in Deutschland",
         "options": {
-          "a": "Weil er glaubt, dass sich Spieler ohne professionelles Training leicht verletzen können und klassisches Tennis besser ist.",
-          "b": "Weil das Spielen auf Sportplätzen in Berlin ab nächstem Monat komplett verboten wird.",
-          "c": "Weil er denkt, dass man Padel-Tennis nur alleine vor dem Fernseher spielen kann."
+          "a": "ein Ticket nur für ICE-Züge",
+          "b": "ein Ticket für 49 Euro pro Monat für alle öffentlichen",
+          "c": "ein Ticket für Touristen aus anderen Ländern"
         }
       },
       {
         "id": 9,
-        "question": "Was ist nach Ansicht von Dr. Verena Kraft ein Vorteil von Padel-Tennis für die Zukunft?",
+        "question": "Welches Problem nennt der Text bei der Deutschen Bahn?",
         "options": {
-          "a": "Es zwingt alle Menschen dazu, ihre Jobs sofort zu kündigen und nur noch in Sportvereinen zu leben.",
-          "b": "Es verbessert die Lebensqualität der Bürger, bekämpft Bewegungsmangel und fördert das gemeinsame, soziale Spielen.",
-          "c": "Es sorgt dafür, dass die Miete für Sportplätze in Zukunft in ganz Europa komplett kostenlos wird."
+          "a": "Die Züge sind zu laut und unbequem.",
+          "b": "Das Essen im Zug ist zu teuer.",
+          "c": "Verspätungen und Zugausfälle sind ein bekanntes Problem."
         }
       },
       {
         "id": 10,
-        "question": "Welchen Rat geben Experten am Ende des Textes Menschen, die Padel-Tennis testen möchten?",
+        "question": "Wer nutzt laut Text die Bahn besonders häufig?",
         "options": {
-          "a": "Sie sollten sofort ein intensives Profitraining für fünf Jahre buchen, um den Effekt zu maximieren.",
-          "b": "Es ist ratsam, klein anzufangen und zum Beispiel erst einmal eine Stunde einen Platz mit Freunden zu mieten.",
-          "c": "Man sollte Sportaktivitäten am besten komplett ohne die Unterstützung von Freunden oder der Familie planen."
+          "a": "vor allem ältere Menschen über 60",
+          "b": "besonders junge Menschen unter 30",
+          "c": "hauptsächlich Touristen aus dem Ausland"
         }
+      },
+      {
+        "id": 6,
+        "question": "b - Açıklama: \"in weniger als vier Stunden fahren\" → doğrudan metinden. (a) iki saat yanlış. (c) altı saat yok.",
+        "options": {}
+      },
+      {
+        "id": 7,
+        "question": "a - Açıklama: \"lesen, arbeiten oder einfach die Landschaft genießen\" → doğrudan metinden. (b) ücretsiz yemek metinde yok. (c) film ekranı yok.",
+        "options": {}
+      },
+      {
+        "id": 8,
+        "question": "b - Açıklama: \"Für 49 Euro pro Monat kann man alle Busse, Straßenbahnen, U-Bahnen und Regionalzüge in ganz Deutschland nutzen\" → doğrudan. (a) sadece ICE değil. (c) turistler için değil, genel.",
+        "options": {}
+      },
+      {
+        "id": 9,
+        "question": "c - Açıklama: \"Verspätungen und Zugausfälle sind ein bekanntes Problem der Deutschen Bahn\" → doğrudan metinden. (a) gürültü/rahatsızlık yok. (b) yemek fiyatı metinde yok.",
+        "options": {}
+      },
+      {
+        "id": 10,
+        "question": "b - Açıklama: \"Besonders junge Menschen unter 30 nutzen die Bahn häufiger als frühere Generationen\" → doğrudan metinden. (a) 60+ değil. (c) yabancı turistler değil.",
+        "options": {}
       }
     ],
     "answers": {
       "6": "b",
-      "7": "b",
-      "8": "a",
-      "9": "b",
+      "7": "a",
+      "8": "b",
+      "9": "c",
       "10": "b"
     },
-    "explanations": {
-      "6": "Metnin ikinci paragrafında bu sporun amaçları \"Koordination intensiv zu trainieren, den Alltagsstress nach der Arbeit schnell abzubauen und neue Freunde... kennenzulernen\" olarak açıkça belirtilmiştir. Bu cümle b seçeneğini doğrudan doğrular.",
-      "7": "\"Ich habe noch nie so schnell die Regeln... gelernt... bewegt sich viel... und fühlt sich im Beruf deutlich fitter...\" Melis'in bu sporu yapması ve kuralları kolayca öğrenip kendini fit hissetmesi b şıkkı ile tamamen örtüşür.",
-      "8": "\"Wenn sie ohne professionelles Training sofort intensiv spielen, können sie sich leicht verletzen. Für eine echte sportliche Entwicklung bleibt das klassische Tennis... die bessere Methode...\" Torsten Lange'nin şüpheci yaklaşımının nedeni a şıkkında doğru aktarılmıştır.",
-      "9": "\"Der Bewegungsmangel zerstöre... die Lebensqualität... Padel-Tennis regt die Menschen dazu an, gemeinsam aktiv zu werden, da man... spielt und das Spiel sehr sozial ist...\" Dr. Verena Kraft'ın sağlık ve sosyal etkiler hakkındaki görüşü b seçeneğini doğru cevap yapar.",
-      "10": "\"Experten empfehlen... klein anzufangen... oft reicht es schon, beim nächsten Wochenendausflug eine Stunde einen Platz zu mieten, mit Freunden ein paar Bälle zu schlagen...\" Uzmanların küçük adımlarla başlama tavsiyesi b şıkkında özetlenmiştir."
-    }
+    "explanations": {}
   },
   {
     "id": "lese_2_10",
-    "title": "Haustier-Vorsorge – Warum die richtige Pflege für ältere Hunde boomt",
+    "title": "Musik in der Kindheit — mehr als ein Hobby",
     "emoji": "🐶",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "Das Leben mit Haustieren in modernen Großstädten bringt viel Verantwortung mit sich: Wenn ein Hund älter wird, verändern sich seine Bedürfnisse im Alltag. Viele Besitzer bemerken oft erst spät, dass die gewohnte Ernährung oder die tägliche Routine nicht mehr optimal für die Gesundheit des Tieres sind. Ein falscher Speiseplan kann zu Übergewicht führen und die Gelenke stark belasten, was die Lebensqualität des Vierbeiners reduziert. Doch gegen diese Probleme im Alltag etabliert sich ein bewusster Trend: die spezielle Senior-Pflege für Hunde.\nLaut einer aktuellen Studie des Verbandes für Haustier-Gesundheit in Europa entscheiden sich immer mehr Besitzer bewusst für eine Anpassung der Pflege im Alter. Die Philosophie dahinter ist einfach: Lebensqualität verlängern und Krankheiten vorbeugen. Statt einfach das normale Futter weiterzugeben, nutzen informierte Tierhalter spezielle Ernährungspläne. Ziel ist es, das Gewicht des Hundes genau zu kontrollieren, den Alltagsstress für das Tier zu minimieren und den Körper mit den richtigen Nährstoffen fit zu halten.\nDer 26-jährige Energy Systems Engineer Baris Egemen Tokul aus Berlin hat den Alltag für seinen vierbeinigen Freund dieses Jahr komplett neu organisiert. Sein Hund, ein Jack Russell Terrier, ist mittlerweile 10 Jahre alt und wiegt genau 8 Kilo. „Früher habe ich mir weniger Gedanken über die genaue Kalorienmenge gemacht“, erzählt er. Dieses Mal änderte er nach Rücksprache mit Tierärzten den Speiseplan. „Da er im Alter weniger Energie verbraucht, bekommt er jetzt Futter mit weniger Kalorien, aber dafür mehr Proteinen und Vitaminen. Ich merke, dass er sich im Alltag viel besser bewegen kann und trotz seines Alters total fit und aktiv bleibt“, sagt Baris.\nEin wenig skeptischer sieht das der traditionelle Zoohändler Torsten Lange (51). Er betreibt ein großes, klassisches Geschäft für Tierbedarf und glaubt, dass dieser Trend zu extrem spezialisiertem Futter oft übertrieben ist. „Die meisten Hunde haben jahrhundertelang normales Futter gefressen und sind trotzdem alt geworden. Wenn die Besitzer ohne medizinischen Grund ständig die Ernährung wechseln oder teure Spezialprodukte kaufen, geben sie oft nur unnötig Geld aus“, gibt er zu bedenken. Für ihn bleibt einfaches, klassisches Hundefutter die verlässliche Methode für jeden Haushalt.\nDie Tierärztin Dr. Verena Kraft betont jedoch, dass eine altersgerechte Pflege die Zukunft der Haustier-Gesundheit ist. Falsche Ernährung zerstöre im Alter schnell die Gelenke der Tiere und belaste das Herz-Kreislauf-System. „Die richtige Vorsorge regt die Menschen dazu an, die Gesundheit ihres Hundes aktiv zu schützen, statt erst beim Auftreten schwerer Krankheiten zum Arzt zu gehen“, erklärt Kraft. Sie fordert, dass Städte mehr Informationsangebote bereitstellen, damit eine gesunde Pflege für alle Haustierbesitzer bezahlbar und einfach umsetzbar wird.\nExperten empfehlen Personen, die die Pflege ihres älteren Hundes optimieren möchten, klein anzufangen. Man muss nicht sofort den kompletten Alltag verändern; oft reicht es schon, beim nächsten Futterkauf genau auf die Proteine zu achten, das Gewicht einmal pro Woche zu kontrollieren oder die täglichen Spaziergänge in kürzere, aber regelmäßige Runden aufzuteilen.",
+    "text": "Viele Kinder lernen ein Musikinstrument. Ob Klavier, Gitarre\noder Flöte — Musik spielen ist beliebt. Laut einer Umfrage\nlernen rund 30 Prozent aller Kinder in Deutschland ein Instrument.\nEltern melden ihre Kinder oft in einer Musikschule an,\nweil sie wollen, dass ihre Kinder eine musikalische Ausbildung\nbekommen.\nAber warum ist Musik so wichtig? Forscher haben herausgefunden,\ndass Kinder, die ein Instrument spielen, in der Schule oft\nbessere Leistungen zeigen — besonders in Mathematik und Sprachen.\nMusik fördert das Denken, die Konzentration und das Gedächtnis.\nAußerdem lernen Kinder durch das gemeinsame Musizieren\nin einer Band oder einem Chor, wie man im Team arbeitet.\nDie achtjährige Sofie aus Köln spielt seit zwei Jahren Geige.\n„Am Anfang war es sehr schwer\", erzählt sie. „Die Geige\nhat einen komischen Klang gemacht und meine Mutter hat\nimmer die Tür zugemacht.\" Aber heute kann Sofie schon\nkleine Melodien spielen und nimmt an einem Schulkonzert teil.\nIhr Lehrer lobt sie für ihren Fleiß und ihre Geduld.\nNicht alle Kinder haben Freude an der Musik. Manche hören\nnach kurzer Zeit auf, weil ihnen das Üben zu langweilig ist\noder weil andere Hobbys wichtiger sind. Experten sagen,\ndass man Kinder nicht zwingen soll, ein Instrument zu spielen.\nEs ist wichtiger, dass das Kind selbst Lust dazu hat.\nWenn ein Kind ein Instrument aufgeben möchte, sollte man\nruhig mit ihm sprechen und gemeinsam eine Lösung finden.\nMusik ist nicht nur für Kinder wichtig. Auch Erwachsene\nprofitieren davon: Musik hören oder spielen reduziert Stress,\nmacht glücklich und hält das Gehirn aktiv. Viele Erwachsene,\ndie als Kind ein Instrument gelernt haben, fangen im Alter\nwieder damit an. Musik begleitet uns ein Leben lang —\nauch wenn wir zwischendurch eine Pause machen.\nFRAGEN 6–10",
     "questions": [
       {
         "id": 6,
-        "question": "Was ist laut Text ein Hauptgrund, warum die spezielle Pflege für ältere Hunde immer beliebter wird?",
+        "question": "Wie viele Kinder in Deutschland lernen laut Text ein Instrument?",
         "options": {
-          "a": "Weil man mit altersgerechtem Hundefutter in möglichst kurzer Zeit sehr viel Geld direkt im Büro verdienen kann.",
-          "b": "Weil sie die Lebensqualität verlängert, Krankheiten vorbeugt und das Gewicht des Tieres kontrolliert.",
-          "c": "Weil Tierarztpraxen neuerdings komplett kostenlose Rassehunde an alle Bürger verschenken."
+          "a": "fast alle Kinder",
+          "b": "rund 30 Prozent",
+          "c": "weniger als 10 Prozent"
         }
       },
       {
         "id": 7,
-        "question": "Baris Egemen Tokul aus Berlin",
+        "question": "Was haben Forscher über Kinder, die ein Instrument spielen, herausgefunden? Mathematik und Sprachen.",
         "options": {
-          "a": "hat seinen 10 Jahre alten Jack Russell Terrier abgegeben, weil die Pflege zu viel Zeit gekostet hat.",
-          "b": "hat den Ernährungsplan seines 8 Kilo schweren Hundes angepasst, damit das Tier trotz des Alters fit bleibt.",
-          "c": "hat ein neues, teures Pegasus-Fahrrad für die täglichen Spaziergänge mit seinem Hund gekauft."
+          "a": "Sie sind sportlicher als andere Kinder.",
+          "b": "Sie zeigen oft bessere Schulleistungen, besonders in",
+          "c": "Sie haben weniger Freunde als andere Kinder."
         }
       },
       {
         "id": 8,
-        "question": "Warum äußert sich der Händler Torsten Lange skeptisch über den Trend zu Spezialfutter?",
+        "question": "Was sagt Sofie über den Anfang des Geigenspiels?",
         "options": {
-          "a": "Weil er glaubt, dass normales Futter seit jeher ausreicht und Spezialprodukte oft nur unnötige Kosten verursachen.",
-          "b": "Weil das Halten von Jack Russell Terrier Hunden in Berlin ab nächstem Monat komplett verboten wird.",
-          "c": "Weil er denkt, dass ältere Hunde ab dem 10. Lebensjahr überhaupt kein Futter mehr brauchen."
+          "a": "Es hat sofort Spaß gemacht.",
+          "b": "Es war sehr schwer und die Geige klang komisch.",
+          "c": "Ihre Mutter hat ihr jeden Tag geholfen."
         }
       },
       {
         "id": 9,
-        "question": "Was ist nach Ansicht von Dr. Verena Kraft ein Vorteil von aktiver Haustier-Vorsorge für die Zukunft?",
+        "question": "Was empfehlen Experten, wenn ein Kind ein Instrument aufgeben möchte? eine Lösung finden.",
         "options": {
-          "a": "Sie zwingt alle Besitzer dazu, ihre Haustiere sofort im Tierheim abzugeben, um Kosten zu sparen.",
-          "b": "Sie schützt die Gesundheit und die Gelenke der Tiere vor den negativen Folgen falscher Ernährung.",
-          "c": "Sie sorgt dafür, dass die Medikamente beim Tierarzt in Zukunft für alle Menschen komplett kostenlos werden."
+          "a": "Das Kind soll unbedingt weitermachen.",
+          "b": "Man soll ruhig mit dem Kind sprechen und gemeinsam",
+          "c": "Man soll sofort ein anderes Instrument suchen."
         }
       },
       {
         "id": 10,
-        "question": "Welchen Rat geben Experten am Ende des Textes Menschen, die die Pflege ihres Hundes verbessern möchten?",
+        "question": "Was sagt der Text über Musik und Erwachsene? Gehirn aktiv.",
         "options": {
-          "a": "Sie sollten sofort eine vierwöchige Reise ins Ausland buchen und den Hund komplett alleine zu Hause lassen.",
-          "b": "Es ist ratsam, klein anzufangen, zum Beispiel das Gewicht wöchentlich zu kontrollieren oder auf Proteine zu achten.",
-          "c": "Man sollte die Pflegeaktivitäten am besten komplett ohne die Unterstützung von Tierärzten oder Apps planen."
+          "a": "Erwachsene brauchen keine Musik mehr.",
+          "b": "Musik ist für Erwachsene gefährlich.",
+          "c": "Musik reduziert Stress, macht glücklich und hält das"
         }
+      },
+      {
+        "id": 6,
+        "question": "b - Açıklama: \"rund 30 Prozent aller Kinder in Deutschland\" → doğrudan metinden. (a) neredeyse hepsi yanlış. (c) 10 yüzden az yanlış.",
+        "options": {}
+      },
+      {
+        "id": 7,
+        "question": "b - Açıklama: \"besonders in Mathematik und Sprachen\" ve \"bessere Leistungen zeigen\" → doğrudan metinden. (a) sportif metinde yok. (c) daha az arkadaş metinde yok.",
+        "options": {}
+      },
+      {
+        "id": 8,
+        "question": "b - Açıklama: \"Am Anfang war es sehr schwer... Die Geige hat einen komischen Klang gemacht\" → Sofie'nin kendi sözleri. (a) hemen eğlenceli değil. (c) annesi kapıyı kapıyordu, yardım etmiyordu.",
+        "options": {}
+      },
+      {
+        "id": 9,
+        "question": "b - Açıklama: \"sollte man ruhig mit ihm sprechen und gemeinsam eine Lösung finden\" → doğrudan metinden. (a) aksine, zorlamak önerilmiyor. (c) başka enstrüman arama metinde yok.",
+        "options": {}
+      },
+      {
+        "id": 10,
+        "question": "c - Açıklama: \"Musik hören oder spielen reduziert Stress, macht glücklich und hält das Gehirn aktiv\" → doğrudan son paragraftan. (a) aksine, yetişkinler de faydalanıyor. (b) tehlikeli metinde yok.",
+        "options": {}
       }
     ],
     "answers": {
       "6": "b",
       "7": "b",
-      "8": "a",
+      "8": "b",
       "9": "b",
-      "10": "b"
+      "10": "c"
     },
-    "explanations": {
-      "6": "Metnin ikinci paragrafında bu bakım eğiliminin amaçları \"Lebensqualität verlängern und Krankheiten vorbeugen\" ve \"das Gewicht des Hundes genau zu kontrollieren\" olarak açıkça ifade edilmiştir. Bu durum b seçeneğini doğrudan doğrular.",
-      "7": "\"Sein Hund, ein Jack Russell Terrier, ist mittlerweile 10 Jahre alt und wiegt genau 8 Kilo... bekommt er jetzt Futter mit weniger Kalorien, aber dafür mehr Proteinen... und bleibt total fit...\". Baris'in köpeğinin beslenmesini düzenlemesi b şıkkı ile tamamen örtüşür.",
-      "8": "\"Die meisten Hunde haben jahrhundertelang normales Futter gefressen... Wenn die Besitzer... teure Spezialprodukte kaufen, geben sie oft nur unnötig Geld aus...\" Torsten Lange'nin şüpheci yaklaşımının nedeni a şıkkında tam olarak aktarılmıştır.",
-      "9": "\"Falsche Ernährung zerstöre im Alter schnell die Gelenke... Die richtige Vorsorge regt die Menschen dazu an, die Gesundheit ihres Hundes aktiv zu schützen...\" Dr. Verena Kraft'ın eklem sağlığı ve önleyici bakım hakkındaki görüşü b seçeneğini doğru cevap yapar.",
-      "10": "\"Experten empfehlen... klein anzufangen... oft reicht es schon, beim nächsten Futterkauf genau auf die Proteine zu achten, das Gewicht einmal pro Woche zu kontrollieren...\". Uzmanların küçük adımlarla başlama tavsiyesi b şıkkında özetlenmiştir."
-    }
+    "explanations": {}
   },
   {
     "id": "lese_2_11",
-    "title": "Gemeinsam lernen – Warum strukturierte Studiengruppen boomen",
+    "title": "Der Flohmarkt — Einkaufen mit Geschichte",
     "emoji": "👥",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "Das Leben an modernen Universitäten und Business Schools ist oft von hohem Leistungsdruck geprägt: Viele Studierende müssen komplexe Fallstudien analysieren, Präsentationen vorbereiten und sich auf schwierige Prüfungen im Management-Bereich einstellen. Dieser Druck im Alltag führt bei vielen jungen Menschen zu Stress und Überforderung. Doch gegen diese Hürden im Studium etabliert sich eine effektive Alternative: das gemeinsame Lernen in strukturierten Studiengruppen.\nLaut einer aktuellen Studie des Instituts für Hochschuldidaktik in Europa entscheiden sich immer mehr internationale Studierende bewusst für das Lernen im Team. Die Philosophie dahinter ist einfach: Wissensaustausch und soziale Unterstützung. Statt alleine am Schreibtisch zu sitzen und Texte zu lesen, nutzen Studierende feste Lerngruppen an ihren akademischen Institutionen. Ziel ist es, schwierige theoretische Konzepte intensiv zu diskutieren, Präsentationen gemeinsam zu üben und sich gegenseitig für die Prüfungsphase zu motivieren.\nDer 26-jährige Master-Student Baris Egemen Tokul, der an der Berlin School of Business and Innovation (BSBI) Engineering Management studiert, hat seinen Studienalltag dieses Jahr komplett neu strukturiert. Er trifft sich nun dreimal pro Woche mit Kommilitonen in der Bibliothek. „Früher war ich vor großen Prüfungen oft sehr gestresst, weil ich versucht habe, alle quantitativen Modelle und Datenanalysen alleine zu verstehen“, erzählt er. Dieses Mal bereitet er die Themen gemeinsam in der Gruppe vor. „Wir diskutieren die Aufgaben auf Englisch, erklären uns gegenseitig schwierige Software-Tools und fühlen uns dadurch viel besser vorbereitet“, sagt Baris. Der Verzicht auf das einsame Lernen am Abend war für ihn eine Bereicherung.\nEin wenig skeptischer sieht das der traditionelle Dozent Torsten Lange (51). Er unterrichtet seit vielen Jahren und glaubt, dass dieser Trend zu großen Studiengruppen oft ineffizient ist. „Die meisten Studierenden verlieren in Gruppen ohne klare Leitung schnell den Fokus. Wenn sie sich ohne feste Agenda treffen, reden sie oft über private Dinge statt über den Lehrstoff ve verschwenden wertvolle Zeit“, gibt er zu bedenken. Für ihn bleibt das fokussierte Einzelstudium in der Bibliothek die verlässlichere Methode für eine erfolgreiche akademische Ausbildung.\nDie Bildungswissenschaftlerin Dr. Verena Kraft betont jedoch, dass strukturierte Studiengruppen die Zukunft des modernen Lernens sind. Das einsame Lernen führe an vielen Orten zu einer sozialen Isolation der Studierenden und mindere die Qualität der Ergebnisse. „Gemeinsames Lernen regt die Studierenden dazu an, Management-Entscheidungen aus verschiedenen Perspektiven zu betrachten, da internationale Gruppen sehr unterschiedliche Erfahrungen mitbringen“, erklärt Kraft. Sie fordert, dass Hochschulen mehr moderne Arbeitsräume bereitstellen, damit das kollaborative Lernen für alle Studierenden komfortabel und produktiv wird.\nExperten empfehlen Personen, die das Lernen in einer Studiengruppe ausprobieren möchten, klein anzufangen. Man muss nicht sofort eine große Gruppe für ein ganzes Semester gründen; oft reicht es schon, sich vor der nächsten Präsentation für eine Stunde mit einem Kommilitonen zu treffen, eine spezifische Fallstudie gemeinsam durchzusprechen oder einfache Lern-Apps zur Koordination der Termine zu nutzen.",
+    "text": "Ein Flohmarkt ist ein Markt, auf dem Menschen alte oder\ngebrauchte Dinge verkaufen. Kleidung, Bücher, Geschirr,\nMöbel, Spielzeug — fast alles kann man auf einem Flohmarkt\nfinden. In Deutschland gibt es Flohmärkte fast in jeder\nStadt, oft am Wochenende auf großen Plätzen oder in\nParkhäusern. Manche Flohmärkte finden auch drinnen statt.\nWer auf einem Flohmarkt einkauft, kann viel Geld sparen.\nEin Buch, das neu 20 Euro kostet, bekommt man manchmal\nfür 50 Cent. Auch alte Möbel oder Dekorationsgegenstände\nsind oft sehr günstig. Viele Menschen lieben Flohmärkte,\nweil sie dort einzigartige Dinge finden, die es im normalen\nLaden nicht mehr gibt.\nDie 35-jährige Petra aus Berlin geht jeden Samstag auf\nden Flohmarkt am Mauerpark. „Ich habe schon so viele tolle\nSachen gefunden\", sagt sie. „Letzte Woche habe ich eine\nalte Kamera für zehn Euro gekauft — sie funktioniert\nnoch perfekt.\" Petra verkauft auch selbst auf dem Flohmarkt:\nKleidung, die sie nicht mehr trägt, und Bücher, die sie\nschon gelesen hat.\nFlohmärkte sind aber nicht nur zum Geldsparen da.\nSie sind auch ein sozialer Treffpunkt. Man begegnet\ninteressanten Menschen, hört Geschichten hinter alten\nGegenständen und verbringt einen schönen Morgen im Freien.\nViele Flohmärkte haben auch Stände mit Streetfood und Musik,\nwas die Atmosphäre noch angenehmer macht.\nUmweltbewusste Menschen schätzen Flohmärkte besonders.\nWer gebrauchte Dinge kauft, reduziert den Müll und schont\ndie Umwelt. Statt etwas Neues zu produzieren, bekommt\nein altes Objekt ein neues Leben. Experten nennen das\n„Upcycling\" oder „Secondhand-Kultur\". Diese Bewegung\nwächst — besonders unter jungen Menschen, die nachhaltig\nleben möchten.\nFRAGEN 6–10",
     "questions": [
       {
         "id": 6,
-        "question": "Was ist laut Text ein Hauptgrund, warum strukturierte Studiengruppen immer beliebter werden?",
+        "question": "Was kann man auf einem Flohmarkt laut Text finden?",
         "options": {
-          "a": "Weil man in Studiengruppen in möglichst kurzer Zeit sehr viel Geld direkt im Büro verdienen kann.",
-          "b": "Weil sie den Wissensaustausch fördern, theoretische Konzepte klären und soziale Unterstützung bieten.",
-          "c": "Weil Universitäten neuerdings komplett kostenlose Lehrbücher an alle Gruppen verschenken."
+          "a": "nur Kleidung und Schuhe",
+          "b": "fast alles: Kleidung, Bücher, Geschirr, Möbel, Spielzeug",
+          "c": "nur neue Produkte zu günstigen Preisen"
         }
       },
       {
         "id": 7,
-        "question": "Baris Egemen Tokul aus Berlin",
+        "question": "Warum kauft Petra laut Text auf dem Flohmarkt?",
         "options": {
-          "a": "hat sein Studium an der BSBI abgebrochen, weil das Lernen in der Gruppe zu viel Zeit gekostet hat.",
-          "b": "lernt gemeinsam mit Kommilitonen an der BSBI, diskutiert Themen auf Englisch und fühlt sich besser vorbereitet.",
-          "c": "hat ein neues, teures Büro im Zentrum von Berlin gemietet, um dort alleine für Prüfungen zu lernen."
+          "a": "weil Supermärkte in ihrer Nähe zu teuer sind",
+          "b": "weil sie tolle und günstige Sachen findet",
+          "c": "weil sie keine Zeit hat, in Geschäfte zu gehen"
         }
       },
       {
         "id": 8,
-        "question": "Warum äußert sich der Dozent Torsten Lange skeptisch über den Trend zu Studiengruppen?",
+        "question": "Was macht Petra außerdem auf dem Flohmarkt?",
         "options": {
-          "a": "Weil er glaubt, dass Studierende in Gruppen ohne klare Struktur schnell den Fokus verlieren und Zeit verschwenden.",
-          "b": "Weil das Lernen in universitären Bibliotheken in ganz Deutschland ab nächstem Monat komplett verboten wird.",
-          "c": "Weil er denkt, dass internationale Studierende überhaupt keine Prüfungen schreiben müssen."
+          "a": "Sie arbeitet dort als Verkäuferin.",
+          "b": "Sie verkauft Kleidung und Bücher, die sie nicht mehr braucht.",
+          "c": "Sie fotografiert die Stände für ihr Blog."
         }
       },
       {
         "id": 9,
-        "question": "Was ist nach Ansicht von Dr. Verena Kraft ein Vorteil von internationalen Studiengruppen für die Zukunft?",
+        "question": "Was macht die Atmosphäre auf Flohmärkten laut Text angenehmer?",
         "options": {
-          "a": "Sie zwingen alle Studierenden dazu, ihre Studiengänge sofort zu kündigen und nur noch zu Hause zu bleiben.",
-          "b": "Sie fördern die Betrachtung von Management-Entscheidungen aus verschiedenen, vielfältigen Perspektiven.",
-          "c": "Sie sorgen dafür, dass die Noten in allen Prüfungen in Zukunft automatisch komplett perfekt werden."
+          "a": "günstige Preise für alle Produkte",
+          "b": "Stände mit Streetfood und Musik",
+          "c": "kostenloser Eintritt für alle"
         }
       },
       {
         "id": 10,
-        "question": "Welchen Rat geben Experten am Ende des Textes Menschen, die das Lernen im Team testen möchten?",
+        "question": "Warum schätzen umweltbewusste Menschen Flohmärkte? und die Umwelt schont",
         "options": {
-          "a": "Sie sollten sofort eine große Gruppe für fünf Jahre gründen und alle Termine ohne Apps planen.",
-          "b": "Es ist ratsam, klein anzufangen, zum Beispiel sich für eine Stunde vor einer Präsentation mit einem Kommilitonen zu treffen.",
-          "c": "Man sollte die Vorbereitung auf Prüfungen am besten komplett ohne die Unterstützung von Büchern planen."
+          "a": "weil die Produkte frisch und sauber sind",
+          "b": "weil der Eintritt immer kostenlos ist",
+          "c": "weil man durch den Kauf gebrauchter Dinge Müll reduziert"
         }
+      },
+      {
+        "id": 6,
+        "question": "b - Açıklama: \"Kleidung, Bücher, Geschirr, Möbel, Spielzeug — fast alles\" → doğrudan metinden. (a) sadece giysi değil. (c) yeni ürünler değil.",
+        "options": {}
+      },
+      {
+        "id": 7,
+        "question": "b - Açıklama: \"Ich habe schon so viele tolle Sachen gefunden\" ve ucuz kamera örneği → bağlamdan. (a) süpermarket fiyatları metinde yok. (c) zaman sorunu metinde yok.",
+        "options": {}
+      },
+      {
+        "id": 8,
+        "question": "b - Açıklama: \"Petra verkauft auch selbst auf dem Flohmarkt: Kleidung... und Bücher, die sie schon gelesen hat\" → doğrudan metinden. (a) profesyonel satıcı değil. (c) blog metinde yok.",
+        "options": {}
+      },
+      {
+        "id": 9,
+        "question": "b - Açıklama: \"Viele Flohmärkte haben auch Stände mit Streetfood und Musik, was die Atmosphäre noch angenehmer macht\" → doğrudan. (a) ucuz fiyatlar var ama atmosfer sorusu bu. (c) ücretsiz giriş metinde yok.",
+        "options": {}
+      },
+      {
+        "id": 10,
+        "question": "c - Açıklama: \"Wer gebrauchte Dinge kauft, reduziert den Müll und schont die Umwelt\" → doğrudan son paragraftan. (a) taze/temiz ürün yok. (b) ücretsiz giriş metinde yok.",
+        "options": {}
       }
     ],
     "answers": {
       "6": "b",
       "7": "b",
-      "8": "a",
+      "8": "b",
       "9": "b",
-      "10": "b"
+      "10": "c"
     },
-    "explanations": {
-      "6": "Metnin ikinci paragrafında bu grupların amacı \"Wissensaustausch und soziale Unterstützung\" ve \"schwierige theoretische Konzepte intensiv zu diskutieren\" olarak belirtilmiştir. Bu cümle b seçeneğindeki faydaları doğrudan doğrular.",
-      "7": "\"Der 26-jährige Master-Student Baris Egemen Tokul, der an der... (BSBI) Engineering Management studiert... Wir diskutieren die Aufgaben auf Englisch... und fühlen uns dadurch viel besser vorbereitet...\". Baris'in gruptaki çalışma rutini b şıkkı ile tamamen örtüşür.",
-      "8": "\"Die meisten Studierenden verlieren in Gruppen ohne klare Leitung schnell den Fokus... und verschwenden wertvolle Zeit...\" Torsten Lange'nin şüpheci yaklaşımının nedeni a şıkkında tam olarak aktarılmıştır.",
-      "9": "\"Gemeinsames Lernen regt die Studierenden dazu an, Management-Entscheidungen aus verschiedenen Perspektiven zu betrachten...\" Dr. Verena Kraft'ın uluslararası grupların perspektif zenginliği hakkındaki görüşü b seçeneğini doğru cevap yapar.",
-      "10": "\"Experten empfehlen... klein anzufangen... oft reicht es schon, sich vor der nächsten Präsentation für eine Stunde mit einem Kommilitonen zu treffen...\". Uzmanların küçük adımlarla başlama tavsiyesi b şıkkında özetlenmiştir."
-    }
+    "explanations": {}
   },
   {
     "id": "lese_2_12",
-    "title": "Zweites Leben für Fahrräder – Warum Fahrrad-Flipping boomt",
+    "title": "Schwimmen — eine Fähigkeit fürs Leben",
     "emoji": "⚙️",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "Das Leben in modernen Großstädten ist teuer, und die Mobilität spielt eine zentrale Rolle im Alltag. Viele Menschen suchen nach umweltfreundlichen Transportmitteln, um flexibel zur Arbeit oder zur Universität zu kommen. Doch neue Fahrräder im Fachgeschäft kosten oft mehrere Hundert Euro. Das führt dazu, dass immer mehr Menschen auf den Second-Hand-Markt ausweichen. Gegen die hohen Preise im Laden etabliert sich ein neuer, nachhaltiger Trend: das sogenannte „Fahrrad-Flipping“ – gebrauchte Fahrräder günstig kaufen, selbst reparieren und fit weiterverkaufen.\nLaut einer aktuellen Studie des Instituts für urbanen Konsum in Europa entscheiden sich immer mehr junge Menschen und handwerklich begeisterte Bürger bewusst für das Recycling von alten Rädern. Die Philosophie dahinter ist einfach: Nachhaltigkeit, technisches Lernen und Kostenersparnis. Statt alte Dinge wegzuwerfen, nutzen die Menschen lokale Plattformen, um gebrauchte Trekkingräder oder Stadträder zu erwerben. Ziel ist es, die Mechanik intensiv zu verstehen, die Lebensdauer von Gegenständen zu verlängern und der Wegwerfkultur in Großstädten aktiv entgegenzuwirken.\nDie 28-jährige Ingenieurin Melis Özgül aus Berlin hat dieses Jahr ein interessantes Projekt in ihrer Freizeit gestartet. Sie hat auf einem Online-Marktplatz ein altes, reparaturbedürftiges Pegasus-Trekkingrad für nur 70 Euro gekauft. „Früher dachte ich immer, ich muss bei jedem kleinen Defekt sofort in eine teure Werkstatt gehen“, erzählt sie. Dieses Mal kaufte sie das Rad bewusst als DIY-Projekt. Sie brachte das Fahrrad nach Hause, überprüfte die Bremsen, reinigte die Kette und reparierte die kaputte Lichtanlage komplett selbst mit eigenem Werkzeug. „Ich habe viel über die Technik gelernt, das Fahrrad erfolgreich wieder fit gemacht und fühle mich nach der Arbeit im Büro sehr glücklich, wenn ich ein praktisches Ergebnis sehe“, sagt Melis. \nEin wenig skeptischer sieht das der traditionelle Fahrradhändler Torsten Lange (51). Er betreibt ein großes, klassisches Fahrradgeschäft im Zentrum und glaubt, dass dieser DIY-Trend auf dem Gebrauchtmarkt nur für eine kleine Zielgruppe funktioniert. „Die meisten modernen Fahrräder und E-Bikes haben sehr komplizierte Komponenten. Wenn die Bürger ohne professionelle Ausbildung an den Bremsen oder der Elektronik basteln, kann das im Straßenverkehr gefährlich werden“, gibt er zu bedenken. Für ihn bleibt der Kauf eines geprüften Fahrrads mit Garantie aus dem Fachhandel die sicherere Methode für den Alltagsverkehr.\nDie Verkehrsökonomin Dr. Verena Kraft betont jedoch, dass das Reparieren und Weiterverkaufen von Fahrrädern die Zukunft der nachhaltigen urbanen Mobilität ist. Der Massenkonsum von billigen Neuwaren belaste die Umwelt und verbrauche zu viele Ressourcen. „Das Fahrrad-Flipping regt die Menschen dazu an, den Wert von alten Gegenständen neu zu entdecken, statt funktionstüchtige Rahmen einfach auf dem Müll zu entsorgen“, erklärt Kraft. Sie fordert, dass Städte mehr offene Werkstätten und Reparatur-Cafés im Stadtzentrum fördern, damit handwerkliche Projekte für alle Bürger bezahlbar und unkompliziert zugänglich werden.\nExperten empfehlen Personen, die das Reparieren von Fahrrädern im Alltag testen möchten, klein anzufangen. Man muss nicht sofort ein komplett kaputtes Rennrad restaurieren; oft reicht es schon, beim eigenen Fahrrad eine kleine Schraube festzuziehen, den Luftdruck regelmäßig zu kontrollieren oder einfache Video-Anleitungen im Internet Schritt für Schritt an der eigenen Fahrradkette auszuprobieren.",
+    "text": "Schwimmen ist eine der wichtigsten Fähigkeiten, die ein Mensch\nlernen kann. Es rettet Leben: Wer nicht schwimmen kann, ist\nin der Nähe von Wasser in Gefahr. In Deutschland lernen die\nmeisten Kinder in der Schule schwimmen — meistens in der\ndritten oder vierten Klasse. Doch nicht alle Kinder schaffen\nes, einen Schwimmkurs zu bestehen.\nLaut einer Studie des DLRG — der Deutschen Lebens-Rettungs-\nGesellschaft — kann etwa jedes dritte Kind in Deutschland\nnicht sicher schwimmen. Das bedeutet: Sie können sich vielleicht\nkurz über Wasser halten, aber sind kein sicherer Schwimmer.\nDas ist gefährlich, besonders im Urlaub am Meer oder an\neinem See.\nDer zehnjährige Max aus München hat in der Schule das\nSchwimmen gelernt. „Am Anfang hatte ich Angst vor dem\ntiefen Wasser\", erzählt er. „Aber unser Lehrer war sehr\ngeduldig und hat uns langsam an das Wasser gewöhnt.\"\nNach dem Kurs hat Max das Seepferdchen-Abzeichen bestanden —\nden ersten Schwimmschein in Deutschland. Seine Eltern waren\nsehr stolz auf ihn.\nNicht alle Schulen haben ein Schwimmbad in der Nähe.\nDas ist ein großes Problem. Wenn Schulen weit vom nächsten\nHallenbad entfernt sind, fällt der Schwimmunterricht oft aus.\nAußerdem schließen in Deutschland immer mehr Schwimmbäder,\nweil sie zu teuer im Betrieb sind. Experten fordern deshalb,\nmehr Geld in den Bau und die Erhaltung von Schwimmbädern\nzu investieren.\nEltern können viel dazu beitragen, dass ihre Kinder schwimmen\nlernen. Wer mit dem Kind regelmäßig ins Schwimmbad geht,\nhilft ihm, sicherer im Wasser zu werden. Außerdem gibt es\nprivate Schwimmkurse, die man auch außerhalb der Schule\nbelegen kann. Das Wichtigste ist: Kinder sollten so früh\nwie möglich ans Wasser gewöhnt werden — am besten schon\nals Kleinkind.\nFRAGEN 6–10",
     "questions": [
       {
         "id": 6,
-        "question": "Was ist laut Text ein Hauptgrund, warum das Reparieren und Weiterverkaufen von Fahrrädern immer beliebter wird?",
+        "question": "Wann lernen die meisten Kinder in Deutschland laut Text schwimmen?",
         "options": {
-          "a": "Weil man mit gebrauchten Fahrrädern in möglichst kurzer Zeit sehr viel Geld direkt im Büro verdienen kann.",
-          "b": "Weil es Nachhaltigkeit fördert, technisches Lernen ermöglicht und eine preiswerte Alternative zu teuren Neurädern ist.",
-          "c": "Weil Fahrradgeschäfte neuerdings komplett kostenlose Pegasus-Räder an alle Bürger verschenken."
+          "a": "schon im Kindergarten",
+          "b": "meistens in der dritten oder vierten Klasse",
+          "c": "erst in der Oberschule"
         }
       },
       {
         "id": 7,
-        "question": "Melis Özgül aus Berlin",
+        "question": "Was sagt die DLRG-Studie über Kinder in Deutschland?",
         "options": {
-          "a": "hat ihr neues Pegasus-Fahrrad in die teure Werkstatt von Torsten Lange gebracht, weil die Reparatur zu schwer war.",
-          "b": "hat ein gebrauchtes Trekkingrad für 70 Euro gekauft, die Bremsen und das Licht selbst repariert und fühlt sich dabei glücklich.",
-          "c": "hat ihr funktionierendes Auto auf dem Müll entsorgt, weil sie keine Reifen wechseln wollte."
+          "a": "Fast alle Kinder können gut schwimmen.",
+          "b": "Etwa jedes dritte Kind kann nicht sicher schwimmen.",
+          "c": "Nur Kinder in Bayern können nicht schwimmen."
         }
       },
       {
         "id": 8,
-        "question": "Warum äußert sich der Händler Torsten Lange skeptisch über den DIY-Trend auf dem Gebrauchtmarkt?",
+        "question": "Was ist das Seepferdchen-Abzeichen laut Text?",
         "options": {
-          "a": "Weil er glaubt, dass Reparaturen ohne professionelle Ausbildung an komplizierten Komponenten im Verkehr gefährlich sein können.",
-          "b": "Weil das Fahren mit Trekkingrädern der Marke Pegasus in Berlin ab nächstem Monat komplett verboten wird.",
-          "c": "Weil er denkt, dass gebrauchte Fahrräder auf Online-Marktplätzen in Zukunft komplett kostenlos sein werden."
+          "a": "ein Preis für den besten Schwimmer der Klasse",
+          "b": "der erste Schwimmschein in Deutschland",
+          "c": "ein Abzeichen für Erwachsene"
         }
       },
       {
         "id": 9,
-        "question": "Was ist nach Ansicht von Dr. Verena Kraft ein Vorteil von Fahrrad-Flipping für die Zukunft?",
+        "question": "Warum fällt der Schwimmunterricht an manchen Schulen laut Text aus? und viele Bäder schließen",
         "options": {
-          "a": "Es zwingt alle Bürger dazu, in ihrem Alltag überhaupt keine Fahrräder oder Busse mehr zu benutzen.",
-          "b": "Es schützt die Umwelt vor den Folgen des Massenkonsums und zeigt den Menschen den Wert von alten Gegenständen.",
-          "c": "Es sorgt dafür, dass Reparatur-Cafés im Stadtzentrum automatisch alle Autos komplett durch E-Bikes ersetzen."
+          "a": "weil die Lehrer nicht schwimmen können",
+          "b": "weil die Kinder keine Lust haben zu schwimmen",
+          "c": "weil Schulen weit vom nächsten Schwimmbad entfernt sind"
         }
       },
       {
         "id": 10,
-        "question": "Welchen Rat geben Experten am Ende des Textes Menschen, die das Reparieren ausprobieren möchten?",
+        "question": "Was empfiehlt der Text, damit Kinder sicherer im Wasser werden? gehen und Kinder früh ans Wasser gewöhnen.",
         "options": {
-          "a": "Sie sollten sofort ein teures Rennrad kaufen und die komplette Elektronik ohne Werkzeug umbauen.",
-          "b": "Es ist ratsam, klein anzufangen, zum Beispiel den Luftdruck zu kontrollieren oder eine kleine Schraube festzuziehen.",
-          "c": "Man sollte handwerkliche Projekte am besten komplett ohne die Unterstützung von Videos oder Anleitungen planen."
+          "a": "Kinder sollten jeden Tag ins Meer gehen.",
+          "b": "Eltern sollten regelmäßig mit dem Kind ins Schwimmbad",
+          "c": "Kinder sollten erst ab zwölf Jahren schwimmen lernen."
         }
+      },
+      {
+        "id": 6,
+        "question": "b - Açıklama: \"meistens in der dritten oder vierten Klasse\" → doğrudan metinden. (a) anaokulu değil. (c) lise değil.",
+        "options": {}
+      },
+      {
+        "id": 7,
+        "question": "b - Açıklama: \"etwa jedes dritte Kind in Deutschland kann nicht sicher schwimmen\" → doğrudan metinden. (a) yanlış, aksine endişe var. (c) sadece Bavyera değil.",
+        "options": {}
+      },
+      {
+        "id": 8,
+        "question": "b - Açıklama: \"das Seepferdchen-Abzeichen bestanden — den ersten Schwimmschein in Deutschland\" → doğrudan metinden. (a) en iyi yüzücü değil. (c) yetişkinler için değil.",
+        "options": {}
+      },
+      {
+        "id": 9,
+        "question": "c - Açıklama: \"weit vom nächsten Hallenbad entfernt\" ve \"immer mehr Schwimmbäder... schließen\" → her ikisi de metinde. (a) öğretmen yok. (b) isteksizlik metinde yok.",
+        "options": {}
+      },
+      {
+        "id": 10,
+        "question": "b - Açıklama: \"regelmäßig ins Schwimmbad geht\" ve \"so früh wie möglich ans Wasser gewöhnt werden\" → doğrudan son paragraftan. (a) her gün denize gitme yok. (c) 12 yaş metinde yok.",
+        "options": {}
       }
     ],
     "answers": {
       "6": "b",
       "7": "b",
-      "8": "a",
-      "9": "b",
+      "8": "b",
+      "9": "c",
       "10": "b"
     },
-    "explanations": {
-      "6": "Metnin ikinci paragrafında bu eğilimin amaçları \"Nachhaltigkeit, technisches Lernen und Kostenersparnis\" olarak açıkça ifade edilmiştir. Bu durum b seçeneğindeki faydaları doğrudan doğrular.",
-      "7": "\"Sie hat... ein altes... Pegasus-Trekkingrad für nur 70 Euro gekauft... überprüfte die Bremsen... und reparierte die kaputte Lichtanlage komplett selbst... und fühlt sich nach der Arbeit im Büro sehr glücklich...\". Melis'in bisikleti ucuza alıp kendisinin tamir etmesi b şıkkı ile tamamen örtüşür.",
-      "8": "\"Wenn die Bürger ohne professionelle Ausbildung an den Bremsen... basteln, kann das im Straßenverkehr gefährlich werden...\" Torsten Lange'nin şüpheci yaklaşımının nedeni a şıkkında doğru aktarılmıştır.",
-      "9": "\"Massenkonsum... belaste die Umwelt... Das Fahrrad-Flipping regt die Menschen dazu an, den Wert von alten Gegenständen neu zu entdecken...\". Dr. Verena Kraft'ın sürdürülebilir tüketim ve çevre koruma hakkındaki görüşü b seçeneğini doğru cevap yapar.",
-      "10": "\"Experten empfehlen... klein anzufangen... oft reicht es schon... eine kleine Schraube festzuziehen, den Luftdruck regelmäßig zu kontrollieren...\". Uzmanların küçük adımlarla başlama tavsiyesi b şıkkında özetlenmiştir."
-    }
+    "explanations": {}
   }
 ];
 const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
@@ -1415,78 +1835,50 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
-      "11": "Sie möchten am Samstagabend mit Ihrer Partnerin Melis indisch essen gehen, am liebsten direkt im Stadtzentrum von Berlin.",
-      "12": "Ihr Cousin sucht für den Sommerurlaub eine gemütliche Ferienwohnung in den Bergen für vier Personen, wo sie auch selbst kochen können.",
-      "13": "Die Tochter Ihrer Nachbarin möchte ein kurzes, zweiwöchiges Praktikum in einer Autowerkstatt machen, um erste Erfahrungen im Handwerk zu sammeln.",
-      "14": "Ihr Bekannter plant, ein kleines Café zu eröffnen, und sucht jemanden, der das Logo und die Speisekarten professionell gestaltet.",
-      "15": "Ihre Kollegin möchte einen Spanischkurs für Anfänger besuchen, hat aber nur am Wochenende Zeit, da sie unter der Woche lange arbeitet.",
-      "16": "Ihr Bruder Baris arbeitet im Energiesektor, hat bereits B2-Deutschkenntnisse und möchte lernen, wie man professionelle Präsentationen auf Deutsch hält.",
-      "17": "Sie suchen für Sonntagmittag ein Restaurant mit traditioneller deutscher Küche für ein Familienessen mit den Großeltern.",
-      "18": "Ihre Schwester klagt seit Tagen über starke Rückenschmerzen und sucht eine Praxis für Physiotherapie mit Terminen am späten Abend.",
-      "19": "Ihr Freund studiert Informatik und sucht für die vorlesungsfreie Zeit im Spätsommer ein bezahltes Praktikum im Bereich App-Entwicklung.",
-      "20": "Die Mutter Ihres Freundes möchte lernen, wie man ein Smartphone richtig bedient, und sucht einen Einsteigerkurs am Vormittag."
+      "11": "Sie möchten am Wochenende mit Ihrem Kind eine Aktivität machen. Ihr Kind liebt Tiere und ist sechs Jahre alt.",
+      "12": "Ihr Freund sucht eine günstige Unterkunft für eine Nacht in München. Er reist alleine und hat kein Auto.",
+      "13": "Ihre Mutter möchte abnehmen und sucht einen Kurs, der ihr beim gesunden Essen hilft. Sie hat abends Zeit.",
+      "14": "Sie suchen einen Job für den Sommer. Sie sprechen gut Englisch und arbeiten gerne mit Menschen zusammen.",
+      "15": "Ihr Nachbar möchte Gitarre spielen lernen. Er ist Anfänger und hat am Wochenende Zeit.",
+      "16": "Sie brauchen ein Geschenk für Ihre beste Freundin, die nächste Woche Geburtstag hat. Sie mag Blumen sehr gerne.",
+      "17": "Ihre Kollegin sucht einen Babysitter für ihren dreijährigen Sohn. Sie braucht jemanden für Dienstag- und Donnerstagabend.",
+      "18": "Sie möchten im Sommer Deutsch lernen. Sie sind Anfänger und haben tagsüber Zeit.",
+      "19": "Ihr Bruder sucht ein gebrauchtes Fahrrad. Er hat ein Budget von maximal 150 Euro.",
+      "20": "Sie und Ihr Partner möchten am Samstag in einem schönen Restaurant zu Abend essen. Sie mögen italienisches Essen."
     },
     "ads": {
       "a": {
-        "title": "Chili & Chutney – Indische Spezialitäten",
-        "body": "Erleben Sie die Vielfalt der indischen Küche mitten in der Altstadt! Wir bieten traditionelle Currys, Tandoori-Gerichte und eine große Auswahl an vegetarischen Speisen.\nÖffnungszeiten: Di.–So. 12:00–15:00 Uhr und 18:00–23:00 Uhr. Montag Ruhetag.\nReservierungen online oder unter Tel. 030-22 33 44. Friedrichstraße 12, Berlin."
+        "title": "TIERPARK WALDHEIM",
+        "body": "Familienspaß für Groß und Klein!\nEntdecken Sie über 200 Tierarten auf 15 Hektar.\nStreichelzoo für Kinder ab 3 Jahren.\nFührungen für Schulklassen und Familien täglich um 11 und 14 Uhr.\nÖffnungszeiten: täglich 9:00–18:00 Uhr\nEintritt: Erwachsene 12 €, Kinder (3–12 Jahre) 6 €, unter 3 kostenlos.\nParkplätze vorhanden. Busverbindung vom Hauptbahnhof (Linie 7)."
       },
       "b": {
-        "title": "Ferienhaus Alpenglück",
-        "body": "Verbringen Sie Ihren Sommerurlaub im wunderschönen Allgäu! Unser modern eingerichtetes Ferienhaus bietet Platz für bis zu 6 Personen. Große Wohnküche zur Selbstversorgung, Balkon mit Bergblick, Garten mit Grillplatz.\nVermietung: Mai bis Oktober. Mindestaufenthalt: 7 Nächte.\nKontakt: info@alpenglueck-ferien.de, Tel. 08321-99 88 77."
+        "title": "RISTORANTE BELLA NAPOLI",
+        "body": "Authentische italienische Küche im Herzen der Stadt\nGenießen Sie echte neapolitanische Pizza, frische Pasta und\nhausgemachtes Tiramisu. Romantische Atmosphäre, freundliches Personal.\nGeöffnet: Di–So, 12:00–23:00 Uhr (Küche bis 22:00 Uhr).\nSamstags empfehlen wir eine Reservierung.\nReservierung: Tel. 089-334455 oder online: bellanapoli-muenchen.de"
       },
       "c": {
-        "title": "Grafikdesign-Studio „Farbenfroh“",
-        "body": "Wir bringen Ihre Ideen auf Papier und Bildschirm! Professionelle Gestaltung von Logos, Flyern, Visitenkarten und Speisekarten für Gastronomie und Gewerbe. Individuelle Beratung für Gründer und Kleinunternehmer.\nKostenloses Erstgespräch: kontakt@studio-farbenfroh.de, Tel. 0176-55 44 33 22."
+        "title": "HOSTEL CENTRAL MÜNCHEN",
+        "body": "Günstig schlafen im Zentrum!\nSchlafsaal ab 18 € / Nacht. Einzelzimmer ab 45 € / Nacht.\nFrühstück inklusive. WLAN kostenlos. Gepäckaufbewahrung möglich.\nZentrale Lage — 5 Minuten zu Fuß vom Hauptbahnhof.\nBuchung: www.hostelcentral-muenchen.de\nTel. 089-778899"
       },
       "d": {
-        "title": "Praktikum bei TechSolutions",
-        "body": "Du studierst Informatik oder Software Engineering und suchst praktische Erfahrung? Wir bieten 3-monatige bezahlte Praktikumsplätze im Bereich Mobile Apps für die Monate August bis Oktober.\nAnforderungen: Grundkenntnisse in Java oder Swift, Teamfähigkeit.\nBewerbung mit Lebenslauf an: jobs@techsolutions-it.de."
+        "title": "GITARRENKURS FÜR EINSTEIGER",
+        "body": "Schule für Musik & Mehr, Hamburg\nLernen Sie Gitarre spielen — von Grund auf!\nKein Vorwissen notwendig. Kurse für Erwachsene.\nSamstags: 10:00–11:30 Uhr (Gruppe, max. 8 Personen)\nSonntags: 14:00–15:30 Uhr (Einzelunterricht möglich)\nKursgebühr: 80 € / Monat (Gruppe) oder 35 € / Stunde (Einzeln)\nAnmeldung: musik-und-mehr.de oder Tel. 040-112233"
       },
       "e": {
-        "title": "Deutsches Haus – Traditionelle Küche",
-        "body": "Genießen Sie klassische deutsche Gerichte wie Schweinebraten, Schnitzel und frische Salate in gemütlicher Atmosphäre. Großer Biergarten für sonnige Tage. Ideal für Familienfeiern.\nÖffnungszeiten: Fr.–So. 11:30–22:00 Uhr, Mo.–Do. Ruhetag.\nReservierung dringend empfohlen: Tel. 089-44 55 66, Hauptstraße 45, München."
-      },
-      "f": {
-        "title": "Sprachschule Lingua – Spanisch am Samstag",
-        "body": "Wochenendkurs Spanisch A1/A2 für Berufstätige. Lernen Sie die Grundlagen für Beruf und Urlaub ganz ohne Stress neben der Arbeit. Small Talk, Grammatik und nützliche Vokabeln.\nKursdauer: 8 Wochen, jeden Samstag von 10:00 bis 13:30 Uhr.\nAnmeldung: www.lingua-sprachschule.de, Tel. 040-77 88 99."
-      },
-      "g": {
-        "title": "Präsentationstraining Deutsch (C1)",
-        "body": "Intensivseminar für Fach- und Führungskräfte mit sehr guten Deutschkenntnissen (ab B2/C1). Themen: Struktur von Vorträgen, Körpersprache, Medieneinsatz, professionelles Auftreten vor Kunden.\nWochenend-Workshop: Sa. und So. jeweils 9:00–16:00 Uhr.\nInfos unter: training@business-deutsch.de."
-      },
-      "h": {
-        "title": "Physio-Zentrum Mitte",
-        "body": "Ihre Experten für Rückenschmerzen, Sportverletzungen und Rehabilitation. Modernste Geräte und individuelle Betreuung durch erfahrene Therapeuten.\nSprechzeiten: Mo.–Fr. 7:00–21:30 Uhr. Alle Krankenkassen und Privatpatienten.\nTermine nach Vereinbarung: Tel. 069-11 22 33, info@physio-mitte.de."
-      },
-      "i": {
-        "title": "Smartphone-Kurs für Senioren",
-        "body": "Keine Angst vor der Technik! Wir zeigen Ihnen Schritt für Schritt, wie Sie Ihr Smartphone für Nachrichten, Fotos und Internet nutzen. Keine Vorkenntnisse erforderlich. Small Groups, geduldiges Lernen.\nKurszeiten: Di. und Do. jeweils von 9:30 bis 11:00 Uhr. Dauer: 4 Wochen.\nAnmeldung im Stadtteilzentrum, Tel. 0221-55 66 77."
-      },
-      "j": {
-        "title": "Kfz-Meisterbetrieb Wagner & Söhne",
-        "body": "Wir reparieren alle Automarken! Jahresservice, Reifenwechsel, Unfallreparaturen. Wir suchen ab September Auszubildende (m/w/d) für den Beruf Kfz-Mechatroniker.\nBitte senden Sie Ihre vollständigen Bewerbungsunterlagen per Post an unsere Werkstatt.\nKontakt: Tel. 0711-88 99 00, info@kfz-wagner.de."
-      },
-      "k": {
-        "title": "Ferienwohnung Seeblick",
-        "body": "Erholung pur direkt am Chiemsee für 2 Personen. Moderne Ausstattung, Einbauküche, Terrasse zum See. Haustiere auf Anfrage erlaubt. Perfekt für ein langes Wochenende.\nBuchung ab 3 Nächten möglich.\nAnfragen unter: seeblick-urlaub@web.de."
-      },
-      "l": {
-        "title": "Praktikum im Medienhaus",
-        "body": "Die Kölner Mediengruppe bietet Studentinnen und Studenten der Medienwissenschaften dreimonatige Praktika im Bereich Online-Redaktion und Social Media. Aufgaben: Schreiben von Artikeln, Recherche.\nBeginn: flexibel. Unvergütetes Pflichtpraktikum.\nBewerbung an: redaktion@medienhaus-koeln.de."
+        "title": "DEUTSCHKURS SOMMER — VHS MÜNCHEN",
+        "body": "Deutsch für Anfänger (A1)\nIntensivkurs im Juli und August, montags bis freitags.\nUnterrichtszeit: 09:00–12:30 Uhr\nKursdauer: 4 Wochen\nKursgebühr: 180 € (inkl. Lernmaterial)\nAnmeldung bis 15. Juni.\nInformation und Anmeldung: vhs-muenchen.de oder Tel. 089-555001"
       }
     },
     "answers": {
       "11": "a",
-      "12": "b",
+      "12": "c",
       "13": "x",
-      "14": "c",
-      "15": "f",
-      "16": "g",
-      "17": "e",
-      "18": "h",
-      "19": "d",
-      "20": "i"
+      "14": "x",
+      "15": "d",
+      "16": "x",
+      "17": "x",
+      "18": "e",
+      "19": "x",
+      "20": "b"
     }
   },
   {
@@ -1496,78 +1888,50 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
-      "11": "Sie möchten am Samstagabend mit Ihrem Partner ein gemütliches indisches Restaurant direkt im Stadtzentrum besuchen[cite: 2].",
-      "12": "Ihr Cousin plant einen Sommerurlaub in den Bergen mit seiner Familie (insgesamt 4 Personen) und möchte in der Unterkunft selbst kochen[cite: 2].",
-      "13": "Die Tochter Ihrer Nachbarin geht noch zur Schule und sucht ein kurzes, zweiwöchiges Praktikum in einer Autowerkstatt, um das Handwerk kennenzulernen[cite: 2].",
-      "14": "Ihr Bekannter möchte sich selbstständig machen und ein kleines Café eröffnen. Er sucht jemanden für das Design des Logos ve der Speisekarten[cite: 2].",
-      "15": "Ihre Kollegin möchte unbedingt Spanisch für Anfänger lernen, kann den Kurs aber nur am Wochenende besuchen, da sie unter der Woche arbeitet[cite: 2].",
-      "16": "Ihr Bruder arbeitet im Marketing, spricht schon recht gut Deutsch (B2) und sucht ein gezieltes Training, um professionelle Präsentationen zu halten[cite: 2].",
-      "17": "Sie organisieren ein großes Familienessen für Sonntagmittag mit den Großeltern und suchen ein gemütliches Restaurant mit traditioneller deutscher Küche[cite: 2].",
-      "18": "Ihre Schwester leidet unter starken Rückenschmerzen und sucht dringend eine Praxis für Physiotherapie, die Termine am späten Abend anbietet[cite: 2].",
-      "19": "Ihr Freund studiert Informatik und sucht für die vorlesungsfreie Zeit im Spätsommer (August–Oktober) ein bezahltes Praktikum im Bereich App-Entwicklung[cite: 2].",
-      "20": "Die Mutter Ihres Freundes hat ein neues Smartphone bekommen. Sie sucht einen Einsteigerkurs, der vormittags stattfindet[cite: 2]."
+      "11": "Ihre Freundin möchte abnehmen und sucht ein Studio, wo sie Yoga oder Pilates machen kann. Sie hat montags und mittwochs abends Zeit.",
+      "12": "Sie suchen eine Ferienwohnung für zwei Wochen im August mit direktem Zugang zum Meer. Sie reisen zu zweit.",
+      "13": "Ihr Vater möchte lernen, wie man einen Computer benutzt. Er ist Rentner und hat keine Vorkenntnisse.",
+      "14": "Sie möchten samstags frischen Fisch kaufen. Sie wohnen in der Nähe des Stadtzentrums.",
+      "15": "Ihre Nachbarin sucht jemanden, der ihre Wohnung einmal pro Woche putzt. Sie zahlt fair.",
+      "16": "Ihr Bruder sucht einen Englischkurs. Er kann schon ein bisschen Englisch und möchte besser werden. Er arbeitet tagsüber und hat abends Zeit.",
+      "17": "Sie möchten am Wochenende ein Konzert besuchen. Sie hören gerne klassische Musik.",
+      "18": "Ihre Schwester möchte mit ihren zwei Kindern (4 und 7 Jahre alt) ins Schwimmbad. Sie sucht ein Familienbad mit Kinderbereich.",
+      "19": "Sie brauchen einen Handwerker, der einen kaputten Wasserhahn in Ihrer Wohnung repariert.",
+      "20": "Ihr Kollege möchte einen Kochkurs machen. Er kocht gerne und möchte neue Rezepte lernen. Samstags hat er Zeit."
     },
     "ads": {
       "a": {
-        "title": "Chili & Chutney – Indische Spezialitäten",
-        "body": "Erleben Sie die Vielfalt der indischen Küche mitten in der Altstadt! Wir bieten traditionelle Currys, Tandoori-Gerichte und eine große Auswahl an vegetarischen Speisen[cite: 2].\nÖffnungszeiten: Di.–So. 12:00–15:00 Uhr und 18:00–23:00 Uhr. Montag Ruhetag[cite: 2].\nReservierungen online oder unter Tel. 030-22 33 44. Friedrichstraße 12, Berlin[cite: 2]."
+        "title": "FITNESS & WELLNESS STUDIO BEWEGUNGSRAUM",
+        "body": "Ihr Studio für Yoga, Pilates und Entspannung\nKurse für Anfänger und Fortgeschrittene.\nMontag und Mittwoch: Yoga 18:30–19:45 Uhr\nDienstag und Donnerstag: Pilates 19:00–20:15 Uhr\nFreitag: Entspannungskurs 18:00–19:00 Uhr\nMonatsbeitrag: 49 € (alle Kurse inklusive)\nProbestunde kostenlos! Anmeldung: bewegungsraum-studio.de"
       },
       "b": {
-        "title": "Ferienhaus Alpenglück",
-        "body": "Verbringen Sie Ihren Sommerurlaub im wunderschönen Allgäu! Unser modern eingerichtetes Ferienhaus bietet Platz für bis zu 6 Personen[cite: 2]. Große Wohnküche zur Selbstversorgung, Balkon mit Bergblick, Garten mit Grillplatz[cite: 2].\nVermietung: Mai bis Oktober. Mindestaufenthalt: 7 Nächte[cite: 2].\nKontakt: info@alpenglueck-ferien.de, Tel. 08321-99 88 77[cite: 2]."
+        "title": "FERIENWOHNUNG MEERESBLICK — RÜGEN",
+        "body": "Direkt am Wasser — Urlaub pur!\nGemütliche 2-Zimmer-Wohnung für 2–4 Personen.\nTerrasse mit direktem Strandzugang, voll ausgestattete Küche.\nWLAN, Fahrradverleih vor Ort.\nVerfügbar: Mai bis September.\nMindestaufenthalt: 5 Nächte. Preis: ab 95 € / Nacht.\nBuchung: meeresblick-ruegen.de oder Tel. 038301-44556"
       },
       "c": {
-        "title": "Grafikdesign-Studio „Farbenfroh“",
-        "body": "Wir bringen Ihre Ideen auf Papier und Bildschirm! Professionelle Gestaltung von Logos, Flyern, Visitenkarten und Speisekarten für Gastronomie und Gewerbe[cite: 2]. Individuelle Beratung für Gründer und Kleinunternehmer[cite: 2].\nKostenloses Erstgespräch: kontakt@studio-farbenfroh.de, Tel. 0176-55 44 33 22[cite: 2]."
+        "title": "VOLKSHOCHSCHULE STADTMITTE",
+        "body": "Englisch für Fortgeschrittene — Abendkurs\nSie haben bereits Grundkenntnisse und möchten Ihr Englisch\nverbessern? Dieser Kurs ist für Sie!\nKurszeiten: Dienstag und Donnerstag, 18:00–19:30 Uhr\nKursdauer: 12 Wochen | Kursstart: 5. September\nKursgebühr: 140 € inkl. Lernmaterial\nInformation: vhs-stadtmitte.de | Tel. 030-998877"
       },
       "d": {
-        "title": "Praktikum bei TechSolutions",
-        "body": "Du studierst Informatik oder Software Engineering und suchst praktische Erfahrung? Wir bieten 3-monatige bezahlte Praktikumsplätze im Bereich Mobile Apps für die Monate August bis Oktober[cite: 2].\nAnforderungen: Grundkenntnisse in Java oder Swift, Teamfähigkeit[cite: 2].\nBewerbung mit Lebenslauf an: jobs@techsolutions-it.de[cite: 2]."
+        "title": "FAMILIENBAD SONNENWELLE",
+        "body": "Spaß und Entspannung für die ganze Familie!\nGroßes Hallenbad mit separatem Kinderbereich (Wasserrutsche,\nPlanschbecken für Kleinkinder). Eintritt: Erwachsene 6 €,\nKinder (bis 14) 3,50 €, Familienticket (2 Erw. + 2 Kinder) 15 €.\nÖffnungszeiten: Mo–Fr 7:00–21:00, Sa–So 9:00–20:00 Uhr.\nAdresse: Brunnenweg 12 | Tel. 0711-334455"
       },
       "e": {
-        "title": "Deutsches Haus – Traditionelle Küche",
-        "body": "Genießen Sie klassische deutsche Gerichte wie Schweinebraten, Schnitzel und frische Salate in gemütlicher Atmosphäre[cite: 2]. Großer Biergarten für sonnige Tage. Ideal für Familienfeiern[cite: 2].\nÖffnungszeiten: Fr.–So. 11:30–22:00 Uhr, Mo.–Do. Ruhetag[cite: 2].\nReservierung dringend empfohlen: Tel. 089-44 55 66, Hauptstraße 45, München[cite: 2]."
-      },
-      "f": {
-        "title": "Sprachschule Lingua – Spanisch am Samstag",
-        "body": "Wochenendkurs Spanisch A1/A2 für Berufstätige. Lernen Sie die Grundlagen für Beruf und Urlaub ganz ohne Stress neben der Arbeit[cite: 2]. Small Talk, Grammatik und nützliche Vokabeln[cite: 2].\nKursdauer: 8 Wochen, jeden Samstag von 10:00 bis 13:30 Uhr[cite: 2].\nAnmeldung: www.lingua-sprachschule.de, Tel. 040-77 88 99[cite: 2]."
-      },
-      "g": {
-        "title": "Präsentationstraining Deutsch (C1)",
-        "body": "Intensivseminar für Fach- und Führungskräfte mit sehr guten Deutschkenntnissen (ab B2/C1)[cite: 2]. Themen: Struktur von Vorträgen, Körpersprache, Medieneinsatz, professionelles Auftreten vor Kunden[cite: 2].\nWochenend-Workshop: Sa. und So. jeweils 9:00–16:00 Uhr[cite: 2].\nInfos unter: training@business-deutsch.de[cite: 2]."
-      },
-      "h": {
-        "title": "Physio-Zentrum Mitte",
-        "body": "Ihre Experten für Rückenschmerzen, Sportverletzungen und Rehabilitation[cite: 2]. Modernste Geräte und individuelle Betreuung durch erfahrene Therapeuten[cite: 2].\nSprechzeiten: Mo.–Fr. 7:00–21:30 Uhr. Alle Krankenkassen und Privatpatienten[cite: 2].\nTermine nach Vereinbarung: Tel. 069-11 22 33, info@physio-mitte.de[cite: 2]."
-      },
-      "i": {
-        "title": "Smartphone-Kurs für Senioren",
-        "body": "Keine Angst vor der Technik! Wir zeigen Ihnen Schritt für Schritt, wie Sie Ihr Smartphone für Nachrichten, Fotos und Internet nutzen[cite: 2]. Keine Vorkenntnisse erforderlich. Small Groups, geduldiges Lernen[cite: 2].\nKurszeiten: Di. und Do. jeweils von 9:30 bis 11:00 Uhr. Dauer: 4 Wochen[cite: 2].\nAnmeldung im Stadtteilzentrum, Tel. 0221-55 66 77[cite: 2]."
-      },
-      "j": {
-        "title": "Kfz-Meisterbetrieb Wagner & Söhne",
-        "body": "Wir reparieren alle Automarken! Jahresservice, Reifenwechsel, Unfallreparaturen[cite: 2]. Wir suchen ab September Auszubildende (m/w/d) für den Beruf Kfz-Mechatroniker[cite: 2].\nBitte senden Sie Ihre vollständigen Bewerbungsunterlagen per Post an unsere Werkstatt[cite: 2].\nKontakt: Tel. 0711-88 99 00, info@kfz-wagner.de[cite: 2]."
-      },
-      "k": {
-        "title": "Ferienwohnung Seeblick",
-        "body": "Erholung pur direkt am Chiemsee für 2 Personen[cite: 2]. Moderne Ausstattung, Einbauküche, Terrasse zum See. Haustiere auf Anfrage erlaubt. Perfekt für ein langes Wochenende[cite: 2].\nBuchung ab 3 Nächten möglich[cite: 2].\nAnfragen unter: seeblick-urlaub@web.de[cite: 2]."
-      },
-      "l": {
-        "title": "Praktikum im Medienhaus",
-        "body": "Die Kölner Mediengruppe bietet Studentinnen und Studenten der Medienwissenschaften dreimonatige Praktika im Bereich Online-Redaktion und Social Media[cite: 2]. Aufgaben: Schreiben von Artikeln, Recherche[cite: 2].\nBeginn: flexibel. Unvergütetes Pflichtpraktikum[cite: 2].\nBewerbung an: redaktion@medienhaus-koeln.de[cite: 2]."
+        "title": "KOCHSCHULE GENUSSWERKSTATT",
+        "body": "Kochen lernen — Spaß garantiert!\nSamstags-Kochkurse für Hobbyköche.\nThemen: Mediterrane Küche, Asiatisch kochen, Backen für Anfänger.\nKursdauer: 3 Stunden | Kurszeiten: 10:00–13:00 Uhr\nPreis: 55 € pro Person inkl. Zutaten und Getränke.\nAnmeldung: genusswerkstatt.de oder Tel. 040-667788"
       }
     },
     "answers": {
       "11": "a",
       "12": "b",
       "13": "x",
-      "14": "c",
-      "15": "f",
-      "16": "g",
-      "17": "e",
-      "18": "h",
-      "19": "d",
-      "20": "i"
+      "14": "x",
+      "15": "x",
+      "16": "c",
+      "17": "x",
+      "18": "d",
+      "19": "x",
+      "20": "e"
     }
   },
   {
@@ -1577,78 +1941,50 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
-      "11": "Sie möchten am Samstagabend mit Ihrer Partnerin Melis ein schönes indisches Restaurant besuchen, am besten direkt im Stadtzentrum von Berlin.",
-      "12": "Ihr Cousin plant im Sommer eine Reise in die Berge mit einer Gruppe von insgesamt vier Personen. Sie suchen ein gemütliches Ferienhaus, um selbst kochen zu können.",
-      "13": "Die Tochter Ihrer Nachbarin geht noch zur Schule und möchte in den Ferien ein kurzes, zweiwöchiges Praktikum in einer Kfz-Werkstatt machen.",
-      "14": "Ihr Bekannter eröffnet bald ein kleines Café und sucht einen Profi, der das Logo und die Speisekarten kreativ gestaltet.",
-      "15": "Ihre Kollegin möchte Spanisch für Anfänger lernen. Da sie unter der Woche sehr lange im Büro arbeitet, hat sie nur am Wochenende Zeit für einen Kurs.",
-      "16": "Ihr Bruder Baris arbeitet als Ingenieur, hat bereits gute B2-Deutschkenntnisse und möchte lernen, wie man professionelle Präsentationen auf Deutsch hält.",
-      "17": "Sie planen ein großes Familienessen am Sonntagmittag mit den Großeltern und suchen ein Restaurant mit traditioneller deutscher Küche.",
-      "18": "Ihre Schwester hat seit Tagen starke Rückenschmerzen und sucht eine Praxis für Physiotherapie, die Termine am späten Abend anbietet.",
-      "19": "Ihr Freund studiert Informatik und sucht für die vorlesungsfreie Zeit im Spätsommer (August bis Oktober) ein bezahltes Praktikum im Bereich App-Entwicklung.",
-      "20": "Die Mutter Ihres Freundes möchte lernen, wie man ein Smartphone richtig bedient, und sucht einen Einsteigerkurs am Vormittag."
+      "11": "Sie suchen ein Café, in dem Sie ruhig arbeiten oder lernen können. Sie brauchen WLAN und möchten auch etwas essen.",
+      "12": "Ihr Freund möchte seinen alten Fernseher verkaufen. Er sucht eine Möglichkeit, ihn online anzubieten.",
+      "13": "Ihre Mutter feiert nächsten Monat ihren 60. Geburtstag. Sie möchten mit der ganzen Familie (8 Personen) in einem Restaurant feiern.",
+      "14": "Sie suchen eine Arbeit als Kellner oder Kellnerin. Sie haben schon Erfahrung in der Gastronomie.",
+      "15": "Ihr Kind ist acht Jahre alt und möchte schwimmen lernen. Sie suchen einen Schwimmkurs für Kinder.",
+      "16": "Sie möchten am Freitagabend mit Freunden bowlen gehen.",
+      "17": "Ihre Schwester sucht eine Nachhilfestunde in Mathematik für ihre Tochter (Klasse 5). Nachmittags ist sie frei.",
+      "18": "Sie möchten Ihren Urlaub in den Bergen verbringen. Sie suchen ein kleines Hotel mit Frühstück für eine Woche im Juli, für zwei Personen.",
+      "19": "Ihr Nachbar sucht einen günstigen Zahnarzt. Er hat keine Krankenversicherung.",
+      "20": "Sie möchten lernen, professionell zu fotografieren. Sie haben schon eine Kamera, aber keine Erfahrung."
     },
     "ads": {
       "a": {
-        "title": "Chili & Chutney – Indische Spezialitäten",
-        "body": "Erleben Sie die Vielfalt der indischen Küche mitten in der Altstadt! Wir bieten traditionelle Currys, Tandoori-Gerichte und eine große Auswahl an vegetarischen Speisen[cite: 2].\nÖffnungszeiten: Di.–So. 12:00–15:00 Uhr und 18:00–23:00 Uhr. Montag Ruhetag[cite: 2].\nReservierungen online oder unter Tel. 030-22 33 44. Friedrichstraße 12, Berlin[cite: 2]."
+        "title": "CAFÉ LESEZIMMER",
+        "body": "Ihr Wohlfühlcafé in der Stadtmitte\nFrühstück, Mittagstisch und Kuchen. Ruhige Atmosphäre.\nFreies WLAN für alle Gäste. Steckdosen an jedem Tisch.\nIdeal zum Lernen und Arbeiten.\nÖffnungszeiten: Mo–Fr 8:00–20:00, Sa 9:00–18:00 Uhr\nReservierung für Gruppen ab 6 Personen: 0221-445566"
       },
       "b": {
-        "title": "Ferienhaus Alpenglück",
-        "body": "Verbringen Sie Ihren Sommerurlaub im wunderschönen Allgäu! Unser modern eingerichtetes Ferienhaus bietet Platz für bis zu 6 Personen[cite: 2]. Große Wohnküche zur Selbstversorgung, Balkon mit Bergblick, Garten mit Grillplatz[cite: 2].\nVermietung: Mai bis Oktober. Mindestaufenthalt: 7 Nächte[cite: 2].\nKontakt: info@alpenglueck-ferien.de, Tel. 08321-99 88 77[cite: 2]."
+        "title": "HOTEL ALPENBLICK — BERCHTESGADEN",
+        "body": "Urlaub in den bayerischen Alpen\nGemütliches Familienhotel mit 20 Zimmern.\nFrühstücksbuffet täglich inklusive. Wanderwege direkt\nvom Hotel. Kostenloser Parkplatz. Haustiere erlaubt.\nDoppelzimmer: ab 85 € / Nacht inkl. Frühstück.\nMindestaufenthalt: 3 Nächte.\nBuchung: alpenblick-berchtesgaden.de | Tel. 08652-11223"
       },
       "c": {
-        "title": "Grafikdesign-Studio „Farbenfroh“",
-        "body": "Wir bringe Ihre Ideen auf Papier und Bildschirm! Professionelle Gestaltung von Logos, Flyern, Visitenkarten und Speisekarten für Gastronomie und Gewerbe[cite: 2]. Individuelle Beratung für Gründer und Kleinunternehmer[cite: 2].\nKostenloses Erstgespräch: kontakt@studio-farbenfroh.de, Tel. 0176-55 44 33 22[cite: 2]."
+        "title": "AQUA-KINDERSCHWIMMSCHULE",
+        "body": "Sicher schwimmen lernen — für Kinder ab 5 Jahren!\nKleine Gruppen (max. 6 Kinder), erfahrene Schwimmlehrer.\nKurse: dienstags und donnerstags, 15:30–16:30 Uhr\noder samstags, 10:00–11:00 Uhr\nKursgebühr: 120 € für 10 Einheiten.\nAnmeldung: aqua-schwimmschule.de | Tel. 0711-228899"
       },
       "d": {
-        "title": "Praktikum bei TechSolutions",
-        "body": "Du studierst Informatik oder Software Engineering und suchst praktische Erfahrung? Wir bieten 3-monatige bezahlte Praktikumsplätze im Bereich Mobile Apps für die Monate August bis Oktober[cite: 2].\nAnforderungen: Grundkenntnisse in Java oder Swift, Teamfähigkeit[cite: 2].\nBewerbung mit Lebenslauf an: jobs@techsolutions-it.de[cite: 2]."
+        "title": "BOWLING CENTER STRIKE",
+        "body": "Spaß für Groß und Klein!\n8 Bowlingbahnen, Billard, Dartscheiben.\nMontag bis Donnerstag: 14:00–23:00 Uhr\nFreitag und Samstag: 13:00–01:00 Uhr\nSonntag: 13:00–22:00 Uhr\nPreis: 5 € pro Person / Spiel (inkl. Schuhverleih).\nReservierung empfohlen: strike-bowlingcenter.de"
       },
       "e": {
-        "title": "Deutsches Haus – Traditionelle Küche",
-        "body": "Genießen Sie klassische deutsche Gerichte wie Schweinebraten, Schnitzel und frische Salate in gemütlicher Atmosphäre[cite: 2]. Großer Biergarten für sonnige Tage. Ideal für Familienfeiern[cite: 2].\nÖffnungszeiten: Fr.–So. 11:30–22:00 Uhr, Mo.–Do. Ruhetag[cite: 2].\nReservierung dringend empfohlen: Tel. 089-44 55 66, Hauptstraße 45, München[cite: 2]."
-      },
-      "f": {
-        "title": "Sprachschule Lingua – Spanisch am Samstag",
-        "body": "Wochenendkurs Spanisch A1/A2 für Berufstätige. Lernen Sie die Grundlagen für Beruf und Urlaub ganz ohne Stress neben der Arbeit[cite: 2]. Small Talk, Grammatik und nützliche Vokabeln[cite: 2].\nKursdauer: 8 Wochen, jeden Samstag von 10:00 bis 13:30 Uhr[cite: 2].\nAnmeldung: www.lingua-sprachschule.de, Tel. 040-77 88 99[cite: 2]."
-      },
-      "g": {
-        "title": "Präsentationstraining Deutsch (C1)",
-        "body": "Intensivseminar für Fach- und Führungskräfte mit sehr guten Deutschkenntnissen (ab B2/C1)[cite: 2]. Themen: Struktur von Vorträgen, Körpersprache, Medieneinsatz, professionelles Auftreten vor Kunden[cite: 2].\nWochenend-Workshop: Sa. und So. jeweils 9:00–16:00 Uhr[cite: 2].\nInfos unter: training@business-deutsch.de[cite: 2]."
-      },
-      "h": {
-        "title": "Physio-Zentrum Mitte",
-        "body": "Ihre Experten für Rückenschmerzen, Sportverletzungen und Rehabilitation[cite: 2]. Modernste Geräte und individuelle Betreuung durch erfahrene Therapeuten[cite: 2].\nSprechzeiten: Mo.–Fr. 7:00–21:30 Uhr. Alle Krankenkassen und Privatpatienten[cite: 2].\nTermine nach Vereinbarung: Tel. 069-11 22 33, info@physio-mitte.de[cite: 2]."
-      },
-      "i": {
-        "title": "Smartphone-Kurs für Senioren",
-        "body": "Keine Angst vor der Technik! Wir zeigen Ihnen Schritt für Schritt, wie Sie Ihr Smartphone für Nachrichten, Fotos und Internet nutzen[cite: 2]. Keine Vorkenntnisse erforderlich. Small Groups, geduldiges Lernen[cite: 2].\nKurszeiten: Di. und Do. jeweils von 9:30 bis 11:00 Uhr. Dauer: 4 Wochen[cite: 2].\nAnmeldung im Stadtteilzentrum, Tel. 0221-55 66 77[cite: 2]."
-      },
-      "j": {
-        "title": "Kfz-Meisterbetrieb Wagner & Söhne",
-        "body": "Wir reparieren alle Automarken! Jahresservice, Reifenwechsel, Unfallreparaturen[cite: 2]. Wir suchen ab September Auszubildende (m/w/d) für den Beruf Kfz-Mechatroniker[cite: 2].\nBitte senden Sie Ihre vollständigen Bewerbungsunterlagen per Post an unsere Werkstatt[cite: 2].\nKontakt: Tel. 0711-88 99 00, info@kfz-wagner.de[cite: 2]."
-      },
-      "k": {
-        "title": "Ferienwohnung Seeblick",
-        "body": "Erholung pur direkt am Chiemsee für 2 Personen[cite: 2]. Moderne Ausstattung, Einbauküche, Terrasse zum See. Haustiere auf Anfrage erlaubt. Perfekt für ein langes Wochenende[cite: 2].\nBuchung ab 3 Nächten möglich[cite: 2].\nAnfragen unter: seeblick-urlaub@web.de[cite: 2]."
-      },
-      "l": {
-        "title": "Praktikum im Medienhaus",
-        "body": "Die Kölner Mediengruppe bietet Studentinnen und Studenten der Medienwissenschaften dreimonatige Praktika im Bereich Online-Redaktion und Social Media[cite: 2]. Aufgaben: Schreiben von Artikeln, Recherche[cite: 2].\nBeginn: flexibel. Unvergütetes Pflichtpraktikum[cite: 2].\nBewerbung an: redaktion@medienhaus-koeln.de[cite: 2]."
+        "title": "FOTOKURS FÜR EINSTEIGER",
+        "body": "Lichtblick Fotoschule, Köln\nLernen Sie, Ihre Kamera richtig einzusetzen!\nKeine Vorkenntnisse notwendig — eigene Kamera mitbringen.\nSamstags, 10:00–14:00 Uhr (Theorie + Praxis outdoor)\nKursgebühr: 95 € für 4 Einheiten (4 Samstage)\nAnmeldung: lichtblick-fotoschule.de | Tel. 0221-773344"
       }
     },
     "answers": {
       "11": "a",
-      "12": "b",
-      "13": "x",
-      "14": "c",
-      "15": "f",
-      "16": "g",
-      "17": "e",
-      "18": "h",
-      "19": "d",
-      "20": "i"
+      "12": "x",
+      "13": "a",
+      "14": "x",
+      "15": "c",
+      "16": "d",
+      "17": "x",
+      "18": "b",
+      "19": "x",
+      "20": "e"
     }
   },
   {
@@ -1658,78 +1994,50 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
-      "11": "Sie möchten am Samstagabend mit Ihrer Partnerin Melis ein indisches Restaurant direkt im Stadtzentrum von Berlin besuchen[cite: 2].",
-      "12": "Ihr Cousin sucht für den Sommerurlaub eine Unterkunft in den Bergen für eine Gruppe von vier Personen, in der sie selbst kochen können[cite: 2].",
-      "13": "Die Tochter Ihrer Nachbarin möchte in den Schulferien ein kurzes, zweiwöchiges Praktikum in einer Autowerkstatt machen, um handwerkliche Erfahrungen zu sammeln[cite: 2].",
-      "14": "Ihr Bekannter eröffnet demnächst ein kleines Café und sucht jemanden, der das Logo und die Speisekarten professionell gestaltet[cite: 2].",
-      "15": "Ihre Kollegin möchte Spanisch für Anfänger lernen, hat aber wegen ihrer langen Arbeitszeiten unter der Woche nur am Wochenende Zeit[cite: 2].",
-      "16": "Ihr Bruder Baris arbeitet im Ingenieursbereich, besitzt bereits B2-Deutschkenntnisse und möchte lernen, wie man professionelle Präsentationen hält[cite: 2].",
-      "17": "Sie suchen für Sonntagmittag ein passendes Restaurant mit traditioneller deutscher Küche für ein großes Familienessen mit den Großeltern[cite: 2].",
-      "18": "Ihre Schwester leidet unter starken Rückenschmerzen und sucht eine Praxis für Physiotherapie mit Terminen am späten Abend[cite: 2].",
-      "19": "Ihr Freund studiert Informatik und sucht für die vorlesungsfreie Zeit im Spätsommer (August bis Oktober) ein bezahltes Praktikum im Bereich App-Entwicklung[cite: 2].",
-      "20": "Die Mutter Ihres Freundes möchte den Umgang mit ihrem neuen Smartphone lernen und sucht einen passenden Einsteigerkurs am Vormittag[cite: 2]."
+      "11": "Sie möchten mit Freunden ein Wochenende in Hamburg verbringen und suchen eine günstige Unterkunft für 4 Personen.",
+      "12": "Ihre Kollegin hat Rückenschmerzen und sucht einen Kurs, der ihr hilft. Sie hat dienstags und donnerstags abends Zeit.",
+      "13": "Ihr Bruder sucht eine Arbeit für den Sommer. Er ist 20 Jahre alt und kann gut kochen.",
+      "14": "Sie suchen ein Geschenk für Ihren Vater. Er liebt Bücher und liest gerne Kriminalromane.",
+      "15": "Ihre Freundin hat ein Baby und sucht einen Kurs, wo sie andere Mütter treffen und mit ihrem Baby aktiv sein kann.",
+      "16": "Sie möchten eine Fremdsprache lernen. Sie interessieren sich für Französisch und haben montags und mittwochs abends Zeit.",
+      "17": "Ihr Nachbar möchte sein Auto verkaufen. Es ist 5 Jahre alt und in gutem Zustand.",
+      "18": "Sie suchen ein Restaurant für einen Geschäftslunch mit drei Kollegen am Dienstag. Das Restaurant soll ruhig und gehoben sein.",
+      "19": "Ihre Tochter (16 Jahre) möchte in den Sommerferien arbeiten. Sie sucht einen Ferienjob.",
+      "20": "Sie möchten in Ihrer Freizeit malen lernen. Sie haben samstags Zeit und sind Anfänger."
     },
     "ads": {
       "a": {
-        "title": "Chili & Chutney – Indische Spezialitäten",
-        "body": "Erleben Sie die Vielfalt der indischen Küche mitten in der Altstadt! Wir bieten traditionelle Currys, Tandoori-Gerichte und eine große Auswahl an vegetarischen Speisen[cite: 2].\nÖffnungszeiten: Di.–So. 12:00–15:00 Uhr und 18:00–23:00 Uhr. Montag Ruhetag[cite: 2].\nReservierungen online oder unter Tel. 030-22 33 44. Friedrichstraße 12, Berlin[cite: 2]."
+        "title": "HOSTEL ALSTER — HAMBURG",
+        "body": "Günstig wohnen in der Hansestadt!\nZimmer für 2, 3 oder 4 Personen. Gemeinschaftsküche,\nFrühstück optional (6 €), kostenloses WLAN, Fahrradverleih.\nZentral gelegen — 10 Minuten zur Alster.\nAb 22 € pro Person / Nacht.\nBuchung: hostel-alster-hamburg.de | Tel. 040-334455"
       },
       "b": {
-        "title": "Ferienhaus Alpenglück",
-        "body": "Verbringen Sie Ihren Sommerurlaub im wunderschönen Allgäu! Unser modern eingerichtetes Ferienhaus bietet Platz für bis zu 6 Personen[cite: 2]. Große Wohnküche zur Selbstversorgung, Balkon mit Bergblick, Garten mit Grillplatz[cite: 2].\nVermietung: Mai bis Oktober. Mindestaufenthalt: 7 Nächte[cite: 2].\nKontakt: info@alpenglueck-ferien.de, Tel. 08321-99 88 77[cite: 2]."
+        "title": "RÜCKENSCHULE & BEWEGUNG",
+        "body": "Physiozentrum Stadtmitte\nKurs für Menschen mit Rücken- und Nackenproblemen.\nÜbungen stärken die Muskulatur und lindern Schmerzen.\nDienstag und Donnerstag: 18:30–19:30 Uhr\n10 Einheiten: 80 € (Kassenrezept möglich)\nAnmeldung: physiozentrum-stadtmitte.de | Tel. 030-556677"
       },
       "c": {
-        "title": "Grafikdesign-Studio „Farbenfroh“",
-        "body": "Wir bringen Ihre Ideen auf Papier und Bildschirm! Professionelle Gestaltung von Logos, Flyern, Visitenkarten und Speisekarten für Gastronomie und Gewerbe[cite: 2]. Individuelle Beratung für Gründer und Kleinunternehmer[cite: 2].\nKostenloses Erstgespräch: kontakt@studio-farbenfroh.de, Tel. 0176-55 44 33 22[cite: 2]."
+        "title": "FRANZÖSISCHKURS FÜR ANFÄNGER UND FORTGESCHRITTENE",
+        "body": "Sprachschule Bonjour, Berlin\nWir bieten Kurse für alle Niveaus an.\nAnfängerkurs: Montag und Mittwoch, 18:00–19:30 Uhr\nFortgeschrittenenkurs: Dienstag und Donnerstag, 18:00–19:30 Uhr\nKursgebühr: 120 € für 8 Wochen.\nInfo: sprachschule-bonjour.de | Tel. 030-778899"
       },
       "d": {
-        "title": "Praktikum bei TechSolutions",
-        "body": "Du studierst Informatik oder Software Engineering und suchst praktische Erfahrung? Wir bieten 3-monatige bezahlte Praktikumsplätze im Bereich Mobile Apps für die Monate August bis Oktober[cite: 2].\nAnforderungen: Grundkenntnisse in Java oder Swift, Teamfähigkeit[cite: 2].\nBewerbung mit Lebenslauf an: jobs@techsolutions-it.de[cite: 2]."
+        "title": "MALKURS FÜR EINSTEIGER",
+        "body": "Kunstwerkstatt Pinselstrich\nAquarell, Acryl und Zeichnen — für absolute Anfänger.\nSamstags, 10:00–12:30 Uhr\nKleine Gruppen, max. 8 Teilnehmer.\nMaterial wird gestellt.\nKursgebühr: 70 € / Monat (4 Kurse)\nAnmeldung: kunstwerkstatt-pinselstrich.de | Tel. 0221-445566"
       },
       "e": {
-        "title": "Deutsches Haus – Traditionelle Küche",
-        "body": "Genießen Sie klassische deutsche Gerichte wie Schweinebraten, Schnitzel und frische Salate in gemütlicher Atmosphäre[cite: 2]. Großer Biergarten für sonnige Tage. Ideal für Familienfeiern[cite: 2].\nÖffnungszeiten: Fr.–So. 11:30–22:00 Uhr, Mo.–Do. Ruhetag[cite: 2].\nReservierung dringend empfohlen: Tel. 089-44 55 66, Hauptstraße 45, München[cite: 2]."
-      },
-      "f": {
-        "title": "Sprachschule Lingua – Spanisch am Samstag",
-        "body": "Wochenendkurs Spanisch A1/A2 für Berufstätige. Lernen Sie die Grundlagen für Beruf und Urlaub ganz ohne Stress neben der Arbeit[cite: 2]. Small Talk, Grammatik und nützliche Vokabeln[cite: 2].\nKursdauer: 8 Wochen, jeden Samstag von 10:00 bis 13:30 Uhr[cite: 2].\nAnmeldung: www.lingua-sprachschule.de, Tel. 040-77 88 99[cite: 2]."
-      },
-      "g": {
-        "title": "Präsentationstraining Deutsch (C1)",
-        "body": "Intensivseminar für Fach- und Führungskräfte mit sehr guten Deutschkenntnissen (ab B2/C1)[cite: 2]. Themen: Struktur von Vorträgen, Körpersprache, Medieneinsatz, professionelles Auftreten vor Kunden[cite: 2].\nWochenend-Workshop: Sa. und So. jeweils 9:00–16:00 Uhr[cite: 2].\nInfos unter: training@business-deutsch.de[cite: 2]."
-      },
-      "h": {
-        "title": "Physio-Zentrum Mitte",
-        "body": "Ihre Experten für Rückenschmerzen, Sportverletzungen und Rehabilitation[cite: 2]. Modernste Geräte und individuelle Betreuung durch erfahrene Therapeuten[cite: 2].\nSprechzeiten: Mo.–Fr. 7:00–21:30 Uhr. Alle Krankenkassen und Privatpatienten[cite: 2].\nTermine nach Vereinbarung: Tel. 069-11 22 33, info@physio-mitte.de[cite: 2]."
-      },
-      "i": {
-        "title": "Smartphone-Kurs für Senioren",
-        "body": "Keine Angst vor der Technik! Wir zeigen Ihnen Schritt für Schritt, wie Sie Ihr Smartphone für Nachrichten, Fotos und Internet nutzen[cite: 2]. Keine Vorkenntnisse erforderlich. Small Groups, geduldiges Lernen[cite: 2].\nKurszeiten: Di. und Do. jeweils von 9:30 bis 11:00 Uhr. Dauer: 4 Wochen[cite: 2].\nAnmeldung im Stadtteilzentrum, Tel. 0221-55 66 77[cite: 2]."
-      },
-      "j": {
-        "title": "Kfz-Meisterbetrieb Wagner & Söhne",
-        "body": "Wir reparieren alle Automarken! Jahresservice, Reifenwechsel, Unfallreparaturen[cite: 2]. Wir suchen ab September Auszubildende (m/w/d) für den Beruf Kfz-Mechatroniker[cite: 2].\nBitte senden Sie Ihre vollständigen Bewerbungsunterlagen per Post an unsere Werkstatt[cite: 2].\nKontakt: Tel. 0711-88 99 00, info@kfz-wagner.de[cite: 2]."
-      },
-      "k": {
-        "title": "Ferienwohnung Seeblick",
-        "body": "Erholung pur direkt am Chiemsee für 2 Personen[cite: 2]. Moderne Ausstattung, Einbauküche, Terrasse zum See. Haustiere auf Anfrage erlaubt. Perfekt für ein langes Wochenende[cite: 2].\nBuchung ab 3 Nächten möglich[cite: 2].\nAnfragen unter: seeblick-urlaub@web.de[cite: 2]."
-      },
-      "l": {
-        "title": "Praktikum im Medienhaus",
-        "body": "Die Kölner Mediengruppe bietet Studentinnen und Studenten der Medienwissenschaften dreimonatige Praktika im Bereich Online-Redaktion und Social Media[cite: 2]. Aufgaben: Schreiben von Artikeln, Recherche[cite: 2].\nBeginn: flexibel. Unvergütetes Pflichtpraktikum[cite: 2].\nBewerbung an: redaktion@medienhaus-koeln.de[cite: 2]."
+        "title": "MAMA-BABY-KURS",
+        "body": "Familienzentrum Regenbogen\nBewegung, Musik und Entspannung für Mütter mit Baby (0–12 Monate).\nTreffen Sie andere Mütter in entspannter Atmosphäre.\nMittwochs und freitags: 10:00–11:30 Uhr\nKursgebühr: 50 € / Monat\nAnmeldung: familienzentrum-regenbogen.de | Tel. 0711-990011"
       }
     },
     "answers": {
       "11": "a",
       "12": "b",
       "13": "x",
-      "14": "c",
-      "15": "f",
-      "16": "g",
-      "17": "e",
-      "18": "h",
-      "19": "d",
-      "20": "i"
+      "14": "x",
+      "15": "e",
+      "16": "c",
+      "17": "x",
+      "18": "x",
+      "19": "x",
+      "20": "d"
     }
   },
   {
@@ -1739,65 +2047,37 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
-      "11": "Sie möchten am Samstagabend mit Ihrer Partnerin Melis ein indisches Restaurant direkt im Stadtzentrum von Berlin besuchen[cite: 2].",
-      "12": "Ihr Cousin plant im Sommer eine Reise in die Berge mit einer Gruppe von insgesamt vier Personen. Sie suchen ein gemütliches Ferienhaus, um selbst kochen zu können[cite: 2].",
-      "13": "Die Tochter Ihrer Nachbarin möchte in den Ferien ein kurzes, zweiwöchiges Praktikum in einer Kfz-Werkstatt machen, um erste handwerkliche Erfahrungen zu sammeln[cite: 2].",
-      "14": "Ihr Bekannter eröffnet bald bir küçük kafe ve arıyor bir uzman, der das Logo und die Speisekarten kreativ und professionell gestaltet[cite: 2].",
-      "15": "Ihre Kollegin möchte Spanisch für Anfänger lernen. Da sie unter der Woche sehr lange im Büro arbeitet, hat sie nur am Wochenende Zeit für einen Kurs[cite: 2].",
-      "16": "Ihr Bruder Baris arbeitet im Ingenieurwesen, hat bereits gute B2-Deutschkenntnisse und möchte lernen, wie man professionelle Präsentationen auf Deutsch hält[cite: 2].",
-      "17": "Sie planen ein großes Familienessen am Sonntagmittag mit den Großeltern und suchen ein Restaurant mit traditioneller deutscher Küche[cite: 2].",
-      "18": "Ihre Schwester hat seit Tagen starke Rückenschmerzen und sucht eine Praxis für Physiotherapie, die Termine am späten Abend anbietet[cite: 2].",
-      "19": "Ihr Freund studiert Informatik und sucht für die vorlesungsfreie Zeit im Spätsommer (August bis Oktober) ein bezahltes Praktikum im Bereich App-Entwicklung[cite: 2].",
-      "20": "Die Mutter Ihres Freundes möchte lernen, wie man ein Smartphone richtig bedient, und sucht einen Einsteigerkurs am Vormittag[cite: 2]."
+      "11": "Sie möchten Ihren Hund in der Nähe der Stadt trainieren lassen. Er ist jung und kennt noch keine Grundbefehle.",
+      "12": "Ihr Freund sucht einen Spanischkurs. Er ist Anfänger und kann nur abends kommen, am liebsten unter der Woche.",
+      "13": "Sie planen eine Familienfeier mit 15 Personen und suchen einen großen Raum zum Mieten, den Sie selbst dekorieren und in dem Sie Ihr eigenes Essen mitbringen dürfen.",
+      "14": "Ihre Schwester sucht eine ruhige Ferienwohnung im Grünen für eine Woche mit ihrem Mann. Sie möchten Fahrrad fahren.",
+      "15": "Ihr Kollege möchte abnehmen und sucht eine Ernährungsberatung. Er hat freitags Zeit.",
+      "16": "Sie suchen einen Babysitter für Ihr zweijähriges Kind. Sie brauchen jemanden für Montagabend.",
+      "17": "Ihr Kind (9 Jahre) möchte einen Fußballkurs besuchen. Es hat noch keine Erfahrung. Trainingszeit ist egal.",
+      "18": "Sie möchten ein altes Sofa loswerden. Es ist in gutem Zustand und soll kostenlos abgegeben werden.",
+      "19": "Ihre Freundin sucht einen Job als Bürokraft. Sie spricht sehr gut Englisch und hat Erfahrung im Büro.",
+      "20": "Sie suchen eine Unterkunft in der Nähe von Frankfurt für eine Nacht. Sie haben ein Auto und suchen etwas Ruhiges außerhalb der Stadt."
     },
     "ads": {
       "a": {
-        "title": "Chili & Chutney – Indische Spezialitäten",
-        "body": "Erleben Sie die Vielfalt der indischen Küche mitten in der Altstadt! Wir bieten traditionelle Currys, Tandoori-Gerichte und eine große Auswahl an vegetarischen Speisen[cite: 2].\nÖffnungszeiten: Di.–So. 12:00–15:00 Uhr und 18:00–23:00 Uhr. Montag Ruhetag[cite: 2].\nReservierungen online oder unter Tel. 030-22 33 44. Friedrichstraße 12, Berlin[cite: 2]."
+        "title": "HUNDESCHULE PFOTENHELD",
+        "body": "Training für Hunde aller Rassen und Altersstufen\nWelpenkurs (bis 6 Monate) und Junghundekurs (6–18 Monate).\nGrundgehorsam, Leinenführigkeit, Sozialisation.\nSamstags und sonntags: 9:00–11:00 Uhr\nKursgebühr: 150 € für 8 Einheiten (Hund + 1 Person)\nInfos & Anmeldung: hundeschule-pfotenheld.de\nTel. 06151-334455"
       },
       "b": {
-        "title": "Ferienhaus Alpenglück",
-        "body": "Verbringen Sie Ihren Sommerurlaub im wunderschönen Allgäu! Unser modern eingerichtetes Ferienhaus bietet Platz für bis zu 6 Personen[cite: 2]. Große Wohnküche zur Selbstversorgung, Balkon mit Bergblick, Garten mit Grillplatz[cite: 2].\nVermietung: Mai bis Oktober. Mindestaufenthalt: 7 Nächte[cite: 2].\nKontakt: info@alpenglueck-ferien.de, Tel. 08321-99 88 77[cite: 2]."
+        "title": "SPANISCHKURS A1 — ABENDKURS",
+        "body": "Instituto Cervantes, Frankfurt\nFür absolute Anfänger. Lernen Sie Spanisch von Grund auf.\nKurszeiten: Montag und Mittwoch, 18:30–20:00 Uhr\nKursdauer: 10 Wochen | Kursstart: 3. Oktober\nKursgebühr: 195 € inkl. Kursmaterial\nAnmeldung: instituto-cervantes-ffm.de | Tel. 069-556677"
       },
       "c": {
-        "title": "Grafikdesign-Studio „Farbenfroh“",
-        "body": "Wir bringen Ihre Ideen auf Papier und Bildschirm! Professionelle Gestaltung von Logos, Flyern, Visitenkarten und Speisekarten für Gastronomie und Gewerbe[cite: 2]. Individuelle Beratung für Gründer und Kleinunternehmer[cite: 2].\nKostenloses Erstgespräch: kontakt@studio-farbenfroh.de, Tel. 0176-55 44 33 22[cite: 2]."
+        "title": "FERIENWOHNUNG IM TAUNUS",
+        "body": "Natur pur — Erholung garantiert!\nGemütliche 2-Zimmer-Wohnung mit Terrasse und Gartennutzung.\nRuhige Lage, direkt am Waldrand. Fahrräder kostenlos leihbar.\nFür 2 Personen ideal.\nPreis: 70 € / Nacht | Mindestaufenthalt: 3 Nächte.\nAnreise: täglich nach Absprache.\nKontakt: taunus-ferien@mail.de | Tel. 06174-998877"
       },
       "d": {
-        "title": "Praktikum bei TechSolutions",
-        "body": "Du studierst Informatik oder Software Engineering und suchst praktische Erfahrung? Wir bieten 3-monatige bezahlte Praktikumsplätze im Bereich Mobile Apps für die Monate August bis Oktober[cite: 2].\nAnforderungen: Grundkenntnisse in Java oder Swift, Teamfähigkeit[cite: 2].\nBewerbung mit Lebenslauf an: jobs@techsolutions-it.de[cite: 2]."
+        "title": "FUSSBALLSCHULE TORJÄGER",
+        "body": "Spaß und Technik für Kinder!\nFür Kinder von 7 bis 14 Jahren — Anfänger herzlich willkommen!\nTraining: dienstags 16:00–17:30 Uhr und freitags 15:30–17:00 Uhr\nKosten: 30 € / Monat (Versicherung inklusive)\nAnmeldung: fussballschule-torjaeger.de | Tel. 0711-223344"
       },
       "e": {
-        "title": "Deutsches Haus – Traditionelle Küche",
-        "body": "Genießen Sie klassische deutsche Gerichte wie Schweinebraten, Schnitzel und frische Salate in gemütlicher Atmosphäre[cite: 2]. Großer Biergarten für sonnige Tage. Ideal für Familienfeiern[cite: 2].\nÖffnungszeiten: Fr.–So. 11:30–22:00 Uhr, Mo.–Do. Ruhetag[cite: 2].\nReservierung dringend empfohlen: Tel. 089-44 55 66, Hauptstraße 45, München[cite: 2]."
-      },
-      "f": {
-        "title": "Sprachschule Lingua – Spanisch am Samstag",
-        "body": "Wochenendkurs Spanisch A1/A2 für Berufstätige. Lernen Sie die Grundlagen für Beruf und Urlaub ganz ohne Stress neben der Arbeit[cite: 2]. Small Talk, Grammatik und nützliche Vokabeln[cite: 2].\nKursdauer: 8 Wochen, jeden Samstag von 10:00 bis 13:30 Uhr[cite: 2].\nAnmeldung: www.lingua-sprachschule.de, Tel. 040-77 88 99[cite: 2]."
-      },
-      "g": {
-        "title": "Präsentationstraining Deutsch (C1)",
-        "body": "Intensivseminar für Fach- und Führungskräfte mit sehr guten Deutschkenntnissen (ab B2/C1)[cite: 2]. Themen: Struktur von Vorträgen, Körpersprache, Medieneinsatz, professionelles Auftreten vor Kunden[cite: 2].\nWochenend-Workshop: Sa. und So. jeweils 9:00–16:00 Uhr[cite: 2].\nInfos unter: training@business-deutsch.de[cite: 2]."
-      },
-      "h": {
-        "title": "Physio-Zentrum Mitte",
-        "body": "Ihre Experten für Rückenschmerzen, Sportverletzungen und Rehabilitation[cite: 2]. Modernste Geräte und individuelle Betreuung durch erfahrene Therapeuten[cite: 2].\nSprechzeiten: Mo.–Fr. 7:00–21:30 Uhr. Alle Krankenkassen und Privatpatienten[cite: 2].\nTermine nach Vereinbarung: Tel. 069-11 22 33, info@physio-mitte.de[cite: 2]."
-      },
-      "i": {
-        "title": "Smartphone-Kurs für Senioren",
-        "body": "Keine Angst vor der Technik! Wir zeigen Ihnen Schritt für Schritt, wie Sie Ihr Smartphone für Nachrichten, Fotos und Internet nutzen[cite: 2]. Keine Vorkenntnisse erforderlich. Small Groups, geduldiges Lernen[cite: 2].\nKurszeiten: Di. und Do. jeweils von 9:30 bis 11:00 Uhr. Dauer: 4 Wochen[cite: 2].\nAnmeldung im Stadtteilzentrum, Tel. 0221-55 66 77[cite: 2]."
-      },
-      "j": {
-        "title": "Kfz-Meisterbetrieb Wagner & Söhne",
-        "body": "Wir reparieren alle Automarken! Jahresservice, Reifenwechsel, Unfallreparaturen[cite: 2]. Wir suchen ab September Auszubildende (m/w/d) für den Beruf Kfz-Mechatroniker[cite: 2].\nBitte senden Sie Ihre vollständigen Bewerbungsunterlagen per Post an unsere Werkstatt[cite: 2].\nKontakt: Tel. 0711-88 99 00, info@kfz-wagner.de[cite: 2]."
-      },
-      "k": {
-        "title": "Ferienwohnung Seeblick",
-        "body": "Erholung pur direkt am Chiemsee für 2 Personen[cite: 2]. Moderne Ausstattung, Einbauküche, Terrasse zum See. Haustiere auf Anfrage erlaubt. Perfekt für ein langes Wochenende[cite: 2].\nBuchung ab 3 Nächten möglich[cite: 2].\nAnfragen unter: seeblick-urlaub@web.de[cite: 2]."
-      },
-      "l": {
-        "title": "Praktikum im Medienhaus",
-        "body": "Die Kölner Mediengruppe bietet Studentinnen und Studenten der Medienwissenschaften dreimonatige Praktika im Bereich Online-Redaktion und Social Media[cite: 2]. Aufgaben: Schreiben von Artikeln, Recherche[cite: 2].\nBeginn: flexibel. Unvergütetes Pflichtpraktikum[cite: 2].\nBewerbung an: redaktion@medienhaus-koeln.de[cite: 2]."
+        "title": "PENSION WALDFRIEDEN",
+        "body": "Ihr ruhiges Zuhause auf Zeit bei Frankfurt\nGemütliche Pension mit 6 Zimmern im Grünen.\nFrühstück auf Wunsch (+9 €). Kostenloser Parkplatz.\nWLAN verfügbar. Haustiere nach Absprache.\nEinzelzimmer: 55 € / Nacht | Doppelzimmer: 85 € / Nacht\nBuchung: waldfrieden-pension.de | Tel. 06103-445566"
       }
     },
     "answers": {
@@ -1805,12 +2085,12 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
       "12": "b",
       "13": "x",
       "14": "c",
-      "15": "f",
-      "16": "g",
-      "17": "e",
-      "18": "h",
-      "19": "d",
-      "20": "i"
+      "15": "x",
+      "16": "x",
+      "17": "d",
+      "18": "x",
+      "19": "x",
+      "20": "e"
     }
   },
   {
@@ -1820,78 +2100,51 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
-      "11": "Sie möchten am Samstagabend mit Ihrer Partnerin Melis ein indisches Restaurant direkt im Stadtzentrum von Berlin besuchen[cite: 2].",
-      "12": "Ihr Cousin plant im Sommer eine Reise in die Berge mit einer Gruppe von insgesamt vier Personen. Sie suchen ein gemütliches Ferienhaus, um selbst kochen zu können[cite: 2].",
-      "13": "Die Tochter Ihrer Nachbarin möchte in den Ferien ein kurzes, zweiwöchiges Praktikum in einer Kfz-Werkstatt machen, um erste handwerkliche Erfahrungen zu sammeln[cite: 2].",
-      "14": "Ihr Bekannter eröffnet bald bir küçük kafe ve arıyor bir uzman, der das Logo und die Speisekarten kreativ und professionell gestaltet[cite: 2].",
-      "15": "Ihre Kollegin möchte Spanisch für Anfänger lernen. Da sie unter der Woche sehr lange im Büro arbeitet, hat sie nur am Wochenende Zeit für einen Kurs[cite: 2].",
-      "16": "Ihr Bruder Baris arbeitet im Ingenieurwesen, hat bereits gute B2-Deutschkenntnisse und möchte lernen, wie man professionelle Präsentationen auf Deutsch hält[cite: 2].",
-      "17": "Sie planen ein großes Familienessen am Sonntagmittag mit den Großeltern und suchen ein Restaurant mit traditioneller deutscher Küche[cite: 2].",
-      "18": "Ihre Schwester hat seit Tagen starke Rückenschmerzen und sucht eine Praxis für Physiotherapie, die Termine am späten Abend anbietet[cite: 2].",
-      "19": "Ihr Freund studiert Informatik und sucht für die vorlesungsfreie Zeit im Spätsommer (August bis Oktober) ein bezahltes Praktikum im Bereich App-Entwicklung[cite: 2].",
-      "20": "Die Mutter Ihres Freundes möchte lernen, wie man ein Smartphone richtig bedient, und sucht einen Einsteigerkurs am Vormittag[cite: 2]."
+      "3": "Kinder) in einen Freizeitpark gehen.",
+      "11": "Ihr Sohn (14 Jahre) möchte in den Ferien kochen lernen. Er ist Anfänger und hat tagsüber Zeit.",
+      "12": "Sie suchen eine ruhige Wohnung zur Miete in der Stadt. Sie haben ein Budget von maximal 700 € warm pro Monat.",
+      "13": "Ihre Freundin hat Angst vor dem Fliegen und sucht einen Kurs, der ihr dabei hilft.",
+      "14": "Sie möchten am Samstag mit Ihrer Familie (2 Erwachsene,",
+      "15": "Ihr Bruder sucht ein gebrauchtes Laptop für die Schule. Er hat maximal 200 Euro zur Verfügung.",
+      "16": "Sie möchten Ihre Deutschkenntnisse verbessern. Sie sprechen schon gut Deutsch (B1) und haben abends Zeit.",
+      "17": "Ihre Kollegin sucht einen Masseur oder ein Wellness-Studio für eine Entspannungsmassage.",
+      "18": "Sie planen ein Geburtstagsessen für Ihren Mann. Er liebt asiatische Küche. Das Restaurant soll auch samstags geöffnet sein.",
+      "19": "Sie suchen einen Sprachpartner, um Ihr Englisch zu üben. Sie möchten sich regelmäßig treffen und sprechen.",
+      "20": "Ihr Vater sucht einen Arzt, der auch samstags Sprechstunde hat."
     },
     "ads": {
       "a": {
-        "title": "Chili & Chutney – Indische Spezialitäten",
-        "body": "Erleben Sie die Vielfalt der indischen Küche mitten in der Altstadt! Wir bieten traditionelle Currys, Tandoori-Gerichte und eine große Auswahl an vegetarischen Speisen[cite: 2].\nÖffnungszeiten: Di.–So. 12:00–15:00 Uhr und 18:00–23:00 Uhr. Montag Ruhetag[cite: 2].\nReservierungen online oder unter Tel. 030-22 33 44. Friedrichstraße 12, Berlin[cite: 2]."
+        "title": "KOCHKURS FÜR JUGENDLICHE",
+        "body": "Lernküche am Stadtpark\nFerien-Kochkurs für Jugendliche von 12–17 Jahren.\nKeine Vorkenntnisse notwendig. Täglich 10:00–13:00 Uhr.\nWir kochen gemeinsam und essen, was wir gekocht haben!\nKursgebühr: 35 € pro Tag | Wochenkurs: 150 €\nAnmeldung: lernkueche-stadtpark.de | Tel. 030-667788"
       },
       "b": {
-        "title": "Ferienhaus Alpenglück",
-        "body": "Verbringen Sie Ihren Sommerurlaub im wunderschönen Allgäu! Unser modern eingerichtetes Ferienhaus bietet Platz für bis zu 6 Personen[cite: 2]. Große Wohnküche zur Selbstversorgung, Balkon mit Bergblick, Garten mit Grillplatz[cite: 2].\nVermietung: Mai bis Oktober. Mindestaufenthalt: 7 Nächte[cite: 2].\nKontakt: info@alpenglueck-ferien.de, Tel. 08321-99 88 77[cite: 2]."
+        "title": "DEUTSCHKURS B1+ — ABENDKURS",
+        "body": "Sprachinstitut Lingua, Düsseldorf\nFür Lernende mit B1-Niveau. Schreiben, Lesen, Sprechen —\nalles auf einem höheren Niveau. Kleine Gruppen, intensiv.\nMontag, Mittwoch, Freitag: 18:30–20:00 Uhr\nKursdauer: 8 Wochen | Kursgebühr: 220 €\nInfo: lingua-sprachinstitut.de | Tel. 0211-334455"
       },
       "c": {
-        "title": "Grafikdesign-Studio „Farbenfroh“",
-        "body": "Wir bringen Ihre Ideen auf Papier und Bildschirm! Professionelle Gestaltung von Logos, Flyern, Visitenkarten und Speisekarten für Gastronomie und Gewerbe[cite: 2]. Individuelle Beratung für Gründer und Kleinunternehmer[cite: 2].\nKostenloses Erstgespräch: kontakt@studio-farbenfroh.de, Tel. 0176-55 44 33 22[cite: 2]."
+        "title": "RESTAURANT ASIA GARDEN",
+        "body": "Authentische asiatische Küche — Japan, China, Thailand\nMittags: Mo–Fr 12:00–14:30 Uhr\nAbends: täglich 18:00–23:00 Uhr (auch samstags!)\nMenüs ab 12 €. Reservierung: asiagarden-restaurant.de\nGruppenreservierungen und Geburtstagsfeiern möglich.\nTel. 040-556677"
       },
       "d": {
-        "title": "Praktikum bei TechSolutions",
-        "body": "Du studierst Informatik oder Software Engineering und suchst praktische Erfahrung? Wir bieten 3-monatige bezahlte Praktikumsplätze im Bereich Mobile Apps für die Monate August bis Oktober[cite: 2].\nAnforderungen: Grundkenntnisse in Java oder Swift, Teamfähigkeit[cite: 2].\nBewerbung mit Lebenslauf an: jobs@techsolutions-it.de[cite: 2]."
+        "title": "FREIZEITPARK FUNLAND",
+        "body": "Spaß für die ganze Familie!\nÜber 40 Attraktionen für Kinder und Erwachsene.\nKinderkarussells, Wildwasserbahn, Kletterpark und mehr.\nÖffnungszeiten: täglich 10:00–19:00 Uhr (April–Oktober)\nEintritt: Erwachsene 18 €, Kinder (4–14) 12 €,\nunter 4 kostenlos. Familienticket (2+3): 65 €.\nwww.funland-freizeitpark.de | Tel. 06151-445566"
       },
       "e": {
-        "title": "Deutsches Haus – Traditionelle Küche",
-        "body": "Genießen Sie klassische deutsche Gerichte wie Schweinebraten, Schnitzel und frische Salate in gemütlicher Atmosphäre[cite: 2]. Großer Biergarten für sonnige Tage. Ideal für Familienfeiern[cite: 2].\nÖffnungszeiten: Fr.–So. 11:30–22:00 Uhr, Mo.–Do. Ruhetag[cite: 2].\nReservierung dringend empfohlen: Tel. 089-44 55 66, Hauptstraße 45, München[cite: 2]."
-      },
-      "f": {
-        "title": "Sprachschule Lingua – Spanisch am Samstag",
-        "body": "Wochenendkurs Spanisch A1/A2 für Berufstätige. Lernen Sie die Grundlagen für Beruf und Urlaub ganz ohne Stress neben der Arbeit[cite: 2]. Small Talk, Grammatik und nützliche Vokabeln[cite: 2].\nKursdauer: 8 Wochen, jeden Samstag von 10:00 bis 13:30 Uhr[cite: 2].\nAnmeldung: www.lingua-sprachschule.de, Tel. 040-77 88 99[cite: 2]."
-      },
-      "g": {
-        "title": "Präsentationstraining Deutsch (C1)",
-        "body": "Intensivseminar für Fach- und Führungskräfte mit sehr guten Deutschkenntnissen (ab B2/C1)[cite: 2]. Themen: Struktur von Vorträgen, Körpersprache, Medieneinsatz, professionelles Auftreten vor Kunden[cite: 2].\nWochenend-Workshop: Sa. und So. jeweils 9:00–16:00 Uhr[cite: 2].\nInfos unter: training@business-deutsch.de[cite: 2]."
-      },
-      "h": {
-        "title": "Physio-Zentrum Mitte",
-        "body": "Ihre Experten für Rückenschmerzen, Sportverletzungen und Rehabilitation[cite: 2]. Modernste Geräte und individuelle Betreuung durch erfahrene Therapeuten[cite: 2].\nSprechzeiten: Mo.–Fr. 7:00–21:30 Uhr. Alle Krankenkassen und Privatpatienten[cite: 2].\nTermine nach Vereinbarung: Tel. 069-11 22 33, info@physio-mitte.de[cite: 2]."
-      },
-      "i": {
-        "title": "Smartphone-Kurs für Senioren",
-        "body": "Keine Angst vor der Technik! Wir zeigen Ihnen Schritt für Schritt, wie Sie Ihr Smartphone für Nachrichten, Fotos und Internet nutzen[cite: 2]. Keine Vorkenntnisse erforderlich. Small Groups, geduldiges Lernen[cite: 2].\nKurszeiten: Di. und Do. jeweils von 9:30 bis 11:00 Uhr. Dauer: 4 Wochen[cite: 2].\nAnmeldung im Stadtteilzentrum, Tel. 0221-55 66 77[cite: 2]."
-      },
-      "j": {
-        "title": "Kfz-Meisterbetrieb Wagner & Söhne",
-        "body": "Wir reparieren alle Automarken! Jahresservice, Reifenwechsel, Unfallreparaturen[cite: 2]. Wir suchen ab September Auszubildende (m/w/d) für den Beruf Kfz-Mechatroniker[cite: 2].\nBitte senden Sie Ihre vollständigen Bewerbungsunterlagen per Post an unsere Werkstatt[cite: 2].\nKontakt: Tel. 0711-88 99 00, info@kfz-wagner.de[cite: 2]."
-      },
-      "k": {
-        "title": "Ferienwohnung Seeblick",
-        "body": "Erholung pur direkt am Chiemsee für 2 Personen[cite: 2]. Moderne Ausstattung, Einbauküche, Terrasse zum See. Haustiere auf Anfrage erlaubt. Perfekt für ein langes Wochenende[cite: 2].\nBuchung ab 3 Nächten möglich[cite: 2].\nAnfragen unter: seeblick-urlaub@web.de[cite: 2]."
-      },
-      "l": {
-        "title": "Praktikum im Medienhaus",
-        "body": "Die Kölner Mediengruppe bietet Studentinnen und Studenten der Medienwissenschaften dreimonatige Praktika im Bereich Online-Redaktion und Social Media[cite: 2]. Aufgaben: Schreiben von Artikeln, Recherche[cite: 2].\nBeginn: flexibel. Unvergütetes Pflichtpraktikum[cite: 2].\nBewerbung an: redaktion@medienhaus-koeln.de[cite: 2]."
+        "title": "WELLNESS OASE ROSENBLÜTE",
+        "body": "Massage, Sauna und mehr\nEntspannungsmassagen, Aromaöl-Massagen, Fußreflexzonenmassage.\nEinzel- oder Paarbehandlung möglich.\nTermine: Mo–Sa 10:00–20:00 Uhr (auch abends nach Absprache)\nPreise: ab 45 € / 30 Min. | 80 € / 60 Min.\nTerminbuchung: wellness-rosenbluete.de | Tel. 0221-889900"
       }
     },
     "answers": {
       "11": "a",
-      "12": "b",
+      "12": "x",
       "13": "x",
-      "14": "c",
-      "15": "f",
-      "16": "g",
+      "14": "d",
+      "15": "x",
+      "16": "b",
       "17": "e",
-      "18": "h",
-      "19": "d",
-      "20": "i"
+      "18": "c",
+      "19": "x",
+      "20": "x"
     }
   },
   {
@@ -1901,78 +2154,50 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
-      "11": "Sie möchten am Samstagabend mit Ihrer Partnerin Melis ein indisches Restaurant direkt im Stadtzentrum von Berlin besuchen[cite: 2].",
-      "12": "Ihr Cousin sucht für den Sommerurlaub eine Unterkunft in den Bergen für eine Gruppe von vier Personen, in der sie selbst kochen können[cite: 2].",
-      "13": "Die Tochter Ihrer Nachbarin möchte in den Schulferien ein kurzes, zweiwöchiges Praktikum in einer Autowerkstatt machen, um handwerkliche Erfahrungen zu sammeln[cite: 2].",
-      "14": "Ihr Bekannter plant, ein kleines Café zu eröffnen, und sucht jemanden, der das Logo und die Speisekarten professionell und kreativ gestaltet[cite: 2].",
-      "15": "Ihre Kollegin möchte Spanisch für Anfänger lernen, hat aber wegen ihrer langen Arbeitszeiten unter der Woche nur am Wochenende Zeit[cite: 2].",
-      "16": "Ihr Bruder Baris arbeitet im Ingenieurwesen, besitzt bereits B2-Deutschkenntnisse und möchte lernen, wie man professionelle Präsentationen auf Deutsch hält[cite: 2].",
-      "17": "Sie suchen für Sonntagmittag ein passendes Restaurant mit traditioneller deutscher Küche für ein großes Familienessen mit den Großeltern[cite: 2].",
-      "18": "Ihre Schwester leidet unter starken Rückenschmerzen und sucht eine Praxis für Physiotherapie mit Terminen am späten Abend[cite: 2].",
-      "19": "Ihr Freund studiert Informatik und sucht für die vorlesungsfreie Zeit im Spätsommer (August bis Oktober) ein bezahltes Praktikum im Bereich App-Entwicklung[cite: 2].",
-      "20": "Die Mutter Ihres Freundes möchte den Umgang mit ihrem neuen Smartphone lernen und sucht einen passenden Einsteigerkurs am Vormittag[cite: 2]."
+      "11": "Sie möchten mit Ihrem Partner eine romantische Woche am See verbringen. Sie suchen eine Unterkunft mit eigenem Steg und Blick auf das Wasser.",
+      "12": "Ihre Freundin möchte nähen lernen. Sie ist Anfängerin und hat samstags Zeit.",
+      "13": "Ihr Bruder sucht einen günstigen Fitnesskurs. Er möchte Muskeln aufbauen und hat abends Zeit.",
+      "14": "Sie suchen ein Café mit Terrasse im Stadtzentrum. Sie möchten draußen frühstücken.",
+      "15": "Ihre Tochter (11 Jahre) möchte tanzen lernen. Sie mag Ballett oder modernen Tanz.",
+      "16": "Sie brauchen Hilfe bei Ihrer Steuererklärung. Sie haben keine Erfahrung damit.",
+      "17": "Ihr Nachbar sucht jemanden, der seinen Garten einmal pro Woche pflegt. Er zahlt 15 € pro Stunde.",
+      "18": "Sie und drei Freunde möchten am Freitag gemeinsam Karten spielen. Sie suchen ein Spielcafé oder eine Möglichkeit, Brettspiele auszuleihen.",
+      "19": "Ihre Kollegin möchte mit dem Rauchen aufhören und sucht Unterstützung — z. B. einen Kurs oder eine Beratung.",
+      "20": "Sie suchen einen Italienischkurs. Sie sprechen schon ein bisschen Italienisch und möchten besser werden. Sie haben dienstags abends Zeit."
     },
     "ads": {
       "a": {
-        "title": "Chili & Chutney – Indische Spezialitäten",
-        "body": "Erleben Sie die Vielfalt der indischen Küche mitten in der Altstadt! Wir bieten traditionelle Currys, Tandoori-Gerichte und eine große Auswahl an vegetarischen Speisen[cite: 2].\nÖffnungszeiten: Di.–So. 12:00–15:00 Uhr und 18:00–23:00 Uhr. Montag Ruhetag[cite: 2].\nReservierungen online oder unter Tel. 030-22 33 44. Friedrichstraße 12, Berlin[cite: 2]."
+        "title": "FERIENWOHNUNG AM STARNBERGER SEE",
+        "body": "Romantik pur — Urlaub direkt am Wasser!\nGemütliche 2-Zimmer-Wohnung mit Seeblick.\nEigener Steg für Boote und zum Baden. Terrasse, Kamin.\nFür 2 Personen. Wäsche und Endreinigung inklusive.\nPreis: 120 € / Nacht | Mindestaufenthalt: 5 Nächte.\nBuchung: starnberger-see-ferien.de | Tel. 08151-334455"
       },
       "b": {
-        "title": "Ferienhaus Alpenglück",
-        "body": "Verbringen Sie Ihren Sommerurlaub im wunderschönen Allgäu! Unser modern eingerichtetes Ferienhaus bietet Platz für bis zu 6 Personen[cite: 2]. Große Wohnküche zur Selbstversorgung, Balkon mit Bergblick, Garten mit Grillplatz[cite: 2].\nVermietung: Mai bis Oktober. Mindestaufenthalt: 7 Nächte[cite: 2].\nKontakt: info@alpenglueck-ferien.de, Tel. 08321-99 88 77[cite: 2]."
+        "title": "NÄHKURS FÜR ANFÄNGER",
+        "body": "Kreativwerkstatt Nadel & Faden\nLernen Sie Nähen von Grund auf — Maschine und Handarbeit.\nSamstags: 10:00–13:00 Uhr (Gruppe, max. 6 Personen)\nMaterial und Maschinen werden gestellt.\nKursgebühr: 60 € / Monat (4 Kurse)\nAnmeldung: nadel-und-faden.de | Tel. 089-445566"
       },
       "c": {
-        "title": "Grafikdesign-Studio „Farbenfroh“",
-        "body": "Wir bringen Ihre Ideen auf Papier und Bildschirm! Professionelle Gestaltung von Logos, Flyern, Visitenkarten und Speisekarten für Gastronomie und Gewerbe[cite: 2]. Individuelle Beratung für Gründer und Kleinunternehmer[cite: 2].\nKostenloses Erstgespräch: kontakt@studio-farbenfroh.de, Tel. 0176-55 44 33 22[cite: 2]."
+        "title": "FITNESSSTUDIO KRAFTWERK",
+        "body": "Stark werden — effizient trainieren!\nModernes Studio mit Gewichten, Kraftmaschinen und Cardio.\nAbendkurse: Krafttraining Mo, Mi, Fr 19:00–20:30 Uhr.\nProbetraining kostenlos!\nMonatsbeitrag: 35 € (ohne Vertragsbindung)\nInfo: fitnessstudio-kraftwerk.de | Tel. 030-778899"
       },
       "d": {
-        "title": "Praktikum bei TechSolutions",
-        "body": "Du studierst Informatik oder Software Engineering und suchst praktische Erfahrung? Wir bieten 3-monatige bezahlte Praktikumsplätze im Bereich Mobile Apps für die Monate August bis Oktober[cite: 2].\nAnforderungen: Grundkenntnisse in Java oder Swift, Teamfähigkeit[cite: 2].\nBewerbung mit Lebenslauf an: jobs@techsolutions-it.de[cite: 2]."
+        "title": "TANZSCHULE RHYTHMUS",
+        "body": "Für Kinder, Jugendliche und Erwachsene\nBallett für Kinder (ab 5 Jahren), Modern Dance, Hip-Hop.\nKurse dienstags und donnerstags 16:00–17:00 Uhr (Kinder)\nSamstags: 10:00–11:30 Uhr (Jugendliche und Erwachsene)\nKursgebühr: 45 € / Monat | Probestunde gratis.\nAnmeldung: tanzschule-rhythmus.de | Tel. 040-556677"
       },
       "e": {
-        "title": "Deutsches Haus – Traditionelle Küche",
-        "body": "Genießen Sie klassische deutsche Gerichte wie Schweinebraten, Schnitzel und frische Salate in gemütlicher Atmosphäre[cite: 2]. Großer Biergarten für sonnige Tage. Ideal für Familienfeiern[cite: 2].\nÖffnungszeiten: Fr.–So. 11:30–22:00 Uhr, Mo.–Do. Ruhetag[cite: 2].\nReservierung dringend empfohlen: Tel. 089-44 55 66, Hauptstraße 45, München[cite: 2]."
-      },
-      "f": {
-        "title": "Sprachschule Lingua – Spanisch am Samstag",
-        "body": "Wochenendkurs Spanisch A1/A2 für Berufstätige. Lernen Sie die Grundlagen für Beruf und Urlaub ganz ohne Stress neben der Arbeit[cite: 2]. Small Talk, Grammatik und nützliche Vokabeln[cite: 2].\nKursdauer: 8 Wochen, jeden Samstag von 10:00 bis 13:30 Uhr[cite: 2].\nAnmeldung: www.lingua-sprachschule.de, Tel. 040-77 88 99[cite: 2]."
-      },
-      "g": {
-        "title": "Präsentationstraining Deutsch (C1)",
-        "body": "Intensivseminar für Fach- und Führungskräfte mit sehr guten Deutschkenntnissen (ab B2/C1)[cite: 2]. Themen: Struktur von Vorträgen, Körpersprache, Medieneinsatz, professionelles Auftreten vor Kunden[cite: 2].\nWochenend-Workshop: Sa. und So. jeweils 9:00–16:00 Uhr[cite: 2].\nInfos unter: training@business-deutsch.de[cite: 2]."
-      },
-      "h": {
-        "title": "Physio-Zentrum Mitte",
-        "body": "Ihre Experten für Rückenschmerzen, Sportverletzungen und Rehabilitation[cite: 2]. Modernste Geräte und individuelle Betreuung durch erfahrene Therapeuten[cite: 2].\nSprechzeiten: Mo.–Fr. 7:00–21:30 Uhr. Alle Krankenkassen und Privatpatienten[cite: 2].\nTermine nach Vereinbarung: Tel. 069-11 22 33, info@physio-mitte.de[cite: 2]."
-      },
-      "i": {
-        "title": "Smartphone-Kurs für Senioren",
-        "body": "Keine Angst vor der Technik! Wir zeigen Ihnen Schritt für Schritt, wie Sie Ihr Smartphone für Nachrichten, Fotos und Internet nutzen[cite: 2]. Keine Vorkenntnisse erforderlich. Small Groups, geduldiges Lernen[cite: 2].\nKurszeiten: Di. und Do. jeweils von 9:30 bis 11:00 Uhr. Dauer: 4 Wochen[cite: 2].\nAnmeldung im Stadtteilzentrum, Tel. 0221-55 66 77[cite: 2]."
-      },
-      "j": {
-        "title": "Kfz-Meisterbetrieb Wagner & Söhne",
-        "body": "Wir reparieren alle Automarken! Jahresservice, Reifenwechsel, Unfallreparaturen[cite: 2]. Wir suchen ab September Auszubildende (m/w/d) für den Beruf Kfz-Mechatroniker[cite: 2].\nBitte senden Sie Ihre vollständigen Bewerbungsunterlagen per Post an unsere Werkstatt[cite: 2].\nKontakt: Tel. 0711-88 99 00, info@kfz-wagner.de[cite: 2]."
-      },
-      "k": {
-        "title": "Ferienwohnung Seeblick",
-        "body": "Erholung pur direkt am Chiemsee für 2 Personen[cite: 2]. Moderne Ausstattung, Einbauküche, Terrasse zum See. Haustiere auf Anfrage erlaubt. Perfekt für ein langes Wochenende[cite: 2].\nBuchung ab 3 Nächten möglich[cite: 2].\nAnfragen unter: seeblick-urlaub@web.de[cite: 2]."
-      },
-      "l": {
-        "title": "Praktikum im Medienhaus",
-        "body": "Die Kölner Mediengruppe bietet Studentinnen und Studenten der Medienwissenschaften dreimonatige Praktika im Bereich Online-Redaktion und Social Media[cite: 2]. Aufgaben: Schreiben von Artikeln, Recherche[cite: 2].\nBeginn: flexibel. Unvergütetes Pflichtpraktikum[cite: 2].\nBewerbung an: redaktion@medienhaus-koeln.de[cite: 2]."
+        "title": "SPIELCAFÉ JOKER",
+        "body": "Spielen, Lachen, Genießen!\nÜber 300 Brettspiele zum Spielen vor Ort oder Ausleihen.\nKaffee, Tee und Snacks. Gemütliche Atmosphäre.\nÖffnungszeiten: Di–So 14:00–23:00 Uhr\nEintritt: 4 € pro Person (inkl. Spielauswahl)\nGruppen willkommen! Reservierung: spielcafe-joker.de"
       }
     },
     "answers": {
       "11": "a",
       "12": "b",
-      "13": "x",
-      "14": "c",
-      "15": "f",
-      "16": "g",
-      "17": "e",
-      "18": "h",
-      "19": "d",
-      "20": "i"
+      "13": "c",
+      "14": "x",
+      "15": "d",
+      "16": "x",
+      "17": "x",
+      "18": "e",
+      "19": "x",
+      "20": "x"
     }
   },
   {
@@ -1982,78 +2207,51 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
-      "11": "Sie möchten am Samstagabend mit Ihrer Partnerin Melis ein indisches Restaurant direkt im Stadtzentrum von Berlin besuchen[cite: 1].",
-      "12": "Ihr Cousin sucht für den Sommerurlaub eine Unterkunft in den Bergen für eine Gruppe von vier Personen, in der sie selbst kochen können[cite: 1].",
-      "13": "Die Tochter Ihrer Nachbarin möchte in den Schulferien ein kurzes, zweiwöchiges Praktikum in einer Autowerkstatt machen, um handwerkliche Erfahrungen zu sammeln[cite: 1].",
-      "14": "Ihr Bekannter plant, ein kleines Café zu eröffnen, und sucht jemanden, der das Logo und die Speisekarten professionell und kreativ gestaltet[cite: 1].",
-      "15": "Ihre Kollegin möchte Spanisch für Anfänger lernen, hat aber wegen ihrer langen Arbeitszeiten unter der Woche nur am Wochenende Zeit[cite: 1].",
-      "16": "Ihr Bruder Baris arbeitet im Ingenieurwesen, besitzt bereits B2-Deutschkenntnisse und möchte lernen, wie man professionelle Präsentationen auf Deutsch hält[cite: 1].",
-      "17": "Sie suchen für Sonntagmittag ein passendes Restaurant mit traditioneller deutscher Küche für ein großes Familienessen mit den Großeltern[cite: 1].",
-      "18": "Ihre Schwester leidet unter starken Rückenschmerzen und sucht eine Praxis für Physiotherapie mit Terminen am späten Abend[cite: 1].",
-      "19": "Ihr Freund studiert Informatik und sucht für die vorlesungsfreie Zeit im Spätsommer (August bis Oktober) ein bezahltes Praktikum im Bereich App-Entwicklung[cite: 1].",
-      "20": "Die Mutter Ihres Freundes möchte den Umgang mit ihrem neuen Smartphone lernen und sucht einen passenden Einsteigerkurs am Vormittag[cite: 1]."
+      "2": "Zimmer und darf maximal 800 € warm zahlen. Er hat einen kleinen Hund.",
+      "11": "Sie möchten mit Ihrer Familie (2 Erwachsene, 2 Kinder) am Sonntag einen Ausflug machen. Die Kinder mögen Tiere und die Natur.",
+      "12": "Ihr Freund sucht eine Wohnung zur Miete. Er braucht",
+      "13": "Ihre Mutter möchte Aquarellmalerei lernen. Sie hat donnerstags nachmittags Zeit.",
+      "14": "Sie suchen einen Arzt für Ihren Sohn (8 Jahre). Er hat Bauchschmerzen seit zwei Tagen.",
+      "15": "Ihr Bruder möchte in seiner Freizeit Motorrad fahren lernen. Er braucht den Motorradführerschein.",
+      "16": "Sie möchten am Wochenende mit Freunden wandern. Sie suchen eine geführte Wanderung in der Nähe Ihrer Stadt.",
+      "17": "Ihre Schwester sucht einen Kurs, in dem sie Meditation und Achtsamkeit lernen kann. Abends hat sie Zeit.",
+      "18": "Sie suchen ein Café für einen Kindergeburtstag. Ihr Sohn wird sieben Jahre alt. Das Café soll kindgerecht und bunt sein.",
+      "19": "Ihr Nachbar hat sein Handy verloren. Er sucht ein günstiges gebrauchtes Smartphone.",
+      "20": "Sie möchten Ihren Freunden zeigen, wie man Sushi macht. Sie suchen einen Sushi-Kochkurs für eine Gruppe von 5 Personen."
     },
     "ads": {
       "a": {
-        "title": "Chili & Chutney – Indische Spezialitäten",
-        "body": "Erleben Sie die Vielfalt der indischen Küche mitten in der Altstadt! Wir bieten traditionelle Currys, Tandoori-Gerichte und eine große Auswahl an vegetarischen Speisen[cite: 1].\nÖffnungszeiten: Di.–So. 12:00–15:00 Uhr und 18:00–23:00 Uhr. Montag Ruhetag[cite: 1].\nReservierungen online oder unter Tel. 030-22 33 44. Friedrichstraße 12, Berlin[cite: 1]."
+        "title": "NATURPARK SONNENHÜGEL",
+        "body": "Natur erleben für die ganze Familie\nWildtiergehege, Streichelzoo, Erlebnispfade und Picknickwiese.\nGeführte Familientouren: täglich um 11:00 und 15:00 Uhr.\nCafé und Spielplatz vorhanden.\nÖffnungszeiten: Mo–So 9:00–18:00 Uhr\nEintritt: Erwachsene 8 €, Kinder (3–14 J.) 4 €,\nFamilienkarte (2+2): 22 €.\nwww.naturpark-sonnenhuegel.de"
       },
       "b": {
-        "title": "Ferienhaus Alpenglück",
-        "body": "Verbringen Sie Ihren Sommerurlaub im wunderschönen Allgäu! Unser modern eingerichtetes Ferienhaus bietet Platz für bis zu 6 Personen[cite: 1]. Große Wohnküche zur Selbstversorgung, Balkon mit Bergblick, Garten mit Grillplatz[cite: 1].\nVermietung: Mai bis Oktober. Mindestaufenthalt: 7 Nächte[cite: 1].\nKontakt: info@alpenglueck-ferien.de, Tel. 08321-99 88 77[cite: 1]."
+        "title": "BERGWANDERER E.V. — GEFÜHRTE WANDERUNGEN",
+        "body": "Erleben Sie die Natur mit erfahrenen Guides!\nSamstags und sonntags: verschiedene Wanderrouten (leicht bis mittel).\nTreffpunkt: Wanderparkplatz Talblick, 9:00 Uhr.\nFür Anfänger und Erfahrene.\nTeilnahmegebühr: 10 € pro Person (Kinder unter 14 gratis).\nAnmeldung bis freitags: wanderer-ev.de | Tel. 08152-223344"
       },
       "c": {
-        "title": "Grafikdesign-Studio „Farbenfroh“",
-        "body": "Wir bringen Ihre Ideen auf Papier und Bildschirm! Professionelle Gestaltung von Logos, Flyern, Visitenkarten und Speisekarten für Gastronomie und Gewerbe[cite: 1]. Individuelle Beratung für Gründer und Kleinunternehmer[cite: 1].\nKostenloses Erstgespräch: kontakt@studio-farbenfroh.de, Tel. 0176-55 44 33 22[cite: 1]."
+        "title": "AQUARELLKURS — KUNSTHAUS PALETTE",
+        "body": "Malen mit Wasser und Farbe\nFür Anfänger und Fortgeschrittene.\nDonnerstags: 14:00–16:30 Uhr\nKursgebühr: 55 € / Monat (4 Einheiten)\nMaterial wird gestellt — einfach kommen und malen!\nAnmeldung: kunsthaus-palette.de | Tel. 0221-667788"
       },
       "d": {
-        "title": "Praktikum bei TechSolutions",
-        "body": "Du studierst Informatik oder Software Engineering und suchst praktische Erfahrung? Wir bieten 3-monatige bezahlte Praktikumsplätze im Bereich Mobile Apps für die Monate August bis Oktober[cite: 1].\nAnforderungen: Grundkenntnisse in Java oder Swift, Teamfähigkeit[cite: 1].\nBewerbung mit Lebenslauf an: jobs@techsolutions-it.de[cite: 1]."
+        "title": "KINDERCAFÉ ZUCKERWATTE",
+        "body": "Feiern und Spielen auf einer Wolke!\nGeburtstagspartys für Kinder bis 12 Jahre.\nBuntes Interieur, Spielecke, Tortenservice.\nPakete ab 120 € für 8 Kinder (2 Stunden Raummiete + Getränke).\nÖffnungszeiten: täglich 10:00–19:00 Uhr\nReservierung notwendig: zuckerwatte-cafe.de | Tel. 040-556677"
       },
       "e": {
-        "title": "Deutsches Haus – Traditionelle Küche",
-        "body": "Genießen Sie klassische deutsche Gerichte wie Schweinebraten, Schnitzel und frische Salate in gemütlicher Atmosphäre[cite: 1]. Großer Biergarten für sonnige Tage. Ideal für Familienfeiern[cite: 1].\nÖffnungszeiten: Fr.–So. 11:30–22:00 Uhr, Mo.–Do. Ruhetag[cite: 1].\nReservierung dringend empfohlen: Tel. 089-44 55 66, Hauptstraße 45, München[cite: 1]."
-      },
-      "f": {
-        "title": "Sprachschule Lingua – Spanisch am Samstag",
-        "body": "Wochenendkurs Spanisch A1/A2 für Berufstätige. Lernen Sie die Grundlagen für Beruf und Urlaub ganz ohne Stress neben der Arbeit[cite: 1]. Small Talk, Grammatik und nützliche Vokabeln[cite: 1].\nKursdauer: 8 Wochen, jeden Samstag von 10:00 bis 13:30 Uhr[cite: 1].\nAnmeldung: www.lingua-sprachschule.de, Tel. 040-77 88 99[cite: 1]."
-      },
-      "g": {
-        "title": "Präsentationstraining Deutsch (C1)",
-        "body": "Intensivseminar für Fach- und Führungskräfte mit sehr guten Deutschkenntnissen (ab B2/C1)[cite: 1]. Themen: Struktur von Vorträgen, Körpersprache, Medieneinsatz, professionelles Auftreten vor Kunden[cite: 1].\nWochenend-Workshop: Sa. und So. jeweils 9:00–16:00 Uhr[cite: 1].\nInfos unter: training@business-deutsch.de[cite: 1]."
-      },
-      "h": {
-        "title": "Physio-Zentrum Mitte",
-        "body": "Ihre Experten für Rückenschmerzen, Sportverletzungen und Rehabilitation[cite: 1]. Modernste Geräte und individuelle Betreuung durch erfahrene Therapeuten[cite: 1].\nSprechzeiten: Mo.–Fr. 7:00–21:30 Uhr. Alle Krankenkassen und Privatpatienten[cite: 1].\nTermine nach Vereinbarung: Tel. 069-11 22 33, info@physio-mitte.de[cite: 1]."
-      },
-      "i": {
-        "title": "Smartphone-Kurs für Senioren",
-        "body": "Keine Angst vor der Technik! Wir zeigen Ihnen Schritt für Schritt, wie Sie Ihr Smartphone für Nachrichten, Fotos und Internet nutzen[cite: 1]. Keine Vorkenntnisse erforderlich. Small Groups, geduldiges Lernen[cite: 1].\nKurszeiten: Di. und Do. jeweils von 9:30 bis 11:00 Uhr. Dauer: 4 Wochen[cite: 1].\nAnmeldung im Stadtteilzentrum, Tel. 0221-55 66 77[cite: 1]."
-      },
-      "j": {
-        "title": "Kfz-Meisterbetrieb Wagner & Söhne",
-        "body": "Wir reparieren alle Automarken! Jahresservice, Reifenwechsel, Unfallreparaturen[cite: 1]. Wir suchen ab September Auszubildende (m/w/d) für den Beruf Kfz-Mechatroniker[cite: 1].\nBitte senden Sie Ihre vollständigen Bewerbungsunterlagen per Post an unsere Werkstatt[cite: 1].\nKontakt: Tel. 0711-88 99 00, info@kfz-wagner.de[cite: 1]."
-      },
-      "k": {
-        "title": "Ferienwohnung Seeblick",
-        "body": "Erholung pur direkt am Chiemsee für 2 Personen[cite: 1]. Moderne Ausstattung, Einbauküche, Terrasse zum See. Haustiere auf Anfrage erlaubt. Perfekt für ein langes Wochenende[cite: 1].\nBuchung ab 3 Nächten möglich[cite: 1].\nAnfragen unter: seeblick-urlaub@web.de[cite: 1]."
-      },
-      "l": {
-        "title": "Praktikum im Medienhaus",
-        "body": "Die Kölner Mediengruppe bietet Studentinnen und Studenten der Medienwissenschaften dreimonatige Praktika im Bereich Online-Redaktion und Social Media[cite: 1]. Aufgaben: Schreiben von Artikeln, Recherche[cite: 1].\nBeginn: flexibel. Unvergütetes Pflichtpraktikum[cite: 1].\nBewerbung an: redaktion@medienhaus-koeln.de[cite: 1]."
+        "title": "SUSHI-KOCHKURS — JAPANKÜCHE SAKURA",
+        "body": "Rollen, schneiden, genießen!\nLernen Sie die Kunst des Sushi-Machens in 3 Stunden.\nKleine Gruppen (4–8 Personen). Alle Zutaten inklusive.\nSamstags: 11:00–14:00 Uhr\nPreis: 65 € pro Person\nBuchung: japankueche-sakura.de | Tel. 030-445566"
       }
     },
     "answers": {
       "11": "a",
-      "12": "b",
-      "13": "x",
-      "14": "c",
-      "15": "f",
-      "16": "g",
-      "17": "e",
-      "18": "h",
-      "19": "d",
-      "20": "i"
+      "12": "x",
+      "13": "c",
+      "14": "x",
+      "15": "x",
+      "16": "b",
+      "17": "x",
+      "18": "d",
+      "19": "x",
+      "20": "e"
     }
   },
   {
@@ -2063,78 +2261,50 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
-      "11": "Sie möchten am Samstagabend mit Ihrer Partnerin Melis ein indisches Restaurant direkt im Stadtzentrum von Berlin besuchen[cite: 1].",
-      "12": "Ihr Cousin sucht für den Sommerurlaub eine Unterkunft in den Bergen für eine Gruppe von vier Personen, in der sie selbst kochen können[cite: 1].",
-      "13": "Die Tochter Ihrer Nachbarin möchte in den Schulferien ein kurzes, zweiwöchiges Praktikum in einer Autowerkstatt machen, um handwerkliche Erfahrungen zu sammeln[cite: 1].",
-      "14": "Ihr Bekannter plant, ein kleines Café zu eröffnen, und sucht jemanden, der das Logo und die Speisekarten professionell und kreativ gestaltet[cite: 1].",
-      "15": "Ihre Kollegin möchte Spanisch für Anfänger lernen, hat aber wegen ihrer langen Arbeitszeiten unter der Woche nur am Wochenende Zeit[cite: 1].",
-      "16": "Ihr Bruder Baris arbeitet im Ingenieurwesen, besitzt bereits B2-Deutschkenntnisse und möchte lernen, wie man professionelle Präsentationen auf Deutsch hält[cite: 1].",
-      "17": "Sie suchen für Sonntagmittag ein passendes Restaurant mit traditioneller deutscher Küche für ein großes Familienessen mit den Großeltern[cite: 1].",
-      "18": "Ihre Schwester leidet unter starken Rückenschmerzen und sucht eine Praxis für Physiotherapie mit Terminen am späten Abend[cite: 1].",
-      "19": "Ihr Freund studiert Informatik und sucht für die vorlesungsfreie Zeit im Spätsommer (August bis Oktober) ein bezahltes Praktikum im Bereich App-Entwicklung[cite: 1].",
-      "20": "Die Mutter Ihres Freundes möchte den Umgang mit ihrem neuen Smartphone lernen und sucht einen passenden Einsteigerkurs am Vormittag[cite: 1]."
+      "11": "Sie möchten einen Tag in einem Spa verbringen und sich verwöhnen lassen. Sie suchen ein Angebot mit Sauna und Massagen für eine Person.",
+      "12": "Ihr Freund sucht eine Arbeit als Fahrer. Er hat einen Führerschein und spricht gut Deutsch.",
+      "13": "Ihre Mutter sucht einen Nähkurs für Fortgeschrittene. Sie kann schon grundlegend nähen und möchte komplizierte Muster lernen. Sie hat freitags Zeit.",
+      "14": "Sie möchten ein gebrauchtes Kinderbett kaufen. Ihr Baby ist drei Monate alt.",
+      "15": "Ihr Bruder studiert und sucht ein günstiges WG-Zimmer in der Stadtmitte. Budget: max. 500 € warm.",
+      "16": "Sie möchten am Samstag eine Stadtführung machen. Sie interessieren sich für die Geschichte der Stadt.",
+      "17": "Ihre Nachbarin sucht einen Kurs, um Angst vor dem Sprechen in der Öffentlichkeit zu überwinden.",
+      "18": "Sie möchten Ihren Balkon bepflanzen. Sie brauchen Beratung, welche Pflanzen im Schatten wachsen.",
+      "19": "Ihr Kollege möchte abends Yoga machen. Er sucht einen Kurs für Anfänger unter der Woche.",
+      "20": "Sie suchen ein kleines Geschenk für eine Kollegin, die gerne Tee trinkt. Budget: ca. 15–25 Euro."
     },
     "ads": {
       "a": {
-        "title": "Chili & Chutney – Indische Spezialitäten",
-        "body": "Erleben Sie die Vielfalt der indischen Küche mitten in der Altstadt! Wir bieten traditionelle Currys, Tandoori-Gerichte und eine große Auswahl an vegetarischen Speisen[cite: 1].\nÖffnungszeiten: Di.–So. 12:00–15:00 Uhr und 18:00–23:00 Uhr. Montag Ruhetag[cite: 1].\nReservierungen online oder unter Tel. 030-22 33 44. Friedrichstraße 12, Berlin[cite: 1]."
+        "title": "SPA & WELLNESS DAY — THERME ROSENPARK",
+        "body": "Ihr perfekter Entspannungstag!\nTagesticket inkl. Sauna, Dampfbad, Schwimmbad.\nMassagen buchbar ab 40 € / 30 Min. (an der Rezeption).\nHandtuch und Bademantel inklusive.\nÖffnungszeiten: täglich 9:00–22:00 Uhr\nTagesticket: 28 € / Person\nBuchung: therme-rosenpark.de | Tel. 089-993344"
       },
       "b": {
-        "title": "Ferienhaus Alpenglück",
-        "body": "Verbringen Sie Ihren Sommerurlaub im wunderschönen Allgäu! Unser modern eingerichtetes Ferienhaus bietet Platz für bis zu 6 Personen[cite: 1]. Große Wohnküche zur Selbstversorgung, Balkon mit Bergblick, Garten mit Grillplatz[cite: 1].\nVermietung: Mai bis Oktober. Mindestaufenthalt: 7 Nächte[cite: 1].\nKontakt: info@alpenglueck-ferien.de, Tel. 08321-99 88 77[cite: 1]."
+        "title": "STADTFÜHRUNG HISTORISCHES MÜNCHEN",
+        "body": "Entdecken Sie die Geschichte der Stadt!\nGeführte Touren durch die Altstadt — auf Deutsch oder Englisch.\nSamstags und sonntags: 10:00 Uhr und 14:00 Uhr.\nTreffpunkt: vor dem Rathaus am Marienplatz.\nPreis: 12 € pro Person (Kinder unter 12 kostenlos)\nAnmeldung nicht notwendig — einfach kommen!\nwww.stadtfuehrung-muenchen.de"
       },
       "c": {
-        "title": "Grafikdesign-Studio „Farbenfroh“",
-        "body": "Wir bringen Ihre Ideen auf Papier und Bildschirm! Professionelle Gestaltung von Logos, Flyern, Visitenkarten und Speisekarten für Gastronomie und Gewerbe[cite: 1]. Individuelle Beratung für Gründer und Kleinunternehmer[cite: 1].\nKostenloses Erstgespräch: kontakt@studio-farbenfroh.de, Tel. 0176-55 44 33 22[cite: 1]."
+        "title": "YOGA FÜR ANFÄNGER — ABENDKURS",
+        "body": "Yogastudio Gleichgewicht\nSanfter Einstieg in die Welt des Yoga.\nMontag und Mittwoch: 19:00–20:30 Uhr\nDienstag und Donnerstag: 18:30–20:00 Uhr\nKursgebühr: 55 € / Monat (8 Einheiten)\nProbestunde: 7 €. Anmeldung: yogastudio-gleichgewicht.de"
       },
       "d": {
-        "title": "Praktikum bei TechSolutions",
-        "body": "Du studierst Informatik oder Software Engineering und suchst praktische Erfahrung? Wir bieten 3-monatige bezahlte Praktikumsplätze im Bereich Mobile Apps für die Monate August bis Oktober[cite: 1].\nAnforderungen: Grundkenntnisse in Java oder Swift, Teamfähigkeit[cite: 1].\nBewerbung mit Lebenslauf an: jobs@techsolutions-it.de[cite: 1]."
+        "title": "NÄHKURS FORTGESCHRITTENE",
+        "body": "Schneiderei Meisterhände\nFür alle, die schon grundlegende Nähkenntnisse haben.\nThemen: Kleider schneidern, Muster erstellen, Feinarbeit.\nFreitags: 14:00–17:00 Uhr\nKursgebühr: 80 € / Monat (4 Einheiten)\nEigene Nähmaschine empfohlen (Leihmaschinen vorhanden).\nAnmeldung: schneiderei-meisterhaende.de | Tel. 040-334455"
       },
       "e": {
-        "title": "Deutsches Haus – Traditionelle Küche",
-        "body": "Genießen Sie klassische deutsche Gerichte wie Schweinebraten, Schnitzel und frische Salate in gemütlicher Atmosphäre[cite: 1]. Großer Biergarten für sonnige Tage. Ideal für Familienfeiern[cite: 1].\nÖffnungszeiten: Fr.–So. 11:30–22:00 Uhr, Mo.–Do. Ruhetag[cite: 1].\nReservierung dringend empfohlen: Tel. 089-44 55 66, Hauptstraße 45, München[cite: 1]."
-      },
-      "f": {
-        "title": "Sprachschule Lingua – Spanisch am Samstag",
-        "body": "Wochenendkurs Spanisch A1/A2 für Berufstätige. Lernen Sie die Grundlagen für Beruf und Urlaub ganz ohne Stress neben der Arbeit[cite: 1]. Small Talk, Grammatik und nützliche Vokabeln[cite: 1].\nKursdauer: 8 Wochen, jeden Samstag von 10:00 bis 13:30 Uhr[cite: 1].\nAnmeldung: www.lingua-sprachschule.de, Tel. 040-77 88 99[cite: 1]."
-      },
-      "g": {
-        "title": "Präsentationstraining Deutsch (C1)",
-        "body": "Intensivseminar für Fach- und Führungskräfte mit sehr guten Deutschkenntnissen (ab B2/C1)[cite: 1]. Themen: Struktur von Vorträgen, Körpersprache, Medieneinsatz, professionelles Auftreten vor Kunden[cite: 1].\nWochenend-Workshop: Sa. und So. jeweils 9:00–16:00 Uhr[cite: 1].\nInfos unter: training@business-deutsch.de[cite: 1]."
-      },
-      "h": {
-        "title": "Physio-Zentrum Mitte",
-        "body": "Ihre Experten für Rückenschmerzen, Sportverletzungen und Rehabilitation[cite: 1]. Modernste Geräte und individuelle Betreuung durch erfahrene Therapeuten[cite: 1].\nSprechzeiten: Mo.–Fr. 7:00–21:30 Uhr. Alle Krankenkassen und Privatpatienten[cite: 1].\nTermine nach Vereinbarung: Tel. 069-11 22 33, info@physio-mitte.de[cite: 1]."
-      },
-      "i": {
-        "title": "Smartphone-Kurs für Senioren",
-        "body": "Keine Angst vor der Technik! Wir zeigen Ihnen Schritt für Schritt, wie Sie Ihr Smartphone für Nachrichten, Fotos und Internet nutzen[cite: 1]. Keine Vorkenntnisse erforderlich. Small Groups, geduldiges Lernen[cite: 1].\nKurszeiten: Di. und Do. jeweils von 9:30 bis 11:00 Uhr. Dauer: 4 Wochen[cite: 1].\nAnmeldung im Stadtteilzentrum, Tel. 0221-55 66 77[cite: 1]."
-      },
-      "j": {
-        "title": "Kfz-Meisterbetrieb Wagner & Söhne",
-        "body": "Wir reparieren alle Automarken! Jahresservice, Reifenwechsel, Unfallreparaturen[cite: 1]. Wir suchen ab September Auszubildende (m/w/d) für den Beruf Kfz-Mechatroniker[cite: 1].\nBitte senden Sie Ihre vollständigen Bewerbungsunterlagen per Post an unsere Werkstatt[cite: 1].\nKontakt: Tel. 0711-88 99 00, info@kfz-wagner.de[cite: 1]."
-      },
-      "k": {
-        "title": "Ferienwohnung Seeblick",
-        "body": "Erholung pur direkt am Chiemsee für 2 Personen[cite: 1]. Moderne Ausstattung, Einbauküche, Terrasse zum See. Haustiere auf Anfrage erlaubt. Perfekt für ein langes Wochenende[cite: 1].\nBuchung ab 3 Nächten möglich[cite: 1].\nAnfragen unter: seeblick-urlaub@web.de[cite: 1]."
-      },
-      "l": {
-        "title": "Praktikum im Medienhaus",
-        "body": "Die Kölner Mediengruppe bietet Studentinnen und Studenten der Medienwissenschaften dreimonatige Praktika im Bereich Online-Redaktion und Social Media[cite: 1]. Aufgaben: Schreiben von Artikeln, Recherche[cite: 1].\nBeginn: flexibel. Unvergütetes Pflichtpraktikum[cite: 1].\nBewerbung an: redaktion@medienhaus-koeln.de[cite: 1]."
+        "title": "TEELADEN GOLDENE KANNE",
+        "body": "Die schönsten Tees der Welt\nÜber 200 Teesorten aus aller Welt — loser Tee und Teebeutel.\nGeschenksets ab 9,90 € | Premium-Sets ab 19,90 €.\nPersonalisierte Geschenkverpackung möglich.\nÖffnungszeiten: Mo–Sa 10:00–19:00 Uhr\nAdresse: Hauptstraße 24 | Tel. 089-112233"
       }
     },
     "answers": {
       "11": "a",
-      "12": "b",
-      "13": "x",
-      "14": "c",
-      "15": "f",
-      "16": "g",
-      "17": "e",
-      "18": "h",
-      "19": "d",
-      "20": "i"
+      "12": "x",
+      "13": "d",
+      "14": "x",
+      "15": "x",
+      "16": "b",
+      "17": "x",
+      "18": "x",
+      "19": "c",
+      "20": "e"
     }
   },
   {
@@ -2144,78 +2314,50 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
-      "11": "Sie möchten am Samstagabend mit Ihrer Partnerin Melis ein indisches Restaurant direkt im Stadtzentrum von Berlin besuchen[cite: 1].",
-      "12": "Ihr Cousin sucht für den Sommerurlaub eine Unterkunft in den Bergen für eine Gruppe von vier Personen, in der sie selbst kochen können[cite: 1].",
-      "13": "Die Tochter Ihrer Nachbarin möchte in den Schulferien ein kurzes, zweiwöchiges Praktikum in einer Autowerkstatt machen, um handwerkliche Erfahrungen zu sammeln[cite: 1].",
-      "14": "Ihr Bekannter plant, ein kleines Café zu eröffnen, und sucht jemanden, der das Logo und die Speisekarten professionell und kreativ gestaltet[cite: 1].",
-      "15": "Ihre Kollegin möchte Spanisch für Anfänger lernen, hat aber wegen ihrer langen Arbeitszeiten unter der Woche nur am Wochenende Zeit[cite: 1].",
-      "16": "Ihr Bruder Baris arbeitet im Ingenieurwesen, besitzt bereits B2-Deutschkenntnisse und möchte lernen, wie man professionelle Präsentationen auf Deutsch hält[cite: 1].",
-      "17": "Sie suchen für Sonntagmittag ein passendes Restaurant mit traditioneller deutscher Küche für ein großes Familienessen mit den Großeltern[cite: 1].",
-      "18": "Ihre Schwester leidet unter starken Rückenschmerzen und sucht eine Praxis für Physiotherapie mit Terminen am späten Abend[cite: 1].",
-      "19": "Ihr Freund studiert Informatik und sucht für die vorlesungsfreie Zeit im Spätsommer (August bis Oktober) ein bezahltes Praktikum im Bereich App-Entwicklung[cite: 1].",
-      "20": "Die Mutter Ihres Freundes möchte den Umgang mit ihrem neuen Smartphone lernen und sucht einen passenden Einsteigerkurs am Vormittag[cite: 1]."
+      "11": "Ihre Freundin sucht eine Kinderbetreuung für ihren vierjährigen Sohn während der Sommerferien. Sie arbeitet tagsüber und braucht jemanden von 8 bis 14 Uhr.",
+      "12": "Sie möchten im Winter Ski fahren lernen. Sie sind Anfänger und suchen einen Kurs mit Unterkunft für eine Woche.",
+      "13": "Ihr Bruder sucht einen günstigen Friseur. Er möchte einen einfachen Haarschnitt ohne Extras.",
+      "14": "Sie möchten Ihren Urlaub aktiv verbringen und suchen ein Angebot mit Wandern, Klettern und Naturerlebnissen für eine Woche.",
+      "15": "Ihre Mutter möchte gerne lernen, wie man mit dem Smartphone Fotos bearbeitet. Sie hat montags Zeit.",
+      "16": "Sie suchen ein Café in der Nähe der Universität, das günstige Mittagsmenüs anbietet.",
+      "17": "Ihr Nachbar braucht jemanden, der seinen Keller ausräumt und den Sperrmüll entsorgt.",
+      "18": "Sie möchten mit Ihrer Partnerin am Valentinstag in einem romantischen Restaurant essen. Der 14. Februar ist ein Mittwoch.",
+      "19": "Ihr Freund sucht einen Basketballverein. Er ist 25 Jahre alt und möchte regelmäßig trainieren.",
+      "20": "Sie brauchen eine Reinigungskraft für Ihr Büro. Sie suchen jemanden für einmal pro Woche, freitags morgens."
     },
     "ads": {
       "a": {
-        "title": "Chili & Chutney – Indische Spezialitäten",
-        "body": "Erleben Sie die Vielfalt der indischen Küche mitten in der Altstadt! Wir bieten traditionelle Currys, Tandoori-Gerichte und eine große Auswahl an vegetarischen Speisen[cite: 1].\nÖffnungszeiten: Di.–So. 12:00–15:00 Uhr und 18:00–23:00 Uhr. Montag Ruhetag[cite: 1].\nReservierungen online oder unter Tel. 030-22 33 44. Friedrichstraße 12, Berlin[cite: 1]."
+        "title": "AKTIVURLAUB ALLGÄU — NATUR TOTAL",
+        "body": "Eine Woche voller Abenteuer!\nGeführte Wanderungen, Klettern für Anfänger und Fortgeschrittene,\nMountainbike, Naturführungen.\nUnterkunft im Berghotel (Halbpension) inklusive.\n1 Woche (Sa–Sa): ab 790 € pro Person\nBuchung: aktivurlaub-allgaeu.de | Tel. 08362-554433"
       },
       "b": {
-        "title": "Ferienhaus Alpenglück",
-        "body": "Verbringen Sie Ihren Sommerurlaub im wunderschönen Allgäu! Unser modern eingerichtetes Ferienhaus bietet Platz für bis zu 6 Personen[cite: 1]. Große Wohnküche zur Selbstversorgung, Balkon mit Bergblick, Garten mit Grillplatz[cite: 1].\nVermietung: Mai bis Oktober. Mindestaufenthalt: 7 Nächte[cite: 1].\nKontakt: info@alpenglueck-ferien.de, Tel. 08321-99 88 77[cite: 1]."
+        "title": "RESTAURANT LA LUNA",
+        "body": "Romantische mediterrane Küche\nPerfekt für besondere Anlässe. Kerzenschein, ruhige Atmosphäre,\npersönlicher Service.\nGeöffnet: Di–So, 18:00–23:00 Uhr.\nMenüs ab 35 € / Person. Vegetarische Gerichte verfügbar.\nReservierung empfohlen: la-luna-restaurant.de | Tel. 089-667788"
       },
       "c": {
-        "title": "Grafikdesign-Studio „Farbenfroh“",
-        "body": "Wir bringen Ihre Ideen auf Papier und Bildschirm! Professionelle Gestaltung von Logos, Flyern, Visitenkarten und Speisekarten für Gastronomie und Gewerbe[cite: 1]. Individuelle Beratung für Gründer und Kleinunternehmer[cite: 1].\nKostenloses Erstgespräch: kontakt@studio-farbenfroh.de, Tel. 0176-55 44 33 22[cite: 1]."
+        "title": "SPRACHCAFÉ DIGITAL — SMARTPHONE-KURS",
+        "body": "Für Senioren und Einsteiger\nLernen Sie, Fotos mit dem Smartphone zu machen und zu bearbeiten.\nMontags: 10:00–12:00 Uhr (Kurs A) oder 14:00–16:00 Uhr (Kurs B)\nMax. 8 Teilnehmer pro Gruppe.\nKursgebühr: 40 € für 4 Einheiten.\nEigenes Smartphone mitbringen!\nAnmeldung: sprachcafe-digital.de | Tel. 030-334455"
       },
       "d": {
-        "title": "Praktikum bei TechSolutions",
-        "body": "Du studierst Informatik oder Software Engineering und suchst praktische Erfahrung? Wir bieten 3-monatige bezahlte Praktikumsplätze im Bereich Mobile Apps für die Monate August bis Oktober[cite: 1].\nAnforderungen: Grundkenntnisse in Java oder Swift, Teamfähigkeit[cite: 1].\nBewerbung mit Lebenslauf an: jobs@techsolutions-it.de[cite: 1]."
+        "title": "BASKETBALLVEREIN STADTADLER E.V.",
+        "body": "Basketball für alle Altersgruppen!\nHerrenmannschaft (18–40 Jahre): Training Di und Do 20:00–22:00 Uhr.\nDamenmannschaft: Mo und Mi 19:30–21:00 Uhr.\nSchnupperstunde gratis — einfach vorbeikommen!\nVereinsbeitrag: 25 € / Monat\nInfo: stadtadler-basketball.de | Tel. 040-112233"
       },
       "e": {
-        "title": "Deutsches Haus – Traditionelle Küche",
-        "body": "Genießen Sie klassische deutsche Gerichte wie Schweinebraten, Schnitzel und frische Salate in gemütlicher Atmosphäre[cite: 1]. Großer Biergarten für sonnige Tage. Ideal für Familienfeiern[cite: 1].\nÖffnungszeiten: Fr.–So. 11:30–22:00 Uhr, Mo.–Do. Ruhetag[cite: 1].\nReservierung dringend empfohlen: Tel. 089-44 55 66, Hauptstraße 45, München[cite: 1]."
-      },
-      "f": {
-        "title": "Sprachschule Lingua – Spanisch am Samstag",
-        "body": "Wochenendkurs Spanisch A1/A2 für Berufstätige. Lernen Sie die Grundlagen für Beruf und Urlaub ganz ohne Stress neben der Arbeit[cite: 1]. Small Talk, Grammatik und nützliche Vokabeln[cite: 1].\nKursdauer: 8 Wochen, jeden Samstag von 10:00 bis 13:30 Uhr[cite: 1].\nAnmeldung: www.lingua-sprachschule.de, Tel. 040-77 88 99[cite: 1]."
-      },
-      "g": {
-        "title": "Präsentationstraining Deutsch (C1)",
-        "body": "Intensivseminar für Fach- und Führungskräfte mit sehr guten Deutschkenntnissen (ab B2/C1)[cite: 1]. Themen: Struktur von Vorträgen, Körpersprache, Medieneinsatz, professionelles Auftreten vor Kunden[cite: 1].\nWochenend-Workshop: Sa. und So. jeweils 9:00–16:00 Uhr[cite: 1].\nInfos unter: training@business-deutsch.de[cite: 1]."
-      },
-      "h": {
-        "title": "Physio-Zentrum Mitte",
-        "body": "Ihre Experten für Rückenschmerzen, Sportverletzungen und Rehabilitation[cite: 1]. Modernste Geräte und individuelle Betreuung durch erfahrene Therapeuten[cite: 1].\nSprechzeiten: Mo.–Fr. 7:00–21:30 Uhr. Alle Krankenkassen und Privatpatienten[cite: 1].\nTermine nach Vereinbarung: Tel. 069-11 22 33, info@physio-mitte.de[cite: 1]."
-      },
-      "i": {
-        "title": "Smartphone-Kurs für Senioren",
-        "body": "Keine Angst vor der Technik! Wir zeigen Ihnen Schritt für Schritt, wie Sie Ihr Smartphone für Nachrichten, Fotos und Internet nutzen[cite: 1]. Keine Vorkenntnisse erforderlich. Small Groups, geduldiges Lernen[cite: 1].\nKurszeiten: Di. und Do. jeweils von 9:30 bis 11:00 Uhr. Dauer: 4 Wochen[cite: 1].\nAnmeldung im Stadtteilzentrum, Tel. 0221-55 66 77[cite: 1]."
-      },
-      "j": {
-        "title": "Kfz-Meisterbetrieb Wagner & Söhne",
-        "body": "Wir reparieren alle Automarken! Jahresservice, Reifenwechsel, Unfallreparaturen[cite: 1]. Wir suchen ab September Auszubildende (m/w/d) für den Beruf Kfz-Mechatroniker[cite: 1].\nBitte senden Sie Ihre vollständigen Bewerbungsunterlagen per Post an unsere Werkstatt[cite: 1].\nKontakt: Tel. 0711-88 99 00, info@kfz-wagner.de[cite: 1]."
-      },
-      "k": {
-        "title": "Ferienwohnung Seeblick",
-        "body": "Erholung pur direkt am Chiemsee für 2 Personen[cite: 1]. Moderne Ausstattung, Einbauküche, Terrasse zum See. Haustiere auf Anfrage erlaubt. Perfekt für ein langes Wochenende[cite: 1].\nBuchung ab 3 Nächten möglich[cite: 1].\nAnfragen unter: seeblick-urlaub@web.de[cite: 1]."
-      },
-      "l": {
-        "title": "Praktikum im Medienhaus",
-        "body": "Die Kölner Mediengruppe bietet Studentinnen und Studenten der Medienwissenschaften dreimonatige Praktika im Bereich Online-Redaktion und Social Media[cite: 1]. Aufgaben: Schreiben von Artikeln, Recherche[cite: 1].\nBeginn: flexibel. Unvergütetes Pflichtpraktikum[cite: 1].\nBewerbung an: redaktion@medienhaus-koeln.de[cite: 1]."
+        "title": "CAFÉ CAMPUS",
+        "body": "Günstiger Lunch direkt neben der Uni!\nFrisches Mittagsmenü täglich wechselnd: Suppe + Hauptgericht + Getränk.\nStudenten: 5,50 € | Regulär: 7,90 €\nVegetarische und vegane Optionen täglich.\nÖffnungszeiten: Mo–Fr 8:00–18:00 Uhr\nAdresse: Universitätsstraße 3"
       }
     },
     "answers": {
-      "11": "a",
-      "12": "b",
+      "11": "x",
+      "12": "x",
       "13": "x",
-      "14": "c",
-      "15": "f",
-      "16": "g",
-      "17": "e",
-      "18": "h",
+      "14": "a",
+      "15": "c",
+      "16": "e",
+      "17": "x",
+      "18": "b",
       "19": "d",
-      "20": "i"
+      "20": "x"
     }
   },
   {
@@ -2225,78 +2367,50 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
-      "11": "Sie möchten am Samstagabend mit Ihrer Partnerin Melis ein indisches Restaurant direkt im Stadtzentrum von Berlin besuchen[cite: 1].",
-      "12": "Ihr Cousin sucht für den Sommerurlaub eine Unterkunft in den Bergen für eine Gruppe von vier Personen, in der sie selbst kochen können[cite: 1].",
-      "13": "Die Tochter Ihrer Nachbarin möchte in den Schulferien ein kurzes, zweiwöchiges Praktikum in einer Autowerkstatt machen, um handwerkliche Erfahrungen zu sammeln[cite: 1].",
-      "14": "Ihr Bekannter plant, ein kleines Café zu eröffnen, und sucht jemanden, der das Logo und die Speisekarten professionell und kreativ gestaltet[cite: 1].",
-      "15": "Ihre Kollegin möchte Spanisch für Anfänger lernen, hat aber wegen ihrer langen Arbeitszeiten unter der Woche nur am Wochenende Zeit[cite: 1].",
-      "16": "Ihr Bruder Baris arbeitet im Ingenieurwesen, besitzt bereits B2-Deutschkenntnisse und möchte lernen, wie man professionelle Präsentationen auf Deutsch hält[cite: 1].",
-      "17": "Sie suchen für Sonntagmittag ein passendes Restaurant mit traditioneller deutscher Küche für ein großes Familienessen mit den Großeltern[cite: 1].",
-      "18": "Ihre Schwester leidet unter starken Rückenschmerzen und sucht eine Praxis für Physiotherapie mit Terminen am späten Abend[cite: 1].",
-      "19": "Ihr Freund studiert Informatik und sucht für die vorlesungsfreie Zeit im Spätsommer (August bis Oktober) ein bezahltes Praktikum im Bereich App-Entwicklung[cite: 1].",
-      "20": "Die Mutter Ihres Freundes möchte den Umgang mit ihrem neuen Smartphone lernen und sucht einen passenden Einsteigerkurs am Vormittag[cite: 1]."
+      "11": "Sie möchten einen Tanzkurs für sich und Ihren Partner besuchen. Sie mögen Latin-Tänze wie Salsa oder Bachata. Ihr Partner hat noch keine Tanzerfahrung.",
+      "12": "Ihr Sohn (13 Jahre) braucht Nachhilfe in Englisch. Er hat am Dienstag und Donnerstag nachmittags Zeit.",
+      "13": "Sie suchen ein Hotel für eine Geschäftsreise nach Berlin. Sie brauchen ein ruhiges Zimmer mit Schreibtisch und guter Internetverbindung. Budget: bis 120 € / Nacht.",
+      "14": "Ihre Schwester möchte ein Fahrrad kaufen. Sie sucht ein neues Stadtrad für den Alltag. Budget: ca. 500 €.",
+      "15": "Sie möchten in den Sommerferien einen Sprachkurs im Ausland machen. Sie interessieren sich für Spanisch.",
+      "16": "Ihr Vater sucht einen Arzt für einen Gesundheits-Check-up. Er hat keine Beschwerden, möchte aber seine Gesundheit überprüfen lassen.",
+      "17": "Sie suchen einen Kurs, bei dem Sie lernen, Möbel selbst zu reparieren oder zu restaurieren. Sie haben samstags Zeit.",
+      "18": "Ihre Freundin sucht ein Buch über gesunde Ernährung. Sie möchte mehr über Vitamine und Mineralien lernen.",
+      "19": "Sie möchten am Donnerstagabend mit Kollegen etwas unternehmen. Sie suchen ein Bar oder Lokal mit Livemusik.",
+      "20": "Ihr Bruder möchte sein Abitur nachholen. Er arbeitet tagsüber und sucht Abendkurse."
     },
     "ads": {
       "a": {
-        "title": "Chili & Chutney – Indische Spezialitäten",
-        "body": "Erleben Sie die Vielfalt der indischen Küche mitten in der Altstadt! Wir bieten traditionelle Currys, Tandoori-Gerichte und eine große Auswahl an vegetarischen Speisen[cite: 1].\nÖffnungszeiten: Di.–So. 12:00–15:00 Uhr und 18:00–23:00 Uhr. Montag Ruhetag[cite: 1].\nReservierungen online oder unter Tel. 030-22 33 44. Friedrichstraße 12, Berlin[cite: 1]."
+        "title": "TANZSCHULE RITMO LATINO",
+        "body": "Salsa, Bachata, Merengue — für Paare und Singles!\nAnfängerkurse für Paare: keine Vorkenntnisse notwendig.\nMittwochs 19:00–20:30 Uhr (Salsa Anfänger)\nFreitags 20:00–21:30 Uhr (Bachata Anfänger)\nKursgebühr: 75 € pro Person / Monat (4 Kurse)\nProbestunde: 10 € pro Paar.\nAnmeldung: tanzschule-ritmo.de | Tel. 030-667788"
       },
       "b": {
-        "title": "Ferienhaus Alpenglück",
-        "body": "Verbringen Sie Ihren Sommerurlaub im wunderschönen Allgäu! Unser modern eingerichtetes Ferienhaus bietet Platz für bis zu 6 Personen[cite: 1]. Große Wohnküche zur Selbstversorgung, Balkon mit Bergblick, Garten mit Grillplatz[cite: 1].\nVermietung: Mai bis Oktober. Mindestaufenthalt: 7 Nächte[cite: 1].\nKontakt: info@alpenglueck-ferien.de, Tel. 08321-99 88 77[cite: 1]."
+        "title": "HOTEL METROPOL BUSINESS — BERLIN",
+        "body": "Komfort und Effizienz für Geschäftsreisende\nAlle Zimmer mit Schreibtisch, Highspeed-WLAN und Kaffeemaschine.\nRuhige Lage in Charlottenburg. Frühstücksbuffet optional (+14 €).\nEinzelzimmer: ab 95 € / Nacht | Doppelzimmer: ab 140 € / Nacht\nBuchung: metropol-business-berlin.de | Tel. 030-554433"
       },
       "c": {
-        "title": "Grafikdesign-Studio „Farbenfroh“",
-        "body": "Wir bringen Ihre Ideen auf Papier und Bildschirm! Professionelle Gestaltung von Logos, Flyern, Visitenkarten und Speisekarten für Gastronomie und Gewerbe[cite: 1]. Individuelle Beratung für Gründer und Kleinunternehmer[cite: 1].\nKostenloses Erstgespräch: kontakt@studio-farbenfroh.de, Tel. 0176-55 44 33 22[cite: 1]."
+        "title": "NACHHILFE LERNPOWER",
+        "body": "Effektive Hilfe für Schüler aller Klassen\nEnglisch für Klassen 5–10. Erfahrene Lehrkräfte.\nDienstags und donnerstags: 15:00–16:30 Uhr und 16:30–18:00 Uhr.\nKleine Gruppen (max. 4 Schüler).\nPreis: 45 € / Woche (2 Einheiten)\nProbestunde kostenlos. Anmeldung: lernpower-nachhilfe.de"
       },
       "d": {
-        "title": "Praktikum bei TechSolutions",
-        "body": "Du studierst Informatik oder Software Engineering und suchst praktische Erfahrung? Wir bieten 3-monatige bezahlte Praktikumsplätze im Bereich Mobile Apps für die Monate August bis Oktober[cite: 1].\nAnforderungen: Grundkenntnisse in Java oder Swift, Teamfähigkeit[cite: 1].\nBewerbung mit Lebenslauf an: jobs@techsolutions-it.de[cite: 1]."
+        "title": "MÖBELRESTAURIERUNG FÜR HEIMWERKER",
+        "body": "Werkstatt Holzliebe, Stuttgart\nLernen Sie, alte Möbel zu reparieren, zu schleifen und zu\nlackieren. Samstags: 9:00–13:00 Uhr\nAlle Werkzeuge werden gestellt. Eigene Möbelstücke mitbringen!\nKursgebühr: 65 € / Monat (4 Samstage)\nAnmeldung: werkstatt-holzliebe.de | Tel. 0711-334455"
       },
       "e": {
-        "title": "Deutsches Haus – Traditionelle Küche",
-        "body": "Genießen Sie klassische deutsche Gerichte wie Schweinebraten, Schnitzel und frische Salate in gemütlicher Atmosphäre[cite: 1]. Großer Biergarten für sonnige Tage. Ideal für Familienfeiern[cite: 1].\nÖffnungszeiten: Fr.–So. 11:30–22:00 Uhr, Mo.–Do. Ruhetag[cite: 1].\nReservierung dringend empfohlen: Tel. 089-44 55 66, Hauptstraße 45, München[cite: 1]."
-      },
-      "f": {
-        "title": "Sprachschule Lingua – Spanisch am Samstag",
-        "body": "Wochenendkurs Spanisch A1/A2 für Berufstätige. Lernen Sie die Grundlagen für Beruf und Urlaub ganz ohne Stress neben der Arbeit[cite: 1]. Small Talk, Grammatik und nützliche Vokabeln[cite: 1].\nKursdauer: 8 Wochen, jeden Samstag von 10:00 bis 13:30 Uhr[cite: 1].\nAnmeldung: www.lingua-sprachschule.de, Tel. 040-77 88 99[cite: 1]."
-      },
-      "g": {
-        "title": "Präsentationstraining Deutsch (C1)",
-        "body": "Intensivseminar für Fach- und Führungskräfte mit sehr guten Deutschkenntnissen (ab B2/C1)[cite: 1]. Themen: Struktur von Vorträgen, Körpersprache, Medieneinsatz, professionelles Auftreten vor Kunden[cite: 1].\nWochenend-Workshop: Sa. und So. jeweils 9:00–16:00 Uhr[cite: 1].\nInfos unter: training@business-deutsch.de[cite: 1]."
-      },
-      "h": {
-        "title": "Physio-Zentrum Mitte",
-        "body": "Ihre Experten für Rückenschmerzen, Sportverletzungen und Rehabilitation[cite: 1]. Modernste Geräte und individuelle Betreuung durch erfahrene Therapeuten[cite: 1].\nSprechzeiten: Mo.–Fr. 7:00–21:30 Uhr. Alle Krankenkassen und Privatpatienten[cite: 1].\nTermine nach Vereinbarung: Tel. 069-11 22 33, info@physio-mitte.de[cite: 1]."
-      },
-      "i": {
-        "title": "Smartphone-Kurs für Senioren",
-        "body": "Keine Angst vor der Technik! Wir zeigen Ihnen Schritt für Schritt, wie Sie Ihr Smartphone für Nachrichten, Fotos und Internet nutzen[cite: 1]. Keine Vorkenntnisse erforderlich. Small Groups, geduldiges Lernen[cite: 1].\nKurszeiten: Di. und Do. jeweils von 9:30 bis 11:00 Uhr. Dauer: 4 Wochen[cite: 1].\nAnmeldung im Stadtteilzentrum, Tel. 0221-55 66 77[cite: 1]."
-      },
-      "j": {
-        "title": "Kfz-Meisterbetrieb Wagner & Söhne",
-        "body": "Wir reparieren alle Automarken! Jahresservice, Reifenwechsel, Unfallreparaturen[cite: 1]. Wir suchen ab September Auszubildende (m/w/d) für den Beruf Kfz-Mechatroniker[cite: 1].\nBitte senden Sie Ihre vollständigen Bewerbungsunterlagen per Post an unsere Werkstatt[cite: 1].\nKontakt: Tel. 0711-88 99 00, info@kfz-wagner.de[cite: 1]."
-      },
-      "k": {
-        "title": "Ferienwohnung Seeblick",
-        "body": "Erholung pur direkt am Chiemsee für 2 Personen[cite: 1]. Moderne Ausstattung, Einbauküche, Terrasse zum See. Haustiere auf Anfrage erlaubt. Perfekt für ein langes Wochenende[cite: 1].\nBuchung ab 3 Nächten möglich[cite: 1].\nAnfragen unter: seeblick-urlaub@web.de[cite: 1]."
-      },
-      "l": {
-        "title": "Praktikum im Medienhaus",
-        "body": "Die Kölner Mediengruppe bietet Studentinnen und Studenten der Medienwissenschaften dreimonatige Praktika im Bereich Online-Redaktion und Social Media[cite: 1]. Aufgaben: Schreiben von Artikeln, Recherche[cite: 1].\nBeginn: flexibel. Unvergütetes Pflichtpraktikum[cite: 1].\nBewerbung an: redaktion@medienhaus-koeln.de[cite: 1]."
+        "title": "BAR BLAUE NOTE",
+        "body": "Jazz und Livemusik jeden Abend\nLivemusik: täglich ab 20:00 Uhr (Do–Sa auch Bands).\nCocktails, Bier, Wein und kleine Snacks.\nGemütliche Atmosphäre, keine Reservierung nötig.\nÖffnungszeiten: täglich 18:00–02:00 Uhr\nAdresse: Jazzgasse 7 | Tel. 040-778899"
       }
     },
     "answers": {
       "11": "a",
-      "12": "b",
-      "13": "x",
-      "14": "c",
-      "15": "f",
-      "16": "g",
-      "17": "e",
-      "18": "h",
-      "19": "d",
-      "20": "i"
+      "12": "c",
+      "13": "b",
+      "14": "x",
+      "15": "x",
+      "16": "x",
+      "17": "d",
+      "18": "x",
+      "19": "e",
+      "20": "x"
     }
   },
   {
@@ -2306,78 +2420,50 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
-      "11": "Sie möchten am Samstagabend mit Ihrer Partnerin Melis ein indisches Restaurant direkt im Stadtzentrum von Berlin besuchen[cite: 1].",
-      "12": "Ihr Cousin sucht für den Sommerurlaub eine Unterkunft in den Bergen für eine Gruppe von vier Personen, in der sie selbst kochen können[cite: 1].",
-      "13": "Die Tochter Ihrer Nachbarin möchte in den Schulferien ein kurzes, zweiwöchiges Praktikum in einer Autowerkstatt machen, um handwerkliche Erfahrungen zu sammeln[cite: 1].",
-      "14": "Ihr Bekannter plant, ein kleines Café zu eröffnen, und sucht jemanden, der das Logo und die Speisekarten professionell und kreativ gestaltet[cite: 1].",
-      "15": "Ihre Kollegin möchte Spanisch für Anfänger lernen, hat aber wegen ihrer langen Arbeitszeiten unter der Woche nur am Wochenende Zeit[cite: 1].",
-      "16": "Ihr Bruder Baris arbeitet im Ingenieurwesen, besitzt bereits B2-Deutschkenntnisse und möchte lernen, wie man professionelle Präsentationen auf Deutsch hält[cite: 1].",
-      "17": "Sie suchen für Sonntagmittag ein passendes Restaurant mit traditioneller deutscher Küche für ein großes Familienessen mit den Großeltern[cite: 1].",
-      "18": "Ihre Schwester leidet unter starken Rückenschmerzen und sucht eine Praxis für Physiotherapie mit Terminen am späten Abend[cite: 1].",
-      "19": "Ihr Freund studiert Informatik und sucht für die vorlesungsfreie Zeit im Spätsommer (August bis Oktober) ein bezahltes Praktikum im Bereich App-Entwicklung[cite: 1].",
-      "20": "Die Mutter Ihres Freundes möchte den Umgang mit ihrem neuen Smartphone lernen und sucht einen passenden Einsteigerkurs am Vormittag[cite: 1]."
+      "11": "Sie suchen eine günstige Kinderbetreuung für Ihre Zwillinge (5 Jahre). Sie brauchen jemanden von Montag bis Freitag von 7 bis 13 Uhr.",
+      "12": "Ihr Freund möchte joggen lernen und braucht einen Trainingsplan für Anfänger. Er hat noch nie regelmäßig Sport getrieben.",
+      "13": "Sie suchen einen Sprachkurs für Türkisch. Sie sind absolute Anfänger und haben abends Zeit.",
+      "14": "Ihre Tochter (17 Jahre) sucht eine Unterkunft für eine Klassenfahrt nach Wien für 5 Tage. Gruppe: 20 Schüler.",
+      "15": "Sie möchten im Herbst mit Freunden Pilze sammeln gehen und suchen eine geführte Tour mit einem Experten.",
+      "16": "Sie suchen einen Klavierkurs für Erwachsene. Sie haben als Kind Klavier gespielt und möchten wieder anfangen. Sie haben donnerstags Zeit.",
+      "17": "Ihre Kollegin hat Schlafprobleme und sucht einen Kurs oder eine Beratung, die ihr helfen kann.",
+      "18": "Sie möchten mit Ihrem Kind (3 Jahre) schwimmen gehen. Sie suchen ein Warmbad mit Kleinkindbereich.",
+      "19": "Ihr Bruder möchte sein Deutsch für den Beruf verbessern. Er arbeitet im Büro und sucht einen Kurs mit Fokus auf Schreiben und E-Mails. Nur abends kann er kommen.",
+      "20": "Sie suchen einen Fotoservice: Sie möchten alte Familienfotos digitalisieren lassen."
     },
     "ads": {
       "a": {
-        "title": "Chili & Chutney – Indische Spezialitäten",
-        "body": "Erleben Sie die Vielfalt der indischen Küche mitten in der Altstadt! Wir bieten traditionelle Currys, Tandoori-Gerichte und eine große Auswahl an vegetarischen Speisen[cite: 1].\nÖffnungszeiten: Di.–So. 12:00–15:00 Uhr und 18:00–23:00 Uhr. Montag Ruhetag[cite: 1].\nReservierungen online oder unter Tel. 030-22 33 44. Friedrichstraße 12, Berlin[cite: 1]."
+        "title": "KLAVIERSCHULE MELODIA",
+        "body": "Für Wiedereinsteiger und Anfänger\nSie haben früher Klavier gespielt und möchten wieder einsteigen?\nWir haben spezielle Kurse für Erwachsene.\nDonnerstags: 18:30–19:30 Uhr (Einzelstunde) oder\n19:30–20:30 Uhr (Kleingruppe, max. 4)\nProbestunde: 15 €. Einzelstunde: 40 € / 45 Min.\nGruppenunterricht: 20 € / Person / Stunde.\nAnmeldung: klavierschule-melodia.de | Tel. 030-445566"
       },
       "b": {
-        "title": "Ferienhaus Alpenglück",
-        "body": "Verbringen Sie Ihren Sommerurlaub im wunderschönen Allgäu! Unser modern eingerichtetes Ferienhaus bietet Platz für bis zu 6 Personen[cite: 1]. Große Wohnküche zur Selbstversorgung, Balkon mit Bergblick, Garten mit Grillplatz[cite: 1].\nVermietung: Mai bis Oktober. Mindestaufenthalt: 7 Nächte[cite: 1].\nKontakt: info@alpenglueck-ferien.de, Tel. 08321-99 88 77[cite: 1]."
+        "title": "DEUTSCHKURS BUSINESS — ABENDKURS",
+        "body": "Sprachschule ProDeutsch\nFokus: Schriftliches Deutsch für den Beruf — E-Mails, Berichte,\nPräsentationen. Für Lernende mit B1 oder höherem Niveau.\nMontag und Mittwoch: 18:30–20:00 Uhr\nKursdauer: 10 Wochen | Kursgebühr: 250 €\nInfo: prodeutsch-sprachschule.de | Tel. 089-778899"
       },
       "c": {
-        "title": "Grafikdesign-Studio „Farbenfroh“",
-        "body": "Wir bringen Ihre Ideen auf Papier und Bildschirm! Professionelle Gestaltung von Logos, Flyern, Visitenkarten und Speisekarten für Gastronomie und Gewerbe[cite: 1]. Individuelle Beratung für Gründer und Kleinunternehmer[cite: 1].\nKostenloses Erstgespräch: kontakt@studio-farbenfroh.de, Tel. 0176-55 44 33 22[cite: 1]."
+        "title": "FAMILIENBAD WASSERWELT",
+        "body": "Spaß für alle — von Klein bis Groß!\nWarmes Wasser (32°C), separater Kleinkindbereich mit Wasserrutsche,\nSpielbecken und Whirlpool.\nEintritt: Erwachsene 7 €, Kinder bis 3 Jahre: 3,50 €.\nÖffnungszeiten: täglich 9:00–21:00 Uhr\nAdresse: Wasserweg 5 | Tel. 040-334455"
       },
       "d": {
-        "title": "Praktikum bei TechSolutions",
-        "body": "Du studierst Informatik oder Software Engineering und suchst praktische Erfahrung? Wir bieten 3-monatige bezahlte Praktikumsplätze im Bereich Mobile Apps für die Monate August bis Oktober[cite: 1].\nAnforderungen: Grundkenntnisse in Java oder Swift, Teamfähigkeit[cite: 1].\nBewerbung mit Lebenslauf an: jobs@techsolutions-it.de[cite: 1]."
+        "title": "PILZWANDERUNG MIT EXPERTEN",
+        "body": "Natur genießen — sicher sammeln!\nGeführte Pilztour mit Mykologe Dr. Felix Huber.\nSamstags im September und Oktober: 9:00–13:00 Uhr.\nTreffpunkt: Waldparkplatz Birkenheide (B17, Ausfahrt Forst).\nTeilnahmegebühr: 18 € pro Person.\nKinder bis 12 Jahre: kostenlos. Anmeldung bis freitags erforderlich.\ninfo@pilzwanderung-huber.de | Tel. 08362-112244"
       },
       "e": {
-        "title": "Deutsches Haus – Traditionelle Küche",
-        "body": "Genießen Sie klassische deutsche Gerichte wie Schweinebraten, Schnitzel und frische Salate in gemütlicher Atmosphäre[cite: 1]. Großer Biergarten für sonnige Tage. Ideal für Familienfeiern[cite: 1].\nÖffnungszeiten: Fr.–So. 11:30–22:00 Uhr, Mo.–Do. Ruhetag[cite: 1].\nReservierung dringend empfohlen: Tel. 089-44 55 66, Hauptstraße 45, München[cite: 1]."
-      },
-      "f": {
-        "title": "Sprachschule Lingua – Spanisch am Samstag",
-        "body": "Wochenendkurs Spanisch A1/A2 für Berufstätige. Lernen Sie die Grundlagen für Beruf und Urlaub ganz ohne Stress neben der Arbeit[cite: 1]. Small Talk, Grammatik und nützliche Vokabeln[cite: 1].\nKursdauer: 8 Wochen, jeden Samstag von 10:00 bis 13:30 Uhr[cite: 1].\nAnmeldung: www.lingua-sprachschule.de, Tel. 040-77 88 99[cite: 1]."
-      },
-      "g": {
-        "title": "Präsentationstraining Deutsch (C1)",
-        "body": "Intensivseminar für Fach- und Führungskräfte mit sehr guten Deutschkenntnissen (ab B2/C1)[cite: 1]. Themen: Struktur von Vorträgen, Körpersprache, Medieneinsatz, professionelles Auftreten vor Kunden[cite: 1].\nWochenend-Workshop: Sa. und So. jeweils 9:00–16:00 Uhr[cite: 1].\nInfos unter: training@business-deutsch.de[cite: 1]."
-      },
-      "h": {
-        "title": "Physio-Zentrum Mitte",
-        "body": "Ihre Experten für Rückenschmerzen, Sportverletzungen und Rehabilitation[cite: 1]. Modernste Geräte und individuelle Betreuung durch erfahrene Therapeuten[cite: 1].\nSprechzeiten: Mo.–Fr. 7:00–21:30 Uhr. Alle Krankenkassen und Privatpatienten[cite: 1].\nTermine nach Vereinbarung: Tel. 069-11 22 33, info@physio-mitte.de[cite: 1]."
-      },
-      "i": {
-        "title": "Smartphone-Kurs für Senioren",
-        "body": "Keine Angst vor der Technik! Wir zeigen Ihnen Schritt für Schritt, wie Sie Ihr Smartphone für Nachrichten, Fotos und Internet nutzen[cite: 1]. Keine Vorkenntnisse erforderlich. Small Groups, geduldiges Lernen[cite: 1].\nKurszeiten: Di. und Do. jeweils von 9:30 bis 11:00 Uhr. Dauer: 4 Wochen[cite: 1].\nAnmeldung im Stadtteilzentrum, Tel. 0221-55 66 77[cite: 1]."
-      },
-      "j": {
-        "title": "Kfz-Meisterbetrieb Wagner & Söhne",
-        "body": "Wir reparieren alle Automarken! Jahresservice, Reifenwechsel, Unfallreparaturen[cite: 1]. Wir suchen ab September Auszubildende (m/w/d) für den Beruf Kfz-Mechatroniker[cite: 1].\nBitte senden Sie Ihre vollständigen Bewerbungsunterlagen per Post an unsere Werkstatt[cite: 1].\nKontakt: Tel. 0711-88 99 00, info@kfz-wagner.de[cite: 1]."
-      },
-      "k": {
-        "title": "Ferienwohnung Seeblick",
-        "body": "Erholung pur direkt am Chiemsee für 2 Personen[cite: 1]. Moderne Ausstattung, Einbauküche, Terrasse zum See. Haustiere auf Anfrage erlaubt. Perfekt für ein langes Wochenende[cite: 1].\nBuchung ab 3 Nächten möglich[cite: 1].\nAnfragen unter: seeblick-urlaub@web.de[cite: 1]."
-      },
-      "l": {
-        "title": "Praktikum im Medienhaus",
-        "body": "Die Kölner Mediengruppe bietet Studentinnen und Studenten der Medienwissenschaften dreimonatige Praktika im Bereich Online-Redaktion und Social Media[cite: 1]. Aufgaben: Schreiben von Artikeln, Recherche[cite: 1].\nBeginn: flexibel. Unvergütetes Pflichtpraktikum[cite: 1].\nBewerbung an: redaktion@medienhaus-koeln.de[cite: 1]."
+        "title": "KINDERGARTEN SONNENSCHEIN",
+        "body": "Ganztags- und Halbtagsbetreuung\nBetreuung für Kinder von 3–6 Jahren.\nÖffnungszeiten: Mo–Fr 7:00–13:00 Uhr (Halbtag) oder\n7:00–17:00 Uhr (Ganztag)\nMittagessen inklusive beim Ganztag.\nMonatsbeitrag: 220 € (Halbtag) | 350 € (Ganztag)\nAnmeldung und Info: kindergarten-sonnenschein.de\nTel. 089-223344"
       }
     },
     "answers": {
-      "11": "a",
-      "12": "b",
+      "11": "e",
+      "12": "x",
       "13": "x",
-      "14": "c",
-      "15": "f",
-      "16": "g",
-      "17": "e",
-      "18": "h",
-      "19": "d",
-      "20": "i"
+      "14": "x",
+      "15": "d",
+      "16": "a",
+      "17": "x",
+      "18": "c",
+      "19": "b",
+      "20": "x"
     }
   }
 ];

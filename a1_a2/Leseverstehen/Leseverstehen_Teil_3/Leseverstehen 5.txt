@@ -1,124 +1,151 @@
 ========================================================================
-telc DEUTSCH A1-A2: OFFIZIELLES LESEVERSTEHEN-TRAINING (ÖZGÜN SET 30)
+telc DEUTSCH A1-A2: LESEVERSTEHEN TEIL 4 — ÖZGÜN SET 05
 ========================================================================
-Prüfungsbaustein: Leseverstehen (Anzeigenzuordnung / İlan Eşleştirme)
-Dauer: 20 Minuten
-
-KURAL REHBERİ (telc Sınav Stratejisi):
-1. Bu bölüm bir ilan eşleştirme (Zuordnung) alıştırmasıdır. Amacınız, verilen durumlara (11-20) en uygun ilanı (a-l) bulmaktır[cite: 2]. Eğer bir durum için uygun bir ilan yoksa, o durumun karşısına "x" işareti koymalısınız[cite: 2].
-2. Strateji: Durumlarda geçen kişi sayısı, zaman dilimi, mutfak türü veya iş/staj türü gibi detayları ilanların içerikleriyle çok dikkatli bir şekilde karşılaştırın.
-3. Dikkat: Çeldiricilere karşı uyanık olun. Örneğin, bir ilan sadece 2 kişilik bir yer sunuyorsa ama durum 4 kişilik bir aile için yer arıyorsa, o şık yanlıştır.
+Prüfungsbaustein: Leseverstehen Teil 4
 
 ------------------------------------------------------------------------
 
-SITUATIONEN (DURUMLAR: 11 - 20)
+SITUATIONEN (DURUMLAR: 11–20)
 
-11 [  ]
-Sie möchten am Samstagabend mit Ihrer Partnerin Melis ein indisches Restaurant direkt im Stadtzentrum von Berlin besuchen[cite: 2].
+11  Sie möchten Ihren Hund in der Nähe der Stadt trainieren
+    lassen. Er ist jung und kennt noch keine Grundbefehle.
 
-12 [  ]
-Ihr Cousin plant im Sommer eine Reise in die Berge mit einer Gruppe von insgesamt vier Personen. Sie suchen ein gemütliches Ferienhaus, um selbst kochen zu können[cite: 2].
+12  Ihr Freund sucht einen Spanischkurs. Er ist Anfänger und
+    kann nur abends kommen, am liebsten unter der Woche.
 
-13 [  ]
-Die Tochter Ihrer Nachbarin möchte in den Ferien ein kurzes, zweiwöchiges Praktikum in einer Kfz-Werkstatt machen, um erste handwerkliche Erfahrungen zu sammeln[cite: 2].
+13  Sie planen eine Familienfeier mit 15 Personen und suchen
+    einen großen Raum zum Mieten, den Sie selbst dekorieren
+    und in dem Sie Ihr eigenes Essen mitbringen dürfen.
 
-14 [  ]
-Ihr Bekannter eröffnet bald bir küçük kafe ve arıyor bir uzman, der das Logo und die Speisekarten kreativ und professionell gestaltet[cite: 2].
+14  Ihre Schwester sucht eine ruhige Ferienwohnung im Grünen
+    für eine Woche mit ihrem Mann. Sie möchten Fahrrad fahren.
 
-15 [  ]
-Ihre Kollegin möchte Spanisch für Anfänger lernen. Da sie unter der Woche sehr lange im Büro arbeitet, hat sie nur am Wochenende Zeit für einen Kurs[cite: 2].
+15  Ihr Kollege möchte abnehmen und sucht eine Ernährungsberatung.
+    Er hat freitags Zeit.
 
-16 [  ]
-Ihr Bruder Baris arbeitet im Ingenieurwesen, hat bereits gute B2-Deutschkenntnisse und möchte lernen, wie man professionelle Präsentationen auf Deutsch hält[cite: 2].
+16  Sie suchen einen Babysitter für Ihr zweijähriges Kind.
+    Sie brauchen jemanden für Montagabend.
 
-17 [  ]
-Sie planen ein großes Familienessen am Sonntagmittag mit den Großeltern und suchen ein Restaurant mit traditioneller deutscher Küche[cite: 2].
+17  Ihr Kind (9 Jahre) möchte einen Fußballkurs besuchen.
+    Es hat noch keine Erfahrung. Trainingszeit ist egal.
 
-18 [  ]
-Ihre Schwester hat seit Tagen starke Rückenschmerzen und sucht eine Praxis für Physiotherapie, die Termine am späten Abend anbietet[cite: 2].
+18  Sie möchten ein altes Sofa loswerden. Es ist in gutem
+    Zustand und soll kostenlos abgegeben werden.
 
-19 [  ]
-Ihr Freund studiert Informatik und sucht für die vorlesungsfreie Zeit im Spätsommer (August bis Oktober) ein bezahltes Praktikum im Bereich App-Entwicklung[cite: 2].
+19  Ihre Freundin sucht einen Job als Bürokraft. Sie spricht
+    sehr gut Englisch und hat Erfahrung im Büro.
 
-20 [  ]
-Die Mutter Ihres Freundes möchte lernen, wie man ein Smartphone richtig bedient, und sucht einen Einsteigerkurs am Vormittag[cite: 2].
+20  Sie suchen eine Unterkunft in der Nähe von Frankfurt
+    für eine Nacht. Sie haben ein Auto und suchen
+    etwas Ruhiges außerhalb der Stadt.
 
 ------------------------------------------------------------------------
 
-ANZEIGEN (İLANLAR: a - l)
+ANGEBOTE (İLANLAR: a–e)
 
-a) Chili & Chutney – Indische Spezialitäten
-Erleben Sie die Vielfalt der indischen Küche mitten in der Altstadt! Wir bieten traditionelle Currys, Tandoori-Gerichte und eine große Auswahl an vegetarischen Speisen[cite: 2].
-Öffnungszeiten: Di.–So. 12:00–15:00 Uhr und 18:00–23:00 Uhr. Montag Ruhetag[cite: 2].
-Reservierungen online oder unter Tel. 030-22 33 44. Friedrichstraße 12, Berlin[cite: 2].
+------------------------------------------------------------------------
+a  HUNDESCHULE PFOTENHELD
+   Training für Hunde aller Rassen und Altersstufen
 
-b) Ferienhaus Alpenglück
-Verbringen Sie Ihren Sommerurlaub im wunderschönen Allgäu! Unser modern eingerichtetes Ferienhaus bietet Platz für bis zu 6 Personen[cite: 2]. Große Wohnküche zur Selbstversorgung, Balkon mit Bergblick, Garten mit Grillplatz[cite: 2].
-Vermietung: Mai bis Oktober. Mindestaufenthalt: 7 Nächte[cite: 2].
-Kontakt: info@alpenglueck-ferien.de, Tel. 08321-99 88 77[cite: 2].
+   Welpenkurs (bis 6 Monate) und Junghundekurs (6–18 Monate).
+   Grundgehorsam, Leinenführigkeit, Sozialisation.
+   Samstags und sonntags: 9:00–11:00 Uhr
 
-c) Grafikdesign-Studio „Farbenfroh“
-Wir bringen Ihre Ideen auf Papier und Bildschirm! Professionelle Gestaltung von Logos, Flyern, Visitenkarten und Speisekarten für Gastronomie und Gewerbe[cite: 2]. Individuelle Beratung für Gründer und Kleinunternehmer[cite: 2].
-Kostenloses Erstgespräch: kontakt@studio-farbenfroh.de, Tel. 0176-55 44 33 22[cite: 2].
+   Kursgebühr: 150 € für 8 Einheiten (Hund + 1 Person)
+   Infos & Anmeldung: hundeschule-pfotenheld.de
+   Tel. 06151-334455
 
-d) Praktikum bei TechSolutions
-Du studierst Informatik oder Software Engineering und suchst praktische Erfahrung? Wir bieten 3-monatige bezahlte Praktikumsplätze im Bereich Mobile Apps für die Monate August bis Oktober[cite: 2].
-Anforderungen: Grundkenntnisse in Java oder Swift, Teamfähigkeit[cite: 2].
-Bewerbung mit Lebenslauf an: jobs@techsolutions-it.de[cite: 2].
+------------------------------------------------------------------------
+b  SPANISCHKURS A1 — ABENDKURS
+   Instituto Cervantes, Frankfurt
 
-e) Deutsches Haus – Traditionelle Küche
-Genießen Sie klassische deutsche Gerichte wie Schweinebraten, Schnitzel und frische Salate in gemütlicher Atmosphäre[cite: 2]. Großer Biergarten für sonnige Tage. Ideal für Familienfeiern[cite: 2].
-Öffnungszeiten: Fr.–So. 11:30–22:00 Uhr, Mo.–Do. Ruhetag[cite: 2].
-Reservierung dringend empfohlen: Tel. 089-44 55 66, Hauptstraße 45, München[cite: 2].
+   Für absolute Anfänger. Lernen Sie Spanisch von Grund auf.
+   Kurszeiten: Montag und Mittwoch, 18:30–20:00 Uhr
+   Kursdauer: 10 Wochen | Kursstart: 3. Oktober
+   Kursgebühr: 195 € inkl. Kursmaterial
 
-f) Sprachschule Lingua – Spanisch am Samstag
-Wochenendkurs Spanisch A1/A2 für Berufstätige. Lernen Sie die Grundlagen für Beruf und Urlaub ganz ohne Stress neben der Arbeit[cite: 2]. Small Talk, Grammatik und nützliche Vokabeln[cite: 2].
-Kursdauer: 8 Wochen, jeden Samstag von 10:00 bis 13:30 Uhr[cite: 2].
-Anmeldung: www.lingua-sprachschule.de, Tel. 040-77 88 99[cite: 2].
+   Anmeldung: instituto-cervantes-ffm.de | Tel. 069-556677
 
-g) Präsentationstraining Deutsch (C1)
-Intensivseminar für Fach- und Führungskräfte mit sehr guten Deutschkenntnissen (ab B2/C1)[cite: 2]. Themen: Struktur von Vorträgen, Körpersprache, Medieneinsatz, professionelles Auftreten vor Kunden[cite: 2].
-Wochenend-Workshop: Sa. und So. jeweils 9:00–16:00 Uhr[cite: 2].
-Infos unter: training@business-deutsch.de[cite: 2].
+------------------------------------------------------------------------
+c  FERIENWOHNUNG IM TAUNUS
+   Natur pur — Erholung garantiert!
 
-h) Physio-Zentrum Mitte
-Ihre Experten für Rückenschmerzen, Sportverletzungen und Rehabilitation[cite: 2]. Modernste Geräte und individuelle Betreuung durch erfahrene Therapeuten[cite: 2].
-Sprechzeiten: Mo.–Fr. 7:00–21:30 Uhr. Alle Krankenkassen und Privatpatienten[cite: 2].
-Termine nach Vereinbarung: Tel. 069-11 22 33, info@physio-mitte.de[cite: 2].
+   Gemütliche 2-Zimmer-Wohnung mit Terrasse und Gartennutzung.
+   Ruhige Lage, direkt am Waldrand. Fahrräder kostenlos leihbar.
+   Für 2 Personen ideal.
 
-i) Smartphone-Kurs für Senioren
-Keine Angst vor der Technik! Wir zeigen Ihnen Schritt für Schritt, wie Sie Ihr Smartphone für Nachrichten, Fotos und Internet nutzen[cite: 2]. Keine Vorkenntnisse erforderlich. Small Groups, geduldiges Lernen[cite: 2].
-Kurszeiten: Di. und Do. jeweils von 9:30 bis 11:00 Uhr. Dauer: 4 Wochen[cite: 2].
-Anmeldung im Stadtteilzentrum, Tel. 0221-55 66 77[cite: 2].
+   Preis: 70 € / Nacht | Mindestaufenthalt: 3 Nächte.
+   Anreise: täglich nach Absprache.
+   Kontakt: taunus-ferien@mail.de | Tel. 06174-998877
 
-j) Kfz-Meisterbetrieb Wagner & Söhne
-Wir reparieren alle Automarken! Jahresservice, Reifenwechsel, Unfallreparaturen[cite: 2]. Wir suchen ab September Auszubildende (m/w/d) für den Beruf Kfz-Mechatroniker[cite: 2].
-Bitte senden Sie Ihre vollständigen Bewerbungsunterlagen per Post an unsere Werkstatt[cite: 2].
-Kontakt: Tel. 0711-88 99 00, info@kfz-wagner.de[cite: 2].
+------------------------------------------------------------------------
+d  FUSSBALLSCHULE TORJÄGER
+   Spaß und Technik für Kinder!
 
-k) Ferienwohnung Seeblick
-Erholung pur direkt am Chiemsee für 2 Personen[cite: 2]. Moderne Ausstattung, Einbauküche, Terrasse zum See. Haustiere auf Anfrage erlaubt. Perfekt für ein langes Wochenende[cite: 2].
-Buchung ab 3 Nächten möglich[cite: 2].
-Anfragen unter: seeblick-urlaub@web.de[cite: 2].
+   Für Kinder von 7 bis 14 Jahren — Anfänger herzlich willkommen!
+   Training: dienstags 16:00–17:30 Uhr und freitags 15:30–17:00 Uhr
+   Kosten: 30 € / Monat (Versicherung inklusive)
 
-l) Praktikum im Medienhaus
-Die Kölner Mediengruppe bietet Studentinnen und Studenten der Medienwissenschaften dreimonatige Praktika im Bereich Online-Redaktion und Social Media[cite: 2]. Aufgaben: Schreiben von Artikeln, Recherche[cite: 2].
-Beginn: flexibel. Unvergütetes Pflichtpraktikum[cite: 2].
-Bewerbung an: redaktion@medienhaus-koeln.de[cite: 2].
+   Anmeldung: fussballschule-torjaeger.de | Tel. 0711-223344
+
+------------------------------------------------------------------------
+e  PENSION WALDFRIEDEN
+   Ihr ruhiges Zuhause auf Zeit bei Frankfurt
+
+   Gemütliche Pension mit 6 Zimmern im Grünen.
+   Frühstück auf Wunsch (+9 €). Kostenloser Parkplatz.
+   WLAN verfügbar. Haustiere nach Absprache.
+
+   Einzelzimmer: 55 € / Nacht | Doppelzimmer: 85 € / Nacht
+   Buchung: waldfrieden-pension.de | Tel. 06103-445566
 
 ------------------------------------------------------------------------
 
 ========================================================================
-OFFIZIELLER LÖSUNGSSCHLÜSSEL (CEVAP ANAHTARI VE AÇIKLAMALAR)
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
 ========================================================================
 
-11: a (Chili & Chutney: Berlin merkezde/Altstadt, Hint mutfağı sunuyor ve Cumartesi akşamı açık[cite: 2].)
-12: b (Ferienhaus Alpenglück: Dağlık bölgede (Allgäu), kendi yemeğini pişirmek için büyük bir mutfağı var ve 6 kişiye kadar -4 kişi kalabilir- uygun[cite: 2].)
-13: x (İlan j'deki oto tamircisi sadece uzun süreli mesleki eğitim -Ausbildung- sunuyor, kısa süreli staj -Praktikum- aramıyor[cite: 2]. Bu yüzden uygun ilan yoktur.)
-14: c (Studio Farbenfroh: Gastronomi işletmeleri için logo ve menü kartı tasarımı hazırlıyor[cite: 2].)
-15: f (Sprachschule Lingua: Başlangıç seviyesinde (A1/A2) İspanyolca, sadece Cumartesi günleri yani hafta sonu kursu[cite: 2].)
-16: g (Präsentationstraining: B2 seviyesi ve üzeri Almanca bilenler için profesyonel sunum yapma semineri[cite: 2].)
-17: e (Deutsches Haus: Geleneksel Alman mutfağı, Pazar öğlen açık ve aile yemekleri için ideal[cite: 2].)
-18: h (Physio-Zentrum Mitte: Sırt ağrıları uzmanı, hafta içi akşam saat 21:30'a kadar açık -geç saat-[cite: 2].)
-19: d (TechSolutions: Bilişim öğrencilerine Spätsommer döneminde -Ağustos-Ekim- mobil uygulama alanında ücretli staj sunuyor[cite: 2].)
-20: i (Smartphone-Kurs: Yeni başlayanlar/yaşlılar için sabah 9:30 - 11:00 arası -vormittag- düzenlenen kurs[cite: 2].)
+11: a (Hundeschule Pfotenheld)
+   - Açıklama: Genç köpek, temel komutlar yok →
+     "Junghundekurs", "Grundgehorsam" öğretiyor. ✓
+
+12: b (Spanischkurs A1 — Abendkurs)
+   - Açıklama: Başlangıç, akşam, hafta içi →
+     "Absolute Anfänger", "Montag und Mittwoch, 18:30–20:00 Uhr". ✓
+
+13: x (Kein Angebot passt)
+   - Açıklama: 15 kişilik salon kiralama, kendi yemeğini getirebilecek →
+     İlanlarda salon kiralama ilanı yok. x ✓
+
+14: c (Ferienwohnung im Taunus)
+   - Açıklama: Sakin, yeşil, 1 hafta, 2 kişi, bisiklet →
+     "ruhige Lage", "Fahrräder kostenlos leihbar", 2 kişi ideal. ✓
+
+15: x (Kein Angebot passt)
+   - Açıklama: Beslenme danışmanlığı, Cuma →
+     İlanlarda beslenme danışmanlığı yok. x ✓
+
+16: x (Kein Angebot passt)
+   - Açıklama: Pazartesi akşamı bebek bakıcısı →
+     İlanlarda bakıcı ilanı yok. x ✓
+
+17: d (Fussballschule Torjäger)
+   - Açıklama: 9 yaşında, futbol kursu, başlangıç, saat fark etmez →
+     "7 bis 14 Jahren", "Anfänger herzlich willkommen". ✓
+
+18: x (Kein Angebot passt)
+   - Açıklama: Ücretsiz eski kanepe vermek istiyor →
+     İlanlarda ikinci el eşya verme/satma ilanı yok. x ✓
+
+19: x (Kein Angebot passt)
+   - Açıklama: İngilizce bilen ofis çalışanı iş arıyor →
+     İlanlarda iş ilanı yok. x ✓
+
+20: e (Pension Waldfrieden)
+   - Açıklama: Frankfurt yakını, 1 gece, arabayla gelecek, şehir dışı, sakin →
+     "bei Frankfurt", "Kostenloser Parkplatz", "im Grünen". ✓
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+11-a / 12-b / 13-x / 14-c / 15-x / 16-x / 17-d / 18-x / 19-x / 20-e
+========================================================================

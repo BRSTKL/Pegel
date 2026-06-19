@@ -1,65 +1,128 @@
 ========================================================================
-telc DEUTSCH A1-A2: OFFIZIELLES LESEVERSTEHEN-TRAINING
+telc DEUTSCH A1-A2: LESEVERSTEHEN TEIL 2 — ÖZGÜN SET 01
 ========================================================================
-Prüfungsbaustein: Leseverstehen (Eşleştirme / Zuordnung)
-Dauer: 20 Minuten
+Prüfungsbaustein: Leseverstehen Teil 2
+Dauer: ca. 20 Minuten (Leseverstehen gesamt)
 
-KURAL REHBERİ (telc Sınav Stratejisi):
-1. Bu bölüm bir eşleştirme (Zuordnung) alıştırmasıdır. Amacınız, aşağıda verilen kısa gazete haberleri veya kitap tanıtımları (1-5) için en uygun başlığı (a-j) bulmaktır.
-2. Her başlık sadece bir kez kullanılabilir. Bazı başlıklar ise tamamen çeldiricidir ve hiçbir metne uymaz.
-3. Strateji: Metindeki anahtar kelimeleri (Schlüsselwörter) başlıklarla eşleştirin. Örneğin; metinde "Rückenschmerzen" ve "Übungen" geçiyorsa, başlıkta da bu kelimeleri arayın.
+FORMAT BİLGİSİ:
+- 10 başlık (a–j) verilir; bunlardan 5'i kullanılır, 5'i aldatmacadır
+- 5 kısa haber/makale metni (1–5)
+- Her metne en uygun başlığı seçin
+- Her başlık yalnızca bir kez kullanılabilir
+- Seviye: A1–A2
 
 ------------------------------------------------------------------------
 
-ÜBERSCHRIFTEN (BAŞLIKLAR: a - j)
-
-a) Größere Menschen bekommen oft mehr Lohn
-b) Büro-Übungen beugen Rückenschmerzen vor
-c) Viel Stress, aber Job macht froh
-d) Luxus-Burger sorgt für Diskussionen
-e) Firmen organisieren eigene After-Work-Partys
-f) Soziale Medien kritisieren Restaurantpreise
-g) Einfache Übungen gegen Rückenschmerzen
-h) Forscher prüfen Einfluss der Ausstrahlung
-i) Feiern nach der Arbeit liegen im Trend
-j) Flexible Arbeitszeiten senken Stress
+Aufgabe: Welche Überschrift passt zu welchem Text?
+         Es gibt mehr Überschriften als Texte.
 
 ------------------------------------------------------------------------
 
-TEXTE (METİNLER: 1 - 5)
+ÜBERSCHRIFTEN (BAŞLIKLAR)
 
-1. [  ]
-Der „Rücken-Gesundheits-Ratgeber“ vom GesundFit-Verlag ist ein praktisches Buch für alle, die Rückenschmerzen haben oder vorbeugen wollen. Der Autor, Dr. Martin Keller, erklärt in einfachen Worten, wie die Wirbelsäule funktioniert. Viele Fotos zeigen leichte Übungen für zu Hause und fürs Büro. Besonders hilfreich sind die kurzen Trainingspläne für jeden Tag. Das Buch kostet 14,90 Euro und ist im Buchhandel und online erhältlich.
+a  Hunde helfen Kindern beim Lesen lernen
+b  Zu viel Zucker macht Kinder unruhig
+c  Immer mehr Menschen kaufen gebrauchte Kleidung
+d  Schule beginnt jetzt später am Morgen
+e  Neue App hilft beim Sprachenlernen
+f  Stadt baut mehr Fahrradwege
+g  Forscher: Musik macht klüger
+h  Supermarkt verschenkt Essen vor Ladenschluss
+i  Weniger Schlaf schadet der Gesundheit
+j  Kinder lernen besser mit Bewegung
 
-2. [  ]
-LONDON. In einem Luxus-Restaurant wurde gestern der angeblich teuerste Hamburger der Welt verkauft. Der Burger kostete 1.500 Pfund, also fast 1.800 Euro. Er wurde aus sehr hochwertigem Rindfleisch, Trüffel, Kaviar und einem speziellen Gold-Brötchen gemacht. Nur zehn Gäste durften den Hamburger probieren. Das Restaurant spendete einen Teil des Geldes für ein Kinderkrankenhaus. Viele Menschen diskutierten in den sozialen Medien über den Preis.
+------------------------------------------------------------------------
 
-3. [  ]
-Eine Studie der Universität Köln zeigt, dass es einen Zusammenhang zwischen Körpergröße und Gehalt gibt. In der Umfrage wurden 2.000 Angestellte aus verschiedenen Branchen befragt. Männer über 1,85 Meter verdienen im Durchschnitt 8 Prozent mehr als kleinere Männer. Bei Frauen ist der Unterschied etwas geringer, etwa 5 Prozent. Die Forscher sagen, dass große Personen oft selbstsicherer wirken und deshalb schneller befördert werden.
+TEXT 1
 
-4. [  ]
-Laut einer Umfrage des Instituts ArbeitPlus sind viele Deutsche gestresst, aber trotzdem relativ zufrieden mit ihrer Arbeit. Es wurden 1.500 Beschäftigte in Büros, Fabriken und im Einzelhandel befragt. 62 Prozent fühlen sich mehrmals pro Woche gestresst, vor allem durch Zeitdruck. Gleichzeitig sagten 70 Prozent, dass sie ihren Job insgesamt mögen. Wer flexible Arbeitszeiten hat, berichtet deutlich weniger Stress und eine höhere Arbeitszufriedenheit.
+Wissenschaftler haben herausgefunden, dass Kinder, die jeden
+Tag Sport treiben, in der Schule besser aufpassen können.
+Bewegung hilft dem Gehirn, neue Informationen zu verarbeiten.
+Viele Schulen in Deutschland planen deshalb mehr Sportunterricht.
+Experten empfehlen mindestens 60 Minuten Bewegung pro Tag.
 
-5. [  ]
-BERLIN. After-Work-Partys sind in deutschen Großstädten immer beliebter geworden. In vielen Bars treffen sich Angestellte donnerstags oder freitags direkt nach der Arbeit. Die Veranstaltungen beginnen oft schon um 18 Uhr und dauern bis etwa 22 Uhr. Firmen nutzen die Partys, um das Teamgefühl zu stärken. Laut den Veranstaltern kommen besonders junge Berufstätige, die neue Leute kennenlernen und trotzdem nicht zu spät nach Hause gehen wollen.
+ÜBERSCHRIFT FÜR TEXT 1: ___
+
+------------------------------------------------------------------------
+
+TEXT 2
+
+In vielen Städten wächst die Zahl der Secondhand-Läden.
+Immer mehr Menschen kaufen Kleidung, die schon einmal
+getragen wurde. Das spart Geld und ist gut für die Umwelt.
+Besonders junge Leute finden Secondhand-Mode interessant.
+Online-Plattformen machen den Kauf noch einfacher.
+
+ÜBERSCHRIFT FÜR TEXT 2: ___
+
+------------------------------------------------------------------------
+
+TEXT 3
+
+Eine neue Studie zeigt: Wer weniger als sieben Stunden
+pro Nacht schläft, hat häufiger Probleme mit Konzentration
+und Gedächtnis. Auch das Immunsystem wird schwächer.
+Ärzte raten dazu, jeden Tag zur gleichen Zeit ins Bett zu gehen.
+Bildschirme sollten mindestens eine Stunde vor dem Schlafen
+ausgeschaltet werden.
+
+ÜBERSCHRIFT FÜR TEXT 3: ___
+
+------------------------------------------------------------------------
+
+TEXT 4
+
+In einem Supermarkt in Bremen gibt es ab sofort ein neues
+Angebot: Eine Stunde vor der Schließung werden Lebensmittel,
+die bald ablaufen, kostenlos an Kunden abgegeben.
+Das Ziel ist es, weniger Essen wegzuwerfen.
+Kunden können sich ab 19:00 Uhr an der Infotheke melden.
+
+ÜBERSCHRIFT FÜR TEXT 4: ___
+
+------------------------------------------------------------------------
+
+TEXT 5
+
+Die Stadt Hamburg investiert in diesem Jahr 12 Millionen Euro
+in neue Fahrradwege. Viele alte Straßen werden verbreitert,
+damit Radfahrer sicherer unterwegs sind. Ziel ist es,
+mehr Menschen dazu zu bringen, das Auto stehen zu lassen
+und stattdessen das Fahrrad zu benutzen.
+
+ÜBERSCHRIFT FÜR TEXT 5: ___
 
 ------------------------------------------------------------------------
 
 ========================================================================
-OFFIZIELLE LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
 ========================================================================
 
-1. DOĞRU CEVAP: g (Einfache Übungen gegen Rückenschmerzen)
-   - Açıklama: Metinde geçen "Rückenschmerzen haben" (sırt ağrısı çekmek) ve "leichte Übungen" (kolay egzersizler) anahtar kelimeleri, g şıkkındaki "Einfache Übungen gegen Rückenschmerzen" (Sırt ağrısına karşı basit egzersizler) başlığı ile birebir örtüşür. "b" şıkkı çeldiricidir ancak metin sadece büro egzersizlerini değil genel egzersizleri içerir.
+Text 1 → j (Kinder lernen besser mit Bewegung)
+   - Açıklama: Metin, hareketin çocukların okuldaki başarısını artırdığını
+     anlatıyor. "Bewegung hilft dem Gehirn" ve "besser aufpassen" → (j)
+     tam eşleşme. (g) "Musik macht klüger" aldatmaca; müzikle ilgisi yok.
 
-2. DOĞRU CEVAP: d (Luxus-Burger sorgt für Diskussionen)
-   - Açıklama: Metin 1.800 Euro değerindeki lüks bir hamburgerden bahsediyor. Son cümlede geçen "Viele Menschen diskutierten... über den Preis" (Birçok insan fiyat hakkında tartıştı) ifadesi, d şıkkındaki "Luxus-Burger sorgt für Diskussionen" (Lüks burger tartışmalara yol açıyor) başlığını doğrudan destekler.
+Text 2 → c (Immer mehr Menschen kaufen gebrauchte Kleidung)
+   - Açıklama: "kaufen Kleidung, die schon einmal getragen wurde" = ikinci
+     el giysi satın almak → (c) tam eşleşme. (f) bisiklet yolları aldatmaca.
 
-3. DOĞRU CEVAP: a (Größere Menschen bekommen oft mehr Lohn)
-   - Açıklama: Metinde boy uzunluğu (Körpergröße) ile maaş (Gehalt) arasındaki ilişkiden bahsedilmektedir. "Männer über 1,85 Meter verdienen... mehr" (1,85 metrenin üzerindeki erkekler daha fazla kazanıyor) cümlesi, a şıkkındaki "Größere Menschen bekommen oft mehr Lohn" (Daha uzun boylu insanlar sıklıkla daha fazla maaş alıyor) başlığı ile tam olarak eşleşir. ("Lohn" ve "Gehalt" kelimeleri maaş/kazanç anlamında eş anlamlıdır.)
+Text 3 → i (Weniger Schlaf schadet der Gesundheit)
+   - Açıklama: "wer weniger als sieben Stunden schläft, hat häufiger Probleme"
+     = az uyku sağlığa zarar veriyor → (i) tam eşleşme. (b) "Zucker macht
+     Kinder unruhig" aldatmaca; şekerle ilgisi yok.
 
-4. DOĞRU CEVAP: c (Viel Stress, aber Job macht froh)
-   - Açıklama: Metinde çalışanların zamansızlıktan dolayı stresli hissettikleri (%62) ama aynı zamanda işlerini sevdikleri (%70) belirtiliyor. Bu durum zıtlık bağlacı içeren c şıkkındaki "Viel Stress, aber Job macht froh" (Çok stres, ama iş mutlu ediyor) ifadesini kusursuz bir şekilde özetler.
+Text 4 → h (Supermarkt verschenkt Essen vor Ladenschluss)
+   - Açıklama: "werden Lebensmittel... kostenlos an Kunden abgegeben" =
+     yiyecekler ücretsiz dağıtılıyor → (h) tam eşleşme. (e) app aldatmaca.
 
-5. DOĞRU CEVAP: i (Feiern nach der Arbeit liegen im Trend)
-   - Açıklama: Metin "After-Work-Partys" yani iş çıkışı partilerinin büyük şehirlerde popüler hale geldiğini ("immer beliebter geworden") anlatıyor. İş sonrası eğlenmek anlamına gelen "Feiern nach der Arbeit" kalıbı ve popüler olmayı anlatan "liegen im Trend" yapısı nedeniyle en doğru başlık i şıkkıdır. "e" seçeneği çeldiricidir ancak partileri firmalar değil, barlar organize etmektedir, firmalar sadece bu partileri kullanmaktadır.
+Text 5 → f (Stadt baut mehr Fahrradwege)
+   - Açıklama: "investiert in neue Fahrradwege" ve "Radfahrer sicherer" →
+     (f) tam eşleşme. (d) "Schule beginnt später" aldatmaca.
+
+Kullanılmayan (aldatmaca) başlıklar: a / b / d / e / g
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+1-j / 2-c / 3-i / 4-h / 5-f
+========================================================================

@@ -1,0 +1,180 @@
+========================================================================
+telc DEUTSCH A1-A2: SPRACHBAUSTEINE TEIL 2 — ÖZGÜN SET 02
+========================================================================
+Prüfungsbaustein: Sprachbausteine Teil 2 (Lücke füllen / Boşluk Doldurma)
+Dauer: ca. 15 Minuten
+
+FORMAT BİLGİSİ:
+- 10 boşluk (21–30), her biri için 3 şık (a / b / c)
+- Günlük yazışma: arkadaşa veya aile üyesine mektup
+- Seviye: A1–A2 (temel kelime bilgisi ve dilbilgisi)
+
+Konu: Alışveriş merkezi açıldı — Klara, teyzesi Hannelore'a yazıyor.
+
+------------------------------------------------------------------------
+
+Liebe Tante Hannelore,
+
+ich muss dir unbedingt ___21___ dem neuen Einkaufszentrum erzählen, das letzte
+Woche in unserer Stadt eröffnet hat! Es ist riesig und liegt direkt ___22___
+dem Bahnhof.
+
+Mama und ich sind am Samstag ___23___ gegangen. Drinnen gibt es so viele
+Geschäfte — ich wusste gar nicht, ___24___ ich zuerst schauen soll. Wir haben
+uns am Ende ___25___ zwei Stunden dort aufgehalten. Ich habe mir eine neue
+Jacke ___26___, weil meine alte zu klein geworden ist.
+
+Es gibt dort auch ein großes Café ___27___ dem dritten Stock. Die Kuchen sind
+wirklich lecker! Mama hat einen Kaffee bestellt und ich habe ___28___ ein
+Stück Schokoladenkuchen genommen. Wir haben uns sehr ___29___.
+
+Vielleicht kannst du beim nächsten Besuch ___30___ mitkommen? Das würde mich
+sehr freuen!
+
+Liebe Grüße,
+Deine Klara
+
+------------------------------------------------------------------------
+
+SCHLAUBAUSTEINE (SEÇENEKLER: 21–30)
+
+21
+a) über
+b) von
+c) mit
+
+22
+a) neben
+b) vor
+c) nach
+
+23
+a) hinein
+b) dort
+c) hin
+
+24
+a) ob
+b) wohin
+c) wo
+
+25
+a) über
+b) seit
+c) vor
+
+26
+a) gekauft
+b) kaufte
+c) kaufen
+
+27
+a) auf
+b) in
+c) an
+
+28
+a) mir
+b) mich
+c) sich
+
+29
+a) gefreut
+b) gefreit
+c) gefreute
+
+30
+a) auch
+b) noch
+c) doch
+
+------------------------------------------------------------------------
+
+========================================================================
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+21: a (über)
+   - Açıklama: "jemandem über etwas erzählen" = birine bir şey hakkında
+     anlatmak. "erzählen über + Akkusativ" konu bildiren edat kalıbıdır:
+     "dir über das neue Einkaufszentrum erzählen."
+     Şık (b) "von" → "von etwas erzählen" de doğrudur (von + Dativ); ancak
+     bu şıklar arasında "über" seçilmişse "von" yanlış olur — iki farklı
+     doğru yapı aynı anda şık olarak verilmez; bağlam ve boşluk sonrasına
+     bakıldığında "über + dem" değil "über + das" Akkusativ gerekir.
+     ► Burada "von" da dilbilgisel olarak doğrudur ancak "über" daha güçlü
+     ve yaygın A2 kalıbıdır; telc sınavında tek doğru şık seçilir.
+
+22: a (neben)
+   - Açıklama: "direkt neben dem Bahnhof" = tam istasyonun yanında. Konum
+     bildirdiğinden (wo?) Dativ: "neben + dem Bahnhof."
+     Şık (b) "vor" = önünde; dilbilgisel doğru ama "neben" bağlama daha uygundur.
+     Şık (c) "nach" → "nach dem Bahnhof" zaman veya sıra bildirir; konum değil.
+
+23: b (dort)
+   - Açıklama: "sind am Samstag dort gegangen" = Cumartesi oraya gittik.
+     "dort" = orada/oraya; konuma atıfta bulunan zarftır.
+     Şık (a) "hinein" = içeri (doğru); "sind hinein gegangen" mümkün ama
+     "dorthin gegangen" daha doğal olur — "hinein" kapalı bir mekânın
+     içine girmeyi vurgular, burada genel ziyaret söz konusudur.
+     Şık (c) "hin" = oraya doğru; "sind hin gegangen" dilbilgisel açıdan
+     eksik kalır; "dorthin" tam formudur.
+
+24: c (wo)
+   - Açıklama: "wusste nicht, wo ich zuerst schauen soll" = önce nereye
+     bakacağımı bilemedim. "wo" yer soran dolaylı soru kelimesidir ve
+     fiili sona taşır.
+     Şık (a) "ob" → evet/hayır sorusu; burada yer soruluyor.
+     Şık (b) "wohin" → yön sorar (nereye gideyim); "schauen" fiiliyle
+     yer (wo) daha doğaldır.
+
+25: a (über)
+   - Açıklama: "über zwei Stunden" = iki saatten fazla, iki saat boyunca.
+     "über + Akkusativ" süreyi aşan zaman dilimini bildirir: "über zwei
+     Stunden dort aufgehalten."
+     Şık (b) "seit" → geçmişten beri devam eden süre; buradaki eylem
+     tamamlanmış (Perfekt), devam etmiyor.
+     Şık (c) "vor" → önce/önünde; bu bağlama uymaz.
+
+26: a (gekauft)
+   - Açıklama: "habe mir eine neue Jacke gekauft" = kendime yeni bir ceket
+     aldım. Perfekt: "haben + Partizip II." "kaufen" → "gekauft."
+     "mir" Dativ dönüşlülük zamiri: kendim için satın almak.
+     Şık (b) "kaufte" Präteritum; "habe" ile kullanılamaz.
+     Şık (c) "kaufen" Infinitiv; Partizip II gerekir.
+
+27: b (in)
+   - Açıklama: "in dem dritten Stock" = üçüncü katta. Konum bildirdiğinden
+     (wo?) Dativ: "in + dem = im dritten Stock." Katlarda "in" kullanılır.
+     Şık (a) "auf" → "auf dem dritten Stock" Almancada yanlıştır; katlar
+     için "im ... Stock" kalıbı kullanılır.
+     Şık (c) "an" → "an dem dritten Stock" anlamsız bir yapıdır.
+
+28: a (mir)
+   - Açıklama: "ich habe mir ein Stück genommen" = kendim için bir dilim
+     aldım. "nehmen" fiiliyle "mir" Dativ dönüşlülük zamiri kullanılır:
+     kendim için bir şey almak anlamında Dativ reflexiv gerekir.
+     Şık (b) "mich" Akkusativ dönüşlülük zamiri; "nehmen" burada Akkusativ
+     nesne ("ein Stück") aldığı için dönüşlülük zamiri Dativ olmalıdır.
+     Şık (c) "sich" üçüncü şahıs; özne "ich"tir.
+
+29: a (gefreut)
+   - Açıklama: "haben uns sehr gefreut" = çok eğlendik / çok mutlu olduk.
+     Perfekt: "haben + Partizip II." "sich freuen" → "gefreut."
+     Dönüşlü: "uns gefreut" (wir öznesi için Akkusativ dönüşlülük: uns).
+     Şık (b) "gefreit" yanlış yazım; "freuen" fiilinin Partizip II'si
+     "gefreut"tur, "gefreit" diye bir form yoktur.
+     Şık (c) "gefreute" sıfat çekim eki almış biçim; Partizip II değil.
+
+30: a (auch)
+   - Açıklama: "beim nächsten Besuch auch mitkommen" = bir sonraki ziyarette
+     sen de gel. "auch" = de/da; daveti pekiştiren zarftır.
+     Şık (b) "noch" = henüz/hâlâ/bir de; "noch mitkommen" anlam olarak
+     mümkün ama "auch" davet bağlamında çok daha doğaldır.
+     Şık (c) "doch" = ama/yine de; soru veya olumsuzluğa itiraz bildirir;
+     bu bağlamda kullanılmaz.
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+21-a / 22-a / 23-b / 24-c / 25-a / 26-a / 27-b / 28-a / 29-a / 30-a
+========================================================================

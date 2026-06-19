@@ -1,124 +1,151 @@
 ========================================================================
-telc DEUTSCH A1-A2: OFFIZIELLES LESEVERSTEHEN-TRAINING (ÖZGÜN SET 29)
+telc DEUTSCH A1-A2: LESEVERSTEHEN TEIL 4 — ÖZGÜN SET 04
 ========================================================================
-Prüfungsbaustein: Leseverstehen (Anzeigenzuordnung / İlan Eşleştirme)
-Dauer: 20 Minuten
-
-KURAL REHBERİ (telc Sınav Stratejisi):
-1. Bu bölüm bir ilan esleştirme (Zuordnung) alıştırmasıdır. Amacınız, verilen durumlara (11-20) en uygun ilanı (a-l) bulmaktır[cite: 2]. Eğer bir durum için uygun bir ilan yoksa, o durumun karşısına "x" işareti koymalısınız[cite: 2].
-2. Strateji: Durumlarda belirtilen anahtar kelimeleri (kursun vakti, kişi sayısı, yemek türü, stajın ücretli/ücretsiz olması) ilanların detaylarıyla dikkatlice karşılaştırın.
-3. Dikkat: Bir ilanın duruma genel olarak uyması yetmez, tüm detayların (örn. gün ve saatlerin) eşleşmesi gerekir.
+Prüfungsbaustein: Leseverstehen Teil 4
 
 ------------------------------------------------------------------------
 
-SITUATIONEN (DURUMLAR: 11 - 20)
+SITUATIONEN (DURUMLAR: 11–20)
 
-11 [  ]
-Sie möchten am Samstagabend mit Ihrer Partnerin Melis ein indisches Restaurant direkt im Stadtzentrum von Berlin besuchen[cite: 2].
+11  Sie möchten mit Freunden ein Wochenende in Hamburg verbringen
+    und suchen eine günstige Unterkunft für 4 Personen.
 
-12 [  ]
-Ihr Cousin sucht für den Sommerurlaub eine Unterkunft in den Bergen für eine Gruppe von vier Personen, in der sie selbst kochen können[cite: 2].
+12  Ihre Kollegin hat Rückenschmerzen und sucht einen Kurs,
+    der ihr hilft. Sie hat dienstags und donnerstags abends Zeit.
 
-13 [  ]
-Die Tochter Ihrer Nachbarin möchte in den Schulferien ein kurzes, zweiwöchiges Praktikum in einer Autowerkstatt machen, um handwerkliche Erfahrungen zu sammeln[cite: 2].
+13  Ihr Bruder sucht eine Arbeit für den Sommer. Er ist 20 Jahre
+    alt und kann gut kochen.
 
-14 [  ]
-Ihr Bekannter eröffnet demnächst ein kleines Café und sucht jemanden, der das Logo und die Speisekarten professionell gestaltet[cite: 2].
+14  Sie suchen ein Geschenk für Ihren Vater. Er liebt Bücher
+    und liest gerne Kriminalromane.
 
-15 [  ]
-Ihre Kollegin möchte Spanisch für Anfänger lernen, hat aber wegen ihrer langen Arbeitszeiten unter der Woche nur am Wochenende Zeit[cite: 2].
+15  Ihre Freundin hat ein Baby und sucht einen Kurs, wo sie
+    andere Mütter treffen und mit ihrem Baby aktiv sein kann.
 
-16 [  ]
-Ihr Bruder Baris arbeitet im Ingenieursbereich, besitzt bereits B2-Deutschkenntnisse und möchte lernen, wie man professionelle Präsentationen hält[cite: 2].
+16  Sie möchten eine Fremdsprache lernen. Sie interessieren sich
+    für Französisch und haben montags und mittwochs abends Zeit.
 
-17 [  ]
-Sie suchen für Sonntagmittag ein passendes Restaurant mit traditioneller deutscher Küche für ein großes Familienessen mit den Großeltern[cite: 2].
+17  Ihr Nachbar möchte sein Auto verkaufen. Es ist 5 Jahre alt
+    und in gutem Zustand.
 
-18 [  ]
-Ihre Schwester leidet unter starken Rückenschmerzen und sucht eine Praxis für Physiotherapie mit Terminen am späten Abend[cite: 2].
+18  Sie suchen ein Restaurant für einen Geschäftslunch mit
+    drei Kollegen am Dienstag. Das Restaurant soll ruhig und
+    gehoben sein.
 
-19 [  ]
-Ihr Freund studiert Informatik und sucht für die vorlesungsfreie Zeit im Spätsommer (August bis Oktober) ein bezahltes Praktikum im Bereich App-Entwicklung[cite: 2].
+19  Ihre Tochter (16 Jahre) möchte in den Sommerferien arbeiten.
+    Sie sucht einen Ferienjob.
 
-20 [  ]
-Die Mutter Ihres Freundes möchte den Umgang mit ihrem neuen Smartphone lernen und sucht einen passenden Einsteigerkurs am Vormittag[cite: 2].
+20  Sie möchten in Ihrer Freizeit malen lernen. Sie haben
+    samstags Zeit und sind Anfänger.
 
 ------------------------------------------------------------------------
 
-ANZEIGEN (İLANLAR: a - l)
+ANGEBOTE (İLANLAR: a–e)
 
-a) Chili & Chutney – Indische Spezialitäten
-Erleben Sie die Vielfalt der indischen Küche mitten in der Altstadt! Wir bieten traditionelle Currys, Tandoori-Gerichte und eine große Auswahl an vegetarischen Speisen[cite: 2].
-Öffnungszeiten: Di.–So. 12:00–15:00 Uhr und 18:00–23:00 Uhr. Montag Ruhetag[cite: 2].
-Reservierungen online oder unter Tel. 030-22 33 44. Friedrichstraße 12, Berlin[cite: 2].
+------------------------------------------------------------------------
+a  HOSTEL ALSTER — HAMBURG
+   Günstig wohnen in der Hansestadt!
 
-b) Ferienhaus Alpenglück
-Verbringen Sie Ihren Sommerurlaub im wunderschönen Allgäu! Unser modern eingerichtetes Ferienhaus bietet Platz für bis zu 6 Personen[cite: 2]. Große Wohnküche zur Selbstversorgung, Balkon mit Bergblick, Garten mit Grillplatz[cite: 2].
-Vermietung: Mai bis Oktober. Mindestaufenthalt: 7 Nächte[cite: 2].
-Kontakt: info@alpenglueck-ferien.de, Tel. 08321-99 88 77[cite: 2].
+   Zimmer für 2, 3 oder 4 Personen. Gemeinschaftsküche,
+   Frühstück optional (6 €), kostenloses WLAN, Fahrradverleih.
+   Zentral gelegen — 10 Minuten zur Alster.
 
-c) Grafikdesign-Studio „Farbenfroh“
-Wir bringen Ihre Ideen auf Papier und Bildschirm! Professionelle Gestaltung von Logos, Flyern, Visitenkarten und Speisekarten für Gastronomie und Gewerbe[cite: 2]. Individuelle Beratung für Gründer und Kleinunternehmer[cite: 2].
-Kostenloses Erstgespräch: kontakt@studio-farbenfroh.de, Tel. 0176-55 44 33 22[cite: 2].
+   Ab 22 € pro Person / Nacht.
+   Buchung: hostel-alster-hamburg.de | Tel. 040-334455
 
-d) Praktikum bei TechSolutions
-Du studierst Informatik oder Software Engineering und suchst praktische Erfahrung? Wir bieten 3-monatige bezahlte Praktikumsplätze im Bereich Mobile Apps für die Monate August bis Oktober[cite: 2].
-Anforderungen: Grundkenntnisse in Java oder Swift, Teamfähigkeit[cite: 2].
-Bewerbung mit Lebenslauf an: jobs@techsolutions-it.de[cite: 2].
+------------------------------------------------------------------------
+b  RÜCKENSCHULE & BEWEGUNG
+   Physiozentrum Stadtmitte
 
-e) Deutsches Haus – Traditionelle Küche
-Genießen Sie klassische deutsche Gerichte wie Schweinebraten, Schnitzel und frische Salate in gemütlicher Atmosphäre[cite: 2]. Großer Biergarten für sonnige Tage. Ideal für Familienfeiern[cite: 2].
-Öffnungszeiten: Fr.–So. 11:30–22:00 Uhr, Mo.–Do. Ruhetag[cite: 2].
-Reservierung dringend empfohlen: Tel. 089-44 55 66, Hauptstraße 45, München[cite: 2].
+   Kurs für Menschen mit Rücken- und Nackenproblemen.
+   Übungen stärken die Muskulatur und lindern Schmerzen.
 
-f) Sprachschule Lingua – Spanisch am Samstag
-Wochenendkurs Spanisch A1/A2 für Berufstätige. Lernen Sie die Grundlagen für Beruf und Urlaub ganz ohne Stress neben der Arbeit[cite: 2]. Small Talk, Grammatik und nützliche Vokabeln[cite: 2].
-Kursdauer: 8 Wochen, jeden Samstag von 10:00 bis 13:30 Uhr[cite: 2].
-Anmeldung: www.lingua-sprachschule.de, Tel. 040-77 88 99[cite: 2].
+   Dienstag und Donnerstag: 18:30–19:30 Uhr
+   10 Einheiten: 80 € (Kassenrezept möglich)
 
-g) Präsentationstraining Deutsch (C1)
-Intensivseminar für Fach- und Führungskräfte mit sehr guten Deutschkenntnissen (ab B2/C1)[cite: 2]. Themen: Struktur von Vorträgen, Körpersprache, Medieneinsatz, professionelles Auftreten vor Kunden[cite: 2].
-Wochenend-Workshop: Sa. und So. jeweils 9:00–16:00 Uhr[cite: 2].
-Infos unter: training@business-deutsch.de[cite: 2].
+   Anmeldung: physiozentrum-stadtmitte.de | Tel. 030-556677
 
-h) Physio-Zentrum Mitte
-Ihre Experten für Rückenschmerzen, Sportverletzungen und Rehabilitation[cite: 2]. Modernste Geräte und individuelle Betreuung durch erfahrene Therapeuten[cite: 2].
-Sprechzeiten: Mo.–Fr. 7:00–21:30 Uhr. Alle Krankenkassen und Privatpatienten[cite: 2].
-Termine nach Vereinbarung: Tel. 069-11 22 33, info@physio-mitte.de[cite: 2].
+------------------------------------------------------------------------
+c  FRANZÖSISCHKURS FÜR ANFÄNGER UND FORTGESCHRITTENE
+   Sprachschule Bonjour, Berlin
 
-i) Smartphone-Kurs für Senioren
-Keine Angst vor der Technik! Wir zeigen Ihnen Schritt für Schritt, wie Sie Ihr Smartphone für Nachrichten, Fotos und Internet nutzen[cite: 2]. Keine Vorkenntnisse erforderlich. Small Groups, geduldiges Lernen[cite: 2].
-Kurszeiten: Di. und Do. jeweils von 9:30 bis 11:00 Uhr. Dauer: 4 Wochen[cite: 2].
-Anmeldung im Stadtteilzentrum, Tel. 0221-55 66 77[cite: 2].
+   Wir bieten Kurse für alle Niveaus an.
+   Anfängerkurs: Montag und Mittwoch, 18:00–19:30 Uhr
+   Fortgeschrittenenkurs: Dienstag und Donnerstag, 18:00–19:30 Uhr
 
-j) Kfz-Meisterbetrieb Wagner & Söhne
-Wir reparieren alle Automarken! Jahresservice, Reifenwechsel, Unfallreparaturen[cite: 2]. Wir suchen ab September Auszubildende (m/w/d) für den Beruf Kfz-Mechatroniker[cite: 2].
-Bitte senden Sie Ihre vollständigen Bewerbungsunterlagen per Post an unsere Werkstatt[cite: 2].
-Kontakt: Tel. 0711-88 99 00, info@kfz-wagner.de[cite: 2].
+   Kursgebühr: 120 € für 8 Wochen.
+   Info: sprachschule-bonjour.de | Tel. 030-778899
 
-k) Ferienwohnung Seeblick
-Erholung pur direkt am Chiemsee für 2 Personen[cite: 2]. Moderne Ausstattung, Einbauküche, Terrasse zum See. Haustiere auf Anfrage erlaubt. Perfekt für ein langes Wochenende[cite: 2].
-Buchung ab 3 Nächten möglich[cite: 2].
-Anfragen unter: seeblick-urlaub@web.de[cite: 2].
+------------------------------------------------------------------------
+d  MALKURS FÜR EINSTEIGER
+   Kunstwerkstatt Pinselstrich
 
-l) Praktikum im Medienhaus
-Die Kölner Mediengruppe bietet Studentinnen und Studenten der Medienwissenschaften dreimonatige Praktika im Bereich Online-Redaktion und Social Media[cite: 2]. Aufgaben: Schreiben von Artikeln, Recherche[cite: 2].
-Beginn: flexibel. Unvergütetes Pflichtpraktikum[cite: 2].
-Bewerbung an: redaktion@medienhaus-koeln.de[cite: 2].
+   Aquarell, Acryl und Zeichnen — für absolute Anfänger.
+   Samstags, 10:00–12:30 Uhr
+   Kleine Gruppen, max. 8 Teilnehmer.
+   Material wird gestellt.
+
+   Kursgebühr: 70 € / Monat (4 Kurse)
+   Anmeldung: kunstwerkstatt-pinselstrich.de | Tel. 0221-445566
+
+------------------------------------------------------------------------
+e  MAMA-BABY-KURS
+   Familienzentrum Regenbogen
+
+   Bewegung, Musik und Entspannung für Mütter mit Baby (0–12 Monate).
+   Treffen Sie andere Mütter in entspannter Atmosphäre.
+
+   Mittwochs und freitags: 10:00–11:30 Uhr
+   Kursgebühr: 50 € / Monat
+   Anmeldung: familienzentrum-regenbogen.de | Tel. 0711-990011
 
 ------------------------------------------------------------------------
 
 ========================================================================
-OFFIZIELLER LÖSUNGSSCHLÜSSEL (CEVAP ANAHTARI VE AÇIKLAMALAR)
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
 ========================================================================
 
-11: a (Chili & Chutney: Berlin merkezde/Altstadt, Hint spesiyaliteleri sunuyor ve cumartesi akşamı açık[cite: 2].)
-12: b (Ferienhaus Alpenglück: Dağlık bölgede (Allgäu), kendi yemeğini pişirmek için mutfağı var ve 6 kişiye kadar -yani 4 kişi için- uygun[cite: 2].)
-13: x (İlan j'deki oto tamircisi sadece uzun süreli mesleki eğitim -Ausbildung- sunuyor, kısa süreli staj -Praktikum- vermiyor[cite: 2]. Bu yüzden uygun ilan yoktur.)
-14: c (Studio Farbenfroh: Gastronomi işletmeleri için kurumsal logo ve menü kartı tasarımı hazırlıyor[cite: 2].)
-15: f (Sprachschule Lingua: Yeni başlayanlar için İspanyolca, sadece cumartesi günleri yani hafta sonu kursu[cite: 2].)
-16: g (Präsentationstraining: En az B2 seviyesinde Almancası olanlar için iş hayatında profesyonel sunum yapma semineri[cite: 2].)
-17: e (Deutsches Haus: Geleneksel Alman mutfağı, Pazar öğlen açık ve aile yemekleri için ideal[cite: 2].)
-18: h (Physio-Zentrum Mitte: Sırt ağrıları uzmanı, hafta içi akşam saat 21:30'a kadar açık -geç saat-[cite: 2].)
-19: d (TechSolutions: Bilişim öğrencilerine Spätsommer döneminde -Ağustos-Ekim- mobil uygulama alanında ücretli staj sunuyor[cite: 2].)
-20: i (Smartphone-Kurs: Yeni başlayanlar için sabah 9:30 - 11:00 arası -vormittag- düzenlenen cihaz kullanım kursu[cite: 2].)
+11: a (Hostel Alster — Hamburg)
+   - Açıklama: Hamburg, 4 kişi, uygun fiyatlı →
+     "Zimmer für 2, 3 oder 4 Personen", ab 22 € / Nacht. ✓
+
+12: b (Rückenschule & Bewegung)
+   - Açıklama: Sırt ağrısı, Salı ve Perşembe akşamı →
+     "Dienstag und Donnerstag: 18:30–19:30 Uhr", Rückenprobleme. ✓
+
+13: x (Kein Angebot passt)
+   - Açıklama: 20 yaşında, yaz dönemi iş, aşçılık yapabiliyor →
+     İlanlarda iş ilanı yok. x ✓
+
+14: x (Kein Angebot passt)
+   - Açıklama: Babası için polisiye roman hediyesi →
+     İlanlarda kitap satışı yok. x ✓
+
+15: e (Mama-Baby-Kurs)
+   - Açıklama: Bebek, diğer annelerle tanışmak, aktif olmak →
+     "Mütter mit Baby (0–12 Monate)", "Treffen Sie andere Mütter". ✓
+
+16: c (Französischkurs — Sprachschule Bonjour)
+   - Açıklama: Fransızca öğrenmek istiyor, Pazartesi ve Çarşamba akşamı →
+     "Montag und Mittwoch, 18:00–19:30 Uhr" ✓
+
+17: x (Kein Angebot passt)
+   - Açıklama: Arabasını satmak istiyor →
+     İlanlarda araç satış platformu yok. x ✓
+
+18: x (Kein Angebot passt)
+   - Açıklama: Sakin, kaliteli iş yemeği restoranı, Salı →
+     İlanlarda bu tür restoran ilanı yok. x ✓
+
+19: x (Kein Angebot passt)
+   - Açıklama: 16 yaşında, yaz tatili iş arıyor →
+     İlanlarda iş ilanı yok. x ✓
+
+20: d (Malkurs für Einsteiger)
+   - Açıklama: Resim yapmayı öğrenmek, Cumartesi, başlangıç →
+     "Absolute Anfänger", Samstags 10:00–12:30 Uhr. ✓
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+11-a / 12-b / 13-x / 14-x / 15-e / 16-c / 17-x / 18-x / 19-x / 20-d
+========================================================================

@@ -1,65 +1,129 @@
 ========================================================================
-telc DEUTSCH A1-A2: OFFIZIELLES LESEVERSTEHEN-TRAINING (ÖZGÜN SET 8)
+telc DEUTSCH A1-A2: LESEVERSTEHEN TEIL 2 — ÖZGÜN SET 08
 ========================================================================
-Prüfungsbaustein: Leseverstehen (Eşleştirme / Zuordnung)
-Dauer: 20 Minuten
+Prüfungsbaustein: Leseverstehen Teil 2
+Dauer: ca. 20 Minuten (Leseverstehen gesamt)
 
-KURAL REHBERİ (telc Sınav Stratejisi):
-1. Bu bölüm bir eşleştirme (Zuordnung) alıştırmasıdır. Amacınız, aşağıda verilen kısa gazete haberleri, ilanlar veya tanıtımlar (1-5) için en uygun başlığı (a-j) bulmaktır.
-2. Her başlık sadece bir kez kullanılabilir. Bazı başlıklar ise tamamen çeldiricidir ve hiçbir metne uymaz.
-3. Strateji: Metindeki anahtar kelimeleri (Schlüsselwörter) başlıklarla eşleştirin. Kelimelerin benzer anlamlarına (örn: Beruf/Arbeit -> Job, Preis sinkt -> günstiger werden) ve metindeki ana çelişkilere dikkat edin.
+FORMAT BİLGİSİ:
+- 10 başlık (a–j) verilir; bunlardan 5'i kullanılır, 5'i aldatmacadır
+- 5 kısa haber/makale metni (1–5)
+- Her metne en uygun başlığı seçin
+- Her başlık yalnızca bir kez kullanılabilir
+- Seviye: A1–A2
 
 ------------------------------------------------------------------------
 
-ÜBERSCHRIFTEN (BAŞLIKLAR: a - j)
-
-a) Neuer Trend: Deutsche trinken mehr Kaffee im Büro
-b) Höhere Preise für Bahntickets am Wochenende angekündigt
-c) Studie zeigt: Flexible Arbeitszeiten reduzieren den Stress im Beruf
-d) Berlin plant ein neues Verbot für Diesel-Autos im Stadtzentrum
-e) Steigende Kosten: Restaurants erhöhen die Preise für Hamburger
-f) Solarenergie boomt: Immer mehr Haushalte nutzen Solar-PV-Systeme
-g) Handwerker per App: Schnelle Hilfe bei der Möbelmontage im Alltag
-h) Neue Sprachkurse: Spanisch für Anfänger am Goethe-Institut Berlin
-i) Seltener krank: Gesunde Ernährung mit viel Obst schützt das Immunsystem
-j) Sensation auf dem Gebrauchtwagenmarkt: Preise für alte Fahrräder sinken
+Aufgabe: Welche Überschrift passt zu welchem Text?
+         Es gibt mehr Überschriften als Texte.
 
 ------------------------------------------------------------------------
 
-TEXTE (METİNLER: 1 - 5)
+ÜBERSCHRIFTEN (BAŞLIKLAR)
 
-1. [  ]
-Eine aktuelle Umfrage des Instituts für Arbeitsmarktforschung unter 3.000 Angestellten in Deutschland zeigt interessante Ergebnisse zum Thema Gesundheit am Arbeitsplatz. Mitarbeiter, die ihre tägliche Arbeitszeit flexibel selbst einteilen können (Gleitzeit), berichten von einer deutlich höheren Zufriedenheit. Die Forscher betonen, dass diese Flexibilität den zeitlichen Druck am Morgen stark minimiert ve den Stress im Beruf im Durchschnitt um fast 25 Prozent senkt.
+a  Neue Brücke verbindet zwei Stadtteile
+b  Mehr Menschen fahren mit der Bahn
+c  Kindergärten suchen dringend Personal
+d  Weniger Müll durch Pfandsystem
+e  Sportvereine verlieren Mitglieder
+f  Stadtfest lockt Tausende Besucher
+g  Forscher testen essbare Verpackungen
+h  Schulbücher werden digital
+i  Fahrpreise steigen: Autofahrer wechseln zur Bahn
+j  Alte Fabrik wird zum Kulturzentrum
 
-2. [  ]
-Wer nach dem Umzug in eine neue Wohnung frustriert vor unaufgebauten Schränken oder Betten steht, findet in deutschen Großstädten jetzt schnelle Hilfe. Über moderne Online-Plattformen und Smartphone-Apps lassen sich erfahrene Handwerker und studentische Freelancer aus der direkten Nachbarschaft buchen. Die Helfer kommen flexibel vorbei, bringen ihr eigenes Werkzeug mit und erledigen die Möbelmontage im Haushalt unkompliziert und fachgerecht.
+------------------------------------------------------------------------
 
-3. [  ]
-Wissenschaftler der Universität Zürich haben in einer dreijährigen Studie die gesundheitlichen Effekte von regelmäßiger Rohkost untersucht. Wer täglich frisches Obst wie Äpfel, Bananen veya Orangen isst, führt dem Körper wichtige Vitamine und Antioxidantien zu. Die Ergebnisse der medizinischen Untersuchung belegen, dass diese Menschen ein deutlich stärkeres Immunsystem haben, seltener an Erkältungen leiden ve im Alltag seltener krank werden.
+TEXT 1
 
-4. [  ]
-Die Energiewende in Europa ist in vollem Gange, und immer mehr Privatpersonen beteiligen sich aktiv daran. Laut einer neuen Statistik der Bundesnetzagentur hat sich die Installation von Solar-PV-Systemen auf den Dächern von Einfamilienhäusern im laufenden Jahr massiv erhöht. Die Kombination mit modernen Batterie-Speichern (BESS) sorgt dafür, dass die Besitzer den umweltfreundlichen Strom unabhängig von der Tageszeit nutzen und Geld sparen können.
+Eine alte Fabrik in Leipzig, die seit zwanzig Jahren leer stand,
+wird jetzt zu einem Kulturzentrum umgebaut. In dem neuen
+Gebäude sollen Konzerte, Ausstellungen und Theateraufführungen
+stattfinden. Das Projekt kostet fünf Millionen Euro und soll
+im nächsten Jahr eröffnet werden.
 
-5. [  ]
-Aufgrund der stark gestiegenen Kosten für Energie und Transport müssen Reisende in Deutschland ab dem nächsten Monat tiefer in die Tasche greifen. Die Deutsche Bahn hat eine Erhöhung der Ticketpreise für den Fernverkehr (ICE und IC) um durchschnittlich 6 Prozent angekündigt. Besonders betroffen von den teureren Tarifen sind Wochenendfahrer und Urlauber, die ihre Fahrkarten nicht weit im Voraus online gebucht haben.
+ÜBERSCHRIFT FÜR TEXT 1: ___
+
+------------------------------------------------------------------------
+
+TEXT 2
+
+In Deutschland steigen immer mehr Menschen auf die Bahn um.
+Ein Grund sind die höheren Benzinpreise. Aber auch das
+günstige Deutschlandticket spielt eine Rolle: Mit 49 Euro
+pro Monat kann man den gesamten Nahverkehr nutzen.
+Die Deutsche Bahn meldet Rekordzahlen bei den Fahrgästen.
+
+ÜBERSCHRIFT FÜR TEXT 2: ___
+
+------------------------------------------------------------------------
+
+TEXT 3
+
+Wissenschaftler arbeiten an Verpackungen, die man nach dem
+Gebrauch einfach essen kann. Diese Verpackungen bestehen
+aus natürlichen Zutaten wie Algen oder Stärke. Ziel ist es,
+Plastikmüll zu reduzieren. Die ersten Produkte sollen noch
+in diesem Jahr auf den Markt kommen.
+
+ÜBERSCHRIFT FÜR TEXT 3: ___
+
+------------------------------------------------------------------------
+
+TEXT 4
+
+In Deutschland gibt es zu wenige Erzieherinnen und Erzieher.
+Viele Kindergärten können nicht alle Plätze belegen, weil
+das Personal fehlt. Fachleute fordern bessere Gehälter und
+kürzere Arbeitszeiten, um den Beruf attraktiver zu machen.
+Die Situation ist besonders in Großstädten problematisch.
+
+ÜBERSCHRIFT FÜR TEXT 4: ___
+
+------------------------------------------------------------------------
+
+TEXT 5
+
+Immer mehr Schulen in Deutschland stellen auf digitale
+Schulbücher um. Schüler können die Bücher auf Tablets
+oder Laptops lesen. Das spart Gewicht im Schulranzen und
+ermöglicht interaktive Inhalte. Nicht alle Eltern sind
+begeistert — einige sorgen sich um zu viel Bildschirmzeit.
+
+ÜBERSCHRIFT FÜR TEXT 5: ___
 
 ------------------------------------------------------------------------
 
 ========================================================================
-OFFIZIELLE LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
 ========================================================================
 
-1. DOĞRU CEVAP: c (Studie zeigt: Flexible Arbeitszeiten reduzieren den Stress im Beruf)
-   - Açıklama: Metinde çalışanların kendi çalışma saatlerini esnek bir şekilde belirlemelerinin ("flexible Arbeitszeiten/Arbeitszeit flexibel selbst einteilen") iş hayatındaki stresi azalttığı ("den Stress im Beruf... senkt") aktarılıyor. C seçeneği metni kusursuz özetler.
+Text 1 → j (Alte Fabrik wird zum Kulturzentrum)
+   - Açıklama: "alte Fabrik... wird jetzt zu einem Kulturzentrum umgebaut"
+     → (j) tam eşleşme. (a) "Neue Brücke" aldatmaca; yapı var ama köprü değil.
 
-2. DOĞRU CEVAP: g (Handwerker per App: Schnelle Hilfe bei der Möbelmontage im Alltag)
-   - Açıklama: Metin, yeni taşınılan evlerde mobilyaların kurulması (Möbelmontage) aşamasında akıllı telefon uygulamaları (App) vasıtasıyla profesyonel yardımcılar ve ustalar (Handwerker) bulmanın kolaylığını ele alıyor. Bu durum "g" başlığı ile birebir eşleşir.
+Text 2 → b (Mehr Menschen fahren mit der Bahn)
+   - Açıklama: "immer mehr Menschen auf die Bahn um" ve "Rekordzahlen
+     bei den Fahrgästen" → (b) tam eşleşme. (i) "Fahrpreise steigen"
+     aldatmaca; fiyatlar metinde geçiyor ama başlık asıl fikri yanlış
+     özetliyor — metinde tren yolcuları artıyor, araba sürücüleri değil.
 
-3. DOĞRU CEVAP: i (Seltener krank: Gesunde Ernährung mit viel Obst schützt das Immunsystem)
-   - Açıklama: Metinde her gün taze meyve (Obst) tüketmenin bağışıklık sistemini güçlendirdiği ("stärkeres Immunsystem") ve insanları hastalıklardan koruyarak daha az hastalanmalarını sağladığı ("seltener krank werden/Seltener krank") bilimsel verilerle açıklanıyor. Cevap "i" şıkkıdır.
+Text 3 → g (Forscher testen essbare Verpackungen)
+   - Açıklama: "Verpackungen, die man... essen kann" ve "Wissenschaftler
+     arbeiten" → (g) tam eşleşme. (d) "Pfandsystem" aldatmaca; ambalaj
+     atığı konusu ama depozito sistemi değil.
 
-4. DOĞRU CEVAP: f (Solarenergie boomt: Immer mehr Haushalte nutzen Solar-PV-Systeme)
-   - Açıklama: Müstakil evlerin çatılarına kurulan Solar PV sistemlerinin (Solar-PV-Systemen) ve batarya depolama çözümlerinin büyük bir artış gösterdiğini belirten metin, güneş enerjisinin (Solarenergie) evlerdeki yükselişini anlatmaktadır. Doğru cevap "f" seçeneğidir.
+Text 4 → c (Kindergärten suchen dringend Personal)
+   - Açıklama: "zu wenige Erzieherinnen und Erzieher" ve "Kindergärten
+     können nicht alle Plätze belegen" → (c) tam eşleşme.
+     (e) "Sportvereine verlieren Mitglieder" aldatmaca.
 
-5. DOĞRU CEVAP: b (Höhere Preise für Bahntickets am Wochenende angekündigt)
-   - Açıklama: Metinde tren biletlerine (Bahntickets/Fernverkehr) %6 oranında zam geleceği ve bu yüksek fiyatlardan özellikle hafta sonu yolculuk yapanların ("Wochenendfahrer/Wochenende") etkileneceği açıklanıyor. Bu içerik "b" başlığını doğrudan doğrular.
+Text 5 → h (Schulbücher werden digital)
+   - Açıklama: "Schulen stellen auf digitale Schulbücher um" →
+     (h) tam eşleşme. (e) "Sportvereine" aldatmaca; okul var ama spor değil.
+
+Kullanılmayan (aldatmaca) başlıklar: a / d / e / f / i
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+1-j / 2-b / 3-g / 4-c / 5-h
+========================================================================

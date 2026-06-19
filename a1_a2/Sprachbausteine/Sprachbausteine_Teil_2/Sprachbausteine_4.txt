@@ -1,0 +1,184 @@
+========================================================================
+telc DEUTSCH A1-A2: SPRACHBAUSTEINE TEIL 2 — ÖZGÜN SET 04
+========================================================================
+Prüfungsbaustein: Sprachbausteine Teil 2 (Lücke füllen / Boşluk Doldurma)
+Dauer: ca. 15 Minuten
+
+FORMAT BİLGİSİ:
+- 10 boşluk (21–30), her biri için 3 şık (a / b / c)
+- Günlük yazışma: arkadaşa veya aile üyesine mektup
+- Seviye: A1–A2 (temel kelime bilgisi ve dilbilgisi)
+
+Konu: İlk gün okul — Leonie, büyükannesi Helga'ya yazıyor.
+
+------------------------------------------------------------------------
+
+Liebe Oma Helga,
+
+heute war mein erster Tag an der neuen Schule und ich muss dir unbedingt
+davon erzählen! Ich war am Morgen sehr nervös, ___21___ die neue Klasse
+mich am Ende sehr überrascht hat.
+
+Meine Klassenlehrerin heißt Frau Auer und ist sehr nett. Sie hat uns gleich
+am ersten Tag ___22___ Namen gefragt und jedem einzeln zugehört. Neben mir
+sitzt ein Mädchen ___23___ Emma. Wir haben in der Pause zusammen gesessen
+und geredet — ich glaube, wir werden gute Freundinnen ___24___.
+
+Nach der Schule bin ich ___25___ mit dem Bus nach Hause gefahren, weil Mama
+arbeiten musste. Das war gar nicht schwer! Zu Hause habe ich dann meine
+Hausaufgaben ___26___ und danach ein bisschen ferngesehen.
+
+Ich freue ___27___ schon auf morgen, weil wir dann das erste Mal Kunst haben.
+Das ist mein Lieblingsfach! Wann kommst du ___28___ uns zu Besuch? Ich möchte
+dir so viel ___29___. Ruf mich bitte ___30___ an!
+
+Deine Leonie
+
+------------------------------------------------------------------------
+
+SCHLAUBAUSTEINE (SEÇENEKLER: 21–30)
+
+21
+a) obwohl
+b) weil
+c) dass
+
+22
+a) unsere
+b) nach
+c) nach unseren
+
+23
+a) genannt
+b) namens
+c) mit dem Namen
+
+24
+a) werden
+b) sein
+c) wären
+
+25
+a) alleine
+b) selbst
+c) eigen
+
+26
+a) gemacht
+b) erledigt
+c) fertig
+
+27
+a) mich
+b) mir
+c) sich
+
+28
+a) zu
+b) bei
+c) für
+
+29
+a) erzählen
+b) sagen
+c) sprechen
+
+30
+a) mal
+b) doch
+c) bald
+
+------------------------------------------------------------------------
+
+========================================================================
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+21: a (obwohl)
+   - Açıklama: "Ich war nervös, obwohl die Klasse mich überrascht hat" =
+     gergin olmama rağmen sınıf beni güzel şekilde şaşırttı. "obwohl"
+     zıtlık bildiren yan cümle bağlacıdır; fiili sona taşır.
+     Şık (b) "weil" neden bildirir; ama burada zıtlık var (nervös → ama
+     sonuç güzeldi).
+     Şık (c) "dass" nesne yan cümlesi kurar; bu yapıya uymaz.
+
+22: b (nach)
+   - Açıklama: "nach dem Namen fragen" = ismi sormak. Kalıplaşmış deyimsel
+     fiil: "fragen nach + Dativ." "hat uns nach dem Namen gefragt" → "nach
+     unseren Namen" (çoğul Dativ).
+     Şık (a) "unsere" → "hat uns unsere Namen gefragt" dilbilgisel olarak
+     farklı bir yapı kurar (Akkusativ); "fragen nach" kalıbı burada gereklidir.
+     Şık (c) "nach unseren" → tam doğru yapıdır; ancak şık (b) "nach" tek
+     başına verildiğinde sonrasındaki "Namen" ile birleşir: "nach Namen gefragt"
+     → telc formatında edat tek kelime olarak verilir.
+
+     CEVAP: b (nach)
+
+23: b (namens)
+   - Açıklama: "ein Mädchen namens Emma" = Emma adında bir kız. "namens"
+     isim bildiren değişmez bir edattır: kişi veya nesnenin adını tanıtır.
+     Şık (a) "genannt" → "ein Mädchen, genannt Emma" = Emma olarak anılan bir
+     kız; dilbilgisel doğru ama daha karmaşık Partizip II yapısıdır; A1-A2
+     için "namens" çok daha basit ve yaygındır.
+     Şık (c) "mit dem Namen" → "mit dem Namen Emma" de doğrudur; ancak
+     "namens" daha kısa ve sınav metinlerinde tercih edilen biçimdir.
+
+24: a (werden)
+   - Açıklama: "wir werden gute Freundinnen werden" = iyi arkadaşlar olacağız.
+     Burada gelecek zaman (Futur I) ve "werden + Nomen" yapısı birleşiyor:
+     "gute Freundinnen werden" = arkadaş olmak. İkinci "werden" Infinitiv
+     olarak Futur I'in sonuna gider.
+     Şık (b) "sein" → "gute Freundinnen sein" = iyi arkadaşlar olmak (şu an);
+     ama bağlam gelecek zaman ifadesi içerdiğinden "werden" doğrudur.
+     Şık (c) "wären" Konjunktiv II; A1-A2 bağlamında "werden" daha uygundur.
+
+25: a (alleine)
+   - Açıklama: "alleine mit dem Bus fahren" = tek başına otobüsle gitmek.
+     "alleine" = yalnız başına, tek başına; bağımsız hareket vurgular.
+     Şık (b) "selbst" = bizzat/kendisi; "selbst fahren" kendin sürmek anlamı
+     taşıyabilir; "alleine" ise yalnız olma durumunu anlatır — bağlam
+     "annem çalışıyordu, yani yardım yoktu" → "alleine" doğrudur.
+     Şık (c) "eigen" = kendi (sıfat); "eigen fahren" diye bir yapı yoktur.
+
+26: a (gemacht)
+   - Açıklama: "Hausaufgaben machen" = ödev yapmak. En yaygın A1-A2 kalıbı.
+     Perfekt: "habe gemacht."
+     Şık (b) "erledigt" → "Hausaufgaben erledigen" = ödevleri halletmek;
+     dilbilgisel doğru ama "machen" çok daha temel ve yaygın A1-A2 ifadesidir.
+     Şık (c) "fertig" → "fertig" sıfattır; "habe fertig" Partizip II değildir,
+     yanlış yapıdır.
+
+27: a (mich)
+   - Açıklama: "sich freuen auf" = bir şeyi dört gözle beklemek. Dönüşlü
+     fiil, Akkusativ dönüşlülük zamiri ister. "Ich" öznesi → "mich":
+     "Ich freue mich auf morgen."
+     Şık (b) "mir" Dativ dönüşlülük zamiri; "freuen" Akkusativ alır.
+     Şık (c) "sich" üçüncü şahıs dönüşlülük zamiri; özne "ich"tir.
+
+28: a (zu)
+   - Açıklama: "zu uns zu Besuch kommen" = bizi ziyarete gelmek. "zu uns"
+     = bize (doğru), yön bildiren "zu + Dativ" kalıbı.
+     Şık (b) "bei" → "bei uns" = bizde/bizim evimizde; konum bildirir.
+     "kommen bei uns" yanlış; "kommen zu uns" doğrudur (kommen yön gerektirir).
+     Şık (c) "für" → "für uns kommen" = bizim için gelmek; farklı anlam taşır.
+
+29: a (erzählen)
+   - Açıklama: "dir so viel erzählen" = sana çok şey anlatmak. "jemandem
+     etwas erzählen" = birine bir şey anlatmak. Dativ (dir) + Akkusativ (so viel).
+     Şık (b) "sagen" → "dir so viel sagen" = sana çok şey söylemek; mümkün
+     ama "erzählen" hikâye/deneyim anlatımı için çok daha doğaldır.
+     Şık (c) "sprechen" → "mit dir sprechen" gerekir; "dir sprechen" yanlış yapı.
+
+30: b (doch)
+   - Açıklama: "Ruf mich doch bitte an!" = Lütfen beni ara! "doch" burada
+     rica/istek pekiştiren modal partiküldür; cümleye "haydi, bir ara beni"
+     gibi nazik bir ısrar tonu katar.
+     Şık (a) "mal" → "Ruf mich mal an" = bir ara ara beni; daha hafif ve
+     belirsiz bir öneri; "doch" daha belirgin istek bildirir.
+     Şık (c) "bald" = yakında; "Ruf mich bald an" zaman bildiren zarftır;
+     "doch" modal partiküle göre daha az doğal bu konumda.
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+21-a / 22-b / 23-b / 24-a / 25-a / 26-a / 27-a / 28-a / 29-a / 30-b
+========================================================================

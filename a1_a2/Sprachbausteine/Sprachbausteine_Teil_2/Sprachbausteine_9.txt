@@ -1,0 +1,182 @@
+========================================================================
+telc DEUTSCH A1-A2: SPRACHBAUSTEINE TEIL 2 — ÖZGÜN SET 14
+========================================================================
+Prüfungsbaustein: Sprachbausteine Teil 2 (Lücke füllen / Boşluk Doldurma)
+Dauer: ca. 15 Minuten
+
+FORMAT BİLGİSİ:
+- 10 boşluk (21–30), her biri için 3 şık (a / b / c)
+- Günlük yazışma: arkadaşa veya aile üyesine mektup
+- Seviye: A1–A2 (temel kelime bilgisi ve dilbilgisi)
+
+Konu: İlk uçuş deneyimi — Tom, büyükannesi Erna'ya yazıyor.
+
+BOŞLUK–CEVAP PLANI (önce sabitlendi):
+21 → zum        "zum ersten Mal geflogen"           (zum + Mal: ilk kez)
+22 → vor        "Angst vor dem Fliegen"             (korku: vor + Dativ)
+23 → dass       "gewusst, dass es schön ist"        (nesne yan cümlesi)
+24 → neben      "neben mir saß"                     (yan yana: neben)
+25 → mit        "mit ihr gesprochen"                (birliktelik: mit)
+26 → über       "über ihre Reisen erzählt"          (konu: über + Akk)
+27 → als        "größer als ich dachte"             (karşılaştırma: als)
+28 → weil       "weil es so viel zu sehen gibt"     (neden)
+29 → ob         "weiß nicht, ob ich wiederkomme"    (evet/hayır sorusu)
+30 → doch       "komm doch mal"                     (modal partikül)
+
+------------------------------------------------------------------------
+
+Liebe Oma Erna,
+
+ich muss dir erzählen: Ich bin letzte Woche ___21___ ersten Mal in meinem
+Leben geflogen! Du weißt ja, dass ich immer Angst ___22___ dem Fliegen
+hatte. Aber jetzt kann ich sagen, dass es gar nicht so schlimm war.
+
+Ich hatte nicht ___23___, dass es so schön ist, aus dem Fenster zu schauen.
+Die Wolken sahen so weich aus! ___24___ mir saß eine ältere Dame, die schon
+sehr viel gereist ist. Ich habe ___25___ ihr auf dem ganzen Flug gesprochen.
+Sie hat mir ___26___ ihre Reisen erzählt — sie war sogar schon in Japan!
+
+Barcelona, wo ich war, war viel größer ___27___ ich gedacht hatte. Die Stadt
+ist wunderschön, ___28___ es so viel zu sehen gibt. Ich glaube, ich möchte
+eines Tages wiederkommen, auch wenn ich noch nicht weiß, ___29___ das
+möglich ist.
+
+Hast du selbst jemals eine Reise gemacht, Oma? Erzähl mir ___30___!
+
+Dein Tom
+
+------------------------------------------------------------------------
+
+SCHLAUBAUSTEINE (SEÇENEKLER: 21–30)
+
+21
+a) für das
+b) zum
+c) beim
+
+22
+a) vor
+b) über
+c) vor der
+
+23
+a) gewusst
+b) gedacht
+c) geglaubt
+
+24
+a) vor
+b) hinter
+c) neben
+
+25
+a) bei
+b) mit
+c) von
+
+26
+a) von
+b) aus
+c) über
+
+27
+a) wie
+b) als
+c) so
+
+28
+a) obwohl
+b) weil
+c) dass
+
+29
+a) wann
+b) wie
+c) ob
+
+30
+a) mal
+b) doch
+c) noch
+
+------------------------------------------------------------------------
+
+========================================================================
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+21: b (zum)
+   - Açıklama: "zum ersten Mal" = ilk kez. Kalıplaşmış ifade: "zum ersten/
+     zweiten/letzten Mal." "zu + dem = zum"; değiştirilemez kalıp.
+     Şık (a) "für das erste Mal" → standart dışı; Almancada "zum ersten Mal"
+     kullanılır, "für das erste Mal" değil.
+     Şık (c) "beim ersten Mal" → "beim" = "sırasında/o seferinde" anlamı
+     taşır; "zum" ise "ilk kez" anlamındaki kalıplaşmış formdur.
+
+22: a (vor)
+   - Açıklama: "Angst vor + Dativ" = bir şeyden korkmak. "Angst vor dem
+     Fliegen" = uçmaktan korkmak. Kalıplaşmış isim + edat yapısı.
+     Şık (b) "über" → "Angst über" diye bir yapı yoktur; "Angst vor" değişmez.
+     Şık (c) "vor der" → "Fliegen" eylem ismi olarak nötr (das Fliegen);
+     "vor dem Fliegen" doğru olurdu, "vor der" değil.
+
+23: a (gewusst)
+   - Açıklama: "nicht gewusst, dass es schön ist" = bu kadar güzel olduğunu
+     bilmiyordum. "wissen" Perfekt: "habe gewusst."
+     Şık (b) "gedacht" → "nicht gedacht, dass..." = böyle olacağını
+     düşünmemiştim; mümkün ama "gewusst" burada çok daha doğaldır: bilgi
+     eksikliği ifade ediyor.
+     Şık (c) "geglaubt" → "nicht geglaubt, dass..." = inanmamıştım; anlam
+     yakın ama "wissen" (bilmek) daha kesin ve bağlama daha uygun.
+
+24: c (neben)
+   - Açıklama: "neben mir saß eine Dame" = yanımda bir bayan oturuyordu.
+     "neben + Dativ" konum bildirir (yan yana oturma).
+     Şık (a) "vor" → "vor mir" = önümde; uçakta yan koltuk değil ön koltuk.
+     Şık (b) "hinter" → "hinter mir" = arkamda; yan koltuk için "neben" gerekir.
+
+25: b (mit)
+   - Açıklama: "mit ihr gesprochen" = onunla konuşmak. "sprechen mit +
+     Dativ" kalıplaşmış fiil kalıbı.
+     Şık (a) "bei" → "bei ihr gesprochen" yanlış; "sprechen" "mit" alır.
+     Şık (c) "von" → "von ihr gesprochen" = ondan bahsetmek; farklı anlam.
+
+26: c (über)
+   - Açıklama: "über ihre Reisen erzählen" = seyahatleri hakkında anlatmak.
+     "erzählen über + Akkusativ" konu bildiren edat kalıbı.
+     Şık (a) "von" → "von ihren Reisen erzählen" = seyahatlerinden anlatmak;
+     "von + Dativ" da doğrudur ama "über" konu odaklı anlatım için daha güçlü.
+     Şık (b) "aus" → "aus Reisen erzählen" anlamsız yapı.
+
+27: b (als)
+   - Açıklama: "größer als ich gedacht hatte" = düşündüğümden daha büyük.
+     Eşitsizlik karşılaştırması: Komparativ + "als."
+     Şık (a) "wie" → eşitlik karşılaştırması (so groß wie); "größer" Komparativ
+     olduğundan "als" zorunludur.
+     Şık (c) "so" → tek başına karşılaştırma kurmaz; "als" gerekir.
+
+28: b (weil)
+   - Açıklama: "wunderschön, weil es so viel zu sehen gibt" = görecek çok
+     şey olduğu için muhteşem. "weil" neden bildiren yan cümle; fiili sona taşır.
+     Şık (a) "obwohl" zıtlık bildirir; burada neden var.
+     Şık (c) "dass" → "wunderschön, dass..." de mümkün ama neden-sonuç
+     ilişkisi "weil" gerektirir.
+
+29: c (ob)
+   - Açıklama: "weiß nicht, ob das möglich ist" = bunun mümkün olup
+     olmadığını bilmiyorum. "ob" dolaylı evet/hayır sorusu.
+     Şık (a) "wann" zaman sorar; burada mümkün mü/değil mi sorusu → "ob."
+     Şık (b) "wie" yöntem sorar; burada var/yok sorusu → "ob."
+
+30: a (mal)
+   - Açıklama: "Erzähl mir mal!" = Anlat bakalım! / Bir anlatsana! "mal"
+     modal partikül olarak samimi, meraklı bir rica tonu katar; büyükanneye
+     yazılan bu bağlamda çok doğaldır.
+     Şık (b) "doch" → "Erzähl mir doch!" da mümkün ama "doch" daha çok
+     itiraz veya teşvik bildirirken "mal" sohbet daveti için daha uygundur.
+     Şık (c) "noch" = hâlâ/bir de; "Erzähl mir noch!" = daha anlat; farklı anlam.
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+21-b / 22-a / 23-a / 24-c / 25-b / 26-c / 27-b / 28-b / 29-c / 30-a
+========================================================================

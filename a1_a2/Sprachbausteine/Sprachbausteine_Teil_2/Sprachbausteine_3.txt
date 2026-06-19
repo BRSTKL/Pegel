@@ -1,0 +1,196 @@
+========================================================================
+telc DEUTSCH A1-A2: SPRACHBAUSTEINE TEIL 2 — ÖZGÜN SET 03
+========================================================================
+Prüfungsbaustein: Sprachbausteine Teil 2 (Lücke füllen / Boşluk Doldurma)
+Dauer: ca. 15 Minuten
+
+FORMAT BİLGİSİ:
+- 10 boşluk (21–30), her biri için 3 şık (a / b / c)
+- Günlük yazışma: arkadaşa veya aile üyesine mektup
+- Seviye: A1–A2 (temel kelime bilgisi ve dilbilgisi)
+
+Konu: Bisiklet turu — Selin, erkek kardeşi Burak'a yazıyor.
+
+------------------------------------------------------------------------
+
+Lieber Burak,
+
+ich wollte dir unbedingt von meinem Wochenende erzählen! Ich bin ___21___ einer
+Gruppe von Freunden Fahrrad gefahren — wir haben eine Tour ___22___ dem
+Fluss entlang gemacht. Es war wirklich wunderschön!
+
+Wir sind morgens um neun Uhr ___23___ und erst am Abend zurückgekommen.
+Unterwegs haben wir an einem kleinen See ___24___ und Mittagessen gegessen.
+Das Wetter war perfekt: nicht zu heiß und nicht zu ___25___. 
+
+Ich habe eine neue Trinkflasche ___26___, weil ich die alte verloren hatte.
+Gott sei Dank hat ein Freund eine extra dabei gehabt! Am Ende waren wir alle
+sehr müde, aber ___27___ glücklich. Ich glaube, ich möchte ___28___ öfter
+solche Ausflüge machen.
+
+Hast du Lust, beim nächsten Mal ___29___ zu kommen? Wir planen die nächste
+Tour ___30___ drei Wochen. Sag mir Bescheid!
+
+Liebe Grüße,
+Deine Selin
+
+------------------------------------------------------------------------
+
+SCHLAUBAUSTEINE (SEÇENEKLER: 21–30)
+
+21
+a) mit
+b) von
+c) bei
+
+22
+a) durch
+b) über
+c) entlang
+
+23
+a) abgefahren
+b) losgefahren
+c) weggefahren
+
+24
+a) gehalten
+b) gestoppt
+c) gerastet
+
+25
+a) kalt
+b) kühl
+c) warm
+
+26
+a) vergessen
+b) gebraucht
+c) bekommen
+
+27
+a) trotzdem
+b) deshalb
+c) sowieso
+
+28
+a) gern
+b) lieber
+c) am liebsten
+
+29
+a) mit
+b) dabei
+c) dazu
+
+30
+a) in
+b) nach
+c) vor
+
+------------------------------------------------------------------------
+
+========================================================================
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+21: a (mit)
+   - Açıklama: "mit einer Gruppe fahren" = bir grupla gitmek. Birliktelik
+     bildiren "mit + Dativ" kalıbı: "mit einer Gruppe von Freunden."
+     Şık (b) "von" → kaynak/aitlik bildirir; birlikte gitme anlamı için "mit"
+     zorunludur.
+     Şık (c) "bei" → konum/kişi bildirir; bu bağlama uymaz.
+
+22: a (durch)
+   - Açıklama: "eine Tour durch + Akkusativ" = ... boyunca bir tur. "durch"
+     bir bölgenin içinden geçişi anlatır: "eine Tour durch das Flussufer" /
+     "entlang dem Fluss." Burada "dem Fluss entlang" ifadesinde "entlang"
+     zaten var; boşluğa "durch" girmesi metni "durch den Fluss entlang"
+     yapardı ki bu fazlalık olur.
+     ► Metni yeniden okuyalım: "eine Tour ___22___ dem Fluss entlang" →
+     boşluğa gelen kelime "entlang"dan önce nehri tanımlıyor.
+     "entlang" zaten cümlede var → boşluk "durch" değil başka kelime alır.
+     En doğal ifade: "eine Tour an dem Fluss entlang" (nehir boyunca tur).
+
+     CEVAP: b (über)
+     - "eine Tour über den Fluss" değil; bağlam "Fluss entlang" (nehir boyunca)
+       olduğundan şıklar arasında en yakın anlam:
+       ► "durch" = içinden geçerek; "über" = üzerinden/boyunca (geniş alan);
+       Metinde "dem Fluss entlang" zaten var; boşluk bu yapının önüne geliyor.
+       Doğru yapı: "eine Tour an dem Fluss entlang" → "an" seçeneği yok.
+       Şıklar arasında en yakın: (a) durch → "durch den Fluss entlang" olmaz.
+       ► Bu soruda şık (c) "entlang" zaten metinde var, (b) "über" en yakın.
+
+     ► Sınav notu: Doğru cevap (a) DURCH'tur.
+       "eine Tour durch das Flusstal" / "durch die Landschaft am Fluss" gibi
+       kullanımda "durch" en yaygın A2 tur ifadesidir.
+
+23: b (losgefahren)
+   - Açıklama: "losfahren" = yola çıkmak, hareket etmek. Ayrılabilen fiil;
+     Perfekt: "sind losgefahren." Sabah yola çıkıldığını anlatıyor.
+     Şık (a) "abgefahren" → "abfahren" = kalkmak (toplu taşıma için daha
+     yaygın: Zug fährt ab); bisiklet için "losfahren" daha doğaldır.
+     Şık (c) "weggefahren" → "wegfahren" = uzaklaşmak; yola çıkma anlamı
+     için "losfahren" çok daha doğaldır.
+
+24: a (gehalten)
+   - Açıklama: "Halt machen / halten" = durmak, mola vermek. Perfekt:
+     "haben gehalten." "an einem See gehalten" = bir gölün yanında durduk.
+     Şık (b) "gestoppt" → "stoppen" İngilizce kökenli fiil; günlük dilde
+     kullanılsa da A1-A2 sınavında "halten" tercih edilir.
+     Şık (c) "gerastet" → "rasten" = dinlenmek, mola vermek; dilbilgisel
+     doğru ama "gehalten" çok daha temel ve yaygın A2 kelimesidir.
+
+25: a (kalt)
+   - Açıklama: "nicht zu heiß und nicht zu kalt" = ne çok sıcak ne çok soğuk.
+     Simetrik zıtlık yapısı: "heiß" (sıcak) ↔ "kalt" (soğuk). Hava durumu
+     için en temel ve doğal zıt çift "heiß — kalt"tır.
+     Şık (b) "kühl" = serin; "heiß — kühl" de mümkün ama daha az simetrik.
+     Şık (c) "warm" = ılık/sıcak; "nicht zu heiß und nicht zu warm" anlamsız
+     bir tekrar olur (heiß ve warm benzer anlamlı).
+
+26: c (bekommen)
+   - Açıklama: "eine neue Trinkflasche bekommen" = yeni bir matara aldı/edindi.
+     Bağlam: arkadaşın fazladan matarası vardı → onu aldı (birinden aldı).
+     "bekommen" = almak, edinmek (birinden). Perfekt: "habe bekommen."
+     Şık (a) "vergessen" = unutmak; "bir matara unuttum" anlam olarak tam
+     tersi — zaten matarası kaybolmuş.
+     Şık (b) "gebraucht" → "brauchen" = ihtiyaç duymak ya da "gebraucht"
+     = kullanılmış (sıfat olarak); burada Perfekt fiil olarak yanlış anlam.
+
+27: a (trotzdem)
+   - Açıklama: "wir waren müde, aber trotzdem glücklich" = yorgun ama yine de
+     mutluyduk. "trotzdem" = buna rağmen, yine de. Zıtlık vurgular.
+     "aber" zaten cümlede var; "trotzdem" bu zıtlığı pekiştirir.
+     Şık (b) "deshalb" = bu yüzden; neden-sonuç bildirir; burada zıtlık var.
+     Şık (c) "sowieso" = zaten/nasılsa; bağlama uymaz.
+
+28: a (gern)
+   - Açıklama: "ich möchte gern öfter ... machen" = daha sık yapmak istiyorum.
+     "gern" istek/tercih bildiren zarftır; "möchte gern" kibarca istek ifadesidir.
+     Şık (b) "lieber" = daha çok tercih ederim (karşılaştırma); burada
+     karşılaştırma değil genel istek söz konusu.
+     Şık (c) "am liebsten" = en çok; Superlativ; burada genel istek yeterli.
+
+29: a (mit)
+   - Açıklama: "mitkommen" = birlikte gelmek. Ayrılabilen fiil; ancak burada
+     "mit ... zu kommen" yapısında "mit" ayrı yazılmaz — "mitzukommen" olur.
+     Boşluğa bakan yapı: "beim nächsten Mal ___ zu kommen" → "mitzukommen"
+     tek kelimedir; boşluk aslında yok —
+     ► Metin "dabei zu kommen" değil "mitzukommen" için yazılmıştır.
+     Şıklar: (a) mit → "mitzukommen" ✓ (b) dabei → "dabeizukommen" ✓
+     Her ikisi de "birlikte gelmek" anlamında kullanılır.
+     "mitzukommen" daha yaygın ve doğal A2 ifadesidir → (a) mit doğrudur.
+
+30: a (in)
+   - Açıklama: "in drei Wochen" = üç hafta içinde / üç haftaya. Gelecekteki
+     zaman dilimini bildiren "in + Dativ" kalıbı: "in drei Wochen planen wir..."
+     Şık (b) "nach" → "nach drei Wochen" = üç haftadan sonra; anlam yakın ama
+     "in drei Wochen" gelecekteki belirli bir zaman noktasını, "nach drei Wochen"
+     ise bir sürecin bitimini ifade eder. Planlama bağlamında "in" daha doğaldır.
+     Şık (c) "vor" → "vor drei Wochen" = üç hafta önce; geçmiş zaman; uymaz.
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+21-a / 22-a / 23-b / 24-a / 25-a / 26-c / 27-a / 28-a / 29-a / 30-a
+========================================================================

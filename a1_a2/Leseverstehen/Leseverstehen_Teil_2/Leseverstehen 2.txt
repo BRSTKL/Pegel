@@ -1,66 +1,89 @@
 ========================================================================
-telc DEUTSCH A1-A2: OFFIZIELLES LESEVERSTEHEN-TRAINING (ÖZGÜN SET 14)
+telc DEUTSCH A1-A2: LESEVERSTEHEN TEIL 3 — ÖZGÜN SET 02
 ========================================================================
-Prüfungsbaustein: Leseverstehen (Mehrfachauswahl / Çoktan Seçmeli)
-Dauer: 20 Minuten
+Prüfungsbaustein: Leseverstehen Teil 3 (Baumkuchen / Langer Text)
 
-KURAL REHBERİ (telc Sınav Stratejisi):
-1. Bu bölüm bir okuma-anlama (Leseverstehen) alıştırmasıdır. Amacınız, verilen metni okuyarak çoktan seçmeli sorulara (6-10) en uygun cevabı (a, b veya c) seçmektir.
-2. Strateji: Sorulardaki anahtar kelimeleri metinde arayın. Şıklar genellikle metindeki cümlelerin eş anlamlı kelimelerle yeniden yazılmış halidir (Örn: "Geld sparen" -> "günstig sein", "nicht teuer").
-3. Dikkat: Metinde açıkça geçmeyen, sadece mantıklı gelen şıklardan uzak durun. Sadece metne dayalı olanı seçin.
+Konu: Hunde als Haustiere
 
 ------------------------------------------------------------------------
 
-Thema: Energiewende zu Hause – Warum Solarenergie immer beliebter wird
+TEXT: Hunde — treue Freunde des Menschen
 
-Das Leben in modernen Städten verbraucht viel Energie: Große Fabriken, Serverräume und der tägliche Strombedarf im Haushalt kosten viel Geld und belasten das Klima. Doch gegen dieses Problem im Alltag entscheiden sich immer mehr Hausbesitzer für eine Alternative: die eigene Solar-PV-Anlage auf dem Dach.
+Hunde sind in Deutschland sehr beliebt. Laut einer Studie
+leben in deutschen Haushalten über 16 Millionen Hunde.
+Sie sind das häufigste Haustier — noch vor Katzen und Vögeln.
+Viele Menschen nennen ihren Hund ihr „bestes Freund", weil
+Hunde loyal, freundlich und immer für ihre Besitzer da sind.
 
-Laut einer aktuellen Umfrage zur nachhaltigen Energieversorgung in Europa nutzen immer mehr Bürger die Kraft der Sonne für die Stromerzeugung zu Hause. Die Gründe dafür sind einfach: Unabhängigkeit und Klimaschutz. Statt teuren Strom aus dem Netz zu kaufen, produzieren die Menschen saubere Energie auf dem eigenen Dach. Gleichzeitig schont die Solarenergie die Umwelt durch einen geringeren CO2-Ausstoß und hilft dabei, die monatlichen Stromkosten massiv zu senken.
+Das Leben mit einem Hund bringt viele Vorteile. Besitzer gehen
+täglich spazieren und bewegen sich mehr als Menschen ohne Hund.
+Studien zeigen, dass Hundebesitzer seltener unter Stress leiden
+und glücklicher sind. Außerdem helfen Hunde gegen Einsamkeit —
+besonders älteren Menschen, die alleine leben.
 
-Der 30-jährige Energie-Ingenieur Baris Egemen Tokul aus Berlin hat sein Zuhause dieses Jahr komplett modernisiert. Er hat ein neues Solar-PV-System installiert. „Früher war ich am Monatsende oft gestresst, wenn ich die hohe Stromrechnung gesehen habe“, erzählt er. Jetzt nutzt er die Solaranlage in Kombination mit einem modernen Batterie-Energiespeichersystem (BESS). „Ich produziere meinen Strom selbst, kann die saubere Energie durch die Batterie auch nachts nutzen und spare sehr viel Geld“, sagt Baris.
+Ein Hund kostet aber auch Zeit und Geld. Ein gesunder Hund
+braucht täglich Bewegung, gutes Futter und regelmäßige Besuche
+beim Tierarzt. Im Durchschnitt kostet ein Hund seinen Besitzer
+rund 1.500 Euro pro Jahr. Urlaub muss man ebenfalls planen:
+Man muss jemanden finden, der auf den Hund aufpasst, oder
+den Hund mitnehmen.
 
-Ein wenig skeptischer sieht das der Immobilienunternehmer Markus Schulte (55). Er leitet eine große Wohnungsbaugesellschaft und glaubt, dass Solarenergie nicht für alle Menschen im Alltag funktioniert. „Viele Mieter wohnen in großen Wohnblöcken im Zentrum der Stadt und haben kein eigenes Dach. Für diese Menschen ist eine große PV-Anlage ungeeignet, besonders wenn die Gebäude im Schatten anderer Hochhäuser stehen“, gibt er zu bedenken. Für ihn bleibt der klassische Strommix für diese Gruppe unverzichtbar.
+In Deutschland darf man Hunde in vielen öffentlichen
+Verkehrsmitteln mitnehmen, wenn sie klein sind oder in einer
+Transporttasche sitzen. Größere Hunde brauchen oft ein Ticket.
+In Restaurants und Supermärkten sind Hunde meistens nicht
+erlaubt — außer in bestimmten hundefreundlichen Cafés.
 
-Die Ökonomin Dr. Verena Kraft betont jedoch, dass Solar-PV-Systeme und Heimspeicher die Zukunft der nachhaltigen Stadt sind. Die Verbrennung von Kohle zerstöre an vielen Orten die Umwelt und das Klima. „Immer mehr Städte planen neue Förderprogramme für Balkonkraftwerke im Zentrum, damit auch Mieter ohne eigenes Dach sauberen Strom produzieren können“, erklärt Kraft. Sie fordert, dass die Politik mehr Geld in die grüne Infrastruktur investiert, um die Energiewende für alle Bürger bezahlbar zu machen.
-
-Experten empfehlen Personen, die die Energiewende im eigenen Haushalt testen möchten, klein anzufangen. Man muss nicht sofort das komplette Dach mit teuren Paneelen umbauen. Oft reicht es schon, mit einem kleinen Balkonkraftwerk zu starten und die wichtigsten Haushaltsgeräte am Nachmittag zu nutzen, wenn die Sonne am stärksten scheint.
+Wer sich einen Hund wünscht, sollte gut nachdenken, bevor
+er sich entscheidet. Experten raten, zuerst einen Hund
+in einem Tierheim zu suchen, statt ein Tier zu kaufen.
+Im Tierheim warten viele Hunde auf ein neues Zuhause.
+Ein Hund aus dem Tierheim braucht oft etwas mehr Geduld,
+macht aber genauso viel Freude.
 
 ------------------------------------------------------------------------
 
-6
-Was ist laut Text ein Hauptgrund, warum Solarenergie in Haushalten immer beliebter wird?
+FRAGEN 6–10
 
-a) Weil man mit Solarenergie den Stromverbrauch in großen Fabriken komplett stoppen kann.
-b) Weil sie Unabhängigkeit bietet, das Klima schützt und die Stromkosten massiv senkt.
-c) Weil Solar-PV-Anlagen im Geschäft neuerdings komplett kostenlos an alle Bürger verteilt werden.
+FRAGE 6: Wie viele Hunde leben laut Text in deutschen Haushalten?
 
-7
-Baris Egemen Tokul aus Berlin
+a) über 16 Millionen
+b) mehr als 20 Millionen
+c) ungefähr 10 Millionen
 
-a) ist gestresst, weil sein neues Batterie-Energiespeichersystem (BESS) nur in der Nacht funktioniert.
-b) hat ein Solar-PV-System mit einem Heimspeicher (BESS) kombiniert, um Geld zu sparen und sauberen Strom auch nachts zu nutzen.
-c) sucht eine neue Stelle als Energie-Ingenieur, weil die Installation der Solaranlage zu teuer war.
+------------------------------------------------------------------------
 
-8
-Warum äußert sich der Unternehmer Markus Schulte skeptisch über den Solartrend?
+FRAGE 7: Was ist ein Vorteil, wenn man einen Hund hat?
 
-a) Weil er denkt, dass Solaranlagen für Mieter in großen Wohnblöcken ohne eigenes Dach ungeeignet sind.
-b) Weil es in modernen Großstädten überhaupt keine Experten für die Installation von PV-Anlagen gibt.
-c) Weil seine Mieter laut Mietvertrag keinen Strom aus erneuerbaren Energien nutzen dürfen.
+a) Man spart Geld beim Einkaufen.
+b) Man bewegt sich mehr und ist glücklicher.
+c) Man muss nicht mehr in den Urlaub fahren.
 
-9
-Was ist nach Ansicht von Dr. Verena Kraft wichtig für die Zukunft der Energieversorgung in den Städten?
+------------------------------------------------------------------------
 
-a) Dass alle Bürger sofort aufhören, Strom im Haushalt zu verbrauchen, um die Kohlekraftwerke zu entlasten.
-b) Dass Städte Förderprogramme für Balkonkraftwerke planen, damit auch Mieter ohne eigenes Dach sauberen Strom produzieren können.
-c) Dass die Preise für klassischen Strom aus Kohle sinken, damit die Energiewende schneller geht.
+FRAGE 8: Wie viel kostet ein Hund durchschnittlich pro Jahr?
 
-10
-Welchen Rat geben Experten am Ende des Textes Menschen, die Solarenergie testen möchten?
+a) ungefähr 500 Euro
+b) ungefähr 1.000 Euro
+c) ungefähr 1.500 Euro
 
-a) Sie sollten sofort ihr komplettes Dach umbauen und alle alten Haushaltsgeräte wegschmeißen.
-b) Es ist ratsam, klein anzufangen, zum Beispiel mit einem kleinen Balkonkraftwerk für den eigenen Haushalt.
-c) Man sollte die Solarpaneele nur zusammen mit professionellen Trainern in der Sporthalle testen.
+------------------------------------------------------------------------
+
+FRAGE 9: Was gilt für Hunde in öffentlichen Verkehrsmitteln
+          in Deutschland?
+
+a) Hunde dürfen nie mitfahren.
+b) Kleine Hunde oder Hunde in Taschen dürfen oft mitfahren.
+c) Alle Hunde dürfen kostenlos mitfahren.
+
+------------------------------------------------------------------------
+
+FRAGE 10: Was empfehlen Experten für Menschen, die einen Hund
+           möchten?
+
+a) einen Hund in einem Zoogeschäft kaufen
+b) zuerst einen Hund im Tierheim suchen
+c) mit dem Nachbarn sprechen, bevor man einen Hund kauft
 
 ------------------------------------------------------------------------
 
@@ -68,17 +91,29 @@ c) Man sollte die Solarpaneele nur zusammen mit professionellen Trainern in der 
 LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
 ========================================================================
 
-6: b 
-   - Açıklama (Text): "Die Gründe dafür sind einfach: Unabhängigkeit und Klimaschutz... und hilft dabei, die monatlichen Stromkosten massiv zu senken." Bu cümle b seçeneğindeki faydaları doğrudan doğrular.
+6: a
+   - Açıklama: "über 16 Millionen Hunde" → doğrudan metinden.
+     (b) 20 milyon metinde yok. (c) 10 milyon yanlış.
 
-7: b 
-   - Açıklama (Text): "Jetzt nutzt er die Solaranlage in Kombination mit einem modernen Batterie-Energiespeichersystem (BESS)... kann die saubere Energie durch die Batterie auch nachts nutzen und spare sehr viel Geld". Bu bilgi b şıkkı ile birebir örtüşür.
+7: b
+   - Açıklama: "gehen täglich spazieren und bewegen sich mehr" ve
+     "glücklicher sind" → ikisi de metinde. (a) alışveriş tasarrufu yok.
+     (c) tatilsiz yaşam değil, aksine planlama gerekiyor.
 
-8: a 
-   - Açıklama (Text): "Viele Mieter wohnen in großen Wohnblöcken... und haben kein eigenes Dach. Für diese Menschen ist eine große PV-Anlage ungeeignet...". Markus Schulte'nin şüpheci olma nedeni a şıkkında tam olarak verilmiştir.
+8: c
+   - Açıklama: "kostet ein Hund... rund 1.500 Euro pro Jahr" →
+     doğrudan metinden. (a) ve (b) yanlış rakamlar.
 
-9: b 
-   - Açıklama (Text): „Immer mehr Städte planen neue Förderprogramme für Balkonkraftwerke im Zentrum, damit auch Mieter ohne eigenes Dach sauberen Strom produzieren können...“ Dr. Verena Kraft'ın kiracılar ve balkon santralleri hakkındaki görüşü b seçeneğini doğru cevap yapar.
+9: b
+   - Açıklama: "wenn sie klein sind oder in einer Transporttasche sitzen"
+     → küçük köpekler veya çantada olanlar binebilir. (a) hiç binemez yanlış.
+     (c) ücretsiz değil, büyük köpekler bilet alıyor.
 
-10: b 
-    - Açıklama (Text): "Experten empfehlen... klein anzufangen... Oft reicht es schon, mit einem kleinen Balkonkraftwerk zu starten...". Uzmanların "küçük başlama" tavsiyesi b şıkkında özetlenmiştir.
+10: b
+   - Açıklama: "Experten raten, zuerst einen Hund in einem Tierheim zu
+     suchen" → doğrudan metinden. (a) zoogeschäft değil, aksine önerilmiyor.
+     (c) komşu konuşması metinde yok.
+
+========================================================================
+ÖZET CEVAP ANAHTARI: 6-a / 7-b / 8-c / 9-b / 10-b
+========================================================================

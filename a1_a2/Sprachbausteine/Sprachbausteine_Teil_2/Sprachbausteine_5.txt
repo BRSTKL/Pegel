@@ -1,0 +1,183 @@
+========================================================================
+telc DEUTSCH A1-A2: SPRACHBAUSTEINE TEIL 2 — ÖZGÜN SET 05
+========================================================================
+Prüfungsbaustein: Sprachbausteine Teil 2 (Lücke füllen / Boşluk Doldurma)
+Dauer: ca. 15 Minuten
+
+FORMAT BİLGİSİ:
+- 10 boşluk (21–30), her biri için 3 şık (a / b / c)
+- Günlük yazışma: arkadaşa veya aile üyesine mektup
+- Seviye: A1–A2 (temel kelime bilgisi ve dilbilgisi)
+
+Konu: Hafta sonu pazarı — David, arkadaşı Cem'e yazıyor.
+
+------------------------------------------------------------------------
+
+Lieber Cem,
+
+letzten Samstag bin ich ___21___ meiner Mutter auf den Wochenmarkt gegangen.
+Du weißt ja, dass ich Märkte sehr mag — und dieser war wirklich besonders!
+
+Es gab so viele frische Sachen: Obst, Gemüse, Brot und sogar selbstgemachte
+Marmelade. Ich habe meiner Mutter ___22___, einen Stand mit alten Büchern
+zu besuchen, weil ich dort ein tolles Wörterbuch ___23___ habe. Es hat nur
+zwei Euro ___24___! Das war wirklich ein Schnäppchen.
+
+Wir haben auch an einem Stand ___25___, wo ein alter Mann frischen Apfelsaft
+gemacht hat. Der Saft war so lecker, ___26___ wir noch einen zweiten Becher
+gekauft haben. Danach sind wir eine Weile durch die engen Gassen ___27___
+und haben die alten Häuser angeschaut.
+
+Ich wäre gerne ___28___ geblieben, aber Mama hatte um zwei Uhr einen Termin.
+Vielleicht gehen wir nächste Woche noch einmal ___29___. Hast du Lust,
+___30___ mitzukommen?
+
+Dein David
+
+------------------------------------------------------------------------
+
+SCHLAUBAUSTEINE (SEÇENEKLER: 21–30)
+
+21
+a) mit
+b) bei
+c) zu
+
+22
+a) gefragt
+b) überredet
+c) gebeten
+
+23
+a) gekauft
+b) gefunden
+c) gesehen
+
+24
+a) bezahlt
+b) gekostet
+c) gerechnet
+
+25
+a) gehalten
+b) gestanden
+c) probiert
+
+26
+a) weil
+b) obwohl
+c) dass
+
+27
+a) gelaufen
+b) gegangen
+c) spaziert
+
+28
+a) länger
+b) lange
+c) mehr
+
+29
+a) hin
+b) da
+c) dort
+
+30
+a) auch
+b) dann
+c) mal
+
+------------------------------------------------------------------------
+
+========================================================================
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+21: a (mit)
+   - Açıklama: "mit meiner Mutter gehen" = annemle gitmek. Birliktelik
+     bildiren "mit + Dativ": "mit meiner Mutter."
+     Şık (b) "bei" → "bei meiner Mutter gehen" yanlış; "bei" konum bildirir.
+     Şık (c) "zu" → "zu meiner Mutter gehen" = annemin yanına gitmek; anlam
+     farklı — birlikte gitmek değil, annenin yanına gitmek demek olur.
+
+22: b (überredet)
+   - Açıklama: "jemanden überreden, etwas zu tun" = birini bir şeyi yapmaya
+     ikna etmek. "habe meine Mutter überredet, ... zu besuchen."
+     Şık (a) "gefragt" → "habe Mutter gefragt, zu besuchen" = anneme sordum;
+     ikna anlamı yok, sadece soru.
+     Şık (c) "gebeten" → "jemanden bitten, etwas zu tun" = birinden bir şey
+     rica etmek; dilbilgisel doğru ama "überreden" (ikna etmek) bağlama
+     daha uygun: annenin istemediğini ama ikna edildiğini ima ediyor.
+
+23: b (gefunden)
+   - Açıklama: "ein tolles Wörterbuch gefunden" = harika bir sözlük buldum.
+     Bağlam: eski kitap tezgâhı → orada bir şey bulmak en doğal ifade.
+     Perfekt: "habe gefunden."
+     Şık (a) "gekauft" → "ein Wörterbuch gekauft" = sözlük satın aldım;
+     mümkün ama "gefunden" bulmayı vurgular ve arkasından gelen fiyat bilgisi
+     ("Es hat zwei Euro gekostet") satın alma eylemini zaten gösteriyor.
+     Şık (c) "gesehen" → "gesehen" gördüm; satın alma eylemini desteklemez.
+
+24: b (gekostet)
+   - Açıklama: "Es hat zwei Euro gekostet" = iki Euro'ya mal oldu / iki Euro
+     tuttu. "kosten" fiyat bildiren fiildir; Perfekt: "hat gekostet."
+     Şık (a) "bezahlt" → "Es hat zwei Euro bezahlt" anlamsız; "bezahlen"
+     ödeme yapmak anlamına gelir, ödeme yapan kişi öznedir.
+     Şık (c) "gerechnet" → "rechnen" hesaplamak; bu bağlama uymaz.
+
+25: c (probiert)
+   - Açıklama: "an einem Stand probiert" = bir tezgâhta tattık/denedik.
+     "probieren" = tatmak, denemek. Bağlam: elma suyu yapılıyor → tattık.
+     Perfekt: "haben probiert."
+     Şık (a) "gehalten" → "an einem Stand gehalten" = bir tezgâhın önünde
+     durduk; mümkün ama "probiert" çok daha anlamlı ve bağlama uygun.
+     Şık (b) "gestanden" → "an einem Stand gestanden" = bir tezgâhın önünde
+     durduk (ayakta); dilbilgisel doğru ama "probiert" bağlamı çok daha iyi
+     tamamlar.
+
+26: c (dass)
+   - Açıklama: "so lecker, dass wir noch einen zweiten Becher gekauft haben"
+     = o kadar lezzetliydi ki bir bardak daha aldık. "so + sıfat + dass"
+     sonuç bildiren yapı: "so lecker, dass..."
+     Şık (a) "weil" neden bildirir; "so...weil" diye bir yapı yoktur.
+     Şık (b) "obwohl" zıtlık bildirir; bu bağlama uymaz.
+
+27: b (gegangen)
+   - Açıklama: "durch die Gassen gegangen" = dar sokaklardan geçtik/yürüdük.
+     "gehen" yürümek; "durch + Akkusativ" geçiş bildirir. "sein + gegangen"
+     Perfekt hareketi anlatır.
+     Şık (a) "gelaufen" → "laufen" = koşmak veya yürümek; "gelaufen" da
+     mümkün ama "gegangen" sakin bir yürüyüş için daha doğaldır.
+     Şık (c) "spaziert" → "spazieren" = gezmek; Perfekt: "sind spaziert" ya
+     da "sind spazieren gegangen"; tek başına "spaziert" eksik kalır.
+
+28: a (länger)
+   - Açıklama: "gerne länger geblieben" = daha uzun kalmak isterdim.
+     "länger" = daha uzun (lang'ın Komparativ'i). Konjunktiv II "wäre geblieben"
+     ile birlikte gerçekleşmemiş dilek ifade eder.
+     Şık (b) "lange" → "gerne lange geblieben" = uzun süre kalmak isterdim;
+     mümkün ama "länger" (daha uzun) karşılaştırma tonu taşır ve bağlama
+     daha uygun: "gitmek zorunda kaldık ama daha uzun kalmak isterdim."
+     Şık (c) "mehr" = daha fazla (miktar); "mehr geblieben" anlamsız.
+
+29: a (hin)
+   - Açıklama: "noch einmal hingehen" = bir daha oraya gitmek. "hingehen"
+     ayrılabilen fiil; yön bildiren "hin" uzak bir hedefe gidişi ifade eder.
+     "nächste Woche noch einmal hin" → "hingehen" fiilinin ön eki ayrılır.
+     Şık (b) "da" → konum zarfı (orada); yön bildirmez.
+     Şık (c) "dort" → konum zarfı (orada); yön bildirmez; "dorthin" olmalıydı.
+
+30: c (mal)
+   - Açıklama: "Hast du Lust, mal mitzukommen?" = bir ara birlikte gelmek
+     ister misin? "mal" hafif, belirsiz bir öneri tonu katar; samimi davet
+     ifadelerinde çok yaygındır.
+     Şık (a) "auch" = de/da; "auch mitzukommen" = sen de gel; mümkün ama
+     "mal" davet sorusunda daha doğal.
+     Şık (b) "dann" = o zaman/sonra; "dann mitzukommen" zaman vurgular;
+     bağlamda "mal" daha uygun.
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+21-a / 22-b / 23-b / 24-b / 25-c / 26-c / 27-b / 28-a / 29-a / 30-c
+========================================================================

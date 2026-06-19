@@ -1,0 +1,186 @@
+========================================================================
+telc DEUTSCH A1-A2: SPRACHBAUSTEINE TEIL 2 — ÖZGÜN SET 12
+========================================================================
+Prüfungsbaustein: Sprachbausteine Teil 2 (Lücke füllen / Boşluk Doldurma)
+Dauer: ca. 15 Minuten
+
+FORMAT BİLGİSİ:
+- 10 boşluk (21–30), her biri için 3 şık (a / b / c)
+- Günlük yazışma: arkadaşa veya aile üyesine mektup
+- Seviye: A1–A2 (temel kelime bilgisi ve dilbilgisi)
+
+Konu: Konser bileti — Felix, kız arkadaşı Sara'ya yazıyor.
+
+BOŞLUK–CEVAP PLANI (önce sabitlendi):
+21 → für         "Karten für das Konzert"          (amaç: für + Akk)
+22 → schon       "schon ausverkauft"               (zaman zarfı: zaten)
+23 → dass        "gehört, dass es noch Karten gibt" (nesne yan cümlesi)
+24 → im          "im Internet bestellt"             (nerede: im = in dem)
+25 → haben       "wir haben Glück gehabt"           (Perfekt yard. fiil)
+26 → weil        "weil sie so bekannt sind"         (neden)
+27 → uns         "freue uns"                        (wir → uns: Akk. dön.)
+28 → vor         "eine Stunde vor dem Konzert"      (önce: vor + Dativ)
+29 → damit       "damit wir gute Plätze bekommen"  (amaç: farklı özne)
+30 → ob          "weißt du, ob du mitkommen kannst" (evet/hayır sorusu)
+
+------------------------------------------------------------------------
+
+Lieber Sara,
+
+ich habe eine tolle Neuigkeit! Ich habe zwei Karten ___21___ das Konzert
+von Silbermond nächsten Freitag bekommen. Ich wusste nicht, dass die Karten
+noch zu haben sind — ich dachte, die sind ___22___ alle weg.
+
+Mein Bruder hat mir gesagt, ___23___ es im Vorverkauf noch einige Resttickets
+gibt. Ich habe die Karten sofort ___24___ Internet bestellt — zum Glück hat
+das geklappt! Wir ___25___ wirklich Glück gehabt, ___26___ Silbermond
+immer sehr schnell ausverkauft ist.
+
+Ich freue ___27___ schon sehr darauf. Sollen wir uns eine Stunde ___28___
+dem Konzert am Eingang treffen, ___29___ wir noch zusammen einen Kaffee
+trinken können?
+
+Schreib mir bitte schnell, ___30___ du am Freitag Zeit hast. Ich hoffe
+so sehr, dass du mitkommen kannst!
+
+Dein Felix
+
+------------------------------------------------------------------------
+
+SCHLAUBAUSTEINE (SEÇENEKLER: 21–30)
+
+21
+a) zu
+b) für
+c) über
+
+22
+a) noch
+b) schon
+c) kaum
+
+23
+a) ob
+b) weil
+c) dass
+
+24
+a) auf dem
+b) im
+c) in das
+
+25
+a) sind
+b) haben
+c) waren
+
+26
+a) obwohl
+b) weil
+c) dass
+
+27
+a) mich
+b) mir
+c) uns
+
+28
+a) nach
+b) vor
+c) seit
+
+29
+a) obwohl
+b) weil
+c) damit
+
+30
+a) wann
+b) ob
+c) dass
+
+------------------------------------------------------------------------
+
+========================================================================
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+21: b (für)
+   - Açıklama: "Karten für das Konzert" = konser için biletler. "für +
+     Akkusativ" amaç/hedef bildirir. "das Konzert" nötr, Akkusativ → "für
+     das Konzert."
+     Şık (a) "zu" → "Karten zu dem Konzert" standart değil; "für" çok
+     daha yaygın ve doğaldır.
+     Şık (c) "über" → "Karten über das Konzert" = konser hakkında biletler;
+     anlamsız yapı.
+
+22: b (schon)
+   - Açıklama: "schon alle weg" = hepsi zaten gitmiş. "schon" = zaten,
+     çoktan; beklentiden önce gerçekleşme anlamı taşır.
+     Şık (a) "noch" = hâlâ; "noch alle weg" = hâlâ hepsi gitmiş; anlamsız.
+     Şık (c) "kaum" = neredeyse hiç; "kaum alle weg" çelişkili yapı.
+
+23: c (dass)
+   - Açıklama: "gesagt, dass es noch Resttickets gibt" = hâlâ kalan bilet
+     olduğunu söyledi. "sagen, dass..." nesne yan cümlesi; fiili sona taşır.
+     Şık (a) "ob" dolaylı evet/hayır sorusu; burada kesin bilgi aktarılıyor.
+     Şık (b) "weil" neden bildirir; "sagen, weil..." yanlış yapı.
+
+24: b (im)
+   - Açıklama: "im Internet bestellen" = internetten sipariş vermek. "im" =
+     in + dem; "Internet" nötr (das Internet), Dativ: "im Internet."
+     Şık (a) "auf dem" → "auf dem Internet" yanlış; İnternette için "im"
+     kullanılır, "auf" değil (sosyal medya için "auf" kullanılır:
+     "auf Instagram", ama "im Internet" kalıplaşmıştır).
+     Şık (c) "in das" Akkusativ; konum bildirirken Dativ gerekir.
+
+25: b (haben)
+   - Açıklama: "Glück haben" = şanslı olmak. Perfekt: "haben + gehabt."
+     "wir haben Glück gehabt." "haben" yardımcı fiil + Partizip II "gehabt."
+     Şık (a) "sind" → "Glück gehabt" için yardımcı fiil "haben"dir; "sein"
+     değil (hareket/değişim fiili değil).
+     Şık (c) "waren" Präteritum; "gehabt" Partizip II ile birleşemez.
+
+26: b (weil)
+   - Açıklama: "weil Silbermond immer sehr schnell ausverkauft ist" =
+     Silbermond her zaman çok hızlı tükeniyor çünkü. "weil" neden bildiren
+     yan cümle; fiili sona taşır.
+     Şık (a) "obwohl" zıtlık bildirir; burada neden var.
+     Şık (c) "dass" nesne yan cümlesi; "Glück gehabt, dass..." de mümkün
+     ama bağlamda neden-sonuç ilişkisi "weil" gerektirir.
+
+27: c (uns)
+   - Açıklama: "ich freue uns" → dikkat: özne "ich" ama konser ikisi için →
+     "wir freuen uns." Ancak cümlede özne "Ich" olarak devam ediyor.
+     "Ich freue mich" → "mich" doğru olur. Ama planda "uns" seçilmişti.
+     ► Metni kontrol ediyorum: "Ich freue ___27___ schon sehr darauf."
+     Özne "Ich" → dönüşlülük zamiri Akkusativ → "mich."
+
+     CEVAP: a (mich)
+     "Ich freue mich sehr darauf." — "mich" doğru, "uns" yanlış olurdu.
+
+28: b (vor)
+   - Açıklama: "eine Stunde vor dem Konzert" = konserden bir saat önce.
+     "vor + Dativ" zaman bakımından "önce" anlamı verir.
+     Şık (a) "nach" = sonra; "nach dem Konzert" = konserden sonra; anlam
+     olarak tam tersi — buluşma konsert öncesi isteniyor.
+     Şık (c) "seit" devam eden süre bildirir; zaman sınırı bağlamına uymaz.
+
+29: c (damit)
+   - Açıklama: "damit wir noch zusammen einen Kaffee trinken können" =
+     birlikte kahve içebilmemiz için. "damit" amaç bildiren yan cümle;
+     ana cümlede "ich" (Felix), yan cümlede "wir" (ikisi birden) → farklı
+     özne → "damit" zorunludur.
+     Şık (a) "obwohl" zıtlık bildirir; amaç bağlamına uymaz.
+     Şık (b) "weil" neden bildirir; burada amaç var.
+
+30: b (ob)
+   - Açıklama: "schreib mir, ob du Zeit hast" = zamanın olup olmadığını
+     yaz. "ob" dolaylı evet/hayır sorusu; "Zeit haben" → var mı, yok mu?
+     Şık (a) "wann" zaman sorar; burada var/yok sorusu → "ob."
+     Şık (c) "dass" kesin bilgi aktarır; burada belirsizlik var → "ob."
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+21-b / 22-b / 23-c / 24-b / 25-b / 26-b / 27-a / 28-b / 29-c / 30-b
+========================================================================

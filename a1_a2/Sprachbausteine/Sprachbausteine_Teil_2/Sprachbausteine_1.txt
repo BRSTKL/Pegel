@@ -1,0 +1,170 @@
+========================================================================
+telc DEUTSCH A1-A2: SPRACHBAUSTEINE TEIL 2 — ÖZGÜN SET 01
+========================================================================
+Prüfungsbaustein: Sprachbausteine Teil 2 (Lücke füllen / Boşluk Doldurma)
+Dauer: ca. 15 Minuten
+
+FORMAT BİLGİSİ:
+- 10 boşluk (21–30), her biri için 3 şık (a / b / c)
+- Günlük yazışma: arkadaşa veya aile üyesine mektup
+- Seviye: A1–A2 (temel kelime bilgisi ve dilbilgisi)
+
+Konu: Yeni bir spor salonuna üye olmak — Tobias, arkadaşı Erik'e yazıyor.
+
+------------------------------------------------------------------------
+
+Lieber Erik,
+
+ich habe letzte Woche endlich ___21___ Fitnessstudio angemeldet! Du weißt ja,
+dass ich schon lange Sport machen wollte. Das Studio liegt direkt ___22___ meiner
+Wohnung, nur fünf Minuten zu Fuß.
+
+Am Montag war ich zum ersten Mal dort. Ein Trainer hat mir alles ___23___ — welche
+Geräte ich benutzen soll und wie ich richtig trainiere. Ich war danach so müde,
+___24___ ich sofort eingeschlafen bin. Aber am nächsten Morgen habe ich mich
+wirklich gut ___25___.
+
+Zweimal ___26___ Woche möchte ich jetzt trainieren. Mein Ziel ist es, bis zum
+Sommer fitter ___27___ werden. Ich glaube, das schaffe ich, ___28___ ich
+konsequent bleibe. Magst du vielleicht auch mitmachen? Das Studio hat einen
+Tagespass ___29___ zehn Euro — so kannst du es erst einmal ausprobieren,
+___30___ du dich entscheidest.
+
+Meld dich!
+Dein Tobias
+
+------------------------------------------------------------------------
+
+SCHLAUBAUSTEINE (SEÇENEKLER: 21–30)
+
+21
+a) an einem
+b) in ein
+c) bei einem
+
+22
+a) neben
+b) hinter
+c) vor
+
+23
+a) erklärt
+b) erklären
+c) erklärte
+
+24
+a) weil
+b) obwohl
+c) dass
+
+25
+a) fühlen
+b) gefühlt
+c) gefühlte
+
+26
+a) in der
+b) pro
+c) zu der
+
+27
+a) für
+b) zu
+c) auf
+
+28
+a) damit
+b) wenn
+c) weil
+
+29
+a) zu
+b) für
+c) mit
+
+30
+a) bevor
+b) nachdem
+c) weil
+
+------------------------------------------------------------------------
+
+========================================================================
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+21: b (in ein)
+   - Açıklama: "sich in etwas anmelden" değil; doğru kalıp "sich bei einem
+     Fitnessstudio anmelden" (kayıt olmak) veya günlük dilde "sich in ein
+     Fitnessstudio anmelden" şeklinde kullanılır.
+     "Fitnessstudio" nötr (das Fitnessstudio) → Akkusativ → "ein."
+     Şık (a) "an einem" Dativ olur; "anmelden" burada yön (Akkusativ) gerektirir.
+     Şık (c) "bei einem" konum/kurum bildirir; günlük dilde "bei" ile de
+     kullanılır ancak bu şıklar arasında "in ein" en yaygın A1-A2 kalıbıdır.
+
+22: a (neben)
+   - Açıklama: "neben meiner Wohnung" = dairemimin yanında. Konum bildirdiği
+     için (hareket yok → wo?) Dativ kullanılır: "neben + Dativ."
+     "meiner Wohnung" dişil Dativ → doğru.
+     Şık (b) "hinter" = arkasında; anlam olarak mümkün ama "neben" (yanında)
+     bağlama daha uygundur.
+     Şık (c) "vor" = önünde; konum edatı olarak dilbilgisel doğru ama bağlama
+     göre en doğal seçim "neben"dir.
+
+23: a (erklärt)
+   - Açıklama: "hat mir alles erklärt" = bana her şeyi açıkladı. Perfekt yapısı:
+     "haben + Partizip II." "erklären" düzenli fiil → Partizip II: "erklärt."
+     Şık (b) "erklären" Infinitiv; "hat" yardımcı fiilinden sonra Partizip II
+     gerekir, Infinitiv değil.
+     Şık (c) "erklärte" Präteritum; "hat" ile birlikte kullanılamaz.
+
+24: c (dass)
+   - Açıklama: "so müde, dass ich sofort eingeschlafen bin" = o kadar yorgundum
+     ki hemen uyuyakaldım. "so + sıfat + dass" sonuç bildiren yapıdır.
+     Şık (a) "weil" neden bildirir; "so...weil" diye bir yapı yoktur.
+     Şık (b) "obwohl" zıtlık bildirir; bu bağlama uymaz.
+
+25: b (gefühlt)
+   - Açıklama: "habe ich mich gut gefühlt" = kendimi iyi hissettim. Perfekt:
+     "haben + Partizip II." "fühlen" → Partizip II: "gefühlt."
+     Dönüşlü fiil: "sich gut fühlen" → "habe mich gut gefühlt."
+     Şık (a) "fühlen" Infinitiv; Partizip II gerekir.
+     Şık (c) "gefühlte" sıfat çekim eki almış biçim; Partizip II olarak kullanılamaz.
+
+26: b (pro)
+   - Açıklama: "zweimal pro Woche" = haftada iki kez. Sıklık bildiren "pro +
+     Akkusativ" kalıbı: "pro Woche", "pro Tag."
+     Şık (a) "in der Woche" de mümkün ama "zweimal in der" eksik kalır;
+     "pro" daha kısa ve doğal A2 ifadesidir.
+     Şık (c) "zu der" → "zweimal zu der Woche" anlamsız bir yapıdır.
+
+27: b (zu)
+   - Açıklama: "fitter werden" = daha fit olmak. "werden + Adjektiv" değişim
+     bildiren yapıdır. Bu yapıda "zu" kullanılır: "Ziel ist es, fitter zu werden."
+     "zu + Infinitiv" kalıbının parçasıdır.
+     Şık (a) "für" → "fitter für werden" anlamsız.
+     Şık (c) "auf" → "fitter auf werden" anlamsız.
+
+28: b (wenn)
+   - Açıklama: "wenn ich konsequent bleibe" = tutarlı/kararlı kalırsam. "wenn"
+     koşul bildiren yan cümle kurar ve fiili sona taşır.
+     Şık (a) "damit" amaç bildirir; burada koşul söz konusudur.
+     Şık (c) "weil" neden bildirir; bağlama uymaz.
+
+29: b (für)
+   - Açıklama: "einen Tagespass für zehn Euro" = on Euro'ya günlük geçiş kartı.
+     Fiyat bildiren "für + Akkusativ" kalıbı: "für zehn Euro."
+     Şık (a) "zu" → "zu zehn Euro" standart dışı bir yapıdır.
+     Şık (c) "mit" → araç bildirir; fiyat bağlamına uymaz.
+
+30: a (bevor)
+   - Açıklama: "bevor du dich entscheidest" = karar vermeden önce. "bevor"
+     zaman bildiren yan cümle kurar ve fiili sona taşır: önce deneyip
+     sonra karar vermesi öneriliyor.
+     Şık (b) "nachdem" = sonra; anlam olarak tam tersi olur.
+     Şık (c) "weil" neden bildirir; zaman bağlamına uymaz.
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+21-b / 22-a / 23-a / 24-c / 25-b / 26-b / 27-b / 28-b / 29-b / 30-a
+========================================================================

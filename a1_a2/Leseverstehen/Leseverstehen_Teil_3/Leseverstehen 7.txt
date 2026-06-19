@@ -1,124 +1,152 @@
 ========================================================================
-telc DEUTSCH A1-A2: OFFIZIELLES LESEVERSTEHEN-TRAINING (ÖZGÜN SET 32)
+telc DEUTSCH A1-A2: LESEVERSTEHEN TEIL 4 — ÖZGÜN SET 07
 ========================================================================
-Prüfungsbaustein: Leseverstehen (Anzeigenzuordnung / İlan Eşleştirme)
-Dauer: 20 Minuten
-
-KURAL REHBERİ (telc Sınav Stratejisi):
-1. Bu bölüm bir ilan eşleştirme (Zuordnung) alıştırmasıdır. Amacınız, verilen durumlara (11-20) en uygun ilanı (a-l) bulmaktır[cite: 2]. Eğer bir durum için uygun bir ilan yoksa, o durumun karşısına "x" işareti koymalısınız[cite: 2].
-2. Strateji: Durumlarda belirtilen anahtar kelimeleri (kurs günleri, kişi sayısı, bütçe, mutfak türü veya iş/staj türü) ilanların içerikleriyle çok dikkatli bir şekilde karşılaştırın[cite: 2].
-3. Dikkat: Çeldiricilere karşı uyanık olun. Örneğin, bir ilan stajyer aradığını söylüyor ama ücretsiz bir zorunlu staj sunuyorsa ve durum "ücretli staj" arıyorsa, o şık yanlıştır[cite: 2].
+Prüfungsbaustein: Leseverstehen Teil 4
 
 ------------------------------------------------------------------------
 
-SITUATIONEN (DURUMLAR: 11 - 20)
+SITUATIONEN (DURUMLAR: 11–20)
 
-11 [  ]
-Sie möchten am Samstagabend mit Ihrer Partnerin Melis ein indisches Restaurant direkt im Stadtzentrum von Berlin besuchen[cite: 2].
+11  Sie möchten mit Ihrem Partner eine romantische Woche am See
+    verbringen. Sie suchen eine Unterkunft mit eigenem Steg
+    und Blick auf das Wasser.
 
-12 [  ]
-Ihr Cousin sucht für den Sommerurlaub eine Unterkunft in den Bergen für eine Gruppe von vier Personen, in der sie selbst kochen können[cite: 2].
+12  Ihre Freundin möchte nähen lernen. Sie ist Anfängerin und
+    hat samstags Zeit.
 
-13 [  ]
-Die Tochter Ihrer Nachbarin möchte in den Schulferien ein kurzes, zweiwöchiges Praktikum in einer Autowerkstatt machen, um handwerkliche Erfahrungen zu sammeln[cite: 2].
+13  Ihr Bruder sucht einen günstigen Fitnesskurs. Er möchte
+    Muskeln aufbauen und hat abends Zeit.
 
-14 [  ]
-Ihr Bekannter plant, ein kleines Café zu eröffnen, und sucht jemanden, der das Logo und die Speisekarten professionell und kreativ gestaltet[cite: 2].
+14  Sie suchen ein Café mit Terrasse im Stadtzentrum. Sie
+    möchten draußen frühstücken.
 
-15 [  ]
-Ihre Kollegin möchte Spanisch für Anfänger lernen, hat aber wegen ihrer langen Arbeitszeiten unter der Woche nur am Wochenende Zeit[cite: 2].
+15  Ihre Tochter (11 Jahre) möchte tanzen lernen. Sie mag
+    Ballett oder modernen Tanz.
 
-16 [  ]
-Ihr Bruder Baris arbeitet im Ingenieurwesen, besitzt bereits B2-Deutschkenntnisse und möchte lernen, wie man professionelle Präsentationen auf Deutsch hält[cite: 2].
+16  Sie brauchen Hilfe bei Ihrer Steuererklärung. Sie haben
+    keine Erfahrung damit.
 
-17 [  ]
-Sie suchen für Sonntagmittag ein passendes Restaurant mit traditioneller deutscher Küche für ein großes Familienessen mit den Großeltern[cite: 2].
+17  Ihr Nachbar sucht jemanden, der seinen Garten einmal pro
+    Woche pflegt. Er zahlt 15 € pro Stunde.
 
-18 [  ]
-Ihre Schwester leidet unter starken Rückenschmerzen und sucht eine Praxis für Physiotherapie mit Terminen am späten Abend[cite: 2].
+18  Sie und drei Freunde möchten am Freitag gemeinsam Karten
+    spielen. Sie suchen ein Spielcafé oder eine Möglichkeit,
+    Brettspiele auszuleihen.
 
-19 [  ]
-Ihr Freund studiert Informatik und sucht für die vorlesungsfreie Zeit im Spätsommer (August bis Oktober) ein bezahltes Praktikum im Bereich App-Entwicklung[cite: 2].
+19  Ihre Kollegin möchte mit dem Rauchen aufhören und sucht
+    Unterstützung — z. B. einen Kurs oder eine Beratung.
 
-20 [  ]
-Die Mutter Ihres Freundes möchte den Umgang mit ihrem neuen Smartphone lernen und sucht einen passenden Einsteigerkurs am Vormittag[cite: 2].
+20  Sie suchen einen Italienischkurs. Sie sprechen schon ein
+    bisschen Italienisch und möchten besser werden.
+    Sie haben dienstags abends Zeit.
 
 ------------------------------------------------------------------------
 
-ANZEIGEN (İLANLAR: a - l)
+ANGEBOTE (İLANLAR: a–e)
 
-a) Chili & Chutney – Indische Spezialitäten
-Erleben Sie die Vielfalt der indischen Küche mitten in der Altstadt! Wir bieten traditionelle Currys, Tandoori-Gerichte und eine große Auswahl an vegetarischen Speisen[cite: 2].
-Öffnungszeiten: Di.–So. 12:00–15:00 Uhr und 18:00–23:00 Uhr. Montag Ruhetag[cite: 2].
-Reservierungen online oder unter Tel. 030-22 33 44. Friedrichstraße 12, Berlin[cite: 2].
+------------------------------------------------------------------------
+a  FERIENWOHNUNG AM STARNBERGER SEE
+   Romantik pur — Urlaub direkt am Wasser!
 
-b) Ferienhaus Alpenglück
-Verbringen Sie Ihren Sommerurlaub im wunderschönen Allgäu! Unser modern eingerichtetes Ferienhaus bietet Platz für bis zu 6 Personen[cite: 2]. Große Wohnküche zur Selbstversorgung, Balkon mit Bergblick, Garten mit Grillplatz[cite: 2].
-Vermietung: Mai bis Oktober. Mindestaufenthalt: 7 Nächte[cite: 2].
-Kontakt: info@alpenglueck-ferien.de, Tel. 08321-99 88 77[cite: 2].
+   Gemütliche 2-Zimmer-Wohnung mit Seeblick.
+   Eigener Steg für Boote und zum Baden. Terrasse, Kamin.
+   Für 2 Personen. Wäsche und Endreinigung inklusive.
 
-c) Grafikdesign-Studio „Farbenfroh“
-Wir bringen Ihre Ideen auf Papier und Bildschirm! Professionelle Gestaltung von Logos, Flyern, Visitenkarten und Speisekarten für Gastronomie und Gewerbe[cite: 2]. Individuelle Beratung für Gründer und Kleinunternehmer[cite: 2].
-Kostenloses Erstgespräch: kontakt@studio-farbenfroh.de, Tel. 0176-55 44 33 22[cite: 2].
+   Preis: 120 € / Nacht | Mindestaufenthalt: 5 Nächte.
+   Buchung: starnberger-see-ferien.de | Tel. 08151-334455
 
-d) Praktikum bei TechSolutions
-Du studierst Informatik oder Software Engineering und suchst praktische Erfahrung? Wir bieten 3-monatige bezahlte Praktikumsplätze im Bereich Mobile Apps für die Monate August bis Oktober[cite: 2].
-Anforderungen: Grundkenntnisse in Java oder Swift, Teamfähigkeit[cite: 2].
-Bewerbung mit Lebenslauf an: jobs@techsolutions-it.de[cite: 2].
+------------------------------------------------------------------------
+b  NÄHKURS FÜR ANFÄNGER
+   Kreativwerkstatt Nadel & Faden
 
-e) Deutsches Haus – Traditionelle Küche
-Genießen Sie klassische deutsche Gerichte wie Schweinebraten, Schnitzel und frische Salate in gemütlicher Atmosphäre[cite: 2]. Großer Biergarten für sonnige Tage. Ideal für Familienfeiern[cite: 2].
-Öffnungszeiten: Fr.–So. 11:30–22:00 Uhr, Mo.–Do. Ruhetag[cite: 2].
-Reservierung dringend empfohlen: Tel. 089-44 55 66, Hauptstraße 45, München[cite: 2].
+   Lernen Sie Nähen von Grund auf — Maschine und Handarbeit.
+   Samstags: 10:00–13:00 Uhr (Gruppe, max. 6 Personen)
+   Material und Maschinen werden gestellt.
 
-f) Sprachschule Lingua – Spanisch am Samstag
-Wochenendkurs Spanisch A1/A2 für Berufstätige. Lernen Sie die Grundlagen für Beruf und Urlaub ganz ohne Stress neben der Arbeit[cite: 2]. Small Talk, Grammatik und nützliche Vokabeln[cite: 2].
-Kursdauer: 8 Wochen, jeden Samstag von 10:00 bis 13:30 Uhr[cite: 2].
-Anmeldung: www.lingua-sprachschule.de, Tel. 040-77 88 99[cite: 2].
+   Kursgebühr: 60 € / Monat (4 Kurse)
+   Anmeldung: nadel-und-faden.de | Tel. 089-445566
 
-g) Präsentationstraining Deutsch (C1)
-Intensivseminar für Fach- und Führungskräfte mit sehr guten Deutschkenntnissen (ab B2/C1)[cite: 2]. Themen: Struktur von Vorträgen, Körpersprache, Medieneinsatz, professionelles Auftreten vor Kunden[cite: 2].
-Wochenend-Workshop: Sa. und So. jeweils 9:00–16:00 Uhr[cite: 2].
-Infos unter: training@business-deutsch.de[cite: 2].
+------------------------------------------------------------------------
+c  FITNESSSTUDIO KRAFTWERK
+   Stark werden — effizient trainieren!
 
-h) Physio-Zentrum Mitte
-Ihre Experten für Rückenschmerzen, Sportverletzungen und Rehabilitation[cite: 2]. Modernste Geräte und individuelle Betreuung durch erfahrene Therapeuten[cite: 2].
-Sprechzeiten: Mo.–Fr. 7:00–21:30 Uhr. Alle Krankenkassen und Privatpatienten[cite: 2].
-Termine nach Vereinbarung: Tel. 069-11 22 33, info@physio-mitte.de[cite: 2].
+   Modernes Studio mit Gewichten, Kraftmaschinen und Cardio.
+   Abendkurse: Krafttraining Mo, Mi, Fr 19:00–20:30 Uhr.
+   Probetraining kostenlos!
 
-i) Smartphone-Kurs für Senioren
-Keine Angst vor der Technik! Wir zeigen Ihnen Schritt für Schritt, wie Sie Ihr Smartphone für Nachrichten, Fotos und Internet nutzen[cite: 2]. Keine Vorkenntnisse erforderlich. Small Groups, geduldiges Lernen[cite: 2].
-Kurszeiten: Di. und Do. jeweils von 9:30 bis 11:00 Uhr. Dauer: 4 Wochen[cite: 2].
-Anmeldung im Stadtteilzentrum, Tel. 0221-55 66 77[cite: 2].
+   Monatsbeitrag: 35 € (ohne Vertragsbindung)
+   Info: fitnessstudio-kraftwerk.de | Tel. 030-778899
 
-j) Kfz-Meisterbetrieb Wagner & Söhne
-Wir reparieren alle Automarken! Jahresservice, Reifenwechsel, Unfallreparaturen[cite: 2]. Wir suchen ab September Auszubildende (m/w/d) für den Beruf Kfz-Mechatroniker[cite: 2].
-Bitte senden Sie Ihre vollständigen Bewerbungsunterlagen per Post an unsere Werkstatt[cite: 2].
-Kontakt: Tel. 0711-88 99 00, info@kfz-wagner.de[cite: 2].
+------------------------------------------------------------------------
+d  TANZSCHULE RHYTHMUS
+   Für Kinder, Jugendliche und Erwachsene
 
-k) Ferienwohnung Seeblick
-Erholung pur direkt am Chiemsee für 2 Personen[cite: 2]. Moderne Ausstattung, Einbauküche, Terrasse zum See. Haustiere auf Anfrage erlaubt. Perfekt für ein langes Wochenende[cite: 2].
-Buchung ab 3 Nächten möglich[cite: 2].
-Anfragen unter: seeblick-urlaub@web.de[cite: 2].
+   Ballett für Kinder (ab 5 Jahren), Modern Dance, Hip-Hop.
+   Kurse dienstags und donnerstags 16:00–17:00 Uhr (Kinder)
+   Samstags: 10:00–11:30 Uhr (Jugendliche und Erwachsene)
 
-l) Praktikum im Medienhaus
-Die Kölner Mediengruppe bietet Studentinnen und Studenten der Medienwissenschaften dreimonatige Praktika im Bereich Online-Redaktion und Social Media[cite: 2]. Aufgaben: Schreiben von Artikeln, Recherche[cite: 2].
-Beginn: flexibel. Unvergütetes Pflichtpraktikum[cite: 2].
-Bewerbung an: redaktion@medienhaus-koeln.de[cite: 2].
+   Kursgebühr: 45 € / Monat | Probestunde gratis.
+   Anmeldung: tanzschule-rhythmus.de | Tel. 040-556677
+
+------------------------------------------------------------------------
+e  SPIELCAFÉ JOKER
+   Spielen, Lachen, Genießen!
+
+   Über 300 Brettspiele zum Spielen vor Ort oder Ausleihen.
+   Kaffee, Tee und Snacks. Gemütliche Atmosphäre.
+
+   Öffnungszeiten: Di–So 14:00–23:00 Uhr
+   Eintritt: 4 € pro Person (inkl. Spielauswahl)
+   Gruppen willkommen! Reservierung: spielcafe-joker.de
 
 ------------------------------------------------------------------------
 
 ========================================================================
-OFFIZIELLER LÖSUNGSSCHLÜSSEL (CEVAP ANAHTARI VE AÇIKLAMALAR)
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
 ========================================================================
 
-11: a (Chili & Chutney: Berlin merkezde/Altstadt, Hint mutfağı sunuyor ve cumartesi akşamı açık[cite: 2].)
-12: b (Ferienhaus Alpenglück: Dağlık bölgede (Allgäu), kendi yemeğini pişirmek için mutfağı var ve 6 kişiye kadar -yani 4 kişi için- uygun[cite: 2].)
-13: x (İlan j'deki oto tamircisi sadece uzun süreli mesleki eğitim -Ausbildung- sunuyor, kısa süreli staj -Praktikum- vermiyor[cite: 2]. Bu yüzden uygun ilan yoktur.)
-14: c (Studio Farbenfroh: Gastronomi işletmeleri için logo ve menü kartı tasarımı hazırlıyor[cite: 2].)
-15: f (Sprachschule Lingua: Yeni başlayanlar için İspanyolca, sadece cumartesi günleri yani hafta sonu kursu[cite: 2].)
-16: g (Präsentationstraining: En az B2 seviyesinde Almancası olanlar için iş hayatında profesyonel sunum yapma semineri[cite: 2].)
-17: e (Deutsches Haus: Geleneksel Alman mutfağı, Pazar öğlen açık ve aile yemekleri için ideal[cite: 2].)
-18: h (Physio-Zentrum Mitte: Sırt ağrıları uzmanı, hafta içi akşam saat 21:30'a kadar açık -geç saat-[cite: 2].)
-19: d (TechSolutions: Bilişim öğrencilerine Spätsommer döneminde -Ağustos-Ekim- mobil uygulama alanında ücretli staj sunuyor[cite: 2].)
-20: i (Smartphone-Kurs: Yeni başlayanlar için sabah 9:30 - 11:00 arası -vormittag- düzenlenen cihaz kullanım kursu[cite: 2].)
+11: a (Ferienwohnung am Starnberger See)
+   - Açıklama: Romantik, göl kenarı, özel iskele, su manzarası, 2 kişi →
+     "Seeblick", "Eigener Steg", "Für 2 Personen". ✓
+
+12: b (Nähkurs für Anfänger)
+   - Açıklama: Dikiş öğrenmek, başlangıç, Cumartesi →
+     "Anfänger", "Samstags", "Material... werden gestellt". ✓
+
+13: c (Fitnessstudio Kraftwerk)
+   - Açıklama: Ucuz fitness, kas yapmak, akşam →
+     "Krafttraining... 19:00–20:30 Uhr", "35 € / Monat". ✓
+
+14: x (Kein Angebot passt)
+   - Açıklama: Şehir merkezinde terasta kahvaltı yapılabilecek kafe →
+     İlanlarda bu tür kafe ilanı yok. x ✓
+
+15: d (Tanzschule Rhythmus)
+   - Açıklama: 11 yaşında kız, bale veya modern dans →
+     "Ballett für Kinder (ab 5 Jahren), Modern Dance", Di/Do 16:00. ✓
+
+16: x (Kein Angebot passt)
+   - Açıklama: Vergi beyannamesi yardımı →
+     İlanlarda vergi danışmanlığı yok. x ✓
+
+17: x (Kein Angebot passt)
+   - Açıklama: Haftada bir bahçe bakımı, 15 €/saat →
+     İlanlarda bahçıvanlık hizmeti yok. x ✓
+
+18: e (Spielcafé Joker)
+   - Açıklama: Cuma akşamı, 4 kişi, kutu oyunları →
+     "Di–So 14:00–23:00 Uhr" (Cuma uygun), "300 Brettspiele",
+     "Gruppen willkommen". ✓
+
+19: x (Kein Angebot passt)
+   - Açıklama: Sigarayı bırakma kursu veya danışmanlık →
+     İlanlarda sigara bırakma ilanı yok. x ✓
+
+20: x (Kein Angebot passt)
+   - Açıklama: Biraz bilen için İtalyanca kursu, Salı akşamı →
+     İlanlarda İtalyanca kursu yok. x ✓
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+11-a / 12-b / 13-c / 14-x / 15-d / 16-x / 17-x / 18-e / 19-x / 20-x
+========================================================================

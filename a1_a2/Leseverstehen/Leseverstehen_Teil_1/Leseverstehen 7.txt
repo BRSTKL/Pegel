@@ -1,65 +1,130 @@
 ========================================================================
-telc DEUTSCH A1-A2: OFFIZIELLES LESEVERSTEHEN-TRAINING (ÖZGÜN SET 7)
+telc DEUTSCH A1-A2: LESEVERSTEHEN TEIL 2 — ÖZGÜN SET 07
 ========================================================================
-Prüfungsbaustein: Leseverstehen (Eşleştirme / Zuordnung)
-Dauer: 20 Minuten
+Prüfungsbaustein: Leseverstehen Teil 2
+Dauer: ca. 20 Minuten (Leseverstehen gesamt)
 
-KURAL REHBERİ (telc Sınav Stratejisi):
-1. Bu bölüm bir eşleştirme (Zuordnung) alıştırmasıdır. Amacınız, aşağıda verilen kısa gazete haberleri, ilanlar veya tanıtımlar (1-5) için en uygun başlığı (a-j) bulmaktır.
-2. Her başlık sadece bir kez kullanılabilir. Bazı başlıklar ise tamamen çeldiricidir ve hiçbir metne uymaz.
-3. Strateji: Metindeki anahtar kelimeleri (Schlüsselwörter) başlıklarla eşleştirin. Kelimelerin eş anlamlılarına (örn: reparieren -> renovieren/fit machen, sparen -> weniger Geld ausgeben) dikkat edin.
+FORMAT BİLGİSİ:
+- 10 başlık (a–j) verilir; bunlardan 5'i kullanılır, 5'i aldatmacadır
+- 5 kısa haber/makale metni (1–5)
+- Her metne en uygun başlığı seçin
+- Her başlık yalnızca bir kez kullanılabilir
+- Seviye: A1–A2
 
 ------------------------------------------------------------------------
 
-ÜBERSCHRIFTEN (BAŞLIKLAR: a - j)
-
-a) Trend in Großstädten: Junge Leute reparieren alte Fahrräder selbst
-b) Neue Regeln für Haustiere in öffentlichen Bussen in Berlin
-c) Sprachkurs am Wochenende: Spanisch lernen für den Urlaub
-d) Teure Wohnungen: Senioren suchen Zimmer auf dem Land
-e) Neuer Trend: Immer mehr Menschen nutzen Carsharing in Deutschland
-f) Hilfe bei der Gartenarbeit per Smartphone-App buchen
-g) Berlin plant neue Sportplätze für Padel-Tennis im Stadtzentrum
-h) Energie-Experten sagen: Batterienspeicher senken die Stromkosten
-i) Gesunde Ernährung: Warum Bio-Gemüse auf dem Wochenmarkt teurer ist
-j) Neue App für Handwerker: Einfache Möbelmontage zu Hause
+Aufgabe: Welche Überschrift passt zu welchem Text?
+         Es gibt mehr Überschriften als Texte.
 
 ------------------------------------------------------------------------
 
-TEXTE (METİNLER: 1 - 5)
+ÜBERSCHRIFTEN (BAŞLIKLAR)
 
-1. [  ]
-BERLIN. Ein neuer Trend auf dem Second-Hand-Markt begeistert viele Studierende und junge Berufstätige in der Hauptstadt. Anstatt ein teures neues Rad im Geschäft zu kaufen, erwerben viele junge Menschen ein gebrauchtes Trekkingrad (zum Beispiel von Marken wie Pegasus) für wenig Geld auf Online-Plattformen. In speziellen Fahrrad-Werkstätten im Kiez lernen sie dann, wie man die Bremsen, das Licht und die Kette selbst repariert ve das alte Fahrrad wieder komplett fit macht.
+a  Mehr Frauen werden Handwerkerinnen
+b  Kleine Geschäfte kämpfen ums Überleben
+c  Neues Angebot: Bücher per Post leihen
+d  Sport im Freien macht glücklicher
+e  Städte planen mehr Spielplätze
+f  Tiere im Zoo bekommen neue Gehege
+g  Weniger Fleisch auf Schulspeiseplänen
+h  Online-Shopping verdrängt lokale Läden
+i  Musik verbessert die Stimmung
+j  Forscher entdecken neuen Schlaftyp
 
-2. [  ]
-Wer eine neue Wohnung bezieht oder neue Möbel im Möbelhaus kauft, hat oft ein großes Problem mit dem Transport und dem Aufbau. In deutschen Großstädten nutzen Bürger deshalb immer häufiger digitale Plattformen im Internet. Über eine unkomplizierte Smartphone-App kann man erfahrene Handwerker oder Freelancer in der Nähe buchen. Diese Helfer kommen direkt nach Hause, bringen ihr eigenes Werkzeug mit und montieren Schränke, Tische oder Betten schnell und fachgerecht.
+------------------------------------------------------------------------
 
-3. [  ]
-In der Diskussion über die Energiewende betonen Experten aus Berlin die Bedeutung von modernen Technologien für Privathaushalte. Wer eine Solar-PV-Anlage auf dem Dach hat, sollte diese mit einem Batterie-Energiespeichersystem (BESS) kombinieren. Eine neue Studie zeigt, dass Familien dadurch den sauberen Strom auch nachts nutzen können. Das macht sie unabhängig von teuren Stromanbietern und reduziert die monatlichen Stromkosten im Durchschnitt um bis zu 30 Prozent.
+TEXT 1
 
-4. [  ]
-Die Stadt Berlin möchte das Sportangebot für die Bürger im Sommer erweitern. Das Sportministerium hat angekündigt, in den kommenden zwei Jahren über fünf Millionen Euro in moderne Sportanlagen zu investieren. Besonders der neue Trendsport Padel-Tennis steht im Fokus: In zentralen Parks und auf öffentlichen Sportplätzen im Stadtzentrum sollen über zwanzig neue Plätze gebaut werden, die man flexibel und kostengünstig online reservieren kann.
+Immer mehr Frauen entscheiden sich für einen Beruf im
+Handwerk. Tischlerinnen, Elektronikerinnen und Klempnerinnen
+sind gefragt wie nie. Betriebe suchen händeringend Nachwuchs
+und werben gezielt um weibliche Auszubildende. Experten sagen,
+dass Handwerksberufe gute Verdienstmöglichkeiten bieten.
 
-5. [  ]
-Immer mehr Deutsche verzichten in Großstädten auf ein eigenes Auto und nutzen stattdessen moderne Mobilitätskonzepte. Laut einer aktuellen Statistik des Automobilclubs hat sich die Zahl der Registrierungen bei Carsharing-Anbietern im laufenden Jahr verdoppelt. Die Bürger schätzen es, ein Fahrzeug flexibel per App für eine Stunde oder einen Tag zu mieten. Das spart viel Geld für Versicherung und Benzin und schont gleichzeitig die Umwelt.
+ÜBERSCHRIFT FÜR TEXT 1: ___
+
+------------------------------------------------------------------------
+
+TEXT 2
+
+Lokale Geschäfte in deutschen Innenstädten leiden unter der
+wachsenden Konkurrenz durch Online-Händler. Immer mehr Kunden
+bestellen Kleidung, Bücher und Elektronikartikel bequem von
+zu Hause. Viele Ladenbesitzer berichten von sinkenden Umsätzen.
+Städte versuchen, mit Aktionen und Märkten die Kunden zurückzubringen.
+
+ÜBERSCHRIFT FÜR TEXT 2: ___
+
+------------------------------------------------------------------------
+
+TEXT 3
+
+Eine neue Bibliothek in Berlin bietet einen besonderen Service:
+Kunden können Bücher online auswählen und bekommen sie per
+Post nach Hause geschickt. Die Rückgabe erfolgt ebenfalls per
+Post. Das Angebot richtet sich besonders an ältere Menschen
+und Menschen, die schlecht zu Fuß sind.
+
+ÜBERSCHRIFT FÜR TEXT 3: ___
+
+------------------------------------------------------------------------
+
+TEXT 4
+
+Forscher haben untersucht, ob Sport unter freiem Himmel
+glücklicher macht als Sport in der Turnhalle. Das Ergebnis:
+Menschen, die im Freien joggen, Rad fahren oder spazieren
+gehen, berichten von besserer Stimmung und weniger Stress.
+Das Naturerlebnis spielt dabei eine wichtige Rolle.
+
+ÜBERSCHRIFT FÜR TEXT 4: ___
+
+------------------------------------------------------------------------
+
+TEXT 5
+
+In immer mehr Schulen in Deutschland steht Fleisch seltener
+auf dem Speiseplan der Schulkantine. Viele Schulen bieten
+jetzt täglich vegetarische Gerichte an. Einige Schulen haben
+sich sogar entschieden, komplett auf Fleisch zu verzichten.
+Eltern und Schüler reagieren unterschiedlich auf die Änderung.
+
+ÜBERSCHRIFT FÜR TEXT 5: ___
 
 ------------------------------------------------------------------------
 
 ========================================================================
-OFFIZIELLE LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
 ========================================================================
 
-1. DOĞRU CEVAP: a (Trend in Großstädten: Junge Leute reparieren alte Fahrräder selbst)
-   - Açıklama: Metinde gençlerin ve öğrencilerin pahalı yeni bisiklet almak yerine, internetten ucuza ikinci el eski bisikletler aldıkları ve bunları atölyelerde kendi başlarına tamir ettikleri ("selbst repariert/reparieren... selbst") anlatılıyor. Bu durum "a" başlığı ile tam olarak örtüşür.
+Text 1 → a (Mehr Frauen werden Handwerkerinnen)
+   - Açıklama: "Immer mehr Frauen entscheiden sich für einen Beruf im
+     Handwerk" → (a) tam eşleşme. (b) "Kleine Geschäfte" aldatmaca;
+     meslek konusu ama küçük işletme değil.
 
-2. DOĞRU CEVAP: j (Neue App für Handwerker: Einfache Möbelmontage zu Hause)
-   - Açıklama: Metin, yeni alınan mobilyaların taşınması ve kurulması aşamasında akıllı telefon uygulamaları üzerinden usta/yardımcı (Handwerker) bulma kolaylığından bahsediyor. Evde mobilya montajı ("montieren... Betten / Möbelmontage zu Hause") vurgulandığı için cevap "j" şıkkıdır.
+Text 2 → h (Online-Shopping verdrängt lokale Läden)
+   - Açıklama: "leiden unter der Konkurrenz durch Online-Händler" ve
+     "Immer mehr Kunden bestellen... von zu Hause" → (h) tam eşleşme.
+     (b) "Kleine Geschäfte kämpfen" de yakın ama (h) çok daha doğrudan
+     eşleşiyor.
 
-3. DOĞRU CEVAP: h (Energie-Experten sagen: Batterienspeicher senken die Stromkosten)
-   - Açıklama: Enerji uzmanlarının ev tipi batarya depolama sistemleri (BESS) üzerine yaptığı araştırmayı sunan metinde, bu sistemlerin temiz enerjiyi depolayarak ailelerin aylık elektrik faturalarını/maliyetlerini düşürdüğü ("reduziert die monatlichen Stromkosten/senken die Stromkosten") aktarılıyor. Cevap "h" seçeneğidir.
+Text 3 → c (Neues Angebot: Bücher per Post leihen)
+   - Açıklama: "Bücher online auswählen und bekommen sie per Post" →
+     (c) tam eşleşme. (i) "Musik" aldatmaca.
 
-4. DOĞRU CEVAP: g (Berlin plant neue Sportplätze für Padel-Tennis im Stadtzentrum)
-   - Açıklama: Metinde Berlin şehir yönetiminin merkezdeki parklara ve alanlara ("im Stadtzentrum") 20'den fazla yeni Padel-Tennis alanı ("neue Plätze für Padel-Tennis") kurmayı planladığı ve bütçe ayırdığı ilan ediliyor. Bu içerik "g" başlığını doğrudan doğrular.
+Text 4 → d (Sport im Freien macht glücklicher)
+   - Açıklama: "Sport unter freiem Himmel glücklicher macht" ve "besserer
+     Stimmung" → (d) tam eşleşme. (i) "Musik verbessert die Stimmung"
+     aldatmaca; ruh hali konusu ama müzik değil spor.
 
-5. DOĞRU CEVAP: e (Neuer Trend: Immer mehr Menschen nutzen Carsharing in Deutschland)
-   - Açıklama: Metin, büyük şehirlerde yaşayan insanların kendi arabalarına sahip olmak yerine araç paylaşım sistemlerini (Carsharing) kullanma oranlarının ikiye katlandığını ve bu yeni mobilite trendini benimsediklerini anlatıyor. En uygun başlık "e" seçeneğidir.
+Text 5 → g (Weniger Fleisch auf Schulspeiseplänen)
+   - Açıklama: "Schulkantine... Fleisch seltener auf dem Speiseplan" →
+     (g) tam eşleşme. (e) "Spielplätze" aldatmaca; okul konusu ama
+     oyun alanı değil kantin.
+
+Kullanılmayan (aldatmaca) başlıklar: b / e / f / i / j
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+1-a / 2-h / 3-c / 4-d / 5-g
+========================================================================

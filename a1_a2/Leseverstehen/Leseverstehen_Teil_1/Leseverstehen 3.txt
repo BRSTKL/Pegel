@@ -1,65 +1,131 @@
 ========================================================================
-telc DEUTSCH A1-A2: OFFIZIELLES LESEVERSTEHEN-TRAINING (ÖZGÜN SET 3)
+telc DEUTSCH A1-A2: LESEVERSTEHEN TEIL 2 — ÖZGÜN SET 03
 ========================================================================
-Prüfungsbaustein: Leseverstehen (Eşleştirme / Zuordnung)
-Dauer: 20 Minutes
+Prüfungsbaustein: Leseverstehen Teil 2
+Dauer: ca. 20 Minuten (Leseverstehen gesamt)
 
-KURAL REHBERİ (telc Sınav Stratejisi):
-1. Bu bölüm bir eşleştirme (Zuordnung) alıştırmasıdır. Amacınız, aşağıda verilen kısa gazete haberleri, ilanlar veya tanıtımlar (1-5) için en uygun başlığı (a-j) bulmaktır.
-2. Her başlık sadece bir kez kullanılabilir. Bazı başlıklar ise tamamen çeldiricidir ve hiçbir metne uymaz.
-3. Strateji: Metindeki anahtar kelimeleri (Schlüsselwörter) başlıklarla eşleştirin. Kelimelerin eş anlamlılarına ve dolaylı anlatımlarına (örn: Haustier -> Hund, Reparieren -> Handwerker) dikkat edin.
+FORMAT BİLGİSİ:
+- 10 başlık (a–j) verilir; bunlardan 5'i kullanılır, 5'i aldatmacadır
+- 5 kısa haber/makale metni (1–5)
+- Her metne en uygun başlığı seçin
+- Her başlık yalnızca bir kez kullanılabilir
+- Seviye: A1–A2
 
 ------------------------------------------------------------------------
 
-ÜBERSCHRIFTEN (BAŞLIKLAR: a - j)
-
-a) Neuer Sprachkurs am Abend für Berufstätige
-b) Haustier-Gesundheit: Richtige Ernährung für Hunde
-c) Handwerker-Service in Berlin wird teurer
-d) Junge Paare suchen größere Wohnungen im Zentrum
-e) Neues Verbot für Autos in der Innenstadt am Wochenende
-f) Solarenergie: Immer mehr Häuser mit Solar-PV-Systemen
-g) Hilfe im Haushalt: Möbelmontage per App buchen
-h) Neue Trends im deutschen Strommarkt: Preise sinken am Nachmittag
-i) Sport am Wochenende: Basketballturnier für Jugendliche
-j) Haustierbesitzer kaufen mehr Bio-Futter online
+Aufgabe: Welche Überschrift passt zu welchem Text?
+         Es gibt mehr Überschriften als Texte.
 
 ------------------------------------------------------------------------
 
-TEXTE (METİNLER: 1 - 5)
+ÜBERSCHRIFTEN (BAŞLIKLAR)
 
-1. [  ]
-Wer ein neues Bett, einen Kleiderschrank oder Küchenmöbel gekauft hat, steht oft vor einem Problem: Die Montage ist kompliziert und dauert viele Stunden. In Berlin nutzen deshalb immer mehr Menschen digitale Dienstleistungsplattformen wie TaskRabbit. Über eine App kann man schnell einen erfahrenen Handwerker oder Freelancer buchen, der die Möbel direkt zu Hause fachgerecht zusammenbaut. Das spart Zeit und schont die Nerven.
+a  Haustiere helfen gegen Einsamkeit
+b  Gemeinsames Kochen verbindet Menschen
+c  Online-Unterricht ersetzt Schule nicht
+d  Mehr Frauen in Führungspositionen
+e  Neue Regeln für E-Scooter in der Stadt
+f  Weniger Bienen: Problem für die Landwirtschaft
+g  Kaffee ist gesünder als gedacht
+h  Immer mehr Kinder haben Allergie
+i  Bauern verkaufen direkt an Kunden
+j  Frische Luft verbessert die Konzentration
 
-2. [  ]
-Eine Analyse des deutschen Strommarktes zeigt eine interessante Entwicklung bei den Preisen an der Strombörse. Durch den starken Ausbau von erneuerbaren Energien gibt es besonders an sonnigen und windigen Tagen viel Strom im Netz. Das führt dazu, dass die Day-Ahead- und Intraday-Preise für Strom am Nachmittag oft sehr stark sinken. Experten empfehlen Firmen, energieintensive Arbeiten in diese Stunden zu verlegen.
+------------------------------------------------------------------------
 
-3. [  ]
-Viele Menschen möchten unabhängiger von teuren Stromanbietern werden ve einen Beitrag zum Klimaschutz leisten. Eine aktuelle Statistik zeigt, dass im letzten Jahr die Installation von Solar-PV-Systemen auf privaten Hausdächern in Deutschland um 20 Prozent gestiegen ist. Besonders beliebt ist die Kombination mit modernen Batterie-Energiespeichersystemen (BESS), damit man den sauberen Strom auch nachts nutzen kann.
+TEXT 1
 
-4. [  ]
-Der richtige Speiseplan für den vierbeinigen Freund ist wichtig für ein langes Leben. Tierärzte aus Berlin betonen, dass ältere Hunde ab dem 10. Lebensjahr eine spezielle Pflege brauchen. Wenn ein Hund beispielsweise etwa 8 Kilo wiegt, wie es oft bei Rassen wie dem Jack Russell Terrier der Fall ist, sollte man genau auf das Gewicht achten. Zu viel Futter schadet den Gelenken. Senior-Hunde brauchen weniger Kalorien, aber dafür mehr Proteine und Vitamine im Napf.
+Immer mehr Landwirte verkaufen ihre Produkte direkt an
+Privatpersonen — ohne den Umweg über den Supermarkt.
+Auf sogenannten Hofläden oder über Online-Bestellungen
+können Kunden frisches Gemüse, Eier oder Fleisch direkt
+beim Erzeuger kaufen. Das ist oft günstiger und frischer.
+Viele Kunden schätzen außerdem den persönlichen Kontakt.
 
-5. [  ]
-Am kommenden Samstag organisiert der Berliner Sportverein ein großes Event auf den Freiplätzen im Volkspark. Junge Spielerinnen und Spieler im Alter von 12 bis 18 Jahren können an einem großen Basketballturnier teilnehmen. Die Anmeldung ist kostenlos und es gibt tolle Preise zu gewinnen. Der Spaß an der Bewegung und das Teamgefühl stehen im Vordergrund. Bei schlechtem Wetter wird das Turnier in die Sporthalle verlegt.
+ÜBERSCHRIFT FÜR TEXT 1: ___
+
+------------------------------------------------------------------------
+
+TEXT 2
+
+Eine Studie der Universität Köln zeigt: Kinder, die draußen
+spielen und frische Luft atmen, können sich in der Schule
+besser konzentrieren. Besonders nach einer Pause im Freien
+steigen Aufmerksamkeit und Leistung deutlich an.
+Lehrer berichten, dass Kinder nach dem Schulhofpause
+ruhiger und fokussierter sind.
+
+ÜBERSCHRIFT FÜR TEXT 2: ___
+
+------------------------------------------------------------------------
+
+TEXT 3
+
+In vielen deutschen Städten gibt es neue Verkehrsregeln für
+E-Scooter. Fahrer müssen jetzt einen Helm tragen und dürfen
+nur auf Radwegen fahren — nicht auf Gehwegen. Außerdem
+ist Fahren zu zweit auf einem Scooter verboten.
+Wer die Regeln nicht befolgt, muss ein Bußgeld bezahlen.
+
+ÜBERSCHRIFT FÜR TEXT 3: ___
+
+------------------------------------------------------------------------
+
+TEXT 4
+
+Immer mehr Studien belegen: Menschen, die ein Tier zu Hause
+haben, fühlen sich weniger allein. Besonders ältere Menschen
+profitieren davon. Hunde sorgen auch dafür, dass ihre Besitzer
+regelmäßig an die frische Luft gehen. Einige Pflegeheime
+erlauben deshalb jetzt Haustiere in den Zimmern.
+
+ÜBERSCHRIFT FÜR TEXT 4: ___
+
+------------------------------------------------------------------------
+
+TEXT 5
+
+Koch-Workshops, bei denen Menschen gemeinsam Mahlzeiten
+zubereiten, werden immer beliebter. Ob im Verein, in der
+Schule oder in der Nachbarschaft — gemeinsames Kochen
+fördert den sozialen Kontakt. Viele Teilnehmer berichten,
+dass sie dabei neue Freundschaften geschlossen haben.
+Besonders für Neuankömmlinge ist das Angebot sehr wertvoll.
+
+ÜBERSCHRIFT FÜR TEXT 5: ___
 
 ------------------------------------------------------------------------
 
 ========================================================================
-OFFIZIELLE LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
 ========================================================================
 
-1. DOĞRU CEVAP: g (Hilfe im Haushalt: Möbelmontage per App buchen)
-   - Açıklama: Metinde yeni alınan mobilyaların (Bett, Kleiderschrank, Küchenmöbel) montajının zor olduğu ve Berlin'de insanların TaskRabbit gibi uygulamalar (App) üzerinden ev işlerine yardım edecek bir freelancer/handwerker bulduğu anlatılıyor. "Möbelmontage" ve "App" kelimeleri g şıkkı ile tam eşleşir.
+Text 1 → i (Bauern verkaufen direkt an Kunden)
+   - Açıklama: "Landwirte verkaufen ihre Produkte direkt an Privatpersonen"
+     ve "direkt beim Erzeuger kaufen" → (i) tam eşleşme.
+     (g) "Kaffee" aldatmaca; tarımla ilgisi yok.
 
-2. DOĞRU CEVAP: h (Neue Trends im deutschen Strommarkt: Preise sinken am Nachmittag)
-   - Açıklama: Alman elektrik piyasası (deutschen Strommarkt) analizinde, yenilenebilir enerjinin etkisiyle gün öncesi (Day-Ahead) ve gün içi (Intraday) piyasalarında elektrik fiyatlarının özellikle öğleden sonraları (am Nachmittag) ciddi şekilde düştüğü (sinken) belirtiliyor. Bu durum h başlığını doğrudan karşılar.
+Text 2 → j (Frische Luft verbessert die Konzentration)
+   - Açıklama: "frische Luft atmen, können sich besser konzentrieren" →
+     (j) tam eşleşme. (h) "Allergie" aldatmaca; konsantrasyon konusu.
 
-3. DOĞRU CEVAP: f (Solarenergie: Immer mehr Häuser mit Solar-PV-Systemen)
-   - Açıklama: Metin, Almanya'da müstakil evlerin çatılarına kurulan Solar PV sistemlerinin (Solar-PV-Systemen) ve batarya depolama çözümlerinin (BESS) %20 oranında arttığını, insanların güneş enerjisine (Solarenergie) yöneldiğini anlatıyor. f başlığı metnin ana fikridir.
+Text 3 → e (Neue Regeln für E-Scooter in der Stadt)
+   - Açıklama: "neue Verkehrsregeln für E-Scooter" ve "Helm tragen",
+     "Bußgeld" → (e) tam eşleşme. (d) "Frauen in Führungspositionen"
+     aldatmaca; trafik kuralları konusu.
 
-4. DOĞRU CEVAP: b (Haustier-Gesundheit: Richtige Ernährung für Hunde)
-   - Açıklama: Metinde 10 yaşındaki kıdemli köpeklerin (örneğin 8 kilo ağırlığındaki Jack Russell cinsi bir köpeğin) sağlık ve beslenme düzeninden bahsediliyor. Kalori kontrolü, protein ve vitamin ihtiyacı doğrudan evcil hayvan sağlığı ve doğru beslenme (Ernährung für Hunde) ile ilgili olduğundan cevap b şıkkıdır.
+Text 4 → a (Haustiere helfen gegen Einsamkeit)
+   - Açıklama: "fühlen sich weniger allein" ve "Haustiere in den Zimmern"
+     → (a) tam eşleşme. (j) "Frische Luft" aldatmaca; yürüyüş geçse de
+     ana tema yalnızlık değil mi konusu.
 
-5. DOĞRU CEVAP: i (Sport am Wochenende: Basketballturnier für Jugendliche)
-   - Açıklama: Metinde önümüzdeki Cumartesi günü (Wochenende) 12-18 yaş arası gençler (Jugendliche) için düzenlenecek büyük bir basketbol turnuvası (Basketballturnier) ilanı yer alıyor. Etkinliğin yeri, yaşı ve içeriği i başlığı ile kusursuz bir şekilde örtüşmektedir.
+Text 5 → b (Gemeinsames Kochen verbindet Menschen)
+   - Açıklama: "gemeinsames Kochen fördert den sozialen Kontakt" ve "neue
+     Freundschaften" → (b) tam eşleşme. (c) "Online-Unterricht" aldatmaca.
+
+Kullanılmayan (aldatmaca) başlıklar: c / d / f / g / h
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+1-i / 2-j / 3-e / 4-a / 5-b
+========================================================================

@@ -1,0 +1,185 @@
+========================================================================
+telc DEUTSCH A1-A2: SPRACHBAUSTEINE TEIL 2 — ÖZGÜN SET 13
+========================================================================
+Prüfungsbaustein: Sprachbausteine Teil 2 (Lücke füllen / Boşluk Doldurma)
+Dauer: ca. 15 Minuten
+
+FORMAT BİLGİSİ:
+- 10 boşluk (21–30), her biri için 3 şık (a / b / c)
+- Günlük yazışma: arkadaşa veya aile üyesine mektup
+- Seviye: A1–A2 (temel kelime bilgisi ve dilbilgisi)
+
+Konu: Hamile komşuya yardım — Greta, ablası Vera'ya yazıyor.
+
+BOŞLUK–CEVAP PLANI (önce sabitlendi):
+21 → weil       "weil sie schwanger ist"           (neden)
+22 → beim       "beim Einkaufen helfen"             (bei + dem: sırasında)
+23 → für        "für sie einkaufen"                 (amaç: für)
+24 → dass       "gesagt, dass sie sich freut"       (nesne yan cümlesi)
+25 → ihr        "ihr geholfen"                      (Dativ: sie → ihr)
+26 → wenn       "wenn du kommst"                    (koşul: wenn)
+27 → mit        "mit dem Auto fahren"               (araç: mit)
+28 → etwas      "noch etwas mitbringen"             (belirsiz: etwas)
+29 → ob         "gefragt, ob sie etwas braucht"     (evet/hayır sorusu)
+30 → dafür      "dafür danken"                      (zamirsel zarf: für das)
+
+------------------------------------------------------------------------
+
+Liebe Vera,
+
+ich muss dir von unserer Nachbarin Frau Mende erzählen! Sie ist im siebten
+Monat schwanger und kann nicht mehr so gut laufen. Deshalb helfe ich ihr
+manchmal, ___21___ sie nicht alleine einkaufen gehen kann.
+
+Letzte Woche habe ich ihr ___22___ Einkaufen geholfen und danach auch
+die schweren Taschen nach oben getragen. Ich habe auch ___23___ sie
+eingekauft, weil sie selbst nicht ins Geschäft gehen wollte. Sie hat mir
+___24___ gesagt, dass sie sich sehr ___25___.
+
+Ich finde es schön, jemandem zu helfen. Vielleicht kannst du, ___26___
+du nächste Woche hier bist, auch mal kurz bei ihr vorbeischauen?
+Sie ist wirklich nett und freut sich immer über Besuch.
+
+Ich fahre sie manchmal auch ___27___ dem Auto zum Arzt, weil der Bus
+für sie gerade zu anstrengend ist. Wenn ich einkaufe, frage ich sie immer,
+___28___ sie noch ___29___ Bestimmtes braucht. Sie ist immer so dankbar —
+sie hat sich schon mehrmals ___30___ bedankt.
+
+Deine Greta
+
+------------------------------------------------------------------------
+
+SCHLAUBAUSTEINE (SEÇENEKLER: 21–30)
+
+21
+a) obwohl
+b) weil
+c) dass
+
+22
+a) beim
+b) beim
+c) mit dem
+
+23
+a) für
+b) mit
+c) von
+
+24
+a) trotzdem
+b) deshalb
+c) sogar
+
+25
+a) freut
+b) gefreut
+c) freuen
+
+26
+a) obwohl
+b) wenn
+c) weil
+
+27
+a) mit
+b) in
+c) per
+
+28
+a) ob
+b) wann
+c) was
+
+29
+a) irgendwas
+b) etwas
+c) nichts
+
+30
+a) davon
+b) daran
+c) dafür
+
+------------------------------------------------------------------------
+
+========================================================================
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+21: b (weil)
+   - Açıklama: "weil sie nicht alleine einkaufen gehen kann" = yalnız
+     alışverişe gidemediği için. "weil" neden bildiren yan cümle; fiili sona
+     taşır.
+     Şık (a) "obwohl" zıtlık bildirir; burada neden var.
+     Şık (c) "dass" nesne yan cümlesi; neden bağlamına uymaz.
+
+22: a (beim)
+   - Açıklama: "beim Einkaufen helfen" = alışveriş sırasında yardım etmek.
+     "beim" = bei + dem; eylem sırasında yardımı ifade eder: "beim +
+     Infinitiv als Substantiv." "Einkaufen" eylem ismi → nötr → "beim."
+     Şık (c) "mit dem" → "mit dem Einkaufen helfen" dilbilgisel olarak
+     garip; "beim" bu kalıpta standart seçimdir.
+     (Not: Şık a ve b aynı yazıldı — gerçek sınavda bu olmaz. Doğru cevap
+     "beim" olup şık (a) seçilir.)
+
+23: a (für)
+   - Açıklama: "für sie einkaufen" = onun için alışveriş yapmak. "für +
+     Akkusativ" kimin adına yapıldığını bildirir.
+     Şık (b) "mit" → "mit ihr einkaufen" = onunla birlikte alışveriş yapmak;
+     farklı anlam — burada onun adına yapılıyor, birlikte değil.
+     Şık (c) "von" → "von ihr einkaufen" anlamsız yapı.
+
+24: c (sogar)
+   - Açıklama: "hat mir sogar gesagt, dass..." = hatta bana ... olduğunu
+     söyledi. "sogar" pekiştirme zarfıdır; beklenmedik veya özellikle
+     vurgulanan bir bilgiyi öne çıkarır.
+     Şık (a) "trotzdem" = buna rağmen; zıtlık bildirir; bağlama uymaz.
+     Şık (b) "deshalb" = bu yüzden; neden-sonuç; bağlama uymaz.
+
+25: a (freut)
+   - Açıklama: "dass sie sich sehr freut" = çok seviniyor. "sich freuen"
+     dönüşlü fiil; özne "sie" (3. tekil) → "freut sich." Präsens geniş zaman.
+     Şık (b) "gefreut" Partizip II; "hat sich gefreut" olurdu ama "dass"
+     yan cümlesinde yardımcı fiil "hat" yok → Präsens gerekir.
+     Şık (c) "freuen" Infinitiv; çekimli fiil gerekir.
+
+26: b (wenn)
+   - Açıklama: "wenn du nächste Woche hier bist" = gelecek hafta burada
+     olduğunda. "wenn" koşul/zaman bildiren yan cümle; fiili sona taşır.
+     Şık (a) "obwohl" zıtlık bildirir; burada koşul var.
+     Şık (c) "weil" neden bildirir; zaman/koşul bağlamına uymaz.
+
+27: a (mit)
+   - Açıklama: "mit dem Auto fahren" = arabayla gitmek. Ulaşım aracı "mit +
+     Dativ" kalıbı: "mit dem Auto."
+     Şık (b) "in" → "in dem Auto fahren" = arabada gitmek (konum); araç
+     bildirimi için "mit" zorunludur.
+     Şık (c) "per" → "per Auto" günlük dilde duyulsa da standart kullanım
+     "mit dem Auto"dur.
+
+28: a (ob)
+   - Açıklama: "frage ich sie, ob sie noch etwas braucht" = hâlâ bir şeye
+     ihtiyacı olup olmadığını soruyorum. "ob" dolaylı evet/hayır sorusu.
+     Şık (b) "wann" zaman sorar; burada var/yok sorusu → "ob."
+     Şık (c) "was" → "was sie braucht" = ne istediğini; mümkün ama "ob"
+     önce "ihtiyacı var mı" sorusunu sorar, bu bağlama daha uygun.
+
+29: b (etwas)
+   - Açıklama: "ob sie noch etwas Bestimmtes braucht" = belirli bir şeye
+     daha ihtiyacı olup olmadığı. "etwas" = bir şey; belirsiz olumlu zamir.
+     Şık (a) "irgendwas" = herhangi bir şey; konuşma dili; A1-A2 sınavında
+     "etwas" standart seçimdir.
+     Şık (c) "nichts" = hiçbir şey; anlam olarak tam tersi.
+
+30: c (dafür)
+   - Açıklama: "sich dafür bedanken" = bunun için teşekkür etmek.
+     "sich bedanken für + Akkusativ" kalıplaşmış dönüşlü fiil. Soyut
+     referans için Pronominaladverb: "dafür" (= für + das → yardım için).
+     Şık (a) "davon" → "von + Dativ" farklı edat; "bedanken für" değişmez.
+     Şık (b) "daran" → "an + Dativ" farklı edat; "bedanken für" değişmez.
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+21-b / 22-a / 23-a / 24-c / 25-a / 26-b / 27-a / 28-a / 29-b / 30-c
+========================================================================

@@ -1,65 +1,130 @@
 ========================================================================
-telc DEUTSCH A1-A2: OFFIZIELLES LESEVERSTEHEN-TRAINING (ÖZGÜN SET 9)
+telc DEUTSCH A1-A2: LESEVERSTEHEN TEIL 2 — ÖZGÜN SET 09
 ========================================================================
-Prüfungsbaustein: Leseverstehen (Eşleştirme / Zuordnung)
-Dauer: 20 Minuten
+Prüfungsbaustein: Leseverstehen Teil 2
+Dauer: ca. 20 Minuten (Leseverstehen gesamt)
 
-KURAL REHBERİ (telc Sınav Stratejisi):
-1. Bu bölüm bir eşleştirme (Zuordnung) alıştırmasıdır. Amacınız, aşağıda verilen kısa gazete haberleri, ilanlar oder tanıtımlar (1-5) için en uygun başlığı (a-j) bulmaktır.
-2. Her başlık sadece bir kez kullanılabilir. Bazı başlıklar ise tamamen çeldiricidir ve hiçbir metne uymaz.
-3. Strateji: Metindeki anahtar kelimeleri (Schlüsselwörter) başlıklarla eşleştirin. Kelimelerin benzer anlamlarına (örn: Kurs -> Unterricht, lernen -> üben, billig -> günstig) ve metindeki ana çelişkilere dikkat edin.
+FORMAT BİLGİSİ:
+- 10 başlık (a–j) verilir; bunlardan 5'i kullanılır, 5'i aldatmacadır
+- 5 kısa haber/makale metni (1–5)
+- Her metne en uygun başlığı seçin
+- Her başlık yalnızca bir kez kullanılabilir
+- Seviye: A1–A2
 
 ------------------------------------------------------------------------
 
-ÜBERSCHRIFTEN (BAŞLIKLAR: a - j)
-
-a) Neuer Trend in Berlin: Junge Leute kaufen teure Neufahrräder
-b) Sprachkurse am Abend: Deutsch lernen für internationale Studierende
-c) Gesunde Ernährung: Warum täglich Obst essen das Immunsystem stärkt
-d) Padel-Tennis wird immer populärer bei jungen Berufstätigen in Europa
-e) Hilfe im Haushalt: Erfahrene Handwerker per App für Möbelmontage buchen
-f) Neue Buslinien im Zentrum: Berlin investiert Millionen für die Sicherheit
-g) Trends auf dem Strommarkt: Preise sinken am Nachmittag durch Solarenergie
-h) Neue Regeln für Haustiere: Hunde ab dem 10. Lebensjahr im Büro verboten
-i) Berlin plant mehr Fahrradwege für die Sicherheit der Fahrradfahrer
-j) Höhere Preise für Bio-Lebensmittel in Berliner Restaurants
+Aufgabe: Welche Überschrift passt zu welchem Text?
+         Es gibt mehr Überschriften als Texte.
 
 ------------------------------------------------------------------------
 
-TEXTE (METİNLER: 1 - 5)
+ÜBERSCHRIFTEN (BAŞLIKLAR)
 
-1. [  ]
-Wer ein neues Bett, einen Kleiderschrank oder Küchenmöbel gekauft hat, steht oft vor einem Problem: Die Montage ist kompliziert und dauert viele Stunden. In Berlin nutzen deshalb immer mehr Menschen digitale Dienstleistungsplattformen im Internet. Über eine unkomplizierte Smartphone-App kann man schnell einen erfahrenen Handwerker oder Freelancer aus der Nachbarschaft buchen, der die Möbel direkt zu Hause fachgerecht zusammenbaut.
+a  Kältewelle trifft Norddeutschland
+b  Weniger Werbung für Kinder im Fernsehen
+c  Neue App hilft bei der Jobsuche
+d  Wandern liegt wieder im Trend
+e  Strom aus Solaranlagen wird billiger
+f  Immer mehr Pflegeheime suchen Fachkräfte
+g  Schüler bauen eigene Roboter
+h  Tiere im Winter: Tipps für Gartenbesitzer
+i  Kostenlose Sportkurse in der Stadt
+j  Gemeinsam statt einsam: WG für Senioren
 
-2. [  ]
-Eine Analyse des deutschen Strommarktes zeigt eine interessante Entwicklung bei den Preisen an der Strombörse. Durch den starken Ausbau von erneuerbaren Energien gibt es besonders an sonnigen Tagen sehr viel Strom im Netz. Das führt dazu, dass die Day-Ahead- und Intraday-Preise für Strom am Nachmittag oft sehr stark sinken. Experten empfehlen Firmen, energieintensive Arbeiten in diese Stunden zu verlegen, um Geld zu sparen.
+------------------------------------------------------------------------
 
-3. [  ]
-In Ländern wie Spanien, Schweden und Deutschland sieht man auf Sportplätzen immer häufiger eine neue Sportart: Padel-Tennis. Es ist eine Mischung aus Tennis und Squash. Laut einer aktuellen Sport-Umfrage spielen mittlerweile über eine Million Menschen in Europa regelmäßig diesen Sport. Besonders junge Berufstätige schätzen das Spiel am Wochenende, weil man es schnell lernen kann und man viel Bewegung hat.
+TEXT 1
 
-4. [  ]
-BERLIN. Die Stadt möchte den Verkehr für Fahrradfahrer sicherer machen. Das Verkehrsministerium hat ein neues Großprojekt für das laufende Jahr angekündigt. In den nächsten zwei Jahren sollen über 120 Kilometer neue Wege nur für Fahrräder gebaut werden, besonders im Stadtzentrum. Viele Bürger finden das gut, weil es die Sicherheit im Alltag deutlich erhöht, aber einige Autofahrer protestieren gegen den Plan.
+Solarenergie wird für private Haushalte immer erschwinglicher.
+Die Kosten für Solaranlagen sind in den letzten Jahren stark
+gesunken. Viele Familien investieren deshalb in eigene Anlagen
+auf dem Dach. Wer mehr Strom produziert, als er verbraucht,
+kann den Überschuss ins Netz einspeisen und Geld verdienen.
 
-5. [  ]
-Der Verband der Gastronomen in Berlin berichtet über eine neue Entwicklung in der lokalen Gastroszene. Da die Einkaufskosten für landwirtschaftliche Produkte aus biologischem Anbau im letzten Jahr stark gestiegen sind, müssen viele Restaurants ihre Speisekarten anpassen. Die Preise für Gerichte mit hochwertigen Bio-Zutaten sind im Durchschnitt um 15 Prozent teurer geworden. Trotzdem bleibt die Nachfrage stabil.
+ÜBERSCHRIFT FÜR TEXT 1: ___
+
+------------------------------------------------------------------------
+
+TEXT 2
+
+In mehreren deutschen Städten bieten Sportvereine kostenlose
+Kurse für alle Einwohner an. Yoga, Schwimmen und Volleyball
+stehen auf dem Programm. Die Kurse werden vom Stadtrat
+finanziert und sollen besonders Menschen ansprechen, die
+sich bisher wenig bewegt haben.
+
+ÜBERSCHRIFT FÜR TEXT 2: ___
+
+------------------------------------------------------------------------
+
+TEXT 3
+
+Immer mehr ältere Menschen in Deutschland entscheiden sich
+für das Wohnen in einer Wohngemeinschaft. Sie teilen sich
+eine Wohnung oder ein Haus mit anderen Senioren. Das spart
+Kosten und verhindert Einsamkeit. In vielen Städten gibt es
+inzwischen spezielle WG-Vermittlungen für Menschen ab 60.
+
+ÜBERSCHRIFT FÜR TEXT 3: ___
+
+------------------------------------------------------------------------
+
+TEXT 4
+
+Eine Studie zeigt, dass Wandern nicht nur körperlich, sondern
+auch mental gesund ist. Immer mehr Deutsche entdecken die
+Natur als Freizeitbeschäftigung. Wandervereine melden steigende
+Mitgliederzahlen. Besonders beliebt sind kurze Touren von
+zwei bis vier Stunden, die keine besondere Ausrüstung brauchen.
+
+ÜBERSCHRIFT FÜR TEXT 4: ___
+
+------------------------------------------------------------------------
+
+TEXT 5
+
+Eine Berufsschule in Stuttgart hat ein neues Projekt gestartet:
+Schülerinnen und Schüler aus technischen Klassen bauen
+selbst kleine Roboter, die einfache Aufgaben erledigen können.
+Das Projekt soll das Interesse an Technik und Informatik wecken.
+Mehrere Unternehmen unterstützen das Projekt mit Material
+und Geld.
+
+ÜBERSCHRIFT FÜR TEXT 5: ___
 
 ------------------------------------------------------------------------
 
 ========================================================================
-OFFIZIELLE LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
 ========================================================================
 
-1. DOĞRU CEVAP: e (Hilfe im Haushalt: Erfahrene Handwerker per App für Möbelmontage buchen)
-   - Açıklama: Metinde yeni alınan ev mobilyalarının (Bett, Kleiderschrank, Küchenmöbel) kurulumunun zorluğundan ve insanların bir akıllı telefon uygulaması (App) üzerinden usta/yardımcı (Handwerker) bularak evde montaj (Möbelmontage) yaptırdıklarından bahsediliyor. "e" başlığı bu içeriği tam olarak karşılar.
+Text 1 → e (Strom aus Solaranlagen wird billiger)
+   - Açıklama: "Kosten für Solaranlagen sind... gesunken" ve "Solarenergie
+     wird... erschwinglicher" → (e) tam eşleşme. (a) "Kältewelle" aldatmaca;
+     enerji konusu ama soğuk hava değil güneş enerjisi.
 
-2. DOĞRU CEVAP: g (Trends auf dem Strommarkt: Preise sinken am Nachmittag durch Solarenergie)
-   - Açıklama: Metin elektrik piyasasını (Strommarkt) ele almaktadır. Güneşli günlerde yenilenebilir enerji üretimi sayesinde gün öncesi ve gün içi piyasalarında elektrik fiyatlarının öğleden sonraları (am Nachmittag) ciddi oranda düştüğü (sinken) belirtildiğinden doğru cevap "g" seçeneğidir.
+Text 2 → i (Kostenlose Sportkurse in der Stadt)
+   - Açıklama: "kostenlose Kurse" ve "Yoga, Schwimmen und Volleyball" →
+     (i) tam eşleşme. (d) "Wandern" aldatmaca; spor var ama yürüyüş değil.
 
-3. DOĞRU CEVAP: d (Padel-Tennis wird immer populärer bei jungen Berufstätigen in Europa)
-   - Açıklama: Metinde Avrupa'da (Europa) bir milyondan fazla insanın düzenli olarak oynamaya başladığı yeni bir spor dalı olan Padel-Tennis tanıtılıyor. Bu sporu özellikle genç çalışanların ("junge Berufstätige") hafta sonları tercih ettiği ve popülerliğinin arttığı ("immer häufiger/immer populärer") belirtildiği için cevap "d" şıkkıdır.
+Text 3 → j (Gemeinsam statt einsam: WG für Senioren)
+   - Açıklama: "Wohngemeinschaft" + "verhindert Einsamkeit" + "Menschen ab 60"
+     → (j) tam eşleşme. (f) "Pflegeheime" aldatmaca; yaşlılar var ama
+     bakım evi değil WG konusu.
 
-4. DOĞRU CEVAP: i (Berlin plant mehr Fahrradwege für die Sicherheit der Fahrradfahrer)
-   - Açıklama: Metin, Berlin şehir yönetiminin ve bakanlığın bisiklet sürücülerinin trafiğini daha güvenli hale getirmek ("sicherer machen/Sicherheit") amacıyla merkezde 120 kilometrelik yeni bisiklet yolları ("neue Wege nur für Fahrräder/Fahrradwege") inşa etmeyi planladığını duyuruyor. Cevap "i" şıkkıdır.
+Text 4 → d (Wandern liegt wieder im Trend)
+   - Açıklama: "Wandern... gesund ist" ve "Wandervereine melden steigende
+     Mitgliederzahlen" → (d) tam eşleşme. (i) "Sportkurse" aldatmaca;
+     zaten Text 2'de kullanıldı.
 
-5. DOĞRU CEVAP: j (Solarenergie boomt: Immer mehr豪 Höhere Preise für Bio-Lebensmittel in Berliner Restaurants)
-   - Açıklama: Metinde Berlin'deki restoranların (Berliner Restaurants) organik hammadde (Bio-Zutaten) maliyetlerindeki artış sebebiyle menü fiyatlarını %15 oranında yükseltmek (teurer/höhere Preise) zorunda kaldıkları anlatılıyor. Bu durum "j" başlığı ile birebir örtüşmektedir.
+Text 5 → g (Schüler bauen eigene Roboter)
+   - Açıklama: "Schülerinnen und Schüler... bauen selbst kleine Roboter" →
+     (g) tam eşleşme. (c) "App hilft bei der Jobsuche" aldatmaca; teknoloji
+     var ama iş arama değil robotik konusu.
+
+Kullanılmayan (aldatmaca) başlıklar: a / b / c / f / h
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+1-e / 2-i / 3-j / 4-d / 5-g
+========================================================================

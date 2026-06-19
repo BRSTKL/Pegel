@@ -1,65 +1,130 @@
 ========================================================================
-telc DEUTSCH A1-A2: OFFIZIELLES LESEVERSTEHEN-TRAINING (ÖZGÜN SET 12)
+telc DEUTSCH A1-A2: LESEVERSTEHEN TEIL 2 — ÖZGÜN SET 12
 ========================================================================
-Prüfungsbaustein: Leseverstehen (Eşleştirme / Zuordnung)
-Dauer: 20 Minuten
+Prüfungsbaustein: Leseverstehen Teil 2
+Dauer: ca. 20 Minuten (Leseverstehen gesamt)
 
-KURAL REHBERİ (telc Sınav Stratejisi):
-1. Bu bölüm bir esleştirme (Zuordnung) alıştırmasıdır. Amacınız, aşağıda verilen kısa gazete haberleri, ilanlar veya tanıtımlar (1-5) için en uygun başlığı (a-j) bulmaktır.
-2. Her başlık sadece bir kez kullanılabilir. Bazı başlıklar ise tamamen çeldiricidir ve hiçbir metne uymaz.
-3. Strateji: Metindeki anahtar kelimeleri (Schlüsselwörter) başlıklarla eşleştirin. Kelimelerin eş anlamlılarına, artikel detaylarına ve sayısal verilere dikkat ederek doğru seçeneğe odaklanın.
+FORMAT BİLGİSİ:
+- 10 başlık (a–j) verilir; bunlardan 5'i kullanılır, 5'i aldatmacadır
+- 5 kısa haber/makale metni (1–5)
+- Her metne en uygun başlığı seçin
+- Her başlık yalnızca bir kez kullanılabilir
+- Seviye: A1–A2
 
 ------------------------------------------------------------------------
 
-ÜBERSCHRIFTEN (BAŞLIKLAR: a - j)
-
-a) Trend in Großstädten: Junge Leute kaufen teure Neufahrräder
-b) Neue Sprachseminare: Türkisch für Anfänger an der Volkshochschule
-c) Gesunde Ernährung: Warum täglich Obst essen das Immunsystem stärkt
-d) Padel-Tennis wird immer populärer bei jungen Berufstätigen in Europa
-e) Hilfe im Haushalt: Erfahrene Handwerker per App für Möbelmontage buchen
-f) Studie der Universität Köln: Körpergröße beeinflusst das Gehalt
-g) Berlin plant neue Sportplätze für Padel-Tennis im Stadtzentrum
-h) Energie-Experten sagen: Kombination aus Solar-PV und BESS spart viel Geld
-i) Nach der Arbeit feiern: After-Work-Partys werden immer beliebter
-j) Luxus-Restaurant in London verkauft den teuersten Burger der Welt
+Aufgabe: Welche Überschrift passt zu welchem Text?
+         Es gibt mehr Überschriften als Texte.
 
 ------------------------------------------------------------------------
 
-TEXTE (METİNLER: 1 - 5)
+ÜBERSCHRIFTEN (BAŞLIKLAR)
 
-1. [  ]
-Eine Studie der Universität Köln zeigt, dass es einen Zusammenhang zwischen Körpergröße und Gehalt gibt[cite: 3]. In der Umfrage wurden 2.000 Angestellte aus verschiedenen Branchen befragt[cite: 3]. Männer über 1,85 Meter verdienen im Durchschnitt 8 Prozent mehr als kleinere Männer[cite: 3]. Bei Frauen ist der Unterschied etwas geringer, etwa 5 Prozent[cite: 3]. Die Forscher sagen, dass große Personen oft selbstsicherer wirken und deshalb schneller befördert werden[cite: 3].
+a  Neue Rekordhitze in Europa erwartet
+b  Schule auf dem Schiff: Lernen auf dem Wasser
+c  Backen zu Hause liegt im Trend
+d  Elektroautos werden erschwinglicher
+e  Mehr Lernzeit durch kürzere Ferien
+f  Freiwillige bauen Häuser für Bedürftige
+g  Weniger Stress durch kurze Pausen bei der Arbeit
+h  Neue Studie: Humor macht gesünder
+i  Stadtgespräch: Fußgängerzonen sollen wachsen
+j  Erste-Hilfe-Kurs jetzt Pflicht in Schulen
 
-2. [  ]
-BERLIN. After-Work-Partys sind in deutschen Großstädten immer beliebter geworden[cite: 3]. In vielen Bars treffen sich Angestellte donnerstags oder freitags direkt nach der Arbeit[cite: 3]. Die Veranstaltungen beginnen oft schon um 18 Uhr und dauern bis etwa 22 Uhr[cite: 3]. Firmen nutzen die Partys, um das Teamgefühl zu stärken[cite: 3]. Laut den Veranstaltern kommen besonders junge Berufstätige, die neue Leute kennenlernen und trotzdem nicht zu spät nach Hause gehen wollen[cite: 3].
+------------------------------------------------------------------------
 
-3. [  ]
-Wer ein neues Bett, einen Kleiderschrank oder Küchenmöbel gekauft hat, steht oft vor einem Problem: Die Montage ist kompliziert und dauert viele Stunden. In Berlin nutzen deshalb immer mehr Menschen digitale Dienstleistungsplattformen im Internet. Über eine unkomplizierte Smartphone-App kann man schnell einen erfahrenen Handwerker veya Freelancer aus der Nachbarschaft buchen, der die Möbel direkt zu Hause fachgerecht zusammenbaut.
+TEXT 1
 
-4. [  ]
-In Ländern wie Spanien, Schweden und Deutschland sieht man auf Sportplätzen immer häufiger eine neue Sportart: Padel-Tennis. Es ist eine Mischung aus Tennis und Squash. Laut einer aktuellen Sport-Umfrage spielen mittlerweile über eine Million Menschen in Europa regelmäßig diesen Sport. Besonders junge Berufstätige schätzen das Spiel am Wochenende, weil man es schnell lernen kann und man viel Bewegung hat.
+Elektroautos werden in Deutschland immer günstiger.
+Neue Modelle von verschiedenen Herstellern sind schon
+ab 20.000 Euro erhältlich. Außerdem werden die Ladezeiten
+kürzer und die Reichweite größer. Die Bundesregierung plant,
+den Ausbau der Ladeinfrastruktur weiter zu fördern.
 
-5. [  ]
-Eine gesunde Ernährung ist wichtig, um Krankheiten vorzubeugen. Wissenschaftler aus der Schweiz haben die Wirkung von täglichem Obstkonsum untersucht. Die Ergebnisse zeigen: Wer jeden Tag einen Apfel oder eine Banane isst, stärkt sein Immunsystem und hat deutlich seltener Probleme mit dem Magen. Die Forscher empfehlen, das Obst am Morgen direkt zum Frühstück zu essen, da der Körper die Vitamine dann am besten aufnehmen kann.
+ÜBERSCHRIFT FÜR TEXT 1: ___
+
+------------------------------------------------------------------------
+
+TEXT 2
+
+Eine neue Untersuchung zeigt: Wer bei der Arbeit regelmäßig
+kurze Pausen macht, ist produktiver und ausgeglichener.
+Schon fünf Minuten Pause pro Stunde können helfen,
+den Stresspegel zu senken. Experten empfehlen außerdem,
+während der Pausen Bildschirme auszuschalten und sich
+kurz zu bewegen.
+
+ÜBERSCHRIFT FÜR TEXT 2: ___
+
+------------------------------------------------------------------------
+
+TEXT 3
+
+In mehreren deutschen Städten wollen Stadtplaner die
+Fußgängerzonen erweitern. Mehr Platz für Menschen, weniger
+für Autos — das ist das Ziel. Cafés, Sitzbänke und
+Grünflächen sollen die Innenstädte einladender machen.
+Händler sind geteilter Meinung, ob weniger Autos ihrem
+Geschäft schadet oder nützt.
+
+ÜBERSCHRIFT FÜR TEXT 3: ___
+
+------------------------------------------------------------------------
+
+TEXT 4
+
+Wissenschaftler der Uniklinik Bonn haben untersucht,
+ob Lachen wirklich gesund ist. Das Ergebnis überrascht:
+Menschen, die häufig lachen und Humor zeigen, haben
+ein stärkeres Immunsystem und fühlen sich weniger gestresst.
+Auch Schmerzen werden durch Humor besser ertragen, sagen die Forscher.
+
+ÜBERSCHRIFT FÜR TEXT 4: ___
+
+------------------------------------------------------------------------
+
+TEXT 5
+
+Immer mehr Menschen backen in ihrer Freizeit Brot, Kuchen
+und Kekse selbst. Besonders während der Corona-Pandemie
+hat dieser Trend stark zugenommen. Viele sagen, Backen
+sei entspannend und mache stolz. Online-Rezepte und
+Backkurse in Volkshochschulen sind sehr beliebt.
+
+ÜBERSCHRIFT FÜR TEXT 5: ___
 
 ------------------------------------------------------------------------
 
 ========================================================================
-OFFIZIELLE LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
 ========================================================================
 
-1. DOĞRU CEVAP: f (Studie der Universität Köln: Körpergröße beeinflusst das Gehalt)
-   - Açıklama: Metin doğrudan Köln Üniversitesi'nin yaptığı araştırmayı aktarıyor[cite: 3]. Boy uzunluğu (Körpergröße) ile maaş (Gehalt) arasındaki ilişki incelendiği ve uzun boyluların daha çok kazandığı ("verdienen... mehr") belirtildiği için cevap "f" şıkkıdır[cite: 3].
+Text 1 → d (Elektroautos werden erschwinglicher)
+   - Açıklama: "Elektroautos werden... immer günstiger" ve "ab 20.000 Euro
+     erhältlich" → (d) tam eşleşme. (a) "Rekordhitze" aldatmaca.
 
-2. DOĞRU CEVAP: i (Nach der Arbeit feiern: After-Work-Partys werden immer beliebter)
-   - Açıklama: Metinde "After-Work-Partys" yani iş çıkışı eğlencelerinin popülerliğinin arttığı ("immer beliebter geworden") anlatılıyor[cite: 3]. İşten sonra eğlenmek anlamına gelen "Nach der Arbeit feiern" kalıbı nedeniyle en doğru başlık "i" şıkkıdır[cite: 3].
+Text 2 → g (Weniger Stress durch kurze Pausen bei der Arbeit)
+   - Açıklama: "kurze Pausen macht" ve "Stresspegel zu senken" → (g) tam
+     eşleşme. (e) "kürzere Ferien" aldatmaca; zaman kısaltma var ama iş
+     hayatı paus konusu.
 
-3. DOĞRU CEVAP: e (Hilfe im Haushalt: Erfahrene Handwerker per App für Möbelmontage buchen)
-   - Açıklama: Metinde yeni alınan ev mobilyalarının (Bett, Kleiderschrank) kurulum zorluğundan ve insanların bir akıllı telefon uygulaması (App) üzerinden usta veya freelancer bularak evde montaj (Möbelmontage) yaptırdıklarından bahsediliyor. "e" başlığı bu içeriği tam olarak karşılar.
+Text 3 → i (Stadtgespräch: Fußgängerzonen sollen wachsen)
+   - Açıklama: "Fußgängerzonen erweitern" ve "Stadtplaner" → (i) tam
+     eşleşme. (f) "Häuser bauen" aldatmaca.
 
-4. DOĞRU CEVAP: d (Padel-Tennis wird immer populärer bei jungen Berufstätigen in Europa)
-   - Açıklama: Metinde Avrupa'da (Europa) bir milyondan fazla insanın düzenli oynamaya başladığı yeni bir spor dalı olan Padel-Tennis tanıtılıyor. Bu sporu özellikle genç çalışanların tercih ettiği ve popülerliğinin arttığı ("immer häufiger") belirtildiği için cevap "d" şıkkıdır.
+Text 4 → h (Neue Studie: Humor macht gesünder)
+   - Açıklama: "Wissenschaftler haben untersucht, ob Lachen gesund ist"
+     ve "Humor zeigen... stärkeres Immunsystem" → (h) tam eşleşme.
+     (b) "Schule auf dem Schiff" aldatmaca.
 
-5. DOĞRU CEVAP: c (Gesunde Ernährung: Warum täglich Obst essen das Immunsystem stärkt)
-   - Açıklama: Metinde her gün düzenli meyve (Obst) tüketmenin bağışıklık sistemini güçlendirdiği ("stärkt sein Immunsystem") ve insanları hastalıklardan koruduğu aktarılıyor. "Täglich Obst essen" ve "Immunsystem stärkt" anahtar kelimeleri "c" başlığı ile birebir örtüşmektedir.
+Text 5 → c (Backen zu Hause liegt im Trend)
+   - Açıklama: "backen in ihrer Freizeit Brot, Kuchen... selbst" ve "dieser
+     Trend stark zugenommen" → (c) tam eşleşme. (j) "Erste-Hilfe-Kurs"
+     aldatmaca; kurs var ama ilk yardım değil fırın konusu.
+
+Kullanılmayan (aldatmaca) başlıklar: a / b / e / f / j
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+1-d / 2-g / 3-i / 4-h / 5-c
+========================================================================

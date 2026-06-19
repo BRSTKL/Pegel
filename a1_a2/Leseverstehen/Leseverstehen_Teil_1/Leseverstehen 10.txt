@@ -1,65 +1,130 @@
 ========================================================================
-telc DEUTSCH A1-A2: OFFIZIELLES LESEVERSTEHEN-TRAINING (ÖZGÜN SET 10)
+telc DEUTSCH A1-A2: LESEVERSTEHEN TEIL 2 — ÖZGÜN SET 10
 ========================================================================
-Prüfungsbaustein: Leseverstehen (Eşleştirme / Zuordnung)
-Dauer: 20 Minuten
+Prüfungsbaustein: Leseverstehen Teil 2
+Dauer: ca. 20 Minuten (Leseverstehen gesamt)
 
-KURAL REHBERİ (telc Sınav Stratejisi):
-1. Bu bölüm bir eşleştirme (Zuordnung) alıştırmasıdır. Amacınız, aşağıda verilen kısa gazete haberleri, ilanlar veya tanıtımlar (1-5) için en uygun başlığı (a-j) bulmaktır.
-2. Her başlık sadece bir kez kullanılabilir. Bazı başlıklar ise tamamen çeldiricidir ve hiçbir metne uymaz.
-3. Strateji: Metindeki anahtar kelimeleri (Schlüsselwörter) başlıklarla eşleştirin. Kelimelerin eş anlamlılarına, zıtlık yapılarına (örn: aber, trotzdem) ve genel konu kapsamına dikkat edin.
+FORMAT BİLGİSİ:
+- 10 başlık (a–j) verilir; bunlardan 5'i kullanılır, 5'i aldatmacadır
+- 5 kısa haber/makale metni (1–5)
+- Her metne en uygun başlığı seçin
+- Her başlık yalnızca bir kez kullanılabilir
+- Seviye: A1–A2
 
 ------------------------------------------------------------------------
 
-ÜBERSCHRIFTEN (BAŞLIKLAR: a - j)
-
-a) Neuer Trend: Immer mehr Deutsche reisen ohne Gepäck
-b) Haustier-Gesundheit: Die richtige Pflege für ältere Hunde im Alltag
-c) Berlin investiert Millionen in neue Sportplätze für Basketball
-d) Umfrage zeigt: Viele Deutsche gestresst, aber trotzdem zufrieden im Beruf
-e) Neue Sprachkurse: Spanisch intensiv am Nachmittag für Anfänger
-f) Flexible Arbeitszeiten senken den Stress der Mitarbeiter deutlich
-g) Großer Erfolg: Preise für gebrauchte Elektroautos steigen in Berlin
-h) Energie-Experten sagen: Kombination aus Solar-PV und BESS spart viel Geld
-i) Nach der Arbeit feiern: After-Work-Partys werden immer beliebter
-j) Luxus-Restaurant in London verkauft den teuersten Burger der Welt
+Aufgabe: Welche Überschrift passt zu welchem Text?
+         Es gibt mehr Überschriften als Texte.
 
 ------------------------------------------------------------------------
 
-TEXTE (METİNLER: 1 - 5)
+ÜBERSCHRIFTEN (BAŞLIKLAR)
 
-1. [  ]
-Laut einer Umfrage des Instituts ArbeitPlus sind viele Deutsche gestresst, aber trotzdem relativ zufrieden mit ihrer Arbeit. Es wurden 1.500 Beschäftigte in Büros, Fabriken und im Einzelhandel befragt. 62 Prozent fühlen sich mehrmals pro Woche gestresst, vor allem durch Zeitdruck. Gleichzeitig sagten 70 Prozent, dass sie ihren Job insgesamt mögen. Wer flexible Arbeitszeiten hat, berichtet deutlich weniger Stress und eine höhere Arbeitszufriedenheit.
+a  Neue Wohnungen für wenig Geld gebaut
+b  Tierheim sucht Freiwillige
+c  Immer mehr Kinder lernen ein Instrument
+d  Urlaub auf dem Bauernhof wird beliebter
+e  Supermarkt ohne Plastikverpackungen eröffnet
+f  Reisen mit dem Zug wächst in Europa
+g  Mehr Sicherheit auf Schulwegen gefordert
+h  Stadtbibliothek feiert hundertsten Geburtstag
+i  Kinder und Bildschirme: Experten geben Tipps
+j  Weniger Werbung, mehr Qualität im Radio
 
-2. [  ]
-BERLIN. After-Work-Partys sind in deutschen Großstädten immer beliebter geworden. In vielen Bars treffen sich Angestellte donnerstags oder freitags direkt nach der Arbeit. Die Veranstaltungen beginnen oft schon um 18 Uhr und dauern bis etwa 22 Uhr. Firmen nutzen die Partys, um das Teamgefühl zu stärken. Laut den Veranstaltern kommen besonders junge Berufstätige, die neue Leute kennenlernen und trotzdem nicht zu spät nach Hause gehen wollen.
+------------------------------------------------------------------------
 
-3. [  ]
-Der richtige Speiseplan für den vierbeinigen Freund ist wichtig für ein langes Leben. Tierärzte aus Berlin betonen, dass ältere Hunde ab dem 10. Lebensjahr eine spezielle Pflege brauchen. Wenn ein Hund beispielsweise etwa 8 Kilo wiegt, wie es oft bei Rassen wie dem Jack Russell Terrier der Fall ist, sollte man genau auf das Gewicht achten. Zu viel Futter schadet den Gelenken. Senior-Hunde brauchen weniger Kalorien, aber dafür mehr Proteine und Vitamine im Napf.
+TEXT 1
 
-4. [  ]
-Viele Menschen möchten unabhängiger von teuren Stromanbietern werden und einen Beitrag zum Klimaschutz leisten. Eine aktuelle Statistik zeigt, dass im letzten Jahr die Installation von Solar-PV-Systemen auf privaten Hausdächern in Deutschland um 20 Prozent gestiegen ist. Besonders beliebt ist die Kombination mit modernen Batterie-Energiespeichersystemen (BESS), damit man den sauberen Strom auch nachts nutzen kann, was die Stromkosten massiv senkt.
+Ein neuer Supermarkt in Freiburg verkauft alle Produkte ohne
+Plastikverpackungen. Kunden bringen eigene Behälter mit oder
+kaufen wiederverwendbare Verpackungen im Laden. Das Konzept
+kommt gut an: Seit der Eröffnung kommen täglich mehrere
+hundert Kunden. Weitere Filialen sind bereits geplant.
 
-5. [  ]
-LONDON. In einem Luxus-Restaurant wurde gestern der angeblich teuerste Hamburger der Welt verkauft. Der Burger kostete 1.500 Pfund, also fast 1.800 Euro. Er wurde aus sehr hochwertigem Rindfleisch, Trüffel, Kaviar und einem speziellen Gold-Brötchen gemacht. Nur zehn Gäste durften den Hamburger probieren. Das Restaurant spendete einen Teil des Geldes für ein Kinderkrankenhaus. Viele Menschen diskutierten in den sozialen Medien über den Preis.
+ÜBERSCHRIFT FÜR TEXT 1: ___
+
+------------------------------------------------------------------------
+
+TEXT 2
+
+Eltern und Schulen fordern mehr Sicherheit auf den Wegen,
+die Kinder täglich zur Schule gehen. Besonders an
+gefährlichen Kreuzungen fehlen Zebrastreifen und Ampeln.
+In einigen Städten helfen freiwillige Schulweghelfer.
+Verkehrsexperten empfehlen außerdem, die Geschwindigkeit
+vor Schulen auf Tempo 20 zu reduzieren.
+
+ÜBERSCHRIFT FÜR TEXT 2: ___
+
+------------------------------------------------------------------------
+
+TEXT 3
+
+Das Tierheim in Hannover sucht dringend Freiwillige, die
+helfen möchten. Gesucht werden Menschen, die Hunde spazieren
+führen, Katzen streicheln oder bei der Verwaltung helfen.
+Eine Ausbildung ist nicht notwendig — nur Tierliebe und
+etwas Zeit. Interessierte können sich direkt im Tierheim melden.
+
+ÜBERSCHRIFT FÜR TEXT 3: ___
+
+------------------------------------------------------------------------
+
+TEXT 4
+
+Immer mehr Familien mit Kindern verbringen ihren Urlaub
+auf einem Bauernhof. Kinder können Tiere füttern, beim
+Melken zuschauen und frische Luft genießen. Viele Eltern
+schätzen die ruhige Atmosphäre und die Entfernung vom
+Alltag. Landwirte berichten von ausgebuchten Sommern.
+
+ÜBERSCHRIFT FÜR TEXT 4: ___
+
+------------------------------------------------------------------------
+
+TEXT 5
+
+Medienpädagogen geben Eltern Tipps, wie Kinder verantwortungsvoll
+mit Tablets und Smartphones umgehen lernen. Wichtig sei,
+klare Regeln für die Bildschirmzeit zu setzen. Außerdem
+sollten Kinder nicht direkt vor dem Schlafen auf Bildschirme
+schauen. Gemeinsame Aktivitäten ohne Geräte seien ebenso wichtig.
+
+ÜBERSCHRIFT FÜR TEXT 5: ___
 
 ------------------------------------------------------------------------
 
 ========================================================================
-OFFIZIELLE LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
 ========================================================================
 
-1. DOĞRU CEVAP: d (Umfrage zeigt: Viele Deutsche gestresst, aber trotzdem zufrieden im Beruf)
-   - Açıklama: Metin doğrudan "ArbeitPlus" enstitüsünün yaptığı anketi sunuyor. Çalışanların yoğun zaman baskısından dolayı stresli hissettikleri (%62) ancak buna rağmen genel olarak işlerini sevdikleri (%70) vurgulanıyor. Bu zıtlık "d" başlığı ile birebir örtüşür. "f" seçeneği metnin sadece bir kısmında geçtiği için ana başlık olamaz.
+Text 1 → e (Supermarkt ohne Plastikverpackungen eröffnet)
+   - Açıklama: "alle Produkte ohne Plastikverpackungen" ve "Eröffnung" →
+     (e) tam eşleşme. (a) "Neue Wohnungen" aldatmaca; yeni açılış var
+     ama konut değil market.
 
-2. DOĞRU CEVAP: i (Nach der Arbeit feiern: After-Work-Partys werden immer beliebter)
-   - Açıklama: Metinde büyük şehirlerde iş çıkışı düzenlenen etkinliklerin ("After-Work-Partys") popülerliğinin arttığı ("immer beliebter geworden") anlatılıyor. İşten sonra eğlenmek/kutlamak anlamına gelen "Nach der Arbeit feiern" kalıbı nedeniyle en doğru başlık "i" şıkkıdır.
+Text 2 → g (Mehr Sicherheit auf Schulwegen gefordert)
+   - Açıklama: "Sicherheit auf den Wegen... zur Schule" ve "fordern" →
+     (g) tam eşleşme. (i) "Kinder und Bildschirme" aldatmaca; çocuk ve
+     okul var ama trafik güvenliği konusu.
 
-3. DOĞRU CEVAP: b (Haustier-Gesundheit: Die richtige Pflege für ältere Hunde im Alltag)
-   - Açıklama: Metinde 10 yaşındaki kıdemli köpeklerin (örneğin 8 kilo ağırlığındaki Jack Russell cinsi bir köpeğin) günlük bakım, kilo kontrolü ve beslenme rutininden bahsediliyor. Evcil hayvan sağlığı ve yaşlı köpeklerin doğru bakımı ("Pflege für ältere Hunde") vurgulandığı için cevap "b" şıkkıdır.
+Text 3 → b (Tierheim sucht Freiwillige)
+   - Açıklama: "Tierheim... sucht dringend Freiwillige" → (b) tam eşleşme.
+     (j) "Werbung im Radio" aldatmaca.
 
-4. DOĞRU CEVAP: h (Energie-Experten sagen: Kombination aus Solar-PV und BESS spart viel Geld)
-   - Açıklama: Metin, Almanya'da evlerin çatılarına kurulan güneş panellerinin (Solar-PV) modern batarya depolama sistemleri (BESS) ile kombine edilmesinin, elektriği gece de kullanma fırsatı sunarak maliyetleri ciddi şekilde düşürdüğünü anlatıyor. Bu içerik "h" başlığını doğrudan karşılar.
+Text 4 → d (Urlaub auf dem Bauernhof wird beliebter)
+   - Açıklama: "Urlaub auf einem Bauernhof" ve "ausgebuchten Sommern" →
+     (d) tam eşleşme. (f) "Reisen mit dem Zug" aldatmaca; tatil var ama
+     tren yolculuğu değil.
 
-5. DOĞRU CEVAP: j (Luxus-Restaurant in London verkauft den teuersten Burger der Welt)
-   - Açıklama: Londra'daki (London) lüks bir restoranda 1.500 Pfund değerinde dünyanın en pahalı hamburgerinin satıldığı haberini veren metin, bu burgerin malzemelerini ve sosyal medyadaki yankılarını ele alıyor. Bu durum "j" başlığı ile kusursuz bir şekilde eşleşmektedir.
+Text 5 → i (Kinder und Bildschirme: Experten geben Tipps)
+   - Açıklama: "Tipps, wie Kinder... mit Tablets und Smartphones umgehen"
+     ve "Medienpädagogen" → (i) tam eşleşme. (c) "Instrument lernen"
+     aldatmaca; çocuk var ama müzik değil ekran konusu.
+
+Kullanılmayan (aldatmaca) başlıklar: a / c / f / h / j
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+1-e / 2-g / 3-b / 4-d / 5-i
+========================================================================

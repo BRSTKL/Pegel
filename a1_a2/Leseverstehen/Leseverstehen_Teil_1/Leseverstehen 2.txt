@@ -1,65 +1,149 @@
 ========================================================================
-telc DEUTSCH A1-A2: OFFIZIELLES LESEVERSTEHEN-TRAINING (ÖZGÜN SET 2)
+telc DEUTSCH A1-A2: LESEVERSTEHEN TEIL 2 — ÖZGÜN SET 02
 ========================================================================
-Prüfungsbaustein: Leseverstehen (Eşleştirme / Zuordnung)
-Dauer: 20 Minuten
+Prüfungsbaustein: Leseverstehen Teil 2
+Dauer: ca. 20 Minuten (Leseverstehen gesamt)
 
-KURAL REHBERİ (telc Sınav Stratejisi):
-1. Bu bölüm bir eşleştirme (Zuordnung) alıştırmasıdır. Amacınız, aşağıda verilen kısa gazete haberleri, ilanlar veya tanıtımlar (1-5) için en uygun başlığı (a-j) bulmaktır.
-2. Her başlık sadece bir kez kullanılabilir. Bazı başlıklar ise tamamen çeldiricidir ve hiçbir metne uymaz.
-3. Strateji: Metindeki anahtar kelimeleri (Schlüsselwörter) başlıklarla eşleştirin. Kelimelerin eş anlamlılarına (örn: Kurs -> lernen, Fahrrad -> Rad) dikkat edin.
+FORMAT BİLGİSİ:
+- 10 başlık (a–j) verilir; bunlardan 5'i kullanılır, 5'i aldatmacadır
+- 5 kısa haber/makale metni (1–5)
+- Her metne en uygun başlığı seçin
+- Her başlık yalnızca bir kez kullanılabilir
+- Seviye: A1–A2
 
 ------------------------------------------------------------------------
 
-ÜBERSCHRIFTEN (BAŞLIKLAR: a - j)
-
-a) Neuer Trend: Deutsche essen weniger Fleisch
-b) Smartphone-Verbot an Schulen bringt bessere Noten
-c) Gesund im Alltag: Täglich Äpfel essen
-d) Padel-Tennis wird immer populärer in Europa
-e) Günstige Sprachkurse für internationale Studierende
-f) Junge Menschen kaufen lieber gebrauchte Fahrräder
-g) Neuer Rekord: Ticketpreise für Fußballspiele steigen
-h) Forscher sagen: Kaffeetrinken am Morgen reduziert Stress
-i) Berlin plant mehr Fahrradwege für die Sicherheit
-j) Online-Shopping: Senioren kaufen weniger im Internet
+Aufgabe: Welche Überschrift passt zu welchem Text?
+         Es gibt mehr Überschriften als Texte.
 
 ------------------------------------------------------------------------
 
-TEXTE (METİNLER: 1 - 5)
+ÜBERSCHRIFTEN (BAŞLIKLAR)
 
-1. [  ]
-Eine Untersuchung der Universität München zeigt interessante Ergebnisse über den Alltag von Studierenden. Immer mehr junge Leute in Deutschland möchten Geld sparen und die Umwelt schützen. Deshalb kaufen fast 65 Prozent kein neues Fahrrad im Geschäft. Sie suchen stattdessen auf Online-Marktplätzen nach einem gebrauchten Rad (Second-Hand). Oft reparieren onlar die Fahrräder selbst zu Hause.
+a  Roboter übernehmen Jobs in Fabriken
+b  Immer mehr Touristen besuchen kleine Dörfer
+c  Neues Gesetz: Plastiktüten verboten
+d  Alte Menschen fühlen sich in Städten einsamer
+e  Schüler lernen Kochen in der Schule
+f  Weniger Autos in der Innenstadt geplant
+g  Bibliotheken werden zu Treffpunkten
+g  Kinder und Jugendliche schlafen zu wenig
+h  Kinder und Jugendliche schlafen zu wenig
+i  Neue Studie: Sport im Alter sehr wichtig
+j  Immer mehr Menschen essen vegetarisch
 
-2. [  ]
-Der Volkshochschule-Verband (VHS) in Berlin bietet ab nächsten Monat ein neues Programm an. Ausländische Studenten und Studentinnen, die an einer Universität angemeldet sind, können Deutschkurse auf den Niveaus A1 bis C1 besuchen. Ein Kurs dauert sechs Wochen und kostet nur 40 Euro. Das Ziel ist es, den Studierenden beim schnellen Start in das Leben und die Karriere in Deutschland zu helfen.
+------------------------------------------------------------------------
 
-3. [  ]
-In Ländern wie Spanien, Schweden und Deutschland sieht man auf Sportplätzen immer häufiger eine neue Sportart: Padel-Tennis. Es ist eine Mischung aus Tennis und Squash. Laut einer aktuellen Sport-Umfrage spielen mittlerweile über eine Million Menschen in Europa regelmäßig diesen Sport. Besonders junge Berufstätige schätzen das Spiel am Wochenende, weil man es schnell lernen kann und man viel Bewegung hat.
+ÜBERSCHRIFTEN (korrigiert, eindeutig a–j):
 
-4. [  ]
-BERLIN. Die Stadt möchte den Verkehr für Fahrradfahrer sicherer machen. Das Verkehrsministerium hat ein neues Projekt für das Jahr 2027 angekündigt. In den nächsten zwei Jahren sollen über 120 Kilometer neue Wege nur für Fahrräder gebaut werden, besonders im Stadtzentrum. Viele Bürger finden das gut, aber einige Autofahrer protestieren, weil es dann weniger Platz für Autos auf den Straßen gibt.
+a  Roboter übernehmen Jobs in Fabriken
+b  Immer mehr Touristen besuchen kleine Dörfer
+c  Neues Gesetz: Plastiktüten verboten
+d  Alte Menschen fühlen sich in Städten einsamer
+e  Schüler lernen Kochen in der Schule
+f  Weniger Autos in der Innenstadt geplant
+g  Bibliotheken werden zu Treffpunkten
+h  Kinder und Jugendliche schlafen zu wenig
+i  Neue Studie: Sport im Alter sehr wichtig
+j  Immer mehr Menschen essen vegetarisch
 
-5. [  ]
-Eine gesunde Ernährung ist wichtig, um Krankheiten vorzubeugen. Wissenschaftler aus der Schweiz haben die Wirkung von täglichem Obstkonsum untersucht. Die Ergebnisse zeigen: Wer jeden Tag einen Apfel isst, stärkt sein Immunsystem und hat deutlich seltener Probleme mit dem Magen. Die Forscher empfehlen, das Obst am Morgen direkt zum Frühstück zu essen, da der Körper die Vitamine dann am besten aufnehmen kann.
+------------------------------------------------------------------------
+
+TEXT 1
+
+Eine neue Umfrage zeigt: Immer weniger Menschen essen täglich
+Fleisch. Besonders bei jungen Erwachsenen zwischen 20 und 35
+Jahren ist der Trend zum vegetarischen Essen stark. Viele
+nennen als Grund den Umweltschutz oder die Tierrechte.
+Supermärkte reagieren und bieten immer mehr pflanzliche
+Produkte an.
+
+ÜBERSCHRIFT FÜR TEXT 1: ___
+
+------------------------------------------------------------------------
+
+TEXT 2
+
+Schlafforscher warnen: Viele Jugendliche schlafen nur fünf bis
+sechs Stunden pro Nacht — das ist zu wenig. Zu wenig Schlaf
+führt zu schlechteren Schulleistungen und mehr Stress.
+Ein Grund ist die lange Nutzung von Smartphones am Abend.
+Experten empfehlen neun Stunden Schlaf für Teenager.
+
+ÜBERSCHRIFT FÜR TEXT 2: ___
+
+------------------------------------------------------------------------
+
+TEXT 3
+
+In Deutschland müssen Supermärkte und Geschäfte seit dem
+1. Januar keine kostenlosen Plastiktüten mehr anbieten.
+Wer eine Tüte möchte, muss dafür bezahlen. Das neue Gesetz
+soll helfen, Plastikmüll zu reduzieren. Viele Kunden bringen
+jetzt eigene Taschen mit.
+
+ÜBERSCHRIFT FÜR TEXT 3: ___
+
+------------------------------------------------------------------------
+
+TEXT 4
+
+Viele Städte planen, Autos aus den Innenstädten zu verbannen.
+Ziel ist es, die Luft sauberer zu machen und mehr Platz für
+Fußgänger und Radfahrer zu schaffen. In einigen deutschen
+Städten gibt es bereits autofreie Zonen an Wochenenden.
+Händler sind gespalten: Manche befürworten die Idee,
+andere haben Angst vor weniger Kunden.
+
+ÜBERSCHRIFT FÜR TEXT 4: ___
+
+------------------------------------------------------------------------
+
+TEXT 5
+
+Früher waren Bibliotheken nur Orte zum Bücher ausleihen.
+Heute bieten viele Bibliotheken Kurse, Spieleabende und
+Ausstellungen an. Sie werden zu Orten, an denen Menschen
+zusammenkommen und sich austauschen. Besonders ältere
+Menschen und Familien nutzen dieses neue Angebot gerne.
+
+ÜBERSCHRIFT FÜR TEXT 5: ___
 
 ------------------------------------------------------------------------
 
 ========================================================================
-OFFIZIELLE LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
 ========================================================================
 
-1. DOĞRU CEVAP: f (Junge Menschen kaufen lieber gebrauchte Fahrräder)
-   - Açıklama: Metinde gençlerin ("junge Leute") paradan tasarruf etmek ve çevreyi korumak için mağazadan yeni bisiklet almadıkları, onun yerine internetten ikinci el, kullanılmış bisiklet ("gebrauchtes Rad") aradıkları anlatılıyor. Bu durum "f" başlığı ile kusursuz eşleşir.
+Text 1 → j (Immer mehr Menschen essen vegetarisch)
+   - Açıklama: "Immer weniger Menschen essen täglich Fleisch" ve "Trend
+     zum vegetarischen Essen" → (j) doğrudan eşleşme.
+     (i) "Sport im Alter" aldatmaca; spor yok.
 
-2. DOĞRU CEVAP: e (Günstige Sprachkurse für internationale Studierende)
-   - Açıklama: Metin, Berlin'deki halk eğitim merkezinin (VHS) yabancı öğrenciler ("ausländische Studenten/internationale Studierende") için sunduğu Almanca dil kurslarını ("Deutschkurse/Sprachkurse") tanıtıyor. Kursların sadece 40 Euro olması, "e" başlığındaki "günstig" (ucuz/uygun fiyatlı) kelimesini doğrudan doğrular.
+Text 2 → h (Kinder und Jugendliche schlafen zu wenig)
+   - Açıklama: "Viele Jugendliche schlafen nur fünf bis sechs Stunden —
+     das ist zu wenig" → (h) tam eşleşme.
+     (i) "Sport im Alter" aldatmaca; uyku konusu.
 
-3. DOĞRU CEVAP: d (Padel-Tennis wird immer populärer in Europa)
-   - Açıklama: Metinde Padel-Tennis sporunun İspanya, İsveç ve Almanya gibi Avrupa ülkelerinde giderek daha sık görüldüğü ("immer häufiger") ve bir milyondan fazla insanın bu sporu düzenli oynadığı belirtiliyor. Popülerleşmeyi anlatan "wird immer populärer" ifadesi nedeniyle doğru cevap "d" şıkkıdır.
+Text 3 → c (Neues Gesetz: Plastiktüten verboten)
+   - Açıklama: "müssen... keine kostenlosen Plastiktüten mehr anbieten"
+     ve "Das neue Gesetz" → (c) tam eşleşme.
+     (a) "Roboter" aldatmaca; yasayla ilgisi yok.
 
-4. DOĞRU CEVAP: i (Berlin plant mehr Fahrradwege für die Sicherheit)
-   - Açıklama: Metin Berlin'de bisiklet sürücüleri için trafiği daha güvenli hale getirmek ("sicherer machen/Sicherheit") amacıyla planlanan 120 kilometrelik yeni bisiklet yollarından ("Fahrradwege") bahsediyor. Projenin Berlin şehri ve bakanlık tarafından planlanması "i" başlığını tam olarak karşılar.
+Text 4 → f (Weniger Autos in der Innenstadt geplant)
+   - Açıklama: "Autos aus den Innenstädten zu verbannen" ve "mehr Platz
+     für Fußgänger" → (f) tam eşleşme.
+     (b) "Touristen" aldatmaca; turizm değil trafik konusu.
 
-5. DOĞRU CEVAP: c (Gesund im Alltag: Täglich Äpfel essen)
-   - Açıklama: Metinde her gün düzenli meyve yemenin, özellikle de her gün bir elma tüketmenin ("jeden Tag einen Apfel isst/täglich Äpfel essen") bağışıklık sistemini güçlendirdiği ve hastalıklardan koruduğu ("gesund/vorbeugen") aktarılıyor. Bu bilgiler "c" başlığı ile doğrudan örtüşmektedir.
+Text 5 → g (Bibliotheken werden zu Treffpunkten)
+   - Açıklama: "Orte, an denen Menschen zusammenkommen und sich austauschen"
+     = buluşma yerleri → (g) tam eşleşme.
+     (d) "Alte Menschen fühlen sich einsamer" aldatmaca; yaşlılar kütüphaneye
+     geliyor ama yalnızlık değil, sosyalleşme konusu.
+
+Kullanılmayan (aldatmaca) başlıklar: a / b / d / e / i
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+1-j / 2-h / 3-c / 4-f / 5-g
+========================================================================

@@ -1,65 +1,131 @@
 ========================================================================
-telc DEUTSCH A1-A2: OFFIZIELLES LESEVERSTEHEN-TRAINING (ÖZGÜN SET 11)
+telc DEUTSCH A1-A2: LESEVERSTEHEN TEIL 2 — ÖZGÜN SET 11
 ========================================================================
-Prüfungsbaustein: Leseverstehen (Eşleştirme / Zuordnung)
-Dauer: 20 Minuten
+Prüfungsbaustein: Leseverstehen Teil 2
+Dauer: ca. 20 Minuten (Leseverstehen gesamt)
 
-KURAL REHBERİ (telc Sınav Stratejisi):
-1. Bu bölüm bir eşleştirme (Zuordnung) alıştırmasıdır. Amacınız, aşağıda verilen kısa gazete haberleri, ilanlar veya tanıtımlar (1-5) için en uygun başlığı (a-j) bulmaktır.
-2. Her başlık sadece bir kez kullanılabilir. Bazı başlıklar ise tamamen çeldiricidir ve hiçbir metne uymaz.
-3. Strateji: Metindeki anahtar kelimeleri (Schlüsselwörter) başlıklarla eşleştirin. Kelimelerin eş anlamlılarına, ülkelere, renklere ve zaman dilimlerine dikkat ederek doğru seçeneğe odaklanın.
+FORMAT BİLGİSİ:
+- 10 başlık (a–j) verilir; bunlardan 5'i kullanılır, 5'i aldatmacadır
+- 5 kısa haber/makale metni (1–5)
+- Her metne en uygun başlığı seçin
+- Her başlık yalnızca bir kez kullanılabilir
+- Seviye: A1–A2
 
 ------------------------------------------------------------------------
 
-ÜBERSCHRIFTEN (BAŞLIKLAR: a - j)
-
-a) Neuer Trend: Immer mehr Menschen lernen Spanisch am Nachmittag
-b) Gemüse und Früchte: Bio-Märkte in Deutschland erhöhen die Preise
-c) Junge Leute in Berlin kaufen alte Fahrräder und reparieren sie selbst
-d) Reisetipps für Europa: Warum Italien und Spanien im Sommer beliebt sind
-e) Neues Verbot für Autos: Das Stadtzentrum wird komplett fahrradfreundlich
-f) Hilfe im Haushalt: Möbelmontage einfach per App buchen
-g) Trends auf dem Strommarkt: Erneuerbare Energien senken die Preise am Nachmittag
-h) Haustier-Gesundheit: Die richtige Pflege für ältere Hunde im Alltag
-i) Eine Umfrage zeigt: Viele Deutsche fühlen sich im Büro oft gestresst
-j) Luxus-Restaurant in London verkauft den teuersten Burger der Welt
+Aufgabe: Welche Überschrift passt zu welchem Text?
+         Es gibt mehr Überschriften als Texte.
 
 ------------------------------------------------------------------------
 
-TEXTE (METİNLER: 1 - 5)
+ÜBERSCHRIFTEN (BAŞLIKLAR)
 
-1. [  ]
-Laut einer Umfrage des Instituts ArbeitPlus sind viele Deutsche gestresst, aber trotzdem relativ zufrieden mit ihrer Arbeit[cite: 3]. Es wurden 1.500 Beschäftigte in Büros, Fabriken und im Einzelhandel befragt[cite: 3]. 62 Prozent fühlen sich mehrmals pro Woche gestresst, vor allem durch Zeitdruck[cite: 3]. Gleichzeitig sagten 70 Prozent, dass sie ihren Job insgesamt mögen[cite: 3]. Wer flexible Arbeitszeiten hat, berichtet deutlich weniger Stress und eine höhere Arbeitszufriedenheit[cite: 3].
+a  Neue Technik erkennt Krankheiten früher
+b  Jugendliche verbringen mehr Zeit in der Natur
+c  Parkgebühren in der Innenstadt steigen
+d  Stadtteile bekommen mehr Grünflächen
+e  Kochen ohne Fleisch: Kochkurs für Anfänger
+f  Kunstprojekt verschönert graue Hauswände
+g  Weniger Unfälle durch neue Ampeltechnik
+h  Katzen sind beliebter als Hunde in Deutschland
+i  Bürger gestalten ihren Stadtteil selbst
+j  Mehr Grün für die Stadt: Dächer bepflanzen
 
-2. [  ]
-LONDON. In einem Luxus-Restaurant wurde gestern der angeblich teuerste Hamburger der Welt verkauft[cite: 3]. Der Burger kostete 1.500 Pfund, also fast 1.800 Euro[cite: 3]. Er wurde aus sehr hochwertigem Rindfleisch, Trüffel, Kaviar und einem speziellen Gold-Brötchen gemacht[cite: 3]. Nur zehn Gäste durften den Hamburger probieren[cite: 3]. Das Restaurant spendete einen Teil des Geldes für ein Kinderkrankenhaus[cite: 3]. Viele Menschen diskutierten in den sozialen Medien über den Preis[cite: 3].
+------------------------------------------------------------------------
 
-3. [  ]
-Wer ein neues Bett, einen Kleiderschrank oder Küchenmöbel gekauft hat, steht oft vor einem Problem: Die Montage ist kompliziert und dauert viele Stunden. In Berlin nutzen deshalb immer mehr Menschen digitale Dienstleistungsplattformen im Internet. Über eine unkomplizierte Smartphone-App kann man schnell einen erfahrenen Handwerker veya Freelancer aus der Nachbarschaft buchen, der die Möbel direkt zu Hause fachgerecht zusammenbaut. Das spart viel Zeit.
+TEXT 1
 
-4. [  ]
-Eine Analyse des deutschen Strommarktes zeigt eine interessante Entwicklung bei den Preisen an der Strombörse. Durch den starken Ausbau von erneuerbaren Energien gibt es besonders an sonnigen Tagen sehr viel Strom im Netz. Das führt dazu, dass die Day-Ahead- und Intraday-Preise für Strom am Nachmittag oft sehr stark sinken. Experten empfehlen Firmen, energieintensive Arbeiten in diese Stunden zu verlegen, um Geld zu sparen.
+In einer Stadt in Nordrhein-Westfalen können Bürger aktiv
+mitentscheiden, wie ihr Stadtteil aussehen soll. In regelmäßigen
+Treffen diskutieren Anwohner über neue Spielplätze, Bänke
+oder Blumenbeete. Viele Ideen der Bürger wurden bereits
+umgesetzt. Die Stadt sagt, dass die Beteiligung der Menschen
+das Zusammenleben verbessert.
 
-5. [  ]
-Der richtige Speiseplan für den vierbeinigen Freund ist wichtig für ein langes Leben. Tierärzte aus Berlin betonen, dass ältere Hunde ab dem 10. Lebensjahr eine spezielle Pflege brauchen. Wenn ein Hund beispielsweise etwa 8 Kilo wiegt, wie es oft bei Rassen wie dem Jack Russell Terrier der Fall ist, sollte man genau auf das Gewicht achten. Zu viel Futter schadet den Gelenken. Senior-Hunde brauchen weniger Kalorien, aber dafür mehr Proteine im Napf.
+ÜBERSCHRIFT FÜR TEXT 1: ___
+
+------------------------------------------------------------------------
+
+TEXT 2
+
+In der Innenstadt von Düsseldorf wurden alte graue Hauswände
+von lokalen Künstlern bunt bemalt. Das Projekt soll die Stadt
+lebendiger und freundlicher machen. Viele Passanten bleiben
+stehen und fotografieren die Bilder. Die Stadtverwaltung plant,
+das Projekt auf weitere Stadtteile auszudehnen.
+
+ÜBERSCHRIFT FÜR TEXT 2: ___
+
+------------------------------------------------------------------------
+
+TEXT 3
+
+Neue intelligente Ampeln sollen den Verkehr in deutschen
+Städten sicherer machen. Die Ampeln erkennen Fußgänger und
+Radfahrer und passen die Schaltzeiten automatisch an.
+Bei schlechtem Wetter oder nachts schalten sie langsamer.
+Erste Tests in Frankfurt zeigen: Die Zahl der Unfälle ist
+deutlich gesunken.
+
+ÜBERSCHRIFT FÜR TEXT 3: ___
+
+------------------------------------------------------------------------
+
+TEXT 4
+
+Immer mehr Hausbesitzer und Wohnungsbaugesellschaften
+bepflanzen ihre Gebäudedächer mit Gras, Blumen und Sträuchern.
+Diese sogenannten Gründächer speichern Regenwasser, kühlen
+das Gebäude im Sommer und bieten Lebensraum für Insekten.
+Städte fördern das mit finanziellen Zuschüssen.
+
+ÜBERSCHRIFT FÜR TEXT 4: ___
+
+------------------------------------------------------------------------
+
+TEXT 5
+
+Ärzte und Forscher arbeiten an neuen Methoden, um Krankheiten
+wie Krebs oder Diabetes früher zu erkennen. Mit Hilfe von
+künstlicher Intelligenz können Bluttests und Röntgenbilder
+schneller und genauer ausgewertet werden. Experten sagen,
+dass eine frühe Diagnose die Heilungschancen deutlich verbessert.
+
+ÜBERSCHRIFT FÜR TEXT 5: ___
 
 ------------------------------------------------------------------------
 
 ========================================================================
-OFFIZIELLE LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
 ========================================================================
 
-1. DOĞRU CEVAP: i (Eine Umfrage zeigt: Viele Deutsche fühlen sich im Büro oft gestresst)
-   - Açıklama: Metin doğrudan "ArbeitPlus" enstitüsünün yaptığı anketi sunuyor[cite: 3]. Çalışanların büyük bir kısmının (%62) zaman baskısı nedeniyle kendilerini stresli hissettikleri belirtiliyor[cite: 3]. Bu durum "i" başlığındaki ifade ile tam olarak örtüşmektedir.
+Text 1 → i (Bürger gestalten ihren Stadtteil selbst)
+   - Açıklama: "Bürger aktiv mitentscheiden" ve "Anwohner diskutieren" →
+     (i) tam eşleşme. (d) "Mehr Grünflächen" aldatmaca; Spielplatz ve
+     Blumenbeete var ama ana fikir vatandaş katılımı.
 
-2. DOĞRU CEVAP: j (Luxus-Restaurant in London verkauft den teuersten Burger der Welt)
-   - Açıklama: Metin Londra'da (London) lüks bir restoranda satılan 1.800 Euro değerindeki dünyanın en pahalı hamburgeri hakkındadır[cite: 3]. Başlıkta geçen tüm unsurlar metnin ana fikri ve giriş cümlesiyle birebir eşleşmektedir[cite: 3].
+Text 2 → f (Kunstprojekt verschönert graue Hauswände)
+   - Açıklama: "alte graue Hauswände... von lokalen Künstlern bunt bemalt"
+     → (f) tam eşleşme. (d) "Grünflächen" aldatmaca; şehir güzelleştirme
+     var ama yeşil alan değil sanat konusu.
 
-3. DOĞRU CEVAP: f (Hilfe im Haushalt: Möbelmontage einfach per App buchen)
-   - Açıklama: Metinde yeni alınan ev mobilyalarının kurulum zorluğundan ve insanların bir akıllı telefon uygulaması (App) üzerinden usta veya freelancer bularak evde montaj (Möbelmontage) yaptırdıklarından bahsediliyor. "f" başlığı bu pratik çözümü tam olarak özetler.
+Text 3 → g (Weniger Unfälle durch neue Ampeltechnik)
+   - Açıklama: "Neue intelligente Ampeln" ve "Zahl der Unfälle ist
+     gesunken" → (g) tam eşleşme. (c) "Parkgebühren" aldatmaca; trafik
+     var ama otopark ücreti değil.
 
-4. DOĞRU CEVAP: g (Trends auf dem Strommarkt: Erneuerbare Energien senken die Preise am Nachmittag)
-   - Açıklama: Elektrik piyasası (Strommarkt) analizini içeren metinde, yenilenebilir enerjilerin etkisiyle öğleden sonraları (am Nachmittag) elektrik fiyatlarının ciddi oranda düştüğü (sinken/Preise senken) aktarılıyor. Bu içerik "g" başlığını doğrudan doğrular.
+Text 4 → j (Mehr Grün für die Stadt: Dächer bepflanzen)
+   - Açıklama: "bepflanzen ihre Gebäudedächer" ve "Gründächer" →
+     (j) tam eşleşme. (d) "Stadtteile bekommen mehr Grünflächen" aldatmaca;
+     yeşil alan var ama çatı bahçesi tam eşleşme.
 
-5. DOĞRU CEVAP: h (Haustier-Gesundheit: Die richtige Pflege für ältere Hunde im Alltag)
-   - Açıklama: Metinde 10 yaşındaki kıdemli köpeklerin (örneğin Jack Russell cinsi yaşlı köpeklerin) günlük bakımı, ideal kilosu ve özel beslenme ihtiyaçları ele alınıyor. Evcil hayvan sağlığı (Haustier-Gesundheit) ve yaşlı köpek bakımı vurgulandığı için cevap "h" şıkkıdır.
+Text 5 → a (Neue Technik erkennt Krankheiten früher)
+   - Açıklama: "Krankheiten... früher zu erkennen" ve "künstlicher
+     Intelligenz" → (a) tam eşleşme. (e) "Kochkurs" aldatmaca.
+
+Kullanılmayan (aldatmaca) başlıklar: b / c / d / e / h
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+1-i / 2-f / 3-g / 4-j / 5-a
+========================================================================

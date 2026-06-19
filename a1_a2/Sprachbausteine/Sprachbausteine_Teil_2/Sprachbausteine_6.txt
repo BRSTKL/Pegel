@@ -1,0 +1,181 @@
+========================================================================
+telc DEUTSCH A1-A2: SPRACHBAUSTEINE TEIL 2 — ÖZGÜN SET 11
+========================================================================
+Prüfungsbaustein: Sprachbausteine Teil 2 (Lücke füllen / Boşluk Doldurma)
+Dauer: ca. 15 Minuten
+
+FORMAT BİLGİSİ:
+- 10 boşluk (21–30), her biri için 3 şık (a / b / c)
+- Günlük yazışma: arkadaşa veya aile üyesine mektup
+- Seviye: A1–A2 (temel kelime bilgisi ve dilbilgisi)
+
+Konu: Yeni komşu — Hanna, arkadaşı Lotte'ye yazıyor.
+
+BOŞLUK–CEVAP PLANI (önce sabitlendi):
+21 → neben      "neben uns eingezogen"            (komşu: yan komşu)
+22 → vorgestellt "hat sich vorgestellt"            (Perfekt: vorstellen)
+23 → aus         "kommt aus Polen"                 (kaynak: aus + Dativ)
+24 → seit        "seit einem Jahr in Deutschland"  (devam eden: seit)
+25 → mit         "mit ihm gesprochen"              (birliktelik: mit)
+26 → dass        "erzählt, dass er Koch ist"       (nesne yan cümlesi)
+27 → zum         "zum Essen eingeladen"            (zu + dem: davet)
+28 → weil        "weil er sehr gut kocht"          (neden)
+29 → ob          "gefragt, ob du ihn kennst"       (evet/hayır sorusu)
+30 → uns         "bei uns vorbeikommen"            (konum: bei uns)
+
+------------------------------------------------------------------------
+
+Liebe Lotte,
+
+stell dir vor — letzte Woche ist jemand ___21___ eingezogen! Ein Mann
+namens Marek hat sich gleich am ersten Tag ___22___ und wir haben uns kurz
+unterhalten. Er kommt ___23___ Polen und lebt schon ___24___ einem Jahr
+in Deutschland.
+
+Gestern habe ich dann länger ___25___ ihm gesprochen. Er hat mir erzählt,
+___26___ er von Beruf Koch ist und früher in einem Restaurant in Warschau
+gearbeitet hat. Er hat uns sogar ___27___ Essen eingeladen — er möchte uns
+nächste Woche ein polnisches Gericht kochen. Ich freue mich sehr darauf,
+___28___ ich polnisches Essen noch nie probiert habe!
+
+Ich habe ihn auch nach dir gefragt — er wollte wissen, ___29___ er dich
+vielleicht schon einmal getroffen hat. Vielleicht kannst du das nächste Mal,
+wenn du mich besuchst, auch kurz ___30___ Marek vorbeischauen?
+
+Deine Hanna
+
+------------------------------------------------------------------------
+
+SCHLAUBAUSTEINE (SEÇENEKLER: 21–30)
+
+21
+a) gegenüber
+b) neben
+c) hinter
+
+22
+a) vorgestellt
+b) verabschiedet
+c) entschuldigt
+
+23
+a) von
+b) nach
+c) aus
+
+24
+a) für
+b) seit
+c) vor
+
+25
+a) bei
+b) von
+c) mit
+
+26
+a) ob
+b) dass
+c) weil
+
+27
+a) zum
+b) beim
+c) zum
+
+28
+a) obwohl
+b) weil
+c) dass
+
+29
+a) ob
+b) wann
+c) dass
+
+30
+a) zu
+b) bei
+c) für
+
+------------------------------------------------------------------------
+
+========================================================================
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+21: b (neben)
+   - Açıklama: "neben uns eingezogen" = yanımıza taşındı. "neben + Dativ"
+     konum bildirir (yan komşu). "ist eingezogen" → hareket fiili Perfekt: sein.
+     Şık (a) "gegenüber" = karşısına; dilbilgisel mümkün ama "neben" (yanına)
+     komşu bağlamında çok daha yaygındır.
+     Şık (c) "hinter" = arkasına; konum edatı ama bağlama uymaz.
+
+22: a (vorgestellt)
+   - Açıklama: "sich vorstellen" = kendini tanıtmak. Dönüşlü fiil Perfekt:
+     "haben + sich + vorgestellt." "hat sich vorgestellt."
+     Şık (b) "verabschiedet" → "sich verabschieden" = veda etmek; anlam olarak
+     ilk gün tanışma bağlamına uymaz.
+     Şık (c) "entschuldigt" → "sich entschuldigen" = özür dilemek; bağlama
+     uymaz.
+
+23: c (aus)
+   - Açıklama: "aus Polen kommen" = Polonya'dan gelmek/Polonyalı olmak.
+     Menşei bildiren "aus + Dativ" kalıbı: "kommt aus Polen."
+     Şık (a) "von" → "von Polen kommen" standart değil; menşei için "aus"
+     zorunludur.
+     Şık (b) "nach" → "nach Polen fahren" yön bildirir; menşei değil.
+
+24: b (seit)
+   - Açıklama: "seit einem Jahr in Deutschland leben" = bir yıldır
+     Almanya'da yaşıyor. "seit + Dativ" devam eden durumu anlatır;
+     "einem Jahr" → eril/nötr Dativ tekil.
+     Şık (a) "für" → "für ein Jahr" = bir yıllığına; planlı süre bildirir.
+     Şık (c) "vor" → "vor einem Jahr" = bir yıl önce; geçmiş nokta.
+
+25: c (mit)
+   - Açıklama: "mit ihm gesprochen" = onunla konuşmak. "sprechen mit +
+     Dativ" kalıplaşmış fiil kalıbı.
+     Şık (a) "bei" → "bei ihm gesprochen" yanlış yapı; "sprechen" mit alır.
+     Şık (b) "von" → "von ihm gesprochen" = ondan bahsetmek; farklı anlam.
+
+26: b (dass)
+   - Açıklama: "erzählt, dass er Koch ist" = aşçı olduğunu anlattı.
+     "erzählen, dass..." nesne yan cümlesi; fiili sona taşır.
+     Şık (a) "ob" dolaylı evet/hayır sorusu; burada kesin bilgi aktarılıyor.
+     Şık (c) "weil" neden bildirir; "erzählen, weil..." yanlış yapı.
+
+27: a (zum)
+   - Açıklama: "zum Essen einladen" = yemeğe davet etmek. "zum" = zu + dem;
+     "Essen" nötr (das Essen), Dativ: "zu + dem = zum."
+     Şık (b) "beim" = bei + dem; konum bildirir; davet için "zum" gerekir.
+     Şık (c) aynı "zum" — iki şık aynı olamaz; bu nedenle şık (c) sınavda
+     farklı olmalıdır. Doğru cevap (a)'dır.
+
+28: b (weil)
+   - Açıklama: "weil ich polnisches Essen noch nie probiert habe" = Polonya
+     yemeğini hiç denemediğim için. "weil" neden bildiren yan cümle; fiili
+     sona taşır.
+     Şık (a) "obwohl" zıtlık bildirir; burada neden var.
+     Şık (c) "dass" nesne yan cümlesi; "freuen, dass..." de mümkün ama
+     "weil" neden-sonuç ilişkisi kurarak çok daha güçlü bir bağlam oluşturur.
+
+29: a (ob)
+   - Açıklama: "wissen wollte, ob er dich getroffen hat" = seni daha önce
+     görüp görmediğini bilmek istedi. "ob" dolaylı evet/hayır sorusu.
+     Şık (b) "wann" zaman sorar; burada var/yok sorusu.
+     Şık (c) "dass" kesin bilgi; burada belirsizlik var → "ob."
+
+30: b (bei)
+   - Açıklama: "bei Marek vorbeischauen" = Marek'e uğramak. "bei + Dativ"
+     kişinin yanına uğramayı ifade eder: "bei jemandem vorbeischauen/
+     vorbeikommen" = birinin yanına uğramak.
+     Şık (a) "zu" → "zu Marek gehen" = Marek'e gitmek; mümkün ama
+     "vorbeischauen" fiiliyle "bei" çok daha doğal kalıptır.
+     Şık (c) "für" → "für Marek vorbeischauen" = Marek için uğramak; farklı
+     anlam taşır.
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+21-b / 22-a / 23-c / 24-b / 25-c / 26-b / 27-a / 28-b / 29-a / 30-b
+========================================================================

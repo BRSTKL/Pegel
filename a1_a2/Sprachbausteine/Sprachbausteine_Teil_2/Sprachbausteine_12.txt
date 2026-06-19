@@ -1,0 +1,184 @@
+========================================================================
+telc DEUTSCH A1-A2: SPRACHBAUSTEINE TEIL 2 — ÖZGÜN SET 17
+========================================================================
+Prüfungsbaustein: Sprachbausteine Teil 2 (Lücke füllen / Boşluk Doldurma)
+Dauer: ca. 15 Minuten
+
+FORMAT BİLGİSİ:
+- 10 boşluk (21–30), her biri için 3 şık (a / b / c)
+- Günlük yazışma: arkadaşa veya aile üyesine mektup
+- Seviye: A1–A2 (temel kelime bilgisi ve dilbilgisi)
+
+Konu: Yeni iş — Alina, erkek kardeşi Peter'a yazıyor.
+
+BOŞLUK–CEVAP PLANI (önce sabitlendi):
+21 → seit        "seit zwei Wochen"                  (devam eden: seit)
+22 → bei         "bei einer Bäckerei"                (işyeri: bei + Dat)
+23 → um          "um sechs Uhr aufstehen"            (saat: um)
+24 → obwohl      "obwohl ich müde bin"               (zıtlık)
+25 → an          "an der Kasse arbeiten"             (konum: an + Dativ)
+26 → mit         "nett mit den Kunden"               (birliktelik: mit)
+27 → weil        "weil sie immer freundlich sind"    (neden)
+28 → dass        "gemerkt, dass ich gerne backe"     (nesne yan cümlesi)
+29 → dafür       "dafür interessieren"               (zam. zarf: für + das)
+30 → ob          "weiß nicht, ob ich bleibe"         (evet/hayır sorusu)
+
+------------------------------------------------------------------------
+
+Lieber Peter,
+
+stell dir vor — ich habe jetzt einen neuen Job! Ich arbeite ___21___
+zwei Wochen ___22___ einer kleinen Bäckerei hier in der Nähe. Ich muss
+jeden Tag sehr früh aufstehen, meistens schon ___23___ halb sechs, aber
+ich mag die Arbeit trotzdem sehr gerne, ___24___ ich am Anfang so müde war.
+
+Meine Aufgabe ist es, morgens an der Kasse zu sitzen und die Kunden zu
+bedienen. Ich sitze meistens ___25___ der Kasse und helfe beim Verkauf.
+Meine Kolleginnen sind sehr nett ___26___ mir — wir lachen viel zusammen
+und die Stunden vergehen schnell. Besonders mag ich die Stammkunden,
+___27___ sie immer freundlich sind und manchmal kleine Gespräche mit mir
+anfangen.
+
+Ich habe auch ___28___ gemerkt, dass ich sehr gerne beim Backen zuschaue
+und mich langsam ___29___ interessiere. Vielleicht lerne ich das eines
+Tages selbst! Ich weiß noch nicht, ___30___ ich langfristig dort bleibe,
+aber im Moment bin ich sehr zufrieden.
+
+Deine Alina
+
+------------------------------------------------------------------------
+
+SCHLAUBAUSTEINE (SEÇENEKLER: 21–30)
+
+21
+a) vor
+b) für
+c) seit
+
+22
+a) in
+b) bei
+c) für
+
+23
+a) ab
+b) um
+c) seit
+
+24
+a) weil
+b) dass
+c) obwohl
+
+25
+a) auf
+b) an
+c) in
+
+26
+a) zu
+b) mit
+c) von
+
+27
+a) obwohl
+b) dass
+c) weil
+
+28
+a) schon
+b) kaum
+c) noch nicht
+
+29
+a) dafür
+b) davon
+c) daran
+
+30
+a) wann
+b) ob
+c) wie
+
+------------------------------------------------------------------------
+
+========================================================================
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
+========================================================================
+
+21: c (seit)
+   - Açıklama: "seit zwei Wochen arbeiten" = iki haftadır çalışmak. "seit +
+     Dativ" geçmişte başlayan ve hâlâ devam eden durumu anlatır; iş hâlâ
+     devam ediyor → Präsens + "seit" zorunludur.
+     Şık (a) "vor" → "vor zwei Wochen" = iki hafta önce; geçmiş nokta.
+     Şık (b) "für" → "für zwei Wochen" = iki haftalığına; planlı süre.
+
+22: b (bei)
+   - Açıklama: "bei einer Bäckerei arbeiten" = bir fırında çalışmak. İşyeri
+     veya kurum için "bei + Dativ" kullanılır: "bei einer Bäckerei."
+     Şık (a) "in" → "in einer Bäckerei" = fırının içinde; konum bildirir;
+     mümkün ama "bei" çalışma ilişkisini çok daha doğal ifade eder.
+     Şık (c) "für" → "für eine Bäckerei arbeiten" = bir fırın için çalışmak;
+     anlam yakın ama "bei" çok daha yaygın ve standart kullanımdır.
+
+23: b (um)
+   - Açıklama: "um halb sechs aufstehen" = beş buçukta kalkmak. Saat
+     ifadelerinde her zaman "um" kullanılır: "um sechs Uhr", "um halb sechs."
+     Şık (a) "ab" → başlangıç noktası bildirir (ab Montag = Pazartesi'den
+     itibaren); saat ifadesinde kullanılmaz.
+     Şık (c) "seit" → devam eden süre bildirir; saat ifadesine uymaz.
+
+24: c (obwohl)
+   - Açıklama: "trotzdem sehr gerne mag, obwohl ich am Anfang so müde war"
+     = başta çok yorgun olmama rağmen yine de çok seviyorum. "obwohl"
+     zıtlık bildiren yan cümle bağlacıdır; fiili sona taşır.
+     Şık (a) "weil" neden bildirir; burada zıtlık var.
+     Şık (b) "dass" nesne yan cümlesi; zıtlık bağlamına uymaz.
+
+25: b (an)
+   - Açıklama: "an der Kasse sitzen / arbeiten" = kasada oturmak/çalışmak.
+     Kasada çalışma konumu için "an + Dativ" kullanılır: "an der Kasse."
+     Şık (a) "auf" → yüzey üzeri için; kasa için "an" kalıplaşmıştır.
+     Şık (c) "in" → kapalı alan içi için; "an der Kasse" sabit kalıptır.
+
+26: b (mit)
+   - Açıklama: "nett mit jemandem sein" = birine karşı nazik olmak. "nett
+     mit + Dativ" kalıplaşmış ifade: "nett mit mir sein."
+     Şık (a) "zu" → "nett zu jemandem sein" de doğrudur; "nett zu mir"
+     ve "nett mit mir" her ikisi de kullanılır. Şıklar arasında (b) "mit"
+     seçilmiştir; her ikisi A2 seviyesinde kabul edilebilir.
+     Şık (c) "von" → "nett von jemandem" = birinden nazik; farklı yapı.
+
+27: c (weil)
+   - Açıklama: "weil sie immer freundlich sind" = her zaman güler yüzlü
+     oldukları için. "weil" neden bildiren yan cümle; fiili sona taşır.
+     Şık (a) "obwohl" zıtlık bildirir; burada neden var.
+     Şık (b) "dass" nesne yan cümlesi; neden bağlamına uymaz.
+
+28: a (schon)
+   - Açıklama: "schon gemerkt" = zaten/çoktan fark ettim. "schon" erken
+     veya beklenenden önce gerçekleşeni vurgular.
+     Şık (b) "kaum" = neredeyse hiç; "kaum gemerkt" = neredeyse fark
+     etmedim; anlam olarak tam tersi.
+     Şık (c) "noch nicht" = henüz değil; "noch nicht gemerkt" fark
+     etmemek anlamına gelir; bağlama uymaz.
+
+29: a (dafür)
+   - Açıklama: "sich für etwas interessieren" = bir şeyle ilgilenmek.
+     Dönüşlü fiil "sich interessieren + für + Akkusativ." Soyut referans
+     için Pronominaladverb: "dafür" (= für + das → ekmek yapımı için).
+     Şık (b) "davon" → "von + Dativ" farklı edat; "interessieren für"
+     değişmez.
+     Şık (c) "daran" → "an + Dativ" farklı edat; "interessieren für"
+     değişmez.
+
+30: b (ob)
+   - Açıklama: "weiß nicht, ob ich langfristig dort bleibe" = uzun vadede
+     orada kalıp kalmayacağımı bilmiyorum. "ob" dolaylı evet/hayır sorusu.
+     Şık (a) "wann" zaman sorar; burada kalıp kalmama sorusu → "ob."
+     Şık (c) "wie" yöntem sorar; bu bağlama uymaz.
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+21-c / 22-b / 23-b / 24-c / 25-b / 26-b / 27-c / 28-a / 29-a / 30-b
+========================================================================

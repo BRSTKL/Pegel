@@ -1,66 +1,98 @@
 ========================================================================
-telc DEUTSCH A1-A2: OFFIZIELLES LESEVERSTEHEN-TRAINING (ÖZGÜN SET 25)
+telc DEUTSCH A1-A2: LESEVERSTEHEN TEIL 3 — ÖZGÜN SET 12
 ========================================================================
-Prüfungsbaustein: Leseverstehen (Mehrfachauswahl / Çoktan Seçmeli)
-Dauer: 20 Minuten
+Prüfungsbaustein: Leseverstehen Teil 3 (Baumkuchen / Langer Text)
 
-KURAL REHBERİ (telc Sınav Stratejisi):
-1. Bu bölüm bir okuma-anlama (Leseverstehen) alıştırmasıdır. Amacınız, verilen metni okuyarak çoktan seçmeli sorulara (6-10) en uygun cevabı (a, b veya c) seçmektir.
-2. Strateji: Sorulardaki anahtar kelimeleri metinde arayın. Şıklar genellikle metindeki cümlelerin farklı kelimelerle veya benzer anlamlı ifadelerle yeniden yazılmış halidir.
-3. Dikkat: Metinde açıkça belirtilmeyen, sadece mantıklı gelen şıklardan uzak durun. Sadece metindeki bilgilere güvenin.
+Konu: Schwimmen lernen — wichtig für Kinder
 
 ------------------------------------------------------------------------
 
-Thema: Zweites Leben für Fahrräder – Warum Fahrrad-Flipping boomt
+TEXT: Schwimmen — eine Fähigkeit fürs Leben
 
-Das Leben in modernen Großstädten ist teuer, und die Mobilität spielt eine zentrale Rolle im Alltag. Viele Menschen suchen nach umweltfreundlichen Transportmitteln, um flexibel zur Arbeit oder zur Universität zu kommen. Doch neue Fahrräder im Fachgeschäft kosten oft mehrere Hundert Euro. Das führt dazu, dass immer mehr Menschen auf den Second-Hand-Markt ausweichen. Gegen die hohen Preise im Laden etabliert sich ein neuer, nachhaltiger Trend: das sogenannte „Fahrrad-Flipping“ – gebrauchte Fahrräder günstig kaufen, selbst reparieren und fit weiterverkaufen.
+Schwimmen ist eine der wichtigsten Fähigkeiten, die ein Mensch
+lernen kann. Es rettet Leben: Wer nicht schwimmen kann, ist
+in der Nähe von Wasser in Gefahr. In Deutschland lernen die
+meisten Kinder in der Schule schwimmen — meistens in der
+dritten oder vierten Klasse. Doch nicht alle Kinder schaffen
+es, einen Schwimmkurs zu bestehen.
 
-Laut einer aktuellen Studie des Instituts für urbanen Konsum in Europa entscheiden sich immer mehr junge Menschen und handwerklich begeisterte Bürger bewusst für das Recycling von alten Rädern. Die Philosophie dahinter ist einfach: Nachhaltigkeit, technisches Lernen und Kostenersparnis. Statt alte Dinge wegzuwerfen, nutzen die Menschen lokale Plattformen, um gebrauchte Trekkingräder oder Stadträder zu erwerben. Ziel ist es, die Mechanik intensiv zu verstehen, die Lebensdauer von Gegenständen zu verlängern und der Wegwerfkultur in Großstädten aktiv entgegenzuwirken.
+Laut einer Studie des DLRG — der Deutschen Lebens-Rettungs-
+Gesellschaft — kann etwa jedes dritte Kind in Deutschland
+nicht sicher schwimmen. Das bedeutet: Sie können sich vielleicht
+kurz über Wasser halten, aber sind kein sicherer Schwimmer.
+Das ist gefährlich, besonders im Urlaub am Meer oder an
+einem See.
 
-Die 28-jährige Ingenieurin Melis Özgül aus Berlin hat dieses Jahr ein interessantes Projekt in ihrer Freizeit gestartet. Sie hat auf einem Online-Marktplatz ein altes, reparaturbedürftiges Pegasus-Trekkingrad für nur 70 Euro gekauft. „Früher dachte ich immer, ich muss bei jedem kleinen Defekt sofort in eine teure Werkstatt gehen“, erzählt sie. Dieses Mal kaufte sie das Rad bewusst als DIY-Projekt. Sie brachte das Fahrrad nach Hause, überprüfte die Bremsen, reinigte die Kette und reparierte die kaputte Lichtanlage komplett selbst mit eigenem Werkzeug. „Ich habe viel über die Technik gelernt, das Fahrrad erfolgreich wieder fit gemacht und fühle mich nach der Arbeit im Büro sehr glücklich, wenn ich ein praktisches Ergebnis sehe“, sagt Melis. 
+Der zehnjährige Max aus München hat in der Schule das
+Schwimmen gelernt. „Am Anfang hatte ich Angst vor dem
+tiefen Wasser", erzählt er. „Aber unser Lehrer war sehr
+geduldig und hat uns langsam an das Wasser gewöhnt."
+Nach dem Kurs hat Max das Seepferdchen-Abzeichen bestanden —
+den ersten Schwimmschein in Deutschland. Seine Eltern waren
+sehr stolz auf ihn.
 
-Ein wenig skeptischer sieht das der traditionelle Fahrradhändler Torsten Lange (51). Er betreibt ein großes, klassisches Fahrradgeschäft im Zentrum und glaubt, dass dieser DIY-Trend auf dem Gebrauchtmarkt nur für eine kleine Zielgruppe funktioniert. „Die meisten modernen Fahrräder und E-Bikes haben sehr komplizierte Komponenten. Wenn die Bürger ohne professionelle Ausbildung an den Bremsen oder der Elektronik basteln, kann das im Straßenverkehr gefährlich werden“, gibt er zu bedenken. Für ihn bleibt der Kauf eines geprüften Fahrrads mit Garantie aus dem Fachhandel die sicherere Methode für den Alltagsverkehr.
+Nicht alle Schulen haben ein Schwimmbad in der Nähe.
+Das ist ein großes Problem. Wenn Schulen weit vom nächsten
+Hallenbad entfernt sind, fällt der Schwimmunterricht oft aus.
+Außerdem schließen in Deutschland immer mehr Schwimmbäder,
+weil sie zu teuer im Betrieb sind. Experten fordern deshalb,
+mehr Geld in den Bau und die Erhaltung von Schwimmbädern
+zu investieren.
 
-Die Verkehrsökonomin Dr. Verena Kraft betont jedoch, dass das Reparieren und Weiterverkaufen von Fahrrädern die Zukunft der nachhaltigen urbanen Mobilität ist. Der Massenkonsum von billigen Neuwaren belaste die Umwelt und verbrauche zu viele Ressourcen. „Das Fahrrad-Flipping regt die Menschen dazu an, den Wert von alten Gegenständen neu zu entdecken, statt funktionstüchtige Rahmen einfach auf dem Müll zu entsorgen“, erklärt Kraft. Sie fordert, dass Städte mehr offene Werkstätten und Reparatur-Cafés im Stadtzentrum fördern, damit handwerkliche Projekte für alle Bürger bezahlbar und unkompliziert zugänglich werden.
-
-Experten empfehlen Personen, die das Reparieren von Fahrrädern im Alltag testen möchten, klein anzufangen. Man muss nicht sofort ein komplett kaputtes Rennrad restaurieren; oft reicht es schon, beim eigenen Fahrrad eine kleine Schraube festzuziehen, den Luftdruck regelmäßig zu kontrollieren oder einfache Video-Anleitungen im Internet Schritt für Schritt an der eigenen Fahrradkette auszuprobieren.
+Eltern können viel dazu beitragen, dass ihre Kinder schwimmen
+lernen. Wer mit dem Kind regelmäßig ins Schwimmbad geht,
+hilft ihm, sicherer im Wasser zu werden. Außerdem gibt es
+private Schwimmkurse, die man auch außerhalb der Schule
+belegen kann. Das Wichtigste ist: Kinder sollten so früh
+wie möglich ans Wasser gewöhnt werden — am besten schon
+als Kleinkind.
 
 ------------------------------------------------------------------------
 
-6
-Was ist laut Text ein Hauptgrund, warum das Reparieren und Weiterverkaufen von Fahrrädern immer beliebter wird?
+FRAGEN 6–10
 
-a) Weil man mit gebrauchten Fahrrädern in möglichst kurzer Zeit sehr viel Geld direkt im Büro verdienen kann.
-b) Weil es Nachhaltigkeit fördert, technisches Lernen ermöglicht und eine preiswerte Alternative zu teuren Neurädern ist.
-c) Weil Fahrradgeschäfte neuerdings komplett kostenlose Pegasus-Räder an alle Bürger verschenken.
+FRAGE 6: Wann lernen die meisten Kinder in Deutschland
+          laut Text schwimmen?
 
-7
-Melis Özgül aus Berlin
+a) schon im Kindergarten
+b) meistens in der dritten oder vierten Klasse
+c) erst in der Oberschule
 
-a) hat ihr neues Pegasus-Fahrrad in die teure Werkstatt von Torsten Lange gebracht, weil die Reparatur zu schwer war.
-b) hat ein gebrauchtes Trekkingrad für 70 Euro gekauft, die Bremsen und das Licht selbst repariert und fühlt sich dabei glücklich.
-c) hat ihr funktionierendes Auto auf dem Müll entsorgt, weil sie keine Reifen wechseln wollte.
+------------------------------------------------------------------------
 
-8
-Warum äußert sich der Händler Torsten Lange skeptisch über den DIY-Trend auf dem Gebrauchtmarkt?
+FRAGE 7: Was sagt die DLRG-Studie über Kinder in Deutschland?
 
-a) Weil er glaubt, dass Reparaturen ohne professionelle Ausbildung an komplizierten Komponenten im Verkehr gefährlich sein können.
-b) Weil das Fahren mit Trekkingrädern der Marke Pegasus in Berlin ab nächstem Monat komplett verboten wird.
-c) Weil er denkt, dass gebrauchte Fahrräder auf Online-Marktplätzen in Zukunft komplett kostenlos sein werden.
+a) Fast alle Kinder können gut schwimmen.
+b) Etwa jedes dritte Kind kann nicht sicher schwimmen.
+c) Nur Kinder in Bayern können nicht schwimmen.
 
-9
-Was ist nach Ansicht von Dr. Verena Kraft ein Vorteil von Fahrrad-Flipping für die Zukunft?
+------------------------------------------------------------------------
 
-a) Es zwingt alle Bürger dazu, in ihrem Alltag überhaupt keine Fahrräder oder Busse mehr zu benutzen.
-b) Es schützt die Umwelt vor den Folgen des Massenkonsums und zeigt den Menschen den Wert von alten Gegenständen.
-c) Es sorgt dafür, dass Reparatur-Cafés im Stadtzentrum automatisch alle Autos komplett durch E-Bikes ersetzen.
+FRAGE 8: Was ist das Seepferdchen-Abzeichen laut Text?
 
-10
-Welchen Rat geben Experten am Ende des Textes Menschen, die das Reparieren ausprobieren möchten?
+a) ein Preis für den besten Schwimmer der Klasse
+b) der erste Schwimmschein in Deutschland
+c) ein Abzeichen für Erwachsene
 
-a) Sie sollten sofort ein teures Rennrad kaufen und die komplette Elektronik ohne Werkzeug umbauen.
-b) Es ist ratsam, klein anzufangen, zum Beispiel den Luftdruck zu kontrollieren oder eine kleine Schraube festzuziehen.
-c) Man sollte handwerkliche Projekte am besten komplett ohne die Unterstützung von Videos oder Anleitungen planen.
+------------------------------------------------------------------------
+
+FRAGE 9: Warum fällt der Schwimmunterricht an manchen Schulen
+          laut Text aus?
+
+a) weil die Lehrer nicht schwimmen können
+b) weil die Kinder keine Lust haben zu schwimmen
+c) weil Schulen weit vom nächsten Schwimmbad entfernt sind
+   und viele Bäder schließen
+
+------------------------------------------------------------------------
+
+FRAGE 10: Was empfiehlt der Text, damit Kinder sicherer
+           im Wasser werden?
+
+a) Kinder sollten jeden Tag ins Meer gehen.
+b) Eltern sollten regelmäßig mit dem Kind ins Schwimmbad
+   gehen und Kinder früh ans Wasser gewöhnen.
+c) Kinder sollten erst ab zwölf Jahren schwimmen lernen.
 
 ------------------------------------------------------------------------
 
@@ -68,17 +100,30 @@ c) Man sollte handwerkliche Projekte am besten komplett ohne die Unterstützung 
 LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
 ========================================================================
 
-6: b 
-   - Açıklama (Text): Metnin ikinci paragrafında bu eğilimin amaçları "Nachhaltigkeit, technisches Lernen und Kostenersparnis" olarak açıkça ifade edilmiştir. Bu durum b seçeneğindeki faydaları doğrudan doğrular.
+6: b
+   - Açıklama: "meistens in der dritten oder vierten Klasse" →
+     doğrudan metinden. (a) anaokulu değil. (c) lise değil.
 
-7: b 
-   - Açıklama (Text): "Sie hat... ein altes... Pegasus-Trekkingrad für nur 70 Euro gekauft... überprüfte die Bremsen... und reparierte die kaputte Lichtanlage komplett selbst... und fühlt sich nach der Arbeit im Büro sehr glücklich...". Melis'in bisikleti ucuza alıp kendisinin tamir etmesi b şıkkı ile tamamen örtüşür.
+7: b
+   - Açıklama: "etwa jedes dritte Kind in Deutschland kann nicht sicher
+     schwimmen" → doğrudan metinden. (a) yanlış, aksine endişe var.
+     (c) sadece Bavyera değil.
 
-8: a 
-   - Açıklama (Text): "Wenn die Bürger ohne professionelle Ausbildung an den Bremsen... basteln, kann das im Straßenverkehr gefährlich werden..." Torsten Lange'nin şüpheci yaklaşımının nedeni a şıkkında doğru aktarılmıştır.
+8: b
+   - Açıklama: "das Seepferdchen-Abzeichen bestanden — den ersten
+     Schwimmschein in Deutschland" → doğrudan metinden. (a) en iyi yüzücü
+     değil. (c) yetişkinler için değil.
 
-9: b 
-   - Açıklama (Text): "Massenkonsum... belaste die Umwelt... Das Fahrrad-Flipping regt die Menschen dazu an, den Wert von alten Gegenständen neu zu entdecken...". Dr. Verena Kraft'ın sürdürülebilir tüketim ve çevre koruma hakkındaki görüşü b seçeneğini doğru cevap yapar.
+9: c
+   - Açıklama: "weit vom nächsten Hallenbad entfernt" ve "immer mehr
+     Schwimmbäder... schließen" → her ikisi de metinde. (a) öğretmen yok.
+     (b) isteksizlik metinde yok.
 
-10: b 
-    - Açıklama (Text): "Experten empfehlen... klein anzufangen... oft reicht es schon... eine kleine Schraube festzuziehen, den Luftdruck regelmäßig zu kontrollieren...". Uzmanların küçük adımlarla başlama tavsiyesi b şıkkında özetlenmiştir.
+10: b
+   - Açıklama: "regelmäßig ins Schwimmbad geht" ve "so früh wie möglich
+     ans Wasser gewöhnt werden" → doğrudan son paragraftan. (a) her gün
+     denize gitme yok. (c) 12 yaş metinde yok.
+
+========================================================================
+ÖZET CEVAP ANAHTARI: 6-b / 7-b / 8-b / 9-c / 10-b
+========================================================================

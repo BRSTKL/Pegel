@@ -1,124 +1,153 @@
 ========================================================================
-telc DEUTSCH A1-A2: OFFIZIELLES LESEVERSTEHEN-TRAINING (ÖZGÜN SET 28)
+telc DEUTSCH A1-A2: LESEVERSTEHEN TEIL 4 — ÖZGÜN SET 03
 ========================================================================
-Prüfungsbaustein: Leseverstehen (Anzeigenzuordnung / İlan Eşleştirme)
-Dauer: 20 Minuten
-
-KURAL REHBERİ (telc Sınav Stratejisi):
-1. Bu bölüm bir ilan eşleştirme (Zuordnung) alıştırmasıdır. Amacınız, verilen durumlara (11-20) en uygun ilanı (a-l) bulmaktır[cite: 2]. Eğer bir durum için uygun bir ilan yoksa, o durumun karşısına "x" işareti koymalısınız[cite: 2].
-2. Strateji: Durumlarda geçen kişi sayısı, zaman dilimi, bütçe veya özel istekler gibi anahtar kelimeleri ilanların detaylarıyla eşleştirin. 
-3. Dikkat: Bazı ilanlar çok benzer görünebilir ama küçük bir detay (örn. ev kiralama süresi veya kapasitesi) şıkkı yanlış yapabilir. Tam eşleşme arayın.
+Prüfungsbaustein: Leseverstehen Teil 4
 
 ------------------------------------------------------------------------
 
-SITUATIONEN (DURUMLAR: 11 - 20)
+SITUATIONEN (DURUMLAR: 11–20)
 
-11 [  ]
-Sie möchten am Samstagabend mit Ihrer Partnerin Melis ein schönes indisches Restaurant besuchen, am besten direkt im Stadtzentrum von Berlin.
+11  Sie suchen ein Café, in dem Sie ruhig arbeiten oder lernen
+    können. Sie brauchen WLAN und möchten auch etwas essen.
 
-12 [  ]
-Ihr Cousin plant im Sommer eine Reise in die Berge mit einer Gruppe von insgesamt vier Personen. Sie suchen ein gemütliches Ferienhaus, um selbst kochen zu können.
+12  Ihr Freund möchte seinen alten Fernseher verkaufen.
+    Er sucht eine Möglichkeit, ihn online anzubieten.
 
-13 [  ]
-Die Tochter Ihrer Nachbarin geht noch zur Schule und möchte in den Ferien ein kurzes, zweiwöchiges Praktikum in einer Kfz-Werkstatt machen.
+13  Ihre Mutter feiert nächsten Monat ihren 60. Geburtstag.
+    Sie möchten mit der ganzen Familie (8 Personen) in einem
+    Restaurant feiern.
 
-14 [  ]
-Ihr Bekannter eröffnet bald ein kleines Café und sucht einen Profi, der das Logo und die Speisekarten kreativ gestaltet.
+14  Sie suchen eine Arbeit als Kellner oder Kellnerin.
+    Sie haben schon Erfahrung in der Gastronomie.
 
-15 [  ]
-Ihre Kollegin möchte Spanisch für Anfänger lernen. Da sie unter der Woche sehr lange im Büro arbeitet, hat sie nur am Wochenende Zeit für einen Kurs.
+15  Ihr Kind ist acht Jahre alt und möchte schwimmen lernen.
+    Sie suchen einen Schwimmkurs für Kinder.
 
-16 [  ]
-Ihr Bruder Baris arbeitet als Ingenieur, hat bereits gute B2-Deutschkenntnisse und möchte lernen, wie man professionelle Präsentationen auf Deutsch hält.
+16  Sie möchten am Freitagabend mit Freunden bowlen gehen.
 
-17 [  ]
-Sie planen ein großes Familienessen am Sonntagmittag mit den Großeltern und suchen ein Restaurant mit traditioneller deutscher Küche.
+17  Ihre Schwester sucht eine Nachhilfestunde in Mathematik
+    für ihre Tochter (Klasse 5). Nachmittags ist sie frei.
 
-18 [  ]
-Ihre Schwester hat seit Tagen starke Rückenschmerzen und sucht eine Praxis für Physiotherapie, die Termine am späten Abend anbietet.
+18  Sie möchten Ihren Urlaub in den Bergen verbringen. Sie
+    suchen ein kleines Hotel mit Frühstück für eine Woche
+    im Juli, für zwei Personen.
 
-19 [  ]
-Ihr Freund studiert Informatik und sucht für die vorlesungsfreie Zeit im Spätsommer (August bis Oktober) ein bezahltes Praktikum im Bereich App-Entwicklung.
+19  Ihr Nachbar sucht einen günstigen Zahnarzt. Er hat keine
+    Krankenversicherung.
 
-20 [  ]
-Die Mutter Ihres Freundes möchte lernen, wie man ein Smartphone richtig bedient, und sucht einen Einsteigerkurs am Vormittag.
+20  Sie möchten lernen, professionell zu fotografieren.
+    Sie haben schon eine Kamera, aber keine Erfahrung.
 
 ------------------------------------------------------------------------
 
-ANZEIGEN (İLANLAR: a - l)
+ANGEBOTE (İLANLAR: a–e)
 
-a) Chili & Chutney – Indische Spezialitäten
-Erleben Sie die Vielfalt der indischen Küche mitten in der Altstadt! Wir bieten traditionelle Currys, Tandoori-Gerichte und eine große Auswahl an vegetarischen Speisen[cite: 2].
-Öffnungszeiten: Di.–So. 12:00–15:00 Uhr und 18:00–23:00 Uhr. Montag Ruhetag[cite: 2].
-Reservierungen online oder unter Tel. 030-22 33 44. Friedrichstraße 12, Berlin[cite: 2].
+------------------------------------------------------------------------
+a  CAFÉ LESEZIMMER
+   Ihr Wohlfühlcafé in der Stadtmitte
 
-b) Ferienhaus Alpenglück
-Verbringen Sie Ihren Sommerurlaub im wunderschönen Allgäu! Unser modern eingerichtetes Ferienhaus bietet Platz für bis zu 6 Personen[cite: 2]. Große Wohnküche zur Selbstversorgung, Balkon mit Bergblick, Garten mit Grillplatz[cite: 2].
-Vermietung: Mai bis Oktober. Mindestaufenthalt: 7 Nächte[cite: 2].
-Kontakt: info@alpenglueck-ferien.de, Tel. 08321-99 88 77[cite: 2].
+   Frühstück, Mittagstisch und Kuchen. Ruhige Atmosphäre.
+   Freies WLAN für alle Gäste. Steckdosen an jedem Tisch.
+   Ideal zum Lernen und Arbeiten.
 
-c) Grafikdesign-Studio „Farbenfroh“
-Wir bringe Ihre Ideen auf Papier und Bildschirm! Professionelle Gestaltung von Logos, Flyern, Visitenkarten und Speisekarten für Gastronomie und Gewerbe[cite: 2]. Individuelle Beratung für Gründer und Kleinunternehmer[cite: 2].
-Kostenloses Erstgespräch: kontakt@studio-farbenfroh.de, Tel. 0176-55 44 33 22[cite: 2].
+   Öffnungszeiten: Mo–Fr 8:00–20:00, Sa 9:00–18:00 Uhr
+   Reservierung für Gruppen ab 6 Personen: 0221-445566
 
-d) Praktikum bei TechSolutions
-Du studierst Informatik oder Software Engineering und suchst praktische Erfahrung? Wir bieten 3-monatige bezahlte Praktikumsplätze im Bereich Mobile Apps für die Monate August bis Oktober[cite: 2].
-Anforderungen: Grundkenntnisse in Java oder Swift, Teamfähigkeit[cite: 2].
-Bewerbung mit Lebenslauf an: jobs@techsolutions-it.de[cite: 2].
+------------------------------------------------------------------------
+b  HOTEL ALPENBLICK — BERCHTESGADEN
+   Urlaub in den bayerischen Alpen
 
-e) Deutsches Haus – Traditionelle Küche
-Genießen Sie klassische deutsche Gerichte wie Schweinebraten, Schnitzel und frische Salate in gemütlicher Atmosphäre[cite: 2]. Großer Biergarten für sonnige Tage. Ideal für Familienfeiern[cite: 2].
-Öffnungszeiten: Fr.–So. 11:30–22:00 Uhr, Mo.–Do. Ruhetag[cite: 2].
-Reservierung dringend empfohlen: Tel. 089-44 55 66, Hauptstraße 45, München[cite: 2].
+   Gemütliches Familienhotel mit 20 Zimmern.
+   Frühstücksbuffet täglich inklusive. Wanderwege direkt
+   vom Hotel. Kostenloser Parkplatz. Haustiere erlaubt.
 
-f) Sprachschule Lingua – Spanisch am Samstag
-Wochenendkurs Spanisch A1/A2 für Berufstätige. Lernen Sie die Grundlagen für Beruf und Urlaub ganz ohne Stress neben der Arbeit[cite: 2]. Small Talk, Grammatik und nützliche Vokabeln[cite: 2].
-Kursdauer: 8 Wochen, jeden Samstag von 10:00 bis 13:30 Uhr[cite: 2].
-Anmeldung: www.lingua-sprachschule.de, Tel. 040-77 88 99[cite: 2].
+   Doppelzimmer: ab 85 € / Nacht inkl. Frühstück.
+   Mindestaufenthalt: 3 Nächte.
+   Buchung: alpenblick-berchtesgaden.de | Tel. 08652-11223
 
-g) Präsentationstraining Deutsch (C1)
-Intensivseminar für Fach- und Führungskräfte mit sehr guten Deutschkenntnissen (ab B2/C1)[cite: 2]. Themen: Struktur von Vorträgen, Körpersprache, Medieneinsatz, professionelles Auftreten vor Kunden[cite: 2].
-Wochenend-Workshop: Sa. und So. jeweils 9:00–16:00 Uhr[cite: 2].
-Infos unter: training@business-deutsch.de[cite: 2].
+------------------------------------------------------------------------
+c  AQUA-KINDERSCHWIMMSCHULE
+   Sicher schwimmen lernen — für Kinder ab 5 Jahren!
 
-h) Physio-Zentrum Mitte
-Ihre Experten für Rückenschmerzen, Sportverletzungen und Rehabilitation[cite: 2]. Modernste Geräte und individuelle Betreuung durch erfahrene Therapeuten[cite: 2].
-Sprechzeiten: Mo.–Fr. 7:00–21:30 Uhr. Alle Krankenkassen und Privatpatienten[cite: 2].
-Termine nach Vereinbarung: Tel. 069-11 22 33, info@physio-mitte.de[cite: 2].
+   Kleine Gruppen (max. 6 Kinder), erfahrene Schwimmlehrer.
+   Kurse: dienstags und donnerstags, 15:30–16:30 Uhr
+           oder samstags, 10:00–11:00 Uhr
+   Kursgebühr: 120 € für 10 Einheiten.
 
-i) Smartphone-Kurs für Senioren
-Keine Angst vor der Technik! Wir zeigen Ihnen Schritt für Schritt, wie Sie Ihr Smartphone für Nachrichten, Fotos und Internet nutzen[cite: 2]. Keine Vorkenntnisse erforderlich. Small Groups, geduldiges Lernen[cite: 2].
-Kurszeiten: Di. und Do. jeweils von 9:30 bis 11:00 Uhr. Dauer: 4 Wochen[cite: 2].
-Anmeldung im Stadtteilzentrum, Tel. 0221-55 66 77[cite: 2].
+   Anmeldung: aqua-schwimmschule.de | Tel. 0711-228899
 
-j) Kfz-Meisterbetrieb Wagner & Söhne
-Wir reparieren alle Automarken! Jahresservice, Reifenwechsel, Unfallreparaturen[cite: 2]. Wir suchen ab September Auszubildende (m/w/d) für den Beruf Kfz-Mechatroniker[cite: 2].
-Bitte senden Sie Ihre vollständigen Bewerbungsunterlagen per Post an unsere Werkstatt[cite: 2].
-Kontakt: Tel. 0711-88 99 00, info@kfz-wagner.de[cite: 2].
+------------------------------------------------------------------------
+d  BOWLING CENTER STRIKE
+   Spaß für Groß und Klein!
 
-k) Ferienwohnung Seeblick
-Erholung pur direkt am Chiemsee für 2 Personen[cite: 2]. Moderne Ausstattung, Einbauküche, Terrasse zum See. Haustiere auf Anfrage erlaubt. Perfekt für ein langes Wochenende[cite: 2].
-Buchung ab 3 Nächten möglich[cite: 2].
-Anfragen unter: seeblick-urlaub@web.de[cite: 2].
+   8 Bowlingbahnen, Billard, Dartscheiben.
+   Montag bis Donnerstag: 14:00–23:00 Uhr
+   Freitag und Samstag: 13:00–01:00 Uhr
+   Sonntag: 13:00–22:00 Uhr
 
-l) Praktikum im Medienhaus
-Die Kölner Mediengruppe bietet Studentinnen und Studenten der Medienwissenschaften dreimonatige Praktika im Bereich Online-Redaktion und Social Media[cite: 2]. Aufgaben: Schreiben von Artikeln, Recherche[cite: 2].
-Beginn: flexibel. Unvergütetes Pflichtpraktikum[cite: 2].
-Bewerbung an: redaktion@medienhaus-koeln.de[cite: 2].
+   Preis: 5 € pro Person / Spiel (inkl. Schuhverleih).
+   Reservierung empfohlen: strike-bowlingcenter.de
+
+------------------------------------------------------------------------
+e  FOTOKURS FÜR EINSTEIGER
+   Lichtblick Fotoschule, Köln
+
+   Lernen Sie, Ihre Kamera richtig einzusetzen!
+   Keine Vorkenntnisse notwendig — eigene Kamera mitbringen.
+   Samstags, 10:00–14:00 Uhr (Theorie + Praxis outdoor)
+
+   Kursgebühr: 95 € für 4 Einheiten (4 Samstage)
+   Anmeldung: lichtblick-fotoschule.de | Tel. 0221-773344
 
 ------------------------------------------------------------------------
 
 ========================================================================
-OFFIZIELLER LÖSUNGSSCHLÜSSEL (CEVAP ANAHTARI VE AÇIKLAMALAR)
+LÖSUNGEN UND ERKLÄRUNGEN (CEVAP ANAHTARI VE AÇIKLAMALAR)
 ========================================================================
 
-11: a (Chili & Chutney: Berlin merkezde/Altstadt, Hint mutfağı sunuyor ve cumartesi akşamı açık[cite: 2].)
-12: b (Ferienhaus Alpenglück: Dağlık bölgede, kendi yemeğini pişirmek için büyük mutfağı var ve 6 kişiye kadar -yani 4 kişi için uygun- kapasiteli[cite: 2].)
-13: x (İlan j'deki oto tamircisi sadece uzun süreli meslek eğitimi -Ausbildung- sunuyor, kısa süreli staj -Praktikum- aramıyor[cite: 2]. Bu yüzden uygun ilan yoktur.)
-14: c (Studio Farbenfroh: Gastronomi işletmeleri için logo ve menü kartı/speisekarte tasarımı yapıyor[cite: 2].)
-15: f (Sprachschule Lingua: Başlangıç seviyesinde İspanyolca, sadece cumartesi günleri yani hafta sonu kursu[cite: 2].)
-16: g (Präsentationstraining: B2 seviyesi ve üzeri olanlar için Almanca profesyonel sunum yapma eğitimi[cite: 2].)
-17: e (Deutsches Haus: Geleneksel Alman mutfağı, Pazar öğlen açık ve aile yemekleri için ideal[cite: 2].)
-18: h (Physio-Zentrum Mitte: Sırt ağrıları uzmanı, hafta içi akşam saat 21:30'a kadar açık -geç saat-[cite: 2].)
-19: d (TechSolutions: Bilişim öğrencilerine Spätsommer döneminde -Ağustos-Ekim- mobil uygulama alanında ücretli staj sunuyor[cite: 2].)
-20: i (Smartphone-Kurs: Yeni başlayanlar/yaşlılar için sabah 9:30 - 11:00 arası -vormittag- düzenlenen kurs[cite: 2].)
+11: a (Café Lesezimmer)
+   - Açıklama: Çalışmak/öğrenmek için sakin kafe, WLAN, yiyecek →
+     "Freies WLAN", "Ideal zum Lernen", yemek menüsü var. ✓
+
+12: x (Kein Angebot passt)
+   - Açıklama: Eski televizyonu online satmak istiyor →
+     İlanlarda online satış platformu yok. x ✓
+
+13: a (Café Lesezimmer)
+   - Açıklama: 8 kişilik aile kutlaması, restoran →
+     "Reservierung für Gruppen ab 6 Personen" → 8 kişi uygun.
+     Not: Resmi restoran değil kafe; ama tek uygun seçenek bu.
+     ► Daha uygun bir restoran ilanı olmadığından (a) seçilir. ✓
+
+14: x (Kein Angebot passt)
+   - Açıklama: Garson işi arıyor, gastronomi deneyimi var →
+     İlanlarda iş ilanı yok. x ✓
+
+15: c (Aqua-Kinderschwimmschule)
+   - Açıklama: 8 yaşında çocuk, yüzme kursu →
+     "Kinder ab 5 Jahren", Dienstag/Donnerstag veya Samstag. ✓
+
+16: d (Bowling Center Strike)
+   - Açıklama: Cuma akşamı bowling →
+     "Freitag: 13:00–01:00 Uhr" açık. ✓
+
+17: x (Kein Angebot passt)
+   - Açıklama: 5. sınıf matematik özel ders, öğleden sonra →
+     İlanlarda özel ders/matematik ilanı yok. x ✓
+
+18: b (Hotel Alpenblick — Berchtesgaden)
+   - Açıklama: Dağlarda tatil, kahvaltılı küçük otel, 1 hafta Temmuz,
+     2 kişi → Doppelzimmer inkl. Frühstück, Temmuz uygun. ✓
+
+19: x (Kein Angebot passt)
+   - Açıklama: Sigortsız ucuz diş doktoru →
+     İlanlarda diş hekimi ilanı yok. x ✓
+
+20: e (Fotokurs für Einsteiger)
+   - Açıklama: Profesyonel fotoğrafçılık, kamerası var, deneyim yok →
+     "Keine Vorkenntnisse notwendig — eigene Kamera mitbringen". ✓
+
+========================================================================
+ÖZET CEVAP ANAHTARI:
+11-a / 12-x / 13-a / 14-x / 15-c / 16-d / 17-x / 18-b / 19-x / 20-e
+========================================================================
