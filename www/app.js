@@ -1744,20 +1744,20 @@ let progressRiveInput = null;
 
 // ================= SITEMAP ANIMATIONS ENGINE =================
 const SITEMAP_ANIMATION_FILES = [
-  { name: "boy.riv", animations: "boy_idle9" },
-  { name: "bunny.riv", animations: "idle9" },
-  { name: "cat-character.riv", animations: "CAT RUN9" },
-  { name: "cat_animation.riv", animations: "Sulamine9" },
-  { name: "cat_animation_2.riv", animations: "No Connection Animation" },
-  { name: "client.riv", animations: "idle" },
-  { name: "handshake.riv", animations: "Jump" },
-  { name: "happy-dog.riv", animations: "Timeline 19" },
-  { name: "house.riv", animations: "Animation 19" },
-  { name: "octo.riv", animations: "wave motion" },
-  { name: "pirate.riv", stateMachine: "State Machine 1" },
-  { name: "slap-the-pudding.riv", animations: "Idle 100 cursor8" },
-  { name: "teddy.riv", animations: "idle9" },
-  { name: "x-mas-star.riv", animations: "Idle9x" }
+  { name: "boy.riv" },
+  { name: "bunny.riv" },
+  { name: "cat-character.riv" },
+  { name: "cat_animation.riv" },
+  { name: "cat_animation_2.riv" },
+  { name: "client.riv" },
+  { name: "handshake.riv" },
+  { name: "happy-dog.riv" },
+  { name: "house.riv" },
+  { name: "octo.riv" },
+  { name: "pirate.riv" },
+  { name: "slap-the-pudding.riv" },
+  { name: "teddy.riv" },
+  { name: "x-mas-star.riv" }
 ];
 
 let sitemapRiveInstances = [];
@@ -1789,18 +1789,18 @@ function initSitemapRive(canvasId, animConfig) {
   
   try {
     let inst;
+    // Do NOT specify any animations or stateMachines in the constructor.
+    // This triggers Rive's "atLeastOne" fallback which automatically picks
+    // the first available animation/state machine from the artboard.
     const rConfig = {
       src: "animations/" + animConfig.name,
       canvas: canvas,
       autoplay: true,
-      isMuted: true, // Mute any embedded audio
+      isMuted: true,
       onLoad: () => {
-        // Use a timeout to guarantee the constructor has returned and assigned inst
+        // Wait for readyForPlaying to be set (happens right after onLoad fires)
         setTimeout(() => {
-          if (!inst) {
-            console.error(`Rive instance is still undefined inside onLoad for ${animConfig.name}`);
-            return;
-          }
+          if (!inst) return;
           
           if (typeof inst.resizeDrawingSurfaceToCanvas === "function") {
             inst.resizeDrawingSurfaceToCanvas();
@@ -1808,28 +1808,33 @@ function initSitemapRive(canvasId, animConfig) {
             inst.resizeDrawingToCanvas();
           }
           
-          // Explicitly play the loaded target to guarantee the rendering loop starts and continues playing
-          if (animConfig.animations) {
-            inst.play(animConfig.animations);
-          } else if (animConfig.stateMachine) {
-            inst.play(animConfig.stateMachine);
+          // Read real animation/SM names from the Rive runtime
+          const animNames = inst.animationNames || [];
+          const smNames = inst.stateMachineNames || [];
+          
+          console.log(`[Rive] ${animConfig.name} → anims: [${animNames.join(", ")}] | SMs: [${smNames.join(", ")}]`);
+          
+          // Strategy: If state machines exist, use the first one (they handle
+          // transitions and looping internally). Otherwise play ALL timeline
+          // animations so at least something visible loops.
+          if (smNames.length > 0) {
+            // Stop any auto-picked animation first, then init state machine
+            inst.stop();
+            inst.play(smNames[0]);
+          } else if (animNames.length > 0) {
+            // Play all available timeline animations
+            inst.stop();
+            animNames.forEach(name => inst.play(name));
           } else {
+            // Fallback: just call play() with no args to play everything
             inst.play();
           }
-        }, 50);
+        }, 100);
       },
       onLoadError: (err) => {
         console.error(`Rive load error for ${animConfig.name}:`, err);
       }
     };
-    
-    if (animConfig.stateMachine) {
-      rConfig.stateMachines = animConfig.stateMachine;
-    } else if (animConfig.animations) {
-      rConfig.animations = animConfig.animations;
-    } else {
-      rConfig.stateMachines = ["State Machine 1"];
-    }
     
     inst = new rive.Rive(rConfig);
     sitemapRiveInstances.push(inst);
