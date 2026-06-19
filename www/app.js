@@ -1808,27 +1808,16 @@ function initSitemapRive(canvasId, animConfig) {
             inst.resizeDrawingToCanvas();
           }
           
-          // Read real animation/SM names from the Rive runtime
+          // Log what the Rive runtime found for debugging
           const animNames = inst.animationNames || [];
           const smNames = inst.stateMachineNames || [];
-          
           console.log(`[Rive] ${animConfig.name} → anims: [${animNames.join(", ")}] | SMs: [${smNames.join(", ")}]`);
           
-          // Strategy: If state machines exist, use the first one (they handle
-          // transitions and looping internally). Otherwise play ALL timeline
-          // animations so at least something visible loops.
-          if (smNames.length > 0) {
-            // Stop any auto-picked animation first, then init state machine
-            inst.stop();
-            inst.play(smNames[0]);
-          } else if (animNames.length > 0) {
-            // Play all available timeline animations
-            inst.stop();
-            animNames.forEach(name => inst.play(name));
-          } else {
-            // Fallback: just call play() with no args to play everything
-            inst.play();
-          }
+          // Do NOT override what atLeastOne auto-picked.
+          // Just call play() with no args to ensure:
+          // 1) The already-instanced animation/SM has playing=true
+          // 2) The rendering loop (requestAnimationFrame) is running
+          inst.play();
         }, 100);
       },
       onLoadError: (err) => {
