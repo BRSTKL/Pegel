@@ -1802,8 +1802,18 @@ function initSitemapRive(canvasId, animConfig) {
           
           if (sms.includes("State Machine 1")) {
             inst.play("State Machine 1");
+          } else if (sms.includes("smile9")) {
+            inst.play("smile9");
+          } else if (sms.includes("Movement")) {
+            inst.play("Movement");
+          } else if (sms.includes("movement")) {
+            inst.play("movement");
           } else if (sms.length > 0) {
             inst.play(sms[0]);
+          } else if (anims.includes("idle")) {
+            inst.play("idle");
+          } else if (anims.includes("idle9")) {
+            inst.play("idle9");
           } else if (anims.length > 0) {
             inst.play(anims[0]);
           } else {
@@ -1816,8 +1826,8 @@ function initSitemapRive(canvasId, animConfig) {
       }
     };
     
-    // Always register State Machine 1 as a listener to catch complex animations
-    rConfig.stateMachines = ["State Machine 1"];
+    // Always register possible State Machine names as listeners to catch complex animations
+    rConfig.stateMachines = ["State Machine 1", "smile9", "Movement", "movement"];
     
     inst = new rive.Rive(rConfig);
     sitemapRiveInstances.push(inst);
