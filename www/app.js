@@ -1744,25 +1744,30 @@ let progressRiveInput = null;
 
 // ================= SITEMAP ANIMATIONS ENGINE =================
 const SITEMAP_ANIMATION_FILES = [
-  { name: "boy.riv", stateMachine: "State Machine 1" },
-  { name: "bunny.riv", stateMachine: "State Machine 1" },
-  { name: "cat-character.riv", animations: "Hover" },
-  { name: "cat_animation.riv", stateMachine: "State Machine 1" },
-  { name: "cat_animation_2.riv", stateMachine: "State Machine 1" },
+  { name: "boy.riv", animations: "boy_idle9" },
+  { name: "bunny.riv", animations: "idle9" },
+  { name: "cat-character.riv", animations: "CAT RUN9" },
+  { name: "cat_animation.riv", animations: "Sulamine9" },
+  { name: "cat_animation_2.riv", animations: "No Connection Animation" },
   { name: "client.riv", animations: "idle" },
-  { name: "handshake.riv", stateMachine: "State Machine 1" },
-  { name: "happy-dog.riv", stateMachine: "State Machine 1" },
+  { name: "handshake.riv", animations: "Jump" },
+  { name: "happy-dog.riv", animations: "Timeline 19" },
   { name: "house.riv", animations: "Animation 19" },
-  { name: "octo.riv", stateMachine: "State Machine 1" },
+  { name: "octo.riv", animations: "wave motion" },
   { name: "pirate.riv", stateMachine: "State Machine 1" },
-  { name: "slap-the-pudding.riv", stateMachine: "State Machine 1" },
+  { name: "slap-the-pudding.riv", animations: "Idle 100 cursor8" },
   { name: "teddy.riv", animations: "idle9" },
-  { name: "x-mas-star.riv", stateMachine: "State Machine 1" }
+  { name: "x-mas-star.riv", animations: "Idle9x" }
 ];
 
 let sitemapRiveInstances = [];
+let sitemapInitTimeout = null;
 
 function cleanupSitemapAnimations() {
+  if (sitemapInitTimeout) {
+    clearTimeout(sitemapInitTimeout);
+    sitemapInitTimeout = null;
+  }
   sitemapRiveInstances.forEach(inst => {
     try {
       inst.cleanup();
@@ -2348,11 +2353,15 @@ function renderLevelPath() {
     animInstancesToInit.push({ canvasId, anim });
   });
   
+  if (sitemapInitTimeout) {
+    clearTimeout(sitemapInitTimeout);
+  }
   if (animInstancesToInit.length > 0) {
-    setTimeout(() => {
+    sitemapInitTimeout = setTimeout(() => {
       animInstancesToInit.forEach(item => {
         initSitemapRive(item.canvasId, item.anim);
       });
+      sitemapInitTimeout = null;
     }, 50);
   }
 }
