@@ -2326,7 +2326,7 @@ function renderLevelPath() {
     
     pathView.appendChild(btn);
     
-    // Determine the single target index for this category's animation
+    // Determine target peak indices for this category based on its length
     const categoriesData = getActiveLessonsData();
     const currentCatData = categoriesData.find(c => c.id === les.categoryId);
     let catLessonCount = 0;
@@ -2335,23 +2335,29 @@ function renderLevelPath() {
         catLessonCount += sub.lessons.length;
       });
     }
-    const catIndex = categoriesData.findIndex(c => c.id === les.categoryId);
     
-    // Choose target index: alternate side if category is long enough
-    let targetAnimIndex = 2; // Default to index 2 (left side animation)
-    if (catIndex % 2 === 1 && catLessonCount >= 7) {
-      targetAnimIndex = 6; // Right side animation
-    }
-    // Fallback: if the category is extremely short (less than 3 lessons), use the last lesson index
+    const targetIndices = [];
     if (catLessonCount < 3) {
-      targetAnimIndex = Math.max(0, catLessonCount - 1);
+      targetIndices.push(Math.max(0, catLessonCount - 1));
+    } else {
+      targetIndices.push(2);
+      if (catLessonCount >= 8) {
+        targetIndices.push(6);
+      }
+      if (catLessonCount >= 16) {
+        targetIndices.push(10);
+      }
+      if (catLessonCount >= 24) {
+        targetIndices.push(14);
+      }
     }
     
-    if (nodeInCategoryIndex === targetAnimIndex) {
+    if (targetIndices.includes(nodeInCategoryIndex)) {
+      const side = (nodeInCategoryIndex === 6 || nodeInCategoryIndex === 14 || nodeInCategoryIndex === 22) ? "right" : "left";
       candidates.push({
         categoryId: les.categoryId,
         index: nodeInCategoryIndex,
-        side: targetAnimIndex === 6 ? "right" : "left",
+        side: side,
         top: currentY - 58,
         x: x
       });
