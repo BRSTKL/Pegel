@@ -1794,7 +1794,20 @@ function initSitemapRive(canvasId, animConfig) {
           } else if (typeof inst.resizeDrawingToCanvas === "function") {
             inst.resizeDrawingToCanvas();
           }
-          inst.play();
+          
+          // Fallback sequence to guarantee that all animations run their animated versions
+          const sms = inst.stateMachineNames || [];
+          const anims = inst.animationNames || [];
+          
+          if (sms.includes("State Machine 1")) {
+            inst.play("State Machine 1");
+          } else if (sms.length > 0) {
+            inst.play(sms[0]);
+          } else if (anims.length > 0) {
+            inst.play(anims[0]);
+          } else {
+            inst.play();
+          }
         }
       },
       onLoadError: (err) => {
@@ -1802,9 +1815,8 @@ function initSitemapRive(canvasId, animConfig) {
       }
     };
     
-    if (animConfig.stateMachine) {
-      rConfig.stateMachines = animConfig.stateMachine;
-    }
+    // Always register State Machine 1 as a listener to catch complex animations
+    rConfig.stateMachines = ["State Machine 1"];
     
     inst = new rive.Rive(rConfig);
     sitemapRiveInstances.push(inst);
@@ -2255,14 +2267,16 @@ function renderLevelPath() {
         categoryId: les.categoryId,
         index: nodeInCategoryIndex,
         side: "left",
-        top: currentY - 58
+        top: currentY - 58,
+        x: x
       });
     } else if (nodeInCategoryIndex === 6 || nodeInCategoryIndex === 14 || nodeInCategoryIndex === 22) {
       candidates.push({
         categoryId: les.categoryId,
         index: nodeInCategoryIndex,
         side: "right",
-        top: currentY - 58
+        top: currentY - 58,
+        x: x
       });
     }
     
@@ -2291,18 +2305,36 @@ function renderLevelPath() {
     const canvasId = `sitemap-canvas-${candidate.side}-${candidate.categoryId}-${candidate.index}`;
     
     animContainer.style.position = "absolute";
+    
+    // Calculate size and alignment dynamically based on available side space to center the animation
+    let animWidth = 180;
+    let offset = 8;
+    
     if (candidate.side === "left") {
-      animContainer.style.left = "8px";
+      const leftSpace = candidate.x - 29;
+      const maxAvailableWidth = leftSpace - 16; // 8px margin on each side
+      animWidth = Math.max(120, Math.min(180, maxAvailableWidth));
+      offset = (leftSpace - animWidth) / 2;
+      animContainer.style.left = `${offset}px`;
     } else {
-      // Alternate between right: 8px and right: 12px for right side slots as requested
-      animContainer.style.right = (candidate.index === 14) ? "12px" : "8px";
+      const rightSpace = containerWidth - (candidate.x + 29);
+      const maxAvailableWidth = rightSpace - 16; // 8px margin on each side
+      animWidth = Math.max(120, Math.min(180, maxAvailableWidth));
+      offset = (rightSpace - animWidth) / 2;
+      animContainer.style.right = `${offset}px`;
     }
-    animContainer.style.top = `${candidate.top}px`;
-    animContainer.style.width = "180px";
-    animContainer.style.height = "180px";
+    
+    // Centering vertically relative to droplet center
+    const centeredTop = candidate.top + 90 - (animWidth / 2);
+    
+    animContainer.style.top = `${centeredTop}px`;
+    animContainer.style.width = `${animWidth}px`;
+    animContainer.style.height = `${animWidth}px`;
     animContainer.style.zIndex = "1";
     animContainer.style.pointerEvents = "none";
-    animContainer.innerHTML = `<canvas id="${canvasId}" width="360" height="360" style="width: 100%; height: 100%;"></canvas>`;
+    
+    // Double width and height for high-DPI screens (Retina support)
+    animContainer.innerHTML = `<canvas id="${canvasId}" width="${animWidth * 2}" height="${animWidth * 2}" style="width: 100%; height: 100%;"></canvas>`;
     
     pathView.appendChild(animContainer);
     animInstancesToInit.push({ canvasId, anim });
