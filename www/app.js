@@ -1743,21 +1743,24 @@ let progressRiveInstance = null;
 let progressRiveInput = null;
 
 // ================= SITEMAP ANIMATIONS ENGINE =================
-const SITEMAP_ANIMATION_FILES = [
+const A1A2_ANIMATION_FILES = [
   { name: "boy.riv" },
   { name: "bunny.riv" },
-  { name: "cat-character.riv" },
   { name: "cat_animation.riv" },
   { name: "cat_animation_2.riv" },
+  { name: "happy-dog.riv" },
+  { name: "teddy.riv" },
+  { name: "x-mas-star.riv" }
+];
+
+const B1_ANIMATION_FILES = [
+  { name: "cat-character.riv" },
   { name: "client.riv" },
   { name: "handshake.riv" },
-  { name: "happy-dog.riv" },
   { name: "house.riv" },
   { name: "octo.riv" },
   { name: "pirate.riv" },
-  { name: "slap-the-pudding.riv" },
-  { name: "teddy.riv" },
-  { name: "x-mas-star.riv" }
+  { name: "slap-the-pudding.riv" }
 ];
 
 let sitemapRiveInstances = [];
@@ -2268,20 +2271,32 @@ function renderLevelPath() {
     
     pathView.appendChild(btn);
     
-    // Check if this node forms a peak curve to place an animation on the opposite side
-    if (nodeInCategoryIndex === 2 || nodeInCategoryIndex === 10 || nodeInCategoryIndex === 18) {
-      candidates.push({
-        categoryId: les.categoryId,
-        index: nodeInCategoryIndex,
-        side: "left",
-        top: currentY - 58,
-        x: x
+    // Determine the single target index for this category's animation
+    const categoriesData = getActiveLessonsData();
+    const currentCatData = categoriesData.find(c => c.id === les.categoryId);
+    let catLessonCount = 0;
+    if (currentCatData) {
+      currentCatData.subcategories.forEach(sub => {
+        catLessonCount += sub.lessons.length;
       });
-    } else if (nodeInCategoryIndex === 6 || nodeInCategoryIndex === 14 || nodeInCategoryIndex === 22) {
+    }
+    const catIndex = categoriesData.findIndex(c => c.id === les.categoryId);
+    
+    // Choose target index: alternate side if category is long enough
+    let targetAnimIndex = 2; // Default to index 2 (left side animation)
+    if (catIndex % 2 === 1 && catLessonCount >= 7) {
+      targetAnimIndex = 6; // Right side animation
+    }
+    // Fallback: if the category is extremely short (less than 3 lessons), use the last lesson index
+    if (catLessonCount < 3) {
+      targetAnimIndex = Math.max(0, catLessonCount - 1);
+    }
+    
+    if (nodeInCategoryIndex === targetAnimIndex) {
       candidates.push({
         categoryId: les.categoryId,
         index: nodeInCategoryIndex,
-        side: "right",
+        side: targetAnimIndex === 6 ? "right" : "left",
         top: currentY - 58,
         x: x
       });
@@ -2295,16 +2310,11 @@ function renderLevelPath() {
   
   // DYNAMIC SITEMAP ILLUSTRATIONS RENDER BASED ON ROAD WINDING GAPS
   const animInstancesToInit = [];
-  const shuffledAnims = [...SITEMAP_ANIMATION_FILES].sort(() => 0.5 - Math.random());
+  const levelAnims = state.activeLevel === "B1" ? B1_ANIMATION_FILES : A1A2_ANIMATION_FILES;
+  const shuffledAnims = [...levelAnims].sort(() => 0.5 - Math.random());
   let animIdx = 0;
   
   candidates.forEach(candidate => {
-    const cat = categoryInfo.find(c => c.id === candidate.categoryId);
-    if (!cat) return;
-    
-    // Ensure there is at least one lesson after the peak to avoid overlap at the end of the category
-    if (cat.lessonCount - candidate.index < 2) return;
-    
     const anim = shuffledAnims[animIdx % shuffledAnims.length];
     animIdx++;
     
