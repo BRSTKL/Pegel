@@ -1744,20 +1744,20 @@ let progressRiveInput = null;
 
 // ================= SITEMAP ANIMATIONS ENGINE =================
 const SITEMAP_ANIMATION_FILES = [
-  { name: "boy.riv" },
-  { name: "bunny.riv" },
-  { name: "cat-character.riv" },
-  { name: "cat_animation.riv" },
-  { name: "cat_animation_2.riv" },
-  { name: "client.riv" },
-  { name: "handshake.riv" },
-  { name: "happy-dog.riv" },
+  { name: "boy.riv", stateMachine: "State Machine 1" },
+  { name: "bunny.riv", stateMachine: "State Machine 1" },
+  { name: "cat-character.riv", stateMachine: "State Machine 1" },
+  { name: "cat_animation.riv", stateMachine: "State Machine 1" },
+  { name: "cat_animation_2.riv", stateMachine: "State Machine 1" },
+  { name: "client.riv", animations: "idle" },
+  { name: "handshake.riv", stateMachine: "State Machine 1" },
+  { name: "happy-dog.riv", stateMachine: "State Machine 1" },
   { name: "house.riv" },
-  { name: "octo.riv" },
-  { name: "pirate.riv" },
-  { name: "slap-the-pudding.riv" },
+  { name: "octo.riv", stateMachine: "State Machine 1" },
+  { name: "pirate.riv", stateMachine: "State Machine 1" },
+  { name: "slap-the-pudding.riv", stateMachine: "State Machine 1" },
   { name: "teddy.riv" },
-  { name: "x-mas-star.riv" }
+  { name: "x-mas-star.riv", stateMachine: "State Machine 1" }
 ];
 
 let sitemapRiveInstances = [];
@@ -1796,28 +1796,23 @@ function initSitemapRive(canvasId, animConfig) {
             inst.resizeDrawingToCanvas();
           }
           
-          // Fallback sequence to guarantee that all animations run their animated versions
-          const sms = inst.stateMachineNames || [];
-          const anims = inst.animationNames || [];
-          
-          if (sms.includes("State Machine 1")) {
-            inst.play("State Machine 1");
-          } else if (sms.includes("smile9")) {
-            inst.play("smile9");
-          } else if (sms.includes("Movement")) {
-            inst.play("Movement");
-          } else if (sms.includes("movement")) {
-            inst.play("movement");
-          } else if (sms.length > 0) {
-            inst.play(sms[0]);
-          } else if (anims.includes("idle")) {
-            inst.play("idle");
-          } else if (anims.includes("idle9")) {
-            inst.play("idle9");
-          } else if (anims.length > 0) {
-            inst.play(anims[0]);
+          if (animConfig.animations) {
+            inst.play(animConfig.animations);
+          } else if (animConfig.stateMachine) {
+            inst.play(animConfig.stateMachine);
           } else {
-            inst.play();
+            const sms = inst.stateMachineNames || [];
+            const anims = inst.animationNames || [];
+            
+            if (sms.includes("State Machine 1")) {
+              inst.play("State Machine 1");
+            } else if (sms.length > 0) {
+              inst.play(sms[0]);
+            } else if (anims.length > 0) {
+              inst.play(anims[0]);
+            } else {
+              inst.play();
+            }
           }
         }
       },
@@ -1826,8 +1821,13 @@ function initSitemapRive(canvasId, animConfig) {
       }
     };
     
-    // Always register possible State Machine names as listeners to catch complex animations
-    rConfig.stateMachines = ["State Machine 1", "smile9", "Movement", "movement"];
+    if (animConfig.stateMachine) {
+      rConfig.stateMachines = animConfig.stateMachine;
+    } else if (animConfig.animations) {
+      rConfig.animations = animConfig.animations;
+    } else {
+      rConfig.stateMachines = ["State Machine 1"];
+    }
     
     inst = new rive.Rive(rConfig);
     sitemapRiveInstances.push(inst);
