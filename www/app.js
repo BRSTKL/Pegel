@@ -1643,6 +1643,10 @@ function showScreen(screenId) {
   const targetScreen = document.getElementById(`${screenId}-screen`);
   if (targetScreen) {
     targetScreen.classList.remove("hidden");
+    targetScreen.scrollTop = 0;
+    targetScreen.querySelectorAll("*").forEach(el => {
+      el.scrollTop = 0;
+    });
   }
   
   // Toggle bottom nav visibility - hide on login screen
