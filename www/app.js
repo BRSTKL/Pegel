@@ -1788,6 +1788,7 @@ function initSitemapRive(canvasId, animConfig) {
       src: "animations/" + animConfig.name,
       canvas: canvas,
       autoplay: true,
+      isMuted: true, // Mute any embedded audio
       onLoad: () => {
         if (inst) {
           if (typeof inst.resizeDrawingSurfaceToCanvas === "function") {
