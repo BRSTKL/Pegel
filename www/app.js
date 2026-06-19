@@ -1746,17 +1746,17 @@ let progressRiveInput = null;
 const SITEMAP_ANIMATION_FILES = [
   { name: "boy.riv", stateMachine: "State Machine 1" },
   { name: "bunny.riv", stateMachine: "State Machine 1" },
-  { name: "cat-character.riv", stateMachine: "State Machine 1" },
+  { name: "cat-character.riv", animations: "Hover" },
   { name: "cat_animation.riv", stateMachine: "State Machine 1" },
   { name: "cat_animation_2.riv", stateMachine: "State Machine 1" },
   { name: "client.riv", animations: "idle" },
   { name: "handshake.riv", stateMachine: "State Machine 1" },
   { name: "happy-dog.riv", stateMachine: "State Machine 1" },
-  { name: "house.riv" },
+  { name: "house.riv", animations: "Animation 19" },
   { name: "octo.riv", stateMachine: "State Machine 1" },
   { name: "pirate.riv", stateMachine: "State Machine 1" },
   { name: "slap-the-pudding.riv", stateMachine: "State Machine 1" },
-  { name: "teddy.riv" },
+  { name: "teddy.riv", animations: "idle9" },
   { name: "x-mas-star.riv", stateMachine: "State Machine 1" }
 ];
 
@@ -1790,32 +1790,28 @@ function initSitemapRive(canvasId, animConfig) {
       autoplay: true,
       isMuted: true, // Mute any embedded audio
       onLoad: () => {
-        if (inst) {
+        // Use a timeout to guarantee the constructor has returned and assigned inst
+        setTimeout(() => {
+          if (!inst) {
+            console.error(`Rive instance is still undefined inside onLoad for ${animConfig.name}`);
+            return;
+          }
+          
           if (typeof inst.resizeDrawingSurfaceToCanvas === "function") {
             inst.resizeDrawingSurfaceToCanvas();
           } else if (typeof inst.resizeDrawingToCanvas === "function") {
             inst.resizeDrawingToCanvas();
           }
           
+          // Explicitly play the loaded target to guarantee the rendering loop starts and continues playing
           if (animConfig.animations) {
             inst.play(animConfig.animations);
           } else if (animConfig.stateMachine) {
             inst.play(animConfig.stateMachine);
           } else {
-            const sms = inst.stateMachineNames || [];
-            const anims = inst.animationNames || [];
-            
-            if (sms.includes("State Machine 1")) {
-              inst.play("State Machine 1");
-            } else if (sms.length > 0) {
-              inst.play(sms[0]);
-            } else if (anims.length > 0) {
-              inst.play(anims[0]);
-            } else {
-              inst.play();
-            }
+            inst.play();
           }
-        }
+        }, 50);
       },
       onLoadError: (err) => {
         console.error(`Rive load error for ${animConfig.name}:`, err);
