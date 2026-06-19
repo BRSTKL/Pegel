@@ -1595,6 +1595,10 @@ function showScreen(screenId) {
   state.currentScreen = screenId;
   saveState();
   
+  if (screenId !== "lesson") {
+    cleanupLessonAnimations();
+  }
+  
   // Clear timers if navigating away from play screens
   if (screenId !== "leseverstehen-play" && leseverstehenTimerInterval) {
     clearInterval(leseverstehenTimerInterval);
@@ -1779,6 +1783,57 @@ function cleanupSitemapAnimations() {
     }
   });
   sitemapRiveInstances = [];
+}
+
+let lessonRiveInstances = [];
+
+function cleanupLessonAnimations() {
+  lessonRiveInstances.forEach(inst => {
+    try {
+      inst.cleanup();
+    } catch (e) {
+      console.error("Error cleaning up lesson Rive instance:", e);
+    }
+  });
+  lessonRiveInstances = [];
+}
+
+function initLessonRive(canvasId, animName) {
+  const canvas = document.getElementById(canvasId);
+  if (!canvas) return;
+  
+  if (typeof rive === "undefined") {
+    console.warn("Rive library is not loaded yet.");
+    return;
+  }
+  
+  try {
+    let inst;
+    const rConfig = {
+      src: "animations/" + animName,
+      canvas: canvas,
+      autoplay: true,
+      isMuted: true,
+      onLoad: () => {
+        setTimeout(() => {
+          if (!inst) return;
+          if (typeof inst.resizeDrawingSurfaceToCanvas === "function") {
+            inst.resizeDrawingSurfaceToCanvas();
+          } else if (typeof inst.resizeDrawingToCanvas === "function") {
+            inst.resizeDrawingToCanvas();
+          }
+          inst.play();
+        }, 100);
+      },
+      onLoadError: (err) => {
+        console.error(`Rive load error for ${animName} in lesson:`, err);
+      }
+    };
+    inst = new rive.Rive(rConfig);
+    lessonRiveInstances.push(inst);
+  } catch (e) {
+    console.error(`Rive initialization error for ${animName} in lesson:`, e);
+  }
 }
 
 function initSitemapRive(canvasId, animConfig) {
@@ -2475,6 +2530,7 @@ function renderSitemapScreen() {
 
 // LESSON DETAILS SCREEN
 function openLesson(lesson, referrer = "sitemap") {
+  cleanupLessonAnimations();
   showScreen("lesson");
   
   const backBtn = document.querySelector("#lesson-screen .back-btn");
@@ -2487,6 +2543,15 @@ function openLesson(lesson, referrer = "sitemap") {
   const lessonBody = document.getElementById("lesson-body-content");
   if (lessonBody) {
     lessonBody.innerHTML = formatLessonContent(lesson.content);
+    
+    setTimeout(() => {
+      const canvases = lessonBody.querySelectorAll(".lesson-animation-canvas");
+      const allAnims = [...A1A2_ANIMATION_FILES, ...B1_ANIMATION_FILES];
+      canvases.forEach(canvas => {
+        const randomAnim = allAnims[Math.floor(Math.random() * allAnims.length)];
+        initLessonRive(canvas.id, randomAnim.name);
+      });
+    }, 50);
   }
   
   const actionContainer = document.getElementById("lesson-action-container");
@@ -2545,7 +2610,7 @@ function updateCompleteButtonState(btn, isCompleted) {
 function formatLessonContent(content) {
   if (!content) return `<div style="display:flex; flex-direction:column; align-items:center; justify-content:center; gap:12px; padding: 40px 20px; text-align:center;"><i class="ti ti-clock" style="font-size:36px; color:var(--theme-purple); opacity:0.6;"></i><p style="margin:0; font-size:14px; font-weight:600; color:var(--color-text-primary);">İçerik Hazırlanıyor</p><p style="margin:0; font-size:12.5px; color:var(--color-text-secondary); line-height:1.5;">Bu konunun konu anlatımı yakında eklenecek.</p></div>`;
   const lines = content.split("\n");
-  let html = "";
+  const blocks = [];
   
   lines.forEach(line => {
     let trimmed = line.trim();
@@ -2553,9 +2618,28 @@ function formatLessonContent(content) {
     
     if (trimmed.startsWith("*") || trimmed.startsWith("-")) {
       const cleaned = trimmed.substring(1).trim();
-      html += `<div class="lesson-example-box">${formatCitations(cleaned)}</div>`;
+      blocks.push(`<div class="lesson-example-box">${formatCitations(cleaned)}</div>`);
     } else {
-      html += `<p>${formatCitations(trimmed)}</p>`;
+      blocks.push(`<p>${formatCitations(trimmed)}</p>`);
+    }
+  });
+  
+  let html = "";
+  let canvasIdx = 0;
+  
+  blocks.forEach((block, i) => {
+    html += block;
+    
+    const isLast = i === blocks.length - 1;
+    const isEveryThird = (i + 1) % 3 === 0;
+    
+    if ((blocks.length <= 3 && isLast) || (blocks.length > 3 && isEveryThird && !isLast)) {
+      const canvasId = `lesson-canvas-${canvasIdx++}`;
+      html += `
+        <div class="lesson-animation-container" style="display: flex; justify-content: center; align-items: center; margin: 24px 0; width: 100%; height: 150px;">
+          <canvas class="lesson-animation-canvas" id="${canvasId}" width="300" height="300" style="width: 150px; height: 150px; max-width: 100%;"></canvas>
+        </div>
+      `;
     }
   });
   
