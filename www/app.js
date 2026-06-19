@@ -1742,51 +1742,38 @@ function showScreen(screenId) {
 let progressRiveInstance = null;
 let progressRiveInput = null;
 
-// RIVE CAT ANIMATION INTEGRATION
-let catRiveInstance = null;
+// ================= SITEMAP ANIMATIONS ENGINE =================
+const SITEMAP_ANIMATION_FILES = [
+  { name: "bunny.riv" },
+  { name: "cat-playing-animation.riv", stateMachine: "State Machine 1" },
+  { name: "cat_animation.riv" },
+  { name: "cat_animation_2.riv" },
+  { name: "handshake.riv" },
+  { name: "happy-dog.riv" },
+  { name: "house.riv" },
+  { name: "octo.riv", stateMachine: "State Machine 1" },
+  { name: "pirate.riv" },
+  { name: "teddy.riv" },
+  { name: "wasser.riv" },
+  { name: "wolf.riv" },
+  { name: "x-mas-star.riv" }
+];
 
-function initCatAnimation() {
-  const canvas = document.getElementById("cat-rive-canvas");
-  if (!canvas) return;
-  
-  if (typeof rive === "undefined") {
-    console.warn("Rive library is not loaded yet.");
-    return;
-  }
-  
-  if (catRiveInstance) {
-    catRiveInstance.cleanup();
-    catRiveInstance = null;
-  }
-  
-  try {
-    catRiveInstance = new rive.Rive({
-      src: "animations/cat_animation.riv",
-      canvas: canvas,
-      autoplay: true,
-      onLoad: () => {
-        if (catRiveInstance) {
-          if (typeof catRiveInstance.resizeDrawingSurfaceToCanvas === "function") {
-            catRiveInstance.resizeDrawingSurfaceToCanvas();
-          } else if (typeof catRiveInstance.resizeDrawingToCanvas === "function") {
-            catRiveInstance.resizeDrawingToCanvas();
-          }
-          catRiveInstance.play();
-        }
-      },
-      onLoadError: (err) => {
-        console.error("Rive cat_animation load error:", err);
-      }
-    });
-  } catch (e) {
-    console.error("Rive cat_animation initialization error:", e);
-  }
+let sitemapRiveInstances = [];
+
+function cleanupSitemapAnimations() {
+  sitemapRiveInstances.forEach(inst => {
+    try {
+      inst.cleanup();
+    } catch (e) {
+      console.error("Error cleaning up Rive instance:", e);
+    }
+  });
+  sitemapRiveInstances = [];
 }
 
-let catRiveInstance2 = null;
-
-function initCatAnimation2() {
-  const canvas = document.getElementById("cat-rive-canvas-2");
+function initSitemapRive(canvasId, animConfig) {
+  const canvas = document.getElementById(canvasId);
   if (!canvas) return;
   
   if (typeof rive === "undefined") {
@@ -1794,234 +1781,35 @@ function initCatAnimation2() {
     return;
   }
   
-  if (catRiveInstance2) {
-    catRiveInstance2.cleanup();
-    catRiveInstance2 = null;
-  }
-  
   try {
-    catRiveInstance2 = new rive.Rive({
-      src: "animations/cat_animation_2.riv",
+    let inst;
+    const rConfig = {
+      src: "animations/" + animConfig.name,
       canvas: canvas,
       autoplay: true,
       onLoad: () => {
-        if (catRiveInstance2) {
-          if (typeof catRiveInstance2.resizeDrawingSurfaceToCanvas === "function") {
-            catRiveInstance2.resizeDrawingSurfaceToCanvas();
-          } else if (typeof catRiveInstance2.resizeDrawingToCanvas === "function") {
-            catRiveInstance2.resizeDrawingToCanvas();
+        if (inst) {
+          if (typeof inst.resizeDrawingSurfaceToCanvas === "function") {
+            inst.resizeDrawingSurfaceToCanvas();
+          } else if (typeof inst.resizeDrawingToCanvas === "function") {
+            inst.resizeDrawingToCanvas();
           }
-          catRiveInstance2.play();
+          inst.play();
         }
       },
       onLoadError: (err) => {
-        console.error("Rive cat_animation_2 load error:", err);
+        console.error(`Rive load error for ${animConfig.name}:`, err);
       }
-    });
+    };
+    
+    if (animConfig.stateMachine) {
+      rConfig.stateMachines = animConfig.stateMachine;
+    }
+    
+    inst = new rive.Rive(rConfig);
+    sitemapRiveInstances.push(inst);
   } catch (e) {
-    console.error("Rive cat_animation_2 initialization error:", e);
-  }
-}
-
-let bunnyRiveInstance = null;
-
-function initBunnyAnimation() {
-  const canvas = document.getElementById("bunny-rive-canvas");
-  if (!canvas) return;
-  
-  if (typeof rive === "undefined") {
-    console.warn("Rive library is not loaded yet.");
-    return;
-  }
-  
-  if (bunnyRiveInstance) {
-    bunnyRiveInstance.cleanup();
-    bunnyRiveInstance = null;
-  }
-  
-  try {
-    bunnyRiveInstance = new rive.Rive({
-      src: "animations/bunny.riv",
-      canvas: canvas,
-      autoplay: true,
-      onLoad: () => {
-        if (bunnyRiveInstance) {
-          if (typeof bunnyRiveInstance.resizeDrawingSurfaceToCanvas === "function") {
-            bunnyRiveInstance.resizeDrawingSurfaceToCanvas();
-          } else if (typeof bunnyRiveInstance.resizeDrawingToCanvas === "function") {
-            bunnyRiveInstance.resizeDrawingToCanvas();
-          }
-          bunnyRiveInstance.play();
-        }
-      },
-      onLoadError: (err) => {
-        console.error("Rive bunny load error:", err);
-      }
-    });
-  } catch (e) {
-    console.error("Rive bunny initialization error:", e);
-  }
-}
-
-let houseRiveInstance = null;
-
-function initHouseAnimation() {
-  const canvas = document.getElementById("house-rive-canvas");
-  if (!canvas) return;
-  
-  if (typeof rive === "undefined") {
-    console.warn("Rive library is not loaded yet.");
-    return;
-  }
-  
-  if (houseRiveInstance) {
-    houseRiveInstance.cleanup();
-    houseRiveInstance = null;
-  }
-  
-  try {
-    houseRiveInstance = new rive.Rive({
-      src: "animations/house.riv",
-      canvas: canvas,
-      autoplay: true,
-      onLoad: () => {
-        if (houseRiveInstance) {
-          if (typeof houseRiveInstance.resizeDrawingSurfaceToCanvas === "function") {
-            houseRiveInstance.resizeDrawingSurfaceToCanvas();
-          } else if (typeof houseRiveInstance.resizeDrawingToCanvas === "function") {
-            houseRiveInstance.resizeDrawingToCanvas();
-          }
-          houseRiveInstance.play();
-        }
-      },
-      onLoadError: (err) => {
-        console.error("Rive house load error:", err);
-      }
-    });
-  } catch (e) {
-    console.error("Rive house initialization error:", e);
-  }
-}
-
-let handshakeRiveInstance = null;
-
-function initHandshakeAnimation() {
-  const canvas = document.getElementById("handshake-rive-canvas");
-  if (!canvas) return;
-  
-  if (typeof rive === "undefined") {
-    console.warn("Rive library is not loaded yet.");
-    return;
-  }
-  
-  if (handshakeRiveInstance) {
-    handshakeRiveInstance.cleanup();
-    handshakeRiveInstance = null;
-  }
-  
-  try {
-    handshakeRiveInstance = new rive.Rive({
-      src: "animations/handshake.riv",
-      canvas: canvas,
-      autoplay: true,
-      onLoad: () => {
-        if (handshakeRiveInstance) {
-          if (typeof handshakeRiveInstance.resizeDrawingSurfaceToCanvas === "function") {
-            handshakeRiveInstance.resizeDrawingSurfaceToCanvas();
-          } else if (typeof handshakeRiveInstance.resizeDrawingToCanvas === "function") {
-            handshakeRiveInstance.resizeDrawingToCanvas();
-          }
-          handshakeRiveInstance.play();
-        }
-      },
-      onLoadError: (err) => {
-        console.error("Rive handshake load error:", err);
-      }
-    });
-  } catch (e) {
-    console.error("Rive handshake initialization error:", e);
-  }
-}
-
-let catPlayingRiveInstance = null;
-
-function initCatPlayingAnimation() {
-  const canvas = document.getElementById("cat-playing-canvas");
-  if (!canvas) return;
-  
-  if (typeof rive === "undefined") {
-    console.warn("Rive library is not loaded yet.");
-    return;
-  }
-  
-  if (catPlayingRiveInstance) {
-    catPlayingRiveInstance.cleanup();
-    catPlayingRiveInstance = null;
-  }
-  
-  try {
-    catPlayingRiveInstance = new rive.Rive({
-      src: "animations/cat-playing-animation.riv",
-      canvas: canvas,
-      autoplay: true,
-      stateMachines: "State Machine 1",
-      onLoad: () => {
-        if (catPlayingRiveInstance) {
-          if (typeof catPlayingRiveInstance.resizeDrawingSurfaceToCanvas === "function") {
-            catPlayingRiveInstance.resizeDrawingSurfaceToCanvas();
-          } else if (typeof catPlayingRiveInstance.resizeDrawingToCanvas === "function") {
-            catPlayingRiveInstance.resizeDrawingToCanvas();
-          }
-          catPlayingRiveInstance.play();
-        }
-      },
-      onLoadError: (err) => {
-        console.error("Rive cat-playing load error:", err);
-      }
-    });
-  } catch (e) {
-    console.error("Rive cat-playing initialization error:", e);
-  }
-}
-
-let octoRiveInstance = null;
-
-function initOctoAnimation() {
-  const canvas = document.getElementById("octo-rive-canvas");
-  if (!canvas) return;
-  
-  if (typeof rive === "undefined") {
-    console.warn("Rive library is not loaded yet.");
-    return;
-  }
-  
-  if (octoRiveInstance) {
-    octoRiveInstance.cleanup();
-    octoRiveInstance = null;
-  }
-  
-  try {
-    octoRiveInstance = new rive.Rive({
-      src: "animations/octo.riv",
-      canvas: canvas,
-      autoplay: true,
-      stateMachines: "State Machine 1",
-      onLoad: () => {
-        if (octoRiveInstance) {
-          if (typeof octoRiveInstance.resizeDrawingSurfaceToCanvas === "function") {
-            octoRiveInstance.resizeDrawingSurfaceToCanvas();
-          } else if (typeof octoRiveInstance.resizeDrawingToCanvas === "function") {
-            octoRiveInstance.resizeDrawingToCanvas();
-          }
-          octoRiveInstance.play();
-        }
-      },
-      onLoadError: (err) => {
-        console.error("Rive octo load error:", err);
-      }
-    });
-  } catch (e) {
-    console.error("Rive octo initialization error:", e);
+    console.error(`Rive initialization error for ${animConfig.name}:`, e);
   }
 }
 
@@ -2332,34 +2120,7 @@ function getLessonIcon(lesson, index) {
 }
 
 function renderLevelPath() {
-  if (catRiveInstance) {
-    catRiveInstance.cleanup();
-    catRiveInstance = null;
-  }
-  if (catRiveInstance2) {
-    catRiveInstance2.cleanup();
-    catRiveInstance2 = null;
-  }
-  if (bunnyRiveInstance) {
-    bunnyRiveInstance.cleanup();
-    bunnyRiveInstance = null;
-  }
-  if (houseRiveInstance) {
-    houseRiveInstance.cleanup();
-    houseRiveInstance = null;
-  }
-  if (handshakeRiveInstance) {
-    handshakeRiveInstance.cleanup();
-    handshakeRiveInstance = null;
-  }
-  if (catPlayingRiveInstance) {
-    catPlayingRiveInstance.cleanup();
-    catPlayingRiveInstance = null;
-  }
-  if (octoRiveInstance) {
-    octoRiveInstance.cleanup();
-    octoRiveInstance = null;
-  }
+  cleanupSitemapAnimations();
 
   const pathView = document.getElementById("level-path-view");
   if (!pathView) return;
@@ -2394,12 +2155,9 @@ function renderLevelPath() {
   let currentY = 15;
   let lastCategoryId = null;
   let nodeInCategoryIndex = 0;
-  let firstCategoryY0 = null;
-  let secondCategoryY0 = null;
-  let thirdCategoryY0 = null;
-  let fourthCategoryY0 = null;
-  let fifthCategoryY0 = null;
-  let sixthCategoryY0 = null;
+  
+  let categoryInfo = [];
+  const candidates = [];
   
   processedLessons.forEach((les, index) => {
     if (les.categoryId !== lastCategoryId) {
@@ -2419,27 +2177,18 @@ function renderLevelPath() {
       
       currentY += 56 + 24;
       
-      if (firstCategoryY0 === null) {
-        firstCategoryY0 = currentY;
-      }
-      if (catIndex === 2 && secondCategoryY0 === null) {
-        secondCategoryY0 = currentY;
-      }
-      if (catIndex === 3 && thirdCategoryY0 === null) {
-        thirdCategoryY0 = currentY;
-      }
-      if (catIndex === 4 && fourthCategoryY0 === null) {
-        fourthCategoryY0 = currentY;
-      }
-      if (catIndex === 5 && fifthCategoryY0 === null) {
-        fifthCategoryY0 = currentY;
-      }
-      if (catIndex === 6 && sixthCategoryY0 === null) {
-        sixthCategoryY0 = currentY;
-      }
+      categoryInfo.push({
+        id: les.categoryId,
+        y0: currentY,
+        lessonCount: 0
+      });
       
       lastCategoryId = les.categoryId;
       nodeInCategoryIndex = 0;
+    }
+    
+    if (categoryInfo.length > 0) {
+      categoryInfo[categoryInfo.length - 1].lessonCount++;
     }
     
     // Calculate zigzag position
@@ -2471,7 +2220,7 @@ function renderLevelPath() {
       endColor = theme.end;
       strokeColor = "rgba(255, 255, 255, 0.35)";
     } else if (les.status === "active") {
-      startColor = theme.start; // Soft color gradient matching the theme
+      startColor = theme.start;
       endColor = theme.end;
       strokeColor = "#ffffff";
       strokeWidth = "2.5";
@@ -2500,131 +2249,70 @@ function renderLevelPath() {
     
     pathView.appendChild(btn);
     
+    // Check if this node forms a peak curve to place an animation on the opposite side
+    if (nodeInCategoryIndex === 2 || nodeInCategoryIndex === 10 || nodeInCategoryIndex === 18) {
+      candidates.push({
+        categoryId: les.categoryId,
+        index: nodeInCategoryIndex,
+        side: "left",
+        top: currentY - 58
+      });
+    } else if (nodeInCategoryIndex === 6 || nodeInCategoryIndex === 14 || nodeInCategoryIndex === 22) {
+      candidates.push({
+        categoryId: les.categoryId,
+        index: nodeInCategoryIndex,
+        side: "right",
+        top: currentY - 58
+      });
+    }
+    
     currentY += 92;
     nodeInCategoryIndex++;
   });
   
   pathView.style.height = `${currentY + 30}px`;
-
-  // Render cat animation container
-  if (firstCategoryY0 !== null) {
-    const catTop = firstCategoryY0 + 85; // Align it next to droplet 2 & 3
-    const catContainer = document.createElement("div");
-    catContainer.id = "cat-animation-container";
-    catContainer.style.position = "absolute";
-    catContainer.style.left = "8px";
-    catContainer.style.top = `${catTop}px`;
-    catContainer.style.width = "180px";
-    catContainer.style.height = "180px";
-    catContainer.style.zIndex = "1";
-    catContainer.style.pointerEvents = "none";
-    catContainer.innerHTML = `<canvas id="cat-rive-canvas" width="360" height="360" style="width: 100%; height: 100%;"></canvas>`;
-    pathView.appendChild(catContainer);
+  
+  // DYNAMIC SITEMAP ILLUSTRATIONS RENDER BASED ON ROAD WINDING GAPS
+  const animInstancesToInit = [];
+  const shuffledAnims = [...SITEMAP_ANIMATION_FILES].sort(() => 0.5 - Math.random());
+  let animIdx = 0;
+  
+  candidates.forEach(candidate => {
+    const cat = categoryInfo.find(c => c.id === candidate.categoryId);
+    if (!cat) return;
     
-    // Render second cat animation container
-    const catTop2 = firstCategoryY0 + 440; // Align it next to droplet 5 & 6 on the right side
-    const catContainer2 = document.createElement("div");
-    catContainer2.id = "cat-animation-container-2";
-    catContainer2.style.position = "absolute";
-    catContainer2.style.right = "12px"; // Shifted slightly to the right
-    catContainer2.style.top = `${catTop2}px`;
-    catContainer2.style.width = "180px";
-    catContainer2.style.height = "180px";
-    catContainer2.style.zIndex = "1";
-    catContainer2.style.pointerEvents = "none";
-    catContainer2.innerHTML = `<canvas id="cat-rive-canvas-2" width="360" height="360" style="width: 100%; height: 100%;"></canvas>`;
-    pathView.appendChild(catContainer2);
-  }
-
-  // Render bunny animation container in the second category's empty left space
-  if (secondCategoryY0 !== null) {
-    const bunnyTop = secondCategoryY0 + 85; // Align it next to droplet 2 & 3 in the second category
-    const bunnyContainer = document.createElement("div");
-    bunnyContainer.id = "bunny-animation-container";
-    bunnyContainer.style.position = "absolute";
-    bunnyContainer.style.left = "8px"; // Left side
-    bunnyContainer.style.top = `${bunnyTop}px`;
-    bunnyContainer.style.width = "180px";
-    bunnyContainer.style.height = "180px";
-    bunnyContainer.style.zIndex = "1";
-    bunnyContainer.style.pointerEvents = "none";
-    bunnyContainer.innerHTML = `<canvas id="bunny-rive-canvas" width="360" height="360" style="width: 100%; height: 100%;"></canvas>`;
-    pathView.appendChild(bunnyContainer);
-  }
-
-  // Render house animation container in the third category's empty left space
-  if (thirdCategoryY0 !== null) {
-    const houseTop = thirdCategoryY0 + 85; // Align it next to droplet 2 & 3 in the third category
-    const houseContainer = document.createElement("div");
-    houseContainer.id = "house-animation-container";
-    houseContainer.style.position = "absolute";
-    houseContainer.style.left = "8px"; // Left side
-    houseContainer.style.top = `${houseTop}px`;
-    houseContainer.style.width = "180px";
-    houseContainer.style.height = "180px";
-    houseContainer.style.zIndex = "1";
-    houseContainer.style.pointerEvents = "none";
-    houseContainer.innerHTML = `<canvas id="house-rive-canvas" width="360" height="360" style="width: 100%; height: 100%;"></canvas>`;
-    pathView.appendChild(houseContainer);
-  }
-
-  // Render handshake animation container in the fourth category's empty left space
-  if (fourthCategoryY0 !== null) {
-    const handshakeTop = fourthCategoryY0 + 85; // Align it next to droplet 2 & 3 in the fourth category
-    const handshakeContainer = document.createElement("div");
-    handshakeContainer.id = "handshake-animation-container";
-    handshakeContainer.style.position = "absolute";
-    handshakeContainer.style.left = "8px"; // Left side
-    handshakeContainer.style.top = `${handshakeTop}px`;
-    handshakeContainer.style.width = "180px";
-    handshakeContainer.style.height = "180px";
-    handshakeContainer.style.zIndex = "1";
-    handshakeContainer.style.pointerEvents = "none";
-    handshakeContainer.innerHTML = `<canvas id="handshake-rive-canvas" width="360" height="360" style="width: 100%; height: 100%;"></canvas>`;
-    pathView.appendChild(handshakeContainer);
-  }
-
-  // Render cat-playing animation container in the sixth category's empty left space
-  if (sixthCategoryY0 !== null) {
-    const catPlayingTop = sixthCategoryY0 + 85; // Align it next to droplet 2 & 3 in the sixth category
-    const catPlayingContainer = document.createElement("div");
-    catPlayingContainer.id = "cat-playing-animation-container";
-    catPlayingContainer.style.position = "absolute";
-    catPlayingContainer.style.left = "8px"; // Left side
-    catPlayingContainer.style.top = `${catPlayingTop}px`;
-    catPlayingContainer.style.width = "180px";
-    catPlayingContainer.style.height = "180px";
-    catPlayingContainer.style.zIndex = "1";
-    catPlayingContainer.style.pointerEvents = "none";
-    catPlayingContainer.innerHTML = `<canvas id="cat-playing-canvas" width="360" height="360" style="width: 100%; height: 100%;"></canvas>`;
-    pathView.appendChild(catPlayingContainer);
-  }
-
-  // Render octo animation container in the fourth category's empty right space
-  if (fourthCategoryY0 !== null) {
-    const octoTop = fourthCategoryY0 + 430; // Align it on the right side next to droplets 5 & 6, centered in the empty space
-    const octoContainer = document.createElement("div");
-    octoContainer.id = "octo-animation-container";
-    octoContainer.style.position = "absolute";
-    octoContainer.style.right = "8px"; // Right side
-    octoContainer.style.top = `${octoTop}px`;
-    octoContainer.style.width = "180px";
-    octoContainer.style.height = "180px";
-    octoContainer.style.zIndex = "1";
-    octoContainer.style.pointerEvents = "none";
-    octoContainer.innerHTML = `<canvas id="octo-rive-canvas" width="360" height="360" style="width: 100%; height: 100%;"></canvas>`;
-    pathView.appendChild(octoContainer);
-  }
-
-  if (firstCategoryY0 !== null || secondCategoryY0 !== null || thirdCategoryY0 !== null || fourthCategoryY0 !== null || fifthCategoryY0 !== null || sixthCategoryY0 !== null) {
+    // Ensure there is at least one lesson after the peak to avoid overlap at the end of the category
+    if (cat.lessonCount - candidate.index < 2) return;
+    
+    const anim = shuffledAnims[animIdx % shuffledAnims.length];
+    animIdx++;
+    
+    const animContainer = document.createElement("div");
+    const canvasId = `sitemap-canvas-${candidate.side}-${candidate.categoryId}-${candidate.index}`;
+    
+    animContainer.style.position = "absolute";
+    if (candidate.side === "left") {
+      animContainer.style.left = "8px";
+    } else {
+      // Alternate between right: 8px and right: 12px for right side slots as requested
+      animContainer.style.right = (candidate.index === 14) ? "12px" : "8px";
+    }
+    animContainer.style.top = `${candidate.top}px`;
+    animContainer.style.width = "180px";
+    animContainer.style.height = "180px";
+    animContainer.style.zIndex = "1";
+    animContainer.style.pointerEvents = "none";
+    animContainer.innerHTML = `<canvas id="${canvasId}" width="360" height="360" style="width: 100%; height: 100%;"></canvas>`;
+    
+    pathView.appendChild(animContainer);
+    animInstancesToInit.push({ canvasId, anim });
+  });
+  
+  if (animInstancesToInit.length > 0) {
     setTimeout(() => {
-      initCatAnimation();
-      initCatAnimation2();
-      initBunnyAnimation();
-      initHouseAnimation();
-      initHandshakeAnimation();
-      initCatPlayingAnimation();
-      initOctoAnimation();
+      animInstancesToInit.forEach(item => {
+        initSitemapRive(item.canvasId, item.anim);
+      });
     }, 50);
   }
 }
