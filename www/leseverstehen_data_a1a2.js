@@ -38,33 +38,21 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       {
         "id": 5,
         "content": "Die Stadt Hamburg investiert in diesem Jahr 12 Millionen Euro in neue Fahrradwege. Viele alte Straßen werden verbreitert, damit Radfahrer sicherer unterwegs sind. Ziel ist es, mehr Menschen dazu zu bringen, das Auto stehen zu lassen und stattdessen das Fahrrad zu benutzen."
-      },
-      {
-        "id": 1,
-        "content": "- Açıklama: Metin, hareketin çocukların okuldaki başarısını artırdığını anlatıyor. \"Bewegung hilft dem Gehirn\" ve \"besser aufpassen\" → (j) tam eşleşme. (g) \"Musik macht klüger\" aldatmaca; müzikle ilgisi yok."
-      },
-      {
-        "id": 2,
-        "content": "- Açıklama: \"kaufen Kleidung, die schon einmal getragen wurde\" = ikinci el giysi satın almak → (c) tam eşleşme. (f) bisiklet yolları aldatmaca."
-      },
-      {
-        "id": 3,
-        "content": "- Açıklama: \"wer weniger als sieben Stunden schläft, hat häufiger Probleme\" = az uyku sağlığa zarar veriyor → (i) tam eşleşme. (b) \"Zucker macht Kinder unruhig\" aldatmaca; şekerle ilgisi yok."
-      },
-      {
-        "id": 4,
-        "content": "- Açıklama: \"werden Lebensmittel... kostenlos an Kunden abgegeben\" = yiyecekler ücretsiz dağıtılıyor → (h) tam eşleşme. (e) app aldatmaca."
-      },
-      {
-        "id": 5,
-        "content": "- Açıklama: \"investiert in neue Fahrradwege\" ve \"Radfahrer sicherer\" → (f) tam eşleşme. (d) \"Schule beginnt später\" aldatmaca. Kullanılmayan (aldatmaca) başlıklar: a / b / d / e / g"
       }
     ],
     "answers": {
-      "1": "j"
+      "1": "j",
+      "2": "c",
+      "3": "i",
+      "4": "h",
+      "5": "f"
     },
     "explanations": {
-      "1": ""
+      "1": "",
+      "2": "\"kaufen Kleidung, die schon einmal getragen wurde\" = ikinci el giysi satın almak → (c) tam eşleşme. (f) bisiklet yolları aldatmaca.",
+      "3": "\"wer weniger als sieben Stunden schläft, hat häufiger Probleme\" = az uyku sağlığa zarar veriyor → (i) tam eşleşme. (b) \"Zucker macht Kinder unruhig\" aldatmaca; şekerle ilgisi yok.",
+      "4": "\"werden Lebensmittel... kostenlos an Kunden abgegeben\" = yiyecekler ücretsiz dağıtılıyor → (h) tam eşleşme. (e) app aldatmaca.",
+      "5": "\"investiert in neue Fahrradwege\" ve \"Radfahrer sicherer\" → (f) tam eşleşme. (d) \"Schule beginnt später\" aldatmaca."
     }
   },
   {
@@ -105,33 +93,21 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       {
         "id": 5,
         "content": "Früher waren Bibliotheken nur Orte zum Bücher ausleihen. Heute bieten viele Bibliotheken Kurse, Spieleabende und Ausstellungen an. Sie werden zu Orten, an denen Menschen zusammenkommen und sich austauschen. Besonders ältere Menschen und Familien nutzen dieses neue Angebot gerne."
-      },
-      {
-        "id": 1,
-        "content": "- Açıklama: \"Immer weniger Menschen essen täglich Fleisch\" ve \"Trend zum vegetarischen Essen\" → (j) doğrudan eşleşme. (i) \"Sport im Alter\" aldatmaca; spor yok."
-      },
-      {
-        "id": 2,
-        "content": "- Açıklama: \"Viele Jugendliche schlafen nur fünf bis sechs Stunden — das ist zu wenig\" → (h) tam eşleşme. (i) \"Sport im Alter\" aldatmaca; uyku konusu."
-      },
-      {
-        "id": 3,
-        "content": "- Açıklama: \"müssen... keine kostenlosen Plastiktüten mehr anbieten\" ve \"Das neue Gesetz\" → (c) tam eşleşme. (a) \"Roboter\" aldatmaca; yasayla ilgisi yok."
-      },
-      {
-        "id": 4,
-        "content": "- Açıklama: \"Autos aus den Innenstädten zu verbannen\" ve \"mehr Platz für Fußgänger\" → (f) tam eşleşme. (b) \"Touristen\" aldatmaca; turizm değil trafik konusu."
-      },
-      {
-        "id": 5,
-        "content": "- Açıklama: \"Orte, an denen Menschen zusammenkommen und sich austauschen\" = buluşma yerleri → (g) tam eşleşme. (d) \"Alte Menschen fühlen sich einsamer\" aldatmaca; yaşlılar kütüphaneye geliyor ama yalnızlık değil, sosyalleşme konusu. Kullanılmayan (aldatmaca) başlıklar: a / b / d / e / i"
       }
     ],
     "answers": {
-      "1": "j"
+      "1": "j",
+      "2": "h",
+      "3": "c",
+      "4": "f",
+      "5": "g"
     },
     "explanations": {
-      "1": ""
+      "1": "",
+      "2": "\"Viele Jugendliche schlafen nur fünf bis sechs Stunden — das ist zu wenig\" → (h) tam eşleşme. (i) \"Sport im Alter\" aldatmaca; uyku konusu.",
+      "3": "\"müssen... keine kostenlosen Plastiktüten mehr anbieten\" ve \"Das neue Gesetz\" → (c) tam eşleşme. (a) \"Roboter\" aldatmaca; yasayla ilgisi yok.",
+      "4": "\"Autos aus den Innenstädten zu verbannen\" ve \"mehr Platz für Fußgänger\" → (f) tam eşleşme. (b) \"Touristen\" aldatmaca; turizm değil trafik konusu.",
+      "5": "\"Orte, an denen Menschen zusammenkommen und sich austauschen\" = buluşma yerleri → (g) tam eşleşme. (d) \"Alte Menschen fühlen sich einsamer\" aldatmaca; yaşlılar kütüphaneye geliyor ama yalnızlık değil, sosyalleşme konusu."
     }
   },
   {
@@ -172,33 +148,21 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       {
         "id": 5,
         "content": "Koch-Workshops, bei denen Menschen gemeinsam Mahlzeiten zubereiten, werden immer beliebter. Ob im Verein, in der Schule oder in der Nachbarschaft — gemeinsames Kochen fördert den sozialen Kontakt. Viele Teilnehmer berichten, dass sie dabei neue Freundschaften geschlossen haben. Besonders für Neuankömmlinge ist das Angebot sehr wertvoll."
-      },
-      {
-        "id": 1,
-        "content": "- Açıklama: \"Landwirte verkaufen ihre Produkte direkt an Privatpersonen\" ve \"direkt beim Erzeuger kaufen\" → (i) tam eşleşme. (g) \"Kaffee\" aldatmaca; tarımla ilgisi yok."
-      },
-      {
-        "id": 2,
-        "content": "- Açıklama: \"frische Luft atmen, können sich besser konzentrieren\" → (j) tam eşleşme. (h) \"Allergie\" aldatmaca; konsantrasyon konusu."
-      },
-      {
-        "id": 3,
-        "content": "- Açıklama: \"neue Verkehrsregeln für E-Scooter\" ve \"Helm tragen\", \"Bußgeld\" → (e) tam eşleşme. (d) \"Frauen in Führungspositionen\" aldatmaca; trafik kuralları konusu."
-      },
-      {
-        "id": 4,
-        "content": "- Açıklama: \"fühlen sich weniger allein\" ve \"Haustiere in den Zimmern\" → (a) tam eşleşme. (j) \"Frische Luft\" aldatmaca; yürüyüş geçse de ana tema yalnızlık değil mi konusu."
-      },
-      {
-        "id": 5,
-        "content": "- Açıklama: \"gemeinsames Kochen fördert den sozialen Kontakt\" ve \"neue Freundschaften\" → (b) tam eşleşme. (c) \"Online-Unterricht\" aldatmaca. Kullanılmayan (aldatmaca) başlıklar: c / d / f / g / h"
       }
     ],
     "answers": {
-      "1": "i"
+      "1": "i",
+      "2": "j",
+      "3": "e",
+      "4": "a",
+      "5": "b"
     },
     "explanations": {
-      "1": ""
+      "1": "",
+      "2": "\"frische Luft atmen, können sich besser konzentrieren\" → (j) tam eşleşme. (h) \"Allergie\" aldatmaca; konsantrasyon konusu.",
+      "3": "\"neue Verkehrsregeln für E-Scooter\" ve \"Helm tragen\", \"Bußgeld\" → (e) tam eşleşme. (d) \"Frauen in Führungspositionen\" aldatmaca; trafik kuralları konusu.",
+      "4": "\"fühlen sich weniger allein\" ve \"Haustiere in den Zimmern\" → (a) tam eşleşme. (j) \"Frische Luft\" aldatmaca; yürüyüş geçse de ana tema yalnızlık değil mi konusu.",
+      "5": "\"gemeinsames Kochen fördert den sozialen Kontakt\" ve \"neue Freundschaften\" → (b) tam eşleşme. (c) \"Online-Unterricht\" aldatmaca."
     }
   },
   {
@@ -239,33 +203,21 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       {
         "id": 5,
         "content": "In Deutschland öffnet ein neues Museum, das die Geschichte einer Stadt von 1800 bis heute zeigt. Besucher können interaktive Stationen nutzen und alte Fotos sowie Dokumente ansehen. Das Museum richtet sich an Familien, Schulen und Touristen. Der Eintritt ist für Kinder unter 14 Jahren kostenlos."
-      },
-      {
-        "id": 1,
-        "content": "- Açıklama: \"Bürger beschweren sich über Lärm in der Nacht\" ve \"strengere Regeln für nächtlichen Lärm\" → (a) tam eşleşme. (c) \"Regen schadet der Ernte\" aldatmaca; gürültü konusu."
-      },
-      {
-        "id": 2,
-        "content": "- Açıklama: \"Urlaub lieber im eigenen Land\" ve \"Reisen im Inland\" → (d) tam eşleşme. (g) \"Sommerhitze für Hunde\" aldatmaca."
-      },
-      {
-        "id": 3,
-        "content": "- Açıklama: \"von zu Hause aus arbeiten\" ve \"Homeoffice dauerhaft anbieten\" → (h) tam eşleşme. (j) \"Weniger Papier\" aldatmaca; her ikisi de iş hayatıyla ilgili ama (h) tam eşleşiyor."
-      },
-      {
-        "id": 4,
-        "content": "- Açıklama: \"Schülerinnen und Schüler eine eigene kleine Firma gegründet\" → (b) tam eşleşme. (i) \"Ältere Arbeitnehmer gesucht\" aldatmaca."
-      },
-      {
-        "id": 5,
-        "content": "- Açıklama: \"neues Museum, das die Geschichte einer Stadt zeigt\" → (e) tam eşleşme. (f) \"Pausen in der Schule\" aldatmaca; okuldan bahsedilse de tarih müzesi konusu. Kullanılmayan (aldatmaca) başlıklar: c / f / g / i / j"
       }
     ],
     "answers": {
-      "1": "a"
+      "1": "a",
+      "2": "d",
+      "3": "h",
+      "4": "b",
+      "5": "e"
     },
     "explanations": {
-      "1": ""
+      "1": "",
+      "2": "\"Urlaub lieber im eigenen Land\" ve \"Reisen im Inland\" → (d) tam eşleşme. (g) \"Sommerhitze für Hunde\" aldatmaca.",
+      "3": "\"von zu Hause aus arbeiten\" ve \"Homeoffice dauerhaft anbieten\" → (h) tam eşleşme. (j) \"Weniger Papier\" aldatmaca; her ikisi de iş hayatıyla ilgili ama (h) tam eşleşiyor.",
+      "4": "\"Schülerinnen und Schüler eine eigene kleine Firma gegründet\" → (b) tam eşleşme. (i) \"Ältere Arbeitnehmer gesucht\" aldatmaca.",
+      "5": "\"neues Museum, das die Geschichte einer Stadt zeigt\" → (e) tam eşleşme. (f) \"Pausen in der Schule\" aldatmaca; okuldan bahsedilse de tarih müzesi konusu."
     }
   },
   {
@@ -306,33 +258,21 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       {
         "id": 5,
         "content": "Immer häufiger leben Menschen in Deutschland ohne Partner oder Familie in einer eigenen Wohnung. In Großstädten wie Berlin und München ist jeder zweite Haushalt ein Einpersonenhaushalt. Gründe dafür sind Scheidungen, längeres Studium und der Wunsch nach Unabhängigkeit. Soziologen diskutieren, welche Auswirkungen das auf die Gesellschaft hat."
-      },
-      {
-        "id": 1,
-        "content": "- Açıklama: \"regelmäßiges Lesen das Einfühlungsvermögen verbessert\" (Einfühlungsvermögen = empati) ve \"Forscher der Universität\" → (j) tam eşleşme. (b) \"Bildschirmzeit schadet den Augen\" aldatmaca; okuma var ama ekran değil."
-      },
-      {
-        "id": 2,
-        "content": "- Açıklama: \"Gemeinschaftsgärten\" ve \"immer mehr Menschen legen einen Garten an\" → (d) tam eşleşme. (h) \"Wasser verbrauchen\" aldatmaca; bahçe var ama su tasarrufu konusu değil."
-      },
-      {
-        "id": 3,
-        "content": "- Açıklama: \"Menschen mit verschiedenen Behinderungen als Servicekräfte arbeiten\" → (c) tam eşleşme. (a) \"Tanzen hält Senioren fit\" aldatmaca."
-      },
-      {
-        "id": 4,
-        "content": "- Açıklama: \"Jugendliche engagieren sich heute mehr als früher in Vereinen, sozialen Projekten\" → (g) tam eşleşme. (f) \"Tierpark erhält seltene Tiere\" aldatmaca."
-      },
-      {
-        "id": 5,
-        "content": "- Açıklama: \"ohne Partner oder Familie in einer eigenen Wohnung\" ve \"jeder zweite Haushalt ein Einpersonenhaushalt\" → (i) tam eşleşme. (e) \"Weniger Fleisch\" aldatmaca; yalnız yaşam konusu. Kullanılmayan (aldatmaca) başlıklar: a / b / e / f / h"
       }
     ],
     "answers": {
-      "1": "j"
+      "1": "j",
+      "2": "d",
+      "3": "c",
+      "4": "g",
+      "5": "i"
     },
     "explanations": {
-      "1": ""
+      "1": "",
+      "2": "\"Gemeinschaftsgärten\" ve \"immer mehr Menschen legen einen Garten an\" → (d) tam eşleşme. (h) \"Wasser verbrauchen\" aldatmaca; bahçe var ama su tasarrufu konusu değil.",
+      "3": "\"Menschen mit verschiedenen Behinderungen als Servicekräfte arbeiten\" → (c) tam eşleşme. (a) \"Tanzen hält Senioren fit\" aldatmaca.",
+      "4": "\"Jugendliche engagieren sich heute mehr als früher in Vereinen, sozialen Projekten\" → (g) tam eşleşme. (f) \"Tierpark erhält seltene Tiere\" aldatmaca.",
+      "5": "\"ohne Partner oder Familie in einer eigenen Wohnung\" ve \"jeder zweite Haushalt ein Einpersonenhaushalt\" → (i) tam eşleşme. (e) \"Weniger Fleisch\" aldatmaca; yalnız yaşam konusu."
     }
   },
   {
@@ -373,33 +313,21 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       {
         "id": 5,
         "content": "Ein neues Projekt in Hamburg bietet Geflüchteten kostenlose Deutschkurse an. Die Kurse finden dreimal pro Woche statt und werden von ausgebildeten Lehrern geleitet. Ziel ist es, den Teilnehmern den Einstieg in den Alltag und die Arbeitswelt zu erleichtern. Bisher haben über 300 Menschen teilgenommen."
-      },
-      {
-        "id": 1,
-        "content": "- Açıklama: \"ältere Menschen über 65 nutzen regelmäßig ein Smartphone\" → (c) tam eşleşme. (a) \"Brillen\" aldatmaca; teknoloji konusu ama gözlük değil akıllı telefon."
-      },
-      {
-        "id": 2,
-        "content": "- Açıklama: \"Temperaturen in Städten stark gestiegen\" ve \"Tausende neue Bäume gepflanzt\" → (j) tam eşleşme. (d) \"Flüsse wärmer\" aldatmaca; ısınma konusu ama nehir değil şehir."
-      },
-      {
-        "id": 3,
-        "content": "- Açıklama: \"Kantinen... Bio-Lebensmittel\" ve \"100 Prozent bio-zertifiziert\" → (i) tam eşleşme. (f) \"Frühstück\" aldatmaca; yemek var ama kahvaltı değil kantin konusu."
-      },
-      {
-        "id": 4,
-        "content": "- Açıklama: \"Temperaturen in deutschen Flüssen... gestiegen\" → (d) tam eşleşme. (j) \"Bäume\" aldatmaca; zaten Text 2'de kullanıldı."
-      },
-      {
-        "id": 5,
-        "content": "- Açıklama: \"Geflüchteten kostenlose Deutschkurse\" → (e) tam eşleşme. (b) \"Schulen testen kürzere Unterrichtstage\" aldatmaca; kurs var ama okul konusu değil. Kullanılmayan (aldatmaca) başlıklar: a / b / f / g / h"
       }
     ],
     "answers": {
-      "1": "c"
+      "1": "c",
+      "2": "j",
+      "3": "i",
+      "4": "d",
+      "5": "e"
     },
     "explanations": {
-      "1": ""
+      "1": "",
+      "2": "\"Temperaturen in Städten stark gestiegen\" ve \"Tausende neue Bäume gepflanzt\" → (j) tam eşleşme. (d) \"Flüsse wärmer\" aldatmaca; ısınma konusu ama nehir değil şehir.",
+      "3": "\"Kantinen... Bio-Lebensmittel\" ve \"100 Prozent bio-zertifiziert\" → (i) tam eşleşme. (f) \"Frühstück\" aldatmaca; yemek var ama kahvaltı değil kantin konusu.",
+      "4": "\"Temperaturen in deutschen Flüssen... gestiegen\" → (d) tam eşleşme. (j) \"Bäume\" aldatmaca; zaten Text 2'de kullanıldı.",
+      "5": "\"Geflüchteten kostenlose Deutschkurse\" → (e) tam eşleşme. (b) \"Schulen testen kürzere Unterrichtstage\" aldatmaca; kurs var ama okul konusu değil."
     }
   },
   {
@@ -440,33 +368,21 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       {
         "id": 5,
         "content": "In immer mehr Schulen in Deutschland steht Fleisch seltener auf dem Speiseplan der Schulkantine. Viele Schulen bieten jetzt täglich vegetarische Gerichte an. Einige Schulen haben sich sogar entschieden, komplett auf Fleisch zu verzichten. Eltern und Schüler reagieren unterschiedlich auf die Änderung."
-      },
-      {
-        "id": 1,
-        "content": "- Açıklama: \"Immer mehr Frauen entscheiden sich für einen Beruf im Handwerk\" → (a) tam eşleşme. (b) \"Kleine Geschäfte\" aldatmaca; meslek konusu ama küçük işletme değil."
-      },
-      {
-        "id": 2,
-        "content": "- Açıklama: \"leiden unter der Konkurrenz durch Online-Händler\" ve \"Immer mehr Kunden bestellen... von zu Hause\" → (h) tam eşleşme. (b) \"Kleine Geschäfte kämpfen\" de yakın ama (h) çok daha doğrudan eşleşiyor."
-      },
-      {
-        "id": 3,
-        "content": "- Açıklama: \"Bücher online auswählen und bekommen sie per Post\" → (c) tam eşleşme. (i) \"Musik\" aldatmaca."
-      },
-      {
-        "id": 4,
-        "content": "- Açıklama: \"Sport unter freiem Himmel glücklicher macht\" ve \"besserer Stimmung\" → (d) tam eşleşme. (i) \"Musik verbessert die Stimmung\" aldatmaca; ruh hali konusu ama müzik değil spor."
-      },
-      {
-        "id": 5,
-        "content": "- Açıklama: \"Schulkantine... Fleisch seltener auf dem Speiseplan\" → (g) tam eşleşme. (e) \"Spielplätze\" aldatmaca; okul konusu ama oyun alanı değil kantin. Kullanılmayan (aldatmaca) başlıklar: b / e / f / i / j"
       }
     ],
     "answers": {
-      "1": "a"
+      "1": "a",
+      "2": "h",
+      "3": "c",
+      "4": "d",
+      "5": "g"
     },
     "explanations": {
-      "1": ""
+      "1": "",
+      "2": "\"leiden unter der Konkurrenz durch Online-Händler\" ve \"Immer mehr Kunden bestellen... von zu Hause\" → (h) tam eşleşme. (b) \"Kleine Geschäfte kämpfen\" de yakın ama (h) çok daha doğrudan eşleşiyor.",
+      "3": "\"Bücher online auswählen und bekommen sie per Post\" → (c) tam eşleşme. (i) \"Musik\" aldatmaca.",
+      "4": "\"Sport unter freiem Himmel glücklicher macht\" ve \"besserer Stimmung\" → (d) tam eşleşme. (i) \"Musik verbessert die Stimmung\" aldatmaca; ruh hali konusu ama müzik değil spor.",
+      "5": "\"Schulkantine... Fleisch seltener auf dem Speiseplan\" → (g) tam eşleşme. (e) \"Spielplätze\" aldatmaca; okul konusu ama oyun alanı değil kantin."
     }
   },
   {
@@ -507,33 +423,21 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       {
         "id": 5,
         "content": "Immer mehr Schulen in Deutschland stellen auf digitale Schulbücher um. Schüler können die Bücher auf Tablets oder Laptops lesen. Das spart Gewicht im Schulranzen und ermöglicht interaktive Inhalte. Nicht alle Eltern sind begeistert — einige sorgen sich um zu viel Bildschirmzeit."
-      },
-      {
-        "id": 1,
-        "content": "- Açıklama: \"alte Fabrik... wird jetzt zu einem Kulturzentrum umgebaut\" → (j) tam eşleşme. (a) \"Neue Brücke\" aldatmaca; yapı var ama köprü değil."
-      },
-      {
-        "id": 2,
-        "content": "- Açıklama: \"immer mehr Menschen auf die Bahn um\" ve \"Rekordzahlen bei den Fahrgästen\" → (b) tam eşleşme. (i) \"Fahrpreise steigen\" aldatmaca; fiyatlar metinde geçiyor ama başlık asıl fikri yanlış özetliyor — metinde tren yolcuları artıyor, araba sürücüleri değil."
-      },
-      {
-        "id": 3,
-        "content": "- Açıklama: \"Verpackungen, die man... essen kann\" ve \"Wissenschaftler arbeiten\" → (g) tam eşleşme. (d) \"Pfandsystem\" aldatmaca; ambalaj atığı konusu ama depozito sistemi değil."
-      },
-      {
-        "id": 4,
-        "content": "- Açıklama: \"zu wenige Erzieherinnen und Erzieher\" ve \"Kindergärten können nicht alle Plätze belegen\" → (c) tam eşleşme. (e) \"Sportvereine verlieren Mitglieder\" aldatmaca."
-      },
-      {
-        "id": 5,
-        "content": "- Açıklama: \"Schulen stellen auf digitale Schulbücher um\" → (h) tam eşleşme. (e) \"Sportvereine\" aldatmaca; okul var ama spor değil. Kullanılmayan (aldatmaca) başlıklar: a / d / e / f / i"
       }
     ],
     "answers": {
-      "1": "j"
+      "1": "j",
+      "2": "b",
+      "3": "g",
+      "4": "c",
+      "5": "h"
     },
     "explanations": {
-      "1": ""
+      "1": "",
+      "2": "\"immer mehr Menschen auf die Bahn um\" ve \"Rekordzahlen bei den Fahrgästen\" → (b) tam eşleşme. (i) \"Fahrpreise steigen\" aldatmaca; fiyatlar metinde geçiyor ama başlık asıl fikri yanlış özetliyor — metinde tren yolcuları artıyor, araba sürücüleri değil.",
+      "3": "\"Verpackungen, die man... essen kann\" ve \"Wissenschaftler arbeiten\" → (g) tam eşleşme. (d) \"Pfandsystem\" aldatmaca; ambalaj atığı konusu ama depozito sistemi değil.",
+      "4": "\"zu wenige Erzieherinnen und Erzieher\" ve \"Kindergärten können nicht alle Plätze belegen\" → (c) tam eşleşme. (e) \"Sportvereine verlieren Mitglieder\" aldatmaca.",
+      "5": "\"Schulen stellen auf digitale Schulbücher um\" → (h) tam eşleşme. (e) \"Sportvereine\" aldatmaca; okul var ama spor değil."
     }
   },
   {
@@ -574,33 +478,21 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       {
         "id": 5,
         "content": "Eine Berufsschule in Stuttgart hat ein neues Projekt gestartet: Schülerinnen und Schüler aus technischen Klassen bauen selbst kleine Roboter, die einfache Aufgaben erledigen können. Das Projekt soll das Interesse an Technik und Informatik wecken. Mehrere Unternehmen unterstützen das Projekt mit Material und Geld."
-      },
-      {
-        "id": 1,
-        "content": "- Açıklama: \"Kosten für Solaranlagen sind... gesunken\" ve \"Solarenergie wird... erschwinglicher\" → (e) tam eşleşme. (a) \"Kältewelle\" aldatmaca; enerji konusu ama soğuk hava değil güneş enerjisi."
-      },
-      {
-        "id": 2,
-        "content": "- Açıklama: \"kostenlose Kurse\" ve \"Yoga, Schwimmen und Volleyball\" → (i) tam eşleşme. (d) \"Wandern\" aldatmaca; spor var ama yürüyüş değil."
-      },
-      {
-        "id": 3,
-        "content": "- Açıklama: \"Wohngemeinschaft\" + \"verhindert Einsamkeit\" + \"Menschen ab 60\" → (j) tam eşleşme. (f) \"Pflegeheime\" aldatmaca; yaşlılar var ama bakım evi değil WG konusu."
-      },
-      {
-        "id": 4,
-        "content": "- Açıklama: \"Wandern... gesund ist\" ve \"Wandervereine melden steigende Mitgliederzahlen\" → (d) tam eşleşme. (i) \"Sportkurse\" aldatmaca; zaten Text 2'de kullanıldı."
-      },
-      {
-        "id": 5,
-        "content": "- Açıklama: \"Schülerinnen und Schüler... bauen selbst kleine Roboter\" → (g) tam eşleşme. (c) \"App hilft bei der Jobsuche\" aldatmaca; teknoloji var ama iş arama değil robotik konusu. Kullanılmayan (aldatmaca) başlıklar: a / b / c / f / h"
       }
     ],
     "answers": {
-      "1": "e"
+      "1": "e",
+      "2": "i",
+      "3": "j",
+      "4": "d",
+      "5": "g"
     },
     "explanations": {
-      "1": ""
+      "1": "",
+      "2": "\"kostenlose Kurse\" ve \"Yoga, Schwimmen und Volleyball\" → (i) tam eşleşme. (d) \"Wandern\" aldatmaca; spor var ama yürüyüş değil.",
+      "3": "\"Wohngemeinschaft\" + \"verhindert Einsamkeit\" + \"Menschen ab 60\" → (j) tam eşleşme. (f) \"Pflegeheime\" aldatmaca; yaşlılar var ama bakım evi değil WG konusu.",
+      "4": "\"Wandern... gesund ist\" ve \"Wandervereine melden steigende Mitgliederzahlen\" → (d) tam eşleşme. (i) \"Sportkurse\" aldatmaca; zaten Text 2'de kullanıldı.",
+      "5": "\"Schülerinnen und Schüler... bauen selbst kleine Roboter\" → (g) tam eşleşme. (c) \"App hilft bei der Jobsuche\" aldatmaca; teknoloji var ama iş arama değil robotik konusu."
     }
   },
   {
@@ -641,33 +533,21 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       {
         "id": 5,
         "content": "Medienpädagogen geben Eltern Tipps, wie Kinder verantwortungsvoll mit Tablets und Smartphones umgehen lernen. Wichtig sei, klare Regeln für die Bildschirmzeit zu setzen. Außerdem sollten Kinder nicht direkt vor dem Schlafen auf Bildschirme schauen. Gemeinsame Aktivitäten ohne Geräte seien ebenso wichtig."
-      },
-      {
-        "id": 1,
-        "content": "- Açıklama: \"alle Produkte ohne Plastikverpackungen\" ve \"Eröffnung\" → (e) tam eşleşme. (a) \"Neue Wohnungen\" aldatmaca; yeni açılış var ama konut değil market."
-      },
-      {
-        "id": 2,
-        "content": "- Açıklama: \"Sicherheit auf den Wegen... zur Schule\" ve \"fordern\" → (g) tam eşleşme. (i) \"Kinder und Bildschirme\" aldatmaca; çocuk ve okul var ama trafik güvenliği konusu."
-      },
-      {
-        "id": 3,
-        "content": "- Açıklama: \"Tierheim... sucht dringend Freiwillige\" → (b) tam eşleşme. (j) \"Werbung im Radio\" aldatmaca."
-      },
-      {
-        "id": 4,
-        "content": "- Açıklama: \"Urlaub auf einem Bauernhof\" ve \"ausgebuchten Sommern\" → (d) tam eşleşme. (f) \"Reisen mit dem Zug\" aldatmaca; tatil var ama tren yolculuğu değil."
-      },
-      {
-        "id": 5,
-        "content": "- Açıklama: \"Tipps, wie Kinder... mit Tablets und Smartphones umgehen\" ve \"Medienpädagogen\" → (i) tam eşleşme. (c) \"Instrument lernen\" aldatmaca; çocuk var ama müzik değil ekran konusu. Kullanılmayan (aldatmaca) başlıklar: a / c / f / h / j"
       }
     ],
     "answers": {
-      "1": "e"
+      "1": "e",
+      "2": "g",
+      "3": "b",
+      "4": "d",
+      "5": "i"
     },
     "explanations": {
-      "1": ""
+      "1": "",
+      "2": "\"Sicherheit auf den Wegen... zur Schule\" ve \"fordern\" → (g) tam eşleşme. (i) \"Kinder und Bildschirme\" aldatmaca; çocuk ve okul var ama trafik güvenliği konusu.",
+      "3": "\"Tierheim... sucht dringend Freiwillige\" → (b) tam eşleşme. (j) \"Werbung im Radio\" aldatmaca.",
+      "4": "\"Urlaub auf einem Bauernhof\" ve \"ausgebuchten Sommern\" → (d) tam eşleşme. (f) \"Reisen mit dem Zug\" aldatmaca; tatil var ama tren yolculuğu değil.",
+      "5": "\"Tipps, wie Kinder... mit Tablets und Smartphones umgehen\" ve \"Medienpädagogen\" → (i) tam eşleşme. (c) \"Instrument lernen\" aldatmaca; çocuk var ama müzik değil ekran konusu."
     }
   },
   {
@@ -708,33 +588,21 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       {
         "id": 5,
         "content": "Ärzte und Forscher arbeiten an neuen Methoden, um Krankheiten wie Krebs oder Diabetes früher zu erkennen. Mit Hilfe von künstlicher Intelligenz können Bluttests und Röntgenbilder schneller und genauer ausgewertet werden. Experten sagen, dass eine frühe Diagnose die Heilungschancen deutlich verbessert."
-      },
-      {
-        "id": 1,
-        "content": "- Açıklama: \"Bürger aktiv mitentscheiden\" ve \"Anwohner diskutieren\" → (i) tam eşleşme. (d) \"Mehr Grünflächen\" aldatmaca; Spielplatz ve Blumenbeete var ama ana fikir vatandaş katılımı."
-      },
-      {
-        "id": 2,
-        "content": "- Açıklama: \"alte graue Hauswände... von lokalen Künstlern bunt bemalt\" → (f) tam eşleşme. (d) \"Grünflächen\" aldatmaca; şehir güzelleştirme var ama yeşil alan değil sanat konusu."
-      },
-      {
-        "id": 3,
-        "content": "- Açıklama: \"Neue intelligente Ampeln\" ve \"Zahl der Unfälle ist gesunken\" → (g) tam eşleşme. (c) \"Parkgebühren\" aldatmaca; trafik var ama otopark ücreti değil."
-      },
-      {
-        "id": 4,
-        "content": "- Açıklama: \"bepflanzen ihre Gebäudedächer\" ve \"Gründächer\" → (j) tam eşleşme. (d) \"Stadtteile bekommen mehr Grünflächen\" aldatmaca; yeşil alan var ama çatı bahçesi tam eşleşme."
-      },
-      {
-        "id": 5,
-        "content": "- Açıklama: \"Krankheiten... früher zu erkennen\" ve \"künstlicher Intelligenz\" → (a) tam eşleşme. (e) \"Kochkurs\" aldatmaca. Kullanılmayan (aldatmaca) başlıklar: b / c / d / e / h"
       }
     ],
     "answers": {
-      "1": "i"
+      "1": "i",
+      "2": "f",
+      "3": "g",
+      "4": "j",
+      "5": "a"
     },
     "explanations": {
-      "1": ""
+      "1": "",
+      "2": "\"alte graue Hauswände... von lokalen Künstlern bunt bemalt\" → (f) tam eşleşme. (d) \"Grünflächen\" aldatmaca; şehir güzelleştirme var ama yeşil alan değil sanat konusu.",
+      "3": "\"Neue intelligente Ampeln\" ve \"Zahl der Unfälle ist gesunken\" → (g) tam eşleşme. (c) \"Parkgebühren\" aldatmaca; trafik var ama otopark ücreti değil.",
+      "4": "\"bepflanzen ihre Gebäudedächer\" ve \"Gründächer\" → (j) tam eşleşme. (d) \"Stadtteile bekommen mehr Grünflächen\" aldatmaca; yeşil alan var ama çatı bahçesi tam eşleşme.",
+      "5": "\"Krankheiten... früher zu erkennen\" ve \"künstlicher Intelligenz\" → (a) tam eşleşme. (e) \"Kochkurs\" aldatmaca."
     }
   },
   {
@@ -775,33 +643,21 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       {
         "id": 5,
         "content": "Immer mehr Menschen backen in ihrer Freizeit Brot, Kuchen und Kekse selbst. Besonders während der Corona-Pandemie hat dieser Trend stark zugenommen. Viele sagen, Backen sei entspannend und mache stolz. Online-Rezepte und Backkurse in Volkshochschulen sind sehr beliebt."
-      },
-      {
-        "id": 1,
-        "content": "- Açıklama: \"Elektroautos werden... immer günstiger\" ve \"ab 20.000 Euro erhältlich\" → (d) tam eşleşme. (a) \"Rekordhitze\" aldatmaca."
-      },
-      {
-        "id": 2,
-        "content": "- Açıklama: \"kurze Pausen macht\" ve \"Stresspegel zu senken\" → (g) tam eşleşme. (e) \"kürzere Ferien\" aldatmaca; zaman kısaltma var ama iş hayatı paus konusu."
-      },
-      {
-        "id": 3,
-        "content": "- Açıklama: \"Fußgängerzonen erweitern\" ve \"Stadtplaner\" → (i) tam eşleşme. (f) \"Häuser bauen\" aldatmaca."
-      },
-      {
-        "id": 4,
-        "content": "- Açıklama: \"Wissenschaftler haben untersucht, ob Lachen gesund ist\" ve \"Humor zeigen... stärkeres Immunsystem\" → (h) tam eşleşme. (b) \"Schule auf dem Schiff\" aldatmaca."
-      },
-      {
-        "id": 5,
-        "content": "- Açıklama: \"backen in ihrer Freizeit Brot, Kuchen... selbst\" ve \"dieser Trend stark zugenommen\" → (c) tam eşleşme. (j) \"Erste-Hilfe-Kurs\" aldatmaca; kurs var ama ilk yardım değil fırın konusu. Kullanılmayan (aldatmaca) başlıklar: a / b / e / f / j"
       }
     ],
     "answers": {
-      "1": "d"
+      "1": "d",
+      "2": "g",
+      "3": "i",
+      "4": "h",
+      "5": "c"
     },
     "explanations": {
-      "1": ""
+      "1": "",
+      "2": "\"kurze Pausen macht\" ve \"Stresspegel zu senken\" → (g) tam eşleşme. (e) \"kürzere Ferien\" aldatmaca; zaman kısaltma var ama iş hayatı paus konusu.",
+      "3": "\"Fußgängerzonen erweitern\" ve \"Stadtplaner\" → (i) tam eşleşme. (f) \"Häuser bauen\" aldatmaca.",
+      "4": "\"Wissenschaftler haben untersucht, ob Lachen gesund ist\" ve \"Humor zeigen... stärkeres Immunsystem\" → (h) tam eşleşme. (b) \"Schule auf dem Schiff\" aldatmaca.",
+      "5": "\"backen in ihrer Freizeit Brot, Kuchen... selbst\" ve \"dieser Trend stark zugenommen\" → (c) tam eşleşme. (j) \"Erste-Hilfe-Kurs\" aldatmaca; kurs var ama ilk yardım değil fırın konusu."
     }
   }
 ];
