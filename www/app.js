@@ -1674,6 +1674,11 @@ function showScreen(screenId) {
   // Render specific screen content
   if (screenId === "home") {
     renderHomeScreen();
+  } else if (screenId === "exercises") {
+    const subtitle = document.getElementById("exercises-subtitle");
+    if (subtitle) {
+      subtitle.textContent = `${state.activeLevel} seviyesinde pratik yaparak bilgilerinizi pekiştirin.`;
+    }
   } else if (screenId === "sitemap") {
     renderSitemapScreen();
   } else if (screenId === "verben-prep-dashboard") {
