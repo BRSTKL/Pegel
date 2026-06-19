@@ -4629,6 +4629,25 @@ function renderSprachbausteineScreen() {
     instructionText.textContent = exercise.instruction || "Markieren Sie Ihre Lösungen für die Aufgaben 21–30 auf dem Antwortbogen.";
   }
   
+  const tipsContent = document.getElementById("sprachbausteine-tips-content");
+  if (tipsContent) {
+    if (isTeil2) {
+      tipsContent.innerHTML = `
+        <p>1. Önce <b>mektubun konusunu</b> ve genel akışını anlamak için baştan sona hızlıca okuyun.</p>
+        <p>2. Kelime havuzundaki (a-o) kelimelerin türlerini (isim, fiil, edat, bağlaç vb.) belirleyin.</p>
+        <p>3. Her boşluğa hangi kelime türünün geleceğini analiz edin (örneğin edattan sonra Dativ alan bir isim veya mektup başındaki hitap kelimesi).</p>
+        <p>4. Kullandığınız kelimeleri havuzdan eleyerek seçenek sayısını azaltın.</p>
+      `;
+    } else {
+      tipsContent.innerHTML = `
+        <p>1. Önce <b>mektubu</b> boşlukları dikkate almadan hızlıca okuyarak genel konuyu anlayın.</p>
+        <p>2. Her boşluğun öncesindeki ve sonrasındaki kelimeleri (özellikle edatlar, artikeller ve fiil çekimleri) analiz edin.</p>
+        <p>3. Bağlaçların (weil, dass, wenn, ob vb.) yan cümle kurallarına ve fiilin sonda olma kuralına dikkat edin.</p>
+        <p>4. Seçenekler arasındaki dil bilgisi farklarını (Akkusativ/Dativ çekimleri, tekil/çoğul uyumu) karşılaştırın.</p>
+      `;
+    }
+  }
+  
   const letterContainer = document.querySelector(".letter-container");
   if (letterContainer) {
     let textHtml = exercise.text.replace(/\((\d+)\)/g, (match, num) => {
