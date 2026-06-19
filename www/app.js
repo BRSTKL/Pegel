@@ -1744,18 +1744,19 @@ let progressRiveInput = null;
 
 // ================= SITEMAP ANIMATIONS ENGINE =================
 const SITEMAP_ANIMATION_FILES = [
+  { name: "boy.riv" },
   { name: "bunny.riv" },
-  { name: "cat-playing-animation.riv", stateMachine: "State Machine 1" },
+  { name: "cat-character.riv" },
   { name: "cat_animation.riv" },
   { name: "cat_animation_2.riv" },
+  { name: "client.riv" },
   { name: "handshake.riv" },
   { name: "happy-dog.riv" },
   { name: "house.riv" },
-  { name: "octo.riv", stateMachine: "State Machine 1" },
+  { name: "octo.riv" },
   { name: "pirate.riv" },
+  { name: "slap-the-pudding.riv" },
   { name: "teddy.riv" },
-  { name: "wasser.riv" },
-  { name: "wolf.riv" },
   { name: "x-mas-star.riv" }
 ];
 
