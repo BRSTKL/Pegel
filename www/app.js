@@ -729,23 +729,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   if (isLoggedIn) {
     // Show main app
     if (bottomNav) bottomNav.classList.remove("hidden");
-    // Safe fallback for volatile screen states on page reload
-    let startScreen = state.currentScreen;
-    const volatileScreens = {
-      "lesson": "sitemap",
-      "lesson-quiz": "sitemap",
-      "leseverstehen-play": "leseverstehen-parts",
-      "sprachbausteine-play": "sprachbausteine-parts",
-      "verben-prep-quiz": "verben-prep-dashboard",
-      "quiz": "exercises",
-      "fillblanks-play": "exercises",
-      "flashcard-play": "exercises",
-      "login": "home"
-    };
-    if (volatileScreens[startScreen]) {
-      startScreen = volatileScreens[startScreen];
-    }
-    showScreen(startScreen);
+    showScreen("home");
   } else {
     // Show login screen
     if (bottomNav) bottomNav.classList.add("hidden");
