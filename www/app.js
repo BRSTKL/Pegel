@@ -6114,7 +6114,11 @@ function sanitizeSentence(s) {
 }
 
 function checkSentenceBuilderAnswer() {
-  const q = activeLessonQuizQuestions[lessonQuizCurrentIndex];
+  const isGlobalQuiz = state.currentScreen === "quiz";
+  const q = isGlobalQuiz 
+    ? activeQuizQuestions[currentQuestionIndex] 
+    : activeLessonQuizQuestions[lessonQuizCurrentIndex];
+    
   const checkBtn = document.getElementById("sentence-builder-check-btn");
   const zone = document.getElementById("sentence-builder-zone");
   const scrambledContainer = document.getElementById("scrambled-words-container");
@@ -6133,8 +6137,10 @@ function checkSentenceBuilderAnswer() {
   // Check if it matches any correct answers
   const isCorrect = q.correctAnswers.some(ans => sanitizeSentence(ans) === sanitizedUser);
   
-  lessonQuizCorrectStates[lessonQuizCurrentIndex] = isCorrect;
-  lessonQuizAnswersText[lessonQuizCurrentIndex] = userStr;
+  if (!isGlobalQuiz) {
+    lessonQuizCorrectStates[lessonQuizCurrentIndex] = isCorrect;
+    lessonQuizAnswersText[lessonQuizCurrentIndex] = userStr;
+  }
   
   if (isCorrect) {
     zone.style.borderColor = "#22c55e";
@@ -6142,6 +6148,10 @@ function checkSentenceBuilderAnswer() {
     checkBtn.innerHTML = `<i class="ti ti-circle-check-filled" style="font-size: 18px;"></i> Doğru!`;
     checkBtn.style.backgroundColor = "#22c55e";
     checkBtn.style.borderColor = "#22c55e";
+    if (isGlobalQuiz) {
+      correctAnswersCount++;
+      state.xp += 10;
+    }
     playSound("true");
   } else {
     zone.style.borderColor = "#ef4444";
@@ -6156,20 +6166,33 @@ function checkSentenceBuilderAnswer() {
     explanation.innerHTML = `<p style="margin: 0 0 6px 0; font-weight: 700;">Doğru Cevap(lar):</p>` + q.correctAnswers.map(ans => `<p style="margin: 3px 0 0 0;">✨ ${ans}</p>`).join("");
     zone.parentNode.insertBefore(explanation, checkBtn.nextSibling);
     
-    lessonQuizLives--;
-    renderLessonQuizLives();
+    if (!isGlobalQuiz) {
+      lessonQuizLives--;
+      renderLessonQuizLives();
+    }
     playSound("false");
   }
   
+  saveState();
+  
   setTimeout(() => {
-    if (lessonQuizLives <= 0) {
-      finishLessonQuiz(false);
-    } else {
-      lessonQuizCurrentIndex++;
-      if (lessonQuizCurrentIndex >= activeLessonQuizQuestions.length) {
-        finishLessonQuiz(true);
+    if (isGlobalQuiz) {
+      currentQuestionIndex++;
+      if (currentQuestionIndex < activeQuizQuestions.length) {
+        renderQuizQuestion();
       } else {
-        renderLessonQuizQuestion();
+        finishQuiz();
+      }
+    } else {
+      if (lessonQuizLives <= 0) {
+        finishLessonQuiz(false);
+      } else {
+        lessonQuizCurrentIndex++;
+        if (lessonQuizCurrentIndex >= activeLessonQuizQuestions.length) {
+          finishLessonQuiz(true);
+        } else {
+          renderLessonQuizQuestion();
+        }
       }
     }
   }, isCorrect ? 1500 : 3500);
