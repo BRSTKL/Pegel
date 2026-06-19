@@ -2688,7 +2688,7 @@ function showLessonPreview(lesson, status) {
   readBtn.innerHTML = `<i class="ti ti-book-open"></i> Dersi Oku`;
   readBtn.addEventListener("click", () => {
     overlay.classList.add("hidden");
-    openLesson(lesson, "home");
+    openLesson(lesson, "sitemap");
   });
   actions.appendChild(readBtn);
   
@@ -2701,7 +2701,7 @@ function showLessonPreview(lesson, status) {
     quizBtn.innerHTML = `<i class="ti ti-pencil"></i> Sınava Başla`;
     quizBtn.addEventListener("click", () => {
       overlay.classList.add("hidden");
-      state.quizReferrer = "home";
+      state.quizReferrer = "sitemap";
       saveState();
       startLessonQuiz(lesson);
     });
