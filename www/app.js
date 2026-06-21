@@ -1644,16 +1644,20 @@ function showScreen(screenId) {
     
     // Reset scroll positions of parent containers (.app-content, body, window)
     const appContent = document.querySelector(".app-content");
-    if (appContent) {
+    if (appContent && screenId !== "sitemap") {
       appContent.scrollTop = 0;
     }
-    window.scrollTo(0, 0);
+    if (screenId !== "sitemap") {
+      window.scrollTo(0, 0);
+    }
 
     // Reset scroll positions of the target screen and all inner elements
-    targetScreen.scrollTop = 0;
-    targetScreen.querySelectorAll("*").forEach(el => {
-      el.scrollTop = 0;
-    });
+    if (screenId !== "sitemap") {
+      targetScreen.scrollTop = 0;
+      targetScreen.querySelectorAll("*").forEach(el => {
+        el.scrollTop = 0;
+      });
+    }
   }
   
   // Toggle bottom nav visibility - hide on login screen
