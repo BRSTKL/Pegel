@@ -5530,113 +5530,138 @@ function updateB2CheckButtonState() {
 }
 
 function openB2GapPicker(gapNum, event) {
-  if (b2Checked) return;
-  if (event) event.stopPropagation(); // prevent closing menu immediately on click
-  
-  b2ActiveGap = gapNum;
-  b2TempSelectedOption = b2Answers[gapNum] || null;
-  
-  const gapEl = document.getElementById(`b2-gap-${gapNum}`);
-  if (!gapEl) return;
-  
-  // Highlight active gap visually in UI
-  let startRange = b2QuizPart === 1 ? 1 : 6;
-  let endRange = b2QuizPart === 1 ? 5 : 10;
-  for (let i = startRange; i <= endRange; i++) {
-    const el = document.getElementById(`b2-gap-${i}`);
-    if (el) {
-      if (i === gapNum) {
-        el.className = "quiz-letter-gap active";
-      } else {
-        el.className = b2Answers[i] ? "quiz-letter-gap answered" : "quiz-letter-gap pending";
+  try {
+    if (b2Checked) return;
+    if (event) event.stopPropagation(); // prevent closing menu immediately on click
+    
+    b2ActiveGap = gapNum;
+    b2TempSelectedOption = b2Answers[gapNum] || null;
+    
+    const gapEl = document.getElementById(`b2-gap-${gapNum}`);
+    if (!gapEl) {
+      alert(`Hata: b2-gap-${gapNum} elementi bulunamadı.`);
+      return;
+    }
+    
+    // Highlight active gap visually in UI
+    let startRange = b2QuizPart === 1 ? 1 : 6;
+    let endRange = b2QuizPart === 1 ? 5 : 10;
+    for (let i = startRange; i <= endRange; i++) {
+      const el = document.getElementById(`b2-gap-${i}`);
+      if (el) {
+        if (i === gapNum) {
+          el.className = "quiz-letter-gap active";
+        } else {
+          el.className = b2Answers[i] ? "quiz-letter-gap answered" : "quiz-letter-gap pending";
+        }
       }
     }
-  }
-  
-  // Get options for this gap
-  const q = activeB2Quiz.questions[gapNum - 1];
-  const options = q.options;
-  
-  const menu = document.getElementById("b2-inline-menu");
-  if (!menu) return;
-  
-  // Render options inside the popover
-  menu.innerHTML = options.map(opt => {
-    const isSelected = opt === b2TempSelectedOption;
-    const selectedClass = isSelected ? "selected" : "";
-    return `<div class="b2-inline-menu-item ${selectedClass}" onclick="selectB2InlineOption('${opt}', event)">${opt}</div>`;
-  }).join("");
-  
-  // Show menu temporarily to get dimensions
-  menu.classList.remove("hidden");
-  menu.style.display = "flex";
-  
-  // Position it
-  positionB2InlineMenu(gapNum);
-  
-  // Close menu on click outside, deferred to avoid immediate close due to event propagation
-  setTimeout(() => {
-    if (b2ActiveGap === gapNum) {
-      document.onclick = (e) => {
-        if (!menu.contains(e.target) && e.target !== gapEl) {
-          closeB2InlineMenu();
+    
+    // Get options for this gap
+    if (!activeB2Quiz) {
+      alert("Hata: activeB2Quiz tanımlı değil.");
+      return;
+    }
+    const q = activeB2Quiz.questions[gapNum - 1];
+    if (!q) {
+      alert(`Hata: Soru ${gapNum - 1} veritabanında bulunamadı.`);
+      return;
+    }
+    const options = q.options;
+    
+    const menu = document.getElementById("b2-inline-menu");
+    if (!menu) {
+      alert("Hata: #b2-inline-menu elementi bulunamadı.");
+      return;
+    }
+    
+    // Render options inside the popover
+    menu.innerHTML = options.map(opt => {
+      const isSelected = opt === b2TempSelectedOption;
+      const selectedClass = isSelected ? "selected" : "";
+      return `<div class="b2-inline-menu-item ${selectedClass}" onclick="selectB2InlineOption('${opt}', event)">${opt}</div>`;
+    }).join("");
+    
+    // Show menu temporarily to get dimensions
+    menu.classList.remove("hidden");
+    menu.style.display = "flex";
+    
+    // Position it
+    positionB2InlineMenu(gapNum);
+    
+    // Close menu on click outside, deferred to avoid immediate close due to event propagation
+    setTimeout(() => {
+      if (b2ActiveGap === gapNum) {
+        document.onclick = (e) => {
+          if (!menu.contains(e.target) && e.target !== gapEl) {
+            closeB2InlineMenu();
+          }
+        };
+      }
+    }, 100);
+    
+    // Recalculate on scroll inside the preview block
+    const previewScrollContainer = document.querySelector(".quiz-letter-preview");
+    if (previewScrollContainer) {
+      previewScrollContainer.onscroll = () => {
+        if (b2ActiveGap && !menu.classList.contains("hidden")) {
+          positionB2InlineMenu(b2ActiveGap);
         }
       };
     }
-  }, 100);
-  
-  // Recalculate on scroll inside the preview block
-  const previewScrollContainer = document.querySelector(".quiz-letter-preview");
-  if (previewScrollContainer) {
-    previewScrollContainer.onscroll = () => {
-      if (b2ActiveGap && !menu.classList.contains("hidden")) {
-        positionB2InlineMenu(b2ActiveGap);
-      }
-    };
+  } catch (err) {
+    alert("openB2GapPicker Hatası: " + err.message);
   }
 }
 
 function positionB2InlineMenu(gapNum) {
-  const gapEl = document.getElementById(`b2-gap-${gapNum}`);
-  const menu = document.getElementById("b2-inline-menu");
-  const container = document.querySelector(".app-container");
-  if (!gapEl || !menu || !container) return;
+  try {
+    const gapEl = document.getElementById(`b2-gap-${gapNum}`);
+    const menu = document.getElementById("b2-inline-menu");
+    const container = document.querySelector(".app-container");
+    if (!gapEl || !menu || !container) {
+      alert(`positionB2InlineMenu Eksik Element Hatası: gapEl=${!!gapEl}, menu=${!!menu}, container=${!!container}`);
+      return;
+    }
 
-  const rect = gapEl.getBoundingClientRect();
-  const containerRect = container.getBoundingClientRect();
-  const menuRect = menu.getBoundingClientRect();
-  const viewportWidth = containerRect.width;
-  const viewportHeight = containerRect.height;
+    const rect = gapEl.getBoundingClientRect();
+    const containerRect = container.getBoundingClientRect();
+    const menuRect = menu.getBoundingClientRect();
+    const viewportWidth = containerRect.width;
+    const viewportHeight = containerRect.height;
 
-  // Calculate positioning relative to .app-container
-  let top = rect.bottom - containerRect.top + 6; // default: below gap
-  let left = rect.left - containerRect.left;
-  let arrowClass = "arrow-top";
+    // Calculate positioning relative to .app-container
+    let top = rect.bottom - containerRect.top + 6; // default: below gap
+    let left = rect.left - containerRect.left;
+    let arrowClass = "arrow-top";
 
-  // If it goes off the bottom of the container, place it above the gap
-  const menuHeight = menuRect.height || 120;
-  const rectBottomRelative = rect.bottom - containerRect.top;
-  if (rectBottomRelative + menuHeight + 20 > viewportHeight) {
-    top = rect.top - containerRect.top - menuHeight - 6;
-    arrowClass = "arrow-bottom";
+    // If it goes off the bottom of the container, place it above the gap
+    const menuHeight = menuRect.height || 120;
+    const rectBottomRelative = rect.bottom - containerRect.top;
+    if (rectBottomRelative + menuHeight + 20 > viewportHeight) {
+      top = rect.top - containerRect.top - menuHeight - 6;
+      arrowClass = "arrow-bottom";
+    }
+
+    // Keep it within horizontal bounds of container
+    if (left + menuRect.width > viewportWidth - 10) {
+      left = viewportWidth - menuRect.width - 10;
+    }
+    if (left < 10) {
+      left = 10;
+    }
+
+    // Update arrow position to point directly to the center of the gap element
+    const gapCenterRelative = (rect.left + rect.width / 2) - containerRect.left - left;
+    menu.style.setProperty("--arrow-left", `${Math.max(10, Math.min(menuRect.width - 20, gapCenterRelative))}px`);
+
+    // Apply styles
+    menu.style.top = `${top}px`;
+    menu.style.left = `${left}px`;
+    menu.className = `b2-inline-menu visible ${arrowClass}`;
+  } catch (err) {
+    alert("positionB2InlineMenu Hatası: " + err.message);
   }
-
-  // Keep it within horizontal bounds of container
-  if (left + menuRect.width > viewportWidth - 10) {
-    left = viewportWidth - menuRect.width - 10;
-  }
-  if (left < 10) {
-    left = 10;
-  }
-
-  // Update arrow position to point directly to the center of the gap element
-  const gapCenterRelative = (rect.left + rect.width / 2) - containerRect.left - left;
-  menu.style.setProperty("--arrow-left", `${Math.max(10, Math.min(menuRect.width - 20, gapCenterRelative))}px`);
-
-  // Apply styles
-  menu.style.top = `${top}px`;
-  menu.style.left = `${left}px`;
-  menu.className = `b2-inline-menu visible ${arrowClass}`;
 }
 
 function selectB2InlineOption(optionText, event) {
