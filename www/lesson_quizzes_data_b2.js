@@ -6025,5 +6025,1184 @@ const LESSON_QUIZZES_B2 = {
         "correct": 3
       }
     ]
+  },
+  "syntax_tekamolo": {
+    "teil1Text": "Betreff: Meine Reisepläne\n\nLiebe Sibel,\n\nich wollte dir kurz von meiner Dienstreise berichten. Ich fahre (1) wegen der Arbeit nach Berlin. Da die Flüge teuer waren, reise ich am Freitag aus Kostengründen (2) mit der Bahn.\n\nMein Kollege Herr Mayer fliegt hingegen (3) geschäftlich erster Klasse nach Tegel. Er mag Zugfahrten leider gar nicht.\n\nWir treffen uns dann am Montag aus organisatorischen Gründen pünktlich (4) am Hauptbahnhof. Hoffentlich läuft alles nach Plan.\n\nIch melde mich dann am Dienstag wegen des Berichts telefonisch (5) bei dir.\n\nLiebe Grüße\nMurat\n",
+    "teil2Text": "Betreff: Vorbereitung auf die Präsentation\n\nLieber Thomas,\n\nwir müssen uns dringend auf das Meeting vorbereiten. Wir wollen uns (6)wegen des Projekts im Konferenzraum treffen.\n\nUnsere Kollegin Julia ist gestern (7)mit dem Auto zur Arbeit gekommen, um die Unterlagen rechtzeitig abzugeben.\n\nIch habe gestern aus diesem Grund (8)mit dem Chef gesprochen, um grünes Licht zu bekommen.\n\nWir sollten das Konzept morgen aus Sicherheitsgründen (9)prüfen, damit keine Fehler entstehen.\n\nBitte bring die Dokumente am Montag einfach (10)mit ins Büro.\n\nViele Grüße\nElif\n",
+    "questions": [
+      {
+        "question": "Ich fahre (1) _____ wegen der Arbeit nach Berlin.",
+        "options": [
+          "morgen",
+          "dorthin",
+          "fleißig"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Da die Flüge teuer waren, reise ich am Freitag aus Kostengründen (2) _____ mit der Bahn.",
+        "options": [
+          "gemütlich",
+          "gestern",
+          "dort"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Mein Kollege Herr Mayer fliegt hingegen (3) _____ geschäftlich erster Klasse nach Tegel.",
+        "options": [
+          "heute",
+          "dort",
+          "schnell"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Wir treffen uns dann am Montag aus organisatorischen Gründen pünktlich (4) _____ am Hauptbahnhof.",
+        "options": [
+          "im hotel",
+          "morgens",
+          "sofort"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Ich melde mich dann am Dienstag wegen des Berichts telefonisch (5) _____ bei dir.",
+        "options": [
+          "aus dem hotel",
+          "gestern",
+          "gerne"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Wir wollen uns (6) _____ wegen des Projekts im Konferenzraum treffen.",
+        "options": [
+          "am wochenende",
+          "aus zeitnot",
+          "persönlich",
+          "nochmals",
+          "direkt",
+          "schnell",
+          "gestern",
+          "wegen",
+          "dort",
+          "deshalb"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Unsere Kollegin Julia ist gestern (7) _____ mit dem Auto zur Arbeit gekommen, um die Unterlagen rechtzeitig abzugeben.",
+        "options": [
+          "am wochenende",
+          "aus zeitnot",
+          "persönlich",
+          "nochmals",
+          "direkt",
+          "schnell",
+          "gestern",
+          "wegen",
+          "dort",
+          "deshalb"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Ich habe gestern aus diesem Grund (8) _____ mit dem Chef gesprochen, um grünes Licht zu bekommen.",
+        "options": [
+          "am wochenende",
+          "aus zeitnot",
+          "persönlich",
+          "nochmals",
+          "direkt",
+          "schnell",
+          "gestern",
+          "wegen",
+          "dort",
+          "deshalb"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Wir sollten das Konzept morgen aus Sicherheitsgründen (9) _____ prüfen, damit keine Fehler entstehen.",
+        "options": [
+          "am wochenende",
+          "aus zeitnot",
+          "persönlich",
+          "nochmals",
+          "direkt",
+          "schnell",
+          "gestern",
+          "wegen",
+          "dort",
+          "deshalb"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "Bitte bring die Dokumente am Montag einfach (10) _____ mit ins Büro.",
+        "options": [
+          "am wochenende",
+          "aus zeitnot",
+          "persönlich",
+          "nochmals",
+          "direkt",
+          "schnell",
+          "gestern",
+          "wegen",
+          "dort",
+          "deshalb"
+        ],
+        "correct": 4
+      }
+    ]
+  },
+  "konn_sowohl_als_auch": {
+    "teil1Text": "Betreff: Meine Bewerbung und Weiterbildung\n\nLiebe Frau Weber,\n\nich interessiere mich sehr für die ausgeschriebene Stelle, da ich sowohl die praktischen Erfahrungen als (1) die theoretischen Qualifikationen mitbringe.\n\nIn meinem letzten Job war benutzte ich sowohl Deutsch (2) Englisch täglich bei Verhandlungen mit Kunden.\n\nSowohl das Arbeitsklima in Ihrem Team als (3) die flexiblen Arbeitszeiten entsprechen voll und ganz meinen Vorstellungen.\n\nIch besitze sowohl Kompetenzen im Projektmanagement als (4) im Bereich Marketing, was mir bei dieser Position helfen würde.\n\nGerne stehe ich Ihnen sowohl für ein persönliches Gespräch als (5) für ein Telefonat zur Verfügung.\n\nMit freundlichen Grüßen\nDeniz Yılmaz\n",
+    "teil2Text": "Betreff: Neues Weiterbildungsprogramm\n\nLiebe Kolleginnen und Kollegen,\n\nwir freuen uns, Ihnen unser neues Weiterbildungsprogramm vorstellen zu dürfen. Wir bieten (6)fachliche Fortbildungen als auch Sprachkurse an.\n\nDieses Angebot ist sowohl für neue Mitarbeiter als (7)für langjährige Teammitglieder hervorragend geeignet.\n\nDa wir die Kurse für alle anbieten wollen, möchten wir weder an der Qualität sparen, (8)die Teilnahmegebühren für Sie erhöhen.\n\nEs gibt zwar feste Termine in Präsenz, (9)wir bieten auch flexible Online-Optionen an.\n\nSie können sich entweder über das Intranet (10)direkt per E-Mail für die Kurse anmelden.\n\nViele Grüße\nDie Personalabteilung\n",
+    "questions": [
+      {
+        "question": "Betreff: Meine Bewerbung und Weiterbildung Liebe Frau Weber, ich interessiere mich sehr für die ausgeschriebene Stelle, da ich sowohl die praktischen Erfahrungen als (1) _____ die theoretischen Qualifikationen mitbringe.",
+        "options": [
+          "auch",
+          "noch",
+          "sondern"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "In meinem letzten Job war benutzte ich sowohl Deutsch (2) _____ Englisch täglich bei Verhandlungen mit Kunden.",
+        "options": [
+          "aber",
+          "als auch",
+          "sondern"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Sowohl das Arbeitsklima in Ihrem Team als (3) _____ die flexiblen Arbeitszeiten entsprechen voll und ganz meinen Vorstellungen.",
+        "options": [
+          "wie",
+          "sondern",
+          "auch"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Ich besitze sowohl Kompetenzen im Projektmanagement als (4) _____ im Bereich Marketing, was mir bei dieser Position helfen würde.",
+        "options": [
+          "noch",
+          "auch",
+          "oder"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Gerne stehe ich Ihnen sowohl für ein persönliches Gespräch als (5) _____ für ein Telefonat zur Verfügung.",
+        "options": [
+          "auch",
+          "sondern",
+          "aber"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Wir bieten (6) _____ fachliche Fortbildungen als auch Sprachkurse an.",
+        "options": [
+          "als",
+          "auch",
+          "entweder",
+          "oder",
+          "weder",
+          "noch",
+          "zwar",
+          "aber",
+          "sondern",
+          "sowohl"
+        ],
+        "correct": 9
+      },
+      {
+        "question": "Dieses Angebot ist sowohl für neue Mitarbeiter als (7) _____ für langjährige Teammitglieder hervorragend geeignet.",
+        "options": [
+          "als",
+          "auch",
+          "entweder",
+          "oder",
+          "weder",
+          "noch",
+          "zwar",
+          "aber",
+          "sondern",
+          "sowohl"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Da wir die Kurse für alle anbieten wollen, möchten wir weder an der Qualität sparen, (8) _____ die Teilnahmegebühren für Sie erhöhen.",
+        "options": [
+          "als",
+          "auch",
+          "entweder",
+          "oder",
+          "weder",
+          "noch",
+          "zwar",
+          "aber",
+          "sondern",
+          "sowohl"
+        ],
+        "correct": 5
+      },
+      {
+        "question": "Es gibt zwar feste Termine in Präsenz, (9) _____ wir bieten auch flexible Online-Optionen an.",
+        "options": [
+          "als",
+          "auch",
+          "entweder",
+          "oder",
+          "weder",
+          "noch",
+          "zwar",
+          "aber",
+          "sondern",
+          "sowohl"
+        ],
+        "correct": 7
+      },
+      {
+        "question": "Sie können sich entweder über das Intranet (10) _____ direkt per E-Mail für die Kurse anmelden.",
+        "options": [
+          "als",
+          "auch",
+          "entweder",
+          "oder",
+          "weder",
+          "noch",
+          "zwar",
+          "aber",
+          "sondern",
+          "sowohl"
+        ],
+        "correct": 3
+      }
+    ]
+  },
+  "nom_praefix_ge": {
+    "teil1Text": "Betreff: Probleme in der Nachbarschaft\n\nLiebe Sabine,\n\nich muss dir von meinem Ärger berichten. Ich kann das ständige (1) der Kinder der Nachbarn im Innenhof nicht mehr ertragen. Sie schreien den ganzen Tag herum.\n\nIm Haus gibt es deswegen schon viel (2) unter den Hausbewohnern. Alle reden darüber, aber keiner unternimmt etwas.\n\nUnser (3) ist ohnehin sehr hellhörig, da es sich um einen Altbau handelt. Man hört wirklich jeden Schritt.\n\nIch habe ein schlechtes (4), wenn ich an die nächste Eigentümerversammlung denke. Das wird bestimmt stressig.\n\nWir müssen bald ein klärendes (5) mit der Hausverwaltung führen, um eine Lösung zu finden.\n\nLiebe Grüße\nKatrin\n",
+    "teil2Text": "Betreff: Unsere Reisevorbereitungen\n\nLieber Michael,\n\nich bin schon sehr gespannt auf unsere gemeinsame Reise nächste Woche. Vergiss bitte nicht, dein ganzes (6)rechtzeitig zu wiegen, damit wir am Flughafen keine Probleme mit dem Übergewicht bekommen.\n\nIch habe gestern im Auto ein komisches (7)gehört, hoffentlich ist mit dem Wagen alles in Ordnung.\n\nIch werde am Bahnhof noch schnell ein (8)für die Fahrt kaufen, da es im Zug oft sehr warm ist.\n\nWir müssen uns im Ausland an die Verkehrsregeln halten, das (9)dort ist bei Geschwindigkeitsüberschreitungen sehr streng.\n\nNach der Reise müssen wir noch in ein (10)in der Innenstadt gehen, um ein Souvenir für meine Mutter zu besorgen.\n\nViele Grüße\nStefan\n",
+    "questions": [
+      {
+        "question": "Ich kann das ständige (1) _____ der Kinder der Nachbarn im Innenhof nicht mehr ertragen.",
+        "options": [
+          "gerede",
+          "geschrei",
+          "gelächter"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Im Haus gibt es deswegen schon viel (2) _____ unter den Hausbewohnern.",
+        "options": [
+          "gerede",
+          "gebäude",
+          "gesetz"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Unser (3) _____ ist ohnehin sehr hellhörig, da es sich um einen Altbau handelt.",
+        "options": [
+          "gerede",
+          "gebäude",
+          "gefühl"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Ich habe ein schlechtes (4) _____, wenn ich an die nächste Eigentümerversammlung denke.",
+        "options": [
+          "gehör",
+          "gefühl",
+          "gespräch"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Wir müssen bald ein klärendes (5) _____ mit der Hausverwaltung führen, um eine Lösung zu finden.",
+        "options": [
+          "gerede",
+          "gespräch",
+          "geschäft"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Vergiss bitte nicht, dein ganzes (6) _____ rechtzeitig zu wiegen, damit wir am Flughafen keine Probleme mit dem Übergewicht bekommen.",
+        "options": [
+          "gepäck",
+          "geschenk",
+          "geräusch",
+          "geduld",
+          "gemüse",
+          "gewicht",
+          "getränk",
+          "geschäft",
+          "gefahr",
+          "gesetz"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Ich habe gestern im Auto ein komisches (7) _____ gehört, hoffentlich ist mit dem Wagen alles in Ordnung.",
+        "options": [
+          "gepäck",
+          "geschenk",
+          "geräusch",
+          "geduld",
+          "gemüse",
+          "gewicht",
+          "getränk",
+          "geschäft",
+          "gefahr",
+          "gesetz"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Ich werde am Bahnhof noch schnell ein (8) _____ für die Fahrt kaufen, da es im Zug oft sehr warm ist.",
+        "options": [
+          "gepäck",
+          "geschenk",
+          "geräusch",
+          "geduld",
+          "gemüse",
+          "gewicht",
+          "getränk",
+          "geschäft",
+          "gefahr",
+          "gesetz"
+        ],
+        "correct": 6
+      },
+      {
+        "question": "Wir müssen uns im Ausland an die Verkehrsregeln halten, das (9) _____ dort ist bei Geschwindigkeitsüberschreitungen sehr streng.",
+        "options": [
+          "gepäck",
+          "geschenk",
+          "geräusch",
+          "geduld",
+          "gemüse",
+          "gewicht",
+          "getränk",
+          "geschäft",
+          "gefahr",
+          "gesetz"
+        ],
+        "correct": 9
+      },
+      {
+        "question": "Nach der Reise müssen wir noch in ein (10) _____ in der Innenstadt gehen, um ein Souvenir für meine Mutter zu besorgen.",
+        "options": [
+          "gepäck",
+          "geschenk",
+          "geräusch",
+          "geduld",
+          "gemüse",
+          "gewicht",
+          "getränk",
+          "geschäft",
+          "gefahr",
+          "gesetz"
+        ],
+        "correct": 7
+      }
+    ]
+  },
+  "ersatz_koennen": {
+    "teil1Text": "Betreff: Meine beruflichen Fähigkeiten\n\nSehr geehrter Herr Brand,\n\nich schreibe Ihnen, um mein Interesse an der Stelle zu bekunden. Ich bin sicher, ich besitze die (1), komplexe IT-Probleme in Ihrem Betrieb schnell zu lösen.\n\nWährend meines Studiums hatte ich bereits die (2), ein sechsmonatiges Praktikum bei einer internationalen Software-Firma zu absolvieren.\n\nDurch diese Erfahrung bin ich heute problemlos in der (3), eigenständig Projekte zu leiten und Teams zu koordinieren.\n\nIch bin absolut imstande, unter Zeitdruck konzentriert (4) arbeiten, wie ich in meinen vorherigen Jobs bewiesen habe.\n\nIn Ihrem Unternehmen sehe ich hervorragende (5), mich beruflich und persönlich weiterzuentwickeln.\n\nMit freundlichen Grüßen\nAyşe Yılmaz\n",
+    "teil2Text": "Betreff: Rückmeldung zu Ihrem Projektvorschlag\n\nSehr geehrter Herr Müller,\n\nvielen Dank für Ihren Vorschlag. Ich hoffe sehr, Sie sind in der (6), uns die detaillierten Unterlagen bis Ende der Woche zukommen zu lassen.\n\nEs besteht derzeit die (7), dass unser Vorstand das Projekt genehmigt, wenn die Finanzen stimmen.\n\nLeider sind wir im Moment wegen Personalmangels nicht (8), das Projekt sofort zu starten.\n\nWir suchen nach Wegen, das Budget für die Umsetzung (9)erhöhen, um das Ziel zu erreichen.\n\nUnsere neue Mitarbeiterin besitzt die (10), solche Verhandlungen erfolgreich zu führen.\n\nMit freundlichen Grüßen\nDr. Armin Lehmann\n",
+    "questions": [
+      {
+        "question": "Ich bin sicher, ich besitze die (1) _____, komplexe IT-Probleme in Ihrem Betrieb schnell zu lösen.",
+        "options": [
+          "möglichkeit",
+          "fähigkeit",
+          "unfähigkeit"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Während meines Studiums hatte ich bereits die (2) _____, ein sechsmonatiges Praktikum bei einer internationalen Software-Firma zu absolvieren.",
+        "options": [
+          "möglichkeit",
+          "lage",
+          "verfassung"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Durch diese Erfahrung bin ich heute problemlos in der (3) _____, eigenständig Projekte zu leiten und Teams zu koordinieren.",
+        "options": [
+          "lage",
+          "fähigkeit",
+          "möglichkeit"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Ich bin absolut imstande, unter Zeitdruck konzentriert (4) _____ arbeiten, wie ich in meinen vorherigen Jobs bewiesen habe.",
+        "options": [
+          "zu",
+          "an",
+          "für"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "In Ihrem Unternehmen sehe ich hervorragende (5) _____, mich beruflich und persönlich weiterzuentwickeln.",
+        "options": [
+          "fähigkeiten",
+          "möglichkeiten",
+          "lagen"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Ich hoffe sehr, Sie sind in der (6) _____, uns die detaillierten Unterlagen bis Ende der Woche zukommen zu lassen.",
+        "options": [
+          "lage",
+          "fähigkeit",
+          "möglichkeit",
+          "imstande",
+          "können",
+          "zu",
+          "verfassung",
+          "dafür",
+          "kraft",
+          "mit"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Es besteht derzeit die (7) _____, dass unser Vorstand das Projekt genehmigt, wenn die Finanzen stimmen.",
+        "options": [
+          "lage",
+          "fähigkeit",
+          "möglichkeit",
+          "imstande",
+          "können",
+          "zu",
+          "verfassung",
+          "dafür",
+          "kraft",
+          "mit"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Leider sind wir im Moment wegen Personalmangels nicht (8) _____, das Projekt sofort zu starten.",
+        "options": [
+          "lage",
+          "fähigkeit",
+          "möglichkeit",
+          "imstande",
+          "können",
+          "zu",
+          "verfassung",
+          "dafür",
+          "kraft",
+          "mit"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "Wir suchen nach Wegen, das Budget für die Umsetzung (9) _____ erhöhen, um das Ziel zu erreichen.",
+        "options": [
+          "lage",
+          "fähigkeit",
+          "möglichkeit",
+          "imstande",
+          "können",
+          "zu",
+          "verfassung",
+          "dafür",
+          "kraft",
+          "mit"
+        ],
+        "correct": 5
+      },
+      {
+        "question": "Unsere neue Mitarbeiterin besitzt die (10) _____, solche Verhandlungen erfolgreich zu führen.",
+        "options": [
+          "lage",
+          "fähigkeit",
+          "möglichkeit",
+          "imstande",
+          "können",
+          "zu",
+          "verfassung",
+          "dafür",
+          "kraft",
+          "mit"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  "indef_sachen": {
+    "teil1Text": "Betreff: Unser Treffen gestern\n\nLiebe Laura,\n\nich wollte mich noch mal für das nette Treffen bedanken. Ich habe mir auf dem Heimweg noch etwas (1) in der Buchhandlung gekauft. Ein wirklich toller Roman!\n\nZu Hause angekommen merkte ich, dass im Fernsehen leider wieder nichts (2) lief. Nur Wiederholungen.\n\nDa habe ich mich erinnert, dass wir beim Essen über etwas (3) gesprochen hatten, das ich dir zeigen wollte. Den Link schicke ich dir anbei.\n\nMan sollte sich im Alltag ab und zu mit etwas (4) belohnen, um motiviert zu bleiben.\n\nHast du eigentlich schon etwas (5) von unserem alten Schulkumpel gehört? Er soll wohl umgezogen sein.\n\nLiebe Grüße\nSarah\n",
+    "teil2Text": "Betreff: Neuigkeiten aus dem Urlaub\n\nLieber Felix,\n\nwir sind gut im Hotel angekommen. Gestern gab es leider (6)Spannendes zu tun, da es den ganzen Tag geregnet hat. Wir saßen nur in der Lobby.\n\nEs ist aber zum Glück nichts (7)passiert, alle sind wohlauf und gesund.\n\nHeute Abend haben wir in einem Restaurant am Hafen von etwas (8)berichtet bekommen. Es gibt wohl ein geheimes Fest.\n\nWir haben dort etwas wirklich (9)gegessen, die lokale Fischsuppe war fantastisch!\n\nIch hoffe, bei dir läuft alles gut. Gibt es bei dir im Büro eigentlich etwas (10)?\n\nViele Grüße\nJonas\n",
+    "questions": [
+      {
+        "question": "Ich habe mir auf dem Heimweg noch etwas (1) _____ in der Buchhandlung gekauft.",
+        "options": [
+          "schönes",
+          "schönes",
+          "schön"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Zu Hause angekommen merkte ich, dass im Fernsehen leider wieder nichts (2) _____ lief.",
+        "options": [
+          "neues",
+          "neues",
+          "neu"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Da habe ich mich erinnert, dass wir beim Essen über etwas (3) _____ gesprochen hatten, das ich dir zeigen wollte.",
+        "options": [
+          "wichtiges",
+          "wichtiges",
+          "wichtigem"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Man sollte sich im Alltag ab und zu mit etwas (4) _____ belohnen, um motiviert zu bleiben.",
+        "options": [
+          "gutem",
+          "gutes",
+          "gute"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Hast du eigentlich schon etwas (5) _____ von unserem alten Schulkumpel gehört?",
+        "options": [
+          "interessantes",
+          "interessantes",
+          "interessante"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Gestern gab es leider (6) _____ Spannendes zu tun, da es den ganzen Tag geregnet hat.",
+        "options": [
+          "nichts",
+          "etwas",
+          "gutes",
+          "neues",
+          "interessantes",
+          "schlimmes",
+          "besonderem",
+          "wenig",
+          "alles",
+          "viel"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Es ist aber zum Glück nichts (7) _____ passiert, alle sind wohlauf und gesund.",
+        "options": [
+          "nichts",
+          "etwas",
+          "gutes",
+          "neues",
+          "interessantes",
+          "schlimmes",
+          "besonderem",
+          "wenig",
+          "alles",
+          "viel"
+        ],
+        "correct": 5
+      },
+      {
+        "question": "Heute Abend haben wir in einem Restaurant am Hafen von etwas (8) _____ berichtet bekommen.",
+        "options": [
+          "nichts",
+          "etwas",
+          "gutes",
+          "neues",
+          "interessantes",
+          "schlimmes",
+          "besonderem",
+          "wenig",
+          "alles",
+          "viel"
+        ],
+        "correct": 6
+      },
+      {
+        "question": "Wir haben dort etwas wirklich (9) _____ gegessen, die lokale Fischsuppe war fantastisch!",
+        "options": [
+          "nichts",
+          "etwas",
+          "gutes",
+          "neues",
+          "interessantes",
+          "schlimmes",
+          "besonderem",
+          "wenig",
+          "alles",
+          "viel"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Gibt es bei dir im Büro eigentlich etwas (10) _____?",
+        "options": [
+          "nichts",
+          "etwas",
+          "gutes",
+          "neues",
+          "interessantes",
+          "schlimmes",
+          "besonderem",
+          "wenig",
+          "alles",
+          "viel"
+        ],
+        "correct": 3
+      }
+    ]
+  },
+  "indef_mengen": {
+    "teil1Text": "Betreff: Vorbereitung auf das Teamevent\n\nLieber Jan,\n\nwir müssen bald die Details für unser Teamevent planen. Ich habe bereits alle (1) Kollegen aus unserer Abteilung eingeladen. Alle haben zugesagt.\n\nEs gibt natürlich viele (2) Vorschläge für den Ausflug, aber wir müssen uns bald entscheiden.\n\nJeder (3) Mitarbeiter soll die Möglichkeit haben, abzustimmen, damit sich alle wohlfühlen.\n\nIch hoffe, das Wetter spielt mit und ich wünsche uns allen alles (4) für das Gelingen des Fests.\n\nIch habe auch einige (5) Spiele vorbereitet, die wir im Freien spielen können.\n\nViele Grüße\nSandra\n",
+    "teil2Text": "Betreff: Wichtige Neuerungen im Büro\n\nLiebe Kolleginnen und Kollegen,\n\nwir möchten Sie über die neuen Büroregeln informieren. Wir müssen (6)neuen Richtlinien zur Energieeinsparung ab sofort strikt einhalten.\n\n(7)einzelne Mitarbeiter ist dafür verantwortlich, seinen Computer und das Licht abends auszuschalten.\n\nEs gibt zwar (8)kritische Stimmen bezüglich der neuen Temperaturen in den Räumen, aber wir bitten um Ihr Verständnis.\n\nIch danke (9)Kollegen herzlich für ihre Unterstützung und Kooperation.\n\nIch hoffe, dass (10)reibungslos läuft. Bei Fragen stehe ich gerne zur Verfügung.\n\nViele Grüße\nDie Geschäftsleitung\n",
+    "questions": [
+      {
+        "question": "Ich habe bereits alle (1) _____ Kollegen aus unserer Abteilung eingeladen.",
+        "options": [
+          "neue",
+          "neuen",
+          "neuer"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Es gibt natürlich viele (2) _____ Vorschläge für den Ausflug, aber wir müssen uns bald entscheiden.",
+        "options": [
+          "interessante",
+          "interessanten",
+          "interessanter"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Jeder (3) _____ Mitarbeiter soll die Möglichkeit haben, abzustimmen, damit sich alle wohlfühlen.",
+        "options": [
+          "gute",
+          "guten",
+          "guter"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Ich hoffe, das Wetter spielt mit und ich wünsche uns allen alles (4) _____ für das Gelingen des Fests.",
+        "options": [
+          "gute",
+          "gute",
+          "gutem"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Ich habe auch einige (5) _____ Spiele vorbereitet, die wir im Freien spielen können.",
+        "options": [
+          "lustige",
+          "lustigen",
+          "lustiger"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Wir müssen (6) _____ neuen Richtlinien zur Energieeinsparung ab sofort strikt einhalten.",
+        "options": [
+          "alle",
+          "viele",
+          "einige",
+          "jeder",
+          "wenige",
+          "manche",
+          "alles",
+          "jedes",
+          "vielen",
+          "allen"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "(7) _____ einzelne Mitarbeiter ist dafür verantwortlich, seinen Computer und das Licht abends auszuschalten.",
+        "options": [
+          "alle",
+          "viele",
+          "einige",
+          "jeder",
+          "wenige",
+          "manche",
+          "alles",
+          "jedes",
+          "vielen",
+          "allen"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "Es gibt zwar (8) _____ kritische Stimmen bezüglich der neuen Temperaturen in den Räumen, aber wir bitten um Ihr Verständnis.",
+        "options": [
+          "alle",
+          "viele",
+          "einige",
+          "jeder",
+          "wenige",
+          "manche",
+          "alles",
+          "jedes",
+          "vielen",
+          "allen"
+        ],
+        "correct": 5
+      },
+      {
+        "question": "Ich danke (9) _____ Kollegen herzlich für ihre Unterstützung und Kooperation.",
+        "options": [
+          "alle",
+          "viele",
+          "einige",
+          "jeder",
+          "wenige",
+          "manche",
+          "alles",
+          "jedes",
+          "vielen",
+          "allen"
+        ],
+        "correct": 9
+      },
+      {
+        "question": "Ich hoffe, dass (10) _____ reibungslos läuft.",
+        "options": [
+          "alle",
+          "viele",
+          "einige",
+          "jeder",
+          "wenige",
+          "manche",
+          "alles",
+          "jedes",
+          "vielen",
+          "allen"
+        ],
+        "correct": 6
+      }
+    ]
+  },
+  "indef_irgend": {
+    "teil1Text": "Betreff: Brauche dringend Hilfe!\n\nLieber Peter,\n\nmir ist gestern etwas Blödes passiert. Ich habe mein Portemonnaie verloren. Kann mir irgend (1) Geld leihen? Ich kann es am Montag direkt zurückzahlen.\n\nIch muss irgend (2) finden, der heute Abend in der Stadt ist, da ich dort feststecke.\n\nWir müssen irgend (3) Lösung für dieses Problem finden, sonst komme ich nicht nach Hause.\n\nIch glaube, ich habe das Portemonnaie in irgend (4) Geschäft liegen lassen, aber ich weiß nicht mehr, in welchem.\n\nMach dir keine Sorgen, wir werden uns irgend (5) am Wochenende treffen und alles besprechen.\n\nViele Grüße\nMarkus\n",
+    "teil2Text": "Betreff: Planung unseres Ausflugs\n\nLiebe Nicole,\n\nich habe mir Gedanken über das Wochenende gemacht. Wir sollten einfach losfahren und (6)übernachten, wo es uns gefällt. Eine feste Buchung brauchen wir nicht.\n\nWir werden das (7)schon schaffen, auch ohne genauen Plan. Spontane Reisen sind doch die besten.\n\nIch muss noch (8)Bescheid geben, dass wir nicht da sind, damit sich niemand Sorgen macht.\n\nMöchtest du auf dem Weg (9)Schönes besichtigen? Sag mir einfach Bescheid.\n\nWir werden (10)am Nachmittag ankommen, je nachdem, wie viel Verkehr ist.\n\nViele Grüße\nTobias\n",
+    "questions": [
+      {
+        "question": "Kann mir irgend (1) _____ Geld leihen?",
+        "options": [
+          "wer",
+          "was",
+          "wie"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Ich muss irgend (2) _____ finden, der heute Abend in der Stadt ist, da ich dort feststecke.",
+        "options": [
+          "wer",
+          "wen",
+          "wem"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Wir müssen irgend (3) _____ Lösung für dieses Problem finden, sonst komme ich nicht nach Hause.",
+        "options": [
+          "eine",
+          "einer",
+          "eines"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Ich glaube, ich habe das Portemonnaie in irgend (4) _____ Geschäft liegen lassen, aber ich weiß nicht mehr, in welchem.",
+        "options": [
+          "einem",
+          "eines",
+          "einer"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Mach dir keine Sorgen, wir werden uns irgend (5) _____ am Wochenende treffen und alles besprechen.",
+        "options": [
+          "wo",
+          "wann",
+          "wie"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Wir sollten einfach losfahren und (6) _____ übernachten, wo es uns gefällt.",
+        "options": [
+          "irgendwer",
+          "irgendwas",
+          "irgendwann",
+          "irgendwie",
+          "irgendwo",
+          "irgendwen",
+          "irgendwem",
+          "irgendein",
+          "irgendeine",
+          "irgendeinem"
+        ],
+        "correct": 4
+      },
+      {
+        "question": "Wir werden das (7) _____ schon schaffen, auch ohne genauen Plan.",
+        "options": [
+          "irgendwer",
+          "irgendwas",
+          "irgendwann",
+          "irgendwie",
+          "irgendwo",
+          "irgendwen",
+          "irgendwem",
+          "irgendein",
+          "irgendeine",
+          "irgendeinem"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "Ich muss noch (8) _____ Bescheid geben, dass wir nicht da sind, damit sich niemand Sorgen macht.",
+        "options": [
+          "irgendwer",
+          "irgendwas",
+          "irgendwann",
+          "irgendwie",
+          "irgendwo",
+          "irgendwen",
+          "irgendwem",
+          "irgendein",
+          "irgendeine",
+          "irgendeinem"
+        ],
+        "correct": 6
+      },
+      {
+        "question": "Möchtest du auf dem Weg (9) _____ Schönes besichtigen?",
+        "options": [
+          "irgendwer",
+          "irgendwas",
+          "irgendwann",
+          "irgendwie",
+          "irgendwo",
+          "irgendwen",
+          "irgendwem",
+          "irgendein",
+          "irgendeine",
+          "irgendeinem"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Wir werden (10) _____ am Nachmittag ankommen, je nachdem, wie viel Verkehr ist.",
+        "options": [
+          "irgendwer",
+          "irgendwas",
+          "irgendwann",
+          "irgendwie",
+          "irgendwo",
+          "irgendwen",
+          "irgendwem",
+          "irgendein",
+          "irgendeine",
+          "irgendeinem"
+        ],
+        "correct": 2
+      }
+    ]
+  },
+  "negation_rules": {
+    "teil1Text": "Betreff: Beschwerde über Ihre Lieferung\n\nSehr geehrte Damen und Herren,\n\nich habe vor einer Woche bei Ihnen einen Laptop bestellt, aber leider bisher keine (1) Versandbestätigung erhalten.\n\nDas Gerät funktioniert leider auch (2) ordnungsgemäß. Der Bildschirm bleibt schwarz.\n\nIch konnte Ihren telefonischen Kundenservice gestern (3) erreichen, obwohl ich es mehrmals versucht habe. Es ging niemand an den Apparat.\n\nIch werde bei Ihnen sicherlich (4) wieder bestellen, wenn sich dieses Problem nicht schnell klärt. Das ist wirklich ärgerlich.\n\nIch hoffe auf eine schnelle Lösung, da ich (5) Ausweichmöglichkeit habe und den Laptop dringend für meine Arbeit brauche.\n\nMit freundlichen Grüßen\nAndreas Schmitz\n",
+    "teil2Text": "Betreff: Rückmeldung zum Projektablauf\n\nLiebe Kolleginnen, liebe Kollegen,\n\nwir müssen leider feststellen, dass wir das Projekt gestern (6)wie geplant abschließen konnten. Es gab technische Komplikationen.\n\nLeider haben wir derzeit auch (7)Unterstützung von der IT-Abteilung bekommen, da dort alle im Urlaub sind.\n\nEs hat uns (8)bei der Behebung des Serverfehlers geholfen, sodass wir auf uns allein gestellt waren.\n\nIch habe das benötigte Ersatzteil (9)im Lager finden können, es war einfach unauffindbar.\n\nBei dem gestrigen Treffen wurde (10)Konkretes beschlossen, weshalb wir heute nochmals sprechen müssen.\n\nViele Grüße\nSabine\n",
+    "questions": [
+      {
+        "question": "Betreff: Beschwerde über Ihre Lieferung Sehr geehrte Damen und Herren, ich habe vor einer Woche bei Ihnen einen Laptop bestellt, aber leider bisher keine (1) _____ Versandbestätigung erhalten.",
+        "options": [
+          "keine",
+          "nicht",
+          "nie"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Das Gerät funktioniert leider auch (2) _____ ordnungsgemäß.",
+        "options": [
+          "kein",
+          "nicht",
+          "nie"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Ich konnte Ihren telefonischen Kundenservice gestern (3) _____ erreichen, obwohl ich es mehrmals versucht habe.",
+        "options": [
+          "nicht",
+          "kein",
+          "nie"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Ich werde bei Ihnen sicherlich (4) _____ wieder bestellen, wenn sich dieses Problem nicht schnell klärt.",
+        "options": [
+          "nicht",
+          "kein",
+          "nie"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Ich hoffe auf eine schnelle Lösung, da ich (5) _____ Ausweichmöglichkeit habe und den Laptop dringend für meine Arbeit brauche.",
+        "options": [
+          "keine",
+          "nicht",
+          "nie"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Betreff: Rückmeldung zum Projektablauf Liebe Kolleginnen, liebe Kollegen, wir müssen leider feststellen, dass wir das Projekt gestern (6) _____ wie geplant abschließen konnten.",
+        "options": [
+          "nicht",
+          "kein",
+          "keine",
+          "nie",
+          "nirgends",
+          "niemand",
+          "nichts",
+          "keineswegs",
+          "niemals",
+          "keinem"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Leider haben wir derzeit auch (7) _____ Unterstützung von der IT-Abteilung bekommen, da dort alle im Urlaub sind.",
+        "options": [
+          "nicht",
+          "kein",
+          "keine",
+          "nie",
+          "nirgends",
+          "niemand",
+          "nichts",
+          "keineswegs",
+          "niemals",
+          "keinem"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Es hat uns (8) _____ bei der Behebung des Serverfehlers geholfen, sodass wir auf uns allein gestellt waren.",
+        "options": [
+          "nicht",
+          "kein",
+          "keine",
+          "nie",
+          "nirgends",
+          "niemand",
+          "nichts",
+          "keineswegs",
+          "niemals",
+          "keinem"
+        ],
+        "correct": 5
+      },
+      {
+        "question": "Ich habe das benötigte Ersatzteil (9) _____ im Lager finden können, es war einfach unauffindbar.",
+        "options": [
+          "nicht",
+          "kein",
+          "keine",
+          "nie",
+          "nirgends",
+          "niemand",
+          "nichts",
+          "keineswegs",
+          "niemals",
+          "keinem"
+        ],
+        "correct": 4
+      },
+      {
+        "question": "Bei dem gestrigen Treffen wurde (10) _____ Konkretes beschlossen, weshalb wir heute nochmals sprechen müssen.",
+        "options": [
+          "nicht",
+          "kein",
+          "keine",
+          "nie",
+          "nirgends",
+          "niemand",
+          "nichts",
+          "keineswegs",
+          "niemals",
+          "keinem"
+        ],
+        "correct": 6
+      }
+    ]
+  },
+  "pronomen_es": {
+    "teil1Text": "Betreff: Gruß aus Deutschland\n\nLiebe Elif,\n\nich bin gut in München angekommen. Heute regnet (1) leider in Strömen, sodass ich den Tag im Hotel verbringe.\n\nWie geht (2) dir und deiner Familie? Ich hoffe, bei euch läuft alles super.\n\nIch bedauere (3) sehr, dass wir uns vor meiner Abreise nicht mehr sehen konnten. Die Zeit war einfach zu kurz.\n\n(4) gibt im Moment viele Dinge, die ich erledigen muss, aber ich melde mich bald wieder ausführlicher.\n\nEs ist wirklich toll, diese Stadt endlich kennen (5) lernen. Morgen soll das Wetter auch wieder besser werden.\n\nViele Grüße\nAhmet\n",
+    "teil2Text": "Betreff: Planung der Konferenz\n\nSehr geehrte Damen und Herren,\n\nwir freuen uns, Ihnen mitteilen zu können, dass die Vorbereitungen planmäßig laufen. Heute (6)es in unserer Region sehr windig, aber die Konferenz findet drinnen statt.\n\n(7)gibt noch einige organisatorische Fragen zu klären, insbesondere was die Anreise der Gäste betrifft.\n\nEs ist wichtig, (8)alle Teilnehmer rechtzeitig im Saal eintreffen, damit wir pünktlich beginnen können.\n\nEs ist ratsam, die Präsentationsfolien vorab nochmals gründlich (9)prüfen.\n\nWie (10)es den Vorbereitungen für das Catering? Bitte geben Sie mir Bescheid.\n\nMit freundlichen Grüßen\nDr. Herbert Kaiser\n",
+    "questions": [
+      {
+        "question": "Heute regnet (1) _____ leider in Strömen, sodass ich den Tag im Hotel verbringe.",
+        "options": [
+          "es",
+          "er",
+          "sie"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Wie geht (2) _____ dir und deiner Familie?",
+        "options": [
+          "er",
+          "es",
+          "sie"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Ich bedauere (3) _____ sehr, dass wir uns vor meiner Abreise nicht mehr sehen konnten.",
+        "options": [
+          "es",
+          "das",
+          "was"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "(4) _____ gibt im Moment viele Dinge, die ich erledigen muss, aber ich melde mich bald wieder ausführlicher.",
+        "options": [
+          "es",
+          "das",
+          "er"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Es ist wirklich toll, diese Stadt endlich kennen (5) _____ lernen.",
+        "options": [
+          "zu",
+          "an",
+          "für"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Heute (6) _____ es in unserer Region sehr windig, aber die Konferenz findet drinnen statt.",
+        "options": [
+          "es",
+          "das",
+          "gibt",
+          "sich",
+          "zu",
+          "ist",
+          "wenn",
+          "dass",
+          "wie",
+          "geht"
+        ],
+        "correct": 5
+      },
+      {
+        "question": "(7) _____ gibt noch einige organisatorische Fragen zu klären, insbesondere was die Anreise der Gäste betrifft.",
+        "options": [
+          "es",
+          "das",
+          "gibt",
+          "sich",
+          "zu",
+          "ist",
+          "wenn",
+          "dass",
+          "wie",
+          "geht"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Es ist wichtig, (8) _____ alle Teilnehmer rechtzeitig im Saal eintreffen, damit wir pünktlich beginnen können.",
+        "options": [
+          "es",
+          "das",
+          "gibt",
+          "sich",
+          "zu",
+          "ist",
+          "wenn",
+          "dass",
+          "wie",
+          "geht"
+        ],
+        "correct": 7
+      },
+      {
+        "question": "Es ist ratsam, die Präsentationsfolien vorab nochmals gründlich (9) _____ prüfen.",
+        "options": [
+          "es",
+          "das",
+          "gibt",
+          "sich",
+          "zu",
+          "ist",
+          "wenn",
+          "dass",
+          "wie",
+          "geht"
+        ],
+        "correct": 4
+      },
+      {
+        "question": "Wie (10) _____ es den Vorbereitungen für das Catering?",
+        "options": [
+          "es",
+          "das",
+          "gibt",
+          "sich",
+          "zu",
+          "ist",
+          "wenn",
+          "dass",
+          "wie",
+          "geht"
+        ],
+        "correct": 9
+      }
+    ]
   }
 };

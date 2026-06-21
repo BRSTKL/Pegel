@@ -1,0 +1,116 @@
+===========================================================================
+TELC B2 - SPRACHTRAINING: TEKAMOLO (SATZGLIEDFOLGE)
+===========================================================================
+
+TEIL 1: SPRACHBAUSTEINE - MULTIPLE CHOICE
+Wählen Sie für jede Lücke (1-5) die richtige Option (a, b oder c).
+
+Betreff: Meine Reisepläne
+
+Liebe Sibel,
+
+ich wollte dir kurz von meiner Dienstreise berichten. Ich fahre (1) wegen der Arbeit nach Berlin. Da die Flüge teuer waren, reise ich am Freitag aus Kostengründen (2) mit der Bahn.
+
+Mein Kollege Herr Mayer fliegt hingegen (3) geschäftlich erster Klasse nach Tegel. Er mag Zugfahrten leider gar nicht.
+
+Wir treffen uns dann am Montag aus organisatorischen Gründen pünktlich (4) am Hauptbahnhof. Hoffentlich läuft alles nach Plan.
+
+Ich melde mich dann am Dienstag wegen des Berichts telefonisch (5) bei dir.
+
+Liebe Grüße
+Murat
+
+1.
+a) morgen
+b) dorthin
+c) fleißig
+
+2.
+a) gemütlich
+b) gestern
+c) dort
+
+3.
+a) heute
+b) dort
+c) schnell
+
+4.
+a) im Hotel
+b) morgens
+c) sofort
+
+5.
+a) aus dem Hotel
+b) gestern
+c) gerne
+
+---------------------------------------------------------------------------
+
+TEIL 2: SPRACHBAUSTEINE - WORTLISTE
+Setzen Sie die passenden Wörter aus der Liste (a-j) in die Lücken (6-10) ein.
+Achtung: Fünf Wörter bleiben übrig!
+
+Betreff: Vorbereitung auf die Präsentation
+
+Lieber Thomas,
+
+wir müssen uns dringend auf das Meeting vorbereiten. Wir wollen uns (6) wegen des Projekts im Konferenzraum treffen.
+
+Unsere Kollegin Julia ist gestern (7) mit dem Auto zur Arbeit gekommen, um die Unterlagen rechtzeitig abzugeben.
+
+Ich habe gestern aus diesem Grund (8) mit dem Chef gesprochen, um grünes Licht zu bekommen.
+
+Wir sollten das Konzept morgen aus Sicherheitsgründen (9) prüfen, damit keine Fehler entstehen.
+
+Bitte bring die Dokumente am Montag einfach (10) mit ins Büro.
+
+Viele Grüße
+Elif
+
+a) AM WOCHENENDE
+b) AUS ZEITNOT
+c) PERSÖNLICH
+d) NOCHMALS
+e) DIREKT
+f) SCHNELL
+g) GESTERN
+h) WEGEN
+i) DORT
+j) DESHALB
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL UND ERKLÄRUNGEN (CEVAP ANAHTARI)
+===========================================================================
+
+1. a) morgen
+-> Açıklama: "morgen" zaman bildiren bir zarftır (Temporal - Te). TeKaMoLo kuralına göre zaman belirteci (Te), neden bildiren "wegen der Arbeit" (Kausal - Ka) ve yer bildiren "nach Berlin" (Lokal - Lo) ifadelerinden önce gelmelidir. Bu yüzden doğru sıralama "morgen (Te) wegen der Arbeit (Ka) nach Berlin (Lo)" şeklindedir.
+
+2. a) gemütlich
+-> Açıklama: "gemütlich" (rahatça) tarz ve biçim bildiren bir zarftır (Modal - Mo). TeKaMoLo sırasına göre "am Freitag" (Te) ve "aus Kostengründen" (Ka) ifadelerinden sonra, yer bildiren "mit der Bahn" (Lo) ifadesinden önce gelmelidir. "Gestern" zaman, "dort" yer bildirir ve bu pozisyona uymaz.
+
+3. a) heute
+-> Açıklama: "heute" (bugün) zaman bildiren (Te) bir zarftır. Kural gereği neden bildiren "geschäftlich" (Ka) ve tarz bildiren "erster Klasse" (Mo) ile yön/yer bildiren "nach Tegel" (Lo) ögelerinden önce gelmelidir.
+
+4. b) morgens
+-> Açıklama: "morgens" (sabahları) zaman bildiren (Te) bir kelimedir. TeKaMoLo sıralamasında neden bildiren "aus organisatorischen Gründen" (Ka) ve tarz bildiren "pünktlich" (Mo) ile yer bildiren "am Hauptbahnhof" (Lo) ögelerinden önce gelmesi gerekir.
+
+5. a) aus dem Hotel
+-> Açıklama: "aus dem Hotel" yer/yön bildiren (Lokal - Lo) bir edat öbeğidir. TeKaMoLo sıralamasına göre cümlenin en sonunda yer almalıdır. "Gestern" zaman (Te), "gerne" tarz (Mo) bildirir ve bu pozisyonda yer alamazlar.
+
+6. a) AM WOCHENENDE
+-> Açıklama: "am Wochenende" zaman bildiren (Te) bir ifadedir. Neden bildiren "wegen des Projekts" (Ka) ve yer bildiren "im Konferenzraum" (Lo) ifadelerinden önce gelerek TeKaMoLo sırasını tamamlar.
+
+7. b) AUS ZEITNOT
+-> Açıklama: "aus Zeitnot" (zaman darlığından) neden bildiren (Ka) bir ifadedir. Zaman bildiren "gestern" (Te) zarfından sonra ve tarz bildiren "mit dem Auto" (Mo) ile yer bildiren "zur Arbeit" (Lo) ögelerinden önce yer almalıdır.
+
+8. c) PERSÖNLICH
+-> Açıklama: "persönlich" (şahsen/yüz yüze) tarz/biçim bildiren (Mo) bir kelimedir. Zaman bildiren "gestern" (Te) ve neden bildiren "aus diesem Grund" (Ka) ifadelerinden sonra gelmelidir.
+
+9. d) NOCHMALS
+-> Açıklama: "nochmals" (bir kez daha) tarz/derece bildiren (Mo) bir zarftır. Zaman bildiren "morgen" (Te) ve neden bildiren "aus Sicherheitsgründen" (Ka) ögelerinden sonra yer almalıdır.
+
+10. e) DIREKT
+-> Açıklama: "direkt" (doğrudan/hemen) yer/yön bildiren (Lo) öbeğin ("mit ins Büro") hemen önüne gelerek yer/yönü niteler ve cümlenin en sonundaki lokal kısmını tamamlar.
+
+(Teil 2 için boşa kalan tuzak kelimeler: f, g, h, i, j)

@@ -1,0 +1,8 @@
+Almancada birden fazla zarf veya edat öbeği arka arkaya geldiğinde bunları hangi sırayla dizeceğimiz konusundaki altın kuralımız olan TeKaMoLo (Temporal, Kausal, Modal, Lokal) ile cümle kurmayı çok daha kolaylaştırıyoruz 1.
+Bir öğretmen gözüyle bu kuralda unutmamanız gereken temel dizilim ve püf noktaları şunlardır:
+* Zarf Türleri ve Sıralaması: Sıralamamız her zaman şu şekildedir: Temporal (Ne zaman?), Kausal (Neden?), Modal (Nasıl?), Lokal (Nerede/Nereye?) 2, 3.
+* Örnek Cümle: "Ich fahre heute (Te) wegen des Regens (Ka) mit dem Auto (Mo) zur Arbeit (Lo)." (Bugün yağmur yüzünden arabayla işe gidiyorum) 2.
+* Zamir İstisnası (Pronomen): Eğer cümlemizdeki tümleçler isim değil de şahıs zamiri (ihn, es, dem vs.) ise, bu zamirler TeKaMoLo kuralından önce gelir ve fiilin hemen arkasına yerleşir 4.
+* Vurgu Durumu: Bazen konuşmacı belirli bir zarfı (örneğin zamanı) vurgulamak için cümlenin en başına alabilir. Bu durumda kalan zarflar kendi aralarında yine TeKaMoLo sırasını korumalıdır 1, 3.
+Cümle öğelerinin bu standart dizilim mantığını kavradığımızda, uzun ve karmaşık B2 cümlelerini çok daha akıcı ve hatasız kurabiliriz.
+Hazırsanız, iki farklı seçeneği veya durumu eşzamanlı olarak vurgulamamızı sağlayan "sowohl ... als auch" (hem ... hem de) ikili bağlacına geçelim mi?

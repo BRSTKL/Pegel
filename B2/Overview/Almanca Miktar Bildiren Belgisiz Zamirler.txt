@@ -1,0 +1,8 @@
+Almancada miktar, grup ve topluluk bildiren belgisiz zamir ve belirteçlerin (alle, manche, jeder, einige, viele, wenige) kullanımını ve sıfat çekimlerine etkisini inceliyoruz 1.
+Bir öğretmen gözüyle buradaki en önemli B2 seviyesi kuralları şunlardır:
+* "alle" ve "manche" Etkisi (Zayıf Çekim): Bu kelimelerden sonra gelen sıfatlar çoğulda her zaman zayıf çekimlenir, yani "-en" takısı alır 2. Örn: alle neuen Kollegen (tüm yeni iş arkadaşları), manche interessanten Bücher (bazı ilginç kitaplar).
+* "einige", "viele" ve "wenige" Etkisi (Güçlü Çekim): Bu kelimelerden sonra gelen sıfatlar ise çoğulda güçlü çekimlenir, yani çoğul eki olan "-e" takısını alır 3. Örn: viele neue Kollegen (birçok yeni iş arkadaşı), einige interessante Bücher (bazı ilginç kitaplar).
+* "jeder" (Her biri): Tekil bir yapıdır ve artikeli olmayan tekil isimlerin çekim eklerini (jeder, jede, jedes) alır. Kendisinden sonra gelen sıfat zayıf çekimlenir (jeder gute Mitarbeiter) 2, 4.
+* "alles" (Her şey): Tekil ve soyut bir kavramdır. "Etwas" ve "nichts" gibi sıfatları isimleştirir 4. Örn: alles Gute (her şeyin en iyisi), alles Neue (yeni olan her şey).
+Sıfat çekimlerini etkileyen bu kritik ayrımlar, Almanca cümlelerinizde dilbilgisi hatalarını sıfıra indirmek için çok önemlidir.
+Hazırsanız, belirsizliği daha da vurgulayan "Irgend-" ön eki ve türetilen zamir kalıplarına geçelim mi?

@@ -1,0 +1,118 @@
+===========================================================================
+TELC B2 - SPRACHTRAINING: KÖNNEN NOMINALISIERUNG & ALTERNATIVEN
+===========================================================================
+
+TEIL 1: SPRACHBAUSTEINE - MULTIPLE CHOICE
+Wählen Sie für jede Lücke (1-5) die richtige Option (a, b oder c).
+
+Betreff: Meine beruflichen Fähigkeiten
+
+Sehr geehrter Herr Brand,
+
+ich schreibe Ihnen, um mein Interesse an der Stelle zu bekunden. Ich bin sicher, ich besitze die (1), komplexe IT-Probleme in Ihrem Betrieb schnell zu lösen.
+
+Während meines Studiums hatte ich bereits die (2), ein sechsmonatiges Praktikum bei einer internationalen Software-Firma zu absolvieren.
+
+Durch diese Erfahrung bin ich heute problemlos in der (3), eigenständig Projekte zu leiten und Teams zu koordinieren.
+
+Ich bin absolut imstande, unter Zeitdruck konzentriert (4) arbeiten, wie ich in meinen vorherigen Jobs bewiesen habe.
+
+In Ihrem Unternehmen sehe ich hervorragende (5), mich beruflich und persönlich weiterzuentwickeln.
+
+Mit freundlichen Grüßen
+Ayşe Yılmaz
+
+1.
+a) Möglichkeit
+b) Fähigkeit
+c) Unfähigkeit
+
+2.
+a) Möglichkeit
+b) Lage
+c) Verfassung
+
+3.
+a) Lage
+b) Fähigkeit
+c) Möglichkeit
+
+4.
+a) zu
+b) an
+c) für
+
+5.
+a) Fähigkeiten
+b) Möglichkeiten
+c) Lagen
+
+---------------------------------------------------------------------------
+
+TEIL 2: SPRACHBAUSTEINE - WORTLISTE
+Setzen Sie die passenden Wörter aus der Liste (a-j) in die Lücken (6-10) ein.
+Achtung: Fünf Wörter bleiben übrig!
+
+Betreff: Rückmeldung zu Ihrem Projektvorschlag
+
+Sehr geehrter Herr Müller,
+
+vielen Dank für Ihren Vorschlag. Ich hoffe sehr, Sie sind in der (6), uns die detaillierten Unterlagen bis Ende der Woche zukommen zu lassen.
+
+Es besteht derzeit die (7), dass unser Vorstand das Projekt genehmigt, wenn die Finanzen stimmen.
+
+Leider sind wir im Moment wegen Personalmangels nicht (8), das Projekt sofort zu starten.
+
+Wir suchen nach Wegen, das Budget für die Umsetzung (9) erhöhen, um das Ziel zu erreichen.
+
+Unsere neue Mitarbeiterin besitzt die (10), solche Verhandlungen erfolgreich zu führen.
+
+Mit freundlichen Grüßen
+Dr. Armin Lehmann
+
+a) LAGE
+b) FÄHIGKEIT
+c) MÖGLICHKEIT
+d) IMSTANDE
+e) KÖNNEN
+f) ZU
+g) VERFASSUNG
+h) DAFÜR
+i) KRAFT
+j) MIT
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL UND ERKLÄRUNGEN (CEVAP ANAHTARI)
+===========================================================================
+
+1. b) Fähigkeit
+-> Açıklama: "die Fähigkeit" (yetenek/beceri) kelimesi, bireysel uzmanlık ve problem çözme becerisini ifade ettiği için "IT sorunlarını çözme yeteneğine sahibim" bağlamına en uygun kelimedir. "Möglichkeit" ise dışsal fırsatları ifade eder.
+
+2. a) Möglichkeit
+-> Açıklama: "die Möglichkeit" (imkan/fırsat) kelimesi "praktikum yapma fırsatına sahiptim" anlamında dışsal bir şansı belirtir. "in der Lage sein" ile karıştırılmamalıdır, Lage bir edat öbeğiyle kullanılır.
+
+3. a) Lage
+-> Açıklama: "in der Lage sein" (bir şeyi yapabilecek durumda olmak) Almancada "können" fiilinin en yaygın nominal alternatifidir ve bu sabit edat grubuyla kurulur.
+
+4. a) zu
+-> Açıklama: "imstande sein" (muktedir olmak/becerebilmek) kalıbı kendisinden sonraki eylemi "zu + Infinitiv" yapısıyla bağlar. Bu yüzden "zu arbeiten" kullanımı doğrudur.
+
+5. b) Möglichkeiten
+-> Açıklama: "Möglichkeiten" (imkanlar/fırsatlar) kelimesi çoğul olarak "kendini geliştirme fırsatları/olasılıkları" anlamında cümlenin akışına tam uyar.
+
+6. a) LAGE
+-> Açıklama: "in der Lage sein" sabit kalıbı gereği, "bize belgeleri gönderebilecek durumda olmanızı umuyorum" cümlesini tamamlamak üzere "LAGE" (a seçeneği) getirilmelidir.
+
+7. c) MÖGLICHKEIT
+-> Açıklama: "Es besteht die Möglichkeit, dass..." (olasılığı vardır) yapısı bir olasılığın var olduğunu belirtir. Bu yüzden "MÖGLICHKEIT" (c seçeneği) doğrudur.
+
+8. d) IMSTANDE
+-> Açıklama: "nicht imstande sein" (durumunda olamamak/gücü yetmemek) yapısı "können" fiilinin olumsuz yerine resmi dilde sıkça tercih edilir. Bu yüzden "IMSTANDE" (d seçeneği) doğrudur.
+
+9. f) ZU
+-> McCav: "Wege, das Budget ... zu erhöhen" yapısında mastar fiil "erhöhen" olduğundan "zu + Infinitiv" yapısını kuran "ZU" (f seçeneği) getirilmelidir.
+
+10. b) FÄHIGKEIT
+-> Açıklama: "die Fähigkeit" (yetenek) kelimesi, müzakereleri başarıyla yürütme kişisel becerisini nitelemektedir. Bu yüzden "FÄHIGKEIT" (b seçeneği) doğrudur.
+
+(Teil 2 için boşa kalan tuzak kelimeler: e, g, h, i, j)

@@ -1,0 +1,118 @@
+===========================================================================
+TELC B2 - SPRACHTRAINING: NEGATION (NICHT, KEIN, NIE, NIRGENDS)
+===========================================================================
+
+TEIL 1: SPRACHBAUSTEINE - MULTIPLE CHOICE
+Wählen Sie für jede Lücke (1-5) die richtige Option (a, b oder c).
+
+Betreff: Beschwerde über Ihre Lieferung
+
+Sehr geehrte Damen und Herren,
+
+ich habe vor einer Woche bei Ihnen einen Laptop bestellt, aber leider bisher keine (1) Versandbestätigung erhalten.
+
+Das Gerät funktioniert leider auch (2) ordnungsgemäß. Der Bildschirm bleibt schwarz.
+
+Ich konnte Ihren telefonischen Kundenservice gestern (3) erreichen, obwohl ich es mehrmals versucht habe. Es ging niemand an den Apparat.
+
+Ich werde bei Ihnen sicherlich (4) wieder bestellen, wenn sich dieses Problem nicht schnell klärt. Das ist wirklich ärgerlich.
+
+Ich hoffe auf eine schnelle Lösung, da ich (5) Ausweichmöglichkeit habe und den Laptop dringend für meine Arbeit brauche.
+
+Mit freundlichen Grüßen
+Andreas Schmitz
+
+1.
+a) keine
+b) nicht
+c) nie
+
+2.
+a) kein
+b) nicht
+c) nie
+
+3.
+a) nicht
+b) kein
+c) nie
+
+4.
+a) nicht
+b) kein
+c) nie
+
+5.
+a) keine
+b) nicht
+c) nie
+
+---------------------------------------------------------------------------
+
+TEIL 2: SPRACHBAUSTEINE - WORTLISTE
+Setzen Sie die passenden Wörter aus der Liste (a-j) in die Lücken (6-10) ein.
+Achtung: Fünf Wörter bleiben übrig!
+
+Betreff: Rückmeldung zum Projektablauf
+
+Liebe Kolleginnen, liebe Kollegen,
+
+wir müssen leider feststellen, dass wir das Projekt gestern (6) wie geplant abschließen konnten. Es gab technische Komplikationen.
+
+Leider haben wir derzeit auch (7) Unterstützung von der IT-Abteilung bekommen, da dort alle im Urlaub sind.
+
+Es hat uns (8) bei der Behebung des Serverfehlers geholfen, sodass wir auf uns allein gestellt waren.
+
+Ich habe das benötigte Ersatzteil (9) im Lager finden können, es war einfach unauffindbar.
+
+Bei dem gestrigen Treffen wurde (10) Konkretes beschlossen, weshalb wir heute nochmals sprechen müssen.
+
+Viele Grüße
+Sabine
+
+a) NICHT
+b) KEIN
+c) KEINE
+d) NIE
+e) NIRGENDS
+f) NIEMAND
+g) NICHTS
+h) KEINESWEGS
+i) NIEMALS
+j) KEINEM
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL UND ERKLÄRUNGEN (CEVAP ANAHTARI)
+===========================================================================
+
+1. a) keine
+-> Açıklama: "Versandbestätigung" dişil (feminine) bir isimdir ve belirsiz/artikelsiz isimlerin olumsuzlanmasında "keine" kullanılır. "nicht" kelimesi isimleri olumsuz yaparken belirli artikellerle kullanılır.
+
+2. b) nicht
+-> Açıklama: "ordnungsgemäß" (düzgün bir şekilde) sıfatını olumsuz yapmak için "nicht" kullanılmalıdır. "kein" sıfatları olumsuzlaştırmaz.
+
+3. a) nicht
+-> Açıklama: "erreichen" fiilini ve eylemin gerçekleşmediğini olumsuz yapmak için "nicht" kelimesi cümlenin sonundaki fiil yapısının hemen önüne (nicht erreichen) getirilir.
+
+4. c) nie
+-> Açıklama: "nie wieder" (bir daha asla) kalıbı zaman bazında tam bir olumsuzluk bildirir. "nicht wieder" anlamca zayıf kalır, bu yüzden bağlama göre "nie" doğrudur.
+
+5. a) keine
+-> Açıklama: "Ausweichmöglichkeit" dişil (feminine) bir isimdir ve artikelsiz olduğu için olumsuz yapısı "keine" olmalıdır.
+
+6. a) NICHT
+-> Açıklama: Fiili ve cümle yapısını olumsuzlaştırmak için "nicht" kullanılır. "nicht abschließen konnten" (tamamlayamadık) yapısını kuran "NICHT" (a seçeneği) doğrudur.
+
+7. c) KEINE
+-> Açıklama: "Unterstützung" dişil (feminine) bir isim olup belirsiz/artikelsiz durumda "KEINE" (c seçeneği) ile olumsuzlanır.
+
+8. f) NIEMAND
+-> Açıklama: Eylemi yapan özneyi olumsuzlaştırmak için "kimse bize yardım etmedi" anlamında "NIEMAND" (f seçeneği) getirilmelidir.
+
+9. e) NIRGENDS
+-> Açıklama: "hiçbir yerde bulamadım" anlamını veren yer bildiren olumsuz zarf "NIRGENDS" (e seçeneği) getirilmelidir.
+
+10. g) NICHTS
+-> Açıklama: "nichts Konkretes" (somut hiçbir şey) yapısında sıfatı olumsuzlaştırıp isimleştiren belgisiz olumsuz zamir "NICHTS" (g seçeneği) getirilmelidir.
+
+(Teil 2 için boşa kalan tuzak kelimeler: b, d, h, i, j)
