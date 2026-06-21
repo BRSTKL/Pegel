@@ -5472,7 +5472,7 @@ function startB2LessonQuiz(lesson) {
     newBackBtn.addEventListener("click", () => {
       if (confirm("Sınavdan çıkmak istiyor musunuz? İlerlemeniz kaybolacaktır.")) {
         closeB2InlineMenu();
-        showScreen("lesson");
+        openLesson(activeLessonQuiz, state.quizReferrer || "sitemap");
       }
     });
   }
@@ -5890,7 +5890,7 @@ function startLessonQuiz(lesson) {
     backBtn.parentNode.replaceChild(newBackBtn, backBtn);
     newBackBtn.addEventListener("click", () => {
       if (confirm("Sınavdan çıkmak istiyor musunuz? İlerlemeniz kaybolacaktır.")) {
-        showScreen("lesson");
+        openLesson(activeLessonQuiz, state.quizReferrer || "sitemap");
       }
     });
   }
@@ -6395,7 +6395,8 @@ function finishLessonQuiz(success) {
     
     document.getElementById("lesson-quiz-result-ok-btn")?.addEventListener("click", () => {
       overlay.classList.add("hidden");
-      const target = state.quizReferrer || "sitemap";
+      const target = "sitemap";
+      state.lastViewedLessonId = activeLessonQuiz.id;
       state.quizReferrer = "";
       saveState();
       showScreen(target);
@@ -6424,7 +6425,7 @@ function finishLessonQuiz(success) {
     
     document.getElementById("lesson-quiz-result-close-btn")?.addEventListener("click", () => {
       overlay.classList.add("hidden");
-      showScreen("lesson");
+      openLesson(activeLessonQuiz, state.quizReferrer || "sitemap");
     });
   }
 }

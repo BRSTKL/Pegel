@@ -905,7 +905,7 @@ const LESSON_QUIZZES_A1A2 = {
         "morgen (T) - schnell (M) - nach Hamburg (L)",
         "morgen (L) - schnell (M) - nach Hamburg (T)"
       ],
-      "correct": 0
+      "correct": 1
     },
     {
       "type": "multiple-choice",
@@ -915,7 +915,7 @@ const LESSON_QUIZZES_A1A2 = {
         "jeden Tag (K) - wegen der telc-Prüfung (T) - fleißig (M)",
         "jeden Tag (T) - wegen der telc-Prüfung (M) - fleißig (K)"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
       "type": "multiple-choice",
@@ -925,7 +925,7 @@ const LESSON_QUIZZES_A1A2 = {
         "heute (T) - zu spät (L) - zum Deutschkurs (M)",
         "heute (T) - zu spät (M) - zum Deutschkurs (L)"
       ],
-      "correct": 0
+      "correct": 2
     }
   ],
   "lokal": [
