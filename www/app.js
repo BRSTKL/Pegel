@@ -2572,7 +2572,7 @@ function renderSitemapScreen() {
         const relativeTop = pathSitemap.scrollTop + rect.top - parentRect.top;
         pathSitemap.scrollTo({
           top: relativeTop - pathSitemap.clientHeight / 2 + nodeHeight / 2,
-          behavior: "smooth"
+          behavior: "auto"
         });
       }
       if (appContent) {
@@ -2580,7 +2580,7 @@ function renderSitemapScreen() {
         const relativeTop = appContent.scrollTop + rect.top - parentRect.top;
         appContent.scrollTo({
           top: relativeTop - parentRect.clientHeight / 2 + nodeHeight / 2,
-          behavior: "smooth"
+          behavior: "auto"
         });
       }
     }
