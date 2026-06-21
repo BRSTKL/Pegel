@@ -5599,26 +5599,29 @@ function openB2GapPicker(gapNum, event) {
 function positionB2InlineMenu(gapNum) {
   const gapEl = document.getElementById(`b2-gap-${gapNum}`);
   const menu = document.getElementById("b2-inline-menu");
-  if (!gapEl || !menu) return;
+  const container = document.querySelector(".app-container");
+  if (!gapEl || !menu || !container) return;
 
   const rect = gapEl.getBoundingClientRect();
+  const containerRect = container.getBoundingClientRect();
   const menuRect = menu.getBoundingClientRect();
-  const viewportWidth = window.innerWidth;
-  const viewportHeight = window.innerHeight;
+  const viewportWidth = containerRect.width;
+  const viewportHeight = containerRect.height;
 
-  // Calculate positioning
-  let top = rect.bottom + window.scrollY + 6; // default: below gap
-  let left = rect.left + window.scrollX;
+  // Calculate positioning relative to .app-container
+  let top = rect.bottom - containerRect.top + 6; // default: below gap
+  let left = rect.left - containerRect.left;
   let arrowClass = "arrow-top";
 
-  // If it goes off the bottom of the screen, place it above the gap
+  // If it goes off the bottom of the container, place it above the gap
   const menuHeight = menuRect.height || 120;
-  if (rect.bottom + menuHeight + 20 > viewportHeight) {
-    top = rect.top + window.scrollY - menuHeight - 6;
+  const rectBottomRelative = rect.bottom - containerRect.top;
+  if (rectBottomRelative + menuHeight + 20 > viewportHeight) {
+    top = rect.top - containerRect.top - menuHeight - 6;
     arrowClass = "arrow-bottom";
   }
 
-  // Keep it within horizontal bounds of viewport
+  // Keep it within horizontal bounds of container
   if (left + menuRect.width > viewportWidth - 10) {
     left = viewportWidth - menuRect.width - 10;
   }
@@ -5627,7 +5630,7 @@ function positionB2InlineMenu(gapNum) {
   }
 
   // Update arrow position to point directly to the center of the gap element
-  const gapCenterRelative = (rect.left + rect.width / 2) - left;
+  const gapCenterRelative = (rect.left + rect.width / 2) - containerRect.left - left;
   menu.style.setProperty("--arrow-left", `${Math.max(10, Math.min(menuRect.width - 20, gapCenterRelative))}px`);
 
   // Apply styles
