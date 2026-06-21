@@ -5574,12 +5574,16 @@ function openB2GapPicker(gapNum, event) {
   // Position it
   positionB2InlineMenu(gapNum);
   
-  // Close menu on click outside
-  document.onclick = (e) => {
-    if (!menu.contains(e.target) && e.target !== gapEl) {
-      closeB2InlineMenu();
+  // Close menu on click outside, deferred to avoid immediate close due to event propagation
+  setTimeout(() => {
+    if (b2ActiveGap === gapNum) {
+      document.onclick = (e) => {
+        if (!menu.contains(e.target) && e.target !== gapEl) {
+          closeB2InlineMenu();
+        }
+      };
     }
-  };
+  }, 100);
   
   // Recalculate on scroll inside the preview block
   const previewScrollContainer = document.querySelector(".quiz-letter-preview");
@@ -5608,8 +5612,9 @@ function positionB2InlineMenu(gapNum) {
   let arrowClass = "arrow-top";
 
   // If it goes off the bottom of the screen, place it above the gap
-  if (rect.bottom + menuRect.height + 20 > viewportHeight) {
-    top = rect.top + window.scrollY - menuRect.height - 6;
+  const menuHeight = menuRect.height || 120;
+  if (rect.bottom + menuHeight + 20 > viewportHeight) {
+    top = rect.top + window.scrollY - menuHeight - 6;
     arrowClass = "arrow-bottom";
   }
 
