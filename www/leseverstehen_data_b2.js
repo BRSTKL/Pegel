@@ -1409,4 +1409,1121 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
   }
 ];
 
-const LESEVERSTEHEN_TEIL_3_DATA_B2 = []; // Empty or placeholder for Teil 3
+const LESEVERSTEHEN_TEIL_3_DATA_B2 = [
+  {
+    "id": "lese_3_1",
+    "title": "Kurse & Freizeit",
+    "emoji": "🎭",
+    "type": "teil3",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "situations": {
+      "11": "Ihre Tante möchte in ihrer Freizeit malen lernen und sucht einen Kurs für absolute Anfänger, der am Wochenende stattfindet.",
+      "12": "Ihr Sohn (10) interessiert sich für Roboter und Technik und sucht einen Ferienkurs, in dem Kinder einfache Roboter programmieren können.",
+      "13": "Sie möchten Ihre Schwimmtechnik verbessern und suchen einen Kurs für Erwachsene, die bereits schwimmen können, aber besser werden wollen.",
+      "14": "Ihr Nachbar möchte das Fotografieren mit seiner neuen Kamera lernen und sucht einen Kurs, bei dem man auch draußen Aufnahmen übt.",
+      "15": "Ihre Freundin sucht einen Tanzkurs für Paare, da sie und ihr Mann bei einer Hochzeit gut tanzen möchten.",
+      "16": "Sie suchen für Ihren Vater einen Kochkurs, in dem man gesunde Gerichte ohne Fleisch zubereitet.",
+      "17": "Ihre Cousine möchte ein Musikinstrument lernen, am liebsten Gitarre, und hat nur am Abend Zeit.",
+      "18": "Ihr Kollege möchte mit dem Yoga beginnen, um Stress abzubauen, und sucht einen ruhigen Kurs für Einsteiger.",
+      "19": "Ihre Großmutter möchte gern wieder Theater spielen und sucht eine Gruppe für ältere Menschen ohne professionelle Ansprüche.",
+      "20": "Ihr Bruder möchte das Nähen lernen, um eigene Kleidung zu reparieren und herzustellen."
+    },
+    "ads": {
+      "a": {
+        "title": "Malschule Pinselstrich – Aquarell für Anfänger",
+        "body": "Sie hatten noch nie einen Pinsel in der Hand? Kein Problem! In unserem Kurs für absolute Anfänger lernen Sie die Grundlagen der Aquarellmalerei in entspannter Atmosphäre. Kurszeiten: jeden Samstag 10:00–12:30 Uhr, 6 Wochen. Anmeldung: www.malschule-pinselstrich.de"
+      },
+      "b": {
+        "title": "Roboter-Werkstatt für Kinder",
+        "body": "In den Sommerferien bauen und programmieren Kinder von 8 bis 12 Jahren ihre eigenen kleinen Roboter. Spielerisch lernen sie erste Schritte der Technik. Keine Vorkenntnisse nötig. Termine: 1. Ferienwoche, Mo.–Fr. 10:00–14:00 Uhr. Infos: technikclub-kids@web.de"
+      },
+      "c": {
+        "title": "Schwimmkurs „Besser kraulen“",
+        "body": "Für Erwachsene, die bereits sicher schwimmen, aber ihre Technik im Kraulen und Brustschwimmen verbessern möchten. Kleine Gruppen, erfahrene Trainer. Termine: dienstags 19:00–20:00 Uhr, 8 Wochen. Anmeldung: hallenbad-nord@stadt.de"
+      },
+      "d": {
+        "title": "Fotokurs Outdoor",
+        "body": "Lernen Sie, wie Sie mit Ihrer Kamera beeindruckende Bilder machen. Wir üben direkt im Park und in der Stadt: Licht, Bildaufbau und Schärfe. Termine: samstags 14:00–17:00 Uhr, 4 Termine. Kontakt: foto-outdoor@mail.de"
+      },
+      "e": {
+        "title": "Tanzschule Schrittwechsel – Paartanz",
+        "body": "Standard und Latein für Paare jeden Alters. Ob für die Hochzeit oder einfach zum Spaß – bei uns lernen Sie die wichtigsten Tänze schnell und mit Freude. Termine: freitags 19:30–21:00 Uhr. Infos: www.tanzschule-schrittwechsel.de"
+      },
+      "f": {
+        "title": "Vegetarisch kochen – Genuss ohne Fleisch",
+        "body": "In diesem Kochkurs bereiten wir gemeinsam gesunde, vegetarische Gerichte aus frischen Zutaten zu. Für alle, die sich bewusster ernähren möchten. Termine: mittwochs 18:00–21:00 Uhr, 5 Abende. Anmeldung: kochwerkstatt@stadt.de"
+      },
+      "g": {
+        "title": "Gitarrenunterricht am Abend",
+        "body": "Einzel- und Gruppenunterricht für Anfänger und Fortgeschrittene. Lernen Sie Ihre Lieblingslieder zu spielen – ganz entspannt nach Feierabend. Termine: montags und donnerstags ab 18:00 Uhr. Kontakt: musikschule-klang@mail.de"
+      },
+      "h": {
+        "title": "Yoga für Einsteiger",
+        "body": "Sanftes Hatha-Yoga für alle, die zur Ruhe kommen und Stress abbauen möchten. Ruhige Übungen, achtsame Atmung, keine Vorkenntnisse nötig. Termine: dienstags 17:30–18:45 Uhr. Anmeldung: yoga-balance@web.de"
+      },
+      "i": {
+        "title": "Lauftreff für Anfänger",
+        "body": "Sie möchten mit dem Joggen beginnen? In unserer Gruppe laufen Anfänger gemeinsam in lockerem Tempo. Gemeinsam macht es mehr Spaß! Termine: sonntags 9:00 Uhr, Treffpunkt Stadtpark. Infos: lauftreff-stadtpark@mail.de"
+      },
+      "j": {
+        "title": "Nähkurs für Einsteiger",
+        "body": "Lernen Sie die Grundlagen des Nähens: von der Bedienung der Nähmaschine bis zum ersten eigenen Kleidungsstück. Auch Reparaturen werden geübt. Termine: samstags 11:00–14:00 Uhr, 6 Wochen. Anmeldung: naehstube-faden@web.de"
+      },
+      "k": {
+        "title": "Chor „Stimmenzauber“",
+        "body": "Singen Sie gern? Unser gemischter Chor freut sich über neue Mitglieder. Wir singen moderne und klassische Lieder. Notenkenntnisse nicht erforderlich. Termine: mittwochs 19:00–21:00 Uhr. Kontakt: chor-stimmenzauber@mail.de"
+      },
+      "l": {
+        "title": "Töpferkurs am Wochenende",
+        "body": "Entdecken Sie die Freude am Arbeiten mit Ton. Wir formen Schalen, Tassen und kleine Figuren. Für Anfänger und Fortgeschrittene geeignet. Termine: sonntags 14:00–17:00 Uhr. Anmeldung: toepferei-erde@mail.de"
+      }
+    },
+    "answers": {
+      "11": "a",
+      "12": "b",
+      "13": "c",
+      "14": "d",
+      "15": "e",
+      "16": "f",
+      "17": "g",
+      "18": "h",
+      "19": "x",
+      "20": "j"
+    },
+    "explanations": {
+      "11": "Malschule: Anfänger, Samstag/Wochenende",
+      "12": "Roboter-Werkstatt: Kinder 8-12, Programmieren, Ferien",
+      "13": "Schwimmkurs: Erwachsene, die schon schwimmen, Technik verbessern",
+      "14": "Fotokurs Outdoor: draußen Aufnahmen üben",
+      "15": "Tanzschule: Paartanz, für die Hochzeit",
+      "16": "Vegetarisch kochen: gesunde Gerichte ohne Fleisch",
+      "17": "Gitarrenunterricht: Gitarre, am Abend",
+      "18": "Yoga für Einsteiger: Stress abbauen, ruhig, Anfänger",
+      "19": "KEIN Angebot: Theatergruppe für ältere Menschen gibt es nicht; k=Chor, l=Töpfern, i=Laufen passen nicht.",
+      "20": "Nähkurs: Kleidung reparieren und herstellen"
+    }
+  },
+  {
+    "id": "lese_3_2",
+    "title": "Restaurants & Essen",
+    "emoji": "🍽️",
+    "type": "teil3",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "situations": {
+      "11": "Sie möchten mit Freunden am Freitagabend frische Sushi essen und suchen ein japanisches Restaurant in der Innenstadt.",
+      "12": "Ihre Eltern feiern ihren Hochzeitstag und suchen ein elegantes Restaurant mit Menü und Blick auf den Fluss.",
+      "13": "Sie suchen für die Mittagspause einen Ort, an dem es schnelle, gesunde Salate und frische Säfte zum Mitnehmen gibt.",
+      "14": "Ihre Tochter hat Geburtstag und möchte mit zehn Kindern in einem Lokal feiern, das auch einen Spielbereich hat.",
+      "15": "Ihr Onkel ist Veganer und sucht ein Restaurant, in dem ausschließlich pflanzliche Gerichte angeboten werden.",
+      "16": "Sie möchten am Sonntag ausgiebig brunchen und suchen ein Café mit großem Frühstücksbuffet.",
+      "17": "Ihre Kollegin sucht eine Bäckerei, die auch glutenfreies Brot und Kuchen anbietet.",
+      "18": "Sie möchten für eine Familienfeier zu Hause Pizza und italienische Vorspeisen bestellen und brauchen einen Lieferdienst.",
+      "19": "Ihr Freund möchte einen Abend mit Livemusik und guten Cocktails verbringen und sucht eine passende Bar.",
+      "20": "Sie suchen ein Restaurant, das auch sehr spät in der Nacht, nach Mitternacht, noch warme Gerichte serviert."
+    },
+    "ads": {
+      "a": {
+        "title": "Sushi Sakura",
+        "body": "Frische japanische Spezialitäten mitten im Zentrum: Sushi, Sashimi und warme Gerichte. Alles täglich frisch zubereitet. Öffnungszeiten: Mo.–Sa. 12:00–23:00 Uhr. Reservierung: Tel. 030-12 34 56, Marktplatz 8."
+      },
+      "b": {
+        "title": "Restaurant Flussterrasse",
+        "body": "Gehobene Küche in elegantem Ambiente mit herrlichem Blick auf den Fluss. Perfekt für besondere Anlässe wie Jubiläen und Hochzeitstage. Mehrgängige Menüs. Reservierung empfohlen: Tel. 0221-77 88 99, Uferweg 3."
+      },
+      "c": {
+        "title": "Green Bowl – Salate & Säfte",
+        "body": "Schnell, frisch und gesund! Bei uns gibt es bunte Salate, Bowls und frisch gepresste Säfte – auch zum Mitnehmen für die Mittagspause. Öffnungszeiten: Mo.–Fr. 11:00–16:00 Uhr. Bahnhofstraße 22."
+      },
+      "d": {
+        "title": "Familienrestaurant Bärenhöhle",
+        "body": "Bei uns sind Kinder herzlich willkommen! Großer Spielbereich, kindgerechte Speisekarte und Platz für Geburtstagsfeiern. Auf Wunsch organisieren wir die ganze Feier. Reservierung: Tel. 089-55 66 77, Lindenallee 5."
+      },
+      "e": {
+        "title": "Restaurant GrünGenuss – 100 % vegan",
+        "body": "Reine pflanzliche Küche, kreativ und lecker. Von herzhaften Bowls bis zu veganen Desserts – bei uns kommt nichts Tierisches auf den Teller. Öffnungszeiten: Di.–So. 17:00–22:00 Uhr. Gartenstraße 14."
+      },
+      "f": {
+        "title": "Café Morgenrot – Sonntagsbrunch",
+        "body": "Starten Sie gemütlich in den Sonntag! Unser großes Frühstücksbuffet bietet alles von frischen Brötchen bis zu warmen Speisen. So viel Sie möchten. Sonntags 9:00–14:00 Uhr. Reservierung: Tel. 040-33 22 11."
+      },
+      "g": {
+        "title": "Bäckerei Kornblume – glutenfrei genießen",
+        "body": "Neben klassischem Brot bieten wir eine große Auswahl an glutenfreiem Brot, Brötchen und Kuchen. Auch für Allergiker bestens geeignet. Öffnungszeiten: Mo.–Sa. 6:30–18:00 Uhr. Schulstraße 9."
+      },
+      "h": {
+        "title": "Pizzeria Bella Italia – Lieferservice",
+        "body": "Echte italienische Pizza, Pasta und Vorspeisen – frisch zu Ihnen nach Hause geliefert. Perfekt für Feiern und gemütliche Abende. Lieferung: täglich 17:00–23:00 Uhr. Bestellung: Tel. 0711-44 55 66."
+      },
+      "i": {
+        "title": "Cocktailbar Mondschein – Livemusik",
+        "body": "Genießen Sie erstklassige Cocktails bei stimmungsvoller Livemusik. Jeden Freitag und Samstag spielen wechselnde Bands. Öffnungszeiten: Do.–Sa. ab 20:00 Uhr. Hafenstraße 1."
+      },
+      "j": {
+        "title": "Steakhaus Rancho",
+        "body": "Saftige Steaks vom Grill und herzhafte Beilagen in rustikaler Atmosphäre. Für echte Fleischliebhaber. Öffnungszeiten: Di.–So. 18:00–23:00 Uhr. Reservierung: Tel. 0351-99 00 11."
+      },
+      "k": {
+        "title": "Eisdiele Dolce Vita",
+        "body": "Hausgemachtes Eis in über 30 Sorten, dazu Kaffee und Kuchen. Großer Außenbereich für sonnige Tage. Öffnungszeiten: täglich 11:00–20:00 Uhr. Seepromenade 7."
+      },
+      "l": {
+        "title": "Teehaus Frieden",
+        "body": "Über 50 Teesorten aus aller Welt in ruhiger Atmosphäre. Dazu kleine süße Köstlichkeiten. Ideal zum Entspannen und Lesen. Öffnungszeiten: Mo.–Sa. 14:00–20:00 Uhr. Bergstraße 18."
+      }
+    },
+    "answers": {
+      "11": "a",
+      "12": "b",
+      "13": "c",
+      "14": "d",
+      "15": "e",
+      "16": "f",
+      "17": "g",
+      "18": "h",
+      "19": "i",
+      "20": "x"
+    },
+    "explanations": {
+      "11": "Sushi Sakura: japanisch, Zentrum, Freitagabend geöffnet",
+      "12": "Flussterrasse: elegant, Menü, Blick auf den Fluss, Jubiläum",
+      "13": "Green Bowl: schnelle Salate und Säfte zum Mitnehmen, Mittag",
+      "14": "Familienrestaurant: Kindergeburtstag, Spielbereich",
+      "15": "GrünGenuss: 100 % vegan, nur pflanzlich",
+      "16": "Café Morgenrot: Sonntagsbrunch, großes Frühstücksbuffet",
+      "17": "Bäckerei Kornblume: glutenfreies Brot und Kuchen",
+      "18": "Pizzeria Bella Italia: Lieferservice, Pizza und Vorspeisen",
+      "19": "Cocktailbar Mondschein: Livemusik und Cocktails",
+      "20": "KEIN Angebot: kein Restaurant serviert nach Mitternacht; alle schließen spätestens 23:00 Uhr."
+    }
+  },
+  {
+    "id": "lese_3_3",
+    "title": "Reisen & Unterkunft",
+    "emoji": "🏨",
+    "type": "teil3",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "situations": {
+      "11": "Sie suchen für einen Städtetrip am Wochenende ein günstiges Hostel im Zentrum von Hamburg mit Einzelzimmern.",
+      "12": "Ihre Familie möchte im Sommer mit zwei Kindern einen Strandurlaub am Meer machen, am liebsten in einem Hotel mit Pool.",
+      "13": "Ihr Freund plant eine Fahrradtour entlang eines Flusses und sucht einen Anbieter, der geführte Mehrtagestouren organisiert.",
+      "14": "Sie suchen für einen Geschäftstermin ein ruhiges Hotelzimmer in der Nähe des Flughafens für nur eine Nacht.",
+      "15": "Ihre Eltern möchten eine Kreuzfahrt im Mittelmeer machen und suchen ein Angebot mit deutschsprachiger Reiseleitung.",
+      "16": "Ihre Schwester sucht einen Bauernhof, auf dem Kinder Tiere sehen und beim Füttern helfen dürfen.",
+      "17": "Sie möchten allein wandern gehen und suchen eine einfache Berghütte, in der man übernachten und essen kann.",
+      "18": "Ihr Kollege sucht für die Wintersaison eine Ferienwohnung in den Bergen, in der Nähe eines Skigebiets.",
+      "19": "Sie möchten eine Sprachreise nach Spanien machen, bei der man vormittags lernt und nachmittags Ausflüge unternimmt.",
+      "20": "Ihre Großeltern suchen eine organisierte Busreise mit deutschsprachiger Begleitung zu mehreren Städten in Italien."
+    },
+    "ads": {
+      "a": {
+        "title": "City-Hostel Hafenblick",
+        "body": "Günstig übernachten mitten in Hamburg! Wir bieten saubere Einzel- und Mehrbettzimmer, nur fünf Minuten vom Hauptbahnhof entfernt. Gemeinschaftsküche und kostenloses WLAN. Buchung: www.hostel-hafenblick.de"
+      },
+      "b": {
+        "title": "Strandhotel Sonneninsel",
+        "body": "Ihr Familienurlaub am Meer! Direkt am Sandstrand gelegen, mit großem Pool, Kinderbecken und Spielplatz. Familienzimmer und Halbpension verfügbar. Saison: Juni–September. Buchung: info@strandhotel-sonneninsel.de"
+      },
+      "c": {
+        "title": "Radreisen Flusslauf",
+        "body": "Geführte Fahrradtouren entlang der schönsten Flüsse Deutschlands. Mehrtägige Touren mit Gepäcktransport und Übernachtung in gemütlichen Gasthöfen. Termine: April–Oktober. Infos: www.radreisen-flusslauf.de"
+      },
+      "d": {
+        "title": "Airport-Hotel Komfort",
+        "body": "Ideal für Geschäftsreisende: ruhige, moderne Zimmer nur zehn Minuten vom Flughafen. Auch für eine einzelne Übernachtung buchbar. Früh­stück und Shuttle inklusive. Reservierung: Tel. 069-22 33 44."
+      },
+      "e": {
+        "title": "Mittelmeer-Kreuzfahrten Meerblick",
+        "body": "Entdecken Sie die schönsten Häfen des Mittelmeers! Komfortable Schiffe, deutschsprachige Reiseleitung und ein abwechslungsreiches Ausflugsprogramm. Verschiedene Termine im Frühling und Herbst. Buchung: www.kreuzfahrten-meerblick.de"
+      },
+      "f": {
+        "title": "Erlebnisbauernhof Sonnenwiese",
+        "body": "Urlaub auf dem Bauernhof für die ganze Familie! Kinder dürfen Tiere füttern, im Heu spielen und beim Melken zusehen. Gemütliche Ferienwohnungen auf dem Hof. Anfragen: bauernhof-sonnenwiese@web.de"
+      },
+      "g": {
+        "title": "Berghütte Adlerhorst",
+        "body": "Einfache, urige Übernachtung für Wanderer auf 1.800 Metern Höhe. Schlafplätze im Matratzenlager, warme Mahlzeiten und herrlicher Ausblick. Geöffnet: Juni–Oktober. Reservierung: huette-adlerhorst@web.de"
+      },
+      "h": {
+        "title": "Ferienwohnung Schneeglück",
+        "body": "Gemütliche Wohnung für bis zu 4 Personen in den Alpen, nur 300 Meter von der Skipiste entfernt. Voll ausgestattete Küche, Skikeller und Sauna. Wintervermietung: Dezember–März. Kontakt: schneeglueck-alpen@mail.de"
+      },
+      "i": {
+        "title": "Sprachreise España Viva",
+        "body": "Lernen Sie Spanisch dort, wo es gesprochen wird! Vormittags Unterricht in kleinen Gruppen, nachmittags Ausflüge zu Sehenswürdigkeiten und an den Strand. Unterkunft in Gastfamilien. Infos: www.espana-viva-sprachreisen.de"
+      },
+      "j": {
+        "title": "Wellnesshotel Quellenruh",
+        "body": "Erholung pur in ruhiger Lage: großes Thermalbad, Saunalandschaft und ein breites Angebot an Massagen und Anwendungen. Ideal für eine entspannte Kur. Buchung: Tel. 08821-66 77 88."
+      },
+      "k": {
+        "title": "Jugendcamp Abenteuerland",
+        "body": "Ferienlager für Kinder und Jugendliche von 10 bis 16 Jahren. Klettern, Kanu fahren und Lagerfeuer. Betreuung rund um die Uhr durch erfahrene Teamer. Sommerferien, einwöchige Durchgänge. Anmeldung: camp-abenteuerland@mail.de"
+      },
+      "l": {
+        "title": "Stadthotel Zentral",
+        "body": "Modernes Hotel im Herzen der Großstadt, ideal für Sightseeing. Komfortable Doppelzimmer, Restaurant und Bar im Haus. Nahe an Museen und Theatern. Reservierung: Tel. 030-99 88 77."
+      }
+    },
+    "answers": {
+      "11": "a",
+      "12": "b",
+      "13": "c",
+      "14": "d",
+      "15": "e",
+      "16": "f",
+      "17": "g",
+      "18": "h",
+      "19": "i",
+      "20": "x"
+    },
+    "explanations": {
+      "11": "City-Hostel Hafenblick: günstig, Hamburg, Zentrum, Einzelzimmer",
+      "12": "Strandhotel Sonneninsel: Familie, Meer, Pool, Kinder",
+      "13": "Radreisen Flusslauf: geführte Mehrtagestouren am Fluss",
+      "14": "Airport-Hotel: ruhig, nahe Flughafen, eine Nacht",
+      "15": "Mittelmeer-Kreuzfahrten: deutschsprachige Reiseleitung",
+      "16": "Erlebnisbauernhof: Kinder füttern Tiere",
+      "17": "Berghütte Adlerhorst: einfache Hütte, übernachten und essen, Wanderer",
+      "18": "Ferienwohnung Schneeglück: Berge, nahe Skigebiet, Winter",
+      "19": "Sprachreise España Viva: vormittags Unterricht, nachmittags Ausflüge",
+      "20": "KEIN Angebot: eine organisierte Busreise nach Italien wird nicht angeboten; e=Kreuzfahrt im Mittelmeer, nicht Busreise zu Städten."
+    }
+  },
+  {
+    "id": "lese_3_4",
+    "title": "Beruf & Praktikum",
+    "emoji": "💼",
+    "type": "teil3",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "situations": {
+      "11": "Ihre Freundin hat gerade ihr Abitur gemacht und sucht eine Ausbildung als Krankenpflegerin in einem Krankenhaus.",
+      "12": "Ihr Bruder studiert Wirtschaft und sucht ein bezahltes Praktikum in einer Marketingabteilung für die Semesterferien.",
+      "13": "Sie suchen einen Minijob am Wochenende als Kellner in einem Café oder Restaurant.",
+      "14": "Ihre Nachbarin möchte als Tagesmutter arbeiten und sucht eine Stelle bei einer Familie, die regelmäßig Betreuung für ihr Kind braucht.",
+      "15": "Ihr Cousin hat einen LKW-Führerschein und sucht eine Festanstellung als Fahrer in einem Logistikunternehmen.",
+      "16": "Sie sind ausgebildete Grafikerin und suchen eine Teilzeitstelle, die Sie auch von zu Hause aus erledigen können.",
+      "17": "Ihre Schwester ist Lehrerin und sucht eine Nebentätigkeit, bei der sie Schülern am Nachmittag Nachhilfe in Mathematik gibt.",
+      "18": "Ihr Bekannter sucht eine Stelle als Koch in einem Restaurant mit internationaler Küche.",
+      "19": "Sie möchten ehrenamtlich in einem Tierheim mithelfen und Tiere betreuen.",
+      "20": "Ihr Onkel ist Ingenieur und sucht eine leitende Position in einem großen Maschinenbauunternehmen."
+    },
+    "ads": {
+      "a": {
+        "title": "Ausbildung in der Pflege",
+        "body": "Das Klinikum Sankt Marien sucht zum Herbst engagierte Auszubildende für den Beruf Pflegefachkraft. Wir bieten eine fundierte dreijährige Ausbildung mit guten Übernahmechancen. Bewerbung an: ausbildung@klinikum-marien.de"
+      },
+      "b": {
+        "title": "Praktikum im Marketing",
+        "body": "Die Firma BrandPlus bietet Studierenden der Wirtschaft ein dreimonatiges, bezahltes Praktikum in der Marketingabteilung. Aufgaben: Kampagnen unterstützen, Social Media, Marktanalyse. Bewerbung: jobs@brandplus.de"
+      },
+      "c": {
+        "title": "Aushilfe im Café gesucht",
+        "body": "Das Café Sonnenschein sucht eine freundliche Bedienung für das Wochenende (Sa./So.). Minijob auf 538-Euro-Basis. Erfahrung von Vorteil, aber nicht nötig. Kontakt: Tel. 040-12 12 12."
+      },
+      "d": {
+        "title": "Familie sucht Tagesmutter",
+        "body": "Wir suchen eine liebevolle und zuverlässige Tagesmutter für unsere zweijährige Tochter, montags bis freitags vormittags. Erfahrung mit Kleinkindern erwünscht. Kontakt: familie.berger@mail.de"
+      },
+      "e": {
+        "title": "Berufskraftfahrer (m/w/d) gesucht",
+        "body": "Die Spedition Schnelltrans sucht zuverlässige LKW-Fahrer in Festanstellung. Führerschein der Klasse CE erforderlich. Geregelte Arbeitszeiten, faire Bezahlung. Bewerbung: personal@schnelltrans.de"
+      },
+      "f": {
+        "title": "Grafiker/in im Homeoffice",
+        "body": "Werbeagentur sucht erfahrene Grafikerin in Teilzeit. Die Arbeit kann vollständig von zu Hause aus erledigt werden. Sichere Kenntnisse in Designprogrammen erforderlich. Bewerbung: jobs@kreativ-agentur.de"
+      },
+      "g": {
+        "title": "Nachhilfe Mathematik gesucht",
+        "body": "Nachhilfeinstitut sucht Lehrkräfte, die nachmittags Schülern der Klassen 5–10 Mathematik beibringen. Stundenweise Bezahlung, flexible Zeiten. Kontakt: info@lernhilfe-plus.de"
+      },
+      "h": {
+        "title": "Koch (m/w/d) für internationale Küche",
+        "body": "Unser Restaurant „Weltgenuss“ sucht einen kreativen Koch mit Erfahrung in internationaler Küche. Vollzeit, geregelte Schichten, gutes Team. Bewerbung: kueche@weltgenuss.de"
+      },
+      "i": {
+        "title": "Ehrenamt im Tierheim",
+        "body": "Das Tierheim Pfötchen sucht freiwillige Helfer, die Hunde ausführen, Katzen versorgen und bei der Pflege helfen. Tierliebe und Zuverlässigkeit vorausgesetzt. Kontakt: ehrenamt@tierheim-pfoetchen.de"
+      },
+      "j": {
+        "title": "Reinigungskraft gesucht",
+        "body": "Bürogebäude sucht eine zuverlässige Reinigungskraft für die frühen Morgenstunden (6:00–9:00 Uhr). Teilzeit, geregelte Arbeitszeiten. Kontakt: Tel. 030-55 44 33."
+      },
+      "k": {
+        "title": "Verkäufer/in im Modegeschäft",
+        "body": "Unsere Modeboutique sucht eine freundliche Verkäuferin in Vollzeit. Freude am Kontakt mit Kunden und Interesse an Mode erwünscht. Bewerbung: boutique-stil@mail.de"
+      },
+      "l": {
+        "title": "Erzieher/in für Kindergarten",
+        "body": "Der städtische Kindergarten Regenbogen sucht eine ausgebildete Erzieherin in Vollzeit zur Betreuung von Kindern im Alter von 3 bis 6 Jahren. Bewerbung: kita-regenbogen@stadt.de"
+      }
+    },
+    "answers": {
+      "11": "a",
+      "12": "b",
+      "13": "c",
+      "14": "d",
+      "15": "e",
+      "16": "f",
+      "17": "g",
+      "18": "h",
+      "19": "i",
+      "20": "x"
+    },
+    "explanations": {
+      "11": "Ausbildung in der Pflege: Krankenpflege, Krankenhaus",
+      "12": "Praktikum im Marketing: Wirtschaft, bezahlt, Semesterferien",
+      "13": "Aushilfe im Café: Kellnern, Wochenende, Minijob",
+      "14": "Familie sucht Tagesmutter: regelmäßige Kinderbetreuung",
+      "15": "Berufskraftfahrer: LKW, Festanstellung, Logistik",
+      "16": "Grafiker/in im Homeoffice: Teilzeit, von zu Hause",
+      "17": "Nachhilfe Mathematik: nachmittags, Schüler",
+      "18": "Koch für internationale Küche",
+      "19": "Ehrenamt im Tierheim: Tiere betreuen",
+      "20": "KEIN Angebot: eine leitende Ingenieursstelle im Maschinenbau wird nicht angeboten."
+    }
+  },
+  {
+    "id": "lese_3_5",
+    "title": "Gesundheit & Sport",
+    "emoji": "🏃",
+    "type": "teil3",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "situations": {
+      "11": "Ihre Mutter sucht eine Zahnarztpraxis, die auch samstags geöffnet hat, da sie unter der Woche keine Zeit hat.",
+      "12": "Ihr Freund möchte abnehmen und sucht ein Fitnessstudio mit persönlicher Trainingsberatung.",
+      "13": "Sie suchen einen Augenarzt, der eine Vorsorgeuntersuchung anbietet und kurze Wartezeiten verspricht.",
+      "14": "Ihre Kollegin leidet unter Stress und sucht einen Kurs für Entspannungstechniken wie Meditation.",
+      "15": "Ihr Bruder hat sich beim Fußball das Knie verletzt und sucht eine physiotherapeutische Behandlung.",
+      "16": "Sie möchten mit dem Klettern beginnen und suchen eine Kletterhalle mit Kursen für Anfänger.",
+      "17": "Ihre Tante sucht eine Apotheke, die rund um die Uhr (auch nachts) geöffnet ist.",
+      "18": "Ihr Onkel hat Probleme mit den Ohren und sucht einen Facharzt für Hals-Nasen-Ohren-Heilkunde.",
+      "19": "Sie suchen einen Schwimmverein für Ihre Tochter (8), die das Schwimmen lernen möchte.",
+      "20": "Ihr Vater möchte regelmäßig laufen gehen und sucht eine Laufgruppe für Senioren am Vormittag."
+    },
+    "ads": {
+      "a": {
+        "title": "Zahnarztpraxis Dr. Lächeln",
+        "body": "Moderne Zahnmedizin für die ganze Familie. Wir bieten auch Samstagssprechstunden für Berufstätige an. Sprechzeiten: Mo.–Fr. 8:00–18:00 Uhr, Sa. 9:00–13:00 Uhr. Termine: Tel. 030-44 55 66."
+      },
+      "b": {
+        "title": "Fitnessstudio PowerFit",
+        "body": "Erreichen Sie Ihre Ziele mit professioneller Unterstützung! Bei uns gibt es persönliche Trainingsberatung und individuelle Pläne, ob zum Abnehmen oder Muskelaufbau. Öffnungszeiten: täglich 6:00–23:00 Uhr. Probetraining: Tel. 040-77 66 55."
+      },
+      "c": {
+        "title": "Augenarztpraxis Klarblick",
+        "body": "Vorsorgeuntersuchungen, Sehtests und Beratung. Wir legen Wert auf kurze Wartezeiten und nehmen uns Zeit für Sie. Sprechzeiten: Mo.–Fr. 8:30–17:00 Uhr. Termine: Tel. 0221-33 44 55."
+      },
+      "d": {
+        "title": "Kurs „Ruhe finden“ – Meditation & Entspannung",
+        "body": "Lernen Sie, im Alltag abzuschalten. Unser Kurs vermittelt Entspannungstechniken, Achtsamkeit und einfache Meditationsübungen gegen Stress. Termine: montags 18:30–20:00 Uhr, 6 Wochen. Anmeldung: vhs-entspannung@stadt.de"
+      },
+      "e": {
+        "title": "Physiotherapie Aktiv",
+        "body": "Spezialisiert auf Sportverletzungen, Knie- und Rückenbeschwerden. Individuelle Behandlung durch erfahrene Therapeuten. Sprechzeiten: Mo.–Fr. 8:00–20:00 Uhr. Termine: Tel. 069-22 11 00."
+      },
+      "f": {
+        "title": "Kletterhalle Gipfelstürmer",
+        "body": "Klettern für alle! Wir bieten Anfängerkurse, in denen Sie sicher die Grundtechniken lernen. Ausrüstung kann ausgeliehen werden. Kurse: samstags 10:00–13:00 Uhr. Infos: www.kletterhalle-gipfelstuermer.de"
+      },
+      "g": {
+        "title": "Notdienst-Apotheke Mitte",
+        "body": "Wir sind für Sie da, wenn andere geschlossen haben – rund um die Uhr, sieben Tage die Woche. Auch nachts erhalten Sie bei uns dringend benötigte Medikamente. Adresse: Bahnhofstraße 2. Tel. 030-99 11 22."
+      },
+      "h": {
+        "title": "HNO-Praxis Dr. Hörmann",
+        "body": "Facharzt für Hals-, Nasen- und Ohrenheilkunde. Wir behandeln Hörprobleme, Entzündungen und Allergien. Sprechzeiten: Mo.–Fr. 8:00–16:00 Uhr. Termine: Tel. 0351-66 77 88."
+      },
+      "i": {
+        "title": "Schwimmverein Delphin",
+        "body": "Schwimmkurse für Kinder ab 6 Jahren. Erfahrene Trainer bringen Ihrem Kind spielerisch das Schwimmen bei. Kleine Gruppen, viel Spaß im Wasser. Termine: dienstags und donnerstags 16:00 Uhr. Anmeldung: verein-delphin@mail.de"
+      },
+      "j": {
+        "title": "Massagepraxis Wohlfühl",
+        "body": "Klassische Massagen, Wellnessmassagen und Behandlungen zur Entspannung. Gönnen Sie sich eine Auszeit vom Alltag. Termine nach Vereinbarung: Tel. 089-11 22 33."
+      },
+      "k": {
+        "title": "Hausarztpraxis Dr. Sorglos",
+        "body": "Allgemeinmedizin für die ganze Familie. Vorsorge, Impfungen und Behandlung akuter Beschwerden. Sprechzeiten: Mo.–Fr. 8:00–12:00 und 15:00–18:00 Uhr. Termine: Tel. 0221-12 34 56."
+      },
+      "l": {
+        "title": "Tanzstudio Rhythmus",
+        "body": "Zumba, Hip-Hop und moderner Tanz für alle Altersgruppen. Bewegung, Musik und Spaß in der Gruppe. Termine: verschiedene Kurse unter der Woche. Infos: www.tanzstudio-rhythmus.de"
+      }
+    },
+    "answers": {
+      "11": "a",
+      "12": "b",
+      "13": "c",
+      "14": "d",
+      "15": "e",
+      "16": "f",
+      "17": "g",
+      "18": "h",
+      "19": "i",
+      "20": "x"
+    },
+    "explanations": {
+      "11": "Zahnarztpraxis: auch samstags geöffnet",
+      "12": "Fitnessstudio PowerFit: persönliche Trainingsberatung, Abnehmen",
+      "13": "Augenarztpraxis: Vorsorgeuntersuchung, kurze Wartezeiten",
+      "14": "Kurs „Ruhe finden“: Meditation, Entspannung gegen Stress",
+      "15": "Physiotherapie Aktiv: Sportverletzungen, Knie",
+      "16": "Kletterhalle: Anfängerkurse",
+      "17": "Notdienst-Apotheke: rund um die Uhr, auch nachts",
+      "18": "HNO-Praxis: Hals-Nasen-Ohren-Facharzt",
+      "19": "Schwimmverein Delphin: Schwimmkurse für Kinder ab 6",
+      "20": "KEIN Angebot: eine Lauf­gruppe für Senioren am Vormittag gibt es nicht; l=Tanzstudio, j=Massage passen nicht."
+    }
+  },
+  {
+    "id": "lese_3_6",
+    "title": "Wohnen & Handwerk",
+    "emoji": "🏠",
+    "type": "teil3",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "situations": {
+      "11": "Sie suchen eine 2-Zimmer-Wohnung zur Miete in der Stadtmitte, möglichst mit Balkon.",
+      "12": "Ihre Tochter sucht ein möbliertes WG-Zimmer in der Nähe der Universität für das nächste Semester.",
+      "13": "Ihr Wasserhahn tropft und Sie suchen einen Klempner (Installateur), der auch am Wochenende kommt.",
+      "14": "Sie möchten Ihre Wohnung streichen lassen und suchen einen Malerbetrieb, der ein kostenloses Angebot erstellt.",
+      "15": "Ihr Nachbar zieht um und sucht ein Umzugsunternehmen, das auch Möbel transportiert und beim Tragen hilft.",
+      "16": "Sie suchen einen Elektriker, der in Ihrer Wohnung neue Lampen und Steckdosen installiert.",
+      "17": "Ihre Eltern möchten ihren alten Garten neu gestalten lassen und suchen einen Gärtner mit Erfahrung.",
+      "18": "Sie möchten einen Dachdecker beauftragen, der Ihr undichtes Dach repariert.",
+      "19": "Ihr Bruder sucht ein Haus mit Garten zum Kauf am Stadtrand für seine Familie.",
+      "20": "Sie möchten ein altes Sofa und einen Schrank verkaufen und suchen einen Ankäufer für gebrauchte Möbel."
+    },
+    "ads": {
+      "a": {
+        "title": "2-Zimmer-Wohnung im Zentrum",
+        "body": "Helle, renovierte Wohnung (60 m²) in zentraler Lage zu vermieten. Mit Balkon, Einbauküche und Tageslichtbad. Ideal für Paare oder Singles. Kontakt: vermietung@wohnen-mitte.de"
+      },
+      "b": {
+        "title": "WG-Zimmer nahe Uni",
+        "body": "Möbliertes Zimmer in 3er-WG, nur 5 Gehminuten zur Universität, an Studentin/Studenten zu vermieten. Gemeinsame Küche und Bad. Verfügbar ab nächstem Semester. Kontakt: wg-campus@mail.de"
+      },
+      "c": {
+        "title": "Sanitär & Heizung Tropfstopp",
+        "body": "Ihr Installateur für alle Fälle: undichte Hähne, verstopfte Rohre, Heizungsreparaturen. Wir kommen auch am Wochenende und im Notfall schnell zu Ihnen. Kontakt: Tel. 030-44 33 22."
+      },
+      "d": {
+        "title": "Malerbetrieb Farbklecks",
+        "body": "Wir streichen Ihre Wohnung sauber und zuverlässig. Vereinbaren Sie einen Termin für ein kostenloses, unverbindliches Angebot bei Ihnen vor Ort. Kontakt: info@maler-farbklecks.de"
+      },
+      "e": {
+        "title": "Umzüge Flink & Sicher",
+        "body": "Stressfrei umziehen! Wir transportieren Ihre Möbel und Kartons und helfen beim Tragen und Aufbauen. Faire Preise, erfahrenes Team. Angebot anfordern: Tel. 040-66 55 44."
+      },
+      "f": {
+        "title": "Elektro Blitz",
+        "body": "Ihr Elektriker für Installationen aller Art: Lampen, Steckdosen, Sicherungen. Schnell, sauber und zuverlässig. Termine: Tel. 069-11 00 99."
+      },
+      "g": {
+        "title": "Gartenbau Grünwerk",
+        "body": "Wir gestalten Ihren Traumgarten: Planung, Bepflanzung und Pflege. Langjährige Erfahrung in der Gartengestaltung. Beratung: info@gartenbau-gruenwerk.de"
+      },
+      "h": {
+        "title": "Schlüsseldienst 24h",
+        "body": "Ausgesperrt? Wir öffnen Ihre Tür schnell und ohne Schaden – Tag und Nacht, sieben Tage die Woche. In der Regel innerhalb von 30 Minuten vor Ort. Notruf: Tel. 0800-12 34 56."
+      },
+      "i": {
+        "title": "Haus mit Garten am Stadtrand",
+        "body": "Schönes Einfamilienhaus (140 m²) mit großem Garten in ruhiger Lage am Stadtrand zu verkaufen. Ideal für Familien. Vier Zimmer, Garage. Kontakt: immobilien-traumhaus@mail.de"
+      },
+      "j": {
+        "title": "Möbelankauf Zweite Chance",
+        "body": "Wir kaufen Ihre gut erhaltenen Gebrauchtmöbel: Sofas, Schränke, Tische und mehr. Faire Preise, Abholung möglich. Kontakt: Tel. 0221-55 66 77."
+      },
+      "k": {
+        "title": "Fensterputzer Glanz & Glas",
+        "body": "Wir reinigen Ihre Fenster streifenfrei – für Privathaushalte und Büros. Regelmäßig oder einmalig. Kontakt: info@fenster-glanz.de"
+      },
+      "l": {
+        "title": "Tischlerei Holzwurm",
+        "body": "Maßgefertigte Möbel nach Ihren Wünschen: Regale, Tische, Einbauschränke. Reine Handarbeit aus heimischem Holz. Kontakt: tischlerei-holzwurm@mail.de"
+      }
+    },
+    "answers": {
+      "11": "a",
+      "12": "b",
+      "13": "c",
+      "14": "d",
+      "15": "e",
+      "16": "f",
+      "17": "g",
+      "18": "x",
+      "19": "i",
+      "20": "j"
+    },
+    "explanations": {
+      "11": "2-Zimmer-Wohnung im Zentrum: Miete, Balkon, zentral",
+      "12": "WG-Zimmer nahe Uni: möbliert, nahe Universität, Studenten",
+      "13": "Sanitär Tropfstopp: Installateur, undichte Hähne, Wochenende",
+      "14": "Malerbetrieb Farbklecks: streichen, kostenloses Angebot",
+      "15": "Umzüge Flink & Sicher: Möbeltransport, Tragen",
+      "16": "Elektro Blitz: Lampen, Steckdosen installieren",
+      "17": "Gartenbau Grünwerk: Garten gestalten, Erfahrung",
+      "18": "KEIN Angebot: ein Dachdecker zur Dachreparatur wird nicht angeboten; h=Schlüsseldienst, k=Fensterputzer, l=Tischlerei passen nicht.",
+      "19": "Haus mit Garten am Stadtrand: Kauf, Familie",
+      "20": "Möbelankauf: Sofa und Schrank verkaufen"
+    }
+  },
+  {
+    "id": "lese_3_7",
+    "title": "Veranstaltungen & Kultur",
+    "emoji": "🎫",
+    "type": "teil3",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "situations": {
+      "11": "Sie möchten am Wochenende mit Ihren Kindern ins Theater gehen und suchen ein Stück, das für Kinder geeignet ist.",
+      "12": "Ihre Freundin liebt klassische Musik und sucht ein Konzert mit einem Sinfonieorchester.",
+      "13": "Sie interessieren sich für moderne Kunst und suchen eine Ausstellung mit Werken zeitgenössischer Künstler.",
+      "14": "Ihr Bruder möchte ein Open-Air-Kino besuchen, in dem im Sommer Filme unter freiem Himmel gezeigt werden.",
+      "15": "Ihre Eltern möchten an einer Stadtführung teilnehmen, die die Geschichte der Altstadt erklärt.",
+      "16": "Sie suchen ein Musikfestival mit Rock- und Popbands für ein ganzes Wochenende.",
+      "17": "Ihre Tante interessiert sich für Literatur und sucht eine Lesung, bei der ein Autor aus seinem neuen Buch vorliest.",
+      "18": "Sie möchten einen Flohmarkt besuchen, um gebrauchte Bücher und Schallplatten zu kaufen.",
+      "19": "Ihr Kollege sucht eine Comedy-Show mit einem bekannten Kabarettisten für einen lustigen Abend.",
+      "20": "Sie suchen eine Ballettaufführung für einen besonderen Abend mit Ihrem Partner."
+    },
+    "ads": {
+      "a": {
+        "title": "Kindertheater Zwergenland",
+        "body": "„Der kleine Drache“ – ein zauberhaftes Stück für Kinder ab 4 Jahren. Bunte Kostüme, Musik und viel zum Lachen. Vorstellungen: Sa. und So. 15:00 Uhr. Karten: www.kindertheater-zwergenland.de"
+      },
+      "b": {
+        "title": "Sinfoniekonzert im Konzerthaus",
+        "body": "Das Stadtorchester spielt Werke von Beethoven und Brahms. Ein Abend voll klassischer Musik in festlichem Rahmen. Termin: Samstag, 19:30 Uhr. Karten: Tel. 030-22 33 44."
+      },
+      "c": {
+        "title": "Ausstellung „Heute & Morgen“",
+        "body": "Moderne Kunst zeitgenössischer Künstler aus aller Welt: Malerei, Skulptur und Installationen. Im Museum für Gegenwartskunst. Geöffnet: Di.–So. 10:00–18:00 Uhr. Infos: www.museum-gegenwart.de"
+      },
+      "d": {
+        "title": "Open-Air-Kino am See",
+        "body": "Filmgenuss unter freiem Himmel! Den ganzen Sommer über zeigen wir aktuelle und klassische Filme bei lauen Sommernächten. Termine: Juli–August, jeweils freitags 21:00 Uhr. Infos: www.openair-kino-see.de"
+      },
+      "e": {
+        "title": "Historische Stadtführung",
+        "body": "Entdecken Sie die Geheimnisse der Altstadt! Bei unserem Rundgang erfahren Sie spannende Geschichten zur Geschichte und zu den alten Gebäuden. Termine: täglich 14:00 Uhr, Treffpunkt Rathaus. Anmeldung: stadtfuehrung@tourismus.de"
+      },
+      "f": {
+        "title": "Rock am Fluss – Festival",
+        "body": "Drei Tage Live-Musik mit nationalen und internationalen Rock- und Popbands. Camping möglich, Essensstände vor Ort. Termin: erstes Augustwochenende. Tickets: www.rock-am-fluss.de"
+      },
+      "g": {
+        "title": "Lesung mit Autorin Clara Mertens",
+        "body": "Die bekannte Schriftstellerin liest aus ihrem neuen Roman und beantwortet Fragen des Publikums. Anschließend Signierstunde. Termin: Donnerstag, 19:00 Uhr, Stadtbibliothek. Eintritt frei."
+      },
+      "h": {
+        "title": "Großer Trödel- und Büchermarkt",
+        "body": "Stöbern Sie nach Herzenslust! Gebrauchte Bücher, Schallplatten, Antiquitäten und mehr. Für Sammler und Schnäppchenjäger. Termin: Sonntag, 8:00–16:00 Uhr, Marktplatz. Infos: www.troedelmarkt-stadt.de"
+      },
+      "i": {
+        "title": "Kabarett-Abend mit Max Lustig",
+        "body": "Der bekannte Komiker präsentiert sein neues Programm voller Witz und Satire. Ein Abend zum Lachen und Nachdenken. Termin: Freitag, 20:00 Uhr, Kulturzentrum. Karten: Tel. 0221-77 88 99."
+      },
+      "j": {
+        "title": "Jazz im Keller",
+        "body": "Stimmungsvolle Jazz-Abende mit wechselnden Musikern in gemütlicher Atmosphäre. Eintritt frei, Spenden willkommen. Termine: jeden Mittwoch 20:00 Uhr. Infos: www.jazzkeller-stadt.de"
+      },
+      "k": {
+        "title": "Weihnachtsmarkt am Schloss",
+        "body": "Glühwein, gebrannte Mandeln und kunsthandwerkliche Stände in festlicher Atmosphäre. Für die ganze Familie. Termine: 1.–23. Dezember, täglich ab 16:00 Uhr. Infos: www.weihnachtsmarkt-schloss.de"
+      },
+      "l": {
+        "title": "Kreativ-Workshop Malerei",
+        "body": "An einem Wochenende lernen Sie verschiedene Maltechniken kennen und gestalten Ihr eigenes Bild. Für Erwachsene mit und ohne Vorkenntnisse. Termin: Sa./So. 10:00–16:00 Uhr. Anmeldung: kreativ-workshop@mail.de"
+      }
+    },
+    "answers": {
+      "11": "a",
+      "12": "b",
+      "13": "c",
+      "14": "d",
+      "15": "e",
+      "16": "f",
+      "17": "g",
+      "18": "h",
+      "19": "i",
+      "20": "x"
+    },
+    "explanations": {
+      "11": "Kindertheater Zwergenland: Stück für Kinder, Wochenende",
+      "12": "Sinfoniekonzert: klassische Musik, Orchester",
+      "13": "Ausstellung „Heute & Morgen“: moderne/zeitgenössische Kunst",
+      "14": "Open-Air-Kino am See: Filme unter freiem Himmel, Sommer",
+      "15": "Historische Stadtführung: Geschichte der Altstadt",
+      "16": "Rock am Fluss: Festival, Rock/Pop, Wochenende",
+      "17": "Lesung mit Clara Mertens: Autor liest aus neuem Buch",
+      "18": "Trödel- und Büchermarkt: gebrauchte Bücher und Schallplatten",
+      "19": "Kabarett-Abend mit Max Lustig: Comedy/Kabarettist",
+      "20": "KEIN Angebot: eine Ballettaufführung wird nicht angeboten; j=Jazz, k=Weihnachtsmarkt, l=Malworkshop passen nicht."
+    }
+  },
+  {
+    "id": "lese_3_8",
+    "title": "Einkaufen & Dienstleistungen",
+    "emoji": "🛍️",
+    "type": "teil3",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "situations": {
+      "11": "Sie suchen einen Friseur, der auch spontan ohne Termin Kunden bedient.",
+      "12": "Ihre Mutter möchte ihre Winterkleidung reinigen lassen und sucht eine Reinigung, die auch empfindliche Stoffe behandelt.",
+      "13": "Sie suchen ein Geschäft, das gebrauchte Fahrräder verkauft und auch repariert.",
+      "14": "Ihr Vater braucht eine neue Brille und sucht einen Optiker mit großer Auswahl und Sehtest.",
+      "15": "Sie möchten ein Geschenk einpacken lassen und suchen ein Geschäft, das einen Geschenkservice anbietet.",
+      "16": "Ihre Schwester sucht einen Buchladen, der auch fremdsprachige Bücher auf Englisch führt.",
+      "17": "Sie möchten einen Anzug schneidern lassen und suchen einen Schneider, der Maßanfertigungen anbietet.",
+      "18": "Ihr Onkel sucht einen Blumenladen, der Sträuße auch nach Hause liefert.",
+      "19": "Sie suchen einen Schuhmacher, der kaputte Absätze und Sohlen repariert.",
+      "20": "Ihre Tante möchte ihr Auto reparieren lassen und sucht eine Werkstatt mit fairen Preisen."
+    },
+    "ads": {
+      "a": {
+        "title": "Friseursalon Haarscharf",
+        "body": "Schöne Frisuren ohne langes Warten! Bei uns sind Sie auch ohne Termin willkommen – einfach vorbeikommen. Öffnungszeiten: Di.–Sa. 9:00–19:00 Uhr. Marktstraße 4."
+      },
+      "b": {
+        "title": "Textilreinigung Blütenrein",
+        "body": "Wir reinigen Ihre Kleidung schonend und gründlich, auch empfindliche Stoffe wie Seide und Wolle. Schnelle Bearbeitung. Öffnungszeiten: Mo.–Fr. 8:00–18:00 Uhr. Lindenstraße 12."
+      },
+      "c": {
+        "title": "Fahrradladen RadWelt",
+        "body": "Verkauf von neuen und gebrauchten Fahrrädern. Außerdem bieten wir Reparaturen und Wartung aller Marken an. Öffnungszeiten: Mo.–Sa. 9:00–18:00 Uhr. Bahnhofstraße 30."
+      },
+      "d": {
+        "title": "Optik Klarsicht",
+        "body": "Große Auswahl an Brillen und Sonnenbrillen. Kostenloser Sehtest und fachkundige Beratung durch erfahrene Optiker. Öffnungszeiten: Mo.–Fr. 9:00–18:30 Uhr, Sa. 9:00–14:00 Uhr. Hauptstraße 8."
+      },
+      "e": {
+        "title": "Geschenkeladen Wunderschön",
+        "body": "Schöne Geschenkideen für jeden Anlass. Auf Wunsch verpacken wir Ihr Geschenk kostenlos und festlich. Öffnungszeiten: Mo.–Sa. 10:00–19:00 Uhr. Rosenweg 5."
+      },
+      "f": {
+        "title": "Buchhandlung Weltenleser",
+        "body": "Bücher aus aller Welt – auch eine große Auswahl englischsprachiger Romane und Sachbücher. Bestellungen innerhalb eines Tages. Öffnungszeiten: Mo.–Sa. 9:00–20:00 Uhr. Schillerplatz 2."
+      },
+      "g": {
+        "title": "Computerservice FlinkFix",
+        "body": "Ihr Rechner ist langsam oder kaputt? Wir reparieren PCs und Laptops, entfernen Viren und machen Ihren Computer wieder schnell. Kontakt: Tel. 030-11 22 33."
+      },
+      "h": {
+        "title": "Blumen Blütentraum",
+        "body": "Frische Sträuße und Gestecke für jeden Anlass. Wir liefern Ihre Blumen auf Wunsch direkt nach Hause oder ins Büro. Öffnungszeiten: Mo.–Sa. 8:00–19:00 Uhr. Tel. 040-44 55 66."
+      },
+      "i": {
+        "title": "Schuhmacherei Sohlenglück",
+        "body": "Wir reparieren Ihre Schuhe: neue Absätze, Sohlen und Reißverschlüsse. Schnell und preiswert. Öffnungszeiten: Mo.–Fr. 9:00–18:00 Uhr. Gartenstraße 7."
+      },
+      "j": {
+        "title": "Kfz-Werkstatt Schrauberprofi",
+        "body": "Reparaturen und Wartung für alle Automarken zu fairen Preisen. Inspektion, Reifenwechsel, TÜV-Vorbereitung. Termine: Tel. 0711-22 33 44."
+      },
+      "k": {
+        "title": "Juwelier Goldglanz",
+        "body": "Schmuck, Uhren und edle Geschenke. Wir reparieren auch Ihre Uhren und Ketten. Öffnungszeiten: Mo.–Sa. 10:00–18:00 Uhr. Königsallee 1."
+      },
+      "l": {
+        "title": "Handyladen MobilProfi",
+        "body": "Verkauf von Smartphones und Zubehör. Wir reparieren auch Displays und Akkus. Öffnungszeiten: Mo.–Sa. 10:00–19:00 Uhr. Bahnhofstraße 15."
+      }
+    },
+    "answers": {
+      "11": "a",
+      "12": "b",
+      "13": "c",
+      "14": "d",
+      "15": "e",
+      "16": "f",
+      "17": "x",
+      "18": "h",
+      "19": "i",
+      "20": "j"
+    },
+    "explanations": {
+      "11": "Friseursalon Haarscharf: auch ohne Termin",
+      "12": "Textilreinigung Blütenrein: empfindliche Stoffe reinigen",
+      "13": "Fahrradladen RadWelt: gebrauchte Räder, Reparatur",
+      "14": "Optik Klarsicht: große Auswahl, Sehtest",
+      "15": "Geschenkeladen Wunderschön: Geschenkservice/verpacken",
+      "16": "Buchhandlung Weltenleser: englischsprachige Bücher",
+      "17": "KEIN Angebot: ein Schneider für Maßanfertigungen wird nicht angeboten; g=Computerservice, k=Juwelier, l=Handyladen passen nicht.",
+      "18": "Blumen Blütentraum: Sträuße, Lieferung nach Hause",
+      "19": "Schuhmacherei Sohlenglück: Absätze und Sohlen reparieren",
+      "20": "Kfz-Werkstatt Schrauberprofi: Auto reparieren, faire Preise"
+    }
+  },
+  {
+    "id": "lese_3_9",
+    "title": "Sprachen & Weiterbildung",
+    "emoji": "🗣️",
+    "type": "teil3",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "situations": {
+      "11": "Ihre Freundin möchte einen Englischkurs auf fortgeschrittenem Niveau (B2) besuchen, um sich auf eine Reise vorzubereiten.",
+      "12": "Ihr Bruder möchte einen Computerkurs besuchen, in dem man den Umgang mit Tabellenkalkulation (Excel) lernt.",
+      "13": "Sie suchen einen Vorbereitungskurs für die Führerscheinprüfung mit Theorieunterricht am Abend.",
+      "14": "Ihre Kollegin möchte einen Rhetorikkurs besuchen, um vor Gruppen sicherer zu sprechen.",
+      "15": "Ihr Vater möchte einen Kurs in Buchhaltung machen, um seine kleine Firma selbst zu verwalten.",
+      "16": "Sie möchten einen Erste-Hilfe-Kurs besuchen, der an einem einzigen Tag stattfindet.",
+      "17": "Ihre Tante möchte einen Französischkurs für absolute Anfänger besuchen, der tagsüber stattfindet.",
+      "18": "Ihr Nachbar sucht einen Kurs, in dem man das Programmieren von Webseiten lernt.",
+      "19": "Sie möchten Ihre Bewerbungsunterlagen verbessern und suchen ein Seminar zum Thema Bewerbungstraining.",
+      "20": "Ihre Schwester möchte einen Kurs in Gebärdensprache besuchen, um sich mit gehörlosen Menschen verständigen zu können."
+    },
+    "ads": {
+      "a": {
+        "title": "Englisch B2 – Conversation & Travel",
+        "body": "Frischen Sie Ihr Englisch auf fortgeschrittenem Niveau auf. Schwerpunkt: freies Sprechen, Wortschatz für Reisen und Alltag. Voraussetzung: gute Grundkenntnisse. Termine: dienstags 18:00–19:30 Uhr. Anmeldung: www.sprachzentrum.de"
+      },
+      "b": {
+        "title": "Excel für den Berufsalltag",
+        "body": "In diesem Kurs lernen Sie, Tabellen zu erstellen, Formeln zu nutzen und Daten übersichtlich darzustellen. Für Einsteiger geeignet. Termine: mittwochs 17:00–20:00 Uhr, 5 Abende. Anmeldung: edv-kurse@vhs.de"
+      },
+      "c": {
+        "title": "Führerschein-Vorbereitung",
+        "body": "Theoriekurs für die Führerscheinprüfung Klasse B. Wir bereiten Sie gründlich auf alle Prüfungsfragen vor. Unterricht am Abend. Termine: Mo. und Mi. 18:30–20:00 Uhr. Anmeldung: fahrschule-sicher@mail.de"
+      },
+      "d": {
+        "title": "Rhetorik & freies Sprechen",
+        "body": "Lernen Sie, vor Gruppen sicher und überzeugend aufzutreten. Übungen zu Stimme, Körpersprache und Aufbau einer Rede. Termine: samstags 10:00–15:00 Uhr, 3 Termine. Anmeldung: rhetorik-seminar@mail.de"
+      },
+      "e": {
+        "title": "Buchhaltung für Kleinunternehmer",
+        "body": "Lernen Sie die Grundlagen der Buchführung, um Ihre Firma selbst zu verwalten: Belege, Rechnungen, Steuern. Termine: donnerstags 18:00–21:00 Uhr, 6 Wochen. Anmeldung: wirtschaft-vhs@mail.de"
+      },
+      "f": {
+        "title": "Erste-Hilfe-Kurs an einem Tag",
+        "body": "Kompakter Erste-Hilfe-Kurs für Führerschein und Alltag. Alles Wichtige an einem einzigen Tag, mit praktischen Übungen. Termine: jeden Samstag 9:00–17:00 Uhr. Anmeldung: erste-hilfe@rettung.de"
+      },
+      "g": {
+        "title": "Französisch A1 – Anfänger am Vormittag",
+        "body": "Beginnen Sie ganz neu mit der französischen Sprache. Kurs für absolute Anfänger, entspanntes Lernen am Vormittag. Termine: montags und mittwochs 10:00–11:30 Uhr. Anmeldung: sprachschule-bonjour@mail.de"
+      },
+      "h": {
+        "title": "Webdesign & Programmierung",
+        "body": "Lernen Sie, eigene Webseiten zu programmieren: HTML, CSS und erste Schritte in der Gestaltung. Für Einsteiger ohne Vorkenntnisse. Termine: dienstags 18:00–21:00 Uhr, 8 Wochen. Anmeldung: it-akademie@mail.de"
+      },
+      "i": {
+        "title": "Bewerbungstraining",
+        "body": "Optimieren Sie Ihre Bewerbung! Wir überarbeiten gemeinsam Ihren Lebenslauf, das Anschreiben und üben das Vorstellungsgespräch. Termine: Freitag 14:00–18:00 Uhr. Anmeldung: jobcenter-training@mail.de"
+      },
+      "j": {
+        "title": "Italienisch für die Reise",
+        "body": "Lernen Sie die wichtigsten Sätze für Ihren Italienurlaub. Bestellen, fragen, sich vorstellen – schnell und praktisch. Termine: freitags 17:00–18:30 Uhr. Anmeldung: sprachschule-ciao@mail.de"
+      },
+      "k": {
+        "title": "Yoga & Meditation",
+        "body": "Entspannung für Körper und Geist. Sanfte Übungen und Atemtechniken für mehr Gelassenheit im Alltag. Termine: montags 19:00–20:30 Uhr. Anmeldung: yoga-vhs@mail.de"
+      },
+      "l": {
+        "title": "Fotografie-Grundkurs",
+        "body": "Lernen Sie die Grundlagen der Fotografie: Belichtung, Bildaufbau und der richtige Umgang mit der Kamera. Termine: samstags 11:00–14:00 Uhr. Anmeldung: fotokurs-vhs@mail.de"
+      }
+    },
+    "answers": {
+      "11": "a",
+      "12": "b",
+      "13": "c",
+      "14": "d",
+      "15": "e",
+      "16": "f",
+      "17": "g",
+      "18": "h",
+      "19": "i",
+      "20": "x"
+    },
+    "explanations": {
+      "11": "Englisch B2: fortgeschritten, für die Reise",
+      "12": "Excel für den Berufsalltag: Tabellenkalkulation",
+      "13": "Führerschein-Vorbereitung: Theorie am Abend",
+      "14": "Rhetorik & freies Sprechen: sicher vor Gruppen sprechen",
+      "15": "Buchhaltung für Kleinunternehmer: Firma selbst verwalten",
+      "16": "Erste-Hilfe-Kurs an einem Tag",
+      "17": "Französisch A1: Anfänger, am Vormittag",
+      "18": "Webdesign & Programmierung: Webseiten programmieren",
+      "19": "Bewerbungstraining: Bewerbungsunterlagen verbessern",
+      "20": "KEIN Angebot: ein Kurs in Gebärdensprache wird nicht angeboten; j=Italienisch, k=Yoga, l=Fotografie passen nicht."
+    }
+  },
+  {
+    "id": "lese_3_10",
+    "title": "Familie & Kinder",
+    "emoji": "👶",
+    "type": "teil3",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "situations": {
+      "11": "Sie suchen für Ihren Sohn (5) einen Platz in einem Kindergarten in der Nähe Ihrer Wohnung.",
+      "12": "Ihre Tochter (12) möchte in einem Verein Fußball spielen und sucht eine Mannschaft für Mädchen.",
+      "13": "Sie suchen einen Babysitter für gelegentliche Abende, wenn Sie ausgehen möchten.",
+      "14": "Ihre Nichte (15) sucht Nachhilfe in Englisch, weil sie Schwierigkeiten in der Schule hat.",
+      "15": "Sie möchten mit Ihrem Baby an einem Krabbelkurs teilnehmen, in dem sich Eltern und Kleinkinder treffen.",
+      "16": "Ihr Neffe (8) interessiert sich für Musik und möchte in einem Kinderchor singen.",
+      "17": "Sie suchen ein Ferienprogramm für Ihre Kinder in den Sommerferien mit Betreuung am Tag.",
+      "18": "Ihre Familie sucht einen Indoor-Spielplatz für einen verregneten Nachmittag.",
+      "19": "Ihre Tochter (10) interessiert sich für Theater und möchte einen Schauspielkurs für Kinder besuchen.",
+      "20": "Sie suchen eine Beratungsstelle, die Familien bei Erziehungsfragen kostenlos unterstützt."
+    },
+    "ads": {
+      "a": {
+        "title": "Kindergarten Sonnenblume",
+        "body": "Wir betreuen Kinder von 3 bis 6 Jahren liebevoll und in kleinen Gruppen. Zentral gelegen, mit großem Garten. Noch wenige Plätze frei. Kontakt: kita-sonnenblume@stadt.de"
+      },
+      "b": {
+        "title": "Mädchenfußball im SV Eintracht",
+        "body": "Unsere Mädchenmannschaft (U13) freut sich über neue Spielerinnen. Training zweimal pro Woche, freundliches Team. Probetraining: jugend@sv-eintracht.de"
+      },
+      "c": {
+        "title": "Babysitter-Vermittlung Sternchen",
+        "body": "Wir vermitteln zuverlässige und geprüfte Babysitter für Ihre Kinder, auch kurzfristig und für einzelne Abende. Kontakt: www.babysitter-sternchen.de"
+      },
+      "d": {
+        "title": "Nachhilfe Englisch",
+        "body": "Erfahrene Lehrkräfte helfen Schülern aller Klassen, ihre Englischnoten zu verbessern. Einzeln oder in kleinen Gruppen. Kontakt: info@nachhilfe-sprachfit.de"
+      },
+      "e": {
+        "title": "Eltern-Kind-Krabbelgruppe",
+        "body": "Treffen für Eltern mit Babys (6–18 Monate). Spielen, singen und Kontakte knüpfen in entspannter Atmosphäre. Termine: montags 10:00–11:30 Uhr. Anmeldung: familienzentrum@stadt.de"
+      },
+      "f": {
+        "title": "Kinderchor Singvögel",
+        "body": "Singen macht Freude! Unser Chor für Kinder von 6 bis 12 Jahren probt wöchentlich und tritt bei Festen auf. Keine Vorkenntnisse nötig. Termine: freitags 16:00 Uhr. Kontakt: kinderchor-singvoegel@mail.de"
+      },
+      "g": {
+        "title": "Sommerferien-Programm",
+        "body": "Ganztägige Betreuung für Kinder von 6 bis 12 Jahren in den Sommerferien. Basteln, Ausflüge, Sport und Spiel. Termine: Juli–August, Mo.–Fr. 8:00–16:00 Uhr. Anmeldung: ferienprogramm@stadt.de"
+      },
+      "h": {
+        "title": "Indoor-Spielplatz Hüpfburg",
+        "body": "Riesiger Hallenspielplatz mit Klettergerüsten, Rutschen und Trampolinen. Perfekt für regnerische Tage. Café für Eltern. Öffnungszeiten: täglich 10:00–19:00 Uhr. Infos: www.indoor-huepfburg.de"
+      },
+      "i": {
+        "title": "Schwimmkurs für Jugendliche",
+        "body": "Schwimmkurs für Jugendliche ab 12 Jahren zum Erwerb der Schwimmabzeichen (Bronze, Silber, Gold). Erfahrene Schwimmlehrer. Termine: samstags 14:00 Uhr. Anmeldung: schwimmschule-welle@mail.de"
+      },
+      "j": {
+        "title": "Familienberatung – kostenlos & vertraulich",
+        "body": "Unsere Beratungsstelle unterstützt Familien bei Erziehungsfragen, Konflikten und schwierigen Situationen. Kostenlos und auf Wunsch anonym. Termine: Tel. 030-44 55 66."
+      },
+      "k": {
+        "title": "Kinderzahnarztpraxis Zahnfee",
+        "body": "Einfühlsame zahnärztliche Betreuung für Kinder. Wir nehmen den Kleinen die Angst und sorgen für gesunde Zähne. Termine: Tel. 0221-77 88 99."
+      },
+      "l": {
+        "title": "Reiterhof Pferdefreund",
+        "body": "Reitunterricht für Kinder und Jugendliche ab 8 Jahren. Erst Pony, dann Pferd – Schritt für Schritt zum sicheren Reiten. Kontakt: reiterhof-pferdefreund@mail.de"
+      }
+    },
+    "answers": {
+      "11": "a",
+      "12": "b",
+      "13": "c",
+      "14": "d",
+      "15": "e",
+      "16": "f",
+      "17": "g",
+      "18": "h",
+      "19": "x",
+      "20": "j"
+    },
+    "explanations": {
+      "11": "Kindergarten Sonnenblume: 3-6 Jahre, zentral",
+      "12": "Mädchenfußball im SV Eintracht: Mädchenmannschaft",
+      "13": "Babysitter-Vermittlung: einzelne Abende",
+      "14": "Nachhilfe Englisch: Schüler, Englischnoten verbessern",
+      "15": "Eltern-Kind-Krabbelgruppe: Eltern mit Babys",
+      "16": "Kinderchor Singvögel: Kinder 6-12 singen",
+      "17": "Sommerferien-Programm: Betreuung am Tag, Ferien",
+      "18": "Indoor-Spielplatz Hüpfburg: regnerischer Nachmittag",
+      "19": "KEIN Angebot: ein Schauspielkurs für Kinder wird nicht angeboten; i=Schwimmkurs, k=Kinderzahnarzt, l=Reiterhof passen nicht.",
+      "20": "Familienberatung: kostenlos, Erziehungsfragen"
+    }
+  },
+  {
+    "id": "lese_3_11",
+    "title": "Technik & Elektronik",
+    "emoji": "🔌",
+    "type": "teil3",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "situations": {
+      "11": "Sie möchten einen neuen Laptop für die Universität kaufen und suchen ein Fachgeschäft mit guter Beratung.",
+      "12": "Ihr Handy-Display ist zerbrochen und Sie suchen jemanden, der es schnell repariert.",
+      "13": "Sie suchen einen Anbieter für schnelles Internet (Glasfaser) für Ihr neues Zuhause.",
+      "14": "Ihre Mutter möchte einen gebrauchten Fernseher günstig kaufen.",
+      "15": "Sie möchten alte Videokassetten auf einen USB-Stick digitalisieren lassen.",
+      "16": "Ihr Vater sucht einen Kurs, in dem ältere Menschen den Umgang mit dem Tablet lernen.",
+      "17": "Sie suchen ein Geschäft, das Drucker und passende Tintenpatronen verkauft.",
+      "18": "Ihre Schwester möchte eine Spielkonsole für ihre Kinder kaufen und sucht ein Angebot mit mehreren Spielen.",
+      "19": "Sie möchten Ihren alten Computer fachgerecht entsorgen lassen.",
+      "20": "Ihr Bruder sucht einen Onlineshop, der Ersatzteile für Drohnen verkauft."
+    },
+    "ads": {
+      "a": {
+        "title": "Computer-Fachmarkt TechWelt",
+        "body": "Große Auswahl an Laptops, PCs und Zubehör. Persönliche Beratung durch unsere Fachleute – ideal für Studierende und Berufstätige. Öffnungszeiten: Mo.–Sa. 9:00–20:00 Uhr. Industriestraße 5."
+      },
+      "b": {
+        "title": "Handy-Reparatur SchnellFix",
+        "body": "Zerbrochenes Display, leerer Akku? Wir reparieren Ihr Smartphone meist noch am selben Tag. Alle Marken. Öffnungszeiten: Mo.–Sa. 10:00–19:00 Uhr. Bahnhofstraße 8."
+      },
+      "c": {
+        "title": "Glasfaser-Internet von NetzSchnell",
+        "body": "Surfen Sie mit Höchstgeschwindigkeit! Wir bieten schnelle Glasfaseranschlüsse für Privathaushalte. Jetzt Verfügbarkeit prüfen. Infos: www.netzschnell.de"
+      },
+      "d": {
+        "title": "Gebrauchtelektronik Second-Tech",
+        "body": "An- und Verkauf gebrauchter Elektronik: Fernseher, Laptops, Konsolen und mehr. Geprüfte Geräte zu günstigen Preisen. Öffnungszeiten: Mo.–Fr. 10:00–18:00 Uhr. Marktstraße 14."
+      },
+      "e": {
+        "title": "Digitalisierungsservice Erinnerung",
+        "body": "Wir übertragen Ihre alten Videokassetten, Dias und Schallplatten auf USB-Stick oder DVD. So bleiben Ihre Erinnerungen erhalten. Kontakt: info@digital-erinnerung.de"
+      },
+      "f": {
+        "title": "Tablet-Kurs für Senioren",
+        "body": "Schritt für Schritt lernen ältere Menschen, ihr Tablet zu bedienen: surfen, Fotos ansehen, Nachrichten schreiben. Geduldig und in kleinen Gruppen. Termine: Mo. und Mi. 10:00–11:30 Uhr. Anmeldung: senioren-vhs@mail.de"
+      },
+      "g": {
+        "title": "Bürobedarf & Drucker DruckFix",
+        "body": "Drucker, Tintenpatronen, Papier und Bürozubehör. Große Auswahl an Patronen für alle gängigen Druckermodelle. Öffnungszeiten: Mo.–Fr. 9:00–18:00 Uhr. Schulstraße 3."
+      },
+      "h": {
+        "title": "Spielekonsolen-Welt",
+        "body": "Konsolen und Spiele für die ganze Familie. Attraktive Bundles mit mehreren Spielen zum Sparpreis. Öffnungszeiten: Mo.–Sa. 10:00–20:00 Uhr. Königsstraße 22."
+      },
+      "i": {
+        "title": "Elektroschrott-Entsorgung GrünRecycling",
+        "body": "Wir entsorgen Ihre alten Elektrogeräte fachgerecht und umweltfreundlich: PCs, Bildschirme, Kleingeräte. Abholung möglich. Kontakt: info@gruen-recycling.de"
+      },
+      "j": {
+        "title": "Kamera & Foto-Studio Blende8",
+        "body": "Verkauf von Kameras, Objektiven und Zubehör. Außerdem Beratung und Verleih von Profi-Ausrüstung. Öffnungszeiten: Mo.–Sa. 9:30–18:30 Uhr. Lindenplatz 6."
+      },
+      "k": {
+        "title": "Haushaltsgeräte Elektro-König",
+        "body": "Waschmaschinen, Kühlschränke und Herde namhafter Marken. Lieferung und Anschluss inklusive. Öffnungszeiten: Mo.–Sa. 9:00–19:00 Uhr. Hauptstraße 40."
+      },
+      "l": {
+        "title": "Telefonanbieter SprichMehr",
+        "body": "Günstige Handytarife und Verträge mit viel Datenvolumen. Beratung im Shop oder online. Öffnungszeiten: Mo.–Sa. 10:00–19:00 Uhr. Marktplatz 3."
+      }
+    },
+    "answers": {
+      "11": "a",
+      "12": "b",
+      "13": "c",
+      "14": "d",
+      "15": "e",
+      "16": "f",
+      "17": "g",
+      "18": "h",
+      "19": "i",
+      "20": "x"
+    },
+    "explanations": {
+      "11": "Computer-Fachmarkt TechWelt: Laptops, Beratung, Studierende",
+      "12": "Handy-Reparatur SchnellFix: Display reparieren, schnell",
+      "13": "Glasfaser-Internet: schnelles Internet fürs Zuhause",
+      "14": "Gebrauchtelektronik Second-Tech: gebrauchter Fernseher, günstig",
+      "15": "Digitalisierungsservice: Videokassetten auf USB",
+      "16": "Tablet-Kurs für Senioren: ältere Menschen, Tablet",
+      "17": "Bürobedarf & Drucker DruckFix: Drucker und Tintenpatronen",
+      "18": "Spielekonsolen-Welt: Konsole mit mehreren Spielen",
+      "19": "Elektroschrott-Entsorgung: Computer fachgerecht entsorgen",
+      "20": "KEIN Angebot: ein Onlineshop für Drohnen-Ersatzteile wird nicht angeboten; j=Kamera, k=Haushaltsgeräte, l=Telefonanbieter passen nicht."
+    }
+  },
+  {
+    "id": "lese_3_12",
+    "title": "Ehrenamt & Soziales",
+    "emoji": "🤝",
+    "type": "teil3",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "situations": {
+      "11": "Ihre Freundin möchte ehrenamtlich älteren Menschen helfen, etwa beim Einkaufen oder bei Spaziergängen.",
+      "12": "Sie möchten gebrauchte Kleidung spenden und suchen eine Annahmestelle in Ihrer Nähe.",
+      "13": "Ihr Bruder möchte sich beim Umweltschutz engagieren und sucht eine Gruppe, die Bäume pflanzt und Müll sammelt.",
+      "14": "Ihre Nachbarin sucht eine Selbsthilfegruppe für Menschen, die einen Angehörigen verloren haben.",
+      "15": "Sie möchten Geflüchteten ehrenamtlich Deutschunterricht geben.",
+      "16": "Ihr Onkel sucht eine Tafel, bei der er als Freiwilliger Lebensmittel verteilen kann.",
+      "17": "Sie möchten Blut spenden und suchen einen Termin in einem Spendezentrum.",
+      "18": "Ihre Schwester möchte als Lesepatin Kindern in einer Schule vorlesen.",
+      "19": "Sie suchen eine Organisation, die Hunde aus dem Tierheim für Spaziergänge vermittelt.",
+      "20": "Ihr Kollege möchte als Freiwilliger bei der Bergrettung im Gebirge mitarbeiten."
+    },
+    "ads": {
+      "a": {
+        "title": "Nachbarschaftshilfe für Senioren",
+        "body": "Wir suchen freiwillige Helfer, die ältere Menschen im Alltag unterstützen: beim Einkaufen, bei Spaziergängen oder einfach für ein Gespräch. Kontakt: ehrenamt@nachbarschaftshilfe.de"
+      },
+      "b": {
+        "title": "Kleiderkammer Warmherz",
+        "body": "Geben Sie gut erhaltene Kleidung ab! Unsere Annahmestelle nimmt gespendete Kleidung entgegen und gibt sie an Bedürftige weiter. Annahme: Mo.–Fr. 9:00–13:00 Uhr, Bahnhofstraße 6."
+      },
+      "c": {
+        "title": "Umweltgruppe GrüneTat",
+        "body": "Gemeinsam für die Natur! Wir pflanzen Bäume, sammeln Müll und setzen uns für mehr Grün in der Stadt ein. Neue Mitstreiter willkommen. Kontakt: info@gruenetat.de"
+      },
+      "d": {
+        "title": "Trauergruppe Lichtblick",
+        "body": "Selbsthilfegruppe für Menschen, die einen lieben Angehörigen verloren haben. Gemeinsam reden, trauern und Halt finden. Treffen: jeden zweiten Dienstag 18:00 Uhr. Kontakt: trauergruppe-lichtblick@mail.de"
+      },
+      "e": {
+        "title": "Deutsch für Geflüchtete – Ehrenamtliche gesucht",
+        "body": "Wir suchen freiwillige Helfer, die Geflüchteten Deutsch beibringen. Keine pädagogische Ausbildung nötig, nur Geduld und Freude am Helfen. Kontakt: sprachpaten@integration.de"
+      },
+      "f": {
+        "title": "Die Tafel – Helfer gesucht",
+        "body": "Unsere Tafel verteilt Lebensmittel an bedürftige Menschen. Wir freuen uns über freiwillige Helfer beim Sortieren und Ausgeben. Kontakt: ehrenamt@tafel-stadt.de"
+      },
+      "g": {
+        "title": "Blutspendezentrum LebensTropfen",
+        "body": "Mit Ihrer Blutspende retten Sie Leben. Vereinbaren Sie einen Termin – die Spende dauert nur etwa eine Stunde. Termine: Mo.–Fr. 8:00–19:00 Uhr. Kontakt: www.blutspende-lebenstropfen.de"
+      },
+      "h": {
+        "title": "Lesepaten für Grundschulen",
+        "body": "Schenken Sie Kindern Ihre Zeit! Als Lesepate oder Lesepatin lesen Sie Kindern in der Schule vor und fördern ihre Freude am Lesen. Kontakt: lesepaten@bildung.de"
+      },
+      "i": {
+        "title": "Gassi-Geher fürs Tierheim",
+        "body": "Das Tierheim sucht freiwillige Helfer, die mit den Hunden spazieren gehen. Tierliebe und Zuverlässigkeit vorausgesetzt. Kontakt: gassi@tierheim-stadt.de"
+      },
+      "j": {
+        "title": "Hospizdienst Begleitung",
+        "body": "Wir begleiten schwerkranke Menschen in ihrer letzten Lebensphase. Für dieses Ehrenamt bieten wir eine sorgfältige Vorbereitung an. Kontakt: hospiz-begleitung@mail.de"
+      },
+      "k": {
+        "title": "Sportverein sucht Übungsleiter",
+        "body": "Unser Verein sucht ehrenamtliche Übungsleiter für die Kinder- und Jugendgruppen im Bereich Leichtathletik. Kontakt: jugend@sportverein-stadt.de"
+      },
+      "l": {
+        "title": "Repair-Café – Helfer willkommen",
+        "body": "In unserem Repair-Café reparieren ehrenamtliche Helfer gemeinsam mit den Besuchern kaputte Geräte. Handwerkliches Geschick erwünscht. Termine: jeden ersten Samstag im Monat. Kontakt: repaircafe@mail.de"
+      }
+    },
+    "answers": {
+      "11": "a",
+      "12": "b",
+      "13": "c",
+      "14": "d",
+      "15": "e",
+      "16": "f",
+      "17": "g",
+      "18": "h",
+      "19": "i",
+      "20": "x"
+    },
+    "explanations": {
+      "11": "Nachbarschaftshilfe für Senioren: Einkaufen, Spaziergänge",
+      "12": "Kleiderkammer Warmherz: Kleidung spenden, Annahmestelle",
+      "13": "Umweltgruppe GrüneTat: Bäume pflanzen, Müll sammeln",
+      "14": "Trauergruppe Lichtblick: Selbsthilfe nach Verlust eines Angehörigen",
+      "15": "Deutsch für Geflüchtete: ehrenamtlich Deutsch unterrichten",
+      "16": "Die Tafel: Lebensmittel verteilen, Freiwillige",
+      "17": "Blutspendezentrum LebensTropfen: Blut spenden, Termin",
+      "18": "Lesepaten für Grundschulen: Kindern vorlesen",
+      "19": "Gassi-Geher fürs Tierheim: Hunde spazieren führen",
+      "20": "KEIN Angebot: eine Bergrettung im Gebirge wird nicht angeboten; j=Hospizdienst, k=Übungsleiter, l=Repair-Café passen nicht."
+    }
+  }
+];

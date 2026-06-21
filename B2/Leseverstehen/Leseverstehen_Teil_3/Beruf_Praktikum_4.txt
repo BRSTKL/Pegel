@@ -1,0 +1,151 @@
+===========================================================================
+TELC B2 - LESEVERSTEHEN TEIL 3 | ÜBUNG 4: BERUF & PRAKTIKUM
+===========================================================================
+
+Lesen Sie die Situationen (11-20) und die Anzeigen (a-l).
+Welche Anzeige passt zu welcher Situation?
+Für eine Situation gibt es KEINE passende Anzeige. Markieren Sie diese mit "x".
+Jede Anzeige kann nur einmal verwendet werden.
+
+---------------------------------------------------------------------------
+SITUATIONEN
+---------------------------------------------------------------------------
+11
+Ihre Freundin hat gerade ihr Abitur gemacht und sucht eine Ausbildung als
+Krankenpflegerin in einem Krankenhaus.
+
+12
+Ihr Bruder studiert Wirtschaft und sucht ein bezahltes Praktikum in einer
+Marketingabteilung für die Semesterferien.
+
+13
+Sie suchen einen Minijob am Wochenende als Kellner in einem Café oder
+Restaurant.
+
+14
+Ihre Nachbarin möchte als Tagesmutter arbeiten und sucht eine Stelle bei einer
+Familie, die regelmäßig Betreuung für ihr Kind braucht.
+
+15
+Ihr Cousin hat einen LKW-Führerschein und sucht eine Festanstellung als
+Fahrer in einem Logistikunternehmen.
+
+16
+Sie sind ausgebildete Grafikerin und suchen eine Teilzeitstelle, die Sie auch
+von zu Hause aus erledigen können.
+
+17
+Ihre Schwester ist Lehrerin und sucht eine Nebentätigkeit, bei der sie
+Schülern am Nachmittag Nachhilfe in Mathematik gibt.
+
+18
+Ihr Bekannter sucht eine Stelle als Koch in einem Restaurant mit
+internationaler Küche.
+
+19
+Sie möchten ehrenamtlich in einem Tierheim mithelfen und Tiere betreuen.
+
+20
+Ihr Onkel ist Ingenieur und sucht eine leitende Position in einem großen
+Maschinenbauunternehmen.
+
+---------------------------------------------------------------------------
+ANZEIGEN
+---------------------------------------------------------------------------
+a
+Ausbildung in der Pflege
+Das Klinikum Sankt Marien sucht zum Herbst engagierte Auszubildende für den
+Beruf Pflegefachkraft. Wir bieten eine fundierte dreijährige Ausbildung mit
+guten Übernahmechancen.
+Bewerbung an: ausbildung@klinikum-marien.de
+
+b
+Praktikum im Marketing
+Die Firma BrandPlus bietet Studierenden der Wirtschaft ein dreimonatiges,
+bezahltes Praktikum in der Marketingabteilung. Aufgaben: Kampagnen
+unterstützen, Social Media, Marktanalyse.
+Bewerbung: jobs@brandplus.de
+
+c
+Aushilfe im Café gesucht
+Das Café Sonnenschein sucht eine freundliche Bedienung für das Wochenende
+(Sa./So.). Minijob auf 538-Euro-Basis. Erfahrung von Vorteil, aber nicht
+nötig.
+Kontakt: Tel. 040-12 12 12.
+
+d
+Familie sucht Tagesmutter
+Wir suchen eine liebevolle und zuverlässige Tagesmutter für unsere
+zweijährige Tochter, montags bis freitags vormittags. Erfahrung mit
+Kleinkindern erwünscht.
+Kontakt: familie.berger@mail.de
+
+e
+Berufskraftfahrer (m/w/d) gesucht
+Die Spedition Schnelltrans sucht zuverlässige LKW-Fahrer in Festanstellung.
+Führerschein der Klasse CE erforderlich. Geregelte Arbeitszeiten, faire
+Bezahlung.
+Bewerbung: personal@schnelltrans.de
+
+f
+Grafiker/in im Homeoffice
+Werbeagentur sucht erfahrene Grafikerin in Teilzeit. Die Arbeit kann
+vollständig von zu Hause aus erledigt werden. Sichere Kenntnisse in
+Designprogrammen erforderlich.
+Bewerbung: jobs@kreativ-agentur.de
+
+g
+Nachhilfe Mathematik gesucht
+Nachhilfeinstitut sucht Lehrkräfte, die nachmittags Schülern der Klassen 5–10
+Mathematik beibringen. Stundenweise Bezahlung, flexible Zeiten.
+Kontakt: info@lernhilfe-plus.de
+
+h
+Koch (m/w/d) für internationale Küche
+Unser Restaurant „Weltgenuss“ sucht einen kreativen Koch mit Erfahrung in
+internationaler Küche. Vollzeit, geregelte Schichten, gutes Team.
+Bewerbung: kueche@weltgenuss.de
+
+i
+Ehrenamt im Tierheim
+Das Tierheim Pfötchen sucht freiwillige Helfer, die Hunde ausführen, Katzen
+versorgen und bei der Pflege helfen. Tierliebe und Zuverlässigkeit
+vorausgesetzt.
+Kontakt: ehrenamt@tierheim-pfoetchen.de
+
+j
+Reinigungskraft gesucht
+Bürogebäude sucht eine zuverlässige Reinigungskraft für die frühen
+Morgenstunden (6:00–9:00 Uhr). Teilzeit, geregelte Arbeitszeiten.
+Kontakt: Tel. 030-55 44 33.
+
+k
+Verkäufer/in im Modegeschäft
+Unsere Modeboutique sucht eine freundliche Verkäuferin in Vollzeit. Freude am
+Kontakt mit Kunden und Interesse an Mode erwünscht.
+Bewerbung: boutique-stil@mail.de
+
+l
+Erzieher/in für Kindergarten
+Der städtische Kindergarten Regenbogen sucht eine ausgebildete Erzieherin in
+Vollzeit zur Betreuung von Kindern im Alter von 3 bis 6 Jahren.
+Bewerbung: kita-regenbogen@stadt.de
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL / CEVAP ANAHTARI
+===========================================================================
+11: a  (Ausbildung in der Pflege: Krankenpflege, Krankenhaus)
+12: b  (Praktikum im Marketing: Wirtschaft, bezahlt, Semesterferien)
+13: c  (Aushilfe im Café: Kellnern, Wochenende, Minijob)
+14: d  (Familie sucht Tagesmutter: regelmäßige Kinderbetreuung)
+15: e  (Berufskraftfahrer: LKW, Festanstellung, Logistik)
+16: f  (Grafiker/in im Homeoffice: Teilzeit, von zu Hause)
+17: g  (Nachhilfe Mathematik: nachmittags, Schüler)
+18: h  (Koch für internationale Küche)
+19: i  (Ehrenamt im Tierheim: Tiere betreuen)
+20: x  (KEIN Angebot: eine leitende Ingenieursstelle im Maschinenbau wird nicht
+        angeboten.)
+
+Çeldirici (kullanılmayan) ilanlar: j (Reinigungskraft), k (Verkäufer/in),
+l (Erzieher/in)
+HINWEIS: Situation 20 hat KEIN passendes Angebot -> Lösung "x".

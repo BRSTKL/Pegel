@@ -1,0 +1,157 @@
+===========================================================================
+TELC B2 - LESEVERSTEHEN TEIL 3 | ÜBUNG 9: SPRACHEN & WEITERBILDUNG
+===========================================================================
+
+Lesen Sie die Situationen (11-20) und die Anzeigen (a-l).
+Welche Anzeige passt zu welcher Situation?
+Für eine Situation gibt es KEINE passende Anzeige. Markieren Sie diese mit "x".
+Jede Anzeige kann nur einmal verwendet werden.
+
+---------------------------------------------------------------------------
+SITUATIONEN
+---------------------------------------------------------------------------
+11
+Ihre Freundin möchte einen Englischkurs auf fortgeschrittenem Niveau (B2)
+besuchen, um sich auf eine Reise vorzubereiten.
+
+12
+Ihr Bruder möchte einen Computerkurs besuchen, in dem man den Umgang mit
+Tabellenkalkulation (Excel) lernt.
+
+13
+Sie suchen einen Vorbereitungskurs für die Führerscheinprüfung mit
+Theorieunterricht am Abend.
+
+14
+Ihre Kollegin möchte einen Rhetorikkurs besuchen, um vor Gruppen sicherer zu
+sprechen.
+
+15
+Ihr Vater möchte einen Kurs in Buchhaltung machen, um seine kleine Firma
+selbst zu verwalten.
+
+16
+Sie möchten einen Erste-Hilfe-Kurs besuchen, der an einem einzigen Tag
+stattfindet.
+
+17
+Ihre Tante möchte einen Französischkurs für absolute Anfänger besuchen, der
+tagsüber stattfindet.
+
+18
+Ihr Nachbar sucht einen Kurs, in dem man das Programmieren von Webseiten
+lernt.
+
+19
+Sie möchten Ihre Bewerbungsunterlagen verbessern und suchen ein Seminar zum
+Thema Bewerbungstraining.
+
+20
+Ihre Schwester möchte einen Kurs in Gebärdensprache besuchen, um sich mit
+gehörlosen Menschen verständigen zu können.
+
+---------------------------------------------------------------------------
+ANZEIGEN
+---------------------------------------------------------------------------
+a
+Englisch B2 – Conversation & Travel
+Frischen Sie Ihr Englisch auf fortgeschrittenem Niveau auf. Schwerpunkt:
+freies Sprechen, Wortschatz für Reisen und Alltag. Voraussetzung: gute
+Grundkenntnisse.
+Termine: dienstags 18:00–19:30 Uhr.
+Anmeldung: www.sprachzentrum.de
+
+b
+Excel für den Berufsalltag
+In diesem Kurs lernen Sie, Tabellen zu erstellen, Formeln zu nutzen und Daten
+übersichtlich darzustellen. Für Einsteiger geeignet.
+Termine: mittwochs 17:00–20:00 Uhr, 5 Abende.
+Anmeldung: edv-kurse@vhs.de
+
+c
+Führerschein-Vorbereitung
+Theoriekurs für die Führerscheinprüfung Klasse B. Wir bereiten Sie gründlich
+auf alle Prüfungsfragen vor. Unterricht am Abend.
+Termine: Mo. und Mi. 18:30–20:00 Uhr.
+Anmeldung: fahrschule-sicher@mail.de
+
+d
+Rhetorik & freies Sprechen
+Lernen Sie, vor Gruppen sicher und überzeugend aufzutreten. Übungen zu
+Stimme, Körpersprache und Aufbau einer Rede.
+Termine: samstags 10:00–15:00 Uhr, 3 Termine.
+Anmeldung: rhetorik-seminar@mail.de
+
+e
+Buchhaltung für Kleinunternehmer
+Lernen Sie die Grundlagen der Buchführung, um Ihre Firma selbst zu verwalten:
+Belege, Rechnungen, Steuern.
+Termine: donnerstags 18:00–21:00 Uhr, 6 Wochen.
+Anmeldung: wirtschaft-vhs@mail.de
+
+f
+Erste-Hilfe-Kurs an einem Tag
+Kompakter Erste-Hilfe-Kurs für Führerschein und Alltag. Alles Wichtige an
+einem einzigen Tag, mit praktischen Übungen.
+Termine: jeden Samstag 9:00–17:00 Uhr.
+Anmeldung: erste-hilfe@rettung.de
+
+g
+Französisch A1 – Anfänger am Vormittag
+Beginnen Sie ganz neu mit der französischen Sprache. Kurs für absolute
+Anfänger, entspanntes Lernen am Vormittag.
+Termine: montags und mittwochs 10:00–11:30 Uhr.
+Anmeldung: sprachschule-bonjour@mail.de
+
+h
+Webdesign & Programmierung
+Lernen Sie, eigene Webseiten zu programmieren: HTML, CSS und erste Schritte in
+der Gestaltung. Für Einsteiger ohne Vorkenntnisse.
+Termine: dienstags 18:00–21:00 Uhr, 8 Wochen.
+Anmeldung: it-akademie@mail.de
+
+i
+Bewerbungstraining
+Optimieren Sie Ihre Bewerbung! Wir überarbeiten gemeinsam Ihren Lebenslauf,
+das Anschreiben und üben das Vorstellungsgespräch.
+Termine: Freitag 14:00–18:00 Uhr.
+Anmeldung: jobcenter-training@mail.de
+
+j
+Italienisch für die Reise
+Lernen Sie die wichtigsten Sätze für Ihren Italienurlaub. Bestellen, fragen,
+sich vorstellen – schnell und praktisch.
+Termine: freitags 17:00–18:30 Uhr.
+Anmeldung: sprachschule-ciao@mail.de
+
+k
+Yoga & Meditation
+Entspannung für Körper und Geist. Sanfte Übungen und Atemtechniken für mehr
+Gelassenheit im Alltag.
+Termine: montags 19:00–20:30 Uhr.
+Anmeldung: yoga-vhs@mail.de
+
+l
+Fotografie-Grundkurs
+Lernen Sie die Grundlagen der Fotografie: Belichtung, Bildaufbau und der
+richtige Umgang mit der Kamera.
+Termine: samstags 11:00–14:00 Uhr.
+Anmeldung: fotokurs-vhs@mail.de
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL / CEVAP ANAHTARI
+===========================================================================
+11: a  (Englisch B2: fortgeschritten, für die Reise)
+12: b  (Excel für den Berufsalltag: Tabellenkalkulation)
+13: c  (Führerschein-Vorbereitung: Theorie am Abend)
+14: d  (Rhetorik & freies Sprechen: sicher vor Gruppen sprechen)
+15: e  (Buchhaltung für Kleinunternehmer: Firma selbst verwalten)
+16: f  (Erste-Hilfe-Kurs an einem Tag)
+17: g  (Französisch A1: Anfänger, am Vormittag)
+18: h  (Webdesign & Programmierung: Webseiten programmieren)
+19: i  (Bewerbungstraining: Bewerbungsunterlagen verbessern)
+20: x  (KEIN Angebot: ein Kurs in Gebärdensprache wird nicht angeboten;
+        j=Italienisch, k=Yoga, l=Fotografie passen nicht.)
+
+Çeldirici (kullanılmayan) ilanlar: j (Italienisch), k (Yoga), l (Fotografie)
+HINWEIS: Situation 20 hat KEIN passendes Angebot -> Lösung "x".

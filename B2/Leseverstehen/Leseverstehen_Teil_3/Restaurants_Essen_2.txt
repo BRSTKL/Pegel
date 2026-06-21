@@ -1,0 +1,156 @@
+===========================================================================
+TELC B2 - LESEVERSTEHEN TEIL 3 | ÜBUNG 2: RESTAURANTS & ESSEN
+===========================================================================
+
+Lesen Sie die Situationen (11-20) und die Anzeigen (a-l).
+Welche Anzeige passt zu welcher Situation?
+Für eine Situation gibt es KEINE passende Anzeige. Markieren Sie diese mit "x".
+Jede Anzeige kann nur einmal verwendet werden.
+
+---------------------------------------------------------------------------
+SITUATIONEN
+---------------------------------------------------------------------------
+11
+Sie möchten mit Freunden am Freitagabend frische Sushi essen und suchen ein
+japanisches Restaurant in der Innenstadt.
+
+12
+Ihre Eltern feiern ihren Hochzeitstag und suchen ein elegantes Restaurant mit
+Menü und Blick auf den Fluss.
+
+13
+Sie suchen für die Mittagspause einen Ort, an dem es schnelle, gesunde Salate
+und frische Säfte zum Mitnehmen gibt.
+
+14
+Ihre Tochter hat Geburtstag und möchte mit zehn Kindern in einem Lokal
+feiern, das auch einen Spielbereich hat.
+
+15
+Ihr Onkel ist Veganer und sucht ein Restaurant, in dem ausschließlich
+pflanzliche Gerichte angeboten werden.
+
+16
+Sie möchten am Sonntag ausgiebig brunchen und suchen ein Café mit großem
+Frühstücksbuffet.
+
+17
+Ihre Kollegin sucht eine Bäckerei, die auch glutenfreies Brot und Kuchen
+anbietet.
+
+18
+Sie möchten für eine Familienfeier zu Hause Pizza und italienische Vorspeisen
+bestellen und brauchen einen Lieferdienst.
+
+19
+Ihr Freund möchte einen Abend mit Livemusik und guten Cocktails verbringen und
+sucht eine passende Bar.
+
+20
+Sie suchen ein Restaurant, das auch sehr spät in der Nacht, nach Mitternacht,
+noch warme Gerichte serviert.
+
+---------------------------------------------------------------------------
+ANZEIGEN
+---------------------------------------------------------------------------
+a
+Sushi Sakura
+Frische japanische Spezialitäten mitten im Zentrum: Sushi, Sashimi und warme
+Gerichte. Alles täglich frisch zubereitet.
+Öffnungszeiten: Mo.–Sa. 12:00–23:00 Uhr.
+Reservierung: Tel. 030-12 34 56, Marktplatz 8.
+
+b
+Restaurant Flussterrasse
+Gehobene Küche in elegantem Ambiente mit herrlichem Blick auf den Fluss.
+Perfekt für besondere Anlässe wie Jubiläen und Hochzeitstage. Mehrgängige
+Menüs.
+Reservierung empfohlen: Tel. 0221-77 88 99, Uferweg 3.
+
+c
+Green Bowl – Salate & Säfte
+Schnell, frisch und gesund! Bei uns gibt es bunte Salate, Bowls und frisch
+gepresste Säfte – auch zum Mitnehmen für die Mittagspause.
+Öffnungszeiten: Mo.–Fr. 11:00–16:00 Uhr.
+Bahnhofstraße 22.
+
+d
+Familienrestaurant Bärenhöhle
+Bei uns sind Kinder herzlich willkommen! Großer Spielbereich, kindgerechte
+Speisekarte und Platz für Geburtstagsfeiern. Auf Wunsch organisieren wir die
+ganze Feier.
+Reservierung: Tel. 089-55 66 77, Lindenallee 5.
+
+e
+Restaurant GrünGenuss – 100 % vegan
+Reine pflanzliche Küche, kreativ und lecker. Von herzhaften Bowls bis zu
+veganen Desserts – bei uns kommt nichts Tierisches auf den Teller.
+Öffnungszeiten: Di.–So. 17:00–22:00 Uhr.
+Gartenstraße 14.
+
+f
+Café Morgenrot – Sonntagsbrunch
+Starten Sie gemütlich in den Sonntag! Unser großes Frühstücksbuffet bietet
+alles von frischen Brötchen bis zu warmen Speisen. So viel Sie möchten.
+Sonntags 9:00–14:00 Uhr.
+Reservierung: Tel. 040-33 22 11.
+
+g
+Bäckerei Kornblume – glutenfrei genießen
+Neben klassischem Brot bieten wir eine große Auswahl an glutenfreiem Brot,
+Brötchen und Kuchen. Auch für Allergiker bestens geeignet.
+Öffnungszeiten: Mo.–Sa. 6:30–18:00 Uhr.
+Schulstraße 9.
+
+h
+Pizzeria Bella Italia – Lieferservice
+Echte italienische Pizza, Pasta und Vorspeisen – frisch zu Ihnen nach Hause
+geliefert. Perfekt für Feiern und gemütliche Abende.
+Lieferung: täglich 17:00–23:00 Uhr.
+Bestellung: Tel. 0711-44 55 66.
+
+i
+Cocktailbar Mondschein – Livemusik
+Genießen Sie erstklassige Cocktails bei stimmungsvoller Livemusik. Jeden
+Freitag und Samstag spielen wechselnde Bands.
+Öffnungszeiten: Do.–Sa. ab 20:00 Uhr.
+Hafenstraße 1.
+
+j
+Steakhaus Rancho
+Saftige Steaks vom Grill und herzhafte Beilagen in rustikaler Atmosphäre. Für
+echte Fleischliebhaber.
+Öffnungszeiten: Di.–So. 18:00–23:00 Uhr.
+Reservierung: Tel. 0351-99 00 11.
+
+k
+Eisdiele Dolce Vita
+Hausgemachtes Eis in über 30 Sorten, dazu Kaffee und Kuchen. Großer
+Außenbereich für sonnige Tage.
+Öffnungszeiten: täglich 11:00–20:00 Uhr.
+Seepromenade 7.
+
+l
+Teehaus Frieden
+Über 50 Teesorten aus aller Welt in ruhiger Atmosphäre. Dazu kleine süße
+Köstlichkeiten. Ideal zum Entspannen und Lesen.
+Öffnungszeiten: Mo.–Sa. 14:00–20:00 Uhr.
+Bergstraße 18.
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL / CEVAP ANAHTARI
+===========================================================================
+11: a  (Sushi Sakura: japanisch, Zentrum, Freitagabend geöffnet)
+12: b  (Flussterrasse: elegant, Menü, Blick auf den Fluss, Jubiläum)
+13: c  (Green Bowl: schnelle Salate und Säfte zum Mitnehmen, Mittag)
+14: d  (Familienrestaurant: Kindergeburtstag, Spielbereich)
+15: e  (GrünGenuss: 100 % vegan, nur pflanzlich)
+16: f  (Café Morgenrot: Sonntagsbrunch, großes Frühstücksbuffet)
+17: g  (Bäckerei Kornblume: glutenfreies Brot und Kuchen)
+18: h  (Pizzeria Bella Italia: Lieferservice, Pizza und Vorspeisen)
+19: i  (Cocktailbar Mondschein: Livemusik und Cocktails)
+20: x  (KEIN Angebot: kein Restaurant serviert nach Mitternacht; alle schließen
+        spätestens 23:00 Uhr.)
+
+Çeldirici (kullanılmayan) ilanlar: j (Steakhaus), k (Eisdiele), l (Teehaus)
+HINWEIS: Situation 20 hat KEIN passendes Angebot -> Lösung "x".

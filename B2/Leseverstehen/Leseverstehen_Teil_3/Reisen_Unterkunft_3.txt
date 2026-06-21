@@ -1,0 +1,155 @@
+===========================================================================
+TELC B2 - LESEVERSTEHEN TEIL 3 | ÜBUNG 3: REISEN & UNTERKUNFT
+===========================================================================
+
+Lesen Sie die Situationen (11-20) und die Anzeigen (a-l).
+Welche Anzeige passt zu welcher Situation?
+Für eine Situation gibt es KEINE passende Anzeige. Markieren Sie diese mit "x".
+Jede Anzeige kann nur einmal verwendet werden.
+
+---------------------------------------------------------------------------
+SITUATIONEN
+---------------------------------------------------------------------------
+11
+Sie suchen für einen Städtetrip am Wochenende ein günstiges Hostel im Zentrum
+von Hamburg mit Einzelzimmern.
+
+12
+Ihre Familie möchte im Sommer mit zwei Kindern einen Strandurlaub am Meer
+machen, am liebsten in einem Hotel mit Pool.
+
+13
+Ihr Freund plant eine Fahrradtour entlang eines Flusses und sucht einen
+Anbieter, der geführte Mehrtagestouren organisiert.
+
+14
+Sie suchen für einen Geschäftstermin ein ruhiges Hotelzimmer in der Nähe des
+Flughafens für nur eine Nacht.
+
+15
+Ihre Eltern möchten eine Kreuzfahrt im Mittelmeer machen und suchen ein
+Angebot mit deutschsprachiger Reiseleitung.
+
+16
+Ihre Schwester sucht einen Bauernhof, auf dem Kinder Tiere sehen und beim
+Füttern helfen dürfen.
+
+17
+Sie möchten allein wandern gehen und suchen eine einfache Berghütte, in der
+man übernachten und essen kann.
+
+18
+Ihr Kollege sucht für die Wintersaison eine Ferienwohnung in den Bergen, in
+der Nähe eines Skigebiets.
+
+19
+Sie möchten eine Sprachreise nach Spanien machen, bei der man vormittags lernt
+und nachmittags Ausflüge unternimmt.
+
+20
+Ihre Großeltern suchen eine organisierte Busreise mit deutschsprachiger
+Begleitung zu mehreren Städten in Italien.
+
+---------------------------------------------------------------------------
+ANZEIGEN
+---------------------------------------------------------------------------
+a
+City-Hostel Hafenblick
+Günstig übernachten mitten in Hamburg! Wir bieten saubere Einzel- und
+Mehrbettzimmer, nur fünf Minuten vom Hauptbahnhof entfernt. Gemeinschaftsküche
+und kostenloses WLAN.
+Buchung: www.hostel-hafenblick.de
+
+b
+Strandhotel Sonneninsel
+Ihr Familienurlaub am Meer! Direkt am Sandstrand gelegen, mit großem Pool,
+Kinderbecken und Spielplatz. Familienzimmer und Halbpension verfügbar.
+Saison: Juni–September.
+Buchung: info@strandhotel-sonneninsel.de
+
+c
+Radreisen Flusslauf
+Geführte Fahrradtouren entlang der schönsten Flüsse Deutschlands. Mehrtägige
+Touren mit Gepäcktransport und Übernachtung in gemütlichen Gasthöfen.
+Termine: April–Oktober.
+Infos: www.radreisen-flusslauf.de
+
+d
+Airport-Hotel Komfort
+Ideal für Geschäftsreisende: ruhige, moderne Zimmer nur zehn Minuten vom
+Flughafen. Auch für eine einzelne Übernachtung buchbar. Früh­stück und
+Shuttle inklusive.
+Reservierung: Tel. 069-22 33 44.
+
+e
+Mittelmeer-Kreuzfahrten Meerblick
+Entdecken Sie die schönsten Häfen des Mittelmeers! Komfortable Schiffe,
+deutschsprachige Reiseleitung und ein abwechslungsreiches Ausflugsprogramm.
+Verschiedene Termine im Frühling und Herbst.
+Buchung: www.kreuzfahrten-meerblick.de
+
+f
+Erlebnisbauernhof Sonnenwiese
+Urlaub auf dem Bauernhof für die ganze Familie! Kinder dürfen Tiere füttern,
+im Heu spielen und beim Melken zusehen. Gemütliche Ferienwohnungen auf dem
+Hof.
+Anfragen: bauernhof-sonnenwiese@web.de
+
+g
+Berghütte Adlerhorst
+Einfache, urige Übernachtung für Wanderer auf 1.800 Metern Höhe. Schlafplätze
+im Matratzenlager, warme Mahlzeiten und herrlicher Ausblick.
+Geöffnet: Juni–Oktober.
+Reservierung: huette-adlerhorst@web.de
+
+h
+Ferienwohnung Schneeglück
+Gemütliche Wohnung für bis zu 4 Personen in den Alpen, nur 300 Meter von der
+Skipiste entfernt. Voll ausgestattete Küche, Skikeller und Sauna.
+Wintervermietung: Dezember–März.
+Kontakt: schneeglueck-alpen@mail.de
+
+i
+Sprachreise España Viva
+Lernen Sie Spanisch dort, wo es gesprochen wird! Vormittags Unterricht in
+kleinen Gruppen, nachmittags Ausflüge zu Sehenswürdigkeiten und an den
+Strand. Unterkunft in Gastfamilien.
+Infos: www.espana-viva-sprachreisen.de
+
+j
+Wellnesshotel Quellenruh
+Erholung pur in ruhiger Lage: großes Thermalbad, Saunalandschaft und ein
+breites Angebot an Massagen und Anwendungen. Ideal für eine entspannte Kur.
+Buchung: Tel. 08821-66 77 88.
+
+k
+Jugendcamp Abenteuerland
+Ferienlager für Kinder und Jugendliche von 10 bis 16 Jahren. Klettern, Kanu
+fahren und Lagerfeuer. Betreuung rund um die Uhr durch erfahrene Teamer.
+Sommerferien, einwöchige Durchgänge.
+Anmeldung: camp-abenteuerland@mail.de
+
+l
+Stadthotel Zentral
+Modernes Hotel im Herzen der Großstadt, ideal für Sightseeing. Komfortable
+Doppelzimmer, Restaurant und Bar im Haus. Nahe an Museen und Theatern.
+Reservierung: Tel. 030-99 88 77.
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL / CEVAP ANAHTARI
+===========================================================================
+11: a  (City-Hostel Hafenblick: günstig, Hamburg, Zentrum, Einzelzimmer)
+12: b  (Strandhotel Sonneninsel: Familie, Meer, Pool, Kinder)
+13: c  (Radreisen Flusslauf: geführte Mehrtagestouren am Fluss)
+14: d  (Airport-Hotel: ruhig, nahe Flughafen, eine Nacht)
+15: e  (Mittelmeer-Kreuzfahrten: deutschsprachige Reiseleitung)
+16: f  (Erlebnisbauernhof: Kinder füttern Tiere)
+17: g  (Berghütte Adlerhorst: einfache Hütte, übernachten und essen, Wanderer)
+18: h  (Ferienwohnung Schneeglück: Berge, nahe Skigebiet, Winter)
+19: i  (Sprachreise España Viva: vormittags Unterricht, nachmittags Ausflüge)
+20: x  (KEIN Angebot: eine organisierte Busreise nach Italien wird nicht
+        angeboten; e=Kreuzfahrt im Mittelmeer, nicht Busreise zu Städten.)
+
+Çeldirici (kullanılmayan) ilanlar: j (Wellnesshotel), k (Jugendcamp),
+l (Stadthotel)
+HINWEIS: Situation 20 hat KEIN passendes Angebot -> Lösung "x".

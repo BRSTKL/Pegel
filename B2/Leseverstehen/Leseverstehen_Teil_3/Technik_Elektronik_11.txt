@@ -1,0 +1,150 @@
+===========================================================================
+TELC B2 - LESEVERSTEHEN TEIL 3 | ÜBUNG 11: TECHNIK & ELEKTRONIK
+===========================================================================
+
+Lesen Sie die Situationen (11-20) und die Anzeigen (a-l).
+Welche Anzeige passt zu welcher Situation?
+Für eine Situation gibt es KEINE passende Anzeige. Markieren Sie diese mit "x".
+Jede Anzeige kann nur einmal verwendet werden.
+
+---------------------------------------------------------------------------
+SITUATIONEN
+---------------------------------------------------------------------------
+11
+Sie möchten einen neuen Laptop für die Universität kaufen und suchen ein
+Fachgeschäft mit guter Beratung.
+
+12
+Ihr Handy-Display ist zerbrochen und Sie suchen jemanden, der es schnell
+repariert.
+
+13
+Sie suchen einen Anbieter für schnelles Internet (Glasfaser) für Ihr neues
+Zuhause.
+
+14
+Ihre Mutter möchte einen gebrauchten Fernseher günstig kaufen.
+
+15
+Sie möchten alte Videokassetten auf einen USB-Stick digitalisieren lassen.
+
+16
+Ihr Vater sucht einen Kurs, in dem ältere Menschen den Umgang mit dem Tablet
+lernen.
+
+17
+Sie suchen ein Geschäft, das Drucker und passende Tintenpatronen verkauft.
+
+18
+Ihre Schwester möchte eine Spielkonsole für ihre Kinder kaufen und sucht ein
+Angebot mit mehreren Spielen.
+
+19
+Sie möchten Ihren alten Computer fachgerecht entsorgen lassen.
+
+20
+Ihr Bruder sucht einen Onlineshop, der Ersatzteile für Drohnen verkauft.
+
+---------------------------------------------------------------------------
+ANZEIGEN
+---------------------------------------------------------------------------
+a
+Computer-Fachmarkt TechWelt
+Große Auswahl an Laptops, PCs und Zubehör. Persönliche Beratung durch unsere
+Fachleute – ideal für Studierende und Berufstätige.
+Öffnungszeiten: Mo.–Sa. 9:00–20:00 Uhr.
+Industriestraße 5.
+
+b
+Handy-Reparatur SchnellFix
+Zerbrochenes Display, leerer Akku? Wir reparieren Ihr Smartphone meist noch
+am selben Tag. Alle Marken.
+Öffnungszeiten: Mo.–Sa. 10:00–19:00 Uhr.
+Bahnhofstraße 8.
+
+c
+Glasfaser-Internet von NetzSchnell
+Surfen Sie mit Höchstgeschwindigkeit! Wir bieten schnelle
+Glasfaseranschlüsse für Privathaushalte. Jetzt Verfügbarkeit prüfen.
+Infos: www.netzschnell.de
+
+d
+Gebrauchtelektronik Second-Tech
+An- und Verkauf gebrauchter Elektronik: Fernseher, Laptops, Konsolen und mehr.
+Geprüfte Geräte zu günstigen Preisen.
+Öffnungszeiten: Mo.–Fr. 10:00–18:00 Uhr.
+Marktstraße 14.
+
+e
+Digitalisierungsservice Erinnerung
+Wir übertragen Ihre alten Videokassetten, Dias und Schallplatten auf USB-Stick
+oder DVD. So bleiben Ihre Erinnerungen erhalten.
+Kontakt: info@digital-erinnerung.de
+
+f
+Tablet-Kurs für Senioren
+Schritt für Schritt lernen ältere Menschen, ihr Tablet zu bedienen: surfen,
+Fotos ansehen, Nachrichten schreiben. Geduldig und in kleinen Gruppen.
+Termine: Mo. und Mi. 10:00–11:30 Uhr.
+Anmeldung: senioren-vhs@mail.de
+
+g
+Bürobedarf & Drucker DruckFix
+Drucker, Tintenpatronen, Papier und Bürozubehör. Große Auswahl an Patronen für
+alle gängigen Druckermodelle.
+Öffnungszeiten: Mo.–Fr. 9:00–18:00 Uhr.
+Schulstraße 3.
+
+h
+Spielekonsolen-Welt
+Konsolen und Spiele für die ganze Familie. Attraktive Bundles mit mehreren
+Spielen zum Sparpreis.
+Öffnungszeiten: Mo.–Sa. 10:00–20:00 Uhr.
+Königsstraße 22.
+
+i
+Elektroschrott-Entsorgung GrünRecycling
+Wir entsorgen Ihre alten Elektrogeräte fachgerecht und umweltfreundlich: PCs,
+Bildschirme, Kleingeräte. Abholung möglich.
+Kontakt: info@gruen-recycling.de
+
+j
+Kamera & Foto-Studio Blende8
+Verkauf von Kameras, Objektiven und Zubehör. Außerdem Beratung und Verleih von
+Profi-Ausrüstung.
+Öffnungszeiten: Mo.–Sa. 9:30–18:30 Uhr.
+Lindenplatz 6.
+
+k
+Haushaltsgeräte Elektro-König
+Waschmaschinen, Kühlschränke und Herde namhafter Marken. Lieferung und
+Anschluss inklusive.
+Öffnungszeiten: Mo.–Sa. 9:00–19:00 Uhr.
+Hauptstraße 40.
+
+l
+Telefonanbieter SprichMehr
+Günstige Handytarife und Verträge mit viel Datenvolumen. Beratung im Shop oder
+online.
+Öffnungszeiten: Mo.–Sa. 10:00–19:00 Uhr.
+Marktplatz 3.
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL / CEVAP ANAHTARI
+===========================================================================
+11: a  (Computer-Fachmarkt TechWelt: Laptops, Beratung, Studierende)
+12: b  (Handy-Reparatur SchnellFix: Display reparieren, schnell)
+13: c  (Glasfaser-Internet: schnelles Internet fürs Zuhause)
+14: d  (Gebrauchtelektronik Second-Tech: gebrauchter Fernseher, günstig)
+15: e  (Digitalisierungsservice: Videokassetten auf USB)
+16: f  (Tablet-Kurs für Senioren: ältere Menschen, Tablet)
+17: g  (Bürobedarf & Drucker DruckFix: Drucker und Tintenpatronen)
+18: h  (Spielekonsolen-Welt: Konsole mit mehreren Spielen)
+19: i  (Elektroschrott-Entsorgung: Computer fachgerecht entsorgen)
+20: x  (KEIN Angebot: ein Onlineshop für Drohnen-Ersatzteile wird nicht
+        angeboten; j=Kamera, k=Haushaltsgeräte, l=Telefonanbieter passen
+        nicht.)
+
+Çeldirici (kullanılmayan) ilanlar: j (Kamera-Studio), k (Haushaltsgeräte),
+l (Telefonanbieter)
+HINWEIS: Situation 20 hat KEIN passendes Angebot -> Lösung "x".

@@ -1,0 +1,158 @@
+===========================================================================
+TELC B2 - LESEVERSTEHEN TEIL 3 | ÜBUNG 1: KURSE & FREIZEIT
+===========================================================================
+
+Lesen Sie die Situationen (11-20) und die Anzeigen (a-l).
+Welche Anzeige passt zu welcher Situation?
+Für eine Situation gibt es KEINE passende Anzeige. Markieren Sie diese mit "x".
+Jede Anzeige kann nur einmal verwendet werden.
+
+---------------------------------------------------------------------------
+SITUATIONEN
+---------------------------------------------------------------------------
+11
+Ihre Tante möchte in ihrer Freizeit malen lernen und sucht einen Kurs für
+absolute Anfänger, der am Wochenende stattfindet.
+
+12
+Ihr Sohn (10) interessiert sich für Roboter und Technik und sucht einen
+Ferienkurs, in dem Kinder einfache Roboter programmieren können.
+
+13
+Sie möchten Ihre Schwimmtechnik verbessern und suchen einen Kurs für
+Erwachsene, die bereits schwimmen können, aber besser werden wollen.
+
+14
+Ihr Nachbar möchte das Fotografieren mit seiner neuen Kamera lernen und sucht
+einen Kurs, bei dem man auch draußen Aufnahmen übt.
+
+15
+Ihre Freundin sucht einen Tanzkurs für Paare, da sie und ihr Mann bei einer
+Hochzeit gut tanzen möchten.
+
+16
+Sie suchen für Ihren Vater einen Kochkurs, in dem man gesunde Gerichte ohne
+Fleisch zubereitet.
+
+17
+Ihre Cousine möchte ein Musikinstrument lernen, am liebsten Gitarre, und hat
+nur am Abend Zeit.
+
+18
+Ihr Kollege möchte mit dem Yoga beginnen, um Stress abzubauen, und sucht einen
+ruhigen Kurs für Einsteiger.
+
+19
+Ihre Großmutter möchte gern wieder Theater spielen und sucht eine Gruppe für
+ältere Menschen ohne professionelle Ansprüche.
+
+20
+Ihr Bruder möchte das Nähen lernen, um eigene Kleidung zu reparieren und
+herzustellen.
+
+---------------------------------------------------------------------------
+ANZEIGEN
+---------------------------------------------------------------------------
+a
+Malschule Pinselstrich – Aquarell für Anfänger
+Sie hatten noch nie einen Pinsel in der Hand? Kein Problem! In unserem Kurs
+für absolute Anfänger lernen Sie die Grundlagen der Aquarellmalerei in
+entspannter Atmosphäre.
+Kurszeiten: jeden Samstag 10:00–12:30 Uhr, 6 Wochen.
+Anmeldung: www.malschule-pinselstrich.de
+
+b
+Roboter-Werkstatt für Kinder
+In den Sommerferien bauen und programmieren Kinder von 8 bis 12 Jahren ihre
+eigenen kleinen Roboter. Spielerisch lernen sie erste Schritte der Technik.
+Keine Vorkenntnisse nötig.
+Termine: 1. Ferienwoche, Mo.–Fr. 10:00–14:00 Uhr.
+Infos: technikclub-kids@web.de
+
+c
+Schwimmkurs „Besser kraulen“
+Für Erwachsene, die bereits sicher schwimmen, aber ihre Technik im Kraulen
+und Brustschwimmen verbessern möchten. Kleine Gruppen, erfahrene Trainer.
+Termine: dienstags 19:00–20:00 Uhr, 8 Wochen.
+Anmeldung: hallenbad-nord@stadt.de
+
+d
+Fotokurs Outdoor
+Lernen Sie, wie Sie mit Ihrer Kamera beeindruckende Bilder machen. Wir üben
+direkt im Park und in der Stadt: Licht, Bildaufbau und Schärfe.
+Termine: samstags 14:00–17:00 Uhr, 4 Termine.
+Kontakt: foto-outdoor@mail.de
+
+e
+Tanzschule Schrittwechsel – Paartanz
+Standard und Latein für Paare jeden Alters. Ob für die Hochzeit oder einfach
+zum Spaß – bei uns lernen Sie die wichtigsten Tänze schnell und mit Freude.
+Termine: freitags 19:30–21:00 Uhr.
+Infos: www.tanzschule-schrittwechsel.de
+
+f
+Vegetarisch kochen – Genuss ohne Fleisch
+In diesem Kochkurs bereiten wir gemeinsam gesunde, vegetarische Gerichte aus
+frischen Zutaten zu. Für alle, die sich bewusster ernähren möchten.
+Termine: mittwochs 18:00–21:00 Uhr, 5 Abende.
+Anmeldung: kochwerkstatt@stadt.de
+
+g
+Gitarrenunterricht am Abend
+Einzel- und Gruppenunterricht für Anfänger und Fortgeschrittene. Lernen Sie
+Ihre Lieblingslieder zu spielen – ganz entspannt nach Feierabend.
+Termine: montags und donnerstags ab 18:00 Uhr.
+Kontakt: musikschule-klang@mail.de
+
+h
+Yoga für Einsteiger
+Sanftes Hatha-Yoga für alle, die zur Ruhe kommen und Stress abbauen möchten.
+Ruhige Übungen, achtsame Atmung, keine Vorkenntnisse nötig.
+Termine: dienstags 17:30–18:45 Uhr.
+Anmeldung: yoga-balance@web.de
+
+i
+Lauftreff für Anfänger
+Sie möchten mit dem Joggen beginnen? In unserer Gruppe laufen Anfänger
+gemeinsam in lockerem Tempo. Gemeinsam macht es mehr Spaß!
+Termine: sonntags 9:00 Uhr, Treffpunkt Stadtpark.
+Infos: lauftreff-stadtpark@mail.de
+
+j
+Nähkurs für Einsteiger
+Lernen Sie die Grundlagen des Nähens: von der Bedienung der Nähmaschine bis
+zum ersten eigenen Kleidungsstück. Auch Reparaturen werden geübt.
+Termine: samstags 11:00–14:00 Uhr, 6 Wochen.
+Anmeldung: naehstube-faden@web.de
+
+k
+Chor „Stimmenzauber“
+Singen Sie gern? Unser gemischter Chor freut sich über neue Mitglieder. Wir
+singen moderne und klassische Lieder. Notenkenntnisse nicht erforderlich.
+Termine: mittwochs 19:00–21:00 Uhr.
+Kontakt: chor-stimmenzauber@mail.de
+
+l
+Töpferkurs am Wochenende
+Entdecken Sie die Freude am Arbeiten mit Ton. Wir formen Schalen, Tassen und
+kleine Figuren. Für Anfänger und Fortgeschrittene geeignet.
+Termine: sonntags 14:00–17:00 Uhr.
+Anmeldung: toepferei-erde@mail.de
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL / CEVAP ANAHTARI
+===========================================================================
+11: a  (Malschule: Anfänger, Samstag/Wochenende)
+12: b  (Roboter-Werkstatt: Kinder 8-12, Programmieren, Ferien)
+13: c  (Schwimmkurs: Erwachsene, die schon schwimmen, Technik verbessern)
+14: d  (Fotokurs Outdoor: draußen Aufnahmen üben)
+15: e  (Tanzschule: Paartanz, für die Hochzeit)
+16: f  (Vegetarisch kochen: gesunde Gerichte ohne Fleisch)
+17: g  (Gitarrenunterricht: Gitarre, am Abend)
+18: h  (Yoga für Einsteiger: Stress abbauen, ruhig, Anfänger)
+19: x  (KEIN Angebot: Theatergruppe für ältere Menschen gibt es nicht;
+        k=Chor, l=Töpfern, i=Laufen passen nicht.)
+20: j  (Nähkurs: Kleidung reparieren und herstellen)
+
+Çeldirici (kullanılmayan) ilanlar: i (Lauftreff), k (Chor), l (Töpferkurs)
+HINWEIS: Situation 19 hat KEIN passendes Angebot -> Lösung "x".

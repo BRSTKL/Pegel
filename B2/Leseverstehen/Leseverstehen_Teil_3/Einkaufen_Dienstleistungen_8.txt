@@ -1,0 +1,151 @@
+===========================================================================
+TELC B2 - LESEVERSTEHEN TEIL 3 | ÜBUNG 8: EINKAUFEN & DIENSTLEISTUNGEN
+===========================================================================
+
+Lesen Sie die Situationen (11-20) und die Anzeigen (a-l).
+Welche Anzeige passt zu welcher Situation?
+Für eine Situation gibt es KEINE passende Anzeige. Markieren Sie diese mit "x".
+Jede Anzeige kann nur einmal verwendet werden.
+
+---------------------------------------------------------------------------
+SITUATIONEN
+---------------------------------------------------------------------------
+11
+Sie suchen einen Friseur, der auch spontan ohne Termin Kunden bedient.
+
+12
+Ihre Mutter möchte ihre Winterkleidung reinigen lassen und sucht eine
+Reinigung, die auch empfindliche Stoffe behandelt.
+
+13
+Sie suchen ein Geschäft, das gebrauchte Fahrräder verkauft und auch
+repariert.
+
+14
+Ihr Vater braucht eine neue Brille und sucht einen Optiker mit großer Auswahl
+und Sehtest.
+
+15
+Sie möchten ein Geschenk einpacken lassen und suchen ein Geschäft, das einen
+Geschenkservice anbietet.
+
+16
+Ihre Schwester sucht einen Buchladen, der auch fremdsprachige Bücher auf
+Englisch führt.
+
+17
+Sie möchten einen Anzug schneidern lassen und suchen einen Schneider, der
+Maßanfertigungen anbietet.
+
+18
+Ihr Onkel sucht einen Blumenladen, der Sträuße auch nach Hause liefert.
+
+19
+Sie suchen einen Schuhmacher, der kaputte Absätze und Sohlen repariert.
+
+20
+Ihre Tante möchte ihr Auto reparieren lassen und sucht eine Werkstatt mit
+fairen Preisen.
+
+---------------------------------------------------------------------------
+ANZEIGEN
+---------------------------------------------------------------------------
+a
+Friseursalon Haarscharf
+Schöne Frisuren ohne langes Warten! Bei uns sind Sie auch ohne Termin
+willkommen – einfach vorbeikommen.
+Öffnungszeiten: Di.–Sa. 9:00–19:00 Uhr.
+Marktstraße 4.
+
+b
+Textilreinigung Blütenrein
+Wir reinigen Ihre Kleidung schonend und gründlich, auch empfindliche Stoffe
+wie Seide und Wolle. Schnelle Bearbeitung.
+Öffnungszeiten: Mo.–Fr. 8:00–18:00 Uhr.
+Lindenstraße 12.
+
+c
+Fahrradladen RadWelt
+Verkauf von neuen und gebrauchten Fahrrädern. Außerdem bieten wir Reparaturen
+und Wartung aller Marken an.
+Öffnungszeiten: Mo.–Sa. 9:00–18:00 Uhr.
+Bahnhofstraße 30.
+
+d
+Optik Klarsicht
+Große Auswahl an Brillen und Sonnenbrillen. Kostenloser Sehtest und
+fachkundige Beratung durch erfahrene Optiker.
+Öffnungszeiten: Mo.–Fr. 9:00–18:30 Uhr, Sa. 9:00–14:00 Uhr.
+Hauptstraße 8.
+
+e
+Geschenkeladen Wunderschön
+Schöne Geschenkideen für jeden Anlass. Auf Wunsch verpacken wir Ihr Geschenk
+kostenlos und festlich.
+Öffnungszeiten: Mo.–Sa. 10:00–19:00 Uhr.
+Rosenweg 5.
+
+f
+Buchhandlung Weltenleser
+Bücher aus aller Welt – auch eine große Auswahl englischsprachiger Romane und
+Sachbücher. Bestellungen innerhalb eines Tages.
+Öffnungszeiten: Mo.–Sa. 9:00–20:00 Uhr.
+Schillerplatz 2.
+
+g
+Computerservice FlinkFix
+Ihr Rechner ist langsam oder kaputt? Wir reparieren PCs und Laptops, entfernen
+Viren und machen Ihren Computer wieder schnell.
+Kontakt: Tel. 030-11 22 33.
+
+h
+Blumen Blütentraum
+Frische Sträuße und Gestecke für jeden Anlass. Wir liefern Ihre Blumen auf
+Wunsch direkt nach Hause oder ins Büro.
+Öffnungszeiten: Mo.–Sa. 8:00–19:00 Uhr.
+Tel. 040-44 55 66.
+
+i
+Schuhmacherei Sohlenglück
+Wir reparieren Ihre Schuhe: neue Absätze, Sohlen und Reißverschlüsse. Schnell
+und preiswert.
+Öffnungszeiten: Mo.–Fr. 9:00–18:00 Uhr.
+Gartenstraße 7.
+
+j
+Kfz-Werkstatt Schrauberprofi
+Reparaturen und Wartung für alle Automarken zu fairen Preisen. Inspektion,
+Reifenwechsel, TÜV-Vorbereitung.
+Termine: Tel. 0711-22 33 44.
+
+k
+Juwelier Goldglanz
+Schmuck, Uhren und edle Geschenke. Wir reparieren auch Ihre Uhren und Ketten.
+Öffnungszeiten: Mo.–Sa. 10:00–18:00 Uhr.
+Königsallee 1.
+
+l
+Handyladen MobilProfi
+Verkauf von Smartphones und Zubehör. Wir reparieren auch Displays und
+Akkus.
+Öffnungszeiten: Mo.–Sa. 10:00–19:00 Uhr.
+Bahnhofstraße 15.
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL / CEVAP ANAHTARI
+===========================================================================
+11: a  (Friseursalon Haarscharf: auch ohne Termin)
+12: b  (Textilreinigung Blütenrein: empfindliche Stoffe reinigen)
+13: c  (Fahrradladen RadWelt: gebrauchte Räder, Reparatur)
+14: d  (Optik Klarsicht: große Auswahl, Sehtest)
+15: e  (Geschenkeladen Wunderschön: Geschenkservice/verpacken)
+16: f  (Buchhandlung Weltenleser: englischsprachige Bücher)
+17: x  (KEIN Angebot: ein Schneider für Maßanfertigungen wird nicht angeboten;
+        g=Computerservice, k=Juwelier, l=Handyladen passen nicht.)
+18: h  (Blumen Blütentraum: Sträuße, Lieferung nach Hause)
+19: i  (Schuhmacherei Sohlenglück: Absätze und Sohlen reparieren)
+20: j  (Kfz-Werkstatt Schrauberprofi: Auto reparieren, faire Preise)
+
+Çeldirici (kullanılmayan) ilanlar: g (Computerservice), k (Juwelier),
+l (Handyladen)
+HINWEIS: Situation 17 hat KEIN passendes Angebot -> Lösung "x".

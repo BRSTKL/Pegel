@@ -1,0 +1,145 @@
+===========================================================================
+TELC B2 - LESEVERSTEHEN TEIL 3 | ÜBUNG 12: EHRENAMT & SOZIALES
+===========================================================================
+
+Lesen Sie die Situationen (11-20) und die Anzeigen (a-l).
+Welche Anzeige passt zu welcher Situation?
+Für eine Situation gibt es KEINE passende Anzeige. Markieren Sie diese mit "x".
+Jede Anzeige kann nur einmal verwendet werden.
+
+---------------------------------------------------------------------------
+SITUATIONEN
+---------------------------------------------------------------------------
+11
+Ihre Freundin möchte ehrenamtlich älteren Menschen helfen, etwa beim Einkaufen
+oder bei Spaziergängen.
+
+12
+Sie möchten gebrauchte Kleidung spenden und suchen eine Annahmestelle in Ihrer
+Nähe.
+
+13
+Ihr Bruder möchte sich beim Umweltschutz engagieren und sucht eine Gruppe, die
+Bäume pflanzt und Müll sammelt.
+
+14
+Ihre Nachbarin sucht eine Selbsthilfegruppe für Menschen, die einen
+Angehörigen verloren haben.
+
+15
+Sie möchten Geflüchteten ehrenamtlich Deutschunterricht geben.
+
+16
+Ihr Onkel sucht eine Tafel, bei der er als Freiwilliger Lebensmittel verteilen
+kann.
+
+17
+Sie möchten Blut spenden und suchen einen Termin in einem Spendezentrum.
+
+18
+Ihre Schwester möchte als Lesepatin Kindern in einer Schule vorlesen.
+
+19
+Sie suchen eine Organisation, die Hunde aus dem Tierheim für Spaziergänge
+vermittelt.
+
+20
+Ihr Kollege möchte als Freiwilliger bei der Bergrettung im Gebirge
+mitarbeiten.
+
+---------------------------------------------------------------------------
+ANZEIGEN
+---------------------------------------------------------------------------
+a
+Nachbarschaftshilfe für Senioren
+Wir suchen freiwillige Helfer, die ältere Menschen im Alltag unterstützen:
+beim Einkaufen, bei Spaziergängen oder einfach für ein Gespräch.
+Kontakt: ehrenamt@nachbarschaftshilfe.de
+
+b
+Kleiderkammer Warmherz
+Geben Sie gut erhaltene Kleidung ab! Unsere Annahmestelle nimmt gespendete
+Kleidung entgegen und gibt sie an Bedürftige weiter.
+Annahme: Mo.–Fr. 9:00–13:00 Uhr, Bahnhofstraße 6.
+
+c
+Umweltgruppe GrüneTat
+Gemeinsam für die Natur! Wir pflanzen Bäume, sammeln Müll und setzen uns für
+mehr Grün in der Stadt ein. Neue Mitstreiter willkommen.
+Kontakt: info@gruenetat.de
+
+d
+Trauergruppe Lichtblick
+Selbsthilfegruppe für Menschen, die einen lieben Angehörigen verloren haben.
+Gemeinsam reden, trauern und Halt finden.
+Treffen: jeden zweiten Dienstag 18:00 Uhr.
+Kontakt: trauergruppe-lichtblick@mail.de
+
+e
+Deutsch für Geflüchtete – Ehrenamtliche gesucht
+Wir suchen freiwillige Helfer, die Geflüchteten Deutsch beibringen. Keine
+pädagogische Ausbildung nötig, nur Geduld und Freude am Helfen.
+Kontakt: sprachpaten@integration.de
+
+f
+Die Tafel – Helfer gesucht
+Unsere Tafel verteilt Lebensmittel an bedürftige Menschen. Wir freuen uns über
+freiwillige Helfer beim Sortieren und Ausgeben.
+Kontakt: ehrenamt@tafel-stadt.de
+
+g
+Blutspendezentrum LebensTropfen
+Mit Ihrer Blutspende retten Sie Leben. Vereinbaren Sie einen Termin – die
+Spende dauert nur etwa eine Stunde.
+Termine: Mo.–Fr. 8:00–19:00 Uhr.
+Kontakt: www.blutspende-lebenstropfen.de
+
+h
+Lesepaten für Grundschulen
+Schenken Sie Kindern Ihre Zeit! Als Lesepate oder Lesepatin lesen Sie Kindern
+in der Schule vor und fördern ihre Freude am Lesen.
+Kontakt: lesepaten@bildung.de
+
+i
+Gassi-Geher fürs Tierheim
+Das Tierheim sucht freiwillige Helfer, die mit den Hunden spazieren gehen.
+Tierliebe und Zuverlässigkeit vorausgesetzt.
+Kontakt: gassi@tierheim-stadt.de
+
+j
+Hospizdienst Begleitung
+Wir begleiten schwerkranke Menschen in ihrer letzten Lebensphase. Für dieses
+Ehrenamt bieten wir eine sorgfältige Vorbereitung an.
+Kontakt: hospiz-begleitung@mail.de
+
+k
+Sportverein sucht Übungsleiter
+Unser Verein sucht ehrenamtliche Übungsleiter für die Kinder- und
+Jugendgruppen im Bereich Leichtathletik.
+Kontakt: jugend@sportverein-stadt.de
+
+l
+Repair-Café – Helfer willkommen
+In unserem Repair-Café reparieren ehrenamtliche Helfer gemeinsam mit den
+Besuchern kaputte Geräte. Handwerkliches Geschick erwünscht.
+Termine: jeden ersten Samstag im Monat.
+Kontakt: repaircafe@mail.de
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL / CEVAP ANAHTARI
+===========================================================================
+11: a  (Nachbarschaftshilfe für Senioren: Einkaufen, Spaziergänge)
+12: b  (Kleiderkammer Warmherz: Kleidung spenden, Annahmestelle)
+13: c  (Umweltgruppe GrüneTat: Bäume pflanzen, Müll sammeln)
+14: d  (Trauergruppe Lichtblick: Selbsthilfe nach Verlust eines Angehörigen)
+15: e  (Deutsch für Geflüchtete: ehrenamtlich Deutsch unterrichten)
+16: f  (Die Tafel: Lebensmittel verteilen, Freiwillige)
+17: g  (Blutspendezentrum LebensTropfen: Blut spenden, Termin)
+18: h  (Lesepaten für Grundschulen: Kindern vorlesen)
+19: i  (Gassi-Geher fürs Tierheim: Hunde spazieren führen)
+20: x  (KEIN Angebot: eine Bergrettung im Gebirge wird nicht angeboten;
+        j=Hospizdienst, k=Übungsleiter, l=Repair-Café passen nicht.)
+
+Çeldirici (kullanılmayan) ilanlar: j (Hospizdienst), k (Übungsleiter),
+l (Repair-Café)
+HINWEIS: Situation 20 hat KEIN passendes Angebot -> Lösung "x".

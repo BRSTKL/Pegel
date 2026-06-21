@@ -1,0 +1,148 @@
+===========================================================================
+TELC B2 - LESEVERSTEHEN TEIL 3 | ÜBUNG 6: WOHNEN & HANDWERK
+===========================================================================
+
+Lesen Sie die Situationen (11-20) und die Anzeigen (a-l).
+Welche Anzeige passt zu welcher Situation?
+Für eine Situation gibt es KEINE passende Anzeige. Markieren Sie diese mit "x".
+Jede Anzeige kann nur einmal verwendet werden.
+
+---------------------------------------------------------------------------
+SITUATIONEN
+---------------------------------------------------------------------------
+11
+Sie suchen eine 2-Zimmer-Wohnung zur Miete in der Stadtmitte, möglichst mit
+Balkon.
+
+12
+Ihre Tochter sucht ein möbliertes WG-Zimmer in der Nähe der Universität für
+das nächste Semester.
+
+13
+Ihr Wasserhahn tropft und Sie suchen einen Klempner (Installateur), der auch
+am Wochenende kommt.
+
+14
+Sie möchten Ihre Wohnung streichen lassen und suchen einen Malerbetrieb, der
+ein kostenloses Angebot erstellt.
+
+15
+Ihr Nachbar zieht um und sucht ein Umzugsunternehmen, das auch Möbel
+transportiert und beim Tragen hilft.
+
+16
+Sie suchen einen Elektriker, der in Ihrer Wohnung neue Lampen und Steckdosen
+installiert.
+
+17
+Ihre Eltern möchten ihren alten Garten neu gestalten lassen und suchen einen
+Gärtner mit Erfahrung.
+
+18
+Sie möchten einen Dachdecker beauftragen, der Ihr undichtes Dach repariert.
+
+19
+Ihr Bruder sucht ein Haus mit Garten zum Kauf am Stadtrand für seine Familie.
+
+20
+Sie möchten ein altes Sofa und einen Schrank verkaufen und suchen einen
+Ankäufer für gebrauchte Möbel.
+
+---------------------------------------------------------------------------
+ANZEIGEN
+---------------------------------------------------------------------------
+a
+2-Zimmer-Wohnung im Zentrum
+Helle, renovierte Wohnung (60 m²) in zentraler Lage zu vermieten. Mit Balkon,
+Einbauküche und Tageslichtbad. Ideal für Paare oder Singles.
+Kontakt: vermietung@wohnen-mitte.de
+
+b
+WG-Zimmer nahe Uni
+Möbliertes Zimmer in 3er-WG, nur 5 Gehminuten zur Universität, an
+Studentin/Studenten zu vermieten. Gemeinsame Küche und Bad.
+Verfügbar ab nächstem Semester.
+Kontakt: wg-campus@mail.de
+
+c
+Sanitär & Heizung Tropfstopp
+Ihr Installateur für alle Fälle: undichte Hähne, verstopfte Rohre,
+Heizungsreparaturen. Wir kommen auch am Wochenende und im Notfall schnell zu
+Ihnen.
+Kontakt: Tel. 030-44 33 22.
+
+d
+Malerbetrieb Farbklecks
+Wir streichen Ihre Wohnung sauber und zuverlässig. Vereinbaren Sie einen
+Termin für ein kostenloses, unverbindliches Angebot bei Ihnen vor Ort.
+Kontakt: info@maler-farbklecks.de
+
+e
+Umzüge Flink & Sicher
+Stressfrei umziehen! Wir transportieren Ihre Möbel und Kartons und helfen beim
+Tragen und Aufbauen. Faire Preise, erfahrenes Team.
+Angebot anfordern: Tel. 040-66 55 44.
+
+f
+Elektro Blitz
+Ihr Elektriker für Installationen aller Art: Lampen, Steckdosen, Sicherungen.
+Schnell, sauber und zuverlässig.
+Termine: Tel. 069-11 00 99.
+
+g
+Gartenbau Grünwerk
+Wir gestalten Ihren Traumgarten: Planung, Bepflanzung und Pflege. Langjährige
+Erfahrung in der Gartengestaltung.
+Beratung: info@gartenbau-gruenwerk.de
+
+h
+Schlüsseldienst 24h
+Ausgesperrt? Wir öffnen Ihre Tür schnell und ohne Schaden – Tag und Nacht,
+sieben Tage die Woche. In der Regel innerhalb von 30 Minuten vor Ort.
+Notruf: Tel. 0800-12 34 56.
+
+i
+Haus mit Garten am Stadtrand
+Schönes Einfamilienhaus (140 m²) mit großem Garten in ruhiger Lage am
+Stadtrand zu verkaufen. Ideal für Familien. Vier Zimmer, Garage.
+Kontakt: immobilien-traumhaus@mail.de
+
+j
+Möbelankauf Zweite Chance
+Wir kaufen Ihre gut erhaltenen Gebrauchtmöbel: Sofas, Schränke, Tische und
+mehr. Faire Preise, Abholung möglich.
+Kontakt: Tel. 0221-55 66 77.
+
+k
+Fensterputzer Glanz & Glas
+Wir reinigen Ihre Fenster streifenfrei – für Privathaushalte und Büros.
+Regelmäßig oder einmalig.
+Kontakt: info@fenster-glanz.de
+
+l
+Tischlerei Holzwurm
+Maßgefertigte Möbel nach Ihren Wünschen: Regale, Tische, Einbauschränke. Reine
+Handarbeit aus heimischem Holz.
+Kontakt: tischlerei-holzwurm@mail.de
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL / CEVAP ANAHTARI
+===========================================================================
+11: a  (2-Zimmer-Wohnung im Zentrum: Miete, Balkon, zentral)
+12: b  (WG-Zimmer nahe Uni: möbliert, nahe Universität, Studenten)
+13: c  (Sanitär Tropfstopp: Installateur, undichte Hähne, Wochenende)
+14: d  (Malerbetrieb Farbklecks: streichen, kostenloses Angebot)
+15: e  (Umzüge Flink & Sicher: Möbeltransport, Tragen)
+16: f  (Elektro Blitz: Lampen, Steckdosen installieren)
+17: g  (Gartenbau Grünwerk: Garten gestalten, Erfahrung)
+18: x  (KEIN Angebot: ein Dachdecker zur Dachreparatur wird nicht angeboten;
+        h=Schlüsseldienst, k=Fensterputzer, l=Tischlerei passen nicht.)
+19: i  (Haus mit Garten am Stadtrand: Kauf, Familie)
+20: j  (Möbelankauf: Sofa und Schrank verkaufen)
+
+Çeldirici (kullanılmayan) ilanlar: h (Schlüsseldienst), k (Fensterputzer),
+l (Tischlerei)
+HINWEIS: Situation 18 hat KEIN passendes Angebot -> Lösung "x".
+Achtung-Falle: Anzeige l (Tischlerei Holzwurm) fertigt NEUE Möbel an und kauft
+KEINE gebrauchten Möbel – sie passt NICHT zu Situation 20. Richtig ist
+j (Möbelankauf).

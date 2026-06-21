@@ -1,0 +1,149 @@
+===========================================================================
+TELC B2 - LESEVERSTEHEN TEIL 3 | ÜBUNG 10: FAMILIE & KINDER
+===========================================================================
+
+Lesen Sie die Situationen (11-20) und die Anzeigen (a-l).
+Welche Anzeige passt zu welcher Situation?
+Für eine Situation gibt es KEINE passende Anzeige. Markieren Sie diese mit "x".
+Jede Anzeige kann nur einmal verwendet werden.
+
+---------------------------------------------------------------------------
+SITUATIONEN
+---------------------------------------------------------------------------
+11
+Sie suchen für Ihren Sohn (5) einen Platz in einem Kindergarten in der Nähe
+Ihrer Wohnung.
+
+12
+Ihre Tochter (12) möchte in einem Verein Fußball spielen und sucht eine
+Mannschaft für Mädchen.
+
+13
+Sie suchen einen Babysitter für gelegentliche Abende, wenn Sie ausgehen
+möchten.
+
+14
+Ihre Nichte (15) sucht Nachhilfe in Englisch, weil sie Schwierigkeiten in der
+Schule hat.
+
+15
+Sie möchten mit Ihrem Baby an einem Krabbelkurs teilnehmen, in dem sich Eltern
+und Kleinkinder treffen.
+
+16
+Ihr Neffe (8) interessiert sich für Musik und möchte in einem Kinderchor
+singen.
+
+17
+Sie suchen ein Ferienprogramm für Ihre Kinder in den Sommerferien mit
+Betreuung am Tag.
+
+18
+Ihre Familie sucht einen Indoor-Spielplatz für einen verregneten Nachmittag.
+
+19
+Ihre Tochter (10) interessiert sich für Theater und möchte einen
+Schauspielkurs für Kinder besuchen.
+
+20
+Sie suchen eine Beratungsstelle, die Familien bei Erziehungsfragen kostenlos
+unterstützt.
+
+---------------------------------------------------------------------------
+ANZEIGEN
+---------------------------------------------------------------------------
+a
+Kindergarten Sonnenblume
+Wir betreuen Kinder von 3 bis 6 Jahren liebevoll und in kleinen Gruppen.
+Zentral gelegen, mit großem Garten. Noch wenige Plätze frei.
+Kontakt: kita-sonnenblume@stadt.de
+
+b
+Mädchenfußball im SV Eintracht
+Unsere Mädchenmannschaft (U13) freut sich über neue Spielerinnen. Training
+zweimal pro Woche, freundliches Team.
+Probetraining: jugend@sv-eintracht.de
+
+c
+Babysitter-Vermittlung Sternchen
+Wir vermitteln zuverlässige und geprüfte Babysitter für Ihre Kinder, auch
+kurzfristig und für einzelne Abende.
+Kontakt: www.babysitter-sternchen.de
+
+d
+Nachhilfe Englisch
+Erfahrene Lehrkräfte helfen Schülern aller Klassen, ihre Englischnoten zu
+verbessern. Einzeln oder in kleinen Gruppen.
+Kontakt: info@nachhilfe-sprachfit.de
+
+e
+Eltern-Kind-Krabbelgruppe
+Treffen für Eltern mit Babys (6–18 Monate). Spielen, singen und Kontakte
+knüpfen in entspannter Atmosphäre.
+Termine: montags 10:00–11:30 Uhr.
+Anmeldung: familienzentrum@stadt.de
+
+f
+Kinderchor Singvögel
+Singen macht Freude! Unser Chor für Kinder von 6 bis 12 Jahren probt
+wöchentlich und tritt bei Festen auf. Keine Vorkenntnisse nötig.
+Termine: freitags 16:00 Uhr.
+Kontakt: kinderchor-singvoegel@mail.de
+
+g
+Sommerferien-Programm
+Ganztägige Betreuung für Kinder von 6 bis 12 Jahren in den Sommerferien.
+Basteln, Ausflüge, Sport und Spiel.
+Termine: Juli–August, Mo.–Fr. 8:00–16:00 Uhr.
+Anmeldung: ferienprogramm@stadt.de
+
+h
+Indoor-Spielplatz Hüpfburg
+Riesiger Hallenspielplatz mit Klettergerüsten, Rutschen und Trampolinen.
+Perfekt für regnerische Tage. Café für Eltern.
+Öffnungszeiten: täglich 10:00–19:00 Uhr.
+Infos: www.indoor-huepfburg.de
+
+i
+Schwimmkurs für Jugendliche
+Schwimmkurs für Jugendliche ab 12 Jahren zum Erwerb der Schwimmabzeichen
+(Bronze, Silber, Gold). Erfahrene Schwimmlehrer.
+Termine: samstags 14:00 Uhr.
+Anmeldung: schwimmschule-welle@mail.de
+
+j
+Familienberatung – kostenlos & vertraulich
+Unsere Beratungsstelle unterstützt Familien bei Erziehungsfragen, Konflikten
+und schwierigen Situationen. Kostenlos und auf Wunsch anonym.
+Termine: Tel. 030-44 55 66.
+
+k
+Kinderzahnarztpraxis Zahnfee
+Einfühlsame zahnärztliche Betreuung für Kinder. Wir nehmen den Kleinen die
+Angst und sorgen für gesunde Zähne.
+Termine: Tel. 0221-77 88 99.
+
+l
+Reiterhof Pferdefreund
+Reitunterricht für Kinder und Jugendliche ab 8 Jahren. Erst Pony, dann Pferd –
+Schritt für Schritt zum sicheren Reiten.
+Kontakt: reiterhof-pferdefreund@mail.de
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL / CEVAP ANAHTARI
+===========================================================================
+11: a  (Kindergarten Sonnenblume: 3-6 Jahre, zentral)
+12: b  (Mädchenfußball im SV Eintracht: Mädchenmannschaft)
+13: c  (Babysitter-Vermittlung: einzelne Abende)
+14: d  (Nachhilfe Englisch: Schüler, Englischnoten verbessern)
+15: e  (Eltern-Kind-Krabbelgruppe: Eltern mit Babys)
+16: f  (Kinderchor Singvögel: Kinder 6-12 singen)
+17: g  (Sommerferien-Programm: Betreuung am Tag, Ferien)
+18: h  (Indoor-Spielplatz Hüpfburg: regnerischer Nachmittag)
+19: x  (KEIN Angebot: ein Schauspielkurs für Kinder wird nicht angeboten;
+        i=Schwimmkurs, k=Kinderzahnarzt, l=Reiterhof passen nicht.)
+20: j  (Familienberatung: kostenlos, Erziehungsfragen)
+
+Çeldirici (kullanılmayan) ilanlar: i (Schwimmkurs), k (Kinderzahnarzt),
+l (Reiterhof)
+HINWEIS: Situation 19 hat KEIN passendes Angebot -> Lösung "x".
