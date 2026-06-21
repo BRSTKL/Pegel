@@ -2549,7 +2549,7 @@ function renderSitemapScreen() {
   pathContent?.classList.remove("hidden");
   renderLevelPath();
   
-  // Auto-scroll to last viewed lesson or active lesson node within path-sitemap-content
+  // Auto-scroll to last viewed lesson or active lesson node
   const performScroll = () => {
     let targetNode = null;
     if (state.lastViewedLessonId) {
@@ -2558,38 +2558,15 @@ function renderSitemapScreen() {
     if (!targetNode) {
       targetNode = document.querySelector(".droplet-node.active");
     }
-    const pathSitemap = document.getElementById("path-sitemap-content");
-    const appContent = document.querySelector(".app-content");
     if (targetNode) {
-      const rect = targetNode.getBoundingClientRect();
-      const nodeHeight = targetNode.offsetHeight || rect.height || 58;
-      
-      // If element is not laid out or visible yet, skip this run
-      if (rect.height === 0 || rect.width === 0) return;
-      
-      if (pathSitemap) {
-        const parentRect = pathSitemap.getBoundingClientRect();
-        const relativeTop = pathSitemap.scrollTop + rect.top - parentRect.top;
-        pathSitemap.scrollTo({
-          top: relativeTop - pathSitemap.clientHeight / 2 + nodeHeight / 2,
-          behavior: "auto"
-        });
-      }
-      if (appContent) {
-        const parentRect = appContent.getBoundingClientRect();
-        const relativeTop = appContent.scrollTop + rect.top - parentRect.top;
-        appContent.scrollTo({
-          top: relativeTop - parentRect.clientHeight / 2 + nodeHeight / 2,
-          behavior: "auto"
-        });
-      }
+      targetNode.scrollIntoView({ block: "center", behavior: "instant" });
     }
   };
 
-  // Run at 260ms (immediately after screen fade-in transition)
-  setTimeout(performScroll, 260);
-  // Run again at 600ms to correct any layout shifts from canvas and Rive animations loading
-  setTimeout(performScroll, 600);
+  // 300ms: animation (250ms) bittikten sonra çalıştır
+  setTimeout(performScroll, 300);
+  // 700ms: Rive animasyonları yüklendikten sonra tekrar çalıştır (sigorta)
+  setTimeout(performScroll, 700);
 }
 
 // LESSON DETAILS SCREEN
