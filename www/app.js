@@ -2550,7 +2550,7 @@ function renderSitemapScreen() {
   renderLevelPath();
   
   // Auto-scroll to last viewed lesson or active lesson node within path-sitemap-content
-  setTimeout(() => {
+  const performScroll = () => {
     let targetNode = null;
     if (state.lastViewedLessonId) {
       targetNode = document.querySelector(`.droplet-node[data-lesson-id="${state.lastViewedLessonId}"]`);
@@ -2563,6 +2563,9 @@ function renderSitemapScreen() {
     if (targetNode) {
       const rect = targetNode.getBoundingClientRect();
       const nodeHeight = targetNode.offsetHeight || rect.height || 58;
+      
+      // If element is not laid out or visible yet, skip this run
+      if (rect.height === 0 || rect.width === 0) return;
       
       if (pathSitemap) {
         const parentRect = pathSitemap.getBoundingClientRect();
@@ -2581,7 +2584,12 @@ function renderSitemapScreen() {
         });
       }
     }
-  }, 260);
+  };
+
+  // Run at 260ms (immediately after screen fade-in transition)
+  setTimeout(performScroll, 260);
+  // Run again at 600ms to correct any layout shifts from canvas and Rive animations loading
+  setTimeout(performScroll, 600);
 }
 
 // LESSON DETAILS SCREEN
