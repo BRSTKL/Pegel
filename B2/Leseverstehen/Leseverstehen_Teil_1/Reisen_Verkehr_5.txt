@@ -1,0 +1,84 @@
+===========================================================================
+TELC B2 - LESEVERSTEHEN TEIL 1 | ÜBUNG 5: REISEN & VERKEHR
+===========================================================================
+
+Ordnen Sie den Texten (1-5) die passenden Überschriften (a-j) zu.
+Achtung: Fünf Überschriften bleiben übrig.
+
+---------------------------------------------------------------------------
+ÜBERSCHRIFTEN
+---------------------------------------------------------------------------
+a   Nachtzüge werden wieder beliebter
+b   Fluggesellschaft streicht viele Verbindungen
+c   Touristen meiden überfüllte Städte
+d   Neue App plant die schnellste Route
+e   Radfahren in der Stadt wird sicherer
+f   Bahn senkt Preise für junge Reisende
+g   Immer mehr Menschen reisen mit dem Fahrrad
+h   Parkplätze in der Innenstadt werden teurer
+i   Wandern ist der neue Urlaubstrend
+j   Elektrobusse erobern den Nahverkehr
+
+---------------------------------------------------------------------------
+TEXTE
+---------------------------------------------------------------------------
+1
+Viele Jahre lang galten Nachtzüge als veraltet, doch nun erleben sie ein
+Comeback. Immer mehr Reisende möchten umweltfreundlicher unterwegs sein und
+verzichten auf kurze Flüge innerhalb Europas. In einem Nachtzug kann man
+abends einsteigen, schlafen und morgens ausgeruht am Ziel ankommen. Mehrere
+Bahnunternehmen haben deshalb neue Strecken eröffnet, etwa von Berlin nach
+Paris oder von Wien nach Rom. Die Tickets sind oft schon Wochen vorher
+ausgebucht.
+
+2
+Die Stadt Utrecht in den Niederlanden gilt als Vorbild für sicheres
+Radfahren. Dort wurden in den letzten Jahren breite, vom Autoverkehr
+getrennte Radwege gebaut. An Kreuzungen haben Radfahrer oft Vorrang, und es
+gibt eigene Ampeln für sie. Die Zahl der Unfälle ist deutlich gesunken,
+obwohl immer mehr Menschen mit dem Rad fahren. Städte aus ganz Europa
+schicken Fachleute dorthin, um sich das Konzept genauer anzusehen.
+
+3
+Beliebte Urlaubsorte wie Venedig oder Barcelona sind im Sommer oft
+hoffnungslos überfüllt. Deshalb suchen immer mehr Reisende nach ruhigeren
+Alternativen. Kleine Dörfer, unbekannte Küstenorte oder Regionen abseits der
+großen Touristenströme gewinnen an Beliebtheit. Reiseveranstalter reagieren
+darauf und bieten gezielt Reisen in weniger bekannte Gegenden an. Die
+Besucher schätzen dort die Ruhe, niedrigere Preise und den Kontakt zur
+einheimischen Bevölkerung.
+
+4
+In Hamburg fahren immer mehr Busse mit Strom statt mit Diesel. Die
+Verkehrsbetriebe haben in den letzten Jahren hunderte alte Fahrzeuge durch
+moderne Elektrobusse ersetzt. Diese sind nicht nur leiser, sondern stoßen
+auch keine Abgase aus. Bis zum Ende des Jahrzehnts soll die gesamte Flotte
+elektrisch fahren. Die Fahrgäste loben vor allem die ruhige Fahrt, und auch
+die Anwohner an den Buslinien freuen sich über weniger Lärm.
+
+5
+Um junge Menschen zum Bahnfahren zu bewegen, hat ein Bahnunternehmen ein
+neues Sparangebot eingeführt. Reisende unter 27 Jahren zahlen für viele
+Strecken nur noch die Hälfte des normalen Preises. Das Angebot gilt das
+ganze Jahr über und kann ohne lange Vorausbuchung genutzt werden. Besonders
+Studierende, die häufig zwischen Heimat- und Studienort pendeln, profitieren
+davon. In den ersten Monaten wurde das Angebot bereits zehntausendfach
+genutzt.
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL
+===========================================================================
+1 -> a   (Nachtzüge werden wieder beliebter)
+2 -> e   (Radfahren in der Stadt wird sicherer)
+3 -> c   (Touristen meiden überfüllte Städte)
+4 -> j   (Elektrobusse erobern den Nahverkehr)
+5 -> f   (Bahn senkt Preise für junge Reisende)
+
+Übrige (Çeldirici) Überschriften: b, d, g, h, i
+
+KISA AÇIKLAMA:
+- 1: Gece trenlerinin yeniden popülerleşmesi -> a.
+- 2: Şehirde bisikletin daha güvenli olması -> e.
+- 3: Turistlerin kalabalık şehirlerden kaçınması -> c.
+- 4: Elektrikli otobüslerin yaygınlaşması -> j.
+- 5: Trende gençlere indirim -> f.

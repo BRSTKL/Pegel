@@ -1,0 +1,86 @@
+===========================================================================
+TELC B2 - LESEVERSTEHEN TEIL 1 | ÜBUNG 4: BILDUNG & SCHULE
+===========================================================================
+
+Ordnen Sie den Texten (1-5) die passenden Überschriften (a-j) zu.
+Achtung: Fünf Überschriften bleiben übrig.
+
+---------------------------------------------------------------------------
+ÜBERSCHRIFTEN
+---------------------------------------------------------------------------
+a   Mehr Studierende wählen ein Auslandssemester
+b   Universität führt Prüfungen am Computer ein
+c   Lehrermangel wird immer größer
+d   Kinder lernen früh eine zweite Sprache
+e   Schule beginnt später am Morgen
+f   Bibliotheken öffnen länger für Studierende
+g   Praktika helfen bei der Berufswahl
+h   Schüler tauschen Bücher kostenlos
+i   Online-Unterricht bleibt unbeliebt
+j   Späterer Schulbeginn verbessert die Leistungen
+
+---------------------------------------------------------------------------
+TEXTE
+---------------------------------------------------------------------------
+1
+Ein Gymnasium in Münster hat ein Experiment gewagt: Der Unterricht beginnt
+dort nicht mehr um 8 Uhr, sondern erst um 9 Uhr. Der Grund ist, dass viele
+Jugendliche morgens noch sehr müde sind. Nach einem Jahr zogen die Lehrer
+eine positive Bilanz. Die Schülerinnen und Schüler waren wacher, beteiligten
+sich mehr am Unterricht und schrieben bessere Noten. Andere Schulen in der
+Region überlegen nun, das Modell ebenfalls auszuprobieren.
+
+2
+Immer mehr junge Menschen in Deutschland entscheiden sich dafür, einen Teil
+ihres Studiums im Ausland zu verbringen. Beliebte Ziele sind Spanien,
+Frankreich und die skandinavischen Länder. Die Studierenden möchten dort
+nicht nur eine Fremdsprache verbessern, sondern auch neue Kulturen
+kennenlernen. Hochschulen unterstützen diesen Wunsch mit speziellen
+Programmen und Stipendien. Die Zahl der Bewerbungen für ein Auslandssemester
+ist im vergangenen Jahr stark gestiegen.
+
+3
+An vielen Schulen fehlen Lehrkräfte. Besonders in den Fächern Mathematik,
+Physik und Informatik finden die Schulen nur schwer geeignetes Personal.
+Dadurch fallen häufiger Stunden aus, oder Klassen werden zusammengelegt. Die
+Politik versucht, mehr junge Menschen für den Beruf zu begeistern, zum
+Beispiel durch bessere Bezahlung. Trotzdem bleibt die Lage in vielen
+Bundesländern angespannt, und Experten erwarten in den nächsten Jahren keine
+schnelle Besserung.
+
+4
+In einem Kindergarten in Aachen lernen schon die Kleinsten spielerisch eine
+zweite Sprache. An mehreren Tagen pro Woche spricht eine Erzieherin nur
+Französisch mit den Kindern. Die Mädchen und Jungen singen Lieder, hören
+Geschichten und lernen erste Wörter, ohne es als Arbeit zu empfinden. Die
+Eltern sind begeistert, denn ihre Kinder verlieren früh die Angst vor
+fremden Sprachen. Studien zeigen, dass Kinder Sprachen besonders leicht
+aufnehmen.
+
+5
+Damit Studierende sich besser auf ihre Prüfungen vorbereiten können, hat die
+Universität Jena die Öffnungszeiten ihrer Bibliotheken verlängert. Vor allem
+in der Prüfungszeit sind die Lesesäle nun bis Mitternacht geöffnet, an
+Wochenenden sogar rund um die Uhr. Viele Studierende begrüßen die Änderung,
+weil sie so flexibler lernen können. Die Universität reagierte damit auf
+zahlreiche Wünsche der Studierenden, die sich mehr ruhige Lernplätze
+gewünscht hatten.
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL
+===========================================================================
+1 -> j   (Späterer Schulbeginn verbessert die Leistungen)
+2 -> a   (Mehr Studierende wählen ein Auslandssemester)
+3 -> c   (Lehrermangel wird immer größer)
+4 -> d   (Kinder lernen früh eine zweite Sprache)
+5 -> f   (Bibliotheken öffnen länger für Studierende)
+
+Übrige (Çeldirici) Überschriften: b, e, g, h, i
+
+KISA AÇIKLAMA:
+- 1: Geç başlamanın notları iyileştirmesi -> j. (e "okul daha geç başlıyor"
+  çeldirici ama vurgu sonuç/başarı.)
+- 2: Daha çok öğrencinin yurt dışı dönemi seçmesi -> a.
+- 3: Artan öğretmen eksikliği -> c.
+- 4: Çocukların erken ikinci dil öğrenmesi -> d.
+- 5: Kütüphanelerin daha uzun açık olması -> f.

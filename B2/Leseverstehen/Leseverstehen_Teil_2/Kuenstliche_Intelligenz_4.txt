@@ -1,0 +1,126 @@
+===========================================================================
+TELC B2 - LESEVERSTEHEN TEIL 2 | ÜBUNG 4
+===========================================================================
+
+Lesen Sie den Text und lösen Sie die Aufgaben 6-10.
+Wählen Sie bei jeder Aufgabe die richtige Lösung (a, b oder c).
+
+---------------------------------------------------------------------------
+Thema: Künstliche Intelligenz im Alltag – Hilfe oder Risiko?
+---------------------------------------------------------------------------
+
+Ob bei der Internetsuche, bei Übersetzungen oder bei der Empfehlung von
+Filmen: Künstliche Intelligenz, kurz KI, ist längst Teil unseres Alltags
+geworden, oft ohne dass wir es bemerken. In den letzten Jahren haben
+besonders Programme, die Texte schreiben oder Bilder erzeugen können, für
+großes Aufsehen gesorgt. Die einen sehen darin eine technische Revolution,
+die anderen blicken mit Sorge in die Zukunft.
+
+Eine Befragung zeigt, dass die Mehrheit der Deutschen KI gegenüber sowohl
+neugierig als auch skeptisch eingestellt ist. Viele nutzen entsprechende
+Programme bereits regelmäßig, etwa um schneller Informationen zu finden oder
+Texte zu verbessern. Gleichzeitig machen sich viele Sorgen um den Datenschutz
+und fürchten, dass Maschinen in Zukunft menschliche Arbeitsplätze überflüssig
+machen könnten.
+
+Die 37-jährige Grafikdesignerin Melanie Vogt aus Bremen nutzt KI-Programme
+inzwischen täglich für ihre Arbeit. „Ich lasse mir erste Entwürfe und Ideen
+von der Software erstellen und arbeite dann selbst weiter“, erklärt sie. „Das
+spart mir viel Zeit bei Routineaufgaben.“ Trotzdem ist sie überzeugt, dass
+ihr Beruf nicht verschwinden wird: „Die KI liefert mir Vorschläge, aber die
+endgültige kreative Entscheidung treffe immer noch ich. Geschmack und Gefühl
+kann eine Maschine nicht ersetzen.“
+
+Der Informatiklehrer Daniel Krause (45) beobachtet die Entwicklung an seiner
+Schule mit gemischten Gefühlen. „Einige Schüler lassen ihre Hausaufgaben
+komplett von einem Programm schreiben und lernen dabei selbst nichts“, klagt
+er. Andererseits sieht er auch Chancen: „Wenn man KI richtig einsetzt, kann
+sie beim Lernen helfen, etwa indem sie schwierige Themen einfach erklärt.“ Er
+fordert, dass Schulen den Schülern beibringen, verantwortungsvoll mit den
+neuen Werkzeugen umzugehen.
+
+Die Technikethikerin Prof. Dr. Sabine Roth mahnt zur Vorsicht, ohne in Panik
+zu verfallen. „KI ist ein Werkzeug, weder gut noch böse. Es kommt darauf an,
+wie wir es nutzen“, sagt sie. Sie warnt allerdings davor, sich blind auf die
+Ergebnisse zu verlassen: „Diese Programme machen Fehler und erfinden manchmal
+Informationen, die völlig falsch sind.“ Deshalb sei es wichtiger denn je,
+das eigene kritische Denken nicht zu verlernen und Ergebnisse zu überprüfen.
+
+Wer KI-Programme nutzen möchte, sollte sich laut Fachleuten bewusst machen,
+dass sie nur Hilfsmittel sind. Man sollte die gelieferten Ergebnisse stets
+hinterfragen und keine sensiblen persönlichen Daten eingeben. Wer diese
+Regeln beachtet, kann von der Technik profitieren, ohne ihr blind zu
+vertrauen.
+
+---------------------------------------------------------------------------
+AUFGABEN
+---------------------------------------------------------------------------
+
+6
+Was zeigt die Befragung über die Einstellung der Deutschen zur KI?
+
+a
+Dass fast niemand in Deutschland jemals ein KI-Programm benutzt hat.
+b
+Dass die Mehrheit sowohl neugierig als auch skeptisch eingestellt ist.
+c
+Dass alle Deutschen KI ohne jede Sorge begeistert nutzen.
+
+7
+Warum glaubt Melanie Vogt, dass ihr Beruf nicht verschwinden wird?
+
+a
+Weil KI-Programme in ihrem Bereich grundsätzlich nicht eingesetzt werden
+können.
+b
+Weil die endgültige kreative Entscheidung weiterhin bei ihr liegt und eine
+Maschine Geschmack nicht ersetzen kann.
+c
+Weil sie KI ablehnt und sie niemals für ihre Arbeit verwendet.
+
+8
+Welche Sorge äußert der Informatiklehrer Daniel Krause?
+
+a
+Dass einige Schüler ihre Hausaufgaben komplett von einem Programm schreiben
+lassen und dabei nichts lernen.
+b
+Dass KI an Schulen grundsätzlich verboten werden sollte.
+c
+Dass die Schüler die neuen Programme überhaupt nicht benutzen wollen.
+
+9
+Wovor warnt die Technikethikerin Prof. Dr. Sabine Roth?
+
+a
+Davor, KI als reines Werkzeug zu betrachten.
+b
+Davor, sich blind auf die Ergebnisse zu verlassen, da die Programme Fehler
+machen.
+c
+Davor, überhaupt noch kritisch zu denken.
+
+10
+Welchen Rat geben Fachleute Menschen, die KI-Programme nutzen möchten?
+
+a
+Sie sollten den Programmen vollständig vertrauen und alles übernehmen.
+b
+Sie sollten möglichst viele persönliche Daten eingeben.
+c
+Sie sollten die Ergebnisse stets hinterfragen und keine sensiblen Daten
+eingeben.
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL / CEVAP ANAHTARI
+===========================================================================
+6: b  ("...die Mehrheit der Deutschen KI gegenüber sowohl neugierig als auch
+       skeptisch eingestellt ist.")
+7: b  ("...die endgültige kreative Entscheidung treffe immer noch ich.
+       Geschmack und Gefühl kann eine Maschine nicht ersetzen.")
+8: a  ("Einige Schüler lassen ihre Hausaufgaben komplett von einem Programm
+       schreiben und lernen dabei selbst nichts.")
+9: b  ("Sie warnt allerdings davor, sich blind auf die Ergebnisse zu
+       verlassen... machen Fehler...")
+10: c ("...die gelieferten Ergebnisse stets hinterfragen und keine sensiblen
+       persönlichen Daten eingeben.")

@@ -1,0 +1,85 @@
+===========================================================================
+TELC B2 - LESEVERSTEHEN TEIL 1 | ÜBUNG 12: GESELLSCHAFT & SOZIALES
+===========================================================================
+
+Ordnen Sie den Texten (1-5) die passenden Überschriften (a-j) zu.
+Achtung: Fünf Überschriften bleiben übrig.
+
+---------------------------------------------------------------------------
+ÜBERSCHRIFTEN
+---------------------------------------------------------------------------
+a   Ehrenamt wird bei jungen Leuten beliebter
+b   Nachbarn helfen sich gegenseitig
+c   Immer mehr Menschen leben allein
+d   Sprachkurse erleichtern das Ankommen
+e   Freiwillige unterstützen geflüchtete Familien
+f   Vereine suchen dringend neue Mitglieder
+g   Großeltern betreuen häufig die Enkel
+h   App vernetzt hilfsbereite Menschen
+i   Spenden für die Tafel nehmen zu
+j   Senioren engagieren sich für die Gemeinschaft
+
+---------------------------------------------------------------------------
+TEXTE
+---------------------------------------------------------------------------
+1
+Eine neue Smartphone-Anwendung bringt Menschen zusammen, die Hilfe brauchen,
+und solche, die helfen möchten. Wer zum Beispiel beim Einkaufen, beim
+Transport eines Möbelstücks oder bei kleinen Reparaturen Unterstützung
+benötigt, kann eine Anfrage stellen. Andere Nutzer aus der Nähe können dann
+reagieren. Die App ist kostenlos und wird besonders in größeren Städten gut
+angenommen. Die Entwickler wollten damit das Miteinander in der Nachbarschaft
+stärken.
+
+2
+In einer Kleinstadt in Sachsen helfen zahlreiche Freiwillige dabei, dass sich
+neu angekommene Familien aus dem Ausland schnell zurechtfinden. Sie begleiten
+sie zu Behörden, üben gemeinsam die deutsche Sprache und zeigen ihnen die
+Stadt. Auch bei der Suche nach einer Wohnung oder einem Kindergartenplatz
+stehen sie zur Seite. Die Geflüchteten sind dankbar für die Unterstützung,
+und auch die Helfer berichten, dass sie durch die Begegnungen viel lernen.
+
+3
+Immer mehr Menschen in Deutschland wohnen allein. Das zeigt eine aktuelle
+Statistik. In den großen Städten ist inzwischen fast jeder zweite Haushalt
+ein Einpersonenhaushalt. Die Gründe sind vielfältig: Manche leben aus
+Überzeugung allein, andere durch Trennung oder weil der Partner verstorben
+ist. Fachleute weisen darauf hin, dass dadurch das Risiko von Einsamkeit
+steigt, und fordern mehr Angebote, die Menschen zusammenbringen.
+
+4
+Viele ältere Menschen möchten auch nach der Rente aktiv bleiben und etwas
+Sinnvolles tun. In einer Stadt im Norden engagieren sich zahlreiche Senioren
+ehrenamtlich: Sie lesen Kindern in der Bücherei vor, helfen in der
+Hausaufgabenbetreuung oder pflegen öffentliche Grünflächen. Für die
+Seniorinnen und Senioren ist das eine Möglichkeit, gebraucht zu werden und
+neue Kontakte zu knüpfen. Die Stadt schätzt ihren Einsatz sehr und ehrt die
+Freiwilligen einmal im Jahr.
+
+5
+Die Tafeln verteilen Lebensmittel an Menschen, die wenig Geld haben. In
+letzter Zeit haben die Spenden an viele Tafeln zugenommen. Supermärkte,
+Bäckereien und auch Privatpersonen geben vermehrt Lebensmittel ab, die sonst
+weggeworfen würden. Das ist wichtig, denn gleichzeitig kommen immer mehr
+Menschen, die auf diese Hilfe angewiesen sind. Die ehrenamtlichen
+Mitarbeiter freuen sich über jede Unterstützung, denn der Bedarf ist groß.
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL
+===========================================================================
+1 -> h   (App vernetzt hilfsbereite Menschen)
+2 -> e   (Freiwillige unterstützen geflüchtete Familien)
+3 -> c   (Immer mehr Menschen leben allein)
+4 -> j   (Senioren engagieren sich für die Gemeinschaft)
+5 -> i   (Spenden für die Tafel nehmen zu)
+
+Übrige (Çeldirici) Überschriften: a, b, d, f, g
+
+KISA AÇIKLAMA:
+- 1: Yardımsever insanları buluşturan uygulama -> h. (b "komşular yardımlaşıyor"
+  çeldirici ama vurgu uygulama/App.)
+- 2: Gönüllülerin mülteci ailelere desteği -> e. (d "dil kursları" çeldirici ama
+  metin geneli gönüllü desteği.)
+- 3: Giderek daha çok insanın yalnız yaşaması -> c.
+- 4: Yaşlıların toplum için gönüllü olması -> j.
+- 5: Tafel'e bağışların artması -> i.

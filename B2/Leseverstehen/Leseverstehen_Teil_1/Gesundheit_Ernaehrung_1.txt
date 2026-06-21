@@ -1,0 +1,85 @@
+===========================================================================
+TELC B2 - LESEVERSTEHEN TEIL 1 | ÜBUNG 1: GESUNDHEIT & ERNÄHRUNG
+===========================================================================
+
+Ordnen Sie den Texten (1-5) die passenden Überschriften (a-j) zu.
+Achtung: Fünf Überschriften bleiben übrig.
+
+---------------------------------------------------------------------------
+ÜBERSCHRIFTEN
+---------------------------------------------------------------------------
+a   Schlafmangel macht Jugendliche krank
+b   Neue App zählt Kalorien automatisch
+c   Trinkwasser in Städten oft zu teuer
+d   Mehr Gemüse durch kostenlose Schulkurse
+e   Ärzte warnen vor zu wenig Schlaf
+f   Restaurant verschenkt übrig gebliebenes Essen
+g   Kinder kochen lieber selbst
+h   Lebensmittel landen viel zu oft im Müll
+i   Bewegung in der Pause hilft beim Lernen
+j   Vegetarisches Essen wird in Kantinen beliebter
+
+---------------------------------------------------------------------------
+TEXTE
+---------------------------------------------------------------------------
+1
+Eine neue Untersuchung der Universität Hamburg zeigt, dass viele Jugendliche
+deutlich zu wenig schlafen. Befragt wurden 1.800 Schülerinnen und Schüler
+zwischen 13 und 18 Jahren. Fast die Hälfte gab an, unter der Woche weniger
+als sieben Stunden zu schlafen. Mediziner betonen, dass Heranwachsende
+eigentlich neun Stunden Schlaf benötigen. Wer dauerhaft zu kurz schläft,
+hat häufiger Konzentrationsprobleme und ist anfälliger für Krankheiten.
+
+2
+In einer Grundschule in Freiburg gibt es seit diesem Jahr ein besonderes
+Angebot: Einmal pro Woche dürfen die Kinder in der Schulküche gemeinsam
+gesunde Gerichte zubereiten. Die Kurse sind für die Familien kostenlos und
+werden von der Stadt bezahlt. Die Lehrerinnen berichten, dass die Kinder
+seitdem viel mehr Gemüse essen und sogar zu Hause neue Rezepte ausprobieren.
+Die Nachfrage ist so groß, dass weitere Schulen mitmachen wollen.
+
+3
+Viele Restaurants und Supermärkte werfen jeden Tag große Mengen an
+Lebensmitteln weg, obwohl diese noch gut sind. Eine Initiative in München
+will das ändern. Über eine Internetplattform können Betriebe ihre Reste
+günstig anbieten, bevor sie im Müll landen. Studien zeigen, dass in
+Deutschland pro Jahr Millionen Tonnen Essen verschwendet werden. Die
+Organisatoren hoffen, dass immer mehr Geschäfte mitmachen und so weniger
+weggeworfen wird.
+
+4
+KÖLN. In den Kantinen vieler Unternehmen verändert sich das Angebot. Immer
+mehr Beschäftigte wählen mittags fleischlose Gerichte. Eine Betreiberfirma
+berichtet, dass der Anteil vegetarischer Mahlzeiten in nur zwei Jahren von
+20 auf über 40 Prozent gestiegen ist. Als Gründe nennen die Gäste sowohl
+die Gesundheit als auch den Umweltschutz. Einige Kantinen bieten inzwischen
+sogar mehr vegetarische als fleischhaltige Speisen an.
+
+5
+Eine Schule in Leipzig hat ein neues Konzept eingeführt: In den großen
+Pausen machen alle Klassen gemeinsam kurze Bewegungsübungen auf dem Schulhof.
+Die Idee stammt von einer Sportlehrerin. Nach einigen Monaten zeigte sich,
+dass die Schülerinnen und Schüler danach aufmerksamer im Unterricht waren.
+Auch die Zahl der Streitereien ging zurück. Die Schulleitung möchte das
+Programm deshalb dauerhaft beibehalten.
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL
+===========================================================================
+1 -> e   (Ärzte warnen vor zu wenig Schlaf)
+2 -> d   (Mehr Gemüse durch kostenlose Schulkurse)
+3 -> h   (Lebensmittel landen viel zu oft im Müll)
+4 -> j   (Vegetarisches Essen wird in Kantinen beliebter)
+5 -> i   (Bewegung in der Pause hilft beim Lernen)
+
+Übrige (Çeldirici) Überschriften: a, b, c, f, g
+
+KISA AÇIKLAMA:
+- 1: Metin gençlerin az uyumasına ve doktor uyarısına odaklanır -> e. (a "krank
+  macht" çeldirici ama vurgu doktor uyarısı.)
+- 2: Ücretsiz okul kurslarıyla daha çok sebze -> d. (g "kendi pişirmek"
+  çeldirici.)
+- 3: Yiyeceklerin çöpe atılması sorunu -> h. (f "artan yemeği bağışlamak"
+  çeldirici, ama metin israfı vurgular.)
+- 4: Kantinlerde vejetaryen yemeğin popülerleşmesi -> j.
+- 5: Teneffüste hareketin öğrenmeye yardımı -> i.

@@ -1,0 +1,83 @@
+===========================================================================
+TELC B2 - LESEVERSTEHEN TEIL 1 | ÜBUNG 7: KULTUR & FREIZEIT
+===========================================================================
+
+Ordnen Sie den Texten (1-5) die passenden Überschriften (a-j) zu.
+Achtung: Fünf Überschriften bleiben übrig.
+
+---------------------------------------------------------------------------
+ÜBERSCHRIFTEN
+---------------------------------------------------------------------------
+a   Stadtbücherei verleiht jetzt auch Werkzeug
+b   Museum senkt Eintritt für Familien
+c   Kinos verlieren immer mehr Zuschauer
+d   Altes Theater wird zum Kulturzentrum
+e   Junge Menschen lesen wieder mehr Bücher
+f   Freier Eintritt lockt neue Besucher
+g   Musikfestival findet ohne Plastik statt
+h   Hörbücher werden immer beliebter
+i   Straßenkünstler beleben die Innenstadt
+j   Konzert im Park begeistert tausende Gäste
+
+---------------------------------------------------------------------------
+TEXTE
+---------------------------------------------------------------------------
+1
+Die Stadtbücherei in Erfurt bietet ihren Mitgliedern seit Kurzem etwas
+Ungewöhnliches an: Neben Büchern kann man dort nun auch Werkzeuge ausleihen.
+Wer eine Bohrmaschine, eine Leiter oder Gartengeräte braucht, muss diese
+nicht mehr teuer kaufen. Die Idee kommt bei den Bürgern gut an, denn so
+sparen sie Geld und Platz. Besonders Menschen, die nur selten ein bestimmtes
+Gerät benötigen, nutzen das neue Angebot gern.
+
+2
+Ein Kunstmuseum in Düsseldorf hat beschlossen, an jedem ersten Sonntag im
+Monat keinen Eintritt zu verlangen. Seitdem kommen deutlich mehr Menschen,
+darunter viele, die vorher noch nie ein Museum besucht hatten. Besonders
+junge Leute und Familien nutzen die Gelegenheit. Die Leitung des Museums ist
+zufrieden, denn das Ziel war es, Kunst für alle zugänglich zu machen. Die
+Besucherzahlen haben sich an diesen Tagen mehr als verdoppelt.
+
+3
+In einer kleinen Stadt in Thüringen stand ein altes Theatergebäude lange
+leer. Nun wurde es aufwendig renoviert und in ein modernes Kulturzentrum
+verwandelt. Dort finden jetzt Konzerte, Lesungen, Ausstellungen und Kurse
+statt. Auch Vereine können die Räume nutzen. Die Bewohner sind froh, dass das
+schöne Gebäude wieder mit Leben gefüllt ist. Schon in den ersten Wochen
+waren viele Veranstaltungen ausverkauft.
+
+4
+Ein bekanntes Musikfestival in Norddeutschland hat in diesem Jahr komplett
+auf Plastik verzichtet. Statt Einwegbechern gab es Mehrweggeschirr, und
+überall standen Stationen zum Mülltrennen. Die Veranstalter wollten zeigen,
+dass auch große Feste umweltfreundlich sein können. Am Ende blieb deutlich
+weniger Abfall übrig als in den Vorjahren. Viele Besucher lobten die Aktion
+und hoffen, dass andere Festivals dem Beispiel folgen.
+
+5
+Bei einem kostenlosen Open-Air-Konzert in einem Stadtpark in Leipzig kamen
+am Wochenende mehrere tausend Menschen zusammen. Verschiedene Bands spielten
+von nachmittags bis spät in den Abend. Die Stimmung war ausgelassen, und
+viele Familien hatten Decken und Picknickkörbe mitgebracht. Die Stadt
+organisiert das Konzert jedes Jahr im Sommer. Wegen des großen Erfolgs
+denken die Veranstalter darüber nach, es künftig an zwei Tagen stattfinden
+zu lassen.
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL
+===========================================================================
+1 -> a   (Stadtbücherei verleiht jetzt auch Werkzeug)
+2 -> f   (Freier Eintritt lockt neue Besucher)
+3 -> d   (Altes Theater wird zum Kulturzentrum)
+4 -> g   (Musikfestival findet ohne Plastik statt)
+5 -> j   (Konzert im Park begeistert tausende Gäste)
+
+Übrige (Çeldirici) Überschriften: b, c, e, h, i
+
+KISA AÇIKLAMA:
+- 1: Kütüphanenin alet ödünç vermesi -> a.
+- 2: Ücretsiz girişin yeni ziyaretçi çekmesi -> f. (b "aile indirimi" çeldirici
+  ama metin "ücretsiz/freier Eintritt" diyor.)
+- 3: Eski tiyatronun kültür merkezine dönüşmesi -> d.
+- 4: Festivalin plastiksiz olması -> g.
+- 5: Parktaki konserin binlerce kişiyi coşturması -> j.

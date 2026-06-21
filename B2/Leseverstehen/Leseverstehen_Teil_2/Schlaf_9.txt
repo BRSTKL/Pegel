@@ -1,0 +1,122 @@
+===========================================================================
+TELC B2 - LESEVERSTEHEN TEIL 2 | ÜBUNG 9
+===========================================================================
+
+Lesen Sie den Text und lösen Sie die Aufgaben 6-10.
+Wählen Sie bei jeder Aufgabe die richtige Lösung (a, b oder c).
+
+---------------------------------------------------------------------------
+Thema: Guter Schlaf – Das unterschätzte Geheimnis der Gesundheit
+---------------------------------------------------------------------------
+
+Wir verbringen rund ein Drittel unseres Lebens schlafend. Trotzdem behandeln
+viele Menschen den Schlaf als lästige Nebensache, die man notfalls verkürzen
+kann, um mehr Zeit für Arbeit oder Freizeit zu haben. Die Forschung zeigt
+jedoch immer deutlicher: Guter Schlaf ist eine der wichtigsten Grundlagen für
+Gesundheit, Konzentration und gute Laune.
+
+Eine Studie macht deutlich, dass ein großer Teil der Erwachsenen regelmäßig
+zu wenig schläft. Die Folgen werden oft unterschätzt. Wer dauerhaft schlecht
+schläft, ist nicht nur müde und unkonzentriert, sondern hat langfristig auch
+ein höheres Risiko für ernste Krankheiten. Während des Schlafs erholt sich
+der Körper, das Gehirn verarbeitet Erlebtes und das Immunsystem wird gestärkt.
+Schlaf ist also keine verlorene Zeit, sondern aktive Erholung.
+
+Der 34-jährige IT-Berater Jan Köhler aus Frankfurt litt lange unter
+Schlafproblemen. „Ich habe abends oft bis spät am Computer gearbeitet und
+danach noch eine Weile auf das Handy geschaut“, erzählt er. Tagsüber sei er
+dann erschöpft und gereizt gewesen. Auf Anraten seines Arztes änderte er
+seine Gewohnheiten. „Ich lasse das Handy jetzt aus dem Schlafzimmer und gehe
+zu festen Zeiten ins Bett. Es hat ein paar Wochen gedauert, aber heute
+schlafe ich viel besser und fühle mich tagsüber wesentlich wohler.“
+
+Der Schlafmediziner Dr. Peter Lang warnt vor allem vor dem Licht der
+Bildschirme am Abend. „Das blaue Licht von Handys und Computern signalisiert
+dem Gehirn, dass es noch Tag ist, und stört die Produktion des
+Schlafhormons“, erklärt er. Auch Koffein am Nachmittag und unregelmäßige
+Schlafenszeiten seien häufige Ursachen für Probleme. Von Schlafmitteln rät er
+jedoch ab, solange keine ernste Erkrankung vorliegt: „Sie bekämpfen nur die
+Symptome, nicht die Ursache.“
+
+Die Psychologin Dr. Sina Wagner betont, dass auch der Druck, gut schlafen zu
+müssen, kontraproduktiv sein kann. „Manche Menschen liegen abends wach und
+ärgern sich, dass sie nicht einschlafen. Diese Anspannung macht alles noch
+schlimmer“, sagt sie. Wichtiger als die perfekte Zahl an Stunden sei das
+Gefühl, am Morgen erholt zu sein. Sie rät zu mehr Gelassenheit im Umgang mit
+gelegentlichen schlechten Nächten.
+
+Wer besser schlafen möchte, sollte laut Fachleuten auf eine ruhige,
+abgedunkelte Umgebung und feste Schlafenszeiten achten. Hilfreich seien auch
+feste Abendrituale, etwa Lesen oder ruhige Musik, und der Verzicht auf
+Bildschirme kurz vor dem Zubettgehen. Schon kleine Veränderungen könnten die
+Schlafqualität deutlich verbessern.
+
+---------------------------------------------------------------------------
+AUFGABEN
+---------------------------------------------------------------------------
+
+6
+Was macht die Studie über den Schlaf deutlich?
+
+a
+Dass die meisten Erwachsenen viel zu lange schlafen.
+b
+Dass ein großer Teil der Erwachsenen regelmäßig zu wenig schläft und die
+Folgen oft unterschätzt werden.
+c
+Dass Schlaf für die Gesundheit kaum eine Rolle spielt.
+
+7
+Wie hat Jan Köhler seine Schlafprobleme verbessert?
+
+a
+Indem er abends noch länger am Computer arbeitete.
+b
+Indem er das Handy aus dem Schlafzimmer ließ und zu festen Zeiten ins Bett
+ging.
+c
+Indem er tagsüber mehr Kaffee trank.
+
+8
+Wovor warnt der Schlafmediziner Dr. Peter Lang besonders?
+
+a
+Vor dem blauen Licht der Bildschirme am Abend.
+b
+Vor zu frühem Zubettgehen.
+c
+Vor ruhiger Musik vor dem Schlafen.
+
+9
+Was betont die Psychologin Dr. Sina Wagner?
+
+a
+Dass man unbedingt eine bestimmte Stundenzahl erreichen muss.
+b
+Dass der Druck, gut schlafen zu müssen, kontraproduktiv sein kann.
+c
+Dass schlechte Nächte immer ein Zeichen für eine ernste Krankheit sind.
+
+10
+Welchen Rat geben Fachleute Menschen, die besser schlafen möchten?
+
+a
+Sie sollten kurz vor dem Schlafen möglichst lange auf Bildschirme schauen.
+b
+Sie sollten jeden Abend zu einer anderen Zeit ins Bett gehen.
+c
+Sie sollten auf eine ruhige, abgedunkelte Umgebung, feste Zeiten und
+Abendrituale achten.
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL / CEVAP ANAHTARI
+===========================================================================
+6: b  ("...ein großer Teil der Erwachsenen regelmäßig zu wenig schläft. Die
+       Folgen werden oft unterschätzt.")
+7: b  ("Ich lasse das Handy jetzt aus dem Schlafzimmer und gehe zu festen
+       Zeiten ins Bett.")
+8: a  ("...warnt vor allem vor dem Licht der Bildschirme am Abend. Das blaue
+       Licht...")
+9: b  ("...auch der Druck, gut schlafen zu müssen, kontraproduktiv sein kann.")
+10: c ("...auf eine ruhige, abgedunkelte Umgebung und feste Schlafenszeiten
+       achten... feste Abendrituale...")

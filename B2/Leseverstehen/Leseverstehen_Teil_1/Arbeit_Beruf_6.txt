@@ -1,0 +1,85 @@
+===========================================================================
+TELC B2 - LESEVERSTEHEN TEIL 1 | ÜBUNG 6: ARBEIT & BERUF
+===========================================================================
+
+Ordnen Sie den Texten (1-5) die passenden Überschriften (a-j) zu.
+Achtung: Fünf Überschriften bleiben übrig.
+
+---------------------------------------------------------------------------
+ÜBERSCHRIFTEN
+---------------------------------------------------------------------------
+a   Vier-Tage-Woche wird erfolgreich getestet
+b   Homeoffice macht viele Menschen einsam
+c   Mehr Frauen in technischen Berufen
+d   Pausen steigern die Produktivität
+e   Unternehmen suchen dringend Fachkräfte
+f   Junge Leute gründen häufiger eigene Firmen
+g   Bewerbungen laufen jetzt über Video
+h   Weniger Arbeitstage, gleiche Bezahlung
+i   Arbeiten im Freien wird beliebter
+j   Quereinsteiger sind sehr gefragt
+
+---------------------------------------------------------------------------
+TEXTE
+---------------------------------------------------------------------------
+1
+Ein mittelständisches Unternehmen aus Bielefeld hat ein Jahr lang ein
+besonderes Modell ausprobiert: Die Beschäftigten arbeiteten nur noch an vier
+Tagen pro Woche, erhielten aber weiterhin das volle Gehalt. Das Ergebnis
+überraschte viele. Die Mitarbeiterinnen und Mitarbeiter waren zufriedener,
+seltener krank und arbeiteten an den vier Tagen sogar konzentrierter. Die
+Geschäftsführung möchte das Modell deshalb dauerhaft beibehalten. Andere
+Firmen haben bereits Interesse gezeigt.
+
+2
+In Deutschland fehlen in vielen Branchen qualifizierte Mitarbeiter. Besonders
+im Handwerk, in der Pflege und in technischen Berufen bleiben Stellen oft
+monatelang unbesetzt. Die Unternehmen klagen, dass sie kaum geeignete
+Bewerber finden. Manche Betriebe bieten höhere Löhne oder zusätzliche
+Leistungen an, um Personal zu gewinnen. Fachleute betonen, dass auch
+Zuwanderung und bessere Ausbildung nötig seien, um den Mangel langfristig zu
+verringern.
+
+3
+Immer mehr Menschen wechseln ihren Beruf, ohne dafür eine klassische
+Ausbildung gemacht zu haben. Diese sogenannten Quereinsteiger bringen oft
+wertvolle Erfahrungen aus anderen Bereichen mit. In Branchen wie der IT oder
+der Pflege werden sie inzwischen gern eingestellt. Viele Unternehmen bieten
+spezielle Schulungen an, damit die neuen Mitarbeiter schnell eingearbeitet
+werden. Für die Betriebe ist das eine gute Möglichkeit, offene Stellen zu
+besetzen.
+
+4
+Früher schickte man eine Bewerbung per Post, heute läuft vieles digital. Bei
+immer mehr Firmen findet das erste Gespräch per Videoschaltung statt.
+Bewerberinnen und Bewerber müssen also nicht mehr quer durchs Land reisen,
+sondern können bequem von zu Hause aus teilnehmen. Das spart Zeit und Geld
+auf beiden Seiten. Personalverantwortliche betonen jedoch, dass auch bei
+einem Videogespräch ein gepflegtes Auftreten wichtig bleibt.
+
+5
+Eine Studie zeigt, dass kurze Pausen während der Arbeit die Leistung deutlich
+verbessern. Wer alle 90 Minuten eine kleine Unterbrechung einlegt, kann sich
+danach besser konzentrieren und macht weniger Fehler. Trotzdem trauen sich
+viele Beschäftigte nicht, regelmäßig Pausen zu machen, weil sie Angst haben,
+faul zu wirken. Arbeitspsychologen raten den Unternehmen, eine Kultur zu
+fördern, in der Erholung als selbstverständlich gilt.
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL
+===========================================================================
+1 -> h   (Weniger Arbeitstage, gleiche Bezahlung)
+2 -> e   (Unternehmen suchen dringend Fachkräfte)
+3 -> j   (Quereinsteiger sind sehr gefragt)
+4 -> g   (Bewerbungen laufen jetzt über Video)
+5 -> d   (Pausen steigern die Produktivität)
+
+Übrige (Çeldirici) Überschriften: a, b, c, f, i
+
+KISA AÇIKLAMA:
+- 1: Aynı maaş, daha az gün -> h. (a "dört gün haftası test ediliyor" çeldirici
+  ama vurgu "aynı maaş/tam ücret".)
+- 2: Firmaların acil eleman araması -> e.
+- 3: Quereinsteiger'lerin aranması -> j.
+- 4: Başvuruların video üzerinden olması -> g.
+- 5: Molaların verimi artırması -> d.

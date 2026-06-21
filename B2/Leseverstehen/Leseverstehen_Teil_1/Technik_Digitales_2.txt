@@ -1,0 +1,82 @@
+===========================================================================
+TELC B2 - LESEVERSTEHEN TEIL 1 | ÜBUNG 2: TECHNIK & DIGITALES
+===========================================================================
+
+Ordnen Sie den Texten (1-5) die passenden Überschriften (a-j) zu.
+Achtung: Fünf Überschriften bleiben übrig.
+
+---------------------------------------------------------------------------
+ÜBERSCHRIFTEN
+---------------------------------------------------------------------------
+a   Roboter ersetzen bald alle Kassierer
+b   Ältere Menschen lernen den Umgang mit dem Smartphone
+c   Online-Shopping wird immer teurer
+d   Schüler entwickeln eigene Wetter-App
+e   Zu viel Bildschirmzeit schadet den Augen
+f   Kostenlose Kurse für digitale Senioren
+g   Neue Software erkennt Pflanzenkrankheiten
+h   Computerspiele fördern das logische Denken
+i   Internet auf dem Land oft noch zu langsam
+j   Junge Menschen schauen weniger fern
+
+---------------------------------------------------------------------------
+TEXTE
+---------------------------------------------------------------------------
+1
+In einer Volkshochschule in Dortmund gibt es seit Kurzem spezielle Kurse für
+Menschen über 65 Jahre. Dort lernen die Teilnehmenden Schritt für Schritt,
+wie man ein Smartphone bedient, Nachrichten verschickt oder online einen
+Arzttermin vereinbart. Die Kurse sind gratis und sehr gut besucht. Viele
+ältere Teilnehmer berichten, dass sie sich danach sicherer im Alltag fühlen
+und leichter mit ihren Enkeln in Kontakt bleiben.
+
+2
+Eine Gruppe von Schülerinnen und Schülern aus Kassel hat im Informatik-
+unterricht eine eigene App programmiert. Die Anwendung zeigt nicht nur das
+Wetter, sondern warnt auch vor Unwettern in der eigenen Region. Die Idee kam
+den Jugendlichen, nachdem ein starker Sturm ihre Stadt getroffen hatte. Inzwischen
+haben mehrere tausend Menschen die kostenlose App heruntergeladen. Eine Jury
+zeichnete das Projekt mit einem Preis aus.
+
+3
+Ein Forschungsteam aus Stuttgart hat ein Computerprogramm entwickelt, das
+kranke Pflanzen erkennt. Landwirte fotografieren ein Blatt mit dem Handy,
+und die Software sagt innerhalb von Sekunden, ob die Pflanze von einer
+Krankheit befallen ist. So können Bauern schneller reagieren und müssen
+weniger Chemie einsetzen. Erste Tests auf mehreren Feldern verliefen
+erfolgreich. Das Programm soll bald in ganz Europa angeboten werden.
+
+4
+In vielen ländlichen Gebieten Deutschlands ist das Internet noch immer sehr
+langsam. Das zeigt ein aktueller Bericht. Während Menschen in Großstädten
+problemlos Filme streamen können, müssen Familien auf dem Land oft lange auf
+das Laden einfacher Seiten warten. Besonders für Personen im Homeoffice ist
+das ein großes Problem. Die Politik verspricht seit Jahren eine bessere
+Versorgung, doch der Ausbau geht nur langsam voran.
+
+5
+Eine Studie zum Medienverhalten zeigt eine deutliche Veränderung: Junge
+Menschen zwischen 16 und 25 Jahren sehen kaum noch klassisches Fernsehen.
+Stattdessen nutzen sie Videoplattformen im Internet, die sie jederzeit
+abrufen können. Nur noch jeder Zehnte in dieser Altersgruppe schaltet
+regelmäßig den Fernseher ein. Fernsehsender versuchen deshalb, mit eigenen
+Online-Angeboten auf diese Entwicklung zu reagieren.
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL
+===========================================================================
+1 -> f   (Kostenlose Kurse für digitale Senioren)
+2 -> d   (Schüler entwickeln eigene Wetter-App)
+3 -> g   (Neue Software erkennt Pflanzenkrankheiten)
+4 -> i   (Internet auf dem Land oft noch zu langsam)
+5 -> j   (Junge Menschen schauen weniger fern)
+
+Übrige (Çeldirici) Überschriften: a, b, c, e, h
+
+KISA AÇIKLAMA:
+- 1: Yaşlılar için ücretsiz dijital kurslar -> f. (b "öğreniyor" çeldirici ama
+  "kostenlos/Senioren" vurgusu f'e daha uygun.)
+- 2: Öğrencilerin hava durumu uygulaması -> d.
+- 3: Bitki hastalığı tanıyan yazılım -> g.
+- 4: Kırsalda yavaş internet -> i.
+- 5: Gençlerin daha az TV izlemesi -> j.

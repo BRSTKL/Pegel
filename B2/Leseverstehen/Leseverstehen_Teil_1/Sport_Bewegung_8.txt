@@ -1,0 +1,83 @@
+===========================================================================
+TELC B2 - LESEVERSTEHEN TEIL 1 | ÜBUNG 8: SPORT & BEWEGUNG
+===========================================================================
+
+Ordnen Sie den Texten (1-5) die passenden Überschriften (a-j) zu.
+Achtung: Fünf Überschriften bleiben übrig.
+
+---------------------------------------------------------------------------
+ÜBERSCHRIFTEN
+---------------------------------------------------------------------------
+a   Schwimmkurse für Kinder oft ausgebucht
+b   Laufen verbindet Menschen jeden Alters
+c   Neue Sporthalle für den ganzen Stadtteil
+d   Immer weniger Kinder können schwimmen
+e   Fitnessstudios werben um ältere Kunden
+f   Vereine kämpfen gegen Mitgliederschwund
+g   Yoga hilft gegen Stress im Alltag
+h   Stadt baut kostenlose Sportplätze
+i   Frauen entdecken den Fußball für sich
+j   Bewegung im Alter hält gesund
+
+---------------------------------------------------------------------------
+TEXTE
+---------------------------------------------------------------------------
+1
+Immer mehr Fitnessstudios richten ihr Angebot gezielt an ältere Menschen.
+Statt lauter Musik und schweren Gewichten gibt es dort ruhige Kurse,
+sanftes Krafttraining und persönliche Betreuung. Die Trainerinnen und
+Trainer sind speziell geschult, um auf die Bedürfnisse dieser Altersgruppe
+einzugehen. Viele Seniorinnen und Senioren schätzen außerdem den Kontakt zu
+Gleichaltrigen. Die Studios berichten, dass die Zahl der älteren Mitglieder
+in den letzten Jahren stark gewachsen ist.
+
+2
+In einer Stadt im Ruhrgebiet wurde eine große neue Sporthalle eröffnet. Sie
+steht nicht nur Vereinen, sondern allen Bewohnerinnen und Bewohnern des
+Stadtteils offen. Schulklassen trainieren dort am Vormittag, am Abend finden
+Kurse für Erwachsene statt, und am Wochenende kann jeder die Halle nutzen.
+Die Stadt investierte mehrere Millionen Euro in den Bau. Viele Menschen
+freuen sich, dass es nun einen modernen Ort für Bewegung in ihrer Nähe gibt.
+
+3
+Eine Untersuchung zeigt ein besorgniserregendes Ergebnis: Ein großer Teil
+der Grundschulkinder in Deutschland kann nicht richtig schwimmen. Als Gründe
+nennen Fachleute geschlossene Schwimmbäder und einen Mangel an Kursen. Viele
+Eltern wissen nicht, wo ihre Kinder das Schwimmen lernen können. Experten
+warnen vor den Gefahren und fordern mehr Angebote. Schwimmen sei eine
+wichtige Fähigkeit, die Leben retten könne, betonen sie.
+
+4
+Regelmäßige Bewegung ist gerade für ältere Menschen besonders wichtig. Das
+zeigt eine neue Studie. Wer auch im hohen Alter spazieren geht, Rad fährt
+oder leichte Gymnastik macht, bleibt länger gesund und selbstständig. Die
+Bewegung stärkt nicht nur die Muskeln, sondern auch das Gedächtnis und die
+Stimmung. Ärzte empfehlen schon kurze tägliche Einheiten. Wichtig sei vor
+allem, eine Aktivität zu finden, die Freude bereitet.
+
+5
+Ein Laufverein in Stuttgart bringt Menschen ganz unterschiedlichen Alters
+zusammen. Bei den wöchentlichen Treffen laufen Jugendliche neben Rentnern,
+Anfänger neben erfahrenen Sportlern. Niemand muss besonders schnell sein,
+denn im Vordergrund steht der Spaß und das Miteinander. Nach dem Training
+sitzen viele noch zusammen und unterhalten sich. Der Verein wächst stetig,
+weil das Laufen ohne Leistungsdruck immer mehr Menschen anspricht.
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL
+===========================================================================
+1 -> e   (Fitnessstudios werben um ältere Kunden)
+2 -> c   (Neue Sporthalle für den ganzen Stadtteil)
+3 -> d   (Immer weniger Kinder können schwimmen)
+4 -> j   (Bewegung im Alter hält gesund)
+5 -> b   (Laufen verbindet Menschen jeden Alters)
+
+Übrige (Çeldirici) Überschriften: a, f, g, h, i
+
+KISA AÇIKLAMA:
+- 1: Fitness merkezlerinin yaşlı müşteri çekmesi -> e.
+- 2: Tüm mahalleye yeni spor salonu -> c.
+- 3: Çocukların yüzme bilmemesi -> d. (a "yüzme kursları dolu" çeldirici ama
+  metin yüzme bilmeyen çocuklara odaklı.)
+- 4: Yaşlılıkta hareketin sağlık koruması -> j.
+- 5: Koşunun her yaştan insanı birleştirmesi -> b.

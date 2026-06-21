@@ -1,0 +1,85 @@
+===========================================================================
+TELC B2 - LESEVERSTEHEN TEIL 1 | ÜBUNG 9: KONSUM & GELD
+===========================================================================
+
+Ordnen Sie den Texten (1-5) die passenden Überschriften (a-j) zu.
+Achtung: Fünf Überschriften bleiben übrig.
+
+---------------------------------------------------------------------------
+ÜBERSCHRIFTEN
+---------------------------------------------------------------------------
+a   Teure Markenkleidung verliert an Bedeutung
+b   Bargeld verschwindet langsam aus dem Alltag
+c   Kunden kaufen wieder mehr im Geschäft
+d   Junge Leute sparen für später
+e   Reparieren statt wegwerfen
+f   Online-Betrug nimmt deutlich zu
+g   Werbung beeinflusst Kinder besonders stark
+h   Gebrauchte Kleidung erlebt ein Comeback
+i   Viele zahlen nur noch mit dem Handy
+j   Hohe Preise verändern das Einkaufsverhalten
+
+---------------------------------------------------------------------------
+TEXTE
+---------------------------------------------------------------------------
+1
+Gebrauchte Kleidung ist längst nicht mehr nur etwas für Menschen mit wenig
+Geld. Immer mehr junge Leute kaufen ihre Mode bewusst secondhand. Sie wollen
+damit Geld sparen, vor allem aber die Umwelt schonen, denn die Herstellung
+neuer Kleidung verbraucht viele Ressourcen. In vielen Städten gibt es
+inzwischen schicke Läden mit gebrauchter Kleidung, und auch im Internet boomt
+der Handel. Was früher als altmodisch galt, ist heute angesagt.
+
+2
+In Deutschland zahlen immer mehr Menschen mit Karte oder Smartphone statt
+mit Münzen und Scheinen. Besonders seit der Pandemie hat sich dieses
+Verhalten verstärkt. In vielen Geschäften, Cafés und sogar an Marktständen
+ist die Bezahlung per Handy heute selbstverständlich. Trotzdem gibt es
+weiterhin Menschen, die lieber bar bezahlen, weil sie so einen besseren
+Überblick über ihre Ausgaben behalten. Bargeld wird also nicht völlig
+verschwinden, aber es wird seltener genutzt.
+
+3
+Wegen stark gestiegener Preise achten viele Verbraucher genauer darauf, wofür
+sie ihr Geld ausgeben. Eine Umfrage zeigt, dass die Menschen häufiger
+Angebote vergleichen, günstigere Marken wählen und seltener teure Produkte
+kaufen. Auch beim Essengehen sparen viele. Die Geschäfte reagieren mit mehr
+Rabattaktionen, um ihre Kunden zu halten. Fachleute erwarten, dass sich
+dieses vorsichtige Einkaufsverhalten noch eine Weile fortsetzen wird.
+
+4
+Statt kaputte Geräte gleich wegzuwerfen, lassen immer mehr Menschen sie
+reparieren. In sogenannten Reparatur-Cafés helfen ehrenamtliche Fachleute
+dabei, Toaster, Lampen oder Fahrräder wieder instand zu setzen. Das spart
+Geld und schont die Umwelt, weil weniger Müll entsteht. Die Treffen sind oft
+gut besucht, und viele Besucher lernen dabei selbst, kleine Reparaturen
+durchzuführen. Solche Initiativen gibt es inzwischen in vielen Städten.
+
+5
+Die Zahl der Betrugsfälle beim Einkaufen im Internet steigt deutlich an.
+Kriminelle erstellen gefälschte Online-Shops oder verschicken E-Mails, die
+echt aussehen, um an die Daten der Kunden zu gelangen. Die Polizei rät zur
+Vorsicht: Man solle nur bei bekannten Anbietern bestellen und misstrauisch
+sein, wenn Preise zu günstig erscheinen. Viele Opfer bemerken den Betrug
+erst, wenn das bezahlte Produkt nie ankommt.
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL
+===========================================================================
+1 -> h   (Gebrauchte Kleidung erlebt ein Comeback)
+2 -> i   (Viele zahlen nur noch mit dem Handy)
+3 -> j   (Hohe Preise verändern das Einkaufsverhalten)
+4 -> e   (Reparieren statt wegwerfen)
+5 -> f   (Online-Betrug nimmt deutlich zu)
+
+Übrige (Çeldirici) Überschriften: a, b, c, d, g
+
+KISA AÇIKLAMA:
+- 1: İkinci el kıyafetin geri dönüşü -> h. (a "pahalı marka kıyafet önemini
+  yitiriyor" çeldirici; metin marka değil "gebrauchte Kleidung/Comeback"
+  vurgular.)
+- 2: Çoğunun telefonla ödemesi -> i. (b "nakit kayboluyor" çeldirici, ama metin
+  "Handy ile ödeme"yi öne çıkarır.)
+- 3: Yüksek fiyatların alışveriş davranışını değiştirmesi -> j.
+- 4: Atmak yerine tamir etmek -> e.
+- 5: Online dolandırıcılığın artması -> f.

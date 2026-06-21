@@ -1,0 +1,126 @@
+===========================================================================
+TELC B2 - LESEVERSTEHEN TEIL 2 | ÜBUNG 10
+===========================================================================
+
+Lesen Sie den Text und lösen Sie die Aufgaben 6-10.
+Wählen Sie bei jeder Aufgabe die richtige Lösung (a, b oder c).
+
+---------------------------------------------------------------------------
+Thema: Foodsharing – Der Kampf gegen die Lebensmittelverschwendung
+---------------------------------------------------------------------------
+
+In Deutschland landen jedes Jahr Millionen Tonnen Lebensmittel im Müll,
+obwohl ein großer Teil davon noch genießbar wäre. Gemüse mit kleinen
+Schönheitsfehlern, Brot vom Vortag oder Joghurt kurz vor dem
+Mindesthaltbarkeitsdatum werden weggeworfen. Gegen diese Verschwendung setzt
+sich eine wachsende Bewegung ein: das sogenannte Foodsharing, also das Teilen
+von Lebensmitteln.
+
+Eine Untersuchung zeigt das Ausmaß des Problems. Ein erheblicher Teil der
+weggeworfenen Lebensmittel stammt aus privaten Haushalten, doch auch
+Supermärkte, Bäckereien und Restaurants tragen erheblich dazu bei. Die
+Forscher betonen, dass die Verschwendung nicht nur ethisch fragwürdig ist,
+sondern auch die Umwelt belastet, weil für die Herstellung von Lebensmitteln
+viel Wasser, Energie und Ackerfläche verbraucht werden.
+
+Die 26-jährige Studentin Hanna Vogel aus Münster ist seit zwei Jahren bei
+einer Foodsharing-Initiative aktiv. „Wir holen bei Geschäften Lebensmittel
+ab, die sonst weggeworfen würden, und verteilen sie kostenlos weiter“,
+erklärt sie. Anfangs sei sie überrascht gewesen, wie viel noch gutes Essen im
+Müll lande. „Es tut weh, das zu sehen. Aber es ist ein schönes Gefühl, etwas
+dagegen zu tun und gleichzeitig anderen Menschen zu helfen.“ Sie betont, dass
+es dabei nicht um Bedürftigkeit gehe: „Mitmachen kann jeder, egal wie viel
+Geld er hat.“
+
+Der Supermarktleiter Stefan Wirth (48) arbeitet mit einer solchen Initiative
+zusammen, sieht aber auch Grenzen. „Ich gebe gern Ware ab, die wir nicht mehr
+verkaufen können“, sagt er. „Aber ich trage die Verantwortung, wenn etwas
+verdorben ist. Deshalb kann ich nicht alles weitergeben.“ Aus rechtlichen
+Gründen müsse er bei bestimmten Produkten vorsichtig sein. Trotzdem findet er
+die Idee gut und wünscht sich klarere gesetzliche Regelungen, die solche
+Spenden erleichtern.
+
+Die Ernährungswissenschaftlerin Dr. Claudia Berg weist auf ein verbreitetes
+Missverständnis hin. „Viele Menschen werfen Lebensmittel weg, sobald das
+Mindesthaltbarkeitsdatum überschritten ist. Dabei sind die meisten Produkte
+auch danach noch problemlos essbar“, erklärt sie. Das Datum sage nur aus, bis
+wann der Hersteller bestimmte Eigenschaften garantiere, nicht, ab wann etwas
+schädlich sei. „Riechen, schauen, probieren ist oft die bessere Methode als
+ein Blick auf das Datum.“
+
+Wer selbst weniger verschwenden möchte, kann laut Fachleuten schon mit
+einfachen Schritten viel erreichen: bewusst einkaufen, Reste verwerten und
+Vorräte regelmäßig überprüfen. Auch Apps, die übrig gebliebenes Essen
+vermitteln, helfen dabei, weniger wegzuwerfen und Geld zu sparen.
+
+---------------------------------------------------------------------------
+AUFGABEN
+---------------------------------------------------------------------------
+
+6
+Was betonen die Forscher in der Untersuchung?
+
+a
+Dass nur Supermärkte für die Verschwendung verantwortlich sind.
+b
+Dass die Verschwendung auch die Umwelt belastet, weil viel Wasser, Energie und
+Fläche verbraucht werden.
+c
+Dass weggeworfene Lebensmittel keinerlei Auswirkungen auf die Umwelt haben.
+
+7
+Was betont die Studentin Hanna Vogel über das Foodsharing?
+
+a
+Dass nur bedürftige Menschen mitmachen dürfen.
+b
+Dass jeder mitmachen kann, egal wie viel Geld er hat.
+c
+Dass sie das Essen aus dem Müll vor allem für sich selbst sammelt.
+
+8
+Warum kann der Supermarktleiter Stefan Wirth nicht alle Lebensmittel
+weitergeben?
+
+a
+Weil er die Verantwortung trägt, wenn etwas verdorben ist, und aus rechtlichen
+Gründen vorsichtig sein muss.
+b
+Weil er die Idee des Foodsharing grundsätzlich ablehnt.
+c
+Weil seine Kunden gespendete Ware nicht annehmen wollen.
+
+9
+Auf welches Missverständnis weist Dr. Claudia Berg hin?
+
+a
+Dass Lebensmittel nach dem Mindesthaltbarkeitsdatum immer sofort schädlich
+sind.
+b
+Dass viele Produkte auch nach dem Mindesthaltbarkeitsdatum noch problemlos
+essbar sind.
+c
+Dass man Lebensmittel niemals nach Geruch oder Aussehen beurteilen sollte.
+
+10
+Welchen Rat geben Fachleute Menschen, die weniger verschwenden möchten?
+
+a
+Sie sollten möglichst viel auf Vorrat kaufen und alles sofort wegwerfen.
+b
+Sie sollten bewusst einkaufen, Reste verwerten und Vorräte regelmäßig
+überprüfen.
+c
+Sie sollten Lebensmittel grundsätzlich nie an andere weitergeben.
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL / CEVAP ANAHTARI
+===========================================================================
+6: b  ("...belastet auch die Umwelt, weil für die Herstellung... viel Wasser,
+       Energie und Ackerfläche verbraucht werden.")
+7: b  ("Mitmachen kann jeder, egal wie viel Geld er hat.")
+8: a  ("...ich trage die Verantwortung, wenn etwas verdorben ist... Aus
+       rechtlichen Gründen müsse er... vorsichtig sein.")
+9: b  ("...die meisten Produkte auch danach noch problemlos essbar.")
+10: b ("...bewusst einkaufen, Reste verwerten und Vorräte regelmäßig
+       überprüfen.")

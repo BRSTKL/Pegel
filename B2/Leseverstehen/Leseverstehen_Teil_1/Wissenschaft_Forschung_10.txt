@@ -1,0 +1,82 @@
+===========================================================================
+TELC B2 - LESEVERSTEHEN TEIL 1 | ÜBUNG 10: WISSENSCHAFT & FORSCHUNG
+===========================================================================
+
+Ordnen Sie den Texten (1-5) die passenden Überschriften (a-j) zu.
+Achtung: Fünf Überschriften bleiben übrig.
+
+---------------------------------------------------------------------------
+ÜBERSCHRIFTEN
+---------------------------------------------------------------------------
+a   Musik verbessert das Gedächtnis
+b   Forscher entdecken neue Tierart
+c   Schlaf hilft beim Lernen
+d   Kaffee ist gesünder als gedacht
+e   Roboter unterstützen die Pflege
+f   Pflanzen kommunizieren miteinander
+g   Lachen stärkt das Immunsystem
+h   Künstliche Intelligenz erkennt Krankheiten früh
+i   Bewegung verbessert die Laune
+j   Haustiere senken den Blutdruck
+
+---------------------------------------------------------------------------
+TEXTE
+---------------------------------------------------------------------------
+1
+Ein Forschungsteam hat im Regenwald Südamerikas eine bisher unbekannte
+Froschart entdeckt. Die kleinen Tiere sind nur wenige Zentimeter groß und
+fallen durch ihre leuchtend blaue Farbe auf. Die Wissenschaftler hatten die
+Region über mehrere Monate untersucht. Sie vermuten, dass in dem Gebiet noch
+weitere unbekannte Arten leben. Gleichzeitig warnen sie davor, dass der
+Lebensraum dieser Tiere durch die Abholzung des Waldes bedroht ist.
+
+2
+Wer vor einer Prüfung ausreichend schläft, lernt erfolgreicher. Das bestätigt
+eine neue Studie. Während wir schlafen, verarbeitet das Gehirn die
+Informationen des Tages und speichert sie dauerhaft ab. Wer dagegen die
+ganze Nacht lernt und kaum schläft, kann sich am nächsten Tag oft schlechter
+erinnern. Die Forscher raten Schülern und Studierenden deshalb, regelmäßig
+und ausreichend zu schlafen, statt in letzter Minute zu büffeln.
+
+3
+In mehreren Krankenhäusern wird derzeit ein Computerprogramm getestet, das
+auf künstlicher Intelligenz beruht. Es untersucht Röntgenbilder und kann
+bestimmte Krankheiten oft früher erkennen als das menschliche Auge. Die
+Ärzte treffen die endgültige Entscheidung weiterhin selbst, erhalten aber
+durch die Technik wertvolle Hinweise. Erste Ergebnisse sind
+vielversprechend. Die Forscher hoffen, dass dadurch in Zukunft mehr
+Patienten rechtzeitig behandelt werden können.
+
+4
+Dass Lachen guttut, weiß man schon lange. Nun zeigt eine Untersuchung, dass
+es sogar die Abwehrkräfte des Körpers stärkt. Beim Lachen werden bestimmte
+Botenstoffe freigesetzt, die das Immunsystem aktivieren. Menschen, die viel
+lachen, sind einer Studie zufolge seltener krank. Die Wissenschaftler
+empfehlen deshalb, sich im Alltag bewusst Momente der Freude zu gönnen, zum
+Beispiel mit Freunden oder einem lustigen Film.
+
+5
+Ein Tier zu Hause zu haben, kann gut für die Gesundheit sein. Eine Studie
+zeigt, dass Menschen mit Haustieren oft einen niedrigeren Blutdruck haben.
+Besonders Hunde sorgen dafür, dass ihre Besitzer sich mehr bewegen, da sie
+täglich nach draußen müssen. Aber auch das Streicheln einer Katze kann
+beruhigend wirken und Stress abbauen. Ärzte betonen jedoch, dass ein Tier
+auch Verantwortung bedeutet und gut überlegt sein sollte.
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL
+===========================================================================
+1 -> b   (Forscher entdecken neue Tierart)
+2 -> c   (Schlaf hilft beim Lernen)
+3 -> h   (Künstliche Intelligenz erkennt Krankheiten früh)
+4 -> g   (Lachen stärkt das Immunsystem)
+5 -> j   (Haustiere senken den Blutdruck)
+
+Übrige (Çeldirici) Überschriften: a, d, e, f, i
+
+KISA AÇIKLAMA:
+- 1: Yeni hayvan türü keşfi -> b.
+- 2: Uykunun öğrenmeye yardımı -> c.
+- 3: Yapay zekânın hastalıkları erken tanıması -> h.
+- 4: Gülmenin bağışıklığı güçlendirmesi -> g.
+- 5: Evcil hayvanların tansiyonu düşürmesi -> j.

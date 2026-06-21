@@ -1,0 +1,83 @@
+===========================================================================
+TELC B2 - LESEVERSTEHEN TEIL 1 | ÜBUNG 11: WOHNEN & STADT
+===========================================================================
+
+Ordnen Sie den Texten (1-5) die passenden Überschriften (a-j) zu.
+Achtung: Fünf Überschriften bleiben übrig.
+
+---------------------------------------------------------------------------
+ÜBERSCHRIFTEN
+---------------------------------------------------------------------------
+a   Mieten in Großstädten steigen weiter
+b   Mehrere Generationen wohnen unter einem Dach
+c   Studierende finden kaum noch Zimmer
+d   Gemeinschaftsgärten verbinden Nachbarn
+e   Leben auf dem Land wird wieder attraktiv
+f   Neue Wohnungen entstehen aus alten Büros
+g   Kleine Wohnungen liegen voll im Trend
+h   Stadt schafft mehr Platz für Fußgänger
+i   Wohnprojekt bringt Jung und Alt zusammen
+j   Viele Menschen ziehen aufs Land
+
+---------------------------------------------------------------------------
+TEXTE
+---------------------------------------------------------------------------
+1
+In einem neuen Wohnprojekt in Hannover leben junge Familien und ältere
+Menschen ganz bewusst zusammen. Die Senioren helfen manchmal bei der
+Kinderbetreuung, während die jüngeren Bewohner schwere Einkäufe tragen oder
+beim Umgang mit dem Computer helfen. So profitieren beide Seiten voneinander.
+Gemeinsame Räume laden zum Kochen und Feiern ein. Die Bewohner berichten,
+dass sich durch das Miteinander echte Freundschaften entwickelt haben.
+
+2
+Weil in den Innenstädten viele Büros leer stehen, geht eine Stadt im
+Rheinland nun einen neuen Weg: Alte Bürogebäude werden zu Wohnungen
+umgebaut. So entstehen mitten in der Stadt neue Wohnräume, ohne dass dafür
+zusätzliche Flächen am Stadtrand bebaut werden müssen. Die ersten Wohnungen
+sind bereits vermietet. Stadtplaner sehen darin eine gute Möglichkeit, dem
+Wohnungsmangel zu begegnen und gleichzeitig leere Gebäude sinnvoll zu nutzen.
+
+3
+Immer mehr Menschen kehren den großen Städten den Rücken und ziehen aufs
+Land. Vor allem seit viele im Homeoffice arbeiten können, spielt die Nähe
+zum Arbeitsplatz eine geringere Rolle. Auf dem Land locken niedrigere Mieten,
+mehr Platz und ein ruhigeres Leben. Manche Dörfer, die früher schrumpften,
+gewinnen dadurch wieder an Einwohnern. Allerdings klagen die Neuankömmlinge
+manchmal über schlechte Busverbindungen und fehlende Geschäfte.
+
+4
+In einem Stadtteil von Frankfurt haben Anwohner eine ungenutzte Fläche in
+einen Gemeinschaftsgarten verwandelt. Dort pflanzen sie gemeinsam Gemüse,
+Kräuter und Blumen. Der Garten ist aber mehr als nur ein Ort zum Gärtnern:
+Die Nachbarn treffen sich regelmäßig, tauschen sich aus und organisieren
+Feste. Besonders für Menschen, die neu in den Stadtteil gezogen sind, ist
+das eine gute Gelegenheit, schnell Kontakte zu knüpfen.
+
+5
+In vielen deutschen Großstädten wird das Wohnen immer teurer. Eine aktuelle
+Auswertung zeigt, dass die Mieten in den letzten zehn Jahren stark gestiegen
+sind. Besonders betroffen sind Städte wie München, Hamburg und Berlin. Für
+Menschen mit geringem Einkommen wird es zunehmend schwierig, eine bezahlbare
+Wohnung zu finden. Mieterverbände fordern deshalb mehr sozialen Wohnungsbau
+und strengere Regeln für Vermieter.
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL
+===========================================================================
+1 -> i   (Wohnprojekt bringt Jung und Alt zusammen)
+2 -> f   (Neue Wohnungen entstehen aus alten Büros)
+3 -> j   (Viele Menschen ziehen aufs Land)
+4 -> d   (Gemeinschaftsgärten verbinden Nachbarn)
+5 -> a   (Mieten in Großstädten steigen weiter)
+
+Übrige (Çeldirici) Überschriften: b, c, e, g, h
+
+KISA AÇIKLAMA:
+- 1: Genç ve yaşlıyı bir araya getiren konut projesi -> i. (b "birkaç nesil tek
+  çatı" çeldirici ama vurgu proje/birliktelik.)
+- 2: Eski bürolardan yeni konutlar -> f.
+- 3: İnsanların kırsala taşınması -> j. (e "kırsalda yaşam cazip" çeldirici ama
+  metin "taşınma hareketi"ni anlatır.)
+- 4: Ortak bahçelerin komşuları birleştirmesi -> d.
+- 5: Büyük şehirlerde kiraların artması -> a.

@@ -1,0 +1,81 @@
+===========================================================================
+TELC B2 - LESEVERSTEHEN TEIL 1 | ÜBUNG 3: UMWELT & NATUR
+===========================================================================
+
+Ordnen Sie den Texten (1-5) die passenden Überschriften (a-j) zu.
+Achtung: Fünf Überschriften bleiben übrig.
+
+---------------------------------------------------------------------------
+ÜBERSCHRIFTEN
+---------------------------------------------------------------------------
+a   Stadt pflanzt tausende neue Bäume
+b   Plastikmüll im Meer nimmt weiter zu
+c   Bürger sammeln gemeinsam Abfall
+d   Strom aus Sonne wird immer günstiger
+e   Tiere kehren in die Stadt zurück
+f   Weniger Autos dank neuer Radwege
+g   Trockenheit bedroht die Landwirtschaft
+h   Schüler retten einen alten Wald
+i   Mülltrennung funktioniert immer besser
+j   Bienen finden in Gärten neue Heimat
+
+---------------------------------------------------------------------------
+TEXTE
+---------------------------------------------------------------------------
+1
+Die Stadt Mannheim hat ein großes Projekt gestartet: In den nächsten fünf
+Jahren sollen über 10.000 neue Bäume gepflanzt werden. Damit will die
+Verwaltung das Stadtklima verbessern, denn Bäume spenden Schatten und kühlen
+die Luft an heißen Tagen. Außerdem bieten sie vielen Vögeln und Insekten
+einen Lebensraum. Bürgerinnen und Bürger können Vorschläge machen, wo neue
+Bäume stehen sollen. Die ersten hundert wurden bereits gesetzt.
+
+2
+An einem Samstag im Frühling trafen sich in Bremen über 500 Freiwillige, um
+gemeinsam Müll zu sammeln. Mit Handschuhen und großen Säcken zogen sie durch
+Parks, an Flussufern entlang und über öffentliche Plätze. Am Ende des Tages
+kamen mehrere Tonnen Abfall zusammen. Die Aktion wird jedes Jahr von einem
+Umweltverein organisiert. Viele Teilnehmer sagten, dass ihnen die Arbeit in
+der Gruppe großen Spaß gemacht habe.
+
+3
+In diesem Sommer hatten viele Landwirte in Ostdeutschland mit großen
+Problemen zu kämpfen. Über mehrere Wochen fiel kaum Regen, und die Böden
+trockneten aus. Dadurch wuchsen Getreide und Gemüse deutlich schlechter als
+in normalen Jahren. Einige Bauern berichten von Ernteverlusten von bis zu 30
+Prozent. Fachleute warnen, dass solche trockenen Sommer durch den Klimawandel
+in Zukunft häufiger auftreten könnten.
+
+4
+In vielen deutschen Städten wird die Energie aus Sonnenlicht immer
+preiswerter. Der Bau von Solaranlagen ist in den letzten Jahren deutlich
+billiger geworden. Immer mehr Hausbesitzer lassen deshalb Module auf ihren
+Dächern installieren. Auch Unternehmen nutzen die Technik, um Stromkosten zu
+sparen. Experten gehen davon aus, dass dieser Trend weiter anhält und Sonne
+schon bald zu den günstigsten Energiequellen gehören wird.
+
+5
+In einer Kleinstadt in Bayern wollte die Gemeinde ein altes Waldstück fällen,
+um dort Parkplätze zu bauen. Eine Gruppe von Jugendlichen wehrte sich
+dagegen. Sie sammelten Unterschriften, sprachen mit Politikern und
+organisierten eine friedliche Demonstration. Am Ende hatten sie Erfolg: Der
+Wald bleibt erhalten. Die Stadt sucht nun nach einem anderen Platz für die
+Parkplätze. Die Jugendlichen sind stolz auf ihren Einsatz.
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL
+===========================================================================
+1 -> a   (Stadt pflanzt tausende neue Bäume)
+2 -> c   (Bürger sammeln gemeinsam Abfall)
+3 -> g   (Trockenheit bedroht die Landwirtschaft)
+4 -> d   (Strom aus Sonne wird immer günstiger)
+5 -> h   (Schüler retten einen alten Wald)
+
+Übrige (Çeldirici) Überschriften: b, e, f, i, j
+
+KISA AÇIKLAMA:
+- 1: Şehrin binlerce ağaç dikmesi -> a.
+- 2: Vatandaşların birlikte çöp toplaması -> c.
+- 3: Kuraklığın tarımı tehdit etmesi -> g.
+- 4: Güneş enerjisinin ucuzlaması -> d.
+- 5: Gençlerin eski ormanı kurtarması -> h.
