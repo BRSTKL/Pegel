@@ -6180,8 +6180,8 @@ function submitWriteInAnswer() {
   const userText = inputEl.value.trim();
   
   // Check answer case-insensitively
-  const userClean = userText.toLowerCase().replace(/\s+/g, " ");
-  const correctClean = q.correctAnswer.toLowerCase().replace(/\s+/g, " ");
+  const userClean = userText.toLowerCase().replace(/\s+/g, " ").trim();
+  const correctClean = q.correctAnswer.toLowerCase().replace(/\s+/g, " ").trim();
   
   // Support both "-er" and "er" style for suffixes
   let isCorrect = (userClean === correctClean);
@@ -6479,9 +6479,10 @@ function renderSentenceBuilderZone() {
 }
 
 function sanitizeSentence(s) {
-  return s.trim()
+  if (!s) return "";
+  return s.replace(/[\.\?\!\,\;\:\-]/g, "")
           .replace(/\s+/g, " ")
-          .replace(/[\.\?\!\,\;\:\-]/g, "")
+          .trim()
           .toLowerCase();
 }
 
