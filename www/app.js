@@ -2540,13 +2540,14 @@ function renderSitemapScreen() {
     if (targetNode && pathSitemap) {
       const rect = targetNode.getBoundingClientRect();
       const parentRect = pathSitemap.getBoundingClientRect();
-      const relativeTop = pathSitemap.scrollTop + rect.top - parentRect.top;
+      const relativeTop = targetNode.offsetTop || (pathSitemap.scrollTop + rect.top - parentRect.top);
+      const nodeHeight = targetNode.offsetHeight || rect.height || 58;
       pathSitemap.scrollTo({
-        top: relativeTop - parentRect.height / 2 + rect.height / 2,
+        top: relativeTop - pathSitemap.clientHeight / 2 + nodeHeight / 2,
         behavior: "smooth"
       });
     }
-  }, 150);
+  }, 260);
 }
 
 // LESSON DETAILS SCREEN
