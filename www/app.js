@@ -2537,15 +2537,27 @@ function renderSitemapScreen() {
       targetNode = document.querySelector(".droplet-node.active");
     }
     const pathSitemap = document.getElementById("path-sitemap-content");
-    if (targetNode && pathSitemap) {
+    const appContent = document.querySelector(".app-content");
+    if (targetNode) {
       const rect = targetNode.getBoundingClientRect();
-      const parentRect = pathSitemap.getBoundingClientRect();
-      const relativeTop = targetNode.offsetTop || (pathSitemap.scrollTop + rect.top - parentRect.top);
       const nodeHeight = targetNode.offsetHeight || rect.height || 58;
-      pathSitemap.scrollTo({
-        top: relativeTop - pathSitemap.clientHeight / 2 + nodeHeight / 2,
-        behavior: "smooth"
-      });
+      
+      if (pathSitemap) {
+        const parentRect = pathSitemap.getBoundingClientRect();
+        const relativeTop = pathSitemap.scrollTop + rect.top - parentRect.top;
+        pathSitemap.scrollTo({
+          top: relativeTop - pathSitemap.clientHeight / 2 + nodeHeight / 2,
+          behavior: "smooth"
+        });
+      }
+      if (appContent) {
+        const parentRect = appContent.getBoundingClientRect();
+        const relativeTop = appContent.scrollTop + rect.top - parentRect.top;
+        appContent.scrollTo({
+          top: relativeTop - parentRect.clientHeight / 2 + nodeHeight / 2,
+          behavior: "smooth"
+        });
+      }
     }
   }, 260);
 }
