@@ -5381,7 +5381,392 @@ let lessonQuizLives = 3;
 let lessonQuizAnswersText = {};
 let lessonQuizCorrectStates = {};
 
+// B2 LEVEL QUIZ STATE
+let activeB2Quiz = null;
+let b2QuizPart = 1; // 1 or 2
+let b2Answers = {}; // gapNum -> selectedWord
+let b2Checked = false;
+let b2ActiveGap = null; // the gap currently selected in picker
+let b2TempSelectedOption = null;
+
+function startB2LessonQuiz(lesson) {
+  activeLessonQuiz = lesson;
+  if (!state.quizReferrer) {
+    state.quizReferrer = document.querySelector("#lesson-screen .back-btn")?.getAttribute("data-target") || "sitemap";
+  }
+  activeB2Quiz = getActiveLessonQuizzes()[lesson.id];
+  b2QuizPart = 1;
+  b2Answers = { 1: '', 2: '', 3: '', 4: '', 5: '', 6: '', 7: '', 8: '', 9: '', 10: '' };
+  lessonQuizLives = 3;
+  b2Checked = false;
+  b2ActiveGap = null;
+  b2TempSelectedOption = null;
+  
+  if (!activeB2Quiz || !activeB2Quiz.questions || activeB2Quiz.questions.length === 0) {
+    alert("Bu ders için henüz sınav bulunamadı.");
+    return;
+  }
+  
+  showScreen("lesson-quiz");
+  
+  // Header title
+  const headerTitle = document.getElementById("lesson-quiz-header-title");
+  if (headerTitle) {
+    headerTitle.textContent = `${lesson.title} - B2 Sınavı`;
+  }
+  
+  // Hide result overlay
+  const overlay = document.getElementById("lesson-quiz-result-overlay");
+  if (overlay) overlay.classList.add("hidden");
+  
+  // Setup back button
+  const backBtn = document.getElementById("lesson-quiz-back-btn");
+  if (backBtn) {
+    const newBackBtn = backBtn.cloneNode(true);
+    backBtn.parentNode.replaceChild(newBackBtn, backBtn);
+    newBackBtn.addEventListener("click", () => {
+      if (confirm("Sınavdan çıkmak istiyor musunuz? İlerlemeniz kaybolacaktır.")) {
+        showScreen("lesson");
+      }
+    });
+  }
+  
+  // Setup modal close events
+  const modalCloseBtn = document.getElementById("b2-picker-close-btn");
+  if (modalCloseBtn) {
+    modalCloseBtn.onclick = closeB2GapPicker;
+  }
+  
+  const modalOverlay = document.getElementById("b2-picker-modal");
+  if (modalOverlay) {
+    modalOverlay.onclick = (e) => {
+      if (e.target === modalOverlay) closeB2GapPicker();
+    };
+  }
+
+  renderLessonQuizLives();
+  renderB2QuizPart();
+}
+
+function renderB2QuizPart() {
+  const qCount = document.getElementById("lesson-quiz-q-count");
+  const qPercent = document.getElementById("lesson-quiz-q-percent");
+  const progressBar = document.getElementById("lesson-quiz-progress-bar");
+  const questionArea = document.getElementById("lesson-quiz-question-area");
+  
+  if (!questionArea) return;
+  
+  // Progress indicators
+  const totalQuestions = 2; // Part 1 and Part 2
+  const currentPartIndex = b2QuizPart - 1;
+  const pct = Math.round((currentPartIndex / totalQuestions) * 100);
+  
+  if (qCount) qCount.textContent = `Bölüm ${b2QuizPart} / 2`;
+  if (qPercent) qPercent.textContent = `${pct}%`;
+  if (progressBar) progressBar.style.width = `${pct}%`;
+  
+  b2Checked = false;
+  b2ActiveGap = null;
+  b2TempSelectedOption = null;
+  
+  let partTitle = b2QuizPart === 1 
+    ? "TEIL 1: SPRACHBAUSTEINE - MULTIPLE CHOICE" 
+    : "TEIL 2: SPRACHBAUSTEINE - WORTLISTE";
+  let partDesc = b2QuizPart === 1
+    ? "Boşluklara tıklayın ve seçenekler arasından doğru kelimeyi seçin (1-5)."
+    : "Mektuptaki boşluklara tıklayın ve kelime listesinden (6-10) doğru kelimeleri yerleştirin.";
+    
+  let letterTextRaw = b2QuizPart === 1 ? activeB2Quiz.teil1Text : activeB2Quiz.teil2Text;
+  
+  // Replace (i) with interactive spans
+  let startRange = b2QuizPart === 1 ? 1 : 6;
+  let endRange = b2QuizPart === 1 ? 5 : 10;
+  
+  let formattedLetter = letterTextRaw;
+  for (let i = startRange; i <= endRange; i++) {
+    const gapRegex = new RegExp(`\\(${i}\\)`, 'g');
+    formattedLetter = formattedLetter.replace(gapRegex, () => {
+      const selectedVal = b2Answers[i];
+      let statusClass = "pending";
+      if (selectedVal) {
+        statusClass = "answered";
+      }
+      return `<span class="quiz-letter-gap ${statusClass}" id="b2-gap-${i}" onclick="openB2GapPicker(${i})" style="cursor: pointer; text-decoration: underline; text-decoration-style: dashed; font-weight: 600;">(${i}) ${selectedVal || "_____"}</span>`;
+    });
+  }
+  
+  // Replace newlines with <br>
+  formattedLetter = formattedLetter.replace(/\n/g, "<br>");
+  
+  let checkBtnText = b2QuizPart === 1 ? "Kontrol Et & Devam Et" : "Kontrol Et & Bitir";
+  
+  questionArea.innerHTML = `
+    <div style="margin-bottom: 12px; font-weight: 700; font-size: 13.5px; color: var(--theme-purple); letter-spacing: 0.5px;">${partTitle}</div>
+    <div style="font-size: 12.5px; color: var(--color-text-secondary); margin-bottom: 16px; line-height: 1.45;">${partDesc}</div>
+    
+    <div class="quiz-letter-preview" style="background-color: var(--color-background-secondary); border: 1.5px solid var(--color-border-primary); padding: 18px; border-radius: var(--border-radius-lg); font-size: 13.5px; line-height: 1.6; max-height: 280px; overflow-y: auto; margin-bottom: 20px;">
+      ${formattedLetter}
+    </div>
+    
+    <button id="b2-quiz-check-btn" class="c-purple" onclick="checkB2QuizPart()" style="width: 100%; border: none; padding: 13px; border-radius: var(--border-radius-lg); font-size: 13.5px; font-weight: 600; cursor: pointer; color: #ffffff; display: flex; align-items: center; justify-content: center; gap: 6px; transition: all 0.2s;" disabled>
+      <i class="ti ti-check" aria-hidden="true"></i> ${checkBtnText}
+    </button>
+    
+    <div id="b2-quiz-explanations" style="margin-top: 15px; display: none; flex-direction: column; gap: 10px; max-height: 180px; overflow-y: auto; padding: 10px; background-color: rgba(0,0,0,0.02); border-radius: var(--border-radius-md);">
+      <!-- Answers explanation populated after checking -->
+    </div>
+  `;
+  
+  updateB2CheckButtonState();
+}
+
+function updateB2CheckButtonState() {
+  const checkBtn = document.getElementById("b2-quiz-check-btn");
+  if (!checkBtn) return;
+  
+  let startRange = b2QuizPart === 1 ? 1 : 6;
+  let endRange = b2QuizPart === 1 ? 5 : 10;
+  
+  let allFilled = true;
+  for (let i = startRange; i <= endRange; i++) {
+    if (!b2Answers[i]) {
+      allFilled = false;
+      break;
+    }
+  }
+  
+  checkBtn.disabled = !allFilled;
+}
+
+function openB2GapPicker(gapNum) {
+  if (b2Checked) return; // cannot change after checking
+  
+  b2ActiveGap = gapNum;
+  b2TempSelectedOption = b2Answers[gapNum] || null;
+  
+  // Highlight active gap visually in UI
+  let startRange = b2QuizPart === 1 ? 1 : 6;
+  let endRange = b2QuizPart === 1 ? 5 : 10;
+  for (let i = startRange; i <= endRange; i++) {
+    const gapEl = document.getElementById(`b2-gap-${i}`);
+    if (gapEl) {
+      if (i === gapNum) {
+        gapEl.className = "quiz-letter-gap active";
+      } else {
+        gapEl.className = b2Answers[i] ? "quiz-letter-gap answered" : "quiz-letter-gap pending";
+      }
+    }
+  }
+  
+  // Get options for this gap
+  const q = activeB2Quiz.questions[gapNum - 1];
+  const options = q.options;
+  
+  const titleEl = document.getElementById("b2-picker-title");
+  if (titleEl) {
+    titleEl.textContent = `Boşluk (${gapNum}) için Seçim Yapın`;
+  }
+  
+  const scrollContainer = document.getElementById("b2-picker-wheel-scroll");
+  if (scrollContainer) {
+    scrollContainer.innerHTML = options.map(opt => {
+      return `<div class="b2-picker-wheel-item" data-value="${opt}" onclick="scrollToB2WheelItem(this)">${opt}</div>`;
+    }).join("");
+    
+    // Bind scroll event to update the 3D effect and select active option
+    scrollContainer.onscroll = updateB2Wheel3DEffect;
+    
+    // Select/scroll to current value or default to first option
+    setTimeout(() => {
+      const targetVal = b2TempSelectedOption || options[0];
+      const items = Array.from(scrollContainer.querySelectorAll(".b2-picker-wheel-item"));
+      const targetItem = items.find(item => item.getAttribute("data-value") === targetVal);
+      if (targetItem) {
+        targetItem.scrollIntoView({ block: 'center', inline: 'nearest' });
+      } else if (items[0]) {
+        items[0].scrollIntoView({ block: 'center', inline: 'nearest' });
+      }
+      updateB2Wheel3DEffect();
+    }, 100);
+  }
+  
+  // Show picker modal
+  const modal = document.getElementById("b2-picker-modal");
+  if (modal) {
+    modal.classList.remove("hidden");
+  }
+}
+
+function scrollToB2WheelItem(itemEl) {
+  itemEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function updateB2Wheel3DEffect() {
+  const scrollContainer = document.getElementById("b2-picker-wheel-scroll");
+  if (!scrollContainer) return;
+  const items = scrollContainer.querySelectorAll(".b2-picker-wheel-item");
+  const containerHeight = scrollContainer.clientHeight;
+  const containerCenter = scrollContainer.scrollTop + (containerHeight / 2);
+  
+  let closestItem = null;
+  let minDistance = Infinity;
+
+  items.forEach(item => {
+    const itemCenter = item.offsetTop + (item.offsetHeight / 2);
+    const distance = containerCenter - itemCenter; // positive if item is above center, negative if below
+    const absDistance = Math.abs(distance);
+    
+    // Scale and angle computation
+    const maxDist = containerHeight / 2;
+    const ratio = Math.min(absDistance / maxDist, 1);
+    
+    // Rotate options like they are on a 3D cylinder
+    const angle = -distance * 0.45; // 0.45 degrees per pixel
+    const scale = 1 - (ratio * 0.22); // max 22% shrink
+    const opacity = 1 - (ratio * 0.6); // fade out items away from center
+    
+    item.style.transform = `rotateX(${angle}deg) scale(${scale})`;
+    item.style.opacity = opacity;
+    
+    if (absDistance < minDistance) {
+      minDistance = absDistance;
+      closestItem = item;
+    }
+  });
+  
+  items.forEach(item => item.classList.remove("active"));
+  if (closestItem) {
+    closestItem.classList.add("active");
+    b2TempSelectedOption = closestItem.getAttribute("data-value");
+    
+    const selectBtn = document.getElementById("b2-picker-select-btn");
+    if (selectBtn) {
+      selectBtn.disabled = false;
+      selectBtn.onclick = confirmB2GapSelection;
+    }
+  }
+}
+
+function confirmB2GapSelection() {
+  if (b2ActiveGap && b2TempSelectedOption) {
+    b2Answers[b2ActiveGap] = b2TempSelectedOption;
+    
+    // Update gap in text
+    const gapEl = document.getElementById(`b2-gap-${b2ActiveGap}`);
+    if (gapEl) {
+      gapEl.textContent = `(${b2ActiveGap}) ${b2TempSelectedOption}`;
+      gapEl.className = "quiz-letter-gap answered";
+    }
+    
+    updateB2CheckButtonState();
+  }
+  closeB2GapPicker();
+}
+
+function closeB2GapPicker() {
+  const modal = document.getElementById("b2-picker-modal");
+  if (modal) {
+    modal.classList.add("hidden");
+  }
+  
+  // Remove active highlight from gap
+  if (b2ActiveGap) {
+    const gapEl = document.getElementById(`b2-gap-${b2ActiveGap}`);
+    if (gapEl && !b2Checked) {
+      gapEl.className = b2Answers[b2ActiveGap] ? "quiz-letter-gap answered" : "quiz-letter-gap pending";
+    }
+  }
+}
+
+function checkB2QuizPart() {
+  if (b2Checked) return;
+  b2Checked = true;
+  
+  let startRange = b2QuizPart === 1 ? 1 : 6;
+  let endRange = b2QuizPart === 1 ? 5 : 10;
+  
+  let incorrectCount = 0;
+  
+  const explanationsContainer = document.getElementById("b2-quiz-explanations");
+  if (explanationsContainer) {
+    explanationsContainer.innerHTML = "";
+  }
+  
+  for (let i = startRange; i <= endRange; i++) {
+    const q = activeB2Quiz.questions[i - 1];
+    const userAns = b2Answers[i];
+    const correctAns = q.options[q.correct];
+    const isCorrect = userAns === correctAns;
+    
+    const gapEl = document.getElementById(`b2-gap-${i}`);
+    if (gapEl) {
+      gapEl.className = isCorrect ? "quiz-letter-gap correct" : "quiz-letter-gap incorrect";
+      if (!isCorrect) {
+        gapEl.textContent = `(${i}) ${userAns} (Doğrusu: ${correctAns})`;
+      }
+    }
+    
+    if (!isCorrect) {
+      incorrectCount++;
+    }
+    
+    if (explanationsContainer) {
+      const statusIcon = isCorrect ? "✅" : "❌";
+      const statusColor = isCorrect ? "var(--theme-teal)" : "var(--theme-coral)";
+      explanationsContainer.innerHTML += `
+        <div style="font-size:12.5px; border-left: 3px solid ${statusColor}; padding-left: 8px; margin-bottom: 6px; line-height: 1.45;">
+          <strong>Boşluk ${i}:</strong> ${statusIcon} Seçtiğiniz: <em>${userAns}</em>. Doğru Cevap: <strong>${correctAns}</strong>
+        </div>
+      `;
+    }
+  }
+  
+  if (incorrectCount > 0) {
+    lessonQuizLives -= incorrectCount;
+    if (lessonQuizLives < 0) lessonQuizLives = 0;
+    renderLessonQuizLives();
+    playSound("false");
+  } else {
+    playSound("true");
+  }
+  
+  if (explanationsContainer) {
+    explanationsContainer.style.display = "flex";
+  }
+  
+  const checkBtn = document.getElementById("b2-quiz-check-btn");
+  if (checkBtn) {
+    checkBtn.style.pointerEvents = "none";
+    checkBtn.style.opacity = "0.5";
+  }
+  
+  setTimeout(() => {
+    if (lessonQuizLives <= 0) {
+      finishLessonQuiz(false);
+    } else {
+      if (b2QuizPart === 1) {
+        if (checkBtn) {
+          checkBtn.style.pointerEvents = "auto";
+          checkBtn.style.opacity = "1";
+          checkBtn.disabled = false;
+          checkBtn.innerHTML = `2. Bölüme Geç <i class="ti ti-arrow-right"></i>`;
+          checkBtn.onclick = () => {
+            b2QuizPart = 2;
+            renderB2QuizPart();
+          };
+        }
+      } else {
+        finishLessonQuiz(true);
+      }
+    }
+  }, 2500);
+}
+
 function startLessonQuiz(lesson) {
+  if (state.activeLevel === "B2") {
+    startB2LessonQuiz(lesson);
+    return;
+  }
   activeLessonQuiz = lesson;
   if (!state.quizReferrer) {
     state.quizReferrer = document.querySelector("#lesson-screen .back-btn")?.getAttribute("data-target") || "sitemap";

@@ -1,0 +1,8 @@
+﻿Almancada ayrılabilen ön ekler (Trennbare Präfixe), bir fiile eklenerek anlamını tamamen değiştiren ve temel cümle kurulumunda her zaman cümlenin en sonuna giden yapı taşlarıdır 1. Bu ekleri kullanırken, geçmiş zaman (Perfekt) yaparken "ge" ekinin, mastar (Infinitiv) yaparken ise "zu" ekinin fiil ile ön ek arasına girdiğini unutmamak gerekir 1, 2.
+Sorduğunuz dört temel ön ekin taşıdığı ana mantık şöyledir:
+* ab-: Bir şeyden uzaklaşmayı, ayrılmayı veya bir eksilmeyi ifade eder 3. Örneğin; trenin hareket edip uzaklaşması anlamında abfahren, bir mobilyayı sökmek/parçalarına ayırmak için abbauen veya kilo vermek anlamında abnehmen kullanılır 3.
+* an-: Bir hedefe yaklaşmayı veya bir şey eklemeyi/hedefe tutunmayı belirtir 4. Hedefe varmak anlamında ankommen, bir şeye başlamak için anfangen veya bir e-postaya dosya iliştirmek için anhängen fiillerinde bu mantık vardır 4.
+* auf-: Temel olarak bir şeyi açma veya yukarı doğru bir yönelim (hareket) bildirir 4. Bir pencereyi açmak için aufmachen veya sabah yataktan yukarı kalkmak için aufstehen kullanılır 4, 5.
+* aus-: Dışarı çıkma, uzaklaşma, bir durumdan çıkma veya bir şeyi kapatma/eksiltme anlamı taşır 5. Işığı veya cihazı kapatmak için ausmachen, hisleri dışa vurmak için ausdrücken fiilleri bu ekin mantığını yansıtır 5.
+Bu eklerin cümleye kattığı yön ve hareket hissini kavramak, yeni karşılaştığınız fiilleri ezberlemeden anlamlarını tahmin etmenizi oldukça kolaylaştırır.
+Ayrılabilen eklere ein-, bei- ve entgegen- ile devam edelim mi, yoksa fiilden hiçbir zaman ayrılmayan eklere (Untrennbare Präfixe - be-, er-, ver- vb.) geçmek ister misiniz?

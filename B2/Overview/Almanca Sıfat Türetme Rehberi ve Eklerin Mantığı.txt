@@ -1,0 +1,15 @@
+﻿Almancada sıfat türeten bu dört temel son ekin (Suffixe) mantığını ve sınavlarda veya günlük hayatta işinize yarayacak "püf noktalarını" detaylıca inceleyelim:
+1. "-bar" Eki (İngilizcedeki "-able" mantığı)
+* Püf Noktası: Bu ek her zaman "pasif bir olasılık" bildirir; yani eylemi sizin yapıp yapmamanızdan ziyade, nesnenin o eyleme uygun olup olmadığını gösterir 1.
+* Detaylı Açıklama: Fiil köklerine eklenir. Örneğin "essen" (yemek) fiilinden "essbar" türetilir ve "bu yenebilir / yenmesi mümkündür" anlamına gelir 1, 2. Benzer şekilde "machen" (yapmak) fiilinden "machbar" (yapılabilir), "sehen" (görmek) fiilinden "sichtbar" (görülebilir) elde edilir 2.
+2. "-ig" Eki (İsimden karakteristik yaratma)
+* Püf Noktası: İsimlere (Nomen) gelir ve o nesnenin hangi özellikle "dolu" veya "kaplı" olduğunu anlatır 2.
+* Detaylı Açıklama: Güneş anlamına gelen "Sonne" ismine "-ig" eklendiğinde kelime "sonnig" (güneşli) olur 2. Aynı kural "Staub" (toz) için "staubig" (tozlu), "Fleiß" (çalışkanlık/gayret) için "fleißig" (çalışkan) şeklinde işler 2.
+3. "-lich" Eki (Zaman, zayıflatma ve klasik yapılar)
+* Püf Noktası: Bu ek Almancanın en çok yönlü eklerindendir. En kritik püf noktası, bir sıfata eklendiğinde onun gücünü "hafifletmesidir" (Abschwächung) 2.
+* Detaylı Açıklama: "Rot" kırmızıdır ancak "rötlich" tam bir kırmızı değil, "kırmızımsı" veya "hafif kırmızı" demektir 2. İkinci önemli işlevi ise zaman ve sıklık bildirmesidir; "Tag" (gün) isminden "täglich" (her gün/günlük) sıfatını türetir 2. "Freundlich" (arkadaşça) ve "menschlich" (insani) gibi çok temel sıfatlar da bu ekle kurulur 1, 2.
+4. "-isch" Eki (Köken ve gizli tehlike)
+* Püf Noktası: Französisch veya Spanisch gibi dil ve köken bildirirken çok normaldir 2. Ancak davranış bildiren kelimelere eklendiğinde genellikle olumsuz (negatif) bir yargı içerir 2.
+* Detaylı Açıklama: Almanca öğrenenlerin en sık düştüğü tuzak "kindlich" ve "kindisch" ayrımıdır 2. "-lich" eki olumludur; "kindlich" derseniz çocukların masumiyeti, açık fikirliliği ve merakı gibi güzel özelliklerini kastedersiniz 2. Ancak "-isch" eki alan "kindisch", birinin çocuk gibi olgunlaşmamış (unreif) davrandığını ifade eder ve bir eleştiridir 2.
+Bu eklerin mantığını kavradığınızda kelimeleri ezberlemek yerine onları köklerinden yola çıkarak kendiniz üretmeye ve tahmin etmeye başlarsınız.
+Sıfat oluşturma konusunu tamamlamak için, kelimeleri zıt anlamlı yapan "un-" (örneğin: unmöglich) veya yoksunluk bildiren "-los" (örneğin: arbeitslos) gibi eklere geçmek ister misiniz?

@@ -1,0 +1,430 @@
+{
+  "lessons": [
+    {
+      "id": "syntax_tekamolo",
+      "title": "TeKaMoLo (Satzgliedfolge)",
+      "category": "İleri Cümle Yapısı & Bağlaçlar (Satzbau & Konnektoren)",
+      "subcategory": "Temel Sıralama ve Akıcılık"
+    },
+    {
+      "id": "konn_entweder_oder",
+      "title": "Entweder-oder",
+      "category": "İleri Cümle Yapısı & Bağlaçlar (Satzbau & Konnektoren)",
+      "subcategory": "Temel Sıralama ve Akıcılık"
+    },
+    {
+      "id": "konn_weder_noch",
+      "title": "Weder-noch",
+      "category": "İleri Cümle Yapısı & Bağlaçlar (Satzbau & Konnektoren)",
+      "subcategory": "Temel Sıralama ve Akıcılık"
+    },
+    {
+      "id": "konn_sowohl_als_auch",
+      "title": "Sowohl-als auch",
+      "category": "İleri Cümle Yapısı & Bağlaçlar (Satzbau & Konnektoren)",
+      "subcategory": "Temel Sıralama ve Akıcılık"
+    },
+    {
+      "id": "konn_nicht_nur_sondern_auch",
+      "title": "Nicht nur-sondern auch",
+      "category": "İleri Cümle Yapısı & Bağlaçlar (Satzbau & Konnektoren)",
+      "subcategory": "Temel Sıralama ve Akıcılık"
+    },
+    {
+      "id": "konn_zwar_aber",
+      "title": "Zwar-aber",
+      "category": "İleri Cümle Yapısı & Bağlaçlar (Satzbau & Konnektoren)",
+      "subcategory": "Temel Sıralama ve Akıcılık"
+    },
+    {
+      "id": "konn_je_desto",
+      "title": "Je-desto (Komparativ)",
+      "category": "İleri Cümle Yapısı & Bağlaçlar (Satzbau & Konnektoren)",
+      "subcategory": "Temel Sıralama ve Akıcılık"
+    },
+    {
+      "id": "temp_gleichzeitigkeit",
+      "title": "Gleichzeitigkeit (Während, Bei)",
+      "category": "İleri Cümle Yapısı & Bağlaçlar (Satzbau & Konnektoren)",
+      "subcategory": "Zaman İlişkileri"
+    },
+    {
+      "id": "temp_vorzeitigkeit",
+      "title": "Vorzeitigkeit (Bevor, Vor)",
+      "category": "İleri Cümle Yapısı & Bağlaçlar (Satzbau & Konnektoren)",
+      "subcategory": "Zaman İlişkileri"
+    },
+    {
+      "id": "temp_nachzeitigkeit",
+      "title": "Nachzeitigkeit (Nachdem, Nach)",
+      "category": "İleri Cümle Yapısı & Bağlaçlar (Satzbau & Konnektoren)",
+      "subcategory": "Zaman İlişkileri"
+    },
+    {
+      "id": "temp_sobald_solange",
+      "title": "Sobald & Solange",
+      "category": "İleri Cümle Yapısı & Bağlaçlar (Satzbau & Konnektoren)",
+      "subcategory": "Zaman İlişkileri"
+    },
+    {
+      "id": "vs_kausal",
+      "title": "Kausal (Weil vs. Wegen/Aufgrund)",
+      "category": "Cümle Dönüşümleri & İlgi Yapıları",
+      "subcategory": "Bağlaç vs. Edat"
+    },
+    {
+      "id": "vs_konsekutiv",
+      "title": "Konsekutiv (Sodass vs. Infolge)",
+      "category": "Cümle Dönüşümleri & İlgi Yapıları",
+      "subcategory": "Bağlaç vs. Edat"
+    },
+    {
+      "id": "vs_konditional",
+      "title": "Konditional (Wenn vs. Bei/Im Falle)",
+      "category": "Cümle Dönüşümleri & İlgi Yapıları",
+      "subcategory": "Bağlaç vs. Edat"
+    },
+    {
+      "id": "vs_konzessiv",
+      "title": "Konzessiv (Obwohl vs. Trotz)",
+      "category": "Cümle Dönüşümleri & İlgi Yapıları",
+      "subcategory": "Bağlaç vs. Edat"
+    },
+    {
+      "id": "syntax_relativsaetze",
+      "title": "Relativsätze (Genitiv & Präpositionen)",
+      "category": "Cümle Dönüşümleri & İlgi Yapıları",
+      "subcategory": "İlgi Cümleleri"
+    },
+    {
+      "id": "nom_infinitiv",
+      "title": "Infinitiv (das Essen)",
+      "category": "Nominalleştirme & Nominalstil",
+      "subcategory": "İsimleştirme Kuralları"
+    },
+    {
+      "id": "nom_wortstamm",
+      "title": "Wortstamm (der Flug)",
+      "category": "Nominalleştirme & Nominalstil",
+      "subcategory": "İsimleştirme Kuralları"
+    },
+    {
+      "id": "nom_praefix_ge",
+      "title": "Präfix GE- (das Gespräch)",
+      "category": "Nominalleştirme & Nominalstil",
+      "subcategory": "İsimleştirme Kuralları"
+    },
+    {
+      "id": "nom_suffixe",
+      "title": "Suffixe (-ung, -heit, -keit, -nis, -er)",
+      "category": "Nominalleştirme & Nominalstil",
+      "subcategory": "İsimleştirme Kuralları"
+    },
+    {
+      "id": "ersatz_koennen",
+      "title": "Können (Möglichkeit, Fähigkeit)",
+      "category": "Nominalleştirme & Nominalstil",
+      "subcategory": "Modal Fiil Alternatifleri"
+    },
+    {
+      "id": "ersatz_muessen",
+      "title": "Müssen (Notwendigkeit, Pflicht)",
+      "category": "Nominalleştirme & Nominalstil",
+      "subcategory": "Modal Fiil Alternatifleri"
+    },
+    {
+      "id": "ersatz_duerfen",
+      "title": "Dürfen (Erlaubnis, Berechtigung)",
+      "category": "Nominalleştirme & Nominalstil",
+      "subcategory": "Modal Fiil Alternatifleri"
+    },
+    {
+      "id": "ersatz_wollen",
+      "title": "Wollen (Absicht)",
+      "category": "Nominalleştirme & Nominalstil",
+      "subcategory": "Modal Fiil Alternatifleri"
+    },
+    {
+      "id": "nominalstil_briefe",
+      "title": "Formelle Briefe & Berichte",
+      "category": "Nominalleştirme & Nominalstil",
+      "subcategory": "Nominalstil Uygulamaları"
+    },
+    {
+      "id": "nominalstil_wissenschaft",
+      "title": "Wissenschaftliche Texte",
+      "category": "Nominalleştirme & Nominalstil",
+      "subcategory": "Nominalstil Uygulamaları"
+    },
+    {
+      "id": "nominalstil_schlagzeilen",
+      "title": "Schlagzeilen & Schilder",
+      "category": "Nominalleştirme & Nominalstil",
+      "subcategory": "Nominalstil Uygulamaları"
+    },
+    {
+      "id": "trennbare_ab_an_auf_aus",
+      "title": "Ab, An, Auf, Aus",
+      "category": "Kelime Türetme & Önekler (Wortbildung)",
+      "subcategory": "Önekler (Präfixe)"
+    },
+    {
+      "id": "trennbare_ein_bei_mit_los",
+      "title": "Ein, Bei, Mit, Los",
+      "category": "Kelime Türetme & Önekler (Wortbildung)",
+      "subcategory": "Önekler (Präfixe)"
+    },
+    {
+      "id": "trennbare_zurueck_weg_vor_nach",
+      "title": "Zurück, Weg, Vor, Nach",
+      "category": "Kelime Türetme & Önekler (Wortbildung)",
+      "subcategory": "Önekler (Präfixe)"
+    },
+    {
+      "id": "trennbare_zusammen_entgegen",
+      "title": "Zusammen, Entgegen",
+      "category": "Kelime Türetme & Önekler (Wortbildung)",
+      "subcategory": "Önekler (Präfixe)"
+    },
+    {
+      "id": "untrennbare_be_er_ent_emp_ge",
+      "title": "Be, Er, Ent, Emp, Ge",
+      "category": "Kelime Türetme & Önekler (Wortbildung)",
+      "subcategory": "Önekler (Präfixe)"
+    },
+    {
+      "id": "untrennbare_ver_zer_hinter_miss",
+      "title": "Ver, Zer, Hinter, Miss",
+      "category": "Kelime Türetme & Önekler (Wortbildung)",
+      "subcategory": "Önekler (Präfixe)"
+    },
+    {
+      "id": "untrennbare_wider",
+      "title": "Wider (Anlama Göre Değişir)",
+      "category": "Kelime Türetme & Önekler (Wortbildung)",
+      "subcategory": "Önekler (Präfixe)"
+    },
+    {
+      "id": "adjektiv_suffixe",
+      "title": "Suffixe (-lich, -ig, -bar, -isch)",
+      "category": "Kelime Türetme & Önekler (Wortbildung)",
+      "subcategory": "Sıfat Türetme"
+    },
+    {
+      "id": "adjektiv_praefixe",
+      "title": "Präfixe (un-, in-, a-)",
+      "category": "Kelime Türetme & Önekler (Wortbildung)",
+      "subcategory": "Sıfat Türetme"
+    },
+    {
+      "id": "adjektiv_komposita",
+      "title": "Zusammensetzungen (Komposita)",
+      "category": "Kelime Türetme & Önekler (Wortbildung)",
+      "subcategory": "Sıfat Türetme"
+    },
+    {
+      "id": "adjektiv_graduierung",
+      "title": "Graduierung & Verstärkung",
+      "category": "Kelime Türetme & Önekler (Wortbildung)",
+      "subcategory": "Sıfat Türetme"
+    },
+    {
+      "id": "passiv_vorgang",
+      "title": "Vorgangspassiv (werden + Partizip II)",
+      "category": "İleri Fiil Formları & Varsayımlar",
+      "subcategory": "Edilgen Yapı (Passiv)"
+    },
+    {
+      "id": "passiv_zustand",
+      "title": "Zustandspassiv (sein + Partizip II)",
+      "category": "İleri Fiil Formları & Varsayımlar",
+      "subcategory": "Edilgen Yapı (Passiv)"
+    },
+    {
+      "id": "passiv_ersatz",
+      "title": "Passiversatz (sich lassen, sein+zu, -bar)",
+      "category": "İleri Fiil Formları & Varsayımlar",
+      "subcategory": "Edilgen Yapı (Passiv)"
+    },
+    {
+      "id": "konj2_wuensche",
+      "title": "Irreale Bedingungen & Wünsche",
+      "category": "İleri Fiil Formları & Varsayımlar",
+      "subcategory": "Konjunktiv Yapıları"
+    },
+    {
+      "id": "konj2_vergleiche",
+      "title": "Irreale Vergleiche (als ob)",
+      "category": "İleri Fiil Formları & Varsayımlar",
+      "subcategory": "Konjunktiv Yapıları"
+    },
+    {
+      "id": "konj2_bitten",
+      "title": "Höfliche Bitten & Empfehlungen",
+      "category": "İleri Fiil Formları & Varsayımlar",
+      "subcategory": "Konjunktiv Yapıları"
+    },
+    {
+      "id": "konj1_indirekt",
+      "title": "Indirekte Rede",
+      "category": "İleri Fiil Formları & Varsayımlar",
+      "subcategory": "Konjunktiv Yapıları"
+    },
+    {
+      "id": "konj1_nachrichten",
+      "title": "Zitieren in Nachrichten",
+      "category": "İleri Fiil Formları & Varsayımlar",
+      "subcategory": "Konjunktiv Yapıları"
+    },
+    {
+      "id": "konj1_wendungen",
+      "title": "Feste Wendungen (Sei es drum)",
+      "category": "İleri Fiil Formları & Varsayımlar",
+      "subcategory": "Konjunktiv Yapıları"
+    },
+    {
+      "id": "indef_personen",
+      "title": "Personen (man, jemand, niemand)",
+      "category": "İnce Ayarlar & Doğal Almanca",
+      "subcategory": "Belirsizlik ve Olumsuzluk"
+    },
+    {
+      "id": "indef_sachen",
+      "title": "Sachen (etwas, nichts)",
+      "category": "İnce Ayarlar & Doğal Almanca",
+      "subcategory": "Belirsizlik ve Olumsuzluk"
+    },
+    {
+      "id": "indef_mengen",
+      "title": "Mengen (alle, manche, jeder, einige)",
+      "category": "İnce Ayarlar & Doğal Almanca",
+      "subcategory": "Belirsizlik ve Olumsuzluk"
+    },
+    {
+      "id": "indef_irgend",
+      "title": "Irgend- (irgendwer, irgendwas)",
+      "category": "İnce Ayarlar & Doğal Almanca",
+      "subcategory": "Belirsizlik ve Olumsuzluk"
+    },
+    {
+      "id": "negation_rules",
+      "title": "Negation (nicht, kein, nie, nirgends)",
+      "category": "İnce Ayarlar & Doğal Almanca",
+      "subcategory": "Belirsizlik ve Olumsuzluk"
+    },
+    {
+      "id": "pronomen_es",
+      "title": "Pronomen ES (Pro-wort, Platzhalter, Korrelat)",
+      "category": "İnce Ayarlar & Doğal Almanca",
+      "subcategory": "Cümle İçi Yapılar"
+    },
+    {
+      "id": "partikeln_modal",
+      "title": "Modalpartikeln (doch, ja, halt, eben, mal)",
+      "category": "İnce Ayarlar & Doğal Almanca",
+      "subcategory": "Cümle İçi Yapılar"
+    },
+    {
+      "id": "syntax_nvv",
+      "title": "Nomen-Verb-Verbindungen (Funktionsverbgefüge)",
+      "category": "İnce Ayarlar & Doğal Almanca",
+      "subcategory": "Cümle İçi Yapılar"
+    }
+  ],
+  "overviewFiles": [
+    "Almanca Ayrılabilen Fiillerin Mantığı ve Kullanımı.txt",
+    "Almanca Ayrılabilir Fiil Eklerinin Mantığı ve Kullanımı.txt",
+    "Almanca Ayrılabilir Ön Ekler_ Zusammen ve Entgegen.txt",
+    "Almanca Ayrılmayan Fiil Ekleri ve Anlam Mantığı.txt",
+    "Almanca B2 Seviyesi Konsekutiv Yapılar ve Dönüşümler.txt",
+    "Almanca B2 Seviyesi Nominal ve Verbal Stil Dönüşümleri.txt",
+    "Almanca B2 Seviyesi Passiv Alternatifleri Rehberi.txt",
+    "Almanca B2 Seviyesi İlgi Cümleleri ve Sözdizimi Rehberi.txt",
+    "Almanca B2 Zaman Bağlaçları_ Sobald ve Solange Kullanımı.txt",
+    "Almanca Dilbilgisinde Eşzamanlılık ve Yapısal Dönüşüm Teknikleri.txt",
+    "Almanca Dilbilgisinde Neden ve Sonuç Dönüşümleri.txt",
+    "Almanca Dilbilgisinde Sonralık ve Dönüşüm Yapıları.txt",
+    "Almanca Fiil Kökünden İsim Türetme Rehberi.txt",
+    "Almanca Kişi Bildiren Belgisiz Zamirler Kılavuzu.txt",
+    "Almanca Konjunktiv I ve Kalıplaşmış İfadeler.txt",
+    "Almanca Konjunktiv II_ Hayaller ve Şartlar Yapısı.txt",
+    "Almanca Koşul Yapılarında Nominal Dönüşüm Rehberi.txt",
+    "Almanca Medya Dilinde Nominal Stil Kullanımı.txt",
+    "Almanca Modal Fiillerin İsimleştirilmesi ve B2 Stratejileri.txt",
+    "Almanca Modal Partikeller ve Doğal Konuşma Rehberi.txt",
+    "Almanca Son Eklerle İsim Türetme Rehberi.txt",
+    "Almanca Sıfat Türetme Rehberi ve Eklerin Mantığı.txt",
+    "Almanca Sıfatlarda Derecelendirme ve Vurgu Sanatı.txt",
+    "Almanca Yazışmalarda Profesyonel İsimleştirme Sanatı.txt",
+    "Almanca İkili Bağlaçlar_ Je Desto Kullanımı.txt",
+    "Almanca İkili Bağlaçlar_ Nicht Nur Sondern Auch Kullanımı.txt",
+    "Almanca İkili Bağlaçlar_ Seçenek ve Tercih Yapıları.txt",
+    "Almanca İkili Bağlaçlar_ Weder Noch Kullanım Rehberi.txt",
+    "Almanca İkili Bağlaçlar_ Zwar Aber Kullanımı.txt",
+    "Almanca İleri Seviye İfade Kalıpları ve Bağlaçlar.txt",
+    "Almancada Ayrılabilen Fiil Ön Ekleri Rehberi.txt",
+    "Almancada Ayrılamayan Ön Ekler ve Temel Mantıkları.txt",
+    "Almancada Birleşik Sıfat Türetme Sanatı ve Püf Noktaları.txt",
+    "Almancada Dolaylı Anlatım ve Konjunktiv I Rehberi.txt",
+    "Almancada Konjunktiv II ile Nezaket ve Tavsiye Yapıları.txt",
+    "Almancada Mastar Fiillerle İsimleştirme Sanatı.txt",
+    "Almancada Niyet İfadesi_ Wollen Fiilinin İsimleştirilmesi.txt",
+    "Almancada Sıfatlarda Olumsuzluk Ön Ekleri.txt",
+    "Almancada Vorgangspassiv ve Edilgen Çatı Yapıları.txt",
+    "Almancada Wider Ön Eki ve Kullanım Alanları.txt",
+    "Almancada Zustandspassiv_ Durum Edilgen Yapısı ve İncelikleri.txt",
+    "Bilimsel Metinlerde Almanca İsimleştirme Sanatı.txt",
+    "Dürfen Fiilinin İsimleşme Stratejileri ve B2 Dilbilgisi Yapıları.txt",
+    "Haber Dilinde Konjunktiv I ve Objektif Aktarım.txt",
+    "Konjunktiv II_ Gerçek Dışı Karşılaştırmalar ve Nezaket Kalıpları.txt",
+    "Zaman Bağlaçlarında Öncelik ve Nominal Dönüşüm Rehberi.txt"
+  ],
+  "examFiles": [
+    "Adjektivsuffixe_exam.txt",
+    "duerfen_Nominalisierung_exam.txt",
+    "Entweder_oder_exam.txt",
+    "Gleichzeitigkeit_waehrend_bei_exam.txt",
+    "Graduierung_Adjektive_exam.txt",
+    "Indefinitpronomen_exam.txt",
+    "Je_desto_exam.txt",
+    "Kausalsaetze_weil_wegen_aufgrund_exam.txt",
+    "Komposita_Adjektive_exam.txt",
+    "Konditionale_Nominalisierung_exam.txt",
+    "Konjunktiv_II_Hoefliche_Bitten_exam.txt",
+    "Konjunktiv_II_Irreale_exam.txt",
+    "Konjunktiv_II_Irreale_Vergleiche_exam.txt",
+    "Konjunktiv_I_Indirekte_Rede_exam.txt",
+    "Konjunktiv_I_Nachrichten_exam.txt",
+    "Konjunktiv_I_Redewendungen_exam.txt",
+    "Konsekutivsaetze_sodass_infolge_exam.txt",
+    "Konzessivsaetze_obwohl_trotz_exam.txt",
+    "Modalpartikeln_exam.txt",
+    "Modalverben_Nominalisierung_exam.txt",
+    "Nachzeitigkeit_nachdem_nach_exam.txt",
+    "Negationspraefixe_exam.txt",
+    "Nicht_nur_sondern_auch_exam.txt",
+    "Nomen_Verb_Verbindungen_exam.txt",
+    "Nominalisierung_Infinitiv_exam.txt",
+    "Nominalisierung_Suffixe_exam.txt",
+    "Nominalisierung_wortstamm_exam.txt",
+    "Nominalstil_Formelle_Briefe_exam.txt",
+    "Nominalstil_Medien_exam.txt",
+    "Passivalternativen_lassen_sein_zu_bar_exam.txt",
+    "Relativsaetze_dessen_deren_exam.txt",
+    "Sobald_Solange_exam.txt",
+    "Temporale_Nominalisierung_exam.txt",
+    "Trennbare_Praefixe_exam.txt",
+    "Trennbare_Verben_ab_an_auf_aus_exam.txt",
+    "Trennbare_Verben_ein_bei_mit_los_exam.txt",
+    "Trennbare_Verben_zusammen_entgegen_exam.txt",
+    "Untrennbare_Praefixe_exam.txt",
+    "Untrennbare_Verben_ver_zer_miss_hinter_exam.txt",
+    "Vorgangspassiv_exam.txt",
+    "Weder_noch_exam.txt",
+    "wider_Praefix_exam.txt",
+    "Wissenschaftliche_Nominalisierung_exam.txt",
+    "wollen_Nominalisierung_exam.txt",
+    "Zustandspassiv_exam.txt",
+    "Zwar_aber_exam.txt"
+  ]
+}

@@ -1,0 +1,10 @@
+﻿Zaman (Temporal) bağlaçlarının son grubu olan "Nachzeitigkeit" (Sonralık), bir eylemin diğerinden sonra gerçekleştiğini ifade eder 1.
+Bir öğretmen gözüyle buradaki en kritik B2 seviyesi kuralları şunlardır:
+* Verbalstil (Bağlaçla): Günlük dilde olayların sırasını anlatırken "nachdem" (olduktan sonra) bağlacını kullanırız 1. Burada çok önemli bir zaman uyumu (zaman kayması) kuralı vardır: "nachdem" cümlesindeki eylem daha önce bittiği için, ana cümleden bir derece daha eski bir zamanda çekimlenmelidir (örneğin ana cümle Präteritum ise, "nachdem" cümlesi Plusquamperfekt olur) 1.
+* Nominalstil (Edatla): Resmi yazılı dilde "nachdem" bağlacının yerini her zaman Dativ (-e hali) alan "nach" edatı alır 1.
+* Dönüşüm Örneği:
+* Bağlaçla: "Nachdem er den PC ausgeschaltet hatte, setzte er sich vor den Fernseher." (Bilgisayarı kapattıktan sonra televizyonun önüne oturdu) 1.
+* Edatla: "Nach dem Ausschalten des Computers setzte er sich vor den Fernseher." (Bilgisayarın kapatılmasından sonra televizyonun önüne oturdu) 1. Gördüğünüz gibi "ausschalten" fiili isimleşerek ("das Ausschalten") cümleyi pratik bir şekilde kısaltmıştır 1.
+Zaman bildiren bağlaçlar ve edatlar grubunu böylece eksiksiz tamamlamış olduk!
+Bu dönüşüm serisini tamamen bitirmek için geriye sadece eylemin amacını anlatan Final grubumuz (damit / um... zu bağlaçlarını zu / für edatlarına dönüştürme) ve eylemin nasıl yapıldığını anlatan Instrumental grubumuz (indem bağlacını durch edatına dönüştürme) kaldı.
+Hangisiyle devam edelim?

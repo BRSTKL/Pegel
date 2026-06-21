@@ -1,0 +1,7 @@
+﻿"dürfen" (izinli olmak / yapabilmek) fiilini B2 seviyesinde isimleştirirken, iznin kaynağına, resmiyetine ve olumlu/olumsuz olma durumuna göre üç farklı yedek isim (Ersatznomen) kullanırız.
+Bir öğretmen gözüyle buradaki en önemli püf noktaları şunlardır:
+* die Erlaubnis (İzin): Standart profesyonel dilde en yaygın kullanımdır. Örneğin, "Die Mitarbeiter dürfen im Homeoffice arbeiten" (Çalışanlar evden çalışabilir) cümlesini isimleştirirken, "Die Mitarbeiter haben die Erlaubnis, im Homeoffice zu arbeiten" (Çalışanların evden çalışma izni vardır) kalıbını kullanırız 1, 2.
+* die Berechtigung (Yetki/Hak): Bu kelime "Erlaubnis" kelimesinin çok daha resmi (formeller) versiyonudur 1. Özellikle iş sözleşmelerinde (Verträge) veya resmi devlet dairelerinde (Behörden) işlem yaparken "berechtigt sein, etwas zu tun" (bir şeyi yapmaya yetkili olmak) kalıbı tercih edilir 2.
+* das Verbot (Yasak): Eğer cümlede "nicht dürfen" (izinli olmamak / yapması yasak olmak) geçiyorsa, bu durumu doğrudan "das Verbot" ismiyle ifade ederiz 1.
+Böylece "dürfen" fiilinin mantığını da çok net bir şekilde oturttuk. Geriye modal fiillerden sadece niyet bildiren "wollen" (die Absicht) ve tercih/istek bildiren "mögen" (die Vorliebe / der Wunsch) kaldı.
+Hızlıca bu son iki fiili de toparlayıp, yazılı dilde hayat kurtaran "Bağlaçları Edatlara Dönüştürme" (örneğin weil bağlacını wegen edatına çevirme) konusuna geçiş yapalım mı?

@@ -1,0 +1,10 @@
+﻿Cümle yapısını (Syntax) zenginleştiren İlgi Cümleleri (Relativsätze), B2 seviyesinde özellikle Genitiv (-in hali) ve edatlarla (Präpositionen) birlikte çok sık kullanılır.
+Bir öğretmen gözüyle buradaki en önemli pratik kurallar şunlardır:
+* Genitiv (Sahiplik Bildiren) İlgi Zamirleri: Maskulin ve nötr isimler için "dessen", feminin ve çoğul isimler için "deren" kullanılır 1. Sahiplik (Zugehörigkeit) bildirdikleri için tıpkı iyelik zamirleri gibi çalışırlar 1.
+* Altın Kural (Artikelsiz Kullanım): "Dessen" ve "deren" zamirlerinden hemen sonra gelen ismin önüne asla başka bir artikel konmaz 1. Çünkü bu zamirler cümlenin içinde zaten artikel görevini üstlenmiştir 1.
+* Örnek: "Der Mann, dessen Auto kaputt ist..." (Arabası bozulan adam...) veya "Die Frau, deren Mann..." (Kocası... olan kadın...) 1.
+* Edatlarla Kullanım (Präpositionen): Eğer ilgi cümlesindeki eylem belirli bir edat gerektiriyorsa (Örn: sich interessieren für veya reisen mit), bu edat doğrudan ilgi zamirinin hemen önüne yerleştirilir 1. İlgi zamirinin alacağı ismin hali (Akkusativ veya Dativ), doğrudan başındaki bu edata göre şekillenir 1.
+* Örnek: "Die Freunde, mit denen ich reise..." (Birlikte seyahat ettiğim arkadaşlarım...) 1 veya "das Haus, in dem meine beste Freundin wohnt" (...en iyi arkadaşımın yaşadığı ev) 2.
+* Bağlaçlarla Karıştırmama: Edat ve ilgi zamiriyle kurulan yapıların ayrı yazıldığına dikkat etmek gerekir. Örneğin, bir evden bahsederken kullanılan "in dem" ilgi zamiri kalıbı, bir bağlaç olan "indem" (yaparak/ederek) ile karıştırılmamalıdır 2, 3.
+Sözdizimi (Syntax) konusunun bu zarif parçasını da böylece netleştirmiş olduk!
+Geriye cümleleri birbirine bağlarken sebep, sonuç ve amaç anlattığımız, metinlerinizi çok daha mantıksal ve akıcı kılacak olan Kausale, Konsekutive ve Finale Konnektoren (weshalb, sodass, damit, infolgedessen) grubu kaldı. Hazırsanız bu mantıksal bağlaçlarla devam edelim mi?

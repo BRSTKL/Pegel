@@ -1,0 +1,8 @@
+﻿Almancada Passiv (Edilgen Çatı) konusuna harika bir geçiş yaptık. "Vorgangspassiv" (Süreç/Eylem Edilgeni), eylemi kimin yaptığının (Täter) bilinmediği, önemsiz olduğu veya özellikle belirtilmek istenmediği durumlarda, eylemin veya sürecin kendisini merkeze almak için kullanılır 1, 2.
+Bir öğretmen gözüyle buradaki en temel B2 kuralları şunlardır:
+* Yapılışı: Çekimlenmiş "werden" yardımcı fiili ve cümlenin en sonuna giden "Partizip II" (fiilin 3. hali) ile oluşturulur 1, 3.
+* Aktiv: Die Stadtverwaltung entwickelt ein neues Konzept. (Belediye yeni bir konsept geliştiriyor) 1.
+* Passiv: Ein neues Konzept wird entwickelt. (Yeni bir konsept geliştiriliyor) 1.
+* Özne Dönüşümü: Aktif cümledeki Akkusativ (ismin -i hali) nesnesi, pasif cümlede doğrudan Nominativ (yalın hal) özneye dönüşür 1.
+* İstisnalar (Dativ ve 'es'): Aktif cümlede sadece Dativ (ismin -e hali) nesne varsa bu hal pasif cümlede de aynen korunur (Örn: Der Chefin wird geholfen) 3, 4. Eğer cümlede Akkusativ bir nesne yoksa, cümleye özne olarak geçici "es" kelimesi getirilir (Örn: Es wird gespielt / Oyun oynanıyor) 3.
+Eylemin yapılış sürecini anlatan bu yapıyı netleştirdiğimize göre, şimdi eylemin tamamlanmış sonucunu ve durumunu gösteren Zustandspassiv (Durum Edilgeni: sein + Partizip II) yapısına mı, yoksa Passiv cümleleri resmi dilde çok daha şık ve pratik hale getiren Passiversatzformen (Passiv Alternatifleri: sich lassen, sein zu) konusuna mı geçelim?

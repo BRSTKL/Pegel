@@ -1,0 +1,8 @@
+﻿Gazete manşetlerinde (Schlagzeilen) ve tabelalarda (Schilder) Nominalstil (isimleştirme stili) kullanılmasının temel amacı maksimum kısalık ve netlik sağlamaktır 1. Bu alanlarda her kelime ve artikel ekstra yer kapladığı için, fiiller ve uzun cümleler yerine kompakt isim paketleri tercih edilir 1.
+Bir öğretmen gözüyle buradaki en net örnekler şunlardır:
+* "Yeni istasyon pazartesi günü açılacak" (Der neue Bahnhof wird am Montag eröffnet) gibi uzun bir cümle kurmak yerine, doğrudan "Pazartesi günü yeni istasyonun açılışı" (Eröffnung des neuen Bahnhofs am Montag) denir 1, 2.
+* "Fiyatlar ocak ayından itibaren artırılacak" yerine tek kelimede "Ocaktan itibaren fiyat artışı" (Preiserhöhung ab Januar) ifadesi kullanılır 2.
+* "Makinistler grev ilan etti" yerine "Makinist grevi duyuruldu" (Streik der Lokführer angekündigt) manşeti atılır 2.
+* Tabelalarda sürekli karşımıza çıkan "Rauchen verboten" (Sigara içmek yasak) veya "Betreten auf eigene Gefahr" (Girmek kendi sorumluluğunuzdadır) ifadeleri de tamamen bu stilde oluşturulmuştur 2.
+Bir gazete bayisinin önünden geçerken manşetlere dikkat ederseniz, neredeyse hepsinin anlatımı kısaltmak için bu stilde yazıldığını fark edersiniz 2.
+Nominalstil'in nerelerde kullanıldığını harika bir şekilde toparladık. Son olarak, bu stilin metni ne zaman aşırı karmaşık ve boğucu hale getirdiğini, yani hangi durumlarda kesinlikle kullanılmaması gerektiğini inceleyerek konuyu noktalayalım mı?

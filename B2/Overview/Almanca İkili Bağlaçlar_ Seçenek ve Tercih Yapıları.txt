@@ -1,0 +1,7 @@
+﻿İkili bağlaçlar (Zweigliedrige Konnektoren) konusuna "entweder ... oder" (ya ... ya da) ile harika bir giriş yapıyoruz. Bu yapı, A ve B gibi iki durum veya nesne arasında bir seçim (Auswahl) yapmanız gerektiğinde kullanılır 1.
+Bir öğretmen gözüyle buradaki en önemli B2 seviyesi püf noktaları şunlardır:
+* Virgül Kuralı: Bu bağlacın birbirine bağladığı cümleler veya kelimeler arasına kesinlikle virgül (Komma) konmaz 2.
+* Benzersiz Cümle Dizilimi İstisnası: Almancada başka hiçbir bağlaçta olmayan çok özel bir kuralı vardır. Cümleye en baştan "Entweder" ile başlarsanız, fiil 2. pozisyonda da durabilir 3. pozisyonda da durabilir 3. Yani "Entweder wir gehen ins Kino..." (3. pozisyon) demek de, "Entweder gehen wir ins Kino..." (2. pozisyon) demek de tamamen doğrudur ve kulağa doğal gelir 2, 3.
+* Cümleyi Kısaltma (Pratiklik): Eğer her iki taraftaki özne ve fiil aynıysa, cümleyi uzatmamak için ikinci kısımda bunları tekrar etmenize gerek yoktur 2. Örneğin: "Ich werde entweder ein Sandwich oder eine Pizza essen" (Ya sandviç ya da pizza yiyeceğim) diyerek anlatımı çok daha akıcı hale getirebilirsiniz 2.
+Seçenek ve tercih bildiren bu yapıyı böylece kolayca halletmiş olduk.
+Hazırsanız, her iki durumun da geçerli olduğunu belirterek cümleye zenginlik katan "nicht nur ... sondern auch" (sadece o değil, aynı zamanda bu) veya "sowohl ... als auch" (hem ... hem de) bağlaçlarına geçelim mi?

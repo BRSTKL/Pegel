@@ -1,0 +1,232 @@
+[
+  {
+    "lessonId": "konn_entweder_oder",
+    "lessonTitle": "Entweder-oder",
+    "overviewFile": "Almanca İkili Bağlaçlar_ Seçenek ve Tercih Yapıları.txt"
+  },
+  {
+    "lessonId": "konn_weder_noch",
+    "lessonTitle": "Weder-noch",
+    "overviewFile": "Almanca İkili Bağlaçlar_ Weder Noch Kullanım Rehberi.txt"
+  },
+  {
+    "lessonId": "konn_nicht_nur_sondern_auch",
+    "lessonTitle": "Nicht nur-sondern auch",
+    "overviewFile": "Almanca İkili Bağlaçlar_ Nicht Nur Sondern Auch Kullanımı.txt"
+  },
+  {
+    "lessonId": "konn_zwar_aber",
+    "lessonTitle": "Zwar-aber",
+    "overviewFile": "Almanca İkili Bağlaçlar_ Zwar Aber Kullanımı.txt"
+  },
+  {
+    "lessonId": "konn_je_desto",
+    "lessonTitle": "Je-desto (Komparativ)",
+    "overviewFile": "Almanca İkili Bağlaçlar_ Je Desto Kullanımı.txt"
+  },
+  {
+    "lessonId": "temp_gleichzeitigkeit",
+    "lessonTitle": "Gleichzeitigkeit (Während, Bei)",
+    "overviewFile": "Almanca Dilbilgisinde Eşzamanlılık ve Yapısal Dönüşüm Teknikleri.txt"
+  },
+  {
+    "lessonId": "temp_vorzeitigkeit",
+    "lessonTitle": "Vorzeitigkeit (Bevor, Vor)",
+    "overviewFile": "Zaman Bağlaçlarında Öncelik ve Nominal Dönüşüm Rehberi.txt"
+  },
+  {
+    "lessonId": "temp_nachzeitigkeit",
+    "lessonTitle": "Nachzeitigkeit (Nachdem, Nach)",
+    "overviewFile": "Almanca Dilbilgisinde Sonralık ve Dönüşüm Yapıları.txt"
+  },
+  {
+    "lessonId": "temp_sobald_solange",
+    "lessonTitle": "Sobald & Solange",
+    "overviewFile": "Almanca B2 Zaman Bağlaçları_ Sobald ve Solange Kullanımı.txt"
+  },
+  {
+    "lessonId": "vs_kausal",
+    "lessonTitle": "Kausal (Weil vs. Wegen/Aufgrund)",
+    "overviewFile": "Almanca Dilbilgisinde Neden ve Sonuç Dönüşümleri.txt"
+  },
+  {
+    "lessonId": "vs_konsekutiv",
+    "lessonTitle": "Konsekutiv (Sodass vs. Infolge)",
+    "overviewFile": "Almanca B2 Seviyesi Konsekutiv Yapılar ve Dönüşümler.txt"
+  },
+  {
+    "lessonId": "vs_konditional",
+    "lessonTitle": "Konditional (Wenn vs. Bei/Im Falle)",
+    "overviewFile": "Almanca Koşul Yapılarında Nominal Dönüşüm Rehberi.txt"
+  },
+  {
+    "lessonId": "vs_konzessiv",
+    "lessonTitle": "Konzessiv (Obwohl vs. Trotz)",
+    "overviewFile": "Almanca B2 Seviyesi Nominal ve Verbal Stil Dönüşümleri.txt"
+  },
+  {
+    "lessonId": "syntax_relativsaetze",
+    "lessonTitle": "Relativsätze (Genitiv & Präpositionen)",
+    "overviewFile": "Almanca B2 Seviyesi İlgi Cümleleri ve Sözdizimi Rehberi.txt"
+  },
+  {
+    "lessonId": "nom_infinitiv",
+    "lessonTitle": "Infinitiv (das Essen)",
+    "overviewFile": "Almancada Mastar Fiillerle İsimleştirme Sanatı.txt"
+  },
+  {
+    "lessonId": "nom_wortstamm",
+    "lessonTitle": "Wortstamm (der Flug)",
+    "overviewFile": "Almanca Fiil Kökünden İsim Türetme Rehberi.txt"
+  },
+  {
+    "lessonId": "nom_suffixe",
+    "lessonTitle": "Suffixe (-ung, -heit, -keit, -nis, -er)",
+    "overviewFile": "Almanca Son Eklerle İsim Türetme Rehberi.txt"
+  },
+  {
+    "lessonId": "ersatz_muessen",
+    "lessonTitle": "Müssen (Notwendigkeit, Pflicht)",
+    "overviewFile": "Almanca Modal Fiillerin İsimleştirilmesi ve B2 Stratejileri.txt"
+  },
+  {
+    "lessonId": "ersatz_duerfen",
+    "lessonTitle": "Dürfen (Erlaubnis, Berechtigung)",
+    "overviewFile": "Dürfen Fiilinin İsimleşme Stratejileri ve B2 Dilbilgisi Yapıları.txt"
+  },
+  {
+    "lessonId": "ersatz_wollen",
+    "lessonTitle": "Wollen (Absicht)",
+    "overviewFile": "Almancada Niyet İfadesi_ Wollen Fiilinin İsimleştirilmesi.txt"
+  },
+  {
+    "lessonId": "nominalstil_briefe",
+    "lessonTitle": "Formelle Briefe & Berichte",
+    "overviewFile": "Almanca Yazışmalarda Profesyonel İsimleştirme Sanatı.txt"
+  },
+  {
+    "lessonId": "nominalstil_wissenschaft",
+    "lessonTitle": "Wissenschaftliche Texte",
+    "overviewFile": "Bilimsel Metinlerde Almanca İsimleştirme Sanatı.txt"
+  },
+  {
+    "lessonId": "nominalstil_schlagzeilen",
+    "lessonTitle": "Schlagzeilen & Schilder",
+    "overviewFile": "Almanca Medya Dilinde Nominal Stil Kullanımı.txt"
+  },
+  {
+    "lessonId": "trennbare_ab_an_auf_aus",
+    "lessonTitle": "Ab, An, Auf, Aus",
+    "overviewFile": "Almanca Ayrılabilen Fiillerin Mantığı ve Kullanımı.txt"
+  },
+  {
+    "lessonId": "trennbare_ein_bei_mit_los",
+    "lessonTitle": "Ein, Bei, Mit, Los",
+    "overviewFile": "Almanca Ayrılabilir Fiil Eklerinin Mantığı ve Kullanımı.txt"
+  },
+  {
+    "lessonId": "trennbare_zurueck_weg_vor_nach",
+    "lessonTitle": "Zurück, Weg, Vor, Nach",
+    "overviewFile": "Almancada Ayrılabilen Fiil Ön Ekleri Rehberi.txt"
+  },
+  {
+    "lessonId": "trennbare_zusammen_entgegen",
+    "lessonTitle": "Zusammen, Entgegen",
+    "overviewFile": "Almanca Ayrılabilir Ön Ekler_ Zusammen ve Entgegen.txt"
+  },
+  {
+    "lessonId": "untrennbare_be_er_ent_emp_ge",
+    "lessonTitle": "Be, Er, Ent, Emp, Ge",
+    "overviewFile": "Almancada Ayrılamayan Ön Ekler ve Temel Mantıkları.txt"
+  },
+  {
+    "lessonId": "untrennbare_ver_zer_hinter_miss",
+    "lessonTitle": "Ver, Zer, Hinter, Miss",
+    "overviewFile": "Almanca Ayrılmayan Fiil Ekleri ve Anlam Mantığı.txt"
+  },
+  {
+    "lessonId": "untrennbare_wider",
+    "lessonTitle": "Wider (Anlama Göre Değişir)",
+    "overviewFile": "Almancada Wider Ön Eki ve Kullanım Alanları.txt"
+  },
+  {
+    "lessonId": "adjektiv_suffixe",
+    "lessonTitle": "Suffixe (-lich, -ig, -bar, -isch)",
+    "overviewFile": "Almanca Sıfat Türetme Rehberi ve Eklerin Mantığı.txt"
+  },
+  {
+    "lessonId": "adjektiv_praefixe",
+    "lessonTitle": "Präfixe (un-, in-, a-)",
+    "overviewFile": "Almancada Sıfatlarda Olumsuzluk Ön Ekleri.txt"
+  },
+  {
+    "lessonId": "adjektiv_komposita",
+    "lessonTitle": "Zusammensetzungen (Komposita)",
+    "overviewFile": "Almancada Birleşik Sıfat Türetme Sanatı ve Püf Noktaları.txt"
+  },
+  {
+    "lessonId": "adjektiv_graduierung",
+    "lessonTitle": "Graduierung & Verstärkung",
+    "overviewFile": "Almanca Sıfatlarda Derecelendirme ve Vurgu Sanatı.txt"
+  },
+  {
+    "lessonId": "passiv_vorgang",
+    "lessonTitle": "Vorgangspassiv (werden + Partizip II)",
+    "overviewFile": "Almancada Vorgangspassiv ve Edilgen Çatı Yapıları.txt"
+  },
+  {
+    "lessonId": "passiv_zustand",
+    "lessonTitle": "Zustandspassiv (sein + Partizip II)",
+    "overviewFile": "Almancada Zustandspassiv_ Durum Edilgen Yapısı ve İncelikleri.txt"
+  },
+  {
+    "lessonId": "passiv_ersatz",
+    "lessonTitle": "Passiversatz (sich lassen, sein+zu, -bar)",
+    "overviewFile": "Almanca B2 Seviyesi Passiv Alternatifleri Rehberi.txt"
+  },
+  {
+    "lessonId": "konj2_wuensche",
+    "lessonTitle": "Irreale Bedingungen & Wünsche",
+    "overviewFile": "Almanca Konjunktiv II_ Hayaller ve Şartlar Yapısı.txt"
+  },
+  {
+    "lessonId": "konj2_vergleiche",
+    "lessonTitle": "Irreale Vergleiche (als ob)",
+    "overviewFile": "Konjunktiv II_ Gerçek Dışı Karşılaştırmalar ve Nezaket Kalıpları.txt"
+  },
+  {
+    "lessonId": "konj2_bitten",
+    "lessonTitle": "Höfliche Bitten & Empfehlungen",
+    "overviewFile": "Almancada Konjunktiv II ile Nezaket ve Tavsiye Yapıları.txt"
+  },
+  {
+    "lessonId": "konj1_indirekt",
+    "lessonTitle": "Indirekte Rede",
+    "overviewFile": "Almancada Dolaylı Anlatım ve Konjunktiv I Rehberi.txt"
+  },
+  {
+    "lessonId": "konj1_nachrichten",
+    "lessonTitle": "Zitieren in Nachrichten",
+    "overviewFile": "Haber Dilinde Konjunktiv I ve Objektif Aktarım.txt"
+  },
+  {
+    "lessonId": "konj1_wendungen",
+    "lessonTitle": "Feste Wendungen (Sei es drum)",
+    "overviewFile": "Almanca Konjunktiv I ve Kalıplaşmış İfadeler.txt"
+  },
+  {
+    "lessonId": "indef_personen",
+    "lessonTitle": "Personen (man, jemand, niemand)",
+    "overviewFile": "Almanca Kişi Bildiren Belgisiz Zamirler Kılavuzu.txt"
+  },
+  {
+    "lessonId": "partikeln_modal",
+    "lessonTitle": "Modalpartikeln (doch, ja, halt, eben, mal)",
+    "overviewFile": "Almanca Modal Partikeller ve Doğal Konuşma Rehberi.txt"
+  },
+  {
+    "lessonId": "syntax_nvv",
+    "lessonTitle": "Nomen-Verb-Verbindungen (Funktionsverbgefüge)",
+    "overviewFile": "Almanca İleri Seviye İfade Kalıpları ve Bağlaçlar.txt"
+  }
+]

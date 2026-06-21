@@ -1,0 +1,10 @@
+﻿Neden (Kausal) bildiren cümleleri resmi yazılı dile (Nominalstil) aktarırken günlük bağlaçları (Konnektoren) edatlara (Präpositionen) dönüştürürüz.
+Bir öğretmen gözüyle buradaki en önemli B2 kuralları şunlardır:
+* Verbalstil (Bağlaçlar): Günlük dilde sebebi açıklarken fiili sona atan "weil" veya "da" bağlaçlarını kullanırız 1. "weil" çok yaygın ve nötrdür; "da" ise sebep dinleyici tarafından zaten biliniyorsa tercih edilir ve genellikle cümlenin en başında kullanılır 1, 2.
+* Nominalstil (Edatlar): Yazılı dilde ve resmi metinlerde "weil" yerine "wegen" (nedeniyle) veya ondan çok daha resmi olan "aufgrund" (...-e dayanarak) edatlarını kullanırız 1. En önemli kural: Bu edatların her ikisi de her zaman Genitiv (ismin -in hali) ile kullanılır 1. "Aufgrund", özellikle raporlar ve iş başvuruları (Bewerbungen) için mükemmeldir 1.
+* Dönüşüm Örneği:
+* Bağlaçla (Verbal): "... weil er Berufserfahrung hat" (Çünkü iş tecrübesi var) 1.
+* Edatla (Nominal): "... wegen seiner Berufserfahrung" (İş tecrübesi nedeniyle) 1.
+* Çok Resmi: "... aufgrund seiner langjährigen Berufserfahrung" (Uzun yıllara dayanan iş tecrübesine istinaden) 1.
+Neden (Kausal) bağlaçlarını harika bir şekilde edata dönüştürdük!
+Şimdi bu sebebin yarattığı sonucu anlatan Konsekutiv grubuna, yani "so dass" (böylece/öyle ki) bağlacını "infolge" edatına dönüştürme kurallarına geçelim mi?

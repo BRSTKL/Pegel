@@ -1,0 +1,10 @@
+﻿Bir eylemin gerçekleşmesi için gereken koşulu (Konditional) belirtirken, günlük dildeki bağlaçları resmi metinlerde edatlara dönüştürürüz.
+Bir öğretmen gözüyle buradaki en önemli B2 dönüşüm kuralları şunlardır:
+* Verbalstil (Bağlaçla): Günlük dilde koşul bildirmek için en çok "wenn" (eğer) veya durumun gerçekleşme ihtimali daha düşükse/varsayımsalsa "falls" (şayet/olur da) bağlaçlarını kullanırız 1.
+* Nominalstil (Edatla): Yazılı dilde "wenn" yerine "bei" (+ Dativ), "falls" yerine ise "im Falle" (+ Genitiv) edatı tercih edilir 1, 2. "Bei" edatı genellikle sürekli veya düzenli durumları, "im Falle" ise özellikle iş hayatında veya sözleşmelerde karşımıza çıkan resmi ihtimalleri ifade eder 1-3.
+* Negatif Şart (Altın Kural): Eğer cümlede "wenn ... nicht/keine" (eğer ... yoksa/olmazsa) gibi olumsuz bir şart varsa, bunu tek bir edatla, yani "ohne" (+ Akkusativ) ile çok zarif bir şekilde kısaltabiliriz 2, 4.
+* Dönüşüm Örnekleri:
+* Olumlu Şart: "Wenn man regelmäßig Deutsch hört..." -> "Bei regelmäßigem Deutschhören..." (Düzenli Almanca dinleme durumunda/dinlenirse...) 1, 2.
+* Olumsuz Şart: "Wenn man keine Berufsausbildung hat..." -> "Ohne Berufsausbildung..." (Mesleki eğitim olmadan...) 2, 4.
+Şart bildiren yapıları da böylece harika bir şekilde özetledik!
+Şimdi bu dönüşüm serisinin son ve en kapsamlı grubu olan Temporal (Zaman) bağlaçlarına geçelim mi? Burada özellikle "als" ve "wenn" (dığında/zaman) bağlaçlarını "bei, vor, nach" gibi edatlara dönüştürmenin çok kritik bir kuralı var, hazırsanız oradan devam edebiliriz.

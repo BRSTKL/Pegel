@@ -1,0 +1,12 @@
+﻿"Zustandspassiv" (Durum Edilgeni), eylemin nasıl yapıldığına veya sürecine (Vorgang) değil, eylemin tamamlanmış sonucuna (Ergebnis) ve ortaya çıkan duruma odaklanır 1, 2. Yani bir işin artık tamamen bittiğini ve hazır olduğunu ifade etmek için kullanırız 2.
+Bir öğretmen gözüyle buradaki en önemli B2 seviyesi kuralları ve ince detaylar şunlardır:
+* Yapılışı: Süreç edilgenindeki "werden" yardımcı fiili yerine doğrudan "sein" fiili kullanılır ve cümlenin sonuna yine "Partizip II" (fiilin 3. hali) eklenir 2.
+* Zaman Sınırlaması: Zustandspassiv sadece iki zaman diliminde kullanılır: Şimdiki zaman (Präsens) ve geçmiş zaman (Präteritum) 1.
+* Mantıksal Karşılaştırma: Süreç ve Durum arasındaki farkı tek bir örnekle netleştirebiliriz:
+* Aktiv: Der IT-Techniker hat die neue Software installiert (IT teknisyeni yeni yazılımı kurdu - Odak: Yapan kişi) 1.
+* Vorgangspassiv (Süreç): Die neue Software wird installiert (Yeni yazılım kuruluyor - Odak: O an gerçekleşen eylem/süreç) 1.
+* Zustandspassiv (Durum): Die neue Software ist installiert (Yeni yazılım kurulu/kuruldu - Odak: Tamamlanmış sonuç ve durum) 1.
+* Geçmiş Zaman Örneği: "Der Konferenzraum ist vorbereitet" (Toplantı odası hazırlandı/hazır) cümlesini geçmişe taşırken sadece sein fiilini değiştiririz: "Die Tür war geschlossen" (Kapı kapalıydı) 1, 2.
+* Sıfat Benzerliği (Altın Kural): Bu yapı aslında cümlede bir sıfat kullanmaya çok benzer. "Das Fenster war schön" (Pencere güzeldi) demek ile "Das Fenster war geöffnet" (Pencere açıktı/açılmıştı) demek dil bilgisi mantığı olarak aynıdır; tek fark burada normal bir sıfat yerine fiilin 3. halinin (Partizip II) sıfat görevinde kullanılmasıdır 2.
+Böylece Passiv çatısının her iki yönünü de (süreç ve sonuç) eksiksiz olarak kavramış olduk!
+Şimdi resmi metinlerde "werden" kelimesini sürekli tekrarlamaktan kurtararak yazınızı anında profesyonel seviyeye çıkaracak Passiversatzformen (Passiv Alternatifleri: sich lassen, sein zu, -bar/-lich ekleri) konusuna geçiş yapalım mı?

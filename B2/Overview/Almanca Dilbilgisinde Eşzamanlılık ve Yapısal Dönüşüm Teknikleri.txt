@@ -1,0 +1,8 @@
+﻿Zaman (Temporal) bildiren bağlaçların ilki olan "Gleichzeitigkeit" (Eşzamanlılık), iki eylemin tam olarak aynı anda gerçekleştiğini ifade eder 1.
+Bir öğretmen gözüyle buradaki en önemli B2 dönüşüm kuralları şunlardır:
+* Verbalstil (Bağlaçla): Günlük dilde eşzamanlılığı anlatmak için tesadüfi paralellikleri belirten "während" (sırasında/iken) veya birbirine sıkı sıkıya bağlı durumları anlatan "solange" bağlaçları kullanılır 1, 2.
+* Nominalstil (Edatla): Yazılı ve resmi dilde "während" bağlacı yerine "bei" (+ Dativ) veya yine "während" (+ Genitiv) edatı tercih edilir 1.
+* Dönüşüm Örneği: "Während ich am Computer arbeitete..." (Bilgisayarda çalışırken...) cümlesi, "Bei meiner Arbeit am Computer..." şeklinde isimleştirilebilir 3. Alternatif olarak "Während meiner Arbeit am Computer..." (Bilgisayardaki çalışmam sırasında) demek de mümkündür ve "während" edatı kulağa "bei" edatından biraz daha resmi gelir 3.
+* Pratik Kullanım: Sadece bir fiili isimleştiriyorsanız (Infinitivnomen), "bei" edatını kullanmak mükemmel bir kısayoldur. "Während ich lese, trinke ich Tee" (Okurken çay içerim) yerine basitçe "Beim Lesen trinke ich Tee" demek metninizi anında zarifleştirir 4.
+Eşzamanlı gerçekleşen olayları böylece netleştirmiş olduk!
+Zaman grubunu eksiksiz tamamlamak adına, bir eylemin diğerinden önce (Vorzeitigkeit) gerçekleştiğini anlatan "bevor" bağlacını "vor" edatına dönüştürme mantığına geçelim mi?

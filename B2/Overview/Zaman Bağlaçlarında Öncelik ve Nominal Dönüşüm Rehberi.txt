@@ -1,0 +1,8 @@
+﻿Zaman (Temporal) bağlaçlarında "Vorzeitigkeit" (Öncelik), bir eylemin diğerinden daha önce gerçekleştiğini ifade eder ve "Ne'den önce?" sorusuna cevap verir 1.
+Bir öğretmen gözüyle buradaki B2 dönüşüm kuralları ve ince taktikler şunlardır:
+* Verbalstil (Bağlaçla): Günlük dilde eylemin öncesini anlatırken "bevor" (veya bazen daha eski bir kullanım olan ehe) bağlacını kullanırız 1.
+* Nominalstil (Edatla): Resmi yazılı dilde ise "bevor" bağlacı yerine her zaman Dativ (-e hali) alan "vor" edatı kullanılır 1.
+* Altın Değerinde Püf Noktası: Cümleyi isimleştirirken her zaman fiili doğrudan isimleştirmek kulağa doğal gelmeyebilir. Bazen duruma uygun, cümlenin anlamını tam veren yepyeni bir isim (passendes Nomen) seçmek metninizi çok daha profesyonel ve zarif kılar 2.
+* Dönüşüm Örneği: "Bevor es Textverarbeitungsprogramme gab..." (Kelime işlemci programları olmadan önce...) cümlesini isimleştirirken fiili ("geben") zorlamak yerine, yepyeni bir isim ekleyerek "Vor der Erfindung der Textverarbeitungsprogramme..." (Kelime işlemci programlarının icadından önce...) şeklinde kurmak harika bir yazılı dil taktiğidir 2.
+Zaman bildiren yapıların bu parçasını da böylece başarıyla halletmiş olduk!
+Geriye zaman grubunu tamamen kapatacağımız, eylemin sonra gerçekleştiğini anlatan "Nachzeitigkeit" (yani nachdem bağlacını nach edatına dönüştürme) kaldı. Hemen bununla konuyu noktalayalım mı?

@@ -1,0 +1,7 @@
+﻿Fiilleri isimleştirmenin (Nominalisierung) ikinci yöntemi, tüm fiili kullanmak yerine sadece fiilin kökünü (Wortstamm) almaktır.
+Bir öğretmen gözüyle bu yöntemin en kritik detayları ve püf noktaları şunlardır:
+* Artikel Değişimi: İlk öğrendiğimiz mastar yönteminde (Infinitiv) artikel her zaman "das" iken, fiil kökünden türetilen bu isimlerin artikeli çoğunlukla "der" (Maskulin) olur 1.
+* Sesli Harf Değişimi (Vokalwechsel): İsim oluşturulurken genellikle fiil kökündeki sesli harf değişime uğrar 1. Örneğin sorduğunuz kelimede fliegen (uçmak) fiilindeki "ie" harfleri "u"ya dönüşerek "der Flug" (uçuş) ismini oluşturur 1. Benzer şekilde gehen (gitmek) fiilinden der Gang, werfen (fırlatmak) fiilinden ise der Wurf elde edilir 1.
+* Zorluk Derecesi: Maalesef bu sesli harf değişiminin sabit ve tahmin edilebilir bir kuralı yoktur; bu nedenle yeni karşılaştığınızda sözlükten kontrol etmeniz ve kelimeleri tek tek öğrenmeniz gerekir 1.
+* Kullanım Örneği: B2 seviyesi yazılarında cümleyi kısaltmak için harikadır. "Bevor wir fliegen..." (Uçmadan önce...) demek yerine, isimleştirilmiş haliyle "Vor dem Flug..." (Uçuş öncesi...) diyerek çok daha profesyonel bir ifade yakalarsınız 2. Aynı şekilde "anfangen" (başlamak) fiili yerine "nach dem Beginn" (başlangıçtan sonra) yapısını kullanabilirsiniz 2.
+Kökten isim türetme mantığı tamamen bu şekildedir. Şimdi hazırsanız, B2 seviyesindeki isimleştirmelerin neredeyse %70'ini kapsayan en önemli gruba, yani "-ung, -heit, -keit" gibi son eklerle (Suffixe) yapılan isimleştirmelere geçelim mi?

@@ -1,0 +1,10 @@
+﻿Neden bildiren bağlaçlardan sonra şimdi o nedenin doğurduğu sonucu (Konsequenz) anlatan "Konsekutiv" grubuna geldik.
+Bir öğretmen gözüyle buradaki en önemli B2 dönüştürme kuralları şunlardır:
+* Verbalstil (Bağlaçla): Günlük konuşmada bir sonucu veya etkiyi açıklarken yan cümle kurduran "sodass" veya "so ... dass" (böylece / o kadar ... ki) bağlaçları kullanılır 1.
+* Nominalstil (Edatla): Resmi yazılı dilde ise bu bağlaçların yerine "infolge" (sonucunda) edatı tercih edilir 1. En önemli kural, "infolge" edatının her zaman Genitiv (ismin -in hali) ile kullanılmasıdır 1, 2.
+* Dönüşüm Örneği:
+* Bağlaçla: "Frau Zimmer war so erkältet, dass sie nicht zur Arbeit gehen konnte." (Bayan Zimmer o kadar hastaydı ki işe gidemedi.) 1
+* Edatla: "Infolge ihrer Erkältung konnte sie nicht zur Arbeit gehen." (Soğuk algınlığı/hastalığı sonucunda işe gidemedi.) 1 Gördüğünüz gibi "erkältet" (hasta) sıfatı, "die Erkältung" (hastalık) ismine dönüşmüş ve cümle oldukça profesyonel bir şekilde kısalmıştır 1.
+* Alternatif Kullanım: Yine sonuç bildirirken, tıpkı "deshalb" gibi fiili yanına çeken (2. pozisyon) çok şık "infolgedessen" bağlacını da kullanabilirsiniz 3.
+Böylece sonuç bildiren yapıları da cebimize koyduk!
+Şimdi bir eylemin gerçekleşmesi için gereken koşulu anlatan Konditional (Şart) grubuna, yani "wenn / falls" (eğer) bağlaçlarını "bei / im Falle" edatlarına dönüştürme kurallarına geçelim mi?
