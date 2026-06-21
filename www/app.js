@@ -2925,7 +2925,8 @@ function handleQuizAnswer(selectedIdx, clickedBtn, allOptions) {
   
   allOptions.forEach(opt => opt.disabled = true);
   
-  if (selectedIdx === correctIdx) {
+  const isCorrect = selectedIdx === correctIdx;
+  if (isCorrect) {
     clickedBtn.classList.add("correct");
     clickedBtn.querySelector("i").className = "ti ti-circle-check-filled";
     correctAnswersCount++;
@@ -2943,14 +2944,46 @@ function handleQuizAnswer(selectedIdx, clickedBtn, allOptions) {
   
   saveState();
   
-  setTimeout(() => {
-    currentQuestionIndex++;
-    if (currentQuestionIndex < activeQuizQuestions.length) {
-      renderQuizQuestion();
-    } else {
-      finishQuiz();
+  if (isCorrect) {
+    setTimeout(() => {
+      currentQuestionIndex++;
+      if (currentQuestionIndex < activeQuizQuestions.length) {
+        renderQuizQuestion();
+      } else {
+        finishQuiz();
+      }
+    }, 1200);
+  } else {
+    // Show continue button at the bottom of the quiz-content-area
+    const container = document.getElementById("quiz-content-area");
+    if (container) {
+      const nextBtn = document.createElement("button");
+      nextBtn.className = "c-purple";
+      nextBtn.style.width = "100%";
+      nextBtn.style.border = "none";
+      nextBtn.style.padding = "13px";
+      nextBtn.style.borderRadius = "var(--border-radius-lg)";
+      nextBtn.style.fontSize = "13.5px";
+      nextBtn.style.fontWeight = "600";
+      nextBtn.style.cursor = "pointer";
+      nextBtn.style.color = "#ffffff";
+      nextBtn.style.marginTop = "20px";
+      nextBtn.style.display = "flex";
+      nextBtn.style.alignItems = "center";
+      nextBtn.style.justifyContent = "center";
+      nextBtn.style.gap = "6px";
+      nextBtn.innerHTML = `<i class="ti ti-arrow-right"></i> Devam Et`;
+      nextBtn.onclick = () => {
+        currentQuestionIndex++;
+        if (currentQuestionIndex < activeQuizQuestions.length) {
+          renderQuizQuestion();
+        } else {
+          finishQuiz();
+        }
+      };
+      container.appendChild(nextBtn);
     }
-  }, 1600);
+  }
 }
 
 function finishQuiz() {
@@ -5757,26 +5790,46 @@ function checkB2QuizPart() {
     checkBtn.style.opacity = "0.5";
   }
   
-  setTimeout(() => {
-    if (lessonQuizLives <= 0) {
-      finishLessonQuiz(false);
-    } else {
-      if (b2QuizPart === 1) {
-        if (checkBtn) {
-          checkBtn.style.pointerEvents = "auto";
-          checkBtn.style.opacity = "1";
-          checkBtn.disabled = false;
+  if (incorrectCount === 0) {
+    setTimeout(() => {
+      if (lessonQuizLives <= 0) {
+        finishLessonQuiz(false);
+      } else {
+        if (b2QuizPart === 1) {
+          b2QuizPart = 2;
+          renderB2QuizPart();
+        } else {
+          finishLessonQuiz(true);
+        }
+      }
+    }, 2500);
+  } else {
+    // Wait for user click to proceed
+    if (checkBtn) {
+      checkBtn.style.pointerEvents = "auto";
+      checkBtn.style.opacity = "1";
+      checkBtn.disabled = false;
+      if (lessonQuizLives <= 0) {
+        checkBtn.innerHTML = `Sınavı Bitir <i class="ti ti-arrow-right"></i>`;
+        checkBtn.onclick = () => {
+          finishLessonQuiz(false);
+        };
+      } else {
+        if (b2QuizPart === 1) {
           checkBtn.innerHTML = `2. Bölüme Geç <i class="ti ti-arrow-right"></i>`;
           checkBtn.onclick = () => {
             b2QuizPart = 2;
             renderB2QuizPart();
           };
+        } else {
+          checkBtn.innerHTML = `Sınavı Bitir <i class="ti ti-arrow-right"></i>`;
+          checkBtn.onclick = () => {
+            finishLessonQuiz(true);
+          };
         }
-      } else {
-        finishLessonQuiz(true);
       }
     }
-  }, 2500);
+  }
 }
 
 function startLessonQuiz(lesson) {
@@ -6060,20 +6113,55 @@ function selectSentenceOption(event, selectedIdx) {
     }
   }
   
-  const delay = q.translation ? 3000 : (isCorrect ? 1200 : 1800);
-  
-  setTimeout(() => {
-    if (lessonQuizLives <= 0) {
-      finishLessonQuiz(false);
-    } else {
-      lessonQuizCurrentIndex++;
-      if (lessonQuizCurrentIndex >= activeLessonQuizQuestions.length) {
-        finishLessonQuiz(true);
+  if (isCorrect) {
+    const delay = q.translation ? 2500 : 1200;
+    setTimeout(() => {
+      if (lessonQuizLives <= 0) {
+        finishLessonQuiz(false);
       } else {
-        renderLessonQuizQuestion();
+        lessonQuizCurrentIndex++;
+        if (lessonQuizCurrentIndex >= activeLessonQuizQuestions.length) {
+          finishLessonQuiz(true);
+        } else {
+          renderLessonQuizQuestion();
+        }
       }
+    }, delay);
+  } else {
+    // Show continue button below the options container
+    const container = document.getElementById("lesson-quiz-options-container");
+    if (container) {
+      const nextBtn = document.createElement("button");
+      nextBtn.className = "c-purple";
+      nextBtn.style.width = "100%";
+      nextBtn.style.border = "none";
+      nextBtn.style.padding = "13px";
+      nextBtn.style.borderRadius = "var(--border-radius-lg)";
+      nextBtn.style.fontSize = "13.5px";
+      nextBtn.style.fontWeight = "600";
+      nextBtn.style.cursor = "pointer";
+      nextBtn.style.color = "#ffffff";
+      nextBtn.style.marginTop = "20px";
+      nextBtn.style.display = "flex";
+      nextBtn.style.alignItems = "center";
+      nextBtn.style.justifyContent = "center";
+      nextBtn.style.gap = "6px";
+      nextBtn.innerHTML = `<i class="ti ti-arrow-right"></i> Devam Et`;
+      nextBtn.onclick = () => {
+        if (lessonQuizLives <= 0) {
+          finishLessonQuiz(false);
+        } else {
+          lessonQuizCurrentIndex++;
+          if (lessonQuizCurrentIndex >= activeLessonQuizQuestions.length) {
+            finishLessonQuiz(true);
+          } else {
+            renderLessonQuizQuestion();
+          }
+        }
+      };
+      container.parentNode.appendChild(nextBtn);
     }
-  }, delay);
+  }
 }
 
 function submitWriteInAnswer() {
@@ -6209,18 +6297,54 @@ function selectLetterOption(event, selectedIdx) {
     renderLessonQuizLives();
   }
   
-  setTimeout(() => {
-    if (lessonQuizLives <= 0) {
-      finishLessonQuiz(false);
-    } else {
-      lessonQuizCurrentIndex++;
-      if (lessonQuizCurrentIndex >= activeLessonQuizQuestions.length) {
-        finishLessonQuiz(true);
+  if (isCorrect) {
+    setTimeout(() => {
+      if (lessonQuizLives <= 0) {
+        finishLessonQuiz(false);
       } else {
-        renderLessonQuizQuestion();
+        lessonQuizCurrentIndex++;
+        if (lessonQuizCurrentIndex >= activeLessonQuizQuestions.length) {
+          finishLessonQuiz(true);
+        } else {
+          renderLessonQuizQuestion();
+        }
       }
+    }, 1200);
+  } else {
+    // Show continue button below the options container
+    const container = document.getElementById("lesson-quiz-options-container");
+    if (container) {
+      const nextBtn = document.createElement("button");
+      nextBtn.className = "c-purple";
+      nextBtn.style.width = "100%";
+      nextBtn.style.border = "none";
+      nextBtn.style.padding = "13px";
+      nextBtn.style.borderRadius = "var(--border-radius-lg)";
+      nextBtn.style.fontSize = "13.5px";
+      nextBtn.style.fontWeight = "600";
+      nextBtn.style.cursor = "pointer";
+      nextBtn.style.color = "#ffffff";
+      nextBtn.style.marginTop = "20px";
+      nextBtn.style.display = "flex";
+      nextBtn.style.alignItems = "center";
+      nextBtn.style.justifyContent = "center";
+      nextBtn.style.gap = "6px";
+      nextBtn.innerHTML = `<i class="ti ti-arrow-right"></i> Devam Et`;
+      nextBtn.onclick = () => {
+        if (lessonQuizLives <= 0) {
+          finishLessonQuiz(false);
+        } else {
+          lessonQuizCurrentIndex++;
+          if (lessonQuizCurrentIndex >= activeLessonQuizQuestions.length) {
+            finishLessonQuiz(true);
+          } else {
+            renderLessonQuizQuestion();
+          }
+        }
+      };
+      container.parentNode.appendChild(nextBtn);
     }
-  }, isCorrect ? 1200 : 1800);
+  }
 }
 
 function finishLessonQuiz(success) {
@@ -6373,6 +6497,31 @@ function checkSentenceBuilderAnswer() {
   
   if (!q || !zone || !checkBtn) return;
   
+  // If the button is in continue state, proceed:
+  if (checkBtn.getAttribute("data-state") === "continue") {
+    checkBtn.setAttribute("data-state", ""); // reset
+    if (isGlobalQuiz) {
+      currentQuestionIndex++;
+      if (currentQuestionIndex < activeQuizQuestions.length) {
+        renderQuizQuestion();
+      } else {
+        finishQuiz();
+      }
+    } else {
+      if (lessonQuizLives <= 0) {
+        finishLessonQuiz(false);
+      } else {
+        lessonQuizCurrentIndex++;
+        if (lessonQuizCurrentIndex >= activeLessonQuizQuestions.length) {
+          finishLessonQuiz(true);
+        } else {
+          renderLessonQuizQuestion();
+        }
+      }
+    }
+    return;
+  }
+  
   // Disable check button and all interactions
   checkBtn.disabled = true;
   zone.style.pointerEvents = "none";
@@ -6423,25 +6572,37 @@ function checkSentenceBuilderAnswer() {
   
   saveState();
   
-  setTimeout(() => {
-    if (isGlobalQuiz) {
-      currentQuestionIndex++;
-      if (currentQuestionIndex < activeQuizQuestions.length) {
-        renderQuizQuestion();
-      } else {
-        finishQuiz();
-      }
-    } else {
-      if (lessonQuizLives <= 0) {
-        finishLessonQuiz(false);
-      } else {
-        lessonQuizCurrentIndex++;
-        if (lessonQuizCurrentIndex >= activeLessonQuizQuestions.length) {
-          finishLessonQuiz(true);
+  if (isCorrect) {
+    setTimeout(() => {
+      if (isGlobalQuiz) {
+        currentQuestionIndex++;
+        if (currentQuestionIndex < activeQuizQuestions.length) {
+          renderQuizQuestion();
         } else {
-          renderLessonQuizQuestion();
+          finishQuiz();
+        }
+      } else {
+        if (lessonQuizLives <= 0) {
+          finishLessonQuiz(false);
+        } else {
+          lessonQuizCurrentIndex++;
+          if (lessonQuizCurrentIndex >= activeLessonQuizQuestions.length) {
+            finishLessonQuiz(true);
+          } else {
+            renderLessonQuizQuestion();
+          }
         }
       }
-    }
-  }, isCorrect ? 1500 : 3500);
+    }, 1500);
+  } else {
+    // Show "Devam Et" button on checkBtn and allow click to continue
+    checkBtn.innerHTML = `<i class="ti ti-arrow-right"></i> Devam Et`;
+    checkBtn.style.backgroundColor = ""; // Reset red styling to regular purple
+    checkBtn.style.borderColor = "";
+    checkBtn.className = "c-purple";
+    checkBtn.disabled = false;
+    checkBtn.style.pointerEvents = "auto";
+    checkBtn.setAttribute("data-state", "continue");
+    checkBtn.focus();
+  }
 }
