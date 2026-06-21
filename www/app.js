@@ -2282,6 +2282,7 @@ function renderLevelPath() {
     
     const btn = document.createElement("button");
     btn.className = `droplet-node ${les.status}`;
+    btn.setAttribute("data-lesson-id", les.id);
     btn.style.left = `${x - 29}px`;
     btn.style.top = `${currentY}px`;
     
@@ -2526,12 +2527,18 @@ function renderSitemapScreen() {
   pathContent?.classList.remove("hidden");
   renderLevelPath();
   
-  // Auto-scroll to active lesson node within path-sitemap-content
+  // Auto-scroll to last viewed lesson or active lesson node within path-sitemap-content
   setTimeout(() => {
-    const activeNode = document.querySelector(".droplet-node.active");
+    let targetNode = null;
+    if (state.lastViewedLessonId) {
+      targetNode = document.querySelector(`.droplet-node[data-lesson-id="${state.lastViewedLessonId}"]`);
+    }
+    if (!targetNode) {
+      targetNode = document.querySelector(".droplet-node.active");
+    }
     const pathSitemap = document.getElementById("path-sitemap-content");
-    if (activeNode && pathSitemap) {
-      const rect = activeNode.getBoundingClientRect();
+    if (targetNode && pathSitemap) {
+      const rect = targetNode.getBoundingClientRect();
       const parentRect = pathSitemap.getBoundingClientRect();
       const relativeTop = pathSitemap.scrollTop + rect.top - parentRect.top;
       pathSitemap.scrollTo({
@@ -2546,6 +2553,9 @@ function renderSitemapScreen() {
 function openLesson(lesson, referrer = "sitemap") {
   cleanupLessonAnimations();
   showScreen("lesson");
+  
+  state.lastViewedLessonId = lesson.id;
+  saveState();
   
   const backBtn = document.querySelector("#lesson-screen .back-btn");
   if (backBtn) {
@@ -5424,6 +5434,8 @@ let b2TempSelectedOption = null;
 
 function startB2LessonQuiz(lesson) {
   activeLessonQuiz = lesson;
+  state.lastViewedLessonId = lesson.id;
+  saveState();
   if (!state.quizReferrer) {
     state.quizReferrer = document.querySelector("#lesson-screen .back-btn")?.getAttribute("data-target") || "sitemap";
   }
@@ -5838,6 +5850,8 @@ function startLessonQuiz(lesson) {
     return;
   }
   activeLessonQuiz = lesson;
+  state.lastViewedLessonId = lesson.id;
+  saveState();
   if (!state.quizReferrer) {
     state.quizReferrer = document.querySelector("#lesson-screen .back-btn")?.getAttribute("data-target") || "sitemap";
   }
