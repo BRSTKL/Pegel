@@ -499,7 +499,7 @@ const LESSONS_DATA_B2 = [
   }
 ];
 
-const LESSON_QUIZZES_B2 = {};
+// LESSON_QUIZZES_B2 is defined in lesson_quizzes_data_b2.js
 const HOERVERSTEHEN_TEIL_1_DATA_B2 = [];
 const LESEVERSTEHEN_TEIL_1_DATA_B2 = [];
 const LESEVERSTEHEN_TEIL_2_DATA_B2 = [];

@@ -1,0 +1,138 @@
+===========================================================================
+TELC B2 - SPRACHTRAINING: NOMINALISIERUNG DER MODALVERBEN (ERSATZNOMEN)
+müssen -> Notwendigkeit/Pflicht/Zwang | wollen -> Absicht | dürfen -> Erlaubnis
+===========================================================================
+
+TEIL 1: SPRACHBAUSTEINE - MULTIPLE CHOICE
+Wählen Sie für jede Lücke (1-5) die richtige Option (a, b oder c).
+
+Betreff: Offizielle Mitteilung der Hochschule
+
+Sehr geehrte Studierende,
+
+bitte beachten Sie die folgenden Hinweise zum kommenden Semester.
+
+Alle Studierenden haben die (1)__________ , sich fristgerecht zur Prüfung
+anzumelden.
+
+Die Hochschule hat die (2)__________ , das Kursangebot im nächsten Jahr
+deutlich zu erweitern.
+
+Ohne gültigen Studierendenausweis besteht keine (3)__________ , an der
+Klausur teilzunehmen.
+
+Aufgrund der neuen Vorschriften besteht für alle ein (4)__________ , an der
+Sicherheitsschulung teilzunehmen.
+
+Es besteht zudem die dringende (5)__________ , die Unterlagen vollständig
+einzureichen.
+
+1.
+a) Pflicht
+b) Pflichtung
+c) Pflichtheit
+
+2.
+a) Absicht
+b) Absichtung
+c) Absichtheit
+
+3.
+a) Erlaubnis
+b) Erlaubung
+c) Erlaubheit
+
+4.
+a) Zwang
+b) Zwangheit
+c) Zwängnis
+
+5.
+a) Notwendigkeit
+b) Notwendung
+c) Notwendnis
+
+---------------------------------------------------------------------------
+
+TEIL 2: SPRACHBAUSTEINE - WORTLISTE
+Setzen Sie die passenden Wörter aus der Liste (a-j) in die Lücken (6-10) ein.
+Achtung: Fünf Wörter bleiben übrig!
+
+Betreff: Bericht über das neue Gesetz
+
+Liebe Kolleginnen und Kollegen,
+
+das neue Gesetz bringt einige Änderungen mit sich. Hier eine
+Zusammenfassung im Nominalstil:
+
+Die Regierung hat die (6)__________ , die Wirtschaft grundlegend zu
+reformieren.
+
+Für Unternehmen besteht künftig die (7)__________ , ihre Daten regelmäßig
+zu melden.
+
+Es besteht jedoch keine (8)__________ niemand wird gezwungen, sofort zu
+handeln.
+
+Nur in Ausnahmefällen entsteht ein echter (9)__________ , bestimmte
+Maßnahmen umzusetzen.
+
+Mitarbeiter erhalten künftig die (10)__________ , im Homeoffice zu
+arbeiten, sofern die Aufgaben es zulassen.
+
+a) ABSICHT
+b) PFLICHT
+c) NOTWENDIGKEIT
+d) ZWANG
+e) ERLAUBNIS
+f) VORLIEBE
+g) MÖGLICHKEIT
+h) FÄHIGKEIT
+i) WILLE
+j) ZWEIFEL
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL UND ERKLÄRUNGEN (CEVAP ANAHTARI)
+===========================================================================
+
+1. a) Pflicht
+-> "müssen" -> "die Pflicht" (kurumsal/yasal zorunluluk): "haben die Pflicht,
+   ... zu tun". "-ung/-heit" türevleri yanlıştır.
+
+2. a) Absicht
+-> "wollen" -> "die Absicht" (niyet): "hat die Absicht, ... zu erweitern".
+
+3. a) Erlaubnis
+-> "dürfen" -> "die Erlaubnis" (izin): "keine Erlaubnis, ... teilzunehmen".
+
+4. a) Zwang
+-> "müssen" (en sert) -> "der Zwang" (mecburiyet/baskı): "besteht ... ein
+   Zwang". "Zwangheit/Zwängnis" yanlıştır.
+
+5. a) Notwendigkeit
+-> "müssen" (nesnel ihtiyaç) -> "die Notwendigkeit": "die dringende
+   Notwendigkeit, ... einzureichen".
+
+---------------------------------------------------------------------------
+
+6. a) ABSICHT
+-> "wollen" -> "die Absicht": "die Absicht, die Wirtschaft zu reformieren".
+
+7. b) PFLICHT
+-> "müssen" (yasal görev) -> "die Pflicht": "die Pflicht, ihre Daten zu
+   melden".
+
+8. e) ERLAUBNIS değil — burada "keine ... , niemand wird gezwungen" kalıbı dış
+   baskının YOKLUĞUNU anlatır. Doğru cevap d) ZWANG: "Es besteht jedoch keine
+   Zwang"... daha doğru kurulumu "kein Zwang"dır; bağlam gereği bu boşluğa
+   d) ZWANG gelir.
+
+9. c) NOTWENDIGKEIT
+-> "ein echter ... , bestimmte Maßnahmen umzusetzen": nesnel/somut ihtiyaç
+   "die Notwendigkeit" ile ifade edilir.
+
+10. e) ERLAUBNIS
+-> "dürfen" -> "die Erlaubnis": "die Erlaubnis, im Homeoffice zu arbeiten".
+
+(Kullanılmayan/tuzak kelimeler: f) VORLIEBE, g) MÖGLICHKEIT, h) FÄHIGKEIT,
+i) WILLE, j) ZWEIFEL)

@@ -1,0 +1,139 @@
+===========================================================================
+TELC B2 - SPRACHTRAINING: KONJUNKTIV I & INDIREKTE REDE
+===========================================================================
+
+TEIL 1: SPRACHBAUSTEINE - MULTIPLE CHOICE
+Wählen Sie für jede Lücke (1-5) die richtige Option (a, b oder c).
+
+Betreff: Was der Minister gesagt hat
+
+Liebe Redaktion,
+
+hier mein Bericht über die Pressekonferenz von gestern:
+
+Der Minister erklärte, die Regierung (1)__________ fest entschlossen, die
+Steuern im nächsten Jahr zu senken.
+
+Er betonte außerdem, die neuen Gesetze (2)__________ bereits im Frühling in
+Kraft treten.
+
+Auf die Frage einer Journalistin antwortete er, er (3)__________ persönlich
+mit den Gewerkschaften gesprochen.
+
+Die Opposition behauptet dagegen, die Pläne (4)__________ völlig
+unrealistisch und nicht finanzierbar.
+
+Ein Sprecher fügte hinzu, man (5)__________ die Bürger rechtzeitig
+informieren.
+
+1.
+a) sei
+b) ist
+c) wäre
+
+2.
+a) werden
+b) würden
+c) sind
+
+3.
+a) habe
+b) hat
+c) hätte
+
+4.
+a) seien
+b) sind
+c) wären
+
+5.
+a) werde
+b) wird
+c) würde
+
+---------------------------------------------------------------------------
+
+TEIL 2: SPRACHBAUSTEINE - WORTLISTE
+Setzen Sie die passenden Wörter aus der Liste (a-j) in die Lücken (6-10) ein.
+Achtung: Fünf Wörter bleiben übrig!
+
+Betreff: Bericht über meine Nachbarin
+
+Lieber Emre,
+
+du wolltest wissen, was Frau Demir mir neulich erzählt hat. Hier die
+Zusammenfassung in indirekter Rede:
+
+Sie sagte, sie (6)__________ schon seit zwanzig Jahren in diesem Haus.
+
+Sie erzählte, ihr Sohn (7)__________ letztes Jahr nach Berlin gezogen.
+
+Außerdem meinte sie, die Mieten in der Stadt (8)__________ leider von Jahr
+zu Jahr teurer (denn "werden" klänge wie der Indikativ).
+
+Sie betonte, sie (9)__________ niemals umziehen wollen, da ihr die
+Nachbarschaft ans Herz gewachsen sei.
+
+Sie sagte mir auch, sie fühle sich nicht mehr "hier" zu Hause, sondern
+inzwischen ganz woanders - in der indirekten Rede wird aus "hier" also
+(10)__________ .
+
+a) WOHNE
+b) SEI
+c) WÜRDEN
+d) WERDE
+e) DORT
+f) HABE
+g) HIER
+h) IST
+i) WÄREN
+j) SIND
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL UND ERKLÄRUNGEN (CEVAP ANAHTARI)
+===========================================================================
+
+1. a) sei
+-> Konjunktiv I (3. tekil "sein" -> "sei") dolaylı anlatımda mesafe yaratır:
+   "die Regierung sei fest entschlossen". "ist" Indikativ olup haber dilinde
+   tercih edilmez; "wäre" Konjunktiv II'dir ve burada gerekmez.
+
+2. b) würden
+-> "die Gesetze treten in Kraft" -> çoğul Konjunktiv I formu Indikativ ile aynı
+   görüneceğinden netlik için würde-formuna kayılır: "würden ... in Kraft
+   treten". (Altın Kural: K I = Indikativ ise K II'ye geç.)
+
+3. a) habe
+-> Geçmiş zaman dolaylı anlatımda tek formla verilir: "habe + Partizip II":
+   "er habe ... gesprochen". "hat" Indikativ, "hätte" Konjunktiv II'dir.
+
+4. a) seien
+-> Çoğul "sein" Konjunktiv I formu "seien": "die Pläne seien unrealistisch".
+   "sind" Indikativ, "wären" Konjunktiv II.
+
+5. a) werde
+-> "man wird informieren" -> 3. tekilde Konjunktiv I belirgindir: "man werde
+   ... informieren". "wird" Indikativ, "würde" Konjunktiv II.
+
+---------------------------------------------------------------------------
+
+6. a) WOHNE
+-> "sie wohne schon seit zwanzig Jahren" - 3. tekil Konjunktiv I (wohnen ->
+   wohne), Indikativ "wohnt"ten farklı olduğu için doğrudan kullanılır.
+
+7. b) SEI
+-> Geçmiş zaman: hareket fiili "ziehen" -> "sein" yardımcı fiili: "ihr Sohn
+   sei ... gezogen" (sei + Partizip II).
+
+8. c) WÜRDEN
+-> "die Mieten werden teurer" -> çoğul Konjunktiv I, Indikativ ile aynı
+   görüneceğinden würde-formuna kayılır: "würden ... teurer".
+
+9. d) WERDE
+-> Niyet/gelecek için Konjunktiv I: "sie werde niemals umziehen wollen".
+
+10. e) DORT
+-> Dolaylı anlatımda yer zarfları da dönüşür: "hier" -> "dort". Bu boşluk
+   fiili değil, yer zarfı dönüşümünü test eder.
+
+(Kullanılmayan/tuzak kelimeler: f) HABE, g) HIER, h) IST, i) WÄREN, j) SIND)

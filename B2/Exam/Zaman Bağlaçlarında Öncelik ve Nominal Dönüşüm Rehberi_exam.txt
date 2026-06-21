@@ -1,0 +1,133 @@
+===========================================================================
+TELC B2 - SPRACHTRAINING: TEMPORALE NOMINALISIERUNG - VORZEITIGKEIT
+(bevor -> vor | nachdem -> nach)
+===========================================================================
+
+TEIL 1: SPRACHBAUSTEINE - MULTIPLE CHOICE
+Wählen Sie für jede Lücke (1-5) die richtige Option (a, b oder c).
+
+Betreff: Mein Tagesablauf im Nominalstil
+
+Liebe Aslı,
+
+ich übe gerade, Zeitangaben formeller zu formulieren. Schau mal:
+
+(1)__________ dem Frühstück lese ich immer kurz die Nachrichten.
+
+(2)__________ dem Mittagessen mache ich einen kurzen Spaziergang.
+
+Statt "Bevor es Computer gab, schrieb man mit der Hand" sagt man im
+Nominalstil eleganter: "(3)__________ der Erfindung des Computers schrieb
+man mit der Hand."
+
+(4)__________ Abschluss meiner Arbeit gönne ich mir immer eine Tasse Tee.
+
+In formellen Texten benutzt man statt "bevor" das Wort (5)__________ , das
+immer den Dativ verlangt.
+
+1.
+a) Vor
+b) Bevor
+c) Nach dem
+
+2.
+a) Nach
+b) Nachdem
+c) Vor dem
+
+3.
+a) Vor
+b) Bevor
+c) Nachdem
+
+4.
+a) Nach
+b) Bevor
+c) Während
+
+5.
+a) vor
+b) bevor
+c) nachdem
+
+---------------------------------------------------------------------------
+
+TEIL 2: SPRACHBAUSTEINE - WORTLISTE
+Setzen Sie die passenden Wörter aus der Liste (a-j) in die Lücken (6-10) ein.
+Achtung: Fünf Wörter bleiben übrig!
+Hinweis: Achten Sie darauf, ob die Lücke vor einem NOMEN (Präposition) oder
+vor einem VERB-Satz (Konnektor) steht!
+
+Betreff: Bericht über die Renovierung
+
+Sehr geehrte Damen und Herren,
+
+hiermit fasse ich den Ablauf der Bauarbeiten zusammen:
+
+(6)__________ Beginn der Arbeiten wurde der gesamte Bereich abgesperrt.
+
+(7)__________ der Fertigstellung des Dachs begannen die Maler mit ihrer
+Arbeit.
+
+(8)__________ die Leitungen erneuert wurden, kam es leider zu einem
+Wasserschaden.
+
+(9)__________ alle Prüfungen abgeschlossen waren, wurde das Gebäude
+freigegeben.
+
+(10)__________ der Bauphase war die Straße teilweise gesperrt.
+
+a) VOR
+b) NACH
+c) BEVOR
+d) NACHDEM
+e) WÄHREND
+f) SEIT
+g) BIS
+h) BEI
+i) AB
+j) TROTZ
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL UND ERKLÄRUNGEN (CEVAP ANAHTARI)
+===========================================================================
+
+1. a) Vor
+-> "Vor dem Frühstück" (+Dativ) = "bevor ich frühstücke". "Bevor" bağlaçtır,
+   isim öbeğine uymaz.
+
+2. a) Nach
+-> "Nach dem Mittagessen" (+Dativ) = "nachdem ich gegessen habe".
+
+3. a) Vor
+-> "Vor der Erfindung des Computers" - fiili zorlamak yerine yeni bir isim
+   (Erfindung) seçmek zarif bir taktiktir.
+
+4. a) Nach
+-> "Nach Abschluss meiner Arbeit" = "nachdem ich fertig bin".
+
+5. a) vor
+-> Nominalstil'de "bevor" yerine Dativ alan "vor" edatı kullanılır.
+
+---------------------------------------------------------------------------
+
+6. a) VOR
+-> İSİM öbeği ("Beginn der Arbeiten") -> edat: "Vor Beginn der Arbeiten".
+
+7. b) NACH
+-> İSİM öbeği ("der Fertigstellung") -> edat: "Nach der Fertigstellung des
+   Dachs".
+
+8. c) BEVOR
+-> FİİL cümlesi ("die Leitungen erneuert wurden") -> bağlaç: "Bevor die
+   Leitungen erneuert wurden, ...".
+
+9. d) NACHDEM
+-> FİİL cümlesi ("alle Prüfungen abgeschlossen waren") -> bağlaç: "Nachdem
+   alle Prüfungen abgeschlossen waren, ...".
+
+10. e) WÄHREND
+-> İSİM öbeği ("der Bauphase") -> edat "während" (+Genitiv): "Während der
+   Bauphase war die Straße gesperrt".
+
+(Kullanılmayan/tuzak kelimeler: f) SEIT, g) BIS, h) BEI, i) AB, j) TROTZ)

@@ -1,0 +1,131 @@
+===========================================================================
+TELC B2 - SPRACHTRAINING: NOMINALSTIL IN WISSENSCHAFTLICHEN TEXTEN
+===========================================================================
+
+TEIL 1: SPRACHBAUSTEINE - MULTIPLE CHOICE
+Wählen Sie für jede Lücke (1-5) die richtige Option (a, b oder c).
+(Wählen Sie jeweils die wissenschaftlich-nominale Variante.)
+
+Betreff: Auszug aus meiner Hausarbeit
+
+Sehr geehrte Frau Professorin,
+
+anbei ein kurzer Abschnitt meiner Arbeit im wissenschaftlichen Stil:
+
+(1)__________ der zunehmenden Alterung der Bevölkerung ist eine Reform des
+Rentensystems notwendig.
+
+Die (2)__________ der Luftqualität in Großstädten stellt eine große
+Herausforderung dar.
+
+Eine (3)__________ des Energieverbrauchs ist für den Klimaschutz
+unerlässlich.
+
+Die (4)__________ neuer Technologien führt häufig zu tiefgreifenden
+Veränderungen.
+
+Statt "weil die Kosten steigen" schreibt man wissenschaftlich:
+"(5)__________ der steigenden Kosten".
+
+1.
+a) Aufgrund
+b) Weil
+c) Da
+
+2.
+a) Verschlechterung
+b) schlechter werden
+c) Verschlechtern
+
+3.
+a) Reduzierung
+b) Reduzieren
+c) reduziert
+
+4.
+a) Einführung
+b) Einführen
+c) eingeführt
+
+5.
+a) aufgrund
+b) weil
+c) denn
+
+---------------------------------------------------------------------------
+
+TEIL 2: SPRACHBAUSTEINE - WORTLISTE
+Setzen Sie die passenden Wörter aus der Liste (a-j) in die Lücken (6-10) ein.
+Achtung: Fünf Wörter bleiben übrig!
+
+Betreff: Zusammenfassung einer Studie
+
+Liebe Kommilitonin,
+
+hier meine Zusammenfassung der Studie im wissenschaftlichen Nominalstil:
+
+Die (6)__________ der Daten erfolgte über einen Zeitraum von zwei Jahren.
+
+Die (7)__________ der Ergebnisse zeigte einen klaren Zusammenhang zwischen
+den Variablen.
+
+Eine deutliche (8)__________ der Produktivität war nach der Umstellung zu
+beobachten.
+
+Die (9)__________ des Experiments unter gleichen Bedingungen bestätigte die
+Resultate.
+
+Zur (10)__________ der Hypothese wurden weitere Tests durchgeführt.
+
+a) ERHEBUNG
+b) AUSWERTUNG
+c) STEIGERUNG
+d) WIEDERHOLUNG
+e) ÜBERPRÜFUNG
+f) ERHÖHEN
+g) ANALYSE
+h) ENTWICKLUNG
+i) SENKUNG
+j) MESSEN
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL UND ERKLÄRUNGEN (CEVAP ANAHTARI)
+===========================================================================
+
+1. a) Aufgrund
+-> "Aufgrund der zunehmenden Alterung" (+Genitiv) - bilimsel neden bildirimi.
+   "weil/da" bağlaçtır, isim öbeğine uymaz.
+
+2. a) Verschlechterung
+-> "verschlechtern -> die Verschlechterung". Bilimsel stilde fiil değil isim
+   paketi kullanılır.
+
+3. a) Reduzierung
+-> "reduzieren -> die Reduzierung" (azaltma). İsim formu gereklidir.
+
+4. a) Einführung
+-> "einführen -> die Einführung" (getirme/uygulamaya koyma).
+
+5. a) aufgrund
+-> "aufgrund der steigenden Kosten" = "weil die Kosten steigen" yapısının
+   bilimsel karşılığı.
+
+---------------------------------------------------------------------------
+
+6. a) ERHEBUNG
+-> "die Erhebung der Daten" (veri toplama) - "erheben" -> "die Erhebung".
+
+7. b) AUSWERTUNG
+-> "die Auswertung der Ergebnisse" (sonuçların değerlendirilmesi).
+
+8. c) STEIGERUNG
+-> "die Steigerung der Produktivität" (verimlilik artışı) - "steigern".
+
+9. d) WIEDERHOLUNG
+-> "die Wiederholung des Experiments" (deneyin tekrarı).
+
+10. e) ÜBERPRÜFUNG
+-> "zur Überprüfung der Hypothese" (hipotezin sınanması/doğrulanması).
+
+(Kullanılmayan/tuzak kelimeler: f) ERHÖHEN, g) ANALYSE, h) ENTWICKLUNG,
+i) SENKUNG, j) MESSEN)

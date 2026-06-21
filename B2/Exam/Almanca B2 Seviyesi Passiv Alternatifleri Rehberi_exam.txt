@@ -1,0 +1,118 @@
+===========================================================================
+TELC B2 - SPRACHTRAINING: PASSIVERSATZFORMEN (LASSEN, SEIN+ZU, -BAR)
+===========================================================================
+
+TEIL 1: SPRACHBAUSTEINE - MULTIPLE CHOICE
+Wählen Sie für jede Lücke (1-5) die richtige Option (a, b oder c).
+
+Betreff: Probleme mit dem neuen Laptop
+
+Lieber Kemal,
+
+mein neuer Laptop macht mir richtig Ärger! Das Problem (1) sich leider nicht so einfach beheben, wie der Verkäufer mir versprochen hatte.
+
+Ich habe im Handbuch nachgelesen: Die Festplatte (2) zwar austauschbar, aber dafür braucht man spezielles Werkzeug. Das Display dagegen ist überhaupt nicht (3) - wenn es kaputtgeht, muss man den ganzen Laptop ersetzen.
+
+Der Kundendienst hat gesagt, das Problem (4) bis Freitag zu lösen, falls ich das Gerät einschicke. Das ist mir aber zu riskant, weil meine wichtigen Daten dann nicht (5) wären.
+
+Ich werde wohl doch noch einen Fachmann hier vor Ort fragen.
+
+Liebe Grüße
+Burak
+
+1.
+a) lässt
+b) ist
+c) kann
+
+2.
+a) ist
+b) lässt
+c) sein
+
+3.
+a) reparierbar
+b) reparieren
+c) reparierend
+
+4.
+a) lässt sich
+b) ist
+c) kann
+
+5.
+a) sicherbar
+b) sicher
+c) gesichert
+
+---------------------------------------------------------------------------
+
+TEIL 2: SPRACHBAUSTEINE - WORTLISTE
+Setzen Sie die passenden Wörter aus der Liste (a-j) in die Lücken (6-10) ein.
+Achtung: Fünf Wörter bleiben übrig!
+
+Betreff: Neue Bedienungsanleitung
+
+Liebe Ipek,
+
+wir haben für unser Produkt endlich eine neue Bedienungsanleitung geschrieben! Ich finde, sie ist jetzt viel klarer formuliert.
+
+Zum Beispiel steht jetzt: "Das Gerät (6) nicht ohne vorherige Reinigung benutzt werden." Früher hieß es nur "man darf das Gerät nicht benutzen", aber das klang zu informell für ein technisches Handbuch.
+
+Außerdem haben wir geschrieben, dass die Einstellungen jederzeit (7) sind, falls der Kunde sie ändern möchte. Das Wort "veränderbar" klingt viel professioneller als "man kann sie verändern".
+
+Ein wichtiger Satz lautet auch: "Die Batterie (8) sich leicht austauschen, ohne dass man Werkzeug braucht." Das war uns besonders wichtig zu betonen, weil viele Kunden sich davor fürchten.
+
+Zum Schluss steht im Text: "Bei Problemen (9) der Kundendienst zu kontaktieren." Diese Formulierung wirkt sehr professionell und höflich zugleich.
+
+Ich glaube, die neue Anleitung wird den Kunden wirklich (10) sein!
+
+Viele Grüße
+Selin
+
+a) IST
+b) VERÄNDERBAR
+c) LÄSST
+d) NÜTZLICH
+e) WASCHBAR
+f) KANN
+g) WIRD
+h) HILFREICH
+i) SOLL
+j) MUSS
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL UND ERKLÄRUNGEN (CEVAP ANAHTARI)
+===========================================================================
+
+1. a) lässt
+-> Açıklama: "sich lassen + Infinitiv" (yapılabilirlik bildiren Passiv alternatifi) doğrudur, çünkü "das Problem lässt sich nicht einfach beheben" (sorun kolayca çözülemiyor) kalıbı tam olarak bu yapıya uyar. "Ist" ve "kann" tek başına bu kalıbı tamamlayamaz, çünkü "sich lassen" sabit bir yapıdır.
+
+2. a) ist
+-> Açıklama: "sein + -bar Adjektiv" (yapılabilirlik bildiren Passiv alternatifi) doğrudur, çünkü cümlede zaten "austauschbar" sıfatı verilmiştir ve bu yapı her zaman "sein" yardımcı fiiliyle kurulur: "Die Festplatte ist zwar austauschbar..." (Sabit disk değiştirilebilir nitelikte...). "Lässt" burada gramatik olarak yanlıştır çünkü "lassen sich" yapısı mastar fiil gerektirir, sıfat değil; "sein" (mastar hali) ise çekimsiz olduğu için cümleye uymaz.
+
+3. a) reparierbar
+-> Açıklama: "-bar" ekli sıfat (reparierbar = tamir edilebilir) doğrudur, çünkü "das Display... überhaupt nicht reparierbar" (ekran hiç tamir edilebilir değil) ifadesi "sein + bar-Adjektiv" kalıbına tam oturur. "Reparieren" (mastar hali) ve "reparierend" (sıfat-fiil) bu pozisyonda gramatik olarak uymaz.
+
+4. a) lässt sich
+-> Açıklama: "sich lassen + Infinitiv" doğrudur, çünkü "das Problem lässt sich bis Freitag lösen" (sorun cumaya kadar çözülebilir) kalıbı yapılabilirlik bildirir. "Ist" tek başına yetersizdir (ist zu lösen olmalıydı), "kann" ise burada dilbilgisel olarak cümleye uymaz çünkü zaten "lassen" yapısı tercih edilmiştir.
+
+5. c) gesichert
+-> Açıklama: "gesichert" (sichern fiilinin Partizip II hali, "güvence altına alınmış" anlamında) doğrudur, çünkü "meine wichtigen Daten dann nicht gesichert wären" (önemli verilerim güvende olmazdı) ifadesi bu pozisyona uyar. "Sicherbar" Almancada yaygın kullanılan bir kelime değildir, "sicher" ise sadece "güvenli" sıfatıdır ve "Daten sicher" tek başına eksik bir yapı oluşturur.
+
+6. j) MUSS
+-> Açıklama: "müssen + Passiv (werden)" yapısı burada zorunluluk bildiren Passiv alternatifi olarak "sein + zu + Infinitiv" ile eşdeğerdir, ancak bu cümlede doğrudan "muss... benutzt werden" (kullanılmalıdır) kalıbı tercih edilmiştir; bu da zorunluluk/yasak bildiren resmi dilde sıkça kullanılan bir yapıdır.
+
+7. b) VERÄNDERBAR
+-> Açıklama: "-bar" ekli sıfat (veränderbar = değiştirilebilir) doğrudur, çünkü "die Einstellungen jederzeit veränderbar sind" (ayarlar her zaman değiştirilebilir) ifadesi yapılabilirlik bildiren -bar ekinin klasik kullanımıdır.
+
+8. c) LÄSST
+-> Açıklama: "sich lassen + Infinitiv" doğrudur, çünkü "die Batterie lässt sich leicht austauschen" (pil kolayca değiştirilebilir) kalıbı yapılabilirlik bildirir ve günlük kullanım kılavuzlarında en sık görülen Passiv alternatifidir.
+
+9. a) IST
+-> Açıklama: "sein + zu + Infinitiv" (zorunluluk bildiren Passiv alternatifi) doğrudur, çünkü "Bei Problemen ist der Kundendienst zu kontaktieren" (Sorun durumunda müşteri hizmetleriyle iletişime geçilmelidir) kalıbı "muss kontaktiert werden" ile eşdeğerdir ve resmi kılavuzlarda çok sık kullanılır.
+
+10. h) HILFREICH
+-> Açıklama: "hilfreich" (yardımcı/faydalı) burada Passiv alternatifi değil, basit bir sıfat olarak cümleyi tamamlar: "die neue Anleitung wird den Kunden wirklich hilfreich sein" (yeni kılavuz müşterilere gerçekten yardımcı olacak). Bu soru, öğrencinin her boşluğa otomatik olarak -bar eki veya lassen yapısı koymaması, bağlamı dikkatli okuması için bilinçli konulmuştur.
+
+(Teil 2 için boşa kalan tuzak kelimeler: d, e, f, g, i)

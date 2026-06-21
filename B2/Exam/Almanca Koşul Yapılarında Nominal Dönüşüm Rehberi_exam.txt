@@ -1,0 +1,133 @@
+===========================================================================
+TELC B2 - SPRACHTRAINING: KONDITIONALE NOMINALISIERUNG
+(wenn -> bei | falls -> im Falle | wenn ... nicht -> ohne)
+===========================================================================
+
+TEIL 1: SPRACHBAUSTEINE - MULTIPLE CHOICE
+Wählen Sie für jede Lücke (1-5) die richtige Option (a, b oder c).
+
+Betreff: Hinweise für neue Mitarbeiter
+
+Sehr geehrte Mitarbeiterinnen und Mitarbeiter,
+
+bitte beachten Sie die folgenden Hinweise im Nominalstil:
+
+(1)__________ regelmäßigem Training verbessern sich Ihre Sprachkenntnisse
+deutlich.
+
+(2)__________ eines technischen Problems wenden Sie sich bitte sofort an die
+IT-Abteilung.
+
+(3)__________ gültige Genehmigung darf niemand das Labor betreten.
+
+(4)__________ Krankheit informieren Sie uns bitte vor neun Uhr morgens.
+
+(5)__________ eines Stromausfalls schaltet sich das Notstromaggregat
+automatisch ein.
+
+1.
+a) Bei
+b) Wenn
+c) Falls
+
+2.
+a) Im Falle
+b) Bei dem
+c) Wenn
+
+3.
+a) Ohne
+b) Bei
+c) Falls
+
+4.
+a) Bei
+b) Wenn
+c) Ohne
+
+5.
+a) Im Falle
+b) Bei
+c) Wenn
+
+---------------------------------------------------------------------------
+
+TEIL 2: SPRACHBAUSTEINE - WORTLISTE
+Setzen Sie die passenden Wörter aus der Liste (a-j) in die Lücken (6-10) ein.
+Achtung: Fünf Wörter bleiben übrig!
+
+Betreff: Vertragsbedingungen
+
+Sehr geehrte Kundin, sehr geehrter Kunde,
+
+bitte lesen Sie die folgenden Bedingungen sorgfältig durch:
+
+(6)__________ rechtzeitiger Zahlung gewähren wir Ihnen einen Rabatt von
+fünf Prozent.
+
+(7)__________ einer Stornierung bis 14 Tage vorher erstatten wir den vollen
+Betrag.
+
+(8)__________ schriftliche Bestätigung ist der Vertrag nicht gültig.
+
+(9)__________ Nichteinhaltung der Frist behalten wir uns rechtliche Schritte
+vor.
+
+(10)__________ Sie umziehen, teilen Sie uns bitte Ihre neue Adresse mit.
+
+a) BEI
+b) IM FALLE
+c) OHNE
+d) WENN
+e) FALLS
+f) IM FALL
+g) DURCH
+h) TROTZ
+i) WEGEN
+j) BEIM
+
+===========================================================================
+LÖSUNGSSCHLÜSSEL UND ERKLÄRUNGEN (CEVAP ANAHTARI)
+===========================================================================
+
+1. a) Bei
+-> "Bei regelmäßigem Training" (+Dativ) = "wenn man regelmäßig trainiert".
+   Nominalstil'de "wenn" yerine "bei". "Wenn/Falls" bağlaçtır, isim öbeğiyle
+   kullanılmaz.
+
+2. a) Im Falle
+-> "Im Falle eines technischen Problems" (+Genitiv) = "falls ein Problem
+   auftritt". Resmi ihtimal için "im Falle".
+
+3. a) Ohne
+-> "Ohne gültige Genehmigung" (+Akkusativ) = "wenn man keine Genehmigung hat".
+   Olumsuz şart "ohne" ile kısaltılır.
+
+4. a) Bei
+-> "Bei Krankheit" = "wenn Sie krank sind". Düzenli/genel durum için "bei".
+
+5. a) Im Falle
+-> "Im Falle eines Stromausfalls" (+Genitiv) = resmi/varsayımsal ihtimal.
+
+---------------------------------------------------------------------------
+
+6. a) BEI
+-> "Bei rechtzeitiger Zahlung" = "wenn Sie rechtzeitig zahlen".
+
+7. b) IM FALLE
+-> "Im Falle einer Stornierung" (+Genitiv) = "falls Sie stornieren".
+
+8. c) OHNE
+-> "Ohne schriftliche Bestätigung" = "wenn keine Bestätigung vorliegt" (olumsuz
+   şart).
+
+9. f) IM FALL
+-> "Im Fall(e) der Nichteinhaltung" = "falls die Frist nicht eingehalten wird".
+   ("im Falle" ve "im Fall" eşdeğerdir; burada "im Fall" varyantı kullanılır.)
+
+10. e) FALLS
+-> "Falls Sie umziehen, teilen Sie uns ... mit" - burada cümle fiille (umziehen)
+   kurulduğu için bağlaç "falls" kullanılır; isim öbeği olmadığından edat değil
+   bağlaç gerekir.
+
+(Kullanılmayan/tuzak kelimeler: d) WENN, g) DURCH, h) TROTZ, i) WEGEN, j) BEIM)
