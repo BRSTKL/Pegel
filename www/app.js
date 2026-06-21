@@ -5582,11 +5582,7 @@ function openB2GapPicker(gapNum, event) {
       return `<div class="b2-inline-menu-item ${selectedClass}" onclick="selectB2InlineOption('${opt}', event)">${opt}</div>`;
     }).join("");
     
-    // Show menu temporarily to get dimensions
-    menu.classList.remove("hidden");
-    menu.style.display = "flex";
-    
-    // Position it
+    // Position it directly (always present in layout context, no display: none transition bugs)
     positionB2InlineMenu(gapNum);
     
     // Close menu on click outside, deferred to avoid immediate close due to event propagation
@@ -5604,7 +5600,7 @@ function openB2GapPicker(gapNum, event) {
     const previewScrollContainer = document.querySelector(".quiz-letter-preview");
     if (previewScrollContainer) {
       previewScrollContainer.onscroll = () => {
-        if (b2ActiveGap && !menu.classList.contains("hidden")) {
+        if (b2ActiveGap && menu.classList.contains("visible")) {
           positionB2InlineMenu(b2ActiveGap);
         }
       };
@@ -5685,8 +5681,7 @@ function selectB2InlineOption(optionText, event) {
 function closeB2InlineMenu() {
   const menu = document.getElementById("b2-inline-menu");
   if (menu) {
-    menu.className = "b2-inline-menu hidden";
-    menu.style.visibility = "hidden";
+    menu.className = "b2-inline-menu";
   }
   
   // Remove active highlight from gap
