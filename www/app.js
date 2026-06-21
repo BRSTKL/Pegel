@@ -2082,6 +2082,15 @@ function renderHomeScreen() {
             card.addEventListener("click", () => {
               state.activeCategory = cat.id;
               state.expandedSubcategories[sub.name] = true;
+              
+              // Set the last viewed lesson ID to the first uncompleted lesson in this subcategory
+              const completedLessons = getLevelProgress().completedLessons;
+              const nextLesson = subLessons.find(l => !completedLessons.includes(l.id)) || subLessons[0];
+              if (nextLesson) {
+                state.lastViewedLessonId = nextLesson.id;
+              }
+              
+              saveState();
               showScreen("sitemap");
             });
             continueList.appendChild(card);
@@ -2133,6 +2142,15 @@ function renderHomeScreen() {
         document.getElementById("fallback-continue-card")?.addEventListener("click", () => {
           state.activeCategory = recommendedCat.id;
           state.expandedSubcategories[recommendedSub.name] = true;
+          
+          // Set the last viewed lesson ID to the first uncompleted lesson in this subcategory
+          const completedLessons = getLevelProgress().completedLessons;
+          const nextLesson = subLessons.find(l => !completedLessons.includes(l.id)) || subLessons[0];
+          if (nextLesson) {
+            state.lastViewedLessonId = nextLesson.id;
+          }
+          
+          saveState();
           showScreen("sitemap");
         });
       }
