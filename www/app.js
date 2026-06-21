@@ -5426,23 +5426,14 @@ function startB2LessonQuiz(lesson) {
     backBtn.parentNode.replaceChild(newBackBtn, backBtn);
     newBackBtn.addEventListener("click", () => {
       if (confirm("Sınavdan çıkmak istiyor musunuz? İlerlemeniz kaybolacaktır.")) {
+        closeB2InlineMenu();
         showScreen("lesson");
       }
     });
   }
   
-  // Setup modal close events
-  const modalCloseBtn = document.getElementById("b2-picker-close-btn");
-  if (modalCloseBtn) {
-    modalCloseBtn.onclick = closeB2GapPicker;
-  }
-  
-  const modalOverlay = document.getElementById("b2-picker-modal");
-  if (modalOverlay) {
-    modalOverlay.onclick = (e) => {
-      if (e.target === modalOverlay) closeB2GapPicker();
-    };
-  }
+  // Close inline menu if open
+  closeB2InlineMenu();
 
   renderLessonQuizLives();
   renderB2QuizPart();
@@ -5491,7 +5482,7 @@ function renderB2QuizPart() {
       if (selectedVal) {
         statusClass = "answered";
       }
-      return `<span class="quiz-letter-gap ${statusClass}" id="b2-gap-${i}" onclick="openB2GapPicker(${i})" style="cursor: pointer; text-decoration: underline; text-decoration-style: dashed; font-weight: 600;">(${i}) ${selectedVal || "_____"}</span>`;
+      return `<span class="quiz-letter-gap ${statusClass}" id="b2-gap-${i}" onclick="openB2GapPicker(${i}, event)" style="cursor: pointer; text-decoration: underline; text-decoration-style: dashed; font-weight: 600;">(${i}) ${selectedVal || "_____"}</span>`;
     });
   }
   
@@ -5538,22 +5529,26 @@ function updateB2CheckButtonState() {
   checkBtn.disabled = !allFilled;
 }
 
-function openB2GapPicker(gapNum) {
-  if (b2Checked) return; // cannot change after checking
+function openB2GapPicker(gapNum, event) {
+  if (b2Checked) return;
+  if (event) event.stopPropagation(); // prevent closing menu immediately on click
   
   b2ActiveGap = gapNum;
   b2TempSelectedOption = b2Answers[gapNum] || null;
+  
+  const gapEl = document.getElementById(`b2-gap-${gapNum}`);
+  if (!gapEl) return;
   
   // Highlight active gap visually in UI
   let startRange = b2QuizPart === 1 ? 1 : 6;
   let endRange = b2QuizPart === 1 ? 5 : 10;
   for (let i = startRange; i <= endRange; i++) {
-    const gapEl = document.getElementById(`b2-gap-${i}`);
-    if (gapEl) {
+    const el = document.getElementById(`b2-gap-${i}`);
+    if (el) {
       if (i === gapNum) {
-        gapEl.className = "quiz-letter-gap active";
+        el.className = "quiz-letter-gap active";
       } else {
-        gapEl.className = b2Answers[i] ? "quiz-letter-gap answered" : "quiz-letter-gap pending";
+        el.className = b2Answers[i] ? "quiz-letter-gap answered" : "quiz-letter-gap pending";
       }
     }
   }
@@ -5562,120 +5557,114 @@ function openB2GapPicker(gapNum) {
   const q = activeB2Quiz.questions[gapNum - 1];
   const options = q.options;
   
-  const titleEl = document.getElementById("b2-picker-title");
-  if (titleEl) {
-    titleEl.textContent = `Boşluk (${gapNum}) için Seçim Yapın`;
-  }
+  const menu = document.getElementById("b2-inline-menu");
+  if (!menu) return;
   
-  const scrollContainer = document.getElementById("b2-picker-wheel-scroll");
-  if (scrollContainer) {
-    scrollContainer.innerHTML = options.map(opt => {
-      return `<div class="b2-picker-wheel-item" data-value="${opt}" onclick="scrollToB2WheelItem(this)">${opt}</div>`;
-    }).join("");
-    
-    // Bind scroll event to update the 3D effect and select active option
-    scrollContainer.onscroll = updateB2Wheel3DEffect;
-    
-    // Select/scroll to current value or default to first option
-    setTimeout(() => {
-      const targetVal = b2TempSelectedOption || options[0];
-      const items = Array.from(scrollContainer.querySelectorAll(".b2-picker-wheel-item"));
-      const targetItem = items.find(item => item.getAttribute("data-value") === targetVal);
-      if (targetItem) {
-        targetItem.scrollIntoView({ block: 'center', inline: 'nearest' });
-      } else if (items[0]) {
-        items[0].scrollIntoView({ block: 'center', inline: 'nearest' });
+  // Render options inside the popover
+  menu.innerHTML = options.map(opt => {
+    const isSelected = opt === b2TempSelectedOption;
+    const selectedClass = isSelected ? "selected" : "";
+    return `<div class="b2-inline-menu-item ${selectedClass}" onclick="selectB2InlineOption('${opt}', event)">${opt}</div>`;
+  }).join("");
+  
+  // Show menu temporarily to get dimensions
+  menu.classList.remove("hidden");
+  menu.style.display = "flex";
+  
+  // Position it
+  positionB2InlineMenu(gapNum);
+  
+  // Close menu on click outside
+  document.onclick = (e) => {
+    if (!menu.contains(e.target) && e.target !== gapEl) {
+      closeB2InlineMenu();
+    }
+  };
+  
+  // Recalculate on scroll inside the preview block
+  const previewScrollContainer = document.querySelector(".quiz-letter-preview");
+  if (previewScrollContainer) {
+    previewScrollContainer.onscroll = () => {
+      if (b2ActiveGap && !menu.classList.contains("hidden")) {
+        positionB2InlineMenu(b2ActiveGap);
       }
-      updateB2Wheel3DEffect();
-    }, 100);
-  }
-  
-  // Show picker modal
-  const modal = document.getElementById("b2-picker-modal");
-  if (modal) {
-    modal.classList.remove("hidden");
+    };
   }
 }
 
-function scrollToB2WheelItem(itemEl) {
-  itemEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
-}
+function positionB2InlineMenu(gapNum) {
+  const gapEl = document.getElementById(`b2-gap-${gapNum}`);
+  const menu = document.getElementById("b2-inline-menu");
+  if (!gapEl || !menu) return;
 
-function updateB2Wheel3DEffect() {
-  const scrollContainer = document.getElementById("b2-picker-wheel-scroll");
-  if (!scrollContainer) return;
-  const items = scrollContainer.querySelectorAll(".b2-picker-wheel-item");
-  const containerHeight = scrollContainer.clientHeight;
-  const containerCenter = scrollContainer.scrollTop + (containerHeight / 2);
-  
-  let closestItem = null;
-  let minDistance = Infinity;
+  const rect = gapEl.getBoundingClientRect();
+  const menuRect = menu.getBoundingClientRect();
+  const viewportWidth = window.innerWidth;
+  const viewportHeight = window.innerHeight;
 
-  items.forEach(item => {
-    const itemCenter = item.offsetTop + (item.offsetHeight / 2);
-    const distance = containerCenter - itemCenter; // positive if item is above center, negative if below
-    const absDistance = Math.abs(distance);
-    
-    // Scale and angle computation
-    const maxDist = containerHeight / 2;
-    const ratio = Math.min(absDistance / maxDist, 1);
-    
-    // Rotate options like they are on a 3D cylinder
-    const angle = -distance * 0.45; // 0.45 degrees per pixel
-    const scale = 1 - (ratio * 0.22); // max 22% shrink
-    const opacity = 1 - (ratio * 0.6); // fade out items away from center
-    
-    item.style.transform = `rotateX(${angle}deg) scale(${scale})`;
-    item.style.opacity = opacity;
-    
-    if (absDistance < minDistance) {
-      minDistance = absDistance;
-      closestItem = item;
-    }
-  });
-  
-  items.forEach(item => item.classList.remove("active"));
-  if (closestItem) {
-    closestItem.classList.add("active");
-    b2TempSelectedOption = closestItem.getAttribute("data-value");
-    
-    const selectBtn = document.getElementById("b2-picker-select-btn");
-    if (selectBtn) {
-      selectBtn.disabled = false;
-      selectBtn.onclick = confirmB2GapSelection;
-    }
+  // Calculate positioning
+  let top = rect.bottom + window.scrollY + 6; // default: below gap
+  let left = rect.left + window.scrollX;
+  let arrowClass = "arrow-top";
+
+  // If it goes off the bottom of the screen, place it above the gap
+  if (rect.bottom + menuRect.height + 20 > viewportHeight) {
+    top = rect.top + window.scrollY - menuRect.height - 6;
+    arrowClass = "arrow-bottom";
   }
+
+  // Keep it within horizontal bounds of viewport
+  if (left + menuRect.width > viewportWidth - 10) {
+    left = viewportWidth - menuRect.width - 10;
+  }
+  if (left < 10) {
+    left = 10;
+  }
+
+  // Update arrow position to point directly to the center of the gap element
+  const gapCenterRelative = (rect.left + rect.width / 2) - left;
+  menu.style.setProperty("--arrow-left", `${Math.max(10, Math.min(menuRect.width - 20, gapCenterRelative))}px`);
+
+  // Apply styles
+  menu.style.top = `${top}px`;
+  menu.style.left = `${left}px`;
+  menu.className = `b2-inline-menu visible ${arrowClass}`;
 }
 
-function confirmB2GapSelection() {
-  if (b2ActiveGap && b2TempSelectedOption) {
-    b2Answers[b2ActiveGap] = b2TempSelectedOption;
+function selectB2InlineOption(optionText, event) {
+  if (event) event.stopPropagation();
+  
+  if (b2ActiveGap) {
+    b2Answers[b2ActiveGap] = optionText;
     
     // Update gap in text
     const gapEl = document.getElementById(`b2-gap-${b2ActiveGap}`);
     if (gapEl) {
-      gapEl.textContent = `(${b2ActiveGap}) ${b2TempSelectedOption}`;
+      gapEl.textContent = `(${b2ActiveGap}) ${optionText}`;
       gapEl.className = "quiz-letter-gap answered";
     }
     
     updateB2CheckButtonState();
   }
-  closeB2GapPicker();
+  closeB2InlineMenu();
 }
 
-function closeB2GapPicker() {
-  const modal = document.getElementById("b2-picker-modal");
-  if (modal) {
-    modal.classList.add("hidden");
+function closeB2InlineMenu() {
+  const menu = document.getElementById("b2-inline-menu");
+  if (menu) {
+    menu.className = "b2-inline-menu hidden";
+    menu.style.visibility = "hidden";
   }
   
   // Remove active highlight from gap
-  if (b2ActiveGap) {
+  if (b2ActiveGap && !b2Checked) {
     const gapEl = document.getElementById(`b2-gap-${b2ActiveGap}`);
-    if (gapEl && !b2Checked) {
+    if (gapEl) {
       gapEl.className = b2Answers[b2ActiveGap] ? "quiz-letter-gap answered" : "quiz-letter-gap pending";
     }
   }
+  
+  document.onclick = null;
 }
 
 function checkB2QuizPart() {
