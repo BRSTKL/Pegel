@@ -2534,6 +2534,42 @@ function showLessonPreview(lesson, status) {
 }
 
 
+// Custom eased smooth-scroll: finds the nearest scrollable ancestor and
+// animates its scrollTop over `duration` ms (native scrollIntoView smooth
+// behavior has a fixed, non-configurable speed).
+function smoothScrollNodeIntoView(node, duration = 900) {
+  let container = node.parentElement;
+  while (container && container !== document.body) {
+    const style = getComputedStyle(container);
+    const canScrollY = /(auto|scroll)/.test(style.overflowY);
+    if (canScrollY && container.scrollHeight > container.clientHeight) break;
+    container = container.parentElement;
+  }
+  if (!container || container === document.body) return;
+
+  const nodeRect = node.getBoundingClientRect();
+  const containerRect = container.getBoundingClientRect();
+  const relativeTop = container.scrollTop + nodeRect.top - containerRect.top;
+  const targetScroll = Math.max(0, relativeTop - container.clientHeight / 2 + nodeRect.height / 2);
+
+  const startScroll = container.scrollTop;
+  const distance = targetScroll - startScroll;
+  if (Math.abs(distance) < 1) return;
+
+  const startTime = performance.now();
+  const easeInOutQuad = t => t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
+
+  function step(now) {
+    const elapsed = now - startTime;
+    const progress = Math.min(elapsed / duration, 1);
+    container.scrollTop = startScroll + distance * easeInOutQuad(progress);
+    if (progress < 1) {
+      requestAnimationFrame(step);
+    }
+  }
+  requestAnimationFrame(step);
+}
+
 // SITEMAP SCREEN RENDERING
 function renderSitemapScreen() {
   const isA1A2 = state.activeLevel === "A1-A2";
@@ -2559,7 +2595,7 @@ function renderSitemapScreen() {
       targetNode = document.querySelector(".droplet-node.active");
     }
     if (targetNode) {
-      targetNode.scrollIntoView({ block: "center", behavior: "smooth" });
+      smoothScrollNodeIntoView(targetNode, 900);
     }
   };
 
