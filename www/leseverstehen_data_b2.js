@@ -7,13 +7,13 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Schlafmangel macht Jugendliche krank",
-      "b": "Neue App zählt Kalorien automatisch",
-      "c": "Trinkwasser in Städten oft zu teuer",
+      "a": "Zu viel Schlaf macht ebenfalls müde",
+      "b": "Kalorienzählen wird unter Jugendlichen immer unwichtiger",
+      "c": "Schulen führen kostenpflichtiges Trinkwasser ein",
       "d": "Mehr Gemüse durch kostenlose Schulkurse",
       "e": "Ärzte warnen vor zu wenig Schlaf",
       "f": "Restaurant verschenkt übrig gebliebenes Essen",
-      "g": "Kinder kochen lieber selbst",
+      "g": "Eltern kochen seltener gemeinsam mit ihren Kindern",
       "h": "Lebensmittel landen viel zu oft im Müll",
       "i": "Bewegung in der Pause hilft beim Lernen",
       "j": "Vegetarisches Essen wird in Kantinen beliebter"
@@ -55,14 +55,14 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Roboter ersetzen bald alle Kassierer",
+      "a": "Kassierer werden trotz Robotern weiter gebraucht",
       "b": "Ältere Menschen lernen den Umgang mit dem Smartphone",
-      "c": "Online-Shopping wird immer teurer",
+      "c": "Online-Shopping wird beim Einkaufen seltener genutzt",
       "d": "Schüler entwickeln eigene Wetter-App",
-      "e": "Zu viel Bildschirmzeit schadet den Augen",
+      "e": "Zu wenig Bildschirmzeit schadet der Konzentration",
       "f": "Kostenlose Kurse für digitale Senioren",
       "g": "Neue Software erkennt Pflanzenkrankheiten",
-      "h": "Computerspiele fördern das logische Denken",
+      "h": "Computerspiele verschlechtern angeblich das logische Denken",
       "i": "Internet auf dem Land oft noch zu langsam",
       "j": "Junge Menschen schauen weniger fern"
     },
@@ -104,15 +104,15 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Stadt pflanzt tausende neue Bäume",
-      "b": "Plastikmüll im Meer nimmt weiter zu",
+      "b": "Plastikmüll im Meer nimmt erstmals wieder ab",
       "c": "Bürger sammeln gemeinsam Abfall",
       "d": "Strom aus Sonne wird immer günstiger",
-      "e": "Tiere kehren in die Stadt zurück",
-      "f": "Weniger Autos dank neuer Radwege",
+      "e": "Tiere verlassen die Stadt wegen des Lärms",
+      "f": "Mehr Autos trotz neuer Radwege",
       "g": "Trockenheit bedroht die Landwirtschaft",
       "h": "Schüler retten einen alten Wald",
-      "i": "Mülltrennung funktioniert immer besser",
-      "j": "Bienen finden in Gärten neue Heimat"
+      "i": "Mülltrennung wird von vielen Bürgern vernachlässigt",
+      "j": "Bienen verschwinden zunehmend aus den Gärten"
     },
     "texts": [
       {
@@ -152,14 +152,14 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Mehr Studierende wählen ein Auslandssemester",
-      "b": "Universität führt Prüfungen am Computer ein",
+      "b": "Universität schafft Prüfungen am Computer wieder ab",
       "c": "Lehrermangel wird immer größer",
       "d": "Kinder lernen früh eine zweite Sprache",
-      "e": "Schule beginnt später am Morgen",
+      "e": "Schule beginnt künftig noch früher am Morgen",
       "f": "Bibliotheken öffnen länger für Studierende",
-      "g": "Praktika helfen bei der Berufswahl",
-      "h": "Schüler tauschen Bücher kostenlos",
-      "i": "Online-Unterricht bleibt unbeliebt",
+      "g": "Praktika spielen bei der Berufswahl kaum eine Rolle",
+      "h": "Schüler verkaufen gebrauchte Bücher gegen Geld",
+      "i": "Online-Unterricht wird zunehmend beliebter",
       "j": "Späterer Schulbeginn verbessert die Leistungen"
     },
     "texts": [
@@ -200,14 +200,14 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Nachtzüge werden wieder beliebter",
-      "b": "Fluggesellschaft streicht viele Verbindungen",
+      "b": "Fluggesellschaft eröffnet viele neue Verbindungen",
       "c": "Touristen meiden überfüllte Städte",
-      "d": "Neue App plant die schnellste Route",
+      "d": "Neue App warnt vor überfüllten Bahnhöfen",
       "e": "Radfahren in der Stadt wird sicherer",
       "f": "Bahn senkt Preise für junge Reisende",
-      "g": "Immer mehr Menschen reisen mit dem Fahrrad",
-      "h": "Parkplätze in der Innenstadt werden teurer",
-      "i": "Wandern ist der neue Urlaubstrend",
+      "g": "Immer weniger Menschen reisen mit dem Fahrrad",
+      "h": "Parkplätze in der Innenstadt werden günstiger",
+      "i": "Campen ist der neue Urlaubstrend",
       "j": "Elektrobusse erobern den Nahverkehr"
     },
     "texts": [
@@ -247,15 +247,15 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Vier-Tage-Woche wird erfolgreich getestet",
-      "b": "Homeoffice macht viele Menschen einsam",
-      "c": "Mehr Frauen in technischen Berufen",
+      "a": "Vier-Tage-Woche scheitert in der Praxis",
+      "b": "Homeoffice stärkt laut Studie den Teamgeist",
+      "c": "Weniger Frauen interessieren sich für technische Berufe",
       "d": "Pausen steigern die Produktivität",
       "e": "Unternehmen suchen dringend Fachkräfte",
-      "f": "Junge Leute gründen häufiger eigene Firmen",
+      "f": "Junge Leute gründen seltener eigene Firmen",
       "g": "Bewerbungen laufen jetzt über Video",
       "h": "Weniger Arbeitstage, gleiche Bezahlung",
-      "i": "Arbeiten im Freien wird beliebter",
+      "i": "Arbeiten im Freien verliert an Beliebtheit",
       "j": "Quereinsteiger sind sehr gefragt"
     },
     "texts": [
@@ -296,14 +296,14 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Stadtbücherei verleiht jetzt auch Werkzeug",
-      "b": "Museum senkt Eintritt für Familien",
-      "c": "Kinos verlieren immer mehr Zuschauer",
+      "b": "Museum verlangt künftig auch sonntags Eintritt",
+      "c": "Kinos gewinnen wieder mehr Zuschauer",
       "d": "Altes Theater wird zum Kulturzentrum",
-      "e": "Junge Menschen lesen wieder mehr Bücher",
+      "e": "Junge Menschen hören lieber Hörbücher als Bücher",
       "f": "Freier Eintritt lockt neue Besucher",
-      "g": "Musikfestival findet ohne Plastik statt",
-      "h": "Hörbücher werden immer beliebter",
-      "i": "Straßenkünstler beleben die Innenstadt",
+      "g": "Musikfestival führt erstmals Einwegbecher ein",
+      "h": "Konzerte werden immer seltener besucht",
+      "i": "Straßenkünstler verschwinden aus der Innenstadt",
       "j": "Konzert im Park begeistert tausende Gäste"
     },
     "texts": [
@@ -343,15 +343,15 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Schwimmkurse für Kinder oft ausgebucht",
+      "a": "Schwimmkurse für Kinder werden kaum noch nachgefragt",
       "b": "Laufen verbindet Menschen jeden Alters",
       "c": "Neue Sporthalle für den ganzen Stadtteil",
       "d": "Immer weniger Kinder können schwimmen",
       "e": "Fitnessstudios werben um ältere Kunden",
-      "f": "Vereine kämpfen gegen Mitgliederschwund",
-      "g": "Yoga hilft gegen Stress im Alltag",
-      "h": "Stadt baut kostenlose Sportplätze",
-      "i": "Frauen entdecken den Fußball für sich",
+      "f": "Vereine verzeichnen deutlichen Mitgliederzuwachs",
+      "g": "Yoga steigert vor allem die Leistung im Wettkampf",
+      "h": "Stadt schließt kostenlose Sportplätze",
+      "i": "Männer entdecken den Fußball neu für sich",
       "j": "Bewegung im Alter hält gesund"
     },
     "texts": [
@@ -391,13 +391,13 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Teure Markenkleidung verliert an Bedeutung",
+      "a": "Teure Markenkleidung wird wieder gefragter",
       "b": "Bargeld verschwindet langsam aus dem Alltag",
-      "c": "Kunden kaufen wieder mehr im Geschäft",
-      "d": "Junge Leute sparen für später",
+      "c": "Kunden kaufen seltener im Geschäft",
+      "d": "Junge Leute geben ihr Geld lieber sofort aus",
       "e": "Reparieren statt wegwerfen",
       "f": "Online-Betrug nimmt deutlich zu",
-      "g": "Werbung beeinflusst Kinder besonders stark",
+      "g": "Werbung beeinflusst vor allem ältere Menschen stark",
       "h": "Gebrauchte Kleidung erlebt ein Comeback",
       "i": "Viele zahlen nur noch mit dem Handy",
       "j": "Hohe Preise verändern das Einkaufsverhalten"
@@ -439,15 +439,15 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Musik verbessert das Gedächtnis",
+      "a": "Musik verschlechtert angeblich das Gedächtnis",
       "b": "Forscher entdecken neue Tierart",
       "c": "Schlaf hilft beim Lernen",
-      "d": "Kaffee ist gesünder als gedacht",
-      "e": "Roboter unterstützen die Pflege",
-      "f": "Pflanzen kommunizieren miteinander",
+      "d": "Kaffee ist ungesünder als gedacht",
+      "e": "Künstliche Intelligenz soll die Pflege bald ersetzen",
+      "f": "Pflanzen reagieren nur auf Licht, nicht aufeinander",
       "g": "Lachen stärkt das Immunsystem",
       "h": "Künstliche Intelligenz erkennt Krankheiten früh",
-      "i": "Bewegung verbessert die Laune",
+      "i": "Bewegung verschlechtert oft die Laune",
       "j": "Haustiere senken den Blutdruck"
     },
     "texts": [
@@ -488,13 +488,13 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Mieten in Großstädten steigen weiter",
-      "b": "Mehrere Generationen wohnen unter einem Dach",
-      "c": "Studierende finden kaum noch Zimmer",
+      "b": "Generationenhäuser werden zunehmend abgeschafft",
+      "c": "Studierende finden inzwischen leichter ein Zimmer",
       "d": "Gemeinschaftsgärten verbinden Nachbarn",
-      "e": "Leben auf dem Land wird wieder attraktiv",
+      "e": "Leben auf dem Land verliert wieder an Attraktivität",
       "f": "Neue Wohnungen entstehen aus alten Büros",
-      "g": "Kleine Wohnungen liegen voll im Trend",
-      "h": "Stadt schafft mehr Platz für Fußgänger",
+      "g": "Große Wohnungen liegen voll im Trend",
+      "h": "Stadt schafft mehr Parkplätze in der Innenstadt",
       "i": "Wohnprojekt bringt Jung und Alt zusammen",
       "j": "Viele Menschen ziehen aufs Land"
     },
@@ -535,13 +535,13 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Ehrenamt wird bei jungen Leuten beliebter",
-      "b": "Nachbarn helfen sich gegenseitig",
+      "a": "Ehrenamt wird bei jungen Leuten unbeliebter",
+      "b": "Nachbarn ziehen sich zunehmend zurück",
       "c": "Immer mehr Menschen leben allein",
-      "d": "Sprachkurse erleichtern das Ankommen",
+      "d": "Behörden übernehmen jetzt die Sprachkurse selbst",
       "e": "Freiwillige unterstützen geflüchtete Familien",
-      "f": "Vereine suchen dringend neue Mitglieder",
-      "g": "Großeltern betreuen häufig die Enkel",
+      "f": "Vereine müssen wegen Mitgliederschwunds schließen",
+      "g": "Großeltern überlassen die Enkelbetreuung den Eltern",
       "h": "App vernetzt hilfsbereite Menschen",
       "i": "Spenden für die Tafel nehmen zu",
       "j": "Senioren engagieren sich für die Gemeinschaft"
@@ -591,18 +591,18 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "id": 6,
         "question": "Was zeigt die Untersuchung des Instituts für Arbeitsforschung?",
         "options": {
-          "a": " Dass fast alle Beschäftigten lieber wieder vollständig ins Büro zurückkehren möchten.",
+          "a": " Dass die Mehrheit das Homeoffice ablehnt, obwohl es weniger Vorteile als Nachteile habe.",
           "b": " Dass viele die Flexibilität schätzen, die Grenze zwischen Arbeit und Freizeit aber zunehmend verschwimmt.",
-          "c": " Dass Eltern mit kleinen Kindern im Homeoffice grundsätzlich schlechter arbeiten als ohne Kinder."
+          "c": " Dass Eltern mit kleinen Kindern wegen des Pendelns weniger Zeit für die Familie haben."
         }
       },
       {
         "id": 7,
         "question": "Welches Problem bemerkte Sandra Hoffmann mit der Zeit?",
         "options": {
-          "a": " Dass sie wegen des Staus morgens nie pünktlich mit der Arbeit beginnen konnte.",
+          "a": " Dass sie wegen des langen Pendelns morgens kaum noch ausgeschlafen war.",
           "b": " Dass sie kaum noch richtig Feierabend machte, weil sie abends weiter E-Mails beantwortete.",
-          "c": " Dass ihr Laptop ständig kaputtging und sie deshalb nicht arbeiten konnte."
+          "c": " Dass sie ihren Laptop abends grundsätzlich in einem anderen Zimmer verstauen musste."
         }
       },
       {
@@ -610,16 +610,16 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "question": "Welchen Nachteil des Homeoffice nennt Personalchef Markus Wendt?",
         "options": {
           "a": " Dass der spontane Austausch unter den Kollegen fehlt und der Teamzusammenhalt leiden könnte.",
-          "b": " Dass die Mitarbeiter im Homeoffice deutlich unzufriedener sind als im Büro.",
-          "c": " Dass sein Unternehmen das Arbeiten von zu Hause grundsätzlich verbietet."
+          "b": " Dass die Zufriedenheit der Belegschaft durch das Homeoffice insgesamt gesunken sei.",
+          "c": " Dass sein Unternehmen das Homeoffice nur an einem Tag pro Woche erlaubt."
         }
       },
       {
         "id": 9,
         "question": "Was empfiehlt die Arbeitspsychologin Dr. Nadine Sturm den Unternehmen?",
         "options": {
-          "a": " Das Büro vollständig abzuschaffen, weil alle Menschen zu Hause besser arbeiten.",
-          "b": " Alle Beschäftigten zu zwingen, wieder jeden Tag ins Büro zu kommen.",
+          "a": " Den Beschäftigten freizustellen, ob sie überhaupt erreichbar sein wollen, ohne klare Regeln dafür aufzustellen.",
+          "b": " Allen Beschäftigten dieselbe feste Homeoffice-Quote vorzuschreiben, da individuelle Lösungen wenig bringen.",
           "c": " Den Beschäftigten echte Wahlmöglichkeiten zu lassen und klare Regeln für die Erreichbarkeit aufzustellen."
         }
       },
@@ -628,8 +628,8 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "question": "Welchen Rat geben Fachleute am Ende des Textes?",
         "options": {
           "a": " Man sollte im Homeoffice auf feste Strukturen wie einen eigenen Arbeitsplatz und geregelte Pausen achten.",
-          "b": " Man sollte abends so lange wie möglich arbeiten, um produktiver zu sein.",
-          "c": " Man sollte den Arbeitsplatz täglich wechseln, um Abwechslung zu haben."
+          "b": " Man sollte möglichst auf einen festen Arbeitsplatz verzichten, um flexibler zu bleiben.",
+          "c": " Man sollte Pausen nur dann einlegen, wenn die Arbeit bereits erledigt ist."
         }
       }
     ],
@@ -660,9 +660,9 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "id": 6,
         "question": "Was ist laut Text die Grundidee des Minimalismus?",
         "options": {
-          "a": " Möglichst viele neue Produkte zu kaufen, solange sie im Angebot sind.",
+          "a": " Möglichst viele neue Produkte zu besitzen, weil das den größten inneren Frieden bringe.",
           "b": " Sich von überflüssigen Dingen zu trennen und sich auf das Wesentliche zu konzentrieren.",
-          "c": " Die eigene Wohnung komplett leer zu lassen und auf jegliche Möbel zu verzichten."
+          "c": " Sich zwar von Überflüssigem zu trennen, dabei aber stets möglichst viel Neues nachzukaufen."
         }
       },
       {
@@ -670,25 +670,25 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "question": "Was berichtet Tobias Reich über seine Erfahrung?",
         "options": {
           "a": " Dass er heute deutlich weniger Geld ausgibt, manche Dinge aber zu schnell weggegeben hat.",
-          "b": " Dass er nach dem Ausmisten sofort wieder einen vollen Kleiderschrank gekauft hat.",
-          "c": " Dass ihm das Aufräumen überhaupt keine Mühe bereitet hat."
+          "b": " Dass ihm das Ausmisten von Anfang an überhaupt keine Mühe bereitet hat.",
+          "c": " Dass er trotz des Ausmistens genauso viel Geld ausgibt wie früher."
         }
       },
       {
         "id": 8,
         "question": "Wovor warnt die Bloggerin Carla Stein?",
         "options": {
-          "a": " Davor, dass Minimalismus zu teuer für die meisten Menschen sei.",
+          "a": " Davor, dass Minimalismus inzwischen ein Wettbewerb darum sei, wer am meisten besitzt.",
           "b": " Davor, den Trend zu übertreiben und Dinge wegzuwerfen, die man eigentlich noch braucht.",
-          "c": " Davor, überhaupt über das eigene Leben im Internet zu schreiben."
+          "c": " Davor, dass leere Räume das eigentliche Ziel jedes Minimalisten sein sollten."
         }
       },
       {
         "id": 9,
         "question": "Welchen kritischen Punkt nennt Konsumforscher Prof. Dr. Henrik Baum?",
         "options": {
-          "a": " Dass Minimalismus der Umwelt in jedem Fall schadet.",
-          "b": " Dass niemand seinen Konsum hinterfragen sollte.",
+          "a": " Dass Minimalismus der Umwelt grundsätzlich schade, weil weniger produziert werde.",
+          "b": " Dass jeder Mensch, egal wie viel Geld er hat, Minimalismus gleich leicht umsetzen könne.",
           "c": " Dass Minimalismus oft ein Lebensstil für Menschen ist, die es sich leisten können."
         }
       },
@@ -696,9 +696,9 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "id": 10,
         "question": "Welchen Rat geben Fachleute Menschen, die Minimalismus ausprobieren möchten?",
         "options": {
-          "a": " Sie sollten sofort die halbe Wohnung leeren, um schnelle Ergebnisse zu sehen.",
+          "a": " Sie sollten zuerst alle Bereiche gleichzeitig angehen, damit es schneller geht.",
           "b": " Sie sollten in einem einzigen Bereich anfangen und in Ruhe entscheiden.",
-          "c": " Sie sollten alle ihre Besitztümer an einem einzigen Tag verkaufen."
+          "c": " Sie sollten sich beim Aussortieren möglichst wenig Zeit zum Nachdenken lassen."
         }
       }
     ],
@@ -729,9 +729,9 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "id": 6,
         "question": "Wie hat sich das ehrenamtliche Engagement laut Studie verändert?",
         "options": {
-          "a": " Es ist stark zurückgegangen, weil sich niemand mehr engagieren will.",
+          "a": " Es ist in den letzten Jahren spürbar zurückgegangen, weil sich kaum noch jemand engagiert.",
           "b": " Jüngere Menschen engagieren sich heute lieber projektbezogen und zeitlich begrenzt.",
-          "c": " Die Menschen bleiben heute noch länger demselben Verein treu als früher."
+          "c": " Ältere Menschen engagieren sich inzwischen genauso projektbezogen wie jüngere."
         }
       },
       {
@@ -739,24 +739,24 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "question": "Was berichtet die Studentin Pia Fischer über ihr Engagement?",
         "options": {
           "a": " Dass es ihr Energie gibt und sie sich über die Fortschritte der Kinder sehr freut.",
-          "b": " Dass ihr durch das Engagement keine Zeit mehr für ihr Studium bleibt.",
-          "c": " Dass sie die Hausaufgabenbetreuung nach kurzer Zeit wieder aufgegeben hat."
+          "b": " Dass sie befürchtet hatte, neben dem Studium keine Zeit zu haben, was sich auch bestätigt hat.",
+          "c": " Dass sie durch das Engagement vor allem geduldiger im Umgang mit ihren Kommilitonen wurde."
         }
       },
       {
         "id": 8,
         "question": "Welche Schwierigkeit nennt der Vereinsvorsitzende Klaus Berger?",
         "options": {
-          "a": " Dass sich zu viele Menschen für feste Aufgaben im Vorstand bewerben.",
+          "a": " Dass er befürchtet, sein Verein könnte wegen zu vieler langfristiger Bewerbungen überlastet werden.",
           "b": " Dass es schwer ist, Menschen für feste, langfristige Aufgaben zu gewinnen.",
-          "c": " Dass sein Verein wegen zu vieler Mitglieder geschlossen werden muss."
+          "c": " Dass sich inzwischen genug Menschen für den Vorstand und die Kasse finden lassen."
         }
       },
       {
         "id": 9,
         "question": "Worauf weist die Sozialwissenschaftlerin Dr. Eva Lindner hin?",
         "options": {
-          "a": " Dass ehrenamtliches Engagement der Gesundheit eher schadet.",
+          "a": " Dass Freiwillige grundsätzlich genauso eingesetzt werden dürfen wie fest angestellte Mitarbeiter.",
           "b": " Dass Freiwillige Aufgaben übernehmen sollten, für die es eigentlich feste Stellen geben müsste.",
           "c": " Dass Engagierte neue Kontakte knüpfen und im Durchschnitt zufriedener und gesünder sind."
         }
@@ -765,9 +765,9 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "id": 10,
         "question": "Welchen Rat geben Fachleute Menschen, die ein Ehrenamt beginnen möchten?",
         "options": {
-          "a": " Sie sollten sofort die Verantwortung für den Vorstand eines Vereins übernehmen.",
+          "a": " Sie sollten direkt eine Vorstandsposition anstreben, um sich schnell zu engagieren.",
           "b": " Sie sollten sich fragen, wofür sie sich begeistern, und unverbindliche Schnuppertermine nutzen.",
-          "c": " Sie sollten möglichst viele Ehrenämter gleichzeitig ausüben."
+          "c": " Sie sollten sich vor dem Schnuppertermin bereits langfristig für eine feste Aufgabe verpflichten."
         }
       }
     ],
@@ -798,18 +798,18 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "id": 6,
         "question": "Was zeigt die Befragung über die Einstellung der Deutschen zur KI?",
         "options": {
-          "a": " Dass fast niemand in Deutschland jemals ein KI-Programm benutzt hat.",
+          "a": " Dass die Mehrheit KI bereits ohne jede Skepsis vollständig vertraut.",
           "b": " Dass die Mehrheit sowohl neugierig als auch skeptisch eingestellt ist.",
-          "c": " Dass alle Deutschen KI ohne jede Sorge begeistert nutzen."
+          "c": " Dass kaum jemand in Deutschland KI-Programme überhaupt schon ausprobiert hat."
         }
       },
       {
         "id": 7,
         "question": "Warum glaubt Melanie Vogt, dass ihr Beruf nicht verschwinden wird?",
         "options": {
-          "a": " Weil KI-Programme in ihrem Bereich grundsätzlich nicht eingesetzt werden können.",
+          "a": " Weil sie der KI inzwischen auch die endgültige kreative Entscheidung überlässt.",
           "b": " Weil die endgültige kreative Entscheidung weiterhin bei ihr liegt und eine Maschine Geschmack nicht ersetzen kann.",
-          "c": " Weil sie KI ablehnt und sie niemals für ihre Arbeit verwendet."
+          "c": " Weil KI-Programme in der Grafikbranche aus rechtlichen Gründen verboten sind."
         }
       },
       {
@@ -817,25 +817,25 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "question": "Welche Sorge äußert der Informatiklehrer Daniel Krause?",
         "options": {
           "a": " Dass einige Schüler ihre Hausaufgaben komplett von einem Programm schreiben lassen und dabei nichts lernen.",
-          "b": " Dass KI an Schulen grundsätzlich verboten werden sollte.",
-          "c": " Dass die Schüler die neuen Programme überhaupt nicht benutzen wollen."
+          "b": " Dass die Schüler an seiner Schule KI grundsätzlich ablehnen und nicht nutzen wollen.",
+          "c": " Dass KI beim Lernen ausnahmslos schadet und niemals helfen kann."
         }
       },
       {
         "id": 9,
         "question": "Wovor warnt die Technikethikerin Prof. Dr. Sabine Roth?",
         "options": {
-          "a": " Davor, KI als reines Werkzeug zu betrachten.",
+          "a": " Davor, KI grundsätzlich als gutes oder böses Werkzeug zu bewerten, statt sie ganz zu verbieten.",
           "b": " Davor, sich blind auf die Ergebnisse zu verlassen, da die Programme Fehler machen.",
-          "c": " Davor, überhaupt noch kritisch zu denken."
+          "c": " Davor, das eigene kritische Denken durch zu viel Vorsicht zu verlernen."
         }
       },
       {
         "id": 10,
         "question": "Welchen Rat geben Fachleute Menschen, die KI-Programme nutzen möchten?",
         "options": {
-          "a": " Sie sollten den Programmen vollständig vertrauen und alles übernehmen.",
-          "b": " Sie sollten möglichst viele persönliche Daten eingeben.",
+          "a": " Sie sollten den Programmen so weit vertrauen, wie es die jeweilige Aufgabe erfordert.",
+          "b": " Sie sollten möglichst viele persönliche Daten eingeben, damit die Ergebnisse besser werden.",
           "c": " Sie sollten die Ergebnisse stets hinterfragen und keine sensiblen Daten eingeben."
         }
       }
@@ -868,26 +868,26 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "question": "Was zeigt die Untersuchung über Gemeinschaftsgärten?",
         "options": {
           "a": " Dass sie das Zusammenleben in einem Viertel stärken, weil dort Menschen zusammenkommen.",
-          "b": " Dass sie das Zusammenleben in einem Viertel eher stören.",
-          "c": " Dass nur Menschen mit landwirtschaftlicher Ausbildung dort mitmachen dürfen."
+          "b": " Dass sie das Zusammenleben in einem Viertel kaum beeinflussen, weil dort fast niemand vorbeikommt.",
+          "c": " Dass dort überwiegend Menschen mit landwirtschaftlicher Ausbildung aktiv sind."
         }
       },
       {
         "id": 7,
         "question": "Was schätzt Andreas Pohl besonders an seinem Beet?",
         "options": {
-          "a": " Dass er dadurch deutlich mehr Geld verdient als in der Bank.",
+          "a": " Dass er damit inzwischen einen kleinen Nebenverdienst zur Bankarbeit erzielt.",
           "b": " Dass die Gartenarbeit für ihn Erholung ist und er Kontakt zu anderen Gärtnern hat.",
-          "c": " Dass er dort völlig allein und ungestört arbeiten kann."
+          "c": " Dass er dort lieber allein arbeitet und den Kontakt zu den anderen Gärtnern meidet."
         }
       },
       {
         "id": 8,
         "question": "Wie bewertet die Stadtplanerin Dr. Miriam Frank den Beitrag zur Ernährung?",
         "options": {
-          "a": " Sie hält ihn für ausreichend, um die ganze Stadt zu versorgen.",
+          "a": " Sie hält ihn für so bedeutend, dass sich Städte dadurch künftig selbst versorgen könnten.",
           "b": " Sie hält ihn eher für symbolisch und sieht den größeren Wert im sozialen und ökologischen Bereich.",
-          "c": " Sie hält Urban Gardening für völlig nutzlos."
+          "c": " Sie hält ausschließlich den ökologischen Nutzen für wichtig, den sozialen dagegen für unbedeutend."
         }
       },
       {
@@ -895,17 +895,17 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "question": "Was gibt der Landwirt Georg Huber zu bedenken?",
         "options": {
           "a": " Dass die Hobbygärtner den Aufwand nicht unterschätzen sollten.",
-          "b": " Dass professionelle Landwirtschaft überhaupt kein Wissen erfordert.",
-          "c": " Dass er sich über das wachsende Interesse an gesunden Lebensmitteln ärgert."
+          "b": " Dass professionelle Landwirtschaft im Vergleich zum Hobbygärtnern kaum mehr Wissen verlangt.",
+          "c": " Dass er das wachsende Interesse an gesunden Lebensmitteln für überflüssig hält."
         }
       },
       {
         "id": 10,
         "question": "Welchen Rat geben Fachleute Anfängern beim Urban Gardening?",
         "options": {
-          "a": " Man braucht unbedingt einen großen Garten, um überhaupt anzufangen.",
+          "a": " Man sollte erst einen großen Garten anlegen, bevor man mit einzelnen Pflanzen experimentiert.",
           "b": " Man sollte mit einfachen, pflegeleichten Pflanzen starten und nicht zu viel auf einmal wollen.",
-          "c": " Man sollte sofort möglichst viele verschiedene Pflanzen gleichzeitig anbauen."
+          "c": " Man sollte möglichst anspruchsvolle Pflanzen wählen, um schnell Erfolge zu erzielen."
         }
       }
     ],
@@ -936,18 +936,18 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "id": 6,
         "question": "Was zeigt die Studie über die Weiterbildung in Deutschland?",
         "options": {
-          "a": " Dass alle Menschen unabhängig von ihrer Bildung gleich häufig an Kursen teilnehmen.",
+          "a": " Dass die Unterschiede zwischen Menschen mit höherer und einfacher Bildung sich zuletzt deutlich verringert haben.",
           "b": " Dass Menschen mit höherer Bildung deutlich häufiger an Kursen teilnehmen als andere.",
-          "c": " Dass Weiterbildung in Deutschland immer unwichtiger wird."
+          "c": " Dass Menschen mit einfacher Schulbildung inzwischen häufiger an Kursen teilnehmen als andere."
         }
       },
       {
         "id": 7,
         "question": "Was berichtet die Krankenpflegerin Birgit Sommer über ihre Weiterbildung?",
         "options": {
-          "a": " Dass sie die Weiterbildung nach kurzer Zeit wieder abgebrochen hat.",
+          "a": " Dass ihre Angst, mit über fünfzig nichts Neues mehr lernen zu können, sich am Ende bestätigt hat.",
           "b": " Dass sie zwar langsamer lernte, ihr aber ihre Lebenserfahrung geholfen hat.",
-          "c": " Dass sie das Gelernte in ihrem Beruf überhaupt nicht anwenden konnte."
+          "c": " Dass sie trotz der Weiterbildung weiterhin dieselbe Aufgabe wie zuvor übernimmt."
         }
       },
       {
@@ -955,25 +955,25 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "question": "Welche Forderung stellt der Weiterbildungsexperte Frank Adler?",
         "options": {
           "a": " Dass Arbeitgeber und Staat die Weiterbildung stärker unterstützen sollten.",
-          "b": " Dass nur Gutverdiener Zugang zu Kursen haben sollten.",
-          "c": " Dass Weiterbildung grundsätzlich abgeschafft werden sollte."
+          "b": " Dass Arbeitgeber sich aus der Finanzierung von Weiterbildung künftig heraushalten sollten.",
+          "c": " Dass nur diejenigen einen Kurs besuchen dürfen, die dafür ausreichend Zeit nachweisen können."
         }
       },
       {
         "id": 9,
         "question": "Mit welchem Vorurteil räumt die Lernforscherin Dr. Carmen Holz auf?",
         "options": {
-          "a": " Mit dem Vorurteil, dass jüngere Menschen schlechter lernen als ältere.",
+          "a": " Mit dem Vorurteil, dass das Gedächtnis mit den Jahren überhaupt nicht nachlässt.",
           "b": " Mit dem Vorurteil, dass man im Alter nicht mehr lernen kann.",
-          "c": " Mit dem Vorurteil, dass Lernen immer Spaß machen muss."
+          "c": " Mit dem Vorurteil, dass Lernen unter Druck stets zu den besten Ergebnissen führt."
         }
       },
       {
         "id": 10,
         "question": "Welchen Rat geben Fachleute Erwachsenen, die mit dem Lernen beginnen möchten?",
         "options": {
-          "a": " Sie sollten sich möglichst schwierige und unrealistische Ziele setzen.",
-          "b": " Sie sollten lieber selten, dafür sehr lange am Stück lernen.",
+          "a": " Sie sollten sich ein Thema vornehmen, das andere für wichtig halten, auch wenn es sie selbst kaum interessiert.",
+          "b": " Sie sollten möglichst seltene, aber dafür besonders lange Lernphasen einplanen.",
           "c": " Sie sollten sich realistische Ziele setzen und kleine, regelmäßige Lerneinheiten einplanen."
         }
       }
@@ -1005,26 +1005,26 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "id": 6,
         "question": "Was betonen die Forscher in der aktuellen Studie?",
         "options": {
-          "a": " Dass es ausschließlich auf die Menge der Bildschirmzeit ankommt.",
+          "a": " Dass es vor allem auf die genaue Stundenzahl der Bildschirmzeit ankommt, nicht auf die Inhalte.",
           "b": " Dass vor allem wichtig ist, was die Kinder am Bildschirm tun und ob die Eltern sie begleiten.",
-          "c": " Dass die Nutzung digitaler Geräte in den letzten Jahren stark gesunken ist."
+          "c": " Dass die Nutzung digitaler Geräte bei Kindern in den letzten Jahren stetig zurückgegangen ist."
         }
       },
       {
         "id": 7,
         "question": "Welche Lösung hat die Mutter Katrin Wolf für ihre Familie gefunden?",
         "options": {
-          "a": " Sie hat ihren Kindern jegliche Nutzung von Geräten komplett verboten.",
+          "a": " Sie hat ihren Kindern jegliche Nutzung von Geräten komplett verboten, weil feste Regeln nicht funktionierten.",
           "b": " Sie hat feste Regeln eingeführt, etwa eine halbe Stunde unter der Woche und kein Handy am Esstisch.",
-          "c": " Sie lässt ihre Kinder so lange spielen, wie sie möchten."
+          "c": " Sie lässt ihre Kinder am Esstisch weiterhin frei entscheiden, wie lange sie das Tablet nutzen."
         }
       },
       {
         "id": 8,
         "question": "Welche Haltung vertritt der Kinderarzt Dr. Thomas Reiner?",
         "options": {
-          "a": " Er hält ein generelles Verbot digitaler Medien für die beste Lösung.",
-          "b": " Er findet, dass Kleinkinder so viel wie möglich vor dem Bildschirm sein sollten.",
+          "a": " Er hält ein generelles Verbot digitaler Medien für die beste Lösung, solange die Eltern es vorleben.",
+          "b": " Er findet, dass Kleinkinder möglichst früh und intensiv mit Bildschirmen vertraut werden sollten.",
           "c": " Er warnt vor zu früher Nutzung, hält ein generelles Verbot aber für falsch."
         }
       },
@@ -1033,17 +1033,17 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "question": "Was hält die Medienpädagogin Julia Brandt für entscheidend?",
         "options": {
           "a": " Die Qualität der Inhalte, die ein Kind konsumiert.",
-          "b": " Dass Kinder Geräte immer allein und ohne Eltern nutzen.",
-          "c": " Dass Kinder ausschließlich Unterhaltungsvideos anschauen."
+          "b": " Dass Kinder digitale Inhalte möglichst gemeinsam mit Gleichaltrigen statt mit den Eltern konsumieren.",
+          "c": " Dass Eltern sich möglichst wenig dafür interessieren, was ihre Kinder konsumieren."
         }
       },
       {
         "id": 10,
         "question": "Welchen Rat geben Fachleute den Eltern?",
         "options": {
-          "a": " Sie sollten die Geräte einfach komplett verbieten.",
+          "a": " Sie sollten die Geräte komplett verbieten, statt gemeinsam Inhalte auszusuchen.",
           "b": " Sie sollten klare Regeln aufstellen, diese vorleben und gemeinsam gute Inhalte aussuchen.",
-          "c": " Sie sollten sich nicht dafür interessieren, was ihre Kinder konsumieren."
+          "c": " Sie sollten den Kindern die Auswahl der Inhalte vollständig selbst überlassen."
         }
       }
     ],
@@ -1074,18 +1074,18 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "id": 6,
         "question": "Was betonen die Forscher in der Untersuchung?",
         "options": {
-          "a": " Dass es ausreicht, ein paar Linien auf die Straße zu malen.",
+          "a": " Dass es bereits ausreicht, ein paar Linien auf die Straße zu malen, um Menschen umsteigen zu lassen.",
           "b": " Dass ein durchdachtes, zusammenhängendes Radwegenetz nötig ist.",
-          "c": " Dass der Bau von Radwegen die Gesundheit der Bevölkerung verschlechtert."
+          "c": " Dass mehr Radwege zwar Staus verringern, die Gesundheit der Bevölkerung aber nicht beeinflussen."
         }
       },
       {
         "id": 7,
         "question": "Was berichtet die Krankenschwester Lena Bauer?",
         "options": {
-          "a": " Dass sie das Radfahren nur bei gutem Wetter erträgt und sonst das Auto nimmt.",
+          "a": " Dass sie bei schlechtem Wetter ganz auf das Auto umsteigt, weil das Radfahren dann unmöglich ist.",
           "b": " Dass sie oft schneller als mit dem Auto ist und fit auf der Arbeit ankommt.",
-          "c": " Dass in Münster kaum jemand mit dem Rad fährt."
+          "c": " Dass in Münster die meisten Menschen lieber das Auto als das Rad nehmen."
         }
       },
       {
@@ -1093,26 +1093,26 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "question": "Warum betrachtet der Einzelhändler Robert Krüger die Entwicklung mit Sorge?",
         "options": {
           "a": " Weil seine älteren Kunden mit dem Auto nicht mehr direkt vor der Tür halten können und er um seinen Umsatz fürchtet.",
-          "b": " Weil er selbst gern mit dem Fahrrad zur Arbeit fahren würde.",
-          "c": " Weil in seiner Straße zu viele neue Parkplätze gebaut wurden."
+          "b": " Weil seine Kunden inzwischen ausschließlich mit dem Fahrrad zu ihm kommen.",
+          "c": " Weil in seiner Straße trotz des neuen Radwegs zu viele Parkplätze erhalten blieben."
         }
       },
       {
         "id": 9,
         "question": "Was sagt die Verkehrsforscherin Dr. Anja Sommer über die Sorgen der Händler?",
         "options": {
-          "a": " Sie hält die Sorgen für völlig berechtigt, weil Geschäfte immer Verluste machen.",
+          "a": " Sie hält die Sorgen für berechtigt, weil Studien zeigten, dass der Umsatz nach dem Bau von Radwegen meist sinkt.",
           "b": " Sie hält sie oft für übertrieben, da Geschäfte nach dem Bau von Radwegen meist sogar mehr Umsatz machen.",
-          "c": " Sie interessiert sich nicht für die Meinung der Händler."
+          "c": " Sie rät davon ab, Anwohner und Händler bei der Planung überhaupt einzubeziehen."
         }
       },
       {
         "id": 10,
         "question": "Welchen Rat geben Fachleute Bürgern, die etwas bewegen möchten?",
         "options": {
-          "a": " Sie sollten sich aus der Verkehrsplanung möglichst heraushalten.",
+          "a": " Sie sollten die Verkehrsplanung lieber allein der Stadtverwaltung überlassen.",
           "b": " Sie sollten sich in Bürgerinitiativen oder bei Planungsversammlungen einbringen.",
-          "c": " Sie sollten allein und ohne andere über Veränderungen entscheiden."
+          "c": " Sie sollten Veränderungen erst dann unterstützen, wenn die Mehrheit bereits entschieden hat."
         }
       }
     ],
@@ -1143,18 +1143,18 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "id": 6,
         "question": "Was macht die Studie über den Schlaf deutlich?",
         "options": {
-          "a": " Dass die meisten Erwachsenen viel zu lange schlafen.",
+          "a": " Dass die meisten Erwachsenen inzwischen genau die empfohlene Stundenzahl schlafen.",
           "b": " Dass ein großer Teil der Erwachsenen regelmäßig zu wenig schläft und die Folgen oft unterschätzt werden.",
-          "c": " Dass Schlaf für die Gesundheit kaum eine Rolle spielt."
+          "c": " Dass nur eine kleine Minderheit der Erwachsenen unter Schlafmangel leidet."
         }
       },
       {
         "id": 7,
         "question": "Wie hat Jan Köhler seine Schlafprobleme verbessert?",
         "options": {
-          "a": " Indem er abends noch länger am Computer arbeitete.",
+          "a": " Indem er sich erst nach mehreren Monaten erfolgloser Versuche an seinen Arzt gewandt hat.",
           "b": " Indem er das Handy aus dem Schlafzimmer ließ und zu festen Zeiten ins Bett ging.",
-          "c": " Indem er tagsüber mehr Kaffee trank."
+          "c": " Indem er sein Handy zwar weiter im Schlafzimmer ließ, aber unregelmäßigere Schlafenszeiten einführte."
         }
       },
       {
@@ -1162,25 +1162,25 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "question": "Wovor warnt der Schlafmediziner Dr. Peter Lang besonders?",
         "options": {
           "a": " Vor dem blauen Licht der Bildschirme am Abend.",
-          "b": " Vor zu frühem Zubettgehen.",
-          "c": " Vor ruhiger Musik vor dem Schlafen."
+          "b": " Vor Schlafmitteln, die er bei jeder Art von Schlafproblem grundsätzlich empfiehlt.",
+          "c": " Vor zu unregelmäßigem Kaffeetrinken, unabhängig von der Tageszeit."
         }
       },
       {
         "id": 9,
         "question": "Was betont die Psychologin Dr. Sina Wagner?",
         "options": {
-          "a": " Dass man unbedingt eine bestimmte Stundenzahl erreichen muss.",
+          "a": " Dass man unbedingt eine bestimmte Stundenzahl erreichen muss, sonst ist die Erholung wirkungslos.",
           "b": " Dass der Druck, gut schlafen zu müssen, kontraproduktiv sein kann.",
-          "c": " Dass schlechte Nächte immer ein Zeichen für eine ernste Krankheit sind."
+          "c": " Dass gelegentliche schlechte Nächte stets ernst genommen und sofort behandelt werden müssen."
         }
       },
       {
         "id": 10,
         "question": "Welchen Rat geben Fachleute Menschen, die besser schlafen möchten?",
         "options": {
-          "a": " Sie sollten kurz vor dem Schlafen möglichst lange auf Bildschirme schauen.",
-          "b": " Sie sollten jeden Abend zu einer anderen Zeit ins Bett gehen.",
+          "a": " Sie sollten möglichst helle Räume und wechselnde Schlafenszeiten bevorzugen.",
+          "b": " Sie sollten Abendrituale wie Bildschirmnutzung kurz vor dem Schlafengehen bewusst pflegen.",
           "c": " Sie sollten auf eine ruhige, abgedunkelte Umgebung, feste Zeiten und Abendrituale achten."
         }
       }
@@ -1212,18 +1212,18 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "id": 6,
         "question": "Was betonen die Forscher in der Untersuchung?",
         "options": {
-          "a": " Dass nur Supermärkte für die Verschwendung verantwortlich sind.",
+          "a": " Dass private Haushalte für die Lebensmittelverschwendung überhaupt keine Rolle spielen.",
           "b": " Dass die Verschwendung auch die Umwelt belastet, weil viel Wasser, Energie und Fläche verbraucht werden.",
-          "c": " Dass weggeworfene Lebensmittel keinerlei Auswirkungen auf die Umwelt haben."
+          "c": " Dass die Herstellung von Lebensmitteln kaum Wasser oder Energie benötigt."
         }
       },
       {
         "id": 7,
         "question": "Was betont die Studentin Hanna Vogel über das Foodsharing?",
         "options": {
-          "a": " Dass nur bedürftige Menschen mitmachen dürfen.",
+          "a": " Dass vor allem bedürftige Menschen angesprochen werden sollen, auch wenn alle teilnehmen dürfen.",
           "b": " Dass jeder mitmachen kann, egal wie viel Geld er hat.",
-          "c": " Dass sie das Essen aus dem Müll vor allem für sich selbst sammelt."
+          "c": " Dass sie anfangs kaum überrascht war, wie viel gutes Essen im Müll landet."
         }
       },
       {
@@ -1231,26 +1231,26 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "question": "Warum kann der Supermarktleiter Stefan Wirth nicht alle Lebensmittel weitergeben?",
         "options": {
           "a": " Weil er die Verantwortung trägt, wenn etwas verdorben ist, und aus rechtlichen Gründen vorsichtig sein muss.",
-          "b": " Weil er die Idee des Foodsharing grundsätzlich ablehnt.",
-          "c": " Weil seine Kunden gespendete Ware nicht annehmen wollen."
+          "b": " Weil ihm klare gesetzliche Regelungen für Spenden bereits ausreichend Sicherheit bieten.",
+          "c": " Weil seine Initiative inzwischen genug Lebensmittel von anderen Geschäften erhält."
         }
       },
       {
         "id": 9,
         "question": "Auf welches Missverständnis weist Dr. Claudia Berg hin?",
         "options": {
-          "a": " Dass Lebensmittel nach dem Mindesthaltbarkeitsdatum immer sofort schädlich sind.",
+          "a": " Dass das Mindesthaltbarkeitsdatum ausschließlich angibt, ab wann ein Produkt schädlich wird.",
           "b": " Dass viele Produkte auch nach dem Mindesthaltbarkeitsdatum noch problemlos essbar sind.",
-          "c": " Dass man Lebensmittel niemals nach Geruch oder Aussehen beurteilen sollte."
+          "c": " Dass Riechen und Probieren grundsätzlich weniger zuverlässig sind als das aufgedruckte Datum."
         }
       },
       {
         "id": 10,
         "question": "Welchen Rat geben Fachleute Menschen, die weniger verschwenden möchten?",
         "options": {
-          "a": " Sie sollten möglichst viel auf Vorrat kaufen und alles sofort wegwerfen.",
+          "a": " Sie sollten möglichst große Vorräte anlegen, auch wenn dadurch mehr verfällt.",
           "b": " Sie sollten bewusst einkaufen, Reste verwerten und Vorräte regelmäßig überprüfen.",
-          "c": " Sie sollten Lebensmittel grundsätzlich nie an andere weitergeben."
+          "c": " Sie sollten auf Apps zur Essensrettung lieber verzichten, weil sie das Wegwerfen fördern."
         }
       }
     ],
@@ -1281,27 +1281,27 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "id": 6,
         "question": "Was zeigt die umfangreiche Studie über mehrsprachige Kinder?",
         "options": {
-          "a": " Dass sie in ihrer Entwicklung stark benachteiligt sind.",
+          "a": " Dass sie zwar besondere Fähigkeiten entwickeln, dafür aber dauerhaft einen kleineren Wortschatz haben.",
           "b": " Dass sie keineswegs benachteiligt sind und oft besondere Fähigkeiten entwickeln.",
-          "c": " Dass sie niemals einen kleineren Wortschatz haben als andere Kinder."
+          "c": " Dass sich bei ihnen anfangs kein Unterschied im Wortschatz zu einsprachigen Kindern zeigt."
         }
       },
       {
         "id": 7,
         "question": "Was berichtet die Mutter Aylin Demir?",
         "options": {
-          "a": " Dass sie auf Anraten anderer nur noch Deutsch mit ihren Kindern spricht.",
+          "a": " Dass sie dem Rat, nur Deutsch zu sprechen, schließlich gefolgt ist.",
           "b": " Dass ihre Kinder stolz sind, mit den Großeltern zu sprechen und in der Schule gut zurechtzukommen.",
-          "c": " Dass ihre Kinder die türkische Sprache völlig verloren haben."
+          "c": " Dass ihre Kinder die beiden Sprachen inzwischen nie mehr miteinander vermischen."
         }
       },
       {
         "id": 8,
         "question": "Was betont der Grundschullehrer Michael Sauer?",
         "options": {
-          "a": " Dass Mehrsprachigkeit für alle Kinder ein großes Problem ist.",
+          "a": " Dass mehrsprachige Kinder in seiner Klasse insgesamt schlechter zurechtkommen als einsprachige.",
           "b": " Dass jede Sprache gefördert werden sollte und Kinder Unterstützung brauchen.",
-          "c": " Dass Eltern zu Hause am besten nur Deutsch sprechen sollten."
+          "c": " Dass Kinder am meisten profitieren, wenn zu Hause nur eine einzige Sprache gesprochen wird."
         }
       },
       {
@@ -1309,17 +1309,17 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "question": "Womit räumt die Sprachwissenschaftlerin Prof. Dr. Ines Walter auf?",
         "options": {
           "a": " Mit dem Vorurteil, dass Mehrsprachigkeit eine Belastung sei.",
-          "b": " Mit der Annahme, dass Kinder Sprachen durch Druck am besten lernen.",
-          "c": " Mit der Idee, dass das Gehirn mehrere Sprachen lernen kann."
+          "b": " Mit der Sorge, dass Eltern stets in der für sie ungewohntesten Sprache mit ihren Kindern sprechen sollten.",
+          "c": " Mit der Annahme, dass Kinder jede Sprache zunächst durch Druck und feste Übungspläne lernen müssen."
         }
       },
       {
         "id": 10,
         "question": "Welchen Rat geben Fachleute Eltern, die ihre Kinder mehrsprachig erziehen möchten?",
         "options": {
-          "a": " Sie sollten ihre Kinder unter Druck setzen, damit sie schneller lernen.",
+          "a": " Sie sollten möglichst häufig die Sprache wechseln, damit die Kinder flexibler werden.",
           "b": " Sie sollten konsequent und entspannt bleiben und den Kindern viele Gelegenheiten zum Hören und Sprechen geben.",
-          "c": " Sie sollten möglichst alle Sprachen gleichzeitig in einem Satz mischen."
+          "c": " Sie sollten Bücher und Lieder meiden, weil diese den Spracherwerb eher verlangsamen."
         }
       }
     ],
@@ -1350,9 +1350,9 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "id": 6,
         "question": "Worauf weisen die Forscher in der Studie hin?",
         "options": {
-          "a": " Dass jedes Angebot, das sich „Sharing“ nennt, automatisch nachhaltig und fair ist.",
+          "a": " Dass inzwischen jedes Angebot, das sich „Sharing“ nennt, staatlich auf Fairness geprüft wird.",
           "b": " Dass nicht jedes Angebot, das sich „Sharing“ nennt, tatsächlich nachhaltig oder fair ist.",
-          "c": " Dass das Teilen vor allem bei älteren Menschen beliebt ist."
+          "c": " Dass das Teilen ausschließlich unter älteren Menschen verbreitet ist."
         }
       },
       {
@@ -1360,17 +1360,17 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "question": "Warum rechnet sich das Carsharing für Simon Faber?",
         "options": {
           "a": " Weil er sich die Kosten für Versicherung, Reparaturen und Parkplatz spart.",
-          "b": " Weil immer und überall sofort ein Auto verfügbar ist.",
-          "c": " Weil er dadurch deutlich mehr Auto fährt als früher."
+          "b": " Weil in den Ferien stets ausreichend viele Autos zur Verfügung stehen.",
+          "c": " Weil er sich beim Buchen über die App keine Gedanken mehr über die Notwendigkeit der Fahrt machen muss."
         }
       },
       {
         "id": 8,
         "question": "Wie sieht die Vermieterin Petra Lang die Entwicklung?",
         "options": {
-          "a": " Sie sieht sie ausschließlich positiv und erkennt keinerlei Probleme.",
+          "a": " Sie sieht sie ausschließlich kritisch, weil sie selbst keinen Nutzen daraus zieht.",
           "b": " Sie sieht sie zwiespältig und versteht die Kritik am Mangel an bezahlbarem Wohnraum.",
-          "c": " Sie lehnt das Vermieten über Plattformen vollständig ab."
+          "c": " Sie findet, dass die Politik sich aus diesem Bereich vollständig heraushalten sollte."
         }
       },
       {
@@ -1378,17 +1378,17 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
         "question": "Welche Kritik äußert der Wirtschaftsforscher Prof. Dr. Lukas Wind?",
         "options": {
           "a": " Dass sich hinter dem Begriff oft große Unternehmen verstecken, denen es vor allem um Gewinn geht.",
-          "b": " Dass Teilen niemals ökologisch oder sozial sinnvoll sein kann.",
-          "c": " Dass die Politik sich auf keinen Fall einmischen sollte."
+          "b": " Dass selbst echtes Teilen unter Nachbarn inzwischen vor allem von Konzernen kontrolliert wird.",
+          "c": " Dass die Politik bislang viel zu strenge Regeln für die Sharing Economy durchsetzt."
         }
       },
       {
         "id": 10,
         "question": "Welchen Rat geben Fachleute Menschen, die die Sharing Economy nutzen möchten?",
         "options": {
-          "a": " Sie sollten jedes Angebot ungeprüft nutzen, das sich „Sharing“ nennt.",
+          "a": " Sie sollten sich bei der Auswahl allein am Preis orientieren, nicht an Fairness oder Umweltnutzen.",
           "b": " Sie sollten genau prüfen, ob ein Dienst fair bezahlt wird und der Umwelt nützt.",
-          "c": " Sie sollten ihre Sachen niemals mit Nachbarn oder Freunden teilen."
+          "c": " Sie sollten lieber große Plattformen statt des unkomplizierten Teilens im eigenen Umfeld nutzen."
         }
       }
     ],
@@ -1470,12 +1470,12 @@ const LESEVERSTEHEN_TEIL_3_DATA_B2 = [
         "body": "Lernen Sie die Grundlagen des Nähens: von der Bedienung der Nähmaschine bis zum ersten eigenen Kleidungsstück. Auch Reparaturen werden geübt. Termine: samstags 11:00–14:00 Uhr, 6 Wochen. Anmeldung: naehstube-faden@web.de"
       },
       "k": {
-        "title": "Chor „Stimmenzauber“",
-        "body": "Singen Sie gern? Unser gemischter Chor freut sich über neue Mitglieder. Wir singen moderne und klassische Lieder. Notenkenntnisse nicht erforderlich. Termine: mittwochs 19:00–21:00 Uhr. Kontakt: chor-stimmenzauber@mail.de"
+        "title": "Theaterprobe „Bühnenglanz“ für Profis",
+        "body": "Unsere semiprofessionelle Theatergruppe sucht erfahrene Schauspielerinnen und Schauspieler für anspruchsvolle Inszenierungen. Vorsprechen erforderlich, regelmäßige Auftritte vor Publikum. Termine: mittwochs 19:00–21:00 Uhr. Kontakt: theater-buehnenglanz@mail.de"
       },
       "l": {
-        "title": "Töpferkurs am Wochenende",
-        "body": "Entdecken Sie die Freude am Arbeiten mit Ton. Wir formen Schalen, Tassen und kleine Figuren. Für Anfänger und Fortgeschrittene geeignet. Termine: sonntags 14:00–17:00 Uhr. Anmeldung: toepferei-erde@mail.de"
+        "title": "Töpferkurs für Kinder am Wochenende",
+        "body": "Speziell für Kinder von 6 bis 10 Jahren: Wir formen gemeinsam Schalen, Tassen und kleine Figuren aus Ton. Erwachsene können in dieser Zeit gern in der Stadt bummeln gehen. Termine: sonntags 14:00–17:00 Uhr. Anmeldung: toepferei-erde@mail.de"
       }
     },
     "answers": {
@@ -1559,16 +1559,16 @@ const LESEVERSTEHEN_TEIL_3_DATA_B2 = [
         "body": "Genießen Sie erstklassige Cocktails bei stimmungsvoller Livemusik. Jeden Freitag und Samstag spielen wechselnde Bands. Öffnungszeiten: Do.–Sa. ab 20:00 Uhr. Hafenstraße 1."
       },
       "j": {
-        "title": "Steakhaus Rancho",
-        "body": "Saftige Steaks vom Grill und herzhafte Beilagen in rustikaler Atmosphäre. Für echte Fleischliebhaber. Öffnungszeiten: Di.–So. 18:00–23:00 Uhr. Reservierung: Tel. 0351-99 00 11."
+        "title": "Steakhaus Rancho – bis Mitternacht geöffnet",
+        "body": "Saftige Steaks vom Grill und herzhafte Beilagen in rustikaler Atmosphäre. Für echte Fleischliebhaber, die Küche schließt jedoch spätestens um 23:00 Uhr. Öffnungszeiten: Di.–So. 18:00–23:00 Uhr. Reservierung: Tel. 0351-99 00 11."
       },
       "k": {
-        "title": "Eisdiele Dolce Vita",
-        "body": "Hausgemachtes Eis in über 30 Sorten, dazu Kaffee und Kuchen. Großer Außenbereich für sonnige Tage. Öffnungszeiten: täglich 11:00–20:00 Uhr. Seepromenade 7."
+        "title": "Eisdiele Dolce Vita – auch warme Gerichte",
+        "body": "Hausgemachtes Eis in über 30 Sorten, dazu Kaffee und Kuchen. Großer Außenbereich für sonnige Tage, kleine warme Snacks nur bis zum frühen Abend erhältlich. Öffnungszeiten: täglich 11:00–20:00 Uhr. Seepromenade 7."
       },
       "l": {
-        "title": "Teehaus Frieden",
-        "body": "Über 50 Teesorten aus aller Welt in ruhiger Atmosphäre. Dazu kleine süße Köstlichkeiten. Ideal zum Entspannen und Lesen. Öffnungszeiten: Mo.–Sa. 14:00–20:00 Uhr. Bergstraße 18."
+        "title": "Teehaus Frieden – Nachtküche",
+        "body": "Über 50 Teesorten aus aller Welt in ruhiger Atmosphäre. Dazu kleine süße Köstlichkeiten, warme Mahlzeiten werden bei uns jedoch grundsätzlich nicht angeboten. Öffnungszeiten: Mo.–Sa. 14:00–20:00 Uhr. Bergstraße 18."
       }
     },
     "answers": {
@@ -1652,16 +1652,16 @@ const LESEVERSTEHEN_TEIL_3_DATA_B2 = [
         "body": "Lernen Sie Spanisch dort, wo es gesprochen wird! Vormittags Unterricht in kleinen Gruppen, nachmittags Ausflüge zu Sehenswürdigkeiten und an den Strand. Unterkunft in Gastfamilien. Infos: www.espana-viva-sprachreisen.de"
       },
       "j": {
-        "title": "Wellnesshotel Quellenruh",
-        "body": "Erholung pur in ruhiger Lage: großes Thermalbad, Saunalandschaft und ein breites Angebot an Massagen und Anwendungen. Ideal für eine entspannte Kur. Buchung: Tel. 08821-66 77 88."
+        "title": "Wellnesshotel Quellenruh – Busreisen für Senioren",
+        "body": "Erholung pur in ruhiger Lage: großes Thermalbad, Saunalandschaft und ein breites Angebot an Massagen und Anwendungen. Organisierte Ausflüge führen nur in die nähere Umgebung, nicht ins Ausland. Buchung: Tel. 08821-66 77 88."
       },
       "k": {
-        "title": "Jugendcamp Abenteuerland",
+        "title": "Jugendcamp Abenteuerland – auch für Senioren",
         "body": "Ferienlager für Kinder und Jugendliche von 10 bis 16 Jahren. Klettern, Kanu fahren und Lagerfeuer. Betreuung rund um die Uhr durch erfahrene Teamer. Sommerferien, einwöchige Durchgänge. Anmeldung: camp-abenteuerland@mail.de"
       },
       "l": {
-        "title": "Stadthotel Zentral",
-        "body": "Modernes Hotel im Herzen der Großstadt, ideal für Sightseeing. Komfortable Doppelzimmer, Restaurant und Bar im Haus. Nahe an Museen und Theatern. Reservierung: Tel. 030-99 88 77."
+        "title": "Stadthotel Zentral – Busreisen Italien",
+        "body": "Modernes Hotel im Herzen der Großstadt, ideal für individuelles Sightseeing auf eigene Faust. Komfortable Doppelzimmer, Restaurant und Bar im Haus, jedoch ohne organisierte Reisebegleitung. Reservierung: Tel. 030-99 88 77."
       }
     },
     "answers": {
@@ -1745,12 +1745,12 @@ const LESEVERSTEHEN_TEIL_3_DATA_B2 = [
         "body": "Das Tierheim Pfötchen sucht freiwillige Helfer, die Hunde ausführen, Katzen versorgen und bei der Pflege helfen. Tierliebe und Zuverlässigkeit vorausgesetzt. Kontakt: ehrenamt@tierheim-pfoetchen.de"
       },
       "j": {
-        "title": "Reinigungskraft gesucht",
-        "body": "Bürogebäude sucht eine zuverlässige Reinigungskraft für die frühen Morgenstunden (6:00–9:00 Uhr). Teilzeit, geregelte Arbeitszeiten. Kontakt: Tel. 030-55 44 33."
+        "title": "Ingenieur (m/w/d) für Maschinenbau gesucht",
+        "body": "Mittelständisches Unternehmen sucht einen Ingenieur für die technische Zeichnung und Qualitätskontrolle. Keine Führungsverantwortung, sondern Mitarbeit im bestehenden Team. Bewerbung: Tel. 030-55 44 33."
       },
       "k": {
-        "title": "Verkäufer/in im Modegeschäft",
-        "body": "Unsere Modeboutique sucht eine freundliche Verkäuferin in Vollzeit. Freude am Kontakt mit Kunden und Interesse an Mode erwünscht. Bewerbung: boutique-stil@mail.de"
+        "title": "Werkstudent/in im Maschinenbau",
+        "body": "Wir suchen Studierende des Maschinenbaus für eine Werkstudententätigkeit neben dem Studium. Flexible Stunden, keine Festanstellung. Bewerbung: boutique-stil@mail.de"
       },
       "l": {
         "title": "Erzieher/in für Kindergarten",
@@ -1838,16 +1838,16 @@ const LESEVERSTEHEN_TEIL_3_DATA_B2 = [
         "body": "Schwimmkurse für Kinder ab 6 Jahren. Erfahrene Trainer bringen Ihrem Kind spielerisch das Schwimmen bei. Kleine Gruppen, viel Spaß im Wasser. Termine: dienstags und donnerstags 16:00 Uhr. Anmeldung: verein-delphin@mail.de"
       },
       "j": {
-        "title": "Massagepraxis Wohlfühl",
-        "body": "Klassische Massagen, Wellnessmassagen und Behandlungen zur Entspannung. Gönnen Sie sich eine Auszeit vom Alltag. Termine nach Vereinbarung: Tel. 089-11 22 33."
+        "title": "Massagepraxis Wohlfühl – Lauftreff am Abend",
+        "body": "Klassische Massagen, Wellnessmassagen und Behandlungen zur Entspannung. Außerdem organisieren wir einmal pro Woche einen lockeren Lauftreff für Berufstätige am Abend. Termine nach Vereinbarung: Tel. 089-11 22 33."
       },
       "k": {
-        "title": "Hausarztpraxis Dr. Sorglos",
-        "body": "Allgemeinmedizin für die ganze Familie. Vorsorge, Impfungen und Behandlung akuter Beschwerden. Sprechzeiten: Mo.–Fr. 8:00–12:00 und 15:00–18:00 Uhr. Termine: Tel. 0221-12 34 56."
+        "title": "Hausarztpraxis Dr. Sorglos – Lauftreff für Patienten",
+        "body": "Allgemeinmedizin für die ganze Familie. Vorsorge, Impfungen und Behandlung akuter Beschwerden. Einmal im Monat bieten wir zusätzlich einen Lauftreff für junge Patienten an. Sprechzeiten: Mo.–Fr. 8:00–12:00 und 15:00–18:00 Uhr. Termine: Tel. 0221-12 34 56."
       },
       "l": {
-        "title": "Tanzstudio Rhythmus",
-        "body": "Zumba, Hip-Hop und moderner Tanz für alle Altersgruppen. Bewegung, Musik und Spaß in der Gruppe. Termine: verschiedene Kurse unter der Woche. Infos: www.tanzstudio-rhythmus.de"
+        "title": "Tanzstudio Rhythmus – auch Lauftraining",
+        "body": "Zumba, Hip-Hop und moderner Tanz für alle Altersgruppen. Zusätzlich bieten wir abends ein intensives Lauftraining für ambitionierte, jüngere Sportler an. Termine: verschiedene Kurse unter der Woche. Infos: www.tanzstudio-rhythmus.de"
       }
     },
     "answers": {
@@ -1923,8 +1923,8 @@ const LESEVERSTEHEN_TEIL_3_DATA_B2 = [
         "body": "Wir gestalten Ihren Traumgarten: Planung, Bepflanzung und Pflege. Langjährige Erfahrung in der Gartengestaltung. Beratung: info@gartenbau-gruenwerk.de"
       },
       "h": {
-        "title": "Schlüsseldienst 24h",
-        "body": "Ausgesperrt? Wir öffnen Ihre Tür schnell und ohne Schaden – Tag und Nacht, sieben Tage die Woche. In der Regel innerhalb von 30 Minuten vor Ort. Notruf: Tel. 0800-12 34 56."
+        "title": "Schlüsseldienst & Dachservice 24h",
+        "body": "Ausgesperrt? Wir öffnen Ihre Tür schnell und ohne Schaden – Tag und Nacht, sieben Tage die Woche. Kleinere Dachreparaturen übernehmen wir ausschließlich im Rahmen unseres Notdienstes für Türen. Notruf: Tel. 0800-12 34 56."
       },
       "i": {
         "title": "Haus mit Garten am Stadtrand",
@@ -1935,12 +1935,12 @@ const LESEVERSTEHEN_TEIL_3_DATA_B2 = [
         "body": "Wir kaufen Ihre gut erhaltenen Gebrauchtmöbel: Sofas, Schränke, Tische und mehr. Faire Preise, Abholung möglich. Kontakt: Tel. 0221-55 66 77."
       },
       "k": {
-        "title": "Fensterputzer Glanz & Glas",
-        "body": "Wir reinigen Ihre Fenster streifenfrei – für Privathaushalte und Büros. Regelmäßig oder einmalig. Kontakt: info@fenster-glanz.de"
+        "title": "Fensterputzer & Dachrinnenservice Glanz & Glas",
+        "body": "Wir reinigen Ihre Fenster streifenfrei – für Privathaushalte und Büros. Auf Wunsch säubern wir auch Ihre Dachrinnen, eine Reparatur des Dachs selbst bieten wir jedoch nicht an. Kontakt: info@fenster-glanz.de"
       },
       "l": {
-        "title": "Tischlerei Holzwurm",
-        "body": "Maßgefertigte Möbel nach Ihren Wünschen: Regale, Tische, Einbauschränke. Reine Handarbeit aus heimischem Holz. Kontakt: tischlerei-holzwurm@mail.de"
+        "title": "Tischlerei Holzwurm – auch Dachbalken",
+        "body": "Maßgefertigte Möbel nach Ihren Wünschen: Regale, Tische, Einbauschränke. Reine Handarbeit aus heimischem Holz, die Reparatur undichter Dächer gehört allerdings nicht zu unserem Angebot. Kontakt: tischlerei-holzwurm@mail.de"
       }
     },
     "answers": {
@@ -2024,16 +2024,16 @@ const LESEVERSTEHEN_TEIL_3_DATA_B2 = [
         "body": "Der bekannte Komiker präsentiert sein neues Programm voller Witz und Satire. Ein Abend zum Lachen und Nachdenken. Termin: Freitag, 20:00 Uhr, Kulturzentrum. Karten: Tel. 0221-77 88 99."
       },
       "j": {
-        "title": "Jazz im Keller",
-        "body": "Stimmungsvolle Jazz-Abende mit wechselnden Musikern in gemütlicher Atmosphäre. Eintritt frei, Spenden willkommen. Termine: jeden Mittwoch 20:00 Uhr. Infos: www.jazzkeller-stadt.de"
+        "title": "Jazz im Keller – mit Tanzeinlage",
+        "body": "Stimmungsvolle Jazz-Abende mit wechselnden Musikern in gemütlicher Atmosphäre. Gelegentlich tritt zusätzlich eine kleine Ballettgruppe für wenige Minuten auf. Eintritt frei, Spenden willkommen. Termine: jeden Mittwoch 20:00 Uhr. Infos: www.jazzkeller-stadt.de"
       },
       "k": {
-        "title": "Weihnachtsmarkt am Schloss",
-        "body": "Glühwein, gebrannte Mandeln und kunsthandwerkliche Stände in festlicher Atmosphäre. Für die ganze Familie. Termine: 1.–23. Dezember, täglich ab 16:00 Uhr. Infos: www.weihnachtsmarkt-schloss.de"
+        "title": "Weihnachtsmarkt am Schloss – mit Tanzshow",
+        "body": "Glühwein, gebrannte Mandeln und kunsthandwerkliche Stände in festlicher Atmosphäre. An einzelnen Abenden zeigt eine Tanzgruppe kurze klassische Choreografien. Termine: 1.–23. Dezember, täglich ab 16:00 Uhr. Infos: www.weihnachtsmarkt-schloss.de"
       },
       "l": {
-        "title": "Kreativ-Workshop Malerei",
-        "body": "An einem Wochenende lernen Sie verschiedene Maltechniken kennen und gestalten Ihr eigenes Bild. Für Erwachsene mit und ohne Vorkenntnisse. Termin: Sa./So. 10:00–16:00 Uhr. Anmeldung: kreativ-workshop@mail.de"
+        "title": "Kreativ-Workshop Malerei – mit Ballettvorführung",
+        "body": "An einem Wochenende lernen Sie verschiedene Maltechniken kennen und gestalten Ihr eigenes Bild. Am Ende präsentiert eine Schülergruppe eine kurze, unprofessionelle Tanzeinlage zur Ausstellung. Termin: Sa./So. 10:00–16:00 Uhr. Anmeldung: kreativ-workshop@mail.de"
       }
     },
     "answers": {
@@ -2105,8 +2105,8 @@ const LESEVERSTEHEN_TEIL_3_DATA_B2 = [
         "body": "Bücher aus aller Welt – auch eine große Auswahl englischsprachiger Romane und Sachbücher. Bestellungen innerhalb eines Tages. Öffnungszeiten: Mo.–Sa. 9:00–20:00 Uhr. Schillerplatz 2."
       },
       "g": {
-        "title": "Computerservice FlinkFix",
-        "body": "Ihr Rechner ist langsam oder kaputt? Wir reparieren PCs und Laptops, entfernen Viren und machen Ihren Computer wieder schnell. Kontakt: Tel. 030-11 22 33."
+        "title": "Computerservice & Änderungsschneiderei FlinkFix",
+        "body": "Ihr Rechner ist langsam oder kaputt? Wir reparieren PCs und Laptops, entfernen Viren und machen Ihren Computer wieder schnell. Kleinere Änderungen an Hosen oder Röcken nehmen wir nebenbei ebenfalls vor, jedoch keine kompletten Maßanfertigungen. Kontakt: Tel. 030-11 22 33."
       },
       "h": {
         "title": "Blumen Blütentraum",
@@ -2121,12 +2121,12 @@ const LESEVERSTEHEN_TEIL_3_DATA_B2 = [
         "body": "Reparaturen und Wartung für alle Automarken zu fairen Preisen. Inspektion, Reifenwechsel, TÜV-Vorbereitung. Termine: Tel. 0711-22 33 44."
       },
       "k": {
-        "title": "Juwelier Goldglanz",
-        "body": "Schmuck, Uhren und edle Geschenke. Wir reparieren auch Ihre Uhren und Ketten. Öffnungszeiten: Mo.–Sa. 10:00–18:00 Uhr. Königsallee 1."
+        "title": "Juwelier Goldglanz – mit Schneiderservice",
+        "body": "Schmuck, Uhren und edle Geschenke. Wir reparieren auch Ihre Uhren und Ketten. Für die Anpassung von Ringgrößen vermitteln wir Kontakt zu einer Partnerschneiderei, fertigen jedoch keine Anzüge. Öffnungszeiten: Mo.–Sa. 10:00–18:00 Uhr. Königsallee 1."
       },
       "l": {
-        "title": "Handyladen MobilProfi",
-        "body": "Verkauf von Smartphones und Zubehör. Wir reparieren auch Displays und Akkus. Öffnungszeiten: Mo.–Sa. 10:00–19:00 Uhr. Bahnhofstraße 15."
+        "title": "Handyladen MobilProfi – Reparaturservice",
+        "body": "Verkauf von Smartphones und Zubehör. Wir reparieren auch Displays und Akkus, jedoch keine Kleidungsstücke oder Anzüge. Öffnungszeiten: Mo.–Sa. 10:00–19:00 Uhr. Bahnhofstraße 15."
       }
     },
     "answers": {
@@ -2210,16 +2210,16 @@ const LESEVERSTEHEN_TEIL_3_DATA_B2 = [
         "body": "Optimieren Sie Ihre Bewerbung! Wir überarbeiten gemeinsam Ihren Lebenslauf, das Anschreiben und üben das Vorstellungsgespräch. Termine: Freitag 14:00–18:00 Uhr. Anmeldung: jobcenter-training@mail.de"
       },
       "j": {
-        "title": "Italienisch für die Reise",
-        "body": "Lernen Sie die wichtigsten Sätze für Ihren Italienurlaub. Bestellen, fragen, sich vorstellen – schnell und praktisch. Termine: freitags 17:00–18:30 Uhr. Anmeldung: sprachschule-ciao@mail.de"
+        "title": "Italienisch für die Reise – mit Gebärden-Einführung",
+        "body": "Lernen Sie die wichtigsten Sätze für Ihren Italienurlaub. Bestellen, fragen, sich vorstellen – schnell und praktisch. Eine kurze Einführung in italienische Gesten ist Teil des Kurses, Gebärdensprache wird jedoch nicht unterrichtet. Termine: freitags 17:00–18:30 Uhr. Anmeldung: sprachschule-ciao@mail.de"
       },
       "k": {
-        "title": "Yoga & Meditation",
-        "body": "Entspannung für Körper und Geist. Sanfte Übungen und Atemtechniken für mehr Gelassenheit im Alltag. Termine: montags 19:00–20:30 Uhr. Anmeldung: yoga-vhs@mail.de"
+        "title": "Yoga & Meditation – nonverbale Kommunikation",
+        "body": "Entspannung für Körper und Geist. Sanfte Übungen und Atemtechniken für mehr Gelassenheit im Alltag, dazu kurze Übungen zur nonverbalen Kommunikation ohne Worte. Termine: montags 19:00–20:30 Uhr. Anmeldung: yoga-vhs@mail.de"
       },
       "l": {
-        "title": "Fotografie-Grundkurs",
-        "body": "Lernen Sie die Grundlagen der Fotografie: Belichtung, Bildaufbau und der richtige Umgang mit der Kamera. Termine: samstags 11:00–14:00 Uhr. Anmeldung: fotokurs-vhs@mail.de"
+        "title": "Fotografie-Grundkurs – visuelles Geschichtenerzählen",
+        "body": "Lernen Sie die Grundlagen der Fotografie: Belichtung, Bildaufbau und der richtige Umgang mit der Kamera, um Geschichten ganz ohne Worte zu erzählen. Termine: samstags 11:00–14:00 Uhr. Anmeldung: fotokurs-vhs@mail.de"
       }
     },
     "answers": {
@@ -2299,20 +2299,20 @@ const LESEVERSTEHEN_TEIL_3_DATA_B2 = [
         "body": "Riesiger Hallenspielplatz mit Klettergerüsten, Rutschen und Trampolinen. Perfekt für regnerische Tage. Café für Eltern. Öffnungszeiten: täglich 10:00–19:00 Uhr. Infos: www.indoor-huepfburg.de"
       },
       "i": {
-        "title": "Schwimmkurs für Jugendliche",
-        "body": "Schwimmkurs für Jugendliche ab 12 Jahren zum Erwerb der Schwimmabzeichen (Bronze, Silber, Gold). Erfahrene Schwimmlehrer. Termine: samstags 14:00 Uhr. Anmeldung: schwimmschule-welle@mail.de"
+        "title": "Schwimmkurs mit Theaterprojekt für Jugendliche",
+        "body": "Schwimmkurs für Jugendliche ab 12 Jahren zum Erwerb der Schwimmabzeichen (Bronze, Silber, Gold). Am letzten Kurstag führen die Teilnehmer eine kurze, selbst geschriebene Wassershow vor, regulären Schauspielunterricht bieten wir jedoch nicht an. Termine: samstags 14:00 Uhr. Anmeldung: schwimmschule-welle@mail.de"
       },
       "j": {
         "title": "Familienberatung – kostenlos & vertraulich",
         "body": "Unsere Beratungsstelle unterstützt Familien bei Erziehungsfragen, Konflikten und schwierigen Situationen. Kostenlos und auf Wunsch anonym. Termine: Tel. 030-44 55 66."
       },
       "k": {
-        "title": "Kinderzahnarztpraxis Zahnfee",
-        "body": "Einfühlsame zahnärztliche Betreuung für Kinder. Wir nehmen den Kleinen die Angst und sorgen für gesunde Zähne. Termine: Tel. 0221-77 88 99."
+        "title": "Kinderzahnarztpraxis Zahnfee – mit Vorlese-Ecke",
+        "body": "Einfühlsame zahnärztliche Betreuung für Kinder. Wir nehmen den Kleinen die Angst und sorgen für gesunde Zähne. Im Wartezimmer steht eine kleine Verkleidungskiste, einen richtigen Schauspielkurs bieten wir aber nicht an. Termine: Tel. 0221-77 88 99."
       },
       "l": {
-        "title": "Reiterhof Pferdefreund",
-        "body": "Reitunterricht für Kinder und Jugendliche ab 8 Jahren. Erst Pony, dann Pferd – Schritt für Schritt zum sicheren Reiten. Kontakt: reiterhof-pferdefreund@mail.de"
+        "title": "Reiterhof Pferdefreund – mit Bühnenprogramm",
+        "body": "Reitunterricht für Kinder und Jugendliche ab 8 Jahren. Erst Pony, dann Pferd – Schritt für Schritt zum sicheren Reiten. Einmal im Jahr zeigen die Kinder eine kleine Reitvorführung, ein Schauspielkurs gehört jedoch nicht zum Angebot. Kontakt: reiterhof-pferdefreund@mail.de"
       }
     },
     "answers": {
@@ -2396,16 +2396,16 @@ const LESEVERSTEHEN_TEIL_3_DATA_B2 = [
         "body": "Wir entsorgen Ihre alten Elektrogeräte fachgerecht und umweltfreundlich: PCs, Bildschirme, Kleingeräte. Abholung möglich. Kontakt: info@gruen-recycling.de"
       },
       "j": {
-        "title": "Kamera & Foto-Studio Blende8",
-        "body": "Verkauf von Kameras, Objektiven und Zubehör. Außerdem Beratung und Verleih von Profi-Ausrüstung. Öffnungszeiten: Mo.–Sa. 9:30–18:30 Uhr. Lindenplatz 6."
+        "title": "Kamera & Foto-Studio Blende8 – auch Drohnenzubehör",
+        "body": "Verkauf von Kameras, Objektiven und Zubehör. Außerdem Beratung und Verleih von Profi-Ausrüstung. Vereinzelt führen wir Akkus für gängige Drohnenmodelle, jedoch keine speziellen Ersatzteile. Öffnungszeiten: Mo.–Sa. 9:30–18:30 Uhr. Lindenplatz 6."
       },
       "k": {
-        "title": "Haushaltsgeräte Elektro-König",
-        "body": "Waschmaschinen, Kühlschränke und Herde namhafter Marken. Lieferung und Anschluss inklusive. Öffnungszeiten: Mo.–Sa. 9:00–19:00 Uhr. Hauptstraße 40."
+        "title": "Haushaltsgeräte Elektro-König – Spielzeugdrohnen",
+        "body": "Waschmaschinen, Kühlschränke und Herde namhafter Marken. Lieferung und Anschluss inklusive. Im Spielzeugregal finden Sie zudem einfache Spielzeugdrohnen für Kinder, jedoch keine Ersatzteile für Profimodelle. Öffnungszeiten: Mo.–Sa. 9:00–19:00 Uhr. Hauptstraße 40."
       },
       "l": {
-        "title": "Telefonanbieter SprichMehr",
-        "body": "Günstige Handytarife und Verträge mit viel Datenvolumen. Beratung im Shop oder online. Öffnungszeiten: Mo.–Sa. 10:00–19:00 Uhr. Marktplatz 3."
+        "title": "Telefonanbieter SprichMehr – Drohnen-Versicherung",
+        "body": "Günstige Handytarife und Verträge mit viel Datenvolumen. Beratung im Shop oder online. Auf Wunsch vermitteln wir zusätzlich eine Versicherung für Drohnen, verkaufen aber keine Ersatzteile. Öffnungszeiten: Mo.–Sa. 10:00–19:00 Uhr. Marktplatz 3."
       }
     },
     "answers": {
@@ -2489,16 +2489,16 @@ const LESEVERSTEHEN_TEIL_3_DATA_B2 = [
         "body": "Das Tierheim sucht freiwillige Helfer, die mit den Hunden spazieren gehen. Tierliebe und Zuverlässigkeit vorausgesetzt. Kontakt: gassi@tierheim-stadt.de"
       },
       "j": {
-        "title": "Hospizdienst Begleitung",
-        "body": "Wir begleiten schwerkranke Menschen in ihrer letzten Lebensphase. Für dieses Ehrenamt bieten wir eine sorgfältige Vorbereitung an. Kontakt: hospiz-begleitung@mail.de"
+        "title": "Hospizdienst Begleitung – auch im Gebirge",
+        "body": "Wir begleiten schwerkranke Menschen in ihrer letzten Lebensphase, überwiegend in städtischen Pflegeeinrichtungen. Für dieses Ehrenamt bieten wir eine sorgfältige Vorbereitung an, Einsätze im Gebirge gehören jedoch nicht zu unserem Angebot. Kontakt: hospiz-begleitung@mail.de"
       },
       "k": {
-        "title": "Sportverein sucht Übungsleiter",
-        "body": "Unser Verein sucht ehrenamtliche Übungsleiter für die Kinder- und Jugendgruppen im Bereich Leichtathletik. Kontakt: jugend@sportverein-stadt.de"
+        "title": "Sportverein sucht Übungsleiter für Bergwandern",
+        "body": "Unser Verein sucht ehrenamtliche Übungsleiter für die Kinder- und Jugendgruppen im Bereich Leichtathletik, gelegentlich mit Ausflügen ins Mittelgebirge. Eine Mitarbeit bei der Bergrettung ist damit nicht verbunden. Kontakt: jugend@sportverein-stadt.de"
       },
       "l": {
-        "title": "Repair-Café – Helfer willkommen",
-        "body": "In unserem Repair-Café reparieren ehrenamtliche Helfer gemeinsam mit den Besuchern kaputte Geräte. Handwerkliches Geschick erwünscht. Termine: jeden ersten Samstag im Monat. Kontakt: repaircafe@mail.de"
+        "title": "Repair-Café – auch für Outdoor-Ausrüstung",
+        "body": "In unserem Repair-Café reparieren ehrenamtliche Helfer gemeinsam mit den Besuchern kaputte Geräte, gelegentlich auch Wanderausrüstung. Handwerkliches Geschick erwünscht, eine Mitarbeit bei der Bergrettung ist davon unabhängig. Termine: jeden ersten Samstag im Monat. Kontakt: repaircafe@mail.de"
       }
     },
     "answers": {

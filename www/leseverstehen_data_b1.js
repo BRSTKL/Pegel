@@ -8,15 +8,15 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Größere Menschen bekommen oft mehr Lohn",
-      "b": "Büro-Übungen beugen Rückenschmerzen vor",
+      "b": "Wirbelsäulen-Operationen werden immer häufiger",
       "c": "Viel Stress, aber Job macht froh",
       "d": "Luxus-Burger sorgt für Diskussionen",
-      "e": "Firmen organisieren eigene After-Work-Partys",
-      "f": "Soziale Medien kritisieren Restaurantpreise",
+      "e": "Restaurant verzichtet komplett auf Spenden",
+      "f": "Nur ausgewählte Promis durften den Burger probieren",
       "g": "Einfache Übungen gegen Rückenschmerzen",
-      "h": "Forscher prüfen Einfluss der Ausstrahlung",
+      "h": "Forscher untersuchen Zusammenhang zwischen Größe und Karriere bei Frauen",
       "i": "Feiern nach der Arbeit liegen im Trend",
-      "j": "Flexible Arbeitszeiten senken Stress"
+      "j": "Homeoffice senkt laut Studie den Arbeitsstress deutlich"
     },
     "texts": [
       {
@@ -55,11 +55,11 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Mehr Sport verbessert die Konzentration im Büro",
-      "b": "Neue App hilft beim Sprachenlernen im Alltag",
-      "c": "Hohe Preise für Bio-Lebensmittel in der Kritik",
+      "a": "Radfahren im Sommer verbessert laut Studie die Konzentration",
+      "b": "Neue App hilft beim Finden von Fahrradwerkstätten",
+      "c": "Café-Besitzer verzichtet künftig auf Bio-Lebensmittel",
       "d": "Gemeinsames Kochen bringt Nachbarn zusammen",
-      "e": "Haustiere im Büro reduzieren Stress am Arbeitsplatz",
+      "e": "Katzen im Büro reduzieren laut Forschern den Stress",
       "f": "Kunden diskutieren über teuren Kaffee in Großstädten",
       "g": "Fahrradfahren im Winter: Tipps für die Sicherheit",
       "h": "Studie zeigt: Hunde am Arbeitsplatz machen glücklich",
@@ -103,14 +103,14 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Arbeitnehmer fordern mehr Urlaub im Sommer",
+      "a": "Krankenkasse fordert kürzere Arbeitstage für Büroangestellte",
       "b": "Immer mehr Menschen nutzen das Fahrrad für den Arbeitsweg",
-      "c": "Neue Studie: Schokolade macht glücklich und gesund",
+      "c": "Neue Studie: Vegetarische Ernährung macht laut Forschern glücklicher",
       "d": "Großes Interesse an Kursen für gesunde Ernährung",
       "e": "Langes Sitzen im Büro gefährdet die Gesundheit",
       "f": "Traditionelle Buchhandlungen melden steigende Umsätze",
-      "g": "Musik beim Lernen verbessert die Noten von Schülern",
-      "h": "Zahl der Autokäufe in Großstädten geht stark zurück",
+      "g": "Kurze Bewegungspausen verbessern die Noten von Schülern",
+      "h": "Zahl der Fahrradkäufe in Großstädten geht stark zurück",
       "i": "Digitale Bücher werden bei Jugendlichen immer beliebter",
       "j": "Experten raten zu Pausen und Bewegung am Arbeitsplatz"
     },
@@ -151,16 +151,16 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Kino-Tickets werden für Familien immer teurer",
+      "a": "Bahntickets werden für Familien immer teurer",
       "b": "Ältere Menschen nutzen kaum noch moderne Smartphones",
       "c": "Reisen mit dem Zug schont die Umwelt und spart Geld",
       "d": "Neues Gesetz: Höhere Strafen für Müll in der Natur",
       "e": "Immer mehr Senioren entdecken soziale Medien für sich",
       "f": "Flugreisen sind trotz Klimadebatte weiterhin sehr beliebt",
-      "g": "Online-Shopping führt zu weniger Verkehr in den Städten",
+      "g": "Kurzstreckenflüge führen zu weniger Verkehr in den Städten",
       "h": "Studie zeigt: Jugendliche lesen wieder mehr gedruckte Zeitungen",
       "i": "Interesse an Urlaub im eigenen Land wächst stark",
-      "j": "Plastikmüll im Meer: Neue Technologie soll helfen"
+      "j": "Höhere Bußgelder gelten künftig auch für Plastikmüll im Meer"
     },
     "texts": [
       {
@@ -199,13 +199,13 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Immer mehr Menschen nutzen Carsharing in Großstädten",
+      "a": "Immer mehr Möbelhäuser bieten kostenlose Lieferung an",
       "b": "Neue Studie: Kaffee ist gesünder als bisher gedacht",
       "c": "Steigende Kosten für Strom und Gas belasten Familien",
       "d": "Traditionelle Handwerksberufe finden keine Azubis mehr",
       "e": "Online-Kurse für Fitness boomen während der Urlaubszeit",
       "f": "Verbraucher sparen Geld durch den Kauf von gebrauchten Möbeln",
-      "g": "Interesse an vegetarischer Ernährung bei Jugendlichen sinkt",
+      "g": "Senioren meiden Online-Shops vor allem wegen der Versandkosten",
       "h": "Ältere Menschen meiden zunehmend das Einkaufen im Internet",
       "i": "Große Mehrheit der Deutschen kauft Möbel lieber im Geschäft",
       "j": "Neue Technologie reduziert den Energieverbrauch in Haushalten"
@@ -252,11 +252,11 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
       "c": "Höhere Gebühren für das Parken in Innenstädten geplant",
       "d": "Studie zeigt: Haustiere verbessern das Wohlbefinden im Alter",
       "e": "Traditionelle Wochenmärkte verlieren immer mehr Kunden",
-      "f": "Flugreisen werden wegen neuer Steuern deutlich teurer",
+      "f": "Campingurlaub wird wegen neuer Gebühren deutlich teurer",
       "g": "Frische Lebensmittel: Junge Leute kaufen wieder mehr auf Märkten",
-      "h": "Zahl der Autodiebstähle in Großstädten nimmt stark zu",
+      "h": "Zahl der Parkverstöße in Innenstädten nimmt stark zu",
       "i": "Online-Lebensmittelhandel boomt vor allem bei Familien",
-      "j": "Haustier-Besitzer fordern mehr Freilaufzonen in Städten"
+      "j": "Hundebesitzer fordern Abschaffung der Leinenpflicht in Parks"
     },
     "texts": [
       {
@@ -295,12 +295,12 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Immer mehr Menschen nutzen Apps für das Gehirntraining",
+      "a": "Apps für Gehirntraining wirken laut Studie kaum besser als Musizieren",
       "b": "Neue Verordnung: Verbot von Plastiktüten auf Wochenmärkten",
       "c": "Studie zeigt: Regelmäßiges Musizieren hält das Gehirn im Alter fit",
-      "d": "Preise für Musikinstrumente im Internet stark gestiegen",
+      "d": "Preise für E-Bikes im Internet stark gestiegen",
       "e": "Fahrrad-Verleihsysteme in Großstädten werden immer seltener genutzt",
-      "f": "Gemeinsame sportliche Aktivitäten stärken den Teamgeist im Beruf",
+      "f": "Vereinssport stärkt laut Sportbund vor allem den Teamgeist im Beruf",
       "g": "Traditionelle Sportvereine melden sinkende Mitgliederzahlen bei Kindern",
       "h": "Immer mehr Pendler steigen für den Arbeitsweg auf das E-Bike um",
       "i": "Online-Sprachkurse boomen vor allem bei älteren Menschen",
@@ -345,14 +345,14 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "headings": {
       "a": "Neue Studie: Regelmäßige Saunagänge senken das Krankheitsrisiko",
       "b": "Immer mehr junge Leute machen eine Ausbildung im Handwerk",
-      "c": "Preise für Theater- und Konzerttickets stark gesunken",
+      "c": "Preise für Eintritt in digitale Ausstellungen stark gesunken",
       "d": "Studie zeigt: Gartenarbeit reduziert Stress und macht glücklich",
       "e": "Klassische Museen verlieren immer mehr Besucher an digitale Ausstellungen",
       "f": "Höhere Gebühren für die Müllentsorgung in Großstädten geplant",
       "g": "Großes Interesse an Kursen für den eigenen Gemüseanbau",
-      "h": "Zahl der Kinobesucher in Deutschland auf neuem Rekordhoch",
+      "h": "Zahl der Museumsbesucher unter 30 Jahren steigt deutlich an",
       "i": "Online-Plattformen für gebrauchte Bücher boomen bei Studenten",
-      "j": "Experten raten: Täglicher Kaffeekonsum schützt vor Müdigkeit im Büro"
+      "j": "Experten raten: Wer im Garten arbeitet, sollte auf Kaffee verzichten"
     },
     "texts": [
       {
@@ -392,15 +392,15 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Neue Verordnung: Rauchverbot auf allen Spielplätzen geplant",
-      "b": "Immer mehr Menschen nutzen Apps für die Organisation des Haushalts",
+      "b": "Immer mehr Menschen nutzen Apps für das Ausleihen von Werkzeugen",
       "c": "Studie zeigt: Regelmäßiges Sprachenlernen schützt das Gedächtnis",
       "d": "Preise für Reparaturen von Fahrrädern in Großstädten gestiegen",
       "e": "Traditionelle Reparaturwerkstätten finden keine neuen Mitarbeiter",
-      "f": "Gemeinsames Kochen am Arbeitsplatz verbessert das Betriebsklima",
+      "f": "Gemeinsames Fremdsprachenlernen am Arbeitsplatz verbessert das Betriebsklima",
       "g": "Zahl der Autokäufe bei jungen Menschen geht deutlich zurück",
-      "h": "Ältere Menschen nutzen Smartphones immer häufiger für Bankgeschäfte",
+      "h": "Junge Menschen nutzen Smartphones immer häufiger für Bankgeschäfte",
       "i": "Online-Plattformen für das Teilen von Werkzeugen werden immer beliebter",
-      "j": "Experten raten: Täglicher Sport schützt vor Krankheiten im Alter"
+      "j": "Experten raten: Tägliches Rauchverbot schützt Kinder vor Krankheiten"
     },
     "texts": [
       {
@@ -439,13 +439,13 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Neue Studie: Klassische Musik verbessert den Schlaf von Senioren",
+      "a": "Neue Studie: Padel-Tennis verbessert vor allem den Schlaf von Senioren",
       "b": "Immer mehr Menschen nutzen Apps für die Reparatur von Kleidung",
       "c": "Höhere Eintrittspreise für Schwimmbäder in Großstädten geplant",
       "d": "Studie zeigt: Regelmäßiges Padel-Tennis hält im Alltag fit",
       "e": "Traditionelle Kaffeeröstereien verzeichnen sinkende Umsätze",
-      "f": "Gemeinsames Musizieren am Abend reduziert Stress bei Berufstätigen",
-      "g": "Zahl der Kinobesucher in Deutschland auf neuem Tiefstand",
+      "f": "Spätes Koffein am Abend verbessert laut Studie den Schlaf",
+      "g": "Eintrittspreise für Schwimmbäder sinken erstmals seit Jahren",
       "h": "Ältere Menschen nutzen das Internet seltener für Bankgeschäfte",
       "i": "Online-Plattformen für das Mieten von Sportgeräten boomen",
       "j": "Experten raten: Kaffeekonsum am Nachmittag verschlechtert den Schlaf"
@@ -488,15 +488,15 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Neue Verordnung: Grillen in öffentlichen Parks komplett verboten",
-      "b": "Immer mehr Menschen nutzen Apps für die Suche nach Parkplätzen",
+      "b": "Immer mehr Menschen nutzen Apps für das Teilen von Autos",
       "c": "Studie zeigt: Regelmäßiger Museumsbesuch reduziert den Alltagsstress",
-      "d": "Preise für Tickets im öffentlichen Nahverkehr stark gesunken",
+      "d": "Preise für Carsharing-Angebote in Großstädten stark gesunken",
       "e": "Traditionelle Handwerksbetriebe finden wieder mehr junge Auszubildende",
       "f": "Gemeinsames Gärtnern in der Stadt bringt verschiedene Generationen zusammen",
-      "g": "Zahl der Kinogänger bei älteren Menschen nimmt deutlich zu",
+      "g": "Zahl der Museumsbesucher bei jungen Menschen nimmt deutlich zu",
       "h": "Ältere Menschen nutzen das Smartphone immer häufiger für Videotelefonie",
       "i": "Online-Plattformen für das Teilen von Autos verzeichnen neue Rekorde",
-      "j": "Experten raten: Ausreichend Schlaf schützt vor Konzentrationsschwächen"
+      "j": "Experten raten: Gemeinsames Gärtnern schützt vor Konzentrationsschwächen"
     },
     "texts": [
       {
@@ -535,16 +535,16 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Neue Verordnung: Rauchverbot in allen öffentlichen Verkehrsmitteln",
-      "b": "Immer mehr Menschen nutzen Apps für das Erlernen von Musikinstrumenten",
+      "a": "Neue Verordnung: Rauchverbot in allen öffentlichen Parkanlagen",
+      "b": "Immer mehr Menschen nutzen Apps für das Ausleihen von Spielzeug",
       "c": "Studie zeigt: Regelmäßiger Waldspaziergang senkt den Blutdruck",
-      "d": "Preise für Reparaturen von Elektrogeräten in Großstädten gestiegen",
-      "e": "Traditionelle Handwerksberufe verzeichnen wieder mehr Bewerber",
+      "d": "Preise für Mietspielzeug in Großstädten stark gestiegen",
+      "e": "Chöre für Senioren verzeichnen wieder mehr Bewerber",
       "f": "Gemeinsames Singen im Chor stärkt das Immunsystem von Senioren",
       "g": "Zahl der Kinobesucher bei Teenagern nimmt drastisch ab",
       "h": "Ältere Menschen nutzen das Internet immer häufiger für Reisebuchungen",
       "i": "Online-Plattformen für das Teilen von Spielzeug werden immer beliebter",
-      "j": "Experten raten: Ausreichend Bewegung an der frischen Luft schützt vor Infekten"
+      "j": "Experten raten: Gemeinsames Singen schützt vor Infekten der Atemwege"
     },
     "texts": [
       {
@@ -592,18 +592,18 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
         "id": 6,
         "question": "Was ist laut Text das Hauptziel der Philosophie des „Slow Travel“?",
         "options": {
-          "a": "In möglichst kurzer Zeit so viele verschiedene Länder wie möglich mit dem Flugzeug zu besuchen.",
+          "a": "In möglichst kurzer Zeit viele Sehenswürdigkeiten zu besichtigen und dabei Fotos abzuhaken.",
           "b": "Die Reise bewusst zu entschleunigen, die Kultur intensiv kennenzulernen und die Umwelt zu schonen.",
-          "c": "Ausschließlich in teuren Luxushotels zu übernachten, um den Stress im Alltag zu vergessen."
+          "c": "Vor allem mit dem Flugzeug zwischen den Metropolen Europas zu hetzen, um Zeit zu sparen."
         }
       },
       {
         "id": 7,
         "question": "Laura Becker aus München",
         "options": {
-          "a": "war nach ihrem vierwöchigen Urlaub in Italien müder und gestresster als je zuvor.",
+          "a": "war nach ihrem zweiwöchigen Urlaub in Italien ähnlich erschöpft wie in früheren Jahren.",
           "b": "reiste mit dem Regionalzug sowie dem Fahrrad und fühlte sich durch das langsame Reisen sehr gut erholt.",
-          "c": "hat in Italien ein Auto gemietet, um die bekannten Großstädte schneller erreichen zu können."
+          "c": "ist in Italien hauptsächlich mit dem Flugzeug zwischen den großen Städten gereist."
         }
       },
       {
@@ -611,26 +611,26 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
         "question": "Warum äußert sich der Reiseunternehmer Torsten Lange skeptisch über den Trend?",
         "options": {
           "a": "Weil er glaubt, dass Slow Travel für Menschen mit wenig Urlaubszeit, die große Weltstädte sehen wollen, ungeeignet ist.",
-          "b": "Weil Regionalzüge in Italien und Deutschland seit kurzem komplett verboten wurden.",
-          "c": "Weil er denkt, dass Touristen in kleinen Dörfern überhaupt keine Lebensmittel kaufen können."
+          "b": "Weil seine eigenen Pauschalreisen seit kurzem deutlich teurer geworden sind als Bahnreisen.",
+          "c": "Weil er denkt, dass Touristen in kleinen Dörfern kaum noch auf lokalen Märkten einkaufen wollen."
         }
       },
       {
         "id": 9,
         "question": "Was ist nach Ansicht von Dr. Verena Kraft ein Vorteil von Slow Travel für die Zukunft?",
         "options": {
-          "a": "Es zwingt alle Menschen dazu, in ihrem Urlaub überhaupt nicht mehr zu verreisen und nur zu Hause zu bleiben.",
+          "a": "Es bringt vor allem Reiseunternehmern wie Torsten Lange neue, einträgliche Geschäftsmodelle.",
           "b": "Es schützt vor den negativen Folgen des Massentourismus und fördert das Entdecken der eigenen Region.",
-          "c": "Es sorgt dafür, dass Flugtickets in ferne Länder in Zukunft für alle Menschen komplett kostenlos werden."
+          "c": "Es sorgt dafür, dass Flugtickets in ferne Länder durch die geringere Nachfrage spürbar günstiger werden."
         }
       },
       {
         "id": 10,
         "question": "Welchen Rat geben Experten am Ende des Textes Menschen, die Slow Travel testen möchten?",
         "options": {
-          "a": "Sie sollten sofort eine vierwöchige Zugreise durch ganz Europa buchen, um den Effekt zu maximieren.",
+          "a": "Sie sollten sich gleich für eine mehrwöchige Fahrradtour durch ganz Italien entscheiden.",
           "b": "Es ist ratsam, klein anzufangen, zum Beispiel bei einem Wochenendausflug in der Nähe das Auto stehenzulassen.",
-          "c": "Man sollte den Urlaub am besten ohne die Unterstützung von Freunden oder der Familie planen."
+          "c": "Man sollte für jeden Wochenendausflug vorab einen festen, genau geplanten Zeitplan erstellen."
         }
       }
     ],
@@ -661,45 +661,45 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
         "id": 6,
         "question": "Warum finden viele Arbeitnehmer laut Text das Homeoffice attraktiv?",
         "options": {
-          "a": "Weil sie dadurch weniger Stunden pro Woche arbeiten müssen.",
+          "a": "Weil sie dadurch automatisch einen unbefristeten Arbeitsvertrag bekommen.",
           "b": "Weil sie flexibler sind und den Weg zur Arbeit sparen.",
-          "c": "Weil der Arbeitgeber ihnen dafür mehr Gehalt bezahlt."
+          "c": "Weil der Arbeitgeber ihnen dafür zusätzliche freie Tage im Jahr gewährt."
         }
       },
       {
         "id": 7,
         "question": "Sarah Mai aus Berlin",
         "options": {
-          "a": "arbeitet erst seit wenigen Wochen von zu Hause aus.",
+          "a": "arbeitet schon seit über fünf Jahren vollständig von zu Hause aus.",
           "b": "findet es schwer, abends mental von der Arbeit abzuschalten.",
-          "c": "möchte so schnell wie möglich wieder in ein normales Büro wechseln."
+          "c": "möchte wegen ihres Sohnes Ben möglichst bald wieder ins Büro zurückkehren."
         }
       },
       {
         "id": 8,
         "question": "Warum hat Markus Becker mit dem Homeoffice wieder aufgehört?",
         "options": {
-          "a": "Weil seine Firma das Arbeiten von zu Hause verboten hat.",
+          "a": "Weil seine Firma die Heimarbeit nach drei Monaten testweise eingeschränkt hat.",
           "b": "Weil er in der Wohnung keinen ruhigen, eigenen Arbeitsplatz hatte.",
-          "c": "Weil ihm die Fahrten zur Firma mit dem Auto gefehlt haben."
+          "c": "Weil ihm der tägliche Austausch mit den Kollegen im Büro gefehlt hat."
         }
       },
       {
         "id": 9,
         "question": "Was ist nach Ansicht von Dr. Elena Vogt eine große Gefahr im Homeoffice?",
         "options": {
-          "a": "Dass die Arbeitnehmer zu viel schlafen und unpünktlich werden.",
+          "a": "Dass Arbeitnehmer ohne festen Arbeitsraum schon nach wenigen Monaten kündigen.",
           "b": "Dass durch ständige Erreichbarkeit die Freizeit verloren geht.",
-          "c": "Dass Kinder überhaupt keine Zeit mehr mit ihren Eltern verbringen."
+          "c": "Dass Kinder durch die Arbeit der Eltern am Wochenende deutlich weniger schlafen."
         }
       },
       {
         "id": 10,
         "question": "Was empfehlen die Experten am Ende des Textes für ein erfolgreiches Homeoffice?",
         "options": {
-          "a": "Dass man die Arbeit nur noch am späten Abend erledigt.",
+          "a": "Dass man die Bürotür möglichst immer offen lässt, um erreichbar zu bleiben.",
           "b": "Dass Familien klare Regeln und feste Strukturen vereinbaren.",
-          "c": "Dass man während der Arbeitszeit das Haus überhaupt nicht verlässt."
+          "c": "Dass Eltern während der Arbeitszeit auf feste Pausen ganz verzichten sollten."
         }
       }
     ],
@@ -730,18 +730,18 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
         "id": 6,
         "question": "Was ist laut Text ein wichtiger Grund, warum Stadtbewohner das Fahrrad wählen?",
         "options": {
-          "a": "Weil Fahrräder im Unterhalt teurer sind als Autos.",
+          "a": "Weil Fahrräder durch die hohen Benzinpreise inzwischen teurer in der Wartung sind.",
           "b": "Weil sie Staus vermeiden und gleichzeitig Geld sparen wollen.",
-          "c": "Weil es in den Innenstädten überhaupt keine Parkplätze mehr gibt."
+          "c": "Weil es in den Innenstädten seit kurzem deutlich weniger Radwege gibt."
         }
       },
       {
         "id": 7,
         "question": "Mia Koch aus Leipzig",
         "options": {
-          "a": "hat vor kurzem ein neues Auto für den Stadtverkehr gekauft.",
+          "a": "besitzt seit drei Jahren wieder ein eigenes Auto für den Stadtverkehr.",
           "b": "findet, dass das Radfahren in der Stadt manchmal gefährlich ist.",
-          "c": "nutzt ihr E-Bike ausschließlich für Ausflüge in ihrer Freizeit."
+          "c": "nutzt ihr E-Bike inzwischen seltener, seit die Radwege ausgebaut wurden."
         }
       },
       {
@@ -749,17 +749,17 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
         "question": "Warum hat Thomas Wagner aufgehört, mit dem Fahrrad zur Arbeit zu fahren?",
         "options": {
           "a": "Weil sein Arbeitsweg zu lang und im Winter ohne Beleuchtung zu gefährlich war.",
-          "b": "Weil sein Fahrrad auf dem Weg zur Bank gestohlen wurde.",
-          "c": "Weil die S-Bahn-Tickets plötzlich viel günstiger geworden sind."
+          "b": "Weil ihm das halbjährige Pendeln mit dem Fahrrad zu wenig sportlich erschien.",
+          "c": "Weil die Bank ihm für den Arbeitsweg ein Dienstfahrrad zur Verfügung gestellt hat."
         }
       },
       {
         "id": 9,
         "question": "Was fordert die Stadtplanerin Dr. Bettina Neumann für eine erfolgreiche Verkehrswende?",
         "options": {
-          "a": "Dass Radfahrer und Fußgänger sich grundsätzlich dieselben Wege teilen.",
+          "a": "Dass nur in den Außenbezirken neue, breitere Fahrradwege gebaut werden.",
           "b": "Dass baulich getrennte und sichere Radwege für alle Altersgruppen entstehen.",
-          "c": "Dass Kinder in der Innenstadt überhaupt nicht mehr Fahrrad fahren dürfen."
+          "c": "Dass die Kommunen zunächst nur ein paar Linien auf den Asphalt malen."
         }
       },
       {
@@ -767,8 +767,8 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
         "question": "Welchen Rat geben Experten den Städten im letzten Absatz?",
         "options": {
           "a": "Sie sollten sich an fahrradfreundlichen Städten wie Kopenhagen orientieren.",
-          "b": "Sie sollten den Autoverkehr in den Innenstädten komplett verbieten.",
-          "c": "Sie sollten breitere Straßen für Busse und Bahnen bauen."
+          "b": "Sie sollten zuerst in neue Parkhäuser für Autos in der Innenstadt investieren.",
+          "c": "Sie sollten den öffentlichen Nahverkehr mit Bussen und Bahnen weiter ausbauen."
         }
       }
     ],
@@ -799,18 +799,18 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
         "id": 6,
         "question": "Was ist laut Text ein großer Vorteil der digitalen „Onleihe“?",
         "options": {
-          "a": "Man bekommt dort alle E-Reader komplett kostenlos geschenkt.",
+          "a": "Man kann sich dort einen E-Reader gegen eine geringe Monatsgebühr ausleihen.",
           "b": "Man kann Bücher zu jeder Uhrzeit und von jedem Ort aus digital ausleihen.",
-          "c": "Die digitalen Bücher haben viel weniger Seiten als gedruckte Bücher."
+          "c": "Die digitalen Bücher stehen den Nutzern nur für wenige Stunden am Tag zur Verfügung."
         }
       },
       {
         "id": 7,
         "question": "Julia Bauer aus München besucht die Stadtbibliothek vor allem, weil",
         "options": {
-          "a": "sie dort als Mitarbeiterin in der Kaffeeecke arbeitet.",
+          "a": "sie sich dort regelmäßig mit Herbert Krause über gedruckte Bücher austauscht.",
           "b": "sie dort eine ruhige Umgebung zum Lernen und schnelles WLAN findet.",
-          "c": "sie nur dort die neuesten Romane aus Papier ausleihen kann."
+          "c": "sie sich Fachliteratur dort meistens nur in gedruckter Form ausleiht."
         }
       },
       {
@@ -818,26 +818,26 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
         "question": "Warum nutzt Herbert Krause keine E-Books?",
         "options": {
           "a": "Weil er das Gefühl und das Umblättern eines echten Buches beim Lesen braucht.",
-          "b": "Weil die Stadtteilbibliothek in seinem Viertel keine E-Books anbietet.",
-          "c": "Weil er zu wenig Zeit hat, um sich wöchentlich neue Bücher zu besorgen."
+          "b": "Weil sein Smartphone für das Lesen von digitalen Texten zu alt geworden ist.",
+          "c": "Weil ihm der persönliche Kontakt zu den Mitarbeitern dort wichtiger ist als das Lesen selbst."
         }
       },
       {
         "id": 9,
         "question": "Was versteht Dr. Sabine Lang unter der neuen Rolle von Bibliotheken?",
         "options": {
-          "a": "Sie sollten reine Bücherlager werden, um mehr Platz für Romane zu haben.",
+          "a": "Sie sollten sich künftig hauptsächlich auf die Ausleihe von Romanen konzentrieren.",
           "b": "Sie sollten sich zu gesellschaftlichen Treffpunkten und Lernorten entwickeln.",
-          "c": "Sie sollten in Zukunft nur noch Kurse für Programmieren anbieten."
+          "c": "Sie sollten ihre Räume vor allem für private Wohnzwecke vermieten."
         }
       },
       {
         "id": 10,
         "question": "Welchen Rat geben Experten den Kommunen im letzten Absatz?",
         "options": {
-          "a": "Sie sollten gedruckte Bücher in den Bibliotheken komplett verbieten.",
+          "a": "Sie sollten die digitale Onleihe zugunsten gedruckter Bücher wieder einschränken.",
           "b": "Sie sollten Bibliotheken finanziell unterstützen, damit sie sich modernisieren können.",
-          "c": "Sie sollten kleinere Büchereien schließen, um Geld im Haushalt zu sparen."
+          "c": "Sie sollten Bibliotheken privatisieren, damit diese sich selbst finanzieren müssen."
         }
       }
     ],
@@ -868,36 +868,36 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
         "id": 6,
         "question": "Was ist laut Text ein Hauptgrund, warum viele Deutsche regelmäßig Bio-Produkte kaufen?",
         "options": {
-          "a": "Weil Bio-Produkte im Supermarkt immer viel billiger sind als andere Lebensmittel.",
+          "a": "Weil Bio-Produkte laut der Studie inzwischen genauso günstig sind wie konventionelle Ware.",
           "b": "Weil sie Pestizide vermeiden, die Umwelt schonen und Tierhaltung unterstützen wollen.",
-          "c": "Weil normale Lebensmittel in deutschen Geschäften bald komplett verboten werden."
+          "c": "Weil das Landwirtschaftsministerium den Kauf von Bio-Produkten finanziell fördert."
         }
       },
       {
         "id": 7,
         "question": "Elena Becker aus Hamburg",
         "options": {
-          "a": "kauft Bio-Produkte erst, seitdem sie eine neue Stelle im Bio-Laden gefunden hat.",
+          "a": "kauft Bio-Produkte erst seit ihrem letzten Umzug nach Hamburg regelmäßig ein.",
           "b": "akzeptiert höhere Kosten beim Einkaufen für die Gesundheit ihrer Kinder.",
-          "c": "reist für ihren Wocheneinkauf regelmäßig in andere Regionen."
+          "c": "spart vor allem bei Lebensmitteln, um sich Kleidung und Urlaub leisten zu können."
         }
       },
       {
         "id": 8,
         "question": "Warum steht Janosch Schulz dem Bio-Trend teilweise skeptisch gegenüber?",
         "options": {
-          "a": "Weil er glaubt, dass Bio-Gemüse im Restaurant überhaupt nicht schmeckt.",
+          "a": "Weil er glaubt, dass Bio-Gemüse in seinem Restaurant deutlich teurer eingekauft werden muss.",
           "b": "Weil manche Bio-Produkte weite Transportwege haben und viel Energie verbrauchen.",
-          "c": "Weil kleine Bauernhöfe aus der Umgebung überhaupt keine Gurken anbauen können."
+          "c": "Weil kleine Bauernhöfe aus der Umgebung meist kein offizielles Bio-Zertifikat besitzen."
         }
       },
       {
         "id": 9,
         "question": "Welche Warnung äußert die Ernährungswissenschaftlerin Dr. Clara Lenz?",
         "options": {
-          "a": "Dass frische Bio-Milch und Bio-Fleisch für Kinder gefährlich sein können.",
+          "a": "Dass frische Bio-Milch und Bio-Fleisch grundsätzlich weniger gesund sind als Obst und Gemüse.",
           "b": "Dass auch Bio-Fertigprodukte und Bio-Snacks viel Zucker und Fett enthalten können.",
-          "c": "Dass man in Deutschland überhaupt keine echten Bio-Siegel mehr finden kann."
+          "c": "Dass Bio-Siegel ausschließlich auf frischen Lebensmitteln wie Milch und Fleisch zu finden sind."
         }
       },
       {
@@ -905,8 +905,8 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
         "question": "Was ist laut dem letzten Absatz die beste Kombination für Gesundheit und Umwelt?",
         "options": {
           "a": "Produkte, die sowohl aus ökologischem Anbau als auch aus der eigenen Region stammen.",
-          "b": "Eine Ernährung, die ausschließlich aus Bio-Fertiggerichten und Limonaden besteht.",
-          "c": "Der Verzicht auf den Kauf von frischem Obst und Gemüse im Winter."
+          "b": "Eine Ernährung, die hauptsächlich aus importierten Bio-Gemüsesorten wie Gurken besteht.",
+          "c": "Der ausschließliche Kauf von Lebensmitteln, die ein offizielles Bio-Siegel tragen."
         }
       }
     ],
@@ -939,16 +939,16 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
         "options": {
           "a": "Weil Umschulungen in Deutschland seit kurzem für alle Bürger gesetzlich Pflicht sind.",
           "b": "Weil sich der Arbeitsmarkt rasant verändert ve bazı meslekler tamamen ortadan kalkıyor.",
-          "c": "Weil man während einer neuen Ausbildung viel mehr Urlaub bekommt als im normalen Job."
+          "c": "Weil man während einer neuen Ausbildung deutlich mehr Urlaubstage bekommt als im alten Job."
         }
       },
       {
         "id": 7,
         "question": "Kerstin Vogel aus Leipzig",
         "options": {
-          "a": "hat ihre Arbeit im Hotel verloren, weil der Betrieb schließen musste.",
+          "a": "hat ihre Stelle im Hotel nach zehn Jahren wegen ständiger Wochenendarbeit selbst gekündigt.",
           "b": "findet die Praxis mit den Kindern toll, obwohl das Lernen für Prüfungen schwer ist.",
-          "c": "verdient in ihrer jetzigen Ausbildung deutlich mehr Geld als in ihrem alten Beruf."
+          "c": "verdient in ihrer jetzigen Ausbildung etwa genauso viel Geld wie in ihrem alten Beruf."
         }
       },
       {
@@ -956,26 +956,26 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
         "question": "Warum hat Sven Schulz seine Umschulung zum Softwareentwickler abgebrochen?",
         "options": {
           "a": "Weil ihm während der Computerarbeit der tägliche Kontakt zu Menschen fehlte.",
-          "b": "Weil die S-Bahn-Verbindung zum Schulungszentrum viel zu schlecht war.",
-          "c": "Weil das Energieunternehmen ihm sofort eine Stelle als Chef angeboten hat."
+          "b": "Weil ihm nach vier Monaten die Programmiersprache immer noch zu kompliziert vorkam.",
+          "c": "Weil das Energieunternehmen ihm direkt eine Stelle in der Kundenberatung angeboten hat."
         }
       },
       {
         "id": 9,
         "question": "Was rät die Karriereberaterin Dr. Miriam Franke vor Beginn einer Umschulung?",
         "options": {
-          "a": "Man sollte den neuen Beruf ausschließlich nach den höchsten Verdienstmöglichkeiten auswählen.",
+          "a": "Man sollte den neuen Beruf vor allem nach den aktuell besten Jobchancen auswählen.",
           "b": "Man sollte vorher genau prüfen, ob der Beruf zu den eigenen Talenten und dem Charakter passt.",
-          "c": "Man sollte die Umschulung abbrechen, sobald die theoretischen Prüfungen zu stressig werden."
+          "c": "Man sollte sich bei der Berufswahl ausschließlich auf das eigene Bauchgefühl verlassen."
         }
       },
       {
         "id": 10,
         "question": "Welchen Rat geben Experten im letzten Absatz für eine erfolgreiche berufliche Veränderung?",
         "options": {
-          "a": "Man sollte sofort kündigen und ohne Beratung eine eigene Firma gründen.",
+          "a": "Man sollte sich direkt für die Umschulung anmelden, ohne vorher ein Praktikum zu machen.",
           "b": "Es ist ratsam, vorab ein Praktikum zu machen oder sich bei der Berufsberatung zu informieren.",
-          "c": "Man sollte am besten ohne die Unterstützung der eigenen Familie eine Entscheidung treffen."
+          "c": "Man sollte die Entscheidung möglichst schnell treffen, um keine Zeit zu verlieren."
         }
       }
     ],
@@ -1006,27 +1006,27 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
         "id": 6,
         "question": "Was ist laut Text ein wichtiger Grund, warum Menschen beim „Urban Gardening“ mitmachen?",
         "options": {
-          "a": "Weil sie das Gemüse auf dem Markt teuer verkaufen möchten.",
+          "a": "Weil sie ihr eigenes Gemüse anschließend gewinnbringend an Nachbarn verkaufen wollen.",
           "b": "Weil sie keine eigenen Balkone haben und sich nach Natur sowie Gemeinschaft sehnen.",
-          "c": "Weil das Gärtnern in der Großstadt seit kurzem gesetzlich vorgeschrieben ist."
+          "c": "Weil sie auf alten Fabrikgeländen günstige Grundstücke für den eigenen Garten kaufen können."
         }
       },
       {
         "id": 7,
         "question": "Leyla Tosun aus Berlin",
         "options": {
-          "a": "hat das Gärtnern aufgegeben, weil ihr die Arbeit am Schreibtisch zu viel wird.",
+          "a": "fühlte sich schon vor ihrem Umzug nach Berlin in der Großstadt einsam.",
           "b": "konnte durch das gemeinsame Projekt schnell neue Kontakte und Freunde knüpfen.",
-          "c": "besitzt einen großen privaten Garten in Berlin-Kreuzberg."
+          "c": "hat die wöchentlichen Treffen ihres Gartenprojekts kürzlich an Dieter Müller übergeben."
         }
       },
       {
         "id": 8,
         "question": "Warum beschwert sich der Anwohner Dieter Müller über den Gemeinschaftsgarten?",
         "options": {
-          "a": "Weil die Gärtner sein gesamtes Gemüse ohne zu fragen aufgegessen haben.",
+          "a": "Weil die Gärtner regelmäßig ohne Erlaubnis sein eigenes Grundstück nutzen.",
           "b": "Weil er im Schichtdienst arbeitet und sich durch den Lärm der Gruppen gestört fühlt.",
-          "c": "Weil der Garten im Winter überhaupt keine schönen Blumen bietet."
+          "c": "Weil die Fläche durch den Garten für seine Nachbarschaft an Wert verloren hat."
         }
       },
       {
@@ -1034,17 +1034,17 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
         "question": "Welchen Vorteil und welche Warnung nennt die Stadtplanerin Dr. Jutta Sommer?",
         "options": {
           "a": "Der Garten schützt das Stadtklima, aber es müssen klare Ruhezeiten wegen der Nachbarn eingehalten werden.",
-          "b": "Der Garten lockt gefährliche Insekten an, weshalb Kinder dort nicht spielen sollten.",
-          "c": "Der Garten verbraucht zu viel Wasser, weshalb die Kommunen die Projekte schließen sollten."
+          "b": "Der Garten kühlt die Umgebung ab, sollte aber wegen der Insekten nur tagsüber geöffnet sein.",
+          "c": "Der Garten bietet Lebensraum für Insekten, weshalb er nur noch im Sommer genutzt werden sollte."
         }
       },
       {
         "id": 10,
         "question": "Was ist laut dem letzten Absatz der beste Weg, um Konflikte bei städtischen Gärten zu vermeiden?",
         "options": {
-          "a": "Man sollte die Gärten nur für Menschen öffnen, die außerhalb der Stadt wohnen.",
+          "a": "Man sollte die Gärten erst nach Abschluss der Planung den Anwohnern vorstellen.",
           "b": "Man sollte die Anwohner von Anfang an in die Planung einbeziehen und feste Regeln aufstellen.",
-          "c": "Es ist ratsam, Musik und Gespräche in den Gärten rund um die Uhr komplett zu verbieten."
+          "c": "Es ist ratsam, die Nutzung der Gärten ausschließlich den Stadtplanern zu überlassen."
         }
       }
     ],
@@ -1075,36 +1075,36 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
         "id": 6,
         "question": "Was ist laut Text ein großer Vorteil von Sprachcafés für die Teilnehmenden?",
         "options": {
-          "a": "Man kann dort eine offizielle B1-Prüfung kostenlos absolvieren.",
+          "a": "Man kann sich dort gezielt auf die Grammatikteile der offiziellen B1-Prüfung vorbereiten.",
           "b": "Man kann das gelernte Wissen ohne Angst vor Fehlern im Alltag ausprobieren.",
-          "c": "Man bekommt dort jeden Tag ein kostenloses Mittagessen geschenkt."
+          "c": "Man muss sich vorab anmelden, bekommt dafür aber Kaffee und Kekse kostenlos."
         }
       },
       {
         "id": 7,
         "question": "Elena Alves aus Brasilien",
         "options": {
-          "a": "hat das Sprachcafé nach wenigen Wochen enttäuscht wieder verlassen.",
+          "a": "hat den klassischen Sprachkurs nach wenigen Wochen enttäuscht wieder verlassen.",
           "b": "konnte durch das Café ihre Aussprache verbessern ve yerel insanlarla bağ kurdu.",
-          "c": "sucht seit einem Jahr verzweifelt nach einem klassischen Grammatikkurs."
+          "c": "besucht seit einem Jahr ausschließlich einen klassischen Grammatikkurs."
         }
       },
       {
         "id": 8,
         "question": "Warum war Ali Mansour nach den ersten Besuchen im Sprachcafé enttäuscht?",
         "options": {
-          "a": "Weil das Café im Stadtzentrum viel zu teuer für ihn war.",
+          "a": "Weil das große Sprachcafé im Stadtzentrum für ihn viel zu weit entfernt lag.",
           "b": "Weil an seinem Tisch kaum Muttersprachler saßen, die korrigieren konnten.",
-          "c": "Weil man dort nur Arabisch und kein Deutsch sprechen durfte."
+          "c": "Weil die Gespräche an seinem Tisch ihm sprachlich deutlich zu einfach waren."
         }
       },
       {
         "id": 9,
         "question": "Welche Meinung vertritt die Sprachwissenschaftlerin Dr. Sabine Weber?",
         "options": {
-          "a": "Sprachcafés können den normalen, strukturierten Unterricht komplett ersetzen.",
+          "a": "Sprachcafés sind eine sinnvolle Ergänzung, die den strukturierten Unterricht ganz ersetzen kann.",
           "b": "Sprachcafés helfen dabei, die Angst vor dem Sprechen abzubauen.",
-          "c": "In Sprachcafés sollte man die Grammatik am besten mit Lehrbüchern lernen."
+          "c": "In Sprachcafés lernt man systematische Grammatik genauso gut wie im klassischen Unterricht."
         }
       },
       {
@@ -1112,8 +1112,8 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
         "question": "Was empfehlen Experten den Organisatoren im letzten Absatz für ein erfolgreiches Sprachcafé?",
         "options": {
           "a": "Sie sollten an jeden Tisch mindestens ein bis zwei Muttersprachler setzen.",
-          "b": "Sie sollten die Teilnahmegebühren für Ausländer deutlich erhöhen.",
-          "c": "Sie sollten das Sprechen über private Themen im Café komplett verbieten."
+          "b": "Sie sollten an jedem Tisch ausschließlich Teilnehmende mit demselben Sprachniveau zusammensetzen.",
+          "c": "Sie sollten die Gesprächsrunden ohne feste Tischeinteilung frei und spontan gestalten."
         }
       }
     ],
@@ -1144,36 +1144,36 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
         "id": 6,
         "question": "Was ist laut Text ein großer Vorteil von Sprachcafés für die Teilnehmenden?",
         "options": {
-          "a": "Man kann dort eine offizielle B1-Prüfung kostenlos absolvieren.",
+          "a": "Man kann dort gegen eine kleine Gebühr zusätzliche Grammatikübungen für die B1-Prüfung machen.",
           "b": "Man kann das gelernte Wissen ohne Angst vor Fehlern im Alltag ausprobieren.",
-          "c": "Man bekommt dort jeden Tag ein kostenloses Mittagessen geschenkt."
+          "c": "Man bekommt dort jede Woche kostenloses Lehrmaterial für den Deutschkurs geschenkt."
         }
       },
       {
         "id": 7,
         "question": "Elena Alves aus Brasilien",
         "options": {
-          "a": "hat das Sprachcafé nach wenigen Wochen enttäuscht wieder verlassen.",
+          "a": "hat ihren klassischen Sprachkurs nach wenigen Wochen enttäuscht wieder verlassen.",
           "b": "konnte durch das Café ihre Aussprache verbessern ve yerel insanlarla bağ kurdu.",
-          "c": "sucht seit einem Jahr verzweifelt nach einem klassischen Grammatikkurs."
+          "c": "lebt schon seit über drei Jahren in Frankfurt und besucht dort ein Sprachcafé."
         }
       },
       {
         "id": 8,
         "question": "Warum war Ali Mansour nach den ersten Besuchen im Sprachcafé enttäuscht?",
         "options": {
-          "a": "Weil das Café im Stadtzentrum viel zu teuer für ihn war.",
+          "a": "Weil ihm das Niveau der Gespräche an seinem Tisch viel zu fortgeschritten war.",
           "b": "Weil an seinem Tisch kaum Muttersprachler saßen, die korrigieren konnten.",
-          "c": "Weil man dort nur Arabisch und kein Deutsch sprechen durfte."
+          "c": "Weil das Café im Stadtzentrum nur an wenigen Tagen im Monat geöffnet hatte."
         }
       },
       {
         "id": 9,
         "question": "Welche Meinung vertritt die Sprachwissenschaftlerin Dr. Sabine Weber?",
         "options": {
-          "a": "Sprachcafés können den normalen, strukturierten Unterricht komplett ersetzen.",
+          "a": "Sprachcafés eignen sich vor allem dazu, systematische Grammatik strukturiert zu lernen.",
           "b": "Sprachcafés helfen dabei, die Angst vor dem Sprechen abzubauen.",
-          "c": "In Sprachcafés sollte man die Grammatik am besten mit Lehrbüchern lernen."
+          "c": "Sprachcafés sollten ohne Begleitung von Muttersprachlern stattfinden, damit alle frei sprechen."
         }
       },
       {
@@ -1181,8 +1181,8 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
         "question": "Was empfehlen Experten den Organisatoren im letzten Absatz für ein erfolgreiches Sprachcafé?",
         "options": {
           "a": "Sie sollten an jeden Tisch mindestens ein bis zwei Muttersprachler setzen.",
-          "b": "Sie sollten die Teilnahmegebühren für Ausländer deutlich erhöhen.",
-          "c": "Sie sollten das Sprechen über private Themen im Café komplett verbieten."
+          "b": "Sie sollten möglichst viele Muttersprachler ohne feste Tischzuteilung frei zirkulieren lassen.",
+          "c": "Sie sollten die Gesprächsrunden lieber ganz ohne Beteiligung von Muttersprachlern organisieren."
         }
       }
     ],
@@ -1213,45 +1213,45 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
         "id": 6,
         "question": "Was ist laut Text ein finanzieller Vorteil von Co-Working-Spaces?",
         "options": {
-          "a": "Man bekommt dort alle technischen Geräte wie Drucker komplett geschenkt.",
+          "a": "Man kann technische Geräte wie Drucker gegen eine geringe Zusatzgebühr mieten.",
           "b": "Man muss keine teuren, langfristigen Mietverträge für eigene Büros abschließen.",
-          "c": "Die Betreiber der Spaces bezahlen den Nutzern ein monatliches Gehalt."
+          "c": "Die Betreiber der Spaces erstatten den Nutzern einen Teil der monatlichen Gebühr zurück."
         }
       },
       {
         "id": 7,
         "question": "Leyla Demir aus Köln",
         "options": {
-          "a": "arbeitet weiterhin ausschließlich von zu Hause aus, um Geld zu sparen.",
+          "a": "hat erst nach mehreren Jahren im Homeoffice einen Co-Working-Space ausprobiert.",
           "b": "konnte durch den Space ihre Freizeit besser von der Arbeitszeit trennen.",
-          "c": "hat ihren Job als App-Entwicklerin wegen der hohen Kosten aufgegeben."
+          "c": "empfindet die monatliche Gebühr für den Schreibtisch als reine Geldverschwendung."
         }
       },
       {
         "id": 8,
         "question": "Warum hat Michael Brand aufgehört, im Co-Working-Space zu arbeiten?",
         "options": {
-          "a": "Weil die monatlichen Gebühren für den Schreibtisch plötzlich verdoppelt wurden.",
+          "a": "Weil ihm nach zwei Wochen der informelle Austausch mit anderen Nutzern zu anstrengend wurde.",
           "b": "Weil er absolute Ruhe für seine Arbeit braucht und es im Space zu laut war.",
-          "c": "Weil er im Gemeinschaftsbüro keine juristischen Wörterbücher nutzen durfte."
+          "c": "Weil sein eigenes Arbeitszimmer zu Hause zwischenzeitlich renoviert werden musste."
         }
       },
       {
         "id": 9,
         "question": "Welche Warnung äußert die Arbeitspsychologin Dr. Sabine Vogt?",
         "options": {
-          "a": "Dass die Internetverbindung in den meisten Spaces viel zu langsam ist.",
+          "a": "Dass Co-Working-Spaces grundsätzlich nur für Gründer und Kreative geeignet sind.",
           "b": "Dass offene Spaces für Menschen, die sensible Daten bearbeiten oder Stille brauchen, ungeeignet sind.",
-          "c": "Dass man in Co-Working-Spaces überhaupt keine neuen sozialen Kontakte knüpfen kann."
+          "c": "Dass Menschen, die Inspiration und Kontakte suchen, eher im Homeoffice arbeiten sollten."
         }
       },
       {
         "id": 10,
         "question": "Welchen Rat geben Experten am Ende des Textes vor einer endgültigen Entscheidung?",
         "options": {
-          "a": "Man sollte sofort ein teures Jahresabonnement abschließen, um Rabatte zu bekommen.",
+          "a": "Man sollte sich vor der Entscheidung ausführlich mit anderen Nutzern des Spaces austauschen.",
           "b": "Es ist ratsam, zuerst einen kostenlosen Probetag zu nutzen, um die Atmosphäre zu testen.",
-          "c": "Man sollte das Arbeiten im Büro komplett aufgeben und nur noch nachts arbeiten."
+          "c": "Man sollte sich direkt für ein längerfristiges Abonnement entscheiden, um Zeit zu sparen."
         }
       }
     ],
@@ -1282,18 +1282,18 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
         "id": 6,
         "question": "Was ist laut Text der Hauptunterschied zwischen traditionellem Recycling und Upcycling?",
         "options": {
-          "a": "Beim Upcycling werden alte Gegenstände ohne kreative Veränderung sofort verbrannt.",
+          "a": "Beim Upcycling werden alte Gegenstände wie beim klassischen Recycling eingeschmolzen.",
           "b": "Beim Upcycling werden nutzlose Dinge kreativ aufgewertet und in neuwertige Produkte verwandelt.",
-          "c": "Upcycling darf in Europa nur von offiziellen Fabriken durchgeführt werden."
+          "c": "Upcycling funktioniert nur mit Holzpaletten und ist auf andere Materialien nicht übertragbar."
         }
       },
       {
         "id": 7,
         "question": "Aylin Kaya aus Stuttgart",
         "options": {
-          "a": "kauft teure neue Stoffe im Ausland, um daraus Taschen für ihr Geschäft zu nähen.",
+          "a": "sammelt ihre Materialien ausschließlich auf internationalen Modemessen im Ausland.",
           "b": "verkauft ihre aus alter Kleidung hergestellten Unikate erfolgreich im Internet.",
-          "c": "hat das Upcycling aufgegeben, weil ihr die Arbeit zu wenig Geld eingebracht hat."
+          "c": "betreibt das Upcycling erst seit wenigen Monaten als reines Hobby ohne Verkauf."
         }
       },
       {
@@ -1301,26 +1301,26 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
         "question": "Warum äußert sich der Möbelhändler Oliver Kurz skeptisch über den Trend?",
         "options": {
           "a": "Weil er glaubt, dass echte Handwerksqualität und Stabilität professionelle Materialien erfordern.",
-          "b": "Weil Flohmärkte in seiner Stadt seit kurzem komplett verboten wurden.",
-          "c": "Weil er alte Holzpaletten für extrem gefährlich und giftig hält."
+          "b": "Weil seine eigenen Möbel inzwischen deutlich günstiger sind als Upcycling-Produkte.",
+          "c": "Weil er findet, dass Upcycling-Möbel mittlerweile zu wenig kreativ gestaltet werden."
         }
       },
       {
         "id": 9,
         "question": "Welche Bedeutung hat Upcycling laut Dr. Bettina Neumann für die Gesellschaft?",
         "options": {
-          "a": "Es löst das globale Müllproblem innerhalb von wenigen Wochen komplett auf.",
+          "a": "Es löst das globale Müllproblem bereits heute vollständig, ohne weitere Maßnahmen.",
           "b": "Es verändert das Bewusstsein der Verbraucher und regt zum Nachdenken über die Wegwerfkultur an.",
-          "c": "Es sollte ausschließlich in teuren privaten Instituten für Erwachsene unterrichtet werden."
+          "c": "Es sollte vor allem in Schulen gefördert werden, jedoch erst ab dem Jugendalter."
         }
       },
       {
         "id": 10,
         "question": "Welchen Rat geben Experten am Ende des Textes Anfängern, die mit Upcycling starten möchten?",
         "options": {
-          "a": "Sie sollten sofort eine eigene Werkstatt eröffnen und teure Maschinen kaufen.",
+          "a": "Sie sollten zunächst eigenständig ohne fremde Hilfe größere Projekte ausprobieren.",
           "b": "Es ist ratsam, einen Workshop zu besuchen oder sich online Inspirationen zu holen.",
-          "c": "Man sollte alte Möbel am besten sofort wegwerfen, um Platz im Haus zu schaffen."
+          "c": "Man sollte am Anfang ausschließlich mit professionellen Materialien aus dem Fachhandel arbeiten."
         }
       }
     ],
@@ -1351,45 +1351,45 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
         "id": 6,
         "question": "Was ist laut Text ein wichtiger Grund, warum sich junge Menschen für das Handwerk entscheiden?",
         "options": {
-          "a": "Weil man im Handwerk von Anfang an viel höhere Gehälter bekommt als in der Marketingbranche.",
+          "a": "Weil das Einstiegsgehalt im Handwerk inzwischen über dem in der Marketingbranche liegt.",
           "b": "Weil sie ein reales Produkt mit den eigenen Händen schaffen möchten, statt nur am Computer zu sitzen.",
-          "c": "Weil traditionelle Handwerksberufe in Deutschland bald komplett digitalisiert werden."
+          "c": "Weil ein Studium an deutschen Universitäten seit kurzem deutlich teurer geworden ist."
         }
       },
       {
         "id": 7,
         "question": "Jasmin Weber aus Glashütte",
         "options": {
-          "a": "hat nach ihrer Ausbildung sofort eine eigene große Uhrenfabrik in Köln gegründet.",
+          "a": "arbeitet weiterhin parallel zu ihrer Ausbildung acht Stunden täglich im Marketing.",
           "b": "hat ihren Marketingjob aufgegeben, weil sie die präzise und geduldige Arbeit an Uhren glücklicher macht.",
-          "c": "sucht nach einer neuen Stelle, bei der sie wieder täglich mit Excel-Tabellen arbeiten kann."
+          "c": "verdient als Uhrmacher-Auszubildende inzwischen mehr als früher im Marketing."
         }
       },
       {
         "id": 8,
         "question": "Welche Bedenken äußert Schneidermeister Karl-Heinz Becker über den aktuellen Trend?",
         "options": {
-          "a": "Er glaubt, dass mechanische Uhren in Zukunft überhaupt nicht mehr repariert werden müssen.",
+          "a": "Er glaubt, dass seine eigene Werkstatt in Köln schon in wenigen Jahren schließen muss.",
           "b": "Er findet, dass die romantischen Vorstellungen oft nicht zur harten Realität des Werkstattalltags passen.",
-          "c": "Er kritisiert, dass Jugendliche heute überhaupt kein Interesse mehr an schöner Kleidung haben."
+          "c": "Er kritisiert, dass junge Menschen sich für das Handwerk nur wegen sozialer Medien interessieren."
         }
       },
       {
         "id": 9,
         "question": "Was ist nach Ansicht von Dr. Annette Schilling der Schlüssel für das Überleben des Handwerks?",
         "options": {
-          "a": "Der komplette Verzicht auf die Nutzung von Internet und sozialen Medien in den Werkstätten.",
+          "a": "Die ausschließliche Konzentration auf traditionelle Techniken ohne moderne Vermarktung.",
           "b": "Die geschickte Kombination aus traditionellen Techniken und moderner Online-Vermarktung.",
-          "c": "Dass alle Handwerker in Zukunft wieder ein theoretisches Universitätsstudium absolvieren müssen."
+          "c": "Dass Handwerker ihre Einzelstücke künftig nur noch über den stationären Handel verkaufen."
         }
       },
       {
         "id": 10,
         "question": "Welchen Rat geben Experten am Ende des Textes jungen Menschen vor der endgültigen Berufswahl?",
         "options": {
-          "a": "Sie sollten sofort eine eigene Werkstatt eröffnen, ohne vorher eine Ausbildung zu machen.",
+          "a": "Sie sollten sich nach nur einem kurzen Praktikum direkt für eine Ausbildung entscheiden.",
           "b": "Es ist ratsam, mehrere Praktika zu machen, um den echten Alltag im Betrieb kennenzulernen.",
-          "c": "Man sollte sich ausschließlich im Internet über die finanziellen Verdienstmöglichkeiten informieren."
+          "c": "Man sollte sich vor allem auf die Erfahrungsberichte einzelner Handwerker im Internet verlassen."
         }
       }
     ],
