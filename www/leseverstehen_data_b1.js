@@ -129,11 +129,11 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
       },
       {
         "id": 4,
-        "content": "Eine Untersuchung an der Universität Leipzig hat gezeigt, wie wichtig regelmäßige Erholungsphasen während der Arbeitszeit هستند. Mitarbeiter, die alle 90 Minuten eine kurze Pause einlegen und sich dehnen oder ein paar Schritte gehen, sind am Nachmittag deutlich konzentrierter und produktiver. Die Wissenschaftler empfehlen Arbeitgebern, aktive Minipausen offiziell zu erlauben."
+        "content": "Eine Untersuchung an der Universität Leipzig hat gezeigt, wie wichtig regelmäßige Erholungsphasen während der Arbeitszeit sind. Mitarbeiter, die alle 90 Minuten eine kurze Pause einlegen und sich dehnen oder ein paar Schritte gehen, sind am Nachmittag deutlich konzentrierter und produktiver. Die Wissenschaftler empfehlen Arbeitgebern, aktive Minipausen offiziell zu erlauben."
       },
       {
         "id": 5,
-        "content": "STUTTGART. Entgegen allen Prognosen erleben klassische Buchläden in den Innenstädten gerade ein echtes Comeback. Eine Marktanalyse zeigt, dass die Verkaufszahlen von gedruckten Büchern im Vergleich zum Vorjahr um 7 Prozent gestiegen sind. Besonders junge Leser schätzen wieder das Gefühl, ein echtes Buch in den Händen zu halten ve in den Geschäften persönlich beraten zu werden."
+        "content": "STUTTGART. Entgegen allen Prognosen erleben klassische Buchläden in den Innenstädten gerade ein echtes Comeback. Eine Marktanalyse zeigt, dass die Verkaufszahlen von gedruckten Büchern im Vergleich zum Vorjahr um 7 Prozent gestiegen sind. Besonders junge Leser schätzen wieder das Gefühl, ein echtes Buch in den Händen zu halten und in den Geschäften persönlich beraten zu werden."
       }
     ],
     "answers": {
@@ -165,7 +165,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "texts": [
       {
         "id": 1,
-        "content": "Der neue Reise-Report des Tourismus-Verbands zeigt, dass sich das Urlaubsverhalten der Deutschen verändert hat. Statt langer Flüge in die Karibik veya Asien planen fast 50 Prozent der Befragten ihren Sommerurlaub an der Nordsee, der Ostsee oder in den Alpen. Die Motive sind vor allem der Klimaschutz und der Wunsch, lange Wartezeiten an den Flughäfen zu vermeiden."
+        "content": "Der neue Reise-Report des Tourismus-Verbands zeigt, dass sich das Urlaubsverhalten der Deutschen verändert hat. Statt langer Flüge in die Karibik oder nach Asien planen fast 50 Prozent der Befragten ihren Sommerurlaub an der Nordsee, der Ostsee oder in den Alpen. Die Motive sind vor allem der Klimaschutz und der Wunsch, lange Wartezeiten an den Flughäfen zu vermeiden."
       },
       {
         "id": 2,
@@ -177,7 +177,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
       },
       {
         "id": 4,
-        "content": "Eine Umfrage unter 1.500 Jugendlichen zwischen 14 und 18 Jahren zeigt, dass traditionelle Tageszeitungen aus Papier kaum noch eine Rolle im Alltag der neuen Generation spielen. Fast 90 Prozent der Befragten gaben an, dass sie sich ausschließlich über kurze Videos auf TikTok veya Instagram über das aktuelle Weltgeschehen informieren. Lange Informationstexte werden meistens ignoriert."
+        "content": "Eine Umfrage unter 1.500 Jugendlichen zwischen 14 und 18 Jahren zeigt, dass traditionelle Tageszeitungen aus Papier kaum noch eine Rolle im Alltag der neuen Generation spielen. Fast 90 Prozent der Befragten gaben an, dass sie sich ausschließlich über kurze Videos auf TikTok oder Instagram über das aktuelle Weltgeschehen informieren. Lange Informationstexte werden meistens ignoriert."
       },
       {
         "id": 5,
@@ -261,7 +261,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "texts": [
       {
         "id": 1,
-        "content": "Der neue Jahresbericht des Einzelhandelsverbandes zeigt eine überraschende Trendwende beim Einkaufsverhalten der jüngeren Generation. Immer mehr Menschen zwischen 18 und 30 Jahren meiden die großen Supermärkte ve kaufen Obst, Gemüse oder Käse bevorzugt an den Ständen der regionalen Wochenmärkte. Sie schätzen dort vor allem die Frische der Produkte und den persönlichen Kontakt zu den Erzeugern."
+        "content": "Der neue Jahresbericht des Einzelhandelsverbandes zeigt eine überraschende Trendwende beim Einkaufsverhalten der jüngeren Generation. Immer mehr Menschen zwischen 18 und 30 Jahren meiden die großen Supermärkte und kaufen Obst, Gemüse oder Käse bevorzugt an den Ständen der regionalen Wochenmärkte. Sie schätzen dort vor allem die Frische der Produkte und den persönlichen Kontakt zu den Erzeugern."
       },
       {
         "id": 2,
@@ -313,7 +313,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
       },
       {
         "id": 2,
-        "content": "FRANKFURT. Eine Umfrage unter 2.500 Berufstätigen im Rhein-Main-Gebiet zeigt eine deutliche Veränderung beim täglichen Arbeitsweg. Fast ein Drittel der Befragten, die früher mit dem Auto oder der Bahn gefahren sind, nutzt mittlerweile ein elektrisches Fahrrad (Pedelec) für den Weg ins Büro. Die Hauptgründe sind der Wunsch nach Bewegung an der frischen Luft ve das Vermeiden von morgendlichen Staus."
+        "content": "FRANKFURT. Eine Umfrage unter 2.500 Berufstätigen im Rhein-Main-Gebiet zeigt eine deutliche Veränderung beim täglichen Arbeitsweg. Fast ein Drittel der Befragten, die früher mit dem Auto oder der Bahn gefahren sind, nutzt mittlerweile ein elektrisches Fahrrad (Pedelec) für den Weg ins Büro. Die Hauptgründe sind der Wunsch nach Bewegung an der frischen Luft und das Vermeiden von morgendlichen Staus."
       },
       {
         "id": 3,
@@ -321,7 +321,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
       },
       {
         "id": 4,
-        "content": "KÖLN. Eine aktuelle Marktstudie zeigt einen neuen Trend in der Weiterbildung für Senioren. Über 40 Prozent der Menschen im Rentenalter nutzen mittlerweile digitale Plattformen, um von zu Hause aus eine neue Fremdsprache zu lernen. Besonders beliebt sind Kurse mit flexiblen Zeiten, die es den älteren Lernenden ermöglichen, im eigenen Tempo Vokabeln ve Grammatik zu üben."
+        "content": "KÖLN. Eine aktuelle Marktstudie zeigt einen neuen Trend in der Weiterbildung für Senioren. Über 40 Prozent der Menschen im Rentenalter nutzen mittlerweile digitale Plattformen, um von zu Hause aus eine neue Fremdsprache zu lernen. Besonders beliebt sind Kurse mit flexiblen Zeiten, die es den älteren Lernenden ermöglichen, im eigenen Tempo Vokabeln und Grammatik zu üben."
       },
       {
         "id": 5,
@@ -369,11 +369,11 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
       },
       {
         "id": 4,
-        "content": "MÜNCHEN. Wegen der gestiegenen Kosten für Logistik ve Deponietechnik planen die Kommunalbetriebe in mehreren Bundesländern eine Anpassung der Abfallgebühren für das nächste Jahr. Die monatlichen Kosten für die Entleerung der Restmüll- und Biotonnen könnten für private Haushalte in den städtischen Regionen ab dem Herbst um bis zu 12 Prozent angehoben werden."
+        "content": "MÜNCHEN. Wegen der gestiegenen Kosten für Logistik und Deponietechnik planen die Kommunalbetriebe in mehreren Bundesländern eine Anpassung der Abfallgebühren für das nächste Jahr. Die monatlichen Kosten für die Entleerung der Restmüll- und Biotonnen könnten für private Haushalte in den städtischen Regionen ab dem Herbst um bis zu 12 Prozent angehoben werden."
       },
       {
         "id": 5,
-        "content": "Eine Umfrage unter 1.800 Studierenden an deutschen Hochschulen zeigt ein neues Verhalten bei der Beschaffung von Fachliteratur. Um die hohen Kosten für das Studium zu senken, kaufen angehende Akademiker ihre Lehrbücher ve Romane kaum noch als Neuware im Laden. Stattdessen nutzen sie spezielle Webseiten und Apps, auf denen gebrauchte Exemplare von anderen Studenten günstig weiterverkauft werden."
+        "content": "Eine Umfrage unter 1.800 Studierenden an deutschen Hochschulen zeigt ein neues Verhalten bei der Beschaffung von Fachliteratur. Um die hohen Kosten für das Studium zu senken, kaufen angehende Akademiker ihre Lehrbücher und Romane kaum noch als Neuware im Laden. Stattdessen nutzen sie spezielle Webseiten und Apps, auf denen gebrauchte Exemplare von anderen Studenten günstig weiterverkauft werden."
       }
     ],
     "answers": {
@@ -413,7 +413,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
       },
       {
         "id": 3,
-        "content": "Eine aktuelle Marktstudie zeigt einen neuen Trend beim Umgang mit Gebrauchsgegenständen in Wohngebieten. Um Geld zu sparen ve Ressourcen zu schonen, nutzen immer mehr Nachbarn spezielle Webseiten und Apps, um Bohrmaschinen, Leitern oder Gartengeräte nicht neu kaufen zu müssen, sondern sie von Privatpersonen in der Umgebung auszuleihen. Die Nutzerzahlen dieser Webseiten sind im Vergleich zum Vorjahr stark gestiegen."
+        "content": "Eine aktuelle Marktstudie zeigt einen neuen Trend beim Umgang mit Gebrauchsgegenständen in Wohngebieten. Um Geld zu sparen und Ressourcen zu schonen, nutzen immer mehr Nachbarn spezielle Webseiten und Apps, um Bohrmaschinen, Leitern oder Gartengeräte nicht neu kaufen zu müssen, sondern sie von Privatpersonen in der Umgebung auszuleihen. Die Nutzerzahlen dieser Webseiten sind im Vergleich zum Vorjahr stark gestiegen."
       },
       {
         "id": 4,
@@ -421,7 +421,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
       },
       {
         "id": 5,
-        "content": "MÜNCHEN. Eine Umfrage der Handwerkskammer unter 500 Betrieben zeigt eine ernste Krise bei den Dienstleistern. Besonders Betriebe, die sich auf die Instandsetzung von Fahrrädern, E-Bikes ve Motorrädern spezialisiert haben, klagen über einen akuten Mangel an Fachkräften. Viele Werkstätten können deshalb keine neuen Aufträge annehmen, weil die Stellen für Mechaniker seit Monaten unbesetzt bleiben."
+        "content": "MÜNCHEN. Eine Umfrage der Handwerkskammer unter 500 Betrieben zeigt eine ernste Krise bei den Dienstleistern. Besonders Betriebe, die sich auf die Instandsetzung von Fahrrädern, E-Bikes und Motorrädern spezialisiert haben, klagen über einen akuten Mangel an Fachkräften. Viele Werkstätten können deshalb keine neuen Aufträge annehmen, weil die Stellen für Mechaniker seit Monaten unbesetzt bleiben."
       }
     ],
     "answers": {
@@ -453,7 +453,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "texts": [
       {
         "id": 1,
-        "content": "Eine Untersuchung des Instituts für Sportwissenschaften hat die Auswirkungen von modernen Rückschlagsportarten auf die Gesundheit untersucht. Das Ergebnis zeigt, dass Personen, die mindestens zweimal pro Woche eine Stunde Padel-Tennis auf dem Platz spielen, eine deutlich bessere Ausdauer, stärkere Muskeln ve ein höheres Wohlbefinden im Alltag aufweisen als Personen, die keinen aktiven Sport treiben."
+        "content": "Eine Untersuchung des Instituts für Sportwissenschaften hat die Auswirkungen von modernen Rückschlagsportarten auf die Gesundheit untersucht. Das Ergebnis zeigt, dass Personen, die mindestens zweimal pro Woche eine Stunde Padel-Tennis auf dem Platz spielen, eine deutlich bessere Ausdauer, stärkere Muskeln und ein höheres Wohlbefinden im Alltag aufweisen als Personen, die keinen aktiven Sport treiben."
       },
       {
         "id": 2,
@@ -553,7 +553,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
       },
       {
         "id": 2,
-        "content": "Laut einer Pressemitteilung des Gesundheitsportals „MedizinDirekt“ hat der Aufenthalt in der Natur eine wissenschaftlich nachgewiesene, positive Wirkung auf das Herz-Kreislauf-System. Personen, die mindestens zweimal pro Woche für eine Stunde zwischen Bäumen spazieren gehen ve die Ruhe genießen, weisen einen deutlich stabileren und niedrigeren Druck in den Gefäßen auf als Personen, die ihre Freizeit ausschließlich in geschlossenen Räumen verbringen."
+        "content": "Laut einer Pressemitteilung des Gesundheitsportals „MedizinDirekt“ hat der Aufenthalt in der Natur eine wissenschaftlich nachgewiesene, positive Wirkung auf das Herz-Kreislauf-System. Personen, die mindestens zweimal pro Woche für eine Stunde zwischen Bäumen spazieren gehen und die Ruhe genießen, weisen einen deutlich stabileren und niedrigeren Druck in den Gefäßen auf als Personen, die ihre Freizeit ausschließlich in geschlossenen Räumen verbringen."
       },
       {
         "id": 3,
@@ -862,7 +862,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
     "emoji": "🥦",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "Immer mehr Verbraucher in Deutschland greifen im Supermarkt zu Produkten mit einem Bio-Siegel. Doch Experten geben zu bedenken: Nicht jedes Bio-Produkt ist automatisch gesund oder gut für das Klima.\n\nLaut einer Marktstudie des Landwirtschaftsministeriums kauft mittlerweile fast die Hälfte der Deutschen regelmäßig ökologisch hergestellte Lebensmittel. Die Gründe für diesen Trend sind vielfältig. Viele Menschen möchten Pestizide im Essen vermeiden, die Umwelt schonen oder die artgerechte Tierhaltung unterstützen. Für diesen Mehrwert sind viele Kundinnen und Kunden auch bereit, deutlich höhere Preise zu zahlen als für konventionelle Ware.\n\nDie 31-jährige zweifache Mutter Elena Becker aus Hamburg kauft seit der Geburt ihrer Kinder fast nur noch im Bio-Laden. „Mir ist es unheimlich wichtig, dass meine Familie frische und schadstofffreie Lebensmittel isst“, erzählt sie. Allerdings gibt sie zu, dass der Wocheneinkauf dadurch das Familienbudget stark belastet. „Wir müssen an anderen Dingen wie Kleidung oder Urlaub sparen, aber die Gesundheit der Kinder steht für uns an erster Stelle“, sagt Elena. Sie kauft vor allem regionales Gemüse der Saison, um lange Transportwege zu vermeiden.\n\nEin skeptischer Konsument ist dagegen der Koch Janosch Schulz (38). Er hält den aktuellen Bio-Hype teilweise für übertrieben. Er hat die Produkte oft in seinem Restaurant getestet. „Eine Bio-Gurke, die im Winter in einem beheizten Gewächshaus in Spanien wächst und in Plastik verpackt nach Deutschland fliegt, ist für mich nicht nachhaltig“, erklärt er. Janosch empfiehlt, statt auf teure Bio-Siegel lieber auf Produkte von kleinen, regionalen Bauernhöfen aus der Umgebung zu achten, auch wenn diese kein offizielles Zertifikat haben.\n\nDie Ernährungswissenschaftlerin Dr. Clara Lenz betont, dass man beim Einkaufen genau hinschauen muss. Ein Bio-Produkt sei nicht automatisch gesund, nur weil das Siegel darauf klebt. „Es gibt mittlerweile auch Bio-Fertiggerichte, Bio-Chips und Bio-Limona-den. Diese enthalten oft genauso viel Zucker und Fett wie normale Produkte“, warnt Lenz. Sinnvoll sei der Bio-Kauf vor allem bei frischen Lebensmitteln wie Milch, Fleisch, Obst und Gemüse.\n\nExperten empfehlen Verbrauchern deshalb, sich nicht nur auf Siegel zu verlassen, sondern das Etikett genau zu lesen und auf die Herkunft der Ware zu achten. Am besten für die Gesundheit und die Umwelt ist immer noch eine Kombination aus ökologischem Anbau ve regionaler Herkunft.",
+    "text": "Immer mehr Verbraucher in Deutschland greifen im Supermarkt zu Produkten mit einem Bio-Siegel. Doch Experten geben zu bedenken: Nicht jedes Bio-Produkt ist automatisch gesund oder gut für das Klima.\n\nLaut einer Marktstudie des Landwirtschaftsministeriums kauft mittlerweile fast die Hälfte der Deutschen regelmäßig ökologisch hergestellte Lebensmittel. Die Gründe für diesen Trend sind vielfältig. Viele Menschen möchten Pestizide im Essen vermeiden, die Umwelt schonen oder die artgerechte Tierhaltung unterstützen. Für diesen Mehrwert sind viele Kundinnen und Kunden auch bereit, deutlich höhere Preise zu zahlen als für konventionelle Ware.\n\nDie 31-jährige zweifache Mutter Elena Becker aus Hamburg kauft seit der Geburt ihrer Kinder fast nur noch im Bio-Laden. „Mir ist es unheimlich wichtig, dass meine Familie frische und schadstofffreie Lebensmittel isst“, erzählt sie. Allerdings gibt sie zu, dass der Wocheneinkauf dadurch das Familienbudget stark belastet. „Wir müssen an anderen Dingen wie Kleidung oder Urlaub sparen, aber die Gesundheit der Kinder steht für uns an erster Stelle“, sagt Elena. Sie kauft vor allem regionales Gemüse der Saison, um lange Transportwege zu vermeiden.\n\nEin skeptischer Konsument ist dagegen der Koch Janosch Schulz (38). Er hält den aktuellen Bio-Hype teilweise für übertrieben. Er hat die Produkte oft in seinem Restaurant getestet. „Eine Bio-Gurke, die im Winter in einem beheizten Gewächshaus in Spanien wächst und in Plastik verpackt nach Deutschland fliegt, ist für mich nicht nachhaltig“, erklärt er. Janosch empfiehlt, statt auf teure Bio-Siegel lieber auf Produkte von kleinen, regionalen Bauernhöfen aus der Umgebung zu achten, auch wenn diese kein offizielles Zertifikat haben.\n\nDie Ernährungswissenschaftlerin Dr. Clara Lenz betont, dass man beim Einkaufen genau hinschauen muss. Ein Bio-Produkt sei nicht automatisch gesund, nur weil das Siegel darauf klebt. „Es gibt mittlerweile auch Bio-Fertiggerichte, Bio-Chips und Bio-Limona-den. Diese enthalten oft genauso viel Zucker und Fett wie normale Produkte“, warnt Lenz. Sinnvoll sei der Bio-Kauf vor allem bei frischen Lebensmitteln wie Milch, Fleisch, Obst und Gemüse.\n\nExperten empfehlen Verbrauchern deshalb, sich nicht nur auf Siegel zu verlassen, sondern das Etikett genau zu lesen und auf die Herkunft der Ware zu achten. Am besten für die Gesundheit und die Umwelt ist immer noch eine Kombination aus ökologischem Anbau und regionaler Herkunft.",
     "questions": [
       {
         "id": 6,
@@ -938,7 +938,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
         "question": "Warum machen laut Text immer mehr Menschen mitten im Berufsleben eine Umschulung?",
         "options": {
           "a": "Weil Umschulungen in Deutschland seit kurzem für alle Bürger gesetzlich Pflicht sind.",
-          "b": "Weil sich der Arbeitsmarkt rasant verändert ve bazı meslekler tamamen ortadan kalkıyor.",
+          "b": "Weil sich der Arbeitsmarkt rasant verändert und manche Berufe komplett verschwinden.",
           "c": "Weil man während einer neuen Ausbildung deutlich mehr Urlaubstage bekommt als im alten Job."
         }
       },
@@ -1085,7 +1085,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
         "question": "Elena Alves aus Brasilien",
         "options": {
           "a": "hat den klassischen Sprachkurs nach wenigen Wochen enttäuscht wieder verlassen.",
-          "b": "konnte durch das Café ihre Aussprache verbessern ve yerel insanlarla bağ kurdu.",
+          "b": "konnte durch das Café ihre Aussprache verbessern und Kontakt zu Einheimischen aufbauen.",
           "c": "besucht seit einem Jahr ausschließlich einen klassischen Grammatikkurs."
         }
       },
@@ -1134,55 +1134,55 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
   },
   {
     "id": "lese_2_9",
-    "title": "Sprachcafés",
-    "emoji": "🗣️",
+    "title": "Foodsharing",
+    "emoji": "🥦",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "In vielen deutschen Städten etabliert sich eine neue Form des Lernens: das Sprachcafé. Hier treffen sich Menschen unterschiedlicher Herkunft, um in entspannter Atmosphäre bei Kaffee und Keksen Deutsch zu sprechen. Doch diese Treffen bieten mehr als nur Grammatikübungen.\n\nLaut einer Bestandsaufnahme von Volkshochschulen und sozialen Vereinen besuchen wöchentlich Tausende von Zugezogenen solche offenen Angebote. Die Teilnahme ist in den meisten Fällen kostenlos und erfordert keine vorherige Anmeldung. Viele Teilnehmende schätzen es, das im klassischen Sprachkurs gelernte Wissen endlich im Alltag anzuwenden, ohne Angst vor Fehlern haben zu müssen. Neben der Sprache steht vor allem der interkulturelle Austausch und das Kennenlernen neuer Menschen im Vordergrund.\n\nDie 26-jährige Produktdesignerin Elena Alves aus Brasilien lebt seit einem Jahr in Frankfurt und besucht regelmäßig ein Sprachcafé in ihrem Stadtteil. „Im normalen Sprachkurs lernen wir viel Grammatik, aber man spricht kaum frei“, erzählt sie. Durch das Café hat sie nicht nur ihre Aussprache deutlich verbessert, sondern auch eine deutsche Familie kennengelernt, die ihr bei Behördengängen und der Wohnungssuche geholfen hat. „Das Sprachcafé war für mich das wichtigste Tor zur deutschen Gesellschaft“, sagt Elena heute dankbar.\n\nEin wenig anders erging es dem Ingenieur Ali Mansour (34) aus Syrien. Er besuchte ein großes Sprachcafé im Stadtzentrum, war jedoch nach den ersten Malen enttäuscht. „Es waren an meinem Tisch fast nur Muttersprachler aus anderen Ländern, die selbst noch große Probleme mit der Sprache hatten. Es gab kaum Deutsche, die uns korrigieren konnten“, erklärt er. Ali sucht nun nach einem Tandem-Partner, um gezielter an seinen Fehlern zu arbeiten und tiefere Gespräche auf B1-Niveau führen zu können.\n\nDie Sprachwissenschaftlerin Dr. Sabine Weber betont, dass Sprachcafés eine ideale Ergänzung, aber kein Ersatz für einen strukturierten Unterricht sind. „In einem Café lernt man keine systematische Grammatik. Aber es baut die psychologische Barriere ab, eine fremde Sprache zu sprechen“, erklärt Weber. Wichtig sei jedoch, dass die Treffen von ein paar Muttersprachlern begleitet werden, damit sich Fehler nicht dauerhaft verfestigen.\n\nExperten empfehlen den Organisatoren daher, darauf zu achten, dass an jedem Tisch mindestens ein oder zwei Muttersprachler sitzen, die das Gespräch sanft lenken. Wenn diese Balance stimmt, sind Sprachcafés ein unschätzbares Werkzeug für eine gelungene Integration und schaffen ein lebendiges Miteinander in den Kommunen.",
+    "text": "In immer mehr deutschen Städten breitet sich eine Bewegung gegen die Verschwendung von Lebensmitteln aus: das Foodsharing. Freiwillige holen dabei übrig gebliebene, aber noch genießbare Lebensmittel von Supermärkten, Bäckereien und Privatpersonen ab und verteilen sie kostenlos weiter, statt sie in der Mülltonne landen zu lassen.\n\nLaut einer Erhebung eines bekannten Foodsharing-Vereins engagieren sich mittlerweile mehr als 100.000 Menschen bundesweit als sogenannte „Lebensmittelretter“. Allein im letzten Jahr konnten dadurch mehrere Tausend Tonnen Obst, Gemüse und Backwaren vor der Tonne gerettet werden. Viele der Helfer sagen, dass es ihnen nicht nur um die Umwelt, sondern auch um den respektvollen Umgang mit Nahrungsmitteln geht.\n\nDie 29-jährige Lehrerin Mira Holst aus Leipzig holt seit zwei Jahren regelmäßig Brot und Gemüse bei einem Supermarkt in ihrer Nähe ab. „Am Anfang war es mir fast peinlich, in den Mülleimer hinter dem Laden zu greifen“, erzählt sie lachend. Mittlerweile bringt sie die geretteten Lebensmittel zu einem öffentlichen Verteilerschrank im Stadtpark, wo sich jeder kostenlos bedienen kann. „Ich habe dadurch viele neue Leute aus der Nachbarschaft kennengelernt, die genauso denken wie ich“, sagt Mira.\n\nEtwas zurückhaltender äußert sich der Rentner Klaus-Peter Ahrens (67) aus Dortmund. Er hat das Foodsharing vor einigen Monaten ausprobiert, mittlerweile aber wieder aufgegeben. „Die Lebensmittel waren oft schon sehr welk oder die Mengen waren viel zu groß für einen einzelnen Haushalt“, berichtet er. Außerdem habe ihm die feste Organisation über eine Smartphone-App Probleme gemacht, da er mit der Technik nicht so vertraut sei.\n\nDie Ernährungswissenschaftlerin Dr. Annika Brandt erklärt, dass Foodsharing zwar kein Ersatz für eine grundsätzliche Reform der Lebensmittelindustrie sei, aber einen wichtigen Beitrag leiste. „Ein Drittel aller produzierten Lebensmittel wird weltweit weggeworfen, obwohl es noch verzehrt werden könnte“, betont sie. Wichtig sei jedoch, dass die Helfer geschult werden, um die Genießbarkeit der Lebensmittel richtig einschätzen zu können, damit niemand verdorbene Ware weitergibt.\n\nExperten raten Interessierten, zunächst bei einer örtlichen Foodsharing-Gruppe mitzumachen, bevor man sich allein an die Organisation größerer Abholungen wagt. Wer sich an die gemeinsamen Hygiene-Regeln hält, kann mit wenig Aufwand einen sinnvollen Beitrag gegen die Lebensmittelverschwendung leisten.",
     "questions": [
       {
         "id": 6,
-        "question": "Was ist laut Text ein großer Vorteil von Sprachcafés für die Teilnehmenden?",
+        "question": "Was machen Foodsharing-Helfer laut Text konkret?",
         "options": {
-          "a": "Man kann dort gegen eine kleine Gebühr zusätzliche Grammatikübungen für die B1-Prüfung machen.",
-          "b": "Man kann das gelernte Wissen ohne Angst vor Fehlern im Alltag ausprobieren.",
-          "c": "Man bekommt dort jede Woche kostenloses Lehrmaterial für den Deutschkurs geschenkt."
+          "a": "Sie kaufen überschüssige Lebensmittel von Supermärkten zu einem stark reduzierten Preis ein.",
+          "b": "Sie holen noch genießbare, übrig gebliebene Lebensmittel ab und geben sie kostenlos weiter.",
+          "c": "Sie kompostieren weggeworfene Lebensmittel, damit daraus neue Erde für Gärten entsteht."
         }
       },
       {
         "id": 7,
-        "question": "Elena Alves aus Brasilien",
+        "question": "Mira Holst aus Leipzig",
         "options": {
-          "a": "hat ihren klassischen Sprachkurs nach wenigen Wochen enttäuscht wieder verlassen.",
-          "b": "konnte durch das Café ihre Aussprache verbessern ve yerel insanlarla bağ kurdu.",
-          "c": "lebt schon seit über drei Jahren in Frankfurt und besucht dort ein Sprachcafé."
+          "a": "fand es von Anfang an völlig selbstverständlich, Lebensmittel aus dem Mülleimer zu holen.",
+          "b": "hat durch das Foodsharing neue Menschen aus ihrer Nachbarschaft kennengelernt.",
+          "c": "verteilt die geretteten Lebensmittel ausschließlich an Familienmitglieder."
         }
       },
       {
         "id": 8,
-        "question": "Warum war Ali Mansour nach den ersten Besuchen im Sprachcafé enttäuscht?",
+        "question": "Warum hat Klaus-Peter Ahrens das Foodsharing wieder aufgegeben?",
         "options": {
-          "a": "Weil ihm das Niveau der Gespräche an seinem Tisch viel zu fortgeschritten war.",
-          "b": "Weil an seinem Tisch kaum Muttersprachler saßen, die korrigieren konnten.",
-          "c": "Weil das Café im Stadtzentrum nur an wenigen Tagen im Monat geöffnet hatte."
+          "a": "Weil ihm die Wege zwischen den verschiedenen Abholstellen in Dortmund zu weit waren.",
+          "b": "Weil die Mengen oft zu groß für seinen Haushalt waren und ihn die App-Organisation überforderte.",
+          "c": "Weil die Lebensmittel an seiner Abholstelle grundsätzlich noch frisch und unbeschädigt waren."
         }
       },
       {
         "id": 9,
-        "question": "Welche Meinung vertritt die Sprachwissenschaftlerin Dr. Sabine Weber?",
+        "question": "Welchen Punkt betont die Ernährungswissenschaftlerin Dr. Annika Brandt?",
         "options": {
-          "a": "Sprachcafés eignen sich vor allem dazu, systematische Grammatik strukturiert zu lernen.",
-          "b": "Sprachcafés helfen dabei, die Angst vor dem Sprechen abzubauen.",
-          "c": "Sprachcafés sollten ohne Begleitung von Muttersprachlern stattfinden, damit alle frei sprechen."
+          "a": "Foodsharing löst das weltweite Problem der Lebensmittelverschwendung bereits vollständig.",
+          "b": "Foodsharing leistet einen wichtigen Beitrag, ersetzt aber keine grundsätzliche Reform der Branche.",
+          "c": "Foodsharing sollte nur von ausgebildeten Lebensmittelchemikern durchgeführt werden dürfen."
         }
       },
       {
         "id": 10,
-        "question": "Was empfehlen Experten den Organisatoren im letzten Absatz für ein erfolgreiches Sprachcafé?",
+        "question": "Was empfehlen Experten Menschen, die mit Foodsharing beginnen möchten?",
         "options": {
-          "a": "Sie sollten an jeden Tisch mindestens ein bis zwei Muttersprachler setzen.",
-          "b": "Sie sollten möglichst viele Muttersprachler ohne feste Tischzuteilung frei zirkulieren lassen.",
-          "c": "Sie sollten die Gesprächsrunden lieber ganz ohne Beteiligung von Muttersprachlern organisieren."
+          "a": "Sie sollten zuerst bei einer örtlichen Gruppe mitmachen, bevor sie größere Abholungen allein organisieren.",
+          "b": "Sie sollten direkt eine eigene, unabhängige Verteilstelle ohne Anbindung an bestehende Gruppen gründen.",
+          "c": "Sie sollten auf die gemeinsamen Hygiene-Regeln verzichten, um schneller Lebensmittel verteilen zu können."
         }
       }
     ],
@@ -1194,11 +1194,11 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
       "10": "a"
     },
     "explanations": {
-      "6": "Text: \"Viele Teilnehmende schätzen es, das im klassischen Sprachkurs gelernte Wissen endlich im Alltag anzuwenden, ohne Angst vor Fehlern haben zu müssen.\"",
-      "7": "Text: \"Durch das Café hat sie nicht nur ihre Aussprache deutlich verbessert, sondern auch eine deutsche Familie kennengelernt...\"",
-      "8": "Text: \"Es waren an meinem Tisch fast nur Muttersprachler aus anderen Ländern... Es gab kaum Deutsche, die uns korrigieren konnten...\"",
-      "9": "Text: \"Aber es baut die psychologische Barriere ab, eine fremde Sprache zu sprechen...\"",
-      "10": "Text: \"Experten empfehlen den Organisatoren daher, darauf zu achten, dass an jedem Tisch mindestens ein oder zwei Muttersprachler sitzen...\""
+      "6": "Text: \"Freiwillige holen dabei übrig gebliebene, aber noch genießbare Lebensmittel... ab und verteilen sie kostenlos weiter, statt sie in der Mülltonne landen zu lassen.\"",
+      "7": "Text: \"Ich habe dadurch viele neue Leute aus der Nachbarschaft kennengelernt, die genauso denken wie ich.\"",
+      "8": "Text: \"Die Lebensmittel waren oft schon sehr welk oder die Mengen waren viel zu groß... Außerdem habe ihm die feste Organisation über eine Smartphone-App Probleme gemacht...\"",
+      "9": "Text: \"Foodsharing zwar kein Ersatz für eine grundsätzliche Reform der Lebensmittelindustrie sei, aber einen wichtigen Beitrag leiste.\"",
+      "10": "Text: \"Experten raten Interessierten, zunächst bei einer örtlichen Foodsharing-Gruppe mitzumachen, bevor man sich allein an die Organisation größerer Abholungen wagt.\""
     }
   },
   {
@@ -1207,7 +1207,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
     "emoji": "🏢",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "Die Digitalisierung ermöglicht es vielen Freiberuflern und Start-ups, ihre Aufgaben von überall aus zu erledigen. Sogenannte „Co-Working-Spaces“ – große, geteilte Büros, in denen man flexibel einen Schreibtisch mieten kann – erleben einen riesigen Boom.\n\nLaut einer Untersuchung des Instituts für Wirtschaftsforschung nutzen mittlerweile besonders viele Gründer und Kreative diese modernen Gemeinschaftsbüros. Die Vorteile liegen auf der Hand: Man muss keine teuren, langfristigen Mietverträge für ein eigenes Büro unterschreiben und hat trotzdem Zugang zu einer professionellen Infrastruktur wie schnellem Internet, Druckern ve toplantı odalarına. Zudem schätzen viele den informellen Austausch beim Kaffee in der Küche, wodurch oft neue berufliche Netzwerke entstehen.\n\nDie 32-jährige App-Entwicklerin Leyla Demir aus Köln arbeitet seit einem Jahr in einem Co-Working-Space. „Zuerst habe ich versucht, nur von zu Hause aus zu arbeiten“, erzählt sie. Doch nach ein paar Monaten fühlte sie sich isoliert und vermisste die Trennung zwischen Freizeit und Beruf. Im Co-Working-Space hat sie nun feste Arbeitszeiten gefunden. „Wenn ich abends den Space verlasse, habe ich wirklich Feierabend“, sagt Leyla. Die monatliche Gebühr für den Schreibtisch empfindet sie als gute Investition in ihre mentale Gesundheit.\n\nGanz andere Erfahrungen hat der Übersetzer Michael Brand (46) gemacht. Er hat die Arbeit im Co-Working-Space nach nur zwei Wochen wieder aufgegeben. Da er hochkonzentriert an juristischen Texten arbeiten muss, war ihm die Umgebung viel zu unruhig. „Es herrscht ständige Bewegung. Leute telefonieren, unterhalten sich oder gehen ein und aus“, erklärt er. Michael arbeitet jetzt wieder in seinem ruhigen Arbeitszimmer zu Hause und schätzt die Stille, die er für seine präzise Übersetzungstätigkeit braucht.\n\nDie Arbeitspsychologin Dr. Sabine Vogt betont, dass dieser Bürotrend nicht für jeden Charakter geeignet ist. Co-Working erfordere ein hohes Maß an Anpassungsfähigkeit. „Wer absolute Ruhe braucht oder mit sensiblen Kundendaten arbeitet, für den ist ein offener Space oft die falsche Wahl“, warnt Vogt. Für Menschen jedoch, die Inspiration und soziale Kontakte am Arbeitsplatz suchen, seien diese Räume eine wunderbare Bereicherung.\n\nExperten empfehlen Interessierten deshalb, vor dem Abschluss eines Abonnements einen kostenlosen Probetag zu nutzen. So kann man die Atmosphäre vor Ort testen ve kendi çalışma tarzına uygun olup olmadığını en iyi şekilde görebilir.",
+    "text": "Die Digitalisierung ermöglicht es vielen Freiberuflern und Start-ups, ihre Aufgaben von überall aus zu erledigen. Sogenannte „Co-Working-Spaces“ – große, geteilte Büros, in denen man flexibel einen Schreibtisch mieten kann – erleben einen riesigen Boom.\n\nLaut einer Untersuchung des Instituts für Wirtschaftsforschung nutzen mittlerweile besonders viele Gründer und Kreative diese modernen Gemeinschaftsbüros. Die Vorteile liegen auf der Hand: Man muss keine teuren, langfristigen Mietverträge für ein eigenes Büro unterschreiben und hat trotzdem Zugang zu einer professionellen Infrastruktur wie schnellem Internet, Druckern und Konferenzräumen. Zudem schätzen viele den informellen Austausch beim Kaffee in der Küche, wodurch oft neue berufliche Netzwerke entstehen.\n\nDie 32-jährige App-Entwicklerin Leyla Demir aus Köln arbeitet seit einem Jahr in einem Co-Working-Space. „Zuerst habe ich versucht, nur von zu Hause aus zu arbeiten“, erzählt sie. Doch nach ein paar Monaten fühlte sie sich isoliert und vermisste die Trennung zwischen Freizeit und Beruf. Im Co-Working-Space hat sie nun feste Arbeitszeiten gefunden. „Wenn ich abends den Space verlasse, habe ich wirklich Feierabend“, sagt Leyla. Die monatliche Gebühr für den Schreibtisch empfindet sie als gute Investition in ihre mentale Gesundheit.\n\nGanz andere Erfahrungen hat der Übersetzer Michael Brand (46) gemacht. Er hat die Arbeit im Co-Working-Space nach nur zwei Wochen wieder aufgegeben. Da er hochkonzentriert an juristischen Texten arbeiten muss, war ihm die Umgebung viel zu unruhig. „Es herrscht ständige Bewegung. Leute telefonieren, unterhalten sich oder gehen ein und aus“, erklärt er. Michael arbeitet jetzt wieder in seinem ruhigen Arbeitszimmer zu Hause und schätzt die Stille, die er für seine präzise Übersetzungstätigkeit braucht.\n\nDie Arbeitspsychologin Dr. Sabine Vogt betont, dass dieser Bürotrend nicht für jeden Charakter geeignet ist. Co-Working erfordere ein hohes Maß an Anpassungsfähigkeit. „Wer absolute Ruhe braucht oder mit sensiblen Kundendaten arbeitet, für den ist ein offener Space oft die falsche Wahl“, warnt Vogt. Für Menschen jedoch, die Inspiration und soziale Kontakte am Arbeitsplatz suchen, seien diese Räume eine wunderbare Bereicherung.\n\nExperten empfehlen Interessierten deshalb, vor dem Abschluss eines Abonnements einen kostenlosen Probetag zu nutzen. So kann man die Atmosphäre vor Ort testen und am besten herausfinden, ob diese Arbeitsweise zum eigenen Stil passt.",
     "questions": [
       {
         "id": 6,
@@ -1494,8 +1494,8 @@ const LESEVERSTEHEN_TEIL_3_DATA_B1 = [
     "explanations": {
       "11": "Chili & Chutney: Indisch, Altstadt/Zentrum, Samstagabend geöffnet",
       "12": "Ferienhaus Alpenglück: Berge/Allgäu, Wohnküche zur Selbstversorgung, bis 6 Personen geeignet",
-      "13": "İlan j'deki Kfz-Werkstatt sadece \"Ausbildung\" arıyor, \"Praktikum\" vermiyor. Bu yüzden bu durumun ilanı yoktur.",
-      "14": "Studio Farbenfroh: Gestaltung von Logos ve Speisekarten für Gastronomie",
+      "13": "Die Kfz-Werkstatt in Anzeige j sucht nur Auszubildende (\"Ausbildung\"), bietet aber kein \"Praktikum\" an. Deshalb gibt es für diese Situation keine passende Anzeige.",
+      "14": "Studio Farbenfroh: Gestaltung von Logos und Speisekarten für Gastronomie",
       "15": "Sprachschule Lingua: Spanisch A1/A2, jeden Samstag -wochenende-",
       "16": "Präsentationstraining: ab B2/C1, professionelle Präsentationen auf Deutsch",
       "17": "Deutsches Haus: Traditionelle deutsche Küche, Sonntagmittag geöffnet, ideal für Familien",
@@ -1591,8 +1591,8 @@ const LESEVERSTEHEN_TEIL_3_DATA_B1 = [
       "14": "Max Schmidt: Gitarrenlehrer für Anfänger, kommt direkt nach Hause -Privatlehrer-",
       "15": "Physio-Zentrum Mitte: Nackenschmerzen/Rückenschmerzen, öffnet bereits um 7:00 Uhr -frühen Morgen-",
       "16": "Praktikum HR: Wirtschaft/BWL-Studierende, Sommer, unvergütetes Pflichtpraktikum",
-      "17": "İlan j'deki akıllı telefon kursu yaşlılar için uygun görünse de sadece sabah 10:00-11:30 arasında yapılıyor. Durum 17'deki kişi ise öğleden sonra veya akşam kursu arıyor. Bu yüzden cevap X'tir.",
-      "18": "Umzüge Blitz & Sicher: Umzugsunternehmen, Full-Service inklusive Montage -Abbau ve Aufbau von Möbeln-",
+      "17": "Der Smartphone-Kurs in Anzeige j richtet sich zwar an Senioren, findet aber nur vormittags von 10:00 bis 11:30 Uhr statt. Die Person in Situation 17 sucht dagegen einen Kurs am Nachmittag oder Abend. Deshalb lautet die Antwort X.",
+      "18": "Umzüge Blitz & Sicher: Umzugsunternehmen, Full-Service inklusive Montage – Abbau und Aufbau von Möbeln",
       "19": "Spanischkurs VivaMadrid: A1 Einsteiger ohne Vorkenntnisse, Di und Do 18:30-20:00 -Abendkurs unter der Woche-",
       "20": "Reitclub Grünes Tal: 2-wöchiger Kurs in den Sommerferien, für Jugendliche von 12-16 Jahren"
     }
@@ -1607,11 +1607,11 @@ const LESEVERSTEHEN_TEIL_3_DATA_B1 = [
       "11": "Sie möchten am Samstagabend mit Freunden ein neues Lokal ausprobieren, das frische Meeresfrüchte und Fischgerichte in der Innenstadt anbietet.",
       "12": "Ihr Bekannter möchte sich als Hochzeitsfotograf selbstständig machen und sucht jemanden, der ihm eine moderne und professionelle Website baut.",
       "13": "Die Tochter Ihrer Kollegin möchte in den Sommerferien ein einwöchiges Praktikum auf einem Bauernhof machen, um den Umgang mit Tieren zu lernen.",
-      "14": "Ihr Bruder studiert Maschinenbau ve bu yaz zorunlu stajı için (Pflichtpraktikum) üretim yapan büyük bir fabrikada teknik deneyim arıyor.",
+      "14": "Ihr Bruder studiert Maschinenbau und sucht für diesen Sommer im Rahmen seines Pflichtpraktikums technische Erfahrung in einer großen Produktionsfirma.",
       "15": "Ihre Freundin leidet unter starken Zahnschmerzen und sucht eine Zahnarztpraxis, die auch samstags für Notfälle geöffnet hat.",
       "16": "Ihr Nachbar hat zwei kleine Kinder (3 und 5 Jahre alt) und sucht einen Babysitter, der flexibel am frühen Abend unter der Woche auf sie aufpassen kann.",
       "17": "Sie suchen für Sonntagabend ein gemütliches Restaurant mit italienischer Küche, weil Sie mit Ihrem Partner Pizza essen möchten.",
-      "18": "Ihre Schwester spricht schon gut Französisch (B1) ve iş hayatında müşterilerle telefonda rahatça konuşabilmek için akşamları bir kursa gitmek istiyor.",
+      "18": "Ihre Schwester spricht schon gut Französisch (B1) und möchte abends einen Kurs besuchen, um im Berufsleben sicher mit Kunden am Telefon sprechen zu können.",
       "19": "Ihr Cousin möchte lernen, wie man professionelle Videos mit dem Smartphone schneidet, und sucht einen Einsteiger-Workshop am Wochenende.",
       "20": "Die Mutter Ihres Freundes sucht eine professionelle Beraterin, die ihr bei der Erstellung von Bewerbungsunterlagen und der Karriereplanung hilft."
     },
@@ -1622,7 +1622,7 @@ const LESEVERSTEHEN_TEIL_3_DATA_B1 = [
       },
       "b": {
         "title": "PixelDesign – Webseiten für Gründer",
-        "body": "Wir erstellen moderne, schnelle ve mobil uyumlu web siteleri für kleine Unternehmen, Praxen ve Freiberufler. Perfekt für Fotografen, Künstler ve Handwerker, die ihre Arbeit online präsentieren möchten.\nKostenlose Erstberatung: info@pixeldesign-web.de."
+        "body": "Wir erstellen moderne, schnelle und mobil optimierte Webseiten für kleine Unternehmen, Praxen und Freiberufler. Perfekt für Fotografen, Künstler und Handwerker, die ihre Arbeit online präsentieren möchten.\nKostenlose Erstberatung: info@pixeldesign-web.de."
       },
       "c": {
         "title": "Praktikum bei Krauss-Maffei Industrie",
@@ -1680,13 +1680,13 @@ const LESEVERSTEHEN_TEIL_3_DATA_B1 = [
     "explanations": {
       "11": "Meeresbrise: Fisch und Meeresfrüchte, Innenstadt/Herz der Stadt, Samstagabend geöffnet",
       "12": "PixelDesign: Baut Webseiten speziell für Gründer, Fotografen und Freiberufler",
-      "13": "İlan j'deki Bauernhof çocukları kabul ediyor ancak 2 haftalık yatılı \"Sommercamp\" sunuyor. Durum 13'teki kız ise sadece 1 haftalık bir \"Praktikum\" -staj- arıyor. Bu yüzden tam uyuşan bir ilan yoktur, cevap X'tir.",
+      "13": "Der Bauernhof in Anzeige j nimmt zwar Kinder auf, bietet aber ein zweiwöchiges Internats-\"Sommercamp\" an. Die Tochter in Situation 13 sucht jedoch nur ein einwöchiges \"Praktikum\". Deshalb gibt es keine passende Anzeige, die Antwort lautet X.",
       "14": "Krauss-Maffei: Maschinenbau-Studierende, Sommer, Pflichtpraktikum, Produktion/Fabrik",
-      "15": "İlan d'deki diş hekimi sadece hafta içi açık (Mo-Fr). Durum 15'teki kişi ise Cumartesi günü (samstags) açık olan bir acil klinik arıyor. Bu yüzden cevap X'tir.",
-      "16": "Babysitter-Service Kunterbunt: Kleinkinder için uygun, Mo-Fr -unter der Woche-, frühen Abend",
+      "15": "Die Zahnarztpraxis in Anzeige d ist nur unter der Woche geöffnet (Mo-Fr). Die Person in Situation 15 sucht aber eine Notfallpraxis, die samstags geöffnet hat. Deshalb lautet die Antwort X.",
+      "16": "Babysitter-Service Kunterbunt: geeignet für Kleinkinder, Mo-Fr (unter der Woche), früher Abend",
       "17": "Pizzeria Roma: Italienisch/Pizza, Sonntagabend geöffnet, ideal für Paare",
-      "18": "Business Französisch: Ab B1, professionelles Telefonieren, Di ve Do 19:00-20:30 -Abendkurs-",
-      "19": "Videoschnitt am Smartphone: Smartphone ile video kesme, Einsteiger-Workshop, Sa & So -Wochenende-",
+      "18": "Business Französisch: ab B1, professionelles Telefonieren, Di und Do 19:00-20:30 Uhr (Abendkurs)",
+      "19": "Videoschnitt am Smartphone: Workshop für Videoschnitt mit dem Smartphone, für Einsteiger, Sa & So (Wochenende)",
       "20": "Dr. Sabine Frank: Karriereberatung, Erstellung von Bewerbungsunterlagen/Lebenslauf"
     }
   },
@@ -1771,16 +1771,16 @@ const LESEVERSTEHEN_TEIL_3_DATA_B1 = [
       "20": "h"
     },
     "explanations": {
-      "11": "Padel-City Berlin: Schläger/Raket oyunu, iki veya dört kişi oynanıyor, kapalı salon/Halle, Cumartesi sabahı açık",
-      "12": "Steuerberatung Krause: Buchhaltung ve Steuererklärung hizmeti veriyor",
-      "13": "İlan j'deki film prodüksiyon şirketi staj sunuyor ancak bu üniversite öğrencilerine yönelik zorunlu bir staj (\"Pflichtpraktikum für Studierende\"). Durum 13'teki kişi ise 16 yaşında bir lise öğrencisi. İlan l'deki staj grafik tasarımı üzerine, film üzerine değil. Bu yüzden tam uyuşan ilan yoktur, cevap X'tir.",
-      "14": "Fahrrad-Werkstatt: İkinci el/eski bisiklet tamiri ve bakımı, Cumartesi-Pazar hafta sonu kursu",
-      "15": "Umzüge & Reinigungsservice: Hem mobilya taşımacılığı hem de eski evin temizliğini (Endreinigung) birlikte yapıyor",
-      "16": "Alltagsassistenz: Yaşlılar için eşlik, yürüyüş ve ev işlerine yardım, haftada 2 kez sabahları",
-      "17": "İlan i'deki Asya restoranı vietnamesisch/thailändisch yemekler sunsa da Pazar günü kapalıdır (\"Sonntags geschlossen\"). Durumda ise spesifik olarak Pazar günü öğle yemeği arandığı için cevap X'tir.",
-      "18": "Business English: B1 seviyesinden başlıyor, iş e-postaları üzerine, Salı-Perşembe 18:30-20:00 arası akşam kursu",
-      "19": "Hotel Alpenblick: Dağlarda/Allgäu, büyük bir havuz barındırıyor ve günlük sabah yogası sunuyor",
-      "20": "Spanischkurs VivaMadrid: A1 başlangıç seviyesi, Pazartesi-Çarşamba 18:00-19:30 arası erken akşam kursu"
+      "11": "Padel-City Berlin: Schlägersport, wird zu zweit oder zu viert gespielt, in einer Halle, samstagvormittags geöffnet",
+      "12": "Steuerberatung Krause: bietet Buchhaltung und Steuererklärung an",
+      "13": "Die Filmproduktionsfirma in Anzeige j bietet zwar ein Praktikum an, aber es handelt sich um ein Pflichtpraktikum für Studierende. Die Person in Situation 13 ist jedoch eine 16-jährige Schülerin. Das Praktikum in Anzeige l betrifft Grafikdesign, nicht Film. Deshalb gibt es keine passende Anzeige, die Antwort lautet X.",
+      "14": "Fahrrad-Werkstatt: Reparatur und Wartung von gebrauchten/älteren Fahrrädern, Wochenendkurs am Samstag und Sonntag",
+      "15": "Umzüge & Reinigungsservice: übernimmt sowohl den Möbeltransport als auch die Endreinigung der alten Wohnung",
+      "16": "Alltagsassistenz: Begleitung für Senioren, Spaziergänge und Hilfe im Haushalt, zweimal wöchentlich am Vormittag",
+      "17": "Das asiatische Restaurant in Anzeige i bietet zwar vietnamesische/thailändische Gerichte an, ist aber sonntags geschlossen (\"Sonntags geschlossen\"). In der Situation wird jedoch gezielt ein Mittagessen am Sonntag gesucht, deshalb lautet die Antwort X.",
+      "18": "Business English: ab Niveau B1, Schwerpunkt geschäftliche E-Mails, Dienstag-Donnerstag 18:30-20:00 Uhr (Abendkurs)",
+      "19": "Hotel Alpenblick: in den Bergen/im Allgäu, mit großem Pool und täglichem Morgenyoga",
+      "20": "Spanischkurs VivaMadrid: Anfängerniveau A1, Montag-Mittwoch 18:00-19:30 Uhr (früher Abendkurs)"
     }
   },
   {
@@ -1865,15 +1865,15 @@ const LESEVERSTEHEN_TEIL_3_DATA_B1 = [
     },
     "explanations": {
       "11": "Viva México: Mexikanisch, Tacos/Fajitas, in Bahnhofsnähe, Samstagabend geöffnet",
-      "12": "İlan b'deki el işleri servisi montaj ve delme işlerini yapıyor ancak çalışma günleri sadece hafta içidir (\"Mo.–Fr.\"). Durum 12'deki kişi ise hafta sonu (\"am Wochenende\") yardım aradığı için bu ilan uygun değildir. Cevap X'tir.",
-      "13": "Fotostudio Lichtblick: Okul öğrencileri/gençler için uygun, 2 haftalık tatil stajı, Fotografie/Bildbearbeitung",
-      "14": "Kfz-Werkstatt: Eski araba tamiri/bakımı/yağ değişimi, Anfänger için uygun hafta sonu kursu",
-      "15": "Grünes Berlin e.V.: Ehrenamtlich/unbezahlt, Umweltschutz, Cumartesi günleri ağaç dikme eylemi",
-      "16": "Hundesitter-Service Vier Pfoten: Köpek bakımı ve parkta gezdirme, öğleden sonra uygun",
-      "17": "İlan i'deki İtalyan restoranı pizza ve makarna sunsa da Pazar günleri kapalıdır (\"Sonntags Ruhetag\"). Durumda ise Pazar günü öğle yemeği arandığı için cevap X'tir.",
-      "18": "Konversationstraining: B1 seviyesine uygun, konuşma ve tartışma odaklı, Pazartesi-Çarşamba 17:30-19:00 arası erken akşam kursu",
-      "19": "Näh-Werkstatt Kreativer Faden: Kendi kıyafetini dikmeyi öğrenme, Einsteiger için Cumartesi ve Pazar hafta sonu kursu",
-      "20": "Französisch am Wochenende: A1 başlangıç seviyesi/Vorkenntnisse yok, Cumartesi sabahı 9:30-12:30 arası kurs"
+      "12": "Der Handwerkerservice in Anzeige b übernimmt Montage- und Bohrarbeiten, ist aber nur unter der Woche tätig (\"Mo.–Fr.\"). Die Person in Situation 12 sucht jedoch Hilfe am Wochenende, weshalb diese Anzeige nicht passt. Die Antwort ist X.",
+      "13": "Fotostudio Lichtblick: geeignet für Schüler/Jugendliche, zweiwöchiges Ferienpraktikum, Fotografie/Bildbearbeitung",
+      "14": "Kfz-Werkstatt: Reparatur/Wartung/Ölwechsel an älteren Autos, Wochenendkurs für Anfänger",
+      "15": "Grünes Berlin e.V.: ehrenamtlich/unbezahlt, Umweltschutz, samstägliche Baumpflanzaktion",
+      "16": "Hundesitter-Service Vier Pfoten: Hundebetreuung und Gassigehen im Park, am Nachmittag möglich",
+      "17": "Das italienische Restaurant in Anzeige i bietet zwar Pizza und Pasta an, ist aber sonntags geschlossen (\"Sonntags Ruhetag\"). In der Situation wird jedoch ein Mittagessen am Sonntag gesucht, deshalb lautet die Antwort X.",
+      "18": "Konversationstraining: passend für Niveau B1, Schwerpunkt Sprechen und Diskutieren, Montag-Mittwoch 17:30-19:00 Uhr (früher Abendkurs)",
+      "19": "Näh-Werkstatt Kreativer Faden: eigene Kleidungsstücke nähen lernen, Wochenendkurs für Einsteiger am Samstag und Sonntag",
+      "20": "Französisch am Wochenende: Anfängerniveau A1, keine Vorkenntnisse nötig, samstagvormittags 9:30-12:30 Uhr"
     }
   },
   {
@@ -1962,11 +1962,11 @@ const LESEVERSTEHEN_TEIL_3_DATA_B1 = [
       "13": "Modeatelier KreativKopf: Für Schüler ab 15 Jahren/Jugendliche, 3-wöchiges Ferienpraktikum, Mode/Textildesign",
       "14": "Segelschule Nord: Segelyacht/Segeln basics, Theorie der Navigation, Anfängerkurs am Wochenende",
       "15": "Umzüge Fix & Fertig: Transportiert Möbel am Wochenende/Sonntag, liefert vorab Umzugskisten",
-      "16": "İlan e'deki bahçe servisi ağaç kesimi ve çim ekimi yapıyor ancak çalışma günleri sadece hafta içidir (\"Montag bis Freitag\"). Durum 16'daki kişi ise hafta sonu (\"am Wochenende\") hizmet aradığı için bu ilan uygun değildir. Cevap X'tir.",
-      "17": "Café Parkidylle: Vegetarisches Brunch-Buffet, jeden Sonntag, direkt am Stadtpark",
-      "18": "Verhandlungstraining: B1 seviyesine uygun, Vertrieb/müşteri müzakereleri odaklı, Di ve Do 19:00-20:30 arası akşam kursu",
-      "19": "Ostsee-Hotel Meerblick: Ostsee/Baltık Denizi kıyısında, masaj, sauna ve kahvaltı sunuyor",
-      "20": "İlan h'deki İtalyanca kursu başlangıç seviyesine uygun olsa da sadece Cumartesi günleri (\"jeden Samstag\") yapılmaktadır. Durum 20'deki kişi ise özellikle Cuma öğleden sonra (\"am frühen Freitagnachmittag\") bir kurs aradığı için uyuşmamaktadır. Cevap X'tir."
+      "16": "Der Gartenservice in Anzeige e übernimmt Baumschnitt und Rasenanlage, arbeitet aber nur unter der Woche (\"Montag bis Freitag\"). Die Person in Situation 16 sucht jedoch einen Service am Wochenende, weshalb diese Anzeige nicht passt. Die Antwort ist X.",
+      "17": "Café Parkidylle: vegetarisches Brunch-Buffet, jeden Sonntag, direkt am Stadtpark",
+      "18": "Verhandlungstraining: passend für Niveau B1, Schwerpunkt Vertrieb/Kundenverhandlungen, Dienstag und Donnerstag 19:00-20:30 Uhr (Abendkurs)",
+      "19": "Ostsee-Hotel Meerblick: an der Ostseeküste, bietet Massagen, Sauna und Frühstück an",
+      "20": "Der Italienischkurs in Anzeige h passt zwar zum Anfängerniveau, findet aber nur an Samstagen statt (\"jeden Samstag\"). Die Person in Situation 20 sucht jedoch speziell einen Kurs am frühen Freitagnachmittag, weshalb es keine Übereinstimmung gibt. Die Antwort ist X."
     }
   },
   {
@@ -2030,7 +2030,7 @@ const LESEVERSTEHEN_TEIL_3_DATA_B1 = [
       },
       "k": {
         "title": "Praktikum bei DesignBerlin",
-        "body": "Wir bieten Studentinnen und Studenten der Medienwissenschaften ein dreimonatiges, unvergütetes Pflichtpraktikum im Bereich Online-Marketing ve Social Media Management an.\nBeginn: flexibel im Sommer. Bewerbung an: jobs@design-berlin.de."
+        "body": "Wir bieten Studentinnen und Studenten der Medienwissenschaften ein dreimonatiges, unvergütetes Pflichtpraktikum im Bereich Online-Marketing und Social Media Management an.\nBeginn: flexibel im Sommer. Bewerbung an: jobs@design-berlin.de."
       },
       "l": {
         "title": "Restaurant Schnitzelparadies",
@@ -2051,15 +2051,15 @@ const LESEVERSTEHEN_TEIL_3_DATA_B1 = [
     },
     "explanations": {
       "11": "Taj Mahal: Indisch, scharfe Currys, in Bahnhofsnähe, Samstagabend geöffnet",
-      "12": "İlan b'deki boya ve montaj servisi duvar boyama ve dolap kurulumu hizmeti sunsa da çalışma günleri sadece hafta içidir (\"Montag bis Freitag\"). Durum 12'deki kişi ise hafta sonu (\"am Wochenende\") yardım aradığı için bu ilan uygun değildir. Cevap X'tir.",
-      "13": "Grafikstudio KreativKopf: Lise öğrencileri/gençler için uygun, 2 haftalık tatil stajı, Grafikdesign/Illustration",
-      "14": "Zweirad-Werkstatt Schrauber-König: Motorrad/moped bakımı, Anfänger için uygun hafta sonu kursu",
-      "15": "Tierhilfe Berlin e.V.: Ehrenamtlich/unbezahlt, Tierschutz, hafta sonu barınakta köpek gezdirme/kedi bakımı",
-      "16": "Urlaubsbetreuung Aqua-Care: Akvaryum balıkları bakımı, günlük yemleme ve filtre kontrolü",
-      "17": "Restaurant Schnitzelparadies: Traditionelle deutsche Küche, Schnitzel, Sonntagmittag geöffnet, ideal für Familien",
-      "18": "Geschäftskorrespondenz: B1 seviyesine uygun, Geschäftsbriefe/formel yazışma odaklı, Di ve Do 18:30-20:00 arası akşam kursu",
-      "19": "See-Hotel Kreativer Blick: Chiemsee/Göl kenarında, kahvaltı büfesi ve günlük Malkurs -resim kursu- sunuyor",
-      "20": "Portugiesisch am Wochenende: A1 başlangıç seviyesi, Cumartesi öğleden sonra 14:00-17:00 arası erken saatte kurs"
+      "12": "Der Maler- und Montageservice in Anzeige b bietet Wandstreichen und den Aufbau von Küchenschränken an, arbeitet aber nur unter der Woche (\"Montag bis Freitag\"). Die Person in Situation 12 sucht jedoch Hilfe am Wochenende, weshalb diese Anzeige nicht passt. Die Antwort ist X.",
+      "13": "Grafikstudio KreativKopf: geeignet für Schüler/Jugendliche, zweiwöchiges Ferienpraktikum, Grafikdesign/Illustration",
+      "14": "Zweirad-Werkstatt Schrauber-König: Wartung von Motorrädern/Mopeds, Wochenendkurs für Anfänger",
+      "15": "Tierhilfe Berlin e.V.: ehrenamtlich/unbezahlt, Tierschutz, am Wochenende Gassigehen mit Hunden/Katzenpflege im Tierheim",
+      "16": "Urlaubsbetreuung Aqua-Care: Pflege von Aquarienfischen, tägliche Fütterung und Filterkontrolle",
+      "17": "Restaurant Schnitzelparadies: traditionelle deutsche Küche, Schnitzel, Sonntagmittag geöffnet, ideal für Familien",
+      "18": "Geschäftskorrespondenz: passend für Niveau B1, Schwerpunkt Geschäftsbriefe/formelles Schreiben, Dienstag und Donnerstag 18:30-20:00 Uhr (Abendkurs)",
+      "19": "See-Hotel Kreativer Blick: am Chiemsee, mit Frühstücksbüfett und täglichem Malkurs",
+      "20": "Portugiesisch am Wochenende: Anfängerniveau A1, samstags am Nachmittag 14:00-17:00 Uhr"
     }
   },
   {
@@ -2069,7 +2069,7 @@ const LESEVERSTEHEN_TEIL_3_DATA_B1 = [
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
-      "11": "Sie möchten am Samstagabend mit Freunden ein neues Restaurant ausprobieren, das scharfe vietnamesische Suppen ve geleneksel Wok yemeklerini Bahnhofsnähe bünyesinde sunuyor.",
+      "11": "Sie möchten am Samstagabend mit Freunden ein neues Restaurant ausprobieren, das scharfe vietnamesische Suppen und traditionelle Wok-Gerichte in Bahnhofsnähe anbietet.",
       "12": "Ihr Bekannter zieht um und sucht jemanden, der ihm am Wochenende hilft, die alten Holzmöbel abzubauen und die Waschmaschine anzuschließen.",
       "13": "Die Tochter Ihrer Kollegin ist 17 Jahre alt und möchte in den Sommerferien ein unbezahltes, zweiwöchiges Praktikum im Bereich App-Entwicklung und Webdesign machen.",
       "14": "Ihr Bruder hat ein älteres Rennrad gekauft und sucht einen Wochenendkurs für Anfänger, um zu lernen, wie man die Bremsen einstellt und das Rad pflegt.",
@@ -2077,7 +2077,7 @@ const LESEVERSTEHEN_TEIL_3_DATA_B1 = [
       "16": "Ihr Nachbar hat zwei Hauskatzen und sucht eine Agentur, die während seines einwöchigen Urlaubs täglich kommt, um die Tiere in der Wohnung zu füttern.",
       "17": "Sie suchen für Sonntagmittag ein Restaurant mit traditioneller deutscher Küche, um mit Ihren Verwandten Schweinebraten oder Rinderrouladen zu essen.",
       "18": "Ihr Cousin arbeitet im Vertrieb, spricht bereits gut Deutsch (B1) und möchte einen intensiven Abendkurs besuchen, um das sichere Präsentieren vor Kunden zu üben.",
-      "19": "Die Mutter Ihres Freundes möchte im Urlaub kochen lernen ve dağlarda, günlük yemek kursları ve büyük bir havuz sunan bir otel arıyor.",
+      "19": "Die Mutter Ihres Freundes möchte im Urlaub kochen lernen und sucht ein Hotel in den Bergen mit täglichen Kochkursen und einem großen Pool.",
       "20": "Ihr Kollege möchte nächstes Jahr nach Schweden reisen, hat keine Vorkenntnisse und sucht einen Schwedischkurs, der ausschließlich am frühen Samstagnachmittag stattfindet."
     },
     "ads": {
@@ -2144,15 +2144,15 @@ const LESEVERSTEHEN_TEIL_3_DATA_B1 = [
     },
     "explanations": {
       "11": "Mekong Delta: Vietnamesisch, scharfe Suppen, in Bahnhofsnähe, Samstagabend geöffnet",
-      "12": "İlan b'deki el işleri servisi mobilya sökümü ve çamaşır makinesi bağlantısı sunsa da çalışma günleri sadece hafta içidir (\"Montag bis Freitag\"). Durum 12'deki kişi ise hafta sonu (\"am Wochenende\") yardım aradığı için bu ilan uygun değildir. Cevap X'tir.",
-      "13": "IT-Studio KreativKopf: Lise öğrencileri/gençler için uygun, 2 haftalık tatil stajı, Webdesign/App-Entwicklung",
-      "14": "Fahrrad-Zentrum: Yarış bisikleti tamiri/bakımı/fren ayarı, Anfänger için uygun hafta sonu kursu",
-      "15": "Nachbarschaftshilfe Berlin e.V.: Ehrenamtlich/unbezahlt, Çocuklar için hafta sonu ders yardımı/hausaufgaben",
-      "16": "Haustier-Betreuung: Evde kedi bakımı, günlük yemleme ve kontrol",
-      "17": "Restaurant Schnitzelparadies: Traditionelle deutsche Küche, Schweinebraten, Sonntagmittag geöffnet, ideal für Familien",
-      "18": "Präsentationstraining: B1 seviyesine uygun, Präsentation/sunum odaklı, Di ve Do 18:30-20:00 arası akşam kursu",
-      "19": "Genießer-Hotel Alpenblick: Dağlarda/Allgäu, havuz barındırıyor ve günlük Kochkurs -yemek kursu- sunuyor",
-      "20": "Schwedisch am Wochenende: A1 başlangıç seviyesi, Cumartesi öğleden sonra 14:00-17:00 arası erken saatte kurs"
+      "12": "Der Handwerkerservice in Anzeige b bietet Möbelabbau und den Anschluss von Waschmaschinen an, arbeitet aber nur unter der Woche (\"Montag bis Freitag\"). Die Person in Situation 12 sucht jedoch Hilfe am Wochenende, weshalb diese Anzeige nicht passt. Die Antwort ist X.",
+      "13": "IT-Studio KreativKopf: geeignet für Schüler/Jugendliche, zweiwöchiges Ferienpraktikum, Webdesign/App-Entwicklung",
+      "14": "Fahrrad-Zentrum: Reparatur/Wartung/Bremseinstellung an Rennrädern, Wochenendkurs für Anfänger",
+      "15": "Nachbarschaftshilfe Berlin e.V.: ehrenamtlich/unbezahlt, Hausaufgabenhilfe für Kinder am Wochenende",
+      "16": "Haustier-Betreuung: Katzenbetreuung zu Hause, tägliche Fütterung und Kontrolle",
+      "17": "Restaurant Schnitzelparadies: traditionelle deutsche Küche, Schweinebraten, Sonntagmittag geöffnet, ideal für Familien",
+      "18": "Präsentationstraining: passend für Niveau B1, Schwerpunkt Präsentationen, Dienstag und Donnerstag 18:30-20:00 Uhr (Abendkurs)",
+      "19": "Genießer-Hotel Alpenblick: in den Bergen/im Allgäu, mit Pool und täglichem Kochkurs",
+      "20": "Schwedisch am Wochenende: Anfängerniveau A1, samstags am Nachmittag 14:00-17:00 Uhr"
     }
   },
   {
@@ -2237,15 +2237,15 @@ const LESEVERSTEHEN_TEIL_3_DATA_B1 = [
     },
     "explanations": {
       "11": "Java Insel: Indonesisch, Erdnusssoßen/Saté-Spieße, in Bahnhofsnähe, Samstagabend geöffnet",
-      "12": "İlan b'deki yenileme servisi duvar fayanslama ve lamba montajı sunsa da çalışma günleri sadece hafta içidir (\"Montag bis Freitag\"). Durum 12'deki kişi ise hafta sonu (\"am Wochenende\") yardım aradığı için bu ilan uygun değildir. Cevap X'tir.",
-      "13": "Agentur KreativHochzeit: Lise öğrencileri/gençler için uygun, 2 haftalık tatil stajı, Eventmanagement/Hochzeitsplanung",
-      "14": "Fahrrad-Akademie: Mountainbike tamiri/bakımı/vites ayarı, Anfänger için uygun hafta sonu kursu",
-      "15": "Berliner Tafel e.V.: Ehrenamtlich/unbezahlt, Suppenküche/evsizler için yemek dağıtımı, Cumartesi-Pazar hafta sonu uygun",
-      "16": "Kleintier-Betreuung: Evde kaplumbağa bakımı, günlük yemleme ve su değişimi",
-      "17": "Restaurant Schnitzelparadies: Traditionelle deutsche Küche, Sauerbraten/Kalbsschnitzel, Sonntagmittag geöffnet, ideal für Familien",
-      "18": "Telefontraining: B1 seviyesine uygun, telefon desteği ve deeskalierende/kriz yönetimi odaklı, Di ve Do 18:30-20:00 arası akşam kursu",
-      "19": "See-Hotel Balance: Göl kenarında, büyük bir SPA/wellness alanı barındırıyor ve günlük Pilates kursu sunuyor",
-      "20": "Norwegisch am Wochenende: A1 başlangıç seviyesi, Cumartesi öğleden sonra 14:00-17:00 arası erken saatte kurs"
+      "12": "Der Renovierungsservice in Anzeige b bietet Fliesenarbeiten und Lampenmontage an, arbeitet aber nur unter der Woche (\"Montag bis Freitag\"). Die Person in Situation 12 sucht jedoch Hilfe am Wochenende, weshalb diese Anzeige nicht passt. Die Antwort ist X.",
+      "13": "Agentur KreativHochzeit: geeignet für Schüler/Jugendliche, zweiwöchiges Ferienpraktikum, Eventmanagement/Hochzeitsplanung",
+      "14": "Fahrrad-Akademie: Reparatur/Wartung/Gangschaltung an Mountainbikes, Wochenendkurs für Anfänger",
+      "15": "Berliner Tafel e.V.: ehrenamtlich/unbezahlt, Suppenküche/Essensausgabe für Obdachlose, am Wochenende möglich",
+      "16": "Kleintier-Betreuung: Schildkrötenbetreuung zu Hause, tägliche Fütterung und Wasserwechsel",
+      "17": "Restaurant Schnitzelparadies: traditionelle deutsche Küche, Sauerbraten/Kalbsschnitzel, Sonntagmittag geöffnet, ideal für Familien",
+      "18": "Telefontraining: passend für Niveau B1, Schwerpunkt Telefonsupport und deeskalierendes Krisenmanagement, Dienstag und Donnerstag 18:30-20:00 Uhr (Abendkurs)",
+      "19": "See-Hotel Balance: am See, mit großem Wellnessbereich und täglichem Pilateskurs",
+      "20": "Norwegisch am Wochenende: Anfängerniveau A1, samstags am Nachmittag 14:00-17:00 Uhr"
     }
   },
   {
@@ -2330,15 +2330,15 @@ const LESEVERSTEHEN_TEIL_3_DATA_B1 = [
     },
     "explanations": {
       "11": "Seoul Kitchen: Koreanisch, Kimchi/Bulgogi, in Bahnhofsnähe, Samstagabend geöffnet",
-      "12": "İlan b'deki yenileme servisi duvar sıva ve lamba montajı sunsa da çalışma günleri sadece hafta içidir (\"Montag bis Freitag\"). Durum 12'deki kişi ise hafta sonu (\"am Wochenende\") yardım aradığı için bu ilan uygun değildir. Cevap X'tir.",
-      "13": "Agentur KreativDesign: Lise öğrencileri/gençler için uygun, 2 haftalık tatil stajı, Grafikdesign/App-UI-Design",
-      "14": "Fahrrad-Akademie: Rennrad tamiri/bakımı/vites ayarı, Anfänger için uygun hafta sonu kursu",
-      "15": "Senioren-Hilfe Berlin e.V.: Ehrenamtlich/unbezahlt, huzurevinde yaşlılara kitap okuma/ziyaret, Cumartesi-Pazar uygun",
-      "16": "Kleintier-Betreuung: Evde kaplumbağa bakımı, günlük yemleme ve kontrol",
-      "17": "Restaurant Schnitzelparadies: Traditionelle deutsche Küche, Rinderrouladen/Schweinebraten, Sonntagmittag geöffnet, ideal für Familien",
-      "18": "Geschäftskorrespondenz: B1 seviyesine uygun, yazılı müşteri şikayetleri/deeskalierende E-Mails odaklı, Di ve Do 18:30-20:00 arası akşam kursu",
-      "19": "Berg-Hotel Aktiv & Relax: Dağlarda/Alpen, büyük bir SPA/wellness ve kapalı havuz barındırıyor, günlük Yoga sunuyor",
-      "20": "Dänisch am Wochenende: A1 başlangıç seviyesi, Cumartesi öğleden sonra 14:00-17:00 arası erken saatte kurs"
+      "12": "Der Renovierungsservice in Anzeige b bietet Wandverputzen und Lampenmontage an, arbeitet aber nur unter der Woche (\"Montag bis Freitag\"). Die Person in Situation 12 sucht jedoch Hilfe am Wochenende, weshalb diese Anzeige nicht passt. Die Antwort ist X.",
+      "13": "Agentur KreativDesign: geeignet für Schüler/Jugendliche, zweiwöchiges Ferienpraktikum, Grafikdesign/App-UI-Design",
+      "14": "Fahrrad-Akademie: Reparatur/Wartung/Gangschaltung an Rennrädern, Wochenendkurs für Anfänger",
+      "15": "Senioren-Hilfe Berlin e.V.: ehrenamtlich/unbezahlt, Vorlesen/Besuche bei Senioren im Pflegeheim, am Wochenende möglich",
+      "16": "Kleintier-Betreuung: Schildkrötenbetreuung zu Hause, tägliche Fütterung und Kontrolle",
+      "17": "Restaurant Schnitzelparadies: traditionelle deutsche Küche, Rinderrouladen/Schweinebraten, Sonntagmittag geöffnet, ideal für Familien",
+      "18": "Geschäftskorrespondenz: passend für Niveau B1, Schwerpunkt schriftliche Kundenbeschwerden/deeskalierende E-Mails, Dienstag und Donnerstag 18:30-20:00 Uhr (Abendkurs)",
+      "19": "Berg-Hotel Aktiv & Relax: in den Bergen/Alpen, mit großem Wellnessbereich und Innenpool, täglichem Yoga",
+      "20": "Dänisch am Wochenende: Anfängerniveau A1, samstags am Nachmittag 14:00-17:00 Uhr"
     }
   },
   {
@@ -2423,15 +2423,15 @@ const LESEVERSTEHEN_TEIL_3_DATA_B1 = [
     },
     "explanations": {
       "11": "Chili & Lemongrass: Thailändisch, scharfe Suppen/Pad Thai, in Bahnhofsnähe, Samstagabend geöffnet",
-      "12": "İlan b'deki yenileme servisi duvar boyama ve cihaz bağlantısı sunsa da çalışma günleri sadece hafta içidir (\"Montag bis Freitag\"). Durum 12'deki kişi ise hafta sonu (\"am Wochenende\") yardım aradığı için bu ilan uygun değildir. Cevap X'tir.",
-      "13": "Agentur KreativHochzeit: Lise öğrencileri/gençler için uygun, 2 haftalık tatil stajı, Eventmanagement/Hochzeitsplanung",
-      "14": "Fahrrad-Akademie: Mountainbike tamiri/bakımı/vites ayarı, Anfänger için uygun hafta sonu kursu",
-      "15": "Berliner Tafel e.V.: Ehrenamtlich/unbezahlt, Suppenküche/evsizler için yemek dağıtımı, Cumartesi-Pazar hafta sonu uygun",
-      "16": "Kleintier-Betreuung: Evde kaplumbağa bakımı, günlük yemleme ve su değişimi",
-      "17": "Restaurant Schnitzelparadies: Traditionelle deutsche Küche, Sauerbraten/Kalbsschnitzel, Sonntagmittag geöffnet, ideal für Familien",
-      "18": "Telefontraining: B1 seviyesine uygun, telefon desteği ve deeskalierende/kriz yönetimi odaklı, Di ve Do 18:30-20:00 arası akşam kursu",
-      "19": "See-Hotel Balance: Göl kenarında, büyük bir SPA/wellness alanı barındırıyor ve günlük Pilates kursu sunuyor",
-      "20": "Norwegisch am Wochenende: A1 başlangıç seviyesi, Cumartesi öğleden sonra 14:00-17:00 arası erken saatte kurs"
+      "12": "Der Renovierungsservice in Anzeige b bietet Wandstreichen und den Anschluss von Geräten an, arbeitet aber nur unter der Woche (\"Montag bis Freitag\"). Die Person in Situation 12 sucht jedoch Hilfe am Wochenende, weshalb diese Anzeige nicht passt. Die Antwort ist X.",
+      "13": "Agentur KreativHochzeit: geeignet für Schüler/Jugendliche, zweiwöchiges Ferienpraktikum, Eventmanagement/Hochzeitsplanung",
+      "14": "Fahrrad-Akademie: Reparatur/Wartung/Gangschaltung an Mountainbikes, Wochenendkurs für Anfänger",
+      "15": "Berliner Tafel e.V.: ehrenamtlich/unbezahlt, Suppenküche/Essensausgabe für Obdachlose, am Wochenende möglich",
+      "16": "Kleintier-Betreuung: Schildkrötenbetreuung zu Hause, tägliche Fütterung und Wasserwechsel",
+      "17": "Restaurant Schnitzelparadies: traditionelle deutsche Küche, Sauerbraten/Kalbsschnitzel, Sonntagmittag geöffnet, ideal für Familien",
+      "18": "Telefontraining: passend für Niveau B1, Schwerpunkt Telefonsupport und deeskalierendes Krisenmanagement, Dienstag und Donnerstag 18:30-20:00 Uhr (Abendkurs)",
+      "19": "See-Hotel Balance: am See, mit großem Wellnessbereich und täglichem Pilateskurs",
+      "20": "Norwegisch am Wochenende: Anfängerniveau A1, samstags am Nachmittag 14:00-17:00 Uhr"
     }
   },
   {
@@ -2516,15 +2516,15 @@ const LESEVERSTEHEN_TEIL_3_DATA_B1 = [
     },
     "explanations": {
       "11": "Kuala Lumpur: Malaysisch, scharfe Currys/Laksa-Suppen, in Bahnhofsnähe, Samstagabend geöffnet",
-      "12": "İlan b'deki yenileme servisi duvar kağıdı kaplama ve kilit değişimi sunsa da çalışma günleri sadece hafta içidir (\"Montag bis Freitag\"). Durum 12'deki kişi ise hafta sonu (\"am Wochenende\") yardım aradığı için bu ilan uygun değildir. Cevap X'tir.",
-      "13": "Fotostudio KreativBlick: Lise öğrencileri/gençler için uygun, 2 haftalık tatil stajı, Modefotografie/Bildbearbeitung",
-      "14": "Fahrrad-Akademie: Rennrad tamiri/bakımı/vites ayarı, Anfänger için uygun hafta sonu kursu",
-      "15": "Tierhilfe Berlin e.V.: Ehrenamtlich/unbezahlt, barınakta köpek gezdirme, Cumartesi-Pazar uygun",
-      "16": "Exoten-Betreuung: Evde sürüngen/kertenkele bakımı, günlük yemleme ve sistem kontrolü",
-      "17": "Restaurant Schnitzelparadies: Traditionelle deutsche Küche, Rinderrouladen/Schweinebraten, Sonntagmittag geöffnet, ideal für Familien",
-      "18": "Schriftliche Kundenkorrespondenz: B1 seviyesine uygun, yazılı müşteri yanıtları/E-Mails odaklı, Di ve Do 18:30-20:00 arası akşam kursu",
-      "19": "Berg-Hotel Kreativ & Relax: Dağlarda/Alpen, büyük bir SPA/wellness barındırıyor, günlük çömlekçilik kursu (Töpferkurs) sunuyor",
-      "20": "Finnisch am Wochenende: A1 başlangıç seviyesi, Cumartesi öğleden sonra 14:00-17:00 arası erken saatte kurs"
+      "12": "Der Renovierungsservice in Anzeige b bietet Tapezieren und den Austausch von Schlössern an, arbeitet aber nur unter der Woche (\"Montag bis Freitag\"). Die Person in Situation 12 sucht jedoch Hilfe am Wochenende, weshalb diese Anzeige nicht passt. Die Antwort ist X.",
+      "13": "Fotostudio KreativBlick: geeignet für Schüler/Jugendliche, zweiwöchiges Ferienpraktikum, Modefotografie/Bildbearbeitung",
+      "14": "Fahrrad-Akademie: Reparatur/Wartung/Gangschaltung an Rennrädern, Wochenendkurs für Anfänger",
+      "15": "Tierhilfe Berlin e.V.: ehrenamtlich/unbezahlt, Gassigehen mit Hunden im Tierheim, am Wochenende möglich",
+      "16": "Exoten-Betreuung: Betreuung von Reptilien/Echsen zu Hause, tägliche Fütterung und Systemkontrolle",
+      "17": "Restaurant Schnitzelparadies: traditionelle deutsche Küche, Rinderrouladen/Schweinebraten, Sonntagmittag geöffnet, ideal für Familien",
+      "18": "Schriftliche Kundenkorrespondenz: passend für Niveau B1, Schwerpunkt schriftliche Kundenantworten/E-Mails, Dienstag und Donnerstag 18:30-20:00 Uhr (Abendkurs)",
+      "19": "Berg-Hotel Kreativ & Relax: in den Bergen/Alpen, mit großem Wellnessbereich, täglichem Töpferkurs",
+      "20": "Finnisch am Wochenende: Anfängerniveau A1, samstags am Nachmittag 14:00-17:00 Uhr"
     }
   }
 ];
