@@ -2559,14 +2559,12 @@ function renderSitemapScreen() {
       targetNode = document.querySelector(".droplet-node.active");
     }
     if (targetNode) {
-      targetNode.scrollIntoView({ block: "center", behavior: "instant" });
+      targetNode.scrollIntoView({ block: "center", behavior: "smooth" });
     }
   };
 
-  // 300ms: animation (250ms) bittikten sonra çalıştır
+  // 300ms: screen fade-in (250ms) bittikten hemen sonra smooth scroll başlat
   setTimeout(performScroll, 300);
-  // 700ms: Rive animasyonları yüklendikten sonra tekrar çalıştır (sigorta)
-  setTimeout(performScroll, 700);
 }
 
 // LESSON DETAILS SCREEN
