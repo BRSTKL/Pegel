@@ -7,15 +7,15 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Größere Menschen bekommen oft mehr Lohn",
+      "a": "Studie: Körpergröße kann sich positiv aufs Gehalt auswirken",
       "b": "Wirbelsäulen-Operationen werden immer häufiger",
-      "c": "Viel Stress, aber Job macht froh",
-      "d": "Luxus-Burger sorgt für Diskussionen",
+      "c": "Umfrage: Berufstätige sind gestresst, aber mit ihrem Job zufrieden",
+      "d": "Ungewöhnlich hoher Preis für ein Gericht spaltet die Meinungen",
       "e": "Restaurant verzichtet komplett auf Spenden",
       "f": "Nur ausgewählte Promis durften den Burger probieren",
-      "g": "Einfache Übungen gegen Rückenschmerzen",
+      "g": "Neues Buch macht den Umgang mit Rückenbeschwerden verständlicher",
       "h": "Forscher untersuchen Zusammenhang zwischen Größe und Karriere bei Frauen",
-      "i": "Feiern nach der Arbeit liegen im Trend",
+      "i": "Geselliges Beisammensein direkt nach Feierabend wird immer beliebter",
       "j": "Homeoffice senkt laut Studie den Arbeitsstress deutlich"
     },
     "texts": [
@@ -58,12 +58,12 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
       "a": "Radfahren im Sommer verbessert laut Studie die Konzentration",
       "b": "Neue App hilft beim Finden von Fahrradwerkstätten",
       "c": "Café-Besitzer verzichtet künftig auf Bio-Lebensmittel",
-      "d": "Gemeinsames Kochen bringt Nachbarn zusammen",
+      "d": "Initiative will mit gemeinsamen Mahlzeiten die Einsamkeit in der Stadt verringern",
       "e": "Katzen im Büro reduzieren laut Forschern den Stress",
-      "f": "Kunden diskutieren über teuren Kaffee in Großstädten",
-      "g": "Fahrradfahren im Winter: Tipps für die Sicherheit",
-      "h": "Studie zeigt: Hunde am Arbeitsplatz machen glücklich",
-      "i": "Immer mehr Menschen kaufen Kleidung aus zweiter Hand",
+      "f": "Ungewöhnlich hoher Kaffeepreis in der Innenstadt löst Debatte aus",
+      "g": "Neues Heft gibt Radfahrern Ratschläge für die kalte Jahreszeit",
+      "h": "Untersuchung: Tiere im Büro wirken sich positiv aufs Arbeitsklima aus",
+      "i": "Second-Hand-Mode wird bei Verbrauchern immer gefragter",
       "j": "Kochkurse für Singles werden immer beliebter"
     },
     "texts": [
@@ -104,15 +104,15 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Krankenkasse fordert kürzere Arbeitstage für Büroangestellte",
-      "b": "Immer mehr Menschen nutzen das Fahrrad für den Arbeitsweg",
+      "b": "Pendler steigen für den täglichen Arbeitsweg immer häufiger aufs Fahrrad um",
       "c": "Neue Studie: Vegetarische Ernährung macht laut Forschern glücklicher",
-      "d": "Großes Interesse an Kursen für gesunde Ernährung",
-      "e": "Langes Sitzen im Büro gefährdet die Gesundheit",
-      "f": "Traditionelle Buchhandlungen melden steigende Umsätze",
+      "d": "Kochkurse mit Fokus auf frische, pflanzliche Küche sind ausgebucht",
+      "e": "Gesundheitsreport warnt vor den Folgen des ständigen Sitzens im Job",
+      "f": "Gedruckte Bücher erleben entgegen dem Trend ein Comeback im stationären Handel",
       "g": "Kurze Bewegungspausen verbessern die Noten von Schülern",
       "h": "Zahl der Fahrradkäufe in Großstädten geht stark zurück",
       "i": "Digitale Bücher werden bei Jugendlichen immer beliebter",
-      "j": "Experten raten zu Pausen und Bewegung am Arbeitsplatz"
+      "j": "Kurze Bewegungsphasen während der Arbeit steigern laut Forschern die Leistungsfähigkeit"
     },
     "texts": [
       {
@@ -154,12 +154,12 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
       "a": "Bahntickets werden für Familien immer teurer",
       "b": "Ältere Menschen nutzen kaum noch moderne Smartphones",
       "c": "Reisen mit dem Zug schont die Umwelt und spart Geld",
-      "d": "Neues Gesetz: Höhere Strafen für Müll in der Natur",
-      "e": "Immer mehr Senioren entdecken soziale Medien für sich",
-      "f": "Flugreisen sind trotz Klimadebatte weiterhin sehr beliebt",
+      "d": "Wegwerfen von Abfall in Grünanlagen wird künftig deutlich teurer bestraft",
+      "e": "Studie überrascht: Digitale Medien sind für viele Senioren fester Alltagsbestandteil",
+      "f": "Trotz Klimadiskussion erreichen deutsche Flughäfen einen neuen Passagierrekord",
       "g": "Kurzstreckenflüge führen zu weniger Verkehr in den Städten",
-      "h": "Studie zeigt: Jugendliche lesen wieder mehr gedruckte Zeitungen",
-      "i": "Interesse an Urlaub im eigenen Land wächst stark",
+      "h": "Jugendliche informieren sich fast ausschließlich über soziale Medien statt über Zeitungen",
+      "i": "Deutsche verzichten beim Sommerurlaub zunehmend auf Fernreisen",
       "j": "Höhere Bußgelder gelten künftig auch für Plastikmüll im Meer"
     },
     "texts": [
@@ -201,14 +201,14 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "headings": {
       "a": "Immer mehr Möbelhäuser bieten kostenlose Lieferung an",
       "b": "Neue Studie: Kaffee ist gesünder als bisher gedacht",
-      "c": "Steigende Kosten für Strom und Gas belasten Familien",
-      "d": "Traditionelle Handwerksberufe finden keine Azubis mehr",
+      "c": "Bericht warnt vor höheren Energiepreisen, besonders für einkommensschwache Haushalte",
+      "d": "Handwerksbetriebe können offene Ausbildungsplätze trotz guter Bedingungen kaum besetzen",
       "e": "Online-Kurse für Fitness boomen während der Urlaubszeit",
       "f": "Verbraucher sparen Geld durch den Kauf von gebrauchten Möbeln",
       "g": "Senioren meiden Online-Shops vor allem wegen der Versandkosten",
-      "h": "Ältere Menschen meiden zunehmend das Einkaufen im Internet",
-      "i": "Große Mehrheit der Deutschen kauft Möbel lieber im Geschäft",
-      "j": "Neue Technologie reduziert den Energieverbrauch in Haushalten"
+      "h": "Untersuchung: Digitale Bestellungen sind bei der älteren Generation rückläufig",
+      "i": "Beim Möbelkauf setzen die meisten Deutschen weiterhin auf den Besuch vor Ort",
+      "j": "Intelligentes System hilft Haushalten dabei, Heizkosten spürbar zu senken"
     },
     "texts": [
       {
@@ -247,13 +247,13 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Immer mehr Deutsche machen Urlaub auf dem Campingplatz",
-      "b": "Neue Verordnung: Hunde müssen in Parks an die Leine",
-      "c": "Höhere Gebühren für das Parken in Innenstädten geplant",
-      "d": "Studie zeigt: Haustiere verbessern das Wohlbefinden im Alter",
+      "a": "Naturnaher Urlaub am eigenen Zelt gewinnt gegenüber Hotelaufenthalten an Beliebtheit",
+      "b": "Berlin schränkt die Bewegungsfreiheit von Hunden in Grünanlagen künftig ein",
+      "c": "Stadt will Parkkosten im Zentrum drastisch anheben, um Verkehr zu verringern",
+      "d": "Senioren mit Haustier zeigen laut Untersuchung eine höhere Lebenszufriedenheit",
       "e": "Traditionelle Wochenmärkte verlieren immer mehr Kunden",
       "f": "Campingurlaub wird wegen neuer Gebühren deutlich teurer",
-      "g": "Frische Lebensmittel: Junge Leute kaufen wieder mehr auf Märkten",
+      "g": "Jüngere Konsumenten entdecken den direkten Einkauf beim Erzeuger neu",
       "h": "Zahl der Parkverstöße in Innenstädten nimmt stark zu",
       "i": "Online-Lebensmittelhandel boomt vor allem bei Familien",
       "j": "Hundebesitzer fordern Abschaffung der Leinenpflicht in Parks"
@@ -296,14 +296,14 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Apps für Gehirntraining wirken laut Studie kaum besser als Musizieren",
-      "b": "Neue Verordnung: Verbot von Plastiktüten auf Wochenmärkten",
-      "c": "Studie zeigt: Regelmäßiges Musizieren hält das Gehirn im Alter fit",
+      "b": "Ab nächstem Monat ist die Ausgabe von Plastiktüten auf Märkten gesetzlich verboten",
+      "c": "Wer im Alter ein Instrument spielt, zeigt laut Studie bessere geistige Leistungen",
       "d": "Preise für E-Bikes im Internet stark gestiegen",
       "e": "Fahrrad-Verleihsysteme in Großstädten werden immer seltener genutzt",
       "f": "Vereinssport stärkt laut Sportbund vor allem den Teamgeist im Beruf",
-      "g": "Traditionelle Sportvereine melden sinkende Mitgliederzahlen bei Kindern",
-      "h": "Immer mehr Pendler steigen für den Arbeitsweg auf das E-Bike um",
-      "i": "Online-Sprachkurse boomen vor allem bei älteren Menschen",
+      "g": "Sportvereine haben zunehmend Schwierigkeiten, Kinder und Jugendliche als Mitglieder zu gewinnen",
+      "h": "Elektrofahrräder lösen für viele Berufstätige zunehmend das Auto ab",
+      "i": "Immer mehr Senioren lernen mit digitalen Angeboten eine neue Fremdsprache",
       "j": "Neue Technologie: Smartphones warnen Radfahrer vor Unfällen"
     },
     "texts": [
@@ -346,12 +346,12 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
       "a": "Neue Studie: Regelmäßige Saunagänge senken das Krankheitsrisiko",
       "b": "Immer mehr junge Leute machen eine Ausbildung im Handwerk",
       "c": "Preise für Eintritt in digitale Ausstellungen stark gesunken",
-      "d": "Studie zeigt: Gartenarbeit reduziert Stress und macht glücklich",
-      "e": "Klassische Museen verlieren immer mehr Besucher an digitale Ausstellungen",
-      "f": "Höhere Gebühren für die Müllentsorgung in Großstädten geplant",
-      "g": "Großes Interesse an Kursen für den eigenen Gemüseanbau",
+      "d": "Wer regelmäßig im Garten aktiv ist, hat laut Untersuchung einen niedrigeren Stresspegel",
+      "e": "Digitale Kunstangebote im Internet setzen traditionellen Ausstellungshäusern zu",
+      "f": "Kommunen wollen die Kosten für Restmüll und Biotonnen im kommenden Jahr erhöhen",
+      "g": "Volkshochschulkurse zum Anbau von Obst und Gemüse sind restlos ausgebucht",
       "h": "Zahl der Museumsbesucher unter 30 Jahren steigt deutlich an",
-      "i": "Online-Plattformen für gebrauchte Bücher boomen bei Studenten",
+      "i": "Studierende decken sich zum Sparen zunehmend mit gebrauchter Fachliteratur ein",
       "j": "Experten raten: Wer im Garten arbeitet, sollte auf Kaffee verzichten"
     },
     "texts": [
@@ -391,15 +391,15 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Neue Verordnung: Rauchverbot auf allen Spielplätzen geplant",
-      "b": "Immer mehr Menschen nutzen Apps für das Ausleihen von Werkzeugen",
-      "c": "Studie zeigt: Regelmäßiges Sprachenlernen schützt das Gedächtnis",
+      "a": "Rauchen in der Nähe von Kindern wird ab sofort mit Bußgeldern geahndet",
+      "b": "Verleihportale für Werkzeug erheben ab sofort höhere Nutzungsgebühren",
+      "c": "Wer im Alter eine neue Sprache lernt, verbessert laut Studie sein Erinnerungsvermögen",
       "d": "Preise für Reparaturen von Fahrrädern in Großstädten gestiegen",
-      "e": "Traditionelle Reparaturwerkstätten finden keine neuen Mitarbeiter",
+      "e": "Fahrrad- und Motorradwerkstätten können offene Stellen für Mechaniker kaum besetzen",
       "f": "Gemeinsames Fremdsprachenlernen am Arbeitsplatz verbessert das Betriebsklima",
-      "g": "Zahl der Autokäufe bei jungen Menschen geht deutlich zurück",
+      "g": "Immer mehr junge Menschen verzichten bewusst auf ein eigenes Auto",
       "h": "Junge Menschen nutzen Smartphones immer häufiger für Bankgeschäfte",
-      "i": "Online-Plattformen für das Teilen von Werkzeugen werden immer beliebter",
+      "i": "Nachbarn leihen sich Werkzeug zunehmend über spezielle Webseiten statt es neu zu kaufen",
       "j": "Experten raten: Tägliches Rauchverbot schützt Kinder vor Krankheiten"
     },
     "texts": [
@@ -441,14 +441,14 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "headings": {
       "a": "Neue Studie: Padel-Tennis verbessert vor allem den Schlaf von Senioren",
       "b": "Immer mehr Menschen nutzen Apps für die Reparatur von Kleidung",
-      "c": "Höhere Eintrittspreise für Schwimmbäder in Großstädten geplant",
-      "d": "Studie zeigt: Regelmäßiges Padel-Tennis hält im Alltag fit",
+      "c": "Schwimmbäder müssen wegen gestiegener Betriebskosten die Eintrittspreise erhöhen",
+      "d": "Wer regelmäßig Padel-Tennis spielt, ist laut Untersuchung deutlich fitter",
       "e": "Traditionelle Kaffeeröstereien verzeichnen sinkende Umsätze",
       "f": "Spätes Koffein am Abend verbessert laut Studie den Schlaf",
       "g": "Eintrittspreise für Schwimmbäder sinken erstmals seit Jahren",
-      "h": "Ältere Menschen nutzen das Internet seltener für Bankgeschäfte",
-      "i": "Online-Plattformen für das Mieten von Sportgeräten boomen",
-      "j": "Experten raten: Kaffeekonsum am Nachmittag verschlechtert den Schlaf"
+      "h": "Entgegen den Erwartungen nutzen viele über 70-Jährige regelmäßig Online-Banking",
+      "i": "Sportausrüstung wird immer häufiger gemietet statt neu gekauft",
+      "j": "Kaffee am späten Nachmittag verzögert laut Studie das Einschlafen am Abend"
     },
     "texts": [
       {
@@ -487,15 +487,15 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Neue Verordnung: Grillen in öffentlichen Parks komplett verboten",
-      "b": "Immer mehr Menschen nutzen Apps für das Teilen von Autos",
-      "c": "Studie zeigt: Regelmäßiger Museumsbesuch reduziert den Alltagsstress",
+      "a": "Offenes Feuer und Grillen auf städtischen Grünflächen sind ab sofort untersagt",
+      "b": "Carsharing-Anbieter kündigen für das kommende Jahr höhere Mietpreise an",
+      "c": "Kulturelle Aktivitäten wie Museumsbesuche senken laut Studie den Stresspegel von Berufstätigen",
       "d": "Preise für Carsharing-Angebote in Großstädten stark gesunken",
       "e": "Traditionelle Handwerksbetriebe finden wieder mehr junge Auszubildende",
-      "f": "Gemeinsames Gärtnern in der Stadt bringt verschiedene Generationen zusammen",
+      "f": "Gemeinschaftsgarten in Kreuzberg fördert den Austausch zwischen Jung und Alt",
       "g": "Zahl der Museumsbesucher bei jungen Menschen nimmt deutlich zu",
-      "h": "Ältere Menschen nutzen das Smartphone immer häufiger für Videotelefonie",
-      "i": "Online-Plattformen für das Teilen von Autos verzeichnen neue Rekorde",
+      "h": "Videotelefonie wird für Senioren zum wichtigen Kontaktmittel zur Familie",
+      "i": "Carsharing-Anbieter melden für das vergangene Quartal so viele Nutzer wie nie zuvor",
       "j": "Experten raten: Gemeinsames Gärtnern schützt vor Konzentrationsschwächen"
     },
     "texts": [
@@ -536,15 +536,15 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Neue Verordnung: Rauchverbot in allen öffentlichen Parkanlagen",
-      "b": "Immer mehr Menschen nutzen Apps für das Ausleihen von Spielzeug",
-      "c": "Studie zeigt: Regelmäßiger Waldspaziergang senkt den Blutdruck",
+      "b": "Second-Hand-Spielzeugläden verzeichnen sinkende Kundenzahlen",
+      "c": "Zeit in der Natur wirkt sich laut Studie positiv auf den Blutdruck aus",
       "d": "Preise für Mietspielzeug in Großstädten stark gestiegen",
       "e": "Chöre für Senioren verzeichnen wieder mehr Bewerber",
-      "f": "Gemeinsames Singen im Chor stärkt das Immunsystem von Senioren",
-      "g": "Zahl der Kinobesucher bei Teenagern nimmt drastisch ab",
-      "h": "Ältere Menschen nutzen das Internet immer häufiger für Reisebuchungen",
-      "i": "Online-Plattformen für das Teilen von Spielzeug werden immer beliebter",
-      "j": "Experten raten: Gemeinsames Singen schützt vor Infekten der Atemwege"
+      "f": "Wöchentliches Chorsingen stärkt laut Untersuchung die Abwehrkräfte älterer Menschen",
+      "g": "Jugendliche gehen laut Studie immer seltener ins Kino",
+      "h": "Senioren planen ihre Reisen laut Report entgegen den Erwartungen zunehmend selbst im Internet",
+      "i": "Familien leihen Kinderspielzeug zunehmend übers Internet, statt es neu zu kaufen",
+      "j": "Chorsingen ist bei jungen Erwachsenen beliebter als bei Senioren"
     },
     "texts": [
       {
@@ -1564,12 +1564,12 @@ const LESEVERSTEHEN_TEIL_3_DATA_B1 = [
         "body": "Keine Angst vor der Technik! Wir zeigen älteren Menschen Schritt für Schritt, wie sie ihr Smartphone für WhatsApp, Fotos und Internet nutzen. Keine Vorkenntnisse erforderlich. Geduldiges Lernen in kleinen Gruppen.\nKurszeiten: Mo. und Mi. jeweils von 10:00 bis 11:30 Uhr.\nAnmeldung im Stadtteilzentrum, Tel. 0221-55 66 77."
       },
       "k": {
-        "title": "Hotel AlpenSPA",
-        "body": "Wellness und Entspannung in den Bergen für Paare. Großzügiger Sauna- und Poolbereich, Massageangebote, Yoga am Morgen. Ruhige Lage am Waldrand.\nWochenend-Paket: 2 Übernachtungen inklusive Halbpension.\nBuchung unter Tel. 08321-77 44 0."
+        "title": "Deutschkurs Alltag – ProSprachen",
+        "body": "Deutschkurs A1 für internationale Berufstätige. Lernen Sie die Grundlagen der deutschen Sprache für Alltag und Beruf in entspannter Atmosphäre.\nKursdauer: 10 Wochen, jeden Montag und Mittwoch 18:00–19:30 Uhr.\nAnmeldung online: www.prosprachen-schule.de."
       },
       "l": {
-        "title": "Restaurant Schnitzelparadies",
-        "body": "Traditionelle deutsche Küche in gemütlicher Atmosphäre. Große Auswahl an Schnitzeln, Steaks und frischen Salaten. Ideal für Familienfeiern am Sonntag.\nGeöffnet täglich ab 17:00 Uhr. Mittwochs Ruhetag.\nReservierung erbeten: Tel. 0711-33 44 55."
+        "title": "Rücken-Praxis Sonnenschein",
+        "body": "Ihre Praxis für Rücken- und Nackenschmerzen, Sportverletzungen und Rehabilitation. Individuelle Betreuung durch erfahrene Therapeuten.\nSprechzeiten: Mo.–Fr. 9:00–18:00 Uhr. Alle Krankenkassen und Privatpatienten.\nTerminvereinbarung: Tel. 069-33 22 11."
       }
     },
     "answers": {
@@ -1657,12 +1657,12 @@ const LESEVERSTEHEN_TEIL_3_DATA_B1 = [
         "body": "Zweiwöchiger Aufenthalt für Kinder von 8 bis 14 Jahren in den Sommerferien. Erleben Sie den Alltag auf einem echten Bauernhof: Fütterung der Tiere, Reiten, Traktor fahren und gemeinsame Spiele in der Natur.\nPreis inklusive Vollpension: www.ferienhof-sonnenblume.de."
       },
       "k": {
-        "title": "Restaurant Schnitzelparadies",
-        "body": "Traditionelle deutsche Küche in gemütlicher Atmosphäre. Große Auswahl an Schnitzeln, Steaks und frischen Salaten. Ideal für Familienfeiern am Sonntag.\nGeöffnet täglich ab 17:00 Uhr. Mittwochs Ruhetag.\nReservierung erbeten: Tel. 0711-33 44 55."
+        "title": "Fischerhütte Nordsee",
+        "body": "Frischer Fisch und Meeresfrüchte direkt vom Kutter – bei uns schmecken Sie das Meer! Rustikales Ambiente mit Blick auf den Hafen.\nGeöffnet: Mo.–Fr. 17:00–22:00 Uhr, Sa. und So. Ruhetag.\nHafenstraße 8, Tel. 040-22 33 44."
       },
       "l": {
-        "title": "Fotostudio Lichtblick",
-        "body": "Professionelle Fotografie für jeden Anlass! Wir machen Hochzeitsfotos, Familienporträts und Bewerbungsbilder in unserem modernen Studio oder direkt an Ihrer Event-Location.\nTermine online buchen: www.fotostudio-lichtblick.de."
+        "title": "Pizzeria Napoli Express",
+        "body": "Original neapolitanische Pizza und hausgemachte Pasta zum Mitnehmen oder vor Ort genießen. Perfekt für ein schnelles Essen unter der Woche.\nGeöffnet: Mo.–Do. 11:00–21:00 Uhr, Fr.–So. geschlossen (Betriebsferien).\nBahnhofstraße 5, Tel. 0221-99 88 77."
       }
     },
     "answers": {
@@ -1847,8 +1847,8 @@ const LESEVERSTEHEN_TEIL_3_DATA_B1 = [
         "body": "Wir bieten Studentinnen und Studenten der Medienwissenschaften ein dreimonatiges, unvergütetes Pflichtpraktikum im Bereich Online-Redaktion und Social Media an.\nBeginn: flexibel im Sommer. Bewerbung an: jobs@medienhaus-berlin.de."
       },
       "l": {
-        "title": "Restaurant Schnitzelparadies",
-        "body": "Traditionelle deutsche Küche in gemütlicher Atmosphäre. Große Auswahl an Schnitzeln, Steaks und frischen Salaten. Ideal für Familienfeiern am Sonntagmittag.\nGeöffnet täglich ab 11:30 Uhr. Mittwochs Ruhetag.\nReservierung erbeten: Tel. 0711-33 44 55."
+        "title": "Cantina Fiesta – Tex-Mex Küche",
+        "body": "Genießen Sie scharfe Tacos, Burritos und Nachos in gemütlicher Atmosphäre am Stadtrand. Live-Musik jeden Freitag.\nÖffnungszeiten: So.–Do. 17:00–22:00 Uhr, Fr. und Sa. geschlossen (Ruhetag).\nGartenstraße 22, Tel. 030-77 66 55."
       }
     },
     "answers": {
@@ -1940,8 +1940,8 @@ const LESEVERSTEHEN_TEIL_3_DATA_B1 = [
         "body": "Wir bieten Studentinnen und Studenten der Modewissenschaften ein dreimonatiges, unvergütetes Pflichtpraktikum im Bereich Online-Marketing und Produktmanagement für die Wintersaison an.\nBeginn: flexibel im Spätsommer. Bewerbung an: jobs@textildesign-berlin.de."
       },
       "l": {
-        "title": "Restaurant Schnitzelparadies",
-        "body": "Traditionelle deutsche Küche in gemütlicher Atmosphäre. Große Auswahl an Schnitzeln, Steaks und frischen Salaten. Ideal für Familienfeiern am Sonntagmittag.\nGeöffnet täglich ab 11:30 Uhr. Mittwochs Ruhetag.\nReservierung erbeten: Tel. 0711-33 44 55."
+        "title": "Thai Silk – Asiatische Spezialitäten",
+        "body": "Genießen Sie authentische thailändische Currys und pikante Suppen bei uns! Gemütliches Ambiente am Stadtrand, ideal zum Entspannen nach der Arbeit.\nÖffnungszeiten: Mi.–So. 17:00–22:00 Uhr, Montag und Dienstag Ruhetag.\nWaldweg 14, Tel. 040-55 66 77."
       }
     },
     "answers": {
