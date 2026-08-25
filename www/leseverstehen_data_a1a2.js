@@ -9,7 +9,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "headings": {
       "a": "Hunde helfen Kindern beim Lesen lernen",
       "b": "Zu viel Zucker macht Kinder unruhig",
-      "c": "Immer mehr Menschen kaufen gebrauchte Kleidung",
+      "c": "Kleidung aus zweiter Hand wird immer beliebter",
       "d": "Schule beginnt jetzt später am Morgen",
       "e": "Neue App hilft beim Sprachenlernen",
       "f": "Stadt baut mehr Fahrradwege",
@@ -64,14 +64,14 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "headings": {
       "a": "Roboter übernehmen Jobs in Fabriken",
       "b": "Immer mehr Touristen besuchen kleine Dörfer",
-      "c": "Neues Gesetz: Plastiktüten verboten",
+      "c": "Kostenlose Plastiktüten sind jetzt verboten",
       "d": "Alte Menschen fühlen sich in Städten einsamer",
       "e": "Schüler lernen Kochen in der Schule",
       "f": "Weniger Autos in der Innenstadt geplant",
       "g": "Bibliotheken werden zu Treffpunkten",
-      "h": "Kinder und Jugendliche schlafen zu wenig",
+      "h": "Kinder und Jugendliche brauchen mehr Schlaf",
       "i": "Neue Studie: Sport im Alter sehr wichtig",
-      "j": "Immer mehr Menschen essen vegetarisch"
+      "j": "Vegetarisches Essen wird immer beliebter"
     },
     "texts": [
       {
@@ -118,15 +118,15 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Haustiere helfen gegen Einsamkeit",
-      "b": "Gemeinsames Kochen verbindet Menschen",
+      "b": "Zusammen kochen macht neue Freunde",
       "c": "Online-Unterricht ersetzt Schule nicht",
       "d": "Mehr Frauen in Führungspositionen",
-      "e": "Neue Regeln für E-Scooter in der Stadt",
+      "e": "E-Scooter-Fahrer brauchen jetzt einen Helm",
       "f": "Weniger Bienen: Problem für die Landwirtschaft",
       "g": "Kaffee ist gesünder als gedacht",
       "h": "Immer mehr Kinder haben Allergie",
-      "i": "Bauern verkaufen direkt an Kunden",
-      "j": "Frische Luft verbessert die Konzentration"
+      "i": "Kunden kaufen frisches Gemüse direkt beim Bauern",
+      "j": "Spielen im Freien hilft beim Lernen"
     },
     "texts": [
       {
@@ -172,14 +172,14 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Weniger Lärm in der Nacht gefordert",
-      "b": "Schüler gründen eigenes Unternehmen",
+      "a": "Nächtlicher Lärm soll härter bestraft werden",
+      "b": "Schüler haben jetzt eine eigene Firma",
       "c": "Regen schadet der Ernte",
-      "d": "Urlaub im eigenen Land liegt im Trend",
-      "e": "Neues Museum für Stadtgeschichte eröffnet",
+      "d": "Urlaub in der Heimat wird immer beliebter",
+      "e": "Ein Museum zeigt, wie die Stadt früher war",
       "f": "Kinder brauchen mehr Pausen in der Schule",
       "g": "Tierärzte warnen vor Sommerhitze für Hunde",
-      "h": "Arbeiten von zu Hause bleibt beliebt",
+      "h": "Heimarbeit bleibt sehr beliebt",
       "i": "Ältere Arbeitnehmer gesucht",
       "j": "Weniger Papier im Büro dank Digitalisierung"
     },
@@ -229,11 +229,11 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "headings": {
       "a": "Tanzen hält Senioren fit",
       "b": "Zu viel Bildschirmzeit schadet den Augen",
-      "c": "Neues Café bietet Arbeit für Menschen mit Behinderung",
-      "d": "Gemeindegärten werden immer beliebter",
+      "c": "In diesem Café arbeiten auch Menschen mit Behinderung",
+      "d": "Nachbarn gärtnern jetzt gemeinsam",
       "e": "Weniger Fleisch, mehr Gesundheit",
       "f": "Tierpark erhält seltene Tiere aus Australien",
-      "g": "Jugendliche engagieren sich mehr ehrenamtlich",
+      "g": "Junge Menschen helfen heute öfter freiwillig",
       "h": "Weniger Wasser verbrauchen: Tipps für den Alltag",
       "i": "Immer mehr Menschen wohnen allein",
       "j": "Lesen fördert Empathie, sagen Forscher"
@@ -284,14 +284,14 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "headings": {
       "a": "Neue Technik macht Brillen günstiger",
       "b": "Schulen testen kürzere Unterrichtstage",
-      "c": "Immer mehr Senioren nutzen Smartphones",
+      "c": "Handys sind auch bei älteren Menschen beliebt",
       "d": "Flüsse in Deutschland werden wärmer",
-      "e": "Kostenlose Sprachkurse für Geflüchtete",
+      "e": "Flüchtlinge lernen gratis Deutsch",
       "f": "Frühstück gilt als wichtigste Mahlzeit",
       "g": "Weniger Kinder in deutschen Schulen",
       "h": "Stadtpark wird zum Freiluftkonzert",
-      "i": "Mehr Bio-Produkte in Kantinen",
-      "j": "Hitzewelle: Städte pflanzen mehr Bäume"
+      "i": "In Kantinen gibt es jetzt öfter Bio-Essen",
+      "j": "Städte setzen auf mehr Grün gegen die Hitze"
     },
     "texts": [
       {
@@ -338,12 +338,12 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Mehr Frauen werden Handwerkerinnen",
-      "b": "Kleine Geschäfte kämpfen ums Überleben",
-      "c": "Neues Angebot: Bücher per Post leihen",
-      "d": "Sport im Freien macht glücklicher",
+      "b": "Kleine Geschäfte bekommen staatliche Hilfe",
+      "c": "Eine Bibliothek bringt Bücher direkt nach Hause",
+      "d": "Sport draußen macht gute Laune",
       "e": "Städte planen mehr Spielplätze",
       "f": "Tiere im Zoo bekommen neue Gehege",
-      "g": "Weniger Fleisch auf Schulspeiseplänen",
+      "g": "Schulen bieten öfter vegetarisches Essen an",
       "h": "Online-Shopping verdrängt lokale Läden",
       "i": "Musik verbessert die Stimmung",
       "j": "Forscher entdecken neuen Schlaftyp"
@@ -393,15 +393,15 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Neue Brücke verbindet zwei Stadtteile",
-      "b": "Mehr Menschen fahren mit der Bahn",
+      "b": "Die Bahn hat so viele Fahrgäste wie nie",
       "c": "Kindergärten suchen dringend Personal",
       "d": "Weniger Müll durch Pfandsystem",
       "e": "Sportvereine verlieren Mitglieder",
       "f": "Stadtfest lockt Tausende Besucher",
       "g": "Forscher testen essbare Verpackungen",
-      "h": "Schulbücher werden digital",
+      "h": "Tablets ersetzen das schwere Schulbuch",
       "i": "Fahrpreise steigen: Autofahrer wechseln zur Bahn",
-      "j": "Alte Fabrik wird zum Kulturzentrum"
+      "j": "In Leipzig entsteht ein Ort für Kunst und Musik"
     },
     "texts": [
       {
@@ -453,9 +453,9 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       "d": "Wandern liegt wieder im Trend",
       "e": "Strom aus Solaranlagen wird billiger",
       "f": "Immer mehr Pflegeheime suchen Fachkräfte",
-      "g": "Schüler bauen eigene Roboter",
+      "g": "Schüler basteln kleine Maschinen",
       "h": "Tiere im Winter: Tipps für Gartenbesitzer",
-      "i": "Kostenlose Sportkurse in der Stadt",
+      "i": "Die Stadt bezahlt Sportkurse für alle",
       "j": "Gemeinsam statt einsam: WG für Senioren"
     },
     "texts": [
@@ -503,14 +503,14 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Neue Wohnungen für wenig Geld gebaut",
-      "b": "Tierheim sucht Freiwillige",
+      "b": "Im Tierheim werden helfende Hände gebraucht",
       "c": "Immer mehr Kinder lernen ein Instrument",
-      "d": "Urlaub auf dem Bauernhof wird beliebter",
-      "e": "Supermarkt ohne Plastikverpackungen eröffnet",
+      "d": "Familien verbringen den Sommer auf dem Land",
+      "e": "Ein Laden in Freiburg verzichtet komplett auf Plastik",
       "f": "Reisen mit dem Zug wächst in Europa",
-      "g": "Mehr Sicherheit auf Schulwegen gefordert",
+      "g": "Eltern wollen sichere Schulwege für ihre Kinder",
       "h": "Stadtbibliothek feiert hundertsten Geburtstag",
-      "i": "Kinder und Bildschirme: Experten geben Tipps",
+      "i": "Nicht zu viel Handy für Kinder",
       "j": "Weniger Werbung, mehr Qualität im Radio"
     },
     "texts": [
@@ -557,16 +557,16 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Neue Technik erkennt Krankheiten früher",
+      "a": "Computer helfen Ärzten bei der Diagnose",
       "b": "Jugendliche verbringen mehr Zeit in der Natur",
       "c": "Parkgebühren in der Innenstadt steigen",
       "d": "Stadtteile bekommen mehr Grünflächen",
       "e": "Kochen ohne Fleisch: Kochkurs für Anfänger",
-      "f": "Kunstprojekt verschönert graue Hauswände",
-      "g": "Weniger Unfälle durch neue Ampeltechnik",
+      "f": "Künstler bemalen langweilige Wände bunt",
+      "g": "Kluge Ampeln machen die Straßen sicherer",
       "h": "Katzen sind beliebter als Hunde in Deutschland",
       "i": "Bürger gestalten ihren Stadtteil selbst",
-      "j": "Mehr Grün für die Stadt: Dächer bepflanzen"
+      "j": "Blumen und Gras wachsen jetzt auf dem Dach"
     },
     "texts": [
       {
@@ -614,11 +614,11 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "headings": {
       "a": "Neue Rekordhitze in Europa erwartet",
       "b": "Schule auf dem Schiff: Lernen auf dem Wasser",
-      "c": "Backen zu Hause liegt im Trend",
-      "d": "Elektroautos werden erschwinglicher",
+      "c": "Immer mehr Menschen backen ihr Brot selbst",
+      "d": "Ein E-Auto kostet oft nur noch 20.000 Euro",
       "e": "Mehr Lernzeit durch kürzere Ferien",
       "f": "Freiwillige bauen Häuser für Bedürftige",
-      "g": "Weniger Stress durch kurze Pausen bei der Arbeit",
+      "g": "Kleine Pausen tun gut im Job",
       "h": "Neue Studie: Humor macht gesünder",
       "i": "Stadtgespräch: Fußgängerzonen sollen wachsen",
       "j": "Erste-Hilfe-Kurs jetzt Pflicht in Schulen"
@@ -1665,7 +1665,7 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "answers": {
       "11": "a",
       "12": "x",
-      "13": "a",
+      "13": "x",
       "14": "x",
       "15": "c",
       "16": "d",
@@ -1677,7 +1677,7 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "explanations": {
       "11": "Çalışmak/öğrenmek için sakin kafe, WLAN, yiyecek → \"Freies WLAN\", \"Ideal zum Lernen\", yemek menüsü var. ✓",
       "12": "Eski televizyonu online satmak istiyor → İlanlarda online satış platformu yok. x ✓",
-      "13": "8 kişilik aile kutlaması, restoran → \"Reservierung für Gruppen ab 6 Personen\" → 8 kişi uygun. Not: Resmi restoran değil kafe; ama tek uygun seçenek bu. ► Daha uygun bir restoran ilanı olmadığından (a) seçilir. ✓",
+      "13": "8 kişilik resmi aile kutlaması için restoran aranıyor → İlanlardaki tek seçenek (a) bir kafe, resmi bir restoran değil; bu nedenle uygun bir ilan yok. x ✓",
       "14": "Garson işi arıyor, gastronomi deneyimi var → İlanlarda iş ilanı yok. x ✓",
       "15": "8 yaşında çocuk, yüzme kursu → \"Kinder ab 5 Jahren\", Dienstag/Donnerstag veya Samstag. ✓",
       "16": "Cuma akşamı bowling → \"Freitag: 13:00–01:00 Uhr\" açık. ✓",
@@ -1824,11 +1824,10 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
-      "3": "Kinder) in einen Freizeitpark gehen.",
       "11": "Ihr Sohn (14 Jahre) möchte in den Ferien kochen lernen. Er ist Anfänger und hat tagsüber Zeit.",
       "12": "Sie suchen eine ruhige Wohnung zur Miete in der Stadt. Sie haben ein Budget von maximal 700 € warm pro Monat.",
       "13": "Ihre Freundin hat Angst vor dem Fliegen und sucht einen Kurs, der ihr dabei hilft.",
-      "14": "Sie möchten am Samstag mit Ihrer Familie (2 Erwachsene,",
+      "14": "Sie möchten am Samstag mit Ihrer Familie (2 Erwachsene, 3 Kinder) in einen Freizeitpark gehen.",
       "15": "Ihr Bruder sucht ein gebrauchtes Laptop für die Schule. Er hat maximal 200 Euro zur Verfügung.",
       "16": "Sie möchten Ihre Deutschkenntnisse verbessern. Sie sprechen schon gut Deutsch (B1) und haben abends Zeit.",
       "17": "Ihre Kollegin sucht einen Masseur oder ein Wellness-Studio für eine Entspannungsmassage.",
@@ -1955,9 +1954,8 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
-      "2": "Zimmer und darf maximal 800 € warm zahlen. Er hat einen kleinen Hund.",
       "11": "Sie möchten mit Ihrer Familie (2 Erwachsene, 2 Kinder) am Sonntag einen Ausflug machen. Die Kinder mögen Tiere und die Natur.",
-      "12": "Ihr Freund sucht eine Wohnung zur Miete. Er braucht",
+      "12": "Ihr Freund sucht eine Wohnung zur Miete. Er braucht eine 2-Zimmer-Wohnung und darf maximal 800 € warm zahlen. Er hat einen kleinen Hund.",
       "13": "Ihre Mutter möchte Aquarellmalerei lernen. Sie hat donnerstags nachmittags Zeit.",
       "14": "Sie suchen einen Arzt für Ihren Sohn (8 Jahre). Er hat Bauchschmerzen seit zwei Tagen.",
       "15": "Ihr Bruder möchte in seiner Freizeit Motorrad fahren lernen. Er braucht den Motorradführerschein.",

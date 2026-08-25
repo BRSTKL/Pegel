@@ -10,13 +10,13 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
       "a": "Zu viel Schlaf macht ebenfalls müde",
       "b": "Kalorienzählen wird unter Jugendlichen immer unwichtiger",
       "c": "Schulen führen kostenpflichtiges Trinkwasser ein",
-      "d": "Mehr Gemüse durch kostenlose Schulkurse",
-      "e": "Ärzte warnen vor zu wenig Schlaf",
+      "d": "Schulküchen-Projekt weckt bei Kindern Lust am gesunden Kochen",
+      "e": "Mediziner fordern mehr Schlaf für Jugendliche",
       "f": "Restaurant verschenkt übrig gebliebenes Essen",
       "g": "Eltern kochen seltener gemeinsam mit ihren Kindern",
-      "h": "Lebensmittel landen viel zu oft im Müll",
-      "i": "Bewegung in der Pause hilft beim Lernen",
-      "j": "Vegetarisches Essen wird in Kantinen beliebter"
+      "h": "Initiative will die Verschwendung von genießbaren Lebensmitteln eindämmen",
+      "i": "Kurze Bewegungspausen steigern laut Schule die Aufmerksamkeit im Unterricht",
+      "j": "Fleischlose Gerichte verdrängen zunehmend Fleisch auf dem Kantinenspeiseplan"
     },
     "texts": [
       {
@@ -58,13 +58,13 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
       "a": "Kassierer werden trotz Robotern weiter gebraucht",
       "b": "Ältere Menschen lernen den Umgang mit dem Smartphone",
       "c": "Online-Shopping wird beim Einkaufen seltener genutzt",
-      "d": "Schüler entwickeln eigene Wetter-App",
+      "d": "Jugendliche programmieren eine App, die vor Unwettern warnt",
       "e": "Zu wenig Bildschirmzeit schadet der Konzentration",
-      "f": "Kostenlose Kurse für digitale Senioren",
-      "g": "Neue Software erkennt Pflanzenkrankheiten",
+      "f": "Volkshochschule bringt Senioren gratis den digitalen Alltag näher",
+      "g": "Neue Technologie hilft Landwirten, kranke Pflanzen frühzeitig zu erkennen",
       "h": "Computerspiele verschlechtern angeblich das logische Denken",
-      "i": "Internet auf dem Land oft noch zu langsam",
-      "j": "Junge Menschen schauen weniger fern"
+      "i": "Ländliche Regionen hinken beim Netzausbau weiterhin hinterher",
+      "j": "Klassisches Fernsehen verliert bei der jungen Generation stark an Bedeutung"
     },
     "texts": [
       {
@@ -103,14 +103,14 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Stadt pflanzt tausende neue Bäume",
+      "a": "Verwaltung startet groß angelegte Begrünungsaktion",
       "b": "Plastikmüll im Meer nimmt erstmals wieder ab",
-      "c": "Bürger sammeln gemeinsam Abfall",
+      "c": "Freiwillige räumen an einem Aktionstag Parks und Straßen auf",
       "d": "Strom aus Sonne wird immer günstiger",
       "e": "Tiere verlassen die Stadt wegen des Lärms",
       "f": "Mehr Autos trotz neuer Radwege",
       "g": "Trockenheit bedroht die Landwirtschaft",
-      "h": "Schüler retten einen alten Wald",
+      "h": "Protest von Jugendlichen stoppt Pläne für einen Parkplatz",
       "i": "Mülltrennung wird von vielen Bürgern vernachlässigt",
       "j": "Bienen verschwinden zunehmend aus den Gärten"
     },
@@ -151,12 +151,12 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Mehr Studierende wählen ein Auslandssemester",
+      "a": "Zeitweiser Studienaufenthalt außerhalb Deutschlands wird immer populärer",
       "b": "Universität schafft Prüfungen am Computer wieder ab",
       "c": "Lehrermangel wird immer größer",
-      "d": "Kinder lernen früh eine zweite Sprache",
+      "d": "Bereits im Kindergartenalter kommen Kinder spielerisch mit einer Fremdsprache in Kontakt",
       "e": "Schule beginnt künftig noch früher am Morgen",
-      "f": "Bibliotheken öffnen länger für Studierende",
+      "f": "Lesesäle stehen Studierenden nun auch nachts zur Verfügung",
       "g": "Praktika spielen bei der Berufswahl kaum eine Rolle",
       "h": "Schüler verkaufen gebrauchte Bücher gegen Geld",
       "i": "Online-Unterricht wird zunehmend beliebter",
@@ -199,16 +199,16 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Nachtzüge werden wieder beliebter",
+      "a": "Umweltbewusste Reisende entdecken das Zugfahren über Nacht neu",
       "b": "Fluggesellschaft eröffnet viele neue Verbindungen",
-      "c": "Touristen meiden überfüllte Städte",
+      "c": "Reisende entdecken ruhige Orte abseits der Touristenmassen",
       "d": "Neue App warnt vor überfüllten Bahnhöfen",
-      "e": "Radfahren in der Stadt wird sicherer",
+      "e": "Getrennte Fahrspuren senken die Zahl der Fahrradunfälle",
       "f": "Bahn senkt Preise für junge Reisende",
       "g": "Immer weniger Menschen reisen mit dem Fahrrad",
       "h": "Parkplätze in der Innenstadt werden günstiger",
       "i": "Campen ist der neue Urlaubstrend",
-      "j": "Elektrobusse erobern den Nahverkehr"
+      "j": "Öffentliche Verkehrsbetriebe steigen auf umweltfreundlichere Fahrzeuge um"
     },
     "texts": [
       {
@@ -250,10 +250,10 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
       "a": "Vier-Tage-Woche scheitert in der Praxis",
       "b": "Homeoffice stärkt laut Studie den Teamgeist",
       "c": "Weniger Frauen interessieren sich für technische Berufe",
-      "d": "Pausen steigern die Produktivität",
+      "d": "Kurze Erholungsphasen machen Beschäftigte leistungsfähiger",
       "e": "Unternehmen suchen dringend Fachkräfte",
       "f": "Junge Leute gründen seltener eigene Firmen",
-      "g": "Bewerbungen laufen jetzt über Video",
+      "g": "Erstes Vorstellungsgespräch findet zunehmend online statt",
       "h": "Weniger Arbeitstage, gleiche Bezahlung",
       "i": "Arbeiten im Freien verliert an Beliebtheit",
       "j": "Quereinsteiger sind sehr gefragt"
@@ -295,16 +295,16 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Stadtbücherei verleiht jetzt auch Werkzeug",
+      "a": "Öffentliche Einrichtung bietet nun auch handwerkliche Geräte zum Leihen an",
       "b": "Museum verlangt künftig auch sonntags Eintritt",
       "c": "Kinos gewinnen wieder mehr Zuschauer",
-      "d": "Altes Theater wird zum Kulturzentrum",
+      "d": "Leerstehendes Gebäude wird zum neuen Treffpunkt für Kunst und Vereine",
       "e": "Junge Menschen hören lieber Hörbücher als Bücher",
       "f": "Freier Eintritt lockt neue Besucher",
-      "g": "Musikfestival führt erstmals Einwegbecher ein",
+      "g": "Nachhaltiges Konzept sorgt für deutlich weniger Abfall beim Festival",
       "h": "Konzerte werden immer seltener besucht",
       "i": "Straßenkünstler verschwinden aus der Innenstadt",
-      "j": "Konzert im Park begeistert tausende Gäste"
+      "j": "Gratis-Konzert unter freiem Himmel lockt riesige Besuchermenge an"
     },
     "texts": [
       {
@@ -344,15 +344,15 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Schwimmkurse für Kinder werden kaum noch nachgefragt",
-      "b": "Laufen verbindet Menschen jeden Alters",
-      "c": "Neue Sporthalle für den ganzen Stadtteil",
-      "d": "Immer weniger Kinder können schwimmen",
-      "e": "Fitnessstudios werben um ältere Kunden",
+      "b": "Lauftreff überbrückt Altersunterschiede und verzichtet auf Leistungsdruck",
+      "c": "Neubau ermöglicht Vereinen und Privatpersonen gemeinsames Training",
+      "d": "Schwimmfähigkeit bei Kindern lässt laut Studie stark nach",
+      "e": "Sportanbieter passen ihr Programm gezielt an die Bedürfnisse von Senioren an",
       "f": "Vereine verzeichnen deutlichen Mitgliederzuwachs",
       "g": "Yoga steigert vor allem die Leistung im Wettkampf",
       "h": "Stadt schließt kostenlose Sportplätze",
       "i": "Männer entdecken den Fußball neu für sich",
-      "j": "Bewegung im Alter hält gesund"
+      "j": "Regelmäßige Aktivität erhält im höheren Alter die Selbstständigkeit"
     },
     "texts": [
       {
@@ -395,12 +395,12 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
       "b": "Bargeld verschwindet langsam aus dem Alltag",
       "c": "Kunden kaufen seltener im Geschäft",
       "d": "Junge Leute geben ihr Geld lieber sofort aus",
-      "e": "Reparieren statt wegwerfen",
-      "f": "Online-Betrug nimmt deutlich zu",
+      "e": "Ehrenamtliche Initiativen verlängern die Lebensdauer alter Geräte",
+      "f": "Kriminelle nutzen gefälschte Online-Shops, um an Kundendaten zu gelangen",
       "g": "Werbung beeinflusst vor allem ältere Menschen stark",
-      "h": "Gebrauchte Kleidung erlebt ein Comeback",
-      "i": "Viele zahlen nur noch mit dem Handy",
-      "j": "Hohe Preise verändern das Einkaufsverhalten"
+      "h": "Secondhand-Mode wird zum bewussten Trend bei jungen Menschen",
+      "i": "Kontaktloses Bezahlen setzt sich in vielen Bereichen durch",
+      "j": "Verbraucher achten wegen steigender Kosten genauer auf ihre Ausgaben"
     },
     "texts": [
       {
@@ -440,15 +440,15 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Musik verschlechtert angeblich das Gedächtnis",
-      "b": "Forscher entdecken neue Tierart",
-      "c": "Schlaf hilft beim Lernen",
+      "b": "Bislang unbekannte Amphibie im Regenwald aufgespürt",
+      "c": "Ausreichend Ruhe verbessert die Gedächtnisleistung vor Prüfungen",
       "d": "Kaffee ist ungesünder als gedacht",
       "e": "Künstliche Intelligenz soll die Pflege bald ersetzen",
       "f": "Pflanzen reagieren nur auf Licht, nicht aufeinander",
-      "g": "Lachen stärkt das Immunsystem",
-      "h": "Künstliche Intelligenz erkennt Krankheiten früh",
+      "g": "Fröhliche Momente setzen Botenstoffe frei, die die Abwehrkräfte unterstützen",
+      "h": "Computerprogramm entdeckt Auffälligkeiten auf Röntgenbildern schneller als Ärzte",
       "i": "Bewegung verschlechtert oft die Laune",
-      "j": "Haustiere senken den Blutdruck"
+      "j": "Tierbesitzer profitieren gesundheitlich von mehr Bewegung und weniger Stress"
     },
     "texts": [
       {
@@ -487,16 +487,16 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Mieten in Großstädten steigen weiter",
+      "a": "Wohnraum in deutschen Metropolen wird zunehmend unbezahlbar",
       "b": "Generationenhäuser werden zunehmend abgeschafft",
       "c": "Studierende finden inzwischen leichter ein Zimmer",
-      "d": "Gemeinschaftsgärten verbinden Nachbarn",
+      "d": "Gemeinsames Gärtnern fördert den Kontakt zwischen Anwohnern",
       "e": "Leben auf dem Land verliert wieder an Attraktivität",
-      "f": "Neue Wohnungen entstehen aus alten Büros",
+      "f": "Leerstehende Gebäude werden zu neuem Wohnraum umfunktioniert",
       "g": "Große Wohnungen liegen voll im Trend",
       "h": "Stadt schafft mehr Parkplätze in der Innenstadt",
-      "i": "Wohnprojekt bringt Jung und Alt zusammen",
-      "j": "Viele Menschen ziehen aufs Land"
+      "i": "Nachbarschaftsprojekt lässt mehrere Generationen voneinander profitieren",
+      "j": "Homeoffice ermöglicht vielen den Umzug in ländliche Gegenden"
     },
     "texts": [
       {
@@ -537,14 +537,14 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "headings": {
       "a": "Ehrenamt wird bei jungen Leuten unbeliebter",
       "b": "Nachbarn ziehen sich zunehmend zurück",
-      "c": "Immer mehr Menschen leben allein",
+      "c": "Alleinleben ist in deutschen Großstädten längst keine Ausnahme mehr",
       "d": "Behörden übernehmen jetzt die Sprachkurse selbst",
-      "e": "Freiwillige unterstützen geflüchtete Familien",
+      "e": "Ehrenamtliche Helfer begleiten neu Zugewanderte im Alltag",
       "f": "Vereine müssen wegen Mitgliederschwunds schließen",
       "g": "Großeltern überlassen die Enkelbetreuung den Eltern",
       "h": "App vernetzt hilfsbereite Menschen",
-      "i": "Spenden für die Tafel nehmen zu",
-      "j": "Senioren engagieren sich für die Gemeinschaft"
+      "i": "Immer mehr Geschäfte unterstützen Bedürftige mit überschüssigen Lebensmitteln",
+      "j": "Rentner bringen sich ehrenamtlich in ihrer Stadt ein"
     },
     "texts": [
       {
@@ -1462,8 +1462,8 @@ const LESEVERSTEHEN_TEIL_3_DATA_B2 = [
         "body": "Sanftes Hatha-Yoga für alle, die zur Ruhe kommen und Stress abbauen möchten. Ruhige Übungen, achtsame Atmung, keine Vorkenntnisse nötig. Termine: dienstags 17:30–18:45 Uhr. Anmeldung: yoga-balance@web.de"
       },
       "i": {
-        "title": "Lauftreff für Anfänger",
-        "body": "Sie möchten mit dem Joggen beginnen? In unserer Gruppe laufen Anfänger gemeinsam in lockerem Tempo. Gemeinsam macht es mehr Spaß! Termine: sonntags 9:00 Uhr, Treffpunkt Stadtpark. Infos: lauftreff-stadtpark@mail.de"
+        "title": "Power-Yoga für Fortgeschrittene",
+        "body": "Intensives Yoga-Training für sportliche Teilnehmer mit Erfahrung: kräftige Übungen, dynamische Abfolgen und anspruchsvolles Tempo. Bitte nur mit Vorkenntnissen teilnehmen. Termine: donnerstags 19:00–20:30 Uhr. Anmeldung: power-yoga-studio@mail.de"
       },
       "j": {
         "title": "Nähkurs für Einsteiger",
@@ -1474,8 +1474,8 @@ const LESEVERSTEHEN_TEIL_3_DATA_B2 = [
         "body": "Unsere semiprofessionelle Theatergruppe sucht erfahrene Schauspielerinnen und Schauspieler für anspruchsvolle Inszenierungen. Vorsprechen erforderlich, regelmäßige Auftritte vor Publikum. Termine: mittwochs 19:00–21:00 Uhr. Kontakt: theater-buehnenglanz@mail.de"
       },
       "l": {
-        "title": "Töpferkurs für Kinder am Wochenende",
-        "body": "Speziell für Kinder von 6 bis 10 Jahren: Wir formen gemeinsam Schalen, Tassen und kleine Figuren aus Ton. Erwachsene können in dieser Zeit gern in der Stadt bummeln gehen. Termine: sonntags 14:00–17:00 Uhr. Anmeldung: toepferei-erde@mail.de"
+        "title": "Gitarrenkurs am Vormittag",
+        "body": "Gitarrenunterricht für Einsteiger und Fortgeschrittene in kleinen Gruppen. Grundakkorde, erste Lieder und Rhythmusgefühl. Termine: dienstags und freitags 10:00–11:30 Uhr, ausschließlich vormittags. Anmeldung: gitarrenschule-saite@mail.de"
       }
     },
     "answers": {
@@ -1656,8 +1656,8 @@ const LESEVERSTEHEN_TEIL_3_DATA_B2 = [
         "body": "Erholung pur in ruhiger Lage: großes Thermalbad, Saunalandschaft und ein breites Angebot an Massagen und Anwendungen. Organisierte Ausflüge führen nur in die nähere Umgebung, nicht ins Ausland. Buchung: Tel. 08821-66 77 88."
       },
       "k": {
-        "title": "Jugendcamp Abenteuerland – auch für Senioren",
-        "body": "Ferienlager für Kinder und Jugendliche von 10 bis 16 Jahren. Klettern, Kanu fahren und Lagerfeuer. Betreuung rund um die Uhr durch erfahrene Teamer. Sommerferien, einwöchige Durchgänge. Anmeldung: camp-abenteuerland@mail.de"
+        "title": "Spanischkurs Barcelona Total",
+        "body": "Intensiver Sprachkurs für alle Niveaustufen mitten in Barcelona. Der Unterricht findet ganztägig im Klassenraum statt, ein Ausflugsprogramm bieten wir nicht an. Unterkunft im Studentenwohnheim. Kursdauer: 2–4 Wochen. Anmeldung: www.barcelona-total-sprachkurs.de"
       },
       "l": {
         "title": "Stadthotel Zentral – Busreisen Italien",
@@ -1753,8 +1753,8 @@ const LESEVERSTEHEN_TEIL_3_DATA_B2 = [
         "body": "Wir suchen Studierende des Maschinenbaus für eine Werkstudententätigkeit neben dem Studium. Flexible Stunden, keine Festanstellung. Bewerbung: boutique-stil@mail.de"
       },
       "l": {
-        "title": "Erzieher/in für Kindergarten",
-        "body": "Der städtische Kindergarten Regenbogen sucht eine ausgebildete Erzieherin in Vollzeit zur Betreuung von Kindern im Alter von 3 bis 6 Jahren. Bewerbung: kita-regenbogen@stadt.de"
+        "title": "Koch (m/w/d) für traditionelle Küche gesucht",
+        "body": "Der Gasthof „Zur Alten Linde“ sucht einen erfahrenen Koch für unsere bodenständige, traditionelle deutsche Küche – internationale Gerichte stehen bei uns nicht auf der Karte. Vollzeit, geregelte Arbeitszeiten. Bewerbung: kueche@alte-linde-gasthof.de"
       }
     },
     "answers": {
