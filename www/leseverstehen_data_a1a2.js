@@ -7,13 +7,13 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Hunde helfen Kindern beim Lesen lernen",
+      "a": "Mehr Sportunterricht schadet der Konzentration",
       "b": "Zu viel Zucker macht Kinder unruhig",
       "c": "Kleidung aus zweiter Hand wird immer beliebter",
-      "d": "Schule beginnt jetzt später am Morgen",
-      "e": "Neue App hilft beim Sprachenlernen",
+      "d": "Hamburg baut mehr Parkplätze für Autos",
+      "e": "Online-Plattformen bieten jetzt auch neue Designer-Kleidung an",
       "f": "Stadt baut mehr Fahrradwege",
-      "g": "Forscher: Musik macht klüger",
+      "g": "Supermarkt verkauft abgelaufene Lebensmittel günstiger",
       "h": "Supermarkt verschenkt Essen vor Ladenschluss",
       "i": "Weniger Schlaf schadet der Gesundheit",
       "j": "Kinder lernen besser mit Bewegung"
@@ -48,11 +48,11 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       "5": "f"
     },
     "explanations": {
-      "1": "",
-      "2": "\"kaufen Kleidung, die schon einmal getragen wurde\" = ikinci el giysi satın almak → (c) tam eşleşme. (f) bisiklet yolları aldatmaca.",
+      "1": "\"Bewegung hilft dem Gehirn, neue Informationen zu verarbeiten\" → (j) tam eşleşme. (a) tam tersini iddia ediyor: hareketin konsantrasyona zararlı olduğunu söylüyor, metinle çelişiyor.",
+      "2": "\"kaufen Kleidung, die schon einmal getragen wurde\" = ikinci el giysi satın almak → (c) tam eşleşme. (e) metindeki \"Online-Plattformen\" kelimesini kullanıyor ama yeni tasarımcı kıyafetinden bahsediyor, ikinci-el temasıyla çelişiyor.",
       "3": "\"wer weniger als sieben Stunden schläft, hat häufiger Probleme\" = az uyku sağlığa zarar veriyor → (i) tam eşleşme. (b) \"Zucker macht Kinder unruhig\" aldatmaca; şekerle ilgisi yok.",
-      "4": "\"werden Lebensmittel... kostenlos an Kunden abgegeben\" = yiyecekler ücretsiz dağıtılıyor → (h) tam eşleşme. (e) app aldatmaca.",
-      "5": "\"investiert in neue Fahrradwege\" ve \"Radfahrer sicherer\" → (f) tam eşleşme. (d) \"Schule beginnt später\" aldatmaca."
+      "4": "\"werden Lebensmittel... kostenlos an Kunden abgegeben\" = yiyecekler ücretsiz dağıtılıyor → (h) tam eşleşme. (g) aynı süpermarket temasını kullanıyor ama \"kostenlos\" değil \"günstiger\" (indirimli) diyor, metinle çelişiyor.",
+      "5": "\"investiert in neue Fahrradwege\" ve \"Radfahrer sicherer\" → (f) tam eşleşme. (d) aynı şehir/ulaşım temasını kullanıyor ama tam tersini iddia ediyor: bisiklet değil araba park yeri."
     }
   },
   {
@@ -62,15 +62,15 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Roboter übernehmen Jobs in Fabriken",
-      "b": "Immer mehr Touristen besuchen kleine Dörfer",
+      "a": "Supermärkte verkaufen jetzt weniger pflanzliche Produkte",
+      "b": "Autofreie Zonen gibt es nur noch an Wochentagen",
       "c": "Kostenlose Plastiktüten sind jetzt verboten",
       "d": "Alte Menschen fühlen sich in Städten einsamer",
-      "e": "Schüler lernen Kochen in der Schule",
+      "e": "Restaurants bieten jetzt kostenlose Plastiktüten an",
       "f": "Weniger Autos in der Innenstadt geplant",
       "g": "Bibliotheken werden zu Treffpunkten",
       "h": "Kinder und Jugendliche brauchen mehr Schlaf",
-      "i": "Neue Studie: Sport im Alter sehr wichtig",
+      "i": "Smartphones am Abend verbessern laut Studie den Schlaf",
       "j": "Vegetarisches Essen wird immer beliebter"
     },
     "texts": [
@@ -103,10 +103,10 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       "5": "g"
     },
     "explanations": {
-      "1": "",
-      "2": "\"Viele Jugendliche schlafen nur fünf bis sechs Stunden — das ist zu wenig\" → (h) tam eşleşme. (i) \"Sport im Alter\" aldatmaca; uyku konusu.",
-      "3": "\"müssen... keine kostenlosen Plastiktüten mehr anbieten\" ve \"Das neue Gesetz\" → (c) tam eşleşme. (a) \"Roboter\" aldatmaca; yasayla ilgisi yok.",
-      "4": "\"Autos aus den Innenstädten zu verbannen\" ve \"mehr Platz für Fußgänger\" → (f) tam eşleşme. (b) \"Touristen\" aldatmaca; turizm değil trafik konusu.",
+      "1": "\"Supermärkte reagieren und bieten immer mehr pflanzliche Produkte an\" → (j) tam eşleşme. (a) aynı süpermarket temasını kullanıyor ama tam tersini iddia ediyor: daha az değil daha çok bitkisel ürün var.",
+      "2": "\"Viele Jugendliche schlafen nur fünf bis sechs Stunden — das ist zu wenig\" → (h) tam eşleşme. (i) metindeki \"Smartphones am Abend\" detayını kullanıyor ama tam tersini iddia ediyor: telefon kullanımı uykuyu iyileştirmiyor, kötüleştiriyor.",
+      "3": "\"müssen... keine kostenlosen Plastiktüten mehr anbieten\" ve \"Das neue Gesetz\" → (c) tam eşleşme. (e) aynı \"Plastiktüten\" temasını kullanıyor ama tam tersini iddia ediyor: ücretsiz poşet artık yasak, sunulmuyor.",
+      "4": "\"Autos aus den Innenstädten zu verbannen\" ve \"mehr Platz für Fußgänger\" → (f) tam eşleşme. (b) aynı \"autofreie Zonen\" temasını kullanıyor ama metinde \"an Wochenenden\" yazarken (b) \"nur... Wochentagen\" diyor, tam tersi.",
       "5": "\"Orte, an denen Menschen zusammenkommen und sich austauschen\" = buluşma yerleri → (g) tam eşleşme. (d) \"Alte Menschen fühlen sich einsamer\" aldatmaca; yaşlılar kütüphaneye geliyor ama yalnızlık değil, sosyalleşme konusu."
     }
   },
@@ -119,12 +119,12 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "headings": {
       "a": "Haustiere helfen gegen Einsamkeit",
       "b": "Zusammen kochen macht neue Freunde",
-      "c": "Online-Unterricht ersetzt Schule nicht",
-      "d": "Mehr Frauen in Führungspositionen",
+      "c": "Sitzen im Klassenzimmer hilft Kindern beim Lernen mehr als Spielen draußen",
+      "d": "Koch-Workshops sind vor allem bei erfahrenen Köchen beliebt",
       "e": "E-Scooter-Fahrer brauchen jetzt einen Helm",
       "f": "Weniger Bienen: Problem für die Landwirtschaft",
-      "g": "Kaffee ist gesünder als gedacht",
-      "h": "Immer mehr Kinder haben Allergie",
+      "g": "Direktkauf beim Bauern ist oft teurer als im Supermarkt",
+      "h": "E-Scooter-Fahrer dürfen jetzt zu zweit fahren",
       "i": "Kunden kaufen frisches Gemüse direkt beim Bauern",
       "j": "Spielen im Freien hilft beim Lernen"
     },
@@ -158,11 +158,11 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       "5": "b"
     },
     "explanations": {
-      "1": "",
-      "2": "\"frische Luft atmen, können sich besser konzentrieren\" → (j) tam eşleşme. (h) \"Allergie\" aldatmaca; konsantrasyon konusu.",
-      "3": "\"neue Verkehrsregeln für E-Scooter\" ve \"Helm tragen\", \"Bußgeld\" → (e) tam eşleşme. (d) \"Frauen in Führungspositionen\" aldatmaca; trafik kuralları konusu.",
-      "4": "\"fühlen sich weniger allein\" ve \"Haustiere in den Zimmern\" → (a) tam eşleşme. (j) \"Frische Luft\" aldatmaca; yürüyüş geçse de ana tema yalnızlık değil mi konusu.",
-      "5": "\"gemeinsames Kochen fördert den sozialen Kontakt\" ve \"neue Freundschaften\" → (b) tam eşleşme. (c) \"Online-Unterricht\" aldatmaca."
+      "1": "\"Kunden können frisches Gemüse... direkt beim Erzeuger kaufen\" ve \"Das ist oft günstiger\" → (i) tam eşleşme. (g) aynı çiftçiden doğrudan satın alma temasını kullanıyor ama tam tersini iddia ediyor: metinde 'günstiger' derken (g) 'teurer' diyor.",
+      "2": "\"draußen spielen... können sich in der Schule besser konzentrieren\" → (j) tam eşleşme. (c) aynı sınıf/okul temasını kullanıyor ama tam tersini iddia ediyor: dışarıda oynamak değil, sınıfta oturmanın daha çok yardımcı olduğunu söylüyor.",
+      "3": "\"Fahrer müssen jetzt einen Helm tragen\" ve \"Fahren zu zweit... ist verboten\" → (e) tam eşleşme. (h) aynı E-Scooter temasını kullanıyor ama tam tersini iddia ediyor: yasak olan ikili sürüşe artık izin verildiğini söylüyor.",
+      "4": "\"fühlen sich weniger allein\" ve \"Haustiere in den Zimmern\" → (a) tam eşleşme. (j) \"Frische Luft\" detayını kullanıyor (metinde de geçiyor) ama (j) aslında 2. metnin doğru cevabı; buraya uymuyor.",
+      "5": "\"gemeinsames Kochen fördert den sozialen Kontakt\" ve \"besonders für Neuankömmlinge\" → (b) tam eşleşme. (d) aynı Koch-Workshop temasını kullanıyor ama tam tersini iddia ediyor: metinde yeni gelenler için değerliyken (d) deneyimli aşçılar arasında popüler olduğunu söylüyor."
     }
   },
   {
@@ -174,13 +174,13 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "headings": {
       "a": "Nächtlicher Lärm soll härter bestraft werden",
       "b": "Schüler haben jetzt eine eigene Firma",
-      "c": "Regen schadet der Ernte",
+      "c": "Der Eintritt ins neue Museum ist auch für Kinder kostenpflichtig",
       "d": "Urlaub in der Heimat wird immer beliebter",
       "e": "Ein Museum zeigt, wie die Stadt früher war",
-      "f": "Kinder brauchen mehr Pausen in der Schule",
-      "g": "Tierärzte warnen vor Sommerhitze für Hunde",
+      "f": "Die Schülerfirma verkauft ausschließlich digitale Produkte",
+      "g": "Immer mehr Deutsche bevorzugen Fernreisen mit dem Flugzeug",
       "h": "Heimarbeit bleibt sehr beliebt",
-      "i": "Ältere Arbeitnehmer gesucht",
+      "i": "Die meisten Anwohner sehen den nächtlichen Lärm nicht als Problem",
       "j": "Weniger Papier im Büro dank Digitalisierung"
     },
     "texts": [
@@ -213,11 +213,11 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       "5": "e"
     },
     "explanations": {
-      "1": "",
-      "2": "\"Urlaub lieber im eigenen Land\" ve \"Reisen im Inland\" → (d) tam eşleşme. (g) \"Sommerhitze für Hunde\" aldatmaca.",
+      "1": "\"sollen Verstöße härter bestraft werden\" ve \"Anwohner unterstützen die Forderung mehrheitlich\" → (a) tam eşleşme. (i) aynı gürültü temasını kullanıyor ama tam tersini iddia ediyor: çoğu komşunun bunu sorun görmediğini söylüyor, oysa metinde çoğunluk şikayet edip talebi destekliyor.",
+      "2": "\"Urlaub lieber im eigenen Land\" ve \"Reisen im Inland\" → (d) tam eşleşme. (g) aynı seyahat temasını kullanıyor ama tam tersini iddia ediyor: yurt içi tatil değil, uçakla yurt dışı seyahatinin popülerleştiğini söylüyor.",
       "3": "\"von zu Hause aus arbeiten\" ve \"Homeoffice dauerhaft anbieten\" → (h) tam eşleşme. (j) \"Weniger Papier\" aldatmaca; her ikisi de iş hayatıyla ilgili ama (h) tam eşleşiyor.",
-      "4": "\"Schülerinnen und Schüler eine eigene kleine Firma gegründet\" → (b) tam eşleşme. (i) \"Ältere Arbeitnehmer gesucht\" aldatmaca.",
-      "5": "\"neues Museum, das die Geschichte einer Stadt zeigt\" → (e) tam eşleşme. (f) \"Pausen in der Schule\" aldatmaca; okuldan bahsedilse de tarih müzesi konusu."
+      "4": "\"Schülerinnen und Schüler eine eigene kleine Firma gegründet\" ve \"handgemachte Produkte wie Taschen und Schmuck\" → (b) tam eşleşme. (f) aynı okul-firma temasını kullanıyor ama tam tersini iddia ediyor: el yapımı ürünler değil, sadece dijital ürünler sattıklarını söylüyor.",
+      "5": "\"neues Museum, das die Geschichte einer Stadt zeigt\" → (e) tam eşleşme. (c) aynı müze temasını kullanıyor ama tam tersini iddia ediyor: metinde çocuklar için ücretsizken (c) herkes için ücretli olduğunu söylüyor."
     }
   },
   {
@@ -227,12 +227,12 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Tanzen hält Senioren fit",
-      "b": "Zu viel Bildschirmzeit schadet den Augen",
+      "a": "Jugendliche engagieren sich heute seltener freiwillig als früher",
+      "b": "In Berlin und München sinkt die Zahl der Einpersonenhaushalte",
       "c": "In diesem Café arbeiten auch Menschen mit Behinderung",
       "d": "Nachbarn gärtnern jetzt gemeinsam",
-      "e": "Weniger Fleisch, mehr Gesundheit",
-      "f": "Tierpark erhält seltene Tiere aus Australien",
+      "e": "Forscher empfehlen mindestens eine Stunde Lesen pro Tag",
+      "f": "Das inklusive Café in Köln bekommt keine staatliche Unterstützung",
       "g": "Junge Menschen helfen heute öfter freiwillig",
       "h": "Weniger Wasser verbrauchen: Tipps für den Alltag",
       "i": "Immer mehr Menschen wohnen allein",
@@ -268,11 +268,11 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       "5": "i"
     },
     "explanations": {
-      "1": "",
+      "1": "\"können sich besser in andere hineinversetzen\" ve \"täglich mindestens 20 Minuten\" → (j) tam eşleşme. (e) aynı okuma temasını kullanıyor ama yanlış süre veriyor: metinde 'mindestens 20 Minuten' derken (e) 'eine Stunde' diyor.",
       "2": "\"Gemeinschaftsgärten\" ve \"immer mehr Menschen legen einen Garten an\" → (d) tam eşleşme. (h) \"Wasser verbrauchen\" aldatmaca; bahçe var ama su tasarrufu konusu değil.",
-      "3": "\"Menschen mit verschiedenen Behinderungen als Servicekräfte arbeiten\" → (c) tam eşleşme. (a) \"Tanzen hält Senioren fit\" aldatmaca.",
-      "4": "\"Jugendliche engagieren sich heute mehr als früher in Vereinen, sozialen Projekten\" → (g) tam eşleşme. (f) \"Tierpark erhält seltene Tiere\" aldatmaca.",
-      "5": "\"ohne Partner oder Familie in einer eigenen Wohnung\" ve \"jeder zweite Haushalt ein Einpersonenhaushalt\" → (i) tam eşleşme. (e) \"Weniger Fleisch\" aldatmaca; yalnız yaşam konusu."
+      "3": "\"Menschen mit verschiedenen Behinderungen als Servicekräfte arbeiten\" ve \"Die Stadt unterstützt das Projekt finanziell\" → (c) tam eşleşme. (f) aynı kafe temasını kullanıyor ama tam tersini iddia ediyor: metinde şehir maddi destek verirken (f) hiç destek almadığını söylüyor.",
+      "4": "\"Jugendliche engagieren sich heute mehr als früher in Vereinen, sozialen Projekten\" → (g) tam eşleşme. (a) aynı gençlik/gönüllülük temasını kullanıyor ama tam tersini iddia ediyor: metinde 'mehr als früher' derken (a) 'seltener' diyor.",
+      "5": "\"ohne Partner oder Familie in einer eigenen Wohnung\" ve \"jeder zweite Haushalt ein Einpersonenhaushalt\" → (i) tam eşleşme. (b) aynı şehir/hanehalkı temasını kullanıyor ama tam tersini iddia ediyor: metinde artış varken (b) azaldığını söylüyor."
     }
   },
   {
@@ -282,13 +282,13 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Neue Technik macht Brillen günstiger",
-      "b": "Schulen testen kürzere Unterrichtstage",
+      "a": "Laut Studie fühlen sich Senioren durch das Smartphone einsamer",
+      "b": "Der Deutschkurs für Geflüchtete findet nur einmal im Monat statt",
       "c": "Handys sind auch bei älteren Menschen beliebt",
       "d": "Flüsse in Deutschland werden wärmer",
       "e": "Flüchtlinge lernen gratis Deutsch",
-      "f": "Frühstück gilt als wichtigste Mahlzeit",
-      "g": "Weniger Kinder in deutschen Schulen",
+      "f": "In Schulkantinen gibt es jetzt öfter Fertiggerichte",
+      "g": "Wärmere Flüsse sind gut für viele Fischarten",
       "h": "Stadtpark wird zum Freiluftkonzert",
       "i": "In Kantinen gibt es jetzt öfter Bio-Essen",
       "j": "Städte setzen auf mehr Grün gegen die Hitze"
@@ -323,11 +323,11 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       "5": "e"
     },
     "explanations": {
-      "1": "",
+      "1": "\"fühlen sich Senioren durch das Smartphone weniger allein\" → (c) tam eşleşme. (a) aynı Senioren/teknoloji temasını kullanıyor ama tam tersini iddia ediyor: metinde 'weniger allein' derken (a) 'einsamer' diyor.",
       "2": "\"Temperaturen in Städten stark gestiegen\" ve \"Tausende neue Bäume gepflanzt\" → (j) tam eşleşme. (d) \"Flüsse wärmer\" aldatmaca; ısınma konusu ama nehir değil şehir.",
-      "3": "\"Kantinen... Bio-Lebensmittel\" ve \"100 Prozent bio-zertifiziert\" → (i) tam eşleşme. (f) \"Frühstück\" aldatmaca; yemek var ama kahvaltı değil kantin konusu.",
-      "4": "\"Temperaturen in deutschen Flüssen... gestiegen\" → (d) tam eşleşme. (j) \"Bäume\" aldatmaca; zaten Text 2'de kullanıldı.",
-      "5": "\"Geflüchteten kostenlose Deutschkurse\" → (e) tam eşleşme. (b) \"Schulen testen kürzere Unterrichtstage\" aldatmaca; kurs var ama okul konusu değil."
+      "3": "\"Kantinen... Bio-Lebensmittel\" ve \"weniger Fertigprodukte\" → (i) tam eşleşme. (f) aynı kantin temasını kullanıyor ama tam tersini iddia ediyor: metinde 'weniger Fertigprodukte' derken (f) 'öfter Fertiggerichte' diyor.",
+      "4": "\"Temperaturen in deutschen Flüssen... gestiegen\" ve \"schadet bestimmten Fischarten\" → (d) tam eşleşme. (g) aynı nehir/balık temasını kullanıyor ama tam tersini iddia ediyor: metinde balıklara zarar verirken (g) iyi olduğunu söylüyor.",
+      "5": "\"Kurse finden dreimal pro Woche statt\" → (e) tam eşleşme. (b) aynı kurs temasını kullanıyor ama yanlış sıklık veriyor: metinde 'dreimal pro Woche' derken (b) 'nur einmal im Monat' diyor."
     }
   },
   {
@@ -338,15 +338,15 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Mehr Frauen werden Handwerkerinnen",
-      "b": "Kleine Geschäfte bekommen staatliche Hilfe",
+      "b": "Der Staat zahlt kleinen Geschäften jetzt Geld gegen die Online-Konkurrenz",
       "c": "Eine Bibliothek bringt Bücher direkt nach Hause",
       "d": "Sport draußen macht gute Laune",
-      "e": "Städte planen mehr Spielplätze",
-      "f": "Tiere im Zoo bekommen neue Gehege",
+      "e": "Alle Eltern begrüßen die neue vegetarische Schulkantine",
+      "f": "Handwerksberufe bieten nur niedrige Verdienstmöglichkeiten",
       "g": "Schulen bieten öfter vegetarisches Essen an",
       "h": "Online-Shopping verdrängt lokale Läden",
       "i": "Musik verbessert die Stimmung",
-      "j": "Forscher entdecken neuen Schlaftyp"
+      "j": "Bücher müssen persönlich in der Bibliothek zurückgegeben werden"
     },
     "texts": [
       {
@@ -378,11 +378,11 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       "5": "g"
     },
     "explanations": {
-      "1": "",
-      "2": "\"leiden unter der Konkurrenz durch Online-Händler\" ve \"Immer mehr Kunden bestellen... von zu Hause\" → (h) tam eşleşme. (b) \"Kleine Geschäfte kämpfen\" de yakın ama (h) çok daha doğrudan eşleşiyor.",
-      "3": "\"Bücher online auswählen und bekommen sie per Post\" → (c) tam eşleşme. (i) \"Musik\" aldatmaca.",
+      "1": "\"Betriebe suchen händeringend Nachwuchs\" ve \"gute Verdienstmöglichkeiten\" → (a) tam eşleşme. (f) aynı meslek/kazanç temasını kullanıyor ama tam tersini iddia ediyor: metinde iyi kazanç derken (f) düşük kazanç diyor.",
+      "2": "\"leiden unter der Konkurrenz durch Online-Händler\" ve \"mit Aktionen und Märkten die Kunden zurückzubringen\" → (h) tam eşleşme. (b) aynı temayı kullanıyor ama yanlış çözüm öneriyor: metinde şehirler etkinlik/pazar düzenlerken (b) devletin doğrudan para ödediğini söylüyor.",
+      "3": "\"Bücher online auswählen und bekommen sie per Post\" ve \"Rückgabe erfolgt ebenfalls per Post\" → (c) tam eşleşme. (j) aynı kütüphane temasını kullanıyor ama tam tersini iddia ediyor: postayla iade yerine bizzat gelip iade etmek gerektiğini söylüyor.",
       "4": "\"Sport unter freiem Himmel glücklicher macht\" ve \"besserer Stimmung\" → (d) tam eşleşme. (i) \"Musik verbessert die Stimmung\" aldatmaca; ruh hali konusu ama müzik değil spor.",
-      "5": "\"Schulkantine... Fleisch seltener auf dem Speiseplan\" → (g) tam eşleşme. (e) \"Spielplätze\" aldatmaca; okul konusu ama oyun alanı değil kantin."
+      "5": "\"Schulkantine... Fleisch seltener auf dem Speiseplan\" ve \"Eltern und Schüler reagieren unterschiedlich\" → (g) tam eşleşme. (e) aynı okul/veli temasını kullanıyor ama tam tersini iddia ediyor: metinde tepkiler karışıkken (e) tüm ebeveynlerin memnun olduğunu söylüyor."
     }
   },
   {
@@ -392,12 +392,12 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Neue Brücke verbindet zwei Stadtteile",
+      "a": "Eltern sind alle begeistert von digitalen Schulbüchern",
       "b": "Die Bahn hat so viele Fahrgäste wie nie",
       "c": "Kindergärten suchen dringend Personal",
       "d": "Weniger Müll durch Pfandsystem",
-      "e": "Sportvereine verlieren Mitglieder",
-      "f": "Stadtfest lockt Tausende Besucher",
+      "e": "Kindergärten haben schon genug Personal",
+      "f": "Das neue Kulturzentrum in Leipzig kostet nur eine Million Euro",
       "g": "Forscher testen essbare Verpackungen",
       "h": "Tablets ersetzen das schwere Schulbuch",
       "i": "Fahrpreise steigen: Autofahrer wechseln zur Bahn",
@@ -433,11 +433,11 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       "5": "h"
     },
     "explanations": {
-      "1": "",
+      "1": "\"Das Projekt kostet fünf Millionen Euro\" → (j) tam eşleşme. (f) aynı Leipzig/kültür projesini kullanıyor ama yanlış rakam veriyor: metinde 'fünf Millionen Euro' derken (f) 'eine Million Euro' diyor.",
       "2": "\"immer mehr Menschen auf die Bahn um\" ve \"Rekordzahlen bei den Fahrgästen\" → (b) tam eşleşme. (i) \"Fahrpreise steigen\" aldatmaca; fiyatlar metinde geçiyor ama başlık asıl fikri yanlış özetliyor — metinde tren yolcuları artıyor, araba sürücüleri değil.",
       "3": "\"Verpackungen, die man... essen kann\" ve \"Wissenschaftler arbeiten\" → (g) tam eşleşme. (d) \"Pfandsystem\" aldatmaca; ambalaj atığı konusu ama depozito sistemi değil.",
-      "4": "\"zu wenige Erzieherinnen und Erzieher\" ve \"Kindergärten können nicht alle Plätze belegen\" → (c) tam eşleşme. (e) \"Sportvereine verlieren Mitglieder\" aldatmaca.",
-      "5": "\"Schulen stellen auf digitale Schulbücher um\" → (h) tam eşleşme. (e) \"Sportvereine\" aldatmaca; okul var ama spor değil."
+      "4": "\"zu wenige Erzieherinnen und Erzieher\" ve \"Kindergärten können nicht alle Plätze belegen\" → (c) tam eşleşme. (e) aynı personel temasını kullanıyor ama tam tersini iddia ediyor: metinde personel eksikliği varken (e) yeterli personel olduğunu söylüyor.",
+      "5": "\"Nicht alle Eltern sind begeistert\" → (h) tam eşleşme. (a) aynı ebeveyn/okul temasını kullanıyor ama tam tersini iddia ediyor: metinde bazı ebeveynler endişeliyken (a) hepsinin memnun olduğunu söylüyor."
     }
   },
   {
@@ -447,14 +447,14 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Kältewelle trifft Norddeutschland",
-      "b": "Weniger Werbung für Kinder im Fernsehen",
+      "a": "Solaranlagen werden für private Haushalte immer teurer",
+      "b": "Sportkurse in der Stadt kosten jetzt eine Teilnahmegebühr",
       "c": "Neue App hilft bei der Jobsuche",
       "d": "Wandern liegt wieder im Trend",
       "e": "Strom aus Solaranlagen wird billiger",
       "f": "Immer mehr Pflegeheime suchen Fachkräfte",
       "g": "Schüler basteln kleine Maschinen",
-      "h": "Tiere im Winter: Tipps für Gartenbesitzer",
+      "h": "Wandervereine verlieren immer mehr Mitglieder",
       "i": "Die Stadt bezahlt Sportkurse für alle",
       "j": "Gemeinsam statt einsam: WG für Senioren"
     },
@@ -488,10 +488,10 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       "5": "g"
     },
     "explanations": {
-      "1": "",
-      "2": "\"kostenlose Kurse\" ve \"Yoga, Schwimmen und Volleyball\" → (i) tam eşleşme. (d) \"Wandern\" aldatmaca; spor var ama yürüyüş değil.",
+      "1": "\"Kosten für Solaranlagen sind... stark gesunken\" → (e) tam eşleşme. (a) aynı enerji/maliyet temasını kullanıyor ama tam tersini iddia ediyor: metinde ucuzluyor derken (a) pahalılaştığını söylüyor.",
+      "2": "\"kostenlose Kurse\" ve \"vom Stadtrat finanziert\" → (i) tam eşleşme. (b) aynı spor kursu temasını kullanıyor ama tam tersini iddia ediyor: metinde ücretsizken (b) katılım ücreti olduğunu söylüyor.",
       "3": "\"Wohngemeinschaft\" + \"verhindert Einsamkeit\" + \"Menschen ab 60\" → (j) tam eşleşme. (f) \"Pflegeheime\" aldatmaca; yaşlılar var ama bakım evi değil WG konusu.",
-      "4": "\"Wandern... gesund ist\" ve \"Wandervereine melden steigende Mitgliederzahlen\" → (d) tam eşleşme. (i) \"Sportkurse\" aldatmaca; zaten Text 2'de kullanıldı.",
+      "4": "\"Wandern... gesund ist\" ve \"Wandervereine melden steigende Mitgliederzahlen\" → (d) tam eşleşme. (h) aynı yürüyüş kulübü temasını kullanıyor ama tam tersini iddia ediyor: metinde üye sayısı artarken (h) azaldığını söylüyor.",
       "5": "\"Schülerinnen und Schüler... bauen selbst kleine Roboter\" → (g) tam eşleşme. (c) \"App hilft bei der Jobsuche\" aldatmaca; teknoloji var ama iş arama değil robotik konusu."
     }
   },
@@ -504,14 +504,14 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "headings": {
       "a": "Neue Wohnungen für wenig Geld gebaut",
       "b": "Im Tierheim werden helfende Hände gebraucht",
-      "c": "Immer mehr Kinder lernen ein Instrument",
+      "c": "Im Tierheim ist eine spezielle Ausbildung Pflicht",
       "d": "Familien verbringen den Sommer auf dem Land",
       "e": "Ein Laden in Freiburg verzichtet komplett auf Plastik",
-      "f": "Reisen mit dem Zug wächst in Europa",
+      "f": "Bauernhöfe haben im Sommer noch viele freie Plätze",
       "g": "Eltern wollen sichere Schulwege für ihre Kinder",
-      "h": "Stadtbibliothek feiert hundertsten Geburtstag",
+      "h": "Der plastikfreie Laden in Freiburg plant keine weiteren Filialen",
       "i": "Nicht zu viel Handy für Kinder",
-      "j": "Weniger Werbung, mehr Qualität im Radio"
+      "j": "Verkehrsexperten empfehlen Tempo 50 vor Schulen"
     },
     "texts": [
       {
@@ -543,11 +543,11 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       "5": "i"
     },
     "explanations": {
-      "1": "",
-      "2": "\"Sicherheit auf den Wegen... zur Schule\" ve \"fordern\" → (g) tam eşleşme. (i) \"Kinder und Bildschirme\" aldatmaca; çocuk ve okul var ama trafik güvenliği konusu.",
-      "3": "\"Tierheim... sucht dringend Freiwillige\" → (b) tam eşleşme. (j) \"Werbung im Radio\" aldatmaca.",
-      "4": "\"Urlaub auf einem Bauernhof\" ve \"ausgebuchten Sommern\" → (d) tam eşleşme. (f) \"Reisen mit dem Zug\" aldatmaca; tatil var ama tren yolculuğu değil.",
-      "5": "\"Tipps, wie Kinder... mit Tablets und Smartphones umgehen\" ve \"Medienpädagogen\" → (i) tam eşleşme. (c) \"Instrument lernen\" aldatmaca; çocuk var ama müzik değil ekran konusu."
+      "1": "\"Weitere Filialen sind bereits geplant\" → (e) tam eşleşme. (h) aynı Freiburg/mağaza temasını kullanıyor ama tam tersini iddia ediyor: metinde yeni şubeler planlanırken (h) planlanmadığını söylüyor.",
+      "2": "\"Geschwindigkeit vor Schulen auf Tempo 20 zu reduzieren\" → (g) tam eşleşme. (j) aynı okul yolu/trafik temasını kullanıyor ama yanlış rakam veriyor: metinde 'Tempo 20' derken (j) 'Tempo 50' diyor.",
+      "3": "\"Eine Ausbildung ist nicht notwendig\" → (b) tam eşleşme. (c) aynı gönüllülük temasını kullanıyor ama tam tersini iddia ediyor: metinde eğitim gerekmezken (c) özel eğitimin zorunlu olduğunu söylüyor.",
+      "4": "\"Urlaub auf einem Bauernhof\" ve \"ausgebuchten Sommern\" → (d) tam eşleşme. (f) aynı Bauernhof/tatil temasını kullanıyor ama tam tersini iddia ediyor: metinde yerler doluyken (f) hâlâ çok boş yer olduğunu söylüyor.",
+      "5": "\"Tipps, wie Kinder... mit Tablets und Smartphones umgehen\" ve \"Medienpädagogen\" → (i) tam eşleşme. (a) \"Neue Wohnungen für wenig Geld\" aldatmaca; ilgisiz konu."
     }
   },
   {
@@ -558,13 +558,13 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Computer helfen Ärzten bei der Diagnose",
-      "b": "Jugendliche verbringen mehr Zeit in der Natur",
+      "b": "Die Stadtverwaltung will das Wandmalerei-Projekt beenden",
       "c": "Parkgebühren in der Innenstadt steigen",
       "d": "Stadtteile bekommen mehr Grünflächen",
-      "e": "Kochen ohne Fleisch: Kochkurs für Anfänger",
+      "e": "Künstliche Intelligenz macht Diagnosen langsamer als früher",
       "f": "Künstler bemalen langweilige Wände bunt",
       "g": "Kluge Ampeln machen die Straßen sicherer",
-      "h": "Katzen sind beliebter als Hunde in Deutschland",
+      "h": "Die Ideen der Bürger werden von der Stadt meistens abgelehnt",
       "i": "Bürger gestalten ihren Stadtteil selbst",
       "j": "Blumen und Gras wachsen jetzt auf dem Dach"
     },
@@ -598,11 +598,11 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       "5": "a"
     },
     "explanations": {
-      "1": "",
-      "2": "\"alte graue Hauswände... von lokalen Künstlern bunt bemalt\" → (f) tam eşleşme. (d) \"Grünflächen\" aldatmaca; şehir güzelleştirme var ama yeşil alan değil sanat konusu.",
+      "1": "\"Viele Ideen der Bürger wurden bereits umgesetzt\" → (i) tam eşleşme. (h) aynı katılım temasını kullanıyor ama tam tersini iddia ediyor: metinde fikirler uygulanırken (h) çoğunlukla reddedildiğini söylüyor.",
+      "2": "\"alte graue Hauswände... von lokalen Künstlern bunt bemalt\" ve \"Stadtverwaltung plant... auszudehnen\" → (f) tam eşleşme. (b) aynı proje temasını kullanıyor ama tam tersini iddia ediyor: metinde proje genişletilecekken (b) sonlandırılmak istendiğini söylüyor.",
       "3": "\"Neue intelligente Ampeln\" ve \"Zahl der Unfälle ist gesunken\" → (g) tam eşleşme. (c) \"Parkgebühren\" aldatmaca; trafik var ama otopark ücreti değil.",
       "4": "\"bepflanzen ihre Gebäudedächer\" ve \"Gründächer\" → (j) tam eşleşme. (d) \"Stadtteile bekommen mehr Grünflächen\" aldatmaca; yeşil alan var ama çatı bahçesi tam eşleşme.",
-      "5": "\"Krankheiten... früher zu erkennen\" ve \"künstlicher Intelligenz\" → (a) tam eşleşme. (e) \"Kochkurs\" aldatmaca."
+      "5": "\"schneller und genauer ausgewertet\" → (a) tam eşleşme. (e) aynı teşhis/YZ temasını kullanıyor ama tam tersini iddia ediyor: metinde daha hızlıyken (e) daha yavaş olduğunu söylüyor."
     }
   },
   {
@@ -612,16 +612,16 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Neue Rekordhitze in Europa erwartet",
-      "b": "Schule auf dem Schiff: Lernen auf dem Wasser",
+      "a": "Elektroautos kosten meistens über 40.000 Euro",
+      "b": "Humor hat laut der Studie keinen Einfluss auf Schmerzen",
       "c": "Immer mehr Menschen backen ihr Brot selbst",
       "d": "Ein E-Auto kostet oft nur noch 20.000 Euro",
       "e": "Mehr Lernzeit durch kürzere Ferien",
-      "f": "Freiwillige bauen Häuser für Bedürftige",
+      "f": "Alle Händler sind gegen die Erweiterung der Fußgängerzonen",
       "g": "Kleine Pausen tun gut im Job",
       "h": "Neue Studie: Humor macht gesünder",
       "i": "Stadtgespräch: Fußgängerzonen sollen wachsen",
-      "j": "Erste-Hilfe-Kurs jetzt Pflicht in Schulen"
+      "j": "Der Trend zum Selberbacken hat seit Corona wieder abgenommen"
     },
     "texts": [
       {
@@ -653,11 +653,11 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       "5": "c"
     },
     "explanations": {
-      "1": "",
+      "1": "\"Neue Modelle... schon ab 20.000 Euro erhältlich\" → (d) tam eşleşme. (a) aynı E-Auto/fiyat temasını kullanıyor ama yanlış rakam veriyor: metinde '20.000 Euro' derken (a) 'über 40.000 Euro' diyor.",
       "2": "\"kurze Pausen macht\" ve \"Stresspegel zu senken\" → (g) tam eşleşme. (e) \"kürzere Ferien\" aldatmaca; zaman kısaltma var ama iş hayatı paus konusu.",
-      "3": "\"Fußgängerzonen erweitern\" ve \"Stadtplaner\" → (i) tam eşleşme. (f) \"Häuser bauen\" aldatmaca.",
-      "4": "\"Wissenschaftler haben untersucht, ob Lachen gesund ist\" ve \"Humor zeigen... stärkeres Immunsystem\" → (h) tam eşleşme. (b) \"Schule auf dem Schiff\" aldatmaca.",
-      "5": "\"backen in ihrer Freizeit Brot, Kuchen... selbst\" ve \"dieser Trend stark zugenommen\" → (c) tam eşleşme. (j) \"Erste-Hilfe-Kurs\" aldatmaca; kurs var ama ilk yardım değil fırın konusu."
+      "3": "\"Händler sind geteilter Meinung\" → (i) tam eşleşme. (f) aynı esnaf/fikir temasını kullanıyor ama tam tersini iddia ediyor: metinde fikirler bölünmüşken (f) tüm esnafın karşı olduğunu söylüyor.",
+      "4": "\"Wissenschaftler haben untersucht, ob Lachen gesund ist\" ve \"Schmerzen werden durch Humor besser ertragen\" → (h) tam eşleşme. (b) aynı sağlık/araştırma temasını kullanıyor ama tam tersini iddia ediyor: metinde mizah ağrıyı azaltırken (b) hiç etkisi olmadığını iddia ediyor.",
+      "5": "\"backen in ihrer Freizeit Brot, Kuchen... selbst\" ve \"dieser Trend stark zugenommen\" → (c) tam eşleşme. (j) aynı ekmek pişirme temasını kullanıyor ama tam tersini iddia ediyor: metinde trend artarken (j) azaldığını söylüyor."
     }
   }
 ];
@@ -674,7 +674,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "id": 6,
         "question": "Warum fahren viele Menschen in deutschen Städten Fahrrad?",
         "options": {
-          "a": "weil der Bus zu teuer ist",
+          "a": "weil es günstiger ist als der Bus und schneller als das Auto",
           "b": "weil es schnell, günstig und umweltfreundlich ist",
           "c": "weil es keine Autos mehr in der Stadt gibt"
         }
@@ -683,7 +683,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "id": 7,
         "question": "Was empfehlen Experten beim Fahrradfahren in der Stadt?",
         "options": {
-          "a": "nur auf Radwegen fahren und das Auto stehen lassen",
+          "a": "nach jeder Fahrt das Fahrrad in eine Werkstatt bringen",
           "b": "immer einen Helm tragen und das Fahrrad regelmäßig prüfen",
           "c": "nachts nicht Fahrrad fahren"
         }
@@ -692,7 +692,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "id": 8,
         "question": "Warum kaufen viele junge Menschen gebrauchte Fahrräder?",
         "options": {
-          "a": "weil neue Fahrräder zu schwer sind",
+          "a": "weil gebrauchte Fahrräder billiger sind als der Bus",
           "b": "weil gebrauchte Fahrräder schneller sind",
           "c": "weil neue Fahrräder oft sehr teuer sind"
         }
@@ -701,7 +701,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "id": 9,
         "question": "Was ist Besonderes an der Stadt Münster?",
         "options": {
-          "a": "Dort gibt es keine Autos mehr.",
+          "a": "Dort gibt es spezielle Autoparkhäuser am Bahnhof.",
           "b": "Dort hat fast jeder Einwohner ein Fahrrad.",
           "c": "Dort ist das Fahrradfahren kostenlos."
         }
@@ -712,7 +712,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "options": {
           "a": "Es ist gut für die Gesundheit und spart Geld.",
           "b": "Man sollte nur kurze Strecken fahren.",
-          "c": "Es ist besser als Sport im Fitnessstudio."
+          "c": "Man muss jeden Tag mindestens eine Stunde fahren, um fit zu bleiben."
         }
       }
     ],
@@ -752,7 +752,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "id": 7,
         "question": "Was ist ein Vorteil, wenn man einen Hund hat?",
         "options": {
-          "a": "Man spart Geld beim Einkaufen.",
+          "a": "Man spart Geld, weil ein Hund nicht viel kostet.",
           "b": "Man bewegt sich mehr und ist glücklicher.",
           "c": "Man muss nicht mehr in den Urlaub fahren."
         }
@@ -770,7 +770,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "id": 9,
         "question": "Was gilt für Hunde in öffentlichen Verkehrsmitteln in Deutschland?",
         "options": {
-          "a": "Hunde dürfen nie mitfahren.",
+          "a": "Nur große Hunde dürfen mitfahren, kleine nicht.",
           "b": "Kleine Hunde oder Hunde in Taschen dürfen oft mitfahren.",
           "c": "Alle Hunde dürfen kostenlos mitfahren."
         }
@@ -781,7 +781,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "options": {
           "a": "einen Hund in einem Zoogeschäft kaufen",
           "b": "zuerst einen Hund im Tierheim suchen",
-          "c": "mit dem Nachbarn sprechen, bevor man einen Hund kauft"
+          "c": "zuerst mit dem Tierarzt sprechen, bevor man einen Hund holt"
         }
       }
     ],
@@ -812,7 +812,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "id": 6,
         "question": "Wann ist der Wochenmarkt laut Text meistens geöffnet?",
         "options": {
-          "a": "den ganzen Tag, von morgens bis abends",
+          "a": "schon früh morgens, bleibt aber bis zum Abend geöffnet",
           "b": "früh morgens und schließt mittags",
           "c": "nur nachmittags und abends"
         }
@@ -830,7 +830,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "id": 8,
         "question": "Was bekommen Stammkunden auf dem Markt manchmal?",
         "options": {
-          "a": "einen Rabatt auf alle Produkte",
+          "a": "immer niedrigere Preise als im Supermarkt",
           "b": "eine Kundenkarte für den nächsten Einkauf",
           "c": "ein kleines Extra, zum Beispiel mehr Tomaten"
         }
@@ -849,7 +849,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "question": "Was ist der Wochenmarkt laut dem letzten Abschnitt? die lokale Wirtschaft",
         "options": {
           "a": "ein Ort, der nur zum Einkaufen da ist",
-          "b": "mehr als ein Einkaufsort — er verbindet Menschen und stärkt",
+          "b": "mehr als ein Einkaufsort — er verbindet Menschen und stärkt die lokale Wirtschaft",
           "c": "ein Ort, der bald durch Supermärkte ersetzt wird"
         }
       }
@@ -918,7 +918,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "question": "Wie unterstützen Kommunen das Ehrenamt laut Text? oder freien Eintritt in Schwimmbäder.",
         "options": {
           "a": "Sie zahlen allen Ehrenamtlichen ein monatliches Gehalt.",
-          "b": "Sie geben Freiwilligen zum Beispiel kostenlose Fahrkarten",
+          "b": "Sie geben Freiwilligen zum Beispiel kostenlose Fahrkarten.",
           "c": "Sie bauen neue Gebäude für Ehrenamtliche."
         }
       }
@@ -959,7 +959,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "id": 7,
         "question": "Was ist laut Text der größte Vorteil des Homeoffices?",
         "options": {
-          "a": "Man kann im Pyjama arbeiten.",
+          "a": "Man spart pro Woche bis zu zehn Stunden, weil der Arbeitsweg wegfällt.",
           "b": "Man spart Zeit und Geld durch den fehlenden Weg zur Arbeit.",
           "c": "Man bekommt mehr Gehalt."
         }
@@ -969,8 +969,8 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "question": "Welchen Nachteil nennt der Text für das Homeoffice? und Freizeit verschwimmen.",
         "options": {
           "a": "Die Technik funktioniert oft nicht.",
-          "b": "Man vermisst Kollegen und die Grenzen zwischen Arbeit",
-          "c": "Die Chefs kontrollieren die Mitarbeiter zu viel."
+          "b": "Man vermisst Kollegen, und ohne klare Grenzen zwischen Arbeit und Freizeit arbeitet man oft bis spät in die Nacht.",
+          "c": "Viele Arbeitnehmer sagen, dass sie sich zu Hause viel leichter ablenken lassen."
         }
       },
       {
@@ -978,8 +978,8 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "question": "Vor welcher besonderen Herausforderung stehen Eltern im Homeoffice? zu Hause sind.",
         "options": {
           "a": "Sie dürfen keine Meetings machen.",
-          "b": "Sie müssen die Kinder zur Schule bringen.",
-          "c": "Sie können nicht konzentriert arbeiten, wenn Kinder"
+          "b": "Sie arbeiten meistens am frühen Nachmittag, wenn die Kinder in der Schule sind.",
+          "c": "Sie können nicht konzentriert arbeiten, wenn ihre Kinder zu Hause sind und Betreuung brauchen."
         }
       },
       {
@@ -1021,7 +1021,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "options": {
           "a": "wie man ein Restaurant führt",
           "b": "wie viel Arbeit hinter dem Essen steckt",
-          "c": "wie man einen Supermarkt einkauft"
+          "c": "wie man Gemüse schneller wachsen lässt"
         }
       },
       {
@@ -1048,14 +1048,14 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "options": {
           "a": "Der Garten ist zu klein für alle Schüler.",
           "b": "Den Garten in den Sommerferien zu pflegen ist schwierig.",
-          "c": "Das Gemüse wird oft gestohlen."
+          "c": "Zu wenige Eltern sind bereit, im Garten zu helfen."
         }
       },
       {
         "id": 10,
         "question": "Wie unterstützt die Stadt München die Schulgärten?",
         "options": {
-          "a": "Sie schickt professionelle Gärtner in die Schulen.",
+          "a": "Sie gibt einmalig 5.000 Euro für den Bau eines Schulgartens.",
           "b": "Sie gibt 5.000 Euro pro Schule und Jahr.",
           "c": "Sie baut neue Gewächshäuser für die Schulen."
         }
@@ -1117,7 +1117,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "options": {
           "a": "Es gibt zu viele Bücher und zu wenig Platz.",
           "b": "In manchen Städten werden sie wegen fehlender Gelder geschlossen.",
-          "c": "Die Öffnungszeiten sind zu kurz."
+          "c": "Zu viele Menschen besuchen die Bibliothek gleichzeitig."
         }
       },
       {
@@ -1186,7 +1186,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "options": {
           "a": "Man schläft im Unterricht ein.",
           "b": "Man kann sich schlechter konzentrieren und isst mittags zu viel.",
-          "c": "Man wird krank."
+          "c": "Man isst am Abend viel mehr als sonst, weil man hungrig ist."
         }
       },
       {
@@ -1195,7 +1195,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "options": {
           "a": "gar nichts essen und warten bis zum Mittagessen",
           "b": "in ein Café gehen und dort frühstücken",
-          "c": "schnelle Optionen wie Joghurt, Obst oder ein"
+          "c": "schnelle Optionen wie Joghurt, Obst oder ein selbst gemachter Smoothie"
         }
       }
     ],
@@ -1245,7 +1245,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "question": "Was ist das Deutschlandticket? Verkehrsmittel in Deutschland",
         "options": {
           "a": "ein Ticket nur für ICE-Züge",
-          "b": "ein Ticket für 49 Euro pro Monat für alle öffentlichen",
+          "b": "ein Ticket für 49 Euro pro Monat für alle öffentlichen Verkehrsmittel",
           "c": "ein Ticket für Touristen aus anderen Ländern"
         }
       },
@@ -1304,8 +1304,8 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "id": 7,
         "question": "Was haben Forscher über Kinder, die ein Instrument spielen, herausgefunden? Mathematik und Sprachen.",
         "options": {
-          "a": "Sie sind sportlicher als andere Kinder.",
-          "b": "Sie zeigen oft bessere Schulleistungen, besonders in",
+          "a": "Sie haben ein schlechteres Gedächtnis als andere Kinder.",
+          "b": "Sie zeigen oft bessere Schulleistungen, besonders in Mathematik und Sprachen",
           "c": "Sie haben weniger Freunde als andere Kinder."
         }
       },
@@ -1323,7 +1323,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "question": "Was empfehlen Experten, wenn ein Kind ein Instrument aufgeben möchte? eine Lösung finden.",
         "options": {
           "a": "Das Kind soll unbedingt weitermachen.",
-          "b": "Man soll ruhig mit dem Kind sprechen und gemeinsam",
+          "b": "Man soll ruhig mit dem Kind sprechen und gemeinsam eine Lösung finden",
           "c": "Man soll sofort ein anderes Instrument suchen."
         }
       },
@@ -1333,7 +1333,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "options": {
           "a": "Erwachsene brauchen keine Musik mehr.",
           "b": "Musik ist für Erwachsene gefährlich.",
-          "c": "Musik reduziert Stress, macht glücklich und hält das"
+          "c": "Musik reduziert Stress, macht glücklich und hält das Gehirn aktiv"
         }
       }
     ],
@@ -1375,7 +1375,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "options": {
           "a": "weil Supermärkte in ihrer Nähe zu teuer sind",
           "b": "weil sie tolle und günstige Sachen findet",
-          "c": "weil sie keine Zeit hat, in Geschäfte zu gehen"
+          "c": "weil sie dort immer die günstigsten Preise Deutschlands findet"
         }
       },
       {
@@ -1400,7 +1400,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "id": 10,
         "question": "Warum schätzen umweltbewusste Menschen Flohmärkte? und die Umwelt schont",
         "options": {
-          "a": "weil die Produkte frisch und sauber sind",
+          "a": "weil sie damit die Produktion neuer Dinge unterstützen",
           "b": "weil der Eintritt immer kostenlos ist",
           "c": "weil man durch den Kauf gebrauchter Dinge Müll reduziert"
         }
@@ -1461,7 +1461,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "question": "Warum fällt der Schwimmunterricht an manchen Schulen laut Text aus? und viele Bäder schließen",
         "options": {
           "a": "weil die Lehrer nicht schwimmen können",
-          "b": "weil die Kinder keine Lust haben zu schwimmen",
+          "b": "weil in den letzten Jahren viele neue Schwimmbäder gebaut wurden",
           "c": "weil Schulen weit vom nächsten Schwimmbad entfernt sind"
         }
       },
@@ -1470,7 +1470,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
         "question": "Was empfiehlt der Text, damit Kinder sicherer im Wasser werden? gehen und Kinder früh ans Wasser gewöhnen.",
         "options": {
           "a": "Kinder sollten jeden Tag ins Meer gehen.",
-          "b": "Eltern sollten regelmäßig mit dem Kind ins Schwimmbad",
+          "b": "Eltern sollten regelmäßig mit dem Kind ins Schwimmbad gehen",
           "c": "Kinder sollten erst ab zwölf Jahren schwimmen lernen."
         }
       }
