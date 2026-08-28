@@ -77,7 +77,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
       },
       {
         "id": 3,
-        "content": "Eine Untersuchung der Universität Hamburg zeigt, dass Tiere einen positiven Einfluss auf das Arbeitsklima haben können. Für die Studie wurden 1.200 Mitarbeiter in verschiedenen Unternehmen befragt. In Firmen, in denen Hunde erlaubt sind, fühlen sich die Angestellten deutlich wohlwer und haben weniger Angst vor Stress. Die Forscher sagen, dass die Präsenz von Tieren die Herzfrequenz senkt und für bessere Laune sorgt."
+        "content": "Eine Untersuchung der Universität Hamburg zeigt, dass Tiere einen positiven Einfluss auf das Arbeitsklima haben können. Für die Studie wurden 1.200 Mitarbeiter in verschiedenen Unternehmen befragt. In Firmen, in denen Hunde erlaubt sind, fühlen sich die Angestellten deutlich wohler und haben weniger Angst vor Stress. Die Forscher sagen, dass die Präsenz von Tieren die Herzfrequenz senkt und für bessere Laune sorgt."
       },
       {
         "id": 4,
@@ -181,7 +181,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
       },
       {
         "id": 5,
-        "content": "KÖLN. Trotz der Diskussionen über CO2-Emissionen und den Klimawandel verzeichnen die deutschen Flughäfen in diesem Jahr einen neuen Passagierrekord. Besonders die Buchungen für Kurzstreckenflüge innerhalb Europas sind im Vergleich zum Vorjahr um 12 Prozent gestiegen. Viele Reisende geben an, dass die Bahn oft keine echte Alternative ist, weil sie unpünktlich veya zu teuer ist."
+        "content": "KÖLN. Trotz der Diskussionen über CO2-Emissionen und den Klimawandel verzeichnen die deutschen Flughäfen in diesem Jahr einen neuen Passagierrekord. Besonders die Buchungen für Kurzstreckenflüge innerhalb Europas sind im Vergleich zum Vorjahr um 12 Prozent gestiegen. Viele Reisende geben an, dass die Bahn oft keine echte Alternative ist, weil sie unpünktlich oder zu teuer ist."
       }
     ],
     "answers": {
@@ -793,7 +793,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_B1 = [
     "emoji": "📚",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "Die Digitalisierung verändert unser Leseverhalten grundlegend. Immer mehr Menschen nutzen E-Books oder hören Hörbücher auf ihrem Smartphone. Moderne Bibliotheken müssen sich deshalb neu erfinden, um attraktiv zu bleiben.\n\nLaut einer Statistik des Deutschen Bibliotheksverbandes besuchen zwar immer noch Millionen Menschen jährlich eine Bücherei, aber die Ausleihe von klassischen Büchern geht seit Jahren leicht zurück. Gleichzeitig steigt die Nachfrage nach digitalen Angeboten, der sogenannten „Onleihe“. Viele Nutzer schätzen es, rund um die Uhr und von überall aus ein neues Buch auf ihren E-Reader laden zu können, ohne das Haus verlassen zu müssen.\n\nDie 22-jährige Studentin Julia Bauer aus München nutzt die Stadtbibliothek kaum noch wegen der gedruckten Bücher. „Ich gehe dorthin, weil es ein wunderbarer, ruhiger Ort zum Lernen ist“, erzählt sie. Die Bibliothek bietet schnelles WLAN, moderne Arbeitsplätze und Kaffeeecken, in denen man sich mit anderen Studierenden austauschen kann. „Für mich ist die Bibliothek eher ein Kultur- und Lernzentrum als ein reines Bücherlager“, sagt Julia. Dennoch leiht sie sich Fachliteratur meistens nur noch digital aus.\n\nEin treuer Fan des gedruckten Buches ist dagegen der Rentner Herbert Krause (68). Er kann sich nicht an die digitalen Bildschirme gewöhnen. „Für mich gehört das Gefühl, ein echtes Buch in den Händen zu halten und umzublättern, einfach zum Lesen dazu“, erklärt er. Einmal pro Woche geht er in die kleine Stadtteilbibliothek in seinem Viertel, um Romane auszuleihen und sich mit den Mitarbeitern zu unterhalten. Für ihn ist der persönliche Kontakt vor Ort besonders wichtig.\n\nDie Kulturexpertin Dr. Sabine Lang betont, dass Bibliotheken in der modernen Gesellschaft eine neue Rolle einnehmen müssen. Sie sollten sich zu „dritten Orten“ entwickeln – Plätzen abseits von Wohnunghaus und Arbeitsplatz, an denen Menschen Zeit verbringen und kommunizieren können. „Bibliotheken sterben nicht aus, sie verändern sich nur. Sie werden zu Treffpunkten für Kreativität, in denen auch Kurse für Programmieren oder Lesungen stattfinden“, erklärt Lang.\n\nExperten empfehlen den Kommunen daher, Bibliotheken finanziell zu unterstützen, damit diese in moderne Technik und gemütliche Räume investieren können. Wenn sich die Büchereien den Bedürfnissen der modernen Gesellschaft anpassen, bleiben sie auch in Zukunft unverzichtbare Orte der Bildung.",
+    "text": "Die Digitalisierung verändert unser Leseverhalten grundlegend. Immer mehr Menschen nutzen E-Books oder hören Hörbücher auf ihrem Smartphone. Moderne Bibliotheken müssen sich deshalb neu erfinden, um attraktiv zu bleiben.\n\nLaut einer Statistik des Deutschen Bibliotheksverbandes besuchen zwar immer noch Millionen Menschen jährlich eine Bücherei, aber die Ausleihe von klassischen Büchern geht seit Jahren leicht zurück. Gleichzeitig steigt die Nachfrage nach digitalen Angeboten, der sogenannten „Onleihe“. Viele Nutzer schätzen es, rund um die Uhr und von überall aus ein neues Buch auf ihren E-Reader laden zu können, ohne das Haus verlassen zu müssen.\n\nDie 22-jährige Studentin Julia Bauer aus München nutzt die Stadtbibliothek kaum noch wegen der gedruckten Bücher. „Ich gehe dorthin, weil es ein wunderbarer, ruhiger Ort zum Lernen ist“, erzählt sie. Die Bibliothek bietet schnelles WLAN, moderne Arbeitsplätze und Kaffeeecken, in denen man sich mit anderen Studierenden austauschen kann. „Für mich ist die Bibliothek eher ein Kultur- und Lernzentrum als ein reines Bücherlager“, sagt Julia. Dennoch leiht sie sich Fachliteratur meistens nur noch digital aus.\n\nEin treuer Fan des gedruckten Buches ist dagegen der Rentner Herbert Krause (68). Er kann sich nicht an die digitalen Bildschirme gewöhnen. „Für mich gehört das Gefühl, ein echtes Buch in den Händen zu halten und umzublättern, einfach zum Lesen dazu“, erklärt er. Einmal pro Woche geht er in die kleine Stadtteilbibliothek in seinem Viertel, um Romane auszuleihen und sich mit den Mitarbeitern zu unterhalten. Für ihn ist der persönliche Kontakt vor Ort besonders wichtig.\n\nDie Kulturexpertin Dr. Sabine Lang betont, dass Bibliotheken in der modernen Gesellschaft eine neue Rolle einnehmen müssen. Sie sollten sich zu „dritten Orten“ entwickeln – Plätzen abseits von Zuhause und Arbeitsplatz, an denen Menschen Zeit verbringen und kommunizieren können. „Bibliotheken sterben nicht aus, sie verändern sich nur. Sie werden zu Treffpunkten für Kreativität, in denen auch Kurse für Programmieren oder Lesungen stattfinden“, erklärt Lang.\n\nExperten empfehlen den Kommunen daher, Bibliotheken finanziell zu unterstützen, damit diese in moderne Technik und gemütliche Räume investieren können. Wenn sich die Büchereien den Bedürfnissen der modernen Gesellschaft anpassen, bleiben sie auch in Zukunft unverzichtbare Orte der Bildung.",
     "questions": [
       {
         "id": 6,
@@ -2343,95 +2343,95 @@ const LESEVERSTEHEN_TEIL_3_DATA_B1 = [
   },
   {
     "id": "lese_3_11",
-    "title": "Thailändische Küche & Küchengeräte",
-    "emoji": "🍤",
+    "title": "Koreanische Küche & Umzugshilfe",
+    "emoji": "🥢",
     "type": "teil3",
     "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
-      "11": "Sie möchten am Samstagabend mit Freunden ein neues Restaurant ausprobieren, das scharfe thailändische Suppen und traditionelles Pad Thai in Bahnhofsnähe anbietet.",
-      "12": "Ihr Bekannter zieht um und sucht jemanden, der ihm am Wochenende hilft, die alten Küchenwände neu zu streichen und die Küchengeräte anzuschließen.",
-      "13": "Die Tochter Ihrer Kollegin ist 17 Jahre alt und möchte in den Sommerferien ein unbezahltes, zweiwöchiges Praktikum im Bereich Eventmanagement und Hochzeitsplanung machen.",
-      "14": "Ihr Bruder hat ein gebrauchtes Mountainbike gekauft und sucht einen Wochenendkurs für Anfänger, um zu lernen, wie man die Gangschaltung einstellt und die Kette richtig pflegt.",
-      "15": "Ihre Kollegin möchte sich in ihrer Freizeit ehrenamtlich (ohne Geld) für obdachlose Menschen engagieren und sucht ein Projekt, bei dem man am Wochenende in einer Küche warmes Essen ausgibt.",
-      "16": "Ihr Nachbar hat zwei kleine Landschildkröten und sucht eine Person, die während seines einwöchigen Urlaubs täglich kommt, um den Salat zu füttern und das Wasser zu wechseln.",
-      "17": "Sie suchen für Sonntagmittag ein gemütliches Restaurant mit traditioneller deutscher Küche, um mit Ihren Verwandten Sauerbraten oder Kalbsschnitzel zu essen.",
-      "18": "Ihr Cousin arbeitet im internationalen Support, spricht bereits gut Deutsch (B1) und möchte einen intensiven Abendkurs besuchen, um das professionelle und deeskalierende Telefonieren mit Kunden zu üben.",
-      "19": "Die Mutter Ihres Freundes möchte im Urlaub fit bleiben und sucht ein Hotel am See, das tägliche Pilates-Kurse und einen großen Wellnessbereich anbietet.",
-      "20": "Ihr Kollege möchte nächstes Jahr nach Norwegen reisen, hat keine Vorkenntnisse und sucht einen Norwegischkurs, der ausschließlich am frühen Samstagnachmittag stattfindet."
+      "11": "Sie möchten am Freitagabend mit Freunden ein neues Restaurant ausprobieren, das scharfe koreanische Gerichte wie Kimchi und Bibimbap in der Innenstadt anbietet.",
+      "12": "Ihr Bekannter zieht um und sucht ein Team, das ihm am Samstag hilft, seine schweren Möbel in den vierten Stock ohne Aufzug zu tragen.",
+      "13": "Die Tochter Ihrer Nachbarin ist 16 Jahre alt und möchte in den Sommerferien ein unbezahltes, zweiwöchiges Praktikum bei einer Lokalzeitung im Bereich Journalismus machen.",
+      "14": "Ihr Bruder hat einen gebrauchten E-Scooter gekauft und sucht einen Wochenendkurs für Anfänger, um die Grundlagen der Akku-Pflege und der Bremsen kennenzulernen.",
+      "15": "Ihre Kollegin möchte sich in ihrer Freizeit ehrenamtlich (ohne Geld) engagieren und sucht ein Projekt, bei dem man Kindern im Krankenhaus an Wochentagen am Nachmittag vorliest.",
+      "16": "Ihr Nachbar hat einen Papagei und sucht eine zuverlässige Person, die während seiner zehntägigen Reise täglich nach dem Tier sieht.",
+      "17": "Sie suchen für Sonntagmittag ein Restaurant mit klassischer französischer Küche, um mit Ihrer Partnerin Coq au Vin oder Ratatouille zu essen.",
+      "18": "Ihre Cousine arbeitet im Personalwesen, spricht bereits gut Deutsch (B1) und möchte einen Abendkurs besuchen, um das Verfassen von Mitarbeiterbeurteilungen zu üben.",
+      "19": "Die Mutter Ihres Freundes möchte im Urlaub entspannen und sucht ein Hotel in den Bergen mit täglich geführten Wanderungen und einem großen Wellnessbereich.",
+      "20": "Ihr Kollege möchte Niederländisch lernen, hat keine Vorkenntnisse und sucht einen Kurs, der ausschließlich am frühen Dienstagabend stattfindet."
     },
     "ads": {
       "a": {
-        "title": "Chili & Lemongrass – Thailändische Küche",
-        "body": "Erleben Sie die echten Aromen Thailands direkt im Stadtzentrum, nur 5 Minuten zu Fuß vom Hauptbahnhof entfernt! Wir bieten scharfe Suppen, traditionelles Pad Thai vom Wok und eine große Auswahl an vegetarischen Speisen.\nÖffnungszeiten: Di.–Sa. 17:30–23:00 Uhr. Sonntags und montags geschlossen.\nReservierung erbeten unter Tel. 030-44 33 22."
+        "title": "Seoul Kitchen – Koreanische Spezialitäten",
+        "body": "Erleben Sie die würzigen Aromen Koreas mitten in der Innenstadt! Wir bieten Kimchi, Bibimbap und knuspriges Korean Fried Chicken.\nÖffnungszeiten: Di.–Sa. 17:30–23:00 Uhr. Sonntags und montags geschlossen.\nReservierung erbeten unter Tel. 030-66 55 44."
       },
       "b": {
-        "title": "Handwerkerservice „Die Renovierungsprofis“",
-        "body": "Sie planen eine Veränderung in Ihrer Wohnung? Unser professionelles Team übernimmt das Streichen von Wänden, das Anschließen von Küchengeräten sowie kleinere Malerarbeiten.\nArbeitszeiten: Montag bis Freitag von 8:00 bis 17:00 Uhr. Kontakt: info@renovierungprofis-berlin.de."
+        "title": "Umzugsteam Kraft & Sorgfalt",
+        "body": "Wir tragen Ihre Möbel sicher in jedes Stockwerk – auch ohne Aufzug! Unser erfahrenes Team packt, trägt und montiert bei Bedarf.\nEinsatzzeiten: Montag bis Freitag von 8:00 bis 18:00 Uhr.\nKostenloses Angebot: www.kraft-sorgfalt-umzuege.de."
       },
       "c": {
-        "title": "Fahrrad-Akademie „Do It Yourself“",
-        "body": "Haben Sie ein gebrauchtes Mountainbike oder Trekkingrad gekauft und möchten kleinere Wartungsarbeiten selbst erlernen? In unserem zweitägigen Workshop am Samstag und Sonntag (jeweils 10:00–15:00 Uhr) zeigen wir Anfängern, wie man die Gangschaltung einstellt, Reifen flickt und die Kette optimal pflegt.\nAnmeldung und Infos: www.diy-fahrrad-akademie.de."
+        "title": "Scooter-Werkstatt „Volt & Watt“",
+        "body": "Haben Sie einen gebrauchten E-Scooter gekauft? In unserem zweitägigen Workshop am Samstag und Sonntag (jeweils 10:00–14:00 Uhr) zeigen wir Anfängern, wie man den Akku richtig pflegt, die Bremsen einstellt und kleinere Fehler selbst behebt.\nAnmeldung: www.volt-watt-werkstatt.de."
       },
       "d": {
-        "title": "Berliner Tafel e.V. – Aktiv gegen Armut",
-        "body": "Möchten Sie sich in Ihrer Freizeit ehrenamtlich engagieren? Unser Verein sucht freiwillige Helfer für die Unterstützung von Menschen in schwierigen Lebenslagen. Helfen Sie uns am Samstag und Sonntag bei der Zubereitung und Ausgabe von warmen Mahlzeiten in unserer Suppenküche. Die Teilnahme ist unbezahlt.\nInfos: www.berliner-tafel-aktiv.de."
+        "title": "Praktikum bei der Lokalzeitung „Stadtecho“",
+        "body": "Wir bieten Schülerinnen und Schülern ab 15 Jahren die Möglichkeit, während der Schulferien ein zweiwöchiges Praktikum in der Redaktion kennenzulernen: Recherche, Interviews und das Schreiben kurzer Artikel.\nUnvergütetes Praktikum. Bewerbung per E-Mail an: praktikum@stadtecho-zeitung.de."
       },
       "e": {
-        "title": "Kleintier-Betreuung „Zuhause in Sicherheit“",
-        "body": "Gehen Sie entspannt in den Urlaub! Unser professioneller Service betreut Ihre Vögel, Schildkröten oder Nagetiere direkt bei Ihnen zu Hause. Wir kommen täglich vorbei, füttern die Tiere nach Ihren Vorgaben, wechseln das Wasser und reinigen die Gehege.\nKontakt: Tel. 069-77 66 55."
+        "title": "Vorlesepaten für Kinderklinik e.V.",
+        "body": "Möchten Sie sich ehrenamtlich engagieren? Unser Verein sucht freiwillige Vorlesepaten, die kranken Kindern in der Klinik an Wochentagen am Nachmittag Geschichten vorlesen. Die Teilnahme ist unbezahlt und flexibel möglich.\nInfos: www.vorlesepaten-klinik.de."
       },
       "f": {
-        "title": "Telefontraining Deutsch für den Beruf (B1/B2)",
-        "body": "Möchten Sie im Beruf sicherer, freundlicher und professioneller mit Kunden am Telefon kommunizieren? In diesem Intensivkurs üben wir das Führen von schwierigen Kundengesprächen, deeskalierende Formulierungen und wichtige Redewendungen für den Support.\nKurszeiten: Jeden Dienstag und Donnerstag von 18:30 bis 20:00 Uhr. Dauer: 6 Wochen.\nInfos unter: www.business-sprachen-welt.de."
+        "title": "Vogel-Sitting „Federfreunde“",
+        "body": "Gehen Sie entspannt in den Urlaub! Unser Service betreut Papageien, Wellensittiche und andere Ziervögel direkt bei Ihnen zu Hause. Wir kommen täglich vorbei, füttern die Tiere und reinigen den Käfig.\nKontakt: Tel. 069-33 22 11."
       },
       "g": {
-        "title": "See-Hotel „Balance & Wellness“",
-        "body": "Verbringen Sie erholsame und aktive Tage direkt am Plauer See! Unser Hotel bietet moderne Zimmer, einen großen Wellnessbereich mit verschiedenen Saunen und ein tägliches Sportprogramm mit geführten Pilates- und Yoga-Kursen für Anfänger im hoteleigenen Pavillon.\nAngebote und Buchung: info@see-hotel-balance.de."
+        "title": "Personalwesen-Deutsch: Beurteilungen schreiben (B1/B2)",
+        "body": "Möchten Sie im Beruf sicherer schriftliche Mitarbeiterbeurteilungen und Feedbackgespräche vorbereiten? In diesem Intensivkurs üben wir das Verfassen von klaren, fairen Beurteilungstexten nach aktuellen Standards.\nKurszeiten: Jeden Mittwoch von 18:30 bis 20:00 Uhr. Dauer: 5 Wochen.\nInfos unter: www.business-sprachen-welt.de."
       },
       "h": {
-        "title": "Sprachschule Lingua – Norwegisch am Wochenende",
-        "body": "Wochenendkurs Norwegisch A1 für absolute Anfänger ohne Vorkenntnisse. Bereiten Sie sich entspannt auf Ihren nächsten Urlaub vor. Lernen Sie die wichtigsten Vokabeln und Redewendungen für den Alltag.\nKursdauer: 8 Wochen, jeden Samstag von 14:00 bis 17:00 Uhr.\nAnmeldung: www.lingua-schule.de."
+        "title": "Berghotel „Gipfelblick & Wanderlust“",
+        "body": "Verbringen Sie erholsame Tage mitten in den Alpen! Unser Hotel bietet einen großen Wellnessbereich mit Sauna und Massagen sowie täglich geführte Wanderungen für alle Kondition-Level, direkt ab dem Hoteleingang.\nAngebote und Buchung: info@gipfelblick-hotel.de."
       },
       "i": {
-        "title": "Deutsches Haus – Traditionelle Küche",
-        "body": "Genießen Sie klassische deutsche Gerichte wie Schweinebraten und frische Salate in gemütlicher Atmosphäre. Großer Biergarten für sonnige Tage. Ideal für Familienfeiern am Wochenende.\nÖffnungszeiten: Di.–Sa. 12:00–15:00 Uhr und 17:30–22:00 Uhr. Sonntags Ruhetag.\nHauptstraße 45, Tel. 089-44 55 66."
+        "title": "Sprachschule Lingua – Niederländisch am Dienstag",
+        "body": "Wochenkurs Niederländisch A1 für absolute Anfänger ohne Vorkenntnisse. Lernen Sie die wichtigsten Vokabeln und Redewendungen für den Alltag.\nKurszeiten: Jeden Dienstag von 18:00 bis 19:30 Uhr. Kursdauer: 8 Wochen.\nAnmeldung: www.lingua-schule.de."
       },
       "j": {
-        "title": "Praktikum in der Agentur „KreativHochzeit“",
-        "body": "Wir bieten Schülerinnen und Schülern ab 15 Jahren die Möglichkeit, während der Schulferien ein zweiwöchiges Praktikum im Bereich Eventmanagement und Hochzeitsplanung zu absolvieren. Lerne die Organisation von großen Feiern und den Kundenkontakt kennen!\nKurze Bewerbung per E-Mail an: kreativ@hochzeit-agentur.de."
+        "title": "Bistro Provence – Französische Küche",
+        "body": "Genießen Sie klassische französische Gerichte wie Coq au Vin, Ratatouille und frische Baguettes in gemütlicher Atmosphäre.\nÖffnungszeiten: Di.–Sa. 18:00–23:00 Uhr. Sonntags und montags geschlossen.\nReservierung erbeten: Tel. 089-22 11 00."
       },
       "k": {
-        "title": "Praktikum bei EventDesign Berlin",
-        "body": "Wir bieten Studentinnen und Studenten der Betriebswirtschaftslehre ein dreimonatiges, unvergütetes Pflichtpraktikum im Bereich internationales Event-Marketing und Projektmanagement für Großveranstaltungen an.\nBeginn: flexibel im Sommer. Bewerbung an: jobs@eventdesign-berlin.de."
+        "title": "Asia Grill Express",
+        "body": "Schnelle asiatische Küche zum Mitnehmen oder vor Ort essen – von Nudeln bis Sushi. Ideal für die Mittagspause!\nÖffnungszeiten: Mo.–Fr. 11:00–15:00 Uhr. Am Wochenende geschlossen.\nMarktstraße 8, Tel. 0221-99 88 77."
       },
       "l": {
-        "title": "Restaurant Schnitzelparadies",
-        "body": "Traditionelle deutsche Küche in gemütlicher Atmosphäre. Große Auswahl an Schnitzeln, Steaks und klassischen Fleischgerichten wie Sauerbraten oder Kalbsschnitzel. Ideal für Familienfeiern am Sonntagmittag.\nGeöffnet täglich ab 11:30 Uhr. Mittwochs Ruhetag.\nReservierung erbeten: Tel. 0711-33 44 55."
+        "title": "Sprachschule Lingua – Niederländisch am Donnerstag",
+        "body": "Wochenkurs Niederländisch A2 für Teilnehmende mit ersten Vorkenntnissen. Vertiefen Sie Grammatik und Wortschatz für den Alltag.\nKurszeiten: Jeden Donnerstag von 18:00 bis 19:30 Uhr. Kursdauer: 8 Wochen.\nAnmeldung: www.lingua-schule.de."
       }
     },
     "answers": {
       "11": "a",
       "12": "x",
-      "13": "j",
+      "13": "d",
       "14": "c",
-      "15": "d",
-      "16": "e",
-      "17": "l",
-      "18": "f",
-      "19": "g",
-      "20": "h"
+      "15": "e",
+      "16": "f",
+      "17": "x",
+      "18": "g",
+      "19": "h",
+      "20": "i"
     },
     "explanations": {
-      "11": "Chili & Lemongrass: Thailändisch, scharfe Suppen/Pad Thai, in Bahnhofsnähe, Samstagabend geöffnet",
-      "12": "Der Renovierungsservice in Anzeige b bietet Wandstreichen und den Anschluss von Geräten an, arbeitet aber nur unter der Woche (\"Montag bis Freitag\"). Die Person in Situation 12 sucht jedoch Hilfe am Wochenende, weshalb diese Anzeige nicht passt. Die Antwort ist X.",
-      "13": "Agentur KreativHochzeit: geeignet für Schüler/Jugendliche, zweiwöchiges Ferienpraktikum, Eventmanagement/Hochzeitsplanung",
-      "14": "Fahrrad-Akademie: Reparatur/Wartung/Gangschaltung an Mountainbikes, Wochenendkurs für Anfänger",
-      "15": "Berliner Tafel e.V.: ehrenamtlich/unbezahlt, Suppenküche/Essensausgabe für Obdachlose, am Wochenende möglich",
-      "16": "Kleintier-Betreuung: Schildkrötenbetreuung zu Hause, tägliche Fütterung und Wasserwechsel",
-      "17": "Restaurant Schnitzelparadies: traditionelle deutsche Küche, Sauerbraten/Kalbsschnitzel, Sonntagmittag geöffnet, ideal für Familien",
-      "18": "Telefontraining: passend für Niveau B1, Schwerpunkt Telefonsupport und deeskalierendes Krisenmanagement, Dienstag und Donnerstag 18:30-20:00 Uhr (Abendkurs)",
-      "19": "See-Hotel Balance: am See, mit großem Wellnessbereich und täglichem Pilateskurs",
-      "20": "Norwegisch am Wochenende: Anfängerniveau A1, samstags am Nachmittag 14:00-17:00 Uhr"
+      "11": "Seoul Kitchen: Koreanisch, würzige Gerichte, Innenstadt, Freitagabend geöffnet",
+      "12": "Das Umzugsteam in Anzeige b trägt zwar Möbel in jedes Stockwerk, arbeitet aber nur unter der Woche (\"Montag bis Freitag\"). Die Person in Situation 12 sucht jedoch Hilfe am Samstag, weshalb diese Anzeige nicht passt. Die Antwort ist X.",
+      "13": "Praktikum Stadtecho: geeignet für Schüler ab 15 Jahren, zweiwöchiges Ferienpraktikum, Journalismus/Redaktion",
+      "14": "Scooter-Werkstatt Volt & Watt: Akku-Pflege und Bremsen für E-Scooter, Wochenendkurs für Anfänger",
+      "15": "Vorlesepaten für Kinderklinik: ehrenamtlich/unbezahlt, Vorlesen für kranke Kinder, an Wochentagen am Nachmittag",
+      "16": "Vogel-Sitting Federfreunde: Betreuung von Papageien, tägliche Besuche während der Reise",
+      "17": "Das französische Restaurant in Anzeige j bietet zwar Coq au Vin und Ratatouille an, ist aber nur abends geöffnet (\"18:00–23:00 Uhr\"). Die Person in Situation 17 sucht jedoch ein Mittagessen am Sonntag, weshalb diese Anzeige nicht passt. Die Antwort ist X.",
+      "18": "Personalwesen-Deutsch: passend für Niveau B1, Schwerpunkt Mitarbeiterbeurteilungen, mittwochs 18:30-20:00 Uhr (Abendkurs)",
+      "19": "Berghotel Gipfelblick: in den Alpen/Bergen, mit Wellnessbereich und täglich geführten Wanderungen",
+      "20": "Niederländisch am Dienstag: Anfängerniveau A1, dienstags 18:00-19:30 Uhr (früher Abendkurs)"
     }
   },
   {
@@ -2459,7 +2459,7 @@ const LESEVERSTEHEN_TEIL_3_DATA_B1 = [
       },
       "b": {
         "title": "Handwerkerservice „Die Renovierungsexperten“",
-        "body": "Sie planen eine Veränderung in Ihrer Wohnung? Unser professionelles Team übernimmt das Tapezieren von Wänden, den Austausch von Türschlössern sowie das Verlegen von Böden.\nArbeitszeiten: Montag bis Freitag von 8:00 bis 17:00 Uhr. Contact: info@renovierungsexperten.de."
+        "body": "Sie planen eine Veränderung in Ihrer Wohnung? Unser professionelles Team übernimmt das Tapezieren von Wänden, den Austausch von Türschlössern sowie das Verlegen von Böden.\nArbeitszeiten: Montag bis Freitag von 8:00 bis 17:00 Uhr. Kontakt: info@renovierungsexperten.de."
       },
       "c": {
         "title": "Fahrrad-Akademie „Do It Yourself“",

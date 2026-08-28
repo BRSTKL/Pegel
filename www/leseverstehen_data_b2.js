@@ -2,7 +2,7 @@
 const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
   {
     "id": "lese_1_1",
-    "title": "Gesundheit & Ernaehrung",
+    "title": "Gesundheit & Ernährung",
     "emoji": "🍏",
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
@@ -21,23 +21,23 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "texts": [
       {
         "id": 1,
-        "content": "Eine neue Untersuchung der Universität Hamburg zeigt, dass viele Jugendliche deutlich zu wenig schlafen. Befragt wurden 1.800 Schülerinnen und Schüler zwischen 13 und 18 Jahren. Fast die Hälfte gab an, unter der Woche weniger als sieben Stunden zu schlafen. Mediziner betonen, dass Heranwachsende eigentlich neun Stunden Schlaf benötigen. Wer dauerhaft zu kurz schläft, hat häufiger Konzentrationsprobleme und ist anfälliger für Krankheiten."
+        "content": "Eine aktuelle Untersuchung der Universität Hamburg legt offen, dass ein erheblicher Teil der Jugendlichen deutlich zu wenig schläft. Im Rahmen der Studie wurden 1.800 Schülerinnen und Schüler im Alter zwischen 13 und 18 Jahren befragt, wobei sich herausstellte, dass fast die Hälfte von ihnen unter der Woche weniger als sieben Stunden Schlaf bekommt. Mediziner weisen darauf hin, dass Heranwachsende eigentlich auf neun Stunden angewiesen wären, um sich ausreichend zu erholen. Wer dauerhaft zu wenig schläft, riskiert nicht nur anhaltende Konzentrationsprobleme, sondern schwächt auch nachweislich sein Immunsystem, wodurch die Anfälligkeit für Krankheiten zunimmt."
       },
       {
         "id": 2,
-        "content": "In einer Grundschule in Freiburg gibt es seit diesem Jahr ein besonderes Angebot: Einmal pro Woche dürfen die Kinder in der Schulküche gemeinsam gesunde Gerichte zubereiten. Die Kurse sind für die Familien kostenlos und werden von der Stadt bezahlt. Die Lehrerinnen berichten, dass die Kinder seitdem viel mehr Gemüse essen und sogar zu Hause neue Rezepte ausprobieren. Die Nachfrage ist so groß, dass weitere Schulen mitmachen wollen."
+        "content": "An einer Grundschule in Freiburg wird seit diesem Schuljahr ein besonderes Konzept erprobt: Einmal wöchentlich bereiten die Kinder in der schuleigenen Küche gemeinsam gesunde Gerichte zu, wobei die Kurse den Familien kostenlos zur Verfügung gestellt und von der Stadt finanziert werden. Den Lehrkräften zufolge hat sich der Gemüsekonsum der Kinder seither deutlich erhöht, und viele probieren die erlernten Rezepte sogar zu Hause aus. Angesichts der großen Nachfrage erwägen inzwischen weitere Schulen, sich dem Projekt anzuschließen."
       },
       {
         "id": 3,
-        "content": "Viele Restaurants und Supermärkte werfen jeden Tag große Mengen an Lebensmitteln weg, obwohl diese noch gut sind. Eine Initiative in München will das ändern. Über eine Internetplattform können Betriebe ihre Reste günstig anbieten, bevor sie im Müll landen. Studien zeigen, dass in Deutschland pro Jahr Millionen Tonnen Essen verschwendet werden. Die Organisatoren hoffen, dass immer mehr Geschäfte mitmachen und so weniger weggeworfen wird."
+        "content": "Täglich werden in zahlreichen Restaurants und Supermärkten beträchtliche Mengen an Lebensmitteln entsorgt, obwohl diese durchaus noch genießbar wären. Eine Münchner Initiative setzt sich zum Ziel, dieser Verschwendung entgegenzuwirken: Über eine eigens dafür geschaffene Internetplattform können Betriebe überschüssige Ware vergünstigt anbieten, bevor sie im Müll landet. Wie Studien belegen, werden in Deutschland jährlich mehrere Millionen Tonnen Lebensmittel weggeworfen. Die Organisatoren hoffen, dass sich zunehmend mehr Geschäfte an der Plattform beteiligen und auf diese Weise die Verschwendung spürbar reduziert werden kann."
       },
       {
         "id": 4,
-        "content": "KÖLN. In den Kantinen vieler Unternehmen verändert sich das Angebot. Immer mehr Beschäftigte wählen mittags fleischlose Gerichte. Eine Betreiberfirma berichtet, dass der Anteil vegetarischer Mahlzeiten in nur zwei Jahren von 20 auf über 40 Prozent gestiegen ist. Als Gründe nennen die Gäste sowohl die Gesundheit als auch den Umweltschutz. Einige Kantinen bieten inzwischen sogar mehr vegetarische als fleischhaltige Speisen an."
+        "content": "KÖLN. In den Betriebskantinen zahlreicher Unternehmen vollzieht sich derzeit ein bemerkenswerter Wandel des Speiseangebots: Immer mehr Beschäftigte entscheiden sich mittags für fleischlose Gerichte. Einem Kantinenbetreiber zufolge ist der Anteil vegetarischer Mahlzeiten innerhalb von nur zwei Jahren von 20 auf über 40 Prozent gestiegen. Als Beweggründe nennen die Gäste sowohl gesundheitliche Erwägungen als auch den Wunsch, zum Umweltschutz beizutragen. Einige Kantinen bieten mittlerweile sogar ein umfangreicheres vegetarisches als fleischhaltiges Angebot an."
       },
       {
         "id": 5,
-        "content": "Eine Schule in Leipzig hat ein neues Konzept eingeführt: In den großen Pausen machen alle Klassen gemeinsam kurze Bewegungsübungen auf dem Schulhof. Die Idee stammt von einer Sportlehrerin. Nach einigen Monaten zeigte sich, dass die Schülerinnen und Schüler danach aufmerksamer im Unterricht waren. Auch die Zahl der Streitereien ging zurück. Die Schulleitung möchte das Programm deshalb dauerhaft beibehalten."
+        "content": "Eine Schule in Leipzig hat ein neuartiges Konzept eingeführt, bei dem sämtliche Klassen in den großen Pausen gemeinsam kurze Bewegungsübungen auf dem Schulhof absolvieren. Die Idee, die auf eine Sportlehrerin zurückgeht, zeigte bereits nach wenigen Monaten Wirkung: Die Schülerinnen und Schüler waren im Anschluss deutlich aufmerksamer im Unterricht, und auch die Zahl der Konflikte untereinander ging spürbar zurück. Angesichts dieser positiven Bilanz beabsichtigt die Schulleitung, das Programm dauerhaft beizubehalten."
       }
     ],
     "answers": {
@@ -69,23 +69,23 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "texts": [
       {
         "id": 1,
-        "content": "In einer Volkshochschule in Dortmund gibt es seit Kurzem spezielle Kurse für Menschen über 65 Jahre. Dort lernen die Teilnehmenden Schritt für Schritt, wie man ein Smartphone bedient, Nachrichten verschickt oder online einen Arzttermin vereinbart. Die Kurse sind gratis und sehr gut besucht. Viele ältere Teilnehmer berichten, dass sie sich danach sicherer im Alltag fühlen und leichter mit ihren Enkeln in Kontakt bleiben."
+        "content": "An einer Volkshochschule in Dortmund werden seit Kurzem spezielle Kurse für Menschen über 65 Jahre angeboten, in denen die Teilnehmenden Schritt für Schritt lernen, wie man ein Smartphone bedient, Nachrichten verschickt oder online einen Arzttermin vereinbart. Da die Kurse kostenlos sind, erfreuen sie sich regen Zulaufs. Zahlreiche ältere Teilnehmer berichten, dass sie sich seither sicherer im digitalen Alltag bewegen und dank der neu erworbenen Kenntnisse leichter mit ihren Enkelkindern in Kontakt bleiben können."
       },
       {
         "id": 2,
-        "content": "Eine Gruppe von Schülerinnen und Schülern aus Kassel hat im Informatik- unterricht eine eigene App programmiert. Die Anwendung zeigt nicht nur das Wetter, sondern warnt auch vor Unwettern in der eigenen Region. Die Idee kam den Jugendlichen, nachdem ein starker Sturm ihre Stadt getroffen hatte. Inzwischen haben mehrere tausend Menschen die kostenlose App heruntergeladen. Eine Jury zeichnete das Projekt mit einem Preis aus."
+        "content": "Eine Gruppe von Schülerinnen und Schülern aus Kassel hat im Informatikunterricht eine eigene App entwickelt, die nicht nur das Wetter anzeigt, sondern auch vor Unwettern in der jeweiligen Region warnt. Auf die Idee kamen die Jugendlichen, nachdem ein heftiger Sturm ihre Stadt getroffen und erhebliche Schäden verursacht hatte. Mittlerweile wurde die kostenlose Anwendung von mehreren Tausend Menschen heruntergeladen, und eine Jury zeichnete das Projekt zudem mit einem Preis aus."
       },
       {
         "id": 3,
-        "content": "Ein Forschungsteam aus Stuttgart hat ein Computerprogramm entwickelt, das kranke Pflanzen erkennt. Landwirte fotografieren ein Blatt mit dem Handy, und die Software sagt innerhalb von Sekunden, ob die Pflanze von einer Krankheit befallen ist. So können Bauern schneller reagieren und müssen weniger Chemie einsetzen. Erste Tests auf mehreren Feldern verliefen erfolgreich. Das Programm soll bald in ganz Europa angeboten werden."
+        "content": "Ein Forschungsteam aus Stuttgart hat ein Computerprogramm entwickelt, das erkrankte Pflanzen zuverlässig identifiziert: Landwirte fotografieren ein Blatt mit dem Handy, woraufhin die Software innerhalb weniger Sekunden feststellt, ob die Pflanze von einer Krankheit befallen ist. Dadurch können Bauern rascher reagieren und gleichzeitig den Einsatz von Chemie deutlich reduzieren. Nachdem erste Tests auf mehreren Feldern erfolgreich verlaufen sind, soll das Programm in absehbarer Zeit europaweit angeboten werden."
       },
       {
         "id": 4,
-        "content": "In vielen ländlichen Gebieten Deutschlands ist das Internet noch immer sehr langsam. Das zeigt ein aktueller Bericht. Während Menschen in Großstädten problemlos Filme streamen können, müssen Familien auf dem Land oft lange auf das Laden einfacher Seiten warten. Besonders für Personen im Homeoffice ist das ein großes Problem. Die Politik verspricht seit Jahren eine bessere Versorgung, doch der Ausbau geht nur langsam voran."
+        "content": "Einem aktuellen Bericht zufolge ist das Internet in vielen ländlichen Gebieten Deutschlands nach wie vor äußerst langsam. Während Menschen in Großstädten problemlos Filme streamen können, müssen Familien auf dem Land oftmals lange auf das Laden selbst einfacher Seiten warten, was insbesondere für Personen im Homeoffice ein erhebliches Problem darstellt. Obwohl die Politik seit Jahren eine bessere Versorgung verspricht, kommt der Ausbau nur schleppend voran."
       },
       {
         "id": 5,
-        "content": "Eine Studie zum Medienverhalten zeigt eine deutliche Veränderung: Junge Menschen zwischen 16 und 25 Jahren sehen kaum noch klassisches Fernsehen. Stattdessen nutzen sie Videoplattformen im Internet, die sie jederzeit abrufen können. Nur noch jeder Zehnte in dieser Altersgruppe schaltet regelmäßig den Fernseher ein. Fernsehsender versuchen deshalb, mit eigenen Online-Angeboten auf diese Entwicklung zu reagieren."
+        "content": "Eine Studie zum Medienverhalten belegt einen deutlichen Wandel: Junge Menschen zwischen 16 und 25 Jahren schauen kaum noch klassisches Fernsehen, sondern nutzen stattdessen Videoplattformen im Internet, die sich jederzeit abrufen lassen. Lediglich noch jeder Zehnte in dieser Altersgruppe schaltet regelmäßig den Fernseher ein, sodass Fernsehsender zunehmend versuchen, mit eigenen Online-Angeboten auf diese Entwicklung zu reagieren."
       }
     ],
     "answers": {
@@ -117,23 +117,23 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "texts": [
       {
         "id": 1,
-        "content": "Die Stadt Mannheim hat ein großes Projekt gestartet: In den nächsten fünf Jahren sollen über 10.000 neue Bäume gepflanzt werden. Damit will die Verwaltung das Stadtklima verbessern, denn Bäume spenden Schatten und kühlen die Luft an heißen Tagen. Außerdem bieten sie vielen Vögeln und Insekten einen Lebensraum. Bürgerinnen und Bürger können Vorschläge machen, wo neue Bäume stehen sollen. Die ersten hundert wurden bereits gesetzt."
+        "content": "Die Stadt Mannheim hat ein umfangreiches Projekt ins Leben gerufen, im Rahmen dessen in den nächsten fünf Jahren über 10.000 neue Bäume gepflanzt werden sollen. Damit beabsichtigt die Verwaltung, das Stadtklima zu verbessern, da Bäume Schatten spenden und die Luft an heißen Tagen kühlen; zugleich bieten sie zahlreichen Vögeln und Insekten einen Lebensraum. Bürgerinnen und Bürger können Vorschläge einreichen, an welchen Standorten neue Bäume gepflanzt werden sollen, und die ersten hundert wurden bereits gesetzt."
       },
       {
         "id": 2,
-        "content": "An einem Samstag im Frühling trafen sich in Bremen über 500 Freiwillige, um gemeinsam Müll zu sammeln. Mit Handschuhen und großen Säcken zogen sie durch Parks, an Flussufern entlang und über öffentliche Plätze. Am Ende des Tages kamen mehrere Tonnen Abfall zusammen. Die Aktion wird jedes Jahr von einem Umweltverein organisiert. Viele Teilnehmer sagten, dass ihnen die Arbeit in der Gruppe großen Spaß gemacht habe."
+        "content": "An einem Samstag im Frühling fanden sich in Bremen über 500 Freiwillige zusammen, um gemeinsam Müll zu sammeln, wobei sie mit Handschuhen und großen Säcken ausgestattet durch Parks, an Flussufern entlang und über öffentliche Plätze zogen. Am Ende des Tages waren mehrere Tonnen Abfall zusammengekommen. Da die Aktion alljährlich von einem Umweltverein organisiert wird, berichteten viele Teilnehmer, dass ihnen die gemeinschaftliche Arbeit große Freude bereitet habe."
       },
       {
         "id": 3,
-        "content": "In diesem Sommer hatten viele Landwirte in Ostdeutschland mit großen Problemen zu kämpfen. Über mehrere Wochen fiel kaum Regen, und die Böden trockneten aus. Dadurch wuchsen Getreide und Gemüse deutlich schlechter als in normalen Jahren. Einige Bauern berichten von Ernteverlusten von bis zu 30 Prozent. Fachleute warnen, dass solche trockenen Sommer durch den Klimawandel in Zukunft häufiger auftreten könnten."
+        "content": "In diesem Sommer hatten viele Landwirte in Ostdeutschland mit erheblichen Problemen zu kämpfen, da über mehrere Wochen hinweg kaum Regen fiel und die Böden zunehmend austrockneten. Infolgedessen wuchsen Getreide und Gemüse deutlich schlechter als in gewöhnlichen Jahren, sodass einige Bauern von Ernteverlusten von bis zu 30 Prozent berichten. Fachleute warnen davor, dass derart trockene Sommer angesichts des Klimawandels künftig häufiger auftreten könnten."
       },
       {
         "id": 4,
-        "content": "In vielen deutschen Städten wird die Energie aus Sonnenlicht immer preiswerter. Der Bau von Solaranlagen ist in den letzten Jahren deutlich billiger geworden. Immer mehr Hausbesitzer lassen deshalb Module auf ihren Dächern installieren. Auch Unternehmen nutzen die Technik, um Stromkosten zu sparen. Experten gehen davon aus, dass dieser Trend weiter anhält und Sonne schon bald zu den günstigsten Energiequellen gehören wird."
+        "content": "In vielen deutschen Städten wird die aus Sonnenlicht gewonnene Energie zunehmend preiswerter, zumal der Bau von Solaranlagen in den letzten Jahren deutlich günstiger geworden ist. Immer mehr Hausbesitzer lassen sich deshalb Module auf ihren Dächern installieren, und auch Unternehmen setzen zunehmend auf diese Technik, um Stromkosten einzusparen. Experten gehen davon aus, dass sich dieser Trend fortsetzt und Sonnenenergie schon bald zu den günstigsten Energiequellen zählen wird."
       },
       {
         "id": 5,
-        "content": "In einer Kleinstadt in Bayern wollte die Gemeinde ein altes Waldstück fällen, um dort Parkplätze zu bauen. Eine Gruppe von Jugendlichen wehrte sich dagegen. Sie sammelten Unterschriften, sprachen mit Politikern und organisierten eine friedliche Demonstration. Am Ende hatten sie Erfolg: Der Wald bleibt erhalten. Die Stadt sucht nun nach einem anderen Platz für die Parkplätze. Die Jugendlichen sind stolz auf ihren Einsatz."
+        "content": "In einer Kleinstadt in Bayern beabsichtigte die Gemeinde, ein altes Waldstück zu fällen, um dort Parkplätze anzulegen, wogegen sich jedoch eine Gruppe von Jugendlichen zur Wehr setzte. Sie sammelten Unterschriften, suchten das Gespräch mit Politikern und organisierten eine friedliche Demonstration, was letztlich von Erfolg gekrönt war: Der Wald bleibt erhalten, während die Stadt nun nach einem anderen Standort für die Parkplätze sucht. Die Jugendlichen sind zu Recht stolz auf ihren Einsatz."
       }
     ],
     "answers": {
@@ -165,23 +165,23 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "texts": [
       {
         "id": 1,
-        "content": "Ein Gymnasium in Münster hat ein Experiment gewagt: Der Unterricht beginnt dort nicht mehr um 8 Uhr, sondern erst um 9 Uhr. Der Grund ist, dass viele Jugendliche morgens noch sehr müde sind. Nach einem Jahr zogen die Lehrer eine positive Bilanz. Die Schülerinnen und Schüler waren wacher, beteiligten sich mehr am Unterricht und schrieben bessere Noten. Andere Schulen in der Region überlegen nun, das Modell ebenfalls auszuprobieren."
+        "content": "Ein Gymnasium in Münster hat sich zu einem Experiment entschlossen, bei dem der Unterricht nicht mehr um 8 Uhr, sondern erst um 9 Uhr beginnt, da viele Jugendliche am frühen Morgen noch sehr müde sind. Nach einem Jahr zogen die Lehrkräfte eine durchweg positive Bilanz: Die Schülerinnen und Schüler waren wacher, beteiligten sich stärker am Unterricht und erzielten bessere Noten. Angesichts dieser Ergebnisse erwägen nun auch andere Schulen der Region, das Modell zu übernehmen."
       },
       {
         "id": 2,
-        "content": "Immer mehr junge Menschen in Deutschland entscheiden sich dafür, einen Teil ihres Studiums im Ausland zu verbringen. Beliebte Ziele sind Spanien, Frankreich und die skandinavischen Länder. Die Studierenden möchten dort nicht nur eine Fremdsprache verbessern, sondern auch neue Kulturen kennenlernen. Hochschulen unterstützen diesen Wunsch mit speziellen Programmen und Stipendien. Die Zahl der Bewerbungen für ein Auslandssemester ist im vergangenen Jahr stark gestiegen."
+        "content": "Immer mehr junge Menschen in Deutschland entscheiden sich dafür, einen Teil ihres Studiums im Ausland zu absolvieren, wobei Spanien, Frankreich und die skandinavischen Länder zu den beliebtesten Zielen zählen. Die Studierenden möchten dort nicht nur ihre Fremdsprachenkenntnisse verbessern, sondern auch neue Kulturen kennenlernen, weshalb Hochschulen diesen Wunsch mit speziellen Programmen und Stipendien unterstützen. Die Zahl der Bewerbungen für ein Auslandssemester ist im vergangenen Jahr deutlich gestiegen."
       },
       {
         "id": 3,
-        "content": "An vielen Schulen fehlen Lehrkräfte. Besonders in den Fächern Mathematik, Physik und Informatik finden die Schulen nur schwer geeignetes Personal. Dadurch fallen häufiger Stunden aus, oder Klassen werden zusammengelegt. Die Politik versucht, mehr junge Menschen für den Beruf zu begeistern, zum Beispiel durch bessere Bezahlung. Trotzdem bleibt die Lage in vielen Bundesländern angespannt, und Experten erwarten in den nächsten Jahren keine schnelle Besserung."
+        "content": "An zahlreichen Schulen mangelt es an Lehrkräften, wobei sich besonders in den Fächern Mathematik, Physik und Informatik nur schwer geeignetes Personal finden lässt. Infolgedessen fallen vermehrt Stunden aus, oder Klassen werden zusammengelegt. Zwar versucht die Politik, mehr junge Menschen für den Beruf zu gewinnen, etwa durch eine bessere Bezahlung, dennoch bleibt die Lage in vielen Bundesländern angespannt, und Experten rechnen in den nächsten Jahren nicht mit einer raschen Besserung."
       },
       {
         "id": 4,
-        "content": "In einem Kindergarten in Aachen lernen schon die Kleinsten spielerisch eine zweite Sprache. An mehreren Tagen pro Woche spricht eine Erzieherin nur Französisch mit den Kindern. Die Mädchen und Jungen singen Lieder, hören Geschichten und lernen erste Wörter, ohne es als Arbeit zu empfinden. Die Eltern sind begeistert, denn ihre Kinder verlieren früh die Angst vor fremden Sprachen. Studien zeigen, dass Kinder Sprachen besonders leicht aufnehmen."
+        "content": "In einem Kindergarten in Aachen kommen schon die Kleinsten spielerisch mit einer zweiten Sprache in Berührung, indem eine Erzieherin an mehreren Tagen pro Woche ausschließlich Französisch mit den Kindern spricht. Die Mädchen und Jungen singen Lieder, hören Geschichten und lernen erste Wörter, ohne dies als Arbeit zu empfinden. Die Eltern sind begeistert, da ihre Kinder frühzeitig die Scheu vor fremden Sprachen verlieren, zumal Studien belegen, dass Kinder Sprachen besonders mühelos aufnehmen."
       },
       {
         "id": 5,
-        "content": "Damit Studierende sich besser auf ihre Prüfungen vorbereiten können, hat die Universität Jena die Öffnungszeiten ihrer Bibliotheken verlängert. Vor allem in der Prüfungszeit sind die Lesesäle nun bis Mitternacht geöffnet, an Wochenenden sogar rund um die Uhr. Viele Studierende begrüßen die Änderung, weil sie so flexibler lernen können. Die Universität reagierte damit auf zahlreiche Wünsche der Studierenden, die sich mehr ruhige Lernplätze gewünscht hatten."
+        "content": "Damit sich Studierende besser auf ihre Prüfungen vorbereiten können, hat die Universität Jena die Öffnungszeiten ihrer Bibliotheken verlängert, sodass die Lesesäle vor allem in der Prüfungszeit nun bis Mitternacht geöffnet sind, an Wochenenden sogar rund um die Uhr. Viele Studierende begrüßen diese Änderung, da sie dadurch flexibler lernen können. Die Universität reagierte damit auf zahlreiche Wünsche der Studierenden, die sich mehr ruhige Lernplätze gewünscht hatten."
       }
     ],
     "answers": {
@@ -213,23 +213,23 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "texts": [
       {
         "id": 1,
-        "content": "Viele Jahre lang galten Nachtzüge als veraltet, doch nun erleben sie ein Comeback. Immer mehr Reisende möchten umweltfreundlicher unterwegs sein und verzichten auf kurze Flüge innerhalb Europas. In einem Nachtzug kann man abends einsteigen, schlafen und morgens ausgeruht am Ziel ankommen. Mehrere Bahnunternehmen haben deshalb neue Strecken eröffnet, etwa von Berlin nach Paris oder von Wien nach Rom. Die Tickets sind oft schon Wochen vorher ausgebucht."
+        "content": "Viele Jahre lang galten Nachtzüge als veraltet, doch inzwischen erleben sie ein regelrechtes Comeback, da immer mehr Reisende umweltfreundlicher unterwegs sein möchten und deshalb auf kurze Flüge innerhalb Europas verzichten. In einem Nachtzug kann man abends einsteigen, schlafen und am nächsten Morgen ausgeruht am Ziel ankommen, weshalb mehrere Bahnunternehmen neue Strecken eröffnet haben, etwa von Berlin nach Paris oder von Wien nach Rom. Die Tickets sind häufig bereits Wochen im Voraus ausgebucht."
       },
       {
         "id": 2,
-        "content": "Die Stadt Utrecht in den Niederlanden gilt als Vorbild für sicheres Radfahren. Dort wurden in den letzten Jahren breite, vom Autoverkehr getrennte Radwege gebaut. An Kreuzungen haben Radfahrer oft Vorrang, und es gibt eigene Ampeln für sie. Die Zahl der Unfälle ist deutlich gesunken, obwohl immer mehr Menschen mit dem Rad fahren. Städte aus ganz Europa schicken Fachleute dorthin, um sich das Konzept genauer anzusehen."
+        "content": "Die Stadt Utrecht in den Niederlanden gilt als Vorbild für sicheres Radfahren, zumal dort in den letzten Jahren breite, vom Autoverkehr getrennte Radwege gebaut wurden. An Kreuzungen haben Radfahrer vielfach Vorrang, und es stehen ihnen eigene Ampeln zur Verfügung. Obwohl immer mehr Menschen mit dem Rad unterwegs sind, ist die Zahl der Unfälle deutlich gesunken, weshalb Städte aus ganz Europa Fachleute dorthin entsenden, um sich das Konzept genauer anzuschauen."
       },
       {
         "id": 3,
-        "content": "Beliebte Urlaubsorte wie Venedig oder Barcelona sind im Sommer oft hoffnungslos überfüllt. Deshalb suchen immer mehr Reisende nach ruhigeren Alternativen. Kleine Dörfer, unbekannte Küstenorte oder Regionen abseits der großen Touristenströme gewinnen an Beliebtheit. Reiseveranstalter reagieren darauf und bieten gezielt Reisen in weniger bekannte Gegenden an. Die Besucher schätzen dort die Ruhe, niedrigere Preise und den Kontakt zur einheimischen Bevölkerung."
+        "content": "Beliebte Urlaubsorte wie Venedig oder Barcelona sind im Sommer oftmals hoffnungslos überfüllt, weshalb immer mehr Reisende nach ruhigeren Alternativen suchen. Kleine Dörfer, unbekannte Küstenorte oder Regionen abseits der großen Touristenströme gewinnen zunehmend an Beliebtheit, sodass Reiseveranstalter darauf reagieren und gezielt Reisen in weniger bekannte Gegenden anbieten. Die Besucher schätzen dort insbesondere die Ruhe, die niedrigeren Preise und den Kontakt zur einheimischen Bevölkerung."
       },
       {
         "id": 4,
-        "content": "In Hamburg fahren immer mehr Busse mit Strom statt mit Diesel. Die Verkehrsbetriebe haben in den letzten Jahren hunderte alte Fahrzeuge durch moderne Elektrobusse ersetzt. Diese sind nicht nur leiser, sondern stoßen auch keine Abgase aus. Bis zum Ende des Jahrzehnts soll die gesamte Flotte elektrisch fahren. Die Fahrgäste loben vor allem die ruhige Fahrt, und auch die Anwohner an den Buslinien freuen sich über weniger Lärm."
+        "content": "In Hamburg verkehren immer mehr Busse mit Strom statt mit Diesel, nachdem die Verkehrsbetriebe in den letzten Jahren hunderte alte Fahrzeuge durch moderne Elektrobusse ersetzt haben. Diese sind nicht nur leiser, sondern stoßen zudem keine Abgase aus, sodass bis zum Ende des Jahrzehnts die gesamte Flotte elektrisch fahren soll. Während die Fahrgäste vor allem die ruhige Fahrt loben, freuen sich auch die Anwohner entlang der Buslinien über die spürbar geringere Lärmbelastung."
       },
       {
         "id": 5,
-        "content": "Um junge Menschen zum Bahnfahren zu bewegen, hat ein Bahnunternehmen ein neues Sparangebot eingeführt. Reisende unter 27 Jahren zahlen für viele Strecken nur noch die Hälfte des normalen Preises. Das Angebot gilt das ganze Jahr über und kann ohne lange Vorausbuchung genutzt werden. Besonders Studierende, die häufig zwischen Heimat- und Studienort pendeln, profitieren davon. In den ersten Monaten wurde das Angebot bereits zehntausendfach genutzt."
+        "content": "Um junge Menschen verstärkt zum Bahnfahren zu bewegen, hat ein Bahnunternehmen ein neues Sparangebot eingeführt, bei dem Reisende unter 27 Jahren für viele Strecken nur noch die Hälfte des regulären Preises zahlen. Das Angebot gilt ganzjährig und kann ohne längere Vorausbuchung in Anspruch genommen werden, wovon insbesondere Studierende profitieren, die häufig zwischen Heimat- und Studienort pendeln. Bereits in den ersten Monaten wurde das Angebot zehntausendfach genutzt."
       }
     ],
     "answers": {
@@ -261,23 +261,23 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "texts": [
       {
         "id": 1,
-        "content": "Ein mittelständisches Unternehmen aus Bielefeld hat ein Jahr lang ein besonderes Modell ausprobiert: Die Beschäftigten arbeiteten nur noch an vier Tagen pro Woche, erhielten aber weiterhin das volle Gehalt. Das Ergebnis überraschte viele. Die Mitarbeiterinnen und Mitarbeiter waren zufriedener, seltener krank und arbeiteten an den vier Tagen sogar konzentrierter. Die Geschäftsführung möchte das Modell deshalb dauerhaft beibehalten. Andere Firmen haben bereits Interesse gezeigt."
+        "content": "Ein mittelständisches Unternehmen aus Bielefeld hat ein Jahr lang ein besonderes Modell erprobt, bei dem die Beschäftigten nur noch an vier Tagen pro Woche arbeiteten, jedoch weiterhin das volle Gehalt erhielten. Das Ergebnis überraschte viele: Die Mitarbeiterinnen und Mitarbeiter waren nicht nur zufriedener und seltener krank, sondern arbeiteten an den vier Tagen sogar konzentrierter. Angesichts dieser Bilanz möchte die Geschäftsführung das Modell dauerhaft beibehalten, und auch andere Firmen haben bereits Interesse daran bekundet."
       },
       {
         "id": 2,
-        "content": "In Deutschland fehlen in vielen Branchen qualifizierte Mitarbeiter. Besonders im Handwerk, in der Pflege und in technischen Berufen bleiben Stellen oft monatelang unbesetzt. Die Unternehmen klagen, dass sie kaum geeignete Bewerber finden. Manche Betriebe bieten höhere Löhne oder zusätzliche Leistungen an, um Personal zu gewinnen. Fachleute betonen, dass auch Zuwanderung und bessere Ausbildung nötig seien, um den Mangel langfristig zu verringern."
+        "content": "In Deutschland mangelt es in zahlreichen Branchen an qualifizierten Mitarbeitern, wobei insbesondere im Handwerk, in der Pflege und in technischen Berufen Stellen oft monatelang unbesetzt bleiben. Da die Unternehmen kaum geeignete Bewerber finden, bieten manche Betriebe höhere Löhne oder zusätzliche Leistungen an, um Personal zu gewinnen. Fachleute betonen, dass zur langfristigen Verringerung des Mangels sowohl Zuwanderung als auch eine bessere Ausbildung erforderlich seien."
       },
       {
         "id": 3,
-        "content": "Immer mehr Menschen wechseln ihren Beruf, ohne dafür eine klassische Ausbildung gemacht zu haben. Diese sogenannten Quereinsteiger bringen oft wertvolle Erfahrungen aus anderen Bereichen mit. In Branchen wie der IT oder der Pflege werden sie inzwischen gern eingestellt. Viele Unternehmen bieten spezielle Schulungen an, damit die neuen Mitarbeiter schnell eingearbeitet werden. Für die Betriebe ist das eine gute Möglichkeit, offene Stellen zu besetzen."
+        "content": "Immer mehr Menschen wechseln ihren Beruf, ohne zuvor eine klassische Ausbildung dafür absolviert zu haben, wobei diese sogenannten Quereinsteiger oft wertvolle Erfahrungen aus anderen Bereichen mitbringen. In Branchen wie der IT oder der Pflege werden sie inzwischen gerne eingestellt, zumal viele Unternehmen spezielle Schulungen anbieten, damit die neuen Mitarbeiter zügig eingearbeitet werden können. Für die Betriebe stellt dies eine willkommene Möglichkeit dar, offene Stellen zu besetzen."
       },
       {
         "id": 4,
-        "content": "Früher schickte man eine Bewerbung per Post, heute läuft vieles digital. Bei immer mehr Firmen findet das erste Gespräch per Videoschaltung statt. Bewerberinnen und Bewerber müssen also nicht mehr quer durchs Land reisen, sondern können bequem von zu Hause aus teilnehmen. Das spart Zeit und Geld auf beiden Seiten. Personalverantwortliche betonen jedoch, dass auch bei einem Videogespräch ein gepflegtes Auftreten wichtig bleibt."
+        "content": "Wurde eine Bewerbung früher per Post verschickt, läuft heute vieles digital ab, sodass bei immer mehr Firmen das erste Gespräch per Videoschaltung stattfindet. Bewerberinnen und Bewerber müssen dadurch nicht mehr quer durchs Land reisen, sondern können bequem von zu Hause aus teilnehmen, wodurch sich auf beiden Seiten Zeit und Geld sparen lassen. Personalverantwortliche betonen jedoch, dass auch bei einem Videogespräch ein gepflegtes Auftreten unerlässlich bleibt."
       },
       {
         "id": 5,
-        "content": "Eine Studie zeigt, dass kurze Pausen während der Arbeit die Leistung deutlich verbessern. Wer alle 90 Minuten eine kleine Unterbrechung einlegt, kann sich danach besser konzentrieren und macht weniger Fehler. Trotzdem trauen sich viele Beschäftigte nicht, regelmäßig Pausen zu machen, weil sie Angst haben, faul zu wirken. Arbeitspsychologen raten den Unternehmen, eine Kultur zu fördern, in der Erholung als selbstverständlich gilt."
+        "content": "Einer Studie zufolge verbessern kurze Pausen während der Arbeit die Leistungsfähigkeit deutlich: Wer alle 90 Minuten eine kleine Unterbrechung einlegt, kann sich anschließend besser konzentrieren und unterlaufen weniger Fehler. Dennoch trauen sich viele Beschäftigte nicht, regelmäßig Pausen einzulegen, da sie befürchten, faul zu wirken. Arbeitspsychologen raten den Unternehmen daher, eine Kultur zu fördern, in der Erholung als selbstverständlich gilt."
       }
     ],
     "answers": {
@@ -309,23 +309,23 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "texts": [
       {
         "id": 1,
-        "content": "Die Stadtbücherei in Erfurt bietet ihren Mitgliedern seit Kurzem etwas Ungewöhnliches an: Neben Büchern kann man dort nun auch Werkzeuge ausleihen. Wer eine Bohrmaschine, eine Leiter oder Gartengeräte braucht, muss diese nicht mehr teuer kaufen. Die Idee kommt bei den Bürgern gut an, denn so sparen sie Geld und Platz. Besonders Menschen, die nur selten ein bestimmtes Gerät benötigen, nutzen das neue Angebot gern."
+        "content": "Die Stadtbücherei in Erfurt bietet ihren Mitgliedern seit Kurzem etwas Ungewöhnliches an: Neben Büchern lassen sich dort nun auch Werkzeuge ausleihen, sodass wer eine Bohrmaschine, eine Leiter oder Gartengeräte benötigt, diese nicht mehr kostspielig anschaffen muss. Die Idee kommt bei den Bürgern gut an, da sie auf diese Weise sowohl Geld als auch Platz sparen. Besonders Menschen, die ein bestimmtes Gerät nur selten benötigen, nutzen das neue Angebot gerne."
       },
       {
         "id": 2,
-        "content": "Ein Kunstmuseum in Düsseldorf hat beschlossen, an jedem ersten Sonntag im Monat keinen Eintritt zu verlangen. Seitdem kommen deutlich mehr Menschen, darunter viele, die vorher noch nie ein Museum besucht hatten. Besonders junge Leute und Familien nutzen die Gelegenheit. Die Leitung des Museums ist zufrieden, denn das Ziel war es, Kunst für alle zugänglich zu machen. Die Besucherzahlen haben sich an diesen Tagen mehr als verdoppelt."
+        "content": "Ein Kunstmuseum in Düsseldorf hat beschlossen, an jedem ersten Sonntag im Monat auf den Eintritt zu verzichten, woraufhin deutlich mehr Menschen das Haus besuchen, darunter viele, die zuvor noch nie ein Museum betreten hatten. Besonders junge Leute und Familien nutzen die Gelegenheit, was die Leitung des Museums zufrieden stimmt, da es ihr Ziel war, Kunst für alle zugänglich zu machen. An diesen Tagen haben sich die Besucherzahlen mehr als verdoppelt."
       },
       {
         "id": 3,
-        "content": "In einer kleinen Stadt in Thüringen stand ein altes Theatergebäude lange leer. Nun wurde es aufwendig renoviert und in ein modernes Kulturzentrum verwandelt. Dort finden jetzt Konzerte, Lesungen, Ausstellungen und Kurse statt. Auch Vereine können die Räume nutzen. Die Bewohner sind froh, dass das schöne Gebäude wieder mit Leben gefüllt ist. Schon in den ersten Wochen waren viele Veranstaltungen ausverkauft."
+        "content": "In einer kleinen Stadt in Thüringen stand ein altes Theatergebäude lange leer, bevor es aufwendig renoviert und in ein modernes Kulturzentrum verwandelt wurde, in dem nun Konzerte, Lesungen, Ausstellungen und Kurse stattfinden. Da auch Vereine die Räume nutzen können, sind die Bewohner froh darüber, dass das schöne Gebäude wieder mit Leben gefüllt ist. Bereits in den ersten Wochen waren zahlreiche Veranstaltungen ausverkauft."
       },
       {
         "id": 4,
-        "content": "Ein bekanntes Musikfestival in Norddeutschland hat in diesem Jahr komplett auf Plastik verzichtet. Statt Einwegbechern gab es Mehrweggeschirr, und überall standen Stationen zum Mülltrennen. Die Veranstalter wollten zeigen, dass auch große Feste umweltfreundlich sein können. Am Ende blieb deutlich weniger Abfall übrig als in den Vorjahren. Viele Besucher lobten die Aktion und hoffen, dass andere Festivals dem Beispiel folgen."
+        "content": "Ein bekanntes Musikfestival in Norddeutschland hat in diesem Jahr vollständig auf Plastik verzichtet: Statt Einwegbechern gab es Mehrweggeschirr, und überall standen Stationen zum Mülltrennen bereit, um zu zeigen, dass auch große Feste umweltfreundlich gestaltet werden können. Am Ende blieb deutlich weniger Abfall übrig als in den Vorjahren, weshalb viele Besucher die Aktion lobten und hoffen, dass andere Festivals diesem Beispiel folgen werden."
       },
       {
         "id": 5,
-        "content": "Bei einem kostenlosen Open-Air-Konzert in einem Stadtpark in Leipzig kamen am Wochenende mehrere tausend Menschen zusammen. Verschiedene Bands spielten von nachmittags bis spät in den Abend. Die Stimmung war ausgelassen, und viele Familien hatten Decken und Picknickkörbe mitgebracht. Die Stadt organisiert das Konzert jedes Jahr im Sommer. Wegen des großen Erfolgs denken die Veranstalter darüber nach, es künftig an zwei Tagen stattfinden zu lassen."
+        "content": "Bei einem kostenlosen Open-Air-Konzert in einem Stadtpark in Leipzig kamen am Wochenende mehrere Tausend Menschen zusammen, wobei verschiedene Bands von nachmittags bis spät in den Abend spielten. Die Stimmung war ausgelassen, und viele Familien hatten Decken sowie Picknickkörbe mitgebracht. Da die Stadt das Konzert jedes Jahr im Sommer organisiert und dieses Mal ein besonders großer Erfolg zu verzeichnen war, denken die Veranstalter darüber nach, es künftig an zwei Tagen stattfinden zu lassen."
       }
     ],
     "answers": {
@@ -357,23 +357,23 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "texts": [
       {
         "id": 1,
-        "content": "Immer mehr Fitnessstudios richten ihr Angebot gezielt an ältere Menschen. Statt lauter Musik und schweren Gewichten gibt es dort ruhige Kurse, sanftes Krafttraining und persönliche Betreuung. Die Trainerinnen und Trainer sind speziell geschult, um auf die Bedürfnisse dieser Altersgruppe einzugehen. Viele Seniorinnen und Senioren schätzen außerdem den Kontakt zu Gleichaltrigen. Die Studios berichten, dass die Zahl der älteren Mitglieder in den letzten Jahren stark gewachsen ist."
+        "content": "Immer mehr Fitnessstudios richten ihr Angebot gezielt an ältere Menschen aus, indem sie statt lauter Musik und schwerer Gewichte ruhige Kurse, sanftes Krafttraining und persönliche Betreuung anbieten. Die Trainerinnen und Trainer sind eigens geschult, um auf die Bedürfnisse dieser Altersgruppe einzugehen, und viele Seniorinnen und Senioren schätzen zudem den Kontakt zu Gleichaltrigen. Die Studios berichten, dass die Zahl der älteren Mitglieder in den letzten Jahren erheblich gewachsen sei."
       },
       {
         "id": 2,
-        "content": "In einer Stadt im Ruhrgebiet wurde eine große neue Sporthalle eröffnet. Sie steht nicht nur Vereinen, sondern allen Bewohnerinnen und Bewohnern des Stadtteils offen. Schulklassen trainieren dort am Vormittag, am Abend finden Kurse für Erwachsene statt, und am Wochenende kann jeder die Halle nutzen. Die Stadt investierte mehrere Millionen Euro in den Bau. Viele Menschen freuen sich, dass es nun einen modernen Ort für Bewegung in ihrer Nähe gibt."
+        "content": "In einer Stadt im Ruhrgebiet wurde eine große neue Sporthalle eröffnet, die nicht nur Vereinen, sondern sämtlichen Bewohnerinnen und Bewohnern des Stadtteils offensteht: Schulklassen trainieren dort am Vormittag, am Abend finden Kurse für Erwachsene statt, und am Wochenende kann jeder die Halle nutzen. Nachdem die Stadt mehrere Millionen Euro in den Bau investiert hatte, freuen sich viele Menschen darüber, nun über einen modernen Ort für Bewegung in ihrer Nähe zu verfügen."
       },
       {
         "id": 3,
-        "content": "Eine Untersuchung zeigt ein besorgniserregendes Ergebnis: Ein großer Teil der Grundschulkinder in Deutschland kann nicht richtig schwimmen. Als Gründe nennen Fachleute geschlossene Schwimmbäder und einen Mangel an Kursen. Viele Eltern wissen nicht, wo ihre Kinder das Schwimmen lernen können. Experten warnen vor den Gefahren und fordern mehr Angebote. Schwimmen sei eine wichtige Fähigkeit, die Leben retten könne, betonen sie."
+        "content": "Eine Untersuchung fördert ein besorgniserregendes Ergebnis zutage: Ein großer Teil der Grundschulkinder in Deutschland kann nicht richtig schwimmen, wofür Fachleute geschlossene Schwimmbäder sowie einen Mangel an Kursen als Gründe anführen. Da viele Eltern nicht wissen, wo ihre Kinder das Schwimmen erlernen können, warnen Experten vor den daraus resultierenden Gefahren und fordern mehr Angebote, zumal Schwimmen ihrer Ansicht nach eine wichtige, lebensrettende Fähigkeit sei."
       },
       {
         "id": 4,
-        "content": "Regelmäßige Bewegung ist gerade für ältere Menschen besonders wichtig. Das zeigt eine neue Studie. Wer auch im hohen Alter spazieren geht, Rad fährt oder leichte Gymnastik macht, bleibt länger gesund und selbstständig. Die Bewegung stärkt nicht nur die Muskeln, sondern auch das Gedächtnis und die Stimmung. Ärzte empfehlen schon kurze tägliche Einheiten. Wichtig sei vor allem, eine Aktivität zu finden, die Freude bereitet."
+        "content": "Einer neuen Studie zufolge ist regelmäßige Bewegung gerade für ältere Menschen von besonderer Bedeutung: Wer auch im hohen Alter spazieren geht, Rad fährt oder leichte Gymnastik betreibt, bleibt länger gesund und selbstständig, da die Bewegung nicht nur die Muskeln, sondern auch das Gedächtnis und die Stimmung stärkt. Ärzte empfehlen bereits kurze tägliche Einheiten, wobei es vor allem darauf ankomme, eine Aktivität zu finden, die Freude bereitet."
       },
       {
         "id": 5,
-        "content": "Ein Laufverein in Stuttgart bringt Menschen ganz unterschiedlichen Alters zusammen. Bei den wöchentlichen Treffen laufen Jugendliche neben Rentnern, Anfänger neben erfahrenen Sportlern. Niemand muss besonders schnell sein, denn im Vordergrund steht der Spaß und das Miteinander. Nach dem Training sitzen viele noch zusammen und unterhalten sich. Der Verein wächst stetig, weil das Laufen ohne Leistungsdruck immer mehr Menschen anspricht."
+        "content": "Ein Laufverein in Stuttgart bringt Menschen ganz unterschiedlichen Alters zusammen, sodass bei den wöchentlichen Treffen Jugendliche neben Rentnern und Anfänger neben erfahrenen Sportlern laufen. Da niemand besonders schnell sein muss und stattdessen der Spaß sowie das Miteinander im Vordergrund stehen, sitzen viele nach dem Training noch zusammen und unterhalten sich. Der Verein wächst stetig, weil das Laufen ohne Leistungsdruck zunehmend mehr Menschen anspricht."
       }
     ],
     "answers": {
@@ -405,23 +405,23 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "texts": [
       {
         "id": 1,
-        "content": "Gebrauchte Kleidung ist längst nicht mehr nur etwas für Menschen mit wenig Geld. Immer mehr junge Leute kaufen ihre Mode bewusst secondhand. Sie wollen damit Geld sparen, vor allem aber die Umwelt schonen, denn die Herstellung neuer Kleidung verbraucht viele Ressourcen. In vielen Städten gibt es inzwischen schicke Läden mit gebrauchter Kleidung, und auch im Internet boomt der Handel. Was früher als altmodisch galt, ist heute angesagt."
+        "content": "Gebrauchte Kleidung ist längst nicht mehr nur etwas für Menschen mit wenig Geld, denn immer mehr junge Leute kaufen ihre Mode bewusst secondhand. Damit wollen sie zwar Geld sparen, vor allem aber die Umwelt schonen, da die Herstellung neuer Kleidung erhebliche Ressourcen verbraucht. In vielen Städten gibt es inzwischen schicke Läden mit gebrauchter Kleidung, und auch im Internet boomt der Handel, sodass das, was früher als altmodisch galt, heute angesagt ist."
       },
       {
         "id": 2,
-        "content": "In Deutschland zahlen immer mehr Menschen mit Karte oder Smartphone statt mit Münzen und Scheinen. Besonders seit der Pandemie hat sich dieses Verhalten verstärkt. In vielen Geschäften, Cafés und sogar an Marktständen ist die Bezahlung per Handy heute selbstverständlich. Trotzdem gibt es weiterhin Menschen, die lieber bar bezahlen, weil sie so einen besseren Überblick über ihre Ausgaben behalten. Bargeld wird also nicht völlig verschwinden, aber es wird seltener genutzt."
+        "content": "In Deutschland zahlen immer mehr Menschen mit Karte oder Smartphone statt mit Münzen und Scheinen, wobei sich dieses Verhalten insbesondere seit der Pandemie verstärkt hat. In vielen Geschäften, Cafés und sogar an Marktständen ist die Bezahlung per Handy heute selbstverständlich; dennoch gibt es weiterhin Menschen, die lieber bar bezahlen, weil sie auf diese Weise einen besseren Überblick über ihre Ausgaben behalten. Bargeld wird demnach nicht völlig verschwinden, wird jedoch zunehmend seltener genutzt."
       },
       {
         "id": 3,
-        "content": "Wegen stark gestiegener Preise achten viele Verbraucher genauer darauf, wofür sie ihr Geld ausgeben. Eine Umfrage zeigt, dass die Menschen häufiger Angebote vergleichen, günstigere Marken wählen und seltener teure Produkte kaufen. Auch beim Essengehen sparen viele. Die Geschäfte reagieren mit mehr Rabattaktionen, um ihre Kunden zu halten. Fachleute erwarten, dass sich dieses vorsichtige Einkaufsverhalten noch eine Weile fortsetzen wird."
+        "content": "Angesichts stark gestiegener Preise achten viele Verbraucher genauer darauf, wofür sie ihr Geld ausgeben. Einer Umfrage zufolge vergleichen die Menschen häufiger Angebote, greifen zu günstigeren Marken und kaufen seltener teure Produkte, wobei auch beim Essengehen vielfach gespart wird. Um ihre Kunden zu halten, reagieren die Geschäfte mit vermehrten Rabattaktionen, und Fachleute erwarten, dass sich dieses vorsichtige Einkaufsverhalten noch eine Weile fortsetzen wird."
       },
       {
         "id": 4,
-        "content": "Statt kaputte Geräte gleich wegzuwerfen, lassen immer mehr Menschen sie reparieren. In sogenannten Reparatur-Cafés helfen ehrenamtliche Fachleute dabei, Toaster, Lampen oder Fahrräder wieder instand zu setzen. Das spart Geld und schont die Umwelt, weil weniger Müll entsteht. Die Treffen sind oft gut besucht, und viele Besucher lernen dabei selbst, kleine Reparaturen durchzuführen. Solche Initiativen gibt es inzwischen in vielen Städten."
+        "content": "Statt kaputte Geräte gleich wegzuwerfen, lassen immer mehr Menschen sie reparieren: In sogenannten Reparatur-Cafés helfen ehrenamtliche Fachleute dabei, Toaster, Lampen oder Fahrräder wieder instand zu setzen, wodurch Geld gespart und die Umwelt geschont wird, da weniger Müll entsteht. Die Treffen sind oft gut besucht, und viele Besucher lernen dabei selbst, kleine Reparaturen durchzuführen. Solche Initiativen gibt es inzwischen in zahlreichen Städten."
       },
       {
         "id": 5,
-        "content": "Die Zahl der Betrugsfälle beim Einkaufen im Internet steigt deutlich an. Kriminelle erstellen gefälschte Online-Shops oder verschicken E-Mails, die echt aussehen, um an die Daten der Kunden zu gelangen. Die Polizei rät zur Vorsicht: Man solle nur bei bekannten Anbietern bestellen und misstrauisch sein, wenn Preise zu günstig erscheinen. Viele Opfer bemerken den Betrug erst, wenn das bezahlte Produkt nie ankommt."
+        "content": "Die Zahl der Betrugsfälle beim Einkaufen im Internet steigt deutlich an, da Kriminelle gefälschte Online-Shops erstellen oder täuschend echt wirkende E-Mails verschicken, um an die Daten der Kunden zu gelangen. Die Polizei rät daher zur Vorsicht: Man solle ausschließlich bei bekannten Anbietern bestellen und misstrauisch werden, sobald Preise zu günstig erscheinen. Viele Opfer bemerken den Betrug erst dann, wenn das bezahlte Produkt niemals ankommt."
       }
     ],
     "answers": {
@@ -453,23 +453,23 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "texts": [
       {
         "id": 1,
-        "content": "Ein Forschungsteam hat im Regenwald Südamerikas eine bisher unbekannte Froschart entdeckt. Die kleinen Tiere sind nur wenige Zentimeter groß und fallen durch ihre leuchtend blaue Farbe auf. Die Wissenschaftler hatten die Region über mehrere Monate untersucht. Sie vermuten, dass in dem Gebiet noch weitere unbekannte Arten leben. Gleichzeitig warnen sie davor, dass der Lebensraum dieser Tiere durch die Abholzung des Waldes bedroht ist."
+        "content": "Ein Forschungsteam hat im Regenwald Südamerikas eine bislang unbekannte Froschart aufgespürt, deren nur wenige Zentimeter große Tiere durch ihre leuchtend blaue Färbung auffallen. Nachdem die Wissenschaftler die Region über mehrere Monate hinweg untersucht hatten, vermuten sie, dass in dem Gebiet noch weitere unbekannte Arten leben. Gleichzeitig warnen sie davor, dass der Lebensraum dieser Tiere durch die fortschreitende Abholzung des Waldes bedroht sei."
       },
       {
         "id": 2,
-        "content": "Wer vor einer Prüfung ausreichend schläft, lernt erfolgreicher. Das bestätigt eine neue Studie. Während wir schlafen, verarbeitet das Gehirn die Informationen des Tages und speichert sie dauerhaft ab. Wer dagegen die ganze Nacht lernt und kaum schläft, kann sich am nächsten Tag oft schlechter erinnern. Die Forscher raten Schülern und Studierenden deshalb, regelmäßig und ausreichend zu schlafen, statt in letzter Minute zu büffeln."
+        "content": "Einer neuen Studie zufolge lernt erfolgreicher, wer vor einer Prüfung ausreichend schläft, da das Gehirn während des Schlafs die Informationen des Tages verarbeitet und dauerhaft abspeichert. Wer hingegen die ganze Nacht durchlernt und kaum schläft, kann sich am nächsten Tag oftmals schlechter erinnern. Die Forscher raten Schülern und Studierenden deshalb, regelmäßig und ausreichend zu schlafen, anstatt in letzter Minute zu büffeln."
       },
       {
         "id": 3,
-        "content": "In mehreren Krankenhäusern wird derzeit ein Computerprogramm getestet, das auf künstlicher Intelligenz beruht. Es untersucht Röntgenbilder und kann bestimmte Krankheiten oft früher erkennen als das menschliche Auge. Die Ärzte treffen die endgültige Entscheidung weiterhin selbst, erhalten aber durch die Technik wertvolle Hinweise. Erste Ergebnisse sind vielversprechend. Die Forscher hoffen, dass dadurch in Zukunft mehr Patienten rechtzeitig behandelt werden können."
+        "content": "In mehreren Krankenhäusern wird derzeit ein auf künstlicher Intelligenz beruhendes Computerprogramm getestet, das Röntgenbilder untersucht und bestimmte Krankheiten oft früher erkennt als das menschliche Auge. Zwar treffen die Ärzte die endgültige Entscheidung nach wie vor selbst, erhalten durch die Technik jedoch wertvolle Hinweise. Da erste Ergebnisse vielversprechend ausfallen, hoffen die Forscher, dass dadurch künftig mehr Patienten rechtzeitig behandelt werden können."
       },
       {
         "id": 4,
-        "content": "Dass Lachen guttut, weiß man schon lange. Nun zeigt eine Untersuchung, dass es sogar die Abwehrkräfte des Körpers stärkt. Beim Lachen werden bestimmte Botenstoffe freigesetzt, die das Immunsystem aktivieren. Menschen, die viel lachen, sind einer Studie zufolge seltener krank. Die Wissenschaftler empfehlen deshalb, sich im Alltag bewusst Momente der Freude zu gönnen, zum Beispiel mit Freunden oder einem lustigen Film."
+        "content": "Dass Lachen guttut, ist schon lange bekannt; nun zeigt eine Untersuchung jedoch, dass es sogar die Abwehrkräfte des Körpers stärkt, da beim Lachen bestimmte Botenstoffe freigesetzt werden, die das Immunsystem aktivieren. Menschen, die viel lachen, sind einer Studie zufolge seltener krank, weshalb die Wissenschaftler empfehlen, sich im Alltag bewusst Momente der Freude zu gönnen, etwa mit Freunden oder bei einem lustigen Film."
       },
       {
         "id": 5,
-        "content": "Ein Tier zu Hause zu haben, kann gut für die Gesundheit sein. Eine Studie zeigt, dass Menschen mit Haustieren oft einen niedrigeren Blutdruck haben. Besonders Hunde sorgen dafür, dass ihre Besitzer sich mehr bewegen, da sie täglich nach draußen müssen. Aber auch das Streicheln einer Katze kann beruhigend wirken und Stress abbauen. Ärzte betonen jedoch, dass ein Tier auch Verantwortung bedeutet und gut überlegt sein sollte."
+        "content": "Ein Haustier kann sich durchaus positiv auf die Gesundheit auswirken: Eine Studie zeigt, dass Menschen mit Haustieren häufig einen niedrigeren Blutdruck aufweisen. Vor allem Hunde sorgen dafür, dass sich ihre Besitzer mehr bewegen, da sie täglich nach draußen müssen, doch auch das Streicheln einer Katze kann beruhigend wirken und Stress abbauen. Ärzte betonen allerdings, dass ein Tier zugleich Verantwortung bedeutet und die Anschaffung gut überlegt sein sollte."
       }
     ],
     "answers": {
@@ -501,23 +501,23 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "texts": [
       {
         "id": 1,
-        "content": "In einem neuen Wohnprojekt in Hannover leben junge Familien und ältere Menschen ganz bewusst zusammen. Die Senioren helfen manchmal bei der Kinderbetreuung, während die jüngeren Bewohner schwere Einkäufe tragen oder beim Umgang mit dem Computer helfen. So profitieren beide Seiten voneinander. Gemeinsame Räume laden zum Kochen und Feiern ein. Die Bewohner berichten, dass sich durch das Miteinander echte Freundschaften entwickelt haben."
+        "content": "In einem neuen Wohnprojekt in Hannover leben junge Familien und ältere Menschen ganz bewusst zusammen, wobei die Senioren mitunter bei der Kinderbetreuung helfen, während die jüngeren Bewohner schwere Einkäufe tragen oder beim Umgang mit dem Computer unterstützen. Auf diese Weise profitieren beide Seiten voneinander, zumal gemeinsame Räume zum Kochen und Feiern einladen. Die Bewohner berichten, dass sich durch das Miteinander echte Freundschaften entwickelt haben."
       },
       {
         "id": 2,
-        "content": "Weil in den Innenstädten viele Büros leer stehen, geht eine Stadt im Rheinland nun einen neuen Weg: Alte Bürogebäude werden zu Wohnungen umgebaut. So entstehen mitten in der Stadt neue Wohnräume, ohne dass dafür zusätzliche Flächen am Stadtrand bebaut werden müssen. Die ersten Wohnungen sind bereits vermietet. Stadtplaner sehen darin eine gute Möglichkeit, dem Wohnungsmangel zu begegnen und gleichzeitig leere Gebäude sinnvoll zu nutzen."
+        "content": "Da in den Innenstädten viele Büros leer stehen, geht eine Stadt im Rheinland nun einen neuen Weg, indem alte Bürogebäude zu Wohnungen umgebaut werden. So entstehen mitten in der Stadt neue Wohnräume, ohne dass dafür zusätzliche Flächen am Stadtrand bebaut werden müssen, und die ersten Wohnungen sind bereits vermietet. Stadtplaner sehen darin eine gute Möglichkeit, dem Wohnungsmangel zu begegnen und gleichzeitig leerstehende Gebäude sinnvoll zu nutzen."
       },
       {
         "id": 3,
-        "content": "Immer mehr Menschen kehren den großen Städten den Rücken und ziehen aufs Land. Vor allem seit viele im Homeoffice arbeiten können, spielt die Nähe zum Arbeitsplatz eine geringere Rolle. Auf dem Land locken niedrigere Mieten, mehr Platz und ein ruhigeres Leben. Manche Dörfer, die früher schrumpften, gewinnen dadurch wieder an Einwohnern. Allerdings klagen die Neuankömmlinge manchmal über schlechte Busverbindungen und fehlende Geschäfte."
+        "content": "Immer mehr Menschen kehren den großen Städten den Rücken und ziehen aufs Land, wobei die Nähe zum Arbeitsplatz vor allem deshalb eine geringere Rolle spielt, weil viele im Homeoffice arbeiten können. Auf dem Land locken niedrigere Mieten, mehr Platz und ein ruhigeres Leben, sodass manche Dörfer, die früher schrumpften, dadurch wieder an Einwohnern gewinnen. Allerdings klagen die Neuankömmlinge mitunter über schlechte Busverbindungen und fehlende Geschäfte."
       },
       {
         "id": 4,
-        "content": "In einem Stadtteil von Frankfurt haben Anwohner eine ungenutzte Fläche in einen Gemeinschaftsgarten verwandelt. Dort pflanzen sie gemeinsam Gemüse, Kräuter und Blumen. Der Garten ist aber mehr als nur ein Ort zum Gärtnern: Die Nachbarn treffen sich regelmäßig, tauschen sich aus und organisieren Feste. Besonders für Menschen, die neu in den Stadtteil gezogen sind, ist das eine gute Gelegenheit, schnell Kontakte zu knüpfen."
+        "content": "In einem Stadtteil von Frankfurt haben Anwohner eine ungenutzte Fläche in einen Gemeinschaftsgarten verwandelt, in dem sie gemeinsam Gemüse, Kräuter und Blumen anbauen. Der Garten ist jedoch mehr als nur ein Ort zum Gärtnern, denn die Nachbarn treffen sich dort regelmäßig, tauschen sich aus und organisieren Feste. Besonders für Menschen, die neu in den Stadtteil gezogen sind, bietet sich dadurch eine gute Gelegenheit, rasch Kontakte zu knüpfen."
       },
       {
         "id": 5,
-        "content": "In vielen deutschen Großstädten wird das Wohnen immer teurer. Eine aktuelle Auswertung zeigt, dass die Mieten in den letzten zehn Jahren stark gestiegen sind. Besonders betroffen sind Städte wie München, Hamburg und Berlin. Für Menschen mit geringem Einkommen wird es zunehmend schwierig, eine bezahlbare Wohnung zu finden. Mieterverbände fordern deshalb mehr sozialen Wohnungsbau und strengere Regeln für Vermieter."
+        "content": "In vielen deutschen Großstädten wird das Wohnen zunehmend teurer. Eine aktuelle Auswertung zeigt, dass die Mieten in den letzten zehn Jahren stark gestiegen sind, wobei Städte wie München, Hamburg und Berlin besonders betroffen sind. Für Menschen mit geringem Einkommen wird es dadurch immer schwieriger, eine bezahlbare Wohnung zu finden, weshalb Mieterverbände mehr sozialen Wohnungsbau sowie strengere Regeln für Vermieter fordern."
       }
     ],
     "answers": {
@@ -549,23 +549,23 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "texts": [
       {
         "id": 1,
-        "content": "Eine neue Smartphone-Anwendung bringt Menschen zusammen, die Hilfe brauchen, und solche, die helfen möchten. Wer zum Beispiel beim Einkaufen, beim Transport eines Möbelstücks oder bei kleinen Reparaturen Unterstützung benötigt, kann eine Anfrage stellen. Andere Nutzer aus der Nähe können dann reagieren. Die App ist kostenlos und wird besonders in größeren Städten gut angenommen. Die Entwickler wollten damit das Miteinander in der Nachbarschaft stärken."
+        "content": "Eine neue Smartphone-Anwendung bringt Menschen zusammen, die Hilfe benötigen, mit solchen, die bereit sind zu helfen: Wer beispielsweise beim Einkaufen, beim Transport eines Möbelstücks oder bei kleinen Reparaturen Unterstützung braucht, kann eine Anfrage stellen, auf die andere Nutzer aus der Umgebung reagieren können. Die kostenlose App wird besonders in größeren Städten gut angenommen, da die Entwickler damit das Miteinander in der Nachbarschaft stärken wollten."
       },
       {
         "id": 2,
-        "content": "In einer Kleinstadt in Sachsen helfen zahlreiche Freiwillige dabei, dass sich neu angekommene Familien aus dem Ausland schnell zurechtfinden. Sie begleiten sie zu Behörden, üben gemeinsam die deutsche Sprache und zeigen ihnen die Stadt. Auch bei der Suche nach einer Wohnung oder einem Kindergartenplatz stehen sie zur Seite. Die Geflüchteten sind dankbar für die Unterstützung, und auch die Helfer berichten, dass sie durch die Begegnungen viel lernen."
+        "content": "In einer Kleinstadt in Sachsen helfen zahlreiche Freiwillige dabei, dass sich neu angekommene Familien aus dem Ausland rasch zurechtfinden, indem sie sie zu Behörden begleiten, gemeinsam die deutsche Sprache üben und ihnen die Stadt zeigen. Auch bei der Suche nach einer Wohnung oder einem Kindergartenplatz stehen sie zur Seite, wofür die Geflüchteten dankbar sind. Zugleich berichten die Helfer, dass sie durch die Begegnungen selbst viel dazulernen."
       },
       {
         "id": 3,
-        "content": "Immer mehr Menschen in Deutschland wohnen allein. Das zeigt eine aktuelle Statistik. In den großen Städten ist inzwischen fast jeder zweite Haushalt ein Einpersonenhaushalt. Die Gründe sind vielfältig: Manche leben aus Überzeugung allein, andere durch Trennung oder weil der Partner verstorben ist. Fachleute weisen darauf hin, dass dadurch das Risiko von Einsamkeit steigt, und fordern mehr Angebote, die Menschen zusammenbringen."
+        "content": "Einer aktuellen Statistik zufolge wohnen immer mehr Menschen in Deutschland allein, wobei in den großen Städten inzwischen fast jeder zweite Haushalt ein Einpersonenhaushalt ist. Die Gründe dafür sind vielfältig: Manche leben aus Überzeugung allein, andere infolge einer Trennung oder weil der Partner verstorben ist. Fachleute weisen darauf hin, dass dadurch das Risiko von Einsamkeit steigt, und fordern deshalb mehr Angebote, die Menschen zusammenbringen."
       },
       {
         "id": 4,
-        "content": "Viele ältere Menschen möchten auch nach der Rente aktiv bleiben und etwas Sinnvolles tun. In einer Stadt im Norden engagieren sich zahlreiche Senioren ehrenamtlich: Sie lesen Kindern in der Bücherei vor, helfen in der Hausaufgabenbetreuung oder pflegen öffentliche Grünflächen. Für die Seniorinnen und Senioren ist das eine Möglichkeit, gebraucht zu werden und neue Kontakte zu knüpfen. Die Stadt schätzt ihren Einsatz sehr und ehrt die Freiwilligen einmal im Jahr."
+        "content": "Viele ältere Menschen möchten auch nach der Rente aktiv bleiben und sich sinnvoll einbringen, weshalb sich in einer Stadt im Norden zahlreiche Senioren ehrenamtlich engagieren: Sie lesen Kindern in der Bücherei vor, helfen in der Hausaufgabenbetreuung oder pflegen öffentliche Grünflächen. Für die Seniorinnen und Senioren ist dies eine Möglichkeit, gebraucht zu werden und neue Kontakte zu knüpfen, weshalb die Stadt ihren Einsatz sehr schätzt und die Freiwilligen einmal im Jahr ehrt."
       },
       {
         "id": 5,
-        "content": "Die Tafeln verteilen Lebensmittel an Menschen, die wenig Geld haben. In letzter Zeit haben die Spenden an viele Tafeln zugenommen. Supermärkte, Bäckereien und auch Privatpersonen geben vermehrt Lebensmittel ab, die sonst weggeworfen würden. Das ist wichtig, denn gleichzeitig kommen immer mehr Menschen, die auf diese Hilfe angewiesen sind. Die ehrenamtlichen Mitarbeiter freuen sich über jede Unterstützung, denn der Bedarf ist groß."
+        "content": "Die Tafeln verteilen Lebensmittel an Menschen mit geringem Einkommen, wobei die Spenden an viele Tafeln in letzter Zeit zugenommen haben, da Supermärkte, Bäckereien und auch Privatpersonen vermehrt Lebensmittel abgeben, die andernfalls weggeworfen würden. Dies ist von großer Bedeutung, zumal gleichzeitig immer mehr Menschen auf diese Hilfe angewiesen sind. Die ehrenamtlichen Mitarbeiter freuen sich über jede Unterstützung, da der Bedarf beträchtlich ist."
       }
     ],
     "answers": {
@@ -788,7 +788,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
   },
   {
     "id": "lese_2_4",
-    "title": "Kuenstliche & Intelligenz",
+    "title": "Künstliche Intelligenz",
     "emoji": "🤖",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
@@ -857,7 +857,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
   },
   {
     "id": "lese_2_5",
-    "title": "Urban & Gardening",
+    "title": "Urban Gardening",
     "emoji": "🌱",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
@@ -926,7 +926,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
   },
   {
     "id": "lese_2_6",
-    "title": "Lebenslanges & Lernen",
+    "title": "Lebenslanges Lernen",
     "emoji": "📚",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
@@ -1340,7 +1340,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_B2 = [
   },
   {
     "id": "lese_2_12",
-    "title": "Sharing & Economy",
+    "title": "Sharing Economy",
     "emoji": "🚗",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",

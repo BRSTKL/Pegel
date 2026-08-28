@@ -668,7 +668,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
     "emoji": "🚲",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "In vielen deutschen Städten fahren immer mehr Menschen mit dem\nFahrrad zur Arbeit oder zur Schule. Das Fahrrad ist schnell,\nkostet nichts im Betrieb und ist gut für die Umwelt. Viele\nStädte bauen deshalb neue Radwege und stellen Fahrräder zum\nAusleihen auf. Laut einer Umfrage nutzen schon 30 Prozent der\nDeutschen das Fahrrad täglich.\nBesonders beliebt ist das Fahrradfahren bei jüngeren Menschen\nzwischen 18 und 35 Jahren. Sie sagen, das Fahrrad sei schneller\nals der Bus und billiger als das Auto. Auch das Parken ist kein\nProblem: Ein Fahrrad kann man fast überall abstellen. Viele\njunge Menschen kaufen sich gebrauchte Fahrräder, weil neue\noft sehr teuer sind.\nAber Fahrradfahren in der Stadt ist nicht immer einfach.\nManchmal gibt es keine Radwege und man muss auf der Straße\nfahren — zwischen Autos und Bussen. Das kann gefährlich sein.\nExperten empfehlen deshalb, immer einen Helm zu tragen und\nhelle Kleidung bei Dunkelheit. Außerdem sollte das Fahrrad\nregelmäßig überprüft werden: Bremsen, Licht und Reifen sind\nbesonders wichtig.\nDie Stadt Münster gilt als Fahrradhauptstadt Deutschlands.\nDort hat fast jeder Einwohner ein Fahrrad — manchmal sogar\nmehrere. Es gibt breite Radwege überall in der Stadt und\nspezielle Fahrradparkhäuser am Bahnhof. Viele Menschen\nfahren sogar im Winter Fahrrad, obwohl es kalt und nass ist.\nExperten sagen, dass Fahrradfahren auch sehr gesund ist.\nEs ist gut für Herz und Muskeln und reduziert Stress.\nWer jeden Tag 30 Minuten Fahrrad fährt, bleibt fit und\nspart gleichzeitig Geld. Viele Ärzte empfehlen deshalb\ndas Fahrrad als Alternative zum Auto — besonders für\nkurze Strecken in der Stadt.\nFRAGEN 6–10",
+    "text": "In vielen deutschen Städten fahren immer mehr Menschen mit dem\nFahrrad zur Arbeit oder zur Schule. Das Fahrrad ist schnell,\nkostet nichts im Betrieb und ist gut für die Umwelt. Viele\nStädte bauen deshalb neue Radwege und stellen Fahrräder zum\nAusleihen auf. Laut einer Umfrage nutzen schon 30 Prozent der\nDeutschen das Fahrrad täglich.\nBesonders beliebt ist das Fahrradfahren bei jüngeren Menschen\nzwischen 18 und 35 Jahren. Sie sagen: Das Fahrrad ist schneller\nals der Bus und billiger als das Auto. Parken ist auch kein\nProblem, denn ein Fahrrad kann man fast überall abstellen. Viele\njunge Menschen kaufen sich gebrauchte Fahrräder, weil neue\noft sehr teuer sind.\nAber Fahrradfahren in der Stadt ist nicht immer einfach.\nManchmal gibt es keine Radwege. Dann muss man auf der Straße\nfahren — zwischen Autos und Bussen. Das kann gefährlich sein.\nExperten geben deshalb einen Tipp: Tragen Sie immer einen Helm\nund bei Dunkelheit helle Kleidung. Außerdem soll man das Fahrrad\nregelmäßig prüfen. Bremsen, Licht und Reifen sind\nbesonders wichtig.\nDie Stadt Münster gilt als Fahrradhauptstadt Deutschlands.\nDort hat fast jeder Einwohner ein Fahrrad — manchmal sogar\nmehrere. Es gibt breite Radwege überall in der Stadt und\nspezielle Fahrradparkhäuser am Bahnhof. Viele Menschen\nfahren sogar im Winter Fahrrad. Es ist dann kalt und nass,\naber das stört sie nicht.\nExperten sagen: Fahrradfahren ist auch sehr gesund.\nEs ist gut für Herz und Muskeln und reduziert Stress.\nWer jeden Tag 30 Minuten Fahrrad fährt, bleibt fit und\nspart gleichzeitig Geld. Viele Ärzte empfehlen deshalb\ndas Fahrrad als Alternative zum Auto — besonders für\nkurze Strecken in der Stadt.\nFRAGEN 6–10",
     "questions": [
       {
         "id": 6,
@@ -733,11 +733,11 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
   },
   {
     "id": "lese_2_2",
-    "title": "Hunde — treue Freunde des Menschen",
+    "title": "Hunde in Deutschland",
     "emoji": "☀️",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "Hunde sind in Deutschland sehr beliebt. Laut einer Studie\nleben in deutschen Haushalten über 16 Millionen Hunde.\nSie sind das häufigste Haustier — noch vor Katzen und Vögeln.\nViele Menschen nennen ihren Hund ihr „bestes Freund\", weil\nHunde loyal, freundlich und immer für ihre Besitzer da sind.\nDas Leben mit einem Hund bringt viele Vorteile. Besitzer gehen\ntäglich spazieren und bewegen sich mehr als Menschen ohne Hund.\nStudien zeigen, dass Hundebesitzer seltener unter Stress leiden\nund glücklicher sind. Außerdem helfen Hunde gegen Einsamkeit —\nbesonders älteren Menschen, die alleine leben.\nEin Hund kostet aber auch Zeit und Geld. Ein gesunder Hund\nbraucht täglich Bewegung, gutes Futter und regelmäßige Besuche\nbeim Tierarzt. Im Durchschnitt kostet ein Hund seinen Besitzer\nrund 1.500 Euro pro Jahr. Urlaub muss man ebenfalls planen:\nMan muss jemanden finden, der auf den Hund aufpasst, oder\nden Hund mitnehmen.\nIn Deutschland darf man Hunde in vielen öffentlichen\nVerkehrsmitteln mitnehmen, wenn sie klein sind oder in einer\nTransporttasche sitzen. Größere Hunde brauchen oft ein Ticket.\nIn Restaurants und Supermärkten sind Hunde meistens nicht\nerlaubt — außer in bestimmten hundefreundlichen Cafés.\nWer sich einen Hund wünscht, sollte gut nachdenken, bevor\ner sich entscheidet. Experten raten, zuerst einen Hund\nin einem Tierheim zu suchen, statt ein Tier zu kaufen.\nIm Tierheim warten viele Hunde auf ein neues Zuhause.\nEin Hund aus dem Tierheim braucht oft etwas mehr Geduld,\nmacht aber genauso viel Freude.\nFRAGEN 6–10",
+    "text": "Hunde sind in Deutschland sehr beliebt. Laut einer Studie\nleben in deutschen Haushalten über 16 Millionen Hunde.\nSie sind das häufigste Haustier — noch vor Katzen und Vögeln.\nViele Menschen sagen: Der Hund ist ihr bester Freund. Hunde\nsind treu und freundlich. Sie sind immer für ihren Besitzer da.\nDas Leben mit einem Hund bringt viele Vorteile. Besitzer gehen\ntäglich spazieren und bewegen sich mehr als Menschen ohne Hund.\nStudien zeigen: Hundebesitzer haben seltener Stress und sind\nglücklicher. Hunde helfen auch gegen Einsamkeit. Das ist\nbesonders wichtig für ältere Menschen, die allein leben.\nEin Hund kostet aber auch Zeit und Geld. Ein gesunder Hund\nbraucht täglich Bewegung, gutes Futter und regelmäßige Besuche\nbeim Tierarzt. Im Durchschnitt kostet ein Hund seinen Besitzer\nrund 1.500 Euro pro Jahr. Für den Urlaub muss man auch planen:\nJemand muss auf den Hund aufpassen, oder man nimmt den Hund mit.\nIn Deutschland darf man Hunde in vielen öffentlichen\nVerkehrsmitteln mitnehmen, wenn sie klein sind oder in einer\nTransporttasche sitzen. Größere Hunde brauchen oft ein Ticket.\nIn Restaurants und Supermärkten sind Hunde meistens nicht\nerlaubt — außer in speziellen Cafés für Hunde.\nWer einen Hund möchte, sollte vorher gut nachdenken.\nExperten geben einen Tipp: Sucht zuerst einen Hund in einem\nTierheim, statt einen Hund zu kaufen. Im Tierheim warten\nviele Hunde auf ein neues Zuhause. Ein Hund aus dem Tierheim\nbraucht oft etwas mehr Geduld, macht aber genauso viel Freude.\nFRAGEN 6–10",
     "questions": [
       {
         "id": 6,
@@ -802,11 +802,11 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
   },
   {
     "id": "lese_2_3",
-    "title": "Der Wochenmarkt — frisch und regional",
+    "title": "Der Wochenmarkt",
     "emoji": "🏃",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "In vielen deutschen Städten und Dörfern gibt es einen\nWochenmarkt. Einmal oder zweimal pro Woche treffen sich\nBauern, Händler und Kunden auf einem Platz in der Stadtmitte.\nDort kann man frisches Obst und Gemüse, Brot, Käse, Eier\nund manchmal auch Blumen kaufen. Der Markt ist oft schon\nfrüh morgens um sieben Uhr geöffnet und schließt mittags.\nViele Menschen kaufen lieber auf dem Markt als im Supermarkt.\nDer Grund: Die Produkte kommen direkt vom Bauernhof und\nsind oft frischer als im Laden. Außerdem wissen die Kunden,\nwoher das Gemüse oder das Fleisch kommt. Das ist vielen\nMenschen wichtig, besonders wenn sie auf gute Qualität achten.\nDie Preise auf dem Wochenmarkt sind manchmal höher als im\nSupermarkt. Aber viele Stammkunden sagen, dass es sich lohnt.\nSie kennen die Verkäufer persönlich und bekommen manchmal\nein kleines Extra — zum Beispiel ein paar Tomaten mehr\noder ein Stück Kuchen zum Probieren. Der Markt ist auch\nein sozialer Treffpunkt: Man trifft Nachbarn und plaudert.\nNicht nur alte Menschen gehen auf den Wochenmarkt.\nImmer mehr junge Familien und Menschen unter 30 entdecken\nden Markt für sich. Sie schätzen die kurzen Wege der Produkte\nund möchten die lokale Landwirtschaft unterstützen.\nManche Märkte bieten auch Bio-Produkte an — also Lebensmittel,\ndie ohne chemische Mittel angebaut wurden.\nDer Wochenmarkt ist also mehr als nur ein Ort zum Einkaufen.\nEr verbindet Menschen, stärkt die lokale Wirtschaft und\nbietet frische, qualitativ hochwertige Produkte. Viele\nStädte wollen deshalb ihre Märkte erhalten und sogar\nneue Marktplätze einrichten. Wer noch keinen Wochenmarkt\nin seiner Nähe besucht hat, sollte es unbedingt einmal\nausprobieren.\nFRAGEN 6–10",
+    "text": "In vielen deutschen Städten und Dörfern gibt es einen\nWochenmarkt. Einmal oder zweimal pro Woche treffen sich\nBauern, Händler und Kunden auf einem Platz in der Stadtmitte.\nDort kann man frisches Obst und Gemüse, Brot, Käse, Eier\nund manchmal auch Blumen kaufen. Der Markt ist oft schon\nfrüh morgens um sieben Uhr geöffnet und schließt mittags.\nViele Menschen kaufen lieber auf dem Markt als im Supermarkt.\nDer Grund: Die Produkte kommen direkt vom Bauernhof und\nsind oft frischer als im Laden. Die Kunden wissen auch,\nwoher das Gemüse oder das Fleisch kommt. Das ist vielen\nMenschen wichtig, wenn sie auf gute Qualität achten.\nDie Preise auf dem Wochenmarkt sind manchmal höher als im\nSupermarkt. Aber viele Stammkunden sagen: Es lohnt sich.\nSie kennen die Verkäufer persönlich und bekommen manchmal\nein kleines Extra — zum Beispiel ein paar Tomaten mehr\noder ein Stück Kuchen zum Probieren. Der Markt ist auch\nein sozialer Treffpunkt: Man trifft Nachbarn und spricht mit ihnen.\nNicht nur alte Menschen gehen auf den Wochenmarkt.\nImmer mehr junge Familien und Menschen unter 30 entdecken\nden Markt für sich. Ihnen gefällt, dass die Produkte aus\nder Region kommen. Sie möchten die Bauern in ihrer Nähe\nunterstützen. Manche Märkte verkaufen auch Bio-Produkte.\nDas sind Lebensmittel ohne Chemie.\nDer Wochenmarkt ist also mehr als nur ein Ort zum Einkaufen.\nEr verbindet Menschen, stärkt die lokale Wirtschaft und\nbietet frische, gute Produkte. Viele Städte wollen deshalb\nihre Märkte erhalten und sogar neue Marktplätze einrichten.\nKennen Sie noch keinen Wochenmarkt in Ihrer Nähe? Probieren\nSie es einmal aus!\nFRAGEN 6–10",
     "questions": [
       {
         "id": 6,
@@ -846,7 +846,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
       },
       {
         "id": 10,
-        "question": "Was ist der Wochenmarkt laut dem letzten Abschnitt? die lokale Wirtschaft",
+        "question": "Was ist der Wochenmarkt laut dem letzten Abschnitt?",
         "options": {
           "a": "ein Ort, der nur zum Einkaufen da ist",
           "b": "mehr als ein Einkaufsort — er verbindet Menschen und stärkt die lokale Wirtschaft",
@@ -871,11 +871,11 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
   },
   {
     "id": "lese_2_4",
-    "title": "Ehrenamt in Deutschland — Zeit schenken, Leben bereichern",
+    "title": "Ehrenamt in Deutschland",
     "emoji": "🚗",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "In Deutschland engagieren sich rund 29 Millionen Menschen\nehrenamtlich. Das bedeutet: Sie helfen freiwillig und bekommen\ndafür kein Geld. Ehrenamtliche arbeiten in Sportvereinen,\nbei der Feuerwehr, in Schulen oder in Altenheimen.\nSie helfen bei Veranstaltungen, unterrichten, begleiten\nältere Menschen oder retten Leben.\nWarum machen Menschen das, ohne bezahlt zu werden?\nDie Antworten sind verschieden. Viele sagen, dass sie anderen\nhelfen wollen und sich dabei selbst gut fühlen. Andere möchten\nneue Menschen kennenlernen oder etwas Sinnvolles in ihrer\nFreizeit tun. Manche sammeln durch das Ehrenamt auch\nwichtige Erfahrungen für ihren Beruf.\nEin bekanntes Beispiel ist die Freiwillige Feuerwehr.\nIn Deutschland gibt es rund eine Million Freiwillige,\ndie bei Bränden, Unfällen und Naturkatastrophen helfen.\nSie müssen regelmäßig trainieren und immer erreichbar sein.\nViele von ihnen haben gleichzeitig einen normalen Job\nund machen die Feuerwehrarbeit in ihrer Freizeit.\nAuch junge Menschen engagieren sich immer mehr. Viele\nSchülerinnen und Schüler helfen zum Beispiel bei\nSchulbibliotheken, organisieren Feste oder besuchen\nSenioren. Einige Schulen vergeben sogar Punkte für\nehrenamtliche Tätigkeiten. Das zeigt: Schon früh kann\nman lernen, Verantwortung zu übernehmen.\nExperten betonen, dass Ehrenamt auch der Gesellschaft\nsehr nützt. Ohne Freiwillige würden viele wichtige\nAufgaben nicht erledigt werden — oder der Staat müsste\nviel mehr Geld ausgeben. Deshalb unterstützen viele\nKommunen das Ehrenamt mit kleinen Vergünstigungen,\nzum Beispiel kostenlosen Fahrkarten oder Eintritt in\nSchwimmbäder.\nFRAGEN 6–10",
+    "text": "In Deutschland engagieren sich rund 29 Millionen Menschen\nehrenamtlich. Das bedeutet: Sie helfen freiwillig und\nbekommen kein Geld dafür. Ehrenamtliche arbeiten zum Beispiel\nin Sportvereinen, bei der Feuerwehr, in Schulen oder in\nAltenheimen. Sie helfen bei Festen, unterrichten Kinder\noder besuchen alte Menschen.\nWarum machen Menschen das ohne Bezahlung? Die Gründe sind\nverschieden. Viele Menschen wollen anderen helfen. Das macht\nsie glücklich. Andere möchten neue Menschen kennenlernen.\nManche wollen einfach etwas Sinnvolles in ihrer Freizeit tun.\nUnd manche sammeln durch die ehrenamtliche Arbeit wichtige\nErfahrungen für ihren Beruf.\nEin bekanntes Beispiel ist die Freiwillige Feuerwehr.\nIn Deutschland gibt es rund eine Million Freiwillige bei\nder Feuerwehr. Sie helfen bei Bränden, Unfällen und\nNaturkatastrophen. Sie müssen oft trainieren und immer\nerreichbar sein. Viele von ihnen haben auch einen normalen\nJob. Die Feuerwehrarbeit machen sie in ihrer Freizeit.\nAuch junge Menschen machen immer öfter ehrenamtliche\nArbeit. Viele Schülerinnen und Schüler helfen zum Beispiel\nin der Schulbibliothek. Andere organisieren Feste oder\nbesuchen Senioren. Manche Schulen geben dafür sogar Punkte.\nSo lernen die Jugendlichen schon früh, Verantwortung zu\nübernehmen.\nExperten sagen: Ehrenamt ist sehr wichtig für die\nGesellschaft. Ohne Freiwillige können viele wichtige\nAufgaben nicht gemacht werden. Deshalb unterstützen viele\nStädte und Gemeinden das Ehrenamt. Freiwillige bekommen\nzum Beispiel kostenlose Fahrkarten oder freien Eintritt\nins Schwimmbad.\nFRAGEN 6–10",
     "questions": [
       {
         "id": 6,
@@ -888,7 +888,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
       },
       {
         "id": 7,
-        "question": "Warum machen Menschen laut Text ehrenamtliche Arbeit? oder sinnvolle Erfahrungen sammeln möchten",
+        "question": "Warum machen Menschen laut Text ehrenamtliche Arbeit?",
         "options": {
           "a": "weil sie dafür gut bezahlt werden",
           "b": "weil sie helfen wollen, neue Menschen kennenlernen",
@@ -915,7 +915,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
       },
       {
         "id": 10,
-        "question": "Wie unterstützen Kommunen das Ehrenamt laut Text? oder freien Eintritt in Schwimmbäder.",
+        "question": "Wie unterstützen Kommunen das Ehrenamt laut Text?",
         "options": {
           "a": "Sie zahlen allen Ehrenamtlichen ein monatliches Gehalt.",
           "b": "Sie geben Freiwilligen zum Beispiel kostenlose Fahrkarten.",
@@ -940,11 +940,11 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
   },
   {
     "id": "lese_2_5",
-    "title": "Homeoffice — Fluch oder Segen?",
+    "title": "Arbeiten von zu Hause",
     "emoji": "🔨",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "Seit einigen Jahren arbeiten immer mehr Menschen von zu Hause\naus. Dieses sogenannte Homeoffice war früher eher selten —\naber seit der Corona-Pandemie hat es sich stark verbreitet.\nViele Firmen erlauben ihren Mitarbeitern jetzt, ein bis drei\nTage pro Woche von zu Hause zu arbeiten. Laut einer Umfrage\nmöchten rund 70 Prozent der Befragten das Homeoffice nicht\nmehr missen.\nDer größte Vorteil des Homeoffices ist die Zeit- und\nGeldersparnis durch den fehlenden Weg zur Arbeit.\nWer jeden Tag eine Stunde pendelt, spart pro Woche fünf\nStunden. Diese Zeit kann man nutzen, um zu schlafen,\nSport zu treiben oder mit der Familie zu verbringen.\nAuch die Fahrtkosten fallen weg. Viele Arbeitnehmer\nberichten, dass sie zu Hause sogar konzentrierter arbeiten,\nweil es weniger Ablenkung gibt.\nAber das Homeoffice hat auch Nachteile. Manche Menschen\nvermissen den Kontakt zu Kollegen und fühlen sich allein.\nOhne klare Grenzen zwischen Arbeit und Freizeit arbeiten\nmanche bis spät in die Nacht. Ein weiteres Problem ist der\nArbeitsplatz: Nicht jeder hat zu Hause ein ruhiges Zimmer\nund einen ergonomischen Stuhl. Kleine Wohnungen machen\ndas Arbeiten zu Hause schwierig.\nBesonders Eltern stehen vor einer Herausforderung.\nWenn Kinder zu Hause sind und Betreuung brauchen, ist\nkonzentriertes Arbeiten kaum möglich. Viele Eltern sagen,\ndass sie nachts oder sehr früh morgens arbeiten müssen,\nwenn die Kinder schlafen. Das führt oft zu Erschöpfung.\nExperten raten dazu, klare Regeln für das Homeoffice zu\nsetzen. Feste Arbeitszeiten, eine kurze Mittagspause und\nein fester Platz für die Arbeit helfen dabei, Beruf und\nPrivatleben zu trennen. Außerdem sollte man regelmäßig\nins Büro fahren, um den Kontakt zu Kollegen zu halten.\nDas richtige Gleichgewicht zu finden, ist der Schlüssel.\nFRAGEN 6–10",
+    "text": "Seit einigen Jahren arbeiten immer mehr Menschen von zu Hause\naus. Dieses sogenannte Homeoffice war früher eher selten.\nAber seit der Corona-Pandemie ist es sehr beliebt geworden.\nViele Firmen erlauben ihren Mitarbeitern jetzt, ein bis drei\nTage pro Woche von zu Hause zu arbeiten. Laut einer Umfrage\nmöchten rund 70 Prozent der Befragten das Homeoffice nicht\nmehr aufgeben.\nDer größte Vorteil des Homeoffices ist die Zeit- und\nGeldersparnis: Der Weg zur Arbeit fällt weg. Wer jeden Tag\neine Stunde pendelt, spart pro Woche fünf Stunden. Diese Zeit\nkann man anders nutzen: schlafen, Sport machen oder Zeit mit\nder Familie verbringen. Auch die Fahrtkosten fallen weg.\nViele Arbeitnehmer sagen: Zu Hause können sie sich besser\nkonzentrieren, weil es weniger Ablenkung gibt.\nAber das Homeoffice hat auch Nachteile. Manche Menschen\nvermissen den Kontakt zu Kollegen und fühlen sich allein.\nManche haben keine klare Grenze zwischen Arbeit und Freizeit.\nSie arbeiten dann bis spät in die Nacht. Ein weiteres Problem\nist der Arbeitsplatz: Nicht jeder hat zu Hause ein ruhiges\nZimmer und einen guten Stuhl. Kleine Wohnungen machen das\nArbeiten zu Hause schwierig.\nFür Eltern ist es besonders schwer. Wenn Kinder zu Hause sind\nund Betreuung brauchen, ist konzentriertes Arbeiten kaum\nmöglich. Viele Eltern arbeiten deshalb nachts oder sehr früh\nmorgens, wenn die Kinder schlafen. Deshalb sind viele Eltern\noft sehr müde.\nExperten geben einen Rat: Macht klare Regeln für das\nHomeoffice. Feste Arbeitszeiten, eine kurze Mittagspause und\nein fester Arbeitsplatz helfen dabei. So bleiben Beruf und\nPrivatleben getrennt. Außerdem soll man regelmäßig ins Büro\nfahren, damit der Kontakt zu den Kollegen bleibt. Am\nwichtigsten ist die richtige Balance zwischen Arbeit und\nFreizeit.\nFRAGEN 6–10",
     "questions": [
       {
         "id": 6,
@@ -966,7 +966,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
       },
       {
         "id": 8,
-        "question": "Welchen Nachteil nennt der Text für das Homeoffice? und Freizeit verschwimmen.",
+        "question": "Welchen Nachteil nennt der Text für das Homeoffice?",
         "options": {
           "a": "Die Technik funktioniert oft nicht.",
           "b": "Man vermisst Kollegen, und ohne klare Grenzen zwischen Arbeit und Freizeit arbeitet man oft bis spät in die Nacht.",
@@ -975,7 +975,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
       },
       {
         "id": 9,
-        "question": "Vor welcher besonderen Herausforderung stehen Eltern im Homeoffice? zu Hause sind.",
+        "question": "Vor welcher besonderen Herausforderung stehen Eltern im Homeoffice?",
         "options": {
           "a": "Sie dürfen keine Meetings machen.",
           "b": "Sie arbeiten meistens am frühen Nachmittag, wenn die Kinder in der Schule sind.",
@@ -1009,11 +1009,11 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
   },
   {
     "id": "lese_2_6",
-    "title": "Der Schulgarten — lernen und ernten",
+    "title": "Der Schulgarten",
     "emoji": "🎾",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "Immer mehr Schulen in Deutschland legen einen eigenen\nSchulgarten an. In diesem Garten pflanzen Schülerinnen\nund Schüler Gemüse, Kräuter und Blumen und lernen,\nwie Pflanzen wachsen. Das klingt einfach — aber ein\nSchulgarten bringt viel mehr als nur frisches Gemüse.\nDie zwölfjährige Lena aus München besucht eine Schule\nmit einem großen Garten. „Ich wusste nicht, dass Karotten\nunter der Erde wachsen\", sagt sie lachend. „Jetzt weiß\nich, wie viel Arbeit Essen macht.\" Lena und ihre Klasse\ntreffen sich jeden Dienstag im Garten. Sie gießen, jäten\nUnkraut und ernten. Das geerntete Gemüse wird dann in der\nSchulküche zu Salaten oder Suppen verarbeitet.\nLehrer berichten, dass der Garten viele positive Effekte hat.\nKinder, die draußen arbeiten, sind ruhiger und konzentrierter\nim Unterricht. Der Garten fördert auch die Teamarbeit:\nMan muss zusammenarbeiten, Aufgaben verteilen und\nVerantwortung übernehmen. Außerdem lernen Kinder,\nGeduld zu haben — denn Gemüse wächst nicht über Nacht.\nSchulgärten kosten Geld und brauchen jemanden, der sich\ndarum kümmert. Manche Schulen haben deshalb Probleme,\nden Garten das ganze Jahr zu pflegen — zum Beispiel\nin den Sommerferien. Einige Schulen lösen das Problem,\nindem sie Eltern oder Freiwillige um Hilfe bitten.\nAndere Schulen arbeiten mit lokalen Bauern zusammen.\nTrotz dieser Herausforderungen wächst das Interesse\nan Schulgärten. Viele Eltern und Lehrkräfte sehen sie\nals wichtige Ergänzung zum normalen Unterricht.\n„Kinder lernen am besten, wenn sie etwas selbst erleben\",\nsagt Schulleiterin Frau Wagner. „Der Garten ist ein\nlebendiges Klassenzimmer.\" Die Stadt München unterstützt\ndas Projekt mit 5.000 Euro pro Schule und Jahr.\nFRAGEN 6–10",
+    "text": "Immer mehr Schulen in Deutschland legen einen eigenen\nSchulgarten an. In diesem Garten pflanzen Schülerinnen\nund Schüler Gemüse, Kräuter und Blumen. Sie lernen,\nwie Pflanzen wachsen. Das klingt einfach — aber ein\nSchulgarten bringt viel mehr als nur frisches Gemüse.\nDie zwölfjährige Lena aus München besucht eine Schule\nmit einem großen Garten. „Ich wusste nicht, dass Karotten\nunter der Erde wachsen\", sagt sie lachend. „Jetzt weiß\nich, wie viel Arbeit Essen macht.\" Lena und ihre Klasse\ntreffen sich jeden Dienstag im Garten. Sie gießen, jäten\nUnkraut und ernten. Das geerntete Gemüse wird dann in der\nSchulküche zu Salaten oder Suppen verarbeitet.\nLehrer berichten: Der Garten hat viele positive Effekte.\nKinder arbeiten draußen im Garten. Danach sind sie ruhiger\nund konzentrierter im Unterricht. Im Garten lernen die\nKinder auch Teamarbeit. Sie arbeiten zusammen, teilen\nAufgaben und übernehmen Verantwortung. Außerdem lernen\ndie Kinder Geduld. Gemüse wächst nicht über Nacht.\nEin Schulgarten kostet Geld. Außerdem muss sich jemand\num ihn kümmern. Manche Schulen haben deshalb ein Problem:\nDer Garten braucht Pflege im ganzen Jahr — auch in den\nSommerferien. Einige Schulen lösen das Problem so: Sie\nbitten Eltern oder Freiwillige um Hilfe. Andere Schulen\narbeiten mit lokalen Bauern zusammen.\nTrotzdem interessieren sich immer mehr Menschen für\nSchulgärten. Viele Eltern und Lehrer finden: Der Garten\npasst gut zum normalen Unterricht. „Kinder lernen am\nbesten, wenn sie selbst etwas machen\", sagt Schulleiterin\nFrau Wagner. „Im Garten lernen die Kinder genauso viel wie\nim Klassenzimmer.\" Die Stadt München unterstützt das\nProjekt mit 5.000 Euro pro Schule und Jahr.\nFRAGEN 6–10",
     "questions": [
       {
         "id": 6,
@@ -1078,11 +1078,11 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
   },
   {
     "id": "lese_2_7",
-    "title": "Die moderne Stadtbibliothek — ein Ort für alle",
+    "title": "Die Stadtbibliothek",
     "emoji": "🔌",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "Viele Menschen denken bei einer Bibliothek an lange Regalreihen\nvoller Bücher und absolute Stille. Aber moderne Stadtbibliotheken\nsehen heute ganz anders aus. Sie sind lebendige Orte, die viel\nmehr anbieten als nur Bücher. Wer heute eine Bibliothek besucht,\nfindet dort Zeitschriften, DVDs, Hörbücher, Spiele und sogar\n3D-Drucker.\nDie Stadtbibliothek Stuttgart zum Beispiel ist eines der\nmodernsten Gebäude seiner Art in Europa. Es hat neun Stockwerke\nund über 500.000 Medien. Aber nicht nur die Sammlung ist\nbeeindruckend: Es gibt Lernräume für Schüler, Babykurse\nfür junge Eltern, Lesungen von Schriftstellern und sogar\nAusstellungen von Künstlern. Viele Besucher kommen einfach\nnur, um zu arbeiten oder Kaffee zu trinken.\nDer Eintritt in die meisten Bibliotheken ist kostenlos.\nWer Bücher ausleihen möchte, braucht einen Bibliotheksausweis.\nDieser kostet in vielen Städten nichts — oder nur wenige Euro\npro Jahr. Kinder unter 18 Jahren erhalten den Ausweis oft\nvollständig kostenlos. Man kann Bücher normalerweise für\nvier Wochen ausleihen und sie dann zurückgeben oder verlängern.\nAber Bibliotheken haben auch mit Problemen zu kämpfen.\nIn manchen Städten werden sie wegen fehlender Gelder geschlossen.\nViele Menschen nutzen das Internet, um Bücher digital zu lesen,\nund kommen seltener in die Bibliothek. Bibliothekare müssen\ndeshalb kreativ sein und neue Angebote entwickeln, um die\nMenschen anzulocken.\nTrotz dieser Herausforderungen haben Bibliotheken eine\nwichtige gesellschaftliche Aufgabe. Sie bieten jedem Menschen —\negal wie viel Geld er hat — Zugang zu Wissen und Bildung.\n„Eine Bibliothek ist ein demokratischer Ort\", sagt Bibliothekarin\nFrau Bauer. „Hier ist jeder willkommen.\" Deshalb kämpfen viele\nBürger für den Erhalt ihrer lokalen Bibliothek.\nFRAGEN 6–10",
+    "text": "Viele Menschen denken bei einer Bibliothek an lange Regale\nmit Büchern und absolute Stille. Aber moderne\nStadtbibliotheken sehen heute ganz anders aus. Sie sind\nlebendige Orte und bieten viel mehr als nur Bücher.\nWer heute eine Bibliothek besucht, findet dort Zeitschriften,\nDVDs, Hörbücher, Spiele und sogar 3D-Drucker.\nDie Stadtbibliothek Stuttgart zum Beispiel ist eines der\nmodernsten Gebäude seiner Art in Europa. Es hat neun\nStockwerke und über 500.000 Medien. Aber nicht nur die\nSammlung ist beeindruckend: Es gibt Lernräume für Schüler,\nBabykurse für junge Eltern, Lesungen von Schriftstellern\nund sogar Ausstellungen von Künstlern. Viele Besucher kommen\neinfach zum Arbeiten oder für einen Kaffee.\nDer Eintritt in die meisten Bibliotheken ist kostenlos.\nWer Bücher ausleihen möchte, braucht einen\nBibliotheksausweis. Dieser kostet in vielen Städten nichts —\noder nur wenige Euro pro Jahr. Kinder unter 18 Jahren\nerhalten den Ausweis oft vollständig kostenlos. Man kann\nBücher normalerweise für vier Wochen ausleihen und sie dann\nzurückgeben oder verlängern.\nAber Bibliotheken haben auch Probleme. In manchen Städten\nschließen Bibliotheken, weil es zu wenig Geld gibt. Viele\nMenschen lesen Bücher digital im Internet. Sie kommen deshalb\nseltener in die Bibliothek. Bibliothekare müssen deshalb\nkreativ sein. Sie entwickeln neue Angebote, damit mehr\nMenschen kommen.\nTrotzdem haben Bibliotheken eine wichtige Aufgabe für die\nGesellschaft. Sie bieten jedem Menschen — egal wie viel Geld\ner hat — Zugang zu Wissen und Bildung. „Eine Bibliothek ist\nein demokratischer Ort\", sagt Bibliothekarin Frau Bauer.\n„Hier ist jeder willkommen.\" Deshalb wollen viele Bürger,\ndass ihre Bibliothek bleibt.\nFRAGEN 6–10",
     "questions": [
       {
         "id": 6,
@@ -1147,11 +1147,11 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
   },
   {
     "id": "lese_2_8",
-    "title": "Das Frühstück — die wichtigste Mahlzeit des Tages?",
+    "title": "Das Frühstück",
     "emoji": "🏠",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "„Das Frühstück ist die wichtigste Mahlzeit des Tages\" —\ndiesen Satz hört man oft. Aber stimmt das wirklich?\nErnährungswissenschaftler sind sich nicht vollständig einig.\nKlar ist aber: Wer morgens etwas isst, startet besser\nin den Tag. Das Gehirn braucht Energie, und die bekommt\nes am besten durch ein gutes Frühstück.\nWas gehört zu einem gesunden Frühstück? Experten empfehlen\neine Kombination aus verschiedenen Nährstoffen. Vollkornbrot\nmit Käse oder Ei liefert Energie und macht lange satt.\nObst oder Gemüse geben Vitamine. Ein Glas Wasser oder\nungesüßter Tee sind ideal zum Trinken. Süße Frühstückscerealien,\ndie viel Zucker enthalten, sind dagegen weniger geeignet.\nDer zwölfjährige Mika aus Hamburg frühstückt jeden Morgen\nmit seiner Familie. „Wir essen meistens Haferflocken mit\nJoghurt und Früchten\", sagt er. „Mama sagt, das hält länger\nsatt als Cornflakes.\" Sein Vater trinkt dazu immer einen\nschwarzen Kaffee. Mika selbst mag lieber Orangensaft —\naber sein Arzt hat ihm erklärt, dass Saft viel Zucker hat\nund er lieber ein ganzes Stück Obst essen soll.\nViele Menschen frühstücken aus Zeitmangel gar nichts.\nSie sagen, morgens keine Zeit oder keinen Hunger zu haben.\nDas ist laut Ernährungsexperten ein Fehler. Wer ohne\nFrühstück zur Schule oder Arbeit geht, kann sich schlechter\nkonzentrieren. Außerdem isst man mittags oft zu viel,\nweil man sehr hungrig ist.\nFür Menschen, die morgens wenig Zeit haben, gibt es\npraktische Lösungen. Ein Naturjoghurt mit Früchten,\nein Stück Obst oder ein selbst gemachter Smoothie\nkönnen schnell zubereitet werden. Auch ein hartgekochtes\nEi vom Vortag ist eine gute Option. Das Wichtigste ist,\nüberhaupt etwas zu essen — auch wenn es klein ist.\nFRAGEN 6–10",
+    "text": "„Das Frühstück ist die wichtigste Mahlzeit des Tages\" —\ndiesen Satz hört man oft. Aber stimmt das wirklich?\nNicht alle Experten sind sich einig. Klar ist aber: Wer\nmorgens etwas isst, startet besser in den Tag. Das Gehirn\nbraucht Energie. Ein gutes Frühstück gibt diese Energie.\nWas gehört zu einem gesunden Frühstück? Experten empfehlen\nverschiedene Lebensmittel zusammen. Vollkornbrot mit Käse\noder Ei liefert Energie und macht lange satt. Obst oder\nGemüse geben Vitamine. Ein Glas Wasser oder ungesüßter Tee\nsind ideal zum Trinken. Süße Frühstückscerealien haben viel\nZucker. Sie sind deshalb weniger geeignet.\nDer zwölfjährige Mika aus Hamburg frühstückt jeden Morgen\nmit seiner Familie. „Wir essen meistens Haferflocken mit\nJoghurt und Früchten\", sagt er. „Mama sagt, das hält länger\nsatt als Cornflakes.\" Sein Vater trinkt dazu immer einen\nschwarzen Kaffee. Mika selbst mag lieber Orangensaft. Aber\nsein Arzt hat ihm erklärt: Saft hat viel Zucker. Mika soll\nlieber ein ganzes Stück Obst essen.\nViele Menschen frühstücken gar nichts, weil sie morgens\nkeine Zeit haben. Sie sagen: Morgens haben sie keine Zeit\noder keinen Hunger. Das ist laut Ernährungsexperten ein\nFehler. Wer ohne Frühstück zur Schule oder Arbeit geht, kann\nsich schlechter konzentrieren. Außerdem isst man mittags oft\nzu viel, weil man sehr hungrig ist.\nManche Menschen haben morgens wenig Zeit. Für sie gibt es\npraktische Lösungen. Ein Naturjoghurt mit Früchten, ein\nStück Obst oder ein selbst gemachter Smoothie können schnell\nzubereitet werden. Auch ein hartgekochtes Ei vom Vortag ist\neine gute Option. Am wichtigsten ist: Essen Sie etwas — auch\nwenn es nur wenig ist.\nFRAGEN 6–10",
     "questions": [
       {
         "id": 6,
@@ -1191,7 +1191,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
       },
       {
         "id": 10,
-        "question": "Was empfiehlt der Text für Menschen mit wenig Zeit am Morgen? hartgekochtes Ei vom Vortag",
+        "question": "Was empfiehlt der Text für Menschen mit wenig Zeit am Morgen?",
         "options": {
           "a": "gar nichts essen und warten bis zum Mittagessen",
           "b": "in ein Café gehen und dort frühstücken",
@@ -1216,11 +1216,11 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
   },
   {
     "id": "lese_2_9",
-    "title": "Mit dem Zug durch Deutschland — bequem und umweltfreundlich",
+    "title": "Mit dem Zug durch Deutschland",
     "emoji": "🏸",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "Deutschland hat eines der dichtesten Schienennetze Europas.\nTäglich fahren Millionen Menschen mit dem Zug — zur Arbeit,\nin den Urlaub oder zu Freunden. Die Deutsche Bahn verbindet\nfast alle größeren Städte miteinander. Mit dem ICE,\ndem Intercity-Express, kann man zum Beispiel von Berlin\nnach München in weniger als vier Stunden fahren.\nDas Reisen mit dem Zug hat viele Vorteile. Man muss nicht\nselbst fahren und kann die Zeit nutzen: lesen, arbeiten\noder einfach die Landschaft genießen. Außerdem ist der\nZug umweltfreundlicher als das Auto oder das Flugzeug.\nLaut einer Studie verursacht eine Zugfahrt pro Person\nviermal weniger CO₂ als eine Autofahrt über die gleiche\nStrecke.\nBesonders beliebt ist das Deutschlandticket. Für 49 Euro\npro Monat kann man alle Busse, Straßenbahnen, U-Bahnen\nund Regionalzüge in ganz Deutschland nutzen. Das Ticket\nist günstig und einfach — man kauft es online und zeigt\nes auf dem Smartphone. Seit seiner Einführung haben\nMillionen Menschen vom Auto auf öffentliche Verkehrsmittel\numgestiegen.\nAber das Zugreisen hat auch Nachteile. Verspätungen\nund Zugausfälle sind ein bekanntes Problem der Deutschen\nBahn. Viele Pendler ärgern sich darüber. Besonders auf\nlangen Strecken können Verspätungen bedeuten, dass man\nAnschlusszüge verpasst. Die Deutsche Bahn arbeitet an\nder Verbesserung ihrer Pünktlichkeit — aber das braucht\nZeit und viel Geld.\nTrotzdem wächst die Zahl der Bahnreisenden. Immer mehr\nMenschen wählen den Zug, nicht nur wegen des Preises,\nsondern auch wegen der Umwelt. Besonders junge Menschen\nunter 30 nutzen die Bahn häufiger als frühere Generationen.\nDer Zug ist nicht immer pünktlich — aber er ist bequem,\ngünstig und gut für den Planeten.\nFRAGEN 6–10",
+    "text": "Deutschland hat sehr viele Bahnstrecken — mehr als die\nmeisten Länder in Europa. Täglich fahren Millionen Menschen\nmit dem Zug — zur Arbeit, in den Urlaub oder zu Freunden.\nDie Deutsche Bahn verbindet fast alle größeren Städte\nmiteinander. Mit dem ICE, dem Intercity-Express, kann man\nzum Beispiel von Berlin nach München in weniger als vier\nStunden fahren.\nDas Reisen mit dem Zug hat viele Vorteile. Man muss nicht\nselbst fahren und kann die Zeit nutzen: lesen, arbeiten oder\neinfach die Landschaft genießen. Außerdem ist der Zug\numweltfreundlicher als das Auto oder das Flugzeug. Eine\nStudie zeigt: Eine Zugfahrt verursacht viermal weniger CO₂\nals eine Autofahrt auf der gleichen Strecke.\nBesonders beliebt ist das Deutschlandticket. Für 49 Euro pro\nMonat kann man alle Busse, Straßenbahnen, U-Bahnen und\nRegionalzüge in ganz Deutschland nutzen. Das Ticket ist\ngünstig und einfach — man kauft es online und zeigt es auf\ndem Smartphone. Seit es das Ticket gibt, nutzen Millionen\nMenschen öffentliche Verkehrsmittel statt das Auto.\nAber das Zugreisen hat auch Nachteile. Verspätungen und\nZugausfälle sind ein bekanntes Problem der Deutschen Bahn.\nViele Pendler ärgern sich darüber. Besonders auf langen\nStrecken ist das ein Problem: Man verpasst dann oft den\nnächsten Zug. Die Deutsche Bahn möchte pünktlicher werden —\naber das braucht Zeit und viel Geld.\nTrotzdem fahren immer mehr Menschen mit dem Zug. Immer mehr\nMenschen wählen den Zug — wegen des Preises und wegen der\nUmwelt. Besonders junge Menschen unter 30 nutzen die Bahn\nhäufiger als frühere Generationen. Der Zug ist nicht immer\npünktlich — aber er ist bequem, günstig und gut für den\nPlaneten.\nFRAGEN 6–10",
     "questions": [
       {
         "id": 6,
@@ -1242,7 +1242,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
       },
       {
         "id": 8,
-        "question": "Was ist das Deutschlandticket? Verkehrsmittel in Deutschland",
+        "question": "Was ist das Deutschlandticket?",
         "options": {
           "a": "ein Ticket nur für ICE-Züge",
           "b": "ein Ticket für 49 Euro pro Monat für alle öffentlichen Verkehrsmittel",
@@ -1285,11 +1285,11 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
   },
   {
     "id": "lese_2_10",
-    "title": "Musik in der Kindheit — mehr als ein Hobby",
+    "title": "Musik in der Kindheit",
     "emoji": "🐶",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "Viele Kinder lernen ein Musikinstrument. Ob Klavier, Gitarre\noder Flöte — Musik spielen ist beliebt. Laut einer Umfrage\nlernen rund 30 Prozent aller Kinder in Deutschland ein Instrument.\nEltern melden ihre Kinder oft in einer Musikschule an,\nweil sie wollen, dass ihre Kinder eine musikalische Ausbildung\nbekommen.\nAber warum ist Musik so wichtig? Forscher haben herausgefunden,\ndass Kinder, die ein Instrument spielen, in der Schule oft\nbessere Leistungen zeigen — besonders in Mathematik und Sprachen.\nMusik fördert das Denken, die Konzentration und das Gedächtnis.\nAußerdem lernen Kinder durch das gemeinsame Musizieren\nin einer Band oder einem Chor, wie man im Team arbeitet.\nDie achtjährige Sofie aus Köln spielt seit zwei Jahren Geige.\n„Am Anfang war es sehr schwer\", erzählt sie. „Die Geige\nhat einen komischen Klang gemacht und meine Mutter hat\nimmer die Tür zugemacht.\" Aber heute kann Sofie schon\nkleine Melodien spielen und nimmt an einem Schulkonzert teil.\nIhr Lehrer lobt sie für ihren Fleiß und ihre Geduld.\nNicht alle Kinder haben Freude an der Musik. Manche hören\nnach kurzer Zeit auf, weil ihnen das Üben zu langweilig ist\noder weil andere Hobbys wichtiger sind. Experten sagen,\ndass man Kinder nicht zwingen soll, ein Instrument zu spielen.\nEs ist wichtiger, dass das Kind selbst Lust dazu hat.\nWenn ein Kind ein Instrument aufgeben möchte, sollte man\nruhig mit ihm sprechen und gemeinsam eine Lösung finden.\nMusik ist nicht nur für Kinder wichtig. Auch Erwachsene\nprofitieren davon: Musik hören oder spielen reduziert Stress,\nmacht glücklich und hält das Gehirn aktiv. Viele Erwachsene,\ndie als Kind ein Instrument gelernt haben, fangen im Alter\nwieder damit an. Musik begleitet uns ein Leben lang —\nauch wenn wir zwischendurch eine Pause machen.\nFRAGEN 6–10",
+    "text": "Viele Kinder lernen ein Musikinstrument. Ob Klavier, Gitarre\noder Flöte — Musik spielen ist beliebt. Laut einer Umfrage\nlernen rund 30 Prozent aller Kinder in Deutschland ein\nInstrument. Eltern melden ihre Kinder oft in einer\nMusikschule an. Sie möchten, dass ihre Kinder Musik lernen.\nAber warum ist Musik so wichtig? Forscher haben etwas\nherausgefunden: Kinder, die ein Instrument spielen, sind oft\nbesser in der Schule — besonders in Mathematik und Sprachen.\nMusik fördert das Denken, die Konzentration und das\nGedächtnis. Außerdem lernen Kinder in einer Band oder einem\nChor, wie man im Team arbeitet.\nDie achtjährige Sofie aus Köln spielt seit zwei Jahren Geige.\n„Am Anfang war es sehr schwer\", erzählt sie. „Die Geige hat\neinen komischen Klang gemacht und meine Mutter hat immer die\nTür zugemacht.\" Aber heute kann Sofie schon kleine Melodien\nspielen und nimmt an einem Schulkonzert teil. Ihr Lehrer lobt\nsie für ihren Fleiß und ihre Geduld.\nNicht alle Kinder haben Freude an der Musik. Manche hören\nnach kurzer Zeit auf, weil ihnen das Üben zu langweilig ist\noder weil andere Hobbys wichtiger sind. Experten sagen: Man\nsoll Kinder nicht zwingen, ein Instrument zu spielen. Es ist\nwichtiger, dass das Kind selbst Lust dazu hat. Wenn ein Kind\nein Instrument aufgeben möchte, sollte man ruhig mit ihm\nsprechen und gemeinsam eine Lösung finden.\nMusik ist nicht nur für Kinder wichtig. Auch Erwachsene\nprofitieren davon: Musik hören oder spielen reduziert Stress,\nmacht glücklich und hält das Gehirn aktiv. Viele Erwachsene\nhaben als Kind ein Instrument gelernt. Im Alter fangen sie\noft wieder damit an. Musik begleitet uns das ganze Leben.\nManchmal machen wir eine Pause — aber dann fangen wir\nwieder an.\nFRAGEN 6–10",
     "questions": [
       {
         "id": 6,
@@ -1302,7 +1302,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
       },
       {
         "id": 7,
-        "question": "Was haben Forscher über Kinder, die ein Instrument spielen, herausgefunden? Mathematik und Sprachen.",
+        "question": "Was haben Forscher über Kinder, die ein Instrument spielen, herausgefunden?",
         "options": {
           "a": "Sie haben ein schlechteres Gedächtnis als andere Kinder.",
           "b": "Sie zeigen oft bessere Schulleistungen, besonders in Mathematik und Sprachen",
@@ -1320,7 +1320,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
       },
       {
         "id": 9,
-        "question": "Was empfehlen Experten, wenn ein Kind ein Instrument aufgeben möchte? eine Lösung finden.",
+        "question": "Was empfehlen Experten, wenn ein Kind ein Instrument aufgeben möchte?",
         "options": {
           "a": "Das Kind soll unbedingt weitermachen.",
           "b": "Man soll ruhig mit dem Kind sprechen und gemeinsam eine Lösung finden",
@@ -1329,7 +1329,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
       },
       {
         "id": 10,
-        "question": "Was sagt der Text über Musik und Erwachsene? Gehirn aktiv.",
+        "question": "Was sagt der Text über Musik und Erwachsene?",
         "options": {
           "a": "Erwachsene brauchen keine Musik mehr.",
           "b": "Musik ist für Erwachsene gefährlich.",
@@ -1354,11 +1354,11 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
   },
   {
     "id": "lese_2_11",
-    "title": "Der Flohmarkt — Einkaufen mit Geschichte",
+    "title": "Der Flohmarkt",
     "emoji": "👥",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "Ein Flohmarkt ist ein Markt, auf dem Menschen alte oder\ngebrauchte Dinge verkaufen. Kleidung, Bücher, Geschirr,\nMöbel, Spielzeug — fast alles kann man auf einem Flohmarkt\nfinden. In Deutschland gibt es Flohmärkte fast in jeder\nStadt, oft am Wochenende auf großen Plätzen oder in\nParkhäusern. Manche Flohmärkte finden auch drinnen statt.\nWer auf einem Flohmarkt einkauft, kann viel Geld sparen.\nEin Buch, das neu 20 Euro kostet, bekommt man manchmal\nfür 50 Cent. Auch alte Möbel oder Dekorationsgegenstände\nsind oft sehr günstig. Viele Menschen lieben Flohmärkte,\nweil sie dort einzigartige Dinge finden, die es im normalen\nLaden nicht mehr gibt.\nDie 35-jährige Petra aus Berlin geht jeden Samstag auf\nden Flohmarkt am Mauerpark. „Ich habe schon so viele tolle\nSachen gefunden\", sagt sie. „Letzte Woche habe ich eine\nalte Kamera für zehn Euro gekauft — sie funktioniert\nnoch perfekt.\" Petra verkauft auch selbst auf dem Flohmarkt:\nKleidung, die sie nicht mehr trägt, und Bücher, die sie\nschon gelesen hat.\nFlohmärkte sind aber nicht nur zum Geldsparen da.\nSie sind auch ein sozialer Treffpunkt. Man begegnet\ninteressanten Menschen, hört Geschichten hinter alten\nGegenständen und verbringt einen schönen Morgen im Freien.\nViele Flohmärkte haben auch Stände mit Streetfood und Musik,\nwas die Atmosphäre noch angenehmer macht.\nUmweltbewusste Menschen schätzen Flohmärkte besonders.\nWer gebrauchte Dinge kauft, reduziert den Müll und schont\ndie Umwelt. Statt etwas Neues zu produzieren, bekommt\nein altes Objekt ein neues Leben. Experten nennen das\n„Upcycling\" oder „Secondhand-Kultur\". Diese Bewegung\nwächst — besonders unter jungen Menschen, die nachhaltig\nleben möchten.\nFRAGEN 6–10",
+    "text": "Ein Flohmarkt ist ein Markt. Dort verkaufen Menschen alte\noder gebrauchte Dinge. Kleidung, Bücher, Geschirr, Möbel,\nSpielzeug — fast alles kann man auf einem Flohmarkt finden.\nIn Deutschland gibt es Flohmärkte fast in jeder Stadt, oft\nam Wochenende auf großen Plätzen oder in Parkhäusern. Manche\nFlohmärkte finden auch drinnen statt.\nWer auf einem Flohmarkt einkauft, kann viel Geld sparen. Ein\nBuch kostet neu vielleicht 20 Euro. Auf dem Flohmarkt bekommt\nman es manchmal für 50 Cent. Auch alte Möbel oder Dekoration\nsind oft sehr günstig. Viele Menschen lieben Flohmärkte. Dort\nfinden sie besondere Dinge, die es im normalen Laden nicht\nmehr gibt.\nDie 35-jährige Petra aus Berlin geht jeden Samstag auf den\nFlohmarkt am Mauerpark. „Ich habe schon so viele tolle Sachen\ngefunden\", sagt sie. „Letzte Woche habe ich eine alte Kamera\nfür zehn Euro gekauft — sie funktioniert noch perfekt.\"\nPetra verkauft dort auch selbst Sachen: Kleidung, die sie\nnicht mehr braucht, und Bücher, die sie schon gelesen hat.\nAuf dem Flohmarkt kann man aber nicht nur Geld sparen. Er\nist auch ein sozialer Treffpunkt. Man trifft interessante\nMenschen, hört Geschichten über alte Sachen und verbringt\neinen schönen Morgen im Freien. Viele Flohmärkte haben auch\nStände mit Streetfood und Musik. Das macht die Atmosphäre\nnoch schöner.\nManche Menschen denken viel an die Umwelt. Sie mögen\nFlohmärkte besonders. Wer gebrauchte Dinge kauft, reduziert\nden Müll und schont die Umwelt. So kauft man kein neues\nProdukt. Ein altes Objekt wird weiter benutzt. Experten\nnennen das „Upcycling\" oder „Secondhand-Kultur\". Das wird\nimmer beliebter — besonders bei jungen Menschen. Sie möchten\nnachhaltig leben.\nFRAGEN 6–10",
     "questions": [
       {
         "id": 6,
@@ -1398,7 +1398,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
       },
       {
         "id": 10,
-        "question": "Warum schätzen umweltbewusste Menschen Flohmärkte? und die Umwelt schont",
+        "question": "Warum schätzen umweltbewusste Menschen Flohmärkte?",
         "options": {
           "a": "weil sie damit die Produktion neuer Dinge unterstützen",
           "b": "weil der Eintritt immer kostenlos ist",
@@ -1423,11 +1423,11 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
   },
   {
     "id": "lese_2_12",
-    "title": "Schwimmen — eine Fähigkeit fürs Leben",
+    "title": "Schwimmen lernen",
     "emoji": "⚙️",
     "type": "teil2",
     "instruction": "Lesen Sie den Text und beantworten Sie die Aufgaben 6–10. Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.",
-    "text": "Schwimmen ist eine der wichtigsten Fähigkeiten, die ein Mensch\nlernen kann. Es rettet Leben: Wer nicht schwimmen kann, ist\nin der Nähe von Wasser in Gefahr. In Deutschland lernen die\nmeisten Kinder in der Schule schwimmen — meistens in der\ndritten oder vierten Klasse. Doch nicht alle Kinder schaffen\nes, einen Schwimmkurs zu bestehen.\nLaut einer Studie des DLRG — der Deutschen Lebens-Rettungs-\nGesellschaft — kann etwa jedes dritte Kind in Deutschland\nnicht sicher schwimmen. Das bedeutet: Sie können sich vielleicht\nkurz über Wasser halten, aber sind kein sicherer Schwimmer.\nDas ist gefährlich, besonders im Urlaub am Meer oder an\neinem See.\nDer zehnjährige Max aus München hat in der Schule das\nSchwimmen gelernt. „Am Anfang hatte ich Angst vor dem\ntiefen Wasser\", erzählt er. „Aber unser Lehrer war sehr\ngeduldig und hat uns langsam an das Wasser gewöhnt.\"\nNach dem Kurs hat Max das Seepferdchen-Abzeichen bestanden —\nden ersten Schwimmschein in Deutschland. Seine Eltern waren\nsehr stolz auf ihn.\nNicht alle Schulen haben ein Schwimmbad in der Nähe.\nDas ist ein großes Problem. Wenn Schulen weit vom nächsten\nHallenbad entfernt sind, fällt der Schwimmunterricht oft aus.\nAußerdem schließen in Deutschland immer mehr Schwimmbäder,\nweil sie zu teuer im Betrieb sind. Experten fordern deshalb,\nmehr Geld in den Bau und die Erhaltung von Schwimmbädern\nzu investieren.\nEltern können viel dazu beitragen, dass ihre Kinder schwimmen\nlernen. Wer mit dem Kind regelmäßig ins Schwimmbad geht,\nhilft ihm, sicherer im Wasser zu werden. Außerdem gibt es\nprivate Schwimmkurse, die man auch außerhalb der Schule\nbelegen kann. Das Wichtigste ist: Kinder sollten so früh\nwie möglich ans Wasser gewöhnt werden — am besten schon\nals Kleinkind.\nFRAGEN 6–10",
+    "text": "Schwimmen ist sehr wichtig. Jeder Mensch sollte es lernen.\nEs rettet Leben: Wer nicht schwimmen kann, ist in der Nähe\nvon Wasser in Gefahr. In Deutschland lernen die meisten\nKinder in der Schule schwimmen — meistens in der dritten\noder vierten Klasse. Aber nicht alle Kinder bestehen den\nSchwimmkurs.\nLaut einer Studie des DLRG — der Deutschen\nLebens-Rettungs-Gesellschaft — kann etwa jedes dritte Kind\nin Deutschland nicht sicher schwimmen. Das bedeutet: Sie\nkönnen sich vielleicht kurz über Wasser halten, aber sind\nkein sicherer Schwimmer. Das ist gefährlich, besonders im\nUrlaub am Meer oder an einem See.\nDer zehnjährige Max aus München hat in der Schule das\nSchwimmen gelernt. „Am Anfang hatte ich Angst vor dem tiefen\nWasser\", erzählt er. „Aber unser Lehrer war sehr geduldig\nund hat uns langsam an das Wasser gewöhnt.\" Nach dem Kurs\nhat Max das Seepferdchen-Abzeichen bestanden — den ersten\nSchwimmschein in Deutschland. Seine Eltern waren sehr stolz\nauf ihn.\nNicht alle Schulen haben ein Schwimmbad in der Nähe. Das ist\nein großes Problem. Wenn Schulen weit vom nächsten Hallenbad\nentfernt sind, fällt der Schwimmunterricht oft aus.\nAußerdem schließen in Deutschland immer mehr Schwimmbäder,\nweil sie zu teuer im Betrieb sind. Experten fordern deshalb:\nDer Staat soll mehr Geld für neue und alte Schwimmbäder\nausgeben.\nAuch Eltern können helfen. Eltern sollen regelmäßig mit dem\nKind ins Schwimmbad gehen. So wird das Kind sicherer im\nWasser. Außerdem gibt es private Schwimmkurse außerhalb der\nSchule. Das Wichtigste ist: Kinder sollten so früh wie\nmöglich ans Wasser gewöhnt werden — am besten schon als\nKleinkind.\nFRAGEN 6–10",
     "questions": [
       {
         "id": 6,
@@ -1458,7 +1458,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
       },
       {
         "id": 9,
-        "question": "Warum fällt der Schwimmunterricht an manchen Schulen laut Text aus? und viele Bäder schließen",
+        "question": "Warum fällt der Schwimmunterricht an manchen Schulen laut Text aus?",
         "options": {
           "a": "weil die Lehrer nicht schwimmen können",
           "b": "weil in den letzten Jahren viele neue Schwimmbäder gebaut wurden",
@@ -1467,7 +1467,7 @@ const LESEVERSTEHEN_TEIL_2_DATA_A1A2 = [
       },
       {
         "id": 10,
-        "question": "Was empfiehlt der Text, damit Kinder sicherer im Wasser werden? gehen und Kinder früh ans Wasser gewöhnen.",
+        "question": "Was empfiehlt der Text, damit Kinder sicherer im Wasser werden?",
         "options": {
           "a": "Kinder sollten jeden Tag ins Meer gehen.",
           "b": "Eltern sollten regelmäßig mit dem Kind ins Schwimmbad gehen",
@@ -1497,7 +1497,7 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "title": "Leseverstehen Teil 3 - Set 1",
     "emoji": "🍛",
     "type": "teil3",
-    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–e. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
       "11": "Sie möchten am Wochenende mit Ihrem Kind eine Aktivität machen. Ihr Kind liebt Tiere und ist sechs Jahre alt.",
       "12": "Ihr Freund sucht eine günstige Unterkunft für eine Nacht in München. Er reist alleine und hat kein Auto.",
@@ -1562,7 +1562,7 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "title": "Leseverstehen Teil 3 - Set 2",
     "emoji": "🏠",
     "type": "teil3",
-    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–e. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
       "11": "Ihre Freundin möchte abnehmen und sucht ein Studio, wo sie Yoga oder Pilates machen kann. Sie hat montags und mittwochs abends Zeit.",
       "12": "Sie suchen eine Ferienwohnung für zwei Wochen im August mit direktem Zugang zum Meer. Sie reisen zu zweit.",
@@ -1627,7 +1627,7 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "title": "Leseverstehen Teil 3 - Set 3",
     "emoji": "🔧",
     "type": "teil3",
-    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–e. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
       "11": "Sie suchen ein Café, in dem Sie ruhig arbeiten oder lernen können. Sie brauchen WLAN und möchten auch etwas essen.",
       "12": "Ihr Freund möchte seinen alten Fernseher verkaufen. Er sucht eine Möglichkeit, ihn online anzubieten.",
@@ -1692,7 +1692,7 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "title": "Leseverstehen Teil 3 - Set 4",
     "emoji": "🎨",
     "type": "teil3",
-    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–e. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
       "11": "Sie möchten mit Freunden ein Wochenende in Hamburg verbringen und suchen eine günstige Unterkunft für 4 Personen.",
       "12": "Ihre Kollegin hat Rückenschmerzen und sucht einen Kurs, der ihr hilft. Sie hat dienstags und donnerstags abends Zeit.",
@@ -1757,7 +1757,7 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "title": "Leseverstehen Teil 3 - Set 5",
     "emoji": "🇪🇸",
     "type": "teil3",
-    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–e. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
       "11": "Sie möchten Ihren Hund in der Nähe der Stadt trainieren lassen. Er ist jung und kennt noch keine Grundbefehle.",
       "12": "Ihr Freund sucht einen Spanischkurs. Er ist Anfänger und kann nur abends kommen, am liebsten unter der Woche.",
@@ -1822,7 +1822,7 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "title": "Leseverstehen Teil 3 - Set 6",
     "emoji": "📊",
     "type": "teil3",
-    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–e. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
       "11": "Ihr Sohn (14 Jahre) möchte in den Ferien kochen lernen. Er ist Anfänger und hat tagsüber Zeit.",
       "12": "Sie suchen eine ruhige Wohnung zur Miete in der Stadt. Sie haben ein Budget von maximal 700 € warm pro Monat.",
@@ -1887,7 +1887,7 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "title": "Leseverstehen Teil 3 - Set 7",
     "emoji": "🍺",
     "type": "teil3",
-    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–e. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
       "11": "Sie möchten mit Ihrem Partner eine romantische Woche am See verbringen. Sie suchen eine Unterkunft mit eigenem Steg und Blick auf das Wasser.",
       "12": "Ihre Freundin möchte nähen lernen. Sie ist Anfängerin und hat samstags Zeit.",
@@ -1952,7 +1952,7 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "title": "Leseverstehen Teil 3 - Set 8",
     "emoji": "🩺",
     "type": "teil3",
-    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–e. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
       "11": "Sie möchten mit Ihrer Familie (2 Erwachsene, 2 Kinder) am Sonntag einen Ausflug machen. Die Kinder mögen Tiere und die Natur.",
       "12": "Ihr Freund sucht eine Wohnung zur Miete. Er braucht eine 2-Zimmer-Wohnung und darf maximal 800 € warm zahlen. Er hat einen kleinen Hund.",
@@ -2017,7 +2017,7 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "title": "Leseverstehen Teil 3 - Set 9",
     "emoji": "💻",
     "type": "teil3",
-    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–e. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
       "11": "Sie möchten einen Tag in einem Spa verbringen und sich verwöhnen lassen. Sie suchen ein Angebot mit Sauna und Massagen für eine Person.",
       "12": "Ihr Freund sucht eine Arbeit als Fahrer. Er hat einen Führerschein und spricht gut Deutsch.",
@@ -2082,7 +2082,7 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "title": "Leseverstehen Teil 3 - Set 10",
     "emoji": "📱",
     "type": "teil3",
-    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–e. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
       "11": "Ihre Freundin sucht eine Kinderbetreuung für ihren vierjährigen Sohn während der Sommerferien. Sie arbeitet tagsüber und braucht jemanden von 8 bis 14 Uhr.",
       "12": "Sie möchten im Winter Ski fahren lernen. Sie sind Anfänger und suchen einen Kurs mit Unterkunft für eine Woche.",
@@ -2147,7 +2147,7 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "title": "Leseverstehen Teil 3 - Set 11",
     "emoji": "🏕️",
     "type": "teil3",
-    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–e. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
       "11": "Sie möchten einen Tanzkurs für sich und Ihren Partner besuchen. Sie mögen Latin-Tänze wie Salsa oder Bachata. Ihr Partner hat noch keine Tanzerfahrung.",
       "12": "Ihr Sohn (13 Jahre) braucht Nachhilfe in Englisch. Er hat am Dienstag und Donnerstag nachmittags Zeit.",
@@ -2212,7 +2212,7 @@ const LESEVERSTEHEN_TEIL_3_DATA_A1A2 = [
     "title": "Leseverstehen Teil 3 - Set 12",
     "emoji": "💼",
     "type": "teil3",
-    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
+    "instruction": "Lesen Sie die Situationen 11–20 und die Anzeigen a–e. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Für eine Situation gibt es manchmal keine passende Anzeige. In diesem Fall schreiben Sie ein X. Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.",
     "situations": {
       "11": "Sie suchen eine günstige Kinderbetreuung für Ihre Zwillinge (5 Jahre). Sie brauchen jemanden von Montag bis Freitag von 7 bis 13 Uhr.",
       "12": "Ihr Freund möchte joggen lernen und braucht einen Trainingsplan für Anfänger. Er hat noch nie regelmäßig Sport getrieben.",
