@@ -1007,13 +1007,12 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Clear selection
     window.getSelection().removeAllRanges();
     
-    // Fetch translation
+    // Fetch translation (MyMemory first: reliable CORS support for direct client fetch,
+    // unlike the unofficial Google endpoint which frequently fails on mobile/native origins).
     try {
-      const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=de&tl=tr&dt=t&q=${encodeURIComponent(cleanWord)}`;
-      const res = await fetch(url);
-      const data = await res.json();
-      if (data && data[0] && data[0][0] && data[0][0][0]) {
-        transInput.value = data[0][0][0];
+      const translated = await fetchTranslation(cleanWord);
+      if (translated) {
+        transInput.value = translated;
       } else {
         transInput.placeholder = "Anlamını buraya girin";
       }
@@ -1021,6 +1020,33 @@ document.addEventListener("DOMContentLoaded", async () => {
       console.error("Translation failed", e);
       transInput.placeholder = "Anlamını buraya girin";
     }
+  }
+
+  async function fetchTranslation(word) {
+    try {
+      const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=de|tr`;
+      const res = await fetch(url);
+      const data = await res.json();
+      const text = data?.responseData?.translatedText;
+      if (text && !/^PLEASE SELECT|^INVALID/i.test(text)) {
+        return text;
+      }
+    } catch (e) {
+      console.warn("MyMemory translation failed, trying fallback", e);
+    }
+
+    try {
+      const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=de&tl=tr&dt=t&q=${encodeURIComponent(word)}`;
+      const res = await fetch(url);
+      const data = await res.json();
+      if (data && data[0] && data[0][0] && data[0][0][0]) {
+        return data[0][0][0];
+      }
+    } catch (e) {
+      console.warn("Google translation fallback also failed", e);
+    }
+
+    return null;
   }
   
   // Save/Cancel Modal actions
@@ -1812,15 +1838,15 @@ function cleanupLessonAnimations() {
   lessonRiveInstances = [];
 }
 
-function initLessonRive(canvasId, animName) {
+function initLessonRive(canvasId, animName, attempt = 0) {
   const canvas = document.getElementById(canvasId);
   if (!canvas) return;
-  
+
   if (typeof rive === "undefined") {
     console.warn("Rive library is not loaded yet.");
     return;
   }
-  
+
   try {
     let inst;
     const rConfig = {
@@ -1840,7 +1866,13 @@ function initLessonRive(canvasId, animName) {
         }, 100);
       },
       onLoadError: (err) => {
-        console.error(`Rive load error for ${animName} in lesson:`, err);
+        console.error(`Rive load error for ${animName} in lesson (attempt ${attempt + 1}):`, err);
+        // Transient WASM-heap/memory pressure can make a valid .riv file fail to
+        // decode intermittently, especially on low-memory devices. Retry a couple
+        // of times before giving up quietly instead of leaving a broken canvas.
+        if (attempt < 2 && document.getElementById(canvasId)) {
+          setTimeout(() => initLessonRive(canvasId, animName, attempt + 1), 400 * (attempt + 1));
+        }
       }
     };
     inst = new rive.Rive(rConfig);
@@ -1850,15 +1882,15 @@ function initLessonRive(canvasId, animName) {
   }
 }
 
-function initSitemapRive(canvasId, animConfig) {
+function initSitemapRive(canvasId, animConfig, attempt = 0) {
   const canvas = document.getElementById(canvasId);
   if (!canvas) return;
-  
+
   if (typeof rive === "undefined") {
     console.warn("Rive library is not loaded yet.");
     return;
   }
-  
+
   try {
     let inst;
     // Do NOT specify any animations or stateMachines in the constructor.
@@ -1873,18 +1905,18 @@ function initSitemapRive(canvasId, animConfig) {
         // Wait for readyForPlaying to be set (happens right after onLoad fires)
         setTimeout(() => {
           if (!inst) return;
-          
+
           if (typeof inst.resizeDrawingSurfaceToCanvas === "function") {
             inst.resizeDrawingSurfaceToCanvas();
           } else if (typeof inst.resizeDrawingToCanvas === "function") {
             inst.resizeDrawingToCanvas();
           }
-          
+
           // Log what the Rive runtime found for debugging
           const animNames = inst.animationNames || [];
           const smNames = inst.stateMachineNames || [];
           console.log(`[Rive] ${animConfig.name} → anims: [${animNames.join(", ")}] | SMs: [${smNames.join(", ")}]`);
-          
+
           // Do NOT override what atLeastOne auto-picked.
           // Just call play() with no args to ensure:
           // 1) The already-instanced animation/SM has playing=true
@@ -1893,10 +1925,21 @@ function initSitemapRive(canvasId, animConfig) {
         }, 100);
       },
       onLoadError: (err) => {
-        console.error(`Rive load error for ${animConfig.name}:`, err);
+        console.error(`Rive load error for ${animConfig.name} (attempt ${attempt + 1}):`, err);
+        // Transient WASM-heap/memory pressure (common with several concurrent .riv
+        // loads on low-memory devices) can make a valid file fail to decode
+        // intermittently. Retry a couple of times before giving up.
+        const canvasStillThere = document.getElementById(canvasId);
+        if (attempt < 2 && canvasStillThere) {
+          setTimeout(() => initSitemapRive(canvasId, animConfig, attempt + 1), 400 * (attempt + 1));
+        } else if (canvasStillThere) {
+          // Out of retries: hide the empty canvas instead of leaving a broken/blank
+          // mascot slot on screen.
+          canvasStillThere.style.display = "none";
+        }
       }
     };
-    
+
     inst = new rive.Rive(rConfig);
     sitemapRiveInstances.push(inst);
   } catch (e) {
@@ -2041,7 +2084,7 @@ function renderHomeScreen() {
   const fcText = document.getElementById("fc-status-text");
   if (fcText) {
     const vocabCount = (getLevelProgress().myVocabulary || []).length;
-    fcText.textContent = state.completedToday.flashcards ? "Tamamlandı! 🎉" : `${vocabCount} kart bekliyor`;
+    fcText.textContent = state.completedToday.flashcards ? "Tamamlandı! 🎉" : `${vocabCount} kelime bekliyor`;
   }
   const quizText = document.getElementById("quiz-status-text");
   if (quizText) {
@@ -2453,9 +2496,15 @@ function renderLevelPath() {
     clearTimeout(sitemapInitTimeout);
   }
   if (animInstancesToInit.length > 0) {
+    // Stagger initialization instead of firing every Rive instance in the same tick.
+    // Loading several .riv files (some multiple MB) concurrently can exhaust the
+    // shared WASM heap on low-memory devices and trigger spurious "may be corrupt"
+    // load errors even though the file itself is valid.
     sitemapInitTimeout = setTimeout(() => {
-      animInstancesToInit.forEach(item => {
-        initSitemapRive(item.canvasId, item.anim);
+      animInstancesToInit.forEach((item, i) => {
+        setTimeout(() => {
+          initSitemapRive(item.canvasId, item.anim);
+        }, i * 180);
       });
       sitemapInitTimeout = null;
     }, 50);
@@ -2737,120 +2786,190 @@ function formatCitations(text) {
   return formatted;
 }
 
-// FLASHCARDS CONTROLLER
-let currentCardIndex = 0;
-let activeFlashcards = [];
+// KELİME TESTİ CONTROLLER (multiple-choice recall of saved vocabulary)
+let activeVocabQuestions = [];
+let currentVocabQIndex = 0;
+let vocabCorrectCount = 0;
 
 function renderFlashcardScreen() {
   const vocabList = getLevelProgress().myVocabulary || [];
-  
+
   if (vocabList.length === 0) {
-    alert("Kelime listeniz henüz boş! Flashcard turu yapabilmek için lütfen önce Kelimelerim kısmından kelime ekleyin.");
+    alert("Kelime listeniz henüz boş! Test yapabilmek için lütfen önce Kelimelerim kısmından kelime ekleyin.");
     showScreen("exercises");
     return;
   }
-  
-  // Map myVocabulary to flashcard format
-  activeFlashcards = vocabList.map(item => ({
-    front: item.word,
-    back: item.translation,
-    context: item.context
-  }));
-  
-  // Shuffle flashcards
-  activeFlashcards.sort(() => 0.5 - Math.random());
-  
-  currentCardIndex = 0;
-  updateFlashcardUI();
-  
-  const prevBtn = document.getElementById("fc-prev-btn");
-  const nextBtn = document.getElementById("fc-next-btn");
-  
-  if (prevBtn && nextBtn) {
-    prevBtn.onclick = () => {
-      if (currentCardIndex > 0) {
-        currentCardIndex--;
-        updateFlashcardUI();
+  if (vocabList.length < 4) {
+    alert(`Test için en az 4 kelime eklemelisiniz. Şu an ${vocabList.length} kelimeniz var.`);
+    showScreen("exercises");
+    return;
+  }
+
+  const shuffledWords = [...vocabList].sort(() => 0.5 - Math.random());
+  activeVocabQuestions = shuffledWords.map(item => {
+    const pool = vocabList.filter(v => v.id !== item.id);
+    let distractors = pool
+      .filter(v => (v.translation || "").trim().toLowerCase() !== (item.translation || "").trim().toLowerCase())
+      .sort(() => 0.5 - Math.random())
+      .slice(0, 3);
+    if (distractors.length < 3) {
+      const chosenIds = new Set(distractors.map(d => d.id));
+      const filler = pool.filter(v => !chosenIds.has(v.id)).sort(() => 0.5 - Math.random());
+      while (distractors.length < 3 && filler.length) distractors.push(filler.shift());
+    }
+    const options = [...distractors.map(d => d.translation), item.translation].sort(() => 0.5 - Math.random());
+    return { word: item.word, context: item.context, correctAnswer: item.translation, options };
+  });
+
+  currentVocabQIndex = 0;
+  vocabCorrectCount = 0;
+  renderVocabQuestion();
+}
+
+function renderVocabQuestion() {
+  const container = document.getElementById("vocab-test-content");
+  if (!container) return;
+
+  const q = activeVocabQuestions[currentVocabQIndex];
+  const total = activeVocabQuestions.length;
+  const progressPct = total > 0 ? ((currentVocabQIndex + 1) / total) * 100 : 0;
+
+  let contextHtml = "";
+  if (q.context) {
+    contextHtml = `<p style="font-size: 12px; color: var(--color-text-secondary); font-style: italic; line-height: 1.5; text-align: center; margin: 0 0 20px;">"${q.context}"</p>`;
+  }
+
+  container.innerHTML = `
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 16px;">
+      <span class="ts" style="font-size:12.5px; font-weight:500;">Kelime ${currentVocabQIndex + 1} / ${total}</span>
+      <div style="width: 80px; height: 5px; background: var(--color-border-primary); border-radius: 99px; overflow:hidden;">
+        <div style="width: ${progressPct}%; height:100%; background: var(--theme-purple); border-radius:99px;"></div>
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-bottom: 10px;">
+      <span style="background: rgba(177, 159, 251, 0.12); color: var(--theme-purple); padding: 4px 10px; border-radius: 99px; font-size: 10.5px; font-weight: 700; letter-spacing: 0.3px;">TÜRKÇESİ NE?</span>
+    </div>
+    <p style="font-size: 22px; font-weight: 700; line-height: 1.5; margin: 6px 0 16px; color: var(--color-text-primary); text-align:center;">
+      ${q.word}
+    </p>
+    ${contextHtml}
+
+    <div style="display:flex; flex-direction:column; gap:11px;" id="vocab-options-container">
+      ${q.options.map((opt, idx) => `
+        <button class="quiz-option" data-idx="${idx}">
+          <span>${opt}</span>
+          <i class="ti ti-circle" style="font-size:16px; color:var(--color-text-tertiary); flex-shrink:0; margin-left:8px;"></i>
+        </button>
+      `).join("")}
+    </div>
+  `;
+
+  const options = container.querySelectorAll(".quiz-option");
+  options.forEach(btn => {
+    btn.addEventListener("click", () => {
+      const selectedIdx = parseInt(btn.getAttribute("data-idx"));
+      handleVocabAnswer(selectedIdx, btn, options);
+    });
+  });
+}
+
+function handleVocabAnswer(selectedIdx, clickedBtn, allOptions) {
+  const q = activeVocabQuestions[currentVocabQIndex];
+  const selectedText = q.options[selectedIdx];
+  const isCorrect = selectedText === q.correctAnswer;
+
+  allOptions.forEach(opt => opt.disabled = true);
+
+  if (isCorrect) {
+    clickedBtn.classList.add("correct");
+    clickedBtn.querySelector("i").className = "ti ti-circle-check-filled";
+    vocabCorrectCount++;
+    state.xp += 5;
+    playSound("true");
+  } else {
+    clickedBtn.classList.add("incorrect");
+    clickedBtn.querySelector("i").className = "ti ti-circle-x-filled";
+    allOptions.forEach(opt => {
+      if (opt.querySelector("span").textContent === q.correctAnswer) {
+        opt.classList.add("correct");
+        opt.querySelector("i").className = "ti ti-circle-check-filled";
       }
-    };
-    nextBtn.onclick = () => {
-      if (currentCardIndex < activeFlashcards.length - 1) {
-        currentCardIndex++;
-        updateFlashcardUI();
+    });
+    playSound("false");
+  }
+
+  saveState();
+
+  if (isCorrect) {
+    setTimeout(() => {
+      currentVocabQIndex++;
+      if (currentVocabQIndex < activeVocabQuestions.length) {
+        renderVocabQuestion();
       } else {
-        state.completedToday.flashcards = true;
-        state.xp += 20;
-        saveState();
-        alert("Harika! Tüm kelimelerinizi incelediniz ve +20 XP kazandınız! 🎉");
-        showScreen("exercises");
+        finishVocabTest();
       }
-    };
+    }, 1200);
+  } else {
+    const container = document.getElementById("vocab-test-content");
+    if (container) {
+      const nextBtn = document.createElement("button");
+      nextBtn.className = "c-purple";
+      nextBtn.style.cssText = "width:100%; border:none; padding:13px; border-radius:var(--border-radius-lg); font-size:13.5px; font-weight:600; cursor:pointer; color:#ffffff; margin-top:20px; display:flex; align-items:center; justify-content:center; gap:6px;";
+      nextBtn.innerHTML = `<i class="ti ti-arrow-right"></i> Devam Et`;
+      nextBtn.onclick = () => {
+        currentVocabQIndex++;
+        if (currentVocabQIndex < activeVocabQuestions.length) {
+          renderVocabQuestion();
+        } else {
+          finishVocabTest();
+        }
+      };
+      container.appendChild(nextBtn);
+    }
   }
 }
 
-function updateFlashcardUI() {
-  if (activeFlashcards.length === 0) return;
-  const card = activeFlashcards[currentCardIndex];
-  const container = document.getElementById("flashcard-container");
-  
-  if (!container || !card) return;
-  
-  let contextHtml = "";
-  if (card.context) {
-    contextHtml = `
-      <div style="font-size: 12.5px; color: var(--color-text-secondary); margin-bottom: auto; border-top: 1px solid rgba(255, 255, 255, 0.08); padding-top: 12px; font-style: italic; line-height: 1.5; text-align: center; max-width: 90%; margin-left: auto; margin-right: auto;">
-        "${card.context}"
-      </div>
-    `;
-  }
-  
+function finishVocabTest() {
+  const container = document.getElementById("vocab-test-content");
+  if (!container) return;
+
+  state.completedToday.flashcards = true;
+  state.xp += 20;
+  logActiveDay();
+  saveState();
+  playSound("done");
+
   container.innerHTML = `
-    <div class="flashcard" id="active-flashcard">
-      <div class="card-face card-front" style="display: flex; flex-direction: column; justify-content: space-between;">
-        <div style="display:flex; justify-content:space-between; align-items:center; width: 100%;">
-          <span style="background: rgba(177, 159, 251, 0.12); color: var(--theme-purple); padding: 4px 10px; border-radius: 99px; font-size: 10.5px; font-weight: 700; letter-spacing: 0.3px;">KELİMELERİM</span>
-          <span style="color: var(--color-text-tertiary); font-size: 11.5px; font-weight: 500;">${currentCardIndex + 1} / ${activeFlashcards.length}</span>
+    <div style="text-align: center; padding: 24px 10px; display:flex; flex-direction:column; align-items:center; gap:18px;">
+      <div style="width: 64px; height: 64px; border-radius: 50%; display:flex; align-items:center; justify-content:center; border: 1px solid var(--color-border-primary); background-color: var(--color-background-secondary); color: var(--theme-purple);">
+        <i class="ti ti-trophy" style="font-size:30px;"></i>
+      </div>
+      <div>
+        <h2 style="font-size:19px; font-weight:700; margin:0 0 6px;">Kelime Testi Tamamlandı!</h2>
+        <p class="ts" style="font-size:13px; margin:0;">Tüm kelimelerini test ettin, harika iş!</p>
+      </div>
+
+      <div style="background: var(--color-background-secondary); border: 1px solid var(--color-border-primary); border-radius: var(--border-radius-lg); padding: 16px; width: 100%; display:grid; grid-template-columns: 1fr 1fr; gap:12px; margin: 8px 0;">
+        <div style="text-align:center; border-right: 1px solid var(--color-border-secondary);">
+          <p class="ts" style="font-size:11px; margin:0 0 4px;">Skor</p>
+          <p style="font-size:18px; font-weight:700; margin:0; color:var(--theme-purple);">${vocabCorrectCount} / ${activeVocabQuestions.length}</p>
         </div>
-        <div style="font-size: 21px; font-weight: 700; text-align: center; margin: auto 0; line-height:1.5; color: #ffffff; letter-spacing: 0.2px;">
-          ${card.front}
-        </div>
-        <div style="font-size: 10.5px; color: var(--theme-purple); opacity: 0.85; text-align: center; display: flex; align-items: center; justify-content: center; gap: 6px; font-weight: 600; letter-spacing: 0.2px;">
-          <i class="ti ti-eye-check" style="font-size: 13px;"></i> TÜRKÇESİNİ GÖSTER
+        <div style="text-align:center;">
+          <p class="ts" style="font-size:11px; margin:0 0 4px;">Kazanılan XP</p>
+          <p style="font-size:18px; font-weight:700; margin:0; color:var(--theme-teal);">+${vocabCorrectCount * 5 + 20}</p>
         </div>
       </div>
-      <div class="card-face card-back" style="display: flex; flex-direction: column; justify-content: space-between;">
-        <div style="display:flex; justify-content:space-between; align-items:center; width: 100%;">
-          <span style="background: rgba(52, 232, 176, 0.12); color: var(--theme-teal); padding: 4px 10px; border-radius: 99px; font-size: 10.5px; font-weight: 700; letter-spacing: 0.3px;">TÜRKÇE ÇEVİRİ</span>
-          <span style="color: var(--color-text-tertiary); font-size: 11.5px; font-weight: 500;">${currentCardIndex + 1} / ${activeFlashcards.length}</span>
-        </div>
-        <div style="font-size: 19px; font-weight: 700; text-align: center; margin: auto 0; line-height:1.55; color: var(--theme-teal); letter-spacing: 0.2px;">
-          ${card.back}
-        </div>
-        ${contextHtml}
-        <div style="font-size: 10.5px; color: var(--theme-teal); opacity: 0.85; text-align: center; display: flex; align-items: center; justify-content: center; gap: 6px; font-weight: 600; letter-spacing: 0.2px; margin-top: auto;">
-          <i class="ti ti-eye-off" style="font-size: 13px;"></i> ALMANCASINI GÖSTER
-        </div>
-      </div>
+
+      <button class="c-purple" style="width:100%; border:none; padding:12px; border-radius:var(--border-radius-lg); font-size:13.5px; font-weight:600; cursor:pointer; color:var(--color-background-primary); margin-top:10px;" id="vocab-test-done-btn">
+        Alıştırma Sayfasına Dön
+      </button>
     </div>
   `;
-  
-  const fcElement = document.getElementById("active-flashcard");
-  if (fcElement) {
-    fcElement.addEventListener("click", () => {
-      fcElement.classList.toggle("flipped");
-    });
-  }
-  
-  const prevBtn = document.getElementById("fc-prev-btn");
-  if (prevBtn) {
-    prevBtn.disabled = currentCardIndex === 0;
-    prevBtn.style.opacity = currentCardIndex === 0 ? "0.4" : "1";
-  }
-  
-  const nextBtn = document.getElementById("fc-next-btn");
-  if (nextBtn) {
-    nextBtn.textContent = currentCardIndex === activeFlashcards.length - 1 ? "Tamamla" : "Sonraki";
-  }
+
+  document.getElementById("vocab-test-done-btn")?.addEventListener("click", () => {
+    showScreen("exercises");
+  });
 }
 
 // QUIZ CONTROLLER
