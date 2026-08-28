@@ -8,8 +8,8 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Zu viel Schlaf macht ebenfalls müde",
-      "b": "Kalorienzählen wird unter Jugendlichen immer unwichtiger",
-      "c": "Schulen führen kostenpflichtiges Trinkwasser ein",
+      "b": "Kantinen bieten laut Umfrage immer weniger vegetarische Gerichte an",
+      "c": "Kurze Pausen ohne Bewegung verbessern die Konzentration am meisten",
       "d": "Schulküchen-Projekt weckt bei Kindern Lust am gesunden Kochen",
       "e": "Mediziner fordern mehr Schlaf für Jugendliche",
       "f": "Restaurant verschenkt übrig gebliebenes Essen",
@@ -55,14 +55,14 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Kassierer werden trotz Robotern weiter gebraucht",
-      "b": "Ältere Menschen lernen den Umgang mit dem Smartphone",
-      "c": "Online-Shopping wird beim Einkaufen seltener genutzt",
+      "a": "Die von Schülern entwickelte Unwetter-Warn-App stößt bislang nur auf geringes Interesse",
+      "b": "Smartphone-Kurse für Senioren an der Volkshochschule sind mit hohen Kosten verbunden",
+      "c": "Neu entwickelte Erkennungssoftware für Pflanzenkrankheiten fällt bei ersten Praxistests durch",
       "d": "Jugendliche programmieren eine App, die vor Unwettern warnt",
-      "e": "Zu wenig Bildschirmzeit schadet der Konzentration",
+      "e": "Der Netzausbau auf dem Land ist inzwischen weiter fortgeschritten als in den Großstädten",
       "f": "Volkshochschule bringt Senioren gratis den digitalen Alltag näher",
       "g": "Neue Technologie hilft Landwirten, kranke Pflanzen frühzeitig zu erkennen",
-      "h": "Computerspiele verschlechtern angeblich das logische Denken",
+      "h": "Der Anteil junger Menschen, die regelmäßig fernsehen, ist zuletzt deutlich gestiegen",
       "i": "Ländliche Regionen hinken beim Netzausbau weiterhin hinterher",
       "j": "Klassisches Fernsehen verliert bei der jungen Generation stark an Bedeutung"
     },
@@ -104,15 +104,15 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Verwaltung startet groß angelegte Begrünungsaktion",
-      "b": "Plastikmüll im Meer nimmt erstmals wieder ab",
+      "b": "Im Rahmen des Mannheimer Projekts sollen in den kommenden Jahren lediglich einige Hundert Bäume gepflanzt werden",
       "c": "Freiwillige räumen an einem Aktionstag Parks und Straßen auf",
       "d": "Strom aus Sonne wird immer günstiger",
-      "e": "Tiere verlassen die Stadt wegen des Lärms",
-      "f": "Mehr Autos trotz neuer Radwege",
+      "e": "Die jährliche Aufräumaktion in Bremen musste in diesem Jahr mangels Freiwilliger ausfallen",
+      "f": "Ausreichende Niederschläge sichern den ostdeutschen Landwirten in diesem Jahr eine überdurchschnittliche Ernte",
       "g": "Trockenheit bedroht die Landwirtschaft",
       "h": "Protest von Jugendlichen stoppt Pläne für einen Parkplatz",
-      "i": "Mülltrennung wird von vielen Bürgern vernachlässigt",
-      "j": "Bienen verschwinden zunehmend aus den Gärten"
+      "i": "Die Kosten für Solaranlagen sind zuletzt spürbar gestiegen, weshalb Hausbesitzer seltener investieren",
+      "j": "Trotz der Proteste der Jugendlichen wird das Waldstück für neue Parkplätze gerodet"
     },
     "texts": [
       {
@@ -152,14 +152,14 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Zeitweiser Studienaufenthalt außerhalb Deutschlands wird immer populärer",
-      "b": "Universität schafft Prüfungen am Computer wieder ab",
+      "b": "Zahl der Auslandssemester deutscher Studierender geht deutlich zurück",
       "c": "Lehrermangel wird immer größer",
       "d": "Bereits im Kindergartenalter kommen Kinder spielerisch mit einer Fremdsprache in Kontakt",
       "e": "Schule beginnt künftig noch früher am Morgen",
       "f": "Lesesäle stehen Studierenden nun auch nachts zur Verfügung",
-      "g": "Praktika spielen bei der Berufswahl kaum eine Rolle",
-      "h": "Schüler verkaufen gebrauchte Bücher gegen Geld",
-      "i": "Online-Unterricht wird zunehmend beliebter",
+      "g": "Höhere Gehälter beheben den Lehrermangel in den Naturwissenschaften bereits spürbar",
+      "h": "Eltern äußern Vorbehalte gegenüber frühem Fremdsprachenunterricht im Kindergarten",
+      "i": "Universität Jena schränkt die Öffnungszeiten ihrer Bibliothek in der Prüfungszeit ein",
       "j": "Späterer Schulbeginn verbessert die Leistungen"
     },
     "texts": [
@@ -200,14 +200,14 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Umweltbewusste Reisende entdecken das Zugfahren über Nacht neu",
-      "b": "Fluggesellschaft eröffnet viele neue Verbindungen",
+      "b": "Kurzstreckenflüge sind bei umweltbewussten Reisenden weiterhin beliebter als Nachtzüge",
       "c": "Reisende entdecken ruhige Orte abseits der Touristenmassen",
-      "d": "Neue App warnt vor überfüllten Bahnhöfen",
+      "d": "Hamburger Verkehrsbetriebe setzen aus Kostengründen weiterhin überwiegend auf Dieselbusse",
       "e": "Getrennte Fahrspuren senken die Zahl der Fahrradunfälle",
       "f": "Bahn senkt Preise für junge Reisende",
       "g": "Immer weniger Menschen reisen mit dem Fahrrad",
-      "h": "Parkplätze in der Innenstadt werden günstiger",
-      "i": "Campen ist der neue Urlaubstrend",
+      "h": "Das neue Rabattangebot der Bahn gilt nur für frühzeitig buchende Reisende",
+      "i": "Reiseveranstalter konzentrieren sich weiterhin überwiegend auf die klassischen Touristenziele",
       "j": "Öffentliche Verkehrsbetriebe steigen auf umweltfreundlichere Fahrzeuge um"
     },
     "texts": [
@@ -248,14 +248,14 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Vier-Tage-Woche scheitert in der Praxis",
-      "b": "Homeoffice stärkt laut Studie den Teamgeist",
-      "c": "Weniger Frauen interessieren sich für technische Berufe",
+      "b": "Fachkräftemangel in Handwerk und Pflege ist dank höherer Löhne bereits weitgehend behoben",
+      "c": "Quereinsteiger haben in der IT-Branche kaum Aussicht auf eine Festanstellung",
       "d": "Kurze Erholungsphasen machen Beschäftigte leistungsfähiger",
       "e": "Unternehmen suchen dringend Fachkräfte",
-      "f": "Junge Leute gründen seltener eigene Firmen",
+      "f": "Die meisten Unternehmen setzen weiterhin auf persönliche Vorstellungsgespräche vor Ort",
       "g": "Erstes Vorstellungsgespräch findet zunehmend online statt",
       "h": "Weniger Arbeitstage, gleiche Bezahlung",
-      "i": "Arbeiten im Freien verliert an Beliebtheit",
+      "i": "Häufige Pausen während der Arbeit führen einer Studie zufolge zu mehr Fehlern",
       "j": "Quereinsteiger sind sehr gefragt"
     },
     "texts": [
@@ -297,13 +297,13 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "headings": {
       "a": "Öffentliche Einrichtung bietet nun auch handwerkliche Geräte zum Leihen an",
       "b": "Museum verlangt künftig auch sonntags Eintritt",
-      "c": "Kinos gewinnen wieder mehr Zuschauer",
+      "c": "Die Veranstaltungen im neuen Kulturzentrum stoßen bislang auf geringes Interesse",
       "d": "Leerstehendes Gebäude wird zum neuen Treffpunkt für Kunst und Vereine",
-      "e": "Junge Menschen hören lieber Hörbücher als Bücher",
+      "e": "Der Werkzeugverleih der Stadtbücherei wird von den Bürgern kaum genutzt",
       "f": "Freier Eintritt lockt neue Besucher",
       "g": "Nachhaltiges Konzept sorgt für deutlich weniger Abfall beim Festival",
       "h": "Konzerte werden immer seltener besucht",
-      "i": "Straßenkünstler verschwinden aus der Innenstadt",
+      "i": "Trotz neuer Umweltmaßnahmen blieb beim Festival ähnlich viel Müll liegen wie in den Vorjahren",
       "j": "Gratis-Konzert unter freiem Himmel lockt riesige Besuchermenge an"
     },
     "texts": [
@@ -348,10 +348,10 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
       "c": "Neubau ermöglicht Vereinen und Privatpersonen gemeinsames Training",
       "d": "Schwimmfähigkeit bei Kindern lässt laut Studie stark nach",
       "e": "Sportanbieter passen ihr Programm gezielt an die Bedürfnisse von Senioren an",
-      "f": "Vereine verzeichnen deutlichen Mitgliederzuwachs",
-      "g": "Yoga steigert vor allem die Leistung im Wettkampf",
-      "h": "Stadt schließt kostenlose Sportplätze",
-      "i": "Männer entdecken den Fußball neu für sich",
+      "f": "Im Lauftreff steht vor allem der sportliche Wettkampf zwischen den Mitgliedern im Vordergrund",
+      "g": "Die Zahl älterer Mitglieder in Fitnessstudios ist zuletzt deutlich zurückgegangen",
+      "h": "Die neue Sporthalle im Ruhrgebiet steht ausschließlich den örtlichen Vereinen zur Verfügung",
+      "i": "Bewegung im höheren Alter kann einer Studie zufolge das Gedächtnis eher verschlechtern",
       "j": "Regelmäßige Aktivität erhält im höheren Alter die Selbstständigkeit"
     },
     "texts": [
@@ -393,11 +393,11 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "headings": {
       "a": "Teure Markenkleidung wird wieder gefragter",
       "b": "Bargeld verschwindet langsam aus dem Alltag",
-      "c": "Kunden kaufen seltener im Geschäft",
-      "d": "Junge Leute geben ihr Geld lieber sofort aus",
+      "c": "Reparatur-Cafés verzeichnen aufgrund mangelnden Interesses sinkende Besucherzahlen",
+      "d": "Verbraucher zeigen sich trotz gestiegener Preise beim Einkaufen kaum sparsamer",
       "e": "Ehrenamtliche Initiativen verlängern die Lebensdauer alter Geräte",
       "f": "Kriminelle nutzen gefälschte Online-Shops, um an Kundendaten zu gelangen",
-      "g": "Werbung beeinflusst vor allem ältere Menschen stark",
+      "g": "Betrugsfälle beim Online-Einkauf sind dank besserer Sicherheitsmaßnahmen deutlich zurückgegangen",
       "h": "Secondhand-Mode wird zum bewussten Trend bei jungen Menschen",
       "i": "Kontaktloses Bezahlen setzt sich in vielen Bereichen durch",
       "j": "Verbraucher achten wegen steigender Kosten genauer auf ihre Ausgaben"
@@ -439,15 +439,15 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Musik verschlechtert angeblich das Gedächtnis",
+      "a": "Wer die Nacht vor einer Prüfung durchlernt, kann sich einer Studie zufolge besser erinnern",
       "b": "Bislang unbekannte Amphibie im Regenwald aufgespürt",
       "c": "Ausreichend Ruhe verbessert die Gedächtnisleistung vor Prüfungen",
-      "d": "Kaffee ist ungesünder als gedacht",
-      "e": "Künstliche Intelligenz soll die Pflege bald ersetzen",
-      "f": "Pflanzen reagieren nur auf Licht, nicht aufeinander",
+      "d": "Häufiges Lachen hat laut einer Studie keinen nachweisbaren Einfluss auf das Immunsystem",
+      "e": "Künstliche Intelligenz soll die Diagnose durch Ärzte schon bald vollständig ersetzen",
+      "f": "Im Regenwald Südamerikas konnten trotz intensiver Suche keine neuen Tierarten mehr entdeckt werden",
       "g": "Fröhliche Momente setzen Botenstoffe frei, die die Abwehrkräfte unterstützen",
       "h": "Computerprogramm entdeckt Auffälligkeiten auf Röntgenbildern schneller als Ärzte",
-      "i": "Bewegung verschlechtert oft die Laune",
+      "i": "Regelmäßige Bewegung mit dem Hund erhöht einer Studie zufolge eher den Blutdruck",
       "j": "Tierbesitzer profitieren gesundheitlich von mehr Bewegung und weniger Stress"
     },
     "texts": [
@@ -489,12 +489,12 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "headings": {
       "a": "Wohnraum in deutschen Metropolen wird zunehmend unbezahlbar",
       "b": "Generationenhäuser werden zunehmend abgeschafft",
-      "c": "Studierende finden inzwischen leichter ein Zimmer",
+      "c": "Die Mieten in deutschen Großstädten sind in den letzten zehn Jahren nahezu unverändert geblieben",
       "d": "Gemeinsames Gärtnern fördert den Kontakt zwischen Anwohnern",
       "e": "Leben auf dem Land verliert wieder an Attraktivität",
       "f": "Leerstehende Gebäude werden zu neuem Wohnraum umfunktioniert",
-      "g": "Große Wohnungen liegen voll im Trend",
-      "h": "Stadt schafft mehr Parkplätze in der Innenstadt",
+      "g": "Der Gemeinschaftsgarten in Frankfurt wird überwiegend von langjährigen Anwohnern und kaum von Neuzugezogenen genutzt",
+      "h": "Die Umwandlung leerstehender Büros in Wohnraum erweist sich bislang als wenig erfolgreich",
       "i": "Nachbarschaftsprojekt lässt mehrere Generationen voneinander profitieren",
       "j": "Homeoffice ermöglicht vielen den Umzug in ländliche Gegenden"
     },
@@ -535,13 +535,13 @@ const LESEVERSTEHEN_TEIL_1_DATA_B2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Ehrenamt wird bei jungen Leuten unbeliebter",
+      "a": "Rentner engagieren sich einer Studie zufolge nach dem Berufsleben deutlich seltener ehrenamtlich als früher",
       "b": "Nachbarn ziehen sich zunehmend zurück",
       "c": "Alleinleben ist in deutschen Großstädten längst keine Ausnahme mehr",
       "d": "Behörden übernehmen jetzt die Sprachkurse selbst",
       "e": "Ehrenamtliche Helfer begleiten neu Zugewanderte im Alltag",
-      "f": "Vereine müssen wegen Mitgliederschwunds schließen",
-      "g": "Großeltern überlassen die Enkelbetreuung den Eltern",
+      "f": "Einpersonenhaushalte sind in deutschen Großstädten nach wie vor eine seltene Ausnahme",
+      "g": "Die Spendenbereitschaft von Supermärkten gegenüber den Tafeln nimmt zuletzt spürbar ab",
       "h": "App vernetzt hilfsbereite Menschen",
       "i": "Immer mehr Geschäfte unterstützen Bedürftige mit überschüssigen Lebensmitteln",
       "j": "Rentner bringen sich ehrenamtlich in ihrer Stadt ein"

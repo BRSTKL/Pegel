@@ -12,7 +12,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
       "c": "Umfrage: Berufstätige sind gestresst, aber mit ihrem Job zufrieden",
       "d": "Ungewöhnlich hoher Preis für ein Gericht spaltet die Meinungen",
       "e": "Restaurant verzichtet komplett auf Spenden",
-      "f": "Nur ausgewählte Promis durften den Burger probieren",
+      "f": "After-Work-Partys beginnen meist erst nach 20 Uhr",
       "g": "Neues Buch macht den Umgang mit Rückenbeschwerden verständlicher",
       "h": "Forscher untersuchen Zusammenhang zwischen Größe und Karriere bei Frauen",
       "i": "Geselliges Beisammensein direkt nach Feierabend wird immer beliebter",
@@ -56,7 +56,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Radfahren im Sommer verbessert laut Studie die Konzentration",
-      "b": "Neue App hilft beim Finden von Fahrradwerkstätten",
+      "b": "Sparen ist laut Umfrage der Hauptgrund für den Kauf von Second-Hand-Kleidung",
       "c": "Café-Besitzer verzichtet künftig auf Bio-Lebensmittel",
       "d": "Initiative will mit gemeinsamen Mahlzeiten die Einsamkeit in der Stadt verringern",
       "e": "Katzen im Büro reduzieren laut Forschern den Stress",
@@ -151,9 +151,9 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Bahntickets werden für Familien immer teurer",
+      "a": "Nur wenige Jugendliche informieren sich über Nachrichten in sozialen Medien",
       "b": "Ältere Menschen nutzen kaum noch moderne Smartphones",
-      "c": "Reisen mit dem Zug schont die Umwelt und spart Geld",
+      "c": "Karibik-Reisen bleiben trotz Klimadebatte bei Urlaubern beliebt",
       "d": "Wegwerfen von Abfall in Grünanlagen wird künftig deutlich teurer bestraft",
       "e": "Studie überrascht: Digitale Medien sind für viele Senioren fester Alltagsbestandteil",
       "f": "Trotz Klimadiskussion erreichen deutsche Flughäfen einen neuen Passagierrekord",
@@ -199,12 +199,12 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Immer mehr Möbelhäuser bieten kostenlose Lieferung an",
-      "b": "Neue Studie: Kaffee ist gesünder als bisher gedacht",
+      "a": "Beim Möbelkauf bestellen die meisten Deutschen inzwischen ausschließlich online",
+      "b": "Bericht: Nur wohlhabende Haushalte sind von steigenden Energiepreisen betroffen",
       "c": "Bericht warnt vor höheren Energiepreisen, besonders für einkommensschwache Haushalte",
       "d": "Handwerksbetriebe können offene Ausbildungsplätze trotz guter Bedingungen kaum besetzen",
-      "e": "Online-Kurse für Fitness boomen während der Urlaubszeit",
-      "f": "Verbraucher sparen Geld durch den Kauf von gebrauchten Möbeln",
+      "e": "Handwerksbetriebe verzeichnen so viele Bewerbungen wie nie zuvor",
+      "f": "Intelligente Heizsysteme sparen laut Studie nur wenig Energie",
       "g": "Senioren meiden Online-Shops vor allem wegen der Versandkosten",
       "h": "Untersuchung: Digitale Bestellungen sind bei der älteren Generation rückläufig",
       "i": "Beim Möbelkauf setzen die meisten Deutschen weiterhin auf den Besuch vor Ort",
@@ -255,7 +255,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
       "f": "Campingurlaub wird wegen neuer Gebühren deutlich teurer",
       "g": "Jüngere Konsumenten entdecken den direkten Einkauf beim Erzeuger neu",
       "h": "Zahl der Parkverstöße in Innenstädten nimmt stark zu",
-      "i": "Online-Lebensmittelhandel boomt vor allem bei Familien",
+      "i": "Studie: Haustiere verursachen bei Senioren häufig zusätzlichen Stress",
       "j": "Hundebesitzer fordern Abschaffung der Leinenpflicht in Parks"
     },
     "texts": [
@@ -299,12 +299,12 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
       "b": "Ab nächstem Monat ist die Ausgabe von Plastiktüten auf Märkten gesetzlich verboten",
       "c": "Wer im Alter ein Instrument spielt, zeigt laut Studie bessere geistige Leistungen",
       "d": "Preise für E-Bikes im Internet stark gestiegen",
-      "e": "Fahrrad-Verleihsysteme in Großstädten werden immer seltener genutzt",
+      "e": "Digitales Sprachenlernen wird von Senioren kaum genutzt",
       "f": "Vereinssport stärkt laut Sportbund vor allem den Teamgeist im Beruf",
       "g": "Sportvereine haben zunehmend Schwierigkeiten, Kinder und Jugendliche als Mitglieder zu gewinnen",
       "h": "Elektrofahrräder lösen für viele Berufstätige zunehmend das Auto ab",
       "i": "Immer mehr Senioren lernen mit digitalen Angeboten eine neue Fremdsprache",
-      "j": "Neue Technologie: Smartphones warnen Radfahrer vor Unfällen"
+      "j": "Plastiktüten dürfen auf Märkten künftig nur noch gegen Gebühr ausgegeben werden"
     },
     "texts": [
       {
@@ -343,9 +343,9 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Neue Studie: Regelmäßige Saunagänge senken das Krankheitsrisiko",
-      "b": "Immer mehr junge Leute machen eine Ausbildung im Handwerk",
-      "c": "Preise für Eintritt in digitale Ausstellungen stark gesunken",
+      "a": "Kommunen planen für Restmüll- und Biotonnen deutlich günstigere Gebühren",
+      "b": "Immer mehr Studierende kaufen ihre Fachliteratur ausschließlich neu im Buchladen",
+      "c": "Nur wenige Großstädter interessieren sich für den Anbau von eigenem Gemüse",
       "d": "Wer regelmäßig im Garten aktiv ist, hat laut Untersuchung einen niedrigeren Stresspegel",
       "e": "Digitale Kunstangebote im Internet setzen traditionellen Ausstellungshäusern zu",
       "f": "Kommunen wollen die Kosten für Restmüll und Biotonnen im kommenden Jahr erhöhen",
@@ -398,7 +398,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
       "e": "Fahrrad- und Motorradwerkstätten können offene Stellen für Mechaniker kaum besetzen",
       "f": "Gemeinsames Fremdsprachenlernen am Arbeitsplatz verbessert das Betriebsklima",
       "g": "Immer mehr junge Menschen verzichten bewusst auf ein eigenes Auto",
-      "h": "Junge Menschen nutzen Smartphones immer häufiger für Bankgeschäfte",
+      "h": "Immer mehr junge Menschen kaufen sich trotz hoher Kosten ein eigenes Auto",
       "i": "Nachbarn leihen sich Werkzeug zunehmend über spezielle Webseiten statt es neu zu kaufen",
       "j": "Experten raten: Tägliches Rauchverbot schützt Kinder vor Krankheiten"
     },
@@ -440,10 +440,10 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Neue Studie: Padel-Tennis verbessert vor allem den Schlaf von Senioren",
-      "b": "Immer mehr Menschen nutzen Apps für die Reparatur von Kleidung",
+      "b": "Über 70-Jährige meiden Online-Banking meist aus Angst vor Betrug",
       "c": "Schwimmbäder müssen wegen gestiegener Betriebskosten die Eintrittspreise erhöhen",
       "d": "Wer regelmäßig Padel-Tennis spielt, ist laut Untersuchung deutlich fitter",
-      "e": "Traditionelle Kaffeeröstereien verzeichnen sinkende Umsätze",
+      "e": "Kaufinteresse an eigener Sportausrüstung wie Ski und Snowboards steigt deutlich",
       "f": "Spätes Koffein am Abend verbessert laut Studie den Schlaf",
       "g": "Eintrittspreise für Schwimmbäder sinken erstmals seit Jahren",
       "h": "Entgegen den Erwartungen nutzen viele über 70-Jährige regelmäßig Online-Banking",
@@ -490,8 +490,8 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
       "a": "Offenes Feuer und Grillen auf städtischen Grünflächen sind ab sofort untersagt",
       "b": "Carsharing-Anbieter kündigen für das kommende Jahr höhere Mietpreise an",
       "c": "Kulturelle Aktivitäten wie Museumsbesuche senken laut Studie den Stresspegel von Berufstätigen",
-      "d": "Preise für Carsharing-Angebote in Großstädten stark gesunken",
-      "e": "Traditionelle Handwerksbetriebe finden wieder mehr junge Auszubildende",
+      "d": "Nur wenige Senioren nutzen Videotelefonie, um mit der Familie in Kontakt zu bleiben",
+      "e": "Grillen auf städtischen Grünflächen ist ab sofort unter bestimmten Auflagen wieder erlaubt",
       "f": "Gemeinschaftsgarten in Kreuzberg fördert den Austausch zwischen Jung und Alt",
       "g": "Zahl der Museumsbesucher bei jungen Menschen nimmt deutlich zu",
       "h": "Videotelefonie wird für Senioren zum wichtigen Kontaktmittel zur Familie",
@@ -535,16 +535,16 @@ const LESEVERSTEHEN_TEIL_1_DATA_B1 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Neue Verordnung: Rauchverbot in allen öffentlichen Parkanlagen",
+      "a": "Kinobesuche bei Jugendlichen erreichen laut Studie einen neuen Höchststand",
       "b": "Second-Hand-Spielzeugläden verzeichnen sinkende Kundenzahlen",
       "c": "Zeit in der Natur wirkt sich laut Studie positiv auf den Blutdruck aus",
-      "d": "Preise für Mietspielzeug in Großstädten stark gestiegen",
+      "d": "Zeit in der Natur hat laut Studie keinen Einfluss auf den Blutdruck",
       "e": "Chöre für Senioren verzeichnen wieder mehr Bewerber",
       "f": "Wöchentliches Chorsingen stärkt laut Untersuchung die Abwehrkräfte älterer Menschen",
       "g": "Jugendliche gehen laut Studie immer seltener ins Kino",
       "h": "Senioren planen ihre Reisen laut Report entgegen den Erwartungen zunehmend selbst im Internet",
       "i": "Familien leihen Kinderspielzeug zunehmend übers Internet, statt es neu zu kaufen",
-      "j": "Chorsingen ist bei jungen Erwachsenen beliebter als bei Senioren"
+      "j": "Senioren überlassen die Planung ihrer Reisen laut Report weiterhin meist dem Reisebüro"
     },
     "texts": [
       {

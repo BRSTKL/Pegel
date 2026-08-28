@@ -8,7 +8,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
       "a": "Mehr Sportunterricht schadet der Konzentration",
-      "b": "Zu viel Zucker macht Kinder unruhig",
+      "b": "Ärzte empfehlen, Bildschirme direkt vor dem Schlafengehen zu nutzen",
       "c": "Kleidung aus zweiter Hand wird immer beliebter",
       "d": "Hamburg baut mehr Parkplätze für Autos",
       "e": "Online-Plattformen bieten jetzt auch neue Designer-Kleidung an",
@@ -50,7 +50,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "explanations": {
       "1": "\"Bewegung hilft dem Gehirn, neue Informationen zu verarbeiten\" → (j) tam eşleşme. (a) tam tersini iddia ediyor: hareketin konsantrasyona zararlı olduğunu söylüyor, metinle çelişiyor.",
       "2": "\"kaufen Kleidung, die schon einmal getragen wurde\" = ikinci el giysi satın almak → (c) tam eşleşme. (e) metindeki \"Online-Plattformen\" kelimesini kullanıyor ama yeni tasarımcı kıyafetinden bahsediyor, ikinci-el temasıyla çelişiyor.",
-      "3": "\"wer weniger als sieben Stunden schläft, hat häufiger Probleme\" = az uyku sağlığa zarar veriyor → (i) tam eşleşme. (b) \"Zucker macht Kinder unruhig\" aldatmaca; şekerle ilgisi yok.",
+      "3": "\"wer weniger als sieben Stunden schläft, hat häufiger Probleme\" = az uyku sağlığa zarar veriyor → (i) tam eşleşme. (b) aynı uyku temasını kullanıyor ama tam tersini iddia ediyor: ekranlar uyumadan önce değil, uyumadan 1 saat önce kapatılmalı.",
       "4": "\"werden Lebensmittel... kostenlos an Kunden abgegeben\" = yiyecekler ücretsiz dağıtılıyor → (h) tam eşleşme. (g) aynı süpermarket temasını kullanıyor ama \"kostenlos\" değil \"günstiger\" (indirimli) diyor, metinle çelişiyor.",
       "5": "\"investiert in neue Fahrradwege\" ve \"Radfahrer sicherer\" → (f) tam eşleşme. (d) aynı şehir/ulaşım temasını kullanıyor ama tam tersini iddia ediyor: bisiklet değil araba park yeri."
     }
@@ -122,7 +122,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       "c": "Sitzen im Klassenzimmer hilft Kindern beim Lernen mehr als Spielen draußen",
       "d": "Koch-Workshops sind vor allem bei erfahrenen Köchen beliebt",
       "e": "E-Scooter-Fahrer brauchen jetzt einen Helm",
-      "f": "Weniger Bienen: Problem für die Landwirtschaft",
+      "f": "Pflegeheime verbieten jetzt Haustiere in den Zimmern",
       "g": "Direktkauf beim Bauern ist oft teurer als im Supermarkt",
       "h": "E-Scooter-Fahrer dürfen jetzt zu zweit fahren",
       "i": "Kunden kaufen frisches Gemüse direkt beim Bauern",
@@ -161,7 +161,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       "1": "\"Kunden können frisches Gemüse... direkt beim Erzeuger kaufen\" ve \"Das ist oft günstiger\" → (i) tam eşleşme. (g) aynı çiftçiden doğrudan satın alma temasını kullanıyor ama tam tersini iddia ediyor: metinde 'günstiger' derken (g) 'teurer' diyor.",
       "2": "\"draußen spielen... können sich in der Schule besser konzentrieren\" → (j) tam eşleşme. (c) aynı sınıf/okul temasını kullanıyor ama tam tersini iddia ediyor: dışarıda oynamak değil, sınıfta oturmanın daha çok yardımcı olduğunu söylüyor.",
       "3": "\"Fahrer müssen jetzt einen Helm tragen\" ve \"Fahren zu zweit... ist verboten\" → (e) tam eşleşme. (h) aynı E-Scooter temasını kullanıyor ama tam tersini iddia ediyor: yasak olan ikili sürüşe artık izin verildiğini söylüyor.",
-      "4": "\"fühlen sich weniger allein\" ve \"Haustiere in den Zimmern\" → (a) tam eşleşme. (j) \"Frische Luft\" detayını kullanıyor (metinde de geçiyor) ama (j) aslında 2. metnin doğru cevabı; buraya uymuyor.",
+      "4": "\"fühlen sich weniger allein\" ve \"Einige Pflegeheime erlauben deshalb jetzt Haustiere in den Zimmern\" → (a) tam eşleşme. (f) aynı Pflegeheim/Haustier temasını kullanıyor ama tam tersini iddia ediyor: metinde huzurevleri artık evcil hayvana izin verirken (f) yasakladığını söylüyor.",
       "5": "\"gemeinsames Kochen fördert den sozialen Kontakt\" ve \"besonders für Neuankömmlinge\" → (b) tam eşleşme. (d) aynı Koch-Workshop temasını kullanıyor ama tam tersini iddia ediyor: metinde yeni gelenler için değerliyken (d) deneyimli aşçılar arasında popüler olduğunu söylüyor."
     }
   },
@@ -181,7 +181,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       "g": "Immer mehr Deutsche bevorzugen Fernreisen mit dem Flugzeug",
       "h": "Heimarbeit bleibt sehr beliebt",
       "i": "Die meisten Anwohner sehen den nächtlichen Lärm nicht als Problem",
-      "j": "Weniger Papier im Büro dank Digitalisierung"
+      "j": "Viele Firmen planen, das Homeoffice bald wieder abzuschaffen"
     },
     "texts": [
       {
@@ -215,7 +215,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "explanations": {
       "1": "\"sollen Verstöße härter bestraft werden\" ve \"Anwohner unterstützen die Forderung mehrheitlich\" → (a) tam eşleşme. (i) aynı gürültü temasını kullanıyor ama tam tersini iddia ediyor: çoğu komşunun bunu sorun görmediğini söylüyor, oysa metinde çoğunluk şikayet edip talebi destekliyor.",
       "2": "\"Urlaub lieber im eigenen Land\" ve \"Reisen im Inland\" → (d) tam eşleşme. (g) aynı seyahat temasını kullanıyor ama tam tersini iddia ediyor: yurt içi tatil değil, uçakla yurt dışı seyahatinin popülerleştiğini söylüyor.",
-      "3": "\"von zu Hause aus arbeiten\" ve \"Homeoffice dauerhaft anbieten\" → (h) tam eşleşme. (j) \"Weniger Papier\" aldatmaca; her ikisi de iş hayatıyla ilgili ama (h) tam eşleşiyor.",
+      "3": "\"von zu Hause aus arbeiten\" ve \"Firmen planen, das Homeoffice dauerhaft anzubieten\" → (h) tam eşleşme. (j) aynı Homeoffice temasını kullanıyor ama tam tersini iddia ediyor: metinde kalıcı olarak sunulacakken (j) yakında kaldırılacağını söylüyor.",
       "4": "\"Schülerinnen und Schüler eine eigene kleine Firma gegründet\" ve \"handgemachte Produkte wie Taschen und Schmuck\" → (b) tam eşleşme. (f) aynı okul-firma temasını kullanıyor ama tam tersini iddia ediyor: el yapımı ürünler değil, sadece dijital ürünler sattıklarını söylüyor.",
       "5": "\"neues Museum, das die Geschichte einer Stadt zeigt\" → (e) tam eşleşme. (c) aynı müze temasını kullanıyor ama tam tersini iddia ediyor: metinde çocuklar için ücretsizken (c) herkes için ücretli olduğunu söylüyor."
     }
@@ -234,7 +234,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       "e": "Forscher empfehlen mindestens eine Stunde Lesen pro Tag",
       "f": "Das inklusive Café in Köln bekommt keine staatliche Unterstützung",
       "g": "Junge Menschen helfen heute öfter freiwillig",
-      "h": "Weniger Wasser verbrauchen: Tipps für den Alltag",
+      "h": "Gemeinschaftsgärten sind nur für Menschen mit eigenem Garten gedacht",
       "i": "Immer mehr Menschen wohnen allein",
       "j": "Lesen fördert Empathie, sagen Forscher"
     },
@@ -269,7 +269,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     },
     "explanations": {
       "1": "\"können sich besser in andere hineinversetzen\" ve \"täglich mindestens 20 Minuten\" → (j) tam eşleşme. (e) aynı okuma temasını kullanıyor ama yanlış süre veriyor: metinde 'mindestens 20 Minuten' derken (e) 'eine Stunde' diyor.",
-      "2": "\"Gemeinschaftsgärten\" ve \"immer mehr Menschen legen einen Garten an\" → (d) tam eşleşme. (h) \"Wasser verbrauchen\" aldatmaca; bahçe var ama su tasarrufu konusu değil.",
+      "2": "\"Gemeinschaftsgärten\" ve \"bieten Platz zum Gärtnern für alle, die keinen eigenen Garten haben\" → (d) tam eşleşme. (h) aynı Gemeinschaftsgarten temasını kullanıyor ama tam tersini iddia ediyor: metinde kendi bahçesi olmayanlar içinken (h) sadece kendi bahçesi olanlar için olduğunu söylüyor.",
       "3": "\"Menschen mit verschiedenen Behinderungen als Servicekräfte arbeiten\" ve \"Die Stadt unterstützt das Projekt finanziell\" → (c) tam eşleşme. (f) aynı kafe temasını kullanıyor ama tam tersini iddia ediyor: metinde şehir maddi destek verirken (f) hiç destek almadığını söylüyor.",
       "4": "\"Jugendliche engagieren sich heute mehr als früher in Vereinen, sozialen Projekten\" → (g) tam eşleşme. (a) aynı gençlik/gönüllülük temasını kullanıyor ama tam tersini iddia ediyor: metinde 'mehr als früher' derken (a) 'seltener' diyor.",
       "5": "\"ohne Partner oder Familie in einer eigenen Wohnung\" ve \"jeder zweite Haushalt ein Einpersonenhaushalt\" → (i) tam eşleşme. (b) aynı şehir/hanehalkı temasını kullanıyor ama tam tersini iddia ediyor: metinde artış varken (b) azaldığını söylüyor."
@@ -289,7 +289,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       "e": "Flüchtlinge lernen gratis Deutsch",
       "f": "In Schulkantinen gibt es jetzt öfter Fertiggerichte",
       "g": "Wärmere Flüsse sind gut für viele Fischarten",
-      "h": "Stadtpark wird zum Freiluftkonzert",
+      "h": "Städte pflanzen weniger Bäume, um Kosten zu sparen",
       "i": "In Kantinen gibt es jetzt öfter Bio-Essen",
       "j": "Städte setzen auf mehr Grün gegen die Hitze"
     },
@@ -324,7 +324,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     },
     "explanations": {
       "1": "\"fühlen sich Senioren durch das Smartphone weniger allein\" → (c) tam eşleşme. (a) aynı Senioren/teknoloji temasını kullanıyor ama tam tersini iddia ediyor: metinde 'weniger allein' derken (a) 'einsamer' diyor.",
-      "2": "\"Temperaturen in Städten stark gestiegen\" ve \"Tausende neue Bäume gepflanzt\" → (j) tam eşleşme. (d) \"Flüsse wärmer\" aldatmaca; ısınma konusu ama nehir değil şehir.",
+      "2": "\"Temperaturen in Städten stark gestiegen\" ve \"Tausende neue Bäume gepflanzt\" → (j) tam eşleşme. (h) aynı şehir/ağaç temasını kullanıyor ama tam tersini iddia ediyor: metinde binlerce yeni ağaç dikilirken (h) maliyetten dolayı daha az ağaç dikildiğini söylüyor.",
       "3": "\"Kantinen... Bio-Lebensmittel\" ve \"weniger Fertigprodukte\" → (i) tam eşleşme. (f) aynı kantin temasını kullanıyor ama tam tersini iddia ediyor: metinde 'weniger Fertigprodukte' derken (f) 'öfter Fertiggerichte' diyor.",
       "4": "\"Temperaturen in deutschen Flüssen... gestiegen\" ve \"schadet bestimmten Fischarten\" → (d) tam eşleşme. (g) aynı nehir/balık temasını kullanıyor ama tam tersini iddia ediyor: metinde balıklara zarar verirken (g) iyi olduğunu söylüyor.",
       "5": "\"Kurse finden dreimal pro Woche statt\" → (e) tam eşleşme. (b) aynı kurs temasını kullanıyor ama yanlış sıklık veriyor: metinde 'dreimal pro Woche' derken (b) 'nur einmal im Monat' diyor."
@@ -449,10 +449,10 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "headings": {
       "a": "Solaranlagen werden für private Haushalte immer teurer",
       "b": "Sportkurse in der Stadt kosten jetzt eine Teilnahmegebühr",
-      "c": "Neue App hilft bei der Jobsuche",
+      "c": "Das Roboter-Projekt bekommt keine Unterstützung von Unternehmen",
       "d": "Wandern liegt wieder im Trend",
       "e": "Strom aus Solaranlagen wird billiger",
-      "f": "Immer mehr Pflegeheime suchen Fachkräfte",
+      "f": "Senioren-WGs sind meist teurer als eine eigene Wohnung",
       "g": "Schüler basteln kleine Maschinen",
       "h": "Wandervereine verlieren immer mehr Mitglieder",
       "i": "Die Stadt bezahlt Sportkurse für alle",
@@ -490,9 +490,9 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "explanations": {
       "1": "\"Kosten für Solaranlagen sind... stark gesunken\" → (e) tam eşleşme. (a) aynı enerji/maliyet temasını kullanıyor ama tam tersini iddia ediyor: metinde ucuzluyor derken (a) pahalılaştığını söylüyor.",
       "2": "\"kostenlose Kurse\" ve \"vom Stadtrat finanziert\" → (i) tam eşleşme. (b) aynı spor kursu temasını kullanıyor ama tam tersini iddia ediyor: metinde ücretsizken (b) katılım ücreti olduğunu söylüyor.",
-      "3": "\"Wohngemeinschaft\" + \"verhindert Einsamkeit\" + \"Menschen ab 60\" → (j) tam eşleşme. (f) \"Pflegeheime\" aldatmaca; yaşlılar var ama bakım evi değil WG konusu.",
+      "3": "\"Wohngemeinschaft\" + \"Das spart Kosten\" + \"Menschen ab 60\" → (j) tam eşleşme. (f) aynı Senioren-WG temasını kullanıyor ama tam tersini iddia ediyor: metinde WG masraflardan tasarruf sağlarken (f) kendi başına yaşamaktan daha pahalı olduğunu söylüyor.",
       "4": "\"Wandern... gesund ist\" ve \"Wandervereine melden steigende Mitgliederzahlen\" → (d) tam eşleşme. (h) aynı yürüyüş kulübü temasını kullanıyor ama tam tersini iddia ediyor: metinde üye sayısı artarken (h) azaldığını söylüyor.",
-      "5": "\"Schülerinnen und Schüler... bauen selbst kleine Roboter\" → (g) tam eşleşme. (c) \"App hilft bei der Jobsuche\" aldatmaca; teknoloji var ama iş arama değil robotik konusu."
+      "5": "\"Schülerinnen und Schüler... bauen selbst kleine Roboter\" ve \"Mehrere Unternehmen unterstützen das Projekt mit Material und Geld\" → (g) tam eşleşme. (c) aynı robot projesi temasını kullanıyor ama tam tersini iddia ediyor: metinde şirketler destek verirken (c) hiç destek almadığını söylüyor."
     }
   },
   {
@@ -502,7 +502,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "hasImage": false,
     "instruction": "Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift. Sie können jede Überschrift nur einmal benutzen. Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.",
     "headings": {
-      "a": "Neue Wohnungen für wenig Geld gebaut",
+      "a": "Experten raten davon ab, feste Regeln für die Bildschirmzeit aufzustellen",
       "b": "Im Tierheim werden helfende Hände gebraucht",
       "c": "Im Tierheim ist eine spezielle Ausbildung Pflicht",
       "d": "Familien verbringen den Sommer auf dem Land",
@@ -547,7 +547,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       "2": "\"Geschwindigkeit vor Schulen auf Tempo 20 zu reduzieren\" → (g) tam eşleşme. (j) aynı okul yolu/trafik temasını kullanıyor ama yanlış rakam veriyor: metinde 'Tempo 20' derken (j) 'Tempo 50' diyor.",
       "3": "\"Eine Ausbildung ist nicht notwendig\" → (b) tam eşleşme. (c) aynı gönüllülük temasını kullanıyor ama tam tersini iddia ediyor: metinde eğitim gerekmezken (c) özel eğitimin zorunlu olduğunu söylüyor.",
       "4": "\"Urlaub auf einem Bauernhof\" ve \"ausgebuchten Sommern\" → (d) tam eşleşme. (f) aynı Bauernhof/tatil temasını kullanıyor ama tam tersini iddia ediyor: metinde yerler doluyken (f) hâlâ çok boş yer olduğunu söylüyor.",
-      "5": "\"Tipps, wie Kinder... mit Tablets und Smartphones umgehen\" ve \"Medienpädagogen\" → (i) tam eşleşme. (a) \"Neue Wohnungen für wenig Geld\" aldatmaca; ilgisiz konu."
+      "5": "\"Tipps, wie Kinder... mit Tablets und Smartphones umgehen\" ve \"klare Regeln für die Bildschirmzeit zu setzen\" → (i) tam eşleşme. (a) aynı ekran süresi temasını kullanıyor ama tam tersini iddia ediyor: metinde net kurallar önerilirken (a) sabit kuralların önerilmediğini söylüyor."
     }
   },
   {
@@ -559,8 +559,8 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "headings": {
       "a": "Computer helfen Ärzten bei der Diagnose",
       "b": "Die Stadtverwaltung will das Wandmalerei-Projekt beenden",
-      "c": "Parkgebühren in der Innenstadt steigen",
-      "d": "Stadtteile bekommen mehr Grünflächen",
+      "c": "Erste Tests mit den neuen Ampeln zeigen mehr Unfälle als zuvor",
+      "d": "Für Gründächer gibt es keine finanziellen Zuschüsse von der Stadt",
       "e": "Künstliche Intelligenz macht Diagnosen langsamer als früher",
       "f": "Künstler bemalen langweilige Wände bunt",
       "g": "Kluge Ampeln machen die Straßen sicherer",
@@ -600,8 +600,8 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     "explanations": {
       "1": "\"Viele Ideen der Bürger wurden bereits umgesetzt\" → (i) tam eşleşme. (h) aynı katılım temasını kullanıyor ama tam tersini iddia ediyor: metinde fikirler uygulanırken (h) çoğunlukla reddedildiğini söylüyor.",
       "2": "\"alte graue Hauswände... von lokalen Künstlern bunt bemalt\" ve \"Stadtverwaltung plant... auszudehnen\" → (f) tam eşleşme. (b) aynı proje temasını kullanıyor ama tam tersini iddia ediyor: metinde proje genişletilecekken (b) sonlandırılmak istendiğini söylüyor.",
-      "3": "\"Neue intelligente Ampeln\" ve \"Zahl der Unfälle ist gesunken\" → (g) tam eşleşme. (c) \"Parkgebühren\" aldatmaca; trafik var ama otopark ücreti değil.",
-      "4": "\"bepflanzen ihre Gebäudedächer\" ve \"Gründächer\" → (j) tam eşleşme. (d) \"Stadtteile bekommen mehr Grünflächen\" aldatmaca; yeşil alan var ama çatı bahçesi tam eşleşme.",
+      "3": "\"Neue intelligente Ampeln\" ve \"Die Zahl der Unfälle ist deutlich gesunken\" → (g) tam eşleşme. (c) aynı akıllı trafik ışığı temasını kullanıyor ama tam tersini iddia ediyor: metinde kazalar azalırken (c) arttığını söylüyor.",
+      "4": "\"bepflanzen ihre Gebäudedächer\" ve \"Städte fördern das mit finanziellen Zuschüssen\" → (j) tam eşleşme. (d) aynı çatı bahçesi/Gründach temasını kullanıyor ama tam tersini iddia ediyor: metinde şehirler mali destek verirken (d) hiç destek olmadığını söylüyor.",
       "5": "\"schneller und genauer ausgewertet\" → (a) tam eşleşme. (e) aynı teşhis/YZ temasını kullanıyor ama tam tersini iddia ediyor: metinde daha hızlıyken (e) daha yavaş olduğunu söylüyor."
     }
   },
@@ -616,7 +616,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
       "b": "Humor hat laut der Studie keinen Einfluss auf Schmerzen",
       "c": "Immer mehr Menschen backen ihr Brot selbst",
       "d": "Ein E-Auto kostet oft nur noch 20.000 Euro",
-      "e": "Mehr Lernzeit durch kürzere Ferien",
+      "e": "Experten empfehlen, in den Pausen weiter am Bildschirm zu arbeiten",
       "f": "Alle Händler sind gegen die Erweiterung der Fußgängerzonen",
       "g": "Kleine Pausen tun gut im Job",
       "h": "Neue Studie: Humor macht gesünder",
@@ -654,7 +654,7 @@ const LESEVERSTEHEN_TEIL_1_DATA_A1A2 = [
     },
     "explanations": {
       "1": "\"Neue Modelle... schon ab 20.000 Euro erhältlich\" → (d) tam eşleşme. (a) aynı E-Auto/fiyat temasını kullanıyor ama yanlış rakam veriyor: metinde '20.000 Euro' derken (a) 'über 40.000 Euro' diyor.",
-      "2": "\"kurze Pausen macht\" ve \"Stresspegel zu senken\" → (g) tam eşleşme. (e) \"kürzere Ferien\" aldatmaca; zaman kısaltma var ama iş hayatı paus konusu.",
+      "2": "\"kurze Pausen macht\" ve \"während der Pausen Bildschirme auszuschalten\" → (g) tam eşleşme. (e) aynı mola/iş temasını kullanıyor ama tam tersini iddia ediyor: metinde molada ekranlar kapatılması önerilirken (e) ekran başında çalışmaya devam edilmesinin önerildiğini söylüyor.",
       "3": "\"Händler sind geteilter Meinung\" → (i) tam eşleşme. (f) aynı esnaf/fikir temasını kullanıyor ama tam tersini iddia ediyor: metinde fikirler bölünmüşken (f) tüm esnafın karşı olduğunu söylüyor.",
       "4": "\"Wissenschaftler haben untersucht, ob Lachen gesund ist\" ve \"Schmerzen werden durch Humor besser ertragen\" → (h) tam eşleşme. (b) aynı sağlık/araştırma temasını kullanıyor ama tam tersini iddia ediyor: metinde mizah ağrıyı azaltırken (b) hiç etkisi olmadığını iddia ediyor.",
       "5": "\"backen in ihrer Freizeit Brot, Kuchen... selbst\" ve \"dieser Trend stark zugenommen\" → (c) tam eşleşme. (j) aynı ekmek pişirme temasını kullanıyor ama tam tersini iddia ediyor: metinde trend artarken (j) azaldığını söylüyor."
