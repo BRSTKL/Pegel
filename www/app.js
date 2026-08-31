@@ -2774,16 +2774,9 @@ function formatLessonContent(content) {
 }
 
 function formatCitations(text) {
-  let formatted = text;
-  
-  formatted = formatted.replace(/"([^"]+)"/g, '<strong>“$1”</strong>');
-  
-  formatted = formatted.replace(/\s+(\d+)(,\s*\d+)*/g, (match) => {
-    const nums = match.trim().split(/\s*,\s*/);
-    return nums.map(n => `<span class="citation" title="Kaynak Referans ${n}">${n}</span>`).join("");
-  });
-  
-  return formatted;
+  // Tirnak icindeki ifadeleri vurgular. Kaynak numarasi rozetleri kaldirildi:
+  // ders icerikleri artik kaynak referansi tasimiyor, metindeki sayilar duz metin.
+  return text.replace(/"([^"]+)"/g, '<strong>“$1”</strong>');
 }
 
 // KELİME TESTİ CONTROLLER (multiple-choice recall of saved vocabulary)
