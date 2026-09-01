@@ -2736,3 +2736,40 @@ body.is-native .app-container {
 
 
 
+
+/* "YENİ" işareti — kitaptan sonradan eklenen dersler */
+.new-badge {
+  position: absolute;
+  top: -2px;
+  right: -6px;
+  z-index: 4;
+  padding: 2px 5px;
+  border-radius: 5px;
+  background: var(--theme-teal);
+  color: #ffffff;
+  font-size: 8.5px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+  pointer-events: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+}
+
+.droplet-node.locked .new-badge {
+  background: var(--color-text-secondary);
+  opacity: 0.55;
+}
+
+.new-chip {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 8px;
+  padding: 2px 7px;
+  border-radius: 100px;
+  background: var(--theme-teal);
+  color: #ffffff;
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  vertical-align: middle;
+}

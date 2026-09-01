@@ -2392,6 +2392,7 @@ function renderLevelPath() {
       <div class="droplet-icon-container">
         <i class="ti ${les.status === 'locked' ? 'ti-lock' : getLessonIcon(les, index)}"></i>
       </div>
+      ${les.isNew ? '<span class="new-badge">YENİ</span>' : ''}
     `;
     
     btn.addEventListener("click", () => {
@@ -2541,10 +2542,11 @@ function showLessonPreview(lesson, status) {
   badge.style.color = `var(--theme-${lesson.categoryColor})`;
   badge.style.border = `1px solid rgba(177, 159, 251, 0.2)`;
   
+  const newChip = lesson.isNew ? `<span class="new-chip">YENİ</span>` : "";
   if (status === "completed") {
-    statusBadge.innerHTML = `<span style="color: var(--theme-teal); display: flex; align-items: center; gap: 4px;"><i class="ti ti-circle-check-filled"></i> Tamamlandı</span>`;
+    statusBadge.innerHTML = `<span style="color: var(--theme-teal); display: flex; align-items: center; gap: 4px;"><i class="ti ti-circle-check-filled"></i> Tamamlandı</span>${newChip}`;
   } else {
-    statusBadge.innerHTML = `<span style="color: var(--theme-purple); display: flex; align-items: center; gap: 4px;"><i class="ti ti-flame"></i> Sıradaki Konu</span>`;
+    statusBadge.innerHTML = `<span style="color: var(--theme-purple); display: flex; align-items: center; gap: 4px;"><i class="ti ti-flame"></i> Sıradaki Konu</span>${newChip}`;
   }
   
   const contentText = lesson.content || "";
@@ -2665,7 +2667,14 @@ function openLesson(lesson, referrer = "sitemap") {
     backBtn.setAttribute("data-target", referrer);
   }
   
-  document.getElementById("lesson-title").textContent = lesson.title;
+  const lessonTitleEl = document.getElementById("lesson-title");
+  lessonTitleEl.textContent = lesson.title;
+  if (lesson.isNew) {
+    const chip = document.createElement("span");
+    chip.className = "new-chip";
+    chip.textContent = "YENİ";
+    lessonTitleEl.appendChild(chip);
+  }
   
   const lessonBody = document.getElementById("lesson-body-content");
   if (lessonBody) {
