@@ -1,5 +1,9 @@
 // app.js - Pegel German App Core Logic (Multi-Level: A1-A2 & B1)
 
+// İçerik incelemesi için geçici: true olduğunda bütün dersler açık gelir,
+// sıralı ilerleme kilidi devre dışı kalır. Yayına almadan önce false yapın.
+const UNLOCK_ALL_LESSONS = true;
+
 // Per-level progress template
 function emptyLevelProgress() {
   return {
@@ -2291,7 +2295,7 @@ function renderLevelPath() {
     let status = "locked";
     if (isCompleted) {
       status = "completed";
-    } else if (idx <= maxCompletedIndex + 1) {
+    } else if (UNLOCK_ALL_LESSONS || idx <= maxCompletedIndex + 1) {
       status = "active";
     } else {
       status = "locked";
@@ -2513,7 +2517,7 @@ function renderLevelPath() {
 }
 
 function showLessonPreview(lesson, status) {
-  if (status === "locked") {
+  if (status === "locked" && !UNLOCK_ALL_LESSONS) {
     playSound("click");
     if (typeof capacitorHapticVibrate === "function") {
       capacitorHapticVibrate("warning");
