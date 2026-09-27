@@ -63,7 +63,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
   
   <!-- App Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=22">
+  <link rel="stylesheet" href="style.css?v=23">
   
 
   
@@ -543,6 +543,28 @@
           </div>
         </div>
 
+        <!-- Read-aloud player (visible while a text is being read, see tts.js); outside the scroll area so it never scrolls away -->
+        <div id="tts-player" class="tts-player hidden" role="region" aria-label="Sesli okuma">
+          <div class="tts-player-bar">
+            <button type="button" class="tts-player-btn tts-player-main" data-tts-action="toggle" aria-label="Duraklat"><i class="ti ti-player-pause"></i></button>
+            <div class="tts-player-info">
+              <span class="tts-player-title" id="tts-player-title"></span>
+              <span class="tts-player-progress" id="tts-player-progress" aria-live="polite"></span>
+            </div>
+            <button type="button" class="tts-player-btn" data-tts-action="prev" aria-label="Önceki cümle" title="Önceki cümle"><i class="ti ti-player-track-prev"></i></button>
+            <button type="button" class="tts-player-btn" data-tts-action="next" aria-label="Sonraki cümle" title="Sonraki cümle"><i class="ti ti-player-track-next"></i></button>
+            <button type="button" class="tts-player-btn tts-player-rate" data-tts-action="rate" aria-label="Okuma hızı" title="Okuma hızı">1x</button>
+            <button type="button" class="tts-player-btn" data-tts-action="settings" aria-label="Ses seçimi" aria-expanded="false" title="Ses seçimi"><i class="ti ti-adjustments-horizontal"></i></button>
+            <button type="button" class="tts-player-btn" data-tts-action="close" aria-label="Sesli okumayı kapat" title="Kapat"><i class="ti ti-x"></i></button>
+          </div>
+          <div class="tts-player-settings hidden" id="tts-player-settings">
+            <label class="tts-settings-label" for="tts-voice-select">Ses</label>
+            <select id="tts-voice-select" class="tts-voice-select"></select>
+            <p class="tts-settings-hint hidden" id="tts-voice-hint"></p>
+            <button type="button" class="tts-install-btn hidden" id="tts-install-btn" data-tts-action="install"><i class="ti ti-download"></i> Almanca ses paketini yükle</button>
+          </div>
+        </div>
+
         <!-- Split Pane Layout -->
         <div class="leseverstehen-layout" style="flex: 1; display: flex; gap: 20px; overflow: hidden; min-height: 0;">
           <!-- Left Panel: Texts & Headings (Scrollable) -->
@@ -574,8 +596,11 @@
             <div id="leseverstehen-t1-container" style="display: flex; flex-direction: column; gap: 16px;">
               <!-- Headings List -->
               <div>
-                <p class="ts" style="font-size: 11.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 0 10px;">Überschriften (a-j)</p>
-                <div id="leseverstehen-headings-list" class="grid-2" style="gap: 8px;">
+                <div class="tts-section-header" style="margin: 0 0 10px;">
+                  <p class="ts" style="font-size: 11.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin: 0;">Überschriften (a-j)</p>
+                  <button type="button" class="tts-listen-btn" data-tts-play="ls-headings" data-tts-label="Überschriften" aria-label="Başlıkları sesli dinle" title="Sesli dinle"><i class="ti ti-volume"></i><span>Dinle</span></button>
+                </div>
+                <div id="leseverstehen-headings-list" class="grid-2" style="gap: 8px;" data-tts-block="ls-headings">
                   <!-- Loaded dynamically -->
                 </div>
               </div>
@@ -592,8 +617,14 @@
             <!-- Teil 2 Containers -->
             <div id="leseverstehen-t2-container" class="hidden" style="display: flex; flex-direction: column; gap: 16px;">
               <!-- Article Content -->
-              <div class="interactive-card" style="padding: 16px; border-radius: var(--border-radius-lg); border-left: 3px solid var(--theme-purple); background: var(--color-background-secondary); border-top: 1px solid var(--color-border-primary); border-right: 1px solid var(--color-border-primary); border-bottom: 1px solid var(--color-border-primary);">
-                <p id="leseverstehen-t2-article" style="font-size: 13px; line-height: 1.6; margin: 0; color: var(--color-text-secondary); text-align: justify; white-space: pre-line;"></p>
+              <div style="display: flex; flex-direction: column; gap: 10px;">
+                <div class="tts-section-header">
+                  <p class="ts" style="font-size: 11.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin: 0;">Text</p>
+                  <button type="button" class="tts-listen-btn" data-tts-play="ls-t2-article" data-tts-label="Text" aria-label="Metni sesli dinle" title="Sesli dinle"><i class="ti ti-volume"></i><span>Dinle</span></button>
+                </div>
+                <div class="interactive-card" style="padding: 16px; border-radius: var(--border-radius-lg); border-left: 3px solid var(--theme-purple); background: var(--color-background-secondary); border-top: 1px solid var(--color-border-primary); border-right: 1px solid var(--color-border-primary); border-bottom: 1px solid var(--color-border-primary);">
+                  <p id="leseverstehen-t2-article" data-tts-block="ls-t2-article" style="font-size: 13px; line-height: 1.6; margin: 0; color: var(--color-text-secondary); text-align: justify; white-space: pre-line;"></p>
+                </div>
               </div>
 
               <!-- Questions List -->
@@ -609,8 +640,11 @@
             <div id="leseverstehen-t3-container" class="hidden" style="display: flex; flex-direction: column; gap: 16px;">
               <!-- Situations List (11-20) -->
               <div style="display: flex; flex-direction: column; gap: 10px;">
-                <p class="ts" style="font-size: 11.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin: 0;">Situationen (11–20)</p>
-                <div id="leseverstehen-t3-situations-list" style="display: flex; flex-direction: column; gap: 8px;">
+                <div class="tts-section-header">
+                  <p class="ts" style="font-size: 11.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin: 0;">Situationen (11–20)</p>
+                  <button type="button" class="tts-listen-btn" data-tts-play="ls-t3-situations" data-tts-label="Situationen" aria-label="Durumları sesli dinle" title="Sesli dinle"><i class="ti ti-volume"></i><span>Dinle</span></button>
+                </div>
+                <div id="leseverstehen-t3-situations-list" data-tts-block="ls-t3-situations" style="display: flex; flex-direction: column; gap: 8px;">
                   <!-- Loaded dynamically -->
                 </div>
               </div>
@@ -1386,6 +1420,7 @@
 
   <script src="capacitor.js"></script>
   <script src="rive.js"></script>
-  <script src="app.js?v=32"></script>
+  <script src="tts.js?v=1"></script>
+  <script src="app.js?v=33"></script>
 </body>
 </html>

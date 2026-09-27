@@ -1639,6 +1639,10 @@ function showScreen(screenId) {
     cleanupLessonAnimations();
   }
   
+  if (screenId !== "leseverstehen-play") {
+    ReadAloud.stop();
+  }
+
   // Clear timers if navigating away from play screens
   if (screenId !== "leseverstehen-play" && leseverstehenTimerInterval) {
     clearInterval(leseverstehenTimerInterval);
@@ -3496,35 +3500,9 @@ let correctPrepQuizScore = 0;
 let currentPrepQuestionObj = {};
 let prapAnswered = false;
 
-// Web Speech Synthesis TTS Speaker helper
+// TTS speaker helper (see tts.js)
 function speakGerman(text) {
-  if ('speechSynthesis' in window) {
-    // Cancel ongoing speech
-    window.speechSynthesis.cancel();
-    
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'de-DE';
-    
-    // Try to select a German voice (Prefer Anna, then Enhanced/Premium, then any German voice)
-    const voices = window.speechSynthesis.getVoices();
-    let deVoice = voices.find(v => v.lang.startsWith('de') && v.name.toLowerCase().includes('anna'));
-    if (!deVoice) {
-      deVoice = voices.find(v => v.lang.startsWith('de') && (v.name.toLowerCase().includes('enhanced') || v.name.toLowerCase().includes('premium')));
-    }
-    if (!deVoice) {
-      deVoice = voices.find(v => v.lang.startsWith('de') || v.lang.includes('DE'));
-    }
-    
-    if (deVoice) {
-      utterance.voice = deVoice;
-    }
-    window.speechSynthesis.speak(utterance);
-  }
-}
-
-// Load voices once available (specifically for Chrome/mobile support)
-if ('speechSynthesis' in window) {
-  window.speechSynthesis.onvoiceschanged = () => {};
+  ReadAloud.speakOnce(text);
 }
 
 function startNewPrepQuiz() {
@@ -3932,6 +3910,7 @@ function startNewLeseverstehen(exerciseId) {
   activeLeseverstehenGame = ex;
   leseverstehenSubmitted = false;
   getLevelProgress().leseverstehenAnswers = {};
+  ReadAloud.stop();
   
   // Set play screen title
   const playTitle = document.getElementById("leseverstehen-play-title");
@@ -4016,7 +3995,7 @@ function renderLeseverstehenScreen() {
     // Render article text
     const articleEl = document.getElementById("leseverstehen-t2-article");
     if (articleEl) {
-      articleEl.textContent = exercise.text;
+      articleEl.innerHTML = ReadAloud.markup(exercise.text);
     }
     
     // Render questions list
@@ -4120,7 +4099,7 @@ function renderLeseverstehenScreen() {
         <div style="display:flex;align-items:flex-start;gap:8px;">
           <span class="bubble-row-num" style="width:22px;height:22px;font-size:10px;flex-shrink:0;margin-top:1px;">${qNum}</span>
           <div style="flex:1;">
-            <p style="margin:0;color:var(--color-text-secondary);">${desc}</p>
+            <p style="margin:0;color:var(--color-text-secondary);">${ReadAloud.markup(desc)}</p>
             ${userAns ? `<p style="margin:4px 0 0;font-size:11px;font-weight:600;color:var(--theme-purple);">Seçili: ${userAns.toUpperCase()}${userAns !== 'x' && exercise.ads[userAns] ? ' – ' + exercise.ads[userAns].title : ''}</p>` : ''}
             ${feedbackHtml}
           </div>
@@ -4136,13 +4115,15 @@ function renderLeseverstehenScreen() {
     Object.entries(exercise.ads).sort((a, b) => a[0].localeCompare(b[0])).forEach(([letter, ad]) => {
       const isUsed = Object.values(getLevelProgress().leseverstehenAnswers).includes(letter);
       const card = document.createElement("div");
-      card.style = `padding:12px;border-radius:var(--border-radius-md);border:1px solid var(--color-border-primary);background:var(--color-background-secondary);font-size:12px;line-height:1.5;position:relative;${isUsed && !leseverstehenSubmitted ? 'border-color:var(--theme-purple);opacity:0.7;' : ''}`;
+      card.dataset.ttsBlock = `ls-t3-ad-${letter}`;
+      card.style = `padding:12px;border-radius:var(--border-radius-md);border:1px solid var(--color-border-primary);background:var(--color-background-secondary);font-size:12px;line-height:1.5;position:relative;display:flex;flex-direction:column;${isUsed && !leseverstehenSubmitted ? 'border-color:var(--theme-purple);opacity:0.7;' : ''}`;
       card.innerHTML = `
         <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;">
           <span class="option-letter-circle" style="flex-shrink:0;">${letter}</span>
-          <span style="font-size:12px;font-weight:700;color:var(--color-text-primary);line-height:1.3;">${ad.title}</span>
+          <span style="font-size:12px;font-weight:700;color:var(--color-text-primary);line-height:1.3;">${ReadAloud.markup(ad.title)}</span>
         </div>
-        <p style="margin:0;color:var(--color-text-secondary);font-size:11px;line-height:1.5;">${ad.body}</p>
+        <p style="margin:0;color:var(--color-text-secondary);font-size:11px;line-height:1.5;">${ReadAloud.markup(ad.body)}</p>
+        <div style="display:flex;margin-top:auto;padding-top:8px;">${ReadAloud.buttonHtml(`ls-t3-ad-${letter}`, `Anzeige ${letter}`)}</div>
       `;
       adsGrid.appendChild(card);
     });
@@ -4159,7 +4140,7 @@ function renderLeseverstehenScreen() {
     Object.keys(exercise.headings).forEach(letter => {
       const card = document.createElement("div");
       card.className = "leseverstehen-heading-card";
-      card.innerHTML = `<span class="leseverstehen-heading-letter">${letter})</span><span>${exercise.headings[letter]}</span>`;
+      card.innerHTML = `<span class="leseverstehen-heading-letter">${letter})</span><span>${ReadAloud.markup(exercise.headings[letter])}</span>`;
       headingsList.appendChild(card);
     });
     
@@ -4189,8 +4170,9 @@ function renderLeseverstehenScreen() {
         <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">
           <span class="bubble-row-num" style="width:22px;height:22px;font-size:11px;">${text.id}</span>
           <span style="font-size:12.5px;font-weight:600;color:var(--color-text-primary);">Metin ${text.id}</span>
+          ${ReadAloud.buttonHtml(`ls-t1-text-${text.id}`, `Metin ${text.id}`)}
         </div>
-        <p style="font-size:12.5px;line-height:1.6;margin:0;color:var(--color-text-secondary);text-align:justify;">${text.content}</p>
+        <p data-tts-block="ls-t1-text-${text.id}" style="font-size:12.5px;line-height:1.6;margin:0;color:var(--color-text-secondary);text-align:justify;">${ReadAloud.markup(text.content)}</p>
         ${feedbackHtml}
       `;
       textsList.appendChild(card);
@@ -4199,6 +4181,9 @@ function renderLeseverstehenScreen() {
   
   // Render Answer Sheet (Antwortbogen)
   renderAnswersSheet();
+
+  // Re-apply the read-aloud highlight to the freshly rendered texts
+  ReadAloud.syncUi();
   
   // Setup Submit Button
   const submitBtn = document.getElementById("leseverstehen-submit-btn");
@@ -5446,26 +5431,7 @@ function renderVocabList() {
 }
 
 function speakGermanWord(word) {
-  if ('speechSynthesis' in window) {
-    window.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(word);
-    utterance.lang = 'de-DE';
-    
-    // Try to select a German voice (Prefer Anna, then Enhanced/Premium, then any German voice)
-    const voices = window.speechSynthesis.getVoices();
-    let deVoice = voices.find(v => v.lang.startsWith('de') && v.name.toLowerCase().includes('anna'));
-    if (!deVoice) {
-      deVoice = voices.find(v => v.lang.startsWith('de') && (v.name.toLowerCase().includes('enhanced') || v.name.toLowerCase().includes('premium')));
-    }
-    if (!deVoice) {
-      deVoice = voices.find(v => v.lang.startsWith('de') || v.lang.includes('DE'));
-    }
-    
-    if (deVoice) {
-      utterance.voice = deVoice;
-    }
-    window.speechSynthesis.speak(utterance);
-  }
+  ReadAloud.speakOnce(word);
 }
 
 let vocabStudyIndex = 0;
